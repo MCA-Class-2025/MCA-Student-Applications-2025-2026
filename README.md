@@ -18,6 +18,7 @@ Do NOT modify, delete, rename, or upload files into another
 student's folder.
 
 ## Required files
-
+- excel file before fusion
 - fused excel file 
-- Application
+- Application code
+- API documentation doc/pdf file 

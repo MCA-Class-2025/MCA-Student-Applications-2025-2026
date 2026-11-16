@@ -197,7 +197,7 @@ This application is an academic information and research tool only. It is **not*
 Place this project folder inside the class repository using the required naming format:
 
 ```text
-RollNumber_FullName/
+MC2515_TanveeDesai
 ```
 
 Include the required files in that folder:

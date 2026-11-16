@@ -1,4 +1,4 @@
-# 🛡️ SecureSense AI
+# 🛡️ SecureSense AI - LLM & RAG-Based PDF Question Answering	
 ### ML-Based Threat Detection & RAG-Powered Cybersecurity Assistant
 
 SecureSense AI is an AI-powered cybersecurity application that combines **Machine Learning** and **Large Language Models (LLMs)** to detect network anomalies and provide intelligent cybersecurity assistance through **Retrieval-Augmented Generation (RAG)**.
@@ -10,6 +10,27 @@ This project extends the research work:
 by integrating a Retrieval-Augmented Generation (RAG) pipeline with a Large Language Model to create an interactive cybersecurity knowledge assistant.
 
 ---
+
+**Live Demo:** 🌐 https://securesense-ai.streamlit.app
+
+<img width="1277" height="533" alt="image" src="https://github.com/user-attachments/assets/c2fd871f-bc5d-4aed-af68-7450f53f7f3f" />
+
+<img width="1279" height="549" alt="image" src="https://github.com/user-attachments/assets/0fd2fe95-c90c-44bd-998b-af7342a71f0b" />
+
+<img width="1271" height="505" alt="image" src="https://github.com/user-attachments/assets/170de4d3-76f0-4991-88b6-1e19fbe0e367" />
+
+<img width="1279" height="553" alt="image" src="https://github.com/user-attachments/assets/eeac7f22-6677-49da-952d-2a88d5dee2ec" />
+
+<img width="1279" height="558" alt="image" src="https://github.com/user-attachments/assets/1669252f-dfe7-4a4d-a242-18bcd33e222a" />
+
+
+
+
+
+
+
+
+
 
 # 🚀 Features
 
@@ -364,31 +385,3 @@ Suggested screenshots:
 
 ---
 
-# 📄 Research Work
-
-This project extends the research:
-
-**ML-Based Anomaly Detection for Zero Trust Network Access (ZTNA)**
-
-The original research focuses on Machine Learning-based anomaly detection.
-
-This application extends that work by integrating:
-
-- Retrieval-Augmented Generation (RAG)
-- Large Language Models
-- Cybersecurity Knowledge Base
-- Interactive Threat Analysis Assistant
-
----
-
-# 👨‍💻 Author
-
-**Asmi Raut**
-
-Master of Computer Applications (MCA)
-
----
-
-# 📜 License
-
-This project is developed for academic and educational purposes.

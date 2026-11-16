@@ -1,0 +1,45 @@
+Check,Column,Issue Count,Details
+Dataset structure,ALL,5000,5000 rows and 31 columns
+Duplicate complete rows,ALL,0,Rows identical across all columns
+Missing cells,ALL,72388,46.70% of all cells are missing
+Missing original columns,ALL,0,All original columns are present
+Missing values,AbuseIPDB Error,4998,99.96% of rows are missing
+Missing values,AbuseIPDB Last Reported At,4975,99.5% of rows are missing
+Missing values,IPinfo Hostname,4694,93.88% of rows are missing
+Missing values,IPinfo Organization,4233,84.66% of rows are missing
+Missing values,AbuseIPDB Usage Type,4224,84.48% of rows are missing
+Missing values,IPinfo Postal,4135,82.7% of rows are missing
+Missing values,AbuseIPDB Domain,4114,82.28% of rows are missing
+Missing values,AbuseIPDB ISP,4107,82.14% of rows are missing
+Missing values,AbuseIPDB Abuse Confidence Score,4102,82.04% of rows are missing
+Missing values,AbuseIPDB Total Reports,4102,82.04% of rows are missing
+Missing values,AbuseIPDB Is Whitelisted,4102,82.04% of rows are missing
+Missing values,AbuseIPDB Country Code,4102,82.04% of rows are missing
+Missing values,IPinfo City,4100,82.0% of rows are missing
+Missing values,IPinfo Region,4100,82.0% of rows are missing
+Missing values,IPinfo Location,4100,82.0% of rows are missing
+Missing values,IPinfo Timezone,4100,82.0% of rows are missing
+Missing values,IPinfo Country,4100,82.0% of rows are missing
+Invalid IP address format,ip_address,0,Non-empty values that are not valid IPv4 or IPv6 addresses
+Repeated authentication IP addresses,ip_address,0,Repeated IP values; these may be legitimate and need context
+Unexpected category values,success,0,All observed values match expected categories
+Unexpected category values,blocked,0,All observed values match expected categories
+Unexpected category values,suspicious_activity,0,All observed values match expected categories
+Unexpected category values,account_status,0,All observed values match expected categories
+Non-numeric values in numeric field,failed_attempts,0,Non-empty values that could not be parsed as numbers
+Out-of-range numeric values,failed_attempts,0,"Expected minimum=0, maximum=None"
+Non-numeric values in numeric field,session_duration,0,Non-empty values that could not be parsed as numbers
+Out-of-range numeric values,session_duration,0,"Expected minimum=0, maximum=3600"
+Non-numeric values in numeric field,privilege_level,0,Non-empty values that could not be parsed as numbers
+Out-of-range numeric values,privilege_level,0,"Expected minimum=1, maximum=5"
+Non-numeric values in numeric field,AbuseIPDB Abuse Confidence Score,0,Non-empty values that could not be parsed as numbers
+Out-of-range numeric values,AbuseIPDB Abuse Confidence Score,0,"Expected minimum=0, maximum=100"
+Non-numeric values in numeric field,AbuseIPDB Total Reports,0,Non-empty values that could not be parsed as numbers
+Out-of-range numeric values,AbuseIPDB Total Reports,0,"Expected minimum=0, maximum=None"
+Fusion match status,API_Match_Status,4100,No API match: 82.0%
+Fusion match status,API_Match_Status,900,Matched: 18.0%
+Potential IQR outliers,failed_attempts,0,Flagged for review only; values have not been removed
+Potential IQR outliers,session_duration,0,Flagged for review only; values have not been removed
+Potential IQR outliers,privilege_level,0,Flagged for review only; values have not been removed
+Potential IQR outliers,AbuseIPDB Abuse Confidence Score,0,Flagged for review only; values have not been removed
+Potential IQR outliers,AbuseIPDB Total Reports,5,Flagged for review only; values have not been removed

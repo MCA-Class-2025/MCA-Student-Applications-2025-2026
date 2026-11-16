@@ -13,24 +13,25 @@ by integrating a Retrieval-Augmented Generation (RAG) pipeline with a Large Lang
 
 **Live Demo:** 🌐 https://securesense-ai.streamlit.app
 
+
+## 🖥Streamlit Interface
+
+
+- Dashboard
 <img width="1277" height="533" alt="image" src="https://github.com/user-attachments/assets/c2fd871f-bc5d-4aed-af68-7450f53f7f3f" />
 
+- Threat Detection
 <img width="1279" height="549" alt="image" src="https://github.com/user-attachments/assets/0fd2fe95-c90c-44bd-998b-af7342a71f0b" />
 
+- Threat Analysis Assistant
 <img width="1271" height="505" alt="image" src="https://github.com/user-attachments/assets/170de4d3-76f0-4991-88b6-1e19fbe0e367" />
 
+- Knowledge Base
 <img width="1279" height="553" alt="image" src="https://github.com/user-attachments/assets/eeac7f22-6677-49da-952d-2a88d5dee2ec" />
 
 <img width="1279" height="558" alt="image" src="https://github.com/user-attachments/assets/1669252f-dfe7-4a4d-a242-18bcd33e222a" />
 
-
-
-
-
-
-
-
-
+---
 
 # 🚀 Features
 
@@ -75,16 +76,6 @@ Administrator Features
 
 ---
 
-## 🖥 Professional Streamlit Interface
-
-- Dashboard
-- Threat Detection
-- Threat Analysis Assistant
-- Knowledge Base
-- Research Assistant
-- About Page
-
----
 
 # 🏗 System Architecture
 

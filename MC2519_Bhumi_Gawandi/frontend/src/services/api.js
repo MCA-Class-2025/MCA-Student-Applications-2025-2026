@@ -1,0 +1,107 @@
+import axios from "axios";
+
+import {
+  API_BASE_URL
+} from "../utils/constants";
+
+
+// ============================================================
+// AXIOS INSTANCE
+// ============================================================
+
+const api = axios.create({
+
+  baseURL:
+    API_BASE_URL,
+
+  headers: {
+
+    "Content-Type":
+      "application/json",
+
+  },
+
+});
+
+
+// ============================================================
+// REQUEST INTERCEPTOR
+// ============================================================
+
+api.interceptors.request.use(
+
+  (config) => {
+
+    const token =
+      localStorage.getItem(
+        "access_token"
+      ) ||
+      localStorage.getItem(
+        "token"
+      ) ||
+      localStorage.getItem(
+        "accessToken"
+      );
+
+
+    if (token) {
+
+      config.headers =
+        config.headers || {};
+
+
+      config.headers.Authorization =
+        `Bearer ${token}`;
+
+    }
+
+
+    return config;
+
+  },
+
+  (error) => {
+
+    return Promise.reject(
+      error
+    );
+
+  }
+
+);
+
+
+// ============================================================
+// RESPONSE INTERCEPTOR
+// ============================================================
+
+api.interceptors.response.use(
+
+  (response) => {
+
+    return response;
+
+  },
+
+  (error) => {
+
+    console.error(
+
+      "API ERROR:",
+
+      error.response?.data ||
+      error.message
+
+    );
+
+
+    return Promise.reject(
+      error
+    );
+
+  }
+
+);
+
+
+export default api;

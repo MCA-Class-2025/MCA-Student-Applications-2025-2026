@@ -1,0 +1,872 @@
+/* ============================================================
+   SPENDSMART VOICE ENTRY
+============================================================ */
+
+.voice-dashboard-layout {
+  width: 100%;
+  min-height: 100vh;
+
+  background: #F6F4EE;
+
+  overflow-x: hidden;
+}
+
+
+/* ============================================================
+   SIDEBAR
+============================================================ */
+
+.voice-sidebar {
+  position: fixed;
+
+  top: 0;
+  left: 0;
+  bottom: 0;
+
+  width: 280px;
+  height: 100vh;
+
+  background: #12172B;
+
+  z-index: 100;
+
+  overflow: hidden !important;
+
+  scrollbar-width: none !important;
+  -ms-overflow-style: none !important;
+}
+
+.voice-sidebar::-webkit-scrollbar {
+  width: 0 !important;
+  height: 0 !important;
+
+  display: none !important;
+}
+
+.voice-sidebar::-webkit-scrollbar-track,
+.voice-sidebar::-webkit-scrollbar-thumb,
+.voice-sidebar::-webkit-scrollbar-button {
+  display: none !important;
+}
+
+.voice-sidebar > * {
+  width: 100% !important;
+  max-width: 100% !important;
+
+  height: 100% !important;
+
+  box-sizing: border-box;
+
+  overflow: hidden !important;
+
+  scrollbar-width: none !important;
+  -ms-overflow-style: none !important;
+}
+
+.voice-sidebar *,
+.voice-sidebar *::before,
+.voice-sidebar *::after {
+  scrollbar-width: none !important;
+  -ms-overflow-style: none !important;
+}
+
+.voice-sidebar *::-webkit-scrollbar {
+  width: 0 !important;
+  height: 0 !important;
+
+  display: none !important;
+}
+
+
+/* ============================================================
+   MAIN
+============================================================ */
+
+.voice-dashboard-main {
+  width: calc(100% - 280px);
+
+  min-height: 100vh;
+
+  margin-left: 280px;
+
+  background: #F6F4EE;
+
+  position: relative;
+
+  overflow-x: clip;
+
+  overflow-y: visible;
+
+  z-index: 1;
+}
+
+
+/* ============================================================
+   NAVBAR
+   IMPORTANT: PROFILE DROPDOWN MUST BE VISIBLE
+============================================================ */
+
+.voice-navbar-wrapper {
+  width: 100%;
+
+  height: 76px;
+
+  background: #12172B;
+
+  border-bottom: 1px solid #232838;
+
+  display: flex;
+
+  align-items: center;
+
+  box-sizing: border-box;
+
+  position: relative;
+
+  overflow: visible !important;
+
+  z-index: 1000;
+}
+
+
+/* ============================================================
+   PAGE
+============================================================ */
+
+.voice-page {
+  width: 100%;
+
+  min-height: calc(100vh - 76px);
+
+  padding: 28px 30px 40px;
+
+  box-sizing: border-box;
+
+  background: #F6F4EE;
+
+  overflow-x: hidden;
+}
+
+
+/* ============================================================
+   HEADER
+============================================================ */
+
+.voice-header {
+  display: flex;
+
+  align-items: center;
+
+  gap: 13px;
+
+  margin-bottom: 22px;
+}
+
+.voice-title-icon {
+  width: 48px;
+  height: 48px;
+
+  flex-shrink: 0;
+
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 14px;
+
+  background: #EAF5F1;
+
+  color: #1F6F5C;
+
+  border: 1px solid #D2E9E2;
+}
+
+.voice-header h1 {
+  margin: 0;
+
+  color: #12172B;
+
+  font-family: "Fraunces", serif;
+
+  font-size: 30px;
+
+  font-weight: 500;
+
+  line-height: 1.15;
+}
+
+.voice-header p {
+  margin: 5px 0 0;
+
+  color: #77776F;
+
+  font-family: "Manrope", sans-serif;
+
+  font-size: 12px;
+}
+
+
+/* ============================================================
+   WARNING
+============================================================ */
+
+.voice-warning {
+  width: 100%;
+
+  margin-bottom: 18px;
+
+  padding: 11px 14px;
+
+  box-sizing: border-box;
+
+  border-radius: 9px;
+
+  background: #FFF7E6;
+
+  border: 1px solid #F1DFB4;
+
+  color: #856404;
+
+  font-family: "Manrope", sans-serif;
+
+  font-size: 10px;
+
+  line-height: 1.5;
+}
+
+
+/* ============================================================
+   GRID
+============================================================ */
+
+.voice-grid {
+  width: 100%;
+
+  display: grid;
+
+  grid-template-columns:
+    minmax(0, 1fr)
+    minmax(0, 1fr);
+
+  gap: 18px;
+
+  align-items: stretch;
+}
+
+
+/* ============================================================
+   CARD
+============================================================ */
+
+.voice-card {
+  min-width: 0;
+
+  background: #FFFFFF;
+
+  border: 1px solid #DEDCD2;
+
+  border-radius: 16px;
+
+  padding: 20px;
+
+  box-sizing: border-box;
+
+  box-shadow:
+    0 3px 12px rgba(18, 23, 43, 0.045);
+}
+
+
+/* ============================================================
+   CARD HEADING
+============================================================ */
+
+.voice-card-heading {
+  min-height: 44px;
+
+  display: flex;
+
+  align-items: center;
+
+  justify-content: space-between;
+
+  gap: 15px;
+
+  margin-bottom: 15px;
+}
+
+.voice-card-heading h2 {
+  margin: 0;
+
+  color: #12172B;
+
+  font-family: "Manrope", sans-serif;
+
+  font-size: 15px;
+
+  font-weight: 700;
+}
+
+.voice-card-heading p {
+  margin: 4px 0 0;
+
+  color: #8A8C86;
+
+  font-size: 10px;
+
+  line-height: 1.4;
+}
+
+
+/* ============================================================
+   RECORDER
+============================================================ */
+
+.voice-recorder {
+  width: 100%;
+
+  min-height: 300px;
+
+  border-radius: 14px;
+
+  background: #F9FBFA;
+
+  border: 1px solid #E0ECE8;
+
+  display: flex;
+
+  flex-direction: column;
+
+  align-items: center;
+
+  justify-content: center;
+
+  text-align: center;
+
+  box-sizing: border-box;
+}
+
+
+/* ============================================================
+   MICROPHONE
+============================================================ */
+
+.voice-mic-button {
+  width: 100px;
+  height: 100px;
+
+  border: none;
+
+  border-radius: 50%;
+
+  background: #1F6F5C;
+
+  color: #FFFFFF;
+
+  display: flex;
+
+  align-items: center;
+
+  justify-content: center;
+
+  cursor: pointer;
+
+  transition: 0.2s ease;
+
+  box-shadow:
+    0 10px 25px rgba(31, 111, 92, 0.20);
+}
+
+.voice-mic-button:hover:not(:disabled) {
+  background: #185A4A;
+
+  transform: scale(1.03);
+}
+
+.voice-mic-button.listening {
+  background: #B94040;
+
+  animation: voicePulse 1.2s infinite;
+}
+
+.voice-mic-button:disabled {
+  opacity: 0.5;
+
+  cursor: not-allowed;
+}
+
+@keyframes voicePulse {
+
+  0% {
+    box-shadow:
+      0 0 0 0
+      rgba(185, 64, 64, 0.35);
+  }
+
+  70% {
+    box-shadow:
+      0 0 0 20px
+      rgba(185, 64, 64, 0);
+  }
+
+  100% {
+    box-shadow:
+      0 0 0 0
+      rgba(185, 64, 64, 0);
+  }
+}
+
+
+/* ============================================================
+   RECORDER TEXT
+============================================================ */
+
+.voice-recorder h3 {
+  margin: 18px 0 5px;
+
+  color: #30352F;
+
+  font-family: "Manrope", sans-serif;
+
+  font-size: 14px;
+
+  font-weight: 700;
+}
+
+.voice-recorder p {
+  margin: 0;
+
+  color: #969A94;
+
+  font-family: "Manrope", sans-serif;
+
+  font-size: 10px;
+}
+
+
+/* ============================================================
+   TRANSCRIPT
+============================================================ */
+
+.transcript-box {
+  margin-top: 15px;
+}
+
+.transcript-box label {
+  display: block;
+
+  margin-bottom: 6px;
+
+  color: #536174;
+
+  font-family: "Manrope", sans-serif;
+
+  font-size: 10px;
+
+  font-weight: 700;
+}
+
+.transcript-box textarea {
+  width: 100%;
+
+  min-height: 92px;
+
+  box-sizing: border-box;
+
+  resize: vertical;
+
+  border: 1px solid #D9E2DF;
+
+  border-radius: 9px;
+
+  padding: 10px;
+
+  outline: none;
+
+  color: #30352F;
+
+  background: #FFFFFF;
+
+  font-family: "Manrope", sans-serif;
+
+  font-size: 10px;
+
+  line-height: 1.5;
+}
+
+.transcript-box textarea:focus {
+  border-color: #1F6F5C;
+
+  box-shadow:
+    0 0 0 3px
+    rgba(31, 111, 92, 0.08);
+}
+
+
+/* ============================================================
+   ACTIONS
+============================================================ */
+
+.voice-actions {
+  display: flex;
+
+  gap: 9px;
+
+  margin-top: 12px;
+}
+
+.understand-button {
+  flex: 1;
+
+  height: 43px;
+
+  border: none;
+
+  border-radius: 9px;
+
+  background: #1F6F5C;
+
+  color: #FFFFFF;
+
+  font-family: "Manrope", sans-serif;
+
+  font-size: 11px;
+
+  font-weight: 700;
+
+  cursor: pointer;
+
+  transition: 0.2s ease;
+}
+
+.understand-button:hover:not(:disabled) {
+  background: #185A4A;
+}
+
+.understand-button:disabled {
+  opacity: 0.5;
+
+  cursor: not-allowed;
+}
+
+.reset-voice-button {
+  height: 43px;
+
+  padding: 0 15px;
+
+  border: 1px solid #D7E2DF;
+
+  border-radius: 9px;
+
+  background: #FFFFFF;
+
+  color: #536174;
+
+  display: flex;
+
+  align-items: center;
+
+  justify-content: center;
+
+  gap: 6px;
+
+  font-family: "Manrope", sans-serif;
+
+  font-size: 10px;
+
+  font-weight: 600;
+
+  cursor: pointer;
+
+  transition: 0.2s ease;
+}
+
+.reset-voice-button:hover {
+  border-color: #1F6F5C;
+
+  color: #1F6F5C;
+
+  background: #F4FAF8;
+}
+
+
+/* ============================================================
+   EMPTY
+============================================================ */
+
+.voice-empty {
+  min-height: 470px;
+
+  display: flex;
+
+  flex-direction: column;
+
+  align-items: center;
+
+  justify-content: center;
+
+  text-align: center;
+
+  color: #A0A9B8;
+}
+
+.voice-empty h3 {
+  margin: 13px 0 5px;
+
+  color: #3A455A;
+
+  font-family: "Manrope", sans-serif;
+
+  font-size: 14px;
+
+  font-weight: 700;
+}
+
+.voice-empty p {
+  max-width: 270px;
+
+  margin: 0;
+
+  color: #929AAA;
+
+  font-family: "Manrope", sans-serif;
+
+  font-size: 10px;
+
+  line-height: 1.5;
+}
+
+
+/* ============================================================
+   RESULT
+============================================================ */
+
+.voice-result {
+  display: flex;
+
+  flex-direction: column;
+
+  gap: 9px;
+}
+
+.voice-field {
+  width: 100%;
+
+  min-height: 53px;
+
+  display: flex;
+
+  align-items: center;
+
+  gap: 10px;
+
+  padding: 8px 10px;
+
+  box-sizing: border-box;
+
+  border: 1px solid #E0E7E5;
+
+  border-radius: 9px;
+
+  background: #FCFDFC;
+
+  color: #1F6F5C;
+}
+
+.voice-field > div {
+  flex: 1;
+
+  min-width: 0;
+}
+
+.voice-field > svg {
+  flex-shrink: 0;
+}
+
+.voice-field label {
+  display: block;
+
+  margin-bottom: 4px;
+
+  color: #7E899B;
+
+  font-family: "Manrope", sans-serif;
+
+  font-size: 9px;
+
+  font-weight: 700;
+}
+
+
+/* ============================================================
+   INPUTS
+============================================================ */
+
+.voice-field input,
+.voice-field select {
+  width: 100%;
+
+  height: 32px;
+
+  box-sizing: border-box;
+
+  border: 1px solid #D9E2DF;
+
+  border-radius: 7px;
+
+  padding: 0 8px;
+
+  outline: none;
+
+  background: #FFFFFF;
+
+  color: #30352F;
+
+  font-family: "Manrope", sans-serif;
+
+  font-size: 10px;
+}
+
+.voice-field input:focus,
+.voice-field select:focus {
+  border-color: #1F6F5C;
+
+  box-shadow:
+    0 0 0 3px
+    rgba(31, 111, 92, 0.08);
+}
+
+
+/* ============================================================
+   SAVE
+============================================================ */
+
+.save-voice-button {
+  width: 100%;
+
+  height: 43px;
+
+  margin-top: 3px;
+
+  border: none;
+
+  border-radius: 9px;
+
+  background: #1F6F5C;
+
+  color: #FFFFFF;
+
+  display: flex;
+
+  align-items: center;
+
+  justify-content: center;
+
+  gap: 7px;
+
+  font-family: "Manrope", sans-serif;
+
+  font-size: 11px;
+
+  font-weight: 700;
+
+  cursor: pointer;
+
+  transition: 0.2s ease;
+}
+
+.save-voice-button:hover:not(:disabled) {
+  background: #185A4A;
+}
+
+.save-voice-button:disabled {
+  opacity: 0.5;
+
+  cursor: not-allowed;
+}
+
+
+/* ============================================================
+   HIDE SCROLLBARS
+============================================================ */
+
+.voice-dashboard-layout,
+.voice-sidebar,
+.voice-dashboard-main,
+.voice-page {
+  scrollbar-width: none !important;
+
+  -ms-overflow-style: none !important;
+}
+
+.voice-dashboard-layout::-webkit-scrollbar,
+.voice-sidebar::-webkit-scrollbar,
+.voice-dashboard-main::-webkit-scrollbar,
+.voice-page::-webkit-scrollbar {
+  width: 0 !important;
+
+  height: 0 !important;
+
+  display: none !important;
+}
+
+
+/* ============================================================
+   RESPONSIVE
+============================================================ */
+
+@media (max-width: 1050px) {
+
+  .voice-grid {
+    grid-template-columns: 1fr;
+  }
+
+}
+
+@media (max-width: 900px) {
+
+  .voice-sidebar {
+    display: none;
+  }
+
+  .voice-dashboard-main {
+    width: 100%;
+
+    margin-left: 0;
+  }
+
+  .voice-page {
+    padding: 24px 20px 35px;
+  }
+
+}
+
+@media (max-width: 600px) {
+
+  .voice-page {
+    padding: 18px 12px 30px;
+  }
+
+  .voice-card {
+    padding: 15px;
+  }
+
+  .voice-actions {
+    flex-direction: column;
+  }
+
+  .voice-header h1 {
+    font-size: 26px;
+  }
+
+  .voice-title-icon {
+    width: 43px;
+
+    height: 43px;
+  }
+
+  .voice-recorder {
+    min-height: 270px;
+  }
+
+}

@@ -1,0 +1,1162 @@
+/* ============================================================
+   SPENDSMART PROFILE
+   SAME COLORS AS DASHBOARD
+============================================================ */
+
+:root {
+  --profile-bg: #F6F4EE;
+
+  --profile-navy: #12172B;
+
+  --profile-green: #1F6F5C;
+
+  --profile-green-dark: #185A4A;
+
+  --profile-green-light: #E8F3EF;
+
+  --profile-green-border: #CCEAE2;
+
+  --profile-white: #FFFFFF;
+
+  --profile-heading: #12172B;
+
+  --profile-text: #1E293B;
+
+  --profile-secondary: #7D879A;
+
+  --profile-light-text: #94A3B8;
+
+  --profile-border: #DDD9CF;
+
+  --profile-input: #FAF9F5;
+}
+
+
+/* ============================================================
+   MAIN PAGE
+============================================================ */
+
+.profile-layout {
+  width: 100%;
+
+  min-height: 100vh;
+
+  background: var(--profile-bg);
+
+  overflow-x: hidden;
+}
+
+
+/* ============================================================
+   SIDEBAR
+============================================================ */
+
+.profile-sidebar {
+  position: fixed;
+
+  top: 0;
+  left: 0;
+  bottom: 0;
+
+  width: 280px;
+
+  height: 100vh;
+
+  background: var(--profile-navy);
+
+  z-index: 100;
+
+  overflow: hidden !important;
+
+  scrollbar-width: none;
+
+  -ms-overflow-style: none;
+}
+
+.profile-sidebar::-webkit-scrollbar {
+  display: none;
+
+  width: 0;
+
+  height: 0;
+}
+
+.profile-sidebar * {
+  scrollbar-width: none;
+
+  -ms-overflow-style: none;
+}
+
+.profile-sidebar *::-webkit-scrollbar {
+  display: none;
+
+  width: 0;
+
+  height: 0;
+}
+
+
+/* ============================================================
+   MAIN AREA
+============================================================ */
+
+.profile-main {
+  width: calc(100% - 280px);
+
+  min-height: 100vh;
+
+  margin-left: 280px;
+
+  background: var(--profile-bg);
+
+  position: relative;
+
+  overflow-x: clip;
+}
+
+
+/* ============================================================
+   NAVBAR
+============================================================ */
+
+.profile-navbar-wrapper {
+  width: 100%;
+
+  height: 76px;
+
+  background: var(--profile-navy);
+
+  border-bottom: 1px solid #252B40;
+
+  position: relative;
+
+  z-index: 1000;
+
+  display: flex;
+
+  align-items: center;
+
+  overflow: visible !important;
+}
+
+.profile-navbar-wrapper > * {
+  width: 100%;
+
+  position: relative;
+
+  z-index: 1001;
+
+  overflow: visible !important;
+}
+
+
+/* ============================================================
+   CONTENT
+============================================================ */
+
+.profile-content {
+  width: 100%;
+
+  min-height: calc(100vh - 76px);
+
+  padding: 38px 40px 50px;
+
+  box-sizing: border-box;
+
+  background: var(--profile-bg);
+
+  overflow-x: hidden;
+
+  scrollbar-width: none;
+
+  -ms-overflow-style: none;
+}
+
+.profile-content::-webkit-scrollbar {
+  display: none;
+
+  width: 0;
+
+  height: 0;
+}
+
+
+/* ============================================================
+   PAGE HEADING
+============================================================ */
+
+.profile-page-heading {
+  margin-bottom: 30px;
+}
+
+.profile-heading-label {
+  display: flex;
+
+  align-items: center;
+
+  gap: 9px;
+
+  color: var(--profile-green);
+
+  font-family: "Poppins", sans-serif;
+
+  font-size: 12px;
+
+  font-weight: 600;
+
+  letter-spacing: 1.4px;
+
+  text-transform: uppercase;
+}
+
+.profile-heading-dot {
+  width: 8px;
+
+  height: 8px;
+
+  background: var(--profile-green);
+
+  border-radius: 50%;
+
+  flex-shrink: 0;
+}
+
+.profile-page-heading h1 {
+  margin: 10px 0 7px;
+
+  color: var(--profile-heading);
+
+  font-family: Georgia, "Times New Roman", serif;
+
+  font-size: 43px;
+
+  font-weight: 700;
+
+  line-height: 1.12;
+}
+
+.profile-page-heading p {
+  margin: 0;
+
+  color: var(--profile-secondary);
+
+  font-family: "Poppins", sans-serif;
+
+  font-size: 14px;
+}
+
+
+/* ============================================================
+   PROFILE GRID
+============================================================ */
+
+.profile-container {
+  width: 100%;
+
+  display: grid;
+
+  grid-template-columns:
+    285px
+    minmax(0, 1fr);
+
+  gap: 22px;
+
+  align-items: start;
+}
+
+
+/* ============================================================
+   SUMMARY CARD
+============================================================ */
+
+.profile-summary-card {
+  width: 100%;
+
+  padding: 30px 24px;
+
+  box-sizing: border-box;
+
+  background: var(--profile-white);
+
+  border: 1px solid var(--profile-border);
+
+  border-radius: 17px;
+
+  box-shadow:
+    0 4px 16px rgba(18, 23, 43, 0.045);
+
+  display: flex;
+
+  flex-direction: column;
+
+  align-items: center;
+
+  text-align: center;
+}
+
+
+/* ============================================================
+   AVATAR
+============================================================ */
+
+.profile-avatar {
+  width: 100px;
+
+  height: 100px;
+
+  border-radius: 50%;
+
+  background: var(--profile-green-light);
+
+  border: 1px solid var(--profile-green-border);
+
+  display: flex;
+
+  align-items: center;
+
+  justify-content: center;
+
+  color: var(--profile-green);
+
+  flex-shrink: 0;
+}
+
+.profile-avatar span {
+  font-family: "Poppins", sans-serif;
+
+  font-size: 36px;
+
+  font-weight: 700;
+}
+
+
+/* ============================================================
+   NAME
+============================================================ */
+
+.profile-summary-card h2 {
+  margin: 18px 0 0;
+
+  color: var(--profile-heading);
+
+  font-family: "Poppins", sans-serif;
+
+  font-size: 19px;
+
+  font-weight: 600;
+
+  line-height: 1.4;
+
+  word-break: break-word;
+}
+
+
+/* ============================================================
+   EMAIL
+============================================================ */
+
+.profile-summary-email {
+  width: 100%;
+
+  margin: 5px 0 0;
+
+  color: var(--profile-secondary);
+
+  font-family: "Poppins", sans-serif;
+
+  font-size: 11px;
+
+  line-height: 1.5;
+
+  word-break: break-word;
+}
+
+
+/* ============================================================
+   ACCOUNT LINE
+============================================================ */
+
+.profile-account-line {
+  width: 100%;
+
+  margin-top: 22px;
+
+  padding-top: 17px;
+
+  border-top: 1px solid var(--profile-border);
+
+  display: flex;
+
+  align-items: center;
+
+  justify-content: center;
+
+  gap: 7px;
+
+  color: var(--profile-green);
+
+  font-family: "Poppins", sans-serif;
+
+  font-size: 10px;
+
+  font-weight: 500;
+}
+
+
+/* ============================================================
+   STATUS
+============================================================ */
+
+.profile-status {
+  margin-top: 18px;
+
+  padding: 7px 12px;
+
+  border-radius: 20px;
+
+  background: var(--profile-green-light);
+
+  color: var(--profile-green);
+
+  display: flex;
+
+  align-items: center;
+
+  gap: 6px;
+
+  font-family: "Poppins", sans-serif;
+
+  font-size: 9px;
+
+  font-weight: 600;
+}
+
+.status-dot {
+  width: 6px;
+
+  height: 6px;
+
+  background: var(--profile-green);
+
+  border-radius: 50%;
+}
+
+
+/* ============================================================
+   DETAILS CARD
+============================================================ */
+
+.profile-details-card {
+  width: 100%;
+
+  min-width: 0;
+
+  padding: 28px;
+
+  box-sizing: border-box;
+
+  background: var(--profile-white);
+
+  border: 1px solid var(--profile-border);
+
+  border-radius: 17px;
+
+  box-shadow:
+    0 4px 16px rgba(18, 23, 43, 0.045);
+}
+
+
+/* ============================================================
+   DETAILS HEADER
+============================================================ */
+
+.profile-details-header {
+  display: flex;
+
+  align-items: center;
+
+  justify-content: space-between;
+
+  gap: 15px;
+
+  margin-bottom: 25px;
+
+  padding-bottom: 20px;
+
+  border-bottom: 1px solid var(--profile-border);
+}
+
+.details-small-title {
+  margin-bottom: 5px;
+
+  color: var(--profile-green);
+
+  font-family: "Poppins", sans-serif;
+
+  font-size: 9px;
+
+  font-weight: 600;
+
+  letter-spacing: 1.1px;
+}
+
+.profile-details-header h2 {
+  margin: 0;
+
+  color: var(--profile-heading);
+
+  font-family: "Poppins", sans-serif;
+
+  font-size: 18px;
+
+  font-weight: 600;
+}
+
+.profile-details-header p {
+  margin: 4px 0 0;
+
+  color: var(--profile-secondary);
+
+  font-family: "Poppins", sans-serif;
+
+  font-size: 10px;
+}
+
+
+/* ============================================================
+   EDIT BUTTON
+============================================================ */
+
+.profile-edit-btn {
+  height: 40px;
+
+  padding: 0 16px;
+
+  border: none;
+
+  border-radius: 10px;
+
+  background: var(--profile-green);
+
+  color: var(--profile-white);
+
+  display: flex;
+
+  align-items: center;
+
+  justify-content: center;
+
+  gap: 7px;
+
+  font-family: "Poppins", sans-serif;
+
+  font-size: 10px;
+
+  font-weight: 600;
+
+  cursor: pointer;
+
+  transition: 0.2s ease;
+
+  flex-shrink: 0;
+}
+
+.profile-edit-btn:hover {
+  background: var(--profile-green-dark);
+}
+
+
+/* ============================================================
+   FORM
+============================================================ */
+
+.profile-form {
+  width: 100%;
+
+  display: grid;
+
+  grid-template-columns:
+    repeat(2, minmax(0, 1fr));
+
+  gap: 18px;
+}
+
+.profile-form-group {
+  width: 100%;
+
+  min-width: 0;
+}
+
+
+/* ============================================================
+   LABEL
+============================================================ */
+
+.profile-form-group label {
+  display: block;
+
+  margin-bottom: 7px;
+
+  color: var(--profile-secondary);
+
+  font-family: "Poppins", sans-serif;
+
+  font-size: 10px;
+
+  font-weight: 600;
+}
+
+.profile-form-group small {
+  display: block;
+
+  margin-top: 5px;
+
+  color: var(--profile-light-text);
+
+  font-family: "Poppins", sans-serif;
+
+  font-size: 8px;
+}
+
+
+/* ============================================================
+   INPUT WRAPPER
+============================================================ */
+
+.profile-input-wrapper {
+  width: 100%;
+
+  height: 44px;
+
+  display: flex;
+
+  align-items: center;
+
+  gap: 10px;
+
+  padding: 0 13px;
+
+  box-sizing: border-box;
+
+  background: var(--profile-input);
+
+  border: 1px solid var(--profile-border);
+
+  border-radius: 10px;
+
+  color: var(--profile-secondary);
+
+  transition: 0.2s ease;
+}
+
+
+/* ============================================================
+   INPUT
+============================================================ */
+
+.profile-input-wrapper input {
+  width: 100%;
+
+  height: 100%;
+
+  min-width: 0;
+
+  border: none;
+
+  outline: none;
+
+  background: transparent;
+
+  color: var(--profile-text);
+
+  font-family: "Poppins", sans-serif;
+
+  font-size: 11px;
+}
+
+.profile-input-wrapper input::placeholder {
+  color: #A5ACB6;
+}
+
+
+/* ============================================================
+   DISABLED
+============================================================ */
+
+.profile-input-wrapper input:disabled {
+  color: var(--profile-secondary);
+
+  cursor: not-allowed;
+
+  opacity: 1;
+}
+
+
+/* ============================================================
+   FOCUS
+============================================================ */
+
+.profile-input-wrapper:focus-within {
+  background: var(--profile-white);
+
+  border-color: var(--profile-green);
+
+  box-shadow:
+    0 0 0 3px
+    rgba(31, 111, 92, 0.08);
+}
+
+
+/* ============================================================
+   ACCOUNT SECTION
+============================================================ */
+
+.account-section {
+  margin-top: 28px;
+
+  padding-top: 22px;
+
+  border-top: 1px solid var(--profile-border);
+}
+
+.account-section-heading {
+  margin-bottom: 15px;
+}
+
+.account-section-heading h3 {
+  margin: 0;
+
+  color: var(--profile-heading);
+
+  font-family: "Poppins", sans-serif;
+
+  font-size: 14px;
+
+  font-weight: 600;
+}
+
+
+/* ============================================================
+   ACCOUNT GRID
+============================================================ */
+
+.account-grid {
+  display: grid;
+
+  grid-template-columns:
+    repeat(2, minmax(0, 1fr));
+
+  gap: 13px;
+}
+
+
+/* ============================================================
+   ACCOUNT ITEM
+============================================================ */
+
+.account-item {
+  min-width: 0;
+
+  padding: 14px;
+
+  display: flex;
+
+  align-items: center;
+
+  gap: 11px;
+
+  box-sizing: border-box;
+
+  background: var(--profile-input);
+
+  border: 1px solid var(--profile-border);
+
+  border-radius: 11px;
+}
+
+
+/* ============================================================
+   ACCOUNT ICON
+============================================================ */
+
+.account-icon {
+  width: 36px;
+
+  height: 36px;
+
+  flex-shrink: 0;
+
+  display: flex;
+
+  align-items: center;
+
+  justify-content: center;
+
+  border-radius: 9px;
+
+  background: var(--profile-green-light);
+
+  color: var(--profile-green);
+}
+
+
+/* ============================================================
+   ACCOUNT TEXT
+============================================================ */
+
+.account-item span {
+  display: block;
+
+  color: var(--profile-secondary);
+
+  font-family: "Poppins", sans-serif;
+
+  font-size: 9px;
+}
+
+.account-item strong {
+  display: block;
+
+  margin-top: 3px;
+
+  color: var(--profile-text);
+
+  font-family: "Poppins", sans-serif;
+
+  font-size: 11px;
+
+  font-weight: 600;
+}
+
+
+/* ============================================================
+   ACTIONS
+============================================================ */
+
+.profile-actions {
+  margin-top: 25px;
+
+  padding-top: 20px;
+
+  border-top: 1px solid var(--profile-border);
+
+  display: flex;
+
+  align-items: center;
+
+  justify-content: flex-end;
+
+  gap: 10px;
+}
+
+
+/* ============================================================
+   CANCEL
+============================================================ */
+
+.profile-cancel-btn {
+  height: 40px;
+
+  padding: 0 16px;
+
+  border: 1px solid var(--profile-border);
+
+  border-radius: 10px;
+
+  background: var(--profile-white);
+
+  color: var(--profile-secondary);
+
+  display: flex;
+
+  align-items: center;
+
+  justify-content: center;
+
+  gap: 7px;
+
+  font-family: "Poppins", sans-serif;
+
+  font-size: 10px;
+
+  font-weight: 600;
+
+  cursor: pointer;
+
+  transition: 0.2s ease;
+}
+
+.profile-cancel-btn:hover {
+  background: var(--profile-input);
+
+  border-color: #C9C4B8;
+}
+
+
+/* ============================================================
+   SAVE
+============================================================ */
+
+.profile-save-btn {
+  height: 40px;
+
+  padding: 0 17px;
+
+  border: none;
+
+  border-radius: 10px;
+
+  background: var(--profile-green);
+
+  color: var(--profile-white);
+
+  display: flex;
+
+  align-items: center;
+
+  justify-content: center;
+
+  gap: 7px;
+
+  font-family: "Poppins", sans-serif;
+
+  font-size: 10px;
+
+  font-weight: 600;
+
+  cursor: pointer;
+
+  transition: 0.2s ease;
+}
+
+.profile-save-btn:hover {
+  background: var(--profile-green-dark);
+}
+
+
+/* ============================================================
+   LOADING
+============================================================ */
+
+.profile-loading {
+  width: 100%;
+
+  min-height: 100vh;
+
+  background: var(--profile-bg);
+
+  display: flex;
+
+  flex-direction: column;
+
+  align-items: center;
+
+  justify-content: center;
+}
+
+.profile-loading-spinner {
+  width: 38px;
+
+  height: 38px;
+
+  border: 4px solid #DDE7E2;
+
+  border-top-color: var(--profile-green);
+
+  border-radius: 50%;
+
+  animation:
+    profileSpin 0.8s linear infinite;
+}
+
+.profile-loading p {
+  margin: 12px 0 0;
+
+  color: var(--profile-secondary);
+
+  font-family: "Poppins", sans-serif;
+
+  font-size: 11px;
+}
+
+@keyframes profileSpin {
+
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+
+}
+
+
+/* ============================================================
+   NAVBAR DROPDOWN FIX
+============================================================ */
+
+.profile-navbar-wrapper,
+.profile-navbar-wrapper > * {
+  position: relative;
+
+  z-index: 9999;
+
+  overflow: visible !important;
+}
+
+
+/* ============================================================
+   REMOVE SCROLLBARS
+============================================================ */
+
+.profile-layout,
+.profile-sidebar,
+.profile-main,
+.profile-content {
+  scrollbar-width: none !important;
+
+  -ms-overflow-style: none !important;
+}
+
+.profile-layout::-webkit-scrollbar,
+.profile-sidebar::-webkit-scrollbar,
+.profile-main::-webkit-scrollbar,
+.profile-content::-webkit-scrollbar {
+  width: 0 !important;
+
+  height: 0 !important;
+
+  display: none !important;
+}
+
+
+/* ============================================================
+   TABLET
+============================================================ */
+
+@media (max-width: 1100px) {
+
+  .profile-content {
+    padding: 32px 28px 45px;
+  }
+
+  .profile-container {
+    grid-template-columns:
+      250px
+      minmax(0, 1fr);
+  }
+
+}
+
+
+/* ============================================================
+   MEDIUM
+============================================================ */
+
+@media (max-width: 900px) {
+
+  .profile-sidebar {
+    width: 250px;
+  }
+
+  .profile-main {
+    width: calc(100% - 250px);
+
+    margin-left: 250px;
+  }
+
+  .profile-container {
+    grid-template-columns: 1fr;
+  }
+
+}
+
+
+/* ============================================================
+   MOBILE
+============================================================ */
+
+@media (max-width: 768px) {
+
+  .profile-sidebar {
+    display: none;
+  }
+
+  .profile-main {
+    width: 100%;
+
+    margin-left: 0;
+  }
+
+  .profile-content {
+    padding: 25px 18px 35px;
+  }
+
+  .profile-page-heading h1 {
+    font-size: 36px;
+  }
+
+  .profile-form {
+    grid-template-columns: 1fr;
+  }
+
+  .account-grid {
+    grid-template-columns: 1fr;
+  }
+
+}
+
+
+/* ============================================================
+   SMALL MOBILE
+============================================================ */
+
+@media (max-width: 550px) {
+
+  .profile-content {
+    padding: 20px 13px 30px;
+  }
+
+  .profile-page-heading {
+    margin-bottom: 22px;
+  }
+
+  .profile-page-heading h1 {
+    font-size: 31px;
+  }
+
+  .profile-page-heading p {
+    font-size: 12px;
+  }
+
+  .profile-details-card {
+    padding: 19px;
+  }
+
+  .profile-summary-card {
+    padding: 25px 18px;
+  }
+
+  .profile-details-header {
+    flex-direction: column;
+
+    align-items: flex-start;
+  }
+
+  .profile-edit-btn {
+    width: 100%;
+  }
+
+  .profile-actions {
+    flex-direction: column-reverse;
+
+    align-items: stretch;
+  }
+
+  .profile-cancel-btn,
+  .profile-save-btn {
+    width: 100%;
+  }
+
+}

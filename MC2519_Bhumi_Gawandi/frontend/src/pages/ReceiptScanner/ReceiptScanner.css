@@ -1,0 +1,863 @@
+/* ============================================================
+   SPENDSMART RECEIPT SCANNER
+============================================================ */
+
+.receipt-dashboard-layout {
+  width: 100%;
+  min-height: 100vh;
+
+  background: #F6F4EE;
+
+  overflow-x: hidden;
+}
+
+
+/* ============================================================
+   SIDEBAR
+============================================================ */
+
+.receipt-sidebar {
+  position: fixed;
+
+  top: 0;
+  left: 0;
+  bottom: 0;
+
+  width: 280px;
+  height: 100vh;
+
+  background: #12172B;
+
+  z-index: 100;
+
+  overflow: hidden !important;
+
+  scrollbar-width: none !important;
+  -ms-overflow-style: none !important;
+}
+
+.receipt-sidebar::-webkit-scrollbar {
+  width: 0 !important;
+  height: 0 !important;
+
+  display: none !important;
+}
+
+.receipt-sidebar::-webkit-scrollbar-track,
+.receipt-sidebar::-webkit-scrollbar-thumb,
+.receipt-sidebar::-webkit-scrollbar-button {
+  display: none !important;
+}
+
+.receipt-sidebar > * {
+  width: 100% !important;
+  max-width: 100% !important;
+
+  height: 100% !important;
+
+  box-sizing: border-box;
+
+  overflow: hidden !important;
+
+  scrollbar-width: none !important;
+  -ms-overflow-style: none !important;
+}
+
+.receipt-sidebar *,
+.receipt-sidebar *::before,
+.receipt-sidebar *::after {
+  scrollbar-width: none !important;
+  -ms-overflow-style: none !important;
+}
+
+.receipt-sidebar *::-webkit-scrollbar {
+  width: 0 !important;
+  height: 0 !important;
+
+  display: none !important;
+}
+
+
+/* ============================================================
+   MAIN
+============================================================ */
+
+.receipt-dashboard-main {
+  width: calc(100% - 280px);
+
+  min-height: 100vh;
+
+  margin-left: 280px;
+
+  background: #F6F4EE;
+
+  position: relative;
+
+  overflow-x: clip;
+
+  overflow-y: visible;
+
+  z-index: 1;
+}
+
+
+/* ============================================================
+   NAVBAR
+   IMPORTANT:
+   DO NOT USE overflow:hidden HERE
+============================================================ */
+
+.receipt-navbar-wrapper {
+  width: 100%;
+
+  height: 76px;
+
+  background: #12172B;
+
+  border-bottom: 1px solid #232838;
+
+  display: flex;
+
+  align-items: center;
+
+  box-sizing: border-box;
+
+  position: relative;
+
+  overflow: visible !important;
+
+  z-index: 1000;
+}
+
+
+/* ============================================================
+   PAGE
+============================================================ */
+
+.receipt-page {
+  width: 100%;
+
+  min-height: calc(100vh - 76px);
+
+  padding: 28px 30px 40px;
+
+  box-sizing: border-box;
+
+  background: #F6F4EE;
+
+  overflow-x: hidden;
+}
+
+
+/* ============================================================
+   HEADER
+============================================================ */
+
+.receipt-header {
+  width: 100%;
+
+  margin-bottom: 22px;
+}
+
+.receipt-title-row {
+  display: flex;
+
+  align-items: center;
+
+  gap: 13px;
+}
+
+.receipt-title-icon {
+  width: 48px;
+  height: 48px;
+
+  flex-shrink: 0;
+
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 14px;
+
+  background: #EAF5F1;
+
+  color: #1F6F5C;
+
+  border: 1px solid #D2E9E2;
+}
+
+.receipt-header h1 {
+  margin: 0;
+
+  color: #12172B;
+
+  font-family: "Fraunces", serif;
+
+  font-size: 30px;
+
+  font-weight: 500;
+
+  line-height: 1.15;
+}
+
+.receipt-header p {
+  margin: 5px 0 0;
+
+  color: #77776F;
+
+  font-family: "Manrope", sans-serif;
+
+  font-size: 12px;
+
+  line-height: 1.4;
+}
+
+
+/* ============================================================
+   GRID
+============================================================ */
+
+.receipt-layout {
+  width: 100%;
+
+  display: grid;
+
+  grid-template-columns:
+    minmax(0, 1fr)
+    minmax(0, 1fr);
+
+  gap: 18px;
+
+  align-items: stretch;
+}
+
+
+/* ============================================================
+   CARD
+============================================================ */
+
+.receipt-card {
+  min-width: 0;
+
+  background: #FFFFFF;
+
+  border: 1px solid #DEDCD2;
+
+  border-radius: 16px;
+
+  padding: 20px;
+
+  box-sizing: border-box;
+
+  box-shadow:
+    0 3px 12px rgba(18, 23, 43, 0.045);
+}
+
+
+/* ============================================================
+   CARD HEADING
+============================================================ */
+
+.card-heading {
+  min-height: 44px;
+
+  display: flex;
+
+  align-items: center;
+
+  justify-content: space-between;
+
+  gap: 15px;
+
+  margin-bottom: 15px;
+}
+
+.card-heading h2 {
+  margin: 0;
+
+  color: #12172B;
+
+  font-family: "Manrope", sans-serif;
+
+  font-size: 15px;
+
+  font-weight: 700;
+}
+
+.card-heading p {
+  margin: 4px 0 0;
+
+  color: #8A8C86;
+
+  font-size: 10px;
+}
+
+
+/* ============================================================
+   UPLOAD
+============================================================ */
+
+.upload-box {
+  width: 100%;
+
+  min-height: 365px;
+
+  box-sizing: border-box;
+
+  border: 1.5px dashed #C5DCD4;
+
+  border-radius: 14px;
+
+  background: #F9FBFA;
+
+  display: flex;
+
+  flex-direction: column;
+
+  align-items: center;
+
+  justify-content: center;
+
+  text-align: center;
+
+  cursor: pointer;
+
+  transition:
+    background 0.2s ease,
+    border-color 0.2s ease;
+}
+
+.upload-box:hover {
+  background: #F2F9F6;
+
+  border-color: #2CC295;
+}
+
+.upload-box input {
+  display: none;
+}
+
+.upload-icon {
+  width: 62px;
+  height: 62px;
+
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 17px;
+
+  background: #EAF5F1;
+
+  color: #1F6F5C;
+
+  margin-bottom: 15px;
+}
+
+.upload-box h3 {
+  margin: 0;
+
+  color: #30352F;
+
+  font-size: 14px;
+
+  font-weight: 700;
+}
+
+.upload-box p {
+  margin: 7px 0 0;
+
+  color: #969A94;
+
+  font-size: 11px;
+}
+
+.upload-hint {
+  margin-top: 9px;
+
+  color: #B0B4AE;
+
+  font-size: 9px;
+}
+
+
+/* ============================================================
+   PREVIEW
+============================================================ */
+
+.preview-wrapper {
+  width: 100%;
+
+  min-height: 365px;
+
+  position: relative;
+
+  display: flex;
+
+  flex-direction: column;
+
+  align-items: center;
+
+  justify-content: center;
+
+  background: #F8FAF9;
+
+  border-radius: 14px;
+
+  overflow: hidden;
+
+  padding: 18px;
+
+  box-sizing: border-box;
+}
+
+.preview-label {
+  position: absolute;
+
+  top: 12px;
+  left: 14px;
+
+  padding: 5px 8px;
+
+  border-radius: 6px;
+
+  background: #12172B;
+
+  color: #FFFFFF;
+
+  font-size: 8px;
+
+  font-weight: 700;
+}
+
+.preview-wrapper img {
+  max-width: 100%;
+
+  max-height: 315px;
+
+  object-fit: contain;
+
+  border-radius: 8px;
+
+  box-shadow:
+    0 4px 15px rgba(0, 0, 0, 0.08);
+}
+
+
+/* ============================================================
+   RESET
+============================================================ */
+
+.reset-button {
+  margin-top: 12px;
+
+  min-height: 32px;
+
+  padding: 0 12px;
+
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+
+  gap: 6px;
+
+  border: 1px solid #D9E1DE;
+
+  border-radius: 8px;
+
+  background: #FFFFFF;
+
+  color: #5E6862;
+
+  font-family: "Manrope", sans-serif;
+
+  font-size: 9px;
+
+  font-weight: 600;
+
+  cursor: pointer;
+
+  transition: 0.2s ease;
+}
+
+.reset-button:hover {
+  color: #1F6F5C;
+
+  border-color: #1F6F5C;
+
+  background: #F4FAF8;
+}
+
+
+/* ============================================================
+   SCAN
+============================================================ */
+
+.scan-button {
+  width: 100%;
+
+  height: 43px;
+
+  margin-top: 13px;
+
+  border: none;
+
+  border-radius: 9px;
+
+  background: #1F6F5C;
+
+  color: #FFFFFF;
+
+  display: flex;
+
+  align-items: center;
+
+  justify-content: center;
+
+  gap: 7px;
+
+  font-family: "Manrope", sans-serif;
+
+  font-size: 11px;
+
+  font-weight: 700;
+
+  cursor: pointer;
+
+  transition: 0.2s ease;
+}
+
+.scan-button:hover:not(:disabled) {
+  background: #175646;
+}
+
+.scan-button:disabled {
+  opacity: 0.5;
+
+  cursor: not-allowed;
+}
+
+
+/* ============================================================
+   MESSAGE
+============================================================ */
+
+.receipt-message {
+  margin-top: 10px;
+
+  padding: 9px 11px;
+
+  border-radius: 8px;
+
+  background: #F3F7F5;
+
+  border: 1px solid #DCEBE6;
+
+  color: #52645D;
+
+  font-size: 10px;
+
+  line-height: 1.5;
+}
+
+.receipt-message.success-message {
+  background: #EAF5F1;
+
+  border-color: #CDE7DE;
+
+  color: #1F6F5C;
+}
+
+
+/* ============================================================
+   EMPTY RESULT
+============================================================ */
+
+.empty-result {
+  width: 100%;
+
+  min-height: 430px;
+
+  display: flex;
+
+  flex-direction: column;
+
+  align-items: center;
+
+  justify-content: center;
+
+  text-align: center;
+}
+
+.empty-result-icon {
+  width: 64px;
+  height: 64px;
+
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 17px;
+
+  background: #F1F5F3;
+
+  color: #A8B6B0;
+}
+
+.empty-result h3 {
+  margin: 13px 0 6px;
+
+  color: #3F4742;
+
+  font-size: 14px;
+
+  font-weight: 700;
+}
+
+.empty-result p {
+  width: 100%;
+
+  max-width: 260px;
+
+  margin: 0;
+
+  color: #969D98;
+
+  font-size: 10px;
+
+  line-height: 1.6;
+}
+
+
+/* ============================================================
+   RESULT FIELDS
+============================================================ */
+
+.result-fields {
+  display: flex;
+
+  flex-direction: column;
+
+  gap: 9px;
+}
+
+.result-field {
+  width: 100%;
+
+  min-height: 53px;
+
+  display: flex;
+
+  align-items: center;
+
+  gap: 10px;
+
+  padding: 8px 10px;
+
+  box-sizing: border-box;
+
+  border: 1px solid #E1E5E2;
+
+  border-radius: 9px;
+
+  background: #FCFDFC;
+}
+
+.field-icon {
+  width: 31px;
+  height: 31px;
+
+  flex-shrink: 0;
+
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 8px;
+
+  background: #EAF5F1;
+
+  color: #1F6F5C;
+}
+
+.field-content {
+  flex: 1;
+
+  min-width: 0;
+}
+
+.result-field label {
+  display: block;
+
+  margin-bottom: 4px;
+
+  color: #818981;
+
+  font-size: 9px;
+
+  font-weight: 700;
+}
+
+
+/* ============================================================
+   INPUT
+============================================================ */
+
+.result-field input,
+.result-field select {
+  width: 100%;
+
+  height: 32px;
+
+  box-sizing: border-box;
+
+  border: 1px solid #DCE2DE;
+
+  border-radius: 7px;
+
+  outline: none;
+
+  padding: 0 8px;
+
+  color: #30352F;
+
+  background: #FFFFFF;
+
+  font-family: "Manrope", sans-serif;
+
+  font-size: 10px;
+}
+
+.result-field input:focus,
+.result-field select:focus {
+  border-color: #1F6F5C;
+
+  box-shadow:
+    0 0 0 3px rgba(31, 111, 92, 0.07);
+}
+
+
+/* ============================================================
+   SAVE
+============================================================ */
+
+.save-expense-button {
+  width: 100%;
+
+  height: 43px;
+
+  margin-top: 3px;
+
+  border: none;
+
+  border-radius: 9px;
+
+  background: #1F6F5C;
+
+  color: #FFFFFF;
+
+  display: flex;
+
+  align-items: center;
+
+  justify-content: center;
+
+  gap: 7px;
+
+  font-family: "Manrope", sans-serif;
+
+  font-size: 11px;
+
+  font-weight: 700;
+
+  cursor: pointer;
+
+  transition: 0.2s ease;
+}
+
+.save-expense-button:hover:not(:disabled) {
+  background: #175646;
+}
+
+.save-expense-button:disabled {
+  opacity: 0.5;
+
+  cursor: not-allowed;
+}
+
+
+/* ============================================================
+   RESPONSIVE
+============================================================ */
+
+@media (max-width: 1100px) {
+
+  .receipt-sidebar {
+    width: 250px;
+  }
+
+  .receipt-dashboard-main {
+    width: calc(100% - 250px);
+
+    margin-left: 250px;
+  }
+
+  .receipt-page {
+    padding: 24px 22px 35px;
+  }
+
+  .receipt-layout {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 800px) {
+
+  .receipt-sidebar {
+    display: none;
+  }
+
+  .receipt-dashboard-main {
+    width: 100%;
+
+    margin-left: 0;
+  }
+
+  .receipt-page {
+    padding: 20px 16px 30px;
+  }
+}
+
+@media (max-width: 600px) {
+
+  .receipt-page {
+    padding: 18px 12px 25px;
+  }
+
+  .receipt-header h1 {
+    font-size: 26px;
+  }
+
+  .receipt-title-icon {
+    width: 43px;
+    height: 43px;
+  }
+
+  .receipt-card {
+    padding: 15px;
+  }
+
+  .upload-box,
+  .preview-wrapper {
+    min-height: 300px;
+  }
+
+  .preview-wrapper img {
+    max-height: 260px;
+  }
+}

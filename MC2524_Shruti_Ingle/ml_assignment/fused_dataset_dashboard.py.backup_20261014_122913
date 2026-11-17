@@ -1,0 +1,472 @@
+
+from pathlib import Path
+
+import numpy as np
+import pandas as pd
+import plotly.express as px
+import streamlit as st
+
+
+# =====================================================
+# 1. PAGE SETTINGS
+# =====================================================
+
+st.set_page_config(
+    page_title="DocuMind AI - Dataset Dashboard",
+    page_icon="📊",
+    layout="wide"
+)
+
+PROJECT_DIR = Path(__file__).resolve().parent.parent
+DATA_PATH = PROJECT_DIR / "datasets" / "fused_knowledge_dataset.csv"
+
+st.title("📊 DocuMind AI")
+st.subheader("Fused Knowledge Dataset Dashboard")
+st.caption("Phase 2 | Exploratory Data Analysis and Visualization")
+
+
+# =====================================================
+# 2. LOAD DATASET
+# =====================================================
+
+@st.cache_data
+def load_dataset(path, modified_time):
+    return pd.read_csv(path)
+
+
+if not DATA_PATH.exists():
+    st.error(f"Dataset not found: {DATA_PATH}")
+    st.info(
+        "Check that fused_knowledge_dataset.csv "
+        "is inside the project's datasets folder."
+    )
+    st.stop()
+
+try:
+    df = load_dataset(str(DATA_PATH), DATA_PATH.stat().st_mtime)
+except Exception as error:
+    st.error(f"Could not read the CSV file: {error}")
+    st.stop()
+
+if df.empty:
+    st.error("The dataset contains no records.")
+    st.stop()
+
+# Work on a copy; the original CSV is not modified.
+df.columns = [str(column).strip() for column in df.columns]
+df = df.replace(r"^\s*$", np.nan, regex=True)
+
+# Identify common column names automatically.
+def find_column(possible_names):
+    lookup = {column.lower().strip(): column for column in df.columns}
+
+    for name in possible_names:
+        if name in lookup:
+            return lookup[name]
+
+    for column in df.columns:
+        normalized = column.lower().strip()
+        for name in possible_names:
+            if name in normalized:
+                return column
+
+    return None
+
+
+source_col = find_column([
+    "source", "source_type", "data_source", "platform"
+])
+
+title_col = find_column([
+    "title", "document_title", "file_name", "name"
+])
+
+content_col = find_column([
+    "content", "text", "document_content",
+    "description", "extracted_text"
+])
+
+language_col = find_column([
+    "language", "lang"
+])
+
+
+# =====================================================
+# 3. SIDEBAR FILTERS
+# =====================================================
+
+st.sidebar.header("🔎 Dashboard Filters")
+
+filtered_df = df.copy()
+
+if source_col:
+    source_values = (
+        df[source_col].fillna("Missing").astype(str).unique().tolist()
+    )
+    selected_sources = st.sidebar.multiselect(
+        "Filter by data source",
+        options=sorted(source_values),
+        default=sorted(source_values)
+    )
+
+    filtered_df = filtered_df[
+        filtered_df[source_col].fillna("Missing").astype(str).isin(
+            selected_sources
+        )
+    ]
+
+search_text = st.sidebar.text_input(
+    "Search across records",
+    placeholder="Enter a title or keyword..."
+)
+
+if search_text:
+    mask = filtered_df.astype(str).apply(
+        lambda column: column.str.contains(
+            search_text, case=False, na=False, regex=False
+        )
+    ).any(axis=1)
+    filtered_df = filtered_df[mask]
+
+st.sidebar.caption(
+    "Filters affect the charts and table. "
+    "KPI cards show the filtered data."
+)
+
+
+# =====================================================
+# 4. KPI CARDS
+# =====================================================
+
+st.markdown("## 1. Dataset Overview")
+
+total_records = len(filtered_df)
+total_columns = len(df.columns)
+missing_cells = int(filtered_df.isna().sum().sum())
+duplicate_rows = int(filtered_df.duplicated().sum())
+source_count = (
+    filtered_df[source_col].nunique(dropna=True)
+    if source_col else 0
+)
+
+k1, k2, k3, k4, k5 = st.columns(5)
+
+k1.metric("Total Records", f"{total_records:,}")
+k2.metric("Total Columns", f"{total_columns:,}")
+k3.metric("Data Sources", f"{source_count:,}")
+k4.metric("Missing Cells", f"{missing_cells:,}")
+k5.metric("Duplicate Rows", f"{duplicate_rows:,}")
+
+st.caption(
+    f"Dataset file: {DATA_PATH.name} | "
+    f"Original dataset: {len(df):,} records"
+)
+
+
+# =====================================================
+# 5. DATASET STRUCTURE
+# =====================================================
+
+st.markdown("## 2. Dataset Structure")
+
+with st.expander("View column names and data types", expanded=False):
+    schema = pd.DataFrame({
+        "Column Name": df.columns,
+        "Data Type": [str(df[col].dtype) for col in df.columns],
+        "Non-Missing Values": [int(df[col].notna().sum()) for col in df.columns],
+        "Unique Values": [int(df[col].nunique(dropna=True)) for col in df.columns]
+    })
+    st.dataframe(schema, use_container_width=True, hide_index=True)
+
+
+# =====================================================
+# 6. SOURCE DISTRIBUTION
+# =====================================================
+
+st.markdown("## 3. Data Source Analysis")
+
+if source_col:
+    source_data = (
+        filtered_df[source_col]
+        .fillna("Missing")
+        .astype(str)
+        .value_counts()
+        .rename_axis("Source")
+        .reset_index(name="Records")
+    )
+
+    left, right = st.columns(2)
+
+    with left:
+        fig = px.bar(
+            source_data.sort_values("Records"),
+            x="Records",
+            y="Source",
+            orientation="h",
+            text="Records",
+            title="Number of Records by Source"
+        )
+        st.plotly_chart(fig, use_container_width=True)
+
+    with right:
+        fig = px.pie(
+            source_data,
+            names="Source",
+            values="Records",
+            hole=0.4,
+            title="Source-wise Dataset Share"
+        )
+        st.plotly_chart(fig, use_container_width=True)
+
+    st.dataframe(source_data, use_container_width=True, hide_index=True)
+else:
+    st.info(
+        "No recognizable source column was found. "
+        "Check the column names in Dataset Structure."
+    )
+
+
+# =====================================================
+# 7. MISSING VALUES
+# =====================================================
+
+st.markdown("## 4. Data Quality Analysis")
+
+missing_count = filtered_df.isna().sum()
+missing_count = missing_count[missing_count > 0]
+
+left, right = st.columns(2)
+
+with left:
+    if not missing_count.empty:
+        missing_data = (
+            missing_count.rename_axis("Column")
+            .reset_index(name="Missing Values")
+        )
+        missing_data["Missing Percentage"] = (
+            missing_data["Missing Values"]
+            / max(len(filtered_df), 1) * 100
+        ).round(2)
+
+        fig = px.bar(
+            missing_data.sort_values("Missing Values"),
+            x="Missing Values",
+            y="Column",
+            orientation="h",
+            text="Missing Values",
+            title="Missing Values by Column"
+        )
+        st.plotly_chart(fig, use_container_width=True)
+    else:
+        st.success("No missing values in the filtered records.")
+
+with right:
+    quality_summary = pd.DataFrame({
+        "Quality Check": [
+            "Total records",
+            "Exact duplicate rows",
+            "Rows with at least one missing value",
+            "Total missing cells"
+        ],
+        "Result": [
+            len(filtered_df),
+            int(filtered_df.duplicated().sum()),
+            int(filtered_df.isna().any(axis=1).sum()),
+            int(filtered_df.isna().sum().sum())
+        ]
+    })
+    st.dataframe(
+        quality_summary, use_container_width=True, hide_index=True
+    )
+
+
+# =====================================================
+# 8. TITLE ANALYSIS
+# =====================================================
+
+st.markdown("## 5. Title Analysis")
+
+if title_col:
+    titles = filtered_df[title_col].dropna().astype(str)
+    titles = titles[titles.str.strip() != ""]
+
+    if not titles.empty:
+        top_titles = (
+            titles.value_counts().head(10)
+            .rename_axis("Title")
+            .reset_index(name="Records")
+        )
+
+        fig = px.bar(
+            top_titles.sort_values("Records"),
+            x="Records",
+            y="Title",
+            orientation="h",
+            text="Records",
+            title="Top 10 Most Frequent Titles"
+        )
+        st.plotly_chart(fig, use_container_width=True)
+
+        st.metric("Unique Titles", f"{titles.nunique():,}")
+    else:
+        st.info("No non-empty titles are available.")
+else:
+    st.info("No recognizable title column was found.")
+
+
+# =====================================================
+# 9. TEXT LENGTH ANALYSIS
+# =====================================================
+
+st.markdown("## 6. Content Analysis")
+
+if content_col:
+    content_lengths = (
+        filtered_df[content_col]
+        .fillna("")
+        .astype(str)
+        .str.len()
+    )
+
+    length_df = pd.DataFrame({
+        "Content Length (characters)": content_lengths
+    })
+
+    left, right = st.columns(2)
+
+    with left:
+        fig = px.histogram(
+            length_df,
+            x="Content Length (characters)",
+            nbins=20,
+            title="Distribution of Content Length"
+        )
+        st.plotly_chart(fig, use_container_width=True)
+
+    with right:
+        fig = px.box(
+            length_df,
+            y="Content Length (characters)",
+            points="outliers",
+            title="Content Length and Potential Outliers"
+        )
+        st.plotly_chart(fig, use_container_width=True)
+
+    st.write(
+        f"**Average content length:** "
+        f"{content_lengths.mean():,.2f} characters"
+    )
+    st.write(
+        f"**Maximum content length:** "
+        f"{content_lengths.max():,} characters"
+    )
+else:
+    st.info(
+        "No recognizable content column was found. "
+        "Content-length charts need a text/content field."
+    )
+
+
+# =====================================================
+# 10. LANGUAGE DISTRIBUTION
+# =====================================================
+
+st.markdown("## 7. Language Analysis")
+
+if language_col:
+    language_data = (
+        filtered_df[language_col]
+        .fillna("Missing")
+        .astype(str)
+        .value_counts()
+        .rename_axis("Language")
+        .reset_index(name="Records")
+    )
+
+    fig = px.bar(
+        language_data,
+        x="Language",
+        y="Records",
+        text="Records",
+        title="Language Distribution"
+    )
+    st.plotly_chart(fig, use_container_width=True)
+else:
+    st.info(
+        "No language column was found. "
+        "Language analysis is skipped rather than assuming languages."
+    )
+
+
+# =====================================================
+# 11. NUMERICAL ANALYSIS
+# =====================================================
+
+st.markdown("## 8. Numerical Analysis")
+
+numeric_df = filtered_df.select_dtypes(include=np.number)
+
+if numeric_df.shape[1] >= 2:
+    st.markdown("### Correlation Heatmap")
+    correlation = numeric_df.corr()
+
+    fig = px.imshow(
+        correlation,
+        text_auto=".2f",
+        aspect="auto",
+        color_continuous_scale="RdBu_r",
+        zmin=-1,
+        zmax=1,
+        title="Correlation Between Numerical Columns"
+    )
+    st.plotly_chart(fig, use_container_width=True)
+
+    st.caption(
+        "Correlation measures numerical association; "
+        "it does not establish causation."
+    )
+elif numeric_df.shape[1] == 1:
+    st.info(
+        "Only one numerical column is available. "
+        "A correlation heatmap needs at least two numerical columns."
+    )
+else:
+    st.info(
+        "No original numerical columns are available. "
+        "Correlation analysis is skipped."
+    )
+
+
+# =====================================================
+# 12. COMPLETE DATA TABLE
+# =====================================================
+
+st.markdown("## 9. Explore Fused Dataset")
+
+st.write(f"Showing **{len(filtered_df):,}** matching records.")
+
+st.dataframe(
+    filtered_df,
+    use_container_width=True,
+    hide_index=True
+)
+
+csv_data = filtered_df.to_csv(index=False).encode("utf-8-sig")
+
+st.download_button(
+    label="⬇️ Download Filtered Dataset as CSV",
+    data=csv_data,
+    file_name="filtered_fused_knowledge_dataset.csv",
+    mime="text/csv"
+)
+
+
+# =====================================================
+# 13. FOOTER
+# =====================================================
+
+st.divider()
+st.caption(
+    "DocuMind AI | Phase 2 | Python, Pandas, NumPy, "
+    "Streamlit and Plotly"
+)

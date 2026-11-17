@@ -1,0 +1,42 @@
+MULTIPLE LINEAR REGRESSION RESULTS
+======================================================================
+
+Algorithm: Multiple Linear Regression
+Target Variable: content_length
+Train/Test Split: 80% / 20%
+Random State: 42
+
+Independent Variables
+----------------------------------------------------------------------
+title_length
+content_word_count
+title_word_count
+metadata_length
+has_url
+modified_year
+modified_month
+modified_day
+language_encoded
+source_type_encoded
+
+Performance Metrics
+----------------------------------------------------------------------
+MAE: 11.6620
+MSE: 222.4105
+RMSE: 14.9134
+R2 Score: 0.7168
+
+Regression Coefficients
+----------------------------------------------------------------------
+title_length: -0.339310
+content_word_count: 2.141134
+title_word_count: -1.150116
+metadata_length: 0.414977
+has_url: -694.410086
+modified_year: -0.336663
+modified_month: 4.742697
+modified_day: 0.607171
+language_encoded: 7.691062
+source_type_encoded: -21.689034
+
+Intercept: 655.020465

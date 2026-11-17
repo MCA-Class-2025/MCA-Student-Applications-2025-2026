@@ -1,0 +1,342 @@
+{
+  "univariate_stats": {
+    "price": {
+      "count": 521.0,
+      "mean": 211.24,
+      "std": 256.62,
+      "min": -238.91,
+      "25%": 122.66,
+      "50%": 186.88,
+      "75%": 296.31,
+      "max": 5725.08,
+      "missing": 8
+    },
+    "total": {
+      "count": 529.0,
+      "mean": 634.14,
+      "std": 1017.98,
+      "min": 100.05,
+      "25%": 299.98,
+      "50%": 490.64,
+      "75%": 916.47,
+      "max": 22223.25,
+      "missing": 0
+    },
+    "days": {
+      "count": 529.0,
+      "mean": 2.96,
+      "std": 1.43,
+      "min": 1.0,
+      "25%": 2.0,
+      "50%": 3.0,
+      "75%": 4.0,
+      "max": 5.0,
+      "missing": 0
+    },
+    "avg_temp_c": {
+      "count": 467.0,
+      "mean": 23.56,
+      "std": 2.44,
+      "min": 19.9,
+      "25%": 21.1,
+      "50%": 25.2,
+      "75%": 25.7,
+      "max": 26.2,
+      "missing": 62
+    },
+    "total_precip_mm": {
+      "count": 467.0,
+      "mean": 1539.16,
+      "std": 279.81,
+      "min": 1170.0,
+      "25%": 1200.0,
+      "50%": 1500.0,
+      "75%": 1590.0,
+      "max": 2000.0,
+      "missing": 62
+    },
+    "avg_humidity_pct": {
+      "count": 467.0,
+      "mean": 76.62,
+      "std": 4.06,
+      "min": 68.0,
+      "25%": 75.0,
+      "50%": 76.0,
+      "75%": 80.0,
+      "max": 81.0,
+      "missing": 62
+    }
+  },
+  "city_level_stats": {
+    "Sao Paulo": {
+      "avg_price": 318.06,
+      "avg_days": 2.87,
+      "avg_temp_c": 19.9,
+      "n_bookings": 55
+    },
+    "Brasilia": {
+      "avg_price": 305.49,
+      "avg_days": 2.97,
+      "avg_temp_c": 21.1,
+      "n_bookings": 63
+    },
+    "Florianopolis": {
+      "avg_price": 296.31,
+      "avg_days": 2.7,
+      "avg_temp_c": 20.5,
+      "n_bookings": 54
+    },
+    "Campo Grande": {
+      "avg_price": 231.08,
+      "avg_days": 2.87,
+      "avg_temp_c": null,
+      "n_bookings": 62
+    },
+    "Aracaju": {
+      "avg_price": 190.4,
+      "avg_days": 2.56,
+      "avg_temp_c": 25.7,
+      "n_bookings": 68
+    },
+    "Rio De Janeiro": {
+      "avg_price": 186.88,
+      "avg_days": 3.5,
+      "avg_temp_c": 23.7,
+      "n_bookings": 60
+    },
+    "Natal": {
+      "avg_price": 149.99,
+      "avg_days": 3.02,
+      "avg_temp_c": 26.2,
+      "n_bookings": 58
+    },
+    "Salvador": {
+      "avg_price": 122.66,
+      "avg_days": 3.13,
+      "avg_temp_c": 25.2,
+      "n_bookings": 52
+    },
+    "Recife": {
+      "avg_price": 100.05,
+      "avg_days": 3.04,
+      "avg_temp_c": 25.8,
+      "n_bookings": 57
+    }
+  },
+  "correlation_temp_vs_price": -0.272,
+  "correlation_temp_vs_days": 0.023,
+  "top_10_employees_by_trips": [
+    {
+      "userCode": 1,
+      "employee_name": "Henry Williams",
+      "company": "4You",
+      "num_trips": 10
+    },
+    {
+      "userCode": 15,
+      "employee_name": "Christopher Robertson",
+      "company": "4You",
+      "num_trips": 10
+    },
+    {
+      "userCode": 88,
+      "employee_name": "Rosie Hoeppner",
+      "company": "Warbucks S.A.",
+      "num_trips": 10
+    },
+    {
+      "userCode": 62,
+      "employee_name": "Manuel Enos",
+      "company": "Umbrella Ltda",
+      "num_trips": 10
+    },
+    {
+      "userCode": 53,
+      "employee_name": "Scott Shook",
+      "company": "Monsters Ca",
+      "num_trips": 10
+    },
+    {
+      "userCode": 58,
+      "employee_name": "Sandra Dudley",
+      "company": "Umbrella Ltda",
+      "num_trips": 10
+    },
+    {
+      "userCode": 157,
+      "employee_name": "Eric Boucher",
+      "company": "Test Inc",
+      "num_trips": 10
+    },
+    {
+      "userCode": 154,
+      "employee_name": "Andrew Campbell",
+      "company": "Test Inc",
+      "num_trips": 10
+    },
+    {
+      "userCode": 120,
+      "employee_name": "Donald Benedict",
+      "company": "Yoyodyne",
+      "num_trips": 10
+    },
+    {
+      "userCode": 124,
+      "employee_name": "Charles Shirley",
+      "company": "Yoyodyne",
+      "num_trips": 10
+    }
+  ],
+  "top_10_employees_by_flight_spend": [
+    {
+      "userCode": 94,
+      "employee_name": "Robin Fosberg",
+      "company": "Warbucks S.A.",
+      "total_flight_spend": 36991.43
+    },
+    {
+      "userCode": 85,
+      "employee_name": "David Fontanella",
+      "company": "Wonka Company",
+      "total_flight_spend": 22069.6
+    },
+    {
+      "userCode": 58,
+      "employee_name": "Sandra Dudley",
+      "company": "Umbrella Ltda",
+      "total_flight_spend": 20954.41
+    },
+    {
+      "userCode": 154,
+      "employee_name": "Andrew Campbell",
+      "company": "Test Inc",
+      "total_flight_spend": 20040.7
+    },
+    {
+      "userCode": 157,
+      "employee_name": "Eric Boucher",
+      "company": "Test Inc",
+      "total_flight_spend": 19369.06
+    },
+    {
+      "userCode": 156,
+      "employee_name": "Miranda Vasquez",
+      "company": "Test Inc",
+      "total_flight_spend": 18460.86
+    },
+    {
+      "userCode": 149,
+      "employee_name": "Ryan Nettles",
+      "company": "Herbert Insurance",
+      "total_flight_spend": 18203.03
+    },
+    {
+      "userCode": 88,
+      "employee_name": "Rosie Hoeppner",
+      "company": "Warbucks S.A.",
+      "total_flight_spend": 17957.69
+    },
+    {
+      "userCode": 115,
+      "employee_name": "Mary Schanz",
+      "company": "Yoyodyne",
+      "total_flight_spend": 17775.4
+    },
+    {
+      "userCode": 118,
+      "employee_name": "Hazel Warren",
+      "company": "Yoyodyne",
+      "total_flight_spend": 17758.6
+    }
+  ],
+  "top_10_employees_by_hotel_spend": [
+    {
+      "userCode": 152,
+      "employee_name": "Tawnya Lear",
+      "company": "Test Inc",
+      "total_hotel_spend": 24778.35
+    },
+    {
+      "userCode": 15,
+      "employee_name": "Christopher Robertson",
+      "company": "4You",
+      "total_hotel_spend": 8169.15
+    },
+    {
+      "userCode": 58,
+      "employee_name": "Sandra Dudley",
+      "company": "Umbrella Ltda",
+      "total_hotel_spend": 5923.63
+    },
+    {
+      "userCode": 120,
+      "employee_name": "Donald Benedict",
+      "company": "Yoyodyne",
+      "total_hotel_spend": 5383.1
+    },
+    {
+      "userCode": 124,
+      "employee_name": "Charles Shirley",
+      "company": "Yoyodyne",
+      "total_hotel_spend": 5130.95
+    },
+    {
+      "userCode": 94,
+      "employee_name": "Robin Fosberg",
+      "company": "Warbucks S.A.",
+      "total_hotel_spend": 5086.51
+    },
+    {
+      "userCode": 29,
+      "employee_name": "Christina Mackay",
+      "company": "Acme Factory",
+      "total_hotel_spend": 5042.23
+    },
+    {
+      "userCode": 8,
+      "employee_name": "Marshall Jefferson",
+      "company": "4You",
+      "total_hotel_spend": 4823.63
+    },
+    {
+      "userCode": 44,
+      "employee_name": "Miguel Moore",
+      "company": "Monsters Ca",
+      "total_hotel_spend": 4674.71
+    },
+    {
+      "userCode": 153,
+      "employee_name": "Grace Carpenter",
+      "company": "Test Inc",
+      "total_hotel_spend": 4352.06
+    }
+  ],
+  "company_total_travel_spend": {
+    "Warbucks S.A.": 294769.13,
+    "4You": 275968.53,
+    "Umbrella Ltda": 253596.84,
+    "Yoyodyne": 215447.58,
+    "Herbert Insurance": 192317.67,
+    "Monsters Ca": 187874.38,
+    "Acme Factory": 176623.76,
+    "Test Inc": 166994.77,
+    "Wonka Company": 161690.61,
+    "9 Realms": 101740.52
+  },
+  "most_used_agency": {
+    "Rainbow": 772,
+    "FlyingDrops": 698,
+    "CloudFy": 458
+  },
+  "most_visited_city": {
+    "Aracaju": 68,
+    "Brasilia": 63,
+    "Campo Grande": 62,
+    "Rio De Janeiro": 60,
+    "Natal": 58,
+    "Recife": 57,
+    "Sao Paulo": 55,
+    "Florianopolis": 54,
+    "Salvador": 52
+  }
+}

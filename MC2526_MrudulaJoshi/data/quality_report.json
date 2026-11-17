@@ -1,0 +1,129 @@
+{
+  "dimensions": {
+    "rows": 529,
+    "columns": 20
+  },
+  "dtypes": {
+    "travelCode": "int64",
+    "userCode": "int64",
+    "hotel_name": "str",
+    "place": "str",
+    "days": "int64",
+    "price": "float64",
+    "total": "float64",
+    "date": "str",
+    "city_key": "str",
+    "latitude": "float64",
+    "longitude": "float64",
+    "avg_temp_c": "float64",
+    "total_precip_mm": "float64",
+    "avg_humidity_pct": "float64",
+    "climate_zone": "str",
+    "code": "int64",
+    "company": "str",
+    "employee_name": "str",
+    "gender": "str",
+    "age": "float64"
+  },
+  "unique_values_per_column": {
+    "travelCode": 529,
+    "userCode": 155,
+    "hotel_name": 9,
+    "place": 17,
+    "days": 5,
+    "price": 11,
+    "total": 46,
+    "date": 10,
+    "city_key": 9,
+    "latitude": 8,
+    "longitude": 8,
+    "avg_temp_c": 8,
+    "total_precip_mm": 7,
+    "avg_humidity_pct": 6,
+    "climate_zone": 4,
+    "code": 155,
+    "company": 10,
+    "employee_name": 155,
+    "gender": 3,
+    "age": 43
+  },
+  "duplicate_records": 0,
+  "duplicate_travelCode": 0,
+  "missing_values": {
+    "price": {
+      "count": 8,
+      "pct": 1.51
+    },
+    "latitude": {
+      "count": 62,
+      "pct": 11.72
+    },
+    "longitude": {
+      "count": 62,
+      "pct": 11.72
+    },
+    "avg_temp_c": {
+      "count": 62,
+      "pct": 11.72
+    },
+    "total_precip_mm": {
+      "count": 62,
+      "pct": 11.72
+    },
+    "avg_humidity_pct": {
+      "count": 62,
+      "pct": 11.72
+    },
+    "climate_zone": {
+      "count": 62,
+      "pct": 11.72
+    },
+    "gender": {
+      "count": 4,
+      "pct": 0.76
+    },
+    "age": {
+      "count": 24,
+      "pct": 4.54
+    }
+  },
+  "attribute_with_max_missing": "latitude",
+  "gender_categories_found": [
+    "none",
+    "male",
+    "female"
+  ],
+  "company_categories_found": [
+    "4You",
+    "9 Realms",
+    "Acme Factory",
+    "Herbert Insurance",
+    "Monsters Ca",
+    "Test Inc",
+    "Umbrella Ltda",
+    "Warbucks S.A.",
+    "Wonka Company",
+    "Yoyodyne"
+  ],
+  "price_outliers": {
+    "count": 2,
+    "lower_bound": -137.82,
+    "upper_bound": 556.79,
+    "example_rows": [
+      {
+        "travelCode": 241,
+        "userCode": 43,
+        "city_key": "Campo Grande",
+        "price": -238.91,
+        "total": 955.64
+      },
+      {
+        "travelCode": 717,
+        "userCode": 120,
+        "city_key": "Aracaju",
+        "price": 5725.08,
+        "total": 107.79
+      }
+    ]
+  }
+}

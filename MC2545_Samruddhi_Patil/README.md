@@ -234,3 +234,4 @@ GitHub: [Samruddhi2103](https://github.com/Samruddhi2103)
 ---
 
 *MovieMind AI — Discover movies through data, search, and recommendations.*
+

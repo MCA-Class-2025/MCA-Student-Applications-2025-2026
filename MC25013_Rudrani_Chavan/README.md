@@ -161,8 +161,6 @@ pip install -r requirements.txt
 <img width="1190" height="895" alt="Screenshot 2026-08-18 023323" src="https://github.com/user-attachments/assets/8b577e4f-65da-41f3-9ca6-0683c8f2b394" />
 
 
-) |
-
 ---
 
 ## 🚀 Future Scope
@@ -174,7 +172,7 @@ pip install -r requirements.txt
 
 ---
 
-## 👤 Authors
+## 👤 Author
 
-* **NutriMate Development Team**
-* **Project Type**: Academic MCA Major Project / Open Source Contribution
+* **Rudrani Chavan**
+* **Project Type**: Academic MCA Major Project / Rudrani chavan

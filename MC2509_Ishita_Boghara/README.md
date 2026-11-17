@@ -52,13 +52,13 @@ The application also integrates external book information sources and maintains 
 
 Interact with an AI book companion and ask questions about characters, plot twists, themes, symbolism, story meanings, and narrative structure. Supports voice input and text-to-speech responses.
 
-![AI Companion Chat](screenshots/01-ai-companion-chat.png)
+![AI Companion Chat]screenshots/01-homepage.png)
 
 ### 2. AI Scene Visualizer
 
 Turn written book-scene descriptions into cinematic visual representations using AI-powered text-to-image generation.
 
-![AI Scene Visualizer](screenshots/02-scene-visualizer.png)
+![AI Scene Visualizer](screenshots/02-scene-visualizer.png).
 
 ### 3. Personalized Book Recommendations
 

@@ -346,21 +346,6 @@ Threat Detection Results
 
 ---
 
-# 📷 Screenshots
-
-Add screenshots here after deployment.
-
-Suggested screenshots:
-
-- Dashboard
-- Threat Detection
-- Threat Analysis Assistant
-- Knowledge Base
-- Research Assistant
-- About Page
-
----
-
 # 🎯 Future Scope
 
 - Voice-enabled Cybersecurity Assistant

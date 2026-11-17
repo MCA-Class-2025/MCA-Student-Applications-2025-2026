@@ -143,7 +143,25 @@ pip install -r requirements.txt
 
 | Main Landing Page | Chat & Source Attribution |
 |:---:|:---:|
-| ![Landing Page Placeholder](https://via.placeholder.com/600x350?text=NutriMate+Landing+Page) | ![Chat Interface Placeholder](https://via.placeholder.com/600x350?text=NutriMate+Chat+%26+Sources) |
+| ![Landing Page Placeholder](<img width="1919" height="893" alt="Screenshot 2026-08-18 022820" src="https://github.com/user-attachments/assets/a65d73de-b7de-4c4c-a4d4-04a8de3a93e0" />
+) | ![Chat Interface Placeholder](<img width="1901" height="846" alt="Screenshot 2026-08-18 022902" src="https://github.com/user-attachments/assets/6deef70a-9308-405b-8983-985b15789b48" />
+
+<img width="1489" height="845" alt="Screenshot 2026-08-18 024106" src="https://github.com/user-attachments/assets/ab91fc01-eb08-4dcf-a027-042ede2f841d" />
+<img width="1478" height="914" alt="Screenshot 2026-08-18 024249" src="https://github.com/user-attachments/assets/ef401884-b0db-4871-9187-5702e4cfc52d" />
+
+
+<img width="1572" height="885" alt="Screenshot 2026-08-18 023115" src="https://github.com/user-attachments/assets/8760dd5c-ea60-4b46-9c55-42bd965bf638" />
+<img width="1847" height="906" alt="Screenshot 2026-08-18 023038" src="https://github.com/user-attachments/assets/86cb8355-8f8c-45b6-af7d-119b66b2e957" />
+<img width="1910" height="901" alt="Screenshot 2026-08-18 022917" src="https://github.com/user-attachments/assets/96cdfc78-abcc-4ba2-b8d3-da51293146ca" />
+<img width="1494" height="878" alt="Screenshot 2026-08-18 024035" src="https://github.com/user-attachments/assets/bf7e9173-9296-435c-a175-a76ba99646b6" />
+<img width="1504" height="858" alt="Screenshot 2026-08-18 023922" src="https://github.com/user-attachments/assets/593e9e9c-29bb-4333-a7b0-84a90efedc86" />
+<img width="1477" height="674" alt="Screenshot 2026-08-18 023547" src="https://github.com/user-attachments/assets/f3daff8e-b7da-4bae-8b63-145ec113e487" />
+<img width="1550" height="919" alt="Screenshot 2026-08-18 023532" src="https://github.com/user-attachments/assets/7d03e8fc-b42e-4c8f-a272-71392aa58162" />
+<img width="1852" height="608" alt="Screenshot 2026-08-18 023438" src="https://github.com/user-attachments/assets/98c4a635-b69c-437e-9244-092fd76ceccb" />
+<img width="1190" height="895" alt="Screenshot 2026-08-18 023323" src="https://github.com/user-attachments/assets/8b577e4f-65da-41f3-9ca6-0683c8f2b394" />
+
+
+) |
 
 ---
 

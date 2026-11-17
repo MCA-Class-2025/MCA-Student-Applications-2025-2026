@@ -1,0 +1,60 @@
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+*.env
+
+# Python virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Streamlit secrets
+.streamlit/secrets.toml
+
+# Firebase credentials
+firebase_service_account.json
+*service-account*.json
+*service_account*.json
+
+# Private credentials
+*.pem
+*.key
+credentials.json
+secrets.json
+
+# Local user activity data
+storage/users.json
+storage/chat_history.json
+storage/favourites.json
+storage/quiz_history.json
+storage/image_study_history.json
+storage/youtube_history.json
+storage/activity_history.json
+
+# Local environment and editor files
+.vscode/
+.idea/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Log and temporary files
+*.log
+*.tmp
+*.bak
+
+# Local virtual environment and generated files
+vectorstore/

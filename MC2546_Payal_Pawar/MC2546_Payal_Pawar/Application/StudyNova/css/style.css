@@ -1,0 +1,1228 @@
+/* ==========================================================
+   STUDYNOVA — GLOBAL STYLESHEET
+   Modern Student AI Study Platform
+   ----------------------------------------------------------
+   Design system: deep navy / medium blue academic theme,
+   Inter typeface, subtle borders + soft shadows, moderate
+   radii. This file is the single source of visual styling
+   for the whole app. No backend/Python logic is affected by
+   anything in this file.
+   ========================================================== */
+
+/* ==========================================================
+   FONT
+   ========================================================== */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+
+/* ==========================================================
+   DESIGN TOKENS — fresh teal + violet theme
+   ========================================================== */
+
+:root {
+    /* Brand accent (used for buttons, links, highlights only) */
+    --sn-navy-900: #0f766e;   /* teal — accent dark */
+    --sn-navy-800: #115e59;
+    --sn-navy-700: #14b8a6;
+    --sn-blue-600: #0d9488;   /* teal — primary actions */
+    --sn-blue-500: #14b8a6;   /* lighter teal — focus / links */
+    --sn-indigo-400: #7c6df2; /* violet accent */
+    --sn-blue-50:  #eef4f7;   /* pale neutral wash (no green cast) */
+    --sn-blue-100: #e2ecf0;
+
+    --sn-violet-600: #7c3aed;
+    --sn-violet-50: #f2edfe;
+
+    --sn-gradient: linear-gradient(90deg, #0d9488, #6d28d9);
+
+    /* Page surface — neutral, no green tint */
+    --sn-bg: #f5f7f8;
+    --sn-card: #ffffff;
+    --sn-border: #e4e8eb;
+    --sn-border-strong: #cdd5da;
+
+    /* Sidebar — dark burnt-orange surface, separate from page */
+    --sn-sidebar-bg: #33190b;
+    --sn-sidebar-bg-alt: #4a2612;
+    --sn-sidebar-border: #5c331a;
+    --sn-sidebar-text: #f2ded0;
+    --sn-sidebar-text-muted: #cba98f;
+    --sn-sidebar-heading: #ffffff;
+
+    /* Text — neutral slate, not green */
+    --sn-text-heading: #1c2530;
+    --sn-text-body: #47525c;
+    --sn-text-muted: #707b85;
+
+    /* Semantic (kept subtle, not neon) */
+    --sn-success-bg: #e7f7ee;
+    --sn-success-border: #a6dfba;
+    --sn-success-text: #197a49;
+
+    --sn-info-bg: #eef4f7;
+    --sn-info-border: #b7cdd6;
+    --sn-info-text: #1b5b6e;
+
+    --sn-warning-bg: #fdf3e2;
+    --sn-warning-border: #eecd93;
+    --sn-warning-text: #8a5a11;
+
+    --sn-error-bg: #fdeeee;
+    --sn-error-border: #eab3b3;
+    --sn-error-text: #a12b2b;
+
+    /* Shape */
+    --sn-radius-sm: 8px;
+    --sn-radius-md: 12px;
+    --sn-radius-lg: 16px;
+    --sn-shadow-sm: 0 1px 2px rgba(16, 24, 38, 0.06), 0 1px 3px rgba(16, 24, 38, 0.08);
+    --sn-shadow-md: 0 6px 18px rgba(16, 24, 38, 0.12);
+}
+
+/* ==========================================================
+   BASE / TYPOGRAPHY
+   ========================================================== */
+
+html, body, [class*="css"] {
+    font-family: 'Poppins', sans-serif;
+}
+
+.stApp {
+    background: var(--sn-bg);
+    font-family: 'Poppins', sans-serif;
+    color: var(--sn-text-body);
+}
+
+#MainMenu { visibility: hidden; }
+footer { visibility: hidden; }
+
+header {
+    background: transparent !important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Poppins', sans-serif !important;
+    color: var(--sn-text-heading) !important;
+    font-weight: 700 !important;
+    letter-spacing: -0.01em;
+}
+
+h1 { font-size: 34px !important; }
+h2 { font-size: 24px !important; }
+h3 { font-size: 19px !important; }
+h4 { font-size: 16px !important; }
+
+p, li, span, label, .stMarkdown {
+    color: var(--sn-text-body);
+    line-height: 1.65;
+}
+
+small, .stCaption, [data-testid="stCaptionContainer"] {
+    color: var(--sn-text-muted) !important;
+}
+
+/* Sidebar plain markdown lists (e.g. Suggested Questions) — white text */
+section[data-testid="stSidebar"] li {
+    color: #ffffff !important;
+}
+
+hr {
+    border: none;
+    border-top: 1px solid var(--sn-border);
+    margin: 18px 0;
+}
+
+.block-container {
+    padding-top: 1.4rem !important;
+    padding-bottom: 2rem !important;
+}
+
+/* ==========================================================
+   PAGE HEADER / MAIN TITLE
+   ========================================================== */
+
+.main-title {
+    background: var(--sn-gradient);
+    color: #ffffff;
+    padding: 28px 22px;
+    border-radius: var(--sn-radius-lg);
+    text-align: center;
+    box-shadow: var(--sn-shadow-md);
+}
+
+.main-title h1 {
+    margin: 0;
+    color: #ffffff !important;
+}
+
+.main-title p {
+    margin-top: 8px;
+    font-size: 15px;
+    color: #eafaf6;
+}
+
+.footer {
+    text-align: center;
+    color: var(--sn-text-muted);
+    margin-top: 30px;
+    font-size: 13px;
+}
+
+/* ==========================================================
+   SIDEBAR
+   ========================================================== */
+
+section[data-testid="stSidebar"] {
+    background: var(--sn-sidebar-bg) !important;
+    border-right: 1px solid var(--sn-sidebar-border) !important;
+}
+
+section[data-testid="stSidebar"] > div {
+    background: var(--sn-sidebar-bg) !important;
+}
+
+section[data-testid="stSidebar"] h1,
+section[data-testid="stSidebar"] h2,
+section[data-testid="stSidebar"] h3 {
+    font-size: 15px !important;
+    color: var(--sn-sidebar-heading) !important;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    font-weight: 700 !important;
+}
+
+section[data-testid="stSidebar"] p,
+section[data-testid="stSidebar"] span,
+section[data-testid="stSidebar"] label {
+    color: var(--sn-sidebar-text) !important;
+    font-size: 13.5px;
+}
+
+section[data-testid="stSidebar"] small,
+section[data-testid="stSidebar"] [data-testid="stCaptionContainer"] {
+    color: var(--sn-sidebar-text-muted) !important;
+}
+
+section[data-testid="stSidebar"] hr {
+    border-top: 1px solid var(--sn-sidebar-border);
+}
+
+/* Sidebar navigation links */
+section[data-testid="stSidebar"] [data-testid="stPageLink"],
+section[data-testid="stSidebar"] a {
+    border-radius: var(--sn-radius-sm) !important;
+    color: var(--sn-sidebar-text) !important;
+    font-weight: 500 !important;
+    transition: background 0.15s ease, color 0.15s ease;
+}
+
+section[data-testid="stSidebar"] [data-testid="stPageLink"] p,
+section[data-testid="stSidebar"] [data-testid="stPageLink"] span {
+    color: var(--sn-sidebar-text) !important;
+}
+
+section[data-testid="stSidebar"] [data-testid="stPageLink"]:hover,
+section[data-testid="stSidebar"] a:hover {
+    background: var(--sn-sidebar-bg-alt) !important;
+    color: #ffffff !important;
+}
+
+/* Active nav item indication */
+section[data-testid="stSidebar"] [aria-current="page"],
+section[data-testid="stSidebar"] [data-testid="stPageLink"][aria-current="page"] {
+    background: var(--sn-sidebar-bg-alt) !important;
+    border-left: 3px solid var(--sn-blue-500) !important;
+    color: #ffffff !important;
+    font-weight: 600 !important;
+}
+
+section[data-testid="stSidebar"] .stButton > button {
+    width: 100%;
+    justify-content: flex-start;
+}
+
+/* Sidebar text inputs / selects (e.g. developer/tech-stack sections) */
+section[data-testid="stSidebar"] .stTextInput input,
+section[data-testid="stSidebar"] .stSelectbox > div > div {
+    background: var(--sn-sidebar-bg-alt) !important;
+    border-color: var(--sn-sidebar-border) !important;
+    color: var(--sn-sidebar-text) !important;
+}
+
+section[data-testid="stSidebar"] .stAlert,
+section[data-testid="stSidebar"] div[data-testid="stAlert"] {
+    background: var(--sn-sidebar-bg-alt) !important;
+    border: 1px solid var(--sn-sidebar-border) !important;
+}
+
+section[data-testid="stSidebar"] .stAlert *,
+section[data-testid="stSidebar"] div[data-testid="stAlert"] * {
+    color: var(--sn-sidebar-text) !important;
+}
+
+/* About / Developer / Technologies cards (st.info, st.success in sidebar):
+   light card on the dark sidebar, with solid black text for clear readability */
+section[data-testid="stSidebar"] div[data-testid="stAlertContainer"] {
+    background: #ffffff !important;
+    border: 1px solid var(--sn-sidebar-border) !important;
+    border-radius: var(--sn-radius-md) !important;
+    box-shadow: none !important;
+}
+
+section[data-testid="stSidebar"] div[data-testid="stAlertContainer"] * {
+    color: #000000 !important;
+}
+
+/* ==========================================================
+   CHATBOT — chat history list (white card, black text)
+   ========================================================== */
+
+div[class*="st-key-chatbot_history_list"] .stButton > button,
+div[class*="st-key-chatbot_history_list"] button {
+    background: #ffffff !important;
+    border: 1px solid var(--sn-sidebar-border) !important;
+}
+
+div[class*="st-key-chatbot_history_list"] .stButton > button p,
+div[class*="st-key-chatbot_history_list"] .stButton > button span,
+div[class*="st-key-chatbot_history_list"] .stButton > button div,
+div[class*="st-key-chatbot_history_list"] button p,
+div[class*="st-key-chatbot_history_list"] button span,
+div[class*="st-key-chatbot_history_list"] button div {
+    color: #000000 !important;
+}
+
+div[class*="st-key-chatbot_history_list"] .stButton > button:hover,
+div[class*="st-key-chatbot_history_list"] button:hover {
+    background: var(--sn-blue-50) !important;
+    border-color: var(--sn-blue-500) !important;
+}
+
+/* ==========================================================
+   CHATBOT — Back to Home / Saved Notes / Clear Chat
+   match the "New Chat" primary button styling
+   ========================================================== */
+
+div[class*="st-key-chatbot_back_home"] .stButton > button,
+div[class*="st-key-chatbot_saved_notes"] .stButton > button,
+div[class*="st-key-chatbot_clear_chat"] .stButton > button,
+div[class*="st-key-chatbot_back_home"] button,
+div[class*="st-key-chatbot_saved_notes"] button,
+div[class*="st-key-chatbot_clear_chat"] button {
+    background: var(--sn-gradient) !important;
+    border: 1px solid transparent !important;
+}
+
+div[class*="st-key-chatbot_back_home"] .stButton > button p,
+div[class*="st-key-chatbot_saved_notes"] .stButton > button p,
+div[class*="st-key-chatbot_clear_chat"] .stButton > button p,
+div[class*="st-key-chatbot_back_home"] .stButton > button span,
+div[class*="st-key-chatbot_saved_notes"] .stButton > button span,
+div[class*="st-key-chatbot_clear_chat"] .stButton > button span,
+div[class*="st-key-chatbot_back_home"] button p,
+div[class*="st-key-chatbot_saved_notes"] button p,
+div[class*="st-key-chatbot_clear_chat"] button p,
+div[class*="st-key-chatbot_back_home"] button span,
+div[class*="st-key-chatbot_saved_notes"] button span,
+div[class*="st-key-chatbot_clear_chat"] button span {
+    color: #ffffff !important;
+    font-weight: 700 !important;
+}
+
+div[class*="st-key-chatbot_back_home"] .stButton > button:hover,
+div[class*="st-key-chatbot_saved_notes"] .stButton > button:hover,
+div[class*="st-key-chatbot_clear_chat"] .stButton > button:hover,
+div[class*="st-key-chatbot_back_home"] button:hover,
+div[class*="st-key-chatbot_saved_notes"] button:hover,
+div[class*="st-key-chatbot_clear_chat"] button:hover {
+    filter: brightness(1.06);
+    box-shadow: var(--sn-shadow-md) !important;
+}
+
+/* ==========================================================
+   IMAGE STUDY — upload button matches New Chat styling
+   ========================================================== */
+
+[data-testid="stFileUploaderDropzone"] button,
+[data-testid="stFileUploader"] button {
+    background: var(--sn-gradient) !important;
+    border: 1px solid transparent !important;
+    font-weight: 700 !important;
+}
+
+[data-testid="stFileUploaderDropzone"] button p,
+[data-testid="stFileUploaderDropzone"] button span,
+[data-testid="stFileUploader"] button p,
+[data-testid="stFileUploader"] button span {
+    color: #ffffff !important;
+    font-weight: 700 !important;
+}
+
+[data-testid="stFileUploaderDropzone"] button:hover,
+[data-testid="stFileUploader"] button:hover {
+    filter: brightness(1.06);
+    box-shadow: var(--sn-shadow-md) !important;
+}
+
+/* Bordered containers inside sidebar (About / Technologies / Developer cards) */
+section[data-testid="stSidebar"] div[data-testid="stVerticalBlockBorderWrapper"] {
+    background: var(--sn-sidebar-bg-alt) !important;
+    border: 1px solid var(--sn-sidebar-border) !important;
+    box-shadow: none !important;
+    border-radius: var(--sn-radius-md) !important;
+}
+
+section[data-testid="stSidebar"] div[data-testid="stVerticalBlockBorderWrapper"] * {
+    color: var(--sn-sidebar-text) !important;
+}
+
+section[data-testid="stSidebar"] div[data-testid="stVerticalBlockBorderWrapper"] h1,
+section[data-testid="stSidebar"] div[data-testid="stVerticalBlockBorderWrapper"] h2,
+section[data-testid="stSidebar"] div[data-testid="stVerticalBlockBorderWrapper"] h3,
+section[data-testid="stSidebar"] div[data-testid="stVerticalBlockBorderWrapper"] h4 {
+    color: var(--sn-sidebar-heading) !important;
+}
+
+section[data-testid="stSidebar"] div[data-testid="stVerticalBlockBorderWrapper"] small,
+section[data-testid="stSidebar"] div[data-testid="stVerticalBlockBorderWrapper"] [data-testid="stCaptionContainer"] {
+    color: var(--sn-sidebar-text-muted) !important;
+}
+
+/* ==========================================================
+   BUTTONS
+   ========================================================== */
+
+.stButton > button,
+.stDownloadButton > button,
+.stFormSubmitButton > button {
+    border-radius: var(--sn-radius-md) !important;
+    font-weight: 700 !important;
+    font-family: 'Poppins', sans-serif !important;
+    font-size: 14px !important;
+    padding: 0.5rem 1.1rem !important;
+    border: 1px solid transparent !important;
+    background: var(--sn-gradient) !important;
+    color: #ffffff !important;
+    box-shadow: none !important;
+    transition: filter 0.15s ease, box-shadow 0.15s ease !important;
+}
+
+.stButton > button:hover,
+.stDownloadButton > button:hover,
+.stFormSubmitButton > button:hover {
+    filter: brightness(1.06);
+    box-shadow: var(--sn-shadow-md) !important;
+    color: #ffffff !important;
+}
+
+.stButton > button p,
+.stDownloadButton > button p,
+.stFormSubmitButton > button p,
+.stButton > button span,
+.stDownloadButton > button span,
+.stFormSubmitButton > button span {
+    color: #ffffff !important;
+    font-weight: 700 !important;
+}
+
+/* Primary buttons (same gradient — kept for semantic "primary" usage) */
+.stButton > button[kind="primary"],
+.stDownloadButton > button[kind="primary"],
+.stFormSubmitButton > button[kind="primary"],
+button[kind="primaryFormSubmit"] {
+    background: var(--sn-gradient) !important;
+    border: 1px solid transparent !important;
+    color: #ffffff !important;
+}
+
+.stButton > button[kind="primary"]:hover,
+.stDownloadButton > button[kind="primary"]:hover,
+.stFormSubmitButton > button[kind="primary"]:hover,
+button[kind="primaryFormSubmit"]:hover {
+    filter: brightness(1.06);
+    box-shadow: var(--sn-shadow-md) !important;
+}
+
+/* Secondary buttons — slightly muted solid teal, still white bold text */
+.stButton > button[kind="secondary"],
+button[kind="secondary"] {
+    background: var(--sn-navy-900) !important;
+    border: 1px solid var(--sn-navy-900) !important;
+    color: #ffffff !important;
+    border-radius: var(--sn-radius-md) !important;
+}
+
+.stButton > button[kind="secondary"]:hover,
+button[kind="secondary"]:hover {
+    background: var(--sn-blue-600) !important;
+    border-color: var(--sn-blue-600) !important;
+}
+
+button:hover {
+    transition: 0.15s;
+}
+
+/* ==========================================================
+   INPUTS
+   ========================================================== */
+
+.stTextInput input,
+.stTextArea textarea,
+.stNumberInput input {
+    border: 1px solid var(--sn-border-strong) !important;
+    border-radius: var(--sn-radius-sm) !important;
+    background: #ffffff !important;
+    color: var(--sn-text-heading) !important;
+    box-shadow: none !important;
+    font-family: 'Poppins', sans-serif !important;
+}
+
+.stTextInput input:focus,
+.stTextArea textarea:focus,
+.stNumberInput input:focus {
+    border: 1px solid var(--sn-blue-500) !important;
+    box-shadow: 0 0 0 3px rgba(59, 116, 217, 0.14) !important;
+    outline: none !important;
+}
+
+.stSelectbox > div > div,
+.stMultiSelect > div > div {
+    border-radius: var(--sn-radius-sm) !important;
+    border: 1px solid var(--sn-border-strong) !important;
+}
+
+.stRadio label, .stCheckbox label {
+    color: var(--sn-text-body) !important;
+}
+
+[data-testid="stFileUploaderDropzone"] {
+    border-radius: var(--sn-radius-md) !important;
+    border: 1.5px dashed var(--sn-border-strong) !important;
+    background: var(--sn-blue-50) !important;
+}
+
+/* ==========================================================
+   CARDS / CONTAINERS
+   ========================================================== */
+
+div[data-testid="stVerticalBlockBorderWrapper"] {
+    border-radius: var(--sn-radius-lg) !important;
+    border: 1px solid var(--sn-border) !important;
+    background: var(--sn-card) !important;
+    box-shadow: var(--sn-shadow-sm) !important;
+}
+
+div[data-testid="stVerticalBlock"] > div:has(button) {
+    border-radius: var(--sn-radius-lg);
+}
+
+/* ==========================================================
+   METRICS
+   ========================================================== */
+
+div[data-testid="stMetric"] {
+    border-radius: var(--sn-radius-lg);
+    padding: 18px;
+    background: var(--sn-card);
+    border: 1px solid var(--sn-border);
+    box-shadow: var(--sn-shadow-sm);
+}
+
+div[data-testid="stMetric"] label {
+    color: var(--sn-text-muted) !important;
+    font-weight: 600 !important;
+    font-family: 'Poppins', sans-serif !important;
+}
+
+div[data-testid="stMetric"] [data-testid="stMetricValue"] {
+    color: var(--sn-navy-900) !important;
+    font-family: 'Poppins', sans-serif !important;
+    font-weight: 700 !important;
+}
+
+div[data-testid="stMetric"] [data-testid="stMetricDelta"] {
+    color: var(--sn-text-muted) !important;
+    font-family: 'Poppins', sans-serif !important;
+}
+
+/* ==========================================================
+   MESSAGES — success / info / warning / error
+   ========================================================== */
+
+.stAlert, div[data-testid="stAlert"] {
+    border-radius: var(--sn-radius-md) !important;
+    border: 1px solid var(--sn-border) !important;
+    box-shadow: none !important;
+}
+
+.stSuccess, div[data-testid="stAlertContainer"]:has([data-testid="stAlertContentSuccess"]) {
+    background: var(--sn-success-bg) !important;
+    border: 1px solid var(--sn-success-border) !important;
+    border-radius: var(--sn-radius-md) !important;
+}
+[data-testid="stAlertContentSuccess"], [data-testid="stAlertContentSuccess"] * {
+    color: var(--sn-success-text) !important;
+}
+
+.stInfo, div[data-testid="stAlertContainer"]:has([data-testid="stAlertContentInfo"]) {
+    background: var(--sn-info-bg) !important;
+    border: 1px solid var(--sn-info-border) !important;
+    border-radius: var(--sn-radius-md) !important;
+}
+[data-testid="stAlertContentInfo"], [data-testid="stAlertContentInfo"] * {
+    color: var(--sn-info-text) !important;
+}
+
+.stWarning, div[data-testid="stAlertContainer"]:has([data-testid="stAlertContentWarning"]) {
+    background: var(--sn-warning-bg) !important;
+    border: 1px solid var(--sn-warning-border) !important;
+    border-radius: var(--sn-radius-md) !important;
+}
+[data-testid="stAlertContentWarning"], [data-testid="stAlertContentWarning"] * {
+    color: var(--sn-warning-text) !important;
+}
+
+.stError, div[data-testid="stAlertContainer"]:has([data-testid="stAlertContentError"]) {
+    background: var(--sn-error-bg) !important;
+    border: 1px solid var(--sn-error-border) !important;
+    border-radius: var(--sn-radius-md) !important;
+}
+[data-testid="stAlertContentError"], [data-testid="stAlertContentError"] * {
+    color: var(--sn-error-text) !important;
+}
+
+/* ==========================================================
+   TABLES / DATAFRAMES
+   ========================================================== */
+
+[data-testid="stDataFrame"], [data-testid="stTable"] {
+    border-radius: var(--sn-radius-md) !important;
+    border: 1px solid var(--sn-border) !important;
+    overflow: hidden !important;
+}
+
+[data-testid="stDataFrame"] thead th {
+    background: var(--sn-blue-50) !important;
+    color: var(--sn-navy-900) !important;
+    font-weight: 700 !important;
+}
+
+/* ==========================================================
+   EXPANDERS
+   ========================================================== */
+
+.streamlit-expanderHeader {
+    font-weight: 600;
+    font-size: 15px;
+    color: var(--sn-text-heading);
+}
+
+details[data-testid="stExpander"] {
+    border: 1px solid var(--sn-border) !important;
+    border-radius: var(--sn-radius-md) !important;
+    background: var(--sn-card) !important;
+}
+
+/* ==========================================================
+   SPINNER
+   ========================================================== */
+
+.stSpinner > div {
+    color: var(--sn-blue-600);
+}
+
+/* ==========================================================
+   CHAT — messages, source box, input
+   ========================================================== */
+
+.chat-box {
+    background: var(--sn-card);
+    border-radius: var(--sn-radius-lg);
+    padding: 18px;
+    border: 1px solid var(--sn-border);
+    box-shadow: var(--sn-shadow-sm);
+    margin-bottom: 18px;
+}
+
+.user-msg {
+    background: var(--sn-navy-900);
+    color: #ffffff;
+    padding: 14px 16px;
+    border-radius: var(--sn-radius-md);
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.ai-msg {
+    background: var(--sn-blue-50);
+    color: var(--sn-text-heading);
+    padding: 16px;
+    border-radius: var(--sn-radius-md);
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.source-box {
+    background: #f8fafc;
+    border-left: 3px solid var(--sn-blue-500);
+    padding: 12px 14px;
+    border-radius: var(--sn-radius-sm);
+    margin-top: 8px;
+}
+
+/* Streamlit native chat bubbles */
+.stChatMessage[data-testid="stChatMessage"]:has([data-testid="chatAvatarIcon-user"]) {
+    background: #f7f9fc;
+    border-radius: var(--sn-radius-lg);
+    padding: 16px;
+    margin-bottom: 14px;
+    border: 1px solid var(--sn-border);
+    border-left: 4px solid var(--sn-navy-900);
+    box-shadow: none;
+}
+
+.stChatMessage[data-testid="stChatMessage"]:has([data-testid="chatAvatarIcon-assistant"]) {
+    background: #ffffff;
+    border-radius: var(--sn-radius-lg);
+    padding: 16px;
+    margin-bottom: 14px;
+    border: 1px solid var(--sn-border);
+    border-left: 4px solid var(--sn-indigo-400);
+    box-shadow: var(--sn-shadow-sm);
+}
+
+.stChatInput {
+    border-radius: var(--sn-radius-lg);
+}
+
+/* Main chat input container */
+[data-testid="stChatInputContainer"] {
+    background: transparent !important;
+    border: none !important;
+    box-shadow: none !important;
+}
+
+[data-testid="stChatInput"] {
+    background: #ffffff !important;
+    border: 1.5px solid var(--sn-border-strong) !important;
+    border-radius: var(--sn-radius-lg) !important;
+    box-shadow: var(--sn-shadow-sm) !important;
+}
+
+[data-testid="stChatInput"]:focus-within {
+    border-color: var(--sn-blue-500) !important;
+    box-shadow: 0 0 0 3px rgba(59, 116, 217, 0.14) !important;
+}
+
+[data-testid="stChatInput"] input {
+    border: none !important;
+    outline: none !important;
+    background: transparent !important;
+}
+
+/* Audio / microphone control inside chat input */
+[data-testid="stChatInput"] button {
+    border-radius: var(--sn-radius-sm) !important;
+}
+
+[data-testid="stChatInput"] button:hover {
+    background: var(--sn-blue-50) !important;
+}
+
+[data-testid="stChatInput"] button[aria-label*="audio"],
+[data-testid="stChatInput"] button[aria-label*="Audio"],
+[data-testid="stChatInput"] button[aria-label*="record"],
+[data-testid="stChatInput"] button[aria-label*="Record"] {
+    border: 1.5px solid var(--sn-border-strong) !important;
+    background: #f8fafc !important;
+    color: var(--sn-blue-600) !important;
+    border-radius: var(--sn-radius-sm) !important;
+}
+
+[data-testid="stChatInput"] button[aria-label*="audio"]:hover,
+[data-testid="stChatInput"] button[aria-label*="Audio"]:hover,
+[data-testid="stChatInput"] button[aria-label*="record"]:hover,
+[data-testid="stChatInput"] button[aria-label*="Record"]:hover {
+    background: var(--sn-blue-50) !important;
+    border-color: var(--sn-blue-500) !important;
+}
+
+div[data-testid="stAudioInput"] {
+    position: static !important;
+    top: auto !important;
+    left: auto !important;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+/* ==========================================================
+   HOME PAGE — FEATURE CARDS (academic notes / upload pdf)
+   ========================================================== */
+
+.st-key-academic_notes_card,
+.st-key-upload_pdf_card {
+    height: 100% !important;
+    min-height: 440px !important;
+    display: flex !important;
+    flex-direction: column !important;
+}
+
+.st-key-academic_notes_card div[data-testid="stAlert"],
+.st-key-upload_pdf_card div[data-testid="stAlert"] {
+    min-height: 440px !important;
+    height: 100% !important;
+    box-sizing: border-box !important;
+    border-radius: var(--sn-radius-lg) !important;
+    padding: 24px !important;
+    background: var(--sn-blue-50) !important;
+    border: 1px solid var(--sn-border-strong) !important;
+    box-shadow: var(--sn-shadow-sm) !important;
+    transition: box-shadow 0.2s ease !important;
+}
+
+.st-key-academic_notes_card div[data-testid="stAlert"]:hover,
+.st-key-upload_pdf_card div[data-testid="stAlert"]:hover {
+    box-shadow: var(--sn-shadow-md) !important;
+}
+
+.st-key-academic_notes_card div[data-testid="stAlert"] *,
+.st-key-upload_pdf_card div[data-testid="stAlert"] * {
+    color: var(--sn-navy-900) !important;
+}
+
+.st-key-academic_notes_card h3,
+.st-key-upload_pdf_card h3 {
+    color: var(--sn-navy-900) !important;
+    font-size: 22px !important;
+    font-weight: 700 !important;
+    margin-bottom: 10px !important;
+}
+
+.st-key-academic_notes_card h4,
+.st-key-upload_pdf_card h4 {
+    color: var(--sn-violet-600) !important;
+    font-size: 16px !important;
+    font-weight: 600 !important;
+}
+
+.st-key-academic_notes_card p,
+.st-key-upload_pdf_card p {
+    color: var(--sn-text-body) !important;
+    line-height: 1.7 !important;
+}
+
+.st-key-academic_notes_card li,
+.st-key-upload_pdf_card li {
+    color: var(--sn-text-body) !important;
+    margin-bottom: 6px !important;
+    line-height: 1.5 !important;
+}
+
+/* ==========================================================
+   ACTION BUTTONS — copy / regenerate / feedback
+   ========================================================== */
+
+div[data-testid="column"] {
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+}
+
+div[class*="st-key-copy_"] button,
+div[class*="st-key-regenerate_"] button {
+    width: 38px !important;
+    height: 38px !important;
+    min-width: 38px !important;
+    max-width: 38px !important;
+    min-height: 38px !important;
+    max-height: 38px !important;
+    box-sizing: border-box !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    border: 1px solid var(--sn-border-strong) !important;
+    background: #ffffff !important;
+    border-radius: var(--sn-radius-sm) !important;
+    box-shadow: none !important;
+}
+
+div[class*="st-key-copy_"] button:hover,
+div[class*="st-key-regenerate_"] button:hover {
+    background: var(--sn-blue-50) !important;
+    border-color: var(--sn-blue-500) !important;
+}
+
+div[class*="st-key-copy_"] button p {
+    font-size: 17px !important;
+    line-height: 1 !important;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+div[class*="st-key-regenerate_"] button p {
+    font-size: 20px !important;
+    line-height: 1 !important;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+/* Feedback (thumbs) component */
+[data-testid="stFeedback"] {
+    height: 38px !important;
+    min-height: 38px !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: flex-start !important;
+    gap: 8px !important;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+[data-testid="stFeedback"] button {
+    width: 38px !important;
+    height: 38px !important;
+    min-width: 38px !important;
+    max-width: 38px !important;
+    min-height: 38px !important;
+    max-height: 38px !important;
+    box-sizing: border-box !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    border: 1px solid var(--sn-border-strong) !important;
+    background: #ffffff !important;
+    border-radius: var(--sn-radius-sm) !important;
+    box-shadow: none !important;
+    transition: background 0.15s ease, border-color 0.15s ease !important;
+}
+
+[data-testid="stFeedback"] button:hover {
+    background: var(--sn-blue-50) !important;
+    border-color: var(--sn-blue-500) !important;
+}
+
+[data-testid="stFeedback"] button svg {
+    width: 16px !important;
+    height: 16px !important;
+    color: var(--sn-text-muted) !important;
+    stroke: var(--sn-text-muted) !important;
+    fill: none !important;
+    transition: all 0.15s ease !important;
+}
+
+[data-testid="stFeedback"] button:hover svg {
+    color: var(--sn-blue-600) !important;
+    stroke: var(--sn-blue-600) !important;
+}
+
+[data-testid="stFeedback"] button[aria-pressed="true"] {
+    background: var(--sn-blue-50) !important;
+    border: 1px solid var(--sn-blue-500) !important;
+    box-shadow: none !important;
+}
+
+[data-testid="stFeedback"] button[aria-pressed="true"] svg {
+    color: var(--sn-blue-600) !important;
+    stroke: var(--sn-blue-600) !important;
+    fill: var(--sn-blue-600) !important;
+}
+
+div[class*="st-key-feedback_rating_image"] {
+    height: 38px !important;
+    min-height: 38px !important;
+    display: flex !important;
+    align-items: center !important;
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+/* ==========================================================
+   SAVED NOTES PAGE
+   ========================================================== */
+
+.st-key-saved_notes_page {
+    max-width: 1500px;
+    margin: 0 auto;
+}
+
+.st-key-saved_notes_page,
+.st-key-saved_notes_page * {
+    font-family: 'Poppins', sans-serif !important;
+}
+
+.st-key-saved_notes_page h1,
+.st-key-saved_notes_page h2,
+.st-key-saved_notes_page h3,
+.st-key-saved_notes_page h4 {
+    font-family: 'Poppins', sans-serif !important;
+    font-weight: 700 !important;
+}
+
+.st-key-saved_notes_page h1 {
+    font-size: 30px !important;
+    margin-bottom: 2px !important;
+}
+
+.st-key-saved_notes_page div[data-testid="stMetric"] {
+    background: var(--sn-blue-50) !important;
+    border: 1px solid var(--sn-border-strong) !important;
+    border-radius: var(--sn-radius-lg) !important;
+    padding: 16px !important;
+    box-shadow: var(--sn-shadow-sm) !important;
+}
+
+.st-key-saved_notes_page div[data-testid="stMetric"] label {
+    color: var(--sn-navy-900) !important;
+    font-family: 'Poppins', sans-serif !important;
+    font-weight: 600 !important;
+}
+
+.st-key-saved_notes_page div[data-testid="stMetric"] [data-testid="stMetricValue"] {
+    color: var(--sn-navy-900) !important;
+    font-family: 'Poppins', sans-serif !important;
+    font-weight: 700 !important;
+}
+
+.st-key-saved_notes_page div[data-testid="stMetric"] [data-testid="stMetricDelta"] {
+    color: var(--sn-navy-900) !important;
+    font-family: 'Poppins', sans-serif !important;
+}
+
+.st-key-saved_notes_page div[data-testid="stTextInput"] input {
+    height: 42px !important;
+    border: 1px solid var(--sn-border-strong) !important;
+    border-radius: var(--sn-radius-sm) !important;
+    background: #ffffff !important;
+    box-shadow: none !important;
+    outline: none !important;
+}
+
+.st-key-saved_notes_page div[data-testid="stTextInput"] input:focus {
+    border: 1px solid var(--sn-blue-500) !important;
+    box-shadow: 0 0 0 3px rgba(59, 116, 217, 0.14) !important;
+}
+
+.st-key-saved_notes_page div[data-testid="stVerticalBlockBorderWrapper"] {
+    border-radius: var(--sn-radius-sm) !important;
+    border: 1px solid var(--sn-border) !important;
+    background: #ffffff !important;
+    margin-bottom: 8px !important;
+    padding: 4px !important;
+    box-shadow: none !important;
+}
+
+.st-key-saved_notes_page div[data-testid="stVerticalBlockBorderWrapper"] div[data-testid="stVerticalBlock"] {
+    gap: 4px !important;
+}
+
+.st-key-saved_notes_page div[data-testid="stVerticalBlockBorderWrapper"] p {
+    margin-top: 3px !important;
+    margin-bottom: 3px !important;
+}
+
+/* Open / remove icon buttons */
+div[class*="st-key-saved_note_actions_"] {
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+div[class*="st-key-saved_note_actions_"] button {
+    width: 36px !important;
+    height: 36px !important;
+    min-width: 36px !important;
+    max-width: 36px !important;
+    min-height: 36px !important;
+    max-height: 36px !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    background: transparent !important;
+    border: none !important;
+    box-shadow: none !important;
+    border-radius: var(--sn-radius-sm) !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    box-sizing: border-box !important;
+}
+
+div[class*="st-key-saved_note_actions_"] button,
+div[class*="st-key-saved_note_actions_"] button:hover,
+div[class*="st-key-saved_note_actions_"] button:focus,
+div[class*="st-key-saved_note_actions_"] button:active {
+    background: transparent !important;
+    border: none !important;
+    box-shadow: none !important;
+}
+
+div[class*="st-key-saved_note_actions_"] button p {
+    font-size: 21px !important;
+    line-height: 1 !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+}
+
+div[class*="st-key-saved_note_actions_"] button:hover {
+    background: var(--sn-blue-50) !important;
+}
+
+div[class*="st-key-saved_note_actions_"] div[data-testid="column"] + div[data-testid="column"] {
+    padding-left: 3px !important;
+}
+
+.st-key-saved_notes_page div[data-testid="stVerticalBlockBorderWrapper"] div[data-testid="column"] button:hover {
+    background: var(--sn-blue-50) !important;
+    border: none !important;
+}
+
+.st-key-saved_notes_page div[data-testid="stVerticalBlockBorderWrapper"] div[data-testid="column"] + div[data-testid="column"] {
+    padding-left: 4px !important;
+}
+
+.st-key-saved_notes_page div[data-testid="stAlert"] {
+    border-radius: var(--sn-radius-sm) !important;
+}
+
+.st-key-saved_notes_page div[data-testid="stVerticalBlockBorderWrapper"] {
+    border-radius: var(--sn-radius-sm) !important;
+}
+
+@media (max-width: 900px) {
+    .st-key-saved_notes_page h1 {
+        font-size: 26px !important;
+    }
+}
+
+/* ==========================================================
+   LOGIN + SIGNUP
+   ========================================================== */
+
+div[data-testid="stForm"],
+.st-key-login_button,
+.st-key-signup_button {
+    font-family: 'Poppins', sans-serif !important;
+}
+
+h2, h3 {
+    font-family: 'Poppins', sans-serif !important;
+}
+
+.st-key-login_button button,
+.st-key-signup_button button {
+    min-height: 44px !important;
+    height: 44px !important;
+    border-radius: var(--sn-radius-md) !important;
+    font-size: 15px !important;
+    font-weight: 600 !important;
+}
+
+.stTextInput input {
+    min-height: 42px !important;
+    border-radius: var(--sn-radius-sm) !important;
+}
+
+/* Authentication card */
+div[data-testid="stForm"] {
+    border-radius: var(--sn-radius-lg) !important;
+    border: 1px solid var(--sn-border) !important;
+    background: #ffffff !important;
+    box-shadow: var(--sn-shadow-sm) !important;
+    padding: 8px !important;
+}
+
+/* ==========================================================
+   TOP-RIGHT USER PROFILE
+   ========================================================== */
+
+.st-key-home_user_profile {
+    width: 100% !important;
+    margin-left: auto !important;
+    margin-right: 0 !important;
+    padding: 10px 12px 8px 12px !important;
+    border-radius: var(--sn-radius-md) !important;
+    background: #ffffff !important;
+    border: 1px solid var(--sn-border) !important;
+    box-shadow: var(--sn-shadow-sm) !important;
+    text-align: right !important;
+}
+
+.home-profile-name {
+    color: var(--sn-navy-900) !important;
+    font-family: 'Poppins', sans-serif !important;
+    font-size: 14px !important;
+    font-weight: 600 !important;
+    line-height: 1.35 !important;
+    white-space: nowrap !important;
+    overflow: hidden !important;
+    text-overflow: ellipsis !important;
+}
+
+.home-profile-email {
+    color: var(--sn-text-muted) !important;
+    font-family: 'Poppins', sans-serif !important;
+    font-size: 11px !important;
+    line-height: 1.35 !important;
+    margin-top: 2px !important;
+    margin-bottom: 7px !important;
+    white-space: nowrap !important;
+    overflow: hidden !important;
+    text-overflow: ellipsis !important;
+}
+
+.st-key-home_logout_button button {
+    width: 100% !important;
+    height: 32px !important;
+    min-height: 32px !important;
+    max-height: 32px !important;
+    padding: 4px 10px !important;
+    margin: 0 !important;
+    border-radius: var(--sn-radius-sm) !important;
+    border: 1px solid var(--sn-border-strong) !important;
+    background: #f8fafc !important;
+    color: var(--sn-text-body) !important;
+    font-family: 'Poppins', sans-serif !important;
+    font-size: 12px !important;
+    font-weight: 600 !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    box-shadow: none !important;
+    transition: background 0.15s ease, border-color 0.15s ease !important;
+}
+
+.st-key-home_logout_button button:hover {
+    background: var(--sn-blue-50) !important;
+    border-color: var(--sn-blue-500) !important;
+    color: var(--sn-navy-900) !important;
+}
+
+.st-key-home_user_profile div[data-testid="stVerticalBlock"] {
+    gap: 2px !important;
+}
+
+@media (max-width: 900px) {
+    .st-key-home_user_profile {
+        width: 100% !important;
+        padding: 9px !important;
+    }
+    .home-profile-name {
+        font-size: 13px !important;
+    }
+    .home-profile-email {
+        font-size: 10px !important;
+    }
+}
+
+/* ==========================================================
+   RESPONSIVE — general
+   ========================================================== */
+
+@media (max-width: 900px) {
+    h1 { font-size: 26px !important; }
+    .main-title h1 { font-size: 26px !important; }
+}

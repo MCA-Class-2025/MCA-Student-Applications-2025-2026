@@ -20,10 +20,45 @@ FinSight AI is a corporate travel analytics application developed using Python a
 The project includes data preparation and fusion workflows, data-quality checks, exploratory data analysis and an interactive dashboard. The dashboard is designed to make travel information easier to explore through summary views, filters and visual analytics.
 
 ## Dashboard Screenshot
+## Dashboard Screenshots
 
-The screenshot below shows the FinSight AI dashboard interface, including the workspace navigation and the Ask FinSight question panel.
+The following screenshots show the different pages and interactive visualizations of the FinSight AI application.
 
-![FinSight AI dashboard home](screenshots/dashboard-home.png)
+### 1. Dashboard Overview
+![Dashboard Overview](screenshots/Screenshot%202026-11-16%20225458.png)
+
+### 2. Analytics Dashboard
+![Analytics Dashboard](screenshots/Screenshot%202026-11-16%20225521.png)
+
+### 3. Travel Analytics
+![Travel Analytics](screenshots/Screenshot%202026-11-16%20225540.png)
+
+### 4. Expense Analysis
+![Expense Analysis](screenshots/Screenshot%202026-11-16%20225557.png)
+
+### 5. Company Analysis
+![Company Analysis](screenshots/Screenshot%202026-11-16%20225611.png)
+
+### 6. Travel Trends
+![Travel Trends](screenshots/Screenshot%202026-11-16%20225641.png)
+
+### 7. Data Exploration
+![Data Exploration](screenshots/Screenshot%202026-11-16%20225700.png)
+
+### 8. API and Data Fusion
+![API and Data Fusion](screenshots/Screenshot%202026-11-16%20225713.png)
+
+### 9. Data Quality Analysis
+![Data Quality Analysis](screenshots/Screenshot%202026-11-16%20225728.png)
+
+### 10. Expense Visualizations
+![Expense Visualizations](screenshots/Screenshot%202026-11-16%20225742.png)
+
+### 11. Interactive Analytics
+![Interactive Analytics](screenshots/Screenshot%202026-11-16%20225756.png)
+
+### 12. Ask FinSight AI
+![Ask FinSight AI](screenshots/Screenshot%202026-11-16%20225816.png)
 
 ## Main Application Sections
 

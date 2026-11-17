@@ -1,0 +1,31 @@
+
+streamlit
+streamlit-option-menu
+
+pymupdf
+pypdf
+
+pandas
+numpy
+matplotlib
+plotly
+
+Pillow
+requests
+python-dotenv
+
+# Phase 2: semantic retrieval
+# pip install -r requirements-phase2.txt
+sentence-transformers
+faiss-cpu
+
+# Optional cloud AI: Gemini answers, translation, and visual descriptions.
+google-genai
+
+# Phase 4: evaluation
+# pip install -r requirements-phase.txt
+# NOTE: ragas pulls in a fairly heavy dependency tree (datasets, etc.).
+# The Evaluation page's CSV/JSON export works without this installed --
+# only the in-app "Run RAGAS evaluation" button needs it.
+ragas
+datasets

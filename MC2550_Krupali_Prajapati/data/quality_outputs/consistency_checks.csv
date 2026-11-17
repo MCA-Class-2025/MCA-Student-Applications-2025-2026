@@ -1,0 +1,12 @@
+Attribute,Check,Invalid Count,Details
+Country Code,ISO Alpha-3 format,0,Must contain exactly three uppercase letters
+ISO Alpha-2,ISO Alpha-2 format,0,Must contain exactly two uppercase letters
+Currency Code,Currency code format,0,Currency codes should contain three uppercase letters
+Country Name,Leading/trailing whitespace,0,Country names should not contain leading/trailing spaces
+Region,Missing category,0,Region should be populated where source data provides it
+Subregion,Missing category,0,Subregion may be unavailable for some records
+Latitude,Valid geographic range,0,Valid range is -90 to +90 degrees
+Longitude,Valid geographic range,0,Valid range is -180 to +180 degrees
+Capital Latitude,Valid geographic range,0,Valid range is -90 to +90 degrees
+Capital Longitude,Valid geographic range,0,Valid range is -180 to +180 degrees
+Currency,Currency Code vs Frankfurter Currency Code,0,Compared the primary country currency with the Frankfurter currency code

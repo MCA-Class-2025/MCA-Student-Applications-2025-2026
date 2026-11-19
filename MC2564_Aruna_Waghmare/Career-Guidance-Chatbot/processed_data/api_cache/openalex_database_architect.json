@@ -1,0 +1,3857 @@
+{
+  "meta": {
+    "notice": "No API key, so this request shares one free daily budget ($0.10) with everyone on your network's IP address. Get a free key with its own $1/day at https://openalex.org/settings/api and add api_key=YOUR_KEY to your requests. An AI agent can get one for its user in one call: POST https://api.openalex.org/api-keys with {\"email\": \"<your user's email>\"}; we email them a link, and the key works once they click it. Docs for agents: https://help.openalex.org/llms.txt",
+    "count": 132348,
+    "db_response_time_ms": 304,
+    "page": 1,
+    "per_page": 5,
+    "groups_count": null,
+    "x_query": {
+      "oql": "get works with (DATABASE ARCHITECT) in the title, abstract, or full text",
+      "x_new_oql": "get works with (DATABASE ARCHITECT) in the title, abstract, or full text",
+      "oqo": {
+        "get_rows": "works",
+        "filter_rows": [
+          {
+            "column_id": "fulltext.search",
+            "value": "DATABASE ARCHITECT",
+            "operator": "has"
+          }
+        ]
+      },
+      "url": "/works?filter=fulltext.search:DATABASE ARCHITECT&per_page=5",
+      "order": "best matches first",
+      "order_default": true
+    },
+    "cost_usd": 0.001
+  },
+  "results": [
+    {
+      "id": "https://openalex.org/W4391420866",
+      "doi": "https://doi.org/10.48550/arxiv.2401.16552",
+      "title": "ONDA: ONline Database Architect",
+      "display_name": "ONDA: ONline Database Architect",
+      "relevance_score": 129.31418,
+      "publication_year": 2024,
+      "publication_date": "2024-01-29",
+      "ids": {
+        "openalex": "https://openalex.org/W4391420866",
+        "doi": "https://doi.org/10.48550/arxiv.2401.16552"
+      },
+      "language": "en",
+      "primary_location": {
+        "id": "pmh:oai:arXiv.org:2401.16552",
+        "doi": null,
+        "is_oa": true,
+        "landing_page_url": "http://arxiv.org/abs/2401.16552",
+        "pdf_url": "https://arxiv.org/pdf/2401.16552",
+        "source": {
+          "id": "https://openalex.org/S4306400194",
+          "display_name": "arXiv (Cornell University)",
+          "issn_l": "2331-8422",
+          "issn": [
+            "2331-8422"
+          ],
+          "is_oa": true,
+          "is_in_doaj": false,
+          "is_core": false,
+          "listed_in": [],
+          "host_organization": "https://openalex.org/I205783295",
+          "host_organization_name": "Cornell University",
+          "host_organization_lineage": [
+            "https://openalex.org/I205783295"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": "cc-by-nc-sa",
+        "license_id": "https://openalex.org/licenses/cc-by-nc-sa",
+        "version": "submittedVersion",
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": null,
+        "raw_type": "text"
+      },
+      "parent_works": [],
+      "lineage": [
+        "https://openalex.org/W4391420866"
+      ],
+      "child_works_count": 0,
+      "type": "preprint",
+      "is_traditional": true,
+      "indexed_in": [
+        "arxiv",
+        "datacite"
+      ],
+      "open_access": {
+        "is_oa": true,
+        "oa_status": "green",
+        "oa_url": "https://arxiv.org/pdf/2401.16552",
+        "any_repository_has_fulltext": true
+      },
+      "authorships": [
+        {
+          "author_position": "first",
+          "author": {
+            "id": "https://openalex.org/A5063901162",
+            "display_name": "Nuno Laranjeiro",
+            "orcid": "https://orcid.org/0000-0003-0011-9901",
+            "observed_orcids": [
+              "https://orcid.org/0000-0003-0011-9901"
+            ]
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I76903346",
+              "display_name": "University of Coimbra",
+              "ror": "https://ror.org/04z8k9a98",
+              "country_code": "PT",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I76903346"
+              ]
+            }
+          ],
+          "countries": [
+            "PT"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "Laranjeiro, Nuno",
+          "raw_affiliation_strings": [
+            "University of Coimbra , CISUC , DEI Portugal"
+          ],
+          "raw_orcid": null,
+          "affiliations": [
+            {
+              "raw_affiliation_string": "University of Coimbra , CISUC , DEI Portugal",
+              "institution_ids": [
+                "https://openalex.org/I76903346"
+              ]
+            }
+          ]
+        },
+        {
+          "author_position": "last",
+          "author": {
+            "id": "https://openalex.org/A5090029669",
+            "display_name": "Alexandre Miguel Pinto",
+            "orcid": "https://orcid.org/0000-0003-0577-0939",
+            "observed_orcids": [
+              "https://orcid.org/0000-0003-0577-0939"
+            ]
+          },
+          "institutions": [],
+          "countries": [],
+          "is_corresponding": false,
+          "raw_author_name": "Pinto, Alexandre Miguel",
+          "raw_affiliation_strings": [],
+          "raw_orcid": null,
+          "affiliations": []
+        }
+      ],
+      "institutions": [],
+      "countries_distinct_count": 1,
+      "institutions_distinct_count": 1,
+      "corresponding_author_ids": [],
+      "corresponding_institution_ids": [],
+      "apc_list": null,
+      "apc_paid": null,
+      "fwci": null,
+      "is_authors_truncated": false,
+      "has_fulltext": true,
+      "cited_by_count": 1,
+      "citation_normalized_percentile": null,
+      "cited_by_percentile_year": null,
+      "biblio": {
+        "volume": null,
+        "issue": null,
+        "first_page": null,
+        "last_page": null
+      },
+      "is_retracted": false,
+      "is_paratext": false,
+      "is_xpac": false,
+      "primary_topic": {
+        "id": "https://openalex.org/T13681",
+        "display_name": "Engineering and Information Technology",
+        "score": 0.6226000189781189,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1712",
+          "display_name": "Software"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      "topics": [
+        {
+          "id": "https://openalex.org/T13681",
+          "display_name": "Engineering and Information Technology",
+          "score": 0.6226000189781189,
+          "subfield": {
+            "id": "https://openalex.org/subfields/1712",
+            "display_name": "Software"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/17",
+            "display_name": "Computer Science"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T10317",
+          "display_name": "Advanced Database Systems and Queries",
+          "score": 0.11940000206232071,
+          "subfield": {
+            "id": "https://openalex.org/subfields/1710",
+            "display_name": "Information Systems"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/17",
+            "display_name": "Computer Science"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T10533",
+          "display_name": "Teaching and Learning Programming",
+          "score": 0.0430000014603138,
+          "subfield": {
+            "id": "https://openalex.org/subfields/1706",
+            "display_name": "Computer Science Applications"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/17",
+            "display_name": "Computer Science"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        }
+      ],
+      "keywords": [
+        {
+          "id": "https://openalex.org/keywords/database-modeling",
+          "display_name": "database modeling",
+          "score": 0.8149999976158142
+        },
+        {
+          "id": "https://openalex.org/keywords/entity-relationship-diagram",
+          "display_name": "entity relationship diagram",
+          "score": 0.8880000114440918
+        },
+        {
+          "id": "https://openalex.org/keywords/web-based-tool",
+          "display_name": "web-based tool",
+          "score": 0.6800000071525574
+        },
+        {
+          "id": "https://openalex.org/keywords/sql-code-generation",
+          "display_name": "SQL code generation",
+          "score": 0.8539999723434448
+        },
+        {
+          "id": "https://openalex.org/keywords/database-education",
+          "display_name": "database education",
+          "score": 0.7630000114440918
+        },
+        {
+          "id": "https://openalex.org/keywords/open-source-software",
+          "display_name": "open source software",
+          "score": 0.6340000033378601
+        }
+      ],
+      "concepts": [
+        {
+          "id": "https://openalex.org/C136764020",
+          "wikidata": "https://www.wikidata.org/wiki/Q466",
+          "display_name": "World Wide Web",
+          "level": 1,
+          "score": 0.44219163060188293
+        },
+        {
+          "id": "https://openalex.org/C77088390",
+          "wikidata": "https://www.wikidata.org/wiki/Q8513",
+          "display_name": "Database",
+          "level": 1,
+          "score": 0.4209180176258087
+        },
+        {
+          "id": "https://openalex.org/C2777715827",
+          "wikidata": "https://www.wikidata.org/wiki/Q7094076",
+          "display_name": "Online database",
+          "level": 2,
+          "score": 0.4154803156852722
+        },
+        {
+          "id": "https://openalex.org/C41008148",
+          "wikidata": "https://www.wikidata.org/wiki/Q21198",
+          "display_name": "Computer science",
+          "level": 0,
+          "score": 0.3796849548816681
+        },
+        {
+          "id": "https://openalex.org/C127413603",
+          "wikidata": "https://www.wikidata.org/wiki/Q11023",
+          "display_name": "Engineering",
+          "level": 0,
+          "score": 0.3518267869949341
+        }
+      ],
+      "mesh": [],
+      "locations_count": 2,
+      "locations": [
+        {
+          "id": "pmh:oai:arXiv.org:2401.16552",
+          "doi": null,
+          "is_oa": true,
+          "landing_page_url": "http://arxiv.org/abs/2401.16552",
+          "pdf_url": "https://arxiv.org/pdf/2401.16552",
+          "source": {
+            "id": "https://openalex.org/S4306400194",
+            "display_name": "arXiv (Cornell University)",
+            "issn_l": "2331-8422",
+            "issn": [
+              "2331-8422"
+            ],
+            "is_oa": true,
+            "is_in_doaj": false,
+            "is_core": false,
+            "listed_in": [],
+            "host_organization": "https://openalex.org/I205783295",
+            "host_organization_name": "Cornell University",
+            "host_organization_lineage": [
+              "https://openalex.org/I205783295"
+            ],
+            "host_organization_lineage_names": [],
+            "type": "repository"
+          },
+          "license": "cc-by-nc-sa",
+          "license_id": "https://openalex.org/licenses/cc-by-nc-sa",
+          "version": "submittedVersion",
+          "is_accepted": false,
+          "is_published": false,
+          "raw_source_name": null,
+          "raw_type": "text"
+        },
+        {
+          "id": "doi:10.48550/arxiv.2401.16552",
+          "doi": "https://doi.org/10.48550/arxiv.2401.16552",
+          "is_oa": true,
+          "landing_page_url": "https://doi.org/10.48550/arxiv.2401.16552",
+          "pdf_url": null,
+          "source": {
+            "id": "https://openalex.org/S4306400194",
+            "display_name": "arXiv (Cornell University)",
+            "issn_l": "2331-8422",
+            "issn": [
+              "2331-8422"
+            ],
+            "is_oa": true,
+            "is_in_doaj": false,
+            "is_core": false,
+            "listed_in": [],
+            "host_organization": "https://openalex.org/I205783295",
+            "host_organization_name": "Cornell University",
+            "host_organization_lineage": [
+              "https://openalex.org/I205783295"
+            ],
+            "host_organization_lineage_names": [],
+            "type": "repository"
+          },
+          "license": "cc-by-nc-sa",
+          "license_id": "https://openalex.org/licenses/cc-by-nc-sa",
+          "version": null,
+          "is_accepted": false,
+          "is_published": false,
+          "raw_source_name": null,
+          "raw_type": "Preprint"
+        }
+      ],
+      "best_oa_location": {
+        "id": "pmh:oai:arXiv.org:2401.16552",
+        "doi": null,
+        "is_oa": true,
+        "landing_page_url": "http://arxiv.org/abs/2401.16552",
+        "pdf_url": "https://arxiv.org/pdf/2401.16552",
+        "source": {
+          "id": "https://openalex.org/S4306400194",
+          "display_name": "arXiv (Cornell University)",
+          "issn_l": "2331-8422",
+          "issn": [
+            "2331-8422"
+          ],
+          "is_oa": true,
+          "is_in_doaj": false,
+          "is_core": false,
+          "listed_in": [],
+          "host_organization": "https://openalex.org/I205783295",
+          "host_organization_name": "Cornell University",
+          "host_organization_lineage": [
+            "https://openalex.org/I205783295"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": "cc-by-nc-sa",
+        "license_id": "https://openalex.org/licenses/cc-by-nc-sa",
+        "version": "submittedVersion",
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": null,
+        "raw_type": "text"
+      },
+      "sustainable_development_goals": [],
+      "study_designs": [],
+      "awards": [
+        {
+          "id": "https://openalex.org/G1779328845",
+          "display_name": "CENTRO DE INFORMÁTICA E SISTEMAS DA UNIVERSIDADE DE COIMBRA",
+          "funder_award_id": "UIDB/00326/2020",
+          "funder_id": "https://openalex.org/F4320334779",
+          "funder_display_name": "Fundação para a Ciência e a Tecnologia"
+        },
+        {
+          "id": "https://openalex.org/G433596833",
+          "display_name": "CENTRO DE INFORMÁTICA E SISTEMAS DA UNIVERSIDADE DE COIMBRA",
+          "funder_award_id": "UIDP/00326/2020",
+          "funder_id": "https://openalex.org/F4320334779",
+          "funder_display_name": "Fundação para a Ciência e a Tecnologia"
+        },
+        {
+          "id": "https://openalex.org/G441428359",
+          "display_name": null,
+          "funder_award_id": "UIDB/00326",
+          "funder_id": "https://openalex.org/F4320334779",
+          "funder_display_name": "Fundação para a Ciência e a Tecnologia"
+        },
+        {
+          "id": "https://openalex.org/G4811366021",
+          "display_name": null,
+          "funder_award_id": "00326",
+          "funder_id": "https://openalex.org/F4320334779",
+          "funder_display_name": "Fundação para a Ciência e a Tecnologia"
+        },
+        {
+          "id": "https://openalex.org/G8596655568",
+          "display_name": null,
+          "funder_award_id": "UIDP/00326/2020",
+          "funder_id": "https://openalex.org/F4320323642",
+          "funder_display_name": "Ministério da Ciência, Tecnologia e Ensino Superior"
+        }
+      ],
+      "funders": [
+        {
+          "id": "https://openalex.org/F4320323642",
+          "display_name": "Ministério da Ciência, Tecnologia e Ensino Superior",
+          "ror": "https://ror.org/045b9pr88"
+        },
+        {
+          "id": "https://openalex.org/F4320334779",
+          "display_name": "Fundação para a Ciência e a Tecnologia",
+          "ror": "https://ror.org/00snfqn58"
+        }
+      ],
+      "has_content": {
+        "pdf": true,
+        "grobid_xml": true
+      },
+      "content_urls": {
+        "pdf": "https://content.openalex.org/works/W4391420866.pdf",
+        "grobid_xml": "https://content.openalex.org/works/W4391420866.grobid-xml"
+      },
+      "referenced_works_count": 9,
+      "referenced_works": [
+        "https://openalex.org/W2025934255",
+        "https://openalex.org/W2041191762",
+        "https://openalex.org/W2073040364",
+        "https://openalex.org/W2116436709",
+        "https://openalex.org/W2133384222",
+        "https://openalex.org/W2185907055",
+        "https://openalex.org/W2945526390",
+        "https://openalex.org/W4382520407",
+        "https://openalex.org/W4386768483"
+      ],
+      "related_works": [
+        "https://openalex.org/W2423785533",
+        "https://openalex.org/W7064926133",
+        "https://openalex.org/W4400224613",
+        "https://openalex.org/W2182860203",
+        "https://openalex.org/W2799292446",
+        "https://openalex.org/W2907741474",
+        "https://openalex.org/W7006565801",
+        "https://openalex.org/W7214303757",
+        "https://openalex.org/W348000857",
+        "https://openalex.org/W2097064797"
+      ],
+      "abstract_inverted_index": {
+        "Database": [
+          0
+        ],
+        "modeling": [
+          1,
+          18
+        ],
+        "is": [
+          2,
+          74
+        ],
+        "a": [
+          3,
+          44
+        ],
+        "key": [
+          4
+        ],
+        "activity": [
+          5
+        ],
+        "towards": [
+          6
+        ],
+        "the": [
+          7,
+          13,
+          49,
+          55,
+          83,
+          94,
+          98
+        ],
+        "fulfillment": [
+          8
+        ],
+        "of": [
+          9,
+          15,
+          51,
+          57,
+          61,
+          66,
+          85,
+          96
+        ],
+        "storage": [
+          10
+        ],
+        "requirements.": [
+          11
+        ],
+        "Despite": [
+          12
+        ],
+        "availability": [
+          14
+        ],
+        "several": [
+          16
+        ],
+        "database": [
+          17,
+          71,
+          91
+        ],
+        "tools": [
+          19
+        ],
+        "for": [
+          20,
+          69
+        ],
+        "developers,": [
+          21
+        ],
+        "these": [
+          22
+        ],
+        "often": [
+          23
+        ],
+        "come": [
+          24
+        ],
+        "with": [
+          25,
+          82
+        ],
+        "associated": [
+          26
+        ],
+        "costs,": [
+          27
+        ],
+        "setup": [
+          28
+        ],
+        "complexities,": [
+          29
+        ],
+        "usability": [
+          30
+        ],
+        "challenges,": [
+          31
+        ],
+        "or": [
+          32
+        ],
+        "dependency": [
+          33
+        ],
+        "on": [
+          34
+        ],
+        "specific": [
+          35
+        ],
+        "operating": [
+          36
+        ],
+        "systems.": [
+          37
+        ],
+        "In": [
+          38
+        ],
+        "this": [
+          39
+        ],
+        "paper": [
+          40
+        ],
+        "we": [
+          41
+        ],
+        "present": [
+          42
+        ],
+        "ONDA,": [
+          43
+        ],
+        "web-based": [
+          45
+        ],
+        "tool": [
+          46,
+          99
+        ],
+        "developed": [
+          47
+        ],
+        "at": [
+          48,
+          77,
+          89
+        ],
+        "University": [
+          50
+        ],
+        "Coimbra,": [
+          52
+        ],
+        "that": [
+          53
+        ],
+        "allows": [
+          54
+        ],
+        "creation": [
+          56
+        ],
+        "Entity-Relationship": [
+          58
+        ],
+        "diagrams,": [
+          59
+        ],
+        "visualization": [
+          60
+        ],
+        "physical": [
+          62
+        ],
+        "models,": [
+          63
+        ],
+        "and": [
+          64,
+          79
+        ],
+        "generation": [
+          65
+        ],
+        "SQL": [
+          67
+        ],
+        "code": [
+          68
+        ],
+        "various": [
+          70
+        ],
+        "engines.": [
+          72
+        ],
+        "ONDA": [
+          73
+        ],
+        "freely": [
+          75
+        ],
+        "available": [
+          76
+        ],
+        "https://onda.dei.uc.pt": [
+          78
+        ],
+        "was": [
+          80
+        ],
+        "created": [
+          81
+        ],
+        "intention": [
+          84
+        ],
+        "supporting": [
+          86
+        ],
+        "teaching": [
+          87
+        ],
+        "activities": [
+          88
+        ],
+        "university-level": [
+          90
+        ],
+        "courses.": [
+          92
+        ],
+        "At": [
+          93
+        ],
+        "time": [
+          95
+        ],
+        "writing,": [
+          97
+        ],
+        "being": [
+          100
+        ],
+        "used": [
+          101
+        ],
+        "by": [
+          102
+        ],
+        "more": [
+          103
+        ],
+        "than": [
+          104
+        ],
+        "three": [
+          105
+        ],
+        "hundred": [
+          106
+        ],
+        "university": [
+          107
+        ],
+        "students": [
+          108
+        ],
+        "every": [
+          109
+        ],
+        "academic": [
+          110
+        ],
+        "year.": [
+          111
+        ]
+      },
+      "counts_by_year": [
+        {
+          "year": 2025,
+          "cited_by_count": 1
+        }
+      ],
+      "updated_date": "2026-11-13T13:42:25.865203",
+      "created_date": "2024-02-01T00:00:00"
+    },
+    {
+      "id": "https://openalex.org/W7131096453",
+      "doi": "https://doi.org/10.5281/zenodo.18749249",
+      "title": "AN ORACLE 23AI DATABASE ARCHITECT: DESIGNING, BUILDING, AND MANAGING DATABASE SYSTEMS WITH NATIVE AI CAPABILITIES",
+      "display_name": "AN ORACLE 23AI DATABASE ARCHITECT: DESIGNING, BUILDING, AND MANAGING DATABASE SYSTEMS WITH NATIVE AI CAPABILITIES",
+      "relevance_score": 110.591225,
+      "publication_year": 2025,
+      "publication_date": "2025-10-23",
+      "ids": {
+        "openalex": "https://openalex.org/W7131096453",
+        "doi": "https://doi.org/10.5281/zenodo.18749249"
+      },
+      "language": "en",
+      "primary_location": {
+        "id": "pmh:oai:ojs2.academicsocialresearch.co.in:article/50",
+        "doi": null,
+        "is_oa": true,
+        "landing_page_url": "https://academicsocialresearch.co.in/index.php/ASR/article/view/50",
+        "pdf_url": "https://academicsocialresearch.co.in/index.php/ASR/article/download/50/45",
+        "source": {
+          "id": "https://openalex.org/S7407077181",
+          "display_name": "Academic Social Research",
+          "issn_l": "2456-2645",
+          "issn": [
+            "2456-2645"
+          ],
+          "is_oa": true,
+          "is_in_doaj": false,
+          "is_core": false,
+          "listed_in": [],
+          "host_organization": null,
+          "host_organization_name": null,
+          "host_organization_lineage": [],
+          "host_organization_lineage_names": [],
+          "type": "journal"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "2456-2645",
+        "raw_type": "info:eu-repo/semantics/article"
+      },
+      "parent_works": [],
+      "lineage": [
+        "https://openalex.org/W7131096453"
+      ],
+      "child_works_count": 0,
+      "type": "article",
+      "is_traditional": true,
+      "indexed_in": [
+        "datacite"
+      ],
+      "open_access": {
+        "is_oa": true,
+        "oa_status": "diamond",
+        "oa_url": "https://academicsocialresearch.co.in/index.php/ASR/article/download/50/45",
+        "any_repository_has_fulltext": true
+      },
+      "authorships": [
+        {
+          "author_position": "first",
+          "author": {
+            "id": "https://openalex.org/A5126622267",
+            "display_name": "SUMIT GUPTA",
+            "orcid": null,
+            "observed_orcids": []
+          },
+          "institutions": [],
+          "countries": [],
+          "is_corresponding": true,
+          "raw_author_name": "GUPTA, SUMIT",
+          "raw_affiliation_strings": [],
+          "raw_orcid": null,
+          "affiliations": []
+        }
+      ],
+      "institutions": [],
+      "countries_distinct_count": 0,
+      "institutions_distinct_count": 0,
+      "corresponding_author_ids": [
+        "https://openalex.org/A5126622267"
+      ],
+      "corresponding_institution_ids": [],
+      "apc_list": null,
+      "apc_paid": null,
+      "fwci": 2.8846,
+      "is_authors_truncated": false,
+      "has_fulltext": true,
+      "cited_by_count": 5,
+      "citation_normalized_percentile": {
+        "value": 0.90736677,
+        "is_in_top_1_percent": false,
+        "is_in_top_10_percent": true
+      },
+      "cited_by_percentile_year": {
+        "min": 97,
+        "max": 98
+      },
+      "biblio": {
+        "volume": null,
+        "issue": null,
+        "first_page": null,
+        "last_page": null
+      },
+      "is_retracted": false,
+      "is_paratext": false,
+      "is_xpac": false,
+      "primary_topic": {
+        "id": "https://openalex.org/T10317",
+        "display_name": "Advanced Database Systems and Queries",
+        "score": 0.9980000257492065,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1710",
+          "display_name": "Information Systems"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      "topics": [
+        {
+          "id": "https://openalex.org/T10317",
+          "display_name": "Advanced Database Systems and Queries",
+          "score": 0.9980000257492065,
+          "subfield": {
+            "id": "https://openalex.org/subfields/1710",
+            "display_name": "Information Systems"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/17",
+            "display_name": "Computer Science"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T13904",
+          "display_name": "Artificial Intelligence Applications",
+          "score": 0.0003000000142492354,
+          "subfield": {
+            "id": "https://openalex.org/subfields/1702",
+            "display_name": "Artificial Intelligence"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/17",
+            "display_name": "Computer Science"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T11106",
+          "display_name": "Data Management and Algorithms",
+          "score": 0.0003000000142492354,
+          "subfield": {
+            "id": "https://openalex.org/subfields/1710",
+            "display_name": "Information Systems"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/17",
+            "display_name": "Computer Science"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        }
+      ],
+      "keywords": [
+        {
+          "id": "https://openalex.org/keywords/database-architecture",
+          "display_name": "database architecture",
+          "score": 0.9049999713897705
+        },
+        {
+          "id": "https://openalex.org/keywords/automatic-indexing",
+          "display_name": "automatic indexing",
+          "score": 0.984000027179718
+        },
+        {
+          "id": "https://openalex.org/keywords/machine-learning-integration",
+          "display_name": "machine learning integration",
+          "score": 0.9179999828338623
+        },
+        {
+          "id": "https://openalex.org/keywords/business-intelligence",
+          "display_name": "business intelligence",
+          "score": 0.7369999885559082
+        },
+        {
+          "id": "https://openalex.org/keywords/database-management",
+          "display_name": "database management",
+          "score": 0.5230000019073486
+        }
+      ],
+      "concepts": [
+        {
+          "id": "https://openalex.org/C77088390",
+          "wikidata": "https://www.wikidata.org/wiki/Q8513",
+          "display_name": "Database",
+          "level": 1,
+          "score": 0.746999979019165
+        },
+        {
+          "id": "https://openalex.org/C55166926",
+          "wikidata": "https://www.wikidata.org/wiki/Q2892946",
+          "display_name": "Oracle",
+          "level": 2,
+          "score": 0.7353000044822693
+        },
+        {
+          "id": "https://openalex.org/C41008148",
+          "wikidata": "https://www.wikidata.org/wiki/Q21198",
+          "display_name": "Computer science",
+          "level": 0,
+          "score": 0.734499990940094
+        },
+        {
+          "id": "https://openalex.org/C30775581",
+          "wikidata": "https://www.wikidata.org/wiki/Q632285",
+          "display_name": "Database schema",
+          "level": 3,
+          "score": 0.5633999705314636
+        },
+        {
+          "id": "https://openalex.org/C162189203",
+          "wikidata": "https://www.wikidata.org/wiki/Q6044092",
+          "display_name": "Intelligent database",
+          "level": 5,
+          "score": 0.5512999892234802
+        },
+        {
+          "id": "https://openalex.org/C148840519",
+          "wikidata": "https://www.wikidata.org/wiki/Q1049878",
+          "display_name": "Database design",
+          "level": 2,
+          "score": 0.5163999795913696
+        },
+        {
+          "id": "https://openalex.org/C54239708",
+          "wikidata": "https://www.wikidata.org/wiki/Q1329910",
+          "display_name": "View",
+          "level": 3,
+          "score": 0.4828000068664551
+        },
+        {
+          "id": "https://openalex.org/C187959359",
+          "wikidata": "https://www.wikidata.org/wiki/Q17113749",
+          "display_name": "Physical data model",
+          "level": 5,
+          "score": 0.4530999958515167
+        },
+        {
+          "id": "https://openalex.org/C70061542",
+          "wikidata": "https://www.wikidata.org/wiki/Q989016",
+          "display_name": "Distributed database",
+          "level": 2,
+          "score": 0.4498000144958496
+        },
+        {
+          "id": "https://openalex.org/C70236469",
+          "wikidata": "https://www.wikidata.org/wiki/Q1078262",
+          "display_name": "Database administrator",
+          "level": 2,
+          "score": 0.4221999943256378
+        },
+        {
+          "id": "https://openalex.org/C78161392",
+          "wikidata": "https://www.wikidata.org/wiki/Q5227414",
+          "display_name": "Database testing",
+          "level": 4,
+          "score": 0.40880000591278076
+        },
+        {
+          "id": "https://openalex.org/C2987003710",
+          "wikidata": "https://www.wikidata.org/wiki/Q185524",
+          "display_name": "Oracle database",
+          "level": 3,
+          "score": 0.4043000042438507
+        },
+        {
+          "id": "https://openalex.org/C22664368",
+          "wikidata": "https://www.wikidata.org/wiki/Q4045949",
+          "display_name": "Oracle Unified Method",
+          "level": 5,
+          "score": 0.39879998564720154
+        },
+        {
+          "id": "https://openalex.org/C107535962",
+          "wikidata": "https://www.wikidata.org/wiki/Q2459880",
+          "display_name": "Database tuning",
+          "level": 4,
+          "score": 0.3686000108718872
+        },
+        {
+          "id": "https://openalex.org/C12439846",
+          "wikidata": "https://www.wikidata.org/wiki/Q4809258",
+          "display_name": "Database theory",
+          "level": 3,
+          "score": 0.3474000096321106
+        },
+        {
+          "id": "https://openalex.org/C123657996",
+          "wikidata": "https://www.wikidata.org/wiki/Q12271",
+          "display_name": "Architecture",
+          "level": 2,
+          "score": 0.3434999883174896
+        },
+        {
+          "id": "https://openalex.org/C2781462938",
+          "wikidata": "https://www.wikidata.org/wiki/Q5062195",
+          "display_name": "Centralized database",
+          "level": 2,
+          "score": 0.3197999894618988
+        },
+        {
+          "id": "https://openalex.org/C4554734",
+          "wikidata": "https://www.wikidata.org/wiki/Q593744",
+          "display_name": "Knowledge base",
+          "level": 2,
+          "score": 0.31450000405311584
+        },
+        {
+          "id": "https://openalex.org/C5968703",
+          "wikidata": "https://www.wikidata.org/wiki/Q267136",
+          "display_name": "Database model",
+          "level": 3,
+          "score": 0.3140000104904175
+        },
+        {
+          "id": "https://openalex.org/C2778625365",
+          "wikidata": "https://www.wikidata.org/wiki/Q5227393",
+          "display_name": "Database application",
+          "level": 2,
+          "score": 0.3107999861240387
+        },
+        {
+          "id": "https://openalex.org/C2767350",
+          "wikidata": "https://www.wikidata.org/wiki/Q6662173",
+          "display_name": "Business intelligence",
+          "level": 2,
+          "score": 0.3068000078201294
+        },
+        {
+          "id": "https://openalex.org/C115842085",
+          "wikidata": "https://www.wikidata.org/wiki/Q4057846",
+          "display_name": "Data administration",
+          "level": 4,
+          "score": 0.30149999260902405
+        },
+        {
+          "id": "https://openalex.org/C205295232",
+          "wikidata": "https://www.wikidata.org/wiki/Q76320",
+          "display_name": "Database server",
+          "level": 2,
+          "score": 0.2994000017642975
+        },
+        {
+          "id": "https://openalex.org/C5655090",
+          "wikidata": "https://www.wikidata.org/wiki/Q192588",
+          "display_name": "Relational database",
+          "level": 2,
+          "score": 0.2955000102519989
+        },
+        {
+          "id": "https://openalex.org/C67186912",
+          "wikidata": "https://www.wikidata.org/wiki/Q367664",
+          "display_name": "Data modeling",
+          "level": 2,
+          "score": 0.2676999866962433
+        },
+        {
+          "id": "https://openalex.org/C180198813",
+          "wikidata": "https://www.wikidata.org/wiki/Q121182",
+          "display_name": "Information system",
+          "level": 2,
+          "score": 0.258899986743927
+        }
+      ],
+      "mesh": [],
+      "locations_count": 3,
+      "locations": [
+        {
+          "id": "pmh:oai:ojs2.academicsocialresearch.co.in:article/50",
+          "doi": null,
+          "is_oa": true,
+          "landing_page_url": "https://academicsocialresearch.co.in/index.php/ASR/article/view/50",
+          "pdf_url": "https://academicsocialresearch.co.in/index.php/ASR/article/download/50/45",
+          "source": {
+            "id": "https://openalex.org/S7407077181",
+            "display_name": "Academic Social Research",
+            "issn_l": "2456-2645",
+            "issn": [
+              "2456-2645"
+            ],
+            "is_oa": true,
+            "is_in_doaj": false,
+            "is_core": false,
+            "listed_in": [],
+            "host_organization": null,
+            "host_organization_name": null,
+            "host_organization_lineage": [],
+            "host_organization_lineage_names": [],
+            "type": "journal"
+          },
+          "license": null,
+          "license_id": null,
+          "version": "publishedVersion",
+          "is_accepted": true,
+          "is_published": true,
+          "raw_source_name": "2456-2645",
+          "raw_type": "info:eu-repo/semantics/article"
+        },
+        {
+          "id": "doi:10.5281/zenodo.18749249",
+          "doi": "https://doi.org/10.5281/zenodo.18749249",
+          "is_oa": true,
+          "landing_page_url": "https://doi.org/10.5281/zenodo.18749249",
+          "pdf_url": null,
+          "source": {
+            "id": "https://openalex.org/S4306400562",
+            "display_name": "Zenodo (CERN European Organization for Nuclear Research)",
+            "issn_l": null,
+            "issn": null,
+            "is_oa": true,
+            "is_in_doaj": false,
+            "is_core": false,
+            "listed_in": [],
+            "host_organization": "https://openalex.org/I67311998",
+            "host_organization_name": "European Organization for Nuclear Research",
+            "host_organization_lineage": [
+              "https://openalex.org/I67311998"
+            ],
+            "host_organization_lineage_names": [],
+            "type": "repository"
+          },
+          "license": "cc-by",
+          "license_id": "https://openalex.org/licenses/cc-by",
+          "version": null,
+          "is_accepted": false,
+          "is_published": false,
+          "raw_source_name": null,
+          "raw_type": "ConferencePaper"
+        },
+        {
+          "id": "doi:10.5281/zenodo.18749250",
+          "doi": "https://doi.org/10.5281/zenodo.18749250",
+          "is_oa": true,
+          "landing_page_url": "https://doi.org/10.5281/zenodo.18749250",
+          "pdf_url": null,
+          "source": {
+            "id": "https://openalex.org/S4306400562",
+            "display_name": "Zenodo (CERN European Organization for Nuclear Research)",
+            "issn_l": null,
+            "issn": null,
+            "is_oa": true,
+            "is_in_doaj": false,
+            "is_core": false,
+            "listed_in": [],
+            "host_organization": "https://openalex.org/I67311998",
+            "host_organization_name": "European Organization for Nuclear Research",
+            "host_organization_lineage": [
+              "https://openalex.org/I67311998"
+            ],
+            "host_organization_lineage_names": [],
+            "type": "repository"
+          },
+          "license": "cc-by",
+          "license_id": "https://openalex.org/licenses/cc-by",
+          "version": null,
+          "is_accepted": false,
+          "is_published": false,
+          "raw_source_name": null,
+          "raw_type": "ConferencePaper"
+        }
+      ],
+      "best_oa_location": {
+        "id": "pmh:oai:ojs2.academicsocialresearch.co.in:article/50",
+        "doi": null,
+        "is_oa": true,
+        "landing_page_url": "https://academicsocialresearch.co.in/index.php/ASR/article/view/50",
+        "pdf_url": "https://academicsocialresearch.co.in/index.php/ASR/article/download/50/45",
+        "source": {
+          "id": "https://openalex.org/S7407077181",
+          "display_name": "Academic Social Research",
+          "issn_l": "2456-2645",
+          "issn": [
+            "2456-2645"
+          ],
+          "is_oa": true,
+          "is_in_doaj": false,
+          "is_core": false,
+          "listed_in": [],
+          "host_organization": null,
+          "host_organization_name": null,
+          "host_organization_lineage": [],
+          "host_organization_lineage_names": [],
+          "type": "journal"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "2456-2645",
+        "raw_type": "info:eu-repo/semantics/article"
+      },
+      "sustainable_development_goals": [],
+      "study_designs": [],
+      "awards": [],
+      "funders": [],
+      "has_content": {
+        "pdf": true,
+        "grobid_xml": true
+      },
+      "content_urls": {
+        "pdf": "https://content.openalex.org/works/W7131096453.pdf",
+        "grobid_xml": "https://content.openalex.org/works/W7131096453.grobid-xml"
+      },
+      "referenced_works_count": 0,
+      "referenced_works": [],
+      "related_works": [
+        "https://openalex.org/W7155182671",
+        "https://openalex.org/W7167458771",
+        "https://openalex.org/W7118023362",
+        "https://openalex.org/W7165834411",
+        "https://openalex.org/W7117974403",
+        "https://openalex.org/W7082365751",
+        "https://openalex.org/W7222849487",
+        "https://openalex.org/W4404828299",
+        "https://openalex.org/W4411483143",
+        "https://openalex.org/W4406963368"
+      ],
+      "abstract_inverted_index": {
+        "The": [
+          0,
+          57,
+          107,
+          157
+        ],
+        "emergence": [
+          1
+        ],
+        "of": [
+          2,
+          43,
+          77,
+          124,
+          140
+        ],
+        "artificial": [
+          3
+        ],
+        "intelligence": [
+          4
+        ],
+        "in": [
+          5,
+          13,
+          48,
+          118,
+          176
+        ],
+        "database": [
+          6,
+          32,
+          55,
+          72,
+          95,
+          119,
+          144,
+          151
+        ],
+        "management": [
+          7,
+          120
+        ],
+        "systems": [
+          8,
+          145
+        ],
+        "represents": [
+          9
+        ],
+        "a": [
+          10
+        ],
+        "fundamental": [
+          11
+        ],
+        "shift": [
+          12
+        ],
+        "how": [
+          14,
+          94
+        ],
+        "organizations": [
+          15
+        ],
+        "handle": [
+          16
+        ],
+        "data-driven": [
+          17,
+          177
+        ],
+        "applications": [
+          18
+        ],
+        "and": [
+          19,
+          51,
+          65,
+          87,
+          129,
+          146
+        ],
+        "business": [
+          20,
+          105
+        ],
+        "intelligence.": [
+          21
+        ],
+        "Oracle": [
+          22,
+          44,
+          78
+        ],
+        "Database": [
+          23,
+          46
+        ],
+        "23ai": [
+          24,
+          45
+        ],
+        "introduces": [
+          25
+        ],
+        "native": [
+          26
+        ],
+        "AI": [
+          27,
+          82,
+          125
+        ],
+        "capabilities": [
+          28,
+          80
+        ],
+        "that": [
+          29,
+          110
+        ],
+        "transform": [
+          30
+        ],
+        "traditional": [
+          31
+        ],
+        "architecture": [
+          33
+        ],
+        "into": [
+          34
+        ],
+        "intelligent,": [
+          35
+        ],
+        "self-optimizing": [
+          36
+        ],
+        "systems.": [
+          37,
+          56
+        ],
+        "This": [
+          38,
+          133
+        ],
+        "research": [
+          39,
+          134
+        ],
+        "examines": [
+          40
+        ],
+        "the": [
+          41,
+          60,
+          137
+        ],
+        "role": [
+          42
+        ],
+        "Architects": [
+          47
+        ],
+        "designing,": [
+          49
+        ],
+        "building,": [
+          50
+        ],
+        "managing": [
+          52
+        ],
+        "these": [
+          53,
+          100
+        ],
+        "advanced": [
+          54
+        ],
+        "study": [
+          58
+        ],
+        "explores": [
+          59
+        ],
+        "architectural": [
+          61
+        ],
+        "components,": [
+          62
+        ],
+        "implementation": [
+          63,
+          112,
+          162
+        ],
+        "strategies,": [
+          64
+        ],
+        "operational": [
+          66
+        ],
+        "considerations": [
+          67
+        ],
+        "necessary": [
+          68
+        ],
+        "for": [
+          69,
+          150,
+          173
+        ],
+        "leveraging": [
+          70
+        ],
+        "AI-enhanced": [
+          71
+        ],
+        "features.": [
+          73
+        ],
+        "Through": [
+          74
+        ],
+        "comprehensive": [
+          75
+        ],
+        "analysis": [
+          76
+        ],
+        "23ai's": [
+          79
+        ],
+        "including": [
+          81
+        ],
+        "Vector": [
+          83
+        ],
+        "Search,": [
+          84
+        ],
+        "Automatic": [
+          85
+        ],
+        "Indexing,": [
+          86
+        ],
+        "Machine": [
+          88
+        ],
+        "Learning": [
+          89
+        ],
+        "integration,": [
+          90
+        ],
+        "this": [
+          91
+        ],
+        "paper": [
+          92
+        ],
+        "demonstrates": [
+          93
+        ],
+        "architects": [
+          96
+        ],
+        "can": [
+          97
+        ],
+        "effectively": [
+          98
+        ],
+        "utilize": [
+          99
+        ],
+        "features": [
+          101
+        ],
+        "to": [
+          102,
+          136,
+          154,
+          163
+        ],
+        "support": [
+          103
+        ],
+        "modern": [
+          104
+        ],
+        "requirements.": [
+          106
+        ],
+        "findings": [
+          108
+        ],
+        "reveal": [
+          109
+        ],
+        "successful": [
+          111
+        ],
+        "requires": [
+          113
+        ],
+        "not": [
+          114
+        ],
+        "only": [
+          115
+        ],
+        "technical": [
+          116,
+          161
+        ],
+        "expertise": [
+          117
+        ],
+        "but": [
+          121
+        ],
+        "also": [
+          122
+        ],
+        "understanding": [
+          123
+        ],
+        "principles,": [
+          126
+        ],
+        "vector": [
+          127
+        ],
+        "mathematics,": [
+          128
+        ],
+        "machine": [
+          130
+        ],
+        "learning": [
+          131
+        ],
+        "workflows.": [
+          132
+        ],
+        "contributes": [
+          135
+        ],
+        "growing": [
+          138
+        ],
+        "body": [
+          139
+        ],
+        "knowledge": [
+          141
+        ],
+        "on": [
+          142,
+          170
+        ],
+        "AI-integrated": [
+          143
+        ],
+        "provides": [
+          147
+        ],
+        "practical": [
+          148
+        ],
+        "guidance": [
+          149
+        ],
+        "professionals": [
+          152
+        ],
+        "transitioning": [
+          153
+        ],
+        "AI-enabled": [
+          155
+        ],
+        "architectures.": [
+          156
+        ],
+        "implications": [
+          158
+        ],
+        "extend": [
+          159
+        ],
+        "beyond": [
+          160
+        ],
+        "organizational": [
+          164
+        ],
+        "strategy,": [
+          165
+        ],
+        "as": [
+          166
+        ],
+        "businesses": [
+          167
+        ],
+        "increasingly": [
+          168
+        ],
+        "rely": [
+          169
+        ],
+        "intelligent": [
+          171
+        ],
+        "databases": [
+          172
+        ],
+        "competitive": [
+          174
+        ],
+        "advantage": [
+          175
+        ],
+        "markets.": [
+          178
+        ]
+      },
+      "counts_by_year": [
+        {
+          "year": 2026,
+          "cited_by_count": 5
+        }
+      ],
+      "updated_date": "2026-11-04T10:54:05.112534",
+      "created_date": "2026-02-24T00:00:00"
+    },
+    {
+      "id": "https://openalex.org/W2479876686",
+      "doi": null,
+      "title": "NÁVRH POUŽÍVATEĽSKÉHO ROZHRANIA NÁSTROJA DATABASE ARCHITECT (DRUHÝ ZO SÉRIE ČLÁNKOV)",
+      "display_name": "NÁVRH POUŽÍVATEĽSKÉHO ROZHRANIA NÁSTROJA DATABASE ARCHITECT (DRUHÝ ZO SÉRIE ČLÁNKOV)",
+      "relevance_score": 105.33804,
+      "publication_year": 2015,
+      "publication_date": "2015-12-03",
+      "ids": {
+        "openalex": "https://openalex.org/W2479876686",
+        "mag": "2479876686"
+      },
+      "language": "sk",
+      "primary_location": {
+        "id": "mag:2479876686",
+        "doi": null,
+        "is_oa": true,
+        "landing_page_url": "http://ei.fhi.sk/index.php/EAI/article/view/40",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4306508682",
+          "display_name": "Economics And Informatics",
+          "issn_l": "1336-3514",
+          "issn": [
+            "1336-3514",
+            "1339-987X"
+          ],
+          "is_oa": true,
+          "is_in_doaj": false,
+          "is_core": false,
+          "listed_in": [],
+          "host_organization": null,
+          "host_organization_name": null,
+          "host_organization_lineage": [],
+          "host_organization_lineage_names": [],
+          "type": "journal"
+        },
+        "license": null,
+        "license_id": null,
+        "version": null,
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": "Economics And Informatics",
+        "raw_type": null
+      },
+      "parent_works": [],
+      "lineage": [
+        "https://openalex.org/W2479876686"
+      ],
+      "child_works_count": 0,
+      "type": "article",
+      "is_traditional": true,
+      "indexed_in": [],
+      "open_access": {
+        "is_oa": true,
+        "oa_status": "diamond",
+        "oa_url": "http://ei.fhi.sk/index.php/EAI/article/view/40",
+        "any_repository_has_fulltext": true
+      },
+      "authorships": [
+        {
+          "author_position": "first",
+          "author": {
+            "id": "https://openalex.org/A5074235203",
+            "display_name": "Martin Blahušiak",
+            "orcid": null,
+            "observed_orcids": []
+          },
+          "institutions": [],
+          "countries": [],
+          "is_corresponding": true,
+          "raw_author_name": "Martin Blahušiak",
+          "raw_affiliation_strings": [],
+          "raw_orcid": null,
+          "affiliations": []
+        }
+      ],
+      "institutions": [],
+      "countries_distinct_count": 0,
+      "institutions_distinct_count": 0,
+      "corresponding_author_ids": [
+        "https://openalex.org/A5074235203"
+      ],
+      "corresponding_institution_ids": [],
+      "apc_list": null,
+      "apc_paid": null,
+      "fwci": 0.0,
+      "is_authors_truncated": false,
+      "has_fulltext": false,
+      "cited_by_count": 0,
+      "citation_normalized_percentile": {
+        "value": 0.0,
+        "is_in_top_1_percent": false,
+        "is_in_top_10_percent": false
+      },
+      "cited_by_percentile_year": null,
+      "biblio": {
+        "volume": "13",
+        "issue": "2",
+        "first_page": null,
+        "last_page": null
+      },
+      "is_retracted": false,
+      "is_paratext": false,
+      "is_xpac": false,
+      "primary_topic": {
+        "id": "https://openalex.org/T10470",
+        "display_name": "Usability and User Interface Design",
+        "score": 0.7705000042915344,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1709",
+          "display_name": "Human-Computer Interaction"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      "topics": [
+        {
+          "id": "https://openalex.org/T10470",
+          "display_name": "Usability and User Interface Design",
+          "score": 0.7705000042915344,
+          "subfield": {
+            "id": "https://openalex.org/subfields/1709",
+            "display_name": "Human-Computer Interaction"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/17",
+            "display_name": "Computer Science"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T11450",
+          "display_name": "Model-Driven Software Engineering Techniques",
+          "score": 0.12919999659061432,
+          "subfield": {
+            "id": "https://openalex.org/subfields/1712",
+            "display_name": "Software"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/17",
+            "display_name": "Computer Science"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T13681",
+          "display_name": "Engineering and Information Technology",
+          "score": 0.03959999978542328,
+          "subfield": {
+            "id": "https://openalex.org/subfields/1712",
+            "display_name": "Software"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/17",
+            "display_name": "Computer Science"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        }
+      ],
+      "keywords": [
+        {
+          "id": "https://openalex.org/keywords/user-interface-design",
+          "display_name": "user interface design",
+          "score": 0.8809999823570251
+        },
+        {
+          "id": "https://openalex.org/keywords/database-design-tools",
+          "display_name": "database design tools",
+          "score": 0.7369999885559082
+        },
+        {
+          "id": "https://openalex.org/keywords/form",
+          "display_name": "form",
+          "score": 0.6140000224113464
+        },
+        {
+          "id": "https://openalex.org/keywords/wizard",
+          "display_name": "wizard",
+          "score": 0.8109999895095825
+        },
+        {
+          "id": "https://openalex.org/keywords/database-modeling",
+          "display_name": "database modeling",
+          "score": 0.49000000953674316
+        }
+      ],
+      "concepts": [
+        {
+          "id": "https://openalex.org/C2777655017",
+          "wikidata": "https://www.wikidata.org/wiki/Q1501161",
+          "display_name": "Toolbox",
+          "level": 2,
+          "score": 0.7171072959899902
+        },
+        {
+          "id": "https://openalex.org/C41008148",
+          "wikidata": "https://www.wikidata.org/wiki/Q21198",
+          "display_name": "Computer science",
+          "level": 0,
+          "score": 0.6426053047180176
+        },
+        {
+          "id": "https://openalex.org/C2781238097",
+          "wikidata": "https://www.wikidata.org/wiki/Q175026",
+          "display_name": "Object (grammar)",
+          "level": 2,
+          "score": 0.6014822125434875
+        },
+        {
+          "id": "https://openalex.org/C89505385",
+          "wikidata": "https://www.wikidata.org/wiki/Q47146",
+          "display_name": "User interface",
+          "level": 2,
+          "score": 0.5071017742156982
+        },
+        {
+          "id": "https://openalex.org/C186399060",
+          "wikidata": "https://www.wikidata.org/wiki/Q959962",
+          "display_name": "Diagram",
+          "level": 2,
+          "score": 0.49319595098495483
+        },
+        {
+          "id": "https://openalex.org/C2781311116",
+          "wikidata": "https://www.wikidata.org/wiki/Q83306",
+          "display_name": "Group (periodic table)",
+          "level": 2,
+          "score": 0.48871541023254395
+        },
+        {
+          "id": "https://openalex.org/C77088390",
+          "wikidata": "https://www.wikidata.org/wiki/Q8513",
+          "display_name": "Database",
+          "level": 1,
+          "score": 0.4800092577934265
+        },
+        {
+          "id": "https://openalex.org/C42058472",
+          "wikidata": "https://www.wikidata.org/wiki/Q810214",
+          "display_name": "Base (topology)",
+          "level": 2,
+          "score": 0.4170609414577484
+        },
+        {
+          "id": "https://openalex.org/C136764020",
+          "wikidata": "https://www.wikidata.org/wiki/Q466",
+          "display_name": "World Wide Web",
+          "level": 1,
+          "score": 0.36985236406326294
+        },
+        {
+          "id": "https://openalex.org/C199360897",
+          "wikidata": "https://www.wikidata.org/wiki/Q9143",
+          "display_name": "Programming language",
+          "level": 1,
+          "score": 0.32981908321380615
+        },
+        {
+          "id": "https://openalex.org/C33923547",
+          "wikidata": "https://www.wikidata.org/wiki/Q395",
+          "display_name": "Mathematics",
+          "level": 0,
+          "score": 0.1472111940383911
+        },
+        {
+          "id": "https://openalex.org/C154945302",
+          "wikidata": "https://www.wikidata.org/wiki/Q11660",
+          "display_name": "Artificial intelligence",
+          "level": 1,
+          "score": 0.09586700797080994
+        },
+        {
+          "id": "https://openalex.org/C121332964",
+          "wikidata": "https://www.wikidata.org/wiki/Q413",
+          "display_name": "Physics",
+          "level": 0,
+          "score": 0.06674706935882568
+        },
+        {
+          "id": "https://openalex.org/C62520636",
+          "wikidata": "https://www.wikidata.org/wiki/Q944",
+          "display_name": "Quantum mechanics",
+          "level": 1,
+          "score": 0.0
+        },
+        {
+          "id": "https://openalex.org/C134306372",
+          "wikidata": "https://www.wikidata.org/wiki/Q7754",
+          "display_name": "Mathematical analysis",
+          "level": 1,
+          "score": 0.0
+        }
+      ],
+      "mesh": [],
+      "locations_count": 1,
+      "locations": [
+        {
+          "id": "mag:2479876686",
+          "doi": null,
+          "is_oa": true,
+          "landing_page_url": "http://ei.fhi.sk/index.php/EAI/article/view/40",
+          "pdf_url": null,
+          "source": {
+            "id": "https://openalex.org/S4306508682",
+            "display_name": "Economics And Informatics",
+            "issn_l": "1336-3514",
+            "issn": [
+              "1336-3514",
+              "1339-987X"
+            ],
+            "is_oa": true,
+            "is_in_doaj": false,
+            "is_core": false,
+            "listed_in": [],
+            "host_organization": null,
+            "host_organization_name": null,
+            "host_organization_lineage": [],
+            "host_organization_lineage_names": [],
+            "type": "journal"
+          },
+          "license": null,
+          "license_id": null,
+          "version": null,
+          "is_accepted": false,
+          "is_published": false,
+          "raw_source_name": "Economics And Informatics",
+          "raw_type": null
+        }
+      ],
+      "best_oa_location": {
+        "id": "mag:2479876686",
+        "doi": null,
+        "is_oa": true,
+        "landing_page_url": "http://ei.fhi.sk/index.php/EAI/article/view/40",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4306508682",
+          "display_name": "Economics And Informatics",
+          "issn_l": "1336-3514",
+          "issn": [
+            "1336-3514",
+            "1339-987X"
+          ],
+          "is_oa": true,
+          "is_in_doaj": false,
+          "is_core": false,
+          "listed_in": [],
+          "host_organization": null,
+          "host_organization_name": null,
+          "host_organization_lineage": [],
+          "host_organization_lineage_names": [],
+          "type": "journal"
+        },
+        "license": null,
+        "license_id": null,
+        "version": null,
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": "Economics And Informatics",
+        "raw_type": null
+      },
+      "sustainable_development_goals": [],
+      "study_designs": [],
+      "awards": [],
+      "funders": [],
+      "has_content": {
+        "pdf": false,
+        "grobid_xml": false
+      },
+      "content_urls": null,
+      "referenced_works_count": 0,
+      "referenced_works": [],
+      "related_works": [
+        "https://openalex.org/W4285038616",
+        "https://openalex.org/W1520423337",
+        "https://openalex.org/W2085680709",
+        "https://openalex.org/W4255089903",
+        "https://openalex.org/W6999582161",
+        "https://openalex.org/W141497109",
+        "https://openalex.org/W2339977456",
+        "https://openalex.org/W2795253626",
+        "https://openalex.org/W3175920400",
+        "https://openalex.org/W2074877125"
+      ],
+      "abstract_inverted_index": {
+        "The": [
+          0,
+          16,
+          83
+        ],
+        "article": [
+          1
+        ],
+        "discusses": [
+          2
+        ],
+        "the": [
+          3,
+          48
+        ],
+        "second": [
+          4,
+          26,
+          84
+        ],
+        "part": [
+          5,
+          18,
+          27,
+          108
+        ],
+        "of": [
+          6,
+          8,
+          31,
+          39,
+          47,
+          68,
+          101,
+          109
+        ],
+        "design": [
+          7,
+          29,
+          100
+        ],
+        "a": [
+          9
+        ],
+        "new": [
+          10,
+          49
+        ],
+        "tool": [
+          11
+        ],
+        "named": [
+          12
+        ],
+        "Database": [
+          13
+        ],
+        "architect.": [
+          15
+        ],
+        "first": [
+          17,
+          37,
+          52
+        ],
+        "designed": [
+          19
+        ],
+        "roles": [
+          20
+        ],
+        "and": [
+          21,
+          24,
+          60,
+          93,
+          105
+        ],
+        "use": [
+          22
+        ],
+        "cases,": [
+          23
+        ],
+        "this": [
+          25
+        ],
+        "covers": [
+          28
+        ],
+        "user": [
+          32,
+          40,
+          55,
+          75,
+          87
+        ],
+        "interfaces,": [
+          33
+        ],
+        "or": [
+          34,
+          73
+        ],
+        "more": [
+          35
+        ],
+        "precisely": [
+          36
+        ],
+        "group": [
+          38,
+          53,
+          85
+        ],
+        "interfaces": [
+          41,
+          56,
+          88
+        ],
+        "which": [
+          42,
+          63,
+          95
+        ],
+        "cover": [
+          43
+        ],
+        "base": [
+          44
+        ],
+        "features": [
+          46,
+          92
+        ],
+        "tool.": [
+          50
+        ],
+        "This": [
+          51
+        ],
+        "contains": [
+          54
+        ],
+        "for": [
+          57,
+          89
+        ],
+        "menu,": [
+          58
+        ],
+        "toolbox": [
+          59
+        ],
+        "forms": [
+          62
+        ],
+        "are": [
+          64
+        ],
+        "displayed": [
+          65
+        ],
+        "after": [
+          66
+        ],
+        "insert": [
+          67
+        ],
+        "an": [
+          69
+        ],
+        "object": [
+          70
+        ],
+        "into": [
+          71
+        ],
+        "diagram": [
+          72
+        ],
+        "when": [
+          74
+        ],
+        "choses": [
+          76
+        ],
+        "to": [
+          77
+        ],
+        "create": [
+          79
+        ],
+        "any": [
+          80
+        ],
+        "database": [
+          81
+        ],
+        "object.": [
+          82
+        ],
+        "includes": [
+          86
+        ],
+        "transformation": [
+          91
+        ],
+        "wizards,": [
+          94
+        ],
+        "will": [
+          96
+        ],
+        "be": [
+          97
+        ],
+        "along": [
+          98
+        ],
+        "with": [
+          99
+        ],
+        "static": [
+          102
+        ],
+        "structure": [
+          103,
+          107
+        ],
+        "data": [
+          106
+        ],
+        "following": [
+          110
+        ],
+        "articles.": [
+          111
+        ]
+      },
+      "counts_by_year": [],
+      "updated_date": "2026-11-14T11:04:58.165337",
+      "created_date": "2016-08-23T00:00:00"
+    },
+    {
+      "id": "https://openalex.org/W7162395621",
+      "doi": "https://doi.org/10.1007/979-8-8688-2370-1_16",
+      "title": "Building Persistence: Databases As Servants, Not Architects",
+      "display_name": "Building Persistence: Databases As Servants, Not Architects",
+      "relevance_score": 66.9451,
+      "publication_year": 2026,
+      "publication_date": "2026-05-26",
+      "ids": {
+        "openalex": "https://openalex.org/W7162395621",
+        "doi": "https://doi.org/10.1007/979-8-8688-2370-1_16"
+      },
+      "language": "en",
+      "primary_location": {
+        "id": "doi:10.1007/979-8-8688-2370-1_16",
+        "doi": "https://doi.org/10.1007/979-8-8688-2370-1_16",
+        "is_oa": false,
+        "landing_page_url": "https://doi.org/10.1007/979-8-8688-2370-1_16",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4306462844",
+          "display_name": "Apress eBooks",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "listed_in": [],
+          "host_organization": null,
+          "host_organization_name": null,
+          "host_organization_lineage": [],
+          "host_organization_lineage_names": [],
+          "type": "ebook platform"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Building Enterprise Projects with Go",
+        "raw_type": "book-chapter"
+      },
+      "parent_works": [
+        {
+          "id": "https://openalex.org/W7162472103",
+          "display_name": "Building Enterprise Projects with Go: Clarity at Scale in Production-Grade Go Systems",
+          "relationship": "volume"
+        }
+      ],
+      "lineage": [
+        "https://openalex.org/W7162395621",
+        "https://openalex.org/W7162472103"
+      ],
+      "child_works_count": 0,
+      "type": "book-chapter",
+      "is_traditional": true,
+      "indexed_in": [
+        "crossref"
+      ],
+      "open_access": {
+        "is_oa": false,
+        "oa_status": "closed",
+        "oa_url": null,
+        "any_repository_has_fulltext": false
+      },
+      "authorships": [
+        {
+          "author_position": "first",
+          "author": {
+            "id": "https://openalex.org/A5137073478",
+            "display_name": "Saeed Shahsavan",
+            "orcid": null,
+            "observed_orcids": []
+          },
+          "institutions": [],
+          "countries": [],
+          "is_corresponding": true,
+          "raw_author_name": "Saeed Shahsavan",
+          "raw_affiliation_strings": [
+            "Vienna, Austria"
+          ],
+          "raw_orcid": null,
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Vienna, Austria",
+              "institution_ids": []
+            }
+          ]
+        }
+      ],
+      "institutions": [],
+      "countries_distinct_count": 0,
+      "institutions_distinct_count": 0,
+      "corresponding_author_ids": [
+        "https://openalex.org/A5137073478"
+      ],
+      "corresponding_institution_ids": [],
+      "apc_list": null,
+      "apc_paid": null,
+      "fwci": 0.0,
+      "is_authors_truncated": false,
+      "has_fulltext": false,
+      "cited_by_count": 0,
+      "citation_normalized_percentile": {
+        "value": 0.0,
+        "is_in_top_1_percent": false,
+        "is_in_top_10_percent": false
+      },
+      "cited_by_percentile_year": null,
+      "biblio": {
+        "volume": null,
+        "issue": null,
+        "first_page": "405",
+        "last_page": "429"
+      },
+      "is_retracted": false,
+      "is_paratext": false,
+      "is_xpac": false,
+      "primary_topic": {
+        "id": "https://openalex.org/T10317",
+        "display_name": "Advanced Database Systems and Queries",
+        "score": 0.4146000146865845,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1710",
+          "display_name": "Information Systems"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      "topics": [
+        {
+          "id": "https://openalex.org/T10317",
+          "display_name": "Advanced Database Systems and Queries",
+          "score": 0.4146000146865845,
+          "subfield": {
+            "id": "https://openalex.org/subfields/1710",
+            "display_name": "Information Systems"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/17",
+            "display_name": "Computer Science"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T13681",
+          "display_name": "Engineering and Information Technology",
+          "score": 0.23600000143051147,
+          "subfield": {
+            "id": "https://openalex.org/subfields/1712",
+            "display_name": "Software"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/17",
+            "display_name": "Computer Science"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T12601",
+          "display_name": "Web Applications and Data Management",
+          "score": 0.11840000003576279,
+          "subfield": {
+            "id": "https://openalex.org/subfields/1710",
+            "display_name": "Information Systems"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/17",
+            "display_name": "Computer Science"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        }
+      ],
+      "keywords": [
+        {
+          "id": "https://openalex.org/keywords/persistence",
+          "display_name": "persistence",
+          "score": 0.5870000123977661
+        },
+        {
+          "id": "https://openalex.org/keywords/databases",
+          "display_name": "databases",
+          "score": 0.8569999933242798
+        },
+        {
+          "id": "https://openalex.org/keywords/enterprise-software-development",
+          "display_name": "enterprise software development",
+          "score": 0.6069999933242798
+        },
+        {
+          "id": "https://openalex.org/keywords/data-management",
+          "display_name": "data management",
+          "score": 0.8349999785423279
+        },
+        {
+          "id": "https://openalex.org/keywords/object-relational-mapping",
+          "display_name": "object-relational mapping",
+          "score": 0.7170000076293945
+        }
+      ],
+      "concepts": [
+        {
+          "id": "https://openalex.org/C18762648",
+          "wikidata": "https://www.wikidata.org/wiki/Q42213",
+          "display_name": "Work (physics)",
+          "level": 2,
+          "score": 0.5960000157356262
+        },
+        {
+          "id": "https://openalex.org/C89992363",
+          "wikidata": "https://www.wikidata.org/wiki/Q5961558",
+          "display_name": "Track (disk drive)",
+          "level": 2,
+          "score": 0.4968000054359436
+        },
+        {
+          "id": "https://openalex.org/C41008148",
+          "wikidata": "https://www.wikidata.org/wiki/Q21198",
+          "display_name": "Computer science",
+          "level": 0,
+          "score": 0.44920000433921814
+        },
+        {
+          "id": "https://openalex.org/C77088390",
+          "wikidata": "https://www.wikidata.org/wiki/Q8513",
+          "display_name": "Database",
+          "level": 1,
+          "score": 0.3862999975681305
+        },
+        {
+          "id": "https://openalex.org/C127413603",
+          "wikidata": "https://www.wikidata.org/wiki/Q11023",
+          "display_name": "Engineering",
+          "level": 0,
+          "score": 0.38499999046325684
+        },
+        {
+          "id": "https://openalex.org/C185765463",
+          "wikidata": "https://www.wikidata.org/wiki/Q1318054",
+          "display_name": "Enterprise software",
+          "level": 2,
+          "score": 0.35920000076293945
+        },
+        {
+          "id": "https://openalex.org/C27295321",
+          "wikidata": "https://www.wikidata.org/wiki/Q831795",
+          "display_name": "Enterprise information system",
+          "level": 2,
+          "score": 0.35260000824928284
+        },
+        {
+          "id": "https://openalex.org/C144133560",
+          "wikidata": "https://www.wikidata.org/wiki/Q4830453",
+          "display_name": "Business",
+          "level": 0,
+          "score": 0.3393000066280365
+        },
+        {
+          "id": "https://openalex.org/C115903868",
+          "wikidata": "https://www.wikidata.org/wiki/Q80993",
+          "display_name": "Software engineering",
+          "level": 1,
+          "score": 0.3346000015735626
+        },
+        {
+          "id": "https://openalex.org/C135572916",
+          "wikidata": "https://www.wikidata.org/wiki/Q193351",
+          "display_name": "Data warehouse",
+          "level": 2,
+          "score": 0.3077999949455261
+        },
+        {
+          "id": "https://openalex.org/C136764020",
+          "wikidata": "https://www.wikidata.org/wiki/Q466",
+          "display_name": "World Wide Web",
+          "level": 1,
+          "score": 0.3070000112056732
+        },
+        {
+          "id": "https://openalex.org/C180198813",
+          "wikidata": "https://www.wikidata.org/wiki/Q121182",
+          "display_name": "Information system",
+          "level": 2,
+          "score": 0.303600013256073
+        },
+        {
+          "id": "https://openalex.org/C110354214",
+          "wikidata": "https://www.wikidata.org/wiki/Q6314146",
+          "display_name": "Engineering management",
+          "level": 1,
+          "score": 0.30149999260902405
+        },
+        {
+          "id": "https://openalex.org/C26517878",
+          "wikidata": "https://www.wikidata.org/wiki/Q228039",
+          "display_name": "Key (lock)",
+          "level": 2,
+          "score": 0.2922999858856201
+        },
+        {
+          "id": "https://openalex.org/C67571701",
+          "wikidata": "https://www.wikidata.org/wiki/Q1318054",
+          "display_name": "Enterprise system",
+          "level": 2,
+          "score": 0.2883000075817108
+        },
+        {
+          "id": "https://openalex.org/C195094911",
+          "wikidata": "https://www.wikidata.org/wiki/Q14167904",
+          "display_name": "Process management",
+          "level": 1,
+          "score": 0.28519999980926514
+        },
+        {
+          "id": "https://openalex.org/C53996427",
+          "wikidata": "https://www.wikidata.org/wiki/Q5380387",
+          "display_name": "Enterprise integration",
+          "level": 3,
+          "score": 0.27619999647140503
+        },
+        {
+          "id": "https://openalex.org/C56739046",
+          "wikidata": "https://www.wikidata.org/wiki/Q192060",
+          "display_name": "Knowledge management",
+          "level": 1,
+          "score": 0.27549999952316284
+        },
+        {
+          "id": "https://openalex.org/C182306322",
+          "wikidata": "https://www.wikidata.org/wiki/Q1779371",
+          "display_name": "Order (exchange)",
+          "level": 2,
+          "score": 0.25220000743865967
+        }
+      ],
+      "mesh": [],
+      "locations_count": 1,
+      "locations": [
+        {
+          "id": "doi:10.1007/979-8-8688-2370-1_16",
+          "doi": "https://doi.org/10.1007/979-8-8688-2370-1_16",
+          "is_oa": false,
+          "landing_page_url": "https://doi.org/10.1007/979-8-8688-2370-1_16",
+          "pdf_url": null,
+          "source": {
+            "id": "https://openalex.org/S4306462844",
+            "display_name": "Apress eBooks",
+            "issn_l": null,
+            "issn": null,
+            "is_oa": false,
+            "is_in_doaj": false,
+            "is_core": false,
+            "listed_in": [],
+            "host_organization": null,
+            "host_organization_name": null,
+            "host_organization_lineage": [],
+            "host_organization_lineage_names": [],
+            "type": "ebook platform"
+          },
+          "license": null,
+          "license_id": null,
+          "version": "publishedVersion",
+          "is_accepted": true,
+          "is_published": true,
+          "raw_source_name": "Building Enterprise Projects with Go",
+          "raw_type": "book-chapter"
+        }
+      ],
+      "best_oa_location": null,
+      "sustainable_development_goals": [],
+      "study_designs": [],
+      "awards": [],
+      "funders": [],
+      "has_content": {
+        "pdf": false,
+        "grobid_xml": false
+      },
+      "content_urls": null,
+      "referenced_works_count": 0,
+      "referenced_works": [],
+      "related_works": [
+        "https://openalex.org/W1015259833",
+        "https://openalex.org/W151908236",
+        "https://openalex.org/W3098389992",
+        "https://openalex.org/W23229952",
+        "https://openalex.org/W4206530200",
+        "https://openalex.org/W2006655610",
+        "https://openalex.org/W592654512",
+        "https://openalex.org/W2770591092",
+        "https://openalex.org/W1564381193",
+        "https://openalex.org/W7217379876"
+      ],
+      "abstract_inverted_index": {
+        "Most": [
+          0
+        ],
+        "enterprise": [
+          1,
+          35
+        ],
+        "systems": [
+          2
+        ],
+        "exist": [
+          3
+        ],
+        "to": [
+          4,
+          31,
+          40
+        ],
+        "manage": [
+          5
+        ],
+        "data.": [
+          6
+        ],
+        "They": [
+          7
+        ],
+        "receive": [
+          8
+        ],
+        "requests": [
+          9
+        ],
+        "from": [
+          10
+        ],
+        "citizens,": [
+          11
+        ],
+        "issue": [
+          12
+        ],
+        "driving": [
+          13
+        ],
+        "licenses,": [
+          14
+        ],
+        "store": [
+          15
+        ],
+        "bank": [
+          16
+        ],
+        "customer": [
+          17
+        ],
+        "profiles,": [
+          18
+        ],
+        "track": [
+          19
+        ],
+        "vehicle": [
+          20
+        ],
+        "assignments,": [
+          21
+        ],
+        "and": [
+          22,
+          44
+        ],
+        "much": [
+          23
+        ],
+        "more.": [
+          24
+        ],
+        "Because": [
+          25
+        ],
+        "of": [
+          26
+        ],
+        "this,": [
+          27
+        ],
+        "it": [
+          28
+        ],
+        "is": [
+          29
+        ],
+        "impossible": [
+          30
+        ],
+        "become": [
+          32
+        ],
+        "a": [
+          33
+        ],
+        "senior": [
+          34
+        ],
+        "developer": [
+          36
+        ],
+        "without": [
+          37
+        ],
+        "understanding": [
+          38
+        ],
+        "how": [
+          39
+        ],
+        "work": [
+          41
+        ],
+        "with": [
+          42
+        ],
+        "data": [
+          43
+        ],
+        "databases.": [
+          45
+        ]
+      },
+      "counts_by_year": [],
+      "updated_date": "2026-11-15T12:55:33.944570",
+      "created_date": "2026-05-27T00:00:00"
+    },
+    {
+      "id": "https://openalex.org/W1977675320",
+      "doi": "https://doi.org/10.1145/2791405.2791432",
+      "title": "Architecting Solutions for Scalable Databases in Cloud",
+      "display_name": "Architecting Solutions for Scalable Databases in Cloud",
+      "relevance_score": 66.270935,
+      "publication_year": 2015,
+      "publication_date": "2015-08-10",
+      "ids": {
+        "openalex": "https://openalex.org/W1977675320",
+        "doi": "https://doi.org/10.1145/2791405.2791432",
+        "mag": "1977675320"
+      },
+      "language": "en",
+      "primary_location": {
+        "id": "doi:10.1145/2791405.2791432",
+        "doi": "https://doi.org/10.1145/2791405.2791432",
+        "is_oa": false,
+        "landing_page_url": "https://doi.org/10.1145/2791405.2791432",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4306420238",
+          "display_name": "International Symposium on Women in Computing and Informatics",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "listed_in": [],
+          "host_organization": "https://openalex.org/P4310319798",
+          "host_organization_name": "Association for Computing Machinery",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310319798"
+          ],
+          "host_organization_lineage_names": [
+            "Association for Computing Machinery"
+          ],
+          "type": "conference"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Proceedings of the Third International Symposium on Women in Computing and Informatics",
+        "raw_type": "proceedings-article"
+      },
+      "parent_works": [],
+      "lineage": [
+        "https://openalex.org/W1977675320"
+      ],
+      "child_works_count": 0,
+      "type": "conference-paper",
+      "is_traditional": true,
+      "indexed_in": [
+        "crossref"
+      ],
+      "open_access": {
+        "is_oa": false,
+        "oa_status": "closed",
+        "oa_url": null,
+        "any_repository_has_fulltext": false
+      },
+      "authorships": [
+        {
+          "author_position": "first",
+          "author": {
+            "id": "https://openalex.org/A5072594619",
+            "display_name": "Gitanjali Sharma",
+            "orcid": null,
+            "observed_orcids": []
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I165682329",
+              "display_name": "Guru Nanak Dev University",
+              "ror": "https://ror.org/05ghzpa93",
+              "country_code": "IN",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I165682329"
+              ]
+            }
+          ],
+          "countries": [
+            "IN"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "Gitanjali Sharma",
+          "raw_affiliation_strings": [
+            "Computer Science and Engineering, Guru Nanak Dev University Regional Campus, Jalandhar, Punjab, India, +919478849950",
+            "Computer Science and Engineering, Guru Nanak Dev University Regional Campus, Jalandhar, Punjab, India, +919478849950#TAB#"
+          ],
+          "raw_orcid": null,
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Computer Science and Engineering, Guru Nanak Dev University Regional Campus, Jalandhar, Punjab, India, +919478849950",
+              "institution_ids": [
+                "https://openalex.org/I165682329"
+              ]
+            },
+            {
+              "raw_affiliation_string": "Computer Science and Engineering, Guru Nanak Dev University Regional Campus, Jalandhar, Punjab, India, +919478849950#TAB#",
+              "institution_ids": [
+                "https://openalex.org/I165682329"
+              ]
+            }
+          ]
+        },
+        {
+          "author_position": "last",
+          "author": {
+            "id": "https://openalex.org/A5064674736",
+            "display_name": "Pankaj Deep Kaur",
+            "orcid": "https://orcid.org/0000-0002-5755-8684",
+            "observed_orcids": [
+              "https://orcid.org/0000-0002-5755-8684"
+            ]
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I165682329",
+              "display_name": "Guru Nanak Dev University",
+              "ror": "https://ror.org/05ghzpa93",
+              "country_code": "IN",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I165682329"
+              ]
+            }
+          ],
+          "countries": [
+            "IN"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "Pankaj Deep Kaur",
+          "raw_affiliation_strings": [
+            "Computer Science and Engineering, Guru Nanak Dev University Regional Campus, Jalandhar, Punjab, India, +919888889787",
+            "Computer Science and Engineering, Guru Nanak Dev University Regional Campus, Jalandhar, Punjab, India, +919888889787#TAB#"
+          ],
+          "raw_orcid": null,
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Computer Science and Engineering, Guru Nanak Dev University Regional Campus, Jalandhar, Punjab, India, +919888889787",
+              "institution_ids": [
+                "https://openalex.org/I165682329"
+              ]
+            },
+            {
+              "raw_affiliation_string": "Computer Science and Engineering, Guru Nanak Dev University Regional Campus, Jalandhar, Punjab, India, +919888889787#TAB#",
+              "institution_ids": [
+                "https://openalex.org/I165682329"
+              ]
+            }
+          ]
+        }
+      ],
+      "institutions": [],
+      "countries_distinct_count": 1,
+      "institutions_distinct_count": 1,
+      "corresponding_author_ids": [],
+      "corresponding_institution_ids": [
+        "https://openalex.org/I165682329"
+      ],
+      "apc_list": null,
+      "apc_paid": null,
+      "fwci": 0.0,
+      "is_authors_truncated": false,
+      "has_fulltext": false,
+      "cited_by_count": 2,
+      "citation_normalized_percentile": {
+        "value": 0.0,
+        "is_in_top_1_percent": false,
+        "is_in_top_10_percent": false
+      },
+      "cited_by_percentile_year": {
+        "min": 88,
+        "max": 95
+      },
+      "biblio": {
+        "volume": "56",
+        "issue": null,
+        "first_page": "469",
+        "last_page": "476"
+      },
+      "is_retracted": false,
+      "is_paratext": false,
+      "is_xpac": false,
+      "primary_topic": {
+        "id": "https://openalex.org/T10772",
+        "display_name": "Distributed systems and fault tolerance",
+        "score": 0.8159000277519226,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1705",
+          "display_name": "Computer Networks and Communications"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      "topics": [
+        {
+          "id": "https://openalex.org/T10772",
+          "display_name": "Distributed systems and fault tolerance",
+          "score": 0.8159000277519226,
+          "subfield": {
+            "id": "https://openalex.org/subfields/1705",
+            "display_name": "Computer Networks and Communications"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/17",
+            "display_name": "Computer Science"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T10101",
+          "display_name": "Cloud Computing and Resource Management",
+          "score": 0.14139999449253082,
+          "subfield": {
+            "id": "https://openalex.org/subfields/1710",
+            "display_name": "Information Systems"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/17",
+            "display_name": "Computer Science"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T10317",
+          "display_name": "Advanced Database Systems and Queries",
+          "score": 0.0406000018119812,
+          "subfield": {
+            "id": "https://openalex.org/subfields/1710",
+            "display_name": "Information Systems"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/17",
+            "display_name": "Computer Science"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        }
+      ],
+      "keywords": [
+        {
+          "id": "https://openalex.org/keywords/cloud-databases",
+          "display_name": "cloud databases",
+          "score": 0.8650000095367432
+        },
+        {
+          "id": "https://openalex.org/keywords/scalability",
+          "display_name": "scalability",
+          "score": 0.7760000228881836
+        },
+        {
+          "id": "https://openalex.org/keywords/data-replication",
+          "display_name": "data replication",
+          "score": 0.6230000257492065
+        },
+        {
+          "id": "https://openalex.org/keywords/partitioning",
+          "display_name": "partitioning",
+          "score": 0.7120000123977661
+        },
+        {
+          "id": "https://openalex.org/keywords/concurrency-control",
+          "display_name": "concurrency control",
+          "score": 0.906000018119812
+        },
+        {
+          "id": "https://openalex.org/keywords/distributed-data-stores",
+          "display_name": "distributed data stores",
+          "score": 0.7310000061988831
+        },
+        {
+          "id": "https://openalex.org/keywords/database-architecture",
+          "display_name": "database architecture",
+          "score": 0.382999986410141
+        }
+      ],
+      "concepts": [
+        {
+          "id": "https://openalex.org/C48044578",
+          "wikidata": "https://www.wikidata.org/wiki/Q727490",
+          "display_name": "Scalability",
+          "level": 2,
+          "score": 0.8314369916915894
+        },
+        {
+          "id": "https://openalex.org/C41008148",
+          "wikidata": "https://www.wikidata.org/wiki/Q21198",
+          "display_name": "Computer science",
+          "level": 0,
+          "score": 0.7811959981918335
+        },
+        {
+          "id": "https://openalex.org/C79974875",
+          "wikidata": "https://www.wikidata.org/wiki/Q483639",
+          "display_name": "Cloud computing",
+          "level": 2,
+          "score": 0.7706875205039978
+        },
+        {
+          "id": "https://openalex.org/C2776436953",
+          "wikidata": "https://www.wikidata.org/wiki/Q5163215",
+          "display_name": "Consistency (knowledge bases)",
+          "level": 2,
+          "score": 0.6973179578781128
+        },
+        {
+          "id": "https://openalex.org/C120314980",
+          "wikidata": "https://www.wikidata.org/wiki/Q180634",
+          "display_name": "Distributed computing",
+          "level": 1,
+          "score": 0.6684122085571289
+        },
+        {
+          "id": "https://openalex.org/C84511453",
+          "wikidata": "https://www.wikidata.org/wiki/Q2914952",
+          "display_name": "Concurrency control",
+          "level": 3,
+          "score": 0.6220834255218506
+        },
+        {
+          "id": "https://openalex.org/C34422012",
+          "wikidata": "https://www.wikidata.org/wiki/Q6125872",
+          "display_name": "Eventual consistency",
+          "level": 4,
+          "score": 0.5967535376548767
+        },
+        {
+          "id": "https://openalex.org/C77088390",
+          "wikidata": "https://www.wikidata.org/wiki/Q8513",
+          "display_name": "Database",
+          "level": 1,
+          "score": 0.537436842918396
+        },
+        {
+          "id": "https://openalex.org/C43214815",
+          "wikidata": "https://www.wikidata.org/wiki/Q7310987",
+          "display_name": "Reliability (semiconductor)",
+          "level": 3,
+          "score": 0.515794038772583
+        },
+        {
+          "id": "https://openalex.org/C121854251",
+          "wikidata": "https://www.wikidata.org/wiki/Q62932",
+          "display_name": "Elasticity (physics)",
+          "level": 2,
+          "score": 0.5124814510345459
+        },
+        {
+          "id": "https://openalex.org/C193702766",
+          "wikidata": "https://www.wikidata.org/wiki/Q1414548",
+          "display_name": "Concurrency",
+          "level": 2,
+          "score": 0.4802601635456085
+        },
+        {
+          "id": "https://openalex.org/C70061542",
+          "wikidata": "https://www.wikidata.org/wiki/Q989016",
+          "display_name": "Distributed database",
+          "level": 2,
+          "score": 0.4622255563735962
+        },
+        {
+          "id": "https://openalex.org/C99844830",
+          "wikidata": "https://www.wikidata.org/wiki/Q102441924",
+          "display_name": "Scaling",
+          "level": 2,
+          "score": 0.4415220320224762
+        },
+        {
+          "id": "https://openalex.org/C122377713",
+          "wikidata": "https://www.wikidata.org/wiki/Q4422799",
+          "display_name": "Weak consistency",
+          "level": 4,
+          "score": 0.43275293707847595
+        },
+        {
+          "id": "https://openalex.org/C31388003",
+          "wikidata": "https://www.wikidata.org/wiki/Q7624548",
+          "display_name": "Strong consistency",
+          "level": 3,
+          "score": 0.3279932141304016
+        },
+        {
+          "id": "https://openalex.org/C93361087",
+          "wikidata": "https://www.wikidata.org/wiki/Q4426698",
+          "display_name": "Data consistency",
+          "level": 2,
+          "score": 0.27562737464904785
+        },
+        {
+          "id": "https://openalex.org/C75949130",
+          "wikidata": "https://www.wikidata.org/wiki/Q848010",
+          "display_name": "Database transaction",
+          "level": 2,
+          "score": 0.19640350341796875
+        },
+        {
+          "id": "https://openalex.org/C37279795",
+          "wikidata": "https://www.wikidata.org/wiki/Q2492305",
+          "display_name": "Consistency model",
+          "level": 3,
+          "score": 0.19211110472679138
+        },
+        {
+          "id": "https://openalex.org/C111919701",
+          "wikidata": "https://www.wikidata.org/wiki/Q9135",
+          "display_name": "Operating system",
+          "level": 1,
+          "score": 0.09466803073883057
+        },
+        {
+          "id": "https://openalex.org/C62520636",
+          "wikidata": "https://www.wikidata.org/wiki/Q944",
+          "display_name": "Quantum mechanics",
+          "level": 1,
+          "score": 0.0
+        },
+        {
+          "id": "https://openalex.org/C163258240",
+          "wikidata": "https://www.wikidata.org/wiki/Q25342",
+          "display_name": "Power (physics)",
+          "level": 2,
+          "score": 0.0
+        },
+        {
+          "id": "https://openalex.org/C185429906",
+          "wikidata": "https://www.wikidata.org/wiki/Q1130160",
+          "display_name": "Estimator",
+          "level": 2,
+          "score": 0.0
+        },
+        {
+          "id": "https://openalex.org/C192562407",
+          "wikidata": "https://www.wikidata.org/wiki/Q228736",
+          "display_name": "Materials science",
+          "level": 0,
+          "score": 0.0
+        },
+        {
+          "id": "https://openalex.org/C121332964",
+          "wikidata": "https://www.wikidata.org/wiki/Q413",
+          "display_name": "Physics",
+          "level": 0,
+          "score": 0.0
+        },
+        {
+          "id": "https://openalex.org/C33923547",
+          "wikidata": "https://www.wikidata.org/wiki/Q395",
+          "display_name": "Mathematics",
+          "level": 0,
+          "score": 0.0
+        },
+        {
+          "id": "https://openalex.org/C2524010",
+          "wikidata": "https://www.wikidata.org/wiki/Q8087",
+          "display_name": "Geometry",
+          "level": 1,
+          "score": 0.0
+        },
+        {
+          "id": "https://openalex.org/C105795698",
+          "wikidata": "https://www.wikidata.org/wiki/Q12483",
+          "display_name": "Statistics",
+          "level": 1,
+          "score": 0.0
+        },
+        {
+          "id": "https://openalex.org/C159985019",
+          "wikidata": "https://www.wikidata.org/wiki/Q181790",
+          "display_name": "Composite material",
+          "level": 1,
+          "score": 0.0
+        },
+        {
+          "id": "https://openalex.org/C154945302",
+          "wikidata": "https://www.wikidata.org/wiki/Q11660",
+          "display_name": "Artificial intelligence",
+          "level": 1,
+          "score": 0.0
+        }
+      ],
+      "mesh": [],
+      "locations_count": 1,
+      "locations": [
+        {
+          "id": "doi:10.1145/2791405.2791432",
+          "doi": "https://doi.org/10.1145/2791405.2791432",
+          "is_oa": false,
+          "landing_page_url": "https://doi.org/10.1145/2791405.2791432",
+          "pdf_url": null,
+          "source": {
+            "id": "https://openalex.org/S4306420238",
+            "display_name": "International Symposium on Women in Computing and Informatics",
+            "issn_l": null,
+            "issn": null,
+            "is_oa": false,
+            "is_in_doaj": false,
+            "is_core": false,
+            "listed_in": [],
+            "host_organization": "https://openalex.org/P4310319798",
+            "host_organization_name": "Association for Computing Machinery",
+            "host_organization_lineage": [
+              "https://openalex.org/P4310319798"
+            ],
+            "host_organization_lineage_names": [
+              "Association for Computing Machinery"
+            ],
+            "type": "conference"
+          },
+          "license": null,
+          "license_id": null,
+          "version": "publishedVersion",
+          "is_accepted": true,
+          "is_published": true,
+          "raw_source_name": "Proceedings of the Third International Symposium on Women in Computing and Informatics",
+          "raw_type": "proceedings-article"
+        }
+      ],
+      "best_oa_location": null,
+      "sustainable_development_goals": [],
+      "study_designs": [],
+      "awards": [],
+      "funders": [],
+      "has_content": {
+        "pdf": false,
+        "grobid_xml": false
+      },
+      "content_urls": null,
+      "referenced_works_count": 27,
+      "referenced_works": [
+        "https://openalex.org/W82561215",
+        "https://openalex.org/W1485380506",
+        "https://openalex.org/W1549404527",
+        "https://openalex.org/W1964517503",
+        "https://openalex.org/W2013409485",
+        "https://openalex.org/W2013451019",
+        "https://openalex.org/W2023329204",
+        "https://openalex.org/W2101123884",
+        "https://openalex.org/W2107212030",
+        "https://openalex.org/W2110173188",
+        "https://openalex.org/W2111586962",
+        "https://openalex.org/W2113955296",
+        "https://openalex.org/W2120113879",
+        "https://openalex.org/W2130923111",
+        "https://openalex.org/W2133386065",
+        "https://openalex.org/W2150013559",
+        "https://openalex.org/W2150503355",
+        "https://openalex.org/W2153704625",
+        "https://openalex.org/W2156892892",
+        "https://openalex.org/W2157954477",
+        "https://openalex.org/W2159484375",
+        "https://openalex.org/W2182688186",
+        "https://openalex.org/W2188690303",
+        "https://openalex.org/W2341655714",
+        "https://openalex.org/W2624304035",
+        "https://openalex.org/W2963132558",
+        "https://openalex.org/W2998685964"
+      ],
+      "related_works": [
+        "https://openalex.org/W4412581148",
+        "https://openalex.org/W1674532387",
+        "https://openalex.org/W82561215",
+        "https://openalex.org/W4413394178",
+        "https://openalex.org/W2186432159",
+        "https://openalex.org/W2183121020",
+        "https://openalex.org/W1995142479",
+        "https://openalex.org/W993649625",
+        "https://openalex.org/W2729019397",
+        "https://openalex.org/W1532916350"
+      ],
+      "abstract_inverted_index": {
+        "Owing": [
+          0
+        ],
+        "to": [
+          1,
+          50
+        ],
+        "technological": [
+          2
+        ],
+        "proliferation": [
+          3
+        ],
+        "and": [
+          4,
+          31,
+          43,
+          67,
+          80,
+          95,
+          104
+        ],
+        "data": [
+          5,
+          45
+        ],
+        "deluging,": [
+          6
+        ],
+        "the": [
+          7,
+          97,
+          101
+        ],
+        "extent": [
+          8
+        ],
+        "of": [
+          9,
+          27,
+          71,
+          88
+        ],
+        "scalability": [
+          10
+        ],
+        "which": [
+          11,
+          23,
+          47
+        ],
+        "cloud": [
+          12,
+          34
+        ],
+        "databases": [
+          13,
+          35
+        ],
+        "can": [
+          14
+        ],
+        "accomplish": [
+          15
+        ],
+        "is": [
+          16,
+          48
+        ],
+        "a": [
+          17,
+          85
+        ],
+        "long": [
+          18
+        ],
+        "fostered": [
+          19
+        ],
+        "dream": [
+          20
+        ],
+        "for": [
+          21
+        ],
+        "applications": [
+          22,
+          54
+        ],
+        "support": [
+          24
+        ],
+        "high": [
+          25
+        ],
+        "levels": [
+          26
+        ],
+        "availability,": [
+          28
+        ],
+        "consistency,": [
+          29
+        ],
+        "elasticity": [
+          30
+        ],
+        "reliability.": [
+          32
+        ],
+        "Scaling": [
+          33
+        ],
+        "implies": [
+          36
+        ],
+        "scaling": [
+          37
+        ],
+        "ACID": [
+          38
+        ],
+        "guarantees": [
+          39
+        ],
+        "over": [
+          40,
+          57
+        ],
+        "geographically": [
+          41
+        ],
+        "distributed": [
+          42
+        ],
+        "replicated": [
+          44
+        ],
+        "stores": [
+          46
+        ],
+        "hard": [
+          49
+        ],
+        "achieve": [
+          51
+        ],
+        "since": [
+          52
+        ],
+        "such": [
+          53
+        ],
+        "prefer": [
+          55
+        ],
+        "availability": [
+          56
+        ],
+        "strong": [
+          58
+        ],
+        "consistency.": [
+          59,
+          81
+        ],
+        "Past": [
+          60
+        ],
+        "decades": [
+          61
+        ],
+        "have": [
+          62
+        ],
+        "witnessed": [
+          63
+        ],
+        "many": [
+          64
+        ],
+        "architecting": [
+          65,
+          90
+        ],
+        "decisions": [
+          66
+        ],
+        "solutions": [
+          68,
+          91
+        ],
+        "in": [
+          69,
+          106
+        ],
+        "view": [
+          70
+        ],
+        "this": [
+          72,
+          107
+        ],
+        "challenge": [
+          73
+        ],
+        "like": [
+          74
+        ],
+        "partitioning,": [
+          75
+        ],
+        "replications,": [
+          76
+        ],
+        "concurrency": [
+          77
+        ],
+        "control": [
+          78
+        ],
+        "mechanisms": [
+          79
+        ],
+        "This": [
+          82
+        ],
+        "paper": [
+          83
+        ],
+        "presents": [
+          84
+        ],
+        "brief": [
+          86
+        ],
+        "description": [
+          87
+        ],
+        "these": [
+          89
+        ],
+        "implemented": [
+          92
+        ],
+        "so": [
+          93
+        ],
+        "far": [
+          94
+        ],
+        "discusses": [
+          96
+        ],
+        "challenges": [
+          98
+        ],
+        "faced": [
+          99
+        ],
+        "under": [
+          100
+        ],
+        "ongoing": [
+          102
+        ],
+        "research": [
+          103
+        ],
+        "development": [
+          105
+        ],
+        "domain.": [
+          108
+        ]
+      },
+      "counts_by_year": [
+        {
+          "year": 2026,
+          "cited_by_count": 1
+        },
+        {
+          "year": 2019,
+          "cited_by_count": 1
+        }
+      ],
+      "updated_date": "2026-11-14T11:04:58.165337",
+      "created_date": "2016-06-24T00:00:00"
+    }
+  ],
+  "group_by": []
+}

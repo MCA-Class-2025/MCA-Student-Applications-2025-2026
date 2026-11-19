@@ -1,0 +1,4041 @@
+{
+  "meta": {
+    "notice": "No API key, so this request shares one free daily budget ($0.10) with everyone on your network's IP address. Get a free key with its own $1/day at https://openalex.org/settings/api and add api_key=YOUR_KEY to your requests. An AI agent can get one for its user in one call: POST https://api.openalex.org/api-keys with {\"email\": \"<your user's email>\"}; we email them a link, and the key works once they click it. Docs for agents: https://help.openalex.org/llms.txt",
+    "count": 10353,
+    "db_response_time_ms": 115,
+    "page": 1,
+    "per_page": 5,
+    "groups_count": null,
+    "x_query": {
+      "oql": "get works with (Nomad Engineer) in the title, abstract, or full text",
+      "x_new_oql": "get works with (Nomad Engineer) in the title, abstract, or full text",
+      "oqo": {
+        "get_rows": "works",
+        "filter_rows": [
+          {
+            "column_id": "fulltext.search",
+            "value": "Nomad Engineer",
+            "operator": "has"
+          }
+        ]
+      },
+      "url": "/works?filter=fulltext.search:Nomad Engineer&per_page=5",
+      "order": "best matches first",
+      "order_default": true
+    },
+    "cost_usd": 0.001
+  },
+  "results": [
+    {
+      "id": "https://openalex.org/W1976354468",
+      "doi": "https://doi.org/10.1109/oceans.1982.1151858",
+      "title": "Development of a value-engineered NOMAD buoy",
+      "display_name": "Development of a value-engineered NOMAD buoy",
+      "relevance_score": 81.13232,
+      "publication_year": 1982,
+      "publication_date": "1982-01-01",
+      "ids": {
+        "openalex": "https://openalex.org/W1976354468",
+        "doi": "https://doi.org/10.1109/oceans.1982.1151858",
+        "mag": "1976354468"
+      },
+      "language": "en",
+      "primary_location": {
+        "id": "doi:10.1109/oceans.1982.1151858",
+        "doi": "https://doi.org/10.1109/oceans.1982.1151858",
+        "is_oa": false,
+        "landing_page_url": "https://doi.org/10.1109/oceans.1982.1151858",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4306521331",
+          "display_name": "MTS/IEEE OCEANS Conference (OCEANS)",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": true,
+          "listed_in": [
+            "cwts-core"
+          ],
+          "host_organization": null,
+          "host_organization_name": null,
+          "host_organization_lineage": [],
+          "host_organization_lineage_names": [],
+          "type": "conference"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "OCEANS 82",
+        "raw_type": "proceedings-article"
+      },
+      "parent_works": [],
+      "lineage": [
+        "https://openalex.org/W1976354468"
+      ],
+      "child_works_count": 0,
+      "type": "conference-paper",
+      "is_traditional": true,
+      "indexed_in": [
+        "crossref"
+      ],
+      "open_access": {
+        "is_oa": false,
+        "oa_status": "closed",
+        "oa_url": null,
+        "any_repository_has_fulltext": false
+      },
+      "authorships": [
+        {
+          "author_position": "first",
+          "author": {
+            "id": "https://openalex.org/A5076062631",
+            "display_name": "G.L. Timpe",
+            "orcid": null,
+            "observed_orcids": []
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I2802384920",
+              "display_name": "Stennis Space Center",
+              "ror": "https://ror.org/03j9e2j92",
+              "country_code": "US",
+              "type": "facility",
+              "lineage": [
+                "https://openalex.org/I2802384920",
+                "https://openalex.org/I4210124779"
+              ]
+            }
+          ],
+          "countries": [
+            "US"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "G. Timpe",
+          "raw_affiliation_strings": [
+            "Nat. Data Buoy Center, Stennis Space Center, MS, USA"
+          ],
+          "raw_orcid": null,
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Nat. Data Buoy Center, Stennis Space Center, MS, USA",
+              "institution_ids": [
+                "https://openalex.org/I2802384920"
+              ]
+            }
+          ]
+        },
+        {
+          "author_position": "last",
+          "author": {
+            "id": "https://openalex.org/A5078077187",
+            "display_name": "W. Rainnie",
+            "orcid": null,
+            "observed_orcids": []
+          },
+          "institutions": [],
+          "countries": [],
+          "is_corresponding": false,
+          "raw_author_name": "W. Rainnie",
+          "raw_affiliation_strings": [],
+          "raw_orcid": null,
+          "affiliations": []
+        }
+      ],
+      "institutions": [],
+      "countries_distinct_count": 1,
+      "institutions_distinct_count": 1,
+      "corresponding_author_ids": [],
+      "corresponding_institution_ids": [],
+      "apc_list": null,
+      "apc_paid": null,
+      "fwci": 0.0,
+      "is_authors_truncated": false,
+      "has_fulltext": false,
+      "cited_by_count": 6,
+      "citation_normalized_percentile": {
+        "value": 0.0,
+        "is_in_top_1_percent": false,
+        "is_in_top_10_percent": false
+      },
+      "cited_by_percentile_year": {
+        "min": 91,
+        "max": 95
+      },
+      "biblio": {
+        "volume": null,
+        "issue": null,
+        "first_page": "605",
+        "last_page": "609"
+      },
+      "is_retracted": false,
+      "is_paratext": false,
+      "is_xpac": false,
+      "primary_topic": {
+        "id": "https://openalex.org/T14058",
+        "display_name": "Value Engineering and Management",
+        "score": 0.7523999810218811,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1408",
+          "display_name": "Strategy and Management"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/14",
+          "display_name": "Business, Management and Accounting"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      "topics": [
+        {
+          "id": "https://openalex.org/T14058",
+          "display_name": "Value Engineering and Management",
+          "score": 0.7523999810218811,
+          "subfield": {
+            "id": "https://openalex.org/subfields/1408",
+            "display_name": "Strategy and Management"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/14",
+            "display_name": "Business, Management and Accounting"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/2",
+            "display_name": "Social Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T14412",
+          "display_name": "Marine and Coastal Research",
+          "score": 0.05649999901652336,
+          "subfield": {
+            "id": "https://openalex.org/subfields/2212",
+            "display_name": "Ocean Engineering"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/22",
+            "display_name": "Engineering"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T13925",
+          "display_name": "Offshore Engineering and Technologies",
+          "score": 0.054099999368190765,
+          "subfield": {
+            "id": "https://openalex.org/subfields/2212",
+            "display_name": "Ocean Engineering"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/22",
+            "display_name": "Engineering"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        }
+      ],
+      "keywords": [
+        {
+          "id": "https://openalex.org/keywords/value-engineering",
+          "display_name": "value engineering",
+          "score": 0.7210000157356262
+        },
+        {
+          "id": "https://openalex.org/keywords/oceanographic-data-collection",
+          "display_name": "oceanographic data collection",
+          "score": 0.4399999976158142
+        },
+        {
+          "id": "https://openalex.org/keywords/cost-effective-design",
+          "display_name": "cost-effective design",
+          "score": 0.6449999809265137
+        },
+        {
+          "id": "https://openalex.org/keywords/government-industry-collaboration",
+          "display_name": "government-industry collaboration",
+          "score": 0.7049999833106995
+        }
+      ],
+      "concepts": [
+        {
+          "id": "https://openalex.org/C2779847632",
+          "wikidata": "https://www.wikidata.org/wiki/Q30026",
+          "display_name": "Buoy",
+          "level": 2,
+          "score": 0.9853746294975281
+        },
+        {
+          "id": "https://openalex.org/C2776746162",
+          "wikidata": "https://www.wikidata.org/wiki/Q4508",
+          "display_name": "Navy",
+          "level": 2,
+          "score": 0.7302111387252808
+        },
+        {
+          "id": "https://openalex.org/C37423430",
+          "wikidata": "https://www.wikidata.org/wiki/Q6750281",
+          "display_name": "Hull",
+          "level": 2,
+          "score": 0.6529480218887329
+        },
+        {
+          "id": "https://openalex.org/C199104240",
+          "wikidata": "https://www.wikidata.org/wiki/Q118291",
+          "display_name": "Marine engineering",
+          "level": 1,
+          "score": 0.598244309425354
+        },
+        {
+          "id": "https://openalex.org/C153294291",
+          "wikidata": "https://www.wikidata.org/wiki/Q25261",
+          "display_name": "Meteorology",
+          "level": 1,
+          "score": 0.4244956374168396
+        },
+        {
+          "id": "https://openalex.org/C127413603",
+          "wikidata": "https://www.wikidata.org/wiki/Q11023",
+          "display_name": "Engineering",
+          "level": 0,
+          "score": 0.4171963632106781
+        },
+        {
+          "id": "https://openalex.org/C178802073",
+          "wikidata": "https://www.wikidata.org/wiki/Q8421",
+          "display_name": "Aeronautics",
+          "level": 1,
+          "score": 0.3827705383300781
+        },
+        {
+          "id": "https://openalex.org/C205649164",
+          "wikidata": "https://www.wikidata.org/wiki/Q1071",
+          "display_name": "Geography",
+          "level": 0,
+          "score": 0.11862418055534363
+        },
+        {
+          "id": "https://openalex.org/C166957645",
+          "wikidata": "https://www.wikidata.org/wiki/Q23498",
+          "display_name": "Archaeology",
+          "level": 1,
+          "score": 0.0
+        }
+      ],
+      "mesh": [],
+      "locations_count": 1,
+      "locations": [
+        {
+          "id": "doi:10.1109/oceans.1982.1151858",
+          "doi": "https://doi.org/10.1109/oceans.1982.1151858",
+          "is_oa": false,
+          "landing_page_url": "https://doi.org/10.1109/oceans.1982.1151858",
+          "pdf_url": null,
+          "source": {
+            "id": "https://openalex.org/S4306521331",
+            "display_name": "MTS/IEEE OCEANS Conference (OCEANS)",
+            "issn_l": null,
+            "issn": null,
+            "is_oa": false,
+            "is_in_doaj": false,
+            "is_core": true,
+            "listed_in": [
+              "cwts-core"
+            ],
+            "host_organization": null,
+            "host_organization_name": null,
+            "host_organization_lineage": [],
+            "host_organization_lineage_names": [],
+            "type": "conference"
+          },
+          "license": null,
+          "license_id": null,
+          "version": "publishedVersion",
+          "is_accepted": true,
+          "is_published": true,
+          "raw_source_name": "OCEANS 82",
+          "raw_type": "proceedings-article"
+        }
+      ],
+      "best_oa_location": null,
+      "sustainable_development_goals": [],
+      "study_designs": [],
+      "awards": [],
+      "funders": [],
+      "has_content": {
+        "pdf": false,
+        "grobid_xml": false
+      },
+      "content_urls": null,
+      "referenced_works_count": 5,
+      "referenced_works": [
+        "https://openalex.org/W590330036",
+        "https://openalex.org/W601224813",
+        "https://openalex.org/W2916930307",
+        "https://openalex.org/W4285719527",
+        "https://openalex.org/W4403427110"
+      ],
+      "related_works": [
+        "https://openalex.org/W2112203416",
+        "https://openalex.org/W2064405951",
+        "https://openalex.org/W1672630674",
+        "https://openalex.org/W2164077144",
+        "https://openalex.org/W2017601597",
+        "https://openalex.org/W2108069413",
+        "https://openalex.org/W2074288351",
+        "https://openalex.org/W7172291542",
+        "https://openalex.org/W2007510819",
+        "https://openalex.org/W7065755468"
+      ],
+      "abstract_inverted_index": {
+        "Since": [
+          0
+        ],
+        "the": [
+          1,
+          3,
+          61,
+          79,
+          92,
+          102,
+          123,
+          128,
+          134
+        ],
+        "mid-1970s,": [
+          2
+        ],
+        "National": [
+          4
+        ],
+        "Oceanic": [
+          5
+        ],
+        "and": [
+          6,
+          51,
+          64,
+          83,
+          105,
+          125,
+          132,
+          138
+        ],
+        "Atmospheric": [
+          7
+        ],
+        "Administration": [
+          8
+        ],
+        "(NOAA)": [
+          9
+        ],
+        "Data": [
+          10
+        ],
+        "Buoy": [
+          11
+        ],
+        "Office": [
+          12
+        ],
+        "(NDBO)": [
+          13
+        ],
+        "has": [
+          14
+        ],
+        "used": [
+          15
+        ],
+        "Navy": [
+          16
+        ],
+        "Oceanographic": [
+          17
+        ],
+        "Meteorological": [
+          18
+        ],
+        "Automatic": [
+          19
+        ],
+        "Device": [
+          20
+        ],
+        "(NOMAD)": [
+          21
+        ],
+        "buoys": [
+          22
+        ],
+        "as": [
+          23
+        ],
+        "part": [
+          24
+        ],
+        "of": [
+          25,
+          81,
+          91,
+          115,
+          127,
+          136
+        ],
+        "their": [
+          26
+        ],
+        "ocean": [
+          27
+        ],
+        "data": [
+          28,
+          148
+        ],
+        "gathering": [
+          29
+        ],
+        "network.": [
+          30
+        ],
+        "These": [
+          31
+        ],
+        "U.S.": [
+          32
+        ],
+        "Navy-built,": [
+          33
+        ],
+        "20-ft": [
+          34
+        ],
+        "long,": [
+          35
+        ],
+        "boat-shaped": [
+          36
+        ],
+        "hulls,": [
+          37
+        ],
+        "have": [
+          38
+        ],
+        "proven": [
+          39
+        ],
+        "to": [
+          40,
+          60,
+          100,
+          142
+        ],
+        "be": [
+          41
+        ],
+        "extremely": [
+          42
+        ],
+        "seaworthy": [
+          43
+        ],
+        "buoys.": [
+          44,
+          68,
+          119
+        ],
+        "The": [
+          45
+        ],
+        "hulls": [
+          46
+        ],
+        "are": [
+          47,
+          56
+        ],
+        "reliable,": [
+          48,
+          145
+        ],
+        "easily": [
+          49
+        ],
+        "transportable,": [
+          50
+        ],
+        "for": [
+          52
+        ],
+        "many": [
+          53
+        ],
+        "applications,": [
+          54
+        ],
+        "they": [
+          55
+        ],
+        "an": [
+          57
+        ],
+        "attractive": [
+          58
+        ],
+        "alternative": [
+          59
+        ],
+        "conventional": [
+          62
+        ],
+        "40-ft": [
+          63
+        ],
+        "33-ft": [
+          65
+        ],
+        "diameter": [
+          66
+        ],
+        "discus-shaped": [
+          67
+        ],
+        "As": [
+          69
+        ],
+        "a": [
+          70,
+          85,
+          113,
+          144
+        ],
+        "result,": [
+          71
+        ],
+        "NDBO,": [
+          72
+        ],
+        "in": [
+          73,
+          106
+        ],
+        "early": [
+          74
+        ],
+        "1979,": [
+          75
+        ],
+        "began": [
+          76
+        ],
+        "actively": [
+          77
+        ],
+        "pursuing": [
+          78
+        ],
+        "idea": [
+          80
+        ],
+        "designing": [
+          82
+        ],
+        "constructing": [
+          84
+        ],
+        "second": [
+          86
+        ],
+        "generation,": [
+          87
+        ],
+        "value-engineered": [
+          88
+        ],
+        "(VE)": [
+          89
+        ],
+        "version": [
+          90
+        ],
+        "NOMAD": [
+          93,
+          103,
+          118,
+          130
+        ],
+        "buoy.": [
+          94,
+          149
+        ],
+        "A": [
+          95
+        ],
+        "consulting": [
+          96
+        ],
+        "firm": [
+          97
+        ],
+        "was": [
+          98,
+          110
+        ],
+        "contracted": [
+          99
+        ],
+        "redesign": [
+          101
+        ],
+        "hull,": [
+          104
+        ],
+        "June": [
+          107
+        ],
+        "1981,": [
+          108
+        ],
+        "construction": [
+          109,
+          126
+        ],
+        "started": [
+          111
+        ],
+        "on": [
+          112
+        ],
+        "series": [
+          114
+        ],
+        "five": [
+          116
+        ],
+        "new": [
+          117
+        ],
+        "This": [
+          120
+        ],
+        "paper": [
+          121
+        ],
+        "describes": [
+          122
+        ],
+        "design": [
+          124
+        ],
+        "VE": [
+          129
+        ],
+        "buoy,": [
+          131
+        ],
+        "details": [
+          133
+        ],
+        "efforts": [
+          135
+        ],
+        "industry": [
+          137
+        ],
+        "government": [
+          139
+        ],
+        "working": [
+          140
+        ],
+        "together": [
+          141
+        ],
+        "produce": [
+          143
+        ],
+        "cost": [
+          146
+        ],
+        "effective": [
+          147
+        ]
+      },
+      "counts_by_year": [
+        {
+          "year": 2026,
+          "cited_by_count": 1
+        },
+        {
+          "year": 2021,
+          "cited_by_count": 2
+        }
+      ],
+      "updated_date": "2026-10-26T11:51:55.731654",
+      "created_date": "2016-06-24T00:00:00"
+    },
+    {
+      "id": "https://openalex.org/W2155328045",
+      "doi": "https://doi.org/10.1109/crv.2006.76",
+      "title": "The Nomad 200 and the Nomad SuperScout: Reverse engineered and resurrected",
+      "display_name": "The Nomad 200 and the Nomad SuperScout: Reverse engineered and resurrected",
+      "relevance_score": 80.65858,
+      "publication_year": 2006,
+      "publication_date": "2006-06-21",
+      "ids": {
+        "openalex": "https://openalex.org/W2155328045",
+        "doi": "https://doi.org/10.1109/crv.2006.76",
+        "mag": "2155328045"
+      },
+      "language": "en",
+      "primary_location": {
+        "id": "doi:10.1109/crv.2006.76",
+        "doi": "https://doi.org/10.1109/crv.2006.76",
+        "is_oa": false,
+        "landing_page_url": "https://doi.org/10.1109/crv.2006.76",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4306417879",
+          "display_name": "Canadian Conference on Computer and Robot Vision",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "listed_in": [],
+          "host_organization": "https://openalex.org/P4310319808",
+          "host_organization_name": "Institute of Electrical and Electronics Engineers",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310319808"
+          ],
+          "host_organization_lineage_names": [
+            "Institute of Electrical and Electronics Engineers"
+          ],
+          "type": "conference"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "The 3rd Canadian Conference on Computer and Robot Vision (CRV'06)",
+        "raw_type": "proceedings-article"
+      },
+      "parent_works": [],
+      "lineage": [
+        "https://openalex.org/W2155328045"
+      ],
+      "child_works_count": 0,
+      "type": "conference-paper",
+      "is_traditional": true,
+      "indexed_in": [
+        "crossref"
+      ],
+      "open_access": {
+        "is_oa": false,
+        "oa_status": "closed",
+        "oa_url": null,
+        "any_repository_has_fulltext": false
+      },
+      "authorships": [
+        {
+          "author_position": "first",
+          "author": {
+            "id": null,
+            "display_name": "A. Chopra",
+            "orcid": null,
+            "observed_orcids": []
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I192455969",
+              "display_name": "York University",
+              "ror": "https://ror.org/05fq50484",
+              "country_code": "CA",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I192455969"
+              ]
+            }
+          ],
+          "countries": [
+            "CA"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "A. Chopra",
+          "raw_affiliation_strings": [
+            "Department of Computer Science and Engineering and Centre for Vision Research, York University, Toronto, ONT, Canada"
+          ],
+          "raw_orcid": null,
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Department of Computer Science and Engineering and Centre for Vision Research, York University, Toronto, ONT, Canada",
+              "institution_ids": [
+                "https://openalex.org/I192455969"
+              ]
+            }
+          ]
+        },
+        {
+          "author_position": "middle",
+          "author": {
+            "id": "https://openalex.org/A5026963725",
+            "display_name": "M. Obsniuk",
+            "orcid": null,
+            "observed_orcids": []
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I192455969",
+              "display_name": "York University",
+              "ror": "https://ror.org/05fq50484",
+              "country_code": "CA",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I192455969"
+              ]
+            }
+          ],
+          "countries": [
+            "CA"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "M. Obsniuk",
+          "raw_affiliation_strings": [
+            "Department of Computer Science and Engineering and Centre for Vision Research, York University, Toronto, ONT, Canada"
+          ],
+          "raw_orcid": null,
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Department of Computer Science and Engineering and Centre for Vision Research, York University, Toronto, ONT, Canada",
+              "institution_ids": [
+                "https://openalex.org/I192455969"
+              ]
+            }
+          ]
+        },
+        {
+          "author_position": "last",
+          "author": {
+            "id": "https://openalex.org/A5058737924",
+            "display_name": "Michael R. M. Jenkin",
+            "orcid": "https://orcid.org/0000-0002-2969-0012",
+            "observed_orcids": [
+              "https://orcid.org/0000-0002-2969-0012"
+            ]
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I192455969",
+              "display_name": "York University",
+              "ror": "https://ror.org/05fq50484",
+              "country_code": "CA",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I192455969"
+              ]
+            }
+          ],
+          "countries": [
+            "CA"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "M.R. Jenkin",
+          "raw_affiliation_strings": [
+            "Department of Computer Science and Engineering and Centre for Vision Research, York University, Toronto, ONT, Canada"
+          ],
+          "raw_orcid": null,
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Department of Computer Science and Engineering and Centre for Vision Research, York University, Toronto, ONT, Canada",
+              "institution_ids": [
+                "https://openalex.org/I192455969"
+              ]
+            }
+          ]
+        }
+      ],
+      "institutions": [],
+      "countries_distinct_count": 1,
+      "institutions_distinct_count": 1,
+      "corresponding_author_ids": [],
+      "corresponding_institution_ids": [
+        "https://openalex.org/I192455969"
+      ],
+      "apc_list": null,
+      "apc_paid": null,
+      "fwci": 0.0,
+      "is_authors_truncated": false,
+      "has_fulltext": false,
+      "cited_by_count": 8,
+      "citation_normalized_percentile": {
+        "value": 0.0,
+        "is_in_top_1_percent": false,
+        "is_in_top_10_percent": false
+      },
+      "cited_by_percentile_year": {
+        "min": 88,
+        "max": 96
+      },
+      "biblio": {
+        "volume": null,
+        "issue": null,
+        "first_page": "55",
+        "last_page": "55"
+      },
+      "is_retracted": false,
+      "is_paratext": false,
+      "is_xpac": false,
+      "primary_topic": {
+        "id": "https://openalex.org/T13382",
+        "display_name": "Robotics and Automated Systems",
+        "score": 0.40139999985694885,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2207",
+          "display_name": "Control and Systems Engineering"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/22",
+          "display_name": "Engineering"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      "topics": [
+        {
+          "id": "https://openalex.org/T13382",
+          "display_name": "Robotics and Automated Systems",
+          "score": 0.40139999985694885,
+          "subfield": {
+            "id": "https://openalex.org/subfields/2207",
+            "display_name": "Control and Systems Engineering"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/22",
+            "display_name": "Engineering"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T14335",
+          "display_name": "Educational Robotics and Engineering",
+          "score": 0.22300000488758087,
+          "subfield": {
+            "id": "https://openalex.org/subfields/3304",
+            "display_name": "Education"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/33",
+            "display_name": "Social Sciences"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/2",
+            "display_name": "Social Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T10191",
+          "display_name": "Robotics and Sensor-Based Localization",
+          "score": 0.16689999401569366,
+          "subfield": {
+            "id": "https://openalex.org/subfields/1707",
+            "display_name": "Computer Vision and Pattern Recognition"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/17",
+            "display_name": "Computer Science"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        }
+      ],
+      "keywords": [
+        {
+          "id": "https://openalex.org/keywords/mobile-robots",
+          "display_name": "mobile robots",
+          "score": 0.8379999995231628
+        },
+        {
+          "id": "https://openalex.org/keywords/reverse-engineering",
+          "display_name": "reverse engineering",
+          "score": 0.9509999752044678
+        }
+      ],
+      "concepts": [
+        {
+          "id": "https://openalex.org/C41008148",
+          "wikidata": "https://www.wikidata.org/wiki/Q21198",
+          "display_name": "Computer science",
+          "level": 0,
+          "score": 0.36287882924079895
+        },
+        {
+          "id": "https://openalex.org/C142362112",
+          "wikidata": "https://www.wikidata.org/wiki/Q735",
+          "display_name": "Art",
+          "level": 0,
+          "score": 0.33746641874313354
+        },
+        {
+          "id": "https://openalex.org/C127413603",
+          "wikidata": "https://www.wikidata.org/wiki/Q11023",
+          "display_name": "Engineering",
+          "level": 0,
+          "score": 0.3202494978904724
+        }
+      ],
+      "mesh": [],
+      "locations_count": 2,
+      "locations": [
+        {
+          "id": "doi:10.1109/crv.2006.76",
+          "doi": "https://doi.org/10.1109/crv.2006.76",
+          "is_oa": false,
+          "landing_page_url": "https://doi.org/10.1109/crv.2006.76",
+          "pdf_url": null,
+          "source": {
+            "id": "https://openalex.org/S4306417879",
+            "display_name": "Canadian Conference on Computer and Robot Vision",
+            "issn_l": null,
+            "issn": null,
+            "is_oa": false,
+            "is_in_doaj": false,
+            "is_core": false,
+            "listed_in": [],
+            "host_organization": "https://openalex.org/P4310319808",
+            "host_organization_name": "Institute of Electrical and Electronics Engineers",
+            "host_organization_lineage": [
+              "https://openalex.org/P4310319808"
+            ],
+            "host_organization_lineage_names": [
+              "Institute of Electrical and Electronics Engineers"
+            ],
+            "type": "conference"
+          },
+          "license": null,
+          "license_id": null,
+          "version": "publishedVersion",
+          "is_accepted": true,
+          "is_published": true,
+          "raw_source_name": "The 3rd Canadian Conference on Computer and Robot Vision (CRV'06)",
+          "raw_type": "proceedings-article"
+        },
+        {
+          "id": "pmh:oai:CiteSeerX.psu:10.1.1.581.8740",
+          "doi": null,
+          "is_oa": false,
+          "landing_page_url": "http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.581.8740",
+          "pdf_url": null,
+          "source": null,
+          "license": null,
+          "license_id": null,
+          "version": "submittedVersion",
+          "is_accepted": false,
+          "is_published": false,
+          "raw_source_name": "http://vgrserver.cse.yorku.ca/~jenkin/papers/2006/crv06arjun.pdf",
+          "raw_type": "text"
+        }
+      ],
+      "best_oa_location": null,
+      "sustainable_development_goals": [],
+      "study_designs": [],
+      "awards": [],
+      "funders": [
+        {
+          "id": "https://openalex.org/F4320319918",
+          "display_name": "York University",
+          "ror": "https://ror.org/05fq50484"
+        },
+        {
+          "id": "https://openalex.org/F4320334593",
+          "display_name": "Natural Sciences and Engineering Research Council of Canada",
+          "ror": "https://ror.org/01h531d29"
+        }
+      ],
+      "has_content": {
+        "pdf": false,
+        "grobid_xml": false
+      },
+      "content_urls": null,
+      "referenced_works_count": 2,
+      "referenced_works": [
+        "https://openalex.org/W2135416371",
+        "https://openalex.org/W2167084044"
+      ],
+      "related_works": [
+        "https://openalex.org/W6884931052",
+        "https://openalex.org/W59547059",
+        "https://openalex.org/W4391777921",
+        "https://openalex.org/W7026608778",
+        "https://openalex.org/W7147411230",
+        "https://openalex.org/W7045954175",
+        "https://openalex.org/W4416551698",
+        "https://openalex.org/W7043635361",
+        "https://openalex.org/W2893135905",
+        "https://openalex.org/W2955529333"
+      ],
+      "abstract_inverted_index": {
+        "The": [
+          0
+        ],
+        "Nomad": [
+          1,
+          5
+        ],
+        "200": [
+          2
+        ],
+        "and": [
+          3,
+          38,
+          70
+        ],
+        "the": [
+          4,
+          9,
+          20,
+          25,
+          43,
+          95
+        ],
+        "SuperScouts": [
+          6
+        ],
+        "are": [
+          7
+        ],
+        "among": [
+          8
+        ],
+        "most": [
+          10
+        ],
+        "popular": [
+          11
+        ],
+        "platforms": [
+          12
+        ],
+        "used,": [
+          13
+        ],
+        "for": [
+          14,
+          29
+        ],
+        "research": [
+          15
+        ],
+        "in": [
+          16,
+          19
+        ],
+        "robotics.": [
+          17
+        ],
+        "Built": [
+          18
+        ],
+        "early": [
+          21
+        ],
+        "1990’s": [
+          22
+        ],
+        "they": [
+          23,
+          52
+        ],
+        "were": [
+          24
+        ],
+        "base": [
+          26
+        ],
+        "of": [
+          27,
+          36
+        ],
+        "choice": [
+          28
+        ],
+        "many": [
+          30
+        ],
+        "mobile": [
+          31
+        ],
+        "robotics": [
+          32
+        ],
+        "researchers.": [
+          33
+        ],
+        "Unfortunately,": [
+          34
+        ],
+        "lack": [
+          35
+        ],
+        "support": [
+          37
+        ],
+        "proper": [
+          39
+        ],
+        "documentation": [
+          40
+        ],
+        "to": [
+          41,
+          77,
+          83,
+          99
+        ],
+        "enhance": [
+          42
+        ],
+        "computing": [
+          44
+        ],
+        "power": [
+          45
+        ],
+        "on": [
+          46
+        ],
+        "these": [
+          47
+        ],
+        "robots": [
+          48,
+          65,
+          76
+        ],
+        "has": [
+          49
+        ],
+        "meant": [
+          50
+        ],
+        "that": [
+          51
+        ],
+        "have": [
+          53,
+          63
+        ],
+        "slowly": [
+          54
+        ],
+        "faded": [
+          55
+        ],
+        "away": [
+          56
+        ],
+        "into": [
+          57,
+          88
+        ],
+        "oblivion.": [
+          58
+        ],
+        "We": [
+          59
+        ],
+        "at": [
+          60
+        ],
+        "York": [
+          61
+        ],
+        "University": [
+          62
+        ],
+        "four": [
+          64
+        ],
+        "from": [
+          66
+        ],
+        "Nomadic": [
+          67
+        ],
+        "Technologies": [
+          68
+        ],
+        "Inc.,": [
+          69
+        ],
+        "rather": [
+          71
+        ],
+        "than": [
+          72
+        ],
+        "allowing": [
+          73
+        ],
+        "our": [
+          74,
+          101
+        ],
+        "old": [
+          75,
+          102
+        ],
+        "just": [
+          78
+        ],
+        "rust": [
+          79
+        ],
+        "away,": [
+          80
+        ],
+        "we": [
+          81,
+          93,
+          97
+        ],
+        "decided": [
+          82
+        ],
+        "breathe": [
+          84
+        ],
+        "new": [
+          85
+        ],
+        "life": [
+          86
+        ],
+        "back": [
+          87
+        ],
+        "them.": [
+          89
+        ],
+        "In": [
+          90
+        ],
+        "this": [
+          91
+        ],
+        "paper": [
+          92
+        ],
+        "present": [
+          94
+        ],
+        "techniques": [
+          96
+        ],
+        "used": [
+          98
+        ],
+        "resurrect": [
+          100
+        ],
+        "Nomads.": [
+          103
+        ]
+      },
+      "counts_by_year": [
+        {
+          "year": 2025,
+          "cited_by_count": 3
+        },
+        {
+          "year": 2020,
+          "cited_by_count": 1
+        },
+        {
+          "year": 2014,
+          "cited_by_count": 2
+        },
+        {
+          "year": 2013,
+          "cited_by_count": 2
+        }
+      ],
+      "updated_date": "2026-11-14T11:04:58.165337",
+      "created_date": "2016-06-24T00:00:00"
+    },
+    {
+      "id": "https://openalex.org/W4244498685",
+      "doi": "https://doi.org/10.1007/s12599-019-00615-1",
+      "title": "Digital Nomads",
+      "display_name": "Digital Nomads",
+      "relevance_score": 36.878212,
+      "publication_year": 2019,
+      "publication_date": "2019-08-29",
+      "ids": {
+        "openalex": "https://openalex.org/W4244498685",
+        "doi": "https://doi.org/10.1007/s12599-019-00615-1"
+      },
+      "language": "en",
+      "primary_location": {
+        "id": "doi:10.1007/s12599-019-00615-1",
+        "doi": "https://doi.org/10.1007/s12599-019-00615-1",
+        "is_oa": false,
+        "landing_page_url": "https://doi.org/10.1007/s12599-019-00615-1",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S27339233",
+          "display_name": "Business & Information Systems Engineering",
+          "issn_l": "1867-0202",
+          "issn": [
+            "1867-0202",
+            "2363-7005"
+          ],
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": true,
+          "listed_in": [
+            "abdc-a",
+            "cwts-core",
+            "dongbi-c",
+            "fnege-3",
+            "jufo-2",
+            "norway-1",
+            "poland-140",
+            "russia-white-list-1",
+            "vabb-shw"
+          ],
+          "host_organization": "https://openalex.org/P4310319965",
+          "host_organization_name": "Springer Nature",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310319965"
+          ],
+          "host_organization_lineage_names": [
+            "Springer Nature"
+          ],
+          "type": "journal"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Business &amp; Information Systems Engineering",
+        "raw_type": "journal-article"
+      },
+      "parent_works": [],
+      "lineage": [
+        "https://openalex.org/W4244498685"
+      ],
+      "child_works_count": 0,
+      "type": "article",
+      "is_traditional": true,
+      "indexed_in": [
+        "crossref"
+      ],
+      "open_access": {
+        "is_oa": true,
+        "oa_status": "green",
+        "oa_url": "https://aisel.aisnet.org/bise/vol62/iss1/7",
+        "any_repository_has_fulltext": true
+      },
+      "authorships": [
+        {
+          "author_position": "first",
+          "author": {
+            "id": "https://openalex.org/A5076191835",
+            "display_name": "Shahper Richter",
+            "orcid": "https://orcid.org/0000-0001-6725-4652",
+            "observed_orcids": [
+              "https://orcid.org/0000-0001-6725-4652",
+              "https://orcid.org/0009-0006-6445-0977"
+            ]
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I39854758",
+              "display_name": "Auckland University of Technology",
+              "ror": "https://ror.org/01zvqw119",
+              "country_code": "NZ",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I39854758"
+              ]
+            }
+          ],
+          "countries": [
+            "NZ"
+          ],
+          "is_corresponding": true,
+          "raw_author_name": "Shahper Richter",
+          "raw_affiliation_strings": [
+            "Department of Information Technology and Software Engineering, Faculty of Design and Technology, Auckland University of Technology, Auckland, New Zealand"
+          ],
+          "raw_orcid": null,
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Department of Information Technology and Software Engineering, Faculty of Design and Technology, Auckland University of Technology, Auckland, New Zealand",
+              "institution_ids": [
+                "https://openalex.org/I39854758"
+              ]
+            }
+          ]
+        },
+        {
+          "author_position": "last",
+          "author": {
+            "id": "https://openalex.org/A5061717541",
+            "display_name": "Alexander Richter",
+            "orcid": "https://orcid.org/0000-0002-3699-6466",
+            "observed_orcids": [
+              "https://orcid.org/0000-0002-3699-6466"
+            ]
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I41156924",
+              "display_name": "Victoria University of Wellington",
+              "ror": "https://ror.org/0040r6f76",
+              "country_code": "NZ",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I41156924"
+              ]
+            }
+          ],
+          "countries": [
+            "NZ"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "Alexander Richter",
+          "raw_affiliation_strings": [
+            "School of Information Management, Victoria University of Wellington, Wellington, New Zealand"
+          ],
+          "raw_orcid": null,
+          "affiliations": [
+            {
+              "raw_affiliation_string": "School of Information Management, Victoria University of Wellington, Wellington, New Zealand",
+              "institution_ids": [
+                "https://openalex.org/I41156924"
+              ]
+            }
+          ]
+        }
+      ],
+      "institutions": [],
+      "countries_distinct_count": 1,
+      "institutions_distinct_count": 2,
+      "corresponding_author_ids": [
+        "https://openalex.org/A5076191835"
+      ],
+      "corresponding_institution_ids": [
+        "https://openalex.org/I39854758"
+      ],
+      "apc_list": {
+        "value": 2690,
+        "currency": "USD",
+        "value_usd": 2690
+      },
+      "apc_paid": null,
+      "fwci": 5.3745,
+      "is_authors_truncated": false,
+      "has_fulltext": true,
+      "cited_by_count": 77,
+      "citation_normalized_percentile": {
+        "value": 0.94957526,
+        "is_in_top_1_percent": false,
+        "is_in_top_10_percent": true
+      },
+      "cited_by_percentile_year": {
+        "min": 88,
+        "max": 100
+      },
+      "biblio": {
+        "volume": "62",
+        "issue": "1",
+        "first_page": "77",
+        "last_page": "81"
+      },
+      "is_retracted": false,
+      "is_paratext": false,
+      "is_xpac": false,
+      "primary_topic": {
+        "id": "https://openalex.org/T10970",
+        "display_name": "Team Dynamics and Performance",
+        "score": 0.7196999788284302,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3207",
+          "display_name": "Social Psychology"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/32",
+          "display_name": "Psychology"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      "topics": [
+        {
+          "id": "https://openalex.org/T10970",
+          "display_name": "Team Dynamics and Performance",
+          "score": 0.7196999788284302,
+          "subfield": {
+            "id": "https://openalex.org/subfields/3207",
+            "display_name": "Social Psychology"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/32",
+            "display_name": "Psychology"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/2",
+            "display_name": "Social Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T10722",
+          "display_name": "Work-Family Balance Challenges",
+          "score": 0.17180000245571136,
+          "subfield": {
+            "id": "https://openalex.org/subfields/3312",
+            "display_name": "Sociology and Political Science"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/33",
+            "display_name": "Social Sciences"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/2",
+            "display_name": "Social Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T12256",
+          "display_name": "Facilities and Workplace Management",
+          "score": 0.009499999694526196,
+          "subfield": {
+            "id": "https://openalex.org/subfields/2216",
+            "display_name": "Architecture"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/22",
+            "display_name": "Engineering"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        }
+      ],
+      "keywords": [
+        {
+          "id": "https://openalex.org/keywords/digital-nomads",
+          "display_name": "digital nomads",
+          "score": 0.9860000014305115
+        },
+        {
+          "id": "https://openalex.org/keywords/virtual-teams",
+          "display_name": "virtual teams",
+          "score": 0.9649999737739563
+        },
+        {
+          "id": "https://openalex.org/keywords/coworking-spaces",
+          "display_name": "coworking spaces",
+          "score": 0.628000020980835
+        },
+        {
+          "id": "https://openalex.org/keywords/remote-work",
+          "display_name": "remote work",
+          "score": 0.7990000247955322
+        },
+        {
+          "id": "https://openalex.org/keywords/video-calling",
+          "display_name": "video calls",
+          "score": 0.6069999933242798
+        },
+        {
+          "id": "https://openalex.org/keywords/work-life-balance",
+          "display_name": "work-life balance",
+          "score": 0.5989999771118164
+        },
+        {
+          "id": "https://openalex.org/keywords/cross-cultural-collaboration",
+          "display_name": "cross-cultural collaboration",
+          "score": 0.4189999997615814
+        }
+      ],
+      "concepts": [
+        {
+          "id": "https://openalex.org/C41008148",
+          "wikidata": "https://www.wikidata.org/wiki/Q21198",
+          "display_name": "Computer science",
+          "level": 0,
+          "score": 0.3734026551246643
+        }
+      ],
+      "mesh": [],
+      "locations_count": 3,
+      "locations": [
+        {
+          "id": "doi:10.1007/s12599-019-00615-1",
+          "doi": "https://doi.org/10.1007/s12599-019-00615-1",
+          "is_oa": false,
+          "landing_page_url": "https://doi.org/10.1007/s12599-019-00615-1",
+          "pdf_url": null,
+          "source": {
+            "id": "https://openalex.org/S27339233",
+            "display_name": "Business & Information Systems Engineering",
+            "issn_l": "1867-0202",
+            "issn": [
+              "1867-0202",
+              "2363-7005"
+            ],
+            "is_oa": false,
+            "is_in_doaj": false,
+            "is_core": true,
+            "listed_in": [
+              "abdc-a",
+              "cwts-core",
+              "dongbi-c",
+              "fnege-3",
+              "jufo-2",
+              "norway-1",
+              "poland-140",
+              "russia-white-list-1",
+              "vabb-shw"
+            ],
+            "host_organization": "https://openalex.org/P4310319965",
+            "host_organization_name": "Springer Nature",
+            "host_organization_lineage": [
+              "https://openalex.org/P4310319965"
+            ],
+            "host_organization_lineage_names": [
+              "Springer Nature"
+            ],
+            "type": "journal"
+          },
+          "license": null,
+          "license_id": null,
+          "version": "publishedVersion",
+          "is_accepted": true,
+          "is_published": true,
+          "raw_source_name": "Business &amp; Information Systems Engineering",
+          "raw_type": "journal-article"
+        },
+        {
+          "id": "pmh:oai:RePEc:spr:binfse:v:62:y:2020:i:1:d:10.1007_s12599-019-00615-1",
+          "doi": null,
+          "is_oa": false,
+          "landing_page_url": "http://link.springer.com/10.1007/s12599-019-00615-1",
+          "pdf_url": null,
+          "source": {
+            "id": "https://openalex.org/S4306401271",
+            "display_name": "RePEc: Research Papers in Economics",
+            "issn_l": null,
+            "issn": null,
+            "is_oa": false,
+            "is_in_doaj": false,
+            "is_core": false,
+            "listed_in": [],
+            "host_organization": "https://openalex.org/I77793887",
+            "host_organization_name": "Federal Reserve Bank of St. Louis",
+            "host_organization_lineage": [
+              "https://openalex.org/I77793887"
+            ],
+            "host_organization_lineage_names": [],
+            "type": "repository"
+          },
+          "license": null,
+          "license_id": null,
+          "version": "submittedVersion",
+          "is_accepted": false,
+          "is_published": false,
+          "raw_source_name": null,
+          "raw_type": "article"
+        },
+        {
+          "id": "pmh:oai:aisel.aisnet.org:bise-1561",
+          "doi": null,
+          "is_oa": true,
+          "landing_page_url": "https://aisel.aisnet.org/bise/vol62/iss1/7",
+          "pdf_url": null,
+          "source": {
+            "id": "https://openalex.org/S30879505",
+            "display_name": "Journal of the Association for Information Systems",
+            "issn_l": "1536-9323",
+            "issn": [
+              "1536-9323"
+            ],
+            "is_oa": false,
+            "is_in_doaj": false,
+            "is_core": true,
+            "listed_in": [
+              "abdc-a-star",
+              "anvur-scientific",
+              "cwts-core",
+              "dongbi-a",
+              "fnege-1",
+              "jufo-3",
+              "norway-2",
+              "poland-140",
+              "russia-white-list-1",
+              "vabb-shw"
+            ],
+            "host_organization": "https://openalex.org/P4310321080",
+            "host_organization_name": "Association for Information Systems",
+            "host_organization_lineage": [
+              "https://openalex.org/P4310321080"
+            ],
+            "host_organization_lineage_names": [
+              "Association for Information Systems"
+            ],
+            "type": "journal"
+          },
+          "license": null,
+          "license_id": null,
+          "version": "submittedVersion",
+          "is_accepted": false,
+          "is_published": false,
+          "raw_source_name": "Business &amp; Information Systems Engineering",
+          "raw_type": "text"
+        }
+      ],
+      "best_oa_location": {
+        "id": "pmh:oai:aisel.aisnet.org:bise-1561",
+        "doi": null,
+        "is_oa": true,
+        "landing_page_url": "https://aisel.aisnet.org/bise/vol62/iss1/7",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S30879505",
+          "display_name": "Journal of the Association for Information Systems",
+          "issn_l": "1536-9323",
+          "issn": [
+            "1536-9323"
+          ],
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": true,
+          "listed_in": [
+            "abdc-a-star",
+            "anvur-scientific",
+            "cwts-core",
+            "dongbi-a",
+            "fnege-1",
+            "jufo-3",
+            "norway-2",
+            "poland-140",
+            "russia-white-list-1",
+            "vabb-shw"
+          ],
+          "host_organization": "https://openalex.org/P4310321080",
+          "host_organization_name": "Association for Information Systems",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310321080"
+          ],
+          "host_organization_lineage_names": [
+            "Association for Information Systems"
+          ],
+          "type": "journal"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "submittedVersion",
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": "Business &amp; Information Systems Engineering",
+        "raw_type": "text"
+      },
+      "sustainable_development_goals": [
+        {
+          "display_name": "Decent work and economic growth",
+          "score": 0.48510000109672546,
+          "id": "https://metadata.un.org/sdg/8"
+        }
+      ],
+      "study_designs": [],
+      "awards": [],
+      "funders": [],
+      "has_content": {
+        "pdf": true,
+        "grobid_xml": true
+      },
+      "content_urls": {
+        "pdf": "https://content.openalex.org/works/W4244498685.pdf",
+        "grobid_xml": "https://content.openalex.org/works/W4244498685.grobid-xml"
+      },
+      "referenced_works_count": 29,
+      "referenced_works": [
+        "https://openalex.org/W51421899",
+        "https://openalex.org/W115183765",
+        "https://openalex.org/W1504497380",
+        "https://openalex.org/W1883817353",
+        "https://openalex.org/W1972442593",
+        "https://openalex.org/W1976855313",
+        "https://openalex.org/W1992281624",
+        "https://openalex.org/W2006454842",
+        "https://openalex.org/W2013553083",
+        "https://openalex.org/W2024090229",
+        "https://openalex.org/W2026217559",
+        "https://openalex.org/W2046500054",
+        "https://openalex.org/W2047059926",
+        "https://openalex.org/W2129562889",
+        "https://openalex.org/W2132254598",
+        "https://openalex.org/W2160687139",
+        "https://openalex.org/W2477089429",
+        "https://openalex.org/W2496670753",
+        "https://openalex.org/W2508370095",
+        "https://openalex.org/W2513860274",
+        "https://openalex.org/W2521167022",
+        "https://openalex.org/W2574987497",
+        "https://openalex.org/W2597519621",
+        "https://openalex.org/W2727779802",
+        "https://openalex.org/W2752462162",
+        "https://openalex.org/W2770421001",
+        "https://openalex.org/W2790106480",
+        "https://openalex.org/W2791726970",
+        "https://openalex.org/W2912459836"
+      ],
+      "related_works": [
+        "https://openalex.org/W3216385200",
+        "https://openalex.org/W4391904183",
+        "https://openalex.org/W6986556223",
+        "https://openalex.org/W4376273217",
+        "https://openalex.org/W3125975672",
+        "https://openalex.org/W2790106480",
+        "https://openalex.org/W2126862865",
+        "https://openalex.org/W6908405692",
+        "https://openalex.org/W3115770243",
+        "https://openalex.org/W2908379649"
+      ],
+      "abstract_inverted_index": null,
+      "counts_by_year": [
+        {
+          "year": 2026,
+          "cited_by_count": 5
+        },
+        {
+          "year": 2025,
+          "cited_by_count": 19
+        },
+        {
+          "year": 2024,
+          "cited_by_count": 17
+        },
+        {
+          "year": 2023,
+          "cited_by_count": 15
+        },
+        {
+          "year": 2022,
+          "cited_by_count": 11
+        },
+        {
+          "year": 2021,
+          "cited_by_count": 8
+        },
+        {
+          "year": 2020,
+          "cited_by_count": 1
+        },
+        {
+          "year": 2019,
+          "cited_by_count": 1
+        }
+      ],
+      "updated_date": "2026-11-14T11:04:58.165337",
+      "created_date": "2022-05-12T00:00:00"
+    },
+    {
+      "id": "https://openalex.org/W2275818167",
+      "doi": "https://doi.org/10.1146/annurev-anthro-102215-095827",
+      "title": "The Archaeology of Pastoral Nomadism",
+      "display_name": "The Archaeology of Pastoral Nomadism",
+      "relevance_score": 35.96327,
+      "publication_year": 2016,
+      "publication_date": "2016-10-21",
+      "ids": {
+        "openalex": "https://openalex.org/W2275818167",
+        "doi": "https://doi.org/10.1146/annurev-anthro-102215-095827",
+        "mag": "2275818167"
+      },
+      "language": "en",
+      "primary_location": {
+        "id": "doi:10.1146/annurev-anthro-102215-095827",
+        "doi": "https://doi.org/10.1146/annurev-anthro-102215-095827",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.1146/annurev-anthro-102215-095827",
+        "pdf_url": "https://www.annualreviews.org/doi/pdf/10.1146/annurev-anthro-102215-095827",
+        "source": {
+          "id": "https://openalex.org/S195167216",
+          "display_name": "Annual Review of Anthropology",
+          "issn_l": "0084-6570",
+          "issn": [
+            "0084-6570",
+            "1545-4290"
+          ],
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": true,
+          "listed_in": [
+            "anvur-class-a",
+            "anvur-scientific",
+            "cwts-core",
+            "erih-plus",
+            "jufo-2",
+            "norway-1",
+            "poland-140",
+            "russia-white-list-1",
+            "vabb-shw"
+          ],
+          "host_organization": "https://openalex.org/P4310320373",
+          "host_organization_name": "Annual Reviews",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310320373"
+          ],
+          "host_organization_lineage_names": [
+            "Annual Reviews"
+          ],
+          "type": "journal"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Annual Review of Anthropology",
+        "raw_type": "journal-article"
+      },
+      "parent_works": [],
+      "lineage": [
+        "https://openalex.org/W2275818167"
+      ],
+      "child_works_count": 0,
+      "type": "review",
+      "is_traditional": true,
+      "indexed_in": [
+        "crossref"
+      ],
+      "open_access": {
+        "is_oa": true,
+        "oa_status": "bronze",
+        "oa_url": "https://www.annualreviews.org/doi/pdf/10.1146/annurev-anthro-102215-095827",
+        "any_repository_has_fulltext": false
+      },
+      "authorships": [
+        {
+          "author_position": "first",
+          "author": {
+            "id": "https://openalex.org/A5001187007",
+            "display_name": "William Honeychurch",
+            "orcid": null,
+            "observed_orcids": []
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I32971472",
+              "display_name": "Yale University",
+              "ror": "https://ror.org/03v76x132",
+              "country_code": "US",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I32971472"
+              ]
+            }
+          ],
+          "countries": [
+            "US"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "William Honeychurch",
+          "raw_affiliation_strings": [
+            "Department of Anthropology, Yale University, New Haven, Connecticut 06520;"
+          ],
+          "raw_orcid": null,
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Department of Anthropology, Yale University, New Haven, Connecticut 06520;",
+              "institution_ids": [
+                "https://openalex.org/I32971472"
+              ]
+            }
+          ]
+        },
+        {
+          "author_position": "last",
+          "author": {
+            "id": "https://openalex.org/A5028170941",
+            "display_name": "Cheryl A. Makarewicz",
+            "orcid": "https://orcid.org/0000-0002-1649-336X",
+            "observed_orcids": [
+              "https://orcid.org/0000-0002-1649-336X"
+            ]
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I32021983",
+              "display_name": "Christian-Albrechts-Universität zu Kiel",
+              "ror": "https://ror.org/04v76ef78",
+              "country_code": "DE",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I32021983"
+              ]
+            }
+          ],
+          "countries": [
+            "DE"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "Cheryl A. Makarewicz",
+          "raw_affiliation_strings": [
+            "Institute for Prehistoric and Protohistoric Archaeology, D-24118, Kiel, Germany;"
+          ],
+          "raw_orcid": null,
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Institute for Prehistoric and Protohistoric Archaeology, D-24118, Kiel, Germany;",
+              "institution_ids": [
+                "https://openalex.org/I32021983"
+              ]
+            }
+          ]
+        }
+      ],
+      "institutions": [],
+      "countries_distinct_count": 2,
+      "institutions_distinct_count": 2,
+      "corresponding_author_ids": [],
+      "corresponding_institution_ids": [],
+      "apc_list": null,
+      "apc_paid": null,
+      "fwci": 4.2373,
+      "is_authors_truncated": false,
+      "has_fulltext": true,
+      "cited_by_count": 116,
+      "citation_normalized_percentile": {
+        "value": 1.0,
+        "is_in_top_1_percent": true,
+        "is_in_top_10_percent": true
+      },
+      "cited_by_percentile_year": {
+        "min": 98,
+        "max": 99
+      },
+      "biblio": {
+        "volume": "45",
+        "issue": "1",
+        "first_page": "341",
+        "last_page": "359"
+      },
+      "is_retracted": false,
+      "is_paratext": false,
+      "is_xpac": false,
+      "primary_topic": {
+        "id": "https://openalex.org/T10087",
+        "display_name": "Archaeology and ancient environmental studies",
+        "score": 0.9775000214576721,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3302",
+          "display_name": "Archeology"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/33",
+          "display_name": "Social Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      "topics": [
+        {
+          "id": "https://openalex.org/T10087",
+          "display_name": "Archaeology and ancient environmental studies",
+          "score": 0.9775000214576721,
+          "subfield": {
+            "id": "https://openalex.org/subfields/3302",
+            "display_name": "Archeology"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/33",
+            "display_name": "Social Sciences"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/2",
+            "display_name": "Social Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T12467",
+          "display_name": "Rangeland Management and Livestock Ecology",
+          "score": 0.010900000110268593,
+          "subfield": {
+            "id": "https://openalex.org/subfields/2308",
+            "display_name": "Management, Monitoring, Policy and Law"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/23",
+            "display_name": "Environmental Science"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T13621",
+          "display_name": "Ancient and Medieval Archaeology Studies",
+          "score": 0.0012000000569969416,
+          "subfield": {
+            "id": "https://openalex.org/subfields/1204",
+            "display_name": "Archeology (arts and humanities)"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/12",
+            "display_name": "Arts and Humanities"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/2",
+            "display_name": "Social Sciences"
+          }
+        }
+      ],
+      "keywords": [
+        {
+          "id": "https://openalex.org/keywords/nomadic-pastoralism",
+          "display_name": "nomadic pastoralism",
+          "score": 0.9990000128746033
+        },
+        {
+          "id": "https://openalex.org/keywords/herding-behavior",
+          "display_name": "herding behavior",
+          "score": 0.6060000061988831
+        },
+        {
+          "id": "https://openalex.org/keywords/biomolecular-archaeology",
+          "display_name": "biomolecular archaeology",
+          "score": 0.722000002861023
+        },
+        {
+          "id": "https://openalex.org/keywords/livestock-production",
+          "display_name": "animal husbandry",
+          "score": 0.4569999873638153
+        }
+      ],
+      "concepts": [
+        {
+          "id": "https://openalex.org/C156005406",
+          "wikidata": "https://www.wikidata.org/wiki/Q2787508",
+          "display_name": "Subsistence agriculture",
+          "level": 3,
+          "score": 0.8617147207260132
+        },
+        {
+          "id": "https://openalex.org/C17616946",
+          "wikidata": "https://www.wikidata.org/wiki/Q9056738",
+          "display_name": "Pastoralism",
+          "level": 3,
+          "score": 0.8479223251342773
+        },
+        {
+          "id": "https://openalex.org/C2777192895",
+          "wikidata": "https://www.wikidata.org/wiki/Q2638294",
+          "display_name": "Ethnoarchaeology",
+          "level": 2,
+          "score": 0.7649679183959961
+        },
+        {
+          "id": "https://openalex.org/C3987366",
+          "wikidata": "https://www.wikidata.org/wiki/Q6658164",
+          "display_name": "Livelihood",
+          "level": 3,
+          "score": 0.713201642036438
+        },
+        {
+          "id": "https://openalex.org/C94625758",
+          "wikidata": "https://www.wikidata.org/wiki/Q7163",
+          "display_name": "Politics",
+          "level": 2,
+          "score": 0.5589924454689026
+        },
+        {
+          "id": "https://openalex.org/C2779269003",
+          "wikidata": "https://www.wikidata.org/wiki/Q2686349",
+          "display_name": "Archaeological record",
+          "level": 2,
+          "score": 0.5420007705688477
+        },
+        {
+          "id": "https://openalex.org/C166957645",
+          "wikidata": "https://www.wikidata.org/wiki/Q23498",
+          "display_name": "Archaeology",
+          "level": 1,
+          "score": 0.48339787125587463
+        },
+        {
+          "id": "https://openalex.org/C205649164",
+          "wikidata": "https://www.wikidata.org/wiki/Q1071",
+          "display_name": "Geography",
+          "level": 0,
+          "score": 0.4649718105792999
+        },
+        {
+          "id": "https://openalex.org/C19165224",
+          "wikidata": "https://www.wikidata.org/wiki/Q23404",
+          "display_name": "Anthropology",
+          "level": 1,
+          "score": 0.44695740938186646
+        },
+        {
+          "id": "https://openalex.org/C2993248341",
+          "wikidata": "https://www.wikidata.org/wiki/Q178706",
+          "display_name": "Social organisation",
+          "level": 2,
+          "score": 0.4205649793148041
+        },
+        {
+          "id": "https://openalex.org/C95457728",
+          "wikidata": "https://www.wikidata.org/wiki/Q309",
+          "display_name": "History",
+          "level": 0,
+          "score": 0.3848360776901245
+        },
+        {
+          "id": "https://openalex.org/C144024400",
+          "wikidata": "https://www.wikidata.org/wiki/Q21201",
+          "display_name": "Sociology",
+          "level": 0,
+          "score": 0.3740863800048828
+        },
+        {
+          "id": "https://openalex.org/C2549261",
+          "wikidata": "https://www.wikidata.org/wiki/Q43455",
+          "display_name": "Ethnology",
+          "level": 1,
+          "score": 0.36204996705055237
+        },
+        {
+          "id": "https://openalex.org/C36289849",
+          "wikidata": "https://www.wikidata.org/wiki/Q34749",
+          "display_name": "Social science",
+          "level": 1,
+          "score": 0.19904863834381104
+        },
+        {
+          "id": "https://openalex.org/C17744445",
+          "wikidata": "https://www.wikidata.org/wiki/Q36442",
+          "display_name": "Political science",
+          "level": 0,
+          "score": 0.17487120628356934
+        },
+        {
+          "id": "https://openalex.org/C112964050",
+          "wikidata": "https://www.wikidata.org/wiki/Q103459",
+          "display_name": "Livestock",
+          "level": 2,
+          "score": 0.11174210906028748
+        },
+        {
+          "id": "https://openalex.org/C118518473",
+          "wikidata": "https://www.wikidata.org/wiki/Q11451",
+          "display_name": "Agriculture",
+          "level": 2,
+          "score": 0.10417923331260681
+        },
+        {
+          "id": "https://openalex.org/C97137747",
+          "wikidata": "https://www.wikidata.org/wiki/Q38112",
+          "display_name": "Forestry",
+          "level": 1,
+          "score": 0.0
+        },
+        {
+          "id": "https://openalex.org/C199539241",
+          "wikidata": "https://www.wikidata.org/wiki/Q7748",
+          "display_name": "Law",
+          "level": 1,
+          "score": 0.0
+        }
+      ],
+      "mesh": [],
+      "locations_count": 1,
+      "locations": [
+        {
+          "id": "doi:10.1146/annurev-anthro-102215-095827",
+          "doi": "https://doi.org/10.1146/annurev-anthro-102215-095827",
+          "is_oa": true,
+          "landing_page_url": "https://doi.org/10.1146/annurev-anthro-102215-095827",
+          "pdf_url": "https://www.annualreviews.org/doi/pdf/10.1146/annurev-anthro-102215-095827",
+          "source": {
+            "id": "https://openalex.org/S195167216",
+            "display_name": "Annual Review of Anthropology",
+            "issn_l": "0084-6570",
+            "issn": [
+              "0084-6570",
+              "1545-4290"
+            ],
+            "is_oa": false,
+            "is_in_doaj": false,
+            "is_core": true,
+            "listed_in": [
+              "anvur-class-a",
+              "anvur-scientific",
+              "cwts-core",
+              "erih-plus",
+              "jufo-2",
+              "norway-1",
+              "poland-140",
+              "russia-white-list-1",
+              "vabb-shw"
+            ],
+            "host_organization": "https://openalex.org/P4310320373",
+            "host_organization_name": "Annual Reviews",
+            "host_organization_lineage": [
+              "https://openalex.org/P4310320373"
+            ],
+            "host_organization_lineage_names": [
+              "Annual Reviews"
+            ],
+            "type": "journal"
+          },
+          "license": null,
+          "license_id": null,
+          "version": "publishedVersion",
+          "is_accepted": true,
+          "is_published": true,
+          "raw_source_name": "Annual Review of Anthropology",
+          "raw_type": "journal-article"
+        }
+      ],
+      "best_oa_location": {
+        "id": "doi:10.1146/annurev-anthro-102215-095827",
+        "doi": "https://doi.org/10.1146/annurev-anthro-102215-095827",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.1146/annurev-anthro-102215-095827",
+        "pdf_url": "https://www.annualreviews.org/doi/pdf/10.1146/annurev-anthro-102215-095827",
+        "source": {
+          "id": "https://openalex.org/S195167216",
+          "display_name": "Annual Review of Anthropology",
+          "issn_l": "0084-6570",
+          "issn": [
+            "0084-6570",
+            "1545-4290"
+          ],
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": true,
+          "listed_in": [
+            "anvur-class-a",
+            "anvur-scientific",
+            "cwts-core",
+            "erih-plus",
+            "jufo-2",
+            "norway-1",
+            "poland-140",
+            "russia-white-list-1",
+            "vabb-shw"
+          ],
+          "host_organization": "https://openalex.org/P4310320373",
+          "host_organization_name": "Annual Reviews",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310320373"
+          ],
+          "host_organization_lineage_names": [
+            "Annual Reviews"
+          ],
+          "type": "journal"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Annual Review of Anthropology",
+        "raw_type": "journal-article"
+      },
+      "sustainable_development_goals": [],
+      "study_designs": [],
+      "awards": [],
+      "funders": [],
+      "has_content": {
+        "pdf": true,
+        "grobid_xml": true
+      },
+      "content_urls": {
+        "pdf": "https://content.openalex.org/works/W2275818167.pdf",
+        "grobid_xml": "https://content.openalex.org/works/W2275818167.grobid-xml"
+      },
+      "referenced_works_count": 145,
+      "referenced_works": [
+        "https://openalex.org/W54038588",
+        "https://openalex.org/W106279053",
+        "https://openalex.org/W200622314",
+        "https://openalex.org/W334532805",
+        "https://openalex.org/W372488655",
+        "https://openalex.org/W572294778",
+        "https://openalex.org/W579444966",
+        "https://openalex.org/W580822519",
+        "https://openalex.org/W593137183",
+        "https://openalex.org/W594197325",
+        "https://openalex.org/W597654290",
+        "https://openalex.org/W607419598",
+        "https://openalex.org/W611933987",
+        "https://openalex.org/W655210521",
+        "https://openalex.org/W1481427546",
+        "https://openalex.org/W1487409372",
+        "https://openalex.org/W1491056725",
+        "https://openalex.org/W1515589493",
+        "https://openalex.org/W1573282716",
+        "https://openalex.org/W1598746401",
+        "https://openalex.org/W1599743500",
+        "https://openalex.org/W1601581609",
+        "https://openalex.org/W1608115336",
+        "https://openalex.org/W1608280434",
+        "https://openalex.org/W1720470325",
+        "https://openalex.org/W1755173462",
+        "https://openalex.org/W1845674840",
+        "https://openalex.org/W1902206978",
+        "https://openalex.org/W1964033146",
+        "https://openalex.org/W1964931575",
+        "https://openalex.org/W1971545231",
+        "https://openalex.org/W1975044423",
+        "https://openalex.org/W1980598663",
+        "https://openalex.org/W1983376721",
+        "https://openalex.org/W1985059030",
+        "https://openalex.org/W1986961716",
+        "https://openalex.org/W1988747293",
+        "https://openalex.org/W1990198538",
+        "https://openalex.org/W1994685106",
+        "https://openalex.org/W1996342673",
+        "https://openalex.org/W2000431636",
+        "https://openalex.org/W2000677866",
+        "https://openalex.org/W2003648616",
+        "https://openalex.org/W2004033121",
+        "https://openalex.org/W2005291885",
+        "https://openalex.org/W2005824697",
+        "https://openalex.org/W2005866402",
+        "https://openalex.org/W2006504512",
+        "https://openalex.org/W2012924291",
+        "https://openalex.org/W2015976634",
+        "https://openalex.org/W2016559981",
+        "https://openalex.org/W2016810579",
+        "https://openalex.org/W2020409662",
+        "https://openalex.org/W2025852611",
+        "https://openalex.org/W2026591860",
+        "https://openalex.org/W2027513543",
+        "https://openalex.org/W2031001952",
+        "https://openalex.org/W2031487607",
+        "https://openalex.org/W2033821310",
+        "https://openalex.org/W2034382744",
+        "https://openalex.org/W2035788892",
+        "https://openalex.org/W2037227685",
+        "https://openalex.org/W2038255677",
+        "https://openalex.org/W2038320821",
+        "https://openalex.org/W2038819784",
+        "https://openalex.org/W2041723829",
+        "https://openalex.org/W2043370738",
+        "https://openalex.org/W2046554687",
+        "https://openalex.org/W2052263612",
+        "https://openalex.org/W2053388374",
+        "https://openalex.org/W2056783238",
+        "https://openalex.org/W2060581808",
+        "https://openalex.org/W2061473410",
+        "https://openalex.org/W2062134259",
+        "https://openalex.org/W2071778048",
+        "https://openalex.org/W2075882676",
+        "https://openalex.org/W2079776033",
+        "https://openalex.org/W2080449237",
+        "https://openalex.org/W2083111488",
+        "https://openalex.org/W2083514735",
+        "https://openalex.org/W2084771490",
+        "https://openalex.org/W2087899728",
+        "https://openalex.org/W2088200338",
+        "https://openalex.org/W2094141768",
+        "https://openalex.org/W2096462854",
+        "https://openalex.org/W2098981646",
+        "https://openalex.org/W2100396706",
+        "https://openalex.org/W2102917363",
+        "https://openalex.org/W2110858232",
+        "https://openalex.org/W2112559538",
+        "https://openalex.org/W2112658053",
+        "https://openalex.org/W2121158450",
+        "https://openalex.org/W2126104662",
+        "https://openalex.org/W2129224605",
+        "https://openalex.org/W2129331450",
+        "https://openalex.org/W2132251717",
+        "https://openalex.org/W2133334819",
+        "https://openalex.org/W2142299784",
+        "https://openalex.org/W2155259240",
+        "https://openalex.org/W2157797784",
+        "https://openalex.org/W2181485636",
+        "https://openalex.org/W2183296489",
+        "https://openalex.org/W2187442562",
+        "https://openalex.org/W2225293557",
+        "https://openalex.org/W2237410041",
+        "https://openalex.org/W2270203803",
+        "https://openalex.org/W2283399894",
+        "https://openalex.org/W2292216404",
+        "https://openalex.org/W2299031651",
+        "https://openalex.org/W2315670858",
+        "https://openalex.org/W2325910881",
+        "https://openalex.org/W2333851071",
+        "https://openalex.org/W2337419459",
+        "https://openalex.org/W2394919225",
+        "https://openalex.org/W2408958505",
+        "https://openalex.org/W2492382920",
+        "https://openalex.org/W2495654795",
+        "https://openalex.org/W2502333893",
+        "https://openalex.org/W2505637443",
+        "https://openalex.org/W2566663057",
+        "https://openalex.org/W2751171807",
+        "https://openalex.org/W2944948419",
+        "https://openalex.org/W2966955610",
+        "https://openalex.org/W2991434752",
+        "https://openalex.org/W2995084382",
+        "https://openalex.org/W3092153141",
+        "https://openalex.org/W3128211153",
+        "https://openalex.org/W3214492602",
+        "https://openalex.org/W4205156652",
+        "https://openalex.org/W4214664586",
+        "https://openalex.org/W4231000292",
+        "https://openalex.org/W4232114028",
+        "https://openalex.org/W4235789253",
+        "https://openalex.org/W4239605361",
+        "https://openalex.org/W4239656029",
+        "https://openalex.org/W4241466157",
+        "https://openalex.org/W4242478099",
+        "https://openalex.org/W4244613527",
+        "https://openalex.org/W4250333829",
+        "https://openalex.org/W4251633552",
+        "https://openalex.org/W4285719527",
+        "https://openalex.org/W4299405914",
+        "https://openalex.org/W4307531096",
+        "https://openalex.org/W4327649837",
+        "https://openalex.org/W4399149863"
+      ],
+      "related_works": [
+        "https://openalex.org/W4414002356",
+        "https://openalex.org/W4256429356",
+        "https://openalex.org/W2037227685",
+        "https://openalex.org/W2753918746",
+        "https://openalex.org/W1515589493",
+        "https://openalex.org/W4414002283",
+        "https://openalex.org/W6992838952",
+        "https://openalex.org/W4250528138",
+        "https://openalex.org/W2077587628",
+        "https://openalex.org/W7054730402"
+      ],
+      "abstract_inverted_index": {
+        "Pastoral": [
+          0
+        ],
+        "nomadism": [
+          1
+        ],
+        "encompasses": [
+          2
+        ],
+        "an": [
+          3
+        ],
+        "array": [
+          4
+        ],
+        "of": [
+          5,
+          16,
+          33,
+          49,
+          69,
+          76
+        ],
+        "specialized": [
+          6
+        ],
+        "knowledge": [
+          7
+        ],
+        "concerned": [
+          8
+        ],
+        "with": [
+          9
+        ],
+        "the": [
+          10,
+          30,
+          36,
+          44,
+          55,
+          70,
+          74,
+          98,
+          105,
+          114
+        ],
+        "daily": [
+          11
+        ],
+        "rhythms": [
+          12
+        ],
+        "and": [
+          13,
+          35,
+          46,
+          82,
+          92,
+          117,
+          128,
+          131
+        ],
+        "long-term": [
+          14
+        ],
+        "tempos": [
+          15
+        ],
+        "caring": [
+          17
+        ],
+        "for": [
+          18
+        ],
+        "herd": [
+          19,
+          41
+        ],
+        "animals": [
+          20,
+          42
+        ],
+        "in": [
+          21,
+          39,
+          66,
+          79,
+          97
+        ],
+        "order": [
+          22
+        ],
+        "to": [
+          23,
+          111
+        ],
+        "extract": [
+          24
+        ],
+        "subsistence": [
+          25
+        ],
+        "livelihoods.": [
+          26
+        ],
+        "It": [
+          27
+        ],
+        "also": [
+          28
+        ],
+        "embodies": [
+          29
+        ],
+        "relational": [
+          31
+        ],
+        "lives": [
+          32
+        ],
+        "herders": [
+          34
+        ],
+        "diverse": [
+          37
+        ],
+        "ways": [
+          38
+        ],
+        "which": [
+          40
+        ],
+        "structure": [
+          43
+        ],
+        "social": [
+          45,
+          127
+        ],
+        "symbolic": [
+          47
+        ],
+        "worlds": [
+          48
+        ],
+        "mobile": [
+          50,
+          89
+        ],
+        "pastoralists.": [
+          51
+        ],
+        "This": [
+          52
+        ],
+        "article": [
+          53
+        ],
+        "reviews": [
+          54
+        ],
+        "latest": [
+          56
+        ],
+        "research": [
+          57
+        ],
+        "on": [
+          58
+        ],
+        "ancient": [
+          59
+        ],
+        "pastoral": [
+          60,
+          124
+        ],
+        "nomadic": [
+          61,
+          125
+        ],
+        "communities": [
+          62
+        ],
+        "that": [
+          63,
+          85
+        ],
+        "is": [
+          64
+        ],
+        "emerging": [
+          65
+        ],
+        "many": [
+          67
+        ],
+        "parts": [
+          68
+        ],
+        "world.": [
+          71
+        ],
+        "We": [
+          72
+        ],
+        "emphasize": [
+          73
+        ],
+        "importance": [
+          75
+        ],
+        "revolutionary": [
+          77
+        ],
+        "advances": [
+          78
+        ],
+        "archaeological": [
+          80,
+          99
+        ],
+        "methods": [
+          81
+        ],
+        "biomolecular": [
+          83
+        ],
+        "approaches": [
+          84
+        ],
+        "have": [
+          86
+        ],
+        "made": [
+          87
+        ],
+        "visible": [
+          88
+        ],
+        "pastoralist": [
+          90
+        ],
+        "behaviors": [
+          91
+        ],
+        "decision-making": [
+          93
+        ],
+        "processes": [
+          94
+        ],
+        "previously": [
+          95
+        ],
+        "concealed": [
+          96
+        ],
+        "record.": [
+          100
+        ],
+        "Archaeologists": [
+          101
+        ],
+        "are": [
+          102
+        ],
+        "gradually": [
+          103
+        ],
+        "producing": [
+          104
+        ],
+        "high-resolution,": [
+          106
+        ],
+        "multiscalar": [
+          107
+        ],
+        "data": [
+          108
+        ],
+        "sets": [
+          109
+        ],
+        "required": [
+          110
+        ],
+        "link": [
+          112
+        ],
+        "together": [
+          113
+        ],
+        "individual,": [
+          115
+        ],
+        "community,": [
+          116
+        ],
+        "regional": [
+          118
+        ],
+        "interactions": [
+          119
+        ],
+        "that,": [
+          120
+        ],
+        "over": [
+          121
+        ],
+        "time,": [
+          122
+        ],
+        "structured": [
+          123
+        ],
+        "economies,": [
+          126
+        ],
+        "ritual": [
+          129
+        ],
+        "lives,": [
+          130
+        ],
+        "political": [
+          132
+        ],
+        "organization.": [
+          133
+        ]
+      },
+      "counts_by_year": [
+        {
+          "year": 2026,
+          "cited_by_count": 8
+        },
+        {
+          "year": 2025,
+          "cited_by_count": 15
+        },
+        {
+          "year": 2024,
+          "cited_by_count": 15
+        },
+        {
+          "year": 2023,
+          "cited_by_count": 10
+        },
+        {
+          "year": 2022,
+          "cited_by_count": 14
+        },
+        {
+          "year": 2021,
+          "cited_by_count": 17
+        },
+        {
+          "year": 2020,
+          "cited_by_count": 12
+        },
+        {
+          "year": 2019,
+          "cited_by_count": 10
+        },
+        {
+          "year": 2018,
+          "cited_by_count": 10
+        },
+        {
+          "year": 2017,
+          "cited_by_count": 5
+        }
+      ],
+      "updated_date": "2026-11-14T11:04:58.165337",
+      "created_date": "2016-06-24T00:00:00"
+    },
+    {
+      "id": "https://openalex.org/W4388932377",
+      "doi": "https://doi.org/10.1093/oso/9780198888673.003.0005",
+      "title": "Nomad Invasion",
+      "display_name": "Nomad Invasion",
+      "relevance_score": 35.551456,
+      "publication_year": 2023,
+      "publication_date": "2023-11-02",
+      "ids": {
+        "openalex": "https://openalex.org/W4388932377",
+        "doi": "https://doi.org/10.1093/oso/9780198888673.003.0005"
+      },
+      "language": "en",
+      "primary_location": {
+        "id": "doi:10.1093/oso/9780198888673.003.0005",
+        "doi": "https://doi.org/10.1093/oso/9780198888673.003.0005",
+        "is_oa": true,
+        "landing_page_url": "http://dx.doi.org/10.1093/oso/9780198888673.003.0005",
+        "pdf_url": "http://oxfordbyzantinesociety.files.wordpress.com/2011/03/obsnewsweb.pdf",
+        "source": {
+          "id": "https://openalex.org/S4306463708",
+          "display_name": "Oxford University Press eBooks",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "listed_in": [],
+          "host_organization": "https://openalex.org/P4310311648",
+          "host_organization_name": "Oxford University Press",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310311648",
+            "https://openalex.org/P4310311647"
+          ],
+          "host_organization_lineage_names": [
+            "Oxford University Press",
+            "University of Oxford"
+          ],
+          "type": "ebook platform"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Emperor John II Komnenos",
+        "raw_type": "book-chapter"
+      },
+      "parent_works": [
+        {
+          "id": "https://openalex.org/W4388932349",
+          "display_name": "Emperor John II Komnenos: Rebuilding New Rome 1118-1143",
+          "relationship": "volume"
+        }
+      ],
+      "lineage": [
+        "https://openalex.org/W4388932377",
+        "https://openalex.org/W4388932349"
+      ],
+      "child_works_count": 0,
+      "type": "book-chapter",
+      "is_traditional": true,
+      "indexed_in": [
+        "crossref"
+      ],
+      "open_access": {
+        "is_oa": true,
+        "oa_status": "bronze",
+        "oa_url": "http://oxfordbyzantinesociety.files.wordpress.com/2011/03/obsnewsweb.pdf",
+        "any_repository_has_fulltext": false
+      },
+      "authorships": [
+        {
+          "author_position": "first",
+          "author": {
+            "id": "https://openalex.org/A5012517423",
+            "display_name": "Maximilian Lau",
+            "orcid": "https://orcid.org/0000-0001-8117-3090",
+            "observed_orcids": [
+              "https://orcid.org/0000-0001-8117-3090"
+            ]
+          },
+          "institutions": [],
+          "countries": [],
+          "is_corresponding": true,
+          "raw_author_name": "Maximilian C. G. Lau",
+          "raw_affiliation_strings": [],
+          "raw_orcid": null,
+          "affiliations": []
+        }
+      ],
+      "institutions": [],
+      "countries_distinct_count": 0,
+      "institutions_distinct_count": 0,
+      "corresponding_author_ids": [
+        "https://openalex.org/A5012517423"
+      ],
+      "corresponding_institution_ids": [],
+      "apc_list": null,
+      "apc_paid": null,
+      "fwci": 0.0,
+      "is_authors_truncated": false,
+      "has_fulltext": true,
+      "cited_by_count": 0,
+      "citation_normalized_percentile": {
+        "value": 0.0,
+        "is_in_top_1_percent": false,
+        "is_in_top_10_percent": false
+      },
+      "cited_by_percentile_year": null,
+      "biblio": {
+        "volume": null,
+        "issue": null,
+        "first_page": "102",
+        "last_page": "119"
+      },
+      "is_retracted": false,
+      "is_paratext": false,
+      "is_xpac": false,
+      "primary_topic": {
+        "id": "https://openalex.org/T12266",
+        "display_name": "Byzantine Studies and History",
+        "score": 0.9926999807357788,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1205",
+          "display_name": "Classics"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/12",
+          "display_name": "Arts and Humanities"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      "topics": [
+        {
+          "id": "https://openalex.org/T12266",
+          "display_name": "Byzantine Studies and History",
+          "score": 0.9926999807357788,
+          "subfield": {
+            "id": "https://openalex.org/subfields/1205",
+            "display_name": "Classics"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/12",
+            "display_name": "Arts and Humanities"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/2",
+            "display_name": "Social Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T12999",
+          "display_name": "Medieval History and Crusades",
+          "score": 0.004600000102072954,
+          "subfield": {
+            "id": "https://openalex.org/subfields/1202",
+            "display_name": "History"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/12",
+            "display_name": "Arts and Humanities"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/2",
+            "display_name": "Social Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T10165",
+          "display_name": "Classical Antiquity Studies",
+          "score": 0.0005000000237487257,
+          "subfield": {
+            "id": "https://openalex.org/subfields/1205",
+            "display_name": "Classics"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/12",
+            "display_name": "Arts and Humanities"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/2",
+            "display_name": "Social Sciences"
+          }
+        }
+      ],
+      "keywords": [
+        {
+          "id": "https://openalex.org/keywords/john-ii-komnenos",
+          "display_name": "John II Komnenos",
+          "score": 0.9409999847412109
+        },
+        {
+          "id": "https://openalex.org/keywords/nomads",
+          "display_name": "nomadic peoples",
+          "score": 0.6869999766349792
+        },
+        {
+          "id": "https://openalex.org/keywords/rus",
+          "display_name": "Rus'",
+          "score": 0.5199999809265137
+        },
+        {
+          "id": "https://openalex.org/keywords/danube-frontier",
+          "display_name": "Danube frontier",
+          "score": 0.7929999828338623
+        },
+        {
+          "id": "https://openalex.org/keywords/black-sea-region",
+          "display_name": "Black Sea region",
+          "score": 0.6809999942779541
+        },
+        {
+          "id": "https://openalex.org/keywords/byzantine-military-history",
+          "display_name": "Byzantine military history",
+          "score": 0.4779999852180481
+        },
+        {
+          "id": "https://openalex.org/keywords/12th-century",
+          "display_name": "12th century",
+          "score": 0.8870000243186951
+        }
+      ],
+      "concepts": [
+        {
+          "id": "https://openalex.org/C2778627824",
+          "wikidata": "https://www.wikidata.org/wiki/Q178561",
+          "display_name": "Battle",
+          "level": 2,
+          "score": 0.8115986585617065
+        },
+        {
+          "id": "https://openalex.org/C2779220109",
+          "wikidata": "https://www.wikidata.org/wiki/Q50000",
+          "display_name": "Victory",
+          "level": 3,
+          "score": 0.7322131395339966
+        },
+        {
+          "id": "https://openalex.org/C2777228553",
+          "wikidata": "https://www.wikidata.org/wiki/Q7310094",
+          "display_name": "Reign",
+          "level": 3,
+          "score": 0.7134458422660828
+        },
+        {
+          "id": "https://openalex.org/C104562893",
+          "wikidata": "https://www.wikidata.org/wiki/Q47591",
+          "display_name": "Byzantine architecture",
+          "level": 2,
+          "score": 0.5637452602386475
+        },
+        {
+          "id": "https://openalex.org/C195244886",
+          "wikidata": "https://www.wikidata.org/wiki/Q41493",
+          "display_name": "Ancient history",
+          "level": 1,
+          "score": 0.563696026802063
+        },
+        {
+          "id": "https://openalex.org/C95457728",
+          "wikidata": "https://www.wikidata.org/wiki/Q309",
+          "display_name": "History",
+          "level": 0,
+          "score": 0.562406063079834
+        },
+        {
+          "id": "https://openalex.org/C2779304628",
+          "wikidata": "https://www.wikidata.org/wiki/Q3503480",
+          "display_name": "Face (sociological concept)",
+          "level": 2,
+          "score": 0.4739427864551544
+        },
+        {
+          "id": "https://openalex.org/C139676723",
+          "wikidata": "https://www.wikidata.org/wiki/Q1193832",
+          "display_name": "Sign (mathematics)",
+          "level": 2,
+          "score": 0.4512478709220886
+        },
+        {
+          "id": "https://openalex.org/C205649164",
+          "wikidata": "https://www.wikidata.org/wiki/Q1071",
+          "display_name": "Geography",
+          "level": 0,
+          "score": 0.3911283612251282
+        },
+        {
+          "id": "https://openalex.org/C199539241",
+          "wikidata": "https://www.wikidata.org/wiki/Q7748",
+          "display_name": "Law",
+          "level": 1,
+          "score": 0.253791481256485
+        },
+        {
+          "id": "https://openalex.org/C17744445",
+          "wikidata": "https://www.wikidata.org/wiki/Q36442",
+          "display_name": "Political science",
+          "level": 0,
+          "score": 0.23121866583824158
+        },
+        {
+          "id": "https://openalex.org/C94625758",
+          "wikidata": "https://www.wikidata.org/wiki/Q7163",
+          "display_name": "Politics",
+          "level": 2,
+          "score": 0.21793577075004578
+        },
+        {
+          "id": "https://openalex.org/C144024400",
+          "wikidata": "https://www.wikidata.org/wiki/Q21201",
+          "display_name": "Sociology",
+          "level": 0,
+          "score": 0.1943143606185913
+        },
+        {
+          "id": "https://openalex.org/C36289849",
+          "wikidata": "https://www.wikidata.org/wiki/Q34749",
+          "display_name": "Social science",
+          "level": 1,
+          "score": 0.0762501060962677
+        },
+        {
+          "id": "https://openalex.org/C134306372",
+          "wikidata": "https://www.wikidata.org/wiki/Q7754",
+          "display_name": "Mathematical analysis",
+          "level": 1,
+          "score": 0.0
+        },
+        {
+          "id": "https://openalex.org/C33923547",
+          "wikidata": "https://www.wikidata.org/wiki/Q395",
+          "display_name": "Mathematics",
+          "level": 0,
+          "score": 0.0
+        }
+      ],
+      "mesh": [],
+      "locations_count": 1,
+      "locations": [
+        {
+          "id": "doi:10.1093/oso/9780198888673.003.0005",
+          "doi": "https://doi.org/10.1093/oso/9780198888673.003.0005",
+          "is_oa": true,
+          "landing_page_url": "http://dx.doi.org/10.1093/oso/9780198888673.003.0005",
+          "pdf_url": "http://oxfordbyzantinesociety.files.wordpress.com/2011/03/obsnewsweb.pdf",
+          "source": {
+            "id": "https://openalex.org/S4306463708",
+            "display_name": "Oxford University Press eBooks",
+            "issn_l": null,
+            "issn": null,
+            "is_oa": false,
+            "is_in_doaj": false,
+            "is_core": false,
+            "listed_in": [],
+            "host_organization": "https://openalex.org/P4310311648",
+            "host_organization_name": "Oxford University Press",
+            "host_organization_lineage": [
+              "https://openalex.org/P4310311648",
+              "https://openalex.org/P4310311647"
+            ],
+            "host_organization_lineage_names": [
+              "Oxford University Press",
+              "University of Oxford"
+            ],
+            "type": "ebook platform"
+          },
+          "license": null,
+          "license_id": null,
+          "version": "publishedVersion",
+          "is_accepted": true,
+          "is_published": true,
+          "raw_source_name": "Emperor John II Komnenos",
+          "raw_type": "book-chapter"
+        }
+      ],
+      "best_oa_location": {
+        "id": "doi:10.1093/oso/9780198888673.003.0005",
+        "doi": "https://doi.org/10.1093/oso/9780198888673.003.0005",
+        "is_oa": true,
+        "landing_page_url": "http://dx.doi.org/10.1093/oso/9780198888673.003.0005",
+        "pdf_url": "http://oxfordbyzantinesociety.files.wordpress.com/2011/03/obsnewsweb.pdf",
+        "source": {
+          "id": "https://openalex.org/S4306463708",
+          "display_name": "Oxford University Press eBooks",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "listed_in": [],
+          "host_organization": "https://openalex.org/P4310311648",
+          "host_organization_name": "Oxford University Press",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310311648",
+            "https://openalex.org/P4310311647"
+          ],
+          "host_organization_lineage_names": [
+            "Oxford University Press",
+            "University of Oxford"
+          ],
+          "type": "ebook platform"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Emperor John II Komnenos",
+        "raw_type": "book-chapter"
+      },
+      "sustainable_development_goals": [],
+      "study_designs": [],
+      "awards": [],
+      "funders": [],
+      "has_content": {
+        "pdf": true,
+        "grobid_xml": true
+      },
+      "content_urls": {
+        "pdf": "https://content.openalex.org/works/W4388932377.pdf",
+        "grobid_xml": "https://content.openalex.org/works/W4388932377.grobid-xml"
+      },
+      "referenced_works_count": 34,
+      "referenced_works": [
+        "https://openalex.org/W15463465",
+        "https://openalex.org/W124005423",
+        "https://openalex.org/W351367887",
+        "https://openalex.org/W378815011",
+        "https://openalex.org/W382799508",
+        "https://openalex.org/W424624281",
+        "https://openalex.org/W565104401",
+        "https://openalex.org/W565709161",
+        "https://openalex.org/W574779923",
+        "https://openalex.org/W604694959",
+        "https://openalex.org/W630032142",
+        "https://openalex.org/W630038071",
+        "https://openalex.org/W631596226",
+        "https://openalex.org/W657459888",
+        "https://openalex.org/W1501076324",
+        "https://openalex.org/W1579701937",
+        "https://openalex.org/W2036924966",
+        "https://openalex.org/W2066824009",
+        "https://openalex.org/W2479559265",
+        "https://openalex.org/W2499462332",
+        "https://openalex.org/W2531110965",
+        "https://openalex.org/W2623955026",
+        "https://openalex.org/W2885065579",
+        "https://openalex.org/W2901419036",
+        "https://openalex.org/W2920858480",
+        "https://openalex.org/W2988093091",
+        "https://openalex.org/W3010922486",
+        "https://openalex.org/W3147170939",
+        "https://openalex.org/W4246875888",
+        "https://openalex.org/W4251326756",
+        "https://openalex.org/W4253887045",
+        "https://openalex.org/W7036905882",
+        "https://openalex.org/W7043543130",
+        "https://openalex.org/W7065366673"
+      ],
+      "related_works": [
+        "https://openalex.org/W4388932374",
+        "https://openalex.org/W4388932352",
+        "https://openalex.org/W3116600211",
+        "https://openalex.org/W4388932376",
+        "https://openalex.org/W4388932375",
+        "https://openalex.org/W1575557969",
+        "https://openalex.org/W4387558318",
+        "https://openalex.org/W3200296279",
+        "https://openalex.org/W4254282847",
+        "https://openalex.org/W4388932358"
+      ],
+      "abstract_inverted_index": {
+        "Abstract": [
+          0
+        ],
+        "This": [
+          1
+        ],
+        "chapter": [
+          2,
+          79,
+          121,
+          142
+        ],
+        "analyses": [
+          3
+        ],
+        "John’s": [
+          4,
+          159
+        ],
+        "most": [
+          5
+        ],
+        "celebrated": [
+          6,
+          29
+        ],
+        "victory:": [
+          7
+        ],
+        "his": [
+          8,
+          182
+        ],
+        "defeat": [
+          9
+        ],
+        "of": [
+          10,
+          16,
+          64,
+          73,
+          85,
+          102,
+          107,
+          138,
+          161
+        ],
+        "the": [
+          11,
+          14,
+          38,
+          41,
+          45,
+          55,
+          62,
+          78,
+          82,
+          86,
+          90,
+          94,
+          97,
+          103,
+          108,
+          111,
+          146,
+          167
+        ],
+        "nomads": [
+          12,
+          46
+        ],
+        "at": [
+          13
+        ],
+        "battle": [
+          15
+        ],
+        "Berroia": [
+          17,
+          65
+        ],
+        "in": [
+          18,
+          156
+        ],
+        "1122,": [
+          19
+        ],
+        "whose": [
+          20
+        ],
+        "fame": [
+          21
+        ],
+        "stretched": [
+          22
+        ],
+        "to": [
+          23,
+          57,
+          69,
+          129,
+          158,
+          181
+        ],
+        "Norse": [
+          24
+        ],
+        "sagas": [
+          25
+        ],
+        "and": [
+          26,
+          48,
+          119
+        ],
+        "was": [
+          27,
+          127,
+          173
+        ],
+        "still": [
+          28
+        ],
+        "over": [
+          30
+        ],
+        "a": [
+          31,
+          71
+        ],
+        "century": [
+          32
+        ],
+        "later.": [
+          33
+        ],
+        "It": [
+          34,
+          59
+        ],
+        "opens": [
+          35
+        ],
+        "by": [
+          36,
+          40,
+          92,
+          110,
+          116,
+          144
+        ],
+        "outlining": [
+          37
+        ],
+        "campaigns": [
+          39
+        ],
+        "Rus": [
+          42
+        ],
+        "that": [
+          43,
+          152,
+          171
+        ],
+        "drove": [
+          44
+        ],
+        "south,": [
+          47
+        ],
+        "how": [
+          49,
+          125
+        ],
+        "John": [
+          50
+        ],
+        "prepared": [
+          51
+        ],
+        "all": [
+          52,
+          93,
+          172
+        ],
+        "winter": [
+          53
+        ],
+        "for": [
+          54
+        ],
+        "confrontation": [
+          56
+        ],
+        "come.": [
+          58
+        ],
+        "then": [
+          60,
+          80,
+          123
+        ],
+        "describes": [
+          61,
+          81
+        ],
+        "events": [
+          63
+        ],
+        "from": [
+          66
+        ],
+        "multiple": [
+          67
+        ],
+        "sources": [
+          68
+        ],
+        "reconstruct": [
+          70
+        ],
+        "‘face": [
+          72
+        ],
+        "battle’.": [
+          74
+        ],
+        "From": [
+          75
+        ],
+        "this": [
+          76,
+          120
+        ],
+        "focus,": [
+          77
+        ],
+        "wider": [
+          83
+        ],
+        "conflict": [
+          84
+        ],
+        "settled": [
+          87
+        ],
+        "peoples": [
+          88
+        ],
+        "against": [
+          89
+        ],
+        "nomadic": [
+          91,
+          131
+        ],
+        "polities": [
+          95
+        ],
+        "around": [
+          96
+        ],
+        "Black": [
+          98
+        ],
+        "Sea.": [
+          99
+        ],
+        "The": [
+          100,
+          141
+        ],
+        "nature": [
+          101
+        ],
+        "imperial": [
+          104
+        ],
+        "border": [
+          105
+        ],
+        "province": [
+          106
+        ],
+        "Paristrion": [
+          109
+        ],
+        "Danube": [
+          112
+        ],
+        "has": [
+          113
+        ],
+        "been": [
+          114
+        ],
+        "debated": [
+          115
+        ],
+        "historians": [
+          117
+        ],
+        "before,": [
+          118
+        ],
+        "will": [
+          122
+        ],
+        "outline": [
+          124
+        ],
+        "it": [
+          126
+        ],
+        "reorganized": [
+          128
+        ],
+        "accommodate": [
+          130
+        ],
+        "peoples,": [
+          132
+        ],
+        "rather": [
+          133
+        ],
+        "than": [
+          134
+        ],
+        "becoming": [
+          135
+        ],
+        "some": [
+          136
+        ],
+        "form": [
+          137
+        ],
+        "‘no-mans": [
+          139
+        ],
+        "land’.": [
+          140
+        ],
+        "ends": [
+          143
+        ],
+        "noting": [
+          145
+        ],
+        "Venetian": [
+          147
+        ],
+        "raids": [
+          148
+        ],
+        "on": [
+          149
+        ],
+        "Byzantine": [
+          150
+        ],
+        "islands": [
+          151
+        ],
+        "were": [
+          153
+        ],
+        "carried": [
+          154
+        ],
+        "out": [
+          155
+        ],
+        "response": [
+          157
+        ],
+        "cancelling": [
+          160
+        ],
+        "trading": [
+          162
+        ],
+        "privileges,": [
+          163
+        ],
+        "which": [
+          164
+        ],
+        "would": [
+          165
+        ],
+        "be": [
+          166
+        ],
+        "first": [
+          168
+        ],
+        "warning": [
+          169
+        ],
+        "sign": [
+          170
+        ],
+        "not": [
+          174
+        ],
+        "well,": [
+          175
+        ],
+        "despite": [
+          176
+        ],
+        "an": [
+          177
+        ],
+        "otherwise": [
+          178
+        ],
+        "brilliant": [
+          179
+        ],
+        "start": [
+          180
+        ],
+        "reign.": [
+          183
+        ]
+      },
+      "counts_by_year": [],
+      "updated_date": "2026-11-16T12:05:36.265796",
+      "created_date": "2023-11-24T00:00:00"
+    }
+  ],
+  "group_by": []
+}

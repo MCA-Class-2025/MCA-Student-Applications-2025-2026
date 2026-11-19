@@ -1,0 +1,5794 @@
+{
+  "meta": {
+    "notice": "No API key, so this request shares one free daily budget ($0.10) with everyone on your network's IP address. Get a free key with its own $1/day at https://openalex.org/settings/api and add api_key=YOUR_KEY to your requests. An AI agent can get one for its user in one call: POST https://api.openalex.org/api-keys with {\"email\": \"<your user's email>\"}; we email them a link, and the key works once they click it. Docs for agents: https://help.openalex.org/llms.txt",
+    "count": 46896,
+    "db_response_time_ms": 198,
+    "page": 1,
+    "per_page": 5,
+    "groups_count": null,
+    "x_query": {
+      "oql": "get works with (MACHINE LEARNING ENGINEER FOR CYBERSECURITY) in the title, abstract, or full text",
+      "x_new_oql": "get works with (MACHINE LEARNING ENGINEER FOR CYBERSECURITY) in the title, abstract, or full text",
+      "oqo": {
+        "get_rows": "works",
+        "filter_rows": [
+          {
+            "column_id": "fulltext.search",
+            "value": "MACHINE LEARNING ENGINEER FOR CYBERSECURITY",
+            "operator": "has"
+          }
+        ]
+      },
+      "url": "/works?filter=fulltext.search:MACHINE LEARNING ENGINEER FOR CYBERSECURITY&per_page=5",
+      "order": "best matches first",
+      "order_default": true
+    },
+    "cost_usd": 0.001
+  },
+  "results": [
+    {
+      "id": "https://openalex.org/W3093469966",
+      "doi": "https://doi.org/10.1177/1548512920951275",
+      "title": "Machine learning in cybersecurity: a comprehensive survey",
+      "display_name": "Machine learning in cybersecurity: a comprehensive survey",
+      "relevance_score": 73.73226,
+      "publication_year": 2020,
+      "publication_date": "2020-09-19",
+      "ids": {
+        "openalex": "https://openalex.org/W3093469966",
+        "doi": "https://doi.org/10.1177/1548512920951275",
+        "mag": "3093469966"
+      },
+      "language": "en",
+      "primary_location": {
+        "id": "doi:10.1177/1548512920951275",
+        "doi": "https://doi.org/10.1177/1548512920951275",
+        "is_oa": false,
+        "landing_page_url": "https://doi.org/10.1177/1548512920951275",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S1024877810",
+          "display_name": "The Journal of Defense Modeling and Simulation Applications Methodology Technology",
+          "issn_l": "1548-5129",
+          "issn": [
+            "1548-5129",
+            "1557-380X"
+          ],
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": true,
+          "listed_in": [
+            "cwts-core",
+            "dongbi-c",
+            "jufo-1",
+            "norway-1",
+            "poland-40",
+            "russia-white-list-3"
+          ],
+          "host_organization": "https://openalex.org/P4310320017",
+          "host_organization_name": "SAGE Publishing",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310320017"
+          ],
+          "host_organization_lineage_names": [
+            "SAGE Publishing"
+          ],
+          "type": "journal"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "The Journal of Defense Modeling and Simulation: Applications, Methodology, Technology",
+        "raw_type": "journal-article"
+      },
+      "parent_works": [],
+      "lineage": [
+        "https://openalex.org/W3093469966"
+      ],
+      "child_works_count": 0,
+      "type": "article",
+      "is_traditional": true,
+      "indexed_in": [
+        "crossref"
+      ],
+      "open_access": {
+        "is_oa": false,
+        "oa_status": "closed",
+        "oa_url": null,
+        "any_repository_has_fulltext": false
+      },
+      "authorships": [
+        {
+          "author_position": "first",
+          "author": {
+            "id": "https://openalex.org/A5048167872",
+            "display_name": "Dipankar Dasgupta",
+            "orcid": "https://orcid.org/0000-0002-3097-061X",
+            "observed_orcids": [
+              "https://orcid.org/0000-0002-3097-061X"
+            ]
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I94658018",
+              "display_name": "University of Memphis",
+              "ror": "https://ror.org/01cq23130",
+              "country_code": "US",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I94658018"
+              ]
+            }
+          ],
+          "countries": [
+            "US"
+          ],
+          "is_corresponding": true,
+          "raw_author_name": "Dipankar Dasgupta",
+          "raw_affiliation_strings": [
+            "Center for Information Assurance (CfIA), University of Memphis, USA"
+          ],
+          "raw_orcid": null,
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Center for Information Assurance (CfIA), University of Memphis, USA",
+              "institution_ids": [
+                "https://openalex.org/I94658018"
+              ]
+            }
+          ]
+        },
+        {
+          "author_position": "middle",
+          "author": {
+            "id": "https://openalex.org/A5056705041",
+            "display_name": "Zahid Akhtar",
+            "orcid": "https://orcid.org/0000-0002-5026-5416",
+            "observed_orcids": [
+              "https://orcid.org/0000-0002-5026-5416"
+            ]
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I1327163397",
+              "display_name": "State University of New York",
+              "ror": "https://ror.org/01q1z8k08",
+              "country_code": "US",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I1327163397"
+              ]
+            },
+            {
+              "id": "https://openalex.org/I90965887",
+              "display_name": "SUNY Polytechnic Institute",
+              "ror": "https://ror.org/000fxgx19",
+              "country_code": "US",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I90965887"
+              ]
+            }
+          ],
+          "countries": [
+            "US"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "Zahid Akhtar",
+          "raw_affiliation_strings": [
+            "Department of Network and Computer Security, State University of New York (SUNY) Polytechnic Institute, USA"
+          ],
+          "raw_orcid": "https://orcid.org/0000-0002-5026-5416",
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Department of Network and Computer Security, State University of New York (SUNY) Polytechnic Institute, USA",
+              "institution_ids": [
+                "https://openalex.org/I1327163397",
+                "https://openalex.org/I90965887"
+              ]
+            }
+          ]
+        },
+        {
+          "author_position": "last",
+          "author": {
+            "id": "https://openalex.org/A5002389237",
+            "display_name": "Sajib Sen",
+            "orcid": null,
+            "observed_orcids": []
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I94658018",
+              "display_name": "University of Memphis",
+              "ror": "https://ror.org/01cq23130",
+              "country_code": "US",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I94658018"
+              ]
+            }
+          ],
+          "countries": [
+            "US"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "Sajib Sen",
+          "raw_affiliation_strings": [
+            "Center for Information Assurance (CfIA), University of Memphis, USA"
+          ],
+          "raw_orcid": null,
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Center for Information Assurance (CfIA), University of Memphis, USA",
+              "institution_ids": [
+                "https://openalex.org/I94658018"
+              ]
+            }
+          ]
+        }
+      ],
+      "institutions": [],
+      "countries_distinct_count": 1,
+      "institutions_distinct_count": 3,
+      "corresponding_author_ids": [
+        "https://openalex.org/A5048167872"
+      ],
+      "corresponding_institution_ids": [
+        "https://openalex.org/I94658018"
+      ],
+      "apc_list": {
+        "value": 3000,
+        "currency": "USD",
+        "value_usd": 3000
+      },
+      "apc_paid": null,
+      "fwci": 8.6817,
+      "is_authors_truncated": false,
+      "has_fulltext": false,
+      "cited_by_count": 312,
+      "citation_normalized_percentile": {
+        "value": 0.98206404,
+        "is_in_top_1_percent": false,
+        "is_in_top_10_percent": true
+      },
+      "cited_by_percentile_year": {
+        "min": 95,
+        "max": 100
+      },
+      "biblio": {
+        "volume": "19",
+        "issue": "1",
+        "first_page": "57",
+        "last_page": "106"
+      },
+      "is_retracted": false,
+      "is_paratext": false,
+      "is_xpac": false,
+      "primary_topic": {
+        "id": "https://openalex.org/T10400",
+        "display_name": "Network Security and Intrusion Detection",
+        "score": 0.8866999745368958,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1705",
+          "display_name": "Computer Networks and Communications"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      "topics": [
+        {
+          "id": "https://openalex.org/T10400",
+          "display_name": "Network Security and Intrusion Detection",
+          "score": 0.8866999745368958,
+          "subfield": {
+            "id": "https://openalex.org/subfields/1705",
+            "display_name": "Computer Networks and Communications"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/17",
+            "display_name": "Computer Science"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T11689",
+          "display_name": "Adversarial Robustness in Machine Learning",
+          "score": 0.10270000249147415,
+          "subfield": {
+            "id": "https://openalex.org/subfields/1702",
+            "display_name": "Artificial Intelligence"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/17",
+            "display_name": "Computer Science"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T11241",
+          "display_name": "Advanced Malware Detection Techniques",
+          "score": 0.002099999925121665,
+          "subfield": {
+            "id": "https://openalex.org/subfields/1712",
+            "display_name": "Software"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/17",
+            "display_name": "Computer Science"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        }
+      ],
+      "keywords": [
+        {
+          "id": "https://openalex.org/keywords/machine-learning-for-cybersecurity",
+          "display_name": "machine learning for cybersecurity",
+          "score": 0.8809999823570251
+        },
+        {
+          "id": "https://openalex.org/keywords/intrusion-detection",
+          "display_name": "intrusion detection",
+          "score": 0.7789999842643738
+        },
+        {
+          "id": "https://openalex.org/keywords/malware-detection",
+          "display_name": "malware detection",
+          "score": 1.0
+        },
+        {
+          "id": "https://openalex.org/keywords/biometric-authentication",
+          "display_name": "biometric authentication",
+          "score": 0.828000009059906
+        },
+        {
+          "id": "https://openalex.org/keywords/adversarial-machine-learning",
+          "display_name": "adversarial learning",
+          "score": 0.949999988079071
+        },
+        {
+          "id": "https://openalex.org/keywords/deep-learning-security",
+          "display_name": "deep learning security",
+          "score": 0.7390000224113464
+        },
+        {
+          "id": "https://openalex.org/keywords/dimensionality-reduction",
+          "display_name": "dimensionality reduction",
+          "score": 0.9179999828338623
+        },
+        {
+          "id": "https://openalex.org/keywords/classification-methods",
+          "display_name": "classification methods",
+          "score": 0.5709999799728394
+        },
+        {
+          "id": "https://openalex.org/keywords/privacy-protection",
+          "display_name": "privacy preservation",
+          "score": 0.4779999852180481
+        }
+      ],
+      "concepts": [
+        {
+          "id": "https://openalex.org/C41008148",
+          "wikidata": "https://www.wikidata.org/wiki/Q21198",
+          "display_name": "Computer science",
+          "level": 0,
+          "score": 0.7852569818496704
+        },
+        {
+          "id": "https://openalex.org/C38652104",
+          "wikidata": "https://www.wikidata.org/wiki/Q3510521",
+          "display_name": "Computer security",
+          "level": 1,
+          "score": 0.7589407563209534
+        },
+        {
+          "id": "https://openalex.org/C541664917",
+          "wikidata": "https://www.wikidata.org/wiki/Q14001",
+          "display_name": "Malware",
+          "level": 2,
+          "score": 0.7556040287017822
+        },
+        {
+          "id": "https://openalex.org/C2781241145",
+          "wikidata": "https://www.wikidata.org/wiki/Q204606",
+          "display_name": "Cyberspace",
+          "level": 3,
+          "score": 0.6680864095687866
+        },
+        {
+          "id": "https://openalex.org/C86844869",
+          "wikidata": "https://www.wikidata.org/wiki/Q2798820",
+          "display_name": "Hacker",
+          "level": 2,
+          "score": 0.5921655297279358
+        },
+        {
+          "id": "https://openalex.org/C2779343474",
+          "wikidata": "https://www.wikidata.org/wiki/Q3109175",
+          "display_name": "Context (archaeology)",
+          "level": 2,
+          "score": 0.5611286163330078
+        },
+        {
+          "id": "https://openalex.org/C35525427",
+          "wikidata": "https://www.wikidata.org/wiki/Q745881",
+          "display_name": "Intrusion detection system",
+          "level": 2,
+          "score": 0.5139581561088562
+        },
+        {
+          "id": "https://openalex.org/C37736160",
+          "wikidata": "https://www.wikidata.org/wiki/Q1801315",
+          "display_name": "Adversarial system",
+          "level": 2,
+          "score": 0.4844250977039337
+        },
+        {
+          "id": "https://openalex.org/C79974875",
+          "wikidata": "https://www.wikidata.org/wiki/Q483639",
+          "display_name": "Cloud computing",
+          "level": 2,
+          "score": 0.44213423132896423
+        },
+        {
+          "id": "https://openalex.org/C154945302",
+          "wikidata": "https://www.wikidata.org/wiki/Q11660",
+          "display_name": "Artificial intelligence",
+          "level": 1,
+          "score": 0.36439603567123413
+        },
+        {
+          "id": "https://openalex.org/C110875604",
+          "wikidata": "https://www.wikidata.org/wiki/Q75",
+          "display_name": "The Internet",
+          "level": 2,
+          "score": 0.19699600338935852
+        },
+        {
+          "id": "https://openalex.org/C136764020",
+          "wikidata": "https://www.wikidata.org/wiki/Q466",
+          "display_name": "World Wide Web",
+          "level": 1,
+          "score": 0.19373035430908203
+        },
+        {
+          "id": "https://openalex.org/C86803240",
+          "wikidata": "https://www.wikidata.org/wiki/Q420",
+          "display_name": "Biology",
+          "level": 0,
+          "score": 0.0
+        },
+        {
+          "id": "https://openalex.org/C111919701",
+          "wikidata": "https://www.wikidata.org/wiki/Q9135",
+          "display_name": "Operating system",
+          "level": 1,
+          "score": 0.0
+        },
+        {
+          "id": "https://openalex.org/C151730666",
+          "wikidata": "https://www.wikidata.org/wiki/Q7205",
+          "display_name": "Paleontology",
+          "level": 1,
+          "score": 0.0
+        }
+      ],
+      "mesh": [],
+      "locations_count": 2,
+      "locations": [
+        {
+          "id": "doi:10.1177/1548512920951275",
+          "doi": "https://doi.org/10.1177/1548512920951275",
+          "is_oa": false,
+          "landing_page_url": "https://doi.org/10.1177/1548512920951275",
+          "pdf_url": null,
+          "source": {
+            "id": "https://openalex.org/S1024877810",
+            "display_name": "The Journal of Defense Modeling and Simulation Applications Methodology Technology",
+            "issn_l": "1548-5129",
+            "issn": [
+              "1548-5129",
+              "1557-380X"
+            ],
+            "is_oa": false,
+            "is_in_doaj": false,
+            "is_core": true,
+            "listed_in": [
+              "cwts-core",
+              "dongbi-c",
+              "jufo-1",
+              "norway-1",
+              "poland-40",
+              "russia-white-list-3"
+            ],
+            "host_organization": "https://openalex.org/P4310320017",
+            "host_organization_name": "SAGE Publishing",
+            "host_organization_lineage": [
+              "https://openalex.org/P4310320017"
+            ],
+            "host_organization_lineage_names": [
+              "SAGE Publishing"
+            ],
+            "type": "journal"
+          },
+          "license": null,
+          "license_id": null,
+          "version": "publishedVersion",
+          "is_accepted": true,
+          "is_published": true,
+          "raw_source_name": "The Journal of Defense Modeling and Simulation: Applications, Methodology, Technology",
+          "raw_type": "journal-article"
+        },
+        {
+          "id": "pmh:oai:RePEc:sae:joudef:v:19:y:2022:i:1:p:57-106",
+          "doi": null,
+          "is_oa": false,
+          "landing_page_url": "https://journals.sagepub.com/doi/10.1177/1548512920951275",
+          "pdf_url": null,
+          "source": {
+            "id": "https://openalex.org/S4306401271",
+            "display_name": "RePEc: Research Papers in Economics",
+            "issn_l": null,
+            "issn": null,
+            "is_oa": false,
+            "is_in_doaj": false,
+            "is_core": false,
+            "listed_in": [],
+            "host_organization": "https://openalex.org/I77793887",
+            "host_organization_name": "Federal Reserve Bank of St. Louis",
+            "host_organization_lineage": [
+              "https://openalex.org/I77793887"
+            ],
+            "host_organization_lineage_names": [],
+            "type": "repository"
+          },
+          "license": null,
+          "license_id": null,
+          "version": "submittedVersion",
+          "is_accepted": false,
+          "is_published": false,
+          "raw_source_name": null,
+          "raw_type": "article"
+        }
+      ],
+      "best_oa_location": null,
+      "sustainable_development_goals": [],
+      "study_designs": [],
+      "awards": [],
+      "funders": [],
+      "has_content": {
+        "grobid_xml": false,
+        "pdf": false
+      },
+      "content_urls": null,
+      "referenced_works_count": 184,
+      "referenced_works": [
+        "https://openalex.org/W44815768",
+        "https://openalex.org/W186325430",
+        "https://openalex.org/W204886590",
+        "https://openalex.org/W377362545",
+        "https://openalex.org/W1152223117",
+        "https://openalex.org/W1196375415",
+        "https://openalex.org/W1258298235",
+        "https://openalex.org/W1590456070",
+        "https://openalex.org/W1686810756",
+        "https://openalex.org/W1883420340",
+        "https://openalex.org/W1945616565",
+        "https://openalex.org/W1962124124",
+        "https://openalex.org/W1966809779",
+        "https://openalex.org/W1968411139",
+        "https://openalex.org/W1969381345",
+        "https://openalex.org/W1972041827",
+        "https://openalex.org/W1972049439",
+        "https://openalex.org/W1987552279",
+        "https://openalex.org/W1988976792",
+        "https://openalex.org/W2018168021",
+        "https://openalex.org/W2026029161",
+        "https://openalex.org/W2028223155",
+        "https://openalex.org/W2066832805",
+        "https://openalex.org/W2100683382",
+        "https://openalex.org/W2113449956",
+        "https://openalex.org/W2125418538",
+        "https://openalex.org/W2128569883",
+        "https://openalex.org/W2140509289",
+        "https://openalex.org/W2144906988",
+        "https://openalex.org/W2145339207",
+        "https://openalex.org/W2167459335",
+        "https://openalex.org/W2170924378",
+        "https://openalex.org/W2174868984",
+        "https://openalex.org/W2179898067",
+        "https://openalex.org/W2273993490",
+        "https://openalex.org/W2292153043",
+        "https://openalex.org/W2317205719",
+        "https://openalex.org/W2327762824",
+        "https://openalex.org/W2340189285",
+        "https://openalex.org/W2342408547",
+        "https://openalex.org/W2346127545",
+        "https://openalex.org/W2401462820",
+        "https://openalex.org/W2426032775",
+        "https://openalex.org/W2460937040",
+        "https://openalex.org/W2525022545",
+        "https://openalex.org/W2526516990",
+        "https://openalex.org/W2529714286",
+        "https://openalex.org/W2552767274",
+        "https://openalex.org/W2556096924",
+        "https://openalex.org/W2561675875",
+        "https://openalex.org/W2564186131",
+        "https://openalex.org/W2579603034",
+        "https://openalex.org/W2590523583",
+        "https://openalex.org/W2594867206",
+        "https://openalex.org/W2595788441",
+        "https://openalex.org/W2605968851",
+        "https://openalex.org/W2607074821",
+        "https://openalex.org/W2607219512",
+        "https://openalex.org/W2608239929",
+        "https://openalex.org/W2608320614",
+        "https://openalex.org/W2611170103",
+        "https://openalex.org/W2611202431",
+        "https://openalex.org/W2611239376",
+        "https://openalex.org/W2611576673",
+        "https://openalex.org/W2613920221",
+        "https://openalex.org/W2613962421",
+        "https://openalex.org/W2614393686",
+        "https://openalex.org/W2615509641",
+        "https://openalex.org/W2616400984",
+        "https://openalex.org/W2616630373",
+        "https://openalex.org/W2617931713",
+        "https://openalex.org/W2618014102",
+        "https://openalex.org/W2618043096",
+        "https://openalex.org/W2620038827",
+        "https://openalex.org/W2732916693",
+        "https://openalex.org/W2744095836",
+        "https://openalex.org/W2755956102",
+        "https://openalex.org/W2756489700",
+        "https://openalex.org/W2761709036",
+        "https://openalex.org/W2765233338",
+        "https://openalex.org/W2765384636",
+        "https://openalex.org/W2765461047",
+        "https://openalex.org/W2765489703",
+        "https://openalex.org/W2766108848",
+        "https://openalex.org/W2767962654",
+        "https://openalex.org/W2768765901",
+        "https://openalex.org/W2773446523",
+        "https://openalex.org/W2774222527",
+        "https://openalex.org/W2774423163",
+        "https://openalex.org/W2781036271",
+        "https://openalex.org/W2781957615",
+        "https://openalex.org/W2782221274",
+        "https://openalex.org/W2782735691",
+        "https://openalex.org/W2785509559",
+        "https://openalex.org/W2786233556",
+        "https://openalex.org/W2787894218",
+        "https://openalex.org/W2788106558",
+        "https://openalex.org/W2789766369",
+        "https://openalex.org/W2790664081",
+        "https://openalex.org/W2791319131",
+        "https://openalex.org/W2791886873",
+        "https://openalex.org/W2792093046",
+        "https://openalex.org/W2792248484",
+        "https://openalex.org/W2794590848",
+        "https://openalex.org/W2795725650",
+        "https://openalex.org/W2799148064",
+        "https://openalex.org/W2799620259",
+        "https://openalex.org/W2799784398",
+        "https://openalex.org/W2801080689",
+        "https://openalex.org/W2801962073",
+        "https://openalex.org/W2802332472",
+        "https://openalex.org/W2803414046",
+        "https://openalex.org/W2804093830",
+        "https://openalex.org/W2807671950",
+        "https://openalex.org/W2810634815",
+        "https://openalex.org/W2888286591",
+        "https://openalex.org/W2889836475",
+        "https://openalex.org/W2889882769",
+        "https://openalex.org/W2904573504",
+        "https://openalex.org/W2907521963",
+        "https://openalex.org/W2922628727",
+        "https://openalex.org/W2962763344",
+        "https://openalex.org/W2963384482",
+        "https://openalex.org/W2963636205",
+        "https://openalex.org/W2964159205",
+        "https://openalex.org/W2969890774",
+        "https://openalex.org/W2978329087",
+        "https://openalex.org/W2998718632",
+        "https://openalex.org/W3017367945",
+        "https://openalex.org/W3031376202",
+        "https://openalex.org/W3183440606",
+        "https://openalex.org/W4205947740",
+        "https://openalex.org/W4211047985",
+        "https://openalex.org/W4230416178",
+        "https://openalex.org/W4230719179",
+        "https://openalex.org/W4231092665",
+        "https://openalex.org/W4231207527",
+        "https://openalex.org/W4232222184",
+        "https://openalex.org/W4232608110",
+        "https://openalex.org/W4232777816",
+        "https://openalex.org/W4233268984",
+        "https://openalex.org/W4233626088",
+        "https://openalex.org/W4233817052",
+        "https://openalex.org/W4234714862",
+        "https://openalex.org/W4234774086",
+        "https://openalex.org/W4235007444",
+        "https://openalex.org/W4235179691",
+        "https://openalex.org/W4235436557",
+        "https://openalex.org/W4235792399",
+        "https://openalex.org/W4235858088",
+        "https://openalex.org/W4236284782",
+        "https://openalex.org/W4236367601",
+        "https://openalex.org/W4239459462",
+        "https://openalex.org/W4240854620",
+        "https://openalex.org/W4241400051",
+        "https://openalex.org/W4242758220",
+        "https://openalex.org/W4243144005",
+        "https://openalex.org/W4245056570",
+        "https://openalex.org/W4245179112",
+        "https://openalex.org/W4246527162",
+        "https://openalex.org/W4246584578",
+        "https://openalex.org/W4247360026",
+        "https://openalex.org/W4250756010",
+        "https://openalex.org/W4251523875",
+        "https://openalex.org/W4252629388",
+        "https://openalex.org/W4252927458",
+        "https://openalex.org/W4254315320",
+        "https://openalex.org/W4255128646",
+        "https://openalex.org/W4255489524",
+        "https://openalex.org/W4256519273",
+        "https://openalex.org/W4285210896",
+        "https://openalex.org/W4285772389",
+        "https://openalex.org/W4288647574",
+        "https://openalex.org/W4292928772",
+        "https://openalex.org/W4301045096",
+        "https://openalex.org/W4301329292",
+        "https://openalex.org/W4302444896",
+        "https://openalex.org/W4312887778",
+        "https://openalex.org/W4367664215",
+        "https://openalex.org/W4381747950",
+        "https://openalex.org/W4384347367",
+        "https://openalex.org/W4390481233",
+        "https://openalex.org/W4394644156",
+        "https://openalex.org/W7045062981"
+      ],
+      "related_works": [
+        "https://openalex.org/W7125386328",
+        "https://openalex.org/W7162555383",
+        "https://openalex.org/W4416470703",
+        "https://openalex.org/W4414463209",
+        "https://openalex.org/W4416220212",
+        "https://openalex.org/W4415537368",
+        "https://openalex.org/W4396604075",
+        "https://openalex.org/W4407787914",
+        "https://openalex.org/W4285006516",
+        "https://openalex.org/W6912212120"
+      ],
+      "abstract_inverted_index": {
+        "Today’s": [
+          0
+        ],
+        "world": [
+          1
+        ],
+        "is": [
+          2,
+          148
+        ],
+        "highly": [
+          3
+        ],
+        "network": [
+          4
+        ],
+        "interconnected": [
+          5
+        ],
+        "owing": [
+          6
+        ],
+        "to": [
+          7,
+          47,
+          103,
+          115,
+          128,
+          150,
+          155,
+          159,
+          189
+        ],
+        "the": [
+          8,
+          55,
+          107,
+          130,
+          135,
+          161,
+          178,
+          196,
+          203,
+          206,
+          243
+        ],
+        "pervasiveness": [
+          9
+        ],
+        "of": [
+          10,
+          36,
+          134,
+          137,
+          163,
+          177,
+          198,
+          205,
+          223,
+          239,
+          246
+        ],
+        "small": [
+          11
+        ],
+        "personal": [
+          12
+        ],
+        "devices": [
+          13,
+          21
+        ],
+        "(e.g.,": [
+          14,
+          24
+        ],
+        "smartphones)": [
+          15
+        ],
+        "as": [
+          16,
+          18
+        ],
+        "well": [
+          17
+        ],
+        "large": [
+          19
+        ],
+        "computing": [
+          20,
+          26
+        ],
+        "or": [
+          22,
+          27,
+          91
+        ],
+        "services": [
+          23
+        ],
+        "cloud": [
+          25
+        ],
+        "online": [
+          28
+        ],
+        "banking),": [
+          29
+        ],
+        "and": [
+          30,
+          45,
+          59,
+          73,
+          94,
+          109,
+          119,
+          132,
+          143,
+          166,
+          200,
+          212,
+          215,
+          227,
+          253,
+          259
+        ],
+        "thereby": [
+          31
+        ],
+        "each": [
+          32
+        ],
+        "passing": [
+          33
+        ],
+        "minute": [
+          34
+        ],
+        "millions": [
+          35
+        ],
+        "data": [
+          37,
+          216
+        ],
+        "bytes": [
+          38
+        ],
+        "are": [
+          39,
+          101,
+          257,
+          264
+        ],
+        "being": [
+          40
+        ],
+        "generated,": [
+          41
+        ],
+        "processed,": [
+          42
+        ],
+        "exchanged,": [
+          43
+        ],
+        "shared,": [
+          44
+        ],
+        "utilized": [
+          46
+        ],
+        "yield": [
+          48
+        ],
+        "outcomes": [
+          49
+        ],
+        "in": [
+          50,
+          62,
+          86,
+          106,
+          169,
+          193,
+          221,
+          255
+        ],
+        "specific": [
+          51
+        ],
+        "applications.": [
+          52
+        ],
+        "Thus,": [
+          53
+        ],
+        "securing": [
+          54
+        ],
+        "data,": [
+          56
+        ],
+        "machines": [
+          57
+        ],
+        "(devices),": [
+          58
+        ],
+        "user’s": [
+          60
+        ],
+        "privacy": [
+          61
+        ],
+        "cyberspace": [
+          63
+        ],
+        "has": [
+          64,
+          82
+        ],
+        "become": [
+          65
+        ],
+        "an": [
+          66,
+          237
+        ],
+        "utmost": [
+          67
+        ],
+        "concern": [
+          68
+        ],
+        "for": [
+          69,
+          88,
+          219
+        ],
+        "individuals,": [
+          70
+        ],
+        "business": [
+          71
+        ],
+        "organizations,": [
+          72
+        ],
+        "national": [
+          74
+        ],
+        "governments.": [
+          75
+        ],
+        "In": [
+          76,
+          230
+        ],
+        "recent": [
+          77,
+          152
+        ],
+        "years,": [
+          78
+        ],
+        "machine": [
+          79
+        ],
+        "learning": [
+          80,
+          248
+        ],
+        "(ML)": [
+          81
+        ],
+        "been": [
+          83,
+          126,
+          182
+        ],
+        "widely": [
+          84
+        ],
+        "employed": [
+          85
+        ],
+        "cybersecurity,": [
+          87,
+          194
+        ],
+        "example,": [
+          89
+        ],
+        "intrusion": [
+          90
+        ],
+        "malware": [
+          92
+        ],
+        "detection": [
+          93
+        ],
+        "biometric-based": [
+          95
+        ],
+        "user": [
+          96
+        ],
+        "authentication.": [
+          97
+        ],
+        "However,": [
+          98
+        ],
+        "ML": [
+          99,
+          138,
+          158,
+          192,
+          210,
+          214
+        ],
+        "algorithms": [
+          100
+        ],
+        "vulnerable": [
+          102
+        ],
+        "attacks": [
+          104
+        ],
+        "both": [
+          105
+        ],
+        "training": [
+          108
+        ],
+        "testing": [
+          110
+        ],
+        "phases,": [
+          111
+        ],
+        "which": [
+          112
+        ],
+        "usually": [
+          113
+        ],
+        "leads": [
+          114
+        ],
+        "remarkable": [
+          116
+        ],
+        "performance": [
+          117
+        ],
+        "decreases": [
+          118
+        ],
+        "security": [
+          120,
+          141,
+          244
+        ],
+        "breaches.": [
+          121
+        ],
+        "Comparatively,": [
+          122
+        ],
+        "limited": [
+          123
+        ],
+        "studies": [
+          124
+        ],
+        "have": [
+          125,
+          181
+        ],
+        "conducted": [
+          127
+        ],
+        "understand": [
+          129
+        ],
+        "essence": [
+          131
+        ],
+        "degree": [
+          133
+        ],
+        "vulnerabilities": [
+          136
+        ],
+        "techniques": [
+          139
+        ],
+        "against": [
+          140
+        ],
+        "threats": [
+          142
+        ],
+        "their": [
+          144
+        ],
+        "defensive": [
+          145
+        ],
+        "mechanisms.": [
+          146
+        ],
+        "It": [
+          147
+        ],
+        "imperative": [
+          149
+        ],
+        "systematize": [
+          151
+        ],
+        "works": [
+          153,
+          179
+        ],
+        "related": [
+          154
+        ],
+        "cybersecurity": [
+          156,
+          220,
+          256
+        ],
+        "using": [
+          157
+        ],
+        "seek": [
+          160
+        ],
+        "attention": [
+          162
+        ],
+        "researchers,": [
+          164
+        ],
+        "scientists,": [
+          165
+        ],
+        "engineers.": [
+          167
+        ],
+        "Therefore,": [
+          168
+        ],
+        "this": [
+          170,
+          231,
+          233
+        ],
+        "paper,": [
+          171
+        ],
+        "we": [
+          172
+        ],
+        "provide": [
+          173
+        ],
+        "a": [
+          174
+        ],
+        "comprehensive": [
+          175
+        ],
+        "survey": [
+          176
+        ],
+        "that": [
+          180
+        ],
+        "carried": [
+          183
+        ],
+        "out": [
+          184
+        ],
+        "most": [
+          185,
+          207
+        ],
+        "recently": [
+          186
+        ],
+        "(from": [
+          187
+        ],
+        "2013": [
+          188
+        ],
+        "2018)": [
+          190
+        ],
+        "on": [
+          191
+        ],
+        "describing": [
+          195
+        ],
+        "basics": [
+          197,
+          204
+        ],
+        "cyber-attacks": [
+          199
+        ],
+        "corresponding": [
+          201
+        ],
+        "defenses,": [
+          202
+        ],
+        "commonly": [
+          208
+        ],
+        "used": [
+          209
+        ],
+        "algorithms,": [
+          211
+        ],
+        "proposed": [
+          213
+        ],
+        "mining": [
+          217
+        ],
+        "schemes": [
+          218
+        ],
+        "terms": [
+          222
+        ],
+        "features,": [
+          224
+        ],
+        "dimensionality": [
+          225
+        ],
+        "reduction,": [
+          226
+        ],
+        "classification/detection": [
+          228
+        ],
+        "techniques.": [
+          229
+        ],
+        "context,": [
+          232
+        ],
+        "article": [
+          234
+        ],
+        "also": [
+          235
+        ],
+        "provides": [
+          236
+        ],
+        "overview": [
+          238
+        ],
+        "adversarial": [
+          240
+        ],
+        "ML,": [
+          241
+        ],
+        "including": [
+          242
+        ],
+        "characteristics": [
+          245
+        ],
+        "deep": [
+          247
+        ],
+        "methods.": [
+          249
+        ],
+        "Finally,": [
+          250
+        ],
+        "open": [
+          251
+        ],
+        "issues": [
+          252
+        ],
+        "challenges": [
+          254
+        ],
+        "highlighted": [
+          258
+        ],
+        "potential": [
+          260
+        ],
+        "future": [
+          261
+        ],
+        "research": [
+          262
+        ],
+        "directions": [
+          263
+        ],
+        "discussed.": [
+          265
+        ]
+      },
+      "counts_by_year": [
+        {
+          "year": 2026,
+          "cited_by_count": 45
+        },
+        {
+          "year": 2025,
+          "cited_by_count": 83
+        },
+        {
+          "year": 2024,
+          "cited_by_count": 101
+        },
+        {
+          "year": 2023,
+          "cited_by_count": 36
+        },
+        {
+          "year": 2022,
+          "cited_by_count": 26
+        },
+        {
+          "year": 2021,
+          "cited_by_count": 18
+        },
+        {
+          "year": 2020,
+          "cited_by_count": 3
+        }
+      ],
+      "updated_date": "2026-11-13T13:42:25.865203",
+      "created_date": "2020-10-22T00:00:00"
+    },
+    {
+      "id": "https://openalex.org/W4283313119",
+      "doi": "https://doi.org/10.1145/3545574",
+      "title": "The Role of Machine Learning in Cybersecurity",
+      "display_name": "The Role of Machine Learning in Cybersecurity",
+      "relevance_score": 67.88579,
+      "publication_year": 2022,
+      "publication_date": "2022-07-07",
+      "ids": {
+        "openalex": "https://openalex.org/W4283313119",
+        "doi": "https://doi.org/10.1145/3545574"
+      },
+      "language": "en",
+      "primary_location": {
+        "id": "doi:10.1145/3545574",
+        "doi": "https://doi.org/10.1145/3545574",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.1145/3545574",
+        "pdf_url": "https://dl.acm.org/doi/pdf/10.1145/3545574",
+        "source": {
+          "id": "https://openalex.org/S4210235901",
+          "display_name": "Digital Threats Research and Practice",
+          "issn_l": "2576-5337",
+          "issn": [
+            "2576-5337",
+            "2692-1626"
+          ],
+          "is_oa": true,
+          "is_in_doaj": false,
+          "is_core": true,
+          "listed_in": [
+            "cwts-core",
+            "dongbi-c",
+            "norway-1",
+            "poland-20",
+            "russia-white-list-2"
+          ],
+          "host_organization": "https://openalex.org/P4310319798",
+          "host_organization_name": "Association for Computing Machinery",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310319798"
+          ],
+          "host_organization_lineage_names": [
+            "Association for Computing Machinery"
+          ],
+          "type": "journal"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Digital Threats: Research and Practice",
+        "raw_type": "journal-article"
+      },
+      "parent_works": [],
+      "lineage": [
+        "https://openalex.org/W4283313119"
+      ],
+      "child_works_count": 0,
+      "type": "article",
+      "is_traditional": true,
+      "indexed_in": [
+        "arxiv",
+        "crossref",
+        "datacite"
+      ],
+      "open_access": {
+        "is_oa": true,
+        "oa_status": "diamond",
+        "oa_url": "https://dl.acm.org/doi/pdf/10.1145/3545574",
+        "any_repository_has_fulltext": true
+      },
+      "authorships": [
+        {
+          "author_position": "first",
+          "author": {
+            "id": "https://openalex.org/A5084036967",
+            "display_name": "Giovanni Apruzzese",
+            "orcid": "https://orcid.org/0000-0002-6890-9611",
+            "observed_orcids": [
+              "https://orcid.org/0000-0002-6890-9611"
+            ]
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I184656255",
+              "display_name": "University of Liechtenstein",
+              "ror": "https://ror.org/01qjrx392",
+              "country_code": "LI",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I184656255"
+              ]
+            }
+          ],
+          "countries": [
+            "LI"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "Giovanni Apruzzese",
+          "raw_affiliation_strings": [
+            "University of Liechtenstein, Vaduz, Liechtenstein"
+          ],
+          "raw_orcid": "https://orcid.org/0000-0002-6890-9611",
+          "affiliations": [
+            {
+              "raw_affiliation_string": "University of Liechtenstein, Vaduz, Liechtenstein",
+              "institution_ids": [
+                "https://openalex.org/I184656255"
+              ]
+            }
+          ]
+        },
+        {
+          "author_position": "middle",
+          "author": {
+            "id": "https://openalex.org/A5089735573",
+            "display_name": "Pavel Laskov",
+            "orcid": "https://orcid.org/0000-0002-3212-7167",
+            "observed_orcids": [
+              "https://orcid.org/0000-0002-3212-7167"
+            ]
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I184656255",
+              "display_name": "University of Liechtenstein",
+              "ror": "https://ror.org/01qjrx392",
+              "country_code": "LI",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I184656255"
+              ]
+            }
+          ],
+          "countries": [
+            "LI"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "Pavel Laskov",
+          "raw_affiliation_strings": [
+            "University of Liechtenstein, Vaduz, Liechtenstein"
+          ],
+          "raw_orcid": "https://orcid.org/0000-0002-3212-7167",
+          "affiliations": [
+            {
+              "raw_affiliation_string": "University of Liechtenstein, Vaduz, Liechtenstein",
+              "institution_ids": [
+                "https://openalex.org/I184656255"
+              ]
+            }
+          ]
+        },
+        {
+          "author_position": "middle",
+          "author": {
+            "id": "https://openalex.org/A5083963581",
+            "display_name": "Edgardo Montes de",
+            "orcid": "https://orcid.org/0000-0001-6771-0689",
+            "observed_orcids": [
+              "https://orcid.org/0000-0001-6771-0689"
+            ]
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I4210118939",
+              "display_name": "Montimage (France)",
+              "ror": "https://ror.org/02a8qtz61",
+              "country_code": "FR",
+              "type": "company",
+              "lineage": [
+                "https://openalex.org/I4210118939"
+              ]
+            }
+          ],
+          "countries": [
+            "FR"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "Edgardo Montes de Oca",
+          "raw_affiliation_strings": [
+            "Montimage, France"
+          ],
+          "raw_orcid": "https://orcid.org/0000-0001-6771-0689",
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Montimage, France",
+              "institution_ids": [
+                "https://openalex.org/I4210118939"
+              ]
+            }
+          ]
+        },
+        {
+          "author_position": "middle",
+          "author": {
+            "id": "https://openalex.org/A5084443011",
+            "display_name": "Wissam Mallouli",
+            "orcid": "https://orcid.org/0000-0003-2548-6628",
+            "observed_orcids": [
+              "https://orcid.org/0000-0003-2548-6628"
+            ]
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I4210118939",
+              "display_name": "Montimage (France)",
+              "ror": "https://ror.org/02a8qtz61",
+              "country_code": "FR",
+              "type": "company",
+              "lineage": [
+                "https://openalex.org/I4210118939"
+              ]
+            }
+          ],
+          "countries": [
+            "FR"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "Wissam Mallouli",
+          "raw_affiliation_strings": [
+            "Montimage, France"
+          ],
+          "raw_orcid": "https://orcid.org/0000-0003-2548-6628",
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Montimage, France",
+              "institution_ids": [
+                "https://openalex.org/I4210118939"
+              ]
+            }
+          ]
+        },
+        {
+          "author_position": "middle",
+          "author": {
+            "id": "https://openalex.org/A5048350666",
+            "display_name": "Luis Búrdalo",
+            "orcid": "https://orcid.org/0000-0002-2687-2873",
+            "observed_orcids": [
+              "https://orcid.org/0000-0002-2687-2873"
+            ]
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I4210164798",
+              "display_name": "S2 Grupo (Spain)",
+              "ror": "https://ror.org/05bvt3s14",
+              "country_code": "ES",
+              "type": "company",
+              "lineage": [
+                "https://openalex.org/I4210164798"
+              ]
+            }
+          ],
+          "countries": [
+            "ES"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "Luis Brdalo Rapa",
+          "raw_affiliation_strings": [
+            "S2 Grupo, Spain"
+          ],
+          "raw_orcid": "https://orcid.org/0000-0002-2687-2873",
+          "affiliations": [
+            {
+              "raw_affiliation_string": "S2 Grupo, Spain",
+              "institution_ids": [
+                "https://openalex.org/I4210164798"
+              ]
+            }
+          ]
+        },
+        {
+          "author_position": "middle",
+          "author": {
+            "id": "https://openalex.org/A5003373202",
+            "display_name": "Athanasios Vasileios Grammatopoulos",
+            "orcid": "https://orcid.org/0000-0001-8284-3797",
+            "observed_orcids": [
+              "https://orcid.org/0000-0001-8284-3797"
+            ]
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I1295585255",
+              "display_name": "European Union Agency for Network and Information Security",
+              "ror": "https://ror.org/00wqx6897",
+              "country_code": "GR",
+              "type": "government",
+              "lineage": [
+                "https://openalex.org/I1295585255",
+                "https://openalex.org/I1320481043"
+              ]
+            }
+          ],
+          "countries": [
+            "GR"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "Athanasios Vasileios Grammatopoulos",
+          "raw_affiliation_strings": [
+            "ENISA, Greece"
+          ],
+          "raw_orcid": "https://orcid.org/0000-0001-8284-3797",
+          "affiliations": [
+            {
+              "raw_affiliation_string": "ENISA, Greece",
+              "institution_ids": [
+                "https://openalex.org/I1295585255"
+              ]
+            }
+          ]
+        },
+        {
+          "author_position": "last",
+          "author": {
+            "id": "https://openalex.org/A5001329022",
+            "display_name": "Fabio Di Franco",
+            "orcid": "https://orcid.org/0000-0002-7407-1077",
+            "observed_orcids": [
+              "https://orcid.org/0000-0002-7407-1077"
+            ]
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I1295585255",
+              "display_name": "European Union Agency for Network and Information Security",
+              "ror": "https://ror.org/00wqx6897",
+              "country_code": "GR",
+              "type": "government",
+              "lineage": [
+                "https://openalex.org/I1295585255",
+                "https://openalex.org/I1320481043"
+              ]
+            }
+          ],
+          "countries": [
+            "GR"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "Fabio Di Franco",
+          "raw_affiliation_strings": [
+            "ENISA, Greece"
+          ],
+          "raw_orcid": "https://orcid.org/0000-0002-7407-1077",
+          "affiliations": [
+            {
+              "raw_affiliation_string": "ENISA, Greece",
+              "institution_ids": [
+                "https://openalex.org/I1295585255"
+              ]
+            }
+          ]
+        }
+      ],
+      "institutions": [],
+      "countries_distinct_count": 4,
+      "institutions_distinct_count": 4,
+      "corresponding_author_ids": [],
+      "corresponding_institution_ids": [],
+      "apc_list": null,
+      "apc_paid": null,
+      "fwci": 25.9301,
+      "is_authors_truncated": false,
+      "has_fulltext": true,
+      "cited_by_count": 366,
+      "citation_normalized_percentile": {
+        "value": 0.99887819,
+        "is_in_top_1_percent": true,
+        "is_in_top_10_percent": true
+      },
+      "cited_by_percentile_year": {
+        "min": 87,
+        "max": 100
+      },
+      "biblio": {
+        "volume": "4",
+        "issue": "1",
+        "first_page": "1",
+        "last_page": "38"
+      },
+      "is_retracted": false,
+      "is_paratext": false,
+      "is_xpac": false,
+      "primary_topic": {
+        "id": "https://openalex.org/T10400",
+        "display_name": "Network Security and Intrusion Detection",
+        "score": 0.9667999744415283,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1705",
+          "display_name": "Computer Networks and Communications"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      "topics": [
+        {
+          "id": "https://openalex.org/T10400",
+          "display_name": "Network Security and Intrusion Detection",
+          "score": 0.9667999744415283,
+          "subfield": {
+            "id": "https://openalex.org/subfields/1705",
+            "display_name": "Computer Networks and Communications"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/17",
+            "display_name": "Computer Science"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T11689",
+          "display_name": "Adversarial Robustness in Machine Learning",
+          "score": 0.01600000075995922,
+          "subfield": {
+            "id": "https://openalex.org/subfields/1702",
+            "display_name": "Artificial Intelligence"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/17",
+            "display_name": "Computer Science"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T11241",
+          "display_name": "Advanced Malware Detection Techniques",
+          "score": 0.006200000178068876,
+          "subfield": {
+            "id": "https://openalex.org/subfields/1712",
+            "display_name": "Software"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/17",
+            "display_name": "Computer Science"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        }
+      ],
+      "keywords": [
+        {
+          "id": "https://openalex.org/keywords/machine-learning-for-security",
+          "display_name": "machine learning for security",
+          "score": 0.8920000195503235
+        },
+        {
+          "id": "https://openalex.org/keywords/research-practice-gap",
+          "display_name": "research-practice gap",
+          "score": 0.7360000014305115
+        },
+        {
+          "id": "https://openalex.org/keywords/automated-threat-detection",
+          "display_name": "automated threat detection",
+          "score": 0.6660000085830688
+        },
+        {
+          "id": "https://openalex.org/keywords/stakeholder-contributions",
+          "display_name": "stakeholder contributions",
+          "score": 0.7670000195503235
+        }
+      ],
+      "concepts": [
+        {
+          "id": "https://openalex.org/C153083717",
+          "wikidata": "https://www.wikidata.org/wiki/Q6535263",
+          "display_name": "Leverage (statistics)",
+          "level": 2,
+          "score": 0.7793927192687988
+        },
+        {
+          "id": "https://openalex.org/C105339364",
+          "wikidata": "https://www.wikidata.org/wiki/Q2297740",
+          "display_name": "Software deployment",
+          "level": 2,
+          "score": 0.7052286267280579
+        },
+        {
+          "id": "https://openalex.org/C38652104",
+          "wikidata": "https://www.wikidata.org/wiki/Q3510521",
+          "display_name": "Computer security",
+          "level": 1,
+          "score": 0.6895104050636292
+        },
+        {
+          "id": "https://openalex.org/C41008148",
+          "wikidata": "https://www.wikidata.org/wiki/Q21198",
+          "display_name": "Computer science",
+          "level": 0,
+          "score": 0.6587007641792297
+        },
+        {
+          "id": "https://openalex.org/C9652623",
+          "wikidata": "https://www.wikidata.org/wiki/Q190109",
+          "display_name": "Field (mathematics)",
+          "level": 2,
+          "score": 0.532605767250061
+        },
+        {
+          "id": "https://openalex.org/C36503486",
+          "wikidata": "https://www.wikidata.org/wiki/Q11235244",
+          "display_name": "Domain (mathematical analysis)",
+          "level": 2,
+          "score": 0.470674604177475
+        },
+        {
+          "id": "https://openalex.org/C2522767166",
+          "wikidata": "https://www.wikidata.org/wiki/Q2374463",
+          "display_name": "Data science",
+          "level": 1,
+          "score": 0.4173964858055115
+        },
+        {
+          "id": "https://openalex.org/C130963320",
+          "wikidata": "https://www.wikidata.org/wiki/Q1401207",
+          "display_name": "Root cause analysis",
+          "level": 2,
+          "score": 0.41025733947753906
+        },
+        {
+          "id": "https://openalex.org/C154945302",
+          "wikidata": "https://www.wikidata.org/wiki/Q11660",
+          "display_name": "Artificial intelligence",
+          "level": 1,
+          "score": 0.2965235412120819
+        },
+        {
+          "id": "https://openalex.org/C115903868",
+          "wikidata": "https://www.wikidata.org/wiki/Q80993",
+          "display_name": "Software engineering",
+          "level": 1,
+          "score": 0.16367140412330627
+        },
+        {
+          "id": "https://openalex.org/C127413603",
+          "wikidata": "https://www.wikidata.org/wiki/Q11023",
+          "display_name": "Engineering",
+          "level": 0,
+          "score": 0.15302026271820068
+        },
+        {
+          "id": "https://openalex.org/C202444582",
+          "wikidata": "https://www.wikidata.org/wiki/Q837863",
+          "display_name": "Pure mathematics",
+          "level": 1,
+          "score": 0.0
+        },
+        {
+          "id": "https://openalex.org/C77595967",
+          "wikidata": "https://www.wikidata.org/wiki/Q3151013",
+          "display_name": "Forensic engineering",
+          "level": 1,
+          "score": 0.0
+        },
+        {
+          "id": "https://openalex.org/C33923547",
+          "wikidata": "https://www.wikidata.org/wiki/Q395",
+          "display_name": "Mathematics",
+          "level": 0,
+          "score": 0.0
+        },
+        {
+          "id": "https://openalex.org/C134306372",
+          "wikidata": "https://www.wikidata.org/wiki/Q7754",
+          "display_name": "Mathematical analysis",
+          "level": 1,
+          "score": 0.0
+        }
+      ],
+      "mesh": [],
+      "locations_count": 4,
+      "locations": [
+        {
+          "id": "doi:10.1145/3545574",
+          "doi": "https://doi.org/10.1145/3545574",
+          "is_oa": true,
+          "landing_page_url": "https://doi.org/10.1145/3545574",
+          "pdf_url": "https://dl.acm.org/doi/pdf/10.1145/3545574",
+          "source": {
+            "id": "https://openalex.org/S4210235901",
+            "display_name": "Digital Threats Research and Practice",
+            "issn_l": "2576-5337",
+            "issn": [
+              "2576-5337",
+              "2692-1626"
+            ],
+            "is_oa": true,
+            "is_in_doaj": false,
+            "is_core": true,
+            "listed_in": [
+              "cwts-core",
+              "dongbi-c",
+              "norway-1",
+              "poland-20",
+              "russia-white-list-2"
+            ],
+            "host_organization": "https://openalex.org/P4310319798",
+            "host_organization_name": "Association for Computing Machinery",
+            "host_organization_lineage": [
+              "https://openalex.org/P4310319798"
+            ],
+            "host_organization_lineage_names": [
+              "Association for Computing Machinery"
+            ],
+            "type": "journal"
+          },
+          "license": null,
+          "license_id": null,
+          "version": "publishedVersion",
+          "is_accepted": true,
+          "is_published": true,
+          "raw_source_name": "Digital Threats: Research and Practice",
+          "raw_type": "journal-article"
+        },
+        {
+          "id": "pmh:oai:arXiv.org:2206.09707",
+          "doi": null,
+          "is_oa": true,
+          "landing_page_url": "http://arxiv.org/abs/2206.09707",
+          "pdf_url": "https://arxiv.org/pdf/2206.09707",
+          "source": {
+            "id": "https://openalex.org/S4306400194",
+            "display_name": "arXiv (Cornell University)",
+            "issn_l": "2331-8422",
+            "issn": [
+              "2331-8422"
+            ],
+            "is_oa": true,
+            "is_in_doaj": false,
+            "is_core": false,
+            "listed_in": [],
+            "host_organization": "https://openalex.org/I205783295",
+            "host_organization_name": "Cornell University",
+            "host_organization_lineage": [
+              "https://openalex.org/I205783295"
+            ],
+            "host_organization_lineage_names": [],
+            "type": "repository"
+          },
+          "license": null,
+          "license_id": null,
+          "version": "submittedVersion",
+          "is_accepted": false,
+          "is_published": false,
+          "raw_source_name": null,
+          "raw_type": "text"
+        },
+        {
+          "id": "pmh:oai:opinvisindi.is:20.500.11815/8455",
+          "doi": null,
+          "is_oa": true,
+          "landing_page_url": "https://hdl.handle.net/20.500.11815/8455",
+          "pdf_url": "https://opinvisindi.is/bitstreams/a65550ad-9d38-40ff-bd90-4ff4f18b1729/download",
+          "source": {
+            "id": "https://openalex.org/S4306401866",
+            "display_name": "Opin vísindi (Opin vísindi)",
+            "issn_l": null,
+            "issn": null,
+            "is_oa": false,
+            "is_in_doaj": false,
+            "is_core": false,
+            "listed_in": [],
+            "host_organization": null,
+            "host_organization_name": null,
+            "host_organization_lineage": [],
+            "host_organization_lineage_names": [],
+            "type": "repository"
+          },
+          "license": "cc-by-nc-sa",
+          "license_id": "https://openalex.org/licenses/cc-by-nc-sa",
+          "version": "submittedVersion",
+          "is_accepted": false,
+          "is_published": false,
+          "raw_source_name": null,
+          "raw_type": "/dk/atira/pure/researchoutput/researchoutputtypes/contributiontojournal/article"
+        },
+        {
+          "id": "doi:10.48550/arxiv.2206.09707",
+          "doi": "https://doi.org/10.48550/arxiv.2206.09707",
+          "is_oa": true,
+          "landing_page_url": "https://doi.org/10.48550/arxiv.2206.09707",
+          "pdf_url": null,
+          "source": {
+            "id": "https://openalex.org/S4306400194",
+            "display_name": "arXiv (Cornell University)",
+            "issn_l": "2331-8422",
+            "issn": [
+              "2331-8422"
+            ],
+            "is_oa": true,
+            "is_in_doaj": false,
+            "is_core": false,
+            "listed_in": [],
+            "host_organization": "https://openalex.org/I205783295",
+            "host_organization_name": "Cornell University",
+            "host_organization_lineage": [
+              "https://openalex.org/I205783295"
+            ],
+            "host_organization_lineage_names": [],
+            "type": "repository"
+          },
+          "license": "cc-by-nc-sa",
+          "license_id": "https://openalex.org/licenses/cc-by-nc-sa",
+          "version": null,
+          "is_accepted": false,
+          "is_published": false,
+          "raw_source_name": null,
+          "raw_type": "article-journal"
+        }
+      ],
+      "best_oa_location": {
+        "id": "doi:10.1145/3545574",
+        "doi": "https://doi.org/10.1145/3545574",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.1145/3545574",
+        "pdf_url": "https://dl.acm.org/doi/pdf/10.1145/3545574",
+        "source": {
+          "id": "https://openalex.org/S4210235901",
+          "display_name": "Digital Threats Research and Practice",
+          "issn_l": "2576-5337",
+          "issn": [
+            "2576-5337",
+            "2692-1626"
+          ],
+          "is_oa": true,
+          "is_in_doaj": false,
+          "is_core": true,
+          "listed_in": [
+            "cwts-core",
+            "dongbi-c",
+            "norway-1",
+            "poland-20",
+            "russia-white-list-2"
+          ],
+          "host_organization": "https://openalex.org/P4310319798",
+          "host_organization_name": "Association for Computing Machinery",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310319798"
+          ],
+          "host_organization_lineage_names": [
+            "Association for Computing Machinery"
+          ],
+          "type": "journal"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Digital Threats: Research and Practice",
+        "raw_type": "journal-article"
+      },
+      "sustainable_development_goals": [],
+      "study_designs": [],
+      "awards": [],
+      "funders": [],
+      "has_content": {
+        "grobid_xml": true,
+        "pdf": true
+      },
+      "content_urls": {
+        "pdf": "https://content.openalex.org/works/W4283313119.pdf",
+        "grobid_xml": "https://content.openalex.org/works/W4283313119.grobid-xml"
+      },
+      "referenced_works_count": 94,
+      "referenced_works": [
+        "https://openalex.org/W51113573",
+        "https://openalex.org/W1197477582",
+        "https://openalex.org/W1901616594",
+        "https://openalex.org/W2049652236",
+        "https://openalex.org/W2083876371",
+        "https://openalex.org/W2109983959",
+        "https://openalex.org/W2150069190",
+        "https://openalex.org/W2155903900",
+        "https://openalex.org/W2258956667",
+        "https://openalex.org/W2336566325",
+        "https://openalex.org/W2342408547",
+        "https://openalex.org/W2407313496",
+        "https://openalex.org/W2464629196",
+        "https://openalex.org/W2516066574",
+        "https://openalex.org/W2517229335",
+        "https://openalex.org/W2564186131",
+        "https://openalex.org/W2604955674",
+        "https://openalex.org/W2611170103",
+        "https://openalex.org/W2615497679",
+        "https://openalex.org/W2736668610",
+        "https://openalex.org/W2739053192",
+        "https://openalex.org/W2744999500",
+        "https://openalex.org/W2749928722",
+        "https://openalex.org/W2753415590",
+        "https://openalex.org/W2766537588",
+        "https://openalex.org/W2773446523",
+        "https://openalex.org/W2774398706",
+        "https://openalex.org/W2788346622",
+        "https://openalex.org/W2828409123",
+        "https://openalex.org/W2890718808",
+        "https://openalex.org/W2891807831",
+        "https://openalex.org/W2894278110",
+        "https://openalex.org/W2896480560",
+        "https://openalex.org/W2899221877",
+        "https://openalex.org/W2900633536",
+        "https://openalex.org/W2901683318",
+        "https://openalex.org/W2911273633",
+        "https://openalex.org/W2912568927",
+        "https://openalex.org/W2913153485",
+        "https://openalex.org/W2917582573",
+        "https://openalex.org/W2917878349",
+        "https://openalex.org/W2918664583",
+        "https://openalex.org/W2919115771",
+        "https://openalex.org/W2924689635",
+        "https://openalex.org/W2926701059",
+        "https://openalex.org/W2929803724",
+        "https://openalex.org/W2944103016",
+        "https://openalex.org/W2947600276",
+        "https://openalex.org/W2947934595",
+        "https://openalex.org/W2952298682",
+        "https://openalex.org/W2963203015",
+        "https://openalex.org/W2964262308",
+        "https://openalex.org/W2973449430",
+        "https://openalex.org/W2980576170",
+        "https://openalex.org/W2991305957",
+        "https://openalex.org/W2992225566",
+        "https://openalex.org/W2999461149",
+        "https://openalex.org/W3005630930",
+        "https://openalex.org/W3006140559",
+        "https://openalex.org/W3006834142",
+        "https://openalex.org/W3007481080",
+        "https://openalex.org/W3011610465",
+        "https://openalex.org/W3034673956",
+        "https://openalex.org/W3034863102",
+        "https://openalex.org/W3048997728",
+        "https://openalex.org/W3084338062",
+        "https://openalex.org/W3084939998",
+        "https://openalex.org/W3092065255",
+        "https://openalex.org/W3093266389",
+        "https://openalex.org/W3111237076",
+        "https://openalex.org/W3111563271",
+        "https://openalex.org/W3119246679",
+        "https://openalex.org/W3122424966",
+        "https://openalex.org/W3129623658",
+        "https://openalex.org/W3168146198",
+        "https://openalex.org/W3174930054",
+        "https://openalex.org/W3174935995",
+        "https://openalex.org/W3184796286",
+        "https://openalex.org/W3199368030",
+        "https://openalex.org/W3200840849",
+        "https://openalex.org/W3201894803",
+        "https://openalex.org/W3206286092",
+        "https://openalex.org/W3208494809",
+        "https://openalex.org/W3212137514",
+        "https://openalex.org/W3215966579",
+        "https://openalex.org/W4200017346",
+        "https://openalex.org/W4213245422",
+        "https://openalex.org/W4220846496",
+        "https://openalex.org/W4239237857",
+        "https://openalex.org/W4246580442",
+        "https://openalex.org/W4297927038",
+        "https://openalex.org/W4298134634",
+        "https://openalex.org/W4315746341",
+        "https://openalex.org/W4403760382"
+      ],
+      "related_works": [
+        "https://openalex.org/W4390597360",
+        "https://openalex.org/W7207766327",
+        "https://openalex.org/W4309578996",
+        "https://openalex.org/W4411461299",
+        "https://openalex.org/W7220477109",
+        "https://openalex.org/W7143785850",
+        "https://openalex.org/W4404092937",
+        "https://openalex.org/W4391331509",
+        "https://openalex.org/W4387414936",
+        "https://openalex.org/W4411851598"
+      ],
+      "abstract_inverted_index": {
+        "Machine": [
+          0
+        ],
+        "Learning": [
+          1
+        ],
+        "(ML)": [
+          2
+        ],
+        "represents": [
+          3
+        ],
+        "a": [
+          4,
+          35,
+          43,
+          86,
+          97
+        ],
+        "pivotal": [
+          5
+        ],
+        "technology": [
+          6
+        ],
+        "for": [
+          7,
+          175
+        ],
+        "current": [
+          8,
+          51
+        ],
+        "and": [
+          9,
+          13,
+          40,
+          81
+        ],
+        "future": [
+          10,
+          166
+        ],
+        "information": [
+          11
+        ],
+        "systems,": [
+          12
+        ],
+        "many": [
+          14
+        ],
+        "domains": [
+          15
+        ],
+        "already": [
+          16
+        ],
+        "leverage": [
+          17
+        ],
+        "the": [
+          18,
+          50,
+          54,
+          63,
+          92,
+          101,
+          106,
+          121,
+          134
+        ],
+        "capabilities": [
+          19
+        ],
+        "of": [
+          20,
+          24,
+          53,
+          65,
+          72,
+          100,
+          103,
+          123,
+          168,
+          193
+        ],
+        "ML.": [
+          21
+        ],
+        "However,": [
+          22
+        ],
+        "deployment": [
+          23
+        ],
+        "ML": [
+          25,
+          66,
+          73,
+          104,
+          124,
+          142,
+          153,
+          169,
+          194
+        ],
+        "in": [
+          26,
+          49,
+          67,
+          105,
+          116,
+          143,
+          155,
+          170,
+          178
+        ],
+        "cybersecurity": [
+          27,
+          108
+        ],
+        "is": [
+          28,
+          91,
+          173
+        ],
+        "still": [
+          29
+        ],
+        "at": [
+          30
+        ],
+        "an": [
+          31,
+          114
+        ],
+        "early": [
+          32
+        ],
+        "stage,": [
+          33
+        ],
+        "revealing": [
+          34
+        ],
+        "significant": [
+          36
+        ],
+        "discrepancy": [
+          37,
+          44
+        ],
+        "between": [
+          38
+        ],
+        "research": [
+          39
+        ],
+        "practice.": [
+          41
+        ],
+        "Such": [
+          42
+        ],
+        "has": [
+          45
+        ],
+        "its": [
+          46,
+          79
+        ],
+        "root": [
+          47
+        ],
+        "cause": [
+          48
+        ],
+        "state": [
+          52
+        ],
+        "art,": [
+          55
+        ],
+        "which": [
+          56,
+          172
+        ],
+        "does": [
+          57
+        ],
+        "not": [
+          58
+        ],
+        "allow": [
+          59
+        ],
+        "us": [
+          60
+        ],
+        "to": [
+          61,
+          95,
+          127,
+          165
+        ],
+        "identify": [
+          62
+        ],
+        "role": [
+          64,
+          102
+        ],
+        "cybersecurity.": [
+          68,
+          144,
+          156
+        ],
+        "The": [
+          69
+        ],
+        "full": [
+          70
+        ],
+        "potential": [
+          71,
+          111
+        ],
+        "will": [
+          74
+        ],
+        "never": [
+          75
+        ],
+        "be": [
+          76,
+          139
+        ],
+        "unleashed": [
+          77
+        ],
+        "unless": [
+          78
+        ],
+        "pros": [
+          80
+        ],
+        "cons": [
+          82
+        ],
+        "are": [
+          83,
+          183
+        ],
+        "understood": [
+          84
+        ],
+        "by": [
+          85,
+          141
+        ],
+        "broad": [
+          87
+        ],
+        "audience.": [
+          88
+        ],
+        "This": [
+          89
+        ],
+        "article": [
+          90
+        ],
+        "first": [
+          93
+        ],
+        "attempt": [
+          94
+        ],
+        "provide": [
+          96
+        ],
+        "holistic": [
+          98
+        ],
+        "understanding": [
+          99
+        ],
+        "entire": [
+          107
+        ],
+        "domain—to": [
+          109
+        ],
+        "any": [
+          110
+        ],
+        "reader": [
+          112
+        ],
+        "with": [
+          113,
+          125,
+          185
+        ],
+        "interest": [
+          115
+        ],
+        "this": [
+          117,
+          179
+        ],
+        "topic.": [
+          118
+        ],
+        "We": [
+          119
+        ],
+        "highlight": [
+          120
+        ],
+        "advantages": [
+          122
+        ],
+        "respect": [
+          126
+        ],
+        "human-driven": [
+          128
+        ],
+        "detection": [
+          129
+        ],
+        "methods,": [
+          130
+        ],
+        "as": [
+          131,
+          133,
+          195
+        ],
+        "well": [
+          132
+        ],
+        "additional": [
+          135
+        ],
+        "tasks": [
+          136
+        ],
+        "that": [
+          137
+        ],
+        "can": [
+          138,
+          163
+        ],
+        "addressed": [
+          140
+        ],
+        "Moreover,": [
+          145
+        ],
+        "we": [
+          146,
+          158
+        ],
+        "elucidate": [
+          147
+        ],
+        "various": [
+          148,
+          161
+        ],
+        "intrinsic": [
+          149
+        ],
+        "problems": [
+          150
+        ],
+        "affecting": [
+          151
+        ],
+        "real": [
+          152,
+          187
+        ],
+        "deployments": [
+          154
+        ],
+        "Finally,": [
+          157
+        ],
+        "present": [
+          159
+        ],
+        "how": [
+          160
+        ],
+        "stakeholders": [
+          162
+        ],
+        "contribute": [
+          164
+        ],
+        "developments": [
+          167
+        ],
+        "cybersecurity,": [
+          171
+        ],
+        "essential": [
+          174
+        ],
+        "further": [
+          176
+        ],
+        "progress": [
+          177
+        ],
+        "field.": [
+          180
+        ],
+        "Our": [
+          181
+        ],
+        "contributions": [
+          182
+        ],
+        "complemented": [
+          184
+        ],
+        "two": [
+          186
+        ],
+        "case": [
+          188
+        ],
+        "studies": [
+          189
+        ],
+        "describing": [
+          190
+        ],
+        "industrial": [
+          191
+        ],
+        "applications": [
+          192
+        ],
+        "defense": [
+          196
+        ],
+        "against": [
+          197
+        ],
+        "cyber-threats.": [
+          198
+        ]
+      },
+      "counts_by_year": [
+        {
+          "year": 2026,
+          "cited_by_count": 101
+        },
+        {
+          "year": 2025,
+          "cited_by_count": 122
+        },
+        {
+          "year": 2024,
+          "cited_by_count": 106
+        },
+        {
+          "year": 2023,
+          "cited_by_count": 32
+        },
+        {
+          "year": 2022,
+          "cited_by_count": 4
+        },
+        {
+          "year": 2021,
+          "cited_by_count": 1
+        }
+      ],
+      "updated_date": "2026-11-14T11:04:58.165337",
+      "created_date": "2022-06-24T00:00:00"
+    },
+    {
+      "id": "https://openalex.org/W4411699526",
+      "doi": "https://doi.org/10.58532/nbennuraicr2",
+      "title": "MACHINE LEARNING IN CYBERSECURITY",
+      "display_name": "MACHINE LEARNING IN CYBERSECURITY",
+      "relevance_score": 60.571022,
+      "publication_year": 2025,
+      "publication_date": "2025-06-25",
+      "ids": {
+        "openalex": "https://openalex.org/W4411699526",
+        "doi": "https://doi.org/10.58532/nbennuraicr2"
+      },
+      "language": "en",
+      "primary_location": {
+        "id": "doi:10.58532/nbennuraicr2",
+        "doi": "https://doi.org/10.58532/nbennuraicr2",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.58532/nbennuraicr2",
+        "pdf_url": "https://www.iipseries.org/assets/docupload/rsl2025D96E848BA1B26D1.pdf",
+        "source": null,
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Artificial Intelligence and the Cybersecurity Revolution: Innovations and Implications",
+        "raw_type": "book-chapter"
+      },
+      "parent_works": [
+        {
+          "id": "https://openalex.org/W7134274093",
+          "display_name": "Artificial Intelligence and the Cybersecurity Revolution: Innovations and Implications",
+          "relationship": "volume"
+        }
+      ],
+      "lineage": [
+        "https://openalex.org/W4411699526",
+        "https://openalex.org/W7134274093"
+      ],
+      "child_works_count": 0,
+      "type": "book-chapter",
+      "is_traditional": true,
+      "indexed_in": [
+        "crossref"
+      ],
+      "open_access": {
+        "is_oa": true,
+        "oa_status": "gold",
+        "oa_url": "https://www.iipseries.org/assets/docupload/rsl2025D96E848BA1B26D1.pdf",
+        "any_repository_has_fulltext": null
+      },
+      "authorships": [
+        {
+          "author_position": "first",
+          "author": {
+            "id": null,
+            "display_name": "Chiman Saini",
+            "orcid": null,
+            "observed_orcids": []
+          },
+          "institutions": [],
+          "countries": [],
+          "is_corresponding": false,
+          "raw_author_name": "Chiman Saini",
+          "raw_affiliation_strings": [
+            "Department of CSE , World Collage of Technology and Management , Farukh Nagar Gurgoan- 122506 , Haryana , India"
+          ],
+          "raw_orcid": null,
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Department of CSE , World Collage of Technology and Management , Farukh Nagar Gurgoan- 122506 , Haryana , India",
+              "institution_ids": []
+            }
+          ]
+        },
+        {
+          "author_position": "middle",
+          "author": {
+            "id": "https://openalex.org/A5075277793",
+            "display_name": "Poonam Kukana",
+            "orcid": null,
+            "observed_orcids": []
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I101407740",
+              "display_name": "Chandigarh University",
+              "ror": "https://ror.org/05t4pvx35",
+              "country_code": "IN",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I101407740"
+              ]
+            }
+          ],
+          "countries": [
+            "IN"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "Poonam Kukana",
+          "raw_affiliation_strings": [
+            "Department of CSE UIE , Chandigarh University Mohali - 140413 , Punjab"
+          ],
+          "raw_orcid": null,
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Department of CSE UIE , Chandigarh University Mohali - 140413 , Punjab",
+              "institution_ids": [
+                "https://openalex.org/I101407740"
+              ]
+            }
+          ]
+        },
+        {
+          "author_position": "middle",
+          "author": {
+            "id": "https://openalex.org/A5100811499",
+            "display_name": "Sukhjinder Kaur",
+            "orcid": null,
+            "observed_orcids": []
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I2801240201",
+              "display_name": "Rayat Bahra University",
+              "ror": "https://ror.org/03564kq40",
+              "country_code": "IN",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I2801240201"
+              ]
+            }
+          ],
+          "countries": [
+            "IN"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "Sukhjinder Kaur",
+          "raw_affiliation_strings": [
+            "Department of CSE Rayat Bahra University Mohali - 140103 , Punjab"
+          ],
+          "raw_orcid": null,
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Department of CSE Rayat Bahra University Mohali - 140103 , Punjab",
+              "institution_ids": [
+                "https://openalex.org/I2801240201"
+              ]
+            }
+          ]
+        },
+        {
+          "author_position": "middle",
+          "author": {
+            "id": "https://openalex.org/A5118636151",
+            "display_name": "Ms Ashima",
+            "orcid": null,
+            "observed_orcids": []
+          },
+          "institutions": [],
+          "countries": [],
+          "is_corresponding": false,
+          "raw_author_name": "Ms Ashima",
+          "raw_affiliation_strings": [],
+          "raw_orcid": null,
+          "affiliations": []
+        },
+        {
+          "author_position": "last",
+          "author": {
+            "id": "https://openalex.org/A5102973048",
+            "display_name": "Bhupinder Kaur",
+            "orcid": "https://orcid.org/0000-0001-7627-3214",
+            "observed_orcids": [
+              "https://orcid.org/0000-0001-7627-3214"
+            ]
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I101407740",
+              "display_name": "Chandigarh University",
+              "ror": "https://ror.org/05t4pvx35",
+              "country_code": "IN",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I101407740"
+              ]
+            },
+            {
+              "id": "https://openalex.org/I2801240201",
+              "display_name": "Rayat Bahra University",
+              "ror": "https://ror.org/03564kq40",
+              "country_code": "IN",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I2801240201"
+              ]
+            }
+          ],
+          "countries": [
+            "IN"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "Bhupinder Kaur",
+          "raw_affiliation_strings": [
+            "Department of CSE Rayat Bahra University Mohali - 140103 , Punjab",
+            "Department of CSE UIE , Chandigarh University Mohali - 140413 , Punjab"
+          ],
+          "raw_orcid": null,
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Department of CSE Rayat Bahra University Mohali - 140103 , Punjab",
+              "institution_ids": [
+                "https://openalex.org/I2801240201"
+              ]
+            },
+            {
+              "raw_affiliation_string": "Department of CSE UIE , Chandigarh University Mohali - 140413 , Punjab",
+              "institution_ids": [
+                "https://openalex.org/I101407740"
+              ]
+            }
+          ]
+        }
+      ],
+      "institutions": [],
+      "countries_distinct_count": 1,
+      "institutions_distinct_count": 2,
+      "corresponding_author_ids": [],
+      "corresponding_institution_ids": [],
+      "apc_list": null,
+      "apc_paid": null,
+      "fwci": 0.0,
+      "is_authors_truncated": false,
+      "has_fulltext": true,
+      "cited_by_count": 0,
+      "citation_normalized_percentile": {
+        "value": 0.0,
+        "is_in_top_1_percent": false,
+        "is_in_top_10_percent": false
+      },
+      "cited_by_percentile_year": null,
+      "biblio": {
+        "volume": null,
+        "issue": null,
+        "first_page": "11",
+        "last_page": "23"
+      },
+      "is_retracted": false,
+      "is_paratext": false,
+      "is_xpac": false,
+      "primary_topic": {
+        "id": "https://openalex.org/T10400",
+        "display_name": "Network Security and Intrusion Detection",
+        "score": 0.9761000275611877,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1705",
+          "display_name": "Computer Networks and Communications"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      "topics": [
+        {
+          "id": "https://openalex.org/T10400",
+          "display_name": "Network Security and Intrusion Detection",
+          "score": 0.9761000275611877,
+          "subfield": {
+            "id": "https://openalex.org/subfields/1705",
+            "display_name": "Computer Networks and Communications"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/17",
+            "display_name": "Computer Science"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T11689",
+          "display_name": "Adversarial Robustness in Machine Learning",
+          "score": 0.014700000174343586,
+          "subfield": {
+            "id": "https://openalex.org/subfields/1702",
+            "display_name": "Artificial Intelligence"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/17",
+            "display_name": "Computer Science"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T11241",
+          "display_name": "Advanced Malware Detection Techniques",
+          "score": 0.0024999999441206455,
+          "subfield": {
+            "id": "https://openalex.org/subfields/1712",
+            "display_name": "Software"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/17",
+            "display_name": "Computer Science"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        }
+      ],
+      "keywords": [
+        {
+          "id": "https://openalex.org/keywords/machine-learning-for-security",
+          "display_name": "machine learning for security",
+          "score": 0.9330000281333923
+        },
+        {
+          "id": "https://openalex.org/keywords/cyberattacks",
+          "display_name": "cyberattacks",
+          "score": 0.7609999775886536
+        },
+        {
+          "id": "https://openalex.org/keywords/attack-detection",
+          "display_name": "attack detection",
+          "score": 0.6930000185966492
+        },
+        {
+          "id": "https://openalex.org/keywords/machine-learning-vulnerabilities",
+          "display_name": "machine learning vulnerabilities",
+          "score": 0.628000020980835
+        },
+        {
+          "id": "https://openalex.org/keywords/adversarial-attacks",
+          "display_name": "adversarial attacks",
+          "score": 0.6880000233650208
+        },
+        {
+          "id": "https://openalex.org/keywords/security-defenses",
+          "display_name": "security defenses",
+          "score": 0.44699999690055847
+        },
+        {
+          "id": "https://openalex.org/keywords/machine-learning-algorithms",
+          "display_name": "machine learning algorithms",
+          "score": 0.6930000185966492
+        }
+      ],
+      "concepts": [
+        {
+          "id": "https://openalex.org/C38652104",
+          "wikidata": "https://www.wikidata.org/wiki/Q3510521",
+          "display_name": "Computer security",
+          "level": 1,
+          "score": 0.6294645667076111
+        },
+        {
+          "id": "https://openalex.org/C41008148",
+          "wikidata": "https://www.wikidata.org/wiki/Q21198",
+          "display_name": "Computer science",
+          "level": 0,
+          "score": 0.5495237708091736
+        }
+      ],
+      "mesh": [],
+      "locations_count": 1,
+      "locations": [
+        {
+          "id": "doi:10.58532/nbennuraicr2",
+          "doi": "https://doi.org/10.58532/nbennuraicr2",
+          "is_oa": true,
+          "landing_page_url": "https://doi.org/10.58532/nbennuraicr2",
+          "pdf_url": "https://www.iipseries.org/assets/docupload/rsl2025D96E848BA1B26D1.pdf",
+          "source": null,
+          "license": "cc-by",
+          "license_id": "https://openalex.org/licenses/cc-by",
+          "version": "publishedVersion",
+          "is_accepted": true,
+          "is_published": true,
+          "raw_source_name": "Artificial Intelligence and the Cybersecurity Revolution: Innovations and Implications",
+          "raw_type": "book-chapter"
+        }
+      ],
+      "best_oa_location": {
+        "id": "doi:10.58532/nbennuraicr2",
+        "doi": "https://doi.org/10.58532/nbennuraicr2",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.58532/nbennuraicr2",
+        "pdf_url": "https://www.iipseries.org/assets/docupload/rsl2025D96E848BA1B26D1.pdf",
+        "source": null,
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Artificial Intelligence and the Cybersecurity Revolution: Innovations and Implications",
+        "raw_type": "book-chapter"
+      },
+      "sustainable_development_goals": [],
+      "study_designs": [],
+      "awards": [],
+      "funders": [],
+      "has_content": {
+        "grobid_xml": true,
+        "pdf": true
+      },
+      "content_urls": {
+        "pdf": "https://content.openalex.org/works/W4411699526.pdf",
+        "grobid_xml": "https://content.openalex.org/works/W4411699526.grobid-xml"
+      },
+      "referenced_works_count": 13,
+      "referenced_works": [
+        "https://openalex.org/W1901616594",
+        "https://openalex.org/W1966809779",
+        "https://openalex.org/W2145339207",
+        "https://openalex.org/W2540187791",
+        "https://openalex.org/W2548661049",
+        "https://openalex.org/W2618014102",
+        "https://openalex.org/W2732916693",
+        "https://openalex.org/W2790664081",
+        "https://openalex.org/W2885012953",
+        "https://openalex.org/W2917355511",
+        "https://openalex.org/W3093469966",
+        "https://openalex.org/W4379057025",
+        "https://openalex.org/W7014191107"
+      ],
+      "related_works": [
+        "https://openalex.org/W4407787914",
+        "https://openalex.org/W3093469966",
+        "https://openalex.org/W4311259318",
+        "https://openalex.org/W3102023384",
+        "https://openalex.org/W6912212120",
+        "https://openalex.org/W4416264476",
+        "https://openalex.org/W4390597360",
+        "https://openalex.org/W3033710808",
+        "https://openalex.org/W4404092937",
+        "https://openalex.org/W3198252293"
+      ],
+      "abstract_inverted_index": {
+        "Information": [
+          0,
+          42
+        ],
+        "science": [
+          1,
+          43
+        ],
+        "is": [
+          2,
+          33,
+          44,
+          53,
+          170
+        ],
+        "the": [
+          3,
+          7,
+          45,
+          76,
+          122,
+          147,
+          187,
+          198,
+          206,
+          209
+        ],
+        "driving": [
+          4
+        ],
+        "figuren": [
+          5
+        ],
+        "behind": [
+          6
+        ],
+        "foremost": [
+          8
+        ],
+        "later": [
+          9
+        ],
+        "noteworthy": [
+          10
+        ],
+        "shifts": [
+          11
+        ],
+        "in": [
+          12,
+          24,
+          92,
+          130,
+          192,
+          194
+        ],
+        "cybersecurity": [
+          13,
+          25,
+          193
+        ],
+        "operations": [
+          14
+        ],
+        "and": [
+          15,
+          27,
+          37,
+          65,
+          75,
+          83,
+          124,
+          134,
+          149,
+          158,
+          167,
+          202,
+          216
+        ],
+        "innovation.": [
+          16
+        ],
+        "Finding": [
+          17
+        ],
+        "designs": [
+          18
+        ],
+        "or": [
+          19
+        ],
+        "contemplations": [
+          20
+        ],
+        "approximately": [
+          21
+        ],
+        "security": [
+          22,
+          40,
+          112,
+          135
+        ],
+        "events": [
+          23
+        ],
+        "information": [
+          26
+        ],
+        "developing": [
+          28
+        ],
+        "suitable": [
+          29
+        ],
+        "data": [
+          30
+        ],
+        "driven": [
+          31
+        ],
+        "models": [
+          32
+        ],
+        "essential": [
+          34,
+          171
+        ],
+        "for": [
+          35
+        ],
+        "automating": [
+          36
+        ],
+        "improving": [
+          38
+        ],
+        "a": [
+          39,
+          93,
+          107,
+          183
+        ],
+        "architecture.": [
+          41
+        ],
+        "consider": [
+          46
+        ],
+        "of": [
+          47,
+          68,
+          96,
+          110,
+          151,
+          186,
+          200,
+          208
+        ],
+        "real-world": [
+          48
+        ],
+        "occasions": [
+          49
+        ],
+        "utilizing": [
+          50
+        ],
+        "information.": [
+          51
+        ],
+        "It": [
+          52
+        ],
+        "regularly": [
+          54
+        ],
+        "alluded": [
+          55
+        ],
+        "to": [
+          56,
+          78,
+          81,
+          145,
+          172
+        ],
+        "as": [
+          57
+        ],
+        "numerous": [
+          58
+        ],
+        "logical": [
+          59,
+          97
+        ],
+        "strategies,": [
+          60
+        ],
+        "machine": [
+          61,
+          86,
+          100,
+          178,
+          189,
+          213
+        ],
+        "learning": [
+          62,
+          87,
+          101,
+          115,
+          190,
+          214
+        ],
+        "methods,": [
+          63
+        ],
+        "forms,": [
+          64
+        ],
+        "frameworks.": [
+          66
+        ],
+        "Since": [
+          67
+        ],
+        "their": [
+          69,
+          203
+        ],
+        "extraordinary": [
+          70
+        ],
+        "qualities": [
+          71
+        ],
+        "like": [
+          72
+        ],
+        "adaptability,": [
+          73,
+          74
+        ],
+        "capacity": [
+          77
+        ],
+        "fast": [
+          79
+        ],
+        "alter": [
+          80
+        ],
+        "novel": [
+          82
+        ],
+        "obscure": [
+          84
+        ],
+        "challenges,": [
+          85
+        ],
+        "procedures": [
+          88
+        ],
+        "have": [
+          89,
+          103
+        ],
+        "been": [
+          90,
+          143
+        ],
+        "utilized": [
+          91
+        ],
+        "wide": [
+          94,
+          108
+        ],
+        "extend": [
+          95
+        ],
+        "areas.": [
+          98
+        ],
+        "Numerous": [
+          99
+        ],
+        "algorithms": [
+          102,
+          116
+        ],
+        "successfully": [
+          104
+        ],
+        "tackled": [
+          105
+        ],
+        "such": [
+          106
+        ],
+        "variety": [
+          109
+        ],
+        "computer": [
+          111
+        ],
+        "challenges.": [
+          113
+        ],
+        "Machine": [
+          114
+        ],
+        "can": [
+          117
+        ],
+        "be": [
+          118
+        ],
+        "attacked": [
+          119
+        ],
+        "during": [
+          120
+        ],
+        "both": [
+          121
+        ],
+        "training": [
+          123
+        ],
+        "assessment": [
+          125
+        ],
+        "stages,": [
+          126
+        ],
+        "which": [
+          127
+        ],
+        "often": [
+          128
+        ],
+        "result": [
+          129
+        ],
+        "notable": [
+          131
+        ],
+        "performance": [
+          132
+        ],
+        "declines": [
+          133
+        ],
+        "lapses.": [
+          136
+        ],
+        "In": [
+          137
+        ],
+        "contrast,": [
+          138
+        ],
+        "not": [
+          139
+        ],
+        "much": [
+          140
+        ],
+        "research": [
+          141,
+          191
+        ],
+        "has": [
+          142
+        ],
+        "done": [
+          144
+        ],
+        "comprehend": [
+          146
+        ],
+        "nature": [
+          148
+        ],
+        "extent": [
+          150
+        ],
+        "ML": [
+          152,
+          218
+        ],
+        "approaches'": [
+          153
+        ],
+        "vulnerabilities": [
+          154
+        ],
+        "against": [
+          155
+        ],
+        "safety": [
+          156
+        ],
+        "risks": [
+          157
+        ],
+        "associated": [
+          159
+        ],
+        "defence": [
+          160
+        ],
+        "mechanisms.": [
+          161
+        ],
+        "To": [
+          162
+        ],
+        "interest": [
+          163
+        ],
+        "scholars'": [
+          164
+        ],
+        "curiosity,": [
+          165
+        ],
+        "scientists": [
+          166
+        ],
+        "engineers,": [
+          168
+        ],
+        "it": [
+          169
+        ],
+        "arrange": [
+          173
+        ],
+        "contemporary": [
+          174
+        ],
+        "cybersecurity-related": [
+          175
+        ],
+        "studies": [
+          176
+        ],
+        "utilising": [
+          177
+        ],
+        "learning.": [
+          179
+        ],
+        "Therefore,": [
+          180
+        ],
+        "we": [
+          181
+        ],
+        "provide": [
+          182
+        ],
+        "comprehensive": [
+          184
+        ],
+        "review": [
+          185
+        ],
+        "latest": [
+          188
+        ],
+        "this": [
+          195
+        ],
+        "article,": [
+          196
+        ],
+        "including": [
+          197
+        ],
+        "fundamentals": [
+          199,
+          207
+        ],
+        "cyberattacks": [
+          201
+        ],
+        "accompanying": [
+          204
+        ],
+        "defences,": [
+          205
+        ],
+        "most": [
+          210
+        ],
+        "widely": [
+          211
+        ],
+        "used": [
+          212
+        ],
+        "algorithms,": [
+          215
+        ],
+        "suggested": [
+          217
+        ]
+      },
+      "counts_by_year": [],
+      "updated_date": "2026-11-14T11:04:58.165337",
+      "created_date": "2025-10-10T00:00:00"
+    },
+    {
+      "id": "https://openalex.org/W4414128840",
+      "doi": "https://doi.org/10.54660/.jfmr.2020.1.2.31-45",
+      "title": "Adversarial Machine Learning in Cybersecurity: Vulnerabilities and Defense Strategies",
+      "display_name": "Adversarial Machine Learning in Cybersecurity: Vulnerabilities and Defense Strategies",
+      "relevance_score": 59.292183,
+      "publication_year": 2020,
+      "publication_date": "2020-01-01",
+      "ids": {
+        "openalex": "https://openalex.org/W4414128840",
+        "doi": "https://doi.org/10.54660/.jfmr.2020.1.2.31-45"
+      },
+      "language": "en",
+      "primary_location": {
+        "id": "doi:10.54660/.jfmr.2020.1.2.31-45",
+        "doi": "https://doi.org/10.54660/.jfmr.2020.1.2.31-45",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.54660/.jfmr.2020.1.2.31-45",
+        "pdf_url": "https://www.multidisciplinaryfrontiers.com/uploads/archives/20250911162922_FMR-2025-2-097.1.pdf",
+        "source": {
+          "id": "https://openalex.org/S5407047521",
+          "display_name": "Journal of Frontiers in Multidisciplinary Research",
+          "issn_l": "3050-9718",
+          "issn": [
+            "3050-9718",
+            "3050-9726"
+          ],
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "listed_in": [],
+          "host_organization": null,
+          "host_organization_name": null,
+          "host_organization_lineage": [],
+          "host_organization_lineage_names": [],
+          "type": "journal"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Journal of Frontiers in Multidisciplinary Research",
+        "raw_type": "journal-article"
+      },
+      "parent_works": [],
+      "lineage": [
+        "https://openalex.org/W4414128840"
+      ],
+      "child_works_count": 0,
+      "type": "article",
+      "is_traditional": true,
+      "indexed_in": [
+        "crossref"
+      ],
+      "open_access": {
+        "is_oa": true,
+        "oa_status": "bronze",
+        "oa_url": "https://www.multidisciplinaryfrontiers.com/uploads/archives/20250911162922_FMR-2025-2-097.1.pdf",
+        "any_repository_has_fulltext": false
+      },
+      "authorships": [
+        {
+          "author_position": "first",
+          "author": {
+            "id": "https://openalex.org/A5143657869",
+            "display_name": "Lawal Abdulmutalib Babatunde",
+            "orcid": null,
+            "observed_orcids": []
+          },
+          "institutions": [],
+          "countries": [],
+          "is_corresponding": false,
+          "raw_author_name": "Lawal Abdulmutalib Babatunde",
+          "raw_affiliation_strings": [
+            "Independent Researcher , Germany"
+          ],
+          "raw_orcid": null,
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Independent Researcher , Germany",
+              "institution_ids": []
+            }
+          ]
+        },
+        {
+          "author_position": "middle",
+          "author": {
+            "id": "https://openalex.org/A5119525170",
+            "display_name": "Edima David Etim",
+            "orcid": null,
+            "observed_orcids": []
+          },
+          "institutions": [],
+          "countries": [],
+          "is_corresponding": false,
+          "raw_author_name": "Edima David Etim",
+          "raw_affiliation_strings": [],
+          "raw_orcid": null,
+          "affiliations": []
+        },
+        {
+          "author_position": "middle",
+          "author": {
+            "id": "https://openalex.org/A5119442997",
+            "display_name": "Iboro Akpan Essien",
+            "orcid": null,
+            "observed_orcids": []
+          },
+          "institutions": [],
+          "countries": [],
+          "is_corresponding": false,
+          "raw_author_name": "Iboro Akpan Essien",
+          "raw_affiliation_strings": [
+            "Mobil Producing Nigeria Unlimited , Eket , Nigeria"
+          ],
+          "raw_orcid": null,
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Mobil Producing Nigeria Unlimited , Eket , Nigeria",
+              "institution_ids": []
+            }
+          ]
+        },
+        {
+          "author_position": "middle",
+          "author": {
+            "id": "https://openalex.org/A5114305504",
+            "display_name": "Emmanuel Cadet",
+            "orcid": null,
+            "observed_orcids": []
+          },
+          "institutions": [],
+          "countries": [],
+          "is_corresponding": false,
+          "raw_author_name": "Emmanuel Cadet",
+          "raw_affiliation_strings": [
+            "Independent Researcher , USA"
+          ],
+          "raw_orcid": null,
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Independent Researcher , USA",
+              "institution_ids": []
+            }
+          ]
+        },
+        {
+          "author_position": "middle",
+          "author": {
+            "id": "https://openalex.org/A5119337378",
+            "display_name": "Joshua Oluwagbenga Ajayi",
+            "orcid": null,
+            "observed_orcids": []
+          },
+          "institutions": [],
+          "countries": [],
+          "is_corresponding": false,
+          "raw_author_name": "Joshua Oluwagbenga Ajayi",
+          "raw_affiliation_strings": [
+            "Kobo360 , Lagos , Nigeria"
+          ],
+          "raw_orcid": null,
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Kobo360 , Lagos , Nigeria",
+              "institution_ids": []
+            }
+          ]
+        },
+        {
+          "author_position": "middle",
+          "author": {
+            "id": "https://openalex.org/A5143906327",
+            "display_name": "Eseoghene Daniel Erigha",
+            "orcid": null,
+            "observed_orcids": []
+          },
+          "institutions": [],
+          "countries": [],
+          "is_corresponding": false,
+          "raw_author_name": "Eseoghene Daniel Erigha",
+          "raw_affiliation_strings": [
+            "Senior Software Engineer , Choco GmbH , Berlin , Germany"
+          ],
+          "raw_orcid": null,
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Senior Software Engineer , Choco GmbH , Berlin , Germany",
+              "institution_ids": []
+            }
+          ]
+        },
+        {
+          "author_position": "last",
+          "author": {
+            "id": "https://openalex.org/A5119338129",
+            "display_name": "Ehimah Obuse",
+            "orcid": null,
+            "observed_orcids": []
+          },
+          "institutions": [],
+          "countries": [],
+          "is_corresponding": false,
+          "raw_author_name": "Ehimah Obuse",
+          "raw_affiliation_strings": [
+            "Lead Software Engineer , Choco , Berlin , Germany"
+          ],
+          "raw_orcid": null,
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Lead Software Engineer , Choco , Berlin , Germany",
+              "institution_ids": []
+            }
+          ]
+        }
+      ],
+      "institutions": [],
+      "countries_distinct_count": 0,
+      "institutions_distinct_count": 0,
+      "corresponding_author_ids": [],
+      "corresponding_institution_ids": [],
+      "apc_list": null,
+      "apc_paid": null,
+      "fwci": 3.6728,
+      "is_authors_truncated": false,
+      "has_fulltext": true,
+      "cited_by_count": 59,
+      "citation_normalized_percentile": {
+        "value": 0.94156306,
+        "is_in_top_1_percent": false,
+        "is_in_top_10_percent": true
+      },
+      "cited_by_percentile_year": {
+        "min": 96,
+        "max": 100
+      },
+      "biblio": {
+        "volume": "1",
+        "issue": "2",
+        "first_page": "31",
+        "last_page": "45"
+      },
+      "is_retracted": false,
+      "is_paratext": false,
+      "is_xpac": false,
+      "primary_topic": {
+        "id": "https://openalex.org/T11689",
+        "display_name": "Adversarial Robustness in Machine Learning",
+        "score": 1.0,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1702",
+          "display_name": "Artificial Intelligence"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      "topics": [
+        {
+          "id": "https://openalex.org/T11689",
+          "display_name": "Adversarial Robustness in Machine Learning",
+          "score": 1.0,
+          "subfield": {
+            "id": "https://openalex.org/subfields/1702",
+            "display_name": "Artificial Intelligence"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/17",
+            "display_name": "Computer Science"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T11424",
+          "display_name": "Security and Verification in Computing",
+          "score": 0.0,
+          "subfield": {
+            "id": "https://openalex.org/subfields/1708",
+            "display_name": "Hardware and Architecture"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/17",
+            "display_name": "Computer Science"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T10400",
+          "display_name": "Network Security and Intrusion Detection",
+          "score": 0.0,
+          "subfield": {
+            "id": "https://openalex.org/subfields/1705",
+            "display_name": "Computer Networks and Communications"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/17",
+            "display_name": "Computer Science"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        }
+      ],
+      "keywords": [
+        {
+          "id": "https://openalex.org/keywords/adversarial-machine-learning",
+          "display_name": "adversarial learning",
+          "score": 1.0
+        },
+        {
+          "id": "https://openalex.org/keywords/adversarial-attacks",
+          "display_name": "adversarial attacks",
+          "score": 0.628000020980835
+        },
+        {
+          "id": "https://openalex.org/keywords/evasion-attacks",
+          "display_name": "evasion attacks",
+          "score": 0.6660000085830688
+        },
+        {
+          "id": "https://openalex.org/keywords/poisoning-attacks",
+          "display_name": "poisoning attacks",
+          "score": 0.7559999823570251
+        },
+        {
+          "id": "https://openalex.org/keywords/model-inversion-attacks",
+          "display_name": "model inversion attacks",
+          "score": 0.8519999980926514
+        },
+        {
+          "id": "https://openalex.org/keywords/membership-inference-attacks",
+          "display_name": "membership inference attacks",
+          "score": 0.9919999837875366
+        },
+        {
+          "id": "https://openalex.org/keywords/adversarial-robustness",
+          "display_name": "adversarial robustness",
+          "score": 0.7160000205039978
+        },
+        {
+          "id": "https://openalex.org/keywords/adversarial-training",
+          "display_name": "adversarial training",
+          "score": 0.7519999742507935
+        },
+        {
+          "id": "https://openalex.org/keywords/defensive-distillation",
+          "display_name": "defensive distillation",
+          "score": 0.8379999995231628
+        },
+        {
+          "id": "https://openalex.org/keywords/gradient-masking",
+          "display_name": "gradient masking",
+          "score": 0.8029999732971191
+        },
+        {
+          "id": "https://openalex.org/keywords/intrusion-detection",
+          "display_name": "intrusion detection",
+          "score": 0.6570000052452087
+        },
+        {
+          "id": "https://openalex.org/keywords/malware-detection",
+          "display_name": "malware detection",
+          "score": 0.9079999923706055
+        },
+        {
+          "id": "https://openalex.org/keywords/spam-filtering",
+          "display_name": "spam filtering",
+          "score": 0.9750000238418579
+        },
+        {
+          "id": "https://openalex.org/keywords/explainable-ai",
+          "display_name": "explainable AI",
+          "score": 0.7699999809265137
+        },
+        {
+          "id": "https://openalex.org/keywords/certified-robustness",
+          "display_name": "certified robustness",
+          "score": 0.6039999723434448
+        }
+      ],
+      "concepts": [
+        {
+          "id": "https://openalex.org/C37736160",
+          "wikidata": "https://www.wikidata.org/wiki/Q1801315",
+          "display_name": "Adversarial system",
+          "level": 2,
+          "score": 0.8579000234603882
+        },
+        {
+          "id": "https://openalex.org/C41008148",
+          "wikidata": "https://www.wikidata.org/wiki/Q21198",
+          "display_name": "Computer science",
+          "level": 0,
+          "score": 0.7384999990463257
+        },
+        {
+          "id": "https://openalex.org/C38652104",
+          "wikidata": "https://www.wikidata.org/wiki/Q3510521",
+          "display_name": "Computer security",
+          "level": 1,
+          "score": 0.7111999988555908
+        },
+        {
+          "id": "https://openalex.org/C2778403875",
+          "wikidata": "https://www.wikidata.org/wiki/Q20312394",
+          "display_name": "Adversarial machine learning",
+          "level": 3,
+          "score": 0.6877999901771545
+        },
+        {
+          "id": "https://openalex.org/C541664917",
+          "wikidata": "https://www.wikidata.org/wiki/Q14001",
+          "display_name": "Malware",
+          "level": 2,
+          "score": 0.6571000218391418
+        },
+        {
+          "id": "https://openalex.org/C154945302",
+          "wikidata": "https://www.wikidata.org/wiki/Q11660",
+          "display_name": "Artificial intelligence",
+          "level": 1,
+          "score": 0.6204000115394592
+        },
+        {
+          "id": "https://openalex.org/C2781251061",
+          "wikidata": "https://www.wikidata.org/wiki/Q5416089",
+          "display_name": "Evasion (ethics)",
+          "level": 3,
+          "score": 0.6169000267982483
+        },
+        {
+          "id": "https://openalex.org/C119857082",
+          "wikidata": "https://www.wikidata.org/wiki/Q2539",
+          "display_name": "Machine learning",
+          "level": 1,
+          "score": 0.5303999781608582
+        },
+        {
+          "id": "https://openalex.org/C105339364",
+          "wikidata": "https://www.wikidata.org/wiki/Q2297740",
+          "display_name": "Software deployment",
+          "level": 2,
+          "score": 0.5266000032424927
+        },
+        {
+          "id": "https://openalex.org/C63479239",
+          "wikidata": "https://www.wikidata.org/wiki/Q7353546",
+          "display_name": "Robustness (evolution)",
+          "level": 3,
+          "score": 0.5232999920845032
+        },
+        {
+          "id": "https://openalex.org/C35525427",
+          "wikidata": "https://www.wikidata.org/wiki/Q745881",
+          "display_name": "Intrusion detection system",
+          "level": 2,
+          "score": 0.47850000858306885
+        },
+        {
+          "id": "https://openalex.org/C167981075",
+          "wikidata": "https://www.wikidata.org/wiki/Q2667186",
+          "display_name": "Sandbox (software development)",
+          "level": 2,
+          "score": 0.46309998631477356
+        },
+        {
+          "id": "https://openalex.org/C2776214188",
+          "wikidata": "https://www.wikidata.org/wiki/Q408386",
+          "display_name": "Inference",
+          "level": 2,
+          "score": 0.44200000166893005
+        },
+        {
+          "id": "https://openalex.org/C140547941",
+          "wikidata": "https://www.wikidata.org/wiki/Q7797194",
+          "display_name": "Threat model",
+          "level": 2,
+          "score": 0.4187999963760376
+        },
+        {
+          "id": "https://openalex.org/C50644808",
+          "wikidata": "https://www.wikidata.org/wiki/Q192776",
+          "display_name": "Artificial neural network",
+          "level": 2,
+          "score": 0.38109999895095825
+        },
+        {
+          "id": "https://openalex.org/C2779267917",
+          "wikidata": "https://www.wikidata.org/wiki/Q170028",
+          "display_name": "Deception",
+          "level": 2,
+          "score": 0.3695000112056732
+        },
+        {
+          "id": "https://openalex.org/C108583219",
+          "wikidata": "https://www.wikidata.org/wiki/Q197536",
+          "display_name": "Deep learning",
+          "level": 2,
+          "score": 0.3589000105857849
+        },
+        {
+          "id": "https://openalex.org/C22735295",
+          "wikidata": "https://www.wikidata.org/wiki/Q317671",
+          "display_name": "Botnet",
+          "level": 3,
+          "score": 0.31610000133514404
+        },
+        {
+          "id": "https://openalex.org/C41065033",
+          "wikidata": "https://www.wikidata.org/wiki/Q2825412",
+          "display_name": "Adversary",
+          "level": 2,
+          "score": 0.310699999332428
+        },
+        {
+          "id": "https://openalex.org/C158251709",
+          "wikidata": "https://www.wikidata.org/wiki/Q354025",
+          "display_name": "Intrusion",
+          "level": 2,
+          "score": 0.3012000024318695
+        },
+        {
+          "id": "https://openalex.org/C43214815",
+          "wikidata": "https://www.wikidata.org/wiki/Q7310987",
+          "display_name": "Reliability (semiconductor)",
+          "level": 3,
+          "score": 0.2930000126361847
+        },
+        {
+          "id": "https://openalex.org/C2989133298",
+          "wikidata": "https://www.wikidata.org/wiki/Q94",
+          "display_name": "Android malware",
+          "level": 3,
+          "score": 0.2903999984264374
+        },
+        {
+          "id": "https://openalex.org/C2778464652",
+          "wikidata": "https://www.wikidata.org/wiki/Q309849",
+          "display_name": "Open research",
+          "level": 2,
+          "score": 0.2867000102996826
+        },
+        {
+          "id": "https://openalex.org/C59577422",
+          "wikidata": "https://www.wikidata.org/wiki/Q10265143",
+          "display_name": "False accusation",
+          "level": 2,
+          "score": 0.2775999903678894
+        },
+        {
+          "id": "https://openalex.org/C12267149",
+          "wikidata": "https://www.wikidata.org/wiki/Q282453",
+          "display_name": "Support vector machine",
+          "level": 2,
+          "score": 0.27399998903274536
+        },
+        {
+          "id": "https://openalex.org/C171769113",
+          "wikidata": "https://www.wikidata.org/wiki/Q849340",
+          "display_name": "Cyberwarfare",
+          "level": 2,
+          "score": 0.2718999981880188
+        },
+        {
+          "id": "https://openalex.org/C2984842247",
+          "wikidata": "https://www.wikidata.org/wiki/Q197536",
+          "display_name": "Deep neural networks",
+          "level": 3,
+          "score": 0.2624000012874603
+        },
+        {
+          "id": "https://openalex.org/C112930515",
+          "wikidata": "https://www.wikidata.org/wiki/Q4389547",
+          "display_name": "Risk analysis (engineering)",
+          "level": 1,
+          "score": 0.25690001249313354
+        },
+        {
+          "id": "https://openalex.org/C153180980",
+          "wikidata": "https://www.wikidata.org/wiki/Q19776675",
+          "display_name": "Commit",
+          "level": 2,
+          "score": 0.2563000023365021
+        }
+      ],
+      "mesh": [],
+      "locations_count": 1,
+      "locations": [
+        {
+          "id": "doi:10.54660/.jfmr.2020.1.2.31-45",
+          "doi": "https://doi.org/10.54660/.jfmr.2020.1.2.31-45",
+          "is_oa": true,
+          "landing_page_url": "https://doi.org/10.54660/.jfmr.2020.1.2.31-45",
+          "pdf_url": "https://www.multidisciplinaryfrontiers.com/uploads/archives/20250911162922_FMR-2025-2-097.1.pdf",
+          "source": {
+            "id": "https://openalex.org/S5407047521",
+            "display_name": "Journal of Frontiers in Multidisciplinary Research",
+            "issn_l": "3050-9718",
+            "issn": [
+              "3050-9718",
+              "3050-9726"
+            ],
+            "is_oa": false,
+            "is_in_doaj": false,
+            "is_core": false,
+            "listed_in": [],
+            "host_organization": null,
+            "host_organization_name": null,
+            "host_organization_lineage": [],
+            "host_organization_lineage_names": [],
+            "type": "journal"
+          },
+          "license": null,
+          "license_id": null,
+          "version": "publishedVersion",
+          "is_accepted": true,
+          "is_published": true,
+          "raw_source_name": "Journal of Frontiers in Multidisciplinary Research",
+          "raw_type": "journal-article"
+        }
+      ],
+      "best_oa_location": {
+        "id": "doi:10.54660/.jfmr.2020.1.2.31-45",
+        "doi": "https://doi.org/10.54660/.jfmr.2020.1.2.31-45",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.54660/.jfmr.2020.1.2.31-45",
+        "pdf_url": "https://www.multidisciplinaryfrontiers.com/uploads/archives/20250911162922_FMR-2025-2-097.1.pdf",
+        "source": {
+          "id": "https://openalex.org/S5407047521",
+          "display_name": "Journal of Frontiers in Multidisciplinary Research",
+          "issn_l": "3050-9718",
+          "issn": [
+            "3050-9718",
+            "3050-9726"
+          ],
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "listed_in": [],
+          "host_organization": null,
+          "host_organization_name": null,
+          "host_organization_lineage": [],
+          "host_organization_lineage_names": [],
+          "type": "journal"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Journal of Frontiers in Multidisciplinary Research",
+        "raw_type": "journal-article"
+      },
+      "sustainable_development_goals": [],
+      "study_designs": [],
+      "awards": [],
+      "funders": [],
+      "has_content": {
+        "grobid_xml": true,
+        "pdf": true
+      },
+      "content_urls": {
+        "pdf": "https://content.openalex.org/works/W4414128840.pdf",
+        "grobid_xml": "https://content.openalex.org/works/W4414128840.grobid-xml"
+      },
+      "referenced_works_count": 4,
+      "referenced_works": [
+        "https://openalex.org/W2944534303",
+        "https://openalex.org/W4406183026",
+        "https://openalex.org/W4411131373",
+        "https://openalex.org/W4411184586"
+      ],
+      "related_works": [
+        "https://openalex.org/W4410740862",
+        "https://openalex.org/W7214972749",
+        "https://openalex.org/W4411675549",
+        "https://openalex.org/W7166885394",
+        "https://openalex.org/W4405884420",
+        "https://openalex.org/W7131064626",
+        "https://openalex.org/W7160781927",
+        "https://openalex.org/W7129109341",
+        "https://openalex.org/W7172284034",
+        "https://openalex.org/W4417117401"
+      ],
+      "abstract_inverted_index": {
+        "Adversarial": [
+          0
+        ],
+        "Machine": [
+          1
+        ],
+        "Learning": [
+          2
+        ],
+        "(AML)": [
+          3
+        ],
+        "has": [
+          4
+        ],
+        "emerged": [
+          5
+        ],
+        "as": [
+          6,
+          144,
+          172,
+          174,
+          243
+        ],
+        "a": [
+          7,
+          65,
+          271
+        ],
+        "critical": [
+          8
+        ],
+        "concern": [
+          9
+        ],
+        "in": [
+          10,
+          14,
+          70,
+          141,
+          204,
+          226,
+          288
+        ],
+        "cybersecurity,": [
+          11
+        ],
+        "exposing": [
+          12
+        ],
+        "vulnerabilities": [
+          13
+        ],
+        "machine": [
+          15,
+          285
+        ],
+        "learning": [
+          16,
+          286
+        ],
+        "(ML)": [
+          17
+        ],
+        "models": [
+          18,
+          203
+        ],
+        "that": [
+          19,
+          274
+        ],
+        "are": [
+          20
+        ],
+        "increasingly": [
+          21
+        ],
+        "deployed": [
+          22
+        ],
+        "for": [
+          23,
+          218,
+          261,
+          270
+        ],
+        "threat": [
+          24
+        ],
+        "detection,": [
+          25,
+          146
+        ],
+        "intrusion": [
+          26,
+          151
+        ],
+        "prevention,": [
+          27
+        ],
+        "and": [
+          28,
+          56,
+          87,
+          108,
+          132,
+          149,
+          169,
+          180,
+          192,
+          212,
+          220,
+          238,
+          257,
+          280
+        ],
+        "malware": [
+          29,
+          145
+        ],
+        "classification.": [
+          30
+        ],
+        "By": [
+          31
+        ],
+        "crafting": [
+          32
+        ],
+        "adversarial": [
+          33,
+          79,
+          161,
+          262,
+          292
+        ],
+        "examples": [
+          34
+        ],
+        "carefully": [
+          35
+        ],
+        "perturbed": [
+          36
+        ],
+        "inputs": [
+          37
+        ],
+        "designed": [
+          38
+        ],
+        "to": [
+          39,
+          135,
+          223,
+          283
+        ],
+        "deceive": [
+          40
+        ],
+        "ML": [
+          41,
+          85,
+          202
+        ],
+        "algorithms": [
+          42
+        ],
+        "attackers": [
+          43
+        ],
+        "can": [
+          44
+        ],
+        "evade": [
+          45
+        ],
+        "detection": [
+          46
+        ],
+        "systems": [
+          47
+        ],
+        "or": [
+          48
+        ],
+        "trigger": [
+          49
+        ],
+        "false": [
+          50
+        ],
+        "alarms,": [
+          51
+        ],
+        "undermining": [
+          52
+        ],
+        "the": [
+          53,
+          71,
+          76,
+          114,
+          123,
+          186,
+          198,
+          216,
+          253,
+          267
+        ],
+        "integrity,": [
+          54
+        ],
+        "confidentiality,": [
+          55
+        ],
+        "availability": [
+          57
+        ],
+        "of": [
+          58,
+          68,
+          78,
+          116,
+          125,
+          200,
+          249
+        ],
+        "cyber": [
+          59
+        ],
+        "defense": [
+          60,
+          89,
+          158,
+          246
+        ],
+        "mechanisms.": [
+          61
+        ],
+        "This": [
+          62
+        ],
+        "paper": [
+          63,
+          231
+        ],
+        "provides": [
+          64
+        ],
+        "comprehensive": [
+          66
+        ],
+        "examination": [
+          67
+        ],
+        "AML": [
+          69,
+          250
+        ],
+        "cybersecurity": [
+          72,
+          255,
+          289
+        ],
+        "domain,": [
+          73
+        ],
+        "focusing": [
+          74
+        ],
+        "on": [
+          75,
+          83,
+          177
+        ],
+        "nature": [
+          77
+        ],
+        "threats,": [
+          80
+        ],
+        "their": [
+          81
+        ],
+        "impact": [
+          82
+        ],
+        "different": [
+          84
+        ],
+        "architectures,": [
+          86
+        ],
+        "state-of-the-art": [
+          88
+        ],
+        "strategies.": [
+          90
+        ],
+        "We": [
+          91,
+          208
+        ],
+        "explore": [
+          92
+        ],
+        "various": [
+          93
+        ],
+        "attack": [
+          94
+        ],
+        "vectors,": [
+          95
+        ],
+        "including": [
+          96,
+          215
+        ],
+        "evasion": [
+          97
+        ],
+        "attacks": [
+          98,
+          103
+        ],
+        "at": [
+          99
+        ],
+        "inference": [
+          100
+        ],
+        "time,": [
+          101
+        ],
+        "poisoning": [
+          102
+        ],
+        "during": [
+          104
+        ],
+        "training,": [
+          105,
+          162
+        ],
+        "model": [
+          106,
+          190
+        ],
+        "inversion,": [
+          107
+        ],
+        "membership": [
+          109
+        ],
+        "inference,": [
+          110
+        ],
+        "which": [
+          111,
+          195
+        ],
+        "collectively": [
+          112
+        ],
+        "threaten": [
+          113
+        ],
+        "reliability": [
+          115
+        ],
+        "security-critical": [
+          117
+        ],
+        "AI": [
+          118,
+          222
+        ],
+        "applications.": [
+          119
+        ],
+        "Case": [
+          120
+        ],
+        "studies": [
+          121
+        ],
+        "highlight": [
+          122
+        ],
+        "susceptibility": [
+          124
+        ],
+        "deep": [
+          126
+        ],
+        "neural": [
+          127
+        ],
+        "networks,": [
+          128
+        ],
+        "support": [
+          129
+        ],
+        "vector": [
+          130
+        ],
+        "machines,": [
+          131
+        ],
+        "ensemble": [
+          133,
+          170
+        ],
+        "methods": [
+          134
+        ],
+        "subtle": [
+          136
+        ],
+        "but": [
+          137
+        ],
+        "strategically": [
+          138
+        ],
+        "engineered": [
+          139
+        ],
+        "perturbations": [
+          140
+        ],
+        "domains": [
+          142
+        ],
+        "such": [
+          143,
+          242
+        ],
+        "spam": [
+          147
+        ],
+        "filtering,": [
+          148
+        ],
+        "network": [
+          150
+        ],
+        "detection.": [
+          152
+        ],
+        "In": [
+          153
+        ],
+        "response,": [
+          154
+        ],
+        "we": [
+          155,
+          184
+        ],
+        "review": [
+          156
+        ],
+        "robust": [
+          157,
+          201,
+          228
+        ],
+        "strategies": [
+          159
+        ],
+        "encompassing": [
+          160
+        ],
+        "gradient": [
+          163
+        ],
+        "masking,": [
+          164
+        ],
+        "input": [
+          165
+        ],
+        "transformation,": [
+          166
+        ],
+        "defensive": [
+          167
+        ],
+        "distillation,": [
+          168
+        ],
+        "defenses,": [
+          171
+        ],
+        "well": [
+          173
+        ],
+        "emerging": [
+          175
+        ],
+        "research": [
+          176,
+          236
+        ],
+        "certified": [
+          178
+        ],
+        "robustness": [
+          179
+        ],
+        "provable": [
+          181
+        ],
+        "guarantees.": [
+          182
+        ],
+        "Furthermore,": [
+          183
+        ],
+        "discuss": [
+          185
+        ],
+        "trade-offs": [
+          187
+        ],
+        "between": [
+          188
+        ],
+        "security,": [
+          189
+        ],
+        "performance,": [
+          191
+        ],
+        "computational": [
+          193
+        ],
+        "overhead,": [
+          194
+        ],
+        "often": [
+          196
+        ],
+        "complicate": [
+          197
+        ],
+        "deployment": [
+          199
+        ],
+        "large-scale,": [
+          205
+        ],
+        "real-time": [
+          206
+        ],
+        "environments.": [
+          207
+        ],
+        "also": [
+          209
+        ],
+        "examine": [
+          210
+        ],
+        "regulatory": [
+          211
+        ],
+        "ethical": [
+          213
+        ],
+        "considerations,": [
+          214
+        ],
+        "need": [
+          217,
+          269
+        ],
+        "transparent": [
+          219
+        ],
+        "explainable": [
+          221
+        ],
+        "foster": [
+          224
+        ],
+        "trust": [
+          225
+        ],
+        "adversarially": [
+          227
+        ],
+        "systems.": [
+          229
+        ],
+        "The": [
+          230
+        ],
+        "concludes": [
+          232
+        ],
+        "by": [
+          233
+        ],
+        "identifying": [
+          234
+        ],
+        "open": [
+          235
+        ],
+        "challenges": [
+          237
+        ],
+        "proposing": [
+          239
+        ],
+        "future": [
+          240
+        ],
+        "directions,": [
+          241
+        ],
+        "hybrid": [
+          244
+        ],
+        "human–AI": [
+          245
+        ],
+        "frameworks,": [
+          247
+        ],
+        "integration": [
+          248
+        ],
+        "defenses": [
+          251
+        ],
+        "into": [
+          252
+        ],
+        "broader": [
+          254
+        ],
+        "ecosystem,": [
+          256
+        ],
+        "standardized": [
+          258
+        ],
+        "evaluation": [
+          259
+        ],
+        "benchmarks": [
+          260
+        ],
+        "resilience.": [
+          263
+        ],
+        "Our": [
+          264
+        ],
+        "findings": [
+          265
+        ],
+        "underscore": [
+          266
+        ],
+        "urgent": [
+          268
+        ],
+        "multidisciplinary": [
+          272
+        ],
+        "approach": [
+          273
+        ],
+        "combines": [
+          275
+        ],
+        "technical": [
+          276
+        ],
+        "innovation,": [
+          277
+        ],
+        "policy": [
+          278
+        ],
+        "development,": [
+          279
+        ],
+        "continuous": [
+          281
+        ],
+        "monitoring": [
+          282
+        ],
+        "safeguard": [
+          284
+        ],
+        "applications": [
+          287
+        ],
+        "against": [
+          290
+        ],
+        "evolving": [
+          291
+        ],
+        "threats.": [
+          293
+        ]
+      },
+      "counts_by_year": [
+        {
+          "year": 2026,
+          "cited_by_count": 7
+        },
+        {
+          "year": 2025,
+          "cited_by_count": 4
+        },
+        {
+          "year": 2024,
+          "cited_by_count": 4
+        },
+        {
+          "year": 2023,
+          "cited_by_count": 7
+        },
+        {
+          "year": 2022,
+          "cited_by_count": 9
+        },
+        {
+          "year": 2021,
+          "cited_by_count": 4
+        },
+        {
+          "year": 2020,
+          "cited_by_count": 24
+        }
+      ],
+      "updated_date": "2026-11-04T10:54:05.112534",
+      "created_date": "2025-10-10T00:00:00"
+    },
+    {
+      "id": "https://openalex.org/W3170571736",
+      "doi": "https://doi.org/10.51593/2020ca004",
+      "title": "Machine Learning and Cybersecurity: Hype and Reality",
+      "display_name": "Machine Learning and Cybersecurity: Hype and Reality",
+      "relevance_score": 58.49767,
+      "publication_year": 2021,
+      "publication_date": "2021-06-01",
+      "ids": {
+        "openalex": "https://openalex.org/W3170571736",
+        "doi": "https://doi.org/10.51593/2020ca004",
+        "mag": "3170571736"
+      },
+      "language": "en",
+      "primary_location": {
+        "id": "doi:10.51593/2020ca004",
+        "doi": "https://doi.org/10.51593/2020ca004",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.51593/2020ca004",
+        "pdf_url": "https://cset.georgetown.edu/wp-content/uploads/Machine-Learning-and-Cybersecurity.pdf",
+        "source": null,
+        "license": "cc-by-nc",
+        "license_id": "https://openalex.org/licenses/cc-by-nc",
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Center for Security and Emerging Technology",
+        "raw_type": "report"
+      },
+      "parent_works": [],
+      "lineage": [
+        "https://openalex.org/W3170571736"
+      ],
+      "child_works_count": 0,
+      "type": "report",
+      "is_traditional": false,
+      "indexed_in": [
+        "crossref"
+      ],
+      "open_access": {
+        "is_oa": true,
+        "oa_status": "gold",
+        "oa_url": "https://cset.georgetown.edu/wp-content/uploads/Machine-Learning-and-Cybersecurity.pdf",
+        "any_repository_has_fulltext": null
+      },
+      "authorships": [
+        {
+          "author_position": "first",
+          "author": {
+            "id": "https://openalex.org/A5001439307",
+            "display_name": "Micah Musser",
+            "orcid": "https://orcid.org/0000-0002-5154-8135",
+            "observed_orcids": [
+              "https://orcid.org/0000-0002-5154-8135"
+            ]
+          },
+          "institutions": [],
+          "countries": [],
+          "is_corresponding": false,
+          "raw_author_name": "Micah Musser",
+          "raw_affiliation_strings": [
+            "HYPE AND REALITY"
+          ],
+          "raw_orcid": "https://orcid.org/0000-0002-5154-8135",
+          "affiliations": [
+            {
+              "raw_affiliation_string": "HYPE AND REALITY",
+              "institution_ids": []
+            }
+          ]
+        },
+        {
+          "author_position": "last",
+          "author": {
+            "id": "https://openalex.org/A5087696933",
+            "display_name": "Ashton Garriott",
+            "orcid": null,
+            "observed_orcids": []
+          },
+          "institutions": [],
+          "countries": [],
+          "is_corresponding": false,
+          "raw_author_name": "Ashton Garriott",
+          "raw_affiliation_strings": [
+            "HYPE AND REALITY"
+          ],
+          "raw_orcid": null,
+          "affiliations": [
+            {
+              "raw_affiliation_string": "HYPE AND REALITY",
+              "institution_ids": []
+            }
+          ]
+        }
+      ],
+      "institutions": [],
+      "countries_distinct_count": 0,
+      "institutions_distinct_count": 0,
+      "corresponding_author_ids": [],
+      "corresponding_institution_ids": [],
+      "apc_list": null,
+      "apc_paid": null,
+      "fwci": null,
+      "is_authors_truncated": false,
+      "has_fulltext": true,
+      "cited_by_count": 20,
+      "citation_normalized_percentile": null,
+      "cited_by_percentile_year": null,
+      "biblio": {
+        "volume": null,
+        "issue": null,
+        "first_page": null,
+        "last_page": null
+      },
+      "is_retracted": false,
+      "is_paratext": false,
+      "is_xpac": false,
+      "primary_topic": {
+        "id": "https://openalex.org/T10400",
+        "display_name": "Network Security and Intrusion Detection",
+        "score": 0.9150000214576721,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1705",
+          "display_name": "Computer Networks and Communications"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      "topics": [
+        {
+          "id": "https://openalex.org/T10400",
+          "display_name": "Network Security and Intrusion Detection",
+          "score": 0.9150000214576721,
+          "subfield": {
+            "id": "https://openalex.org/subfields/1705",
+            "display_name": "Computer Networks and Communications"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/17",
+            "display_name": "Computer Science"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T11689",
+          "display_name": "Adversarial Robustness in Machine Learning",
+          "score": 0.02810000069439411,
+          "subfield": {
+            "id": "https://openalex.org/subfields/1702",
+            "display_name": "Artificial Intelligence"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/17",
+            "display_name": "Computer Science"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T10734",
+          "display_name": "Information and Cyber Security",
+          "score": 0.023499999195337296,
+          "subfield": {
+            "id": "https://openalex.org/subfields/1710",
+            "display_name": "Information Systems"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/17",
+            "display_name": "Computer Science"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        }
+      ],
+      "keywords": [
+        {
+          "id": "https://openalex.org/keywords/machine-learning",
+          "display_name": "machine learning",
+          "score": 0.796999990940094
+        },
+        {
+          "id": "https://openalex.org/keywords/cybersecurity",
+          "display_name": "cybersecurity",
+          "score": 0.9950000047683716
+        },
+        {
+          "id": "https://openalex.org/keywords/cyber-defense",
+          "display_name": "cyber defense",
+          "score": 0.9750000238418579
+        },
+        {
+          "id": "https://openalex.org/keywords/threat-detection",
+          "display_name": "threat detection",
+          "score": 0.8960000276565552
+        },
+        {
+          "id": "https://openalex.org/keywords/history-of-machine-learning",
+          "display_name": "history of machine learning",
+          "score": 0.7350000143051147
+        }
+      ],
+      "concepts": [
+        {
+          "id": "https://openalex.org/C2777526511",
+          "wikidata": "https://www.wikidata.org/wiki/Q691543",
+          "display_name": "Pace",
+          "level": 2,
+          "score": 0.836588442325592
+        },
+        {
+          "id": "https://openalex.org/C38652104",
+          "wikidata": "https://www.wikidata.org/wiki/Q3510521",
+          "display_name": "Computer security",
+          "level": 1,
+          "score": 0.7452101111412048
+        },
+        {
+          "id": "https://openalex.org/C41008148",
+          "wikidata": "https://www.wikidata.org/wiki/Q21198",
+          "display_name": "Computer science",
+          "level": 0,
+          "score": 0.5998551249504089
+        },
+        {
+          "id": "https://openalex.org/C108827166",
+          "wikidata": "https://www.wikidata.org/wiki/Q175975",
+          "display_name": "Internet privacy",
+          "level": 1,
+          "score": 0.3491976261138916
+        },
+        {
+          "id": "https://openalex.org/C13280743",
+          "wikidata": "https://www.wikidata.org/wiki/Q131089",
+          "display_name": "Geodesy",
+          "level": 1,
+          "score": 0.0
+        },
+        {
+          "id": "https://openalex.org/C205649164",
+          "wikidata": "https://www.wikidata.org/wiki/Q1071",
+          "display_name": "Geography",
+          "level": 0,
+          "score": 0.0
+        }
+      ],
+      "mesh": [],
+      "locations_count": 1,
+      "locations": [
+        {
+          "id": "doi:10.51593/2020ca004",
+          "doi": "https://doi.org/10.51593/2020ca004",
+          "is_oa": true,
+          "landing_page_url": "https://doi.org/10.51593/2020ca004",
+          "pdf_url": "https://cset.georgetown.edu/wp-content/uploads/Machine-Learning-and-Cybersecurity.pdf",
+          "source": null,
+          "license": "cc-by-nc",
+          "license_id": "https://openalex.org/licenses/cc-by-nc",
+          "version": "publishedVersion",
+          "is_accepted": true,
+          "is_published": true,
+          "raw_source_name": "Center for Security and Emerging Technology",
+          "raw_type": "report"
+        }
+      ],
+      "best_oa_location": {
+        "id": "doi:10.51593/2020ca004",
+        "doi": "https://doi.org/10.51593/2020ca004",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.51593/2020ca004",
+        "pdf_url": "https://cset.georgetown.edu/wp-content/uploads/Machine-Learning-and-Cybersecurity.pdf",
+        "source": null,
+        "license": "cc-by-nc",
+        "license_id": "https://openalex.org/licenses/cc-by-nc",
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Center for Security and Emerging Technology",
+        "raw_type": "report"
+      },
+      "sustainable_development_goals": [],
+      "study_designs": [],
+      "awards": [],
+      "funders": [],
+      "has_content": {
+        "grobid_xml": true,
+        "pdf": true
+      },
+      "content_urls": {
+        "pdf": "https://content.openalex.org/works/W3170571736.pdf",
+        "grobid_xml": "https://content.openalex.org/works/W3170571736.grobid-xml"
+      },
+      "referenced_works_count": 59,
+      "referenced_works": [
+        "https://openalex.org/W1542744732",
+        "https://openalex.org/W1996350342",
+        "https://openalex.org/W1999427165",
+        "https://openalex.org/W2082135129",
+        "https://openalex.org/W2085533912",
+        "https://openalex.org/W2130613448",
+        "https://openalex.org/W2144083192",
+        "https://openalex.org/W2494800716",
+        "https://openalex.org/W2599320555",
+        "https://openalex.org/W2619374218",
+        "https://openalex.org/W2741608233",
+        "https://openalex.org/W2769267310",
+        "https://openalex.org/W2769748476",
+        "https://openalex.org/W2771090858",
+        "https://openalex.org/W2783390333",
+        "https://openalex.org/W2783786976",
+        "https://openalex.org/W2794748563",
+        "https://openalex.org/W2795212651",
+        "https://openalex.org/W2803634114",
+        "https://openalex.org/W2803881474",
+        "https://openalex.org/W2804769055",
+        "https://openalex.org/W2889836475",
+        "https://openalex.org/W2894102733",
+        "https://openalex.org/W2897256107",
+        "https://openalex.org/W2900587877",
+        "https://openalex.org/W2914662937",
+        "https://openalex.org/W2918664583",
+        "https://openalex.org/W2924355039",
+        "https://openalex.org/W2940243450",
+        "https://openalex.org/W2945365276",
+        "https://openalex.org/W2949836779",
+        "https://openalex.org/W2952298682",
+        "https://openalex.org/W2963391384",
+        "https://openalex.org/W2965469092",
+        "https://openalex.org/W2965855246",
+        "https://openalex.org/W2967263059",
+        "https://openalex.org/W2986844069",
+        "https://openalex.org/W2990954041",
+        "https://openalex.org/W2992542352",
+        "https://openalex.org/W2995988246",
+        "https://openalex.org/W2996806689",
+        "https://openalex.org/W3007305010",
+        "https://openalex.org/W3008285109",
+        "https://openalex.org/W3017860180",
+        "https://openalex.org/W3030336008",
+        "https://openalex.org/W3072699177",
+        "https://openalex.org/W3072838776",
+        "https://openalex.org/W3084558590",
+        "https://openalex.org/W3121654254",
+        "https://openalex.org/W3124065380",
+        "https://openalex.org/W3127244077",
+        "https://openalex.org/W3139158824",
+        "https://openalex.org/W3142124075",
+        "https://openalex.org/W3168514234",
+        "https://openalex.org/W3200035577",
+        "https://openalex.org/W4231530641",
+        "https://openalex.org/W4318312487",
+        "https://openalex.org/W4320147968",
+        "https://openalex.org/W4378175604"
+      ],
+      "related_works": [
+        "https://openalex.org/W4283313119",
+        "https://openalex.org/W3093469966",
+        "https://openalex.org/W7103148657",
+        "https://openalex.org/W4309578996",
+        "https://openalex.org/W4390597360",
+        "https://openalex.org/W4415932728",
+        "https://openalex.org/W7125386328",
+        "https://openalex.org/W6959812789",
+        "https://openalex.org/W3121344271",
+        "https://openalex.org/W4393665939"
+      ],
+      "abstract_inverted_index": {
+        "Cybersecurity": [
+          0
+        ],
+        "operators": [
+          1
+        ],
+        "have": [
+          2
+        ],
+        "increasingly": [
+          3
+        ],
+        "relied": [
+          4
+        ],
+        "on": [
+          5
+        ],
+        "machine": [
+          6,
+          17,
+          38
+        ],
+        "learning": [
+          7,
+          18,
+          39
+        ],
+        "to": [
+          8
+        ],
+        "address": [
+          9
+        ],
+        "a": [
+          10,
+          21
+        ],
+        "rising": [
+          11
+        ],
+        "number": [
+          12
+        ],
+        "of": [
+          13,
+          37
+        ],
+        "threats.": [
+          14
+        ],
+        "But": [
+          15
+        ],
+        "will": [
+          16
+        ],
+        "give": [
+          19
+        ],
+        "them": [
+          20,
+          27
+        ],
+        "decisive": [
+          22
+        ],
+        "advantage": [
+          23
+        ],
+        "or": [
+          24
+        ],
+        "just": [
+          25
+        ],
+        "help": [
+          26
+        ],
+        "keep": [
+          28
+        ],
+        "pace": [
+          29
+        ],
+        "with": [
+          30
+        ],
+        "attackers?": [
+          31
+        ],
+        "This": [
+          32
+        ],
+        "report": [
+          33
+        ],
+        "explores": [
+          34
+        ],
+        "the": [
+          35,
+          43,
+          52
+        ],
+        "history": [
+          36
+        ],
+        "in": [
+          40,
+          51
+        ],
+        "cybersecurity": [
+          41
+        ],
+        "and": [
+          42
+        ],
+        "potential": [
+          44
+        ],
+        "it": [
+          45
+        ],
+        "has": [
+          46
+        ],
+        "for": [
+          47
+        ],
+        "transforming": [
+          48
+        ],
+        "cyber": [
+          49
+        ],
+        "defense": [
+          50
+        ],
+        "near": [
+          53
+        ],
+        "future.": [
+          54
+        ]
+      },
+      "counts_by_year": [
+        {
+          "year": 2026,
+          "cited_by_count": 1
+        },
+        {
+          "year": 2025,
+          "cited_by_count": 3
+        },
+        {
+          "year": 2024,
+          "cited_by_count": 2
+        },
+        {
+          "year": 2023,
+          "cited_by_count": 7
+        },
+        {
+          "year": 2022,
+          "cited_by_count": 5
+        },
+        {
+          "year": 2021,
+          "cited_by_count": 2
+        }
+      ],
+      "updated_date": "2026-11-10T11:39:43.021295",
+      "created_date": "2021-06-22T00:00:00"
+    }
+  ],
+  "group_by": []
+}

@@ -1,0 +1,4240 @@
+{
+  "meta": {
+    "notice": "No API key, so this request shares one free daily budget ($0.10) with everyone on your network's IP address. Get a free key with its own $1/day at https://openalex.org/settings/api and add api_key=YOUR_KEY to your requests. An AI agent can get one for its user in one call: POST https://api.openalex.org/api-keys with {\"email\": \"<your user's email>\"}; we email them a link, and the key works once they click it. Docs for agents: https://help.openalex.org/llms.txt",
+    "count": 90215,
+    "db_response_time_ms": 155,
+    "page": 1,
+    "per_page": 5,
+    "groups_count": null,
+    "x_query": {
+      "oql": "get works with (ANDROID DEVELOPER) in the title, abstract, or full text",
+      "x_new_oql": "get works with (ANDROID DEVELOPER) in the title, abstract, or full text",
+      "oqo": {
+        "get_rows": "works",
+        "filter_rows": [
+          {
+            "column_id": "fulltext.search",
+            "value": "ANDROID DEVELOPER",
+            "operator": "has"
+          }
+        ]
+      },
+      "url": "/works?filter=fulltext.search:ANDROID DEVELOPER&per_page=5",
+      "order": "best matches first",
+      "order_default": true
+    },
+    "cost_usd": 0.001
+  },
+  "results": [
+    {
+      "id": "https://openalex.org/W2766347289",
+      "doi": "https://doi.org/10.1145/3133956.3133977",
+      "title": "A Stitch in Time: Supporting Android Developers in WritingSecure Code",
+      "display_name": "A Stitch in Time: Supporting Android Developers in WritingSecure Code",
+      "relevance_score": 177.09688,
+      "publication_year": 2017,
+      "publication_date": "2017-10-27",
+      "ids": {
+        "openalex": "https://openalex.org/W2766347289",
+        "doi": "https://doi.org/10.1145/3133956.3133977",
+        "mag": "2766347289"
+      },
+      "language": "en",
+      "primary_location": {
+        "id": "doi:10.1145/3133956.3133977",
+        "doi": "https://doi.org/10.1145/3133956.3133977",
+        "is_oa": false,
+        "landing_page_url": "https://doi.org/10.1145/3133956.3133977",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4393917527",
+          "display_name": "ACM SIGSAC Conference on Computer and Communications Security (CCS)",
+          "issn_l": "1543-7221",
+          "issn": [
+            "1543-7221"
+          ],
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "listed_in": [
+            "norway-1"
+          ],
+          "host_organization": "https://openalex.org/P4310319798",
+          "host_organization_name": "Association for Computing Machinery",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310319798"
+          ],
+          "host_organization_lineage_names": [
+            "Association for Computing Machinery"
+          ],
+          "type": "conference"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Proceedings of the 2017 ACM SIGSAC Conference on Computer and Communications Security",
+        "raw_type": "proceedings-article"
+      },
+      "parent_works": [],
+      "lineage": [
+        "https://openalex.org/W2766347289"
+      ],
+      "child_works_count": 0,
+      "type": "conference-paper",
+      "is_traditional": true,
+      "indexed_in": [
+        "crossref"
+      ],
+      "open_access": {
+        "is_oa": true,
+        "oa_status": "green",
+        "oa_url": "https://eprints.lancs.ac.uk/id/eprint/88075/1/CCS_FixDroid_CR.pdf",
+        "any_repository_has_fulltext": true
+      },
+      "authorships": [
+        {
+          "author_position": "first",
+          "author": {
+            "id": "https://openalex.org/A5049603742",
+            "display_name": "Duc Cuong Nguyen",
+            "orcid": "https://orcid.org/0000-0001-8128-2174",
+            "observed_orcids": [
+              "https://orcid.org/0000-0001-8128-2174"
+            ]
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I91712215",
+              "display_name": "Saarland University",
+              "ror": "https://ror.org/01jdpyv68",
+              "country_code": "DE",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I91712215"
+              ]
+            }
+          ],
+          "countries": [
+            "DE"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "Duc Cuong Nguyen",
+          "raw_affiliation_strings": [
+            "Saarland University, Saarbrücken, Germany"
+          ],
+          "raw_orcid": null,
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Saarland University, Saarbrücken, Germany",
+              "institution_ids": [
+                "https://openalex.org/I91712215"
+              ]
+            }
+          ]
+        },
+        {
+          "author_position": "middle",
+          "author": {
+            "id": "https://openalex.org/A5004650891",
+            "display_name": "Dominik Wermke",
+            "orcid": "https://orcid.org/0009-0008-2921-1254",
+            "observed_orcids": [
+              "https://orcid.org/0009-0008-2921-1254"
+            ]
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I114112103",
+              "display_name": "Leibniz University Hannover",
+              "ror": "https://ror.org/0304hq317",
+              "country_code": "DE",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I114112103"
+              ]
+            }
+          ],
+          "countries": [
+            "DE"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "Dominik Wermke",
+          "raw_affiliation_strings": [
+            "Leibniz University, Hannover, Hannover, Germany"
+          ],
+          "raw_orcid": null,
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Leibniz University, Hannover, Hannover, Germany",
+              "institution_ids": [
+                "https://openalex.org/I114112103"
+              ]
+            }
+          ]
+        },
+        {
+          "author_position": "middle",
+          "author": {
+            "id": "https://openalex.org/A5074668699",
+            "display_name": "Yasemin Acar",
+            "orcid": "https://orcid.org/0000-0001-7167-7383",
+            "observed_orcids": [
+              "https://orcid.org/0000-0001-7167-7383"
+            ]
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I114112103",
+              "display_name": "Leibniz University Hannover",
+              "ror": "https://ror.org/0304hq317",
+              "country_code": "DE",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I114112103"
+              ]
+            }
+          ],
+          "countries": [
+            "DE"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "Yasemin Acar",
+          "raw_affiliation_strings": [
+            "Leibniz University, Hannover, Hannover, Germany"
+          ],
+          "raw_orcid": null,
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Leibniz University, Hannover, Hannover, Germany",
+              "institution_ids": [
+                "https://openalex.org/I114112103"
+              ]
+            }
+          ]
+        },
+        {
+          "author_position": "middle",
+          "author": {
+            "id": "https://openalex.org/A5004014878",
+            "display_name": "Michael Backes A",
+            "orcid": "https://orcid.org/0000-0002-9326-6400",
+            "observed_orcids": [
+              "https://orcid.org/0000-0002-9326-6400",
+              "https://orcid.org/0000-0002-7130-9211"
+            ]
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I91712215",
+              "display_name": "Saarland University",
+              "ror": "https://ror.org/01jdpyv68",
+              "country_code": "DE",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I91712215"
+              ]
+            }
+          ],
+          "countries": [
+            "DE"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "Michael Backes",
+          "raw_affiliation_strings": [
+            "Saarland University, Saarbrücken, Germany"
+          ],
+          "raw_orcid": null,
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Saarland University, Saarbrücken, Germany",
+              "institution_ids": [
+                "https://openalex.org/I91712215"
+              ]
+            }
+          ]
+        },
+        {
+          "author_position": "middle",
+          "author": {
+            "id": "https://openalex.org/A5087444510",
+            "display_name": "Charles Weir",
+            "orcid": "https://orcid.org/0000-0003-3051-4195",
+            "observed_orcids": [
+              "https://orcid.org/0000-0003-3051-4195"
+            ]
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I67415387",
+              "display_name": "Lancaster University",
+              "ror": "https://ror.org/04f2nsd36",
+              "country_code": "GB",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I67415387"
+              ]
+            }
+          ],
+          "countries": [
+            "GB"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "Charles Weir",
+          "raw_affiliation_strings": [
+            "Lancaster University, Lancaster, Germany"
+          ],
+          "raw_orcid": null,
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Lancaster University, Lancaster, Germany",
+              "institution_ids": [
+                "https://openalex.org/I67415387"
+              ]
+            }
+          ]
+        },
+        {
+          "author_position": "last",
+          "author": {
+            "id": "https://openalex.org/A5087356408",
+            "display_name": "Sascha Fahl",
+            "orcid": "https://orcid.org/0000-0002-5644-3316",
+            "observed_orcids": [
+              "https://orcid.org/0000-0002-5644-3316"
+            ]
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I114112103",
+              "display_name": "Leibniz University Hannover",
+              "ror": "https://ror.org/0304hq317",
+              "country_code": "DE",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I114112103"
+              ]
+            }
+          ],
+          "countries": [
+            "DE"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "Sascha Fahl",
+          "raw_affiliation_strings": [
+            "Leibniz University, Hannover, Hannover, Germany"
+          ],
+          "raw_orcid": null,
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Leibniz University, Hannover, Hannover, Germany",
+              "institution_ids": [
+                "https://openalex.org/I114112103"
+              ]
+            }
+          ]
+        }
+      ],
+      "institutions": [],
+      "countries_distinct_count": 2,
+      "institutions_distinct_count": 3,
+      "corresponding_author_ids": [],
+      "corresponding_institution_ids": [],
+      "apc_list": null,
+      "apc_paid": null,
+      "fwci": 7.6403,
+      "is_authors_truncated": false,
+      "has_fulltext": true,
+      "cited_by_count": 101,
+      "citation_normalized_percentile": {
+        "value": 0.98398001,
+        "is_in_top_1_percent": false,
+        "is_in_top_10_percent": true
+      },
+      "cited_by_percentile_year": {
+        "min": 95,
+        "max": 100
+      },
+      "biblio": {
+        "volume": null,
+        "issue": null,
+        "first_page": "1065",
+        "last_page": "1077"
+      },
+      "is_retracted": false,
+      "is_paratext": false,
+      "is_xpac": false,
+      "primary_topic": {
+        "id": "https://openalex.org/T11424",
+        "display_name": "Security and Verification in Computing",
+        "score": 0.4643999934196472,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1708",
+          "display_name": "Hardware and Architecture"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      "topics": [
+        {
+          "id": "https://openalex.org/T11424",
+          "display_name": "Security and Verification in Computing",
+          "score": 0.4643999934196472,
+          "subfield": {
+            "id": "https://openalex.org/subfields/1708",
+            "display_name": "Hardware and Architecture"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/17",
+            "display_name": "Computer Science"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T12479",
+          "display_name": "Web Application Security Vulnerabilities",
+          "score": 0.3662000000476837,
+          "subfield": {
+            "id": "https://openalex.org/subfields/1710",
+            "display_name": "Information Systems"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/17",
+            "display_name": "Computer Science"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T11241",
+          "display_name": "Advanced Malware Detection Techniques",
+          "score": 0.1151999980211258,
+          "subfield": {
+            "id": "https://openalex.org/subfields/1712",
+            "display_name": "Software"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/17",
+            "display_name": "Computer Science"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        }
+      ],
+      "keywords": [
+        {
+          "id": "https://openalex.org/keywords/android-application-security",
+          "display_name": "Android application security",
+          "score": 0.718999981880188
+        },
+        {
+          "id": "https://openalex.org/keywords/secure-coding",
+          "display_name": "secure coding",
+          "score": 0.8870000243186951
+        },
+        {
+          "id": "https://openalex.org/keywords/security-vulnerabilities",
+          "display_name": "security vulnerabilities",
+          "score": 0.5640000104904175
+        },
+        {
+          "id": "https://openalex.org/keywords/mobile-application-development",
+          "display_name": "mobile application development",
+          "score": 0.5220000147819519
+        },
+        {
+          "id": "https://openalex.org/keywords/security-education",
+          "display_name": "security education",
+          "score": 0.527999997138977
+        }
+      ],
+      "concepts": [
+        {
+          "id": "https://openalex.org/C557433098",
+          "wikidata": "https://www.wikidata.org/wiki/Q94",
+          "display_name": "Android (operating system)",
+          "level": 2,
+          "score": 0.7886943221092224
+        },
+        {
+          "id": "https://openalex.org/C165696696",
+          "wikidata": "https://www.wikidata.org/wiki/Q11287",
+          "display_name": "Exploit",
+          "level": 2,
+          "score": 0.7591288089752197
+        },
+        {
+          "id": "https://openalex.org/C56666940",
+          "wikidata": "https://www.wikidata.org/wiki/Q788790",
+          "display_name": "Documentation",
+          "level": 2,
+          "score": 0.6742953658103943
+        },
+        {
+          "id": "https://openalex.org/C41008148",
+          "wikidata": "https://www.wikidata.org/wiki/Q21198",
+          "display_name": "Computer science",
+          "level": 0,
+          "score": 0.6701806783676147
+        },
+        {
+          "id": "https://openalex.org/C38652104",
+          "wikidata": "https://www.wikidata.org/wiki/Q3510521",
+          "display_name": "Computer security",
+          "level": 1,
+          "score": 0.6019455194473267
+        },
+        {
+          "id": "https://openalex.org/C22680326",
+          "wikidata": "https://www.wikidata.org/wiki/Q7444867",
+          "display_name": "Secure coding",
+          "level": 5,
+          "score": 0.5608486533164978
+        },
+        {
+          "id": "https://openalex.org/C77109596",
+          "wikidata": "https://www.wikidata.org/wiki/Q4781497",
+          "display_name": "Application security",
+          "level": 5,
+          "score": 0.47087132930755615
+        },
+        {
+          "id": "https://openalex.org/C4924752",
+          "wikidata": "https://www.wikidata.org/wiki/Q184148",
+          "display_name": "Plug-in",
+          "level": 2,
+          "score": 0.4665664732456207
+        },
+        {
+          "id": "https://openalex.org/C3017891749",
+          "wikidata": "https://www.wikidata.org/wiki/Q94",
+          "display_name": "Android application",
+          "level": 3,
+          "score": 0.43325281143188477
+        },
+        {
+          "id": "https://openalex.org/C108827166",
+          "wikidata": "https://www.wikidata.org/wiki/Q175975",
+          "display_name": "Internet privacy",
+          "level": 1,
+          "score": 0.3564643859863281
+        },
+        {
+          "id": "https://openalex.org/C62913178",
+          "wikidata": "https://www.wikidata.org/wiki/Q7554361",
+          "display_name": "Software security assurance",
+          "level": 4,
+          "score": 0.34497296810150146
+        },
+        {
+          "id": "https://openalex.org/C527648132",
+          "wikidata": "https://www.wikidata.org/wiki/Q189900",
+          "display_name": "Information security",
+          "level": 2,
+          "score": 0.31815487146377563
+        },
+        {
+          "id": "https://openalex.org/C29983905",
+          "wikidata": "https://www.wikidata.org/wiki/Q7445066",
+          "display_name": "Security service",
+          "level": 3,
+          "score": 0.20734557509422302
+        },
+        {
+          "id": "https://openalex.org/C111919701",
+          "wikidata": "https://www.wikidata.org/wiki/Q9135",
+          "display_name": "Operating system",
+          "level": 1,
+          "score": 0.11196699738502502
+        }
+      ],
+      "mesh": [],
+      "locations_count": 2,
+      "locations": [
+        {
+          "id": "doi:10.1145/3133956.3133977",
+          "doi": "https://doi.org/10.1145/3133956.3133977",
+          "is_oa": false,
+          "landing_page_url": "https://doi.org/10.1145/3133956.3133977",
+          "pdf_url": null,
+          "source": {
+            "id": "https://openalex.org/S4393917527",
+            "display_name": "ACM SIGSAC Conference on Computer and Communications Security (CCS)",
+            "issn_l": "1543-7221",
+            "issn": [
+              "1543-7221"
+            ],
+            "is_oa": false,
+            "is_in_doaj": false,
+            "is_core": false,
+            "listed_in": [
+              "norway-1"
+            ],
+            "host_organization": "https://openalex.org/P4310319798",
+            "host_organization_name": "Association for Computing Machinery",
+            "host_organization_lineage": [
+              "https://openalex.org/P4310319798"
+            ],
+            "host_organization_lineage_names": [
+              "Association for Computing Machinery"
+            ],
+            "type": "conference"
+          },
+          "license": null,
+          "license_id": null,
+          "version": "publishedVersion",
+          "is_accepted": true,
+          "is_published": true,
+          "raw_source_name": "Proceedings of the 2017 ACM SIGSAC Conference on Computer and Communications Security",
+          "raw_type": "proceedings-article"
+        },
+        {
+          "id": "pmh:oai:eprints.lancs.ac.uk:88075",
+          "doi": null,
+          "is_oa": true,
+          "landing_page_url": "https://eprints.lancs.ac.uk/id/eprint/88075/1/CCS_FixDroid_CR.pdf",
+          "pdf_url": "https://eprints.lancs.ac.uk/id/eprint/88075/1/CCS_FixDroid_CR.pdf",
+          "source": {
+            "id": "https://openalex.org/S4306401916",
+            "display_name": "Lancaster EPrints (Lancaster University)",
+            "issn_l": null,
+            "issn": null,
+            "is_oa": false,
+            "is_in_doaj": false,
+            "is_core": false,
+            "listed_in": [],
+            "host_organization": "https://openalex.org/I67415387",
+            "host_organization_name": "Lancaster University",
+            "host_organization_lineage": [
+              "https://openalex.org/I67415387"
+            ],
+            "host_organization_lineage_names": [],
+            "type": "repository"
+          },
+          "license": null,
+          "license_id": null,
+          "version": "submittedVersion",
+          "is_accepted": false,
+          "is_published": false,
+          "raw_source_name": null,
+          "raw_type": "Contribution in Book/Report/Proceedings"
+        }
+      ],
+      "best_oa_location": {
+        "id": "pmh:oai:eprints.lancs.ac.uk:88075",
+        "doi": null,
+        "is_oa": true,
+        "landing_page_url": "https://eprints.lancs.ac.uk/id/eprint/88075/1/CCS_FixDroid_CR.pdf",
+        "pdf_url": "https://eprints.lancs.ac.uk/id/eprint/88075/1/CCS_FixDroid_CR.pdf",
+        "source": {
+          "id": "https://openalex.org/S4306401916",
+          "display_name": "Lancaster EPrints (Lancaster University)",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "listed_in": [],
+          "host_organization": "https://openalex.org/I67415387",
+          "host_organization_name": "Lancaster University",
+          "host_organization_lineage": [
+            "https://openalex.org/I67415387"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "submittedVersion",
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": null,
+        "raw_type": "Contribution in Book/Report/Proceedings"
+      },
+      "sustainable_development_goals": [],
+      "study_designs": [],
+      "awards": [
+        {
+          "id": "https://openalex.org/G2780106881",
+          "display_name": null,
+          "funder_award_id": "FKZ: 16KIS0656",
+          "funder_id": "https://openalex.org/F4320321114",
+          "funder_display_name": "Bundesministerium für Bildung und Forschung"
+        },
+        {
+          "id": "https://openalex.org/G5801422158",
+          "display_name": "Initiativprojekt CAMRICS (Kommunikation und Abwehr von Risiken in kritischen Systemen) -CISPA_CAMRICS-",
+          "funder_award_id": "16KIS0656",
+          "funder_id": "https://openalex.org/F4320321114",
+          "funder_display_name": "Bundesministerium für Bildung und Forschung"
+        }
+      ],
+      "funders": [
+        {
+          "id": "https://openalex.org/F4320321114",
+          "display_name": "Bundesministerium für Bildung und Forschung",
+          "ror": "https://ror.org/04pz7b180"
+        }
+      ],
+      "has_content": {
+        "pdf": true,
+        "grobid_xml": true
+      },
+      "content_urls": {
+        "pdf": "https://content.openalex.org/works/W2766347289.pdf",
+        "grobid_xml": "https://content.openalex.org/works/W2766347289.grobid-xml"
+      },
+      "referenced_works_count": 36,
+      "referenced_works": [
+        "https://openalex.org/W81879861",
+        "https://openalex.org/W111098712",
+        "https://openalex.org/W1495580669",
+        "https://openalex.org/W1746848557",
+        "https://openalex.org/W1821475623",
+        "https://openalex.org/W1912565424",
+        "https://openalex.org/W1988036170",
+        "https://openalex.org/W1994588724",
+        "https://openalex.org/W2008810193",
+        "https://openalex.org/W2014390890",
+        "https://openalex.org/W2066428817",
+        "https://openalex.org/W2069101457",
+        "https://openalex.org/W2075040980",
+        "https://openalex.org/W2085925880",
+        "https://openalex.org/W2086042629",
+        "https://openalex.org/W2099889974",
+        "https://openalex.org/W2103370348",
+        "https://openalex.org/W2119249378",
+        "https://openalex.org/W2129426180",
+        "https://openalex.org/W2143151143",
+        "https://openalex.org/W2145994642",
+        "https://openalex.org/W2155919648",
+        "https://openalex.org/W2158196600",
+        "https://openalex.org/W2159840470",
+        "https://openalex.org/W2160343382",
+        "https://openalex.org/W2167661907",
+        "https://openalex.org/W2248175634",
+        "https://openalex.org/W2471086916",
+        "https://openalex.org/W2471871865",
+        "https://openalex.org/W2510556079",
+        "https://openalex.org/W2511044583",
+        "https://openalex.org/W2535856266",
+        "https://openalex.org/W2739784044",
+        "https://openalex.org/W2964144088",
+        "https://openalex.org/W4246774680",
+        "https://openalex.org/W4255701563"
+      ],
+      "related_works": [
+        "https://openalex.org/W3213686193",
+        "https://openalex.org/W2612085649",
+        "https://openalex.org/W2605067380",
+        "https://openalex.org/W2535386169",
+        "https://openalex.org/W4401221016",
+        "https://openalex.org/W6921520402",
+        "https://openalex.org/W4386722366",
+        "https://openalex.org/W2944140250",
+        "https://openalex.org/W4239960318"
+      ],
+      "abstract_inverted_index": {
+        "Despite": [
+          0
+        ],
+        "security": [
+          1,
+          12,
+          34,
+          122,
+          126,
+          145
+        ],
+        "advice": [
+          2
+        ],
+        "in": [
+          3,
+          121,
+          142
+        ],
+        "the": [
+          4,
+          48,
+          66,
+          134,
+          149
+        ],
+        "official": [
+          5
+        ],
+        "documentation": [
+          6
+        ],
+        "and": [
+          7,
+          16,
+          60,
+          74,
+          81,
+          93,
+          100,
+          108,
+          129,
+          146
+        ],
+        "an": [
+          8,
+          84,
+          139
+        ],
+        "extensive": [
+          9
+        ],
+        "body": [
+          10
+        ],
+        "of": [
+          11,
+          43,
+          50,
+          152
+        ],
+        "research": [
+          13
+        ],
+        "about": [
+          14
+        ],
+        "vulnerabilities": [
+          15
+        ],
+        "exploits,": [
+          17
+        ],
+        "many": [
+          18
+        ],
+        "developers": [
+          19,
+          29,
+          77,
+          118
+        ],
+        "still": [
+          20
+        ],
+        "fail": [
+          21,
+          30
+        ],
+        "to": [
+          22,
+          31,
+          33,
+          40,
+          55,
+          61,
+          133
+        ],
+        "write": [
+          23
+        ],
+        "secure": [
+          24,
+          58
+        ],
+        "Android": [
+          25,
+          28,
+          135
+        ],
+        "applications.": [
+          26
+        ],
+        "Frequently,": [
+          27
+        ],
+        "adhere": [
+          32
+        ],
+        "best": [
+          35
+        ],
+        "practices,": [
+          36
+        ],
+        "leaving": [
+          37
+        ],
+        "applications": [
+          38
+        ],
+        "vulnerable": [
+          39
+        ],
+        "a": [
+          41,
+          51,
+          115
+        ],
+        "multitude": [
+          42
+        ],
+        "attacks.": [
+          44
+        ],
+        "We": [
+          45
+        ],
+        "point": [
+          46
+        ],
+        "out": [
+          47
+        ],
+        "advantage": [
+          49
+        ],
+        "low-time-cost": [
+          52
+        ],
+        "tool": [
+          53,
+          86,
+          116
+        ],
+        "both": [
+          54,
+          98,
+          144
+        ],
+        "teach": [
+          56
+        ],
+        "better": [
+          57
+        ],
+        "coding": [
+          59
+        ],
+        "improve": [
+          62
+        ],
+        "app": [
+          63,
+          76
+        ],
+        "security.": [
+          64
+        ],
+        "Using": [
+          65
+        ],
+        "FixDroid": [
+          67
+        ],
+        "IDE": [
+          68
+        ],
+        "plug-in,": [
+          69
+        ],
+        "we": [
+          70,
+          103
+        ],
+        "show": [
+          71
+        ],
+        "that": [
+          72,
+          110
+        ],
+        "professional": [
+          73,
+          101
+        ],
+        "hobby": [
+          75
+        ],
+        "can": [
+          78
+        ],
+        "work": [
+          79
+        ],
+        "with": [
+          80,
+          97,
+          113
+        ],
+        "learn": [
+          82
+        ],
+        "from": [
+          83
+        ],
+        "in-environment": [
+          85
+        ],
+        "without": [
+          87
+        ],
+        "it": [
+          88
+        ],
+        "impacting": [
+          89
+        ],
+        "their": [
+          90
+        ],
+        "normal": [
+          91
+        ],
+        "work;": [
+          92
+        ],
+        "by": [
+          94,
+          117
+        ],
+        "performing": [
+          95
+        ],
+        "studies": [
+          96
+        ],
+        "students": [
+          99
+        ],
+        "developers,": [
+          102
+        ],
+        "identify": [
+          104
+        ],
+        "key": [
+          105
+        ],
+        "UI": [
+          106
+        ],
+        "requirements": [
+          107
+        ],
+        "demonstrate": [
+          109
+        ],
+        "code": [
+          111
+        ],
+        "delivered": [
+          112
+        ],
+        "such": [
+          114,
+          131
+        ],
+        "previously": [
+          119
+        ],
+        "inexperienced": [
+          120
+        ],
+        "contains": [
+          123
+        ],
+        "significantly": [
+          124
+        ],
+        "less": [
+          125
+        ],
+        "problems.": [
+          127
+        ],
+        "Perfecting": [
+          128
+        ],
+        "adding": [
+          130
+        ],
+        "tools": [
+          132
+        ],
+        "development": [
+          136
+        ],
+        "environment": [
+          137
+        ],
+        "is": [
+          138
+        ],
+        "essential": [
+          140
+        ],
+        "step": [
+          141
+        ],
+        "getting": [
+          143
+        ],
+        "privacy": [
+          147
+        ],
+        "for": [
+          148
+        ],
+        "next": [
+          150
+        ],
+        "generation": [
+          151
+        ],
+        "apps.": [
+          153
+        ]
+      },
+      "counts_by_year": [
+        {
+          "year": 2026,
+          "cited_by_count": 6
+        },
+        {
+          "year": 2025,
+          "cited_by_count": 3
+        },
+        {
+          "year": 2024,
+          "cited_by_count": 7
+        },
+        {
+          "year": 2023,
+          "cited_by_count": 7
+        },
+        {
+          "year": 2022,
+          "cited_by_count": 14
+        },
+        {
+          "year": 2021,
+          "cited_by_count": 19
+        },
+        {
+          "year": 2020,
+          "cited_by_count": 16
+        },
+        {
+          "year": 2019,
+          "cited_by_count": 18
+        },
+        {
+          "year": 2018,
+          "cited_by_count": 11
+        }
+      ],
+      "updated_date": "2026-11-14T11:04:58.165337",
+      "created_date": "2017-11-10T00:00:00"
+    },
+    {
+      "id": "https://openalex.org/W1571077477",
+      "doi": null,
+      "title": "The Android Developer's Cookbook: Building Applications with the Android SDK",
+      "display_name": "The Android Developer's Cookbook: Building Applications with the Android SDK",
+      "relevance_score": 174.99463,
+      "publication_year": 2010,
+      "publication_date": "2010-10-27",
+      "ids": {
+        "openalex": "https://openalex.org/W1571077477",
+        "mag": "1571077477"
+      },
+      "language": "en",
+      "primary_location": {
+        "id": "pmh:oai:cds.cern.ch:1636480",
+        "doi": null,
+        "is_oa": false,
+        "landing_page_url": "http://cds.cern.ch/record/1636480",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4306402195",
+          "display_name": "CERN Document Server (European Organization for Nuclear Research)",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "listed_in": [],
+          "host_organization": "https://openalex.org/I67311998",
+          "host_organization_name": "European Organization for Nuclear Research",
+          "host_organization_lineage": [
+            "https://openalex.org/I67311998"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "submittedVersion",
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": "",
+        "raw_type": null
+      },
+      "parent_works": [],
+      "lineage": [
+        "https://openalex.org/W1571077477"
+      ],
+      "child_works_count": 0,
+      "type": "article",
+      "is_traditional": true,
+      "indexed_in": [],
+      "open_access": {
+        "is_oa": false,
+        "oa_status": "closed",
+        "oa_url": null,
+        "any_repository_has_fulltext": false
+      },
+      "authorships": [
+        {
+          "author_position": "first",
+          "author": {
+            "id": "https://openalex.org/A5078195195",
+            "display_name": "R.L. Schwarz",
+            "orcid": null,
+            "observed_orcids": []
+          },
+          "institutions": [],
+          "countries": [],
+          "is_corresponding": false,
+          "raw_author_name": "R.L. Schwarz",
+          "raw_affiliation_strings": [],
+          "raw_orcid": null,
+          "affiliations": []
+        },
+        {
+          "author_position": "middle",
+          "author": {
+            "id": "https://openalex.org/A5069590360",
+            "display_name": "Phil Dutson",
+            "orcid": null,
+            "observed_orcids": []
+          },
+          "institutions": [],
+          "countries": [],
+          "is_corresponding": false,
+          "raw_author_name": "Phil Dutson",
+          "raw_affiliation_strings": [],
+          "raw_orcid": null,
+          "affiliations": []
+        },
+        {
+          "author_position": "middle",
+          "author": {
+            "id": null,
+            "display_name": "James Steele",
+            "orcid": null,
+            "observed_orcids": []
+          },
+          "institutions": [],
+          "countries": [],
+          "is_corresponding": false,
+          "raw_author_name": "James Steele",
+          "raw_affiliation_strings": [],
+          "raw_orcid": null,
+          "affiliations": []
+        },
+        {
+          "author_position": "last",
+          "author": {
+            "id": "https://openalex.org/A5035618949",
+            "display_name": "Nelson To",
+            "orcid": null,
+            "observed_orcids": []
+          },
+          "institutions": [],
+          "countries": [],
+          "is_corresponding": false,
+          "raw_author_name": "Nelson To",
+          "raw_affiliation_strings": [],
+          "raw_orcid": null,
+          "affiliations": []
+        }
+      ],
+      "institutions": [],
+      "countries_distinct_count": 0,
+      "institutions_distinct_count": 0,
+      "corresponding_author_ids": [],
+      "corresponding_institution_ids": [],
+      "apc_list": null,
+      "apc_paid": null,
+      "fwci": 8.4158,
+      "is_authors_truncated": false,
+      "has_fulltext": false,
+      "cited_by_count": 49,
+      "citation_normalized_percentile": {
+        "value": 0.97413385,
+        "is_in_top_1_percent": false,
+        "is_in_top_10_percent": true
+      },
+      "cited_by_percentile_year": {
+        "min": 93,
+        "max": 99
+      },
+      "biblio": {
+        "volume": null,
+        "issue": null,
+        "first_page": null,
+        "last_page": null
+      },
+      "is_retracted": false,
+      "is_paratext": false,
+      "is_xpac": false,
+      "primary_topic": {
+        "id": "https://openalex.org/T12799",
+        "display_name": "Mobile and Web Applications",
+        "score": 1.0,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1710",
+          "display_name": "Information Systems"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      "topics": [
+        {
+          "id": "https://openalex.org/T12799",
+          "display_name": "Mobile and Web Applications",
+          "score": 1.0,
+          "subfield": {
+            "id": "https://openalex.org/subfields/1710",
+            "display_name": "Information Systems"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/17",
+            "display_name": "Computer Science"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T10430",
+          "display_name": "Software Engineering Techniques and Practices",
+          "score": 0.0,
+          "subfield": {
+            "id": "https://openalex.org/subfields/1710",
+            "display_name": "Information Systems"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/17",
+            "display_name": "Computer Science"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T10470",
+          "display_name": "Usability and User Interface Design",
+          "score": 0.0,
+          "subfield": {
+            "id": "https://openalex.org/subfields/1709",
+            "display_name": "Human-Computer Interaction"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/17",
+            "display_name": "Computer Science"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        }
+      ],
+      "keywords": [
+        {
+          "id": "https://openalex.org/keywords/android-application-development",
+          "display_name": "Android app development",
+          "score": 0.8349999785423279
+        },
+        {
+          "id": "https://openalex.org/keywords/android-sdk",
+          "display_name": "Android SDK",
+          "score": 0.996999979019165
+        },
+        {
+          "id": "https://openalex.org/keywords/android-services",
+          "display_name": "Android services",
+          "score": 0.35199999809265137
+        },
+        {
+          "id": "https://openalex.org/keywords/threading",
+          "display_name": "threading",
+          "score": 0.6819999814033508
+        },
+        {
+          "id": "https://openalex.org/keywords/loaders",
+          "display_name": "loaders",
+          "score": 0.7049999833106995
+        },
+        {
+          "id": "https://openalex.org/keywords/user-interface-development",
+          "display_name": "user interface development",
+          "score": 0.781000018119812
+        },
+        {
+          "id": "https://openalex.org/keywords/animation",
+          "display_name": "animation",
+          "score": 0.9359999895095825
+        },
+        {
+          "id": "https://openalex.org/keywords/accessibility",
+          "display_name": "accessibility",
+          "score": 0.9929999709129333
+        },
+        {
+          "id": "https://openalex.org/keywords/multimedia-playback",
+          "display_name": "multimedia playback",
+          "score": 0.8769999742507935
+        },
+        {
+          "id": "https://openalex.org/keywords/sms",
+          "display_name": "SMS",
+          "score": 0.902999997138977
+        },
+        {
+          "id": "https://openalex.org/keywords/sqlite",
+          "display_name": "SQLite",
+          "score": 0.8349999785423279
+        }
+      ],
+      "concepts": [
+        {
+          "id": "https://openalex.org/C557433098",
+          "wikidata": "https://www.wikidata.org/wiki/Q94",
+          "display_name": "Android (operating system)",
+          "level": 2,
+          "score": 0.8616355657577515
+        },
+        {
+          "id": "https://openalex.org/C168065819",
+          "wikidata": "https://www.wikidata.org/wiki/Q845566",
+          "display_name": "Debugging",
+          "level": 2,
+          "score": 0.7255715131759644
+        },
+        {
+          "id": "https://openalex.org/C136764020",
+          "wikidata": "https://www.wikidata.org/wiki/Q466",
+          "display_name": "World Wide Web",
+          "level": 1,
+          "score": 0.5714781880378723
+        },
+        {
+          "id": "https://openalex.org/C41008148",
+          "wikidata": "https://www.wikidata.org/wiki/Q21198",
+          "display_name": "Computer science",
+          "level": 0,
+          "score": 0.5698336958885193
+        },
+        {
+          "id": "https://openalex.org/C101468663",
+          "wikidata": "https://www.wikidata.org/wiki/Q1620158",
+          "display_name": "Modular design",
+          "level": 2,
+          "score": 0.4218965172767639
+        },
+        {
+          "id": "https://openalex.org/C2988045736",
+          "wikidata": "https://www.wikidata.org/wiki/Q94",
+          "display_name": "Android app",
+          "level": 3,
+          "score": 0.4193058907985687
+        },
+        {
+          "id": "https://openalex.org/C127413603",
+          "wikidata": "https://www.wikidata.org/wiki/Q11023",
+          "display_name": "Engineering",
+          "level": 0,
+          "score": 0.361021488904953
+        },
+        {
+          "id": "https://openalex.org/C111919701",
+          "wikidata": "https://www.wikidata.org/wiki/Q9135",
+          "display_name": "Operating system",
+          "level": 1,
+          "score": 0.32338887453079224
+        }
+      ],
+      "mesh": [],
+      "locations_count": 2,
+      "locations": [
+        {
+          "id": "pmh:oai:cds.cern.ch:1636480",
+          "doi": null,
+          "is_oa": false,
+          "landing_page_url": "http://cds.cern.ch/record/1636480",
+          "pdf_url": null,
+          "source": {
+            "id": "https://openalex.org/S4306402195",
+            "display_name": "CERN Document Server (European Organization for Nuclear Research)",
+            "issn_l": null,
+            "issn": null,
+            "is_oa": false,
+            "is_in_doaj": false,
+            "is_core": false,
+            "listed_in": [],
+            "host_organization": "https://openalex.org/I67311998",
+            "host_organization_name": "European Organization for Nuclear Research",
+            "host_organization_lineage": [
+              "https://openalex.org/I67311998"
+            ],
+            "host_organization_lineage_names": [],
+            "type": "repository"
+          },
+          "license": null,
+          "license_id": null,
+          "version": "submittedVersion",
+          "is_accepted": false,
+          "is_published": false,
+          "raw_source_name": "",
+          "raw_type": null
+        },
+        {
+          "id": "mag:1571077477",
+          "doi": null,
+          "is_oa": false,
+          "landing_page_url": "http://ci.nii.ac.jp/ncid/BB07287288",
+          "pdf_url": null,
+          "source": null,
+          "license": null,
+          "license_id": null,
+          "version": null,
+          "is_accepted": false,
+          "is_published": false,
+          "raw_source_name": null,
+          "raw_type": null
+        }
+      ],
+      "best_oa_location": null,
+      "sustainable_development_goals": [],
+      "study_designs": [],
+      "awards": [],
+      "funders": [],
+      "has_content": {
+        "pdf": false,
+        "grobid_xml": false
+      },
+      "content_urls": null,
+      "referenced_works_count": 1,
+      "referenced_works": [
+        "https://openalex.org/W2068025634"
+      ],
+      "related_works": [
+        "https://openalex.org/W2504210725",
+        "https://openalex.org/W954028993",
+        "https://openalex.org/W3216061391",
+        "https://openalex.org/W2700282873",
+        "https://openalex.org/W6989271253",
+        "https://openalex.org/W2202133990",
+        "https://openalex.org/W2419146687",
+        "https://openalex.org/W4230403809",
+        "https://openalex.org/W2529811422"
+      ],
+      "abstract_inverted_index": {
+        "Do": [
+          0
+        ],
+        "you": [
+          1,
+          16,
+          92,
+          103,
+          256
+        ],
+        "want": [
+          2,
+          22
+        ],
+        "to": [
+          3,
+          23,
+          50,
+          83,
+          99,
+          104,
+          123,
+          258
+        ],
+        "get": [
+          4,
+          24
+        ],
+        "started": [
+          5
+        ],
+        "building": [
+          6,
+          18
+        ],
+        "apps": [
+          7,
+          20,
+          155,
+          267
+        ],
+        "for": [
+          8,
+          77,
+          127,
+          137,
+          143,
+          230
+        ],
+        "Android,": [
+          9
+        ],
+        "todays": [
+          10
+        ],
+        "number": [
+          11
+        ],
+        "one": [
+          12
+        ],
+        "mobile": [
+          13
+        ],
+        "platform?": [
+          14
+        ],
+        "Are": [
+          15
+        ],
+        "already": [
+          17
+        ],
+        "Android": [
+          19,
+          29,
+          54,
+          111,
+          154,
+          232,
+          249,
+          261
+        ],
+        "but": [
+          21
+        ],
+        "better": [
+          25
+        ],
+        "at": [
+          26
+        ],
+        "it?": [
+          27
+        ],
+        "The": [
+          28,
+          115,
+          248
+        ],
+        "Developers": [
+          30,
+          250
+        ],
+        "Cookbook,": [
+          31,
+          251
+        ],
+        "Second": [
+          32,
+          252
+        ],
+        "Edition,": [
+          33,
+          253
+        ],
+        "brings": [
+          34
+        ],
+        "together": [
+          35
+        ],
+        "all": [
+          36,
+          96,
+          255
+        ],
+        "the": [
+          37,
+          52,
+          94,
+          97,
+          106,
+          109,
+          147
+        ],
+        "expert": [
+          38
+        ],
+        "guidance": [
+          39
+        ],
+        "and": [
+          40,
+          64,
+          71,
+          113,
+          131,
+          142,
+          156,
+          165,
+          174,
+          190,
+          196,
+          203,
+          210,
+          228,
+          236,
+          242,
+          263
+        ],
+        "code": [
+          41,
+          119,
+          246
+        ],
+        "youll": [
+          42
+        ],
+        "need.": [
+          43
+        ],
+        "This": [
+          44
+        ],
+        "edition": [
+          45
+        ],
+        "has": [
+          46
+        ],
+        "been": [
+          47
+        ],
+        "extensively": [
+          48
+        ],
+        "updated": [
+          49,
+          118
+        ],
+        "reflect": [
+          51
+        ],
+        "other": [
+          53,
+          211
+        ],
+        "4.2.2": [
+          55
+        ],
+        "releases.": [
+          56
+        ],
+        "Youll": [
+          57,
+          133
+        ],
+        "find": [
+          58
+        ],
+        "all-new": [
+          59
+        ],
+        "chapters": [
+          60
+        ],
+        "on": [
+          61
+        ],
+        "advanced": [
+          62,
+          100,
+          170,
+          182
+        ],
+        "threading": [
+          63
+        ],
+        "UI": [
+          65,
+          183
+        ],
+        "development,": [
+          66,
+          73
+        ],
+        "in-app": [
+          67,
+          214
+        ],
+        "billing,": [
+          68
+        ],
+        "push": [
+          69,
+          221
+        ],
+        "messages,": [
+          70
+        ],
+        "native": [
+          72,
+          231
+        ],
+        "plus": [
+          74
+        ],
+        "new": [
+          75,
+          226
+        ],
+        "techniques": [
+          76,
+          136,
+          171
+        ],
+        "everything": [
+          78
+        ],
+        "from": [
+          79,
+          93
+        ],
+        "accessing": [
+          80
+        ],
+        "NFC": [
+          81
+        ],
+        "hardware": [
+          82
+        ],
+        "using": [
+          84,
+          172,
+          216
+        ],
+        "Google": [
+          85,
+          217
+        ],
+        "Cloud": [
+          86
+        ],
+        "Messaging.": [
+          87
+        ],
+        "Proven": [
+          88
+        ],
+        "modular": [
+          89
+        ],
+        "recipes": [
+          90
+        ],
+        "take": [
+          91
+        ],
+        "basics": [
+          95
+        ],
+        "way": [
+          98
+        ],
+        "services,": [
+          101,
+          163
+        ],
+        "helping": [
+          102
+        ],
+        "make": [
+          105
+        ],
+        "most": [
+          107
+        ],
+        "of": [
+          108
+        ],
+        "newest": [
+          110
+        ],
+        "APIs": [
+          112
+        ],
+        "tools.": [
+          114
+        ],
+        "authors": [
+          116
+        ],
+        "fully": [
+          117
+        ],
+        "samples": [
+          120
+        ],
+        "are": [
+          121
+        ],
+        "designed": [
+          122
+        ],
+        "serve": [
+          124
+        ],
+        "as": [
+          125
+        ],
+        "templates": [
+          126
+        ],
+        "your": [
+          128
+        ],
+        "own": [
+          129
+        ],
+        "projects": [
+          130
+        ],
+        "components.": [
+          132
+        ],
+        "learn": [
+          134
+        ],
+        "best-practice": [
+          135
+        ],
+        "efficiently": [
+          138,
+          161
+        ],
+        "solving": [
+          139
+        ],
+        "common": [
+          140
+        ],
+        "problems": [
+          141
+        ],
+        "avoiding": [
+          144
+        ],
+        "pitfalls": [
+          145
+        ],
+        "throughout": [
+          146
+        ],
+        "entire": [
+          148
+        ],
+        "development": [
+          149,
+          233
+        ],
+        "lifecycle.": [
+          150
+        ],
+        "Coverage": [
+          151
+        ],
+        "includes": [
+          152
+        ],
+        "Organizing": [
+          153
+        ],
+        "integrating": [
+          157
+        ],
+        "their": [
+          158
+        ],
+        "activities": [
+          159
+        ],
+        "Working": [
+          160
+        ],
+        "with": [
+          162,
+          200,
+          223,
+          238
+        ],
+        "receivers,": [
+          164
+        ],
+        "alerts": [
+          166
+        ],
+        "Managing": [
+          167,
+          220
+        ],
+        "threads,": [
+          168
+        ],
+        "including": [
+          169,
+          185,
+          244
+        ],
+        "AsyncTasks": [
+          173
+        ],
+        "loaders": [
+          175
+        ],
+        "Building": [
+          176
+        ],
+        "robust,": [
+          177
+        ],
+        "intuitive": [
+          178
+        ],
+        "user": [
+          179
+        ],
+        "interfaces": [
+          180
+        ],
+        "Implementing": [
+          181
+        ],
+        "features,": [
+          184
+        ],
+        "Custom": [
+          186
+        ],
+        "Views,": [
+          187
+        ],
+        "animation,": [
+          188
+        ],
+        "accessibility,": [
+          189
+        ],
+        "large": [
+          191
+        ],
+        "screen": [
+          192
+        ],
+        "support": [
+          193
+        ],
+        "Capturing,": [
+          194
+        ],
+        "playing,": [
+          195
+        ],
+        "manipulating": [
+          197
+        ],
+        "media": [
+          198
+        ],
+        "Interacting": [
+          199
+        ],
+        "SMS,": [
+          201
+        ],
+        "websites,": [
+          202
+        ],
+        "social": [
+          204
+        ],
+        "networks": [
+          205
+        ],
+        "Storing": [
+          206
+        ],
+        "data": [
+          207
+        ],
+        "via": [
+          208
+        ],
+        "SQLite": [
+          209
+        ],
+        "methods": [
+          212
+        ],
+        "Integrating": [
+          213
+        ],
+        "billing": [
+          215
+        ],
+        "Play": [
+          218
+        ],
+        "services": [
+          219
+        ],
+        "messaging": [
+          222
+        ],
+        "C2DM": [
+          224
+        ],
+        "Leveraging": [
+          225
+        ],
+        "components": [
+          227
+        ],
+        "structures": [
+          229
+        ],
+        "Efficiently": [
+          234
+        ],
+        "testing": [
+          235
+        ],
+        "debugging": [
+          237
+        ],
+        "Androids": [
+          239
+        ],
+        "latest": [
+          240
+        ],
+        "tools": [
+          241
+        ],
+        "techniques,": [
+          243
+        ],
+        "LINT": [
+          245
+        ],
+        "analysis": [
+          247
+        ],
+        "is": [
+          254
+        ],
+        "need": [
+          257
+        ],
+        "jumpstart": [
+          259
+        ],
+        "any": [
+          260
+        ],
+        "project,": [
+          262
+        ],
+        "create": [
+          264
+        ],
+        "high-value,": [
+          265
+        ],
+        "feature-rich": [
+          266
+        ],
+        "that": [
+          268
+        ],
+        "sell.": [
+          269
+        ]
+      },
+      "counts_by_year": [
+        {
+          "year": 2024,
+          "cited_by_count": 2
+        },
+        {
+          "year": 2023,
+          "cited_by_count": 2
+        },
+        {
+          "year": 2021,
+          "cited_by_count": 3
+        },
+        {
+          "year": 2018,
+          "cited_by_count": 3
+        },
+        {
+          "year": 2017,
+          "cited_by_count": 5
+        },
+        {
+          "year": 2016,
+          "cited_by_count": 3
+        },
+        {
+          "year": 2015,
+          "cited_by_count": 4
+        },
+        {
+          "year": 2014,
+          "cited_by_count": 10
+        },
+        {
+          "year": 2013,
+          "cited_by_count": 4
+        },
+        {
+          "year": 2012,
+          "cited_by_count": 10
+        }
+      ],
+      "updated_date": "2026-11-14T11:04:58.165337",
+      "created_date": "2016-06-24T00:00:00"
+    },
+    {
+      "id": "https://openalex.org/W2802953370",
+      "doi": "https://doi.org/10.1145/3197231.3197251",
+      "title": "Self-reported activities of Android developers",
+      "display_name": "Self-reported activities of Android developers",
+      "relevance_score": 169.34737,
+      "publication_year": 2018,
+      "publication_date": "2018-05-27",
+      "ids": {
+        "openalex": "https://openalex.org/W2802953370",
+        "doi": "https://doi.org/10.1145/3197231.3197251",
+        "mag": "2802953370"
+      },
+      "language": "en",
+      "primary_location": {
+        "id": "doi:10.1145/3197231.3197251",
+        "doi": "https://doi.org/10.1145/3197231.3197251",
+        "is_oa": false,
+        "landing_page_url": "https://doi.org/10.1145/3197231.3197251",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S7407086777",
+          "display_name": "IEEE/ACM International Conference on Mobile Software Engineering and Systems (MOBILESoft)",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "listed_in": [],
+          "host_organization": null,
+          "host_organization_name": null,
+          "host_organization_lineage": [],
+          "host_organization_lineage_names": [],
+          "type": "conference"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Proceedings of the 5th International Conference on Mobile Software Engineering and Systems",
+        "raw_type": "proceedings-article"
+      },
+      "parent_works": [],
+      "lineage": [
+        "https://openalex.org/W2802953370"
+      ],
+      "child_works_count": 0,
+      "type": "conference-paper",
+      "is_traditional": true,
+      "indexed_in": [
+        "crossref",
+        "datacite"
+      ],
+      "open_access": {
+        "is_oa": true,
+        "oa_status": "green",
+        "oa_url": "https://www.zora.uzh.ch/id/eprint/152983/1/preprint.pdf",
+        "any_repository_has_fulltext": true
+      },
+      "authorships": [
+        {
+          "author_position": "first",
+          "author": {
+            "id": "https://openalex.org/A5060494552",
+            "display_name": "Luca Pascarella",
+            "orcid": "https://orcid.org/0000-0001-8289-7736",
+            "observed_orcids": [
+              "https://orcid.org/0000-0001-8289-7736"
+            ]
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I98358874",
+              "display_name": "Delft University of Technology",
+              "ror": "https://ror.org/02e2c7k09",
+              "country_code": "NL",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I98358874"
+              ]
+            }
+          ],
+          "countries": [
+            "NL"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "Luca Pascarella",
+          "raw_affiliation_strings": [
+            "Delft University of Technology, The Netherlands"
+          ],
+          "raw_orcid": null,
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Delft University of Technology, The Netherlands",
+              "institution_ids": [
+                "https://openalex.org/I98358874"
+              ]
+            }
+          ]
+        },
+        {
+          "author_position": "middle",
+          "author": {
+            "id": "https://openalex.org/A5002943236",
+            "display_name": "Franz-Xaver Geiger",
+            "orcid": null,
+            "observed_orcids": []
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I865915315",
+              "display_name": "Vrije Universiteit Amsterdam",
+              "ror": "https://ror.org/008xxew50",
+              "country_code": "NL",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I865915315"
+              ]
+            }
+          ],
+          "countries": [
+            "NL"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "Franz-Xaver Geiger",
+          "raw_affiliation_strings": [
+            "Vrije Universiteit Amsterdam, The Netherlands"
+          ],
+          "raw_orcid": null,
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Vrije Universiteit Amsterdam, The Netherlands",
+              "institution_ids": [
+                "https://openalex.org/I865915315"
+              ]
+            }
+          ]
+        },
+        {
+          "author_position": "middle",
+          "author": {
+            "id": "https://openalex.org/A5033738898",
+            "display_name": "Fabio Palomba",
+            "orcid": "https://orcid.org/0000-0001-9337-5116",
+            "observed_orcids": [
+              "https://orcid.org/0000-0001-9337-5116"
+            ]
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I202697423",
+              "display_name": "University of Zurich",
+              "ror": "https://ror.org/02crff812",
+              "country_code": "CH",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I202697423"
+              ]
+            }
+          ],
+          "countries": [
+            "CH"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "Fabio Palomba",
+          "raw_affiliation_strings": [
+            "University of Zurich, Switzerland"
+          ],
+          "raw_orcid": null,
+          "affiliations": [
+            {
+              "raw_affiliation_string": "University of Zurich, Switzerland",
+              "institution_ids": [
+                "https://openalex.org/I202697423"
+              ]
+            }
+          ]
+        },
+        {
+          "author_position": "middle",
+          "author": {
+            "id": "https://openalex.org/A5072127726",
+            "display_name": "Dario Di Nucci",
+            "orcid": "https://orcid.org/0000-0002-3861-1902",
+            "observed_orcids": [
+              "https://orcid.org/0000-0002-3861-1902"
+            ]
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I13469542",
+              "display_name": "Vrije Universiteit Brussel",
+              "ror": "https://ror.org/006e5kg04",
+              "country_code": "BE",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I13469542"
+              ]
+            }
+          ],
+          "countries": [
+            "BE"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "Dario Di Nucci",
+          "raw_affiliation_strings": [
+            "Vrije Universiteit Brussel, Belgium"
+          ],
+          "raw_orcid": null,
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Vrije Universiteit Brussel, Belgium",
+              "institution_ids": [
+                "https://openalex.org/I13469542"
+              ]
+            }
+          ]
+        },
+        {
+          "author_position": "middle",
+          "author": {
+            "id": "https://openalex.org/A5079556921",
+            "display_name": "Ivano Malavolta",
+            "orcid": "https://orcid.org/0000-0001-5773-8346",
+            "observed_orcids": [
+              "https://orcid.org/0000-0001-5773-8346"
+            ]
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I865915315",
+              "display_name": "Vrije Universiteit Amsterdam",
+              "ror": "https://ror.org/008xxew50",
+              "country_code": "NL",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I865915315"
+              ]
+            }
+          ],
+          "countries": [
+            "NL"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "Ivano Malavolta",
+          "raw_affiliation_strings": [
+            "Vrije Universiteit Amsterdam, The Netherlands"
+          ],
+          "raw_orcid": null,
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Vrije Universiteit Amsterdam, The Netherlands",
+              "institution_ids": [
+                "https://openalex.org/I865915315"
+              ]
+            }
+          ]
+        },
+        {
+          "author_position": "last",
+          "author": {
+            "id": "https://openalex.org/A5082720005",
+            "display_name": "Alberto Bacchelli",
+            "orcid": "https://orcid.org/0000-0003-0193-6823",
+            "observed_orcids": [
+              "https://orcid.org/0000-0003-0193-6823"
+            ]
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I202697423",
+              "display_name": "University of Zurich",
+              "ror": "https://ror.org/02crff812",
+              "country_code": "CH",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I202697423"
+              ]
+            }
+          ],
+          "countries": [
+            "CH"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "Alberto Bacchelli",
+          "raw_affiliation_strings": [
+            "University of Zurich, Switzerland"
+          ],
+          "raw_orcid": null,
+          "affiliations": [
+            {
+              "raw_affiliation_string": "University of Zurich, Switzerland",
+              "institution_ids": [
+                "https://openalex.org/I202697423"
+              ]
+            }
+          ]
+        }
+      ],
+      "institutions": [],
+      "countries_distinct_count": 3,
+      "institutions_distinct_count": 4,
+      "corresponding_author_ids": [],
+      "corresponding_institution_ids": [],
+      "apc_list": null,
+      "apc_paid": null,
+      "fwci": 2.676,
+      "is_authors_truncated": false,
+      "has_fulltext": true,
+      "cited_by_count": 20,
+      "citation_normalized_percentile": {
+        "value": 0.91893197,
+        "is_in_top_1_percent": false,
+        "is_in_top_10_percent": true
+      },
+      "cited_by_percentile_year": {
+        "min": 88,
+        "max": 99
+      },
+      "biblio": {
+        "volume": null,
+        "issue": null,
+        "first_page": "144",
+        "last_page": "155"
+      },
+      "is_retracted": false,
+      "is_paratext": false,
+      "is_xpac": false,
+      "primary_topic": {
+        "id": "https://openalex.org/T10260",
+        "display_name": "Software Engineering Research",
+        "score": 0.9945999979972839,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1710",
+          "display_name": "Information Systems"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      "topics": [
+        {
+          "id": "https://openalex.org/T10260",
+          "display_name": "Software Engineering Research",
+          "score": 0.9945999979972839,
+          "subfield": {
+            "id": "https://openalex.org/subfields/1710",
+            "display_name": "Information Systems"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/17",
+            "display_name": "Computer Science"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T10430",
+          "display_name": "Software Engineering Techniques and Practices",
+          "score": 0.005200000014156103,
+          "subfield": {
+            "id": "https://openalex.org/subfields/1710",
+            "display_name": "Information Systems"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/17",
+            "display_name": "Computer Science"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T12799",
+          "display_name": "Mobile and Web Applications",
+          "score": 0.00019999999494757503,
+          "subfield": {
+            "id": "https://openalex.org/subfields/1710",
+            "display_name": "Information Systems"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/17",
+            "display_name": "Computer Science"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        }
+      ],
+      "keywords": [
+        {
+          "id": "https://openalex.org/keywords/android-application-development",
+          "display_name": "Android app development",
+          "score": 0.8429999947547913
+        },
+        {
+          "id": "https://openalex.org/keywords/developer-activity",
+          "display_name": "developer activity",
+          "score": 0.7900000214576721
+        },
+        {
+          "id": "https://openalex.org/keywords/commit-messages",
+          "display_name": "commit messages",
+          "score": 0.777999997138977
+        },
+        {
+          "id": "https://openalex.org/keywords/automatic-classification",
+          "display_name": "automatic classification",
+          "score": 0.5270000100135803
+        },
+        {
+          "id": "https://openalex.org/keywords/developer-behavior",
+          "display_name": "developer behavior",
+          "score": 0.5249999761581421
+        },
+        {
+          "id": "https://openalex.org/keywords/mobile-application-development",
+          "display_name": "mobile application development",
+          "score": 0.5590000152587891
+        }
+      ],
+      "concepts": [
+        {
+          "id": "https://openalex.org/C557433098",
+          "wikidata": "https://www.wikidata.org/wiki/Q94",
+          "display_name": "Android (operating system)",
+          "level": 2,
+          "score": 0.8707926273345947
+        },
+        {
+          "id": "https://openalex.org/C153180980",
+          "wikidata": "https://www.wikidata.org/wiki/Q19776675",
+          "display_name": "Commit",
+          "level": 2,
+          "score": 0.7814195156097412
+        },
+        {
+          "id": "https://openalex.org/C41008148",
+          "wikidata": "https://www.wikidata.org/wiki/Q21198",
+          "display_name": "Computer science",
+          "level": 0,
+          "score": 0.7000784873962402
+        },
+        {
+          "id": "https://openalex.org/C2988045736",
+          "wikidata": "https://www.wikidata.org/wiki/Q94",
+          "display_name": "Android app",
+          "level": 3,
+          "score": 0.5502802729606628
+        },
+        {
+          "id": "https://openalex.org/C120936955",
+          "wikidata": "https://www.wikidata.org/wiki/Q2155640",
+          "display_name": "Empirical research",
+          "level": 2,
+          "score": 0.5227201581001282
+        },
+        {
+          "id": "https://openalex.org/C2777904410",
+          "wikidata": "https://www.wikidata.org/wiki/Q7397",
+          "display_name": "Software",
+          "level": 2,
+          "score": 0.4614362418651581
+        },
+        {
+          "id": "https://openalex.org/C3017891749",
+          "wikidata": "https://www.wikidata.org/wiki/Q94",
+          "display_name": "Android application",
+          "level": 3,
+          "score": 0.4258365333080292
+        },
+        {
+          "id": "https://openalex.org/C136764020",
+          "wikidata": "https://www.wikidata.org/wiki/Q466",
+          "display_name": "World Wide Web",
+          "level": 1,
+          "score": 0.41205158829689026
+        },
+        {
+          "id": "https://openalex.org/C115903868",
+          "wikidata": "https://www.wikidata.org/wiki/Q80993",
+          "display_name": "Software engineering",
+          "level": 1,
+          "score": 0.3694281578063965
+        },
+        {
+          "id": "https://openalex.org/C2522767166",
+          "wikidata": "https://www.wikidata.org/wiki/Q2374463",
+          "display_name": "Data science",
+          "level": 1,
+          "score": 0.35486721992492676
+        },
+        {
+          "id": "https://openalex.org/C111919701",
+          "wikidata": "https://www.wikidata.org/wiki/Q9135",
+          "display_name": "Operating system",
+          "level": 1,
+          "score": 0.12525537610054016
+        },
+        {
+          "id": "https://openalex.org/C77088390",
+          "wikidata": "https://www.wikidata.org/wiki/Q8513",
+          "display_name": "Database",
+          "level": 1,
+          "score": 0.11939400434494019
+        },
+        {
+          "id": "https://openalex.org/C111472728",
+          "wikidata": "https://www.wikidata.org/wiki/Q9471",
+          "display_name": "Epistemology",
+          "level": 1,
+          "score": 0.0
+        },
+        {
+          "id": "https://openalex.org/C138885662",
+          "wikidata": "https://www.wikidata.org/wiki/Q5891",
+          "display_name": "Philosophy",
+          "level": 0,
+          "score": 0.0
+        }
+      ],
+      "mesh": [],
+      "locations_count": 9,
+      "locations": [
+        {
+          "id": "doi:10.1145/3197231.3197251",
+          "doi": "https://doi.org/10.1145/3197231.3197251",
+          "is_oa": false,
+          "landing_page_url": "https://doi.org/10.1145/3197231.3197251",
+          "pdf_url": null,
+          "source": {
+            "id": "https://openalex.org/S7407086777",
+            "display_name": "IEEE/ACM International Conference on Mobile Software Engineering and Systems (MOBILESoft)",
+            "issn_l": null,
+            "issn": null,
+            "is_oa": false,
+            "is_in_doaj": false,
+            "is_core": false,
+            "listed_in": [],
+            "host_organization": null,
+            "host_organization_name": null,
+            "host_organization_lineage": [],
+            "host_organization_lineage_names": [],
+            "type": "conference"
+          },
+          "license": null,
+          "license_id": null,
+          "version": "publishedVersion",
+          "is_accepted": true,
+          "is_published": true,
+          "raw_source_name": "Proceedings of the 5th International Conference on Mobile Software Engineering and Systems",
+          "raw_type": "proceedings-article"
+        },
+        {
+          "id": "pmh:oai:www.zora.uzh.ch:152983",
+          "doi": null,
+          "is_oa": true,
+          "landing_page_url": "https://www.zora.uzh.ch/id/eprint/152983/1/preprint.pdf",
+          "pdf_url": "https://www.zora.uzh.ch/id/eprint/152983/1/preprint.pdf",
+          "source": {
+            "id": "https://openalex.org/S4306401281",
+            "display_name": "Zurich Open Repository and Archive (University of Zurich)",
+            "issn_l": null,
+            "issn": null,
+            "is_oa": false,
+            "is_in_doaj": false,
+            "is_core": false,
+            "listed_in": [],
+            "host_organization": "https://openalex.org/I202697423",
+            "host_organization_name": "University of Zurich",
+            "host_organization_lineage": [
+              "https://openalex.org/I202697423"
+            ],
+            "host_organization_lineage_names": [],
+            "type": "repository"
+          },
+          "license": "other-oa",
+          "license_id": "https://openalex.org/licenses/other-oa",
+          "version": "acceptedVersion",
+          "is_accepted": true,
+          "is_published": false,
+          "raw_source_name": "Pascarella, Luca; Geiger, Franz-Xaver; Palomba, Fabio; Di Nucci, Dario; Malavolta, Ivano; Bacchelli, Alberto (2018). Self-reported activities of Android developers. In: 5th International Conference on Mobile Software Engineering and Systems (MOBILESoft), Gothenburg, Sweden, 27 June 2018 - 28 June 2018. Association for Computing Machinery, 144-155.",
+          "raw_type": "info:eu-repo/semantics/conferenceObject"
+        },
+        {
+          "id": "pmh:oai:research.vu.nl:openaire/a0c52168-01f8-4546-9241-fe820ae6d29e",
+          "doi": null,
+          "is_oa": true,
+          "landing_page_url": "https://research.vu.nl/en/publications/a0c52168-01f8-4546-9241-fe820ae6d29e",
+          "pdf_url": null,
+          "source": {
+            "id": "https://openalex.org/S4306401107",
+            "display_name": "VU Research Portal",
+            "issn_l": null,
+            "issn": null,
+            "is_oa": false,
+            "is_in_doaj": false,
+            "is_core": false,
+            "listed_in": [],
+            "host_organization": "https://openalex.org/I865915315",
+            "host_organization_name": "Vrije Universiteit Amsterdam",
+            "host_organization_lineage": [
+              "https://openalex.org/I865915315"
+            ],
+            "host_organization_lineage_names": [],
+            "type": "repository"
+          },
+          "license": "other-oa",
+          "license_id": "https://openalex.org/licenses/other-oa",
+          "version": "submittedVersion",
+          "is_accepted": false,
+          "is_published": false,
+          "raw_source_name": null,
+          "raw_type": "contributionToPeriodical"
+        },
+        {
+          "id": "pmh:oai:tudelft.nl:uuid:8d8dd724-e403-4980-8243-1dadcf7f6936",
+          "doi": null,
+          "is_oa": false,
+          "landing_page_url": "http://resolver.tudelft.nl/uuid:8d8dd724-e403-4980-8243-1dadcf7f6936",
+          "pdf_url": null,
+          "source": {
+            "id": "https://openalex.org/S4306400906",
+            "display_name": "Research Repository (Delft University of Technology)",
+            "issn_l": null,
+            "issn": null,
+            "is_oa": false,
+            "is_in_doaj": false,
+            "is_core": false,
+            "listed_in": [],
+            "host_organization": "https://openalex.org/I98358874",
+            "host_organization_name": "Delft University of Technology",
+            "host_organization_lineage": [
+              "https://openalex.org/I98358874"
+            ],
+            "host_organization_lineage_names": [],
+            "type": "repository"
+          },
+          "license": null,
+          "license_id": null,
+          "version": "submittedVersion",
+          "is_accepted": false,
+          "is_published": false,
+          "raw_source_name": "",
+          "raw_type": "conference paper"
+        },
+        {
+          "id": "pmh:oai:vubissmart:VUBISSMART:2000:144364",
+          "doi": null,
+          "is_oa": false,
+          "landing_page_url": "https://biblio.vub.ac.be/vubir/selfreported-activities-of-android-developers(3b44c02d-4323-4abb-bb0c-9cd17db1fc7a).html",
+          "pdf_url": null,
+          "source": {
+            "id": "https://openalex.org/S4306402573",
+            "display_name": "VUBIR (Vrije Universiteit Brussel)",
+            "issn_l": null,
+            "issn": null,
+            "is_oa": false,
+            "is_in_doaj": false,
+            "is_core": false,
+            "listed_in": [],
+            "host_organization": "https://openalex.org/I13469542",
+            "host_organization_name": "Vrije Universiteit Brussel",
+            "host_organization_lineage": [
+              "https://openalex.org/I13469542"
+            ],
+            "host_organization_lineage_names": [],
+            "type": "repository"
+          },
+          "license": null,
+          "license_id": null,
+          "version": "submittedVersion",
+          "is_accepted": false,
+          "is_published": false,
+          "raw_source_name": null,
+          "raw_type": "article"
+        },
+        {
+          "id": "pmh:oai:www.zora.uzh.ch:20.500.14742/143143",
+          "doi": null,
+          "is_oa": true,
+          "landing_page_url": "https://www.zora.uzh.ch/handle/20.500.14742/143143",
+          "pdf_url": null,
+          "source": {
+            "id": "https://openalex.org/S4306401281",
+            "display_name": "Zurich Open Repository and Archive (University of Zurich)",
+            "issn_l": null,
+            "issn": null,
+            "is_oa": false,
+            "is_in_doaj": false,
+            "is_core": false,
+            "listed_in": [],
+            "host_organization": "https://openalex.org/I202697423",
+            "host_organization_name": "University of Zurich",
+            "host_organization_lineage": [
+              "https://openalex.org/I202697423"
+            ],
+            "host_organization_lineage_names": [],
+            "type": "repository"
+          },
+          "license": "other-oa",
+          "license_id": "https://openalex.org/licenses/other-oa",
+          "version": "submittedVersion",
+          "is_accepted": false,
+          "is_published": false,
+          "raw_source_name": "Pascarella, L., Geiger, F.-X., Palomba, F., Di Nucci, D., Malavolta, I., & Bacchelli, A. (2018). Self-reported activities of Android developers. Proceedings of the International Conference on Mobile Software Engineering and Systems, 144–155. https://doi.org/10.1145/3197231.3197251",
+          "raw_type": "Conference or Workshop Item"
+        },
+        {
+          "id": "pmh:tud:oai:tudelft.nl:uuid:8d8dd724-e403-4980-8243-1dadcf7f6936",
+          "doi": null,
+          "is_oa": true,
+          "landing_page_url": "http://resolver.tudelft.nl/uuid:8d8dd724-e403-4980-8243-1dadcf7f6936",
+          "pdf_url": null,
+          "source": {
+            "id": "https://openalex.org/S4306401843",
+            "display_name": "Data Archiving and Networked Services (DANS)",
+            "issn_l": null,
+            "issn": null,
+            "is_oa": false,
+            "is_in_doaj": false,
+            "is_core": false,
+            "listed_in": [],
+            "host_organization": "https://openalex.org/I1322597698",
+            "host_organization_name": "Royal Netherlands Academy of Arts and Sciences",
+            "host_organization_lineage": [
+              "https://openalex.org/I1322597698"
+            ],
+            "host_organization_lineage_names": [],
+            "type": "repository"
+          },
+          "license": "other-oa",
+          "license_id": "https://openalex.org/licenses/other-oa",
+          "version": "submittedVersion",
+          "is_accepted": false,
+          "is_published": false,
+          "raw_source_name": "5th IEEE/ACM International Conference on Mobile Software Engineering and Systems. ACM, New York, NY, to appear",
+          "raw_type": "info:eu-repo/semantics/conferencepaper"
+        },
+        {
+          "id": "pmh:vu:oai:research.vu.nl:publications/a0c52168-01f8-4546-9241-fe820ae6d29e",
+          "doi": null,
+          "is_oa": false,
+          "landing_page_url": "https://research.vu.nl/en/publications/a0c52168-01f8-4546-9241-fe820ae6d29e",
+          "pdf_url": null,
+          "source": {
+            "id": "https://openalex.org/S4306401843",
+            "display_name": "Data Archiving and Networked Services (DANS)",
+            "issn_l": null,
+            "issn": null,
+            "is_oa": false,
+            "is_in_doaj": false,
+            "is_core": false,
+            "listed_in": [],
+            "host_organization": "https://openalex.org/I1322597698",
+            "host_organization_name": "Royal Netherlands Academy of Arts and Sciences",
+            "host_organization_lineage": [
+              "https://openalex.org/I1322597698"
+            ],
+            "host_organization_lineage_names": [],
+            "type": "repository"
+          },
+          "license": null,
+          "license_id": null,
+          "version": "submittedVersion",
+          "is_accepted": false,
+          "is_published": false,
+          "raw_source_name": "Proceedings - 2018 ACM/IEEE 5th International Conference on Mobile Software Engineering and Systems, MOBILESoft 2018, 144 - 155",
+          "raw_type": "info:eu-repo/semantics/conferencepaper"
+        },
+        {
+          "id": "doi:10.5167/uzh-152983",
+          "doi": "https://doi.org/10.5167/uzh-152983",
+          "is_oa": true,
+          "landing_page_url": "https://doi.org/10.5167/uzh-152983",
+          "pdf_url": null,
+          "source": {
+            "id": "https://openalex.org/S4306401281",
+            "display_name": "Zurich Open Repository and Archive (University of Zurich)",
+            "issn_l": null,
+            "issn": null,
+            "is_oa": false,
+            "is_in_doaj": false,
+            "is_core": false,
+            "listed_in": [],
+            "host_organization": "https://openalex.org/I202697423",
+            "host_organization_name": "University of Zurich",
+            "host_organization_lineage": [
+              "https://openalex.org/I202697423"
+            ],
+            "host_organization_lineage_names": [],
+            "type": "repository"
+          },
+          "license": null,
+          "license_id": null,
+          "version": null,
+          "is_accepted": false,
+          "is_published": false,
+          "raw_source_name": null,
+          "raw_type": "ConferencePaper"
+        }
+      ],
+      "best_oa_location": {
+        "id": "pmh:oai:www.zora.uzh.ch:152983",
+        "doi": null,
+        "is_oa": true,
+        "landing_page_url": "https://www.zora.uzh.ch/id/eprint/152983/1/preprint.pdf",
+        "pdf_url": "https://www.zora.uzh.ch/id/eprint/152983/1/preprint.pdf",
+        "source": {
+          "id": "https://openalex.org/S4306401281",
+          "display_name": "Zurich Open Repository and Archive (University of Zurich)",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "listed_in": [],
+          "host_organization": "https://openalex.org/I202697423",
+          "host_organization_name": "University of Zurich",
+          "host_organization_lineage": [
+            "https://openalex.org/I202697423"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": "other-oa",
+        "license_id": "https://openalex.org/licenses/other-oa",
+        "version": "acceptedVersion",
+        "is_accepted": true,
+        "is_published": false,
+        "raw_source_name": "Pascarella, Luca; Geiger, Franz-Xaver; Palomba, Fabio; Di Nucci, Dario; Malavolta, Ivano; Bacchelli, Alberto (2018). Self-reported activities of Android developers. In: 5th International Conference on Mobile Software Engineering and Systems (MOBILESoft), Gothenburg, Sweden, 27 June 2018 - 28 June 2018. Association for Computing Machinery, 144-155.",
+        "raw_type": "info:eu-repo/semantics/conferenceObject"
+      },
+      "sustainable_development_goals": [],
+      "study_designs": [],
+      "awards": [
+        {
+          "id": "https://openalex.org/G5035863935",
+          "display_name": "Data-driven Contemporary Code Review",
+          "funder_award_id": "170529",
+          "funder_id": "https://openalex.org/F4320320924",
+          "funder_display_name": "Schweizerischer Nationalfonds zur Förderung der Wissenschaftlichen Forschung"
+        }
+      ],
+      "funders": [
+        {
+          "id": "https://openalex.org/F4320306076",
+          "display_name": "National Science Foundation",
+          "ror": "https://ror.org/021nxhr62"
+        },
+        {
+          "id": "https://openalex.org/F4320320924",
+          "display_name": "Schweizerischer Nationalfonds zur Förderung der Wissenschaftlichen Forschung",
+          "ror": "https://ror.org/00yjd3n13"
+        },
+        {
+          "id": "https://openalex.org/F4320322852",
+          "display_name": "Innoviris",
+          "ror": "https://ror.org/04af9zr29"
+        }
+      ],
+      "has_content": {
+        "pdf": false,
+        "grobid_xml": false
+      },
+      "content_urls": null,
+      "referenced_works_count": 65,
+      "referenced_works": [
+        "https://openalex.org/W152079127",
+        "https://openalex.org/W165633843",
+        "https://openalex.org/W1174118978",
+        "https://openalex.org/W1524416683",
+        "https://openalex.org/W1563185315",
+        "https://openalex.org/W1564623840",
+        "https://openalex.org/W1660390307",
+        "https://openalex.org/W1663973292",
+        "https://openalex.org/W1914969610",
+        "https://openalex.org/W1951599591",
+        "https://openalex.org/W1964963535",
+        "https://openalex.org/W1965260616",
+        "https://openalex.org/W1978394996",
+        "https://openalex.org/W1979478267",
+        "https://openalex.org/W1985206804",
+        "https://openalex.org/W1985266020",
+        "https://openalex.org/W1992345889",
+        "https://openalex.org/W1992460156",
+        "https://openalex.org/W1992602600",
+        "https://openalex.org/W1997405881",
+        "https://openalex.org/W2011183848",
+        "https://openalex.org/W2018638699",
+        "https://openalex.org/W2019246026",
+        "https://openalex.org/W2031213082",
+        "https://openalex.org/W2085597081",
+        "https://openalex.org/W2093400716",
+        "https://openalex.org/W2097998348",
+        "https://openalex.org/W2098765895",
+        "https://openalex.org/W2106122655",
+        "https://openalex.org/W2112081648",
+        "https://openalex.org/W2122595236",
+        "https://openalex.org/W2123873494",
+        "https://openalex.org/W2128182542",
+        "https://openalex.org/W2140964565",
+        "https://openalex.org/W2142958724",
+        "https://openalex.org/W2144651866",
+        "https://openalex.org/W2146241755",
+        "https://openalex.org/W2146648240",
+        "https://openalex.org/W2150198410",
+        "https://openalex.org/W2153031028",
+        "https://openalex.org/W2167293777",
+        "https://openalex.org/W2168874709",
+        "https://openalex.org/W2171383742",
+        "https://openalex.org/W2238078713",
+        "https://openalex.org/W2241072627",
+        "https://openalex.org/W2286924183",
+        "https://openalex.org/W2400648064",
+        "https://openalex.org/W2401932869",
+        "https://openalex.org/W2402612280",
+        "https://openalex.org/W2548549162",
+        "https://openalex.org/W2559490865",
+        "https://openalex.org/W2566091604",
+        "https://openalex.org/W2574834842",
+        "https://openalex.org/W2587424867",
+        "https://openalex.org/W2618807062",
+        "https://openalex.org/W2724503592",
+        "https://openalex.org/W2742624083",
+        "https://openalex.org/W2761329858",
+        "https://openalex.org/W2762481683",
+        "https://openalex.org/W2770563577",
+        "https://openalex.org/W2793865514",
+        "https://openalex.org/W2794470934",
+        "https://openalex.org/W2797862469",
+        "https://openalex.org/W3182920176",
+        "https://openalex.org/W4291213652"
+      ],
+      "related_works": [
+        "https://openalex.org/W4391605531",
+        "https://openalex.org/W4390780258",
+        "https://openalex.org/W3137404807",
+        "https://openalex.org/W3097630314",
+        "https://openalex.org/W2908696961",
+        "https://openalex.org/W2965323276",
+        "https://openalex.org/W2794840863",
+        "https://openalex.org/W2591102410",
+        "https://openalex.org/W2964956021",
+        "https://openalex.org/W2890814105"
+      ],
+      "abstract_inverted_index": {
+        "To": [
+          0,
+          33
+        ],
+        "gain": [
+          1
+        ],
+        "a": [
+          2,
+          39
+        ],
+        "deeper": [
+          3
+        ],
+        "empirical": [
+          4
+        ],
+        "understanding": [
+          5
+        ],
+        "of": [
+          6,
+          17,
+          41,
+          49,
+          62,
+          65,
+          76
+        ],
+        "how": [
+          7
+        ],
+        "developers": [
+          8,
+          19
+        ],
+        "work": [
+          9
+        ],
+        "on": [
+          10
+        ],
+        "Android": [
+          11,
+          18,
+          55
+        ],
+        "apps,": [
+          12
+        ],
+        "we": [
+          13,
+          36,
+          58
+        ],
+        "investigate": [
+          14,
+          73
+        ],
+        "self-reported": [
+          15,
+          42,
+          66
+        ],
+        "activities": [
+          16,
+          25,
+          43,
+          67
+        ],
+        "and": [
+          20,
+          72,
+          90
+        ],
+        "to": [
+          21,
+          92
+        ],
+        "what": [
+          22
+        ],
+        "extent": [
+          23
+        ],
+        "these": [
+          24
+        ],
+        "can": [
+          26,
+          83
+        ],
+        "be": [
+          27,
+          85
+        ],
+        "classified": [
+          28
+        ],
+        "with": [
+          29
+        ],
+        "machine": [
+          30
+        ],
+        "learning": [
+          31
+        ],
+        "techniques.": [
+          32
+        ],
+        "this": [
+          34
+        ],
+        "aim,": [
+          35
+        ],
+        "firstly": [
+          37
+        ],
+        "create": [
+          38
+        ],
+        "taxonomy": [
+          40
+        ],
+        "coming": [
+          44
+        ],
+        "from": [
+          45,
+          53
+        ],
+        "the": [
+          46,
+          60,
+          70,
+          74
+        ],
+        "manual": [
+          47
+        ],
+        "analysis": [
+          48
+        ],
+        "5,000": [
+          50
+        ],
+        "commit": [
+          51
+        ],
+        "messages": [
+          52
+        ],
+        "8,280": [
+          54
+        ],
+        "apps.": [
+          56
+        ],
+        "Then,": [
+          57
+        ],
+        "study": [
+          59
+        ],
+        "frequency": [
+          61
+        ],
+        "each": [
+          63
+        ],
+        "category": [
+          64
+        ],
+        "identified": [
+          68
+        ],
+        "in": [
+          69
+        ],
+        "taxonomy,": [
+          71
+        ],
+        "feasibility": [
+          75
+        ],
+        "an": [
+          77
+        ],
+        "automated": [
+          78
+        ],
+        "classification": [
+          79
+        ],
+        "approach.": [
+          80
+        ],
+        "Our": [
+          81
+        ],
+        "findings": [
+          82
+        ],
+        "inform": [
+          84
+        ],
+        "used": [
+          86
+        ],
+        "by": [
+          87
+        ],
+        "both": [
+          88
+        ],
+        "practitioners": [
+          89
+        ],
+        "researchers": [
+          91
+        ],
+        "take": [
+          93
+        ],
+        "informed": [
+          94
+        ],
+        "decisions": [
+          95
+        ],
+        "or": [
+          96
+        ],
+        "support": [
+          97
+        ],
+        "other": [
+          98
+        ],
+        "software": [
+          99
+        ],
+        "engineering": [
+          100
+        ],
+        "activities.": [
+          101
+        ]
+      },
+      "counts_by_year": [
+        {
+          "year": 2025,
+          "cited_by_count": 1
+        },
+        {
+          "year": 2024,
+          "cited_by_count": 2
+        },
+        {
+          "year": 2022,
+          "cited_by_count": 1
+        },
+        {
+          "year": 2021,
+          "cited_by_count": 3
+        },
+        {
+          "year": 2020,
+          "cited_by_count": 2
+        },
+        {
+          "year": 2019,
+          "cited_by_count": 7
+        },
+        {
+          "year": 2018,
+          "cited_by_count": 4
+        }
+      ],
+      "updated_date": "2026-11-03T10:50:19.383937",
+      "created_date": "2018-05-17T00:00:00"
+    },
+    {
+      "id": "https://openalex.org/W3216061391",
+      "doi": null,
+      "title": "The Android Developer's Cookbook",
+      "display_name": "The Android Developer's Cookbook",
+      "relevance_score": 168.93805,
+      "publication_year": 2012,
+      "publication_date": "2012-07-01",
+      "ids": {
+        "openalex": "https://openalex.org/W3216061391",
+        "mag": "3216061391"
+      },
+      "language": "en",
+      "primary_location": {
+        "id": "mag:3216061391",
+        "doi": null,
+        "is_oa": false,
+        "landing_page_url": "https://openlibrary.telkomuniversity.ac.id/home/catalog/id/19446/slug/the-android-developer-s-cookbook.html",
+        "pdf_url": null,
+        "source": null,
+        "license": null,
+        "license_id": null,
+        "version": null,
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": null,
+        "raw_type": null
+      },
+      "parent_works": [],
+      "lineage": [
+        "https://openalex.org/W3216061391"
+      ],
+      "child_works_count": 0,
+      "type": "article",
+      "is_traditional": true,
+      "indexed_in": [],
+      "open_access": {
+        "is_oa": false,
+        "oa_status": "closed",
+        "oa_url": null,
+        "any_repository_has_fulltext": false
+      },
+      "authorships": [
+        {
+          "author_position": "first",
+          "author": {
+            "id": null,
+            "display_name": "James Steele",
+            "orcid": null,
+            "observed_orcids": []
+          },
+          "institutions": [],
+          "countries": [],
+          "is_corresponding": false,
+          "raw_author_name": "James Steele",
+          "raw_affiliation_strings": [],
+          "raw_orcid": null,
+          "affiliations": []
+        },
+        {
+          "author_position": "last",
+          "author": {
+            "id": "https://openalex.org/A5035618949",
+            "display_name": "Nelson To",
+            "orcid": null,
+            "observed_orcids": []
+          },
+          "institutions": [],
+          "countries": [],
+          "is_corresponding": false,
+          "raw_author_name": "Nelson To",
+          "raw_affiliation_strings": [],
+          "raw_orcid": null,
+          "affiliations": []
+        }
+      ],
+      "institutions": [],
+      "countries_distinct_count": 0,
+      "institutions_distinct_count": 0,
+      "corresponding_author_ids": [],
+      "corresponding_institution_ids": [],
+      "apc_list": null,
+      "apc_paid": null,
+      "fwci": 6.9635,
+      "is_authors_truncated": false,
+      "has_fulltext": false,
+      "cited_by_count": 18,
+      "citation_normalized_percentile": {
+        "value": 0.96543471,
+        "is_in_top_1_percent": false,
+        "is_in_top_10_percent": true
+      },
+      "cited_by_percentile_year": {
+        "min": 88,
+        "max": 98
+      },
+      "biblio": {
+        "volume": null,
+        "issue": null,
+        "first_page": null,
+        "last_page": null
+      },
+      "is_retracted": false,
+      "is_paratext": false,
+      "is_xpac": false,
+      "primary_topic": {
+        "id": "https://openalex.org/T12799",
+        "display_name": "Mobile and Web Applications",
+        "score": 0.9990000128746033,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1710",
+          "display_name": "Information Systems"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      "topics": [
+        {
+          "id": "https://openalex.org/T12799",
+          "display_name": "Mobile and Web Applications",
+          "score": 0.9990000128746033,
+          "subfield": {
+            "id": "https://openalex.org/subfields/1710",
+            "display_name": "Information Systems"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/17",
+            "display_name": "Computer Science"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T10430",
+          "display_name": "Software Engineering Techniques and Practices",
+          "score": 0.00019999999494757503,
+          "subfield": {
+            "id": "https://openalex.org/subfields/1710",
+            "display_name": "Information Systems"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/17",
+            "display_name": "Computer Science"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T13674",
+          "display_name": "Computer Science and Engineering",
+          "score": 9.999999747378752e-05,
+          "subfield": {
+            "id": "https://openalex.org/subfields/1702",
+            "display_name": "Artificial Intelligence"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/17",
+            "display_name": "Computer Science"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        }
+      ],
+      "keywords": [
+        {
+          "id": "https://openalex.org/keywords/android-application-development",
+          "display_name": "Android app development",
+          "score": 0.8569999933242798
+        },
+        {
+          "id": "https://openalex.org/keywords/mobile-application-development",
+          "display_name": "mobile application development",
+          "score": 0.718999981880188
+        },
+        {
+          "id": "https://openalex.org/keywords/android-sdk",
+          "display_name": "Android SDK",
+          "score": 0.7210000157356262
+        },
+        {
+          "id": "https://openalex.org/keywords/android-programming",
+          "display_name": "Android programming",
+          "score": 0.47999998927116394
+        }
+      ],
+      "concepts": [
+        {
+          "id": "https://openalex.org/C557433098",
+          "wikidata": "https://www.wikidata.org/wiki/Q94",
+          "display_name": "Android (operating system)",
+          "level": 2,
+          "score": 0.6356035470962524
+        },
+        {
+          "id": "https://openalex.org/C41008148",
+          "wikidata": "https://www.wikidata.org/wiki/Q21198",
+          "display_name": "Computer science",
+          "level": 0,
+          "score": 0.5056939125061035
+        },
+        {
+          "id": "https://openalex.org/C136764020",
+          "wikidata": "https://www.wikidata.org/wiki/Q466",
+          "display_name": "World Wide Web",
+          "level": 1,
+          "score": 0.44805291295051575
+        },
+        {
+          "id": "https://openalex.org/C111919701",
+          "wikidata": "https://www.wikidata.org/wiki/Q9135",
+          "display_name": "Operating system",
+          "level": 1,
+          "score": 0.3438076376914978
+        }
+      ],
+      "mesh": [],
+      "locations_count": 1,
+      "locations": [
+        {
+          "id": "mag:3216061391",
+          "doi": null,
+          "is_oa": false,
+          "landing_page_url": "https://openlibrary.telkomuniversity.ac.id/home/catalog/id/19446/slug/the-android-developer-s-cookbook.html",
+          "pdf_url": null,
+          "source": null,
+          "license": null,
+          "license_id": null,
+          "version": null,
+          "is_accepted": false,
+          "is_published": false,
+          "raw_source_name": null,
+          "raw_type": null
+        }
+      ],
+      "best_oa_location": null,
+      "sustainable_development_goals": [],
+      "study_designs": [],
+      "awards": [],
+      "funders": [],
+      "has_content": {
+        "pdf": false,
+        "grobid_xml": false
+      },
+      "content_urls": null,
+      "referenced_works_count": 0,
+      "referenced_works": [],
+      "related_works": [
+        "https://openalex.org/W7067921400",
+        "https://openalex.org/W7017309178",
+        "https://openalex.org/W2700282873",
+        "https://openalex.org/W6989271253",
+        "https://openalex.org/W7054705852",
+        "https://openalex.org/W3110429580",
+        "https://openalex.org/W2297344328",
+        "https://openalex.org/W2239343665",
+        "https://openalex.org/W3159278499",
+        "https://openalex.org/W3205036194"
+      ],
+      "abstract_inverted_index": null,
+      "counts_by_year": [
+        {
+          "year": 2018,
+          "cited_by_count": 1
+        },
+        {
+          "year": 2016,
+          "cited_by_count": 3
+        },
+        {
+          "year": 2015,
+          "cited_by_count": 2
+        },
+        {
+          "year": 2014,
+          "cited_by_count": 3
+        },
+        {
+          "year": 2013,
+          "cited_by_count": 5
+        },
+        {
+          "year": 2012,
+          "cited_by_count": 4
+        }
+      ],
+      "updated_date": "2026-11-14T11:04:58.165337",
+      "created_date": "2021-12-06T00:00:00"
+    },
+    {
+      "id": "https://openalex.org/W276167365",
+      "doi": "https://doi.org/10.1007/978-1-4842-0010-0_9",
+      "title": "The Official Android Developers Site",
+      "display_name": "The Official Android Developers Site",
+      "relevance_score": 163.49072,
+      "publication_year": 2014,
+      "publication_date": "2014-07-11",
+      "ids": {
+        "openalex": "https://openalex.org/W276167365",
+        "doi": "https://doi.org/10.1007/978-1-4842-0010-0_9",
+        "mag": "276167365"
+      },
+      "language": "en",
+      "primary_location": {
+        "id": "doi:10.1007/978-1-4842-0010-0_9",
+        "doi": "https://doi.org/10.1007/978-1-4842-0010-0_9",
+        "is_oa": false,
+        "landing_page_url": "https://doi.org/10.1007/978-1-4842-0010-0_9",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4306462844",
+          "display_name": "Apress eBooks",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "listed_in": [],
+          "host_organization": null,
+          "host_organization_name": null,
+          "host_organization_lineage": [],
+          "host_organization_lineage_names": [],
+          "type": "ebook platform"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Migrating to Android for iOS Developers",
+        "raw_type": "book-chapter"
+      },
+      "parent_works": [
+        {
+          "id": "https://openalex.org/W2476619200",
+          "display_name": "Migrating to Android for iOS Developers",
+          "relationship": "volume"
+        }
+      ],
+      "lineage": [
+        "https://openalex.org/W276167365",
+        "https://openalex.org/W2476619200"
+      ],
+      "child_works_count": 0,
+      "type": "book-chapter",
+      "is_traditional": true,
+      "indexed_in": [
+        "crossref"
+      ],
+      "open_access": {
+        "is_oa": false,
+        "oa_status": "closed",
+        "oa_url": null,
+        "any_repository_has_fulltext": false
+      },
+      "authorships": [
+        {
+          "author_position": "first",
+          "author": {
+            "id": "https://openalex.org/A5088186716",
+            "display_name": "Sean Liao",
+            "orcid": null,
+            "observed_orcids": []
+          },
+          "institutions": [],
+          "countries": [],
+          "is_corresponding": true,
+          "raw_author_name": "Sean Liao",
+          "raw_affiliation_strings": [
+            "CA, USA"
+          ],
+          "raw_orcid": null,
+          "affiliations": [
+            {
+              "raw_affiliation_string": "CA, USA",
+              "institution_ids": []
+            }
+          ]
+        }
+      ],
+      "institutions": [],
+      "countries_distinct_count": 0,
+      "institutions_distinct_count": 0,
+      "corresponding_author_ids": [
+        "https://openalex.org/A5088186716"
+      ],
+      "corresponding_institution_ids": [],
+      "apc_list": null,
+      "apc_paid": null,
+      "fwci": 0.0,
+      "is_authors_truncated": false,
+      "has_fulltext": false,
+      "cited_by_count": 0,
+      "citation_normalized_percentile": {
+        "value": 0.0,
+        "is_in_top_1_percent": false,
+        "is_in_top_10_percent": false
+      },
+      "cited_by_percentile_year": null,
+      "biblio": {
+        "volume": null,
+        "issue": null,
+        "first_page": "491",
+        "last_page": "502"
+      },
+      "is_retracted": false,
+      "is_paratext": false,
+      "is_xpac": false,
+      "primary_topic": {
+        "id": "https://openalex.org/T12799",
+        "display_name": "Mobile and Web Applications",
+        "score": 0.9990000128746033,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1710",
+          "display_name": "Information Systems"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      "topics": [
+        {
+          "id": "https://openalex.org/T12799",
+          "display_name": "Mobile and Web Applications",
+          "score": 0.9990000128746033,
+          "subfield": {
+            "id": "https://openalex.org/subfields/1710",
+            "display_name": "Information Systems"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/17",
+            "display_name": "Computer Science"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T10430",
+          "display_name": "Software Engineering Techniques and Practices",
+          "score": 0.0003000000142492354,
+          "subfield": {
+            "id": "https://openalex.org/subfields/1710",
+            "display_name": "Information Systems"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/17",
+            "display_name": "Computer Science"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T13681",
+          "display_name": "Engineering and Information Technology",
+          "score": 9.999999747378752e-05,
+          "subfield": {
+            "id": "https://openalex.org/subfields/1712",
+            "display_name": "Software"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/17",
+            "display_name": "Computer Science"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        }
+      ],
+      "keywords": [
+        {
+          "id": "https://openalex.org/keywords/android-sdk",
+          "display_name": "Android SDK",
+          "score": 0.7360000014305115
+        }
+      ],
+      "concepts": [
+        {
+          "id": "https://openalex.org/C557433098",
+          "wikidata": "https://www.wikidata.org/wiki/Q94",
+          "display_name": "Android (operating system)",
+          "level": 2,
+          "score": 0.8523516654968262
+        },
+        {
+          "id": "https://openalex.org/C41008148",
+          "wikidata": "https://www.wikidata.org/wiki/Q21198",
+          "display_name": "Computer science",
+          "level": 0,
+          "score": 0.6053083539009094
+        },
+        {
+          "id": "https://openalex.org/C3017891749",
+          "wikidata": "https://www.wikidata.org/wiki/Q94",
+          "display_name": "Android application",
+          "level": 3,
+          "score": 0.5351997017860413
+        },
+        {
+          "id": "https://openalex.org/C136764020",
+          "wikidata": "https://www.wikidata.org/wiki/Q466",
+          "display_name": "World Wide Web",
+          "level": 1,
+          "score": 0.4772346317768097
+        },
+        {
+          "id": "https://openalex.org/C111919701",
+          "wikidata": "https://www.wikidata.org/wiki/Q9135",
+          "display_name": "Operating system",
+          "level": 1,
+          "score": 0.4147437512874603
+        },
+        {
+          "id": "https://openalex.org/C38652104",
+          "wikidata": "https://www.wikidata.org/wiki/Q3510521",
+          "display_name": "Computer security",
+          "level": 1,
+          "score": 0.3253183364868164
+        }
+      ],
+      "mesh": [],
+      "locations_count": 1,
+      "locations": [
+        {
+          "id": "doi:10.1007/978-1-4842-0010-0_9",
+          "doi": "https://doi.org/10.1007/978-1-4842-0010-0_9",
+          "is_oa": false,
+          "landing_page_url": "https://doi.org/10.1007/978-1-4842-0010-0_9",
+          "pdf_url": null,
+          "source": {
+            "id": "https://openalex.org/S4306462844",
+            "display_name": "Apress eBooks",
+            "issn_l": null,
+            "issn": null,
+            "is_oa": false,
+            "is_in_doaj": false,
+            "is_core": false,
+            "listed_in": [],
+            "host_organization": null,
+            "host_organization_name": null,
+            "host_organization_lineage": [],
+            "host_organization_lineage_names": [],
+            "type": "ebook platform"
+          },
+          "license": null,
+          "license_id": null,
+          "version": "publishedVersion",
+          "is_accepted": true,
+          "is_published": true,
+          "raw_source_name": "Migrating to Android for iOS Developers",
+          "raw_type": "book-chapter"
+        }
+      ],
+      "best_oa_location": null,
+      "sustainable_development_goals": [],
+      "study_designs": [],
+      "awards": [],
+      "funders": [],
+      "has_content": {
+        "pdf": false,
+        "grobid_xml": false
+      },
+      "content_urls": null,
+      "referenced_works_count": 0,
+      "referenced_works": [],
+      "related_works": [
+        "https://openalex.org/W175081389",
+        "https://openalex.org/W4235990991",
+        "https://openalex.org/W4241325279",
+        "https://openalex.org/W994256196",
+        "https://openalex.org/W1975296856",
+        "https://openalex.org/W4238710006",
+        "https://openalex.org/W3216061391",
+        "https://openalex.org/W2468616566",
+        "https://openalex.org/W48153011",
+        "https://openalex.org/W2227681643"
+      ],
+      "abstract_inverted_index": {
+        "Just": [
+          0
+        ],
+        "like": [
+          1
+        ],
+        "the": [
+          2,
+          6,
+          15,
+          24,
+          41,
+          48,
+          54
+        ],
+        "iOS": [
+          3
+        ],
+        "Dev": [
+          4
+        ],
+        "Center,": [
+          5
+        ],
+        "official": [
+          7
+        ],
+        "Android": [
+          8,
+          25
+        ],
+        "Developers": [
+          9
+        ],
+        "site": [
+          10
+        ],
+        "(": [
+          11
+        ],
+        "http://developer.android.com/index.html": [
+          12
+        ],
+        ")": [
+          13
+        ],
+        "is": [
+          14,
+          45
+        ],
+        "only": [
+          16
+        ],
+        "place": [
+          17
+        ],
+        "you": [
+          18
+        ],
+        "need": [
+          19
+        ],
+        "to": [
+          20,
+          22
+        ],
+        "go": [
+          21
+        ],
+        "get": [
+          23
+        ],
+        "SDK": [
+          26
+        ],
+        "API": [
+          27
+        ],
+        "syntax,": [
+          28
+        ],
+        "rules,": [
+          29
+        ],
+        "and": [
+          30,
+          38,
+          47
+        ],
+        "definitions.": [
+          31
+        ],
+        "These": [
+          32
+        ],
+        "keywords": [
+          33,
+          49
+        ],
+        "were": [
+          34
+        ],
+        "added": [
+          35
+        ],
+        "by": [
+          36,
+          40
+        ],
+        "machine": [
+          37
+        ],
+        "not": [
+          39
+        ],
+        "authors.": [
+          42
+        ],
+        "This": [
+          43
+        ],
+        "process": [
+          44
+        ],
+        "experimental": [
+          46
+        ],
+        "may": [
+          50
+        ],
+        "be": [
+          51
+        ],
+        "updated": [
+          52
+        ],
+        "as": [
+          53
+        ],
+        "learning": [
+          55
+        ],
+        "algorithm": [
+          56
+        ],
+        "improves.": [
+          57
+        ]
+      },
+      "counts_by_year": [],
+      "updated_date": "2026-11-15T12:55:33.944570",
+      "created_date": "2016-06-24T00:00:00"
+    }
+  ],
+  "group_by": []
+}

@@ -1,0 +1,3854 @@
+{
+  "meta": {
+    "notice": "No API key, so this request shares one free daily budget ($0.10) with everyone on your network's IP address. Get a free key with its own $1/day at https://openalex.org/settings/api and add api_key=YOUR_KEY to your requests. An AI agent can get one for its user in one call: POST https://api.openalex.org/api-keys with {\"email\": \"<your user's email>\"}; we email them a link, and the key works once they click it. Docs for agents: https://help.openalex.org/llms.txt",
+    "count": 1563049,
+    "db_response_time_ms": 338,
+    "page": 1,
+    "per_page": 5,
+    "groups_count": null,
+    "x_query": {
+      "oql": "get works with (REQUIREMENTS MANAGER) in the title, abstract, or full text",
+      "x_new_oql": "get works with (REQUIREMENTS MANAGER) in the title, abstract, or full text",
+      "oqo": {
+        "get_rows": "works",
+        "filter_rows": [
+          {
+            "column_id": "fulltext.search",
+            "value": "REQUIREMENTS MANAGER",
+            "operator": "has"
+          }
+        ]
+      },
+      "url": "/works?filter=fulltext.search:REQUIREMENTS MANAGER&per_page=5",
+      "order": "best matches first",
+      "order_default": true
+    },
+    "cost_usd": 0.001
+  },
+  "results": [
+    {
+      "id": "https://openalex.org/W2038410937",
+      "doi": "https://doi.org/10.1108/ijmpb-04-2013-0017",
+      "title": "Requirement managers’ roles in industrial, platform development",
+      "display_name": "Requirement managers’ roles in industrial, platform development",
+      "relevance_score": 118.86949,
+      "publication_year": 2014,
+      "publication_date": "2014-05-27",
+      "ids": {
+        "openalex": "https://openalex.org/W2038410937",
+        "doi": "https://doi.org/10.1108/ijmpb-04-2013-0017",
+        "mag": "2038410937"
+      },
+      "language": "en",
+      "primary_location": {
+        "id": "doi:10.1108/ijmpb-04-2013-0017",
+        "doi": "https://doi.org/10.1108/ijmpb-04-2013-0017",
+        "is_oa": false,
+        "landing_page_url": "https://doi.org/10.1108/ijmpb-04-2013-0017",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S81125728",
+          "display_name": "International Journal of Managing Projects in Business",
+          "issn_l": "1753-8378",
+          "issn": [
+            "1753-8378",
+            "1753-8386"
+          ],
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": true,
+          "listed_in": [
+            "abdc-c",
+            "anvur-scientific",
+            "cwts-core",
+            "fnege-4",
+            "jufo-1",
+            "norway-1",
+            "poland-70",
+            "russia-white-list-1",
+            "vabb-shw"
+          ],
+          "host_organization": "https://openalex.org/P4310319811",
+          "host_organization_name": "Emerald Publishing Limited",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310319811"
+          ],
+          "host_organization_lineage_names": [
+            "Emerald Publishing Limited"
+          ],
+          "type": "journal"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "International Journal of Managing Projects in Business",
+        "raw_type": "journal-article"
+      },
+      "parent_works": [],
+      "lineage": [
+        "https://openalex.org/W2038410937"
+      ],
+      "child_works_count": 0,
+      "type": "article",
+      "is_traditional": true,
+      "indexed_in": [
+        "crossref"
+      ],
+      "open_access": {
+        "is_oa": false,
+        "oa_status": "closed",
+        "oa_url": null,
+        "any_repository_has_fulltext": false
+      },
+      "authorships": [
+        {
+          "author_position": "first",
+          "author": {
+            "id": "https://openalex.org/A5004113437",
+            "display_name": "Thommie Burström",
+            "orcid": "https://orcid.org/0000-0001-5565-953X",
+            "observed_orcids": [
+              "https://orcid.org/0000-0001-5565-953X"
+            ]
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I5085271",
+              "display_name": "Hanken School of Economics",
+              "ror": "https://ror.org/026086s92",
+              "country_code": "FI",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I5085271"
+              ]
+            }
+          ],
+          "countries": [
+            "FI"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "Thommie Burström",
+          "raw_affiliation_strings": [
+            "Hanken School of Economics, Helsinki, Finland"
+          ],
+          "raw_orcid": null,
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Hanken School of Economics, Helsinki, Finland",
+              "institution_ids": [
+                "https://openalex.org/I5085271"
+              ]
+            }
+          ]
+        },
+        {
+          "author_position": "last",
+          "author": {
+            "id": "https://openalex.org/A5103927006",
+            "display_name": "Timothy L. Wilson",
+            "orcid": null,
+            "observed_orcids": []
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I90267481",
+              "display_name": "Umeå University",
+              "ror": "https://ror.org/05kb8h459",
+              "country_code": "SE",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I90267481"
+              ]
+            }
+          ],
+          "countries": [
+            "SE"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "Timothy L. Wilson",
+          "raw_affiliation_strings": [
+            "Umeå School of Business and Economics, Umeå University, Umeå, Sweden",
+            "(Umeå School of Business and Economics, Umeå University, Umea, Sweden)"
+          ],
+          "raw_orcid": null,
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Umeå School of Business and Economics, Umeå University, Umeå, Sweden",
+              "institution_ids": [
+                "https://openalex.org/I90267481"
+              ]
+            },
+            {
+              "raw_affiliation_string": "(Umeå School of Business and Economics, Umeå University, Umea, Sweden)",
+              "institution_ids": [
+                "https://openalex.org/I90267481"
+              ]
+            }
+          ]
+        }
+      ],
+      "institutions": [],
+      "countries_distinct_count": 2,
+      "institutions_distinct_count": 2,
+      "corresponding_author_ids": [],
+      "corresponding_institution_ids": [],
+      "apc_list": null,
+      "apc_paid": null,
+      "fwci": 1.0104,
+      "is_authors_truncated": false,
+      "has_fulltext": false,
+      "cited_by_count": 5,
+      "citation_normalized_percentile": {
+        "value": 0.8146791,
+        "is_in_top_1_percent": false,
+        "is_in_top_10_percent": false
+      },
+      "cited_by_percentile_year": {
+        "min": 88,
+        "max": 95
+      },
+      "biblio": {
+        "volume": "7",
+        "issue": "3",
+        "first_page": "493",
+        "last_page": "517"
+      },
+      "is_retracted": false,
+      "is_paratext": false,
+      "is_xpac": false,
+      "primary_topic": {
+        "id": "https://openalex.org/T10430",
+        "display_name": "Software Engineering Techniques and Practices",
+        "score": 0.7339000105857849,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1710",
+          "display_name": "Information Systems"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      "topics": [
+        {
+          "id": "https://openalex.org/T10430",
+          "display_name": "Software Engineering Techniques and Practices",
+          "score": 0.7339000105857849,
+          "subfield": {
+            "id": "https://openalex.org/subfields/1710",
+            "display_name": "Information Systems"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/17",
+            "display_name": "Computer Science"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T11729",
+          "display_name": "Product Development and Customization",
+          "score": 0.21080000698566437,
+          "subfield": {
+            "id": "https://openalex.org/subfields/1405",
+            "display_name": "Management of Technology and Innovation"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/14",
+            "display_name": "Business, Management and Accounting"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/2",
+            "display_name": "Social Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T12000",
+          "display_name": "Systems Engineering Methodologies and Applications",
+          "score": 0.02969999983906746,
+          "subfield": {
+            "id": "https://openalex.org/subfields/2207",
+            "display_name": "Control and Systems Engineering"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/22",
+            "display_name": "Engineering"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        }
+      ],
+      "keywords": [
+        {
+          "id": "https://openalex.org/keywords/requirements-management",
+          "display_name": "requirements management",
+          "score": 0.6290000081062317
+        },
+        {
+          "id": "https://openalex.org/keywords/industrial-platforms",
+          "display_name": "industrial platforms",
+          "score": 0.6909999847412109
+        },
+        {
+          "id": "https://openalex.org/keywords/new-product-development",
+          "display_name": "new product development",
+          "score": 0.8930000066757202
+        },
+        {
+          "id": "https://openalex.org/keywords/project-management-roles",
+          "display_name": "project management roles",
+          "score": 0.6460000276565552
+        },
+        {
+          "id": "https://openalex.org/keywords/role-fulfillment",
+          "display_name": "role fulfillment",
+          "score": 0.453000009059906
+        },
+        {
+          "id": "https://openalex.org/keywords/work-practices",
+          "display_name": "work practices",
+          "score": 0.5879999995231628
+        },
+        {
+          "id": "https://openalex.org/keywords/flagship-projects",
+          "display_name": "flagship projects",
+          "score": 0.5210000276565552
+        }
+      ],
+      "concepts": [
+        {
+          "id": "https://openalex.org/C195094911",
+          "wikidata": "https://www.wikidata.org/wiki/Q14167904",
+          "display_name": "Process management",
+          "level": 1,
+          "score": 0.6423218250274658
+        },
+        {
+          "id": "https://openalex.org/C2776950860",
+          "wikidata": "https://www.wikidata.org/wiki/Q2914681",
+          "display_name": "Originality",
+          "level": 3,
+          "score": 0.6235235333442688
+        },
+        {
+          "id": "https://openalex.org/C182306322",
+          "wikidata": "https://www.wikidata.org/wiki/Q1779371",
+          "display_name": "Order (exchange)",
+          "level": 2,
+          "score": 0.553642213344574
+        },
+        {
+          "id": "https://openalex.org/C98045186",
+          "wikidata": "https://www.wikidata.org/wiki/Q205663",
+          "display_name": "Process (computing)",
+          "level": 2,
+          "score": 0.5480093359947205
+        },
+        {
+          "id": "https://openalex.org/C15952604",
+          "wikidata": "https://www.wikidata.org/wiki/Q179012",
+          "display_name": "Project management",
+          "level": 2,
+          "score": 0.4978060722351074
+        },
+        {
+          "id": "https://openalex.org/C144133560",
+          "wikidata": "https://www.wikidata.org/wiki/Q4830453",
+          "display_name": "Business",
+          "level": 0,
+          "score": 0.4916701912879944
+        },
+        {
+          "id": "https://openalex.org/C18762648",
+          "wikidata": "https://www.wikidata.org/wiki/Q42213",
+          "display_name": "Work (physics)",
+          "level": 2,
+          "score": 0.4560033082962036
+        },
+        {
+          "id": "https://openalex.org/C56739046",
+          "wikidata": "https://www.wikidata.org/wiki/Q192060",
+          "display_name": "Knowledge management",
+          "level": 1,
+          "score": 0.45558011531829834
+        },
+        {
+          "id": "https://openalex.org/C19351080",
+          "wikidata": "https://www.wikidata.org/wiki/Q1395034",
+          "display_name": "New product development",
+          "level": 2,
+          "score": 0.4489785432815552
+        },
+        {
+          "id": "https://openalex.org/C2776291640",
+          "wikidata": "https://www.wikidata.org/wiki/Q2912517",
+          "display_name": "Value (mathematics)",
+          "level": 2,
+          "score": 0.43666568398475647
+        },
+        {
+          "id": "https://openalex.org/C90673727",
+          "wikidata": "https://www.wikidata.org/wiki/Q901718",
+          "display_name": "Product (mathematics)",
+          "level": 2,
+          "score": 0.42788365483283997
+        },
+        {
+          "id": "https://openalex.org/C41008148",
+          "wikidata": "https://www.wikidata.org/wiki/Q21198",
+          "display_name": "Computer science",
+          "level": 0,
+          "score": 0.36812615394592285
+        },
+        {
+          "id": "https://openalex.org/C144024400",
+          "wikidata": "https://www.wikidata.org/wiki/Q21201",
+          "display_name": "Sociology",
+          "level": 0,
+          "score": 0.1848565936088562
+        },
+        {
+          "id": "https://openalex.org/C127413603",
+          "wikidata": "https://www.wikidata.org/wiki/Q11023",
+          "display_name": "Engineering",
+          "level": 0,
+          "score": 0.18398547172546387
+        },
+        {
+          "id": "https://openalex.org/C162853370",
+          "wikidata": "https://www.wikidata.org/wiki/Q39809",
+          "display_name": "Marketing",
+          "level": 1,
+          "score": 0.18360218405723572
+        },
+        {
+          "id": "https://openalex.org/C190248442",
+          "wikidata": "https://www.wikidata.org/wiki/Q839486",
+          "display_name": "Qualitative research",
+          "level": 2,
+          "score": 0.17492830753326416
+        },
+        {
+          "id": "https://openalex.org/C201995342",
+          "wikidata": "https://www.wikidata.org/wiki/Q682496",
+          "display_name": "Systems engineering",
+          "level": 1,
+          "score": 0.13250291347503662
+        },
+        {
+          "id": "https://openalex.org/C111919701",
+          "wikidata": "https://www.wikidata.org/wiki/Q9135",
+          "display_name": "Operating system",
+          "level": 1,
+          "score": 0.0
+        },
+        {
+          "id": "https://openalex.org/C10138342",
+          "wikidata": "https://www.wikidata.org/wiki/Q43015",
+          "display_name": "Finance",
+          "level": 1,
+          "score": 0.0
+        },
+        {
+          "id": "https://openalex.org/C33923547",
+          "wikidata": "https://www.wikidata.org/wiki/Q395",
+          "display_name": "Mathematics",
+          "level": 0,
+          "score": 0.0
+        },
+        {
+          "id": "https://openalex.org/C2524010",
+          "wikidata": "https://www.wikidata.org/wiki/Q8087",
+          "display_name": "Geometry",
+          "level": 1,
+          "score": 0.0
+        },
+        {
+          "id": "https://openalex.org/C119857082",
+          "wikidata": "https://www.wikidata.org/wiki/Q2539",
+          "display_name": "Machine learning",
+          "level": 1,
+          "score": 0.0
+        },
+        {
+          "id": "https://openalex.org/C78519656",
+          "wikidata": "https://www.wikidata.org/wiki/Q101333",
+          "display_name": "Mechanical engineering",
+          "level": 1,
+          "score": 0.0
+        },
+        {
+          "id": "https://openalex.org/C36289849",
+          "wikidata": "https://www.wikidata.org/wiki/Q34749",
+          "display_name": "Social science",
+          "level": 1,
+          "score": 0.0
+        }
+      ],
+      "mesh": [],
+      "locations_count": 1,
+      "locations": [
+        {
+          "id": "doi:10.1108/ijmpb-04-2013-0017",
+          "doi": "https://doi.org/10.1108/ijmpb-04-2013-0017",
+          "is_oa": false,
+          "landing_page_url": "https://doi.org/10.1108/ijmpb-04-2013-0017",
+          "pdf_url": null,
+          "source": {
+            "id": "https://openalex.org/S81125728",
+            "display_name": "International Journal of Managing Projects in Business",
+            "issn_l": "1753-8378",
+            "issn": [
+              "1753-8378",
+              "1753-8386"
+            ],
+            "is_oa": false,
+            "is_in_doaj": false,
+            "is_core": true,
+            "listed_in": [
+              "abdc-c",
+              "anvur-scientific",
+              "cwts-core",
+              "fnege-4",
+              "jufo-1",
+              "norway-1",
+              "poland-70",
+              "russia-white-list-1",
+              "vabb-shw"
+            ],
+            "host_organization": "https://openalex.org/P4310319811",
+            "host_organization_name": "Emerald Publishing Limited",
+            "host_organization_lineage": [
+              "https://openalex.org/P4310319811"
+            ],
+            "host_organization_lineage_names": [
+              "Emerald Publishing Limited"
+            ],
+            "type": "journal"
+          },
+          "license": null,
+          "license_id": null,
+          "version": "publishedVersion",
+          "is_accepted": true,
+          "is_published": true,
+          "raw_source_name": "International Journal of Managing Projects in Business",
+          "raw_type": "journal-article"
+        }
+      ],
+      "best_oa_location": null,
+      "sustainable_development_goals": [],
+      "study_designs": [],
+      "awards": [],
+      "funders": [],
+      "has_content": {
+        "grobid_xml": false,
+        "pdf": false
+      },
+      "content_urls": null,
+      "referenced_works_count": 79,
+      "referenced_works": [
+        "https://openalex.org/W52169070",
+        "https://openalex.org/W162175634",
+        "https://openalex.org/W566995298",
+        "https://openalex.org/W1506150625",
+        "https://openalex.org/W1554876926",
+        "https://openalex.org/W1602461602",
+        "https://openalex.org/W1607421984",
+        "https://openalex.org/W1646459783",
+        "https://openalex.org/W1727374591",
+        "https://openalex.org/W1815588791",
+        "https://openalex.org/W1964319848",
+        "https://openalex.org/W1965779102",
+        "https://openalex.org/W1967254945",
+        "https://openalex.org/W1969973241",
+        "https://openalex.org/W1973989886",
+        "https://openalex.org/W1975027265",
+        "https://openalex.org/W1975044874",
+        "https://openalex.org/W1979290264",
+        "https://openalex.org/W1982539258",
+        "https://openalex.org/W1985535243",
+        "https://openalex.org/W1992802225",
+        "https://openalex.org/W1993536106",
+        "https://openalex.org/W1998149876",
+        "https://openalex.org/W2001053240",
+        "https://openalex.org/W2002370191",
+        "https://openalex.org/W2006248980",
+        "https://openalex.org/W2018162694",
+        "https://openalex.org/W2019608493",
+        "https://openalex.org/W2020597523",
+        "https://openalex.org/W2021109866",
+        "https://openalex.org/W2021543673",
+        "https://openalex.org/W2023130487",
+        "https://openalex.org/W2027917244",
+        "https://openalex.org/W2028169496",
+        "https://openalex.org/W2038476017",
+        "https://openalex.org/W2041953783",
+        "https://openalex.org/W2043514371",
+        "https://openalex.org/W2047705973",
+        "https://openalex.org/W2049220625",
+        "https://openalex.org/W2053880955",
+        "https://openalex.org/W2054470241",
+        "https://openalex.org/W2055987874",
+        "https://openalex.org/W2057036237",
+        "https://openalex.org/W2063702079",
+        "https://openalex.org/W2066202036",
+        "https://openalex.org/W2072055694",
+        "https://openalex.org/W2073799508",
+        "https://openalex.org/W2075904323",
+        "https://openalex.org/W2083211843",
+        "https://openalex.org/W2083650183",
+        "https://openalex.org/W2085071100",
+        "https://openalex.org/W2094301633",
+        "https://openalex.org/W2101563543",
+        "https://openalex.org/W2103484761",
+        "https://openalex.org/W2104665163",
+        "https://openalex.org/W2110947599",
+        "https://openalex.org/W2113953571",
+        "https://openalex.org/W2116534021",
+        "https://openalex.org/W2120177937",
+        "https://openalex.org/W2125237007",
+        "https://openalex.org/W2134477002",
+        "https://openalex.org/W2134585351",
+        "https://openalex.org/W2138912833",
+        "https://openalex.org/W2141246922",
+        "https://openalex.org/W2141951329",
+        "https://openalex.org/W2144884044",
+        "https://openalex.org/W2145241626",
+        "https://openalex.org/W2147116970",
+        "https://openalex.org/W2154370737",
+        "https://openalex.org/W2157342748",
+        "https://openalex.org/W2164965146",
+        "https://openalex.org/W2168290613",
+        "https://openalex.org/W2171999827",
+        "https://openalex.org/W2488358688",
+        "https://openalex.org/W2577935086",
+        "https://openalex.org/W2809884868",
+        "https://openalex.org/W3122736754",
+        "https://openalex.org/W3147181238",
+        "https://openalex.org/W4243700764"
+      ],
+      "related_works": [
+        "https://openalex.org/W151578481",
+        "https://openalex.org/W3007418729",
+        "https://openalex.org/W2036106742",
+        "https://openalex.org/W113902499",
+        "https://openalex.org/W194454762",
+        "https://openalex.org/W2404176965",
+        "https://openalex.org/W6902208062",
+        "https://openalex.org/W2421659645",
+        "https://openalex.org/W2044861713",
+        "https://openalex.org/W2358892626"
+      ],
+      "abstract_inverted_index": {
+        "Purpose": [
+          0
+        ],
+        "–": [
+          1,
+          23,
+          65,
+          101,
+          136,
+          188
+        ],
+        "The": [
+          2,
+          50,
+          66,
+          117
+        ],
+        "purpose": [
+          3
+        ],
+        "of": [
+          4,
+          14,
+          32,
+          52,
+          114,
+          132,
+          171,
+          196
+        ],
+        "this": [
+          5,
+          120
+        ],
+        "paper": [
+          6,
+          25,
+          138,
+          190
+        ],
+        "is": [
+          7,
+          26,
+          71,
+          176
+        ],
+        "to": [
+          8,
+          91,
+          159
+        ],
+        "describe": [
+          9
+        ],
+        "and": [
+          10,
+          41,
+          44,
+          55,
+          83
+        ],
+        "analyze": [
+          11
+        ],
+        "the": [
+          12,
+          103,
+          169
+        ],
+        "role": [
+          13,
+          58,
+          69,
+          163
+        ],
+        "requirement": [
+          15,
+          45,
+          60,
+          67,
+          197
+        ],
+        "managers": [
+          16,
+          61
+        ],
+        "in": [
+          17,
+          89,
+          119,
+          157
+        ],
+        "new": [
+          18,
+          162,
+          173
+        ],
+        "product": [
+          19
+        ],
+        "development": [
+          20
+        ],
+        "projects.": [
+          21
+        ],
+        "Design/methodology/approach": [
+          22
+        ],
+        "This": [
+          24,
+          137,
+          189
+        ],
+        "based": [
+          27,
+          106
+        ],
+        "on": [
+          28,
+          107,
+          184
+        ],
+        "a": [
+          29,
+          95,
+          108,
+          161,
+          165
+        ],
+        "case": [
+          30,
+          110
+        ],
+        "study": [
+          31,
+          121
+        ],
+        "an": [
+          33
+        ],
+        "industrial": [
+          34
+        ],
+        "platform": [
+          35
+        ],
+        "project.": [
+          36,
+          98
+        ],
+        "Sixty-eight": [
+          37
+        ],
+        "persons": [
+          38
+        ],
+        "were": [
+          39,
+          48
+        ],
+        "interviewed": [
+          40
+        ],
+        "project": [
+          42,
+          166,
+          200
+        ],
+        "prerequisites": [
+          43
+        ],
+        "specifications": [
+          46
+        ],
+        "documents": [
+          47
+        ],
+        "studied.": [
+          49
+        ],
+        "roles": [
+          51,
+          142
+        ],
+        "specific": [
+          53
+        ],
+        "individuals": [
+          54
+        ],
+        "their": [
+          56
+        ],
+        "formal": [
+          57
+        ],
+        "as": [
+          59,
+          78
+        ],
+        "are": [
+          62,
+          87,
+          113
+        ],
+        "reported.": [
+          63
+        ],
+        "Findings": [
+          64
+        ],
+        "manager's": [
+          68,
+          198
+        ],
+        "fulfillment": [
+          70
+        ],
+        "performed": [
+          72,
+          156
+        ],
+        "through": [
+          73
+        ],
+        "five": [
+          74
+        ],
+        "major": [
+          75
+        ],
+        "activities": [
+          76,
+          86
+        ],
+        "described": [
+          77
+        ],
+        "developing,": [
+          79
+        ],
+        "anchoring,": [
+          80
+        ],
+        "re-organizing,": [
+          81
+        ],
+        "routinizing,": [
+          82
+        ],
+        "positioning.": [
+          84
+        ],
+        "These": [
+          85
+        ],
+        "essential": [
+          88
+        ],
+        "order": [
+          90,
+          158
+        ],
+        "manage": [
+          92
+        ],
+        "working": [
+          93
+        ],
+        "with": [
+          94
+        ],
+        "large": [
+          96
+        ],
+        "flagship": [
+          97
+        ],
+        "Research": [
+          99
+        ],
+        "limitations/implications": [
+          100
+        ],
+        "Because": [
+          102
+        ],
+        "research": [
+          104
+        ],
+        "was": [
+          105
+        ],
+        "single": [
+          109
+        ],
+        "study,": [
+          111
+        ],
+        "there": [
+          112
+        ],
+        "course": [
+          115
+        ],
+        "limitations.": [
+          116
+        ],
+        "findings": [
+          118
+        ],
+        "may": [
+          122,
+          153
+        ],
+        "therefore": [
+          123,
+          180
+        ],
+        "not": [
+          124,
+          144
+        ],
+        "be": [
+          125,
+          145
+        ],
+        "generalized,": [
+          126
+        ],
+        "but": [
+          127
+        ],
+        "merely": [
+          128
+        ],
+        "suggest": [
+          129
+        ],
+        "other": [
+          130
+        ],
+        "areas": [
+          131
+        ],
+        "research.": [
+          133
+        ],
+        "Practical": [
+          134
+        ],
+        "implications": [
+          135
+        ],
+        "argues": [
+          139
+        ],
+        "that": [
+          140
+        ],
+        "functional": [
+          141
+        ],
+        "should": [
+          143,
+          179
+        ],
+        "taken": [
+          146
+        ],
+        "for": [
+          147
+        ],
+        "granted.": [
+          148
+        ],
+        "Even": [
+          149
+        ],
+        "though": [
+          150
+        ],
+        "significant": [
+          151
+        ],
+        "efforts": [
+          152
+        ],
+        "have": [
+          154
+        ],
+        "been": [
+          155
+        ],
+        "establish": [
+          160
+        ],
+        "within": [
+          164
+        ],
+        "management": [
+          167
+        ],
+        "setting,": [
+          168
+        ],
+        "process": [
+          170
+        ],
+        "establishing": [
+          172
+        ],
+        "work": [
+          174
+        ],
+        "practices": [
+          175
+        ],
+        "complex.": [
+          177
+        ],
+        "Managers": [
+          178
+        ],
+        "investigate": [
+          181
+        ],
+        "inter-functional": [
+          182
+        ],
+        "integration": [
+          183
+        ],
+        "ongoing": [
+          185,
+          199
+        ],
+        "bases.": [
+          186
+        ],
+        "Originality/value": [
+          187
+        ],
+        "provides": [
+          191
+        ],
+        "important": [
+          192
+        ],
+        "insights": [
+          193
+        ],
+        "into": [
+          194
+        ],
+        "aspects": [
+          195
+        ],
+        "activities.": [
+          201
+        ]
+      },
+      "counts_by_year": [
+        {
+          "year": 2020,
+          "cited_by_count": 1
+        },
+        {
+          "year": 2019,
+          "cited_by_count": 2
+        },
+        {
+          "year": 2015,
+          "cited_by_count": 1
+        },
+        {
+          "year": 2014,
+          "cited_by_count": 1
+        }
+      ],
+      "updated_date": "2026-11-14T11:04:58.165337",
+      "created_date": "2016-06-24T00:00:00"
+    },
+    {
+      "id": "https://openalex.org/W2952566301",
+      "doi": null,
+      "title": "Development of a requirement manager application",
+      "display_name": "Development of a requirement manager application",
+      "relevance_score": 115.072914,
+      "publication_year": 2019,
+      "publication_date": "2019-02-12",
+      "ids": {
+        "openalex": "https://openalex.org/W2952566301",
+        "mag": "2952566301"
+      },
+      "language": "en",
+      "primary_location": {
+        "id": "pmh:oai:recercat.cat:2072/355502",
+        "doi": null,
+        "is_oa": true,
+        "landing_page_url": "http://hdl.handle.net/2117/132785",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4306402147",
+          "display_name": "RECERCAT (Consorci de Serveis Universitaris de Catalunya)",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "listed_in": [],
+          "host_organization": "https://openalex.org/I4210090028",
+          "host_organization_name": "Consorci de Serveis Universitaris de Catalunya",
+          "host_organization_lineage": [
+            "https://openalex.org/I4210090028"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": "other-oa",
+        "license_id": "https://openalex.org/licenses/other-oa",
+        "version": "submittedVersion",
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": "",
+        "raw_type": "info:eu-repo/semantics/masterThesis"
+      },
+      "parent_works": [],
+      "lineage": [
+        "https://openalex.org/W2952566301"
+      ],
+      "child_works_count": 0,
+      "type": "dissertation",
+      "is_traditional": true,
+      "indexed_in": [],
+      "open_access": {
+        "is_oa": true,
+        "oa_status": "green",
+        "oa_url": "http://hdl.handle.net/2117/132785",
+        "any_repository_has_fulltext": true
+      },
+      "authorships": [
+        {
+          "author_position": "first",
+          "author": {
+            "id": "https://openalex.org/A5042879869",
+            "display_name": "David Rodríguez Castelló",
+            "orcid": null,
+            "observed_orcids": []
+          },
+          "institutions": [],
+          "countries": [],
+          "is_corresponding": true,
+          "raw_author_name": "David Rodríguez Castelló",
+          "raw_affiliation_strings": [],
+          "raw_orcid": null,
+          "affiliations": []
+        }
+      ],
+      "institutions": [],
+      "countries_distinct_count": 0,
+      "institutions_distinct_count": 0,
+      "corresponding_author_ids": [
+        "https://openalex.org/A5042879869"
+      ],
+      "corresponding_institution_ids": [],
+      "apc_list": null,
+      "apc_paid": null,
+      "fwci": null,
+      "is_authors_truncated": false,
+      "has_fulltext": false,
+      "cited_by_count": 0,
+      "citation_normalized_percentile": null,
+      "cited_by_percentile_year": null,
+      "biblio": {
+        "volume": null,
+        "issue": null,
+        "first_page": null,
+        "last_page": null
+      },
+      "is_retracted": false,
+      "is_paratext": false,
+      "is_xpac": false,
+      "primary_topic": {
+        "id": "https://openalex.org/T10430",
+        "display_name": "Software Engineering Techniques and Practices",
+        "score": 0.9702000021934509,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1710",
+          "display_name": "Information Systems"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      "topics": [
+        {
+          "id": "https://openalex.org/T10430",
+          "display_name": "Software Engineering Techniques and Practices",
+          "score": 0.9702000021934509,
+          "subfield": {
+            "id": "https://openalex.org/subfields/1710",
+            "display_name": "Information Systems"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/17",
+            "display_name": "Computer Science"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T10639",
+          "display_name": "Advanced Software Engineering Methodologies",
+          "score": 0.016499999910593033,
+          "subfield": {
+            "id": "https://openalex.org/subfields/1712",
+            "display_name": "Software"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/17",
+            "display_name": "Computer Science"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T13681",
+          "display_name": "Engineering and Information Technology",
+          "score": 0.00559999980032444,
+          "subfield": {
+            "id": "https://openalex.org/subfields/1712",
+            "display_name": "Software"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/17",
+            "display_name": "Computer Science"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        }
+      ],
+      "keywords": [
+        {
+          "id": "https://openalex.org/keywords/requirements-management",
+          "display_name": "requirements management",
+          "score": 0.7620000243186951
+        },
+        {
+          "id": "https://openalex.org/keywords/software-development",
+          "display_name": "software development",
+          "score": 0.5619999766349792
+        }
+      ],
+      "concepts": [
+        {
+          "id": "https://openalex.org/C144133560",
+          "wikidata": "https://www.wikidata.org/wiki/Q4830453",
+          "display_name": "Business",
+          "level": 0,
+          "score": 0.3892698884010315
+        }
+      ],
+      "mesh": [],
+      "locations_count": 3,
+      "locations": [
+        {
+          "id": "pmh:oai:recercat.cat:2072/355502",
+          "doi": null,
+          "is_oa": true,
+          "landing_page_url": "http://hdl.handle.net/2117/132785",
+          "pdf_url": null,
+          "source": {
+            "id": "https://openalex.org/S4306402147",
+            "display_name": "RECERCAT (Consorci de Serveis Universitaris de Catalunya)",
+            "issn_l": null,
+            "issn": null,
+            "is_oa": false,
+            "is_in_doaj": false,
+            "is_core": false,
+            "listed_in": [],
+            "host_organization": "https://openalex.org/I4210090028",
+            "host_organization_name": "Consorci de Serveis Universitaris de Catalunya",
+            "host_organization_lineage": [
+              "https://openalex.org/I4210090028"
+            ],
+            "host_organization_lineage_names": [],
+            "type": "repository"
+          },
+          "license": "other-oa",
+          "license_id": "https://openalex.org/licenses/other-oa",
+          "version": "submittedVersion",
+          "is_accepted": false,
+          "is_published": false,
+          "raw_source_name": "",
+          "raw_type": "info:eu-repo/semantics/masterThesis"
+        },
+        {
+          "id": "pmh:oai:upcommons.upc.edu:2117/132785",
+          "doi": null,
+          "is_oa": false,
+          "landing_page_url": "https://hdl.handle.net/2117/132785",
+          "pdf_url": null,
+          "source": {
+            "id": "https://openalex.org/S4377196262",
+            "display_name": "UPCommons institutional repository (Universitat Politècnica de Catalunya)",
+            "issn_l": null,
+            "issn": null,
+            "is_oa": false,
+            "is_in_doaj": false,
+            "is_core": false,
+            "listed_in": [],
+            "host_organization": "https://openalex.org/I9617848",
+            "host_organization_name": "Universitat Politècnica de Catalunya",
+            "host_organization_lineage": [
+              "https://openalex.org/I9617848"
+            ],
+            "host_organization_lineage_names": [],
+            "type": "repository"
+          },
+          "license": null,
+          "license_id": null,
+          "version": "submittedVersion",
+          "is_accepted": false,
+          "is_published": false,
+          "raw_source_name": null,
+          "raw_type": "Master thesis"
+        },
+        {
+          "id": "mag:2952566301",
+          "doi": null,
+          "is_oa": false,
+          "landing_page_url": "https://upcommons.upc.edu/handle/2117/132785",
+          "pdf_url": null,
+          "source": null,
+          "license": null,
+          "license_id": null,
+          "version": null,
+          "is_accepted": false,
+          "is_published": false,
+          "raw_source_name": null,
+          "raw_type": null
+        }
+      ],
+      "best_oa_location": {
+        "id": "pmh:oai:recercat.cat:2072/355502",
+        "doi": null,
+        "is_oa": true,
+        "landing_page_url": "http://hdl.handle.net/2117/132785",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4306402147",
+          "display_name": "RECERCAT (Consorci de Serveis Universitaris de Catalunya)",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "listed_in": [],
+          "host_organization": "https://openalex.org/I4210090028",
+          "host_organization_name": "Consorci de Serveis Universitaris de Catalunya",
+          "host_organization_lineage": [
+            "https://openalex.org/I4210090028"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": "other-oa",
+        "license_id": "https://openalex.org/licenses/other-oa",
+        "version": "submittedVersion",
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": "",
+        "raw_type": "info:eu-repo/semantics/masterThesis"
+      },
+      "sustainable_development_goals": [],
+      "study_designs": [],
+      "awards": [],
+      "funders": [],
+      "has_content": {
+        "grobid_xml": false,
+        "pdf": false
+      },
+      "content_urls": null,
+      "referenced_works_count": 0,
+      "referenced_works": [],
+      "related_works": [
+        "https://openalex.org/W7096902101",
+        "https://openalex.org/W6904119948",
+        "https://openalex.org/W3164208670",
+        "https://openalex.org/W2312731212",
+        "https://openalex.org/W151101650",
+        "https://openalex.org/W7005586779",
+        "https://openalex.org/W2276565554",
+        "https://openalex.org/W2979276650",
+        "https://openalex.org/W2331096386",
+        "https://openalex.org/W7037177910"
+      ],
+      "abstract_inverted_index": null,
+      "counts_by_year": [],
+      "updated_date": "2026-10-27T15:51:10.671819",
+      "created_date": "2019-06-27T00:00:00"
+    },
+    {
+      "id": "https://openalex.org/W151578481",
+      "doi": null,
+      "title": "Requirement Managers’ Roles in Platform NPD",
+      "display_name": "Requirement Managers’ Roles in Platform NPD",
+      "relevance_score": 108.82863,
+      "publication_year": 2013,
+      "publication_date": "2013-01-01",
+      "ids": {
+        "openalex": "https://openalex.org/W151578481",
+        "mag": "151578481"
+      },
+      "language": "en",
+      "primary_location": {
+        "id": "mag:151578481",
+        "doi": null,
+        "is_oa": false,
+        "landing_page_url": "http://umu.diva-portal.org/smash/record.jsf?pid=diva2:644589",
+        "pdf_url": null,
+        "source": null,
+        "license": null,
+        "license_id": null,
+        "version": null,
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": null,
+        "raw_type": null
+      },
+      "parent_works": [],
+      "lineage": [
+        "https://openalex.org/W151578481"
+      ],
+      "child_works_count": 0,
+      "type": "conference-paper",
+      "is_traditional": true,
+      "indexed_in": [],
+      "open_access": {
+        "is_oa": false,
+        "oa_status": "closed",
+        "oa_url": null,
+        "any_repository_has_fulltext": false
+      },
+      "authorships": [
+        {
+          "author_position": "first",
+          "author": {
+            "id": "https://openalex.org/A5103927006",
+            "display_name": "Timothy L. Wilson",
+            "orcid": null,
+            "observed_orcids": []
+          },
+          "institutions": [],
+          "countries": [],
+          "is_corresponding": false,
+          "raw_author_name": "Timothy L. Wilson",
+          "raw_affiliation_strings": [],
+          "raw_orcid": null,
+          "affiliations": []
+        },
+        {
+          "author_position": "last",
+          "author": {
+            "id": "https://openalex.org/A5002150886",
+            "display_name": "Thommie Buström",
+            "orcid": null,
+            "observed_orcids": []
+          },
+          "institutions": [],
+          "countries": [],
+          "is_corresponding": false,
+          "raw_author_name": "Thommie Buström",
+          "raw_affiliation_strings": [],
+          "raw_orcid": null,
+          "affiliations": []
+        }
+      ],
+      "institutions": [],
+      "countries_distinct_count": 0,
+      "institutions_distinct_count": 0,
+      "corresponding_author_ids": [],
+      "corresponding_institution_ids": [],
+      "apc_list": null,
+      "apc_paid": null,
+      "fwci": 0.0,
+      "is_authors_truncated": false,
+      "has_fulltext": false,
+      "cited_by_count": 0,
+      "citation_normalized_percentile": {
+        "value": 0.0,
+        "is_in_top_1_percent": false,
+        "is_in_top_10_percent": false
+      },
+      "cited_by_percentile_year": null,
+      "biblio": {
+        "volume": null,
+        "issue": null,
+        "first_page": null,
+        "last_page": null
+      },
+      "is_retracted": false,
+      "is_paratext": false,
+      "is_xpac": false,
+      "primary_topic": {
+        "id": "https://openalex.org/T11729",
+        "display_name": "Product Development and Customization",
+        "score": 0.7997999787330627,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1405",
+          "display_name": "Management of Technology and Innovation"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/14",
+          "display_name": "Business, Management and Accounting"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      "topics": [
+        {
+          "id": "https://openalex.org/T11729",
+          "display_name": "Product Development and Customization",
+          "score": 0.7997999787330627,
+          "subfield": {
+            "id": "https://openalex.org/subfields/1405",
+            "display_name": "Management of Technology and Innovation"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/14",
+            "display_name": "Business, Management and Accounting"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/2",
+            "display_name": "Social Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T10430",
+          "display_name": "Software Engineering Techniques and Practices",
+          "score": 0.062199998646974564,
+          "subfield": {
+            "id": "https://openalex.org/subfields/1710",
+            "display_name": "Information Systems"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/17",
+            "display_name": "Computer Science"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T10003",
+          "display_name": "Innovation and Knowledge Management",
+          "score": 0.03700000047683716,
+          "subfield": {
+            "id": "https://openalex.org/subfields/1408",
+            "display_name": "Strategy and Management"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/14",
+            "display_name": "Business, Management and Accounting"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/2",
+            "display_name": "Social Sciences"
+          }
+        }
+      ],
+      "keywords": [
+        {
+          "id": "https://openalex.org/keywords/new-product-development",
+          "display_name": "new product development",
+          "score": 0.8159999847412109
+        },
+        {
+          "id": "https://openalex.org/keywords/platform-innovation",
+          "display_name": "platform innovation",
+          "score": 0.4740000069141388
+        },
+        {
+          "id": "https://openalex.org/keywords/customer-needs",
+          "display_name": "customer needs",
+          "score": 0.7879999876022339
+        },
+        {
+          "id": "https://openalex.org/keywords/development-projects",
+          "display_name": "development projects",
+          "score": 0.4909999966621399
+        },
+        {
+          "id": "https://openalex.org/keywords/innovation-management",
+          "display_name": "innovation management",
+          "score": 0.5239999890327454
+        }
+      ],
+      "concepts": [
+        {
+          "id": "https://openalex.org/C144133560",
+          "wikidata": "https://www.wikidata.org/wiki/Q4830453",
+          "display_name": "Business",
+          "level": 0,
+          "score": 0.4783838987350464
+        },
+        {
+          "id": "https://openalex.org/C195094911",
+          "wikidata": "https://www.wikidata.org/wiki/Q14167904",
+          "display_name": "Process management",
+          "level": 1,
+          "score": 0.47457006573677063
+        },
+        {
+          "id": "https://openalex.org/C41008148",
+          "wikidata": "https://www.wikidata.org/wiki/Q21198",
+          "display_name": "Computer science",
+          "level": 0,
+          "score": 0.3879561722278595
+        }
+      ],
+      "mesh": [],
+      "locations_count": 1,
+      "locations": [
+        {
+          "id": "mag:151578481",
+          "doi": null,
+          "is_oa": false,
+          "landing_page_url": "http://umu.diva-portal.org/smash/record.jsf?pid=diva2:644589",
+          "pdf_url": null,
+          "source": null,
+          "license": null,
+          "license_id": null,
+          "version": null,
+          "is_accepted": false,
+          "is_published": false,
+          "raw_source_name": null,
+          "raw_type": null
+        }
+      ],
+      "best_oa_location": null,
+      "sustainable_development_goals": [
+        {
+          "display_name": "Industry, innovation and infrastructure",
+          "score": 0.4943999946117401,
+          "id": "https://metadata.un.org/sdg/9"
+        }
+      ],
+      "study_designs": [],
+      "awards": [],
+      "funders": [],
+      "has_content": {
+        "grobid_xml": false,
+        "pdf": false
+      },
+      "content_urls": null,
+      "referenced_works_count": 0,
+      "referenced_works": [],
+      "related_works": [
+        "https://openalex.org/W2515560784",
+        "https://openalex.org/W1964319848",
+        "https://openalex.org/W2038410937",
+        "https://openalex.org/W2060119503",
+        "https://openalex.org/W2007382811",
+        "https://openalex.org/W2155509796",
+        "https://openalex.org/W2570152408",
+        "https://openalex.org/W2082736031",
+        "https://openalex.org/W29246394",
+        "https://openalex.org/W1933533646"
+      ],
+      "abstract_inverted_index": {
+        "The": [
+          0
+        ],
+        "interplay": [
+          1
+        ],
+        "between": [
+          2
+        ],
+        "customer": [
+          3
+        ],
+        "needs": [
+          4
+        ],
+        "and": [
+          5
+        ],
+        "product": [
+          6
+        ],
+        "innovation": [
+          7,
+          14
+        ],
+        "dynamics": [
+          8
+        ],
+        "is": [
+          9
+        ],
+        "a": [
+          10
+        ],
+        "key": [
+          11
+        ],
+        "factor": [
+          12
+        ],
+        "in": [
+          13
+        ],
+        "research. ": [
+          15
+        ],
+        "Nevertheless,": [
+          16
+        ],
+        "despite": [
+          17
+        ],
+        "all": [
+          18
+        ],
+        "best": [
+          19
+        ],
+        "efforts,": [
+          20
+        ],
+        "development": [
+          21
+        ],
+        "projects": [
+          22
+        ],
+        "often": [
+          23
+        ],
+        "lead": [
+          24
+        ],
+        "to": [
+          25
+        ],
+        "the": [
+          26
+        ],
+        "introduc": [
+          27
+        ],
+        "...": [
+          28
+        ]
+      },
+      "counts_by_year": [],
+      "updated_date": "2026-11-15T12:55:33.944570",
+      "created_date": "2016-06-24T00:00:00"
+    },
+    {
+      "id": "https://openalex.org/W2182600889",
+      "doi": null,
+      "title": "Pre- employment Intervention: Benchmarking for Job Requirements, Manager's Employment Criterion and problems of industries",
+      "display_name": "Pre- employment Intervention: Benchmarking for Job Requirements, Manager's Employment Criterion and problems of industries",
+      "relevance_score": 83.52552,
+      "publication_year": 2013,
+      "publication_date": "2013-01-01",
+      "ids": {
+        "openalex": "https://openalex.org/W2182600889",
+        "mag": "2182600889"
+      },
+      "language": "en",
+      "primary_location": {
+        "id": "mag:2182600889",
+        "doi": null,
+        "is_oa": false,
+        "landing_page_url": "http://research.lpubatangas.edu.ph/wp-content/uploads/2014/04/EISRJ-Pre-employment-Intervention-Benchmarking-for-Job-Requirements-Manager%E2%80%99s-Employment.pdf",
+        "pdf_url": null,
+        "source": null,
+        "license": null,
+        "license_id": null,
+        "version": null,
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": null,
+        "raw_type": null
+      },
+      "parent_works": [],
+      "lineage": [
+        "https://openalex.org/W2182600889"
+      ],
+      "child_works_count": 0,
+      "type": "article",
+      "is_traditional": true,
+      "indexed_in": [],
+      "open_access": {
+        "is_oa": false,
+        "oa_status": "closed",
+        "oa_url": null,
+        "any_repository_has_fulltext": false
+      },
+      "authorships": [
+        {
+          "author_position": "first",
+          "author": {
+            "id": "https://openalex.org/A5002374410",
+            "display_name": "Fernan G. Refozar",
+            "orcid": null,
+            "observed_orcids": []
+          },
+          "institutions": [],
+          "countries": [],
+          "is_corresponding": true,
+          "raw_author_name": "Fernan G. Refozar",
+          "raw_affiliation_strings": [],
+          "raw_orcid": null,
+          "affiliations": []
+        }
+      ],
+      "institutions": [],
+      "countries_distinct_count": 0,
+      "institutions_distinct_count": 0,
+      "corresponding_author_ids": [
+        "https://openalex.org/A5002374410"
+      ],
+      "corresponding_institution_ids": [],
+      "apc_list": null,
+      "apc_paid": null,
+      "fwci": 0.0,
+      "is_authors_truncated": false,
+      "has_fulltext": false,
+      "cited_by_count": 0,
+      "citation_normalized_percentile": {
+        "value": 0.0,
+        "is_in_top_1_percent": false,
+        "is_in_top_10_percent": false
+      },
+      "cited_by_percentile_year": null,
+      "biblio": {
+        "volume": null,
+        "issue": null,
+        "first_page": null,
+        "last_page": null
+      },
+      "is_retracted": false,
+      "is_paratext": false,
+      "is_xpac": false,
+      "primary_topic": {
+        "id": "https://openalex.org/T11779",
+        "display_name": "Higher Education and Employability",
+        "score": 0.9984999895095825,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3304",
+          "display_name": "Education"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/33",
+          "display_name": "Social Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      "topics": [
+        {
+          "id": "https://openalex.org/T11779",
+          "display_name": "Higher Education and Employability",
+          "score": 0.9984999895095825,
+          "subfield": {
+            "id": "https://openalex.org/subfields/3304",
+            "display_name": "Education"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/33",
+            "display_name": "Social Sciences"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/2",
+            "display_name": "Social Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T13872",
+          "display_name": "Vocational and Entrepreneurial Education",
+          "score": 0.0006000000284984708,
+          "subfield": {
+            "id": "https://openalex.org/subfields/3304",
+            "display_name": "Education"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/33",
+            "display_name": "Social Sciences"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/2",
+            "display_name": "Social Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T11514",
+          "display_name": "Disability Education and Employment",
+          "score": 0.00019999999494757503,
+          "subfield": {
+            "id": "https://openalex.org/subfields/3304",
+            "display_name": "Education"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/33",
+            "display_name": "Social Sciences"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/2",
+            "display_name": "Social Sciences"
+          }
+        }
+      ],
+      "keywords": [
+        {
+          "id": "https://openalex.org/keywords/job-requirements",
+          "display_name": "job requirements",
+          "score": 0.7850000262260437
+        },
+        {
+          "id": "https://openalex.org/keywords/hiring-criteria",
+          "display_name": "hiring criteria",
+          "score": 0.7120000123977661
+        },
+        {
+          "id": "https://openalex.org/keywords/graduate-employability",
+          "display_name": "graduate employability",
+          "score": 0.7979999780654907
+        },
+        {
+          "id": "https://openalex.org/keywords/training-needs-analysis",
+          "display_name": "training needs assessment",
+          "score": 0.6570000052452087
+        },
+        {
+          "id": "https://openalex.org/keywords/benchmarking",
+          "display_name": "benchmarking",
+          "score": 0.6079999804496765
+        },
+        {
+          "id": "https://openalex.org/keywords/higher-education-institutions",
+          "display_name": "higher education institutions",
+          "score": 0.5759999752044678
+        },
+        {
+          "id": "https://openalex.org/keywords/human-resource-development",
+          "display_name": "human resource development",
+          "score": 0.7009999752044678
+        },
+        {
+          "id": "https://openalex.org/keywords/work-values",
+          "display_name": "work values",
+          "score": 0.4740000069141388
+        }
+      ],
+      "concepts": [
+        {
+          "id": "https://openalex.org/C2779529714",
+          "wikidata": "https://www.wikidata.org/wiki/Q2632744",
+          "display_name": "Graduation (instrument)",
+          "level": 2,
+          "score": 0.6650072336196899
+        },
+        {
+          "id": "https://openalex.org/C18762648",
+          "wikidata": "https://www.wikidata.org/wiki/Q42213",
+          "display_name": "Work (physics)",
+          "level": 2,
+          "score": 0.5216910243034363
+        },
+        {
+          "id": "https://openalex.org/C201650216",
+          "wikidata": "https://www.wikidata.org/wiki/Q829492",
+          "display_name": "Procurement",
+          "level": 2,
+          "score": 0.5188897252082825
+        },
+        {
+          "id": "https://openalex.org/C86251818",
+          "wikidata": "https://www.wikidata.org/wiki/Q816754",
+          "display_name": "Benchmarking",
+          "level": 2,
+          "score": 0.5099228620529175
+        },
+        {
+          "id": "https://openalex.org/C144133560",
+          "wikidata": "https://www.wikidata.org/wiki/Q4830453",
+          "display_name": "Business",
+          "level": 0,
+          "score": 0.5009582042694092
+        },
+        {
+          "id": "https://openalex.org/C182306322",
+          "wikidata": "https://www.wikidata.org/wiki/Q1779371",
+          "display_name": "Order (exchange)",
+          "level": 2,
+          "score": 0.49778127670288086
+        },
+        {
+          "id": "https://openalex.org/C177264268",
+          "wikidata": "https://www.wikidata.org/wiki/Q1514741",
+          "display_name": "Set (abstract data type)",
+          "level": 2,
+          "score": 0.47826898097991943
+        },
+        {
+          "id": "https://openalex.org/C107645774",
+          "wikidata": "https://www.wikidata.org/wiki/Q5467169",
+          "display_name": "Human resources",
+          "level": 2,
+          "score": 0.47000059485435486
+        },
+        {
+          "id": "https://openalex.org/C58346731",
+          "wikidata": "https://www.wikidata.org/wiki/Q627339",
+          "display_name": "Job analysis",
+          "level": 3,
+          "score": 0.454670786857605
+        },
+        {
+          "id": "https://openalex.org/C2780665704",
+          "wikidata": "https://www.wikidata.org/wiki/Q959298",
+          "display_name": "Intervention (counseling)",
+          "level": 2,
+          "score": 0.43027055263519287
+        },
+        {
+          "id": "https://openalex.org/C162853370",
+          "wikidata": "https://www.wikidata.org/wiki/Q39809",
+          "display_name": "Marketing",
+          "level": 1,
+          "score": 0.392823725938797
+        },
+        {
+          "id": "https://openalex.org/C21547014",
+          "wikidata": "https://www.wikidata.org/wiki/Q1423657",
+          "display_name": "Operations management",
+          "level": 1,
+          "score": 0.33950677514076233
+        },
+        {
+          "id": "https://openalex.org/C39549134",
+          "wikidata": "https://www.wikidata.org/wiki/Q133080",
+          "display_name": "Public relations",
+          "level": 1,
+          "score": 0.328935831785202
+        },
+        {
+          "id": "https://openalex.org/C187736073",
+          "wikidata": "https://www.wikidata.org/wiki/Q2920921",
+          "display_name": "Management",
+          "level": 1,
+          "score": 0.2780900299549103
+        },
+        {
+          "id": "https://openalex.org/C162324750",
+          "wikidata": "https://www.wikidata.org/wiki/Q8134",
+          "display_name": "Economics",
+          "level": 0,
+          "score": 0.2724202275276184
+        },
+        {
+          "id": "https://openalex.org/C15744967",
+          "wikidata": "https://www.wikidata.org/wiki/Q9418",
+          "display_name": "Psychology",
+          "level": 0,
+          "score": 0.2526203989982605
+        },
+        {
+          "id": "https://openalex.org/C41008148",
+          "wikidata": "https://www.wikidata.org/wiki/Q21198",
+          "display_name": "Computer science",
+          "level": 0,
+          "score": 0.23419910669326782
+        },
+        {
+          "id": "https://openalex.org/C2718322",
+          "wikidata": "https://www.wikidata.org/wiki/Q629463",
+          "display_name": "Job satisfaction",
+          "level": 2,
+          "score": 0.23099055886268616
+        },
+        {
+          "id": "https://openalex.org/C127413603",
+          "wikidata": "https://www.wikidata.org/wiki/Q11023",
+          "display_name": "Engineering",
+          "level": 0,
+          "score": 0.20667991042137146
+        },
+        {
+          "id": "https://openalex.org/C17744445",
+          "wikidata": "https://www.wikidata.org/wiki/Q36442",
+          "display_name": "Political science",
+          "level": 0,
+          "score": 0.19318795204162598
+        },
+        {
+          "id": "https://openalex.org/C10138342",
+          "wikidata": "https://www.wikidata.org/wiki/Q43015",
+          "display_name": "Finance",
+          "level": 1,
+          "score": 0.11876887083053589
+        },
+        {
+          "id": "https://openalex.org/C118552586",
+          "wikidata": "https://www.wikidata.org/wiki/Q7867",
+          "display_name": "Psychiatry",
+          "level": 1,
+          "score": 0.0
+        },
+        {
+          "id": "https://openalex.org/C199360897",
+          "wikidata": "https://www.wikidata.org/wiki/Q9143",
+          "display_name": "Programming language",
+          "level": 1,
+          "score": 0.0
+        },
+        {
+          "id": "https://openalex.org/C78519656",
+          "wikidata": "https://www.wikidata.org/wiki/Q101333",
+          "display_name": "Mechanical engineering",
+          "level": 1,
+          "score": 0.0
+        }
+      ],
+      "mesh": [],
+      "locations_count": 1,
+      "locations": [
+        {
+          "id": "mag:2182600889",
+          "doi": null,
+          "is_oa": false,
+          "landing_page_url": "http://research.lpubatangas.edu.ph/wp-content/uploads/2014/04/EISRJ-Pre-employment-Intervention-Benchmarking-for-Job-Requirements-Manager%E2%80%99s-Employment.pdf",
+          "pdf_url": null,
+          "source": null,
+          "license": null,
+          "license_id": null,
+          "version": null,
+          "is_accepted": false,
+          "is_published": false,
+          "raw_source_name": null,
+          "raw_type": null
+        }
+      ],
+      "best_oa_location": null,
+      "sustainable_development_goals": [
+        {
+          "display_name": "Quality education",
+          "score": 0.9235000014305115,
+          "id": "https://metadata.un.org/sdg/4"
+        },
+        {
+          "display_name": "Decent work and economic growth",
+          "score": 0.6452000141143799,
+          "id": "https://metadata.un.org/sdg/8"
+        }
+      ],
+      "study_designs": [],
+      "awards": [],
+      "funders": [],
+      "has_content": {
+        "grobid_xml": false,
+        "pdf": false
+      },
+      "content_urls": null,
+      "referenced_works_count": 1,
+      "referenced_works": [
+        "https://openalex.org/W1561965070"
+      ],
+      "related_works": [
+        "https://openalex.org/W7097686243",
+        "https://openalex.org/W2009838656",
+        "https://openalex.org/W2187863677",
+        "https://openalex.org/W3103448426",
+        "https://openalex.org/W3213349483",
+        "https://openalex.org/W2793200455",
+        "https://openalex.org/W4231479235",
+        "https://openalex.org/W2947751381",
+        "https://openalex.org/W4396667825",
+        "https://openalex.org/W4392416716"
+      ],
+      "abstract_inverted_index": {
+        "One": [
+          0
+        ],
+        "of": [
+          1,
+          4,
+          20,
+          39,
+          63,
+          172,
+          236,
+          259,
+          270,
+          282,
+          287,
+          291,
+          314,
+          356,
+          396,
+          421,
+          446,
+          467,
+          475,
+          520,
+          535
+        ],
+        "the": [
+          2,
+          13,
+          61,
+          87,
+          100,
+          123,
+          158,
+          170,
+          189,
+          192,
+          205,
+          209,
+          213,
+          218,
+          228,
+          234,
+          243,
+          250,
+          266,
+          278,
+          292,
+          304,
+          312,
+          321,
+          333,
+          354,
+          381,
+          388,
+          394,
+          397,
+          428,
+          444,
+          447,
+          464,
+          468,
+          484,
+          507,
+          533,
+          536
+        ],
+        "problems": [
+          3,
+          275
+        ],
+        "students": [
+          5,
+          71,
+          91,
+          147,
+          460
+        ],
+        "in": [
+          6,
+          41,
+          99,
+          109,
+          114,
+          130,
+          162,
+          169,
+          248,
+          391,
+          443,
+          470,
+          483
+        ],
+        "getting": [
+          7,
+          76
+        ],
+        "employed": [
+          8
+        ],
+        "after": [
+          9
+        ],
+        "graduation": [
+          10
+        ],
+        "is": [
+          11,
+          48,
+          59,
+          142,
+          239,
+          300,
+          342,
+          351,
+          358,
+          400,
+          406,
+          442
+        ],
+        "meeting": [
+          12,
+          249
+        ],
+        "job": [
+          14,
+          26,
+          478
+        ],
+        "requirements": [
+          15,
+          27
+        ],
+        "that": [
+          16,
+          86,
+          122,
+          140,
+          233,
+          303,
+          339,
+          414,
+          449,
+          498,
+          528
+        ],
+        "an": [
+          17,
+          422
+        ],
+        "organization": [
+          18
+        ],
+        "requires": [
+          19,
+          257
+        ],
+        "applicants": [
+          21,
+          476
+        ],
+        "for": [
+          22,
+          33,
+          54,
+          95,
+          146,
+          184,
+          411,
+          456,
+          480,
+          532
+        ],
+        "a": [
+          23,
+          144,
+          166,
+          518
+        ],
+        "job.": [
+          24
+        ],
+        "However,": [
+          25
+        ],
+        "vary": [
+          28
+        ],
+        "from": [
+          29,
+          217,
+          227,
+          432
+        ],
+        "company": [
+          30,
+          32
+        ],
+        "to": [
+          31,
+          52,
+          68,
+          75,
+          83,
+          90,
+          138,
+          148,
+          151,
+          164,
+          240,
+          265,
+          376,
+          401,
+          430,
+          434,
+          438,
+          502
+        ],
+        "it": [
+          34,
+          462
+        ],
+        "has": [
+          35,
+          119,
+          127,
+          245,
+          418
+        ],
+        "its": [
+          36,
+          70
+        ],
+        "own": [
+          37
+        ],
+        "set": [
+          38,
+          519
+        ],
+        "criteria": [
+          40,
+          183,
+          260,
+          293
+        ],
+        "human": [
+          42
+        ],
+        "resource": [
+          43
+        ],
+        "procurement": [
+          44
+        ],
+        "and": [
+          45,
+          111,
+          175,
+          200,
+          208,
+          221,
+          253,
+          285,
+          294,
+          316,
+          325,
+          330,
+          345,
+          403,
+          416,
+          437,
+          458,
+          473,
+          477,
+          514,
+          523
+        ],
+        "development.": [
+          46,
+          317
+        ],
+        "It": [
+          47,
+          58,
+          118,
+          408,
+          441
+        ],
+        "not": [
+          49,
+          97,
+          225
+        ],
+        "easy": [
+          50
+        ],
+        "therefore": [
+          51,
+          60
+        ],
+        "look": [
+          53
+        ],
+        "jobs": [
+          55,
+          481
+        ],
+        "especially": [
+          56
+        ],
+        ".": [
+          57
+        ],
+        "concern": [
+          62
+        ],
+        "every": [
+          64
+        ],
+        "higher": [
+          65
+        ],
+        "education": [
+          66,
+          126,
+          331,
+          357,
+          423
+        ],
+        "institutions": [
+          67
+        ],
+        "provide": [
+          69
+        ],
+        "with": [
+          72,
+          157,
+          348,
+          517
+        ],
+        "pre-employment": [
+          73,
+          454,
+          521
+        ],
+        "preparations": [
+          74,
+          79
+        ],
+        "jobs.": [
+          77
+        ],
+        "Such": [
+          78,
+          310,
+          487
+        ],
+        "must": [
+          80,
+          409
+        ],
+        "be": [
+          81,
+          84,
+          149,
+          307,
+          410,
+          530
+        ],
+        "research-based": [
+          82,
+          453
+        ],
+        "sure": [
+          85
+        ],
+        "training": [
+          88,
+          186,
+          279,
+          299,
+          305,
+          315,
+          324,
+          385,
+          415
+        ],
+        "given": [
+          89
+        ],
+        "would": [
+          92
+        ],
+        "prepare": [
+          93
+        ],
+        "them": [
+          94
+        ],
+        "employment": [
+          96,
+          496,
+          504
+        ],
+        "only": [
+          98
+        ],
+        "provincial": [
+          101
+        ],
+        "or": [
+          102,
+          195,
+          212,
+          274,
+          489,
+          495
+        ],
+        "local": [
+          103
+        ],
+        "labor": [
+          104,
+          116,
+          485
+        ],
+        "market,": [
+          105
+        ],
+        "but": [
+          106
+        ],
+        "more": [
+          107,
+          343,
+          346
+        ],
+        "importantly,": [
+          108
+        ],
+        "national": [
+          110
+        ],
+        "later": [
+          112,
+          524
+        ],
+        "on": [
+          113,
+          178,
+          327,
+          332,
+          452,
+          525
+        ],
+        "international": [
+          115
+        ],
+        "markets.": [
+          117
+        ],
+        "been": [
+          120,
+          128,
+          246
+        ],
+        "said": [
+          121,
+          338
+        ],
+        "Philippines": [
+          124
+        ],
+        "formal": [
+          125
+        ],
+        "amiss": [
+          129
+        ],
+        "producing": [
+          131
+        ],
+        "productive": [
+          132
+        ],
+        "graduates.": [
+          133
+        ],
+        "(Espino,": [
+          134
+        ],
+        "1999).": [
+          135
+        ],
+        "This": [
+          136,
+          255,
+          350
+        ],
+        "goes": [
+          137
+        ],
+        "say": [
+          139
+        ],
+        "there": [
+          141
+        ],
+        "really": [
+          143
+        ],
+        "need": [
+          145
+        ],
+        "trained": [
+          150
+        ],
+        "become": [
+          152,
+          419
+        ],
+        "globally": [
+          153
+        ],
+        "competitive,": [
+          154
+        ],
+        "fully": [
+          155
+        ],
+        "equipped": [
+          156
+        ],
+        "proper": [
+          159
+        ],
+        "work": [
+          160
+        ],
+        "values": [
+          161
+        ],
+        "order": [
+          163
+        ],
+        "make": [
+          165
+        ],
+        "big": [
+          167
+        ],
+        "difference": [
+          168
+        ],
+        "world": [
+          171
+        ],
+        "work.": [
+          173
+        ],
+        "Catanello": [
+          174
+        ],
+        "Kirkparactick": [
+          176
+        ],
+        "(2002),": [
+          177
+        ],
+        "their": [
+          179,
+          263,
+          268,
+          283
+        ],
+        "part": [
+          180,
+          420
+        ],
+        "suggested": [
+          181
+        ],
+        "four": [
+          182
+        ],
+        "evaluating": [
+          185
+        ],
+        "such": [
+          187
+        ],
+        "as": [
+          188,
+          380,
+          461,
+          503
+        ],
+        "reaction": [
+          190,
+          264
+        ],
+        "level,": [
+          191,
+          207
+        ],
+        "learning": [
+          193
+        ],
+        "level": [
+          194,
+          211
+        ],
+        "how": [
+          196
+        ],
+        "well": [
+          197
+        ],
+        "they": [
+          198,
+          203,
+          272,
+          319,
+          337
+        ],
+        "learned": [
+          199,
+          273
+        ],
+        "retained": [
+          201
+        ],
+        "what": [
+          202,
+          271
+        ],
+        "learned,": [
+          204
+        ],
+        "behavioural": [
+          206
+        ],
+        "results": [
+          210,
+          215
+        ],
+        "final": [
+          214
+        ],
+        "obtained": [
+          216
+        ],
+        "training.": [
+          219
+        ],
+        "Decenzo": [
+          220
+        ],
+        "Robbins": [
+          222
+        ],
+        "(2007)": [
+          223
+        ],
+        "did": [
+          224
+        ],
+        "deviate": [
+          226
+        ],
+        "ideas": [
+          229
+        ],
+        "previously-expressed.": [
+          230
+        ],
+        "They": [
+          231
+        ],
+        "believe": [
+          232
+        ],
+        "goal": [
+          235,
+          355
+        ],
+        "evaluation": [
+          237
+        ],
+        "phase": [
+          238,
+          256
+        ],
+        "examine": [
+          241
+        ],
+        "whether": [
+          242
+        ],
+        "program": [
+          244
+        ],
+        "effective": [
+          247
+        ],
+        "stated": [
+          251
+        ],
+        "goals": [
+          252
+        ],
+        "objectives.": [
+          254
+        ],
+        "identification": [
+          258
+        ],
+        "which": [
+          261
+        ],
+        "includes": [
+          262
+        ],
+        "training,": [
+          267
+        ],
+        "assessment": [
+          269
+        ],
+        "met": [
+          276
+        ],
+        "during": [
+          277
+        ],
+        "program,": [
+          280
+        ],
+        "measures": [
+          281
+        ],
+        "behaviour,": [
+          284
+        ],
+        "indicators": [
+          286
+        ],
+        "results.": [
+          288
+        ],
+        "The": [
+          289,
+          425
+        ],
+        "choice": [
+          290
+        ],
+        "design": [
+          295
+        ],
+        "are": [
+          296,
+          499
+        ],
+        "made": [
+          297
+        ],
+        "before": [
+          298
+        ],
+        "conducted": [
+          301
+        ],
+        "so": [
+          302,
+          352
+        ],
+        "will": [
+          306
+        ],
+        "properly": [
+          308
+        ],
+        "evaluated.": [
+          309
+        ],
+        "constitute": [
+          311
+        ],
+        "ramifications": [
+          313
+        ],
+        "Further,": [
+          318
+        ],
+        "underscored": [
+          320
+        ],
+        "relationship": [
+          322
+        ],
+        "between": [
+          323
+        ],
+        "development": [
+          326,
+          341,
+          417
+        ],
+        "one": [
+          328
+        ],
+        "hand,": [
+          329
+        ],
+        "other": [
+          334
+        ],
+        "side": [
+          335
+        ],
+        "when": [
+          336
+        ],
+        "employee": [
+          340
+        ],
+        "future-oriented": [
+          344
+        ],
+        "concerned": [
+          347
+        ],
+        "education.": [
+          349
+        ],
+        "because": [
+          353
+        ],
+        "62": [
+          359
+        ],
+        "E": [
+          360
+        ],
+        "–": [
+          361,
+          367,
+          370
+        ],
+        "International": [
+          362
+        ],
+        "Scientific": [
+          363
+        ],
+        "Research": [
+          364
+        ],
+        "Journal,": [
+          365
+        ],
+        "VOLUME": [
+          366
+        ],
+        "V,": [
+          368
+        ],
+        "ISSUE": [
+          369
+        ],
+        "1,": [
+          371
+        ],
+        "2013,": [
+          372
+        ],
+        "ISSN": [
+          373
+        ],
+        "2094": [
+          374
+        ],
+        "1749": [
+          375
+        ],
+        "instill": [
+          377
+        ],
+        "sound": [
+          378
+        ],
+        "reasoning": [
+          379
+        ],
+        "trainee": [
+          382
+        ],
+        "undergoes": [
+          383
+        ],
+        "his": [
+          384
+        ],
+        "activities.": [
+          386
+        ],
+        "With": [
+          387
+        ],
+        "schools": [
+          389
+        ],
+        "succeeding": [
+          390
+        ],
+        "this": [
+          392,
+          412,
+          450,
+          511
+        ],
+        "purpose,": [
+          393
+        ],
+        "ability": [
+          395,
+          429
+        ],
+        "HRD": [
+          398
+        ],
+        "manager": [
+          399
+        ],
+        "understand": [
+          402
+        ],
+        "interpret": [
+          404
+        ],
+        "knowledge": [
+          405
+        ],
+        "enhanced.": [
+          407
+        ],
+        "reason": [
+          413
+        ],
+        "process.": [
+          424
+        ],
+        "trainees": [
+          426
+        ],
+        "acquire": [
+          427
+        ],
+        "synthesize": [
+          431
+        ],
+        "experience,": [
+          433
+        ],
+        "visualize": [
+          435
+        ],
+        "relationships,": [
+          436
+        ],
+        "think": [
+          439
+        ],
+        "logically.": [
+          440
+        ],
+        "light": [
+          445
+        ],
+        "foregoing": [
+          448
+        ],
+        "study": [
+          451,
+          490,
+          508
+        ],
+        "interventions": [
+          455,
+          527
+        ],
+        "business": [
+          457
+        ],
+        "management": [
+          459
+        ],
+        "explores": [
+          463
+        ],
+        "common": [
+          465
+        ],
+        "practices": [
+          466
+        ],
+        "industries": [
+          469
+        ],
+        "recruitment,": [
+          471
+        ],
+        "selection,": [
+          472
+        ],
+        "placement": [
+          474
+        ],
+        "hunters": [
+          479
+        ],
+        "available": [
+          482
+        ],
+        "market.": [
+          486
+        ],
+        "exploration": [
+          488
+        ],
+        "usually": [
+          491
+        ],
+        "yields": [
+          492
+        ],
+        "concrete": [
+          493
+        ],
+        "indices": [
+          494
+        ],
+        "constructs": [
+          497
+        ],
+        "often": [
+          500
+        ],
+        "referred": [
+          501
+        ],
+        "criteria.": [
+          505
+        ],
+        "Thus,": [
+          506
+        ],
+        "may": [
+          509,
+          529
+        ],
+        "realize": [
+          510
+        ],
+        "research": [
+          512
+        ],
+        "objective": [
+          513
+        ],
+        "come": [
+          515
+        ],
+        "up": [
+          516
+        ],
+        "initiatives": [
+          522
+        ],
+        "some": [
+          526
+        ],
+        "designed": [
+          531
+        ],
+        "benefit": [
+          534
+        ],
+        "students.": [
+          537
+        ]
+      },
+      "counts_by_year": [],
+      "updated_date": "2026-11-14T11:04:58.165337",
+      "created_date": "2016-06-24T00:00:00"
+    },
+    {
+      "id": "https://openalex.org/W2557553830",
+      "doi": null,
+      "title": "Connection Manager requirements",
+      "display_name": "Connection Manager requirements",
+      "relevance_score": 64.904106,
+      "publication_year": 2010,
+      "publication_date": "2010-10-25",
+      "ids": {
+        "openalex": "https://openalex.org/W2557553830",
+        "mag": "2557553830"
+      },
+      "language": "en",
+      "primary_location": {
+        "id": "mag:2557553830",
+        "doi": null,
+        "is_oa": false,
+        "landing_page_url": "https://tools.ietf.org/html/draft-seite-mif-connection-manager-00",
+        "pdf_url": null,
+        "source": null,
+        "license": null,
+        "license_id": null,
+        "version": null,
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": null,
+        "raw_type": null
+      },
+      "parent_works": [],
+      "lineage": [
+        "https://openalex.org/W2557553830"
+      ],
+      "child_works_count": 0,
+      "type": "article",
+      "is_traditional": true,
+      "indexed_in": [],
+      "open_access": {
+        "is_oa": false,
+        "oa_status": "closed",
+        "oa_url": null,
+        "any_repository_has_fulltext": false
+      },
+      "authorships": [
+        {
+          "author_position": "first",
+          "author": {
+            "id": "https://openalex.org/A5049612927",
+            "display_name": "Gaetan Feige",
+            "orcid": null,
+            "observed_orcids": []
+          },
+          "institutions": [],
+          "countries": [],
+          "is_corresponding": false,
+          "raw_author_name": "Gaetan Feige",
+          "raw_affiliation_strings": [],
+          "raw_orcid": null,
+          "affiliations": []
+        },
+        {
+          "author_position": "middle",
+          "author": {
+            "id": "https://openalex.org/A5008625619",
+            "display_name": "Telemaco Melia",
+            "orcid": null,
+            "observed_orcids": []
+          },
+          "institutions": [],
+          "countries": [],
+          "is_corresponding": false,
+          "raw_author_name": "Telemaco Melia",
+          "raw_affiliation_strings": [],
+          "raw_orcid": null,
+          "affiliations": []
+        },
+        {
+          "author_position": "last",
+          "author": {
+            "id": "https://openalex.org/A5067778482",
+            "display_name": "Pierrick Seïté",
+            "orcid": null,
+            "observed_orcids": []
+          },
+          "institutions": [],
+          "countries": [],
+          "is_corresponding": false,
+          "raw_author_name": "Pierrick Seïté",
+          "raw_affiliation_strings": [],
+          "raw_orcid": null,
+          "affiliations": []
+        }
+      ],
+      "institutions": [],
+      "countries_distinct_count": 0,
+      "institutions_distinct_count": 0,
+      "corresponding_author_ids": [],
+      "corresponding_institution_ids": [],
+      "apc_list": null,
+      "apc_paid": null,
+      "fwci": 0.4767,
+      "is_authors_truncated": false,
+      "has_fulltext": false,
+      "cited_by_count": 2,
+      "citation_normalized_percentile": {
+        "value": 0.67481094,
+        "is_in_top_1_percent": false,
+        "is_in_top_10_percent": false
+      },
+      "cited_by_percentile_year": {
+        "min": 88,
+        "max": 93
+      },
+      "biblio": {
+        "volume": null,
+        "issue": null,
+        "first_page": null,
+        "last_page": null
+      },
+      "is_retracted": false,
+      "is_paratext": false,
+      "is_xpac": false,
+      "primary_topic": {
+        "id": "https://openalex.org/T10651",
+        "display_name": "IPv6, Mobility, Handover, Networks, Security",
+        "score": 0.9589999914169312,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2208",
+          "display_name": "Electrical and Electronic Engineering"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/22",
+          "display_name": "Engineering"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      "topics": [
+        {
+          "id": "https://openalex.org/T10651",
+          "display_name": "IPv6, Mobility, Handover, Networks, Security",
+          "score": 0.9589999914169312,
+          "subfield": {
+            "id": "https://openalex.org/subfields/2208",
+            "display_name": "Electrical and Electronic Engineering"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/22",
+            "display_name": "Engineering"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T14455",
+          "display_name": "Technology and Education Systems",
+          "score": 0.011500000022351742,
+          "subfield": {
+            "id": "https://openalex.org/subfields/1705",
+            "display_name": "Computer Networks and Communications"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/17",
+            "display_name": "Computer Science"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T13905",
+          "display_name": "Telecommunications and Broadcasting Technologies",
+          "score": 0.004100000020116568,
+          "subfield": {
+            "id": "https://openalex.org/subfields/2214",
+            "display_name": "Media Technology"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/22",
+            "display_name": "Engineering"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        }
+      ],
+      "keywords": [
+        {
+          "id": "https://openalex.org/keywords/functional-requirements",
+          "display_name": "functional requirements",
+          "score": 0.871999979019165
+        },
+        {
+          "id": "https://openalex.org/keywords/standardization",
+          "display_name": "standardization",
+          "score": 0.6340000033378601
+        },
+        {
+          "id": "https://openalex.org/keywords/macrophage-migration-inhibitory-factor",
+          "display_name": "macrophage migration inhibitory factor",
+          "score": 0.367000013589859
+        }
+      ],
+      "concepts": [
+        {
+          "id": "https://openalex.org/C13355873",
+          "wikidata": "https://www.wikidata.org/wiki/Q2920850",
+          "display_name": "Connection (principal bundle)",
+          "level": 2,
+          "score": 0.7005053758621216
+        },
+        {
+          "id": "https://openalex.org/C153083717",
+          "wikidata": "https://www.wikidata.org/wiki/Q6535263",
+          "display_name": "Leverage (statistics)",
+          "level": 2,
+          "score": 0.6032944917678833
+        },
+        {
+          "id": "https://openalex.org/C41008148",
+          "wikidata": "https://www.wikidata.org/wiki/Q21198",
+          "display_name": "Computer science",
+          "level": 0,
+          "score": 0.5744439363479614
+        },
+        {
+          "id": "https://openalex.org/C172191483",
+          "wikidata": "https://www.wikidata.org/wiki/Q1071806",
+          "display_name": "Provisioning",
+          "level": 2,
+          "score": 0.5091606974601746
+        },
+        {
+          "id": "https://openalex.org/C2779343474",
+          "wikidata": "https://www.wikidata.org/wiki/Q3109175",
+          "display_name": "Context (archaeology)",
+          "level": 2,
+          "score": 0.48059412837028503
+        },
+        {
+          "id": "https://openalex.org/C177264268",
+          "wikidata": "https://www.wikidata.org/wiki/Q1514741",
+          "display_name": "Set (abstract data type)",
+          "level": 2,
+          "score": 0.46566319465637207
+        },
+        {
+          "id": "https://openalex.org/C127413603",
+          "wikidata": "https://www.wikidata.org/wiki/Q11023",
+          "display_name": "Engineering",
+          "level": 0,
+          "score": 0.17243897914886475
+        },
+        {
+          "id": "https://openalex.org/C199360897",
+          "wikidata": "https://www.wikidata.org/wiki/Q9143",
+          "display_name": "Programming language",
+          "level": 1,
+          "score": 0.16394835710525513
+        },
+        {
+          "id": "https://openalex.org/C31258907",
+          "wikidata": "https://www.wikidata.org/wiki/Q1301371",
+          "display_name": "Computer network",
+          "level": 1,
+          "score": 0.15299540758132935
+        },
+        {
+          "id": "https://openalex.org/C154945302",
+          "wikidata": "https://www.wikidata.org/wiki/Q11660",
+          "display_name": "Artificial intelligence",
+          "level": 1,
+          "score": 0.11842471361160278
+        },
+        {
+          "id": "https://openalex.org/C66938386",
+          "wikidata": "https://www.wikidata.org/wiki/Q633538",
+          "display_name": "Structural engineering",
+          "level": 1,
+          "score": 0.0
+        },
+        {
+          "id": "https://openalex.org/C151730666",
+          "wikidata": "https://www.wikidata.org/wiki/Q7205",
+          "display_name": "Paleontology",
+          "level": 1,
+          "score": 0.0
+        },
+        {
+          "id": "https://openalex.org/C86803240",
+          "wikidata": "https://www.wikidata.org/wiki/Q420",
+          "display_name": "Biology",
+          "level": 0,
+          "score": 0.0
+        }
+      ],
+      "mesh": [],
+      "locations_count": 1,
+      "locations": [
+        {
+          "id": "mag:2557553830",
+          "doi": null,
+          "is_oa": false,
+          "landing_page_url": "https://tools.ietf.org/html/draft-seite-mif-connection-manager-00",
+          "pdf_url": null,
+          "source": null,
+          "license": null,
+          "license_id": null,
+          "version": null,
+          "is_accepted": false,
+          "is_published": false,
+          "raw_source_name": null,
+          "raw_type": null
+        }
+      ],
+      "best_oa_location": null,
+      "sustainable_development_goals": [],
+      "study_designs": [],
+      "awards": [],
+      "funders": [],
+      "has_content": {
+        "grobid_xml": false,
+        "pdf": false
+      },
+      "content_urls": null,
+      "referenced_works_count": 0,
+      "referenced_works": [],
+      "related_works": [
+        "https://openalex.org/W2991253928",
+        "https://openalex.org/W2257972180",
+        "https://openalex.org/W2122525233",
+        "https://openalex.org/W1648224407",
+        "https://openalex.org/W2366144209",
+        "https://openalex.org/W135347043",
+        "https://openalex.org/W2139473784",
+        "https://openalex.org/W2052833066",
+        "https://openalex.org/W7101042733",
+        "https://openalex.org/W7099897686"
+      ],
+      "abstract_inverted_index": {
+        "It": [
+          0
+        ],
+        "is": [
+          1
+        ],
+        "a": [
+          2,
+          11,
+          34,
+          43,
+          48
+        ],
+        "common": [
+          3
+        ],
+        "practice": [
+          4
+        ],
+        "for": [
+          5,
+          26,
+          47
+        ],
+        "multiple": [
+          6
+        ],
+        "interfaces": [
+          7
+        ],
+        "terminals": [
+          8
+        ],
+        "to": [
+          9,
+          14
+        ],
+        "leverage\non": [
+          10
+        ],
+        "connection": [
+          12,
+          27,
+          51
+        ],
+        "manager": [
+          13
+        ],
+        "perform": [
+          15
+        ],
+        "provisioning": [
+          16
+        ],
+        "domain": [
+          17
+        ],
+        "selection.\nProblem": [
+          18
+        ],
+        "statement": [
+          19
+        ],
+        "document": [
+          20,
+          41
+        ],
+        "highlighted": [
+          21
+        ],
+        "that": [
+          22
+        ],
+        "lack": [
+          23
+        ],
+        "of": [
+          24
+        ],
+        "standardized\nbehavior": [
+          25
+        ],
+        "managers": [
+          28
+        ],
+        "can": [
+          29
+        ],
+        "bring": [
+          30
+        ],
+        "specific": [
+          31
+        ],
+        "issues": [
+          32
+        ],
+        "in": [
+          33
+        ],
+        "MIF\ncontext.": [
+          35
+        ],
+        "To": [
+          36
+        ],
+        "address": [
+          37
+        ],
+        "this": [
+          38,
+          40
+        ],
+        "issue,": [
+          39
+        ],
+        "proposes": [
+          42
+        ],
+        "set": [
+          44
+        ],
+        "of\nfunctional": [
+          45
+        ],
+        "requirements": [
+          46
+        ],
+        "generic": [
+          49
+        ],
+        "MIF": [
+          50
+        ],
+        "manager.": [
+          52
+        ]
+      },
+      "counts_by_year": [
+        {
+          "year": 2013,
+          "cited_by_count": 1
+        },
+        {
+          "year": 2012,
+          "cited_by_count": 1
+        }
+      ],
+      "updated_date": "2025-11-06T04:12:42.849631",
+      "created_date": "2016-12-08T00:00:00"
+    }
+  ],
+  "group_by": []
+}

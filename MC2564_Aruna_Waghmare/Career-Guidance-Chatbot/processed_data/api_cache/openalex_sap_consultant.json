@@ -1,0 +1,5160 @@
+{
+  "meta": {
+    "notice": "No API key, so this request shares one free daily budget ($0.10) with everyone on your network's IP address. Get a free key with its own $1/day at https://openalex.org/settings/api and add api_key=YOUR_KEY to your requests. An AI agent can get one for its user in one call: POST https://api.openalex.org/api-keys with {\"email\": \"<your user's email>\"}; we email them a link, and the key works once they click it. Docs for agents: https://help.openalex.org/llms.txt",
+    "count": 30481,
+    "db_response_time_ms": 124,
+    "page": 1,
+    "per_page": 5,
+    "groups_count": null,
+    "x_query": {
+      "oql": "get works with (SAP CONSULTANT) in the title, abstract, or full text",
+      "x_new_oql": "get works with (SAP CONSULTANT) in the title, abstract, or full text",
+      "oqo": {
+        "get_rows": "works",
+        "filter_rows": [
+          {
+            "column_id": "fulltext.search",
+            "value": "SAP CONSULTANT",
+            "operator": "has"
+          }
+        ]
+      },
+      "url": "/works?filter=fulltext.search:SAP CONSULTANT&per_page=5",
+      "order": "best matches first",
+      "order_default": true
+    },
+    "cost_usd": 0.001
+  },
+  "results": [
+    {
+      "id": "https://openalex.org/W4404801451",
+      "doi": "https://doi.org/10.1016/j.procs.2024.09.493",
+      "title": "Career Development Paths of SAP Consultants",
+      "display_name": "Career Development Paths of SAP Consultants",
+      "relevance_score": 147.44658,
+      "publication_year": 2024,
+      "publication_date": "2024-01-01",
+      "ids": {
+        "openalex": "https://openalex.org/W4404801451",
+        "doi": "https://doi.org/10.1016/j.procs.2024.09.493"
+      },
+      "language": "en",
+      "primary_location": {
+        "id": "doi:10.1016/j.procs.2024.09.493",
+        "doi": "https://doi.org/10.1016/j.procs.2024.09.493",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.1016/j.procs.2024.09.493",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S120348307",
+          "display_name": "Procedia Computer Science",
+          "issn_l": "1877-0509",
+          "issn": [
+            "1877-0509"
+          ],
+          "is_oa": true,
+          "is_in_doaj": false,
+          "is_core": true,
+          "listed_in": [
+            "anvur-scientific",
+            "cwts-core",
+            "jufo-1",
+            "norway-1"
+          ],
+          "host_organization": "https://openalex.org/P4310320990",
+          "host_organization_name": "Elsevier BV",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310320990"
+          ],
+          "host_organization_lineage_names": [
+            "Elsevier BV"
+          ],
+          "type": "journal"
+        },
+        "license": "cc-by-nc-nd",
+        "license_id": "https://openalex.org/licenses/cc-by-nc-nd",
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Procedia Computer Science",
+        "raw_type": "journal-article"
+      },
+      "parent_works": [],
+      "lineage": [
+        "https://openalex.org/W4404801451"
+      ],
+      "child_works_count": 0,
+      "type": "conference-paper",
+      "is_traditional": true,
+      "indexed_in": [
+        "crossref"
+      ],
+      "open_access": {
+        "is_oa": true,
+        "oa_status": "diamond",
+        "oa_url": "https://doi.org/10.1016/j.procs.2024.09.493",
+        "any_repository_has_fulltext": false
+      },
+      "authorships": [
+        {
+          "author_position": "first",
+          "author": {
+            "id": "https://openalex.org/A5048519759",
+            "display_name": "Przemysław Lech",
+            "orcid": "https://orcid.org/0000-0002-9568-8156",
+            "observed_orcids": [
+              "https://orcid.org/0000-0002-9568-8156"
+            ]
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I40413290",
+              "display_name": "University of Gdańsk",
+              "ror": "https://ror.org/011dv8m48",
+              "country_code": "PL",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I40413290"
+              ]
+            }
+          ],
+          "countries": [
+            "PL"
+          ],
+          "is_corresponding": true,
+          "raw_author_name": "Przemysław Lech",
+          "raw_affiliation_strings": [
+            "University of Gdańsk, Faculty of Management, Sopot“ Poland"
+          ],
+          "raw_orcid": null,
+          "affiliations": [
+            {
+              "raw_affiliation_string": "University of Gdańsk, Faculty of Management, Sopot“ Poland",
+              "institution_ids": [
+                "https://openalex.org/I40413290"
+              ]
+            }
+          ]
+        },
+        {
+          "author_position": "middle",
+          "author": {
+            "id": "https://openalex.org/A5114853616",
+            "display_name": "Ghenadie Ciobnanu",
+            "orcid": null,
+            "observed_orcids": []
+          },
+          "institutions": [],
+          "countries": [],
+          "is_corresponding": false,
+          "raw_author_name": "Ghenadie Ciobnanu",
+          "raw_affiliation_strings": [
+            "National Scientivic Research Institute for Labour and Social Protection, Bucharest, Romania"
+          ],
+          "raw_orcid": null,
+          "affiliations": [
+            {
+              "raw_affiliation_string": "National Scientivic Research Institute for Labour and Social Protection, Bucharest, Romania",
+              "institution_ids": []
+            }
+          ]
+        },
+        {
+          "author_position": "middle",
+          "author": {
+            "id": "https://openalex.org/A5072754877",
+            "display_name": "Catalin Corneliu Ghinararu",
+            "orcid": "https://orcid.org/0000-0003-3167-2216",
+            "observed_orcids": [
+              "https://orcid.org/0000-0003-3167-2216",
+              "https://orcid.org/0009-0001-9547-6436"
+            ]
+          },
+          "institutions": [],
+          "countries": [],
+          "is_corresponding": false,
+          "raw_author_name": "Catalin Ghinararu",
+          "raw_affiliation_strings": [
+            "National Scientivic Research Institute for Labour and Social Protection, Bucharest, Romania"
+          ],
+          "raw_orcid": null,
+          "affiliations": [
+            {
+              "raw_affiliation_string": "National Scientivic Research Institute for Labour and Social Protection, Bucharest, Romania",
+              "institution_ids": []
+            }
+          ]
+        },
+        {
+          "author_position": "last",
+          "author": {
+            "id": "https://openalex.org/A5011283173",
+            "display_name": "Mariya Shygun",
+            "orcid": "https://orcid.org/0000-0003-1660-9534",
+            "observed_orcids": [
+              "https://orcid.org/0000-0003-1660-9534"
+            ]
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I57156483",
+              "display_name": "Kyiv National Economic University named after Vadym Hetman",
+              "ror": "https://ror.org/019z71x08",
+              "country_code": "UA",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I57156483"
+              ]
+            }
+          ],
+          "countries": [
+            "UA"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "Mariya Shygun",
+          "raw_affiliation_strings": [
+            "Kyiv National Economic University, Kyiv, Ukraine"
+          ],
+          "raw_orcid": null,
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Kyiv National Economic University, Kyiv, Ukraine",
+              "institution_ids": [
+                "https://openalex.org/I57156483"
+              ]
+            }
+          ]
+        }
+      ],
+      "institutions": [],
+      "countries_distinct_count": 2,
+      "institutions_distinct_count": 2,
+      "corresponding_author_ids": [
+        "https://openalex.org/A5048519759"
+      ],
+      "corresponding_institution_ids": [
+        "https://openalex.org/I40413290"
+      ],
+      "apc_list": null,
+      "apc_paid": null,
+      "fwci": 0.0,
+      "is_authors_truncated": false,
+      "has_fulltext": false,
+      "cited_by_count": 0,
+      "citation_normalized_percentile": {
+        "value": 0.0,
+        "is_in_top_1_percent": false,
+        "is_in_top_10_percent": false
+      },
+      "cited_by_percentile_year": null,
+      "biblio": {
+        "volume": "246",
+        "issue": null,
+        "first_page": "743",
+        "last_page": "751"
+      },
+      "is_retracted": false,
+      "is_paratext": false,
+      "is_xpac": false,
+      "primary_topic": {
+        "id": "https://openalex.org/T11466",
+        "display_name": "Innovative Education and Learning Practices",
+        "score": 0.5922999978065491,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3304",
+          "display_name": "Education"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/33",
+          "display_name": "Social Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      "topics": [
+        {
+          "id": "https://openalex.org/T11466",
+          "display_name": "Innovative Education and Learning Practices",
+          "score": 0.5922999978065491,
+          "subfield": {
+            "id": "https://openalex.org/subfields/3304",
+            "display_name": "Education"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/33",
+            "display_name": "Social Sciences"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/2",
+            "display_name": "Social Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T11938",
+          "display_name": "ERP Systems Implementation and Impact",
+          "score": 0.16300000250339508,
+          "subfield": {
+            "id": "https://openalex.org/subfields/1404",
+            "display_name": "Management Information Systems"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/14",
+            "display_name": "Business, Management and Accounting"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/2",
+            "display_name": "Social Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T12802",
+          "display_name": "Competency Development and Evaluation",
+          "score": 0.042899999767541885,
+          "subfield": {
+            "id": "https://openalex.org/subfields/1407",
+            "display_name": "Organizational Behavior and Human Resource Management"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/14",
+            "display_name": "Business, Management and Accounting"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/2",
+            "display_name": "Social Sciences"
+          }
+        }
+      ],
+      "keywords": [
+        {
+          "id": "https://openalex.org/keywords/career-development",
+          "display_name": "career development",
+          "score": 0.777999997138977
+        },
+        {
+          "id": "https://openalex.org/keywords/knowledge-development",
+          "display_name": "knowledge development",
+          "score": 0.7680000066757202
+        },
+        {
+          "id": "https://openalex.org/keywords/skill-development",
+          "display_name": "skill development",
+          "score": 0.8600000143051147
+        },
+        {
+          "id": "https://openalex.org/keywords/mentoring",
+          "display_name": "mentoring",
+          "score": 0.7630000114440918
+        },
+        {
+          "id": "https://openalex.org/keywords/hands-on-learning",
+          "display_name": "hands-on learning",
+          "score": 0.8889999985694885
+        },
+        {
+          "id": "https://openalex.org/keywords/self-exploration",
+          "display_name": "self-exploration",
+          "score": 0.9190000295639038
+        },
+        {
+          "id": "https://openalex.org/keywords/classroom-training",
+          "display_name": "classroom training",
+          "score": 0.7749999761581421
+        },
+        {
+          "id": "https://openalex.org/keywords/professional-development",
+          "display_name": "professional development",
+          "score": 0.30300000309944153
+        }
+      ],
+      "concepts": [
+        {
+          "id": "https://openalex.org/C41008148",
+          "wikidata": "https://www.wikidata.org/wiki/Q21198",
+          "display_name": "Computer science",
+          "level": 0,
+          "score": 0.8948348164558411
+        },
+        {
+          "id": "https://openalex.org/C2776542497",
+          "wikidata": "https://www.wikidata.org/wiki/Q5266672",
+          "display_name": "Development (topology)",
+          "level": 2,
+          "score": 0.434823602437973
+        },
+        {
+          "id": "https://openalex.org/C2522767166",
+          "wikidata": "https://www.wikidata.org/wiki/Q2374463",
+          "display_name": "Data science",
+          "level": 1,
+          "score": 0.3451257348060608
+        },
+        {
+          "id": "https://openalex.org/C110354214",
+          "wikidata": "https://www.wikidata.org/wiki/Q6314146",
+          "display_name": "Engineering management",
+          "level": 1,
+          "score": 0.3412402868270874
+        },
+        {
+          "id": "https://openalex.org/C134306372",
+          "wikidata": "https://www.wikidata.org/wiki/Q7754",
+          "display_name": "Mathematical analysis",
+          "level": 1,
+          "score": 0.0
+        },
+        {
+          "id": "https://openalex.org/C33923547",
+          "wikidata": "https://www.wikidata.org/wiki/Q395",
+          "display_name": "Mathematics",
+          "level": 0,
+          "score": 0.0
+        },
+        {
+          "id": "https://openalex.org/C127413603",
+          "wikidata": "https://www.wikidata.org/wiki/Q11023",
+          "display_name": "Engineering",
+          "level": 0,
+          "score": 0.0
+        }
+      ],
+      "mesh": [],
+      "locations_count": 1,
+      "locations": [
+        {
+          "id": "doi:10.1016/j.procs.2024.09.493",
+          "doi": "https://doi.org/10.1016/j.procs.2024.09.493",
+          "is_oa": true,
+          "landing_page_url": "https://doi.org/10.1016/j.procs.2024.09.493",
+          "pdf_url": null,
+          "source": {
+            "id": "https://openalex.org/S120348307",
+            "display_name": "Procedia Computer Science",
+            "issn_l": "1877-0509",
+            "issn": [
+              "1877-0509"
+            ],
+            "is_oa": true,
+            "is_in_doaj": false,
+            "is_core": true,
+            "listed_in": [
+              "anvur-scientific",
+              "cwts-core",
+              "jufo-1",
+              "norway-1"
+            ],
+            "host_organization": "https://openalex.org/P4310320990",
+            "host_organization_name": "Elsevier BV",
+            "host_organization_lineage": [
+              "https://openalex.org/P4310320990"
+            ],
+            "host_organization_lineage_names": [
+              "Elsevier BV"
+            ],
+            "type": "journal"
+          },
+          "license": "cc-by-nc-nd",
+          "license_id": "https://openalex.org/licenses/cc-by-nc-nd",
+          "version": "publishedVersion",
+          "is_accepted": true,
+          "is_published": true,
+          "raw_source_name": "Procedia Computer Science",
+          "raw_type": "journal-article"
+        }
+      ],
+      "best_oa_location": {
+        "id": "doi:10.1016/j.procs.2024.09.493",
+        "doi": "https://doi.org/10.1016/j.procs.2024.09.493",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.1016/j.procs.2024.09.493",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S120348307",
+          "display_name": "Procedia Computer Science",
+          "issn_l": "1877-0509",
+          "issn": [
+            "1877-0509"
+          ],
+          "is_oa": true,
+          "is_in_doaj": false,
+          "is_core": true,
+          "listed_in": [
+            "anvur-scientific",
+            "cwts-core",
+            "jufo-1",
+            "norway-1"
+          ],
+          "host_organization": "https://openalex.org/P4310320990",
+          "host_organization_name": "Elsevier BV",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310320990"
+          ],
+          "host_organization_lineage_names": [
+            "Elsevier BV"
+          ],
+          "type": "journal"
+        },
+        "license": "cc-by-nc-nd",
+        "license_id": "https://openalex.org/licenses/cc-by-nc-nd",
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Procedia Computer Science",
+        "raw_type": "journal-article"
+      },
+      "sustainable_development_goals": [
+        {
+          "display_name": "Quality education",
+          "id": "https://metadata.un.org/sdg/4",
+          "score": 0.6164000034332275
+        }
+      ],
+      "study_designs": [],
+      "awards": [],
+      "funders": [],
+      "has_content": {
+        "pdf": false,
+        "grobid_xml": false
+      },
+      "content_urls": null,
+      "referenced_works_count": 26,
+      "referenced_works": [
+        "https://openalex.org/W334200855",
+        "https://openalex.org/W1518101824",
+        "https://openalex.org/W1672482426",
+        "https://openalex.org/W1967105326",
+        "https://openalex.org/W1972258159",
+        "https://openalex.org/W1976538399",
+        "https://openalex.org/W1979961725",
+        "https://openalex.org/W2004623328",
+        "https://openalex.org/W2021840362",
+        "https://openalex.org/W2027509070",
+        "https://openalex.org/W2028897110",
+        "https://openalex.org/W2029504387",
+        "https://openalex.org/W2045212792",
+        "https://openalex.org/W2116031802",
+        "https://openalex.org/W2134952485",
+        "https://openalex.org/W2161109528",
+        "https://openalex.org/W2328048790",
+        "https://openalex.org/W2560438697",
+        "https://openalex.org/W2613461545",
+        "https://openalex.org/W2979938444",
+        "https://openalex.org/W3084743065",
+        "https://openalex.org/W3125689390",
+        "https://openalex.org/W3206135177",
+        "https://openalex.org/W4247978847",
+        "https://openalex.org/W4388147587",
+        "https://openalex.org/W4406987648"
+      ],
+      "related_works": [
+        "https://openalex.org/W7061219380",
+        "https://openalex.org/W4413907449",
+        "https://openalex.org/W2613461545",
+        "https://openalex.org/W1513518290",
+        "https://openalex.org/W4411976622",
+        "https://openalex.org/W7037279902",
+        "https://openalex.org/W2114176324",
+        "https://openalex.org/W1542204065",
+        "https://openalex.org/W3206135177",
+        "https://openalex.org/W7010544503"
+      ],
+      "abstract_inverted_index": {
+        "This": [
+          0
+        ],
+        "research": [
+          1
+        ],
+        "aimed": [
+          2
+        ],
+        "to": [
+          3,
+          55,
+          95
+        ],
+        "explore": [
+          4
+        ],
+        "the": [
+          5,
+          71
+        ],
+        "process": [
+          6
+        ],
+        "of": [
+          7,
+          50,
+          73
+        ],
+        "knowledge": [
+          8,
+          33,
+          81
+        ],
+        "and": [
+          9,
+          68,
+          82,
+          99
+        ],
+        "skill": [
+          10
+        ],
+        "development": [
+          11,
+          34
+        ],
+        "among": [
+          12
+        ],
+        "Enterprise": [
+          13
+        ],
+        "System": [
+          14
+        ],
+        "consultants": [
+          15
+        ],
+        "throughout": [
+          16
+        ],
+        "their": [
+          17,
+          93
+        ],
+        "careers,": [
+          18
+        ],
+        "based": [
+          19
+        ],
+        "on": [
+          20
+        ],
+        "interviews": [
+          21
+        ],
+        "with": [
+          22
+        ],
+        "fifteen": [
+          23
+        ],
+        "experienced": [
+          24,
+          63
+        ],
+        "SAP": [
+          25
+        ],
+        "systems": [
+          26
+        ],
+        "functional": [
+          27
+        ],
+        "consultants.": [
+          28
+        ],
+        "Through": [
+          29
+        ],
+        "semi-structured": [
+          30
+        ],
+        "interviews,": [
+          31
+        ],
+        "seven": [
+          32
+        ],
+        "schemes": [
+          35
+        ],
+        "were": [
+          36
+        ],
+        "identified.": [
+          37
+        ],
+        "The": [
+          38
+        ],
+        "optimal": [
+          39
+        ],
+        "path": [
+          40
+        ],
+        "involved": [
+          41
+        ],
+        "classroom": [
+          42
+        ],
+        "system": [
+          43
+        ],
+        "training": [
+          44
+        ],
+        "followed": [
+          45
+        ],
+        "by": [
+          46,
+          60,
+          66
+        ],
+        "a": [
+          47,
+          61,
+          89
+        ],
+        "short": [
+          48
+        ],
+        "period": [
+          49
+        ],
+        "self-exploration,": [
+          51
+        ],
+        "culminating": [
+          52
+        ],
+        "in": [
+          53
+        ],
+        "assignment": [
+          54
+        ],
+        "an": [
+          56
+        ],
+        "end-to-end": [
+          57
+        ],
+        "project": [
+          58
+        ],
+        "supervised": [
+          59
+        ],
+        "more": [
+          62
+        ],
+        "consultant.": [
+          64
+        ],
+        "Learning": [
+          65
+        ],
+        "doing": [
+          67
+        ],
+        "self-exploration": [
+          69
+        ],
+        "during": [
+          70
+        ],
+        "resolution": [
+          72
+        ],
+        "real-life": [
+          74
+        ],
+        "problems": [
+          75,
+          98
+        ],
+        "emerged": [
+          76
+        ],
+        "as": [
+          77
+        ],
+        "key": [
+          78
+        ],
+        "methods": [
+          79
+        ],
+        "for": [
+          80
+        ],
+        "skills": [
+          83
+        ],
+        "development.": [
+          84
+        ],
+        "Consequently,": [
+          85
+        ],
+        "mentors": [
+          86
+        ],
+        "should": [
+          87
+        ],
+        "strike": [
+          88
+        ],
+        "balance": [
+          90
+        ],
+        "between": [
+          91
+        ],
+        "challenging": [
+          92
+        ],
+        "trainees": [
+          94
+        ],
+        "autonomously": [
+          96
+        ],
+        "solve": [
+          97
+        ],
+        "providing": [
+          100
+        ],
+        "guidance": [
+          101
+        ],
+        "when": [
+          102
+        ],
+        "necessary.": [
+          103
+        ]
+      },
+      "counts_by_year": [],
+      "updated_date": "2026-10-16T09:59:22.235173",
+      "created_date": "2024-11-29T00:00:00"
+    },
+    {
+      "id": "https://openalex.org/W7208195300",
+      "doi": null,
+      "title": "SAP Consultant werden - Zertifizierung, Bewerbung & Karriere",
+      "display_name": "SAP Consultant werden - Zertifizierung, Bewerbung & Karriere",
+      "relevance_score": 139.57745,
+      "publication_year": 2026,
+      "publication_date": "2026-01-01",
+      "ids": {
+        "openalex": "https://openalex.org/W7208195300"
+      },
+      "language": "de",
+      "primary_location": {
+        "id": "pmh:oai:aleph.bib-bvb.de:BVB01-035935677",
+        "doi": null,
+        "is_oa": false,
+        "landing_page_url": "https://et.training/dashboard/product/video/2323",
+        "pdf_url": null,
+        "source": null,
+        "license": null,
+        "license_id": null,
+        "version": "submittedVersion",
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": null,
+        "raw_type": "text"
+      },
+      "parent_works": [],
+      "lineage": [
+        "https://openalex.org/W7208195300"
+      ],
+      "child_works_count": 0,
+      "type": "book",
+      "is_traditional": true,
+      "indexed_in": [],
+      "open_access": {
+        "is_oa": false,
+        "oa_status": "closed",
+        "oa_url": null,
+        "any_repository_has_fulltext": false
+      },
+      "authorships": [
+        {
+          "author_position": "first",
+          "author": {
+            "id": "https://openalex.org/A5149742428",
+            "display_name": "Daniel Moewius",
+            "orcid": null,
+            "observed_orcids": []
+          },
+          "institutions": [],
+          "countries": [],
+          "is_corresponding": true,
+          "raw_author_name": "Moewius, Daniel",
+          "raw_affiliation_strings": [],
+          "raw_orcid": null,
+          "affiliations": []
+        }
+      ],
+      "institutions": [],
+      "countries_distinct_count": 0,
+      "institutions_distinct_count": 0,
+      "corresponding_author_ids": [
+        "https://openalex.org/A5149742428"
+      ],
+      "corresponding_institution_ids": [],
+      "apc_list": null,
+      "apc_paid": null,
+      "fwci": 0.0,
+      "is_authors_truncated": false,
+      "has_fulltext": false,
+      "cited_by_count": 0,
+      "citation_normalized_percentile": {
+        "value": 0.0,
+        "is_in_top_1_percent": false,
+        "is_in_top_10_percent": false
+      },
+      "cited_by_percentile_year": null,
+      "biblio": {
+        "volume": null,
+        "issue": null,
+        "first_page": null,
+        "last_page": null
+      },
+      "is_retracted": false,
+      "is_paratext": false,
+      "is_xpac": false,
+      "primary_topic": {
+        "id": "https://openalex.org/T13034",
+        "display_name": "Information Systems Education and Curriculum Development",
+        "score": 0.5946999788284302,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1710",
+          "display_name": "Information Systems"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      "topics": [
+        {
+          "id": "https://openalex.org/T13034",
+          "display_name": "Information Systems Education and Curriculum Development",
+          "score": 0.5946999788284302,
+          "subfield": {
+            "id": "https://openalex.org/subfields/1710",
+            "display_name": "Information Systems"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/17",
+            "display_name": "Computer Science"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T11938",
+          "display_name": "ERP Systems Implementation and Impact",
+          "score": 0.3310999870300293,
+          "subfield": {
+            "id": "https://openalex.org/subfields/1404",
+            "display_name": "Management Information Systems"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/14",
+            "display_name": "Business, Management and Accounting"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/2",
+            "display_name": "Social Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T11779",
+          "display_name": "Higher Education and Employability",
+          "score": 0.03590000048279762,
+          "subfield": {
+            "id": "https://openalex.org/subfields/3304",
+            "display_name": "Education"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/33",
+            "display_name": "Social Sciences"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/2",
+            "display_name": "Social Sciences"
+          }
+        }
+      ],
+      "keywords": [
+        {
+          "id": "https://openalex.org/keywords/sap",
+          "display_name": "SAP",
+          "score": 0.5230000019073486
+        },
+        {
+          "id": "https://openalex.org/keywords/sap-certification",
+          "display_name": "SAP certification",
+          "score": 0.7820000052452087
+        },
+        {
+          "id": "https://openalex.org/keywords/career-development",
+          "display_name": "career development",
+          "score": 0.6499999761581421
+        },
+        {
+          "id": "https://openalex.org/keywords/job-applications",
+          "display_name": "job applications",
+          "score": 0.7919999957084656
+        },
+        {
+          "id": "https://openalex.org/keywords/it-consulting",
+          "display_name": "IT consulting",
+          "score": 0.5230000019073486
+        }
+      ],
+      "concepts": [
+        {
+          "id": "https://openalex.org/C187736073",
+          "wikidata": "https://www.wikidata.org/wiki/Q2920921",
+          "display_name": "Management",
+          "level": 1,
+          "score": 0.5659999847412109
+        },
+        {
+          "id": "https://openalex.org/C144133560",
+          "wikidata": "https://www.wikidata.org/wiki/Q4830453",
+          "display_name": "Business",
+          "level": 0,
+          "score": 0.38040000200271606
+        },
+        {
+          "id": "https://openalex.org/C127413603",
+          "wikidata": "https://www.wikidata.org/wiki/Q11023",
+          "display_name": "Engineering",
+          "level": 0,
+          "score": 0.3116999864578247
+        },
+        {
+          "id": "https://openalex.org/C18762648",
+          "wikidata": "https://www.wikidata.org/wiki/Q42213",
+          "display_name": "Work (physics)",
+          "level": 2,
+          "score": 0.2363000065088272
+        },
+        {
+          "id": "https://openalex.org/C17744445",
+          "wikidata": "https://www.wikidata.org/wiki/Q36442",
+          "display_name": "Political science",
+          "level": 0,
+          "score": 0.23229999840259552
+        },
+        {
+          "id": "https://openalex.org/C21547014",
+          "wikidata": "https://www.wikidata.org/wiki/Q1423657",
+          "display_name": "Operations management",
+          "level": 1,
+          "score": 0.218299999833107
+        },
+        {
+          "id": "https://openalex.org/C3020299011",
+          "wikidata": "https://www.wikidata.org/wiki/Q626608",
+          "display_name": "Life insurance",
+          "level": 2,
+          "score": 0.20640000700950623
+        },
+        {
+          "id": "https://openalex.org/C42475967",
+          "wikidata": "https://www.wikidata.org/wiki/Q194292",
+          "display_name": "Operations research",
+          "level": 1,
+          "score": 0.1867000013589859
+        },
+        {
+          "id": "https://openalex.org/C2778137410",
+          "wikidata": "https://www.wikidata.org/wiki/Q2732820",
+          "display_name": "Government (linguistics)",
+          "level": 2,
+          "score": 0.179299995303154
+        },
+        {
+          "id": "https://openalex.org/C2780378061",
+          "wikidata": "https://www.wikidata.org/wiki/Q25351891",
+          "display_name": "Service (business)",
+          "level": 2,
+          "score": 0.17659999430179596
+        }
+      ],
+      "mesh": [],
+      "locations_count": 1,
+      "locations": [
+        {
+          "id": "pmh:oai:aleph.bib-bvb.de:BVB01-035935677",
+          "doi": null,
+          "is_oa": false,
+          "landing_page_url": "https://et.training/dashboard/product/video/2323",
+          "pdf_url": null,
+          "source": null,
+          "license": null,
+          "license_id": null,
+          "version": "submittedVersion",
+          "is_accepted": false,
+          "is_published": false,
+          "raw_source_name": null,
+          "raw_type": "text"
+        }
+      ],
+      "best_oa_location": null,
+      "sustainable_development_goals": [],
+      "study_designs": [],
+      "awards": [],
+      "funders": [],
+      "has_content": {
+        "pdf": false,
+        "grobid_xml": false
+      },
+      "content_urls": null,
+      "referenced_works_count": 0,
+      "referenced_works": [],
+      "related_works": [
+        "https://openalex.org/W7046552648",
+        "https://openalex.org/W7000426022",
+        "https://openalex.org/W7012039675",
+        "https://openalex.org/W2260171085",
+        "https://openalex.org/W6990912241",
+        "https://openalex.org/W2832003115",
+        "https://openalex.org/W7010544503",
+        "https://openalex.org/W6991299396",
+        "https://openalex.org/W2522153574"
+      ],
+      "abstract_inverted_index": null,
+      "counts_by_year": [],
+      "updated_date": "2026-11-14T11:04:58.165337",
+      "created_date": "2026-09-04T00:00:00"
+    },
+    {
+      "id": "https://openalex.org/W2948511174",
+      "doi": "https://doi.org/10.1108/imds-11-2018-0532",
+      "title": "Barriers of embedding big data solutions in smart factories: insights from SAP consultants",
+      "display_name": "Barriers of embedding big data solutions in smart factories: insights from SAP consultants",
+      "relevance_score": 135.81497,
+      "publication_year": 2019,
+      "publication_date": "2019-06-07",
+      "ids": {
+        "openalex": "https://openalex.org/W2948511174",
+        "doi": "https://doi.org/10.1108/imds-11-2018-0532",
+        "mag": "2948511174"
+      },
+      "language": "en",
+      "primary_location": {
+        "id": "doi:10.1108/imds-11-2018-0532",
+        "doi": "https://doi.org/10.1108/imds-11-2018-0532",
+        "is_oa": false,
+        "landing_page_url": "https://doi.org/10.1108/imds-11-2018-0532",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S37320504",
+          "display_name": "Industrial Management & Data Systems",
+          "issn_l": "0263-5577",
+          "issn": [
+            "0263-5577",
+            "1758-5783"
+          ],
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": true,
+          "listed_in": [
+            "abdc-a",
+            "anvur-class-a",
+            "anvur-scientific",
+            "cwts-core",
+            "dongbi-d",
+            "fnege-3",
+            "jufo-1",
+            "norway-1",
+            "poland-100",
+            "russia-white-list-1",
+            "vabb-shw"
+          ],
+          "host_organization": "https://openalex.org/P4310319811",
+          "host_organization_name": "Emerald Publishing Limited",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310319811"
+          ],
+          "host_organization_lineage_names": [
+            "Emerald Publishing Limited"
+          ],
+          "type": "journal"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Industrial Management &amp; Data Systems",
+        "raw_type": "journal-article"
+      },
+      "parent_works": [],
+      "lineage": [
+        "https://openalex.org/W2948511174"
+      ],
+      "child_works_count": 0,
+      "type": "article",
+      "is_traditional": true,
+      "indexed_in": [
+        "crossref"
+      ],
+      "open_access": {
+        "is_oa": true,
+        "oa_status": "green",
+        "oa_url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3380097",
+        "any_repository_has_fulltext": true
+      },
+      "authorships": [
+        {
+          "author_position": "first",
+          "author": {
+            "id": "https://openalex.org/A5100711749",
+            "display_name": "Shuyang Li",
+            "orcid": "https://orcid.org/0000-0002-0147-8888",
+            "observed_orcids": [
+              "https://orcid.org/0000-0002-0147-8888"
+            ]
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I91136226",
+              "display_name": "University of Sheffield",
+              "ror": "https://ror.org/05krs5044",
+              "country_code": "GB",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I91136226"
+              ]
+            }
+          ],
+          "countries": [
+            "GB"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "Shuyang Li",
+          "raw_affiliation_strings": [
+            "Information School, The University of Sheffield, Sheffield, UK"
+          ],
+          "raw_orcid": null,
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Information School, The University of Sheffield, Sheffield, UK",
+              "institution_ids": [
+                "https://openalex.org/I91136226"
+              ]
+            }
+          ]
+        },
+        {
+          "author_position": "middle",
+          "author": {
+            "id": "https://openalex.org/A5080265226",
+            "display_name": "Guochao Peng",
+            "orcid": "https://orcid.org/0000-0003-1206-5509",
+            "observed_orcids": [
+              "https://orcid.org/0000-0003-1206-5509"
+            ]
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I157773358",
+              "display_name": "Sun Yat-sen University",
+              "ror": "https://ror.org/0064kty71",
+              "country_code": "CN",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I157773358"
+              ]
+            }
+          ],
+          "countries": [
+            "CN"
+          ],
+          "is_corresponding": true,
+          "raw_author_name": "Guo Chao Peng",
+          "raw_affiliation_strings": [
+            "School of Information Management, Sun Yat-sen University, Guangzhou, China"
+          ],
+          "raw_orcid": "https://orcid.org/0000-0003-1206-5509",
+          "affiliations": [
+            {
+              "raw_affiliation_string": "School of Information Management, Sun Yat-sen University, Guangzhou, China",
+              "institution_ids": [
+                "https://openalex.org/I157773358"
+              ]
+            }
+          ]
+        },
+        {
+          "author_position": "last",
+          "author": {
+            "id": "https://openalex.org/A5055265983",
+            "display_name": "Fei Xing",
+            "orcid": "https://orcid.org/0000-0001-7550-3540",
+            "observed_orcids": [
+              "https://orcid.org/0000-0001-7550-3540"
+            ]
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I157773358",
+              "display_name": "Sun Yat-sen University",
+              "ror": "https://ror.org/0064kty71",
+              "country_code": "CN",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I157773358"
+              ]
+            }
+          ],
+          "countries": [
+            "CN"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "Fei Xing",
+          "raw_affiliation_strings": [
+            "School of Information Management, Sun Yat-sen University, Guangzhou, China"
+          ],
+          "raw_orcid": null,
+          "affiliations": [
+            {
+              "raw_affiliation_string": "School of Information Management, Sun Yat-sen University, Guangzhou, China",
+              "institution_ids": [
+                "https://openalex.org/I157773358"
+              ]
+            }
+          ]
+        }
+      ],
+      "institutions": [],
+      "countries_distinct_count": 2,
+      "institutions_distinct_count": 2,
+      "corresponding_author_ids": [
+        "https://openalex.org/A5080265226"
+      ],
+      "corresponding_institution_ids": [
+        "https://openalex.org/I157773358"
+      ],
+      "apc_list": null,
+      "apc_paid": null,
+      "fwci": 2.8151,
+      "is_authors_truncated": false,
+      "has_fulltext": false,
+      "cited_by_count": 51,
+      "citation_normalized_percentile": {
+        "value": 0.90644393,
+        "is_in_top_1_percent": false,
+        "is_in_top_10_percent": true
+      },
+      "cited_by_percentile_year": {
+        "min": 88,
+        "max": 99
+      },
+      "biblio": {
+        "volume": "119",
+        "issue": "5",
+        "first_page": "1147",
+        "last_page": "1164"
+      },
+      "is_retracted": false,
+      "is_paratext": false,
+      "is_xpac": false,
+      "primary_topic": {
+        "id": "https://openalex.org/T10763",
+        "display_name": "Digital Transformation in Industry",
+        "score": 0.7602999806404114,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2209",
+          "display_name": "Industrial and Manufacturing Engineering"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/22",
+          "display_name": "Engineering"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      "topics": [
+        {
+          "id": "https://openalex.org/T10763",
+          "display_name": "Digital Transformation in Industry",
+          "score": 0.7602999806404114,
+          "subfield": {
+            "id": "https://openalex.org/subfields/2209",
+            "display_name": "Industrial and Manufacturing Engineering"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/22",
+            "display_name": "Engineering"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T11891",
+          "display_name": "Big Data and Business Intelligence",
+          "score": 0.1500999927520752,
+          "subfield": {
+            "id": "https://openalex.org/subfields/1404",
+            "display_name": "Management Information Systems"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/14",
+            "display_name": "Business, Management and Accounting"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/2",
+            "display_name": "Social Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T14260",
+          "display_name": "Impact of AI and Big Data on Business and Society",
+          "score": 0.0771000012755394,
+          "subfield": {
+            "id": "https://openalex.org/subfields/1803",
+            "display_name": "Management Science and Operations Research"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/18",
+            "display_name": "Decision Sciences"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/2",
+            "display_name": "Social Sciences"
+          }
+        }
+      ],
+      "keywords": [
+        {
+          "id": "https://openalex.org/keywords/big-data",
+          "display_name": "big data",
+          "score": 0.7620000243186951
+        },
+        {
+          "id": "https://openalex.org/keywords/smart-factory",
+          "display_name": "smart factory",
+          "score": 0.9890000224113464
+        },
+        {
+          "id": "https://openalex.org/keywords/implementation-barriers",
+          "display_name": "implementation barriers",
+          "score": 0.8939999938011169
+        },
+        {
+          "id": "https://openalex.org/keywords/industrial-internet-of-things",
+          "display_name": "Industrial Internet of Things",
+          "score": 0.5130000114440918
+        },
+        {
+          "id": "https://openalex.org/keywords/big-data-analytics-adoption",
+          "display_name": "big data analytics adoption",
+          "score": 0.6669999957084656
+        },
+        {
+          "id": "https://openalex.org/keywords/organizational-barriers",
+          "display_name": "organizational barriers",
+          "score": 0.718999981880188
+        },
+        {
+          "id": "https://openalex.org/keywords/technological-barriers",
+          "display_name": "technological barriers",
+          "score": 0.9549999833106995
+        },
+        {
+          "id": "https://openalex.org/keywords/personal-barriers",
+          "display_name": "personal barriers",
+          "score": 0.6029999852180481
+        },
+        {
+          "id": "https://openalex.org/keywords/empirical-framework",
+          "display_name": "empirical framework",
+          "score": 0.44699999690055847
+        }
+      ],
+      "concepts": [
+        {
+          "id": "https://openalex.org/C75684735",
+          "wikidata": "https://www.wikidata.org/wiki/Q858810",
+          "display_name": "Big data",
+          "level": 2,
+          "score": 0.885582447052002
+        },
+        {
+          "id": "https://openalex.org/C40149104",
+          "wikidata": "https://www.wikidata.org/wiki/Q5620977",
+          "display_name": "Factory (object-oriented programming)",
+          "level": 2,
+          "score": 0.6064099073410034
+        },
+        {
+          "id": "https://openalex.org/C56739046",
+          "wikidata": "https://www.wikidata.org/wiki/Q192060",
+          "display_name": "Knowledge management",
+          "level": 1,
+          "score": 0.6016132235527039
+        },
+        {
+          "id": "https://openalex.org/C74196892",
+          "wikidata": "https://www.wikidata.org/wiki/Q7781188",
+          "display_name": "Thematic analysis",
+          "level": 3,
+          "score": 0.586884081363678
+        },
+        {
+          "id": "https://openalex.org/C2779343474",
+          "wikidata": "https://www.wikidata.org/wiki/Q3109175",
+          "display_name": "Context (archaeology)",
+          "level": 2,
+          "score": 0.5610971450805664
+        },
+        {
+          "id": "https://openalex.org/C2777986313",
+          "wikidata": "https://www.wikidata.org/wiki/Q1661989",
+          "display_name": "Industry 4.0",
+          "level": 2,
+          "score": 0.5500775575637817
+        },
+        {
+          "id": "https://openalex.org/C2776950860",
+          "wikidata": "https://www.wikidata.org/wiki/Q2914681",
+          "display_name": "Originality",
+          "level": 3,
+          "score": 0.4956866502761841
+        },
+        {
+          "id": "https://openalex.org/C2522767166",
+          "wikidata": "https://www.wikidata.org/wiki/Q2374463",
+          "display_name": "Data science",
+          "level": 1,
+          "score": 0.4779622256755829
+        },
+        {
+          "id": "https://openalex.org/C195094911",
+          "wikidata": "https://www.wikidata.org/wiki/Q14167904",
+          "display_name": "Process management",
+          "level": 1,
+          "score": 0.4257248342037201
+        },
+        {
+          "id": "https://openalex.org/C41008148",
+          "wikidata": "https://www.wikidata.org/wiki/Q21198",
+          "display_name": "Computer science",
+          "level": 0,
+          "score": 0.395760715007782
+        },
+        {
+          "id": "https://openalex.org/C144133560",
+          "wikidata": "https://www.wikidata.org/wiki/Q4830453",
+          "display_name": "Business",
+          "level": 0,
+          "score": 0.38579151034355164
+        },
+        {
+          "id": "https://openalex.org/C127413603",
+          "wikidata": "https://www.wikidata.org/wiki/Q11023",
+          "display_name": "Engineering",
+          "level": 0,
+          "score": 0.38501015305519104
+        },
+        {
+          "id": "https://openalex.org/C190248442",
+          "wikidata": "https://www.wikidata.org/wiki/Q839486",
+          "display_name": "Qualitative research",
+          "level": 2,
+          "score": 0.2582176625728607
+        },
+        {
+          "id": "https://openalex.org/C144024400",
+          "wikidata": "https://www.wikidata.org/wiki/Q21201",
+          "display_name": "Sociology",
+          "level": 0,
+          "score": 0.1369771659374237
+        },
+        {
+          "id": "https://openalex.org/C86803240",
+          "wikidata": "https://www.wikidata.org/wiki/Q420",
+          "display_name": "Biology",
+          "level": 0,
+          "score": 0.0
+        },
+        {
+          "id": "https://openalex.org/C199360897",
+          "wikidata": "https://www.wikidata.org/wiki/Q9143",
+          "display_name": "Programming language",
+          "level": 1,
+          "score": 0.0
+        },
+        {
+          "id": "https://openalex.org/C151730666",
+          "wikidata": "https://www.wikidata.org/wiki/Q7205",
+          "display_name": "Paleontology",
+          "level": 1,
+          "score": 0.0
+        },
+        {
+          "id": "https://openalex.org/C149635348",
+          "wikidata": "https://www.wikidata.org/wiki/Q193040",
+          "display_name": "Embedded system",
+          "level": 1,
+          "score": 0.0
+        },
+        {
+          "id": "https://openalex.org/C111919701",
+          "wikidata": "https://www.wikidata.org/wiki/Q9135",
+          "display_name": "Operating system",
+          "level": 1,
+          "score": 0.0
+        },
+        {
+          "id": "https://openalex.org/C36289849",
+          "wikidata": "https://www.wikidata.org/wiki/Q34749",
+          "display_name": "Social science",
+          "level": 1,
+          "score": 0.0
+        }
+      ],
+      "mesh": [],
+      "locations_count": 4,
+      "locations": [
+        {
+          "id": "doi:10.1108/imds-11-2018-0532",
+          "doi": "https://doi.org/10.1108/imds-11-2018-0532",
+          "is_oa": false,
+          "landing_page_url": "https://doi.org/10.1108/imds-11-2018-0532",
+          "pdf_url": null,
+          "source": {
+            "id": "https://openalex.org/S37320504",
+            "display_name": "Industrial Management & Data Systems",
+            "issn_l": "0263-5577",
+            "issn": [
+              "0263-5577",
+              "1758-5783"
+            ],
+            "is_oa": false,
+            "is_in_doaj": false,
+            "is_core": true,
+            "listed_in": [
+              "abdc-a",
+              "anvur-class-a",
+              "anvur-scientific",
+              "cwts-core",
+              "dongbi-d",
+              "fnege-3",
+              "jufo-1",
+              "norway-1",
+              "poland-100",
+              "russia-white-list-1",
+              "vabb-shw"
+            ],
+            "host_organization": "https://openalex.org/P4310319811",
+            "host_organization_name": "Emerald Publishing Limited",
+            "host_organization_lineage": [
+              "https://openalex.org/P4310319811"
+            ],
+            "host_organization_lineage_names": [
+              "Emerald Publishing Limited"
+            ],
+            "type": "journal"
+          },
+          "license": null,
+          "license_id": null,
+          "version": "publishedVersion",
+          "is_accepted": true,
+          "is_published": true,
+          "raw_source_name": "Industrial Management &amp; Data Systems",
+          "raw_type": "journal-article"
+        },
+        {
+          "id": "pmh:oai:eprints.whiterose.ac.uk:143945",
+          "doi": null,
+          "is_oa": false,
+          "landing_page_url": "http://eprints.whiterose.ac.uk/143945/13/PDF_Proof%281%29.PDF",
+          "pdf_url": "http://eprints.whiterose.ac.uk/143945/13/PDF_Proof%281%29.PDF",
+          "source": {
+            "id": "https://openalex.org/S4306400854",
+            "display_name": "White Rose Research Online (University of Leeds, The University of Sheffield, University of York)",
+            "issn_l": null,
+            "issn": null,
+            "is_oa": false,
+            "is_in_doaj": false,
+            "is_core": false,
+            "listed_in": [],
+            "host_organization": "https://openalex.org/I2800616092",
+            "host_organization_name": "White Rose University Consortium",
+            "host_organization_lineage": [
+              "https://openalex.org/I2800616092"
+            ],
+            "host_organization_lineage_names": [],
+            "type": "repository"
+          },
+          "license": null,
+          "license_id": null,
+          "version": "acceptedVersion",
+          "is_accepted": true,
+          "is_published": false,
+          "raw_source_name": "",
+          "raw_type": "Article"
+        },
+        {
+          "id": "mag:3161922471",
+          "doi": null,
+          "is_oa": true,
+          "landing_page_url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3380097",
+          "pdf_url": null,
+          "source": {
+            "id": "https://openalex.org/S4210172589",
+            "display_name": "SSRN Electronic Journal",
+            "issn_l": "1556-5068",
+            "issn": [
+              "1556-5068"
+            ],
+            "is_oa": true,
+            "is_in_doaj": false,
+            "is_core": false,
+            "listed_in": [],
+            "host_organization": "https://openalex.org/I1318003438",
+            "host_organization_name": "RELX Group (Netherlands)",
+            "host_organization_lineage": [
+              "https://openalex.org/I1318003438"
+            ],
+            "host_organization_lineage_names": [],
+            "type": "repository"
+          },
+          "license": null,
+          "license_id": null,
+          "version": "submittedVersion",
+          "is_accepted": false,
+          "is_published": false,
+          "raw_source_name": "SSRN Electronic Journal",
+          "raw_type": null
+        },
+        {
+          "id": "pmh:oai:pure.atira.dk:publications/5c2be04d-d424-47a8-8b89-86ad8ae29a82",
+          "doi": null,
+          "is_oa": false,
+          "landing_page_url": "https://research.birmingham.ac.uk/en/publications/5c2be04d-d424-47a8-8b89-86ad8ae29a82",
+          "pdf_url": null,
+          "source": {
+            "id": "https://openalex.org/S4306402634",
+            "display_name": "University of Birmingham Research Portal (University of Birmingham)",
+            "issn_l": null,
+            "issn": null,
+            "is_oa": false,
+            "is_in_doaj": false,
+            "is_core": false,
+            "listed_in": [],
+            "host_organization": "https://openalex.org/I79619799",
+            "host_organization_name": "University of Birmingham",
+            "host_organization_lineage": [
+              "https://openalex.org/I79619799"
+            ],
+            "host_organization_lineage_names": [],
+            "type": "repository"
+          },
+          "license": null,
+          "license_id": null,
+          "version": "submittedVersion",
+          "is_accepted": false,
+          "is_published": false,
+          "raw_source_name": "Li , S , Peng , G C & Xing , F 2019 , ' Barriers of embedding big data solutions in smart factories : insights from SAP consultants ' , Industrial Management and Data Systems , vol. 119 , no. 5 , pp. 1147-1164 . https://doi.org/10.1108/IMDS-11-2018-0532",
+          "raw_type": "article"
+        }
+      ],
+      "best_oa_location": {
+        "id": "mag:3161922471",
+        "doi": null,
+        "is_oa": true,
+        "landing_page_url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3380097",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4210172589",
+          "display_name": "SSRN Electronic Journal",
+          "issn_l": "1556-5068",
+          "issn": [
+            "1556-5068"
+          ],
+          "is_oa": true,
+          "is_in_doaj": false,
+          "is_core": false,
+          "listed_in": [],
+          "host_organization": "https://openalex.org/I1318003438",
+          "host_organization_name": "RELX Group (Netherlands)",
+          "host_organization_lineage": [
+            "https://openalex.org/I1318003438"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "submittedVersion",
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": "SSRN Electronic Journal",
+        "raw_type": null
+      },
+      "sustainable_development_goals": [
+        {
+          "display_name": "Industry, innovation and infrastructure",
+          "id": "https://metadata.un.org/sdg/9",
+          "score": 0.7207000255584717
+        }
+      ],
+      "study_designs": [],
+      "awards": [],
+      "funders": [],
+      "has_content": {
+        "pdf": false,
+        "grobid_xml": false
+      },
+      "content_urls": null,
+      "referenced_works_count": 52,
+      "referenced_works": [
+        "https://openalex.org/W203466237",
+        "https://openalex.org/W1468385301",
+        "https://openalex.org/W1507072099",
+        "https://openalex.org/W1718306640",
+        "https://openalex.org/W1761827578",
+        "https://openalex.org/W1966817825",
+        "https://openalex.org/W1978581090",
+        "https://openalex.org/W1998092191",
+        "https://openalex.org/W2012690129",
+        "https://openalex.org/W2014939786",
+        "https://openalex.org/W2018821139",
+        "https://openalex.org/W2019880039",
+        "https://openalex.org/W2029608738",
+        "https://openalex.org/W2039952259",
+        "https://openalex.org/W2044049559",
+        "https://openalex.org/W2065464792",
+        "https://openalex.org/W2065955975",
+        "https://openalex.org/W2070665593",
+        "https://openalex.org/W2087936817",
+        "https://openalex.org/W2095178814",
+        "https://openalex.org/W2098139952",
+        "https://openalex.org/W2109574129",
+        "https://openalex.org/W2110796927",
+        "https://openalex.org/W2110837847",
+        "https://openalex.org/W2114320353",
+        "https://openalex.org/W2125800352",
+        "https://openalex.org/W2145636832",
+        "https://openalex.org/W2168494054",
+        "https://openalex.org/W2188472388",
+        "https://openalex.org/W2222612072",
+        "https://openalex.org/W2241928397",
+        "https://openalex.org/W2253828178",
+        "https://openalex.org/W2254884657",
+        "https://openalex.org/W2300682080",
+        "https://openalex.org/W2303531378",
+        "https://openalex.org/W2311688510",
+        "https://openalex.org/W2339446221",
+        "https://openalex.org/W2470843486",
+        "https://openalex.org/W2489408039",
+        "https://openalex.org/W2546428406",
+        "https://openalex.org/W2589714335",
+        "https://openalex.org/W2601302400",
+        "https://openalex.org/W2610385117",
+        "https://openalex.org/W2616178334",
+        "https://openalex.org/W2618608702",
+        "https://openalex.org/W2727400044",
+        "https://openalex.org/W2735372604",
+        "https://openalex.org/W2777397054",
+        "https://openalex.org/W2789052988",
+        "https://openalex.org/W4251338804",
+        "https://openalex.org/W4256613398",
+        "https://openalex.org/W4388137680"
+      ],
+      "related_works": [
+        "https://openalex.org/W4312884451",
+        "https://openalex.org/W3016363072",
+        "https://openalex.org/W2886728763",
+        "https://openalex.org/W3138825057",
+        "https://openalex.org/W2763199922",
+        "https://openalex.org/W2592418707",
+        "https://openalex.org/W4409164124",
+        "https://openalex.org/W7118019438",
+        "https://openalex.org/W2798021716",
+        "https://openalex.org/W7215455555"
+      ],
+      "abstract_inverted_index": {
+        "Purpose": [
+          0
+        ],
+        "Big": [
+          1
+        ],
+        "data": [
+          2,
+          21,
+          52,
+          97,
+          120,
+          165,
+          187
+        ],
+        "is": [
+          3,
+          41
+        ],
+        "a": [
+          4,
+          85,
+          105
+        ],
+        "key": [
+          5
+        ],
+        "component": [
+          6
+        ],
+        "to": [
+          7,
+          42,
+          62,
+          142
+        ],
+        "realise": [
+          8
+        ],
+        "the": [
+          9,
+          15,
+          25,
+          116,
+          144,
+          180
+        ],
+        "vision": [
+          10
+        ],
+        "of": [
+          11,
+          19,
+          38,
+          87,
+          113,
+          118,
+          176
+        ],
+        "smart": [
+          12,
+          26,
+          56,
+          123,
+          162,
+          190
+        ],
+        "factories,": [
+          13,
+          191
+        ],
+        "but": [
+          14
+        ],
+        "implementation": [
+          16,
+          117
+        ],
+        "and": [
+          17,
+          34,
+          75,
+          92,
+          128,
+          133,
+          155,
+          159,
+          166,
+          182,
+          192,
+          199
+        ],
+        "usage": [
+          18
+        ],
+        "big": [
+          20,
+          51,
+          119,
+          164,
+          186
+        ],
+        "analytical": [
+          22
+        ],
+        "tools": [
+          23,
+          188
+        ],
+        "in": [
+          24,
+          54,
+          122,
+          189,
+          196
+        ],
+        "factory": [
+          27,
+          57
+        ],
+        "context": [
+          28
+        ],
+        "can": [
+          29,
+          172
+        ],
+        "be": [
+          30
+        ],
+        "fraught": [
+          31
+        ],
+        "with": [
+          32,
+          84
+        ],
+        "challenges": [
+          33
+        ],
+        "difficulties.": [
+          35
+        ],
+        "The": [
+          36,
+          70,
+          95
+        ],
+        "purpose": [
+          37
+        ],
+        "this": [
+          39
+        ],
+        "paper": [
+          40
+        ],
+        "identify": [
+          43
+        ],
+        "potential": [
+          44
+        ],
+        "barriers": [
+          45,
+          114
+        ],
+        "that": [
+          46
+        ],
+        "hinder": [
+          47
+        ],
+        "organisations": [
+          48
+        ],
+        "from": [
+          49
+        ],
+        "applying": [
+          50
+        ],
+        "solutions": [
+          53,
+          121
+        ],
+        "their": [
+          55
+        ],
+        "initiatives,": [
+          58
+        ],
+        "as": [
+          59,
+          61
+        ],
+        "well": [
+          60
+        ],
+        "explore": [
+          63
+        ],
+        "causal": [
+          64
+        ],
+        "relationships": [
+          65
+        ],
+        "between": [
+          66,
+          147
+        ],
+        "these": [
+          67,
+          148
+        ],
+        "barriers.": [
+          68,
+          149
+        ],
+        "Design/methodology/approach": [
+          69
+        ],
+        "study": [
+          71,
+          152
+        ],
+        "followed": [
+          72
+        ],
+        "an": [
+          73
+        ],
+        "inductive": [
+          74
+        ],
+        "exploratory": [
+          76
+        ],
+        "nature.": [
+          77
+        ],
+        "Ten": [
+          78
+        ],
+        "in-depth": [
+          79
+        ],
+        "semi-structured": [
+          80
+        ],
+        "interviews": [
+          81
+        ],
+        "were": [
+          82,
+          99
+        ],
+        "conducted": [
+          83
+        ],
+        "group": [
+          86
+        ],
+        "highly": [
+          88
+        ],
+        "experienced": [
+          89
+        ],
+        "SAP": [
+          90
+        ],
+        "consultants": [
+          91
+        ],
+        "project": [
+          93
+        ],
+        "managers.": [
+          94
+        ],
+        "qualitative": [
+          96
+        ],
+        "collected": [
+          98
+        ],
+        "then": [
+          100
+        ],
+        "systematically": [
+          101
+        ],
+        "analysed": [
+          102
+        ],
+        "by": [
+          103
+        ],
+        "using": [
+          104
+        ],
+        "thematic": [
+          106
+        ],
+        "analysis": [
+          107
+        ],
+        "approach.": [
+          108
+        ],
+        "Findings": [
+          109
+        ],
+        "A": [
+          110
+        ],
+        "comprehensive": [
+          111
+        ],
+        "set": [
+          112
+        ],
+        "affecting": [
+          115
+        ],
+        "factories": [
+          124
+        ],
+        "had": [
+          125
+        ],
+        "been": [
+          126
+        ],
+        "identified": [
+          127
+        ],
+        "divided": [
+          129
+        ],
+        "into": [
+          130
+        ],
+        "individual,": [
+          131
+        ],
+        "organisational": [
+          132
+        ],
+        "technological": [
+          134
+        ],
+        "categories.": [
+          135
+        ],
+        "An": [
+          136
+        ],
+        "empirical": [
+          137
+        ],
+        "framework": [
+          138
+        ],
+        "was": [
+          139
+        ],
+        "also": [
+          140,
+          173
+        ],
+        "developed": [
+          141
+        ],
+        "highlight": [
+          143
+        ],
+        "emerged": [
+          145
+        ],
+        "inter-relationships": [
+          146
+        ],
+        "Originality/value": [
+          150
+        ],
+        "This": [
+          151
+        ],
+        "built": [
+          153
+        ],
+        "on": [
+          154,
+          161
+        ],
+        "extended": [
+          156
+        ],
+        "existing": [
+          157
+        ],
+        "knowledge": [
+          158
+        ],
+        "theories": [
+          160
+        ],
+        "factory,": [
+          163
+        ],
+        "information": [
+          167
+        ],
+        "systems": [
+          168
+        ],
+        "research.": [
+          169
+        ],
+        "Its": [
+          170
+        ],
+        "findings": [
+          171
+        ],
+        "raise": [
+          174
+        ],
+        "awareness": [
+          175
+        ],
+        "business": [
+          177
+        ],
+        "managers": [
+          178
+        ],
+        "regarding": [
+          179
+        ],
+        "complexity": [
+          181
+        ],
+        "difficulties": [
+          183
+        ],
+        "for": [
+          184
+        ],
+        "embedding": [
+          185
+        ],
+        "so": [
+          193
+        ],
+        "assist": [
+          194
+        ],
+        "them": [
+          195
+        ],
+        "strategic": [
+          197
+        ],
+        "planning": [
+          198
+        ],
+        "decision": [
+          200
+        ],
+        "making.": [
+          201
+        ]
+      },
+      "counts_by_year": [
+        {
+          "year": 2026,
+          "cited_by_count": 4
+        },
+        {
+          "year": 2025,
+          "cited_by_count": 10
+        },
+        {
+          "year": 2024,
+          "cited_by_count": 9
+        },
+        {
+          "year": 2023,
+          "cited_by_count": 9
+        },
+        {
+          "year": 2022,
+          "cited_by_count": 9
+        },
+        {
+          "year": 2021,
+          "cited_by_count": 6
+        },
+        {
+          "year": 2020,
+          "cited_by_count": 3
+        },
+        {
+          "year": 2019,
+          "cited_by_count": 1
+        }
+      ],
+      "updated_date": "2026-11-15T12:55:33.944570",
+      "created_date": "2019-06-14T00:00:00"
+    },
+    {
+      "id": "https://openalex.org/W7198263193",
+      "doi": null,
+      "title": "Challenges of Integrating AI into SAP Human Capital Management : Understanding Employee Motivation and Leadership Influence from SAP Consultants’ Perspectives",
+      "display_name": "Challenges of Integrating AI into SAP Human Capital Management : Understanding Employee Motivation and Leadership Influence from SAP Consultants’ Perspectives",
+      "relevance_score": 111.42011,
+      "publication_year": 2026,
+      "publication_date": "2026-05-08",
+      "ids": {
+        "openalex": "https://openalex.org/W7198263193"
+      },
+      "language": "en",
+      "primary_location": {
+        "id": "pmh:oai:osuva.uwasa.fi:11111/20728",
+        "doi": null,
+        "is_oa": true,
+        "landing_page_url": "https://osuva.uwasa.fi/handle/11111/20728",
+        "pdf_url": "https://osuva.uwasa.fi/bitstreams/d4e57930-5d50-4254-bd95-beca2dfa055f/download",
+        "source": {
+          "id": "https://openalex.org/S4306400974",
+          "display_name": "Osuva (University of Vaasa)",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "listed_in": [],
+          "host_organization": "https://openalex.org/I79765343",
+          "host_organization_name": "University of Vaasa",
+          "host_organization_lineage": [
+            "https://openalex.org/I79765343"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": "cc-by-nc-nd",
+        "license_id": "https://openalex.org/licenses/cc-by-nc-nd",
+        "version": "submittedVersion",
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": null,
+        "raw_type": "fi=Pro gradu -tutkielma|en=Master&apos;s thesis|sv=Pro gradu -avhandling|"
+      },
+      "parent_works": [],
+      "lineage": [
+        "https://openalex.org/W7198263193"
+      ],
+      "child_works_count": 0,
+      "type": "dissertation",
+      "is_traditional": true,
+      "indexed_in": [],
+      "open_access": {
+        "is_oa": true,
+        "oa_status": "green",
+        "oa_url": "https://osuva.uwasa.fi/bitstreams/d4e57930-5d50-4254-bd95-beca2dfa055f/download",
+        "any_repository_has_fulltext": true
+      },
+      "authorships": [
+        {
+          "author_position": "first",
+          "author": {
+            "id": "https://openalex.org/A5145868431",
+            "display_name": "Munmun Shah",
+            "orcid": null,
+            "observed_orcids": []
+          },
+          "institutions": [],
+          "countries": [],
+          "is_corresponding": true,
+          "raw_author_name": "Shah, Munmun",
+          "raw_affiliation_strings": [],
+          "raw_orcid": null,
+          "affiliations": []
+        }
+      ],
+      "institutions": [],
+      "countries_distinct_count": 0,
+      "institutions_distinct_count": 0,
+      "corresponding_author_ids": [
+        "https://openalex.org/A5145868431"
+      ],
+      "corresponding_institution_ids": [],
+      "apc_list": null,
+      "apc_paid": null,
+      "fwci": null,
+      "is_authors_truncated": false,
+      "has_fulltext": true,
+      "cited_by_count": 0,
+      "citation_normalized_percentile": null,
+      "cited_by_percentile_year": null,
+      "biblio": {
+        "volume": null,
+        "issue": null,
+        "first_page": null,
+        "last_page": null
+      },
+      "is_retracted": false,
+      "is_paratext": false,
+      "is_xpac": false,
+      "primary_topic": {
+        "id": "https://openalex.org/T13812",
+        "display_name": "AI and HR Technologies",
+        "score": 0.9223999977111816,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1407",
+          "display_name": "Organizational Behavior and Human Resource Management"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/14",
+          "display_name": "Business, Management and Accounting"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      "topics": [
+        {
+          "id": "https://openalex.org/T13812",
+          "display_name": "AI and HR Technologies",
+          "score": 0.9223999977111816,
+          "subfield": {
+            "id": "https://openalex.org/subfields/1407",
+            "display_name": "Organizational Behavior and Human Resource Management"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/14",
+            "display_name": "Business, Management and Accounting"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/2",
+            "display_name": "Social Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T10068",
+          "display_name": "Technology Adoption and User Behaviour",
+          "score": 0.033399999141693115,
+          "subfield": {
+            "id": "https://openalex.org/subfields/1802",
+            "display_name": "Information Systems and Management"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/18",
+            "display_name": "Decision Sciences"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/2",
+            "display_name": "Social Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T11938",
+          "display_name": "ERP Systems Implementation and Impact",
+          "score": 0.008799999952316284,
+          "subfield": {
+            "id": "https://openalex.org/subfields/1404",
+            "display_name": "Management Information Systems"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/14",
+            "display_name": "Business, Management and Accounting"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/2",
+            "display_name": "Social Sciences"
+          }
+        }
+      ],
+      "keywords": [
+        {
+          "id": "https://openalex.org/keywords/artificial-intelligence-adoption",
+          "display_name": "artificial intelligence adoption",
+          "score": 0.9459999799728394
+        },
+        {
+          "id": "https://openalex.org/keywords/employee-motivation",
+          "display_name": "employee motivation",
+          "score": 0.7960000038146973
+        },
+        {
+          "id": "https://openalex.org/keywords/leadership-influence",
+          "display_name": "leadership influence",
+          "score": 0.7749999761581421
+        },
+        {
+          "id": "https://openalex.org/keywords/ai-integration-challenges",
+          "display_name": "AI integration challenges",
+          "score": 0.4350000023841858
+        },
+        {
+          "id": "https://openalex.org/keywords/technology-acceptance",
+          "display_name": "technology acceptance",
+          "score": 0.6650000214576721
+        },
+        {
+          "id": "https://openalex.org/keywords/self-determination-theory",
+          "display_name": "self-determination theory",
+          "score": 0.8240000009536743
+        },
+        {
+          "id": "https://openalex.org/keywords/transformational-leadership",
+          "display_name": "transformational leadership",
+          "score": 0.9950000047683716
+        },
+        {
+          "id": "https://openalex.org/keywords/sap-successfactors",
+          "display_name": "SAP SuccessFactors",
+          "score": 0.6679999828338623
+        },
+        {
+          "id": "https://openalex.org/keywords/employee-perceptions-of-ai",
+          "display_name": "employee perceptions of AI",
+          "score": 0.8180000185966492
+        },
+        {
+          "id": "https://openalex.org/keywords/psychological-safety",
+          "display_name": "psychological safety",
+          "score": 0.7549999952316284
+        },
+        {
+          "id": "https://openalex.org/keywords/socio-technical-transformation",
+          "display_name": "socio-technical transformation",
+          "score": 0.7609999775886536
+        },
+        {
+          "id": "https://openalex.org/keywords/human-centered-ai",
+          "display_name": "human-centered AI",
+          "score": 0.5540000200271606
+        },
+        {
+          "id": "https://openalex.org/keywords/artificial-intelligence-in-human-resource-management",
+          "display_name": "artificial intelligence in human resource management",
+          "score": 0.41499999165534973
+        }
+      ],
+      "concepts": [
+        {
+          "id": "https://openalex.org/C56739046",
+          "wikidata": "https://www.wikidata.org/wiki/Q192060",
+          "display_name": "Knowledge management",
+          "level": 1,
+          "score": 0.680899977684021
+        },
+        {
+          "id": "https://openalex.org/C38775462",
+          "wikidata": "https://www.wikidata.org/wiki/Q1569376",
+          "display_name": "Transformational leadership",
+          "level": 2,
+          "score": 0.6438999772071838
+        },
+        {
+          "id": "https://openalex.org/C74196892",
+          "wikidata": "https://www.wikidata.org/wiki/Q7781188",
+          "display_name": "Thematic analysis",
+          "level": 3,
+          "score": 0.5494999885559082
+        },
+        {
+          "id": "https://openalex.org/C2779343474",
+          "wikidata": "https://www.wikidata.org/wiki/Q3109175",
+          "display_name": "Context (archaeology)",
+          "level": 2,
+          "score": 0.5317000150680542
+        },
+        {
+          "id": "https://openalex.org/C177212765",
+          "wikidata": "https://www.wikidata.org/wiki/Q627335",
+          "display_name": "Workflow",
+          "level": 2,
+          "score": 0.4934000074863434
+        },
+        {
+          "id": "https://openalex.org/C202372285",
+          "wikidata": "https://www.wikidata.org/wiki/Q1056396",
+          "display_name": "Human resource management",
+          "level": 2,
+          "score": 0.45680001378059387
+        },
+        {
+          "id": "https://openalex.org/C2778564829",
+          "wikidata": "https://www.wikidata.org/wiki/Q17010605",
+          "display_name": "Employee motivation",
+          "level": 2,
+          "score": 0.4481000006198883
+        },
+        {
+          "id": "https://openalex.org/C99753626",
+          "wikidata": "https://www.wikidata.org/wiki/Q14937678",
+          "display_name": "Employee engagement",
+          "level": 2,
+          "score": 0.4065000116825104
+        },
+        {
+          "id": "https://openalex.org/C2776943663",
+          "wikidata": "https://www.wikidata.org/wiki/Q165687",
+          "display_name": "Human capital",
+          "level": 2,
+          "score": 0.4025000035762787
+        },
+        {
+          "id": "https://openalex.org/C190248442",
+          "wikidata": "https://www.wikidata.org/wiki/Q839486",
+          "display_name": "Qualitative research",
+          "level": 2,
+          "score": 0.391400009393692
+        },
+        {
+          "id": "https://openalex.org/C120936955",
+          "wikidata": "https://www.wikidata.org/wiki/Q2155640",
+          "display_name": "Empirical research",
+          "level": 2,
+          "score": 0.36800000071525574
+        },
+        {
+          "id": "https://openalex.org/C67674302",
+          "wikidata": "https://www.wikidata.org/wiki/Q730573",
+          "display_name": "Organizational culture",
+          "level": 2,
+          "score": 0.33059999346733093
+        },
+        {
+          "id": "https://openalex.org/C15744967",
+          "wikidata": "https://www.wikidata.org/wiki/Q9418",
+          "display_name": "Psychology",
+          "level": 0,
+          "score": 0.3174999952316284
+        },
+        {
+          "id": "https://openalex.org/C174107131",
+          "wikidata": "https://www.wikidata.org/wiki/Q191591",
+          "display_name": "Emotional intelligence",
+          "level": 2,
+          "score": 0.30309998989105225
+        },
+        {
+          "id": "https://openalex.org/C33676613",
+          "wikidata": "https://www.wikidata.org/wiki/Q13415176",
+          "display_name": "Dimension (graph theory)",
+          "level": 2,
+          "score": 0.3027999997138977
+        },
+        {
+          "id": "https://openalex.org/C26760741",
+          "wikidata": "https://www.wikidata.org/wiki/Q160402",
+          "display_name": "Perception",
+          "level": 2,
+          "score": 0.3012999892234802
+        },
+        {
+          "id": "https://openalex.org/C40213455",
+          "wikidata": "https://www.wikidata.org/wiki/Q5483094",
+          "display_name": "Line management",
+          "level": 2,
+          "score": 0.289900004863739
+        },
+        {
+          "id": "https://openalex.org/C144133560",
+          "wikidata": "https://www.wikidata.org/wiki/Q4830453",
+          "display_name": "Business",
+          "level": 0,
+          "score": 0.28600001335144043
+        },
+        {
+          "id": "https://openalex.org/C43075056",
+          "wikidata": "https://www.wikidata.org/wiki/Q15910354",
+          "display_name": "Soft skills",
+          "level": 2,
+          "score": 0.2842000126838684
+        },
+        {
+          "id": "https://openalex.org/C107645774",
+          "wikidata": "https://www.wikidata.org/wiki/Q5467169",
+          "display_name": "Human resources",
+          "level": 2,
+          "score": 0.27799999713897705
+        },
+        {
+          "id": "https://openalex.org/C39549134",
+          "wikidata": "https://www.wikidata.org/wiki/Q133080",
+          "display_name": "Public relations",
+          "level": 1,
+          "score": 0.27709999680519104
+        },
+        {
+          "id": "https://openalex.org/C2779641649",
+          "wikidata": "https://www.wikidata.org/wiki/Q18377767",
+          "display_name": "Human Dimension",
+          "level": 3,
+          "score": 0.2754000127315521
+        },
+        {
+          "id": "https://openalex.org/C87156501",
+          "wikidata": "https://www.wikidata.org/wiki/Q7268708",
+          "display_name": "Qualitative property",
+          "level": 2,
+          "score": 0.272599995136261
+        },
+        {
+          "id": "https://openalex.org/C12532035",
+          "wikidata": "https://www.wikidata.org/wiki/Q1399956",
+          "display_name": "Performance management",
+          "level": 2,
+          "score": 0.26260000467300415
+        },
+        {
+          "id": "https://openalex.org/C46934059",
+          "wikidata": "https://www.wikidata.org/wiki/Q61515",
+          "display_name": "Outsourcing",
+          "level": 2,
+          "score": 0.258899986743927
+        },
+        {
+          "id": "https://openalex.org/C2778012447",
+          "wikidata": "https://www.wikidata.org/wiki/Q1034415",
+          "display_name": "Scope (computer science)",
+          "level": 2,
+          "score": 0.258899986743927
+        },
+        {
+          "id": "https://openalex.org/C18762648",
+          "wikidata": "https://www.wikidata.org/wiki/Q42213",
+          "display_name": "Work (physics)",
+          "level": 2,
+          "score": 0.25589999556541443
+        },
+        {
+          "id": "https://openalex.org/C2779719641",
+          "wikidata": "https://www.wikidata.org/wiki/Q8034631",
+          "display_name": "Work motivation",
+          "level": 3,
+          "score": 0.2547000050544739
+        },
+        {
+          "id": "https://openalex.org/C162853370",
+          "wikidata": "https://www.wikidata.org/wiki/Q39809",
+          "display_name": "Marketing",
+          "level": 1,
+          "score": 0.2513999938964844
+        }
+      ],
+      "mesh": [],
+      "locations_count": 1,
+      "locations": [
+        {
+          "id": "pmh:oai:osuva.uwasa.fi:11111/20728",
+          "doi": null,
+          "is_oa": true,
+          "landing_page_url": "https://osuva.uwasa.fi/handle/11111/20728",
+          "pdf_url": "https://osuva.uwasa.fi/bitstreams/d4e57930-5d50-4254-bd95-beca2dfa055f/download",
+          "source": {
+            "id": "https://openalex.org/S4306400974",
+            "display_name": "Osuva (University of Vaasa)",
+            "issn_l": null,
+            "issn": null,
+            "is_oa": false,
+            "is_in_doaj": false,
+            "is_core": false,
+            "listed_in": [],
+            "host_organization": "https://openalex.org/I79765343",
+            "host_organization_name": "University of Vaasa",
+            "host_organization_lineage": [
+              "https://openalex.org/I79765343"
+            ],
+            "host_organization_lineage_names": [],
+            "type": "repository"
+          },
+          "license": "cc-by-nc-nd",
+          "license_id": "https://openalex.org/licenses/cc-by-nc-nd",
+          "version": "submittedVersion",
+          "is_accepted": false,
+          "is_published": false,
+          "raw_source_name": null,
+          "raw_type": "fi=Pro gradu -tutkielma|en=Master&apos;s thesis|sv=Pro gradu -avhandling|"
+        }
+      ],
+      "best_oa_location": {
+        "id": "pmh:oai:osuva.uwasa.fi:11111/20728",
+        "doi": null,
+        "is_oa": true,
+        "landing_page_url": "https://osuva.uwasa.fi/handle/11111/20728",
+        "pdf_url": "https://osuva.uwasa.fi/bitstreams/d4e57930-5d50-4254-bd95-beca2dfa055f/download",
+        "source": {
+          "id": "https://openalex.org/S4306400974",
+          "display_name": "Osuva (University of Vaasa)",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "listed_in": [],
+          "host_organization": "https://openalex.org/I79765343",
+          "host_organization_name": "University of Vaasa",
+          "host_organization_lineage": [
+            "https://openalex.org/I79765343"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": "cc-by-nc-nd",
+        "license_id": "https://openalex.org/licenses/cc-by-nc-nd",
+        "version": "submittedVersion",
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": null,
+        "raw_type": "fi=Pro gradu -tutkielma|en=Master&apos;s thesis|sv=Pro gradu -avhandling|"
+      },
+      "sustainable_development_goals": [],
+      "study_designs": [],
+      "awards": [],
+      "funders": [],
+      "has_content": {
+        "pdf": true,
+        "grobid_xml": true
+      },
+      "content_urls": {
+        "pdf": "https://content.openalex.org/works/W7198263193.pdf",
+        "grobid_xml": "https://content.openalex.org/works/W7198263193.grobid-xml"
+      },
+      "referenced_works_count": 28,
+      "referenced_works": [
+        "https://openalex.org/W1791587663",
+        "https://openalex.org/W1979290264",
+        "https://openalex.org/W1981906210",
+        "https://openalex.org/W2052729098",
+        "https://openalex.org/W2084389751",
+        "https://openalex.org/W2109554297",
+        "https://openalex.org/W3121690210",
+        "https://openalex.org/W3167048034",
+        "https://openalex.org/W4205423118",
+        "https://openalex.org/W4229457720",
+        "https://openalex.org/W4313898653",
+        "https://openalex.org/W4324057943",
+        "https://openalex.org/W4324394325",
+        "https://openalex.org/W4365503676",
+        "https://openalex.org/W4385484319",
+        "https://openalex.org/W4390072647",
+        "https://openalex.org/W4392639319",
+        "https://openalex.org/W4393949935",
+        "https://openalex.org/W4396873185",
+        "https://openalex.org/W4404828222",
+        "https://openalex.org/W4405309032",
+        "https://openalex.org/W4409346681",
+        "https://openalex.org/W4409843834",
+        "https://openalex.org/W4410464987",
+        "https://openalex.org/W4412597211",
+        "https://openalex.org/W4413425601",
+        "https://openalex.org/W4415373328",
+        "https://openalex.org/W7107957798"
+      ],
+      "related_works": [
+        "https://openalex.org/W7217940287",
+        "https://openalex.org/W4406236241",
+        "https://openalex.org/W4416319672",
+        "https://openalex.org/W4407374909",
+        "https://openalex.org/W6912375301",
+        "https://openalex.org/W7220786545",
+        "https://openalex.org/W4403155481",
+        "https://openalex.org/W7220444033",
+        "https://openalex.org/W4416003131",
+        "https://openalex.org/W7220077583"
+      ],
+      "abstract_inverted_index": {
+        "This": [
+          0
+        ],
+        "qualitative": [
+          1,
+          163
+        ],
+        "study": [
+          2,
+          36,
+          54,
+          134,
+          237,
+          275,
+          388,
+          412,
+          439
+        ],
+        "examines": [
+          3
+        ],
+        "the": [
+          4,
+          39,
+          58,
+          100,
+          118,
+          236,
+          241,
+          274,
+          285,
+          346,
+          387,
+          411,
+          442,
+          458
+        ],
+        "Challenges": [
+          5
+        ],
+        "of": [
+          6,
+          41,
+          60,
+          103,
+          235,
+          259,
+          273,
+          287,
+          298,
+          362,
+          444
+        ],
+        "Integrating": [
+          7
+        ],
+        "Artificial": [
+          8,
+          29
+        ],
+        "Intelligence": [
+          9
+        ],
+        "(AI)": [
+          10
+        ],
+        "into": [
+          11
+        ],
+        "SAP": [
+          12,
+          65,
+          68,
+          76,
+          85,
+          180,
+          191,
+          418
+        ],
+        "Human": [
+          13
+        ],
+        "Capital": [
+          14
+        ],
+        "Management": [
+          15
+        ],
+        "(HCM)": [
+          16
+        ],
+        "with": [
+          17,
+          178,
+          182,
+          327,
+          369,
+          398
+        ],
+        "particular": [
+          18
+        ],
+        "emphasis": [
+          19
+        ],
+        "on": [
+          20,
+          145,
+          187,
+          197,
+          225,
+          384,
+          457
+        ],
+        "employee": [
+          21,
+          147,
+          278,
+          309,
+          461
+        ],
+        "motivation": [
+          22,
+          148,
+          159,
+          279
+        ],
+        "and": [
+          23,
+          51,
+          67,
+          78,
+          87,
+          95,
+          120,
+          131,
+          153,
+          201,
+          208,
+          222,
+          228,
+          250,
+          263,
+          290,
+          296,
+          330,
+          345,
+          364,
+          380,
+          406,
+          435,
+          465
+        ],
+        "leadership": [
+          24,
+          155,
+          464
+        ],
+        "influence": [
+          25,
+          124
+        ],
+        "in": [
+          26,
+          34,
+          64,
+          84,
+          105,
+          190,
+          284,
+          300,
+          339,
+          356,
+          417,
+          447
+        ],
+        "AI-driven": [
+          27
+        ],
+        "transformations.": [
+          28
+        ],
+        "intelligence": [
+          30
+        ],
+        "tools": [
+          31,
+          74
+        ],
+        "referred": [
+          32
+        ],
+        "to": [
+          33,
+          89,
+          117,
+          139,
+          204,
+          219,
+          341,
+          367,
+          441
+        ],
+        "this": [
+          35,
+          141
+        ],
+        "fall": [
+          37
+        ],
+        "under": [
+          38
+        ],
+        "category": [
+          40
+        ],
+        "sandboxed": [
+          42
+        ],
+        "Federated": [
+          43
+        ],
+        "LLM,": [
+          44
+        ],
+        "which": [
+          45,
+          254
+        ],
+        "means": [
+          46
+        ],
+        "that": [
+          47,
+          123,
+          277,
+          308,
+          390,
+          414,
+          453
+        ],
+        "they": [
+          48,
+          315
+        ],
+        "are": [
+          49,
+          81,
+          311,
+          371,
+          396
+        ],
+        "isolated": [
+          50
+        ],
+        "secure.": [
+          52
+        ],
+        "The": [
+          53,
+          133,
+          169,
+          194,
+          210,
+          232,
+          270,
+          438
+        ],
+        "is": [
+          55,
+          128,
+          238,
+          280,
+          319,
+          325,
+          336,
+          392
+        ],
+        "positioned": [
+          56
+        ],
+        "within": [
+          57
+        ],
+        "context": [
+          59
+        ],
+        "growing": [
+          61
+        ],
+        "AI": [
+          62,
+          79,
+          104,
+          150,
+          268,
+          288,
+          318,
+          363,
+          415,
+          445
+        ],
+        "adoption": [
+          63,
+          391,
+          446
+        ],
+        "HCM": [
+          66,
+          192,
+          419
+        ],
+        "Success": [
+          69
+        ],
+        "Factors": [
+          70
+        ],
+        "environments,": [
+          71
+        ],
+        "where": [
+          72
+        ],
+        "AI-enabled": [
+          73
+        ],
+        "like": [
+          75,
+          247
+        ],
+        "Joule": [
+          77
+        ],
+        "Core": [
+          80
+        ],
+        "increasingly": [
+          82
+        ],
+        "embedded": [
+          83
+        ],
+        "workflows": [
+          86
+        ],
+        "applications": [
+          88
+        ],
+        "improve": [
+          90
+        ],
+        "efficiency,": [
+          91,
+          328
+        ],
+        "automate": [
+          92
+        ],
+        "routine": [
+          93
+        ],
+        "tasks": [
+          94
+        ],
+        "support": [
+          96,
+          329
+        ],
+        "decision": [
+          97
+        ],
+        "making.": [
+          98
+        ],
+        "Although": [
+          99
+        ],
+        "technological": [
+          101,
+          427
+        ],
+        "potential": [
+          102
+        ],
+        "HR": [
+          106,
+          449
+        ],
+        "systems": [
+          107,
+          450
+        ],
+        "has": [
+          108,
+          114,
+          135,
+          166,
+          304,
+          350
+        ],
+        "been": [
+          109,
+          115,
+          137,
+          167,
+          173,
+          214,
+          306
+        ],
+        "widely": [
+          110
+        ],
+        "studied,": [
+          111
+        ],
+        "less": [
+          112
+        ],
+        "attention": [
+          113
+        ],
+        "given": [
+          116
+        ],
+        "human": [
+          119
+        ],
+        "organizational": [
+          121,
+          264,
+          466
+        ],
+        "factors": [
+          122,
+          265
+        ],
+        "whether": [
+          125
+        ],
+        "such": [
+          126
+        ],
+        "integration": [
+          127,
+          151,
+          416
+        ],
+        "successfully": [
+          129
+        ],
+        "accepted": [
+          130
+        ],
+        "implemented.": [
+          132
+        ],
+        "therefore": [
+          136
+        ],
+        "undertaken": [
+          138
+        ],
+        "address": [
+          140
+        ],
+        "gap": [
+          142
+        ],
+        "by": [
+          143,
+          240,
+          313,
+          374,
+          451
+        ],
+        "focusing": [
+          144
+        ],
+        "how": [
+          146,
+          154,
+          260,
+          314,
+          375
+        ],
+        "affects": [
+          149
+        ],
+        "success": [
+          152,
+          286
+        ],
+        "practices": [
+          156
+        ],
+        "can": [
+          157
+        ],
+        "strengthen": [
+          158
+        ],
+        "during": [
+          160,
+          267
+        ],
+        "implementation.": [
+          161
+        ],
+        "A": [
+          162
+        ],
+        "research": [
+          164,
+          385
+        ],
+        "approach": [
+          165
+        ],
+        "adopted.": [
+          168
+        ],
+        "empirical": [
+          170
+        ],
+        "data": [
+          171,
+          212
+        ],
+        "have": [
+          172,
+          213
+        ],
+        "collected": [
+          174
+        ],
+        "through": [
+          175
+        ],
+        "semi-structured": [
+          176
+        ],
+        "interviews": [
+          177,
+          195
+        ],
+        "five": [
+          179
+        ],
+        "consultants": [
+          181
+        ],
+        "strong": [
+          183
+        ],
+        "professional": [
+          184
+        ],
+        "experience": [
+          185
+        ],
+        "working": [
+          186
+        ],
+        "AI-related": [
+          188
+        ],
+        "projects": [
+          189
+        ],
+        "environments.": [
+          193,
+          409
+        ],
+        "focused": [
+          196
+        ],
+        "gathering": [
+          198
+        ],
+        "consultants’": [
+          199
+        ],
+        "experiences": [
+          200
+        ],
+        "perceptions": [
+          202
+        ],
+        "related": [
+          203
+        ],
+        "motivation,": [
+          205,
+          358,
+          462
+        ],
+        "technology": [
+          206
+        ],
+        "acceptance": [
+          207
+        ],
+        "leadership.": [
+          209
+        ],
+        "interview": [
+          211
+        ],
+        "analysed": [
+          215
+        ],
+        "using": [
+          216
+        ],
+        "thematic": [
+          217
+        ],
+        "analysis": [
+          218
+        ],
+        "identify": [
+          220
+        ],
+        "themes": [
+          221
+        ],
+        "sub-themes": [
+          223
+        ],
+        "based": [
+          224
+        ],
+        "recurring": [
+          226
+        ],
+        "patterns": [
+          227
+        ],
+        "relationships": [
+          229
+        ],
+        "between": [
+          230,
+          460
+        ],
+        "them.": [
+          231,
+          382
+        ],
+        "theoretical": [
+          233
+        ],
+        "background": [
+          234
+        ],
+        "formed": [
+          239
+        ],
+        "Technological": [
+          242
+        ],
+        "Acceptance": [
+          243
+        ],
+        "Model,": [
+          244
+        ],
+        "Motivation": [
+          245
+        ],
+        "theories": [
+          246
+        ],
+        "Self-Determination": [
+          248
+        ],
+        "Theory": [
+          249
+        ],
+        "Transformational": [
+          251
+        ],
+        "Leadership": [
+          252,
+          349
+        ],
+        "Theory,": [
+          253
+        ],
+        "together": [
+          255
+        ],
+        "provide": [
+          256
+        ],
+        "an": [
+          257
+        ],
+        "understanding": [
+          258,
+          443
+        ],
+        "technological,": [
+          261
+        ],
+        "psychological": [
+          262
+        ],
+        "interact": [
+          266
+        ],
+        "adoption.": [
+          269
+        ],
+        "main": [
+          271
+        ],
+        "results": [
+          272
+        ],
+        "indicate": [
+          276
+        ],
+        "a": [
+          281,
+          353,
+          426,
+          432
+        ],
+        "decisive": [
+          282
+        ],
+        "factor": [
+          283
+        ],
+        "integration,": [
+          289
+        ],
+        "it": [
+          291,
+          324
+        ],
+        "influences": [
+          292
+        ],
+        "acceptance,": [
+          293
+        ],
+        "engagement,": [
+          294
+        ],
+        "learning": [
+          295,
+          404
+        ],
+        "participation": [
+          297
+        ],
+        "employees": [
+          299,
+          395
+        ],
+        "implementation": [
+          301,
+          455
+        ],
+        "activities.": [
+          302
+        ],
+        "It": [
+          303
+        ],
+        "also": [
+          305,
+          337,
+          430
+        ],
+        "found": [
+          307
+        ],
+        "reactions": [
+          310
+        ],
+        "shaped": [
+          312
+        ],
+        "perceive": [
+          316
+        ],
+        "AI.": [
+          317
+        ],
+        "perceived": [
+          320
+        ],
+        "as": [
+          321,
+          352,
+          359,
+          425,
+          431
+        ],
+        "beneficial": [
+          322
+        ],
+        "when": [
+          323,
+          394
+        ],
+        "associated": [
+          326
+        ],
+        "more": [
+          331
+        ],
+        "meaningful": [
+          332
+        ],
+        "work,": [
+          333
+        ],
+        "but": [
+          334,
+          429
+        ],
+        "concern": [
+          335
+        ],
+        "experienced": [
+          338
+        ],
+        "relation": [
+          340
+        ],
+        "uncertainty,": [
+          342
+        ],
+        "role": [
+          343
+        ],
+        "insecurity": [
+          344
+        ],
+        "future": [
+          347
+        ],
+        "relevance.": [
+          348
+        ],
+        "emerged": [
+          351
+        ],
+        "central": [
+          354
+        ],
+        "force": [
+          355
+        ],
+        "shaping": [
+          357
+        ],
+        "employees’": [
+          360
+        ],
+        "interpretations": [
+          361
+        ],
+        "their": [
+          365
+        ],
+        "willingness": [
+          366
+        ],
+        "engage": [
+          368
+        ],
+        "change": [
+          370,
+          428
+        ],
+        "strongly": [
+          372
+        ],
+        "influenced": [
+          373
+        ],
+        "leaders": [
+          376
+        ],
+        "communicate,": [
+          377
+        ],
+        "support,": [
+          378
+        ],
+        "involve": [
+          379
+        ],
+        "guide": [
+          381
+        ],
+        "Based": [
+          383
+        ],
+        "findings,": [
+          386
+        ],
+        "suggests": [
+          389
+        ],
+        "strengthened": [
+          393
+        ],
+        "provided": [
+          397
+        ],
+        "clear": [
+          399
+        ],
+        "communication,": [
+          400
+        ],
+        "practical": [
+          401
+        ],
+        "training,": [
+          402
+        ],
+        "supportive": [
+          403
+        ],
+        "conditions": [
+          405
+        ],
+        "psychologically": [
+          407
+        ],
+        "safe": [
+          408
+        ],
+        "Overall,": [
+          410
+        ],
+        "concludes": [
+          413
+        ],
+        "should": [
+          420
+        ],
+        "be": [
+          421
+        ],
+        "understood": [
+          422
+        ],
+        "not": [
+          423
+        ],
+        "only": [
+          424
+        ],
+        "human-": [
+          433
+        ],
+        "centred": [
+          434
+        ],
+        "socio-technical": [
+          436
+        ],
+        "transformation.": [
+          437
+        ],
+        "contributes": [
+          440
+        ],
+        "enterprise": [
+          448
+        ],
+        "showing": [
+          452
+        ],
+        "successful": [
+          454
+        ],
+        "depends": [
+          456
+        ],
+        "interaction": [
+          459
+        ],
+        "supported": [
+          463
+        ],
+        "readiness.": [
+          467
+        ]
+      },
+      "counts_by_year": [],
+      "updated_date": "2026-11-16T12:05:36.265796",
+      "created_date": "2026-08-07T00:00:00"
+    },
+    {
+      "id": "https://openalex.org/W2522153574",
+      "doi": null,
+      "title": "SAP Certified Development Consultant - SAP Cloud for Customer",
+      "display_name": "SAP Certified Development Consultant - SAP Cloud for Customer",
+      "relevance_score": 89.481926,
+      "publication_year": 2015,
+      "publication_date": "2015-12-04",
+      "ids": {
+        "openalex": "https://openalex.org/W2522153574",
+        "mag": "2522153574"
+      },
+      "language": "en",
+      "primary_location": {
+        "id": "mag:2522153574",
+        "doi": null,
+        "is_oa": false,
+        "landing_page_url": "https://www.amazon.com/SAP-Certified-Development-Consultant-Customer/dp/1519651694",
+        "pdf_url": null,
+        "source": null,
+        "license": null,
+        "license_id": null,
+        "version": null,
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": null,
+        "raw_type": null
+      },
+      "parent_works": [],
+      "lineage": [
+        "https://openalex.org/W2522153574"
+      ],
+      "child_works_count": 0,
+      "type": "book",
+      "is_traditional": true,
+      "indexed_in": [],
+      "open_access": {
+        "is_oa": false,
+        "oa_status": "closed",
+        "oa_url": null,
+        "any_repository_has_fulltext": false
+      },
+      "authorships": [
+        {
+          "author_position": "first",
+          "author": {
+            "id": null,
+            "display_name": "Joshua J. Jacobs",
+            "orcid": "https://orcid.org/0000-0003-3902-7334",
+            "observed_orcids": [
+              "https://orcid.org/0000-0003-3902-7334"
+            ]
+          },
+          "institutions": [],
+          "countries": [],
+          "is_corresponding": false,
+          "raw_author_name": "Joshua J. Jacobs",
+          "raw_affiliation_strings": [],
+          "raw_orcid": "https://orcid.org/0000-0003-3902-7334",
+          "affiliations": []
+        },
+        {
+          "author_position": "last",
+          "author": {
+            "id": "https://openalex.org/A5058198704",
+            "display_name": "N. Kaur",
+            "orcid": null,
+            "observed_orcids": []
+          },
+          "institutions": [],
+          "countries": [],
+          "is_corresponding": false,
+          "raw_author_name": "N. Kaur",
+          "raw_affiliation_strings": [],
+          "raw_orcid": null,
+          "affiliations": []
+        }
+      ],
+      "institutions": [],
+      "countries_distinct_count": 0,
+      "institutions_distinct_count": 0,
+      "corresponding_author_ids": [],
+      "corresponding_institution_ids": [],
+      "apc_list": null,
+      "apc_paid": null,
+      "fwci": 0.0,
+      "is_authors_truncated": false,
+      "has_fulltext": false,
+      "cited_by_count": 0,
+      "citation_normalized_percentile": {
+        "value": 0.0,
+        "is_in_top_1_percent": false,
+        "is_in_top_10_percent": false
+      },
+      "cited_by_percentile_year": null,
+      "biblio": {
+        "volume": null,
+        "issue": null,
+        "first_page": null,
+        "last_page": null
+      },
+      "is_retracted": false,
+      "is_paratext": false,
+      "is_xpac": false,
+      "primary_topic": {
+        "id": "https://openalex.org/T11938",
+        "display_name": "ERP Systems Implementation and Impact",
+        "score": 0.8978999853134155,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1404",
+          "display_name": "Management Information Systems"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/14",
+          "display_name": "Business, Management and Accounting"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      "topics": [
+        {
+          "id": "https://openalex.org/T11938",
+          "display_name": "ERP Systems Implementation and Impact",
+          "score": 0.8978999853134155,
+          "subfield": {
+            "id": "https://openalex.org/subfields/1404",
+            "display_name": "Management Information Systems"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/14",
+            "display_name": "Business, Management and Accounting"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/2",
+            "display_name": "Social Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T13034",
+          "display_name": "Information Systems Education and Curriculum Development",
+          "score": 0.04830000177025795,
+          "subfield": {
+            "id": "https://openalex.org/subfields/1710",
+            "display_name": "Information Systems"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/17",
+            "display_name": "Computer Science"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T10679",
+          "display_name": "Service-Oriented Architecture and Web Services",
+          "score": 0.0071000000461936,
+          "subfield": {
+            "id": "https://openalex.org/subfields/1710",
+            "display_name": "Information Systems"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/17",
+            "display_name": "Computer Science"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        }
+      ],
+      "keywords": [
+        {
+          "id": "https://openalex.org/keywords/certification-exam-preparation",
+          "display_name": "certification exam preparation",
+          "score": 0.8769999742507935
+        },
+        {
+          "id": "https://openalex.org/keywords/functional-improvement",
+          "display_name": "functional improvement",
+          "score": 0.6620000004768372
+        },
+        {
+          "id": "https://openalex.org/keywords/cloud-application-development",
+          "display_name": "cloud application development",
+          "score": 0.6240000128746033
+        },
+        {
+          "id": "https://openalex.org/keywords/sap",
+          "display_name": "SAP",
+          "score": 0.3310000002384186
+        }
+      ],
+      "concepts": [
+        {
+          "id": "https://openalex.org/C46304622",
+          "wikidata": "https://www.wikidata.org/wiki/Q374814",
+          "display_name": "Certification",
+          "level": 2,
+          "score": 0.8585630059242249
+        },
+        {
+          "id": "https://openalex.org/C96865113",
+          "wikidata": "https://www.wikidata.org/wiki/Q2946816",
+          "display_name": "Certificate",
+          "level": 2,
+          "score": 0.7179086804389954
+        },
+        {
+          "id": "https://openalex.org/C79974875",
+          "wikidata": "https://www.wikidata.org/wiki/Q483639",
+          "display_name": "Cloud computing",
+          "level": 2,
+          "score": 0.7085618376731873
+        },
+        {
+          "id": "https://openalex.org/C2777267654",
+          "wikidata": "https://www.wikidata.org/wiki/Q3519023",
+          "display_name": "Test (biology)",
+          "level": 2,
+          "score": 0.5531837940216064
+        },
+        {
+          "id": "https://openalex.org/C41008148",
+          "wikidata": "https://www.wikidata.org/wiki/Q21198",
+          "display_name": "Computer science",
+          "level": 0,
+          "score": 0.5405442118644714
+        },
+        {
+          "id": "https://openalex.org/C2780719456",
+          "wikidata": "https://www.wikidata.org/wiki/Q7628401",
+          "display_name": "Study guide",
+          "level": 2,
+          "score": 0.506607174873352
+        },
+        {
+          "id": "https://openalex.org/C26517878",
+          "wikidata": "https://www.wikidata.org/wiki/Q228039",
+          "display_name": "Key (lock)",
+          "level": 2,
+          "score": 0.4110630750656128
+        },
+        {
+          "id": "https://openalex.org/C110354214",
+          "wikidata": "https://www.wikidata.org/wiki/Q6314146",
+          "display_name": "Engineering management",
+          "level": 1,
+          "score": 0.32341933250427246
+        },
+        {
+          "id": "https://openalex.org/C127413603",
+          "wikidata": "https://www.wikidata.org/wiki/Q11023",
+          "display_name": "Engineering",
+          "level": 0,
+          "score": 0.2454172670841217
+        },
+        {
+          "id": "https://openalex.org/C38652104",
+          "wikidata": "https://www.wikidata.org/wiki/Q3510521",
+          "display_name": "Computer security",
+          "level": 1,
+          "score": 0.20537200570106506
+        },
+        {
+          "id": "https://openalex.org/C187736073",
+          "wikidata": "https://www.wikidata.org/wiki/Q2920921",
+          "display_name": "Management",
+          "level": 1,
+          "score": 0.10198301076889038
+        },
+        {
+          "id": "https://openalex.org/C50522688",
+          "wikidata": "https://www.wikidata.org/wiki/Q189833",
+          "display_name": "Economic growth",
+          "level": 1,
+          "score": 0.0
+        },
+        {
+          "id": "https://openalex.org/C86803240",
+          "wikidata": "https://www.wikidata.org/wiki/Q420",
+          "display_name": "Biology",
+          "level": 0,
+          "score": 0.0
+        },
+        {
+          "id": "https://openalex.org/C11413529",
+          "wikidata": "https://www.wikidata.org/wiki/Q8366",
+          "display_name": "Algorithm",
+          "level": 1,
+          "score": 0.0
+        },
+        {
+          "id": "https://openalex.org/C151730666",
+          "wikidata": "https://www.wikidata.org/wiki/Q7205",
+          "display_name": "Paleontology",
+          "level": 1,
+          "score": 0.0
+        },
+        {
+          "id": "https://openalex.org/C162324750",
+          "wikidata": "https://www.wikidata.org/wiki/Q8134",
+          "display_name": "Economics",
+          "level": 0,
+          "score": 0.0
+        },
+        {
+          "id": "https://openalex.org/C111919701",
+          "wikidata": "https://www.wikidata.org/wiki/Q9135",
+          "display_name": "Operating system",
+          "level": 1,
+          "score": 0.0
+        }
+      ],
+      "mesh": [],
+      "locations_count": 1,
+      "locations": [
+        {
+          "id": "mag:2522153574",
+          "doi": null,
+          "is_oa": false,
+          "landing_page_url": "https://www.amazon.com/SAP-Certified-Development-Consultant-Customer/dp/1519651694",
+          "pdf_url": null,
+          "source": null,
+          "license": null,
+          "license_id": null,
+          "version": null,
+          "is_accepted": false,
+          "is_published": false,
+          "raw_source_name": null,
+          "raw_type": null
+        }
+      ],
+      "best_oa_location": null,
+      "sustainable_development_goals": [],
+      "study_designs": [],
+      "awards": [],
+      "funders": [],
+      "has_content": {
+        "pdf": false,
+        "grobid_xml": false
+      },
+      "content_urls": null,
+      "referenced_works_count": 0,
+      "referenced_works": [],
+      "related_works": [
+        "https://openalex.org/W2738422323",
+        "https://openalex.org/W2747546375",
+        "https://openalex.org/W2832003115",
+        "https://openalex.org/W7071311435",
+        "https://openalex.org/W2582341096",
+        "https://openalex.org/W2799543508",
+        "https://openalex.org/W2731608543",
+        "https://openalex.org/W4225897280",
+        "https://openalex.org/W4225693637",
+        "https://openalex.org/W4220999981"
+      ],
+      "abstract_inverted_index": {
+        "SAP": [
+          0,
+          5,
+          35,
+          67,
+          72,
+          78,
+          82,
+          99,
+          105,
+          264,
+          316,
+          353,
+          358
+        ],
+        "Certified": [
+          1,
+          68,
+          79,
+          354
+        ],
+        "Development": [
+          2,
+          53,
+          69,
+          80,
+          355
+        ],
+        "Consultant": [
+          3,
+          54,
+          70,
+          81,
+          122,
+          356
+        ],
+        "-": [
+          4,
+          71,
+          343,
+          357,
+          363,
+          371,
+          389
+        ],
+        "Cloud": [
+          6,
+          36,
+          73,
+          83,
+          100,
+          106,
+          359
+        ],
+        "for": [
+          7,
+          39,
+          74,
+          84,
+          101,
+          107,
+          170,
+          191,
+          291,
+          319,
+          351,
+          360
+        ],
+        "Customer": [
+          8,
+          75,
+          85,
+          102,
+          108,
+          361
+        ],
+        "These": [
+          9
+        ],
+        "questions": [
+          10,
+          198,
+          222,
+          373,
+          381
+        ],
+        "are": [
+          11,
+          61,
+          160,
+          244,
+          374
+        ],
+        "similar": [
+          12,
+          378
+        ],
+        "to": [
+          13,
+          103,
+          127,
+          154,
+          193,
+          210,
+          216,
+          234,
+          239,
+          247,
+          258,
+          262,
+          274,
+          321,
+          332,
+          379
+        ],
+        "the": [
+          14,
+          18,
+          48,
+          52,
+          66,
+          90,
+          115,
+          121,
+          129,
+          176,
+          188,
+          203,
+          226,
+          253,
+          267,
+          312,
+          315,
+          326,
+          352,
+          369,
+          380,
+          386,
+          395
+        ],
+        "ones": [
+          15
+        ],
+        "asked": [
+          16
+        ],
+        "in": [
+          17,
+          98,
+          140,
+          385,
+          403
+        ],
+        "actual": [
+          19,
+          387
+        ],
+        "Test.": [
+          20
+        ],
+        "How": [
+          21
+        ],
+        "should": [
+          22,
+          302
+        ],
+        "we": [
+          23,
+          29,
+          42
+        ],
+        "know?": [
+          24
+        ],
+        "We": [
+          25
+        ],
+        "know,": [
+          26
+        ],
+        "because": [
+          27
+        ],
+        "although": [
+          28
+        ],
+        "have": [
+          30,
+          43,
+          151,
+          178,
+          206,
+          229,
+          296,
+          366
+        ],
+        "been": [
+          31
+        ],
+        "working": [
+          32
+        ],
+        "as": [
+          33
+        ],
+        "an": [
+          34,
+          137,
+          171
+        ],
+        "development/functional": [
+          37
+        ],
+        "consultant": [
+          38,
+          139
+        ],
+        "several": [
+          40
+        ],
+        "years,": [
+          41
+        ],
+        "ourselves": [
+          44
+        ],
+        "recently": [
+          45
+        ],
+        "certified": [
+          46
+        ],
+        "with": [
+          47,
+          199,
+          223,
+          280,
+          325
+        ],
+        "latest": [
+          49
+        ],
+        "version": [
+          50
+        ],
+        "of": [
+          51,
+          65,
+          136,
+          175,
+          289,
+          314,
+          340
+        ],
+        "Certification": [
+          55,
+          268,
+          279
+        ],
+        "test.": [
+          56
+        ],
+        "Before": [
+          57
+        ],
+        "you": [
+          58,
+          150,
+          192,
+          238,
+          273,
+          295,
+          301,
+          320,
+          324,
+          330,
+          382
+        ],
+        "start": [
+          59
+        ],
+        "here": [
+          60
+        ],
+        "some": [
+          62,
+          281,
+          307
+        ],
+        "Key": [
+          63
+        ],
+        "features": [
+          64,
+          339
+        ],
+        "Exam.": [
+          76
+        ],
+        "The": [
+          77,
+          144,
+          158,
+          364
+        ],
+        "certification": [
+          86,
+          254
+        ],
+        "exam": [
+          87,
+          145
+        ],
+        "verifies": [
+          88
+        ],
+        "that": [
+          89,
+          114,
+          399
+        ],
+        "candidate": [
+          91,
+          116
+        ],
+        "possesses": [
+          92
+        ],
+        "fundamental": [
+          93,
+          118
+        ],
+        "knowledge": [
+          94
+        ],
+        "and": [
+          95,
+          124,
+          149,
+          165,
+          310
+        ],
+        "proven": [
+          96
+        ],
+        "skills": [
+          97,
+          132
+        ],
+        "develop": [
+          104
+        ],
+        "functional": [
+          109
+        ],
+        "enhancements.": [
+          110
+        ],
+        "This": [
+          111,
+          236
+        ],
+        "certificate": [
+          112
+        ],
+        "proves": [
+          113
+        ],
+        "has": [
+          117
+        ],
+        "understanding": [
+          119
+        ],
+        "within": [
+          120
+        ],
+        "profile": [
+          123
+        ],
+        "is": [
+          125,
+          146,
+          167,
+          334,
+          345
+        ],
+        "able": [
+          126,
+          215
+        ],
+        "apply": [
+          128
+        ],
+        "associated": [
+          130
+        ],
+        "prerequisite": [
+          131
+        ],
+        "practically": [
+          133
+        ],
+        "under": [
+          134
+        ],
+        "supervision": [
+          135
+        ],
+        "expert": [
+          138
+        ],
+        "a": [
+          141,
+          200,
+          207,
+          230,
+          275,
+          278,
+          287
+        ],
+        "project": [
+          142,
+          282,
+          308
+        ],
+        "environment.": [
+          143
+        ],
+        "Computer": [
+          147
+        ],
+        "based": [
+          148
+        ],
+        "180": [
+          152
+        ],
+        "minutes": [
+          153
+        ],
+        "answer": [
+          155
+        ],
+        "80": [
+          156
+        ],
+        "Questions.": [
+          157
+        ],
+        "Questions": [
+          159,
+          177
+        ],
+        "(mostly)": [
+          161
+        ],
+        "multiple": [
+          162,
+          224,
+          241,
+          375
+        ],
+        "choice": [
+          163,
+          376
+        ],
+        "type": [
+          164
+        ],
+        "there": [
+          166
+        ],
+        "NO": [
+          168,
+          346
+        ],
+        "penalty": [
+          169
+        ],
+        "incorrect": [
+          172
+        ],
+        "answer.": [
+          173,
+          183
+        ],
+        "Some": [
+          174,
+          337
+        ],
+        "more": [
+          179
+        ],
+        "than": [
+          180
+        ],
+        "one": [
+          181,
+          219
+        ],
+        "correct": [
+          182,
+          190
+        ],
+        "You": [
+          184,
+          212,
+          243
+        ],
+        "must": [
+          185
+        ],
+        "get": [
+          186,
+          303,
+          306,
+          384
+        ],
+        "ALL": [
+          187
+        ],
+        "options": [
+          189
+        ],
+        "be": [
+          194,
+          214,
+          401
+        ],
+        "awarded": [
+          195
+        ],
+        "points.": [
+          196
+        ],
+        "For": [
+          197,
+          221
+        ],
+        "single": [
+          201
+        ],
+        "answer,": [
+          202
+        ],
+        "answers": [
+          204,
+          227
+        ],
+        "will": [
+          205,
+          213,
+          228,
+          269,
+          284,
+          383,
+          400
+        ],
+        "button": [
+          208
+        ],
+        "next": [
+          209,
+          233
+        ],
+        "them.": [
+          211,
+          235
+        ],
+        "select": [
+          217,
+          240
+        ],
+        "only": [
+          218
+        ],
+        "button.": [
+          220
+        ],
+        "answers,": [
+          225
+        ],
+        "tick": [
+          231
+        ],
+        "box": [
+          232
+        ],
+        "allows": [
+          237
+        ],
+        "answers.": [
+          242
+        ],
+        "not": [
+          245,
+          270
+        ],
+        "allowed": [
+          246
+        ],
+        "use": [
+          248
+        ],
+        "any": [
+          249,
+          263
+        ],
+        "reference": [
+          250
+        ],
+        "materials": [
+          251
+        ],
+        "during": [
+          252
+        ],
+        "test": [
+          255
+        ],
+        "(no": [
+          256
+        ],
+        "access": [
+          257
+        ],
+        "online": [
+          259
+        ],
+        "documentation": [
+          260
+        ],
+        "or": [
+          261,
+          298
+        ],
+        "system).": [
+          265
+        ],
+        "Clearing": [
+          266
+        ],
+        "automatically": [
+          271
+        ],
+        "lead": [
+          272
+        ],
+        "job.": [
+          276
+        ],
+        "However": [
+          277
+        ],
+        "experience": [
+          283
+        ],
+        "certainly": [
+          285
+        ],
+        "open": [
+          286,
+          318
+        ],
+        "lot": [
+          288
+        ],
+        "doors": [
+          290
+        ],
+        "you.": [
+          292
+        ],
+        "So": [
+          293
+        ],
+        "if": [
+          294
+        ],
+        "little": [
+          297
+        ],
+        "no": [
+          299
+        ],
+        "experience,": [
+          300,
+          309
+        ],
+        "yourself": [
+          304
+        ],
+        "certified,": [
+          305
+        ],
+        "then": [
+          311
+        ],
+        "whole": [
+          313
+        ],
+        "World": [
+          317
+        ],
+        "explore.": [
+          322
+        ],
+        "Helping": [
+          323
+        ],
+        "first": [
+          327
+        ],
+        "step": [
+          328
+        ],
+        "on": [
+          329
+        ],
+        "ladder": [
+          331
+        ],
+        "success": [
+          333
+        ],
+        "this": [
+          335,
+          341
+        ],
+        "book!": [
+          336
+        ],
+        "UNIQUE": [
+          338
+        ],
+        "Book:": [
+          342
+        ],
+        "There": [
+          344
+        ],
+        "other": [
+          347
+        ],
+        "quality": [
+          348
+        ],
+        "book": [
+          349
+        ],
+        "available": [
+          350
+        ],
+        "Exam": [
+          362
+        ],
+        "authors": [
+          365
+        ],
+        "themselves": [
+          367
+        ],
+        "cleared": [
+          368
+        ],
+        "exam.": [
+          370,
+          388
+        ],
+        "All": [
+          372
+        ],
+        "format,": [
+          377
+        ],
+        "Over": [
+          390
+        ],
+        "100": [
+          391
+        ],
+        "authentic": [
+          392
+        ],
+        "questions,": [
+          393
+        ],
+        "testing": [
+          394
+        ],
+        "exact": [
+          396
+        ],
+        "same": [
+          397
+        ],
+        "concepts": [
+          398
+        ],
+        "tested": [
+          402
+        ],
+        "Your": [
+          404
+        ],
+        "exam!": [
+          405
+        ]
+      },
+      "counts_by_year": [],
+      "updated_date": "2026-10-01T08:54:57.152042",
+      "created_date": "2016-09-30T00:00:00"
+    }
+  ],
+  "group_by": []
+}

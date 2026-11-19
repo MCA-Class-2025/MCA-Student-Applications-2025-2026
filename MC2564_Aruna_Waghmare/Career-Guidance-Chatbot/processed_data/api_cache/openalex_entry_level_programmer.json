@@ -1,0 +1,5237 @@
+{
+  "meta": {
+    "notice": "No API key, so this request shares one free daily budget ($0.10) with everyone on your network's IP address. Get a free key with its own $1/day at https://openalex.org/settings/api and add api_key=YOUR_KEY to your requests. An AI agent can get one for its user in one call: POST https://api.openalex.org/api-keys with {\"email\": \"<your user's email>\"}; we email them a link, and the key works once they click it. Docs for agents: https://help.openalex.org/llms.txt",
+    "count": 83358,
+    "db_response_time_ms": 456,
+    "page": 1,
+    "per_page": 5,
+    "groups_count": null,
+    "x_query": {
+      "oql": "get works with (ENTRY LEVEL PROGRAMMER) in the title, abstract, or full text",
+      "x_new_oql": "get works with (ENTRY LEVEL PROGRAMMER) in the title, abstract, or full text",
+      "oqo": {
+        "get_rows": "works",
+        "filter_rows": [
+          {
+            "column_id": "fulltext.search",
+            "value": "ENTRY LEVEL PROGRAMMER",
+            "operator": "has"
+          }
+        ]
+      },
+      "url": "/works?filter=fulltext.search:ENTRY LEVEL PROGRAMMER&per_page=5",
+      "order": "best matches first",
+      "order_default": true
+    },
+    "cost_usd": 0.001
+  },
+  "results": [
+    {
+      "id": "https://openalex.org/W241527839",
+      "doi": null,
+      "title": "Analysis of Skills Requirement for Entry-Level Programmer/Analysts in Fortune 500 Corporations",
+      "display_name": "Analysis of Skills Requirement for Entry-Level Programmer/Analysts in Fortune 500 Corporations",
+      "relevance_score": 171.23201,
+      "publication_year": 2008,
+      "publication_date": "2008-02-01",
+      "ids": {
+        "openalex": "https://openalex.org/W241527839",
+        "mag": "241527839"
+      },
+      "language": "en",
+      "primary_location": {
+        "id": "pmh:oai:aisel.aisnet.org:jise-1315",
+        "doi": null,
+        "is_oa": true,
+        "landing_page_url": "https://aisel.aisnet.org/jise/vol19/iss1/3",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S30879505",
+          "display_name": "Journal of the Association for Information Systems",
+          "issn_l": "1536-9323",
+          "issn": [
+            "1536-9323"
+          ],
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": true,
+          "listed_in": [
+            "abdc-a-star",
+            "anvur-scientific",
+            "cwts-core",
+            "dongbi-a",
+            "fnege-1",
+            "jufo-3",
+            "norway-2",
+            "poland-140",
+            "russia-white-list-1",
+            "vabb-shw"
+          ],
+          "host_organization": "https://openalex.org/P4310321080",
+          "host_organization_name": "Association for Information Systems",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310321080"
+          ],
+          "host_organization_lineage_names": [
+            "Association for Information Systems"
+          ],
+          "type": "journal"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "submittedVersion",
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": "Journal of Information Systems Education",
+        "raw_type": "text"
+      },
+      "parent_works": [],
+      "lineage": [
+        "https://openalex.org/W241527839"
+      ],
+      "child_works_count": 0,
+      "type": "article",
+      "is_traditional": true,
+      "indexed_in": [],
+      "open_access": {
+        "is_oa": true,
+        "oa_status": "green",
+        "oa_url": "https://aisel.aisnet.org/jise/vol19/iss1/3",
+        "any_repository_has_fulltext": true
+      },
+      "authorships": [
+        {
+          "author_position": "first",
+          "author": {
+            "id": "https://openalex.org/A5067628447",
+            "display_name": "Choong Kwon Lee",
+            "orcid": null,
+            "observed_orcids": []
+          },
+          "institutions": [],
+          "countries": [],
+          "is_corresponding": false,
+          "raw_author_name": "Choong Kwon Lee",
+          "raw_affiliation_strings": [],
+          "raw_orcid": null,
+          "affiliations": []
+        },
+        {
+          "author_position": "last",
+          "author": {
+            "id": "https://openalex.org/A5110560167",
+            "display_name": "Hyo‐Joo Han",
+            "orcid": null,
+            "observed_orcids": []
+          },
+          "institutions": [],
+          "countries": [],
+          "is_corresponding": false,
+          "raw_author_name": "Hyo‐Joo Han",
+          "raw_affiliation_strings": [],
+          "raw_orcid": null,
+          "affiliations": []
+        }
+      ],
+      "institutions": [],
+      "countries_distinct_count": 0,
+      "institutions_distinct_count": 0,
+      "corresponding_author_ids": [],
+      "corresponding_institution_ids": [],
+      "apc_list": null,
+      "apc_paid": null,
+      "fwci": 5.785,
+      "is_authors_truncated": false,
+      "has_fulltext": true,
+      "cited_by_count": 68,
+      "citation_normalized_percentile": {
+        "value": 0.95567299,
+        "is_in_top_1_percent": false,
+        "is_in_top_10_percent": true
+      },
+      "cited_by_percentile_year": {
+        "min": 89,
+        "max": 99
+      },
+      "biblio": {
+        "volume": "19",
+        "issue": "1",
+        "first_page": "17",
+        "last_page": "28"
+      },
+      "is_retracted": false,
+      "is_paratext": false,
+      "is_xpac": false,
+      "primary_topic": {
+        "id": "https://openalex.org/T13034",
+        "display_name": "Information Systems Education and Curriculum Development",
+        "score": 0.9994999766349792,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1710",
+          "display_name": "Information Systems"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      "topics": [
+        {
+          "id": "https://openalex.org/T13034",
+          "display_name": "Information Systems Education and Curriculum Development",
+          "score": 0.9994999766349792,
+          "subfield": {
+            "id": "https://openalex.org/subfields/1710",
+            "display_name": "Information Systems"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/17",
+            "display_name": "Computer Science"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T11779",
+          "display_name": "Higher Education and Employability",
+          "score": 0.0003000000142492354,
+          "subfield": {
+            "id": "https://openalex.org/subfields/3304",
+            "display_name": "Education"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/33",
+            "display_name": "Social Sciences"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/2",
+            "display_name": "Social Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T12802",
+          "display_name": "Competency Development and Evaluation",
+          "score": 0.0,
+          "subfield": {
+            "id": "https://openalex.org/subfields/1407",
+            "display_name": "Organizational Behavior and Human Resource Management"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/14",
+            "display_name": "Business, Management and Accounting"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/2",
+            "display_name": "Social Sciences"
+          }
+        }
+      ],
+      "keywords": [
+        {
+          "id": "https://openalex.org/keywords/job-skill-requirements",
+          "display_name": "job skill requirements",
+          "score": 0.8349999785423279
+        },
+        {
+          "id": "https://openalex.org/keywords/job-advertisements",
+          "display_name": "job advertisements",
+          "score": 0.9390000104904175
+        },
+        {
+          "id": "https://openalex.org/keywords/fortune-500-companies",
+          "display_name": "Fortune 500 companies",
+          "score": 0.9279999732971191
+        },
+        {
+          "id": "https://openalex.org/keywords/information-systems-curriculum",
+          "display_name": "information systems curriculum",
+          "score": 0.5879999995231628
+        },
+        {
+          "id": "https://openalex.org/keywords/technical-expertise",
+          "display_name": "technical expertise",
+          "score": 0.5789999961853027
+        }
+      ],
+      "concepts": [
+        {
+          "id": "https://openalex.org/C46934059",
+          "wikidata": "https://www.wikidata.org/wiki/Q61515",
+          "display_name": "Outsourcing",
+          "level": 2,
+          "score": 0.5179630517959595
+        },
+        {
+          "id": "https://openalex.org/C144133560",
+          "wikidata": "https://www.wikidata.org/wiki/Q4830453",
+          "display_name": "Business",
+          "level": 0,
+          "score": 0.47710898518562317
+        },
+        {
+          "id": "https://openalex.org/C97082442",
+          "wikidata": "https://www.wikidata.org/wiki/Q1934361",
+          "display_name": "Skills management",
+          "level": 2,
+          "score": 0.47475579380989075
+        },
+        {
+          "id": "https://openalex.org/C162853370",
+          "wikidata": "https://www.wikidata.org/wiki/Q39809",
+          "display_name": "Marketing",
+          "level": 1,
+          "score": 0.44108256697654724
+        },
+        {
+          "id": "https://openalex.org/C177264268",
+          "wikidata": "https://www.wikidata.org/wiki/Q1514741",
+          "display_name": "Set (abstract data type)",
+          "level": 2,
+          "score": 0.4191198945045471
+        },
+        {
+          "id": "https://openalex.org/C120912362",
+          "wikidata": "https://www.wikidata.org/wiki/Q136822",
+          "display_name": "Higher education",
+          "level": 2,
+          "score": 0.4115334749221802
+        },
+        {
+          "id": "https://openalex.org/C39549134",
+          "wikidata": "https://www.wikidata.org/wiki/Q133080",
+          "display_name": "Public relations",
+          "level": 1,
+          "score": 0.3868134319782257
+        },
+        {
+          "id": "https://openalex.org/C56739046",
+          "wikidata": "https://www.wikidata.org/wiki/Q192060",
+          "display_name": "Knowledge management",
+          "level": 1,
+          "score": 0.3741855323314667
+        },
+        {
+          "id": "https://openalex.org/C187736073",
+          "wikidata": "https://www.wikidata.org/wiki/Q2920921",
+          "display_name": "Management",
+          "level": 1,
+          "score": 0.33625146746635437
+        },
+        {
+          "id": "https://openalex.org/C41008148",
+          "wikidata": "https://www.wikidata.org/wiki/Q21198",
+          "display_name": "Computer science",
+          "level": 0,
+          "score": 0.22269073128700256
+        },
+        {
+          "id": "https://openalex.org/C162324750",
+          "wikidata": "https://www.wikidata.org/wiki/Q8134",
+          "display_name": "Economics",
+          "level": 0,
+          "score": 0.18809708952903748
+        },
+        {
+          "id": "https://openalex.org/C17744445",
+          "wikidata": "https://www.wikidata.org/wiki/Q36442",
+          "display_name": "Political science",
+          "level": 0,
+          "score": 0.15818628668785095
+        },
+        {
+          "id": "https://openalex.org/C50522688",
+          "wikidata": "https://www.wikidata.org/wiki/Q189833",
+          "display_name": "Economic growth",
+          "level": 1,
+          "score": 0.0
+        },
+        {
+          "id": "https://openalex.org/C199360897",
+          "wikidata": "https://www.wikidata.org/wiki/Q9143",
+          "display_name": "Programming language",
+          "level": 1,
+          "score": 0.0
+        }
+      ],
+      "mesh": [],
+      "locations_count": 2,
+      "locations": [
+        {
+          "id": "pmh:oai:aisel.aisnet.org:jise-1315",
+          "doi": null,
+          "is_oa": true,
+          "landing_page_url": "https://aisel.aisnet.org/jise/vol19/iss1/3",
+          "pdf_url": null,
+          "source": {
+            "id": "https://openalex.org/S30879505",
+            "display_name": "Journal of the Association for Information Systems",
+            "issn_l": "1536-9323",
+            "issn": [
+              "1536-9323"
+            ],
+            "is_oa": false,
+            "is_in_doaj": false,
+            "is_core": true,
+            "listed_in": [
+              "abdc-a-star",
+              "anvur-scientific",
+              "cwts-core",
+              "dongbi-a",
+              "fnege-1",
+              "jufo-3",
+              "norway-2",
+              "poland-140",
+              "russia-white-list-1",
+              "vabb-shw"
+            ],
+            "host_organization": "https://openalex.org/P4310321080",
+            "host_organization_name": "Association for Information Systems",
+            "host_organization_lineage": [
+              "https://openalex.org/P4310321080"
+            ],
+            "host_organization_lineage_names": [
+              "Association for Information Systems"
+            ],
+            "type": "journal"
+          },
+          "license": null,
+          "license_id": null,
+          "version": "submittedVersion",
+          "is_accepted": false,
+          "is_published": false,
+          "raw_source_name": "Journal of Information Systems Education",
+          "raw_type": "text"
+        },
+        {
+          "id": "mag:241527839",
+          "doi": null,
+          "is_oa": false,
+          "landing_page_url": "http://ejournal.narotama.ac.id/files/Analysis%20of%20Skills%20Requirement%20for%20Entry-Level.pdf",
+          "pdf_url": null,
+          "source": {
+            "id": "https://openalex.org/S2764747844",
+            "display_name": "The Journal of Information and Systems in Education",
+            "issn_l": "1348-236X",
+            "issn": [
+              "1348-236X",
+              "2186-3679"
+            ],
+            "is_oa": false,
+            "is_in_doaj": false,
+            "is_core": true,
+            "listed_in": [
+              "cwts-core"
+            ],
+            "host_organization": null,
+            "host_organization_name": null,
+            "host_organization_lineage": [],
+            "host_organization_lineage_names": [],
+            "type": "journal"
+          },
+          "license": null,
+          "license_id": null,
+          "version": null,
+          "is_accepted": false,
+          "is_published": false,
+          "raw_source_name": "The Journal of Information and Systems in Education",
+          "raw_type": null
+        }
+      ],
+      "best_oa_location": {
+        "id": "pmh:oai:aisel.aisnet.org:jise-1315",
+        "doi": null,
+        "is_oa": true,
+        "landing_page_url": "https://aisel.aisnet.org/jise/vol19/iss1/3",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S30879505",
+          "display_name": "Journal of the Association for Information Systems",
+          "issn_l": "1536-9323",
+          "issn": [
+            "1536-9323"
+          ],
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": true,
+          "listed_in": [
+            "abdc-a-star",
+            "anvur-scientific",
+            "cwts-core",
+            "dongbi-a",
+            "fnege-1",
+            "jufo-3",
+            "norway-2",
+            "poland-140",
+            "russia-white-list-1",
+            "vabb-shw"
+          ],
+          "host_organization": "https://openalex.org/P4310321080",
+          "host_organization_name": "Association for Information Systems",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310321080"
+          ],
+          "host_organization_lineage_names": [
+            "Association for Information Systems"
+          ],
+          "type": "journal"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "submittedVersion",
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": "Journal of Information Systems Education",
+        "raw_type": "text"
+      },
+      "sustainable_development_goals": [
+        {
+          "score": 0.7257999777793884,
+          "display_name": "Decent work and economic growth",
+          "id": "https://metadata.un.org/sdg/8"
+        }
+      ],
+      "study_designs": [],
+      "awards": [],
+      "funders": [],
+      "has_content": {
+        "grobid_xml": true,
+        "pdf": true
+      },
+      "content_urls": {
+        "pdf": "https://content.openalex.org/works/W241527839.pdf",
+        "grobid_xml": "https://content.openalex.org/works/W241527839.grobid-xml"
+      },
+      "referenced_works_count": 31,
+      "referenced_works": [
+        "https://openalex.org/W8679193",
+        "https://openalex.org/W53887485",
+        "https://openalex.org/W66869815",
+        "https://openalex.org/W1488405089",
+        "https://openalex.org/W1519267945",
+        "https://openalex.org/W1543218477",
+        "https://openalex.org/W1576208760",
+        "https://openalex.org/W1578160136",
+        "https://openalex.org/W1588744823",
+        "https://openalex.org/W1918444149",
+        "https://openalex.org/W1964303214",
+        "https://openalex.org/W1989471812",
+        "https://openalex.org/W1991532124",
+        "https://openalex.org/W1991631129",
+        "https://openalex.org/W2005033099",
+        "https://openalex.org/W2021939089",
+        "https://openalex.org/W2035020484",
+        "https://openalex.org/W2067028461",
+        "https://openalex.org/W2074249787",
+        "https://openalex.org/W2084562892",
+        "https://openalex.org/W2092870097",
+        "https://openalex.org/W2128330310",
+        "https://openalex.org/W2152003533",
+        "https://openalex.org/W2164832405",
+        "https://openalex.org/W2171678543",
+        "https://openalex.org/W2223420837",
+        "https://openalex.org/W2576005110",
+        "https://openalex.org/W2596851862",
+        "https://openalex.org/W2599527970",
+        "https://openalex.org/W2949276698",
+        "https://openalex.org/W2977586036"
+      ],
+      "related_works": [
+        "https://openalex.org/W2599527970",
+        "https://openalex.org/W1578160136",
+        "https://openalex.org/W75677213",
+        "https://openalex.org/W7100928657",
+        "https://openalex.org/W2608583941",
+        "https://openalex.org/W49546898",
+        "https://openalex.org/W2150867926",
+        "https://openalex.org/W1576208760",
+        "https://openalex.org/W2990871551",
+        "https://openalex.org/W840652853"
+      ],
+      "abstract_inverted_index": {
+        "This": [
+          0
+        ],
+        "paper": [
+          1
+        ],
+        "presents": [
+          2
+        ],
+        "the": [
+          3,
+          12,
+          19,
+          25,
+          73,
+          76,
+          111
+        ],
+        "most": [
+          4,
+          13
+        ],
+        "up-to-date": [
+          5
+        ],
+        "skill": [
+          6,
+          51
+        ],
+        "requirements": [
+          7,
+          52
+        ],
+        "for": [
+          8,
+          32,
+          66,
+          110
+        ],
+        "programmer/analyst,": [
+          9
+        ],
+        "one": [
+          10
+        ],
+        "of": [
+          11,
+          85,
+          100,
+          107
+        ],
+        "demanded": [
+          14
+        ],
+        "entry-level": [
+          15
+        ],
+        "job": [
+          16,
+          30,
+          58
+        ],
+        "titles": [
+          17
+        ],
+        "in": [
+          18,
+          75,
+          105
+        ],
+        "Information": [
+          20
+        ],
+        "Systems": [
+          21
+        ],
+        "(IS)": [
+          22
+        ],
+        "field.": [
+          23
+        ],
+        "In": [
+          24
+        ],
+        "past,": [
+          26
+        ],
+        "several": [
+          27
+        ],
+        "researchers": [
+          28
+        ],
+        "studied": [
+          29
+        ],
+        "skills": [
+          31
+        ],
+        "IS": [
+          33,
+          112
+        ],
+        "professionals,": [
+          34
+        ],
+        "but": [
+          35
+        ],
+        "few": [
+          36
+        ],
+        "have": [
+          37
+        ],
+        "focused": [
+          38
+        ],
+        "especially": [
+          39
+        ],
+        "on": [
+          40,
+          49,
+          61
+        ],
+        "\"programmer/analyst.\"": [
+          41
+        ],
+        "The": [
+          42,
+          69,
+          98
+        ],
+        "authors": [
+          43
+        ],
+        "conducted": [
+          44
+        ],
+        "an": [
+          45
+        ],
+        "extensive": [
+          46
+        ],
+        "empirical": [
+          47
+        ],
+        "study": [
+          48,
+          102
+        ],
+        "programmer/analyst": [
+          50
+        ],
+        "by": [
+          53
+        ],
+        "collecting": [
+          54
+        ],
+        "and": [
+          55
+        ],
+        "analyzing": [
+          56
+        ],
+        "837": [
+          57
+        ],
+        "ads": [
+          59
+        ],
+        "posted": [
+          60
+        ],
+        "Fortune": [
+          62,
+          77
+        ],
+        "500": [
+          63,
+          78
+        ],
+        "corporate": [
+          64
+        ],
+        "websites": [
+          65
+        ],
+        "three": [
+          67
+        ],
+        "years.": [
+          68
+        ],
+        "results": [
+          70,
+          99
+        ],
+        "indicate": [
+          71
+        ],
+        "that": [
+          72
+        ],
+        "programmer/analysts": [
+          74
+        ],
+        "are": [
+          79,
+          103
+        ],
+        "expected": [
+          80
+        ],
+        "to": [
+          81,
+          91
+        ],
+        "fulfill": [
+          82
+        ],
+        "a": [
+          83
+        ],
+        "combination": [
+          84
+        ],
+        "roles": [
+          86
+        ],
+        "from": [
+          87
+        ],
+        "computer": [
+          88
+        ],
+        "program": [
+          89
+        ],
+        "writers": [
+          90
+        ],
+        "technical": [
+          92
+        ],
+        "experts": [
+          93
+        ],
+        "as": [
+          94,
+          96
+        ],
+        "well": [
+          95
+        ],
+        "businessmen.": [
+          97
+        ],
+        "this": [
+          101
+        ],
+        "discussed": [
+          104
+        ],
+        "terms": [
+          106
+        ],
+        "their": [
+          108
+        ],
+        "implications": [
+          109
+        ],
+        "2002": [
+          113
+        ],
+        "curriculum": [
+          114
+        ],
+        "model.": [
+          115
+        ]
+      },
+      "counts_by_year": [
+        {
+          "year": 2025,
+          "cited_by_count": 1
+        },
+        {
+          "year": 2024,
+          "cited_by_count": 3
+        },
+        {
+          "year": 2022,
+          "cited_by_count": 3
+        },
+        {
+          "year": 2021,
+          "cited_by_count": 6
+        },
+        {
+          "year": 2020,
+          "cited_by_count": 2
+        },
+        {
+          "year": 2019,
+          "cited_by_count": 6
+        },
+        {
+          "year": 2018,
+          "cited_by_count": 3
+        },
+        {
+          "year": 2017,
+          "cited_by_count": 6
+        },
+        {
+          "year": 2016,
+          "cited_by_count": 4
+        },
+        {
+          "year": 2015,
+          "cited_by_count": 8
+        },
+        {
+          "year": 2014,
+          "cited_by_count": 4
+        },
+        {
+          "year": 2013,
+          "cited_by_count": 4
+        },
+        {
+          "year": 2012,
+          "cited_by_count": 7
+        }
+      ],
+      "updated_date": "2026-11-14T11:04:58.165337",
+      "created_date": "2016-06-24T00:00:00"
+    },
+    {
+      "id": "https://openalex.org/W1995693877",
+      "doi": "https://doi.org/10.2190/f7fg-9qg5-x5md-xubm",
+      "title": "Requisite Skills of Entry-Level Programmers: An Empirical Study in Brunei Darussalam",
+      "display_name": "Requisite Skills of Entry-Level Programmers: An Empirical Study in Brunei Darussalam",
+      "relevance_score": 162.24261,
+      "publication_year": 1999,
+      "publication_date": "1999-10-01",
+      "ids": {
+        "openalex": "https://openalex.org/W1995693877",
+        "doi": "https://doi.org/10.2190/f7fg-9qg5-x5md-xubm",
+        "mag": "1995693877"
+      },
+      "language": "en",
+      "primary_location": {
+        "id": "doi:10.2190/f7fg-9qg5-x5md-xubm",
+        "doi": "https://doi.org/10.2190/f7fg-9qg5-x5md-xubm",
+        "is_oa": false,
+        "landing_page_url": "https://doi.org/10.2190/f7fg-9qg5-x5md-xubm",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S127795871",
+          "display_name": "Journal of Educational Computing Research",
+          "issn_l": "0735-6331",
+          "issn": [
+            "0735-6331",
+            "1541-4140"
+          ],
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": true,
+          "listed_in": [
+            "cwts-core",
+            "erih-plus",
+            "jufo-1",
+            "norway-1",
+            "poland-100",
+            "russia-white-list-1",
+            "vabb-shw"
+          ],
+          "host_organization": "https://openalex.org/P4310320017",
+          "host_organization_name": "SAGE Publishing",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310320017"
+          ],
+          "host_organization_lineage_names": [
+            "SAGE Publishing"
+          ],
+          "type": "journal"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Journal of Educational Computing Research",
+        "raw_type": "journal-article"
+      },
+      "parent_works": [],
+      "lineage": [
+        "https://openalex.org/W1995693877"
+      ],
+      "child_works_count": 0,
+      "type": "article",
+      "is_traditional": true,
+      "indexed_in": [
+        "crossref"
+      ],
+      "open_access": {
+        "is_oa": false,
+        "oa_status": "closed",
+        "oa_url": null,
+        "any_repository_has_fulltext": false
+      },
+      "authorships": [
+        {
+          "author_position": "first",
+          "author": {
+            "id": "https://openalex.org/A5103420152",
+            "display_name": "Mohd Noah A. Rahman",
+            "orcid": null,
+            "observed_orcids": []
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I200859690",
+              "display_name": "Universiti Teknologi Brunei",
+              "ror": "https://ror.org/004y7f915",
+              "country_code": "BN",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I200859690"
+              ]
+            }
+          ],
+          "countries": [
+            "BN"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "Mohd Noah A. Rahman",
+          "raw_affiliation_strings": [
+            "Institut Teknologi Brunei",
+            "Institut Teknologi Brunei#TAB#"
+          ],
+          "raw_orcid": null,
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Institut Teknologi Brunei",
+              "institution_ids": [
+                "https://openalex.org/I200859690"
+              ]
+            },
+            {
+              "raw_affiliation_string": "Institut Teknologi Brunei#TAB#",
+              "institution_ids": [
+                "https://openalex.org/I200859690"
+              ]
+            }
+          ]
+        },
+        {
+          "author_position": "middle",
+          "author": {
+            "id": "https://openalex.org/A5112188666",
+            "display_name": "Md. Mahbubur Rahim",
+            "orcid": null,
+            "observed_orcids": []
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I200859690",
+              "display_name": "Universiti Teknologi Brunei",
+              "ror": "https://ror.org/004y7f915",
+              "country_code": "BN",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I200859690"
+              ]
+            }
+          ],
+          "countries": [
+            "BN"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "MD Mahbubur Rahim",
+          "raw_affiliation_strings": [
+            "Institut Teknologi Brunei",
+            "Institut Teknologi Brunei#TAB#"
+          ],
+          "raw_orcid": null,
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Institut Teknologi Brunei",
+              "institution_ids": [
+                "https://openalex.org/I200859690"
+              ]
+            },
+            {
+              "raw_affiliation_string": "Institut Teknologi Brunei#TAB#",
+              "institution_ids": [
+                "https://openalex.org/I200859690"
+              ]
+            }
+          ]
+        },
+        {
+          "author_position": "last",
+          "author": {
+            "id": "https://openalex.org/A5044183304",
+            "display_name": "Afzaal H. Seyal",
+            "orcid": "https://orcid.org/0000-0002-2571-5366",
+            "observed_orcids": [
+              "https://orcid.org/0000-0002-2571-5366"
+            ]
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I200859690",
+              "display_name": "Universiti Teknologi Brunei",
+              "ror": "https://ror.org/004y7f915",
+              "country_code": "BN",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I200859690"
+              ]
+            }
+          ],
+          "countries": [
+            "BN"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "Afzaal H. Seyal",
+          "raw_affiliation_strings": [
+            "Institut Teknologi Brunei",
+            "Institut Teknologi Brunei#TAB#"
+          ],
+          "raw_orcid": null,
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Institut Teknologi Brunei",
+              "institution_ids": [
+                "https://openalex.org/I200859690"
+              ]
+            },
+            {
+              "raw_affiliation_string": "Institut Teknologi Brunei#TAB#",
+              "institution_ids": [
+                "https://openalex.org/I200859690"
+              ]
+            }
+          ]
+        }
+      ],
+      "institutions": [],
+      "countries_distinct_count": 1,
+      "institutions_distinct_count": 1,
+      "corresponding_author_ids": [],
+      "corresponding_institution_ids": [
+        "https://openalex.org/I200859690"
+      ],
+      "apc_list": {
+        "value": 3900,
+        "currency": "USD",
+        "value_usd": 3900
+      },
+      "apc_paid": null,
+      "fwci": 0.0,
+      "is_authors_truncated": false,
+      "has_fulltext": false,
+      "cited_by_count": 3,
+      "citation_normalized_percentile": {
+        "value": 0.0,
+        "is_in_top_1_percent": false,
+        "is_in_top_10_percent": false
+      },
+      "cited_by_percentile_year": {
+        "min": 88,
+        "max": 95
+      },
+      "biblio": {
+        "volume": "21",
+        "issue": "3",
+        "first_page": "305",
+        "last_page": "323"
+      },
+      "is_retracted": false,
+      "is_paratext": false,
+      "is_xpac": false,
+      "primary_topic": {
+        "id": "https://openalex.org/T13034",
+        "display_name": "Information Systems Education and Curriculum Development",
+        "score": 0.9922000169754028,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1710",
+          "display_name": "Information Systems"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      "topics": [
+        {
+          "id": "https://openalex.org/T13034",
+          "display_name": "Information Systems Education and Curriculum Development",
+          "score": 0.9922000169754028,
+          "subfield": {
+            "id": "https://openalex.org/subfields/1710",
+            "display_name": "Information Systems"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/17",
+            "display_name": "Computer Science"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T11779",
+          "display_name": "Higher Education and Employability",
+          "score": 0.006899999920278788,
+          "subfield": {
+            "id": "https://openalex.org/subfields/3304",
+            "display_name": "Education"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/33",
+            "display_name": "Social Sciences"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/2",
+            "display_name": "Social Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T10533",
+          "display_name": "Teaching and Learning Programming",
+          "score": 0.000699999975040555,
+          "subfield": {
+            "id": "https://openalex.org/subfields/1706",
+            "display_name": "Computer Science Applications"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/17",
+            "display_name": "Computer Science"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        }
+      ],
+      "keywords": [
+        {
+          "id": "https://openalex.org/keywords/skill-requirements",
+          "display_name": "skill requirements",
+          "score": 0.8270000219345093
+        },
+        {
+          "id": "https://openalex.org/keywords/communication-skills",
+          "display_name": "communication skills",
+          "score": 0.7950000166893005
+        },
+        {
+          "id": "https://openalex.org/keywords/database-management-systems",
+          "display_name": "database management systems",
+          "score": 0.8450000286102295
+        },
+        {
+          "id": "https://openalex.org/keywords/programming-skills",
+          "display_name": "programming skills",
+          "score": 0.5820000171661377
+        },
+        {
+          "id": "https://openalex.org/keywords/organizational-size",
+          "display_name": "organizational size",
+          "score": 0.7730000019073486
+        },
+        {
+          "id": "https://openalex.org/keywords/information-technology-workforce",
+          "display_name": "information technology workforce",
+          "score": 0.5770000219345093
+        },
+        {
+          "id": "https://openalex.org/keywords/brunei",
+          "display_name": "Brunei",
+          "score": 0.9409999847412109
+        }
+      ],
+      "concepts": [
+        {
+          "id": "https://openalex.org/C2781418482",
+          "wikidata": "https://www.wikidata.org/wiki/Q5380826",
+          "display_name": "Entry Level",
+          "level": 2,
+          "score": 0.660642683506012
+        },
+        {
+          "id": "https://openalex.org/C41008148",
+          "wikidata": "https://www.wikidata.org/wiki/Q21198",
+          "display_name": "Computer science",
+          "level": 0,
+          "score": 0.5865311622619629
+        },
+        {
+          "id": "https://openalex.org/C43075056",
+          "wikidata": "https://www.wikidata.org/wiki/Q15910354",
+          "display_name": "Soft skills",
+          "level": 2,
+          "score": 0.5656202435493469
+        },
+        {
+          "id": "https://openalex.org/C97082442",
+          "wikidata": "https://www.wikidata.org/wiki/Q1934361",
+          "display_name": "Skills management",
+          "level": 2,
+          "score": 0.5376620888710022
+        },
+        {
+          "id": "https://openalex.org/C56739046",
+          "wikidata": "https://www.wikidata.org/wiki/Q192060",
+          "display_name": "Knowledge management",
+          "level": 1,
+          "score": 0.5123339891433716
+        },
+        {
+          "id": "https://openalex.org/C120936955",
+          "wikidata": "https://www.wikidata.org/wiki/Q2155640",
+          "display_name": "Empirical research",
+          "level": 2,
+          "score": 0.4547611176967621
+        },
+        {
+          "id": "https://openalex.org/C162853370",
+          "wikidata": "https://www.wikidata.org/wiki/Q39809",
+          "display_name": "Marketing",
+          "level": 1,
+          "score": 0.20524191856384277
+        },
+        {
+          "id": "https://openalex.org/C15744967",
+          "wikidata": "https://www.wikidata.org/wiki/Q9418",
+          "display_name": "Psychology",
+          "level": 0,
+          "score": 0.17670515179634094
+        },
+        {
+          "id": "https://openalex.org/C144133560",
+          "wikidata": "https://www.wikidata.org/wiki/Q4830453",
+          "display_name": "Business",
+          "level": 0,
+          "score": 0.1744113564491272
+        },
+        {
+          "id": "https://openalex.org/C509550671",
+          "wikidata": "https://www.wikidata.org/wiki/Q126945",
+          "display_name": "Medical education",
+          "level": 1,
+          "score": 0.1618334949016571
+        },
+        {
+          "id": "https://openalex.org/C138885662",
+          "wikidata": "https://www.wikidata.org/wiki/Q5891",
+          "display_name": "Philosophy",
+          "level": 0,
+          "score": 0.0
+        },
+        {
+          "id": "https://openalex.org/C71924100",
+          "wikidata": "https://www.wikidata.org/wiki/Q11190",
+          "display_name": "Medicine",
+          "level": 0,
+          "score": 0.0
+        },
+        {
+          "id": "https://openalex.org/C111472728",
+          "wikidata": "https://www.wikidata.org/wiki/Q9471",
+          "display_name": "Epistemology",
+          "level": 1,
+          "score": 0.0
+        },
+        {
+          "id": "https://openalex.org/C77805123",
+          "wikidata": "https://www.wikidata.org/wiki/Q161272",
+          "display_name": "Social psychology",
+          "level": 1,
+          "score": 0.0
+        }
+      ],
+      "mesh": [],
+      "locations_count": 1,
+      "locations": [
+        {
+          "id": "doi:10.2190/f7fg-9qg5-x5md-xubm",
+          "doi": "https://doi.org/10.2190/f7fg-9qg5-x5md-xubm",
+          "is_oa": false,
+          "landing_page_url": "https://doi.org/10.2190/f7fg-9qg5-x5md-xubm",
+          "pdf_url": null,
+          "source": {
+            "id": "https://openalex.org/S127795871",
+            "display_name": "Journal of Educational Computing Research",
+            "issn_l": "0735-6331",
+            "issn": [
+              "0735-6331",
+              "1541-4140"
+            ],
+            "is_oa": false,
+            "is_in_doaj": false,
+            "is_core": true,
+            "listed_in": [
+              "cwts-core",
+              "erih-plus",
+              "jufo-1",
+              "norway-1",
+              "poland-100",
+              "russia-white-list-1",
+              "vabb-shw"
+            ],
+            "host_organization": "https://openalex.org/P4310320017",
+            "host_organization_name": "SAGE Publishing",
+            "host_organization_lineage": [
+              "https://openalex.org/P4310320017"
+            ],
+            "host_organization_lineage_names": [
+              "SAGE Publishing"
+            ],
+            "type": "journal"
+          },
+          "license": null,
+          "license_id": null,
+          "version": "publishedVersion",
+          "is_accepted": true,
+          "is_published": true,
+          "raw_source_name": "Journal of Educational Computing Research",
+          "raw_type": "journal-article"
+        }
+      ],
+      "best_oa_location": null,
+      "sustainable_development_goals": [
+        {
+          "score": 0.6164000034332275,
+          "display_name": "Quality education",
+          "id": "https://metadata.un.org/sdg/4"
+        },
+        {
+          "score": 0.5263000130653381,
+          "display_name": "Decent work and economic growth",
+          "id": "https://metadata.un.org/sdg/8"
+        }
+      ],
+      "study_designs": [],
+      "awards": [],
+      "funders": [],
+      "has_content": {
+        "grobid_xml": false,
+        "pdf": false
+      },
+      "content_urls": null,
+      "referenced_works_count": 26,
+      "referenced_works": [
+        "https://openalex.org/W113862680",
+        "https://openalex.org/W595886575",
+        "https://openalex.org/W1497959974",
+        "https://openalex.org/W1524953979",
+        "https://openalex.org/W1547879404",
+        "https://openalex.org/W1548284439",
+        "https://openalex.org/W1563097765",
+        "https://openalex.org/W1588744823",
+        "https://openalex.org/W1590775627",
+        "https://openalex.org/W1596904642",
+        "https://openalex.org/W1980761089",
+        "https://openalex.org/W1990317593",
+        "https://openalex.org/W1994021965",
+        "https://openalex.org/W1998933970",
+        "https://openalex.org/W2005033099",
+        "https://openalex.org/W2011678412",
+        "https://openalex.org/W2041360804",
+        "https://openalex.org/W2061020174",
+        "https://openalex.org/W2104577008",
+        "https://openalex.org/W2124330866",
+        "https://openalex.org/W2148055908",
+        "https://openalex.org/W2149416012",
+        "https://openalex.org/W2321565846",
+        "https://openalex.org/W4230840108",
+        "https://openalex.org/W4243659020",
+        "https://openalex.org/W6813859528"
+      ],
+      "related_works": [
+        "https://openalex.org/W2158963776",
+        "https://openalex.org/W3175432296",
+        "https://openalex.org/W1559002488",
+        "https://openalex.org/W2132597346",
+        "https://openalex.org/W561201141",
+        "https://openalex.org/W654716204",
+        "https://openalex.org/W4399513649",
+        "https://openalex.org/W2014717802",
+        "https://openalex.org/W1945464580"
+      ],
+      "abstract_inverted_index": {
+        "Computing": [
+          0
+        ],
+        "is": [
+          1,
+          53
+        ],
+        "a": [
+          2,
+          41
+        ],
+        "fast": [
+          3
+        ],
+        "changing": [
+          4
+        ],
+        "technology.": [
+          5
+        ],
+        "As": [
+          6
+        ],
+        "such,": [
+          7
+        ],
+        "empirical": [
+          8
+        ],
+        "studies": [
+          9,
+          33
+        ],
+        "are": [
+          10,
+          105,
+          168,
+          173
+        ],
+        "often": [
+          11
+        ],
+        "conducted,": [
+          12
+        ],
+        "particularly": [
+          13,
+          143
+        ],
+        "in": [
+          14,
+          38,
+          127,
+          144,
+          155
+        ],
+        "the": [
+          15,
+          58,
+          68,
+          78,
+          88,
+          108,
+          113,
+          121,
+          138,
+          145
+        ],
+        "United": [
+          16
+        ],
+        "States,": [
+          17
+        ],
+        "to": [
+          18,
+          66,
+          85,
+          119,
+          150
+        ],
+        "identify": [
+          19,
+          67
+        ],
+        "those": [
+          20
+        ],
+        "critical": [
+          21
+        ],
+        "skills": [
+          22,
+          71,
+          89,
+          104,
+          110,
+          117,
+          126
+        ],
+        "that": [
+          23,
+          102
+        ],
+        "organizations": [
+          24
+        ],
+        "foresee": [
+          25
+        ],
+        "important": [
+          26
+        ],
+        "for": [
+          27,
+          72,
+          140
+        ],
+        "entry-level": [
+          28,
+          73,
+          91
+        ],
+        "computer": [
+          29
+        ],
+        "programmers.": [
+          30
+        ],
+        "No": [
+          31
+        ],
+        "such": [
+          32
+        ],
+        "have": [
+          34
+        ],
+        "ever": [
+          35
+        ],
+        "been": [
+          36
+        ],
+        "undertaken": [
+          37
+        ],
+        "Brunei": [
+          39
+        ],
+        "Darussalam,": [
+          40
+        ],
+        "small": [
+          42
+        ],
+        "oil-rich": [
+          43
+        ],
+        "kingdom": [
+          44
+        ],
+        "located": [
+          45
+        ],
+        "near": [
+          46
+        ],
+        "Singapore": [
+          47
+        ],
+        "and": [
+          48,
+          135,
+          163,
+          170
+        ],
+        "Malaysia—where": [
+          49
+        ],
+        "information": [
+          50
+        ],
+        "technology": [
+          51
+        ],
+        "(IT)": [
+          52
+        ],
+        "gaining": [
+          54
+        ],
+        "increased": [
+          55
+        ],
+        "prominence": [
+          56
+        ],
+        "at": [
+          57
+        ],
+        "national": [
+          59
+        ],
+        "level.": [
+          60
+        ],
+        "An": [
+          61
+        ],
+        "attempt": [
+          62
+        ],
+        "was": [
+          63
+        ],
+        "thus": [
+          64
+        ],
+        "made": [
+          65
+        ],
+        "type": [
+          69
+        ],
+        "of": [
+          70,
+          90
+        ],
+        "programmers,": [
+          74
+        ],
+        "as": [
+          75
+        ],
+        "required": [
+          76
+        ],
+        "by": [
+          77,
+          112,
+          125
+        ],
+        "Brunei-based": [
+          79
+        ],
+        "organizations.": [
+          80,
+          115
+        ],
+        "Moreover,": [
+          81
+        ],
+        "efforts": [
+          82
+        ],
+        "were": [
+          83
+        ],
+        "directed": [
+          84
+        ],
+        "determine": [
+          86
+        ],
+        "whether": [
+          87
+        ],
+        "programmers": [
+          92
+        ],
+        "varied": [
+          93
+        ],
+        "significantly": [
+          94
+        ],
+        "based": [
+          95
+        ],
+        "on": [
+          96
+        ],
+        "organization": [
+          97
+        ],
+        "size.": [
+          98
+        ],
+        "The": [
+          99
+        ],
+        "results": [
+          100
+        ],
+        "suggest": [
+          101
+        ],
+        "technical": [
+          103
+        ],
+        "no": [
+          106
+        ],
+        "longer": [
+          107
+        ],
+        "core": [
+          109
+        ],
+        "sought": [
+          111
+        ],
+        "participating": [
+          114
+        ],
+        "Communication": [
+          116
+        ],
+        "appeared": [
+          118
+        ],
+        "be": [
+          120,
+          151
+        ],
+        "top-most": [
+          122
+        ],
+        "requirement,": [
+          123
+        ],
+        "followed": [
+          124
+        ],
+        "Database": [
+          128
+        ],
+        "Management": [
+          129
+        ],
+        "Systems": [
+          130
+        ],
+        "(DBMS),": [
+          131
+        ],
+        "application": [
+          132
+        ],
+        "development": [
+          133
+        ],
+        "method,": [
+          134
+        ],
+        "tools.": [
+          136
+        ],
+        "Lastly,": [
+          137
+        ],
+        "need": [
+          139
+        ],
+        "programming": [
+          141
+        ],
+        "skill,": [
+          142
+        ],
+        "third": [
+          146
+        ],
+        "generation": [
+          147
+        ],
+        "languages,": [
+          148
+        ],
+        "seem": [
+          149
+        ],
+        "declining.": [
+          152
+        ],
+        "This": [
+          153
+        ],
+        "shift": [
+          154
+        ],
+        "skill": [
+          156
+        ],
+        "demand": [
+          157
+        ],
+        "needs": [
+          158
+        ],
+        "recognition": [
+          159
+        ],
+        "from": [
+          160
+        ],
+        "both": [
+          161
+        ],
+        "academics": [
+          162
+        ],
+        "IT": [
+          164
+        ],
+        "managers.": [
+          165
+        ],
+        "These": [
+          166
+        ],
+        "findings": [
+          167
+        ],
+        "discussed,": [
+          169
+        ],
+        "some": [
+          171
+        ],
+        "suggestions": [
+          172
+        ],
+        "offered.": [
+          174
+        ]
+      },
+      "counts_by_year": [
+        {
+          "year": 2015,
+          "cited_by_count": 1
+        },
+        {
+          "year": 2014,
+          "cited_by_count": 2
+        }
+      ],
+      "updated_date": "2026-11-14T11:04:58.165337",
+      "created_date": "2016-06-24T00:00:00"
+    },
+    {
+      "id": "https://openalex.org/W4404029878",
+      "doi": "https://doi.org/10.1109/icccnt61001.2024.10725418",
+      "title": "Sinhala-Centric Java Assistance Tool for Entry-Level Programmers",
+      "display_name": "Sinhala-Centric Java Assistance Tool for Entry-Level Programmers",
+      "relevance_score": 148.92456,
+      "publication_year": 2024,
+      "publication_date": "2024-06-24",
+      "ids": {
+        "openalex": "https://openalex.org/W4404029878",
+        "doi": "https://doi.org/10.1109/icccnt61001.2024.10725418"
+      },
+      "language": "en",
+      "primary_location": {
+        "id": "doi:10.1109/icccnt61001.2024.10725418",
+        "doi": "https://doi.org/10.1109/icccnt61001.2024.10725418",
+        "is_oa": false,
+        "landing_page_url": "http://dx.doi.org/10.1109/icccnt61001.2024.10725418",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4306497833",
+          "display_name": "International Conference on Computing, Communication and Networking Technologies (ICCCNT)",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "listed_in": [],
+          "host_organization": "https://openalex.org/P4310319808",
+          "host_organization_name": "Institute of Electrical and Electronics Engineers",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310319808"
+          ],
+          "host_organization_lineage_names": [
+            "Institute of Electrical and Electronics Engineers"
+          ],
+          "type": "conference"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "2024 15th International Conference on Computing Communication and Networking Technologies (ICCCNT)",
+        "raw_type": "proceedings-article"
+      },
+      "parent_works": [],
+      "lineage": [
+        "https://openalex.org/W4404029878"
+      ],
+      "child_works_count": 0,
+      "type": "conference-paper",
+      "is_traditional": true,
+      "indexed_in": [
+        "crossref"
+      ],
+      "open_access": {
+        "is_oa": false,
+        "oa_status": "closed",
+        "oa_url": null,
+        "any_repository_has_fulltext": false
+      },
+      "authorships": [
+        {
+          "author_position": "first",
+          "author": {
+            "id": "https://openalex.org/A5015003335",
+            "display_name": "D. I. De Silva",
+            "orcid": "https://orcid.org/0000-0001-6821-488X",
+            "observed_orcids": [
+              "https://orcid.org/0000-0001-6821-488X"
+            ]
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I192365124",
+              "display_name": "Sri Lanka Institute of Information Technology",
+              "ror": "https://ror.org/00fhk4582",
+              "country_code": "LK",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I192365124"
+              ]
+            }
+          ],
+          "countries": [
+            "LK"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "D. I. De Silva",
+          "raw_affiliation_strings": [
+            "Sri Lanka Institute of Information Technology,Faculty of Computing,Malabe,Sri Lanka"
+          ],
+          "raw_orcid": null,
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Sri Lanka Institute of Information Technology,Faculty of Computing,Malabe,Sri Lanka",
+              "institution_ids": [
+                "https://openalex.org/I192365124"
+              ]
+            }
+          ]
+        },
+        {
+          "author_position": "last",
+          "author": {
+            "id": null,
+            "display_name": "K. S. N. Athukorala",
+            "orcid": null,
+            "observed_orcids": []
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I192365124",
+              "display_name": "Sri Lanka Institute of Information Technology",
+              "ror": "https://ror.org/00fhk4582",
+              "country_code": "LK",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I192365124"
+              ]
+            }
+          ],
+          "countries": [
+            "LK"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "K. S. N. Athukorala",
+          "raw_affiliation_strings": [
+            "Sri Lanka Institute of Information Technology,Faculty of Computing,Malabe,Sri Lanka"
+          ],
+          "raw_orcid": null,
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Sri Lanka Institute of Information Technology,Faculty of Computing,Malabe,Sri Lanka",
+              "institution_ids": [
+                "https://openalex.org/I192365124"
+              ]
+            }
+          ]
+        }
+      ],
+      "institutions": [],
+      "countries_distinct_count": 1,
+      "institutions_distinct_count": 1,
+      "corresponding_author_ids": [],
+      "corresponding_institution_ids": [
+        "https://openalex.org/I192365124"
+      ],
+      "apc_list": null,
+      "apc_paid": null,
+      "fwci": 0.0,
+      "is_authors_truncated": false,
+      "has_fulltext": false,
+      "cited_by_count": 0,
+      "citation_normalized_percentile": {
+        "value": 0.0,
+        "is_in_top_1_percent": false,
+        "is_in_top_10_percent": false
+      },
+      "cited_by_percentile_year": null,
+      "biblio": {
+        "volume": null,
+        "issue": null,
+        "first_page": "1",
+        "last_page": "5"
+      },
+      "is_retracted": false,
+      "is_paratext": false,
+      "is_xpac": false,
+      "primary_topic": {
+        "id": "https://openalex.org/T10533",
+        "display_name": "Teaching and Learning Programming",
+        "score": 0.9994999766349792,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1706",
+          "display_name": "Computer Science Applications"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      "topics": [
+        {
+          "id": "https://openalex.org/T10533",
+          "display_name": "Teaching and Learning Programming",
+          "score": 0.9994999766349792,
+          "subfield": {
+            "id": "https://openalex.org/subfields/1706",
+            "display_name": "Computer Science Applications"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/17",
+            "display_name": "Computer Science"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T10260",
+          "display_name": "Software Engineering Research",
+          "score": 0.00019999999494757503,
+          "subfield": {
+            "id": "https://openalex.org/subfields/1710",
+            "display_name": "Information Systems"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/17",
+            "display_name": "Computer Science"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T14216",
+          "display_name": "Multimedia Learning Systems",
+          "score": 9.999999747378752e-05,
+          "subfield": {
+            "id": "https://openalex.org/subfields/1710",
+            "display_name": "Information Systems"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/17",
+            "display_name": "Computer Science"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        }
+      ],
+      "keywords": [
+        {
+          "id": "https://openalex.org/keywords/java-programming-language",
+          "display_name": "Java programming",
+          "score": 0.8230000138282776
+        },
+        {
+          "id": "https://openalex.org/keywords/novice-programmers",
+          "display_name": "novice programmers",
+          "score": 0.5619999766349792
+        },
+        {
+          "id": "https://openalex.org/keywords/code-generation",
+          "display_name": "code generation",
+          "score": 0.453000009059906
+        },
+        {
+          "id": "https://openalex.org/keywords/chatgpt-4",
+          "display_name": "ChatGPT-4",
+          "score": 0.703000009059906
+        },
+        {
+          "id": "https://openalex.org/keywords/machine-translation",
+          "display_name": "machine translation",
+          "score": 0.8320000171661377
+        },
+        {
+          "id": "https://openalex.org/keywords/code-explanation",
+          "display_name": "code explanation",
+          "score": 0.5899999737739563
+        }
+      ],
+      "concepts": [
+        {
+          "id": "https://openalex.org/C548217200",
+          "wikidata": "https://www.wikidata.org/wiki/Q251",
+          "display_name": "Java",
+          "level": 2,
+          "score": 0.8257534503936768
+        },
+        {
+          "id": "https://openalex.org/C41008148",
+          "wikidata": "https://www.wikidata.org/wiki/Q21198",
+          "display_name": "Computer science",
+          "level": 0,
+          "score": 0.8150197863578796
+        },
+        {
+          "id": "https://openalex.org/C199360897",
+          "wikidata": "https://www.wikidata.org/wiki/Q9143",
+          "display_name": "Programming language",
+          "level": 1,
+          "score": 0.5436680912971497
+        },
+        {
+          "id": "https://openalex.org/C111919701",
+          "wikidata": "https://www.wikidata.org/wiki/Q9135",
+          "display_name": "Operating system",
+          "level": 1,
+          "score": 0.4606949985027313
+        }
+      ],
+      "mesh": [],
+      "locations_count": 1,
+      "locations": [
+        {
+          "id": "doi:10.1109/icccnt61001.2024.10725418",
+          "doi": "https://doi.org/10.1109/icccnt61001.2024.10725418",
+          "is_oa": false,
+          "landing_page_url": "http://dx.doi.org/10.1109/icccnt61001.2024.10725418",
+          "pdf_url": null,
+          "source": {
+            "id": "https://openalex.org/S4306497833",
+            "display_name": "International Conference on Computing, Communication and Networking Technologies (ICCCNT)",
+            "issn_l": null,
+            "issn": null,
+            "is_oa": false,
+            "is_in_doaj": false,
+            "is_core": false,
+            "listed_in": [],
+            "host_organization": "https://openalex.org/P4310319808",
+            "host_organization_name": "Institute of Electrical and Electronics Engineers",
+            "host_organization_lineage": [
+              "https://openalex.org/P4310319808"
+            ],
+            "host_organization_lineage_names": [
+              "Institute of Electrical and Electronics Engineers"
+            ],
+            "type": "conference"
+          },
+          "license": null,
+          "license_id": null,
+          "version": "publishedVersion",
+          "is_accepted": true,
+          "is_published": true,
+          "raw_source_name": "2024 15th International Conference on Computing Communication and Networking Technologies (ICCCNT)",
+          "raw_type": "proceedings-article"
+        }
+      ],
+      "best_oa_location": null,
+      "sustainable_development_goals": [
+        {
+          "score": 0.9235000014305115,
+          "display_name": "Quality education",
+          "id": "https://metadata.un.org/sdg/4"
+        }
+      ],
+      "study_designs": [],
+      "awards": [],
+      "funders": [],
+      "has_content": {
+        "grobid_xml": false,
+        "pdf": false
+      },
+      "content_urls": null,
+      "referenced_works_count": 13,
+      "referenced_works": [
+        "https://openalex.org/W1967071774",
+        "https://openalex.org/W2040840354",
+        "https://openalex.org/W2132997544",
+        "https://openalex.org/W2133762523",
+        "https://openalex.org/W2178630842",
+        "https://openalex.org/W2317126845",
+        "https://openalex.org/W2600208911",
+        "https://openalex.org/W2745073481",
+        "https://openalex.org/W4206646890",
+        "https://openalex.org/W4313342773",
+        "https://openalex.org/W4319598747",
+        "https://openalex.org/W4401027851",
+        "https://openalex.org/W4401047698"
+      ],
+      "related_works": [
+        "https://openalex.org/W4406233980",
+        "https://openalex.org/W4405180726",
+        "https://openalex.org/W4414150987",
+        "https://openalex.org/W4206646890",
+        "https://openalex.org/W4416776665",
+        "https://openalex.org/W4412375624",
+        "https://openalex.org/W2603853660",
+        "https://openalex.org/W4409211663",
+        "https://openalex.org/W2552752010",
+        "https://openalex.org/W7153132543"
+      ],
+      "abstract_inverted_index": {
+        "Programming": [
+          0
+        ],
+        "plays": [
+          1
+        ],
+        "a": [
+          2,
+          30,
+          147,
+          180
+        ],
+        "significant": [
+          3
+        ],
+        "role": [
+          4
+        ],
+        "in": [
+          5,
+          137,
+          146,
+          166,
+          182,
+          194
+        ],
+        "computer": [
+          6
+        ],
+        "science": [
+          7
+        ],
+        "and": [
+          8,
+          84,
+          135,
+          140,
+          150,
+          174
+        ],
+        "information": [
+          9
+        ],
+        "technology.": [
+          10
+        ],
+        "For": [
+          11
+        ],
+        "example,": [
+          12
+        ],
+        "novice": [
+          13
+        ],
+        "programmers": [
+          14
+        ],
+        "often": [
+          15
+        ],
+        "find": [
+          16
+        ],
+        "it": [
+          17
+        ],
+        "challenging": [
+          18
+        ],
+        "to": [
+          19,
+          26,
+          49,
+          78,
+          90,
+          95,
+          105,
+          121
+        ],
+        "use": [
+          20
+        ],
+        "the": [
+          21,
+          35,
+          70,
+          109,
+          154,
+          184,
+          187
+        ],
+        "Java": [
+          22,
+          92,
+          143,
+          163,
+          189
+        ],
+        "programming": [
+          23,
+          66,
+          132,
+          164
+        ],
+        "language": [
+          24,
+          27
+        ],
+        "due": [
+          25
+        ],
+        "barriers.": [
+          28
+        ],
+        "Creating": [
+          29
+        ],
+        "learning": [
+          31,
+          65
+        ],
+        "environment": [
+          32
+        ],
+        "that": [
+          33
+        ],
+        "considers": [
+          34
+        ],
+        "linguistic": [
+          36
+        ],
+        "needs": [
+          37
+        ],
+        "of": [
+          38,
+          53,
+          72,
+          161,
+          171
+        ],
+        "students": [
+          39
+        ],
+        "can": [
+          40,
+          56,
+          111
+        ],
+        "be": [
+          41
+        ],
+        "highly": [
+          42
+        ],
+        "beneficial.": [
+          43
+        ],
+        "By": [
+          44
+        ],
+        "adapting": [
+          45
+        ],
+        "our": [
+          46
+        ],
+        "teaching": [
+          47
+        ],
+        "practices": [
+          48
+        ],
+        "accommodate": [
+          50
+        ],
+        "different": [
+          51
+        ],
+        "types": [
+          52
+        ],
+        "learners,": [
+          54
+        ],
+        "we": [
+          55
+        ],
+        "improve": [
+          57
+        ],
+        "performance.": [
+          58
+        ],
+        "Therefore,": [
+          59
+        ],
+        "this": [
+          60
+        ],
+        "study": [
+          61
+        ],
+        "suggests": [
+          62
+        ],
+        "methods": [
+          63
+        ],
+        "for": [
+          64,
+          142
+        ],
+        "using": [
+          67
+        ],
+        "Sinhala": [
+          68,
+          80,
+          86,
+          139,
+          156
+        ],
+        "as": [
+          69
+        ],
+        "medium": [
+          71
+        ],
+        "instruction.": [
+          73
+        ],
+        "Azure": [
+          74
+        ],
+        "Translator": [
+          75
+        ],
+        "is": [
+          76
+        ],
+        "integrated": [
+          77
+        ],
+        "translate": [
+          79
+        ],
+        "questions": [
+          81
+        ],
+        "into": [
+          82,
+          116
+        ],
+        "English": [
+          83,
+          113,
+          141
+        ],
+        "provide": [
+          85
+        ],
+        "explanations,": [
+          87
+        ],
+        "enabling": [
+          88
+        ],
+        "users": [
+          89
+        ],
+        "receive": [
+          91
+        ],
+        "code": [
+          93,
+          114,
+          144,
+          190
+        ],
+        "customized": [
+          94
+        ],
+        "their": [
+          96
+        ],
+        "specific": [
+          97
+        ],
+        "needs.": [
+          98
+        ],
+        "The": [
+          99,
+          128
+        ],
+        "system": [
+          100,
+          110,
+          185
+        ],
+        "uses": [
+          101
+        ],
+        "ChatGPT": [
+          102
+        ],
+        "4": [
+          103
+        ],
+        "integration": [
+          104
+        ],
+        "generate": [
+          106
+        ],
+        "code.": [
+          107
+        ],
+        "Additionally,": [
+          108
+        ],
+        "transform": [
+          112
+        ],
+        "explanations": [
+          115,
+          160,
+          193
+        ],
+        "Sinhala,": [
+          117,
+          167,
+          183
+        ],
+        "giving": [
+          118
+        ],
+        "learners": [
+          119
+        ],
+        "access": [
+          120
+        ],
+        "instructional": [
+          122
+        ],
+        "material": [
+          123
+        ],
+        "whenever": [
+          124
+        ],
+        "they": [
+          125
+        ],
+        "need": [
+          126
+        ],
+        "it.": [
+          127
+        ],
+        "created": [
+          129
+        ],
+        "tool": [
+          130,
+          158
+        ],
+        "explains": [
+          131
+        ],
+        "principles,": [
+          133
+        ],
+        "logic,": [
+          134
+        ],
+        "syntax": [
+          136
+        ],
+        "both": [
+          138,
+          172
+        ],
+        "segments": [
+          145
+        ],
+        "simple,": [
+          148
+        ],
+        "concise,": [
+          149
+        ],
+        "thorough": [
+          151
+        ],
+        "manner.": [
+          152
+        ],
+        "Furthermore,": [
+          153
+        ],
+        "Java-based": [
+          155
+        ],
+        "assistance": [
+          157
+        ],
+        "offers": [
+          159
+        ],
+        "essential": [
+          162
+        ],
+        "concepts": [
+          165
+        ],
+        "ensuring": [
+          168
+        ],
+        "comprehensive": [
+          169
+        ],
+        "coverage": [
+          170
+        ],
+        "basic": [
+          173
+        ],
+        "more": [
+          175
+        ],
+        "complex": [
+          176
+        ],
+        "topics.": [
+          177
+        ],
+        "After": [
+          178
+        ],
+        "entering": [
+          179
+        ],
+        "question": [
+          181
+        ],
+        "displays": [
+          186
+        ],
+        "relevant": [
+          188
+        ],
+        "along": [
+          191
+        ],
+        "with": [
+          192
+        ],
+        "Sinhala.": [
+          195
+        ]
+      },
+      "counts_by_year": [],
+      "updated_date": "2026-11-14T11:04:58.165337",
+      "created_date": "2024-11-05T00:00:00"
+    },
+    {
+      "id": "https://openalex.org/W4399513649",
+      "doi": "https://doi.org/10.51474/jer.v14i1.733",
+      "title": "Skills Mismatch in Entry-level Programmer Positions: Employer Expectations vs. Observations in Lalitpur, Nepal",
+      "display_name": "Skills Mismatch in Entry-level Programmer Positions: Employer Expectations vs. Observations in Lalitpur, Nepal",
+      "relevance_score": 136.7115,
+      "publication_year": 2024,
+      "publication_date": "2024-06-11",
+      "ids": {
+        "openalex": "https://openalex.org/W4399513649",
+        "doi": "https://doi.org/10.51474/jer.v14i1.733"
+      },
+      "language": "en",
+      "primary_location": {
+        "id": "doi:10.51474/jer.v14i1.733",
+        "doi": "https://doi.org/10.51474/jer.v14i1.733",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.51474/jer.v14i1.733",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4210190421",
+          "display_name": "Journal of Education and Research",
+          "issn_l": "2091-0118",
+          "issn": [
+            "2091-0118",
+            "2091-2560"
+          ],
+          "is_oa": true,
+          "is_in_doaj": false,
+          "is_core": false,
+          "listed_in": [
+            "jpps-2",
+            "jufo-1"
+          ],
+          "host_organization": "https://openalex.org/P4310319245",
+          "host_organization_name": "Kathmandu University",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310319245"
+          ],
+          "host_organization_lineage_names": [
+            "Kathmandu University"
+          ],
+          "type": "journal"
+        },
+        "license": "cc-by-sa",
+        "license_id": "https://openalex.org/licenses/cc-by-sa",
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Journal of Education and Research",
+        "raw_type": "journal-article"
+      },
+      "parent_works": [],
+      "lineage": [
+        "https://openalex.org/W4399513649"
+      ],
+      "child_works_count": 0,
+      "type": "article",
+      "is_traditional": true,
+      "indexed_in": [
+        "crossref"
+      ],
+      "open_access": {
+        "is_oa": true,
+        "oa_status": "diamond",
+        "oa_url": "https://doi.org/10.51474/jer.v14i1.733",
+        "any_repository_has_fulltext": false
+      },
+      "authorships": [
+        {
+          "author_position": "first",
+          "author": {
+            "id": "https://openalex.org/A5099084334",
+            "display_name": "Amrit Puri",
+            "orcid": null,
+            "observed_orcids": []
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I47881588",
+              "display_name": "Kathmandu University",
+              "ror": "https://ror.org/036xnae80",
+              "country_code": "NP",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I47881588"
+              ]
+            }
+          ],
+          "countries": [
+            "NP"
+          ],
+          "is_corresponding": true,
+          "raw_author_name": "Amrit Puri",
+          "raw_affiliation_strings": [
+            "Kathmandu University School of Education, Lalitpur, Nepal"
+          ],
+          "raw_orcid": null,
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Kathmandu University School of Education, Lalitpur, Nepal",
+              "institution_ids": [
+                "https://openalex.org/I47881588"
+              ]
+            }
+          ]
+        }
+      ],
+      "institutions": [],
+      "countries_distinct_count": 1,
+      "institutions_distinct_count": 1,
+      "corresponding_author_ids": [
+        "https://openalex.org/A5099084334"
+      ],
+      "corresponding_institution_ids": [
+        "https://openalex.org/I47881588"
+      ],
+      "apc_list": null,
+      "apc_paid": null,
+      "fwci": 1.268,
+      "is_authors_truncated": false,
+      "has_fulltext": false,
+      "cited_by_count": 5,
+      "citation_normalized_percentile": {
+        "value": 0.80993648,
+        "is_in_top_1_percent": false,
+        "is_in_top_10_percent": false
+      },
+      "cited_by_percentile_year": {
+        "min": 97,
+        "max": 98
+      },
+      "biblio": {
+        "volume": "14",
+        "issue": "1",
+        "first_page": "1",
+        "last_page": "135"
+      },
+      "is_retracted": false,
+      "is_paratext": false,
+      "is_xpac": false,
+      "primary_topic": {
+        "id": "https://openalex.org/T13034",
+        "display_name": "Information Systems Education and Curriculum Development",
+        "score": 0.5615000128746033,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1710",
+          "display_name": "Information Systems"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      "topics": [
+        {
+          "id": "https://openalex.org/T13034",
+          "display_name": "Information Systems Education and Curriculum Development",
+          "score": 0.5615000128746033,
+          "subfield": {
+            "id": "https://openalex.org/subfields/1710",
+            "display_name": "Information Systems"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/17",
+            "display_name": "Computer Science"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T11779",
+          "display_name": "Higher Education and Employability",
+          "score": 0.4375,
+          "subfield": {
+            "id": "https://openalex.org/subfields/3304",
+            "display_name": "Education"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/33",
+            "display_name": "Social Sciences"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/2",
+            "display_name": "Social Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T10533",
+          "display_name": "Teaching and Learning Programming",
+          "score": 0.0003000000142492354,
+          "subfield": {
+            "id": "https://openalex.org/subfields/1706",
+            "display_name": "Computer Science Applications"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/17",
+            "display_name": "Computer Science"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        }
+      ],
+      "keywords": [
+        {
+          "id": "https://openalex.org/keywords/skills-mismatch",
+          "display_name": "skills mismatch",
+          "score": 0.9470000267028809
+        },
+        {
+          "id": "https://openalex.org/keywords/employer-expectations",
+          "display_name": "employer expectations",
+          "score": 0.8799999952316284
+        },
+        {
+          "id": "https://openalex.org/keywords/it-graduates",
+          "display_name": "IT graduates",
+          "score": 0.9210000038146973
+        },
+        {
+          "id": "https://openalex.org/keywords/software-companies",
+          "display_name": "software companies",
+          "score": 0.6940000057220459
+        },
+        {
+          "id": "https://openalex.org/keywords/learning-attitudes",
+          "display_name": "learning attitude",
+          "score": 0.6729999780654907
+        },
+        {
+          "id": "https://openalex.org/keywords/organizational-culture-fit",
+          "display_name": "organizational culture fit",
+          "score": 0.9399999976158142
+        },
+        {
+          "id": "https://openalex.org/keywords/work-readiness",
+          "display_name": "career readiness",
+          "score": 0.824999988079071
+        },
+        {
+          "id": "https://openalex.org/keywords/lalitpur-nepal",
+          "display_name": "Lalitpur, Nepal",
+          "score": 0.8960000276565552
+        }
+      ],
+      "concepts": [
+        {
+          "id": "https://openalex.org/C2781418482",
+          "wikidata": "https://www.wikidata.org/wiki/Q5380826",
+          "display_name": "Entry Level",
+          "level": 2,
+          "score": 0.6210135817527771
+        },
+        {
+          "id": "https://openalex.org/C97082442",
+          "wikidata": "https://www.wikidata.org/wiki/Q1934361",
+          "display_name": "Skills management",
+          "level": 2,
+          "score": 0.598084568977356
+        },
+        {
+          "id": "https://openalex.org/C105776082",
+          "wikidata": "https://www.wikidata.org/wiki/Q617473",
+          "display_name": "Likert scale",
+          "level": 2,
+          "score": 0.5898400545120239
+        },
+        {
+          "id": "https://openalex.org/C86772948",
+          "wikidata": "https://www.wikidata.org/wiki/Q1413287",
+          "display_name": "Social skills",
+          "level": 2,
+          "score": 0.5690730810165405
+        },
+        {
+          "id": "https://openalex.org/C164850336",
+          "wikidata": "https://www.wikidata.org/wiki/Q3685487",
+          "display_name": "Interpersonal communication",
+          "level": 2,
+          "score": 0.5613117814064026
+        },
+        {
+          "id": "https://openalex.org/C15744967",
+          "wikidata": "https://www.wikidata.org/wiki/Q9418",
+          "display_name": "Psychology",
+          "level": 0,
+          "score": 0.5180783271789551
+        },
+        {
+          "id": "https://openalex.org/C56739046",
+          "wikidata": "https://www.wikidata.org/wiki/Q192060",
+          "display_name": "Knowledge management",
+          "level": 1,
+          "score": 0.4654456079006195
+        },
+        {
+          "id": "https://openalex.org/C501001295",
+          "wikidata": "https://www.wikidata.org/wiki/Q2480597",
+          "display_name": "Life skills",
+          "level": 2,
+          "score": 0.4645386040210724
+        },
+        {
+          "id": "https://openalex.org/C2779343474",
+          "wikidata": "https://www.wikidata.org/wiki/Q3109175",
+          "display_name": "Context (archaeology)",
+          "level": 2,
+          "score": 0.43100711703300476
+        },
+        {
+          "id": "https://openalex.org/C26760741",
+          "wikidata": "https://www.wikidata.org/wiki/Q160402",
+          "display_name": "Perception",
+          "level": 2,
+          "score": 0.42695870995521545
+        },
+        {
+          "id": "https://openalex.org/C509550671",
+          "wikidata": "https://www.wikidata.org/wiki/Q126945",
+          "display_name": "Medical education",
+          "level": 1,
+          "score": 0.40183359384536743
+        },
+        {
+          "id": "https://openalex.org/C75630572",
+          "wikidata": "https://www.wikidata.org/wiki/Q538904",
+          "display_name": "Applied psychology",
+          "level": 1,
+          "score": 0.34011566638946533
+        },
+        {
+          "id": "https://openalex.org/C39549134",
+          "wikidata": "https://www.wikidata.org/wiki/Q133080",
+          "display_name": "Public relations",
+          "level": 1,
+          "score": 0.3372410535812378
+        },
+        {
+          "id": "https://openalex.org/C162853370",
+          "wikidata": "https://www.wikidata.org/wiki/Q39809",
+          "display_name": "Marketing",
+          "level": 1,
+          "score": 0.3360788822174072
+        },
+        {
+          "id": "https://openalex.org/C41008148",
+          "wikidata": "https://www.wikidata.org/wiki/Q21198",
+          "display_name": "Computer science",
+          "level": 0,
+          "score": 0.3111814856529236
+        },
+        {
+          "id": "https://openalex.org/C77805123",
+          "wikidata": "https://www.wikidata.org/wiki/Q161272",
+          "display_name": "Social psychology",
+          "level": 1,
+          "score": 0.2877393066883087
+        },
+        {
+          "id": "https://openalex.org/C19417346",
+          "wikidata": "https://www.wikidata.org/wiki/Q7922",
+          "display_name": "Pedagogy",
+          "level": 1,
+          "score": 0.2538667917251587
+        },
+        {
+          "id": "https://openalex.org/C144133560",
+          "wikidata": "https://www.wikidata.org/wiki/Q4830453",
+          "display_name": "Business",
+          "level": 0,
+          "score": 0.2353508174419403
+        },
+        {
+          "id": "https://openalex.org/C17744445",
+          "wikidata": "https://www.wikidata.org/wiki/Q36442",
+          "display_name": "Political science",
+          "level": 0,
+          "score": 0.1418113112449646
+        },
+        {
+          "id": "https://openalex.org/C169760540",
+          "wikidata": "https://www.wikidata.org/wiki/Q207011",
+          "display_name": "Neuroscience",
+          "level": 1,
+          "score": 0.0
+        },
+        {
+          "id": "https://openalex.org/C542102704",
+          "wikidata": "https://www.wikidata.org/wiki/Q183257",
+          "display_name": "Psychotherapist",
+          "level": 1,
+          "score": 0.0
+        },
+        {
+          "id": "https://openalex.org/C86803240",
+          "wikidata": "https://www.wikidata.org/wiki/Q420",
+          "display_name": "Biology",
+          "level": 0,
+          "score": 0.0
+        },
+        {
+          "id": "https://openalex.org/C71924100",
+          "wikidata": "https://www.wikidata.org/wiki/Q11190",
+          "display_name": "Medicine",
+          "level": 0,
+          "score": 0.0
+        },
+        {
+          "id": "https://openalex.org/C151730666",
+          "wikidata": "https://www.wikidata.org/wiki/Q7205",
+          "display_name": "Paleontology",
+          "level": 1,
+          "score": 0.0
+        },
+        {
+          "id": "https://openalex.org/C138496976",
+          "wikidata": "https://www.wikidata.org/wiki/Q175002",
+          "display_name": "Developmental psychology",
+          "level": 1,
+          "score": 0.0
+        }
+      ],
+      "mesh": [],
+      "locations_count": 1,
+      "locations": [
+        {
+          "id": "doi:10.51474/jer.v14i1.733",
+          "doi": "https://doi.org/10.51474/jer.v14i1.733",
+          "is_oa": true,
+          "landing_page_url": "https://doi.org/10.51474/jer.v14i1.733",
+          "pdf_url": null,
+          "source": {
+            "id": "https://openalex.org/S4210190421",
+            "display_name": "Journal of Education and Research",
+            "issn_l": "2091-0118",
+            "issn": [
+              "2091-0118",
+              "2091-2560"
+            ],
+            "is_oa": true,
+            "is_in_doaj": false,
+            "is_core": false,
+            "listed_in": [
+              "jpps-2",
+              "jufo-1"
+            ],
+            "host_organization": "https://openalex.org/P4310319245",
+            "host_organization_name": "Kathmandu University",
+            "host_organization_lineage": [
+              "https://openalex.org/P4310319245"
+            ],
+            "host_organization_lineage_names": [
+              "Kathmandu University"
+            ],
+            "type": "journal"
+          },
+          "license": "cc-by-sa",
+          "license_id": "https://openalex.org/licenses/cc-by-sa",
+          "version": "publishedVersion",
+          "is_accepted": true,
+          "is_published": true,
+          "raw_source_name": "Journal of Education and Research",
+          "raw_type": "journal-article"
+        }
+      ],
+      "best_oa_location": {
+        "id": "doi:10.51474/jer.v14i1.733",
+        "doi": "https://doi.org/10.51474/jer.v14i1.733",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.51474/jer.v14i1.733",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4210190421",
+          "display_name": "Journal of Education and Research",
+          "issn_l": "2091-0118",
+          "issn": [
+            "2091-0118",
+            "2091-2560"
+          ],
+          "is_oa": true,
+          "is_in_doaj": false,
+          "is_core": false,
+          "listed_in": [
+            "jpps-2",
+            "jufo-1"
+          ],
+          "host_organization": "https://openalex.org/P4310319245",
+          "host_organization_name": "Kathmandu University",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310319245"
+          ],
+          "host_organization_lineage_names": [
+            "Kathmandu University"
+          ],
+          "type": "journal"
+        },
+        "license": "cc-by-sa",
+        "license_id": "https://openalex.org/licenses/cc-by-sa",
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Journal of Education and Research",
+        "raw_type": "journal-article"
+      },
+      "sustainable_development_goals": [
+        {
+          "score": 0.9235000014305115,
+          "display_name": "Quality education",
+          "id": "https://metadata.un.org/sdg/4"
+        },
+        {
+          "score": 0.6452000141143799,
+          "display_name": "Decent work and economic growth",
+          "id": "https://metadata.un.org/sdg/8"
+        }
+      ],
+      "study_designs": [
+        {
+          "display_name": "Observational Study",
+          "id": "https://openalex.org/study-designs/observational-study"
+        }
+      ],
+      "awards": [],
+      "funders": [],
+      "has_content": {
+        "grobid_xml": false,
+        "pdf": false
+      },
+      "content_urls": null,
+      "referenced_works_count": 71,
+      "referenced_works": [
+        "https://openalex.org/W196176517",
+        "https://openalex.org/W241527839",
+        "https://openalex.org/W561201141",
+        "https://openalex.org/W914811831",
+        "https://openalex.org/W1030597565",
+        "https://openalex.org/W1509466891",
+        "https://openalex.org/W1511518306",
+        "https://openalex.org/W1575913558",
+        "https://openalex.org/W1736209534",
+        "https://openalex.org/W1989612271",
+        "https://openalex.org/W2031189712",
+        "https://openalex.org/W2055329170",
+        "https://openalex.org/W2069370215",
+        "https://openalex.org/W2079172301",
+        "https://openalex.org/W2079997543",
+        "https://openalex.org/W2082283318",
+        "https://openalex.org/W2088446831",
+        "https://openalex.org/W2091254174",
+        "https://openalex.org/W2094850733",
+        "https://openalex.org/W2105152962",
+        "https://openalex.org/W2127586363",
+        "https://openalex.org/W2128330310",
+        "https://openalex.org/W2132597346",
+        "https://openalex.org/W2136971664",
+        "https://openalex.org/W2234431238",
+        "https://openalex.org/W2281554575",
+        "https://openalex.org/W2289220910",
+        "https://openalex.org/W2345679311",
+        "https://openalex.org/W2530589333",
+        "https://openalex.org/W2542527281",
+        "https://openalex.org/W2546990304",
+        "https://openalex.org/W2561561806",
+        "https://openalex.org/W2573000282",
+        "https://openalex.org/W2576005110",
+        "https://openalex.org/W2603020828",
+        "https://openalex.org/W2726715633",
+        "https://openalex.org/W2740193162",
+        "https://openalex.org/W2754876754",
+        "https://openalex.org/W2761662880",
+        "https://openalex.org/W2791039954",
+        "https://openalex.org/W2793064824",
+        "https://openalex.org/W2793519818",
+        "https://openalex.org/W2810101822",
+        "https://openalex.org/W2903431110",
+        "https://openalex.org/W2907707063",
+        "https://openalex.org/W2909055311",
+        "https://openalex.org/W2911654553",
+        "https://openalex.org/W2944031539",
+        "https://openalex.org/W2949897116",
+        "https://openalex.org/W2963166098",
+        "https://openalex.org/W2971102600",
+        "https://openalex.org/W2977177873",
+        "https://openalex.org/W2980799873",
+        "https://openalex.org/W3037724723",
+        "https://openalex.org/W3084118360",
+        "https://openalex.org/W3088366594",
+        "https://openalex.org/W3088910160",
+        "https://openalex.org/W3125687003",
+        "https://openalex.org/W3176099160",
+        "https://openalex.org/W3217686455",
+        "https://openalex.org/W4224918842",
+        "https://openalex.org/W4256142650",
+        "https://openalex.org/W4281623852",
+        "https://openalex.org/W4298052160",
+        "https://openalex.org/W4323037705",
+        "https://openalex.org/W4376128705",
+        "https://openalex.org/W4384498111",
+        "https://openalex.org/W4385381695",
+        "https://openalex.org/W4388077445",
+        "https://openalex.org/W4389210359",
+        "https://openalex.org/W4401248707"
+      ],
+      "related_works": [
+        "https://openalex.org/W598902301",
+        "https://openalex.org/W7220751854",
+        "https://openalex.org/W3088910160",
+        "https://openalex.org/W4413356517",
+        "https://openalex.org/W654716204",
+        "https://openalex.org/W633962256",
+        "https://openalex.org/W1995693877",
+        "https://openalex.org/W4409476192",
+        "https://openalex.org/W7028465142",
+        "https://openalex.org/W3136118400"
+      ],
+      "abstract_inverted_index": {
+        "Despite": [
+          0
+        ],
+        "an": [
+          1
+        ],
+        "annual": [
+          2
+        ],
+        "influx": [
+          3
+        ],
+        "of": [
+          4,
+          20,
+          31,
+          40,
+          43,
+          119,
+          121,
+          130,
+          161,
+          182,
+          195,
+          217,
+          228,
+          267,
+          293,
+          323,
+          337
+        ],
+        "programming": [
+          5,
+          26,
+          56,
+          88,
+          115,
+          131,
+          301
+        ],
+        "graduates": [
+          6
+        ],
+        "from": [
+          7
+        ],
+        "Information": [
+          8
+        ],
+        "Technology": [
+          9
+        ],
+        "(IT)-focused": [
+          10
+        ],
+        "educational": [
+          11
+        ],
+        "institutions,": [
+          12
+        ],
+        "software": [
+          13,
+          75
+        ],
+        "companies": [
+          14,
+          77
+        ],
+        "struggle": [
+          15
+        ],
+        "with": [
+          16,
+          174,
+          328
+        ],
+        "the": [
+          17,
+          37,
+          48,
+          109,
+          140,
+          183,
+          215,
+          229,
+          265,
+          290,
+          294,
+          305,
+          321
+        ],
+        "persistent": [
+          18
+        ],
+        "challenge": [
+          19,
+          297
+        ],
+        "finding": [
+          21
+        ],
+        "qualified": [
+          22
+        ],
+        "candidates": [
+          23
+        ],
+        "for": [
+          24,
+          54,
+          113,
+          240,
+          247,
+          307,
+          349
+        ],
+        "entry-level": [
+          25,
+          55,
+          114,
+          300,
+          350
+        ],
+        "roles.": [
+          27
+        ],
+        "In": [
+          28
+        ],
+        "this": [
+          29,
+          34,
+          68,
+          312
+        ],
+        "context": [
+          30
+        ],
+        "skill": [
+          32,
+          41,
+          162,
+          262,
+          278,
+          333
+        ],
+        "shortage,": [
+          33
+        ],
+        "study": [
+          35,
+          59
+        ],
+        "explored": [
+          36
+        ],
+        "crucial": [
+          38
+        ],
+        "issue": [
+          39
+        ],
+        "mismatch": [
+          42,
+          70,
+          296
+        ],
+        "IT": [
+          44
+        ],
+        "graduates,": [
+          45
+        ],
+        "by": [
+          46
+        ],
+        "assessing": [
+          47
+        ],
+        "employers’": [
+          49
+        ],
+        "expectations": [
+          50,
+          104,
+          120,
+          163,
+          175,
+          237,
+          319
+        ],
+        "and": [
+          51,
+          86,
+          105,
+          133,
+          148,
+          153,
+          191,
+          207,
+          220,
+          238,
+          242,
+          257,
+          282,
+          314,
+          320,
+          331
+        ],
+        "observations": [
+          52,
+          107,
+          165,
+          239
+        ],
+        "vital": [
+          53
+        ],
+        "positions.": [
+          57,
+          116,
+          352
+        ],
+        "This": [
+          58
+        ],
+        "employed": [
+          60
+        ],
+        "a": [
+          61,
+          91,
+          268,
+          346
+        ],
+        "quantitative": [
+          62
+        ],
+        "survey": [
+          63
+        ],
+        "approach": [
+          64
+        ],
+        "to": [
+          65,
+          187,
+          210,
+          233,
+          310,
+          340
+        ],
+        "delve": [
+          66
+        ],
+        "into": [
+          67
+        ],
+        "skills": [
+          69,
+          111,
+          122,
+          149,
+          184,
+          259,
+          269,
+          295,
+          322
+        ],
+        "issue.": [
+          71
+        ],
+        "Professionals": [
+          72
+        ],
+        "within": [
+          73
+        ],
+        "128": [
+          74
+        ],
+        "development": [
+          76,
+          283,
+          334
+        ],
+        "in": [
+          78,
+          150,
+          171,
+          205,
+          225,
+          298
+        ],
+        "Lalitpur": [
+          79
+        ],
+        "were": [
+          80,
+          138,
+          155,
+          185,
+          197,
+          223
+        ],
+        "surveyed,": [
+          81
+        ],
+        "all": [
+          82,
+          261
+        ],
+        "holding": [
+          83
+        ],
+        "managerial": [
+          84
+        ],
+        "positions": [
+          85
+        ],
+        "possessing": [
+          87
+        ],
+        "experience.": [
+          89
+        ],
+        "Utilizing": [
+          90
+        ],
+        "Likert": [
+          92
+        ],
+        "scale": [
+          93
+        ],
+        "questionnaire": [
+          94
+        ],
+        "distributed": [
+          95
+        ],
+        "through": [
+          96,
+          280
+        ],
+        "Google": [
+          97
+        ],
+        "Forms,": [
+          98
+        ],
+        "these": [
+          99,
+          277
+        ],
+        "industry": [
+          100,
+          329
+        ],
+        "experts": [
+          101
+        ],
+        "rated": [
+          102
+        ],
+        "their": [
+          103
+        ],
+        "real-world": [
+          106
+        ],
+        "concerning": [
+          108
+        ],
+        "specific": [
+          110
+        ],
+        "requisite": [
+          112
+        ],
+        "The": [
+          117,
+          159,
+          200
+        ],
+        "analysis": [
+          118,
+          160,
+          250
+        ],
+        "showed": [
+          123
+        ],
+        "that": [
+          124
+        ],
+        "learning": [
+          125
+        ],
+        "attitude": [
+          126,
+          221
+        ],
+        "(personal),": [
+          127
+        ],
+        "basic": [
+          128
+        ],
+        "concepts": [
+          129
+        ],
+        "(technical),": [
+          132
+        ],
+        "organizational": [
+          134
+        ],
+        "culture": [
+          135
+        ],
+        "fit": [
+          136
+        ],
+        "(interpersonal)": [
+          137
+        ],
+        "considered": [
+          139,
+          156
+        ],
+        "most": [
+          141,
+          194,
+          227
+        ],
+        "important": [
+          142
+        ],
+        "skills.": [
+          143,
+          199,
+          212
+        ],
+        "Personal": [
+          144
+        ],
+        "or": [
+          145
+        ],
+        "college": [
+          146
+        ],
+        "projects": [
+          147
+        ],
+        "version": [
+          151
+        ],
+        "management": [
+          152
+        ],
+        "testing": [
+          154
+        ],
+        "equally": [
+          157
+        ],
+        "important.": [
+          158
+        ],
+        "versus": [
+          164
+        ],
+        "uncovers": [
+          166
+        ],
+        "noteworthy": [
+          167
+        ],
+        "disparities,": [
+          168
+        ],
+        "mostly": [
+          169
+        ],
+        "observed": [
+          170,
+          258
+        ],
+        "personal": [
+          172,
+          198,
+          211
+        ],
+        "skills,": [
+          173,
+          219,
+          243
+        ],
+        "significantly": [
+          176
+        ],
+        "exceeding": [
+          177
+        ],
+        "actual": [
+          178
+        ],
+        "observations.": [
+          179
+        ],
+        "Almost": [
+          180
+        ],
+        "50%": [
+          181
+        ],
+        "found": [
+          186
+        ],
+        "have": [
+          188
+        ],
+        "high": [
+          189,
+          192
+        ],
+        "importance": [
+          190,
+          339
+        ],
+        "gaps,": [
+          193
+        ],
+        "which": [
+          196,
+          226
+        ],
+        "discrepancy": [
+          201
+        ],
+        "was": [
+          202
+        ],
+        "comparatively": [
+          203
+        ],
+        "less": [
+          204
+        ],
+        "interpersonal": [
+          206
+        ],
+        "technical": [
+          208
+        ],
+        "compared": [
+          209
+        ],
+        "Perceptions": [
+          213
+        ],
+        "regarding": [
+          214
+        ],
+        "alignment": [
+          216,
+          235,
+          246,
+          316
+        ],
+        "knowledge,": [
+          218
+        ],
+        "(KSA)": [
+          222
+        ],
+        "mixed": [
+          224
+        ],
+        "respondents": [
+          230
+        ],
+        "indicated": [
+          231
+        ],
+        "moderate": [
+          232
+        ],
+        "strong": [
+          234
+        ],
+        "between": [
+          236,
+          255,
+          317
+        ],
+        "knowledge": [
+          241
+        ],
+        "while": [
+          244
+        ],
+        "weak": [
+          245
+        ],
+        "attitudes.": [
+          248
+        ],
+        "Statistical": [
+          249
+        ],
+        "confirmed": [
+          251
+        ],
+        "significant": [
+          252
+        ],
+        "mean": [
+          253
+        ],
+        "differences": [
+          254
+        ],
+        "expected": [
+          256
+        ],
+        "across": [
+          260
+        ],
+        "categories,": [
+          263
+        ],
+        "reaffirming": [
+          264
+        ],
+        "existence": [
+          266
+        ],
+        "mismatch.": [
+          270
+        ],
+        "Notably,": [
+          271
+        ],
+        "employers": [
+          272
+        ],
+        "overwhelmingly": [
+          273
+        ],
+        "advocate": [
+          274
+        ],
+        "ii": [
+          275
+        ],
+        "addressing": [
+          276
+        ],
+        "mismatches": [
+          279
+        ],
+        "training": [
+          281
+        ],
+        "initiatives.": [
+          284
+        ],
+        "These": [
+          285
+        ],
+        "findings": [
+          286
+        ],
+        "shed": [
+          287
+        ],
+        "light": [
+          288
+        ],
+        "on": [
+          289
+        ],
+        "multifaceted": [
+          291
+        ],
+        "nature": [
+          292
+        ],
+        "Lalitpur’s": [
+          299
+        ],
+        "job": [
+          302
+        ],
+        "market,": [
+          303
+        ],
+        "emphasizing": [
+          304
+        ],
+        "need": [
+          306
+        ],
+        "targeted": [
+          308
+        ],
+        "interventions": [
+          309
+        ],
+        "bridge": [
+          311
+        ],
+        "gap": [
+          313
+        ],
+        "foster": [
+          315
+        ],
+        "employer": [
+          318
+        ],
+        "recent": [
+          324
+        ],
+        "graduates.": [
+          325
+        ],
+        "Aligning": [
+          326
+        ],
+        "curriculum": [
+          327
+        ],
+        "needs": [
+          330
+        ],
+        "designing": [
+          332
+        ],
+        "approaches": [
+          335
+        ],
+        "is": [
+          336
+        ],
+        "utmost": [
+          338
+        ],
+        "enhance": [
+          341
+        ],
+        "graduates’": [
+          342
+        ],
+        "workforce": [
+          343
+        ],
+        "readiness,": [
+          344
+        ],
+        "facilitating": [
+          345
+        ],
+        "smoother": [
+          347
+        ],
+        "transition": [
+          348
+        ],
+        "programmer": [
+          351
+        ]
+      },
+      "counts_by_year": [
+        {
+          "year": 2025,
+          "cited_by_count": 5
+        }
+      ],
+      "updated_date": "2026-11-04T10:54:05.112534",
+      "created_date": "2024-06-12T00:00:00"
+    },
+    {
+      "id": "https://openalex.org/W2004839654",
+      "doi": "https://doi.org/10.1145/800140.804640",
+      "title": "Entry-level position of computer programmer survey",
+      "display_name": "Entry-level position of computer programmer survey",
+      "relevance_score": 91.17628,
+      "publication_year": 1980,
+      "publication_date": "1980-01-01",
+      "ids": {
+        "openalex": "https://openalex.org/W2004839654",
+        "doi": "https://doi.org/10.1145/800140.804640",
+        "mag": "2004839654"
+      },
+      "language": "en",
+      "primary_location": {
+        "id": "doi:10.1145/800140.804640",
+        "doi": "https://doi.org/10.1145/800140.804640",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.1145/800140.804640",
+        "pdf_url": "http://dl.acm.org/ft_gateway.cfm?id=804640&type=pdf",
+        "source": {
+          "id": "https://openalex.org/S4363608709",
+          "display_name": "ACM Technical Symposium on Computer Science Education (SIGCSE)",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "listed_in": [],
+          "host_organization": "https://openalex.org/P4310319798",
+          "host_organization_name": "Association for Computing Machinery",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310319798"
+          ],
+          "host_organization_lineage_names": [
+            "Association for Computing Machinery"
+          ],
+          "type": "conference"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Proceedings of the eleventh SIGCSE technical symposium on Computer science education - SIGCSE '80",
+        "raw_type": "proceedings-article"
+      },
+      "parent_works": [],
+      "lineage": [
+        "https://openalex.org/W2004839654"
+      ],
+      "child_works_count": 0,
+      "type": "conference-paper",
+      "is_traditional": true,
+      "indexed_in": [
+        "crossref"
+      ],
+      "open_access": {
+        "is_oa": true,
+        "oa_status": "bronze",
+        "oa_url": "http://dl.acm.org/ft_gateway.cfm?id=804640&type=pdf",
+        "any_repository_has_fulltext": false
+      },
+      "authorships": [
+        {
+          "author_position": "first",
+          "author": {
+            "id": null,
+            "display_name": "James W. Phillips",
+            "orcid": null,
+            "observed_orcids": []
+          },
+          "institutions": [],
+          "countries": [],
+          "is_corresponding": true,
+          "raw_author_name": "James W. Phillips",
+          "raw_affiliation_strings": [
+            "Data Processing Technology, Lexington Technical Institute"
+          ],
+          "raw_orcid": null,
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Data Processing Technology, Lexington Technical Institute",
+              "institution_ids": []
+            }
+          ]
+        }
+      ],
+      "institutions": [],
+      "countries_distinct_count": 0,
+      "institutions_distinct_count": 0,
+      "corresponding_author_ids": [],
+      "corresponding_institution_ids": [],
+      "apc_list": null,
+      "apc_paid": null,
+      "fwci": 0.521,
+      "is_authors_truncated": false,
+      "has_fulltext": true,
+      "cited_by_count": 1,
+      "citation_normalized_percentile": {
+        "value": 0.57142857,
+        "is_in_top_1_percent": false,
+        "is_in_top_10_percent": false
+      },
+      "cited_by_percentile_year": null,
+      "biblio": {
+        "volume": null,
+        "issue": null,
+        "first_page": "198",
+        "last_page": "202"
+      },
+      "is_retracted": false,
+      "is_paratext": false,
+      "is_xpac": false,
+      "primary_topic": {
+        "id": "https://openalex.org/T13034",
+        "display_name": "Information Systems Education and Curriculum Development",
+        "score": 0.9740999937057495,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1710",
+          "display_name": "Information Systems"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      "topics": [
+        {
+          "id": "https://openalex.org/T13034",
+          "display_name": "Information Systems Education and Curriculum Development",
+          "score": 0.9740999937057495,
+          "subfield": {
+            "id": "https://openalex.org/subfields/1710",
+            "display_name": "Information Systems"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/17",
+            "display_name": "Computer Science"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T13872",
+          "display_name": "Vocational and Entrepreneurial Education",
+          "score": 0.008200000040233135,
+          "subfield": {
+            "id": "https://openalex.org/subfields/3304",
+            "display_name": "Education"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/33",
+            "display_name": "Social Sciences"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/2",
+            "display_name": "Social Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T14508",
+          "display_name": "Vocational Education and Training",
+          "score": 0.007699999958276749,
+          "subfield": {
+            "id": "https://openalex.org/subfields/3304",
+            "display_name": "Education"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/33",
+            "display_name": "Social Sciences"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/2",
+            "display_name": "Social Sciences"
+          }
+        }
+      ],
+      "keywords": [
+        {
+          "id": "https://openalex.org/keywords/software-developers",
+          "display_name": "software developers",
+          "score": 0.6159999966621399
+        },
+        {
+          "id": "https://openalex.org/keywords/entry-level-positions",
+          "display_name": "entry-level positions",
+          "score": 0.7739999890327454
+        },
+        {
+          "id": "https://openalex.org/keywords/community-college-curriculum",
+          "display_name": "community college curriculum",
+          "score": 0.6549999713897705
+        },
+        {
+          "id": "https://openalex.org/keywords/business-data-processing",
+          "display_name": "business data processing",
+          "score": 0.8230000138282776
+        },
+        {
+          "id": "https://openalex.org/keywords/lexington-kentucky",
+          "display_name": "Lexington, Kentucky",
+          "score": 0.7739999890327454
+        },
+        {
+          "id": "https://openalex.org/keywords/employer-survey",
+          "display_name": "employer survey",
+          "score": 0.35600000619888306
+        }
+      ],
+      "concepts": [
+        {
+          "id": "https://openalex.org/C2778514511",
+          "wikidata": "https://www.wikidata.org/wiki/Q1374194",
+          "display_name": "Programmer",
+          "level": 2,
+          "score": 0.8953008055686951
+        },
+        {
+          "id": "https://openalex.org/C41008148",
+          "wikidata": "https://www.wikidata.org/wiki/Q21198",
+          "display_name": "Computer science",
+          "level": 0,
+          "score": 0.7135269641876221
+        },
+        {
+          "id": "https://openalex.org/C78780964",
+          "wikidata": "https://www.wikidata.org/wiki/Q7233193",
+          "display_name": "Position paper",
+          "level": 2,
+          "score": 0.5176827907562256
+        },
+        {
+          "id": "https://openalex.org/C198082294",
+          "wikidata": "https://www.wikidata.org/wiki/Q3399648",
+          "display_name": "Position (finance)",
+          "level": 2,
+          "score": 0.49250802397727966
+        },
+        {
+          "id": "https://openalex.org/C111919701",
+          "wikidata": "https://www.wikidata.org/wiki/Q9135",
+          "display_name": "Operating system",
+          "level": 1,
+          "score": 0.2968282103538513
+        },
+        {
+          "id": "https://openalex.org/C136764020",
+          "wikidata": "https://www.wikidata.org/wiki/Q466",
+          "display_name": "World Wide Web",
+          "level": 1,
+          "score": 0.15903478860855103
+        },
+        {
+          "id": "https://openalex.org/C162324750",
+          "wikidata": "https://www.wikidata.org/wiki/Q8134",
+          "display_name": "Economics",
+          "level": 0,
+          "score": 0.0
+        },
+        {
+          "id": "https://openalex.org/C10138342",
+          "wikidata": "https://www.wikidata.org/wiki/Q43015",
+          "display_name": "Finance",
+          "level": 1,
+          "score": 0.0
+        }
+      ],
+      "mesh": [],
+      "locations_count": 1,
+      "locations": [
+        {
+          "id": "doi:10.1145/800140.804640",
+          "doi": "https://doi.org/10.1145/800140.804640",
+          "is_oa": true,
+          "landing_page_url": "https://doi.org/10.1145/800140.804640",
+          "pdf_url": "http://dl.acm.org/ft_gateway.cfm?id=804640&type=pdf",
+          "source": {
+            "id": "https://openalex.org/S4363608709",
+            "display_name": "ACM Technical Symposium on Computer Science Education (SIGCSE)",
+            "issn_l": null,
+            "issn": null,
+            "is_oa": false,
+            "is_in_doaj": false,
+            "is_core": false,
+            "listed_in": [],
+            "host_organization": "https://openalex.org/P4310319798",
+            "host_organization_name": "Association for Computing Machinery",
+            "host_organization_lineage": [
+              "https://openalex.org/P4310319798"
+            ],
+            "host_organization_lineage_names": [
+              "Association for Computing Machinery"
+            ],
+            "type": "conference"
+          },
+          "license": null,
+          "license_id": null,
+          "version": "publishedVersion",
+          "is_accepted": true,
+          "is_published": true,
+          "raw_source_name": "Proceedings of the eleventh SIGCSE technical symposium on Computer science education - SIGCSE '80",
+          "raw_type": "proceedings-article"
+        }
+      ],
+      "best_oa_location": {
+        "id": "doi:10.1145/800140.804640",
+        "doi": "https://doi.org/10.1145/800140.804640",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.1145/800140.804640",
+        "pdf_url": "http://dl.acm.org/ft_gateway.cfm?id=804640&type=pdf",
+        "source": {
+          "id": "https://openalex.org/S4363608709",
+          "display_name": "ACM Technical Symposium on Computer Science Education (SIGCSE)",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "listed_in": [],
+          "host_organization": "https://openalex.org/P4310319798",
+          "host_organization_name": "Association for Computing Machinery",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310319798"
+          ],
+          "host_organization_lineage_names": [
+            "Association for Computing Machinery"
+          ],
+          "type": "conference"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Proceedings of the eleventh SIGCSE technical symposium on Computer science education - SIGCSE '80",
+        "raw_type": "proceedings-article"
+      },
+      "sustainable_development_goals": [
+        {
+          "score": 0.6164000034332275,
+          "display_name": "Quality education",
+          "id": "https://metadata.un.org/sdg/4"
+        }
+      ],
+      "study_designs": [],
+      "awards": [],
+      "funders": [],
+      "has_content": {
+        "grobid_xml": true,
+        "pdf": true
+      },
+      "content_urls": {
+        "pdf": "https://content.openalex.org/works/W2004839654.pdf",
+        "grobid_xml": "https://content.openalex.org/works/W2004839654.grobid-xml"
+      },
+      "referenced_works_count": 2,
+      "referenced_works": [
+        "https://openalex.org/W2044184923",
+        "https://openalex.org/W2063162980"
+      ],
+      "related_works": [
+        "https://openalex.org/W6980696950",
+        "https://openalex.org/W2763070589",
+        "https://openalex.org/W4213328281",
+        "https://openalex.org/W2063162980",
+        "https://openalex.org/W4243974345",
+        "https://openalex.org/W4255230561",
+        "https://openalex.org/W7587015",
+        "https://openalex.org/W203819966",
+        "https://openalex.org/W581390644",
+        "https://openalex.org/W2095401068"
+      ],
+      "abstract_inverted_index": {
+        "The": [
+          0
+        ],
+        "mission": [
+          1
+        ],
+        "of": [
+          2,
+          29,
+          55,
+          77,
+          109,
+          125,
+          142,
+          169,
+          211,
+          254,
+          323
+        ],
+        "a": [
+          3,
+          62,
+          65,
+          100,
+          155,
+          215,
+          232,
+          274,
+          318,
+          336
+        ],
+        "community": [
+          4,
+          88
+        ],
+        "college": [
+          5,
+          89
+        ],
+        "is": [
+          6,
+          51,
+          123,
+          154,
+          172,
+          224,
+          244,
+          256,
+          286
+        ],
+        "to": [
+          7,
+          11,
+          93,
+          96,
+          161,
+          173,
+          316
+        ],
+        "provide": [
+          8,
+          317
+        ],
+        "educational": [
+          9
+        ],
+        "services": [
+          10,
+          14
+        ],
+        "the": [
+          12,
+          18,
+          30,
+          75,
+          140,
+          170,
+          247,
+          252,
+          298,
+          321,
+          358
+        ],
+        "community.These": [
+          13
+        ],
+        "are": [
+          15,
+          57,
+          81
+        ],
+        "dictated": [
+          16
+        ],
+        "by": [
+          17,
+          354
+        ],
+        "p": [
+          19,
+          38,
+          328
+        ],
+        "r": [
+          20,
+          23,
+          35,
+          39,
+          42,
+          48,
+          189,
+          214,
+          231,
+          273,
+          330
+        ],
+        "i": [
+          21,
+          24,
+          26,
+          34,
+          40,
+          43,
+          67,
+          69,
+          102,
+          104,
+          117,
+          127,
+          131,
+          135,
+          175,
+          178,
+          180,
+          193,
+          197,
+          201,
+          216,
+          218,
+          233,
+          235,
+          258,
+          262,
+          266,
+          275,
+          277,
+          304,
+          308,
+          312,
+          331,
+          334,
+          343
+        ],
+        "o": [
+          22,
+          41,
+          47,
+          136,
+          188,
+          202,
+          267,
+          313,
+          332
+        ],
+        "t": [
+          25,
+          37,
+          44,
+          116,
+          118,
+          120,
+          130,
+          132,
+          134,
+          196,
+          198,
+          200,
+          213,
+          230,
+          261,
+          263,
+          265,
+          272,
+          307,
+          309,
+          311,
+          344,
+          345
+        ],
+        "e": [
+          27,
+          70,
+          105,
+          121,
+          329,
+          347
+        ],
+        "s": [
+          28,
+          36,
+          115,
+          129,
+          138,
+          195,
+          204,
+          260,
+          306
+        ],
+        "specific": [
+          31
+        ],
+        "community.The": [
+          32
+        ],
+        "f": [
+          33,
+          46,
+          68,
+          103,
+          187
+        ],
+        "y": [
+          45,
+          339
+        ],
+        "Lexington,": [
+          49
+        ],
+        "Kentucky,": [
+          50
+        ],
+        "employment.The": [
+          52
+        ],
+        "two": [
+          53
+        ],
+        "factors": [
+          54
+        ],
+        "employment": [
+          56
+        ],
+        "an": [
+          58,
+          162,
+          303
+        ],
+        "available": [
+          59
+        ],
+        "position": [
+          60
+        ],
+        "and": [
+          61,
+          86,
+          208,
+          240
+        ],
+        "q": [
+          63,
+          98
+        ],
+        "u": [
+          64,
+          99,
+          119,
+          133,
+          199,
+          264,
+          310
+        ],
+        "l": [
+          66,
+          101,
+          337,
+          338,
+          346
+        ],
+        "d": [
+          71,
+          106,
+          177,
+          276,
+          333
+        ],
+        "applicant.For": [
+          72
+        ],
+        "local": [
+          73,
+          227,
+          324
+        ],
+        "business,": [
+          74
+        ],
+        "majority": [
+          76
+        ],
+        "computer-related": [
+          78
+        ],
+        "technical": [
+          79,
+          151
+        ],
+        "positions": [
+          80,
+          243,
+          293
+        ],
+        "in": [
+          82,
+          149,
+          165,
+          184,
+          357,
+          361
+        ],
+        "data": [
+          83,
+          206,
+          222
+        ],
+        "entry,": [
+          84
+        ],
+        "operations,": [
+          85
+        ],
+        "programming.The": [
+          87
+        ],
+        "must": [
+          90,
+          326
+        ],
+        "be": [
+          91,
+          97,
+          327
+        ],
+        "able": [
+          92
+        ],
+        "prepare": [
+          94,
+          174
+        ],
+        "individuals": [
+          95,
+          290
+        ],
+        "for": [
+          107,
+          182,
+          221,
+          238,
+          280,
+          291
+        ],
+        "some": [
+          108
+        ],
+        "these": [
+          110
+        ],
+        "careers.Lexington": [
+          111
+        ],
+        "Technical": [
+          112
+        ],
+        "I": [
+          113
+        ],
+        "n": [
+          114,
+          128,
+          137,
+          176,
+          194,
+          203,
+          217,
+          219,
+          234,
+          236,
+          259,
+          268,
+          278,
+          305,
+          314
+        ],
+        "(LTI)": [
+          122
+        ],
+        "one": [
+          124
+        ],
+        "thirteen": [
+          126
+        ],
+        "under": [
+          139
+        ],
+        "University": [
+          141,
+          253
+        ],
+        "Kentucky's": [
+          143
+        ],
+        "Community": [
+          144
+        ],
+        "College": [
+          145
+        ],
+        "System.LTI": [
+          146
+        ],
+        "offers": [
+          147
+        ],
+        "programs": [
+          148
+        ],
+        "many": [
+          150
+        ],
+        "areas.Among": [
+          152
+        ],
+        "them": [
+          153
+        ],
+        "Business": [
+          156
+        ],
+        "Data": [
+          157
+        ],
+        "Processing": [
+          158
+        ],
+        "curriculum": [
+          159,
+          171,
+          283
+        ],
+        "leading": [
+          160
+        ],
+        "Associate": [
+          163
+        ],
+        "Degree": [
+          164
+        ],
+        "Applied": [
+          166
+        ],
+        "Science.The": [
+          167
+        ],
+        "intent": [
+          168
+        ],
+        "v": [
+          179
+        ],
+        "duals": [
+          181
+        ],
+        "careers": [
+          183
+        ],
+        "computer": [
+          185,
+          281,
+          295
+        ],
+        "programming": [
+          186,
+          242
+        ],
+        "business": [
+          190,
+          325
+        ],
+        "applications.Other": [
+          191
+        ],
+        "state-supported": [
+          192
+        ],
+        "cover": [
+          205
+        ],
+        "entry": [
+          207,
+          223
+        ],
+        "other": [
+          209
+        ],
+        "types": [
+          210
+        ],
+        "programming.Formal": [
+          212
+        ],
+        "g": [
+          220,
+          237,
+          279
+        ],
+        "given": [
+          225,
+          245
+        ],
+        "through": [
+          226,
+          246
+        ],
+        "vocational": [
+          228
+        ],
+        "schools.Formal": [
+          229
+        ],
+        "research": [
+          239
+        ],
+        "advanced": [
+          241
+        ],
+        "Computer": [
+          248
+        ],
+        "Science": [
+          249
+        ],
+        "Department": [
+          250
+        ],
+        "at": [
+          251,
+          284
+        ],
+        "Kentucky.There": [
+          255
+        ],
+        "no": [
+          257
+        ],
+        "providing": [
+          269
+        ],
+        "adequate": [
+          270
+        ],
+        "formal": [
+          271
+        ],
+        "operations.The": [
+          282
+        ],
+        "LTI": [
+          285
+        ],
+        "oriented": [
+          287
+        ],
+        "toward": [
+          288
+        ],
+        "preparing": [
+          289
+        ],
+        "entry-level": [
+          292
+        ],
+        "as": [
+          294
+        ],
+        "programmers": [
+          296
+        ],
+        "within": [
+          297
+        ],
+        "Lexington": [
+          299,
+          359
+        ],
+        "area.To": [
+          300
+        ],
+        "ensure": [
+          301
+        ],
+        "that": [
+          302
+        ],
+        "continues": [
+          315
+        ],
+        "relevant": [
+          319
+        ],
+        "curriculum,": [
+          320
+        ],
+        "needs": [
+          322
+        ],
+        "c": [
+          335
+        ],
+        "reviewed": [
+          340
+        ],
+        "(": [
+          341
+        ],
+        "L": [
+          342
+        ],
+        ",": [
+          348
+        ],
+        "1977).A": [
+          349
+        ],
+        "mailed": [
+          350
+        ],
+        "questionnaire": [
+          351
+        ],
+        "was": [
+          352
+        ],
+        "returned": [
+          353
+        ],
+        "142": [
+          355
+        ],
+        "companies": [
+          356
+        ],
+        "area": [
+          360
+        ],
+        "1975": [
+          362
+        ],
+        "(Hager,": [
+          363
+        ],
+        "1975).": [
+          364
+        ]
+      },
+      "counts_by_year": [],
+      "updated_date": "2026-11-14T11:04:58.165337",
+      "created_date": "2016-06-24T00:00:00"
+    }
+  ],
+  "group_by": []
+}

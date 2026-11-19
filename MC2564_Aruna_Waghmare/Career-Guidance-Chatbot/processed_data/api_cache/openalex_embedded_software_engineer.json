@@ -1,0 +1,4165 @@
+{
+  "meta": {
+    "notice": "No API key, so this request shares one free daily budget ($0.10) with everyone on your network's IP address. Get a free key with its own $1/day at https://openalex.org/settings/api and add api_key=YOUR_KEY to your requests. An AI agent can get one for its user in one call: POST https://api.openalex.org/api-keys with {\"email\": \"<your user's email>\"}; we email them a link, and the key works once they click it. Docs for agents: https://help.openalex.org/llms.txt",
+    "count": 439590,
+    "db_response_time_ms": 494,
+    "page": 1,
+    "per_page": 5,
+    "groups_count": null,
+    "x_query": {
+      "oql": "get works with (Embedded Software Engineer) in the title, abstract, or full text",
+      "x_new_oql": "get works with (Embedded Software Engineer) in the title, abstract, or full text",
+      "oqo": {
+        "get_rows": "works",
+        "filter_rows": [
+          {
+            "column_id": "fulltext.search",
+            "value": "Embedded Software Engineer",
+            "operator": "has"
+          }
+        ]
+      },
+      "url": "/works?filter=fulltext.search:Embedded Software Engineer&per_page=5",
+      "order": "best matches first",
+      "order_default": true
+    },
+    "cost_usd": 0.001
+  },
+  "results": [
+    {
+      "id": "https://openalex.org/W3205705381",
+      "doi": null,
+      "title": "Make Life Easier for Embedded Software Engineers Facing Complex Hardware Architectures",
+      "display_name": "Make Life Easier for Embedded Software Engineers Facing Complex Hardware Architectures",
+      "relevance_score": 142.40752,
+      "publication_year": 2020,
+      "publication_date": "2020-01-29",
+      "ids": {
+        "openalex": "https://openalex.org/W3205705381",
+        "mag": "3205705381"
+      },
+      "language": "en",
+      "primary_location": {
+        "id": "pmh:oai:HAL:hal-02474476v1",
+        "doi": null,
+        "is_oa": true,
+        "landing_page_url": "https://hal.science/hal-02474476",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4306402512",
+          "display_name": "HAL",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "listed_in": [],
+          "host_organization": "https://openalex.org/I4405252976",
+          "host_organization_name": "Centre pour la Communication Scientifique Directe",
+          "host_organization_lineage": [
+            "https://openalex.org/I4405252976"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": "other-oa",
+        "license_id": "https://openalex.org/licenses/other-oa",
+        "version": "submittedVersion",
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": "http://www.erts2020.org/",
+        "raw_type": "info:eu-repo/semantics/conferenceObject"
+      },
+      "parent_works": [],
+      "lineage": [
+        "https://openalex.org/W3205705381"
+      ],
+      "child_works_count": 0,
+      "type": "conference-paper",
+      "is_traditional": true,
+      "indexed_in": [],
+      "open_access": {
+        "is_oa": true,
+        "oa_status": "green",
+        "oa_url": "https://hal.science/hal-02474476",
+        "any_repository_has_fulltext": true
+      },
+      "authorships": [
+        {
+          "author_position": "first",
+          "author": {
+            "id": null,
+            "display_name": "Leconte, Romain",
+            "orcid": null,
+            "observed_orcids": []
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I4394709072",
+              "display_name": "IRT Saint Exupéry",
+              "ror": "https://ror.org/01qew1n19",
+              "country_code": "FR",
+              "type": "nonprofit",
+              "lineage": [
+                "https://openalex.org/I4394709072"
+              ]
+            }
+          ],
+          "countries": [
+            "FR"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "Leconte, Romain",
+          "raw_affiliation_strings": [
+            "IRT Saint Exupéry - Institut de Recherche Technologique (Bât B612, 3 rue Tarfaya,CS 34436, 31405 Toulouse Cedex 4 (France) - France)",
+            "Space Codesign Europe (42 RUE MONGE 75005 PARIS - France)"
+          ],
+          "raw_orcid": null,
+          "affiliations": [
+            {
+              "raw_affiliation_string": "IRT Saint Exupéry - Institut de Recherche Technologique (Bât B612, 3 rue Tarfaya,CS 34436, 31405 Toulouse Cedex 4 (France) - France)",
+              "institution_ids": [
+                "https://openalex.org/I4394709072"
+              ]
+            },
+            {
+              "raw_affiliation_string": "Space Codesign Europe (42 RUE MONGE 75005 PARIS - France)",
+              "institution_ids": []
+            }
+          ]
+        },
+        {
+          "author_position": "middle",
+          "author": {
+            "id": "https://openalex.org/A5056344147",
+            "display_name": "Éric Jenn",
+            "orcid": "https://orcid.org/0000-0001-9699-3497",
+            "observed_orcids": [
+              "https://orcid.org/0000-0001-9699-3497"
+            ]
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I4210140930",
+              "display_name": "Thales (France)",
+              "ror": "https://ror.org/04emwm605",
+              "country_code": "FR",
+              "type": "company",
+              "lineage": [
+                "https://openalex.org/I4210140930"
+              ]
+            },
+            {
+              "id": "https://openalex.org/I4394709072",
+              "display_name": "IRT Saint Exupéry",
+              "ror": "https://ror.org/01qew1n19",
+              "country_code": "FR",
+              "type": "nonprofit",
+              "lineage": [
+                "https://openalex.org/I4394709072"
+              ]
+            }
+          ],
+          "countries": [
+            "FR"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "Jenn, Eric",
+          "raw_affiliation_strings": [
+            "IRT Saint Exupéry - Institut de Recherche Technologique (Bât B612, 3 rue Tarfaya,CS 34436, 31405 Toulouse Cedex 4 (France) - France)",
+            "Thales AVS France SAS (105 Avenue du Général Eisenhower, BP 63647, 31036 Toulouse Cedex 1 - France)"
+          ],
+          "raw_orcid": null,
+          "affiliations": [
+            {
+              "raw_affiliation_string": "IRT Saint Exupéry - Institut de Recherche Technologique (Bât B612, 3 rue Tarfaya,CS 34436, 31405 Toulouse Cedex 4 (France) - France)",
+              "institution_ids": [
+                "https://openalex.org/I4394709072"
+              ]
+            },
+            {
+              "raw_affiliation_string": "Thales AVS France SAS (105 Avenue du Général Eisenhower, BP 63647, 31036 Toulouse Cedex 1 - France)",
+              "institution_ids": [
+                "https://openalex.org/I4210140930"
+              ]
+            }
+          ]
+        },
+        {
+          "author_position": "middle",
+          "author": {
+            "id": "https://openalex.org/A5019163790",
+            "display_name": "Guy Bois",
+            "orcid": "https://orcid.org/0000-0002-7595-9975",
+            "observed_orcids": [
+              "https://orcid.org/0000-0002-7595-9975"
+            ]
+          },
+          "institutions": [],
+          "countries": [],
+          "is_corresponding": false,
+          "raw_author_name": "Bois, Guy",
+          "raw_affiliation_strings": [
+            "Space Codesign (450 rue St-Pierre, Suite 1010\r\nMontreal, Quebec\r\nH2Y 2M9 Canada - Canada)"
+          ],
+          "raw_orcid": null,
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Space Codesign (450 rue St-Pierre, Suite 1010\r\nMontreal, Quebec\r\nH2Y 2M9 Canada - Canada)",
+              "institution_ids": []
+            }
+          ]
+        },
+        {
+          "author_position": "last",
+          "author": {
+            "id": "https://openalex.org/A5041198681",
+            "display_name": "Hubert Guérard",
+            "orcid": null,
+            "observed_orcids": []
+          },
+          "institutions": [],
+          "countries": [],
+          "is_corresponding": false,
+          "raw_author_name": "Guérard, Hubert",
+          "raw_affiliation_strings": [
+            "Space Codesign (450 rue St-Pierre, Suite 1010\r\nMontreal, Quebec\r\nH2Y 2M9 Canada - Canada)"
+          ],
+          "raw_orcid": null,
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Space Codesign (450 rue St-Pierre, Suite 1010\r\nMontreal, Quebec\r\nH2Y 2M9 Canada - Canada)",
+              "institution_ids": []
+            }
+          ]
+        }
+      ],
+      "institutions": [],
+      "countries_distinct_count": 1,
+      "institutions_distinct_count": 2,
+      "corresponding_author_ids": [],
+      "corresponding_institution_ids": [],
+      "apc_list": null,
+      "apc_paid": null,
+      "fwci": 0.1633,
+      "is_authors_truncated": false,
+      "has_fulltext": false,
+      "cited_by_count": 2,
+      "citation_normalized_percentile": {
+        "value": 0.25498931,
+        "is_in_top_1_percent": false,
+        "is_in_top_10_percent": false
+      },
+      "cited_by_percentile_year": {
+        "min": 88,
+        "max": 93
+      },
+      "biblio": {
+        "volume": null,
+        "issue": null,
+        "first_page": null,
+        "last_page": null
+      },
+      "is_retracted": false,
+      "is_paratext": false,
+      "is_xpac": false,
+      "primary_topic": {
+        "id": "https://openalex.org/T10904",
+        "display_name": "Embedded Systems Design Techniques",
+        "score": 1.0,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1708",
+          "display_name": "Hardware and Architecture"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      "topics": [
+        {
+          "id": "https://openalex.org/T10904",
+          "display_name": "Embedded Systems Design Techniques",
+          "score": 1.0,
+          "subfield": {
+            "id": "https://openalex.org/subfields/1708",
+            "display_name": "Hardware and Architecture"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/17",
+            "display_name": "Computer Science"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T13292",
+          "display_name": "Embedded Systems and FPGA Applications",
+          "score": 0.0,
+          "subfield": {
+            "id": "https://openalex.org/subfields/2208",
+            "display_name": "Electrical and Electronic Engineering"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/22",
+            "display_name": "Engineering"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T12941",
+          "display_name": "Embedded Systems and FPGA Design",
+          "score": 0.0,
+          "subfield": {
+            "id": "https://openalex.org/subfields/2207",
+            "display_name": "Control and Systems Engineering"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/22",
+            "display_name": "Engineering"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        }
+      ],
+      "keywords": [
+        {
+          "id": "https://openalex.org/keywords/hardware-software-co-design",
+          "display_name": "hardware-software co-design",
+          "score": 0.7409999966621399
+        },
+        {
+          "id": "https://openalex.org/keywords/fpga-implementation",
+          "display_name": "FPGA implementation",
+          "score": 0.6639999747276306
+        },
+        {
+          "id": "https://openalex.org/keywords/embedded-software",
+          "display_name": "embedded software",
+          "score": 0.5609999895095825
+        },
+        {
+          "id": "https://openalex.org/keywords/multi-core-processors",
+          "display_name": "multi-core processors",
+          "score": 0.734000027179718
+        },
+        {
+          "id": "https://openalex.org/keywords/graphics-processing-units",
+          "display_name": "graphics processing units",
+          "score": 0.34700000286102295
+        },
+        {
+          "id": "https://openalex.org/keywords/programmable-logic",
+          "display_name": "programmable logic",
+          "score": 0.7059999704360962
+        },
+        {
+          "id": "https://openalex.org/keywords/multi-processor-systems-on-chip",
+          "display_name": "MPSoC",
+          "score": 0.6480000019073486
+        },
+        {
+          "id": "https://openalex.org/keywords/design-space-exploration",
+          "display_name": "design space exploration",
+          "score": 0.5929999947547913
+        },
+        {
+          "id": "https://openalex.org/keywords/real-time-systems",
+          "display_name": "real-time systems",
+          "score": 0.6520000100135803
+        },
+        {
+          "id": "https://openalex.org/keywords/image-processing",
+          "display_name": "image processing",
+          "score": 0.8080000281333923
+        },
+        {
+          "id": "https://openalex.org/keywords/zynq",
+          "display_name": "Zynq",
+          "score": 0.9259999990463257
+        },
+        {
+          "id": "https://openalex.org/keywords/cyclones",
+          "display_name": "cyclones",
+          "score": 0.8960000276565552
+        }
+      ],
+      "concepts": [
+        {
+          "id": "https://openalex.org/C41008148",
+          "wikidata": "https://www.wikidata.org/wiki/Q21198",
+          "display_name": "Computer science",
+          "level": 0,
+          "score": 0.7864724397659302
+        },
+        {
+          "id": "https://openalex.org/C42935608",
+          "wikidata": "https://www.wikidata.org/wiki/Q190411",
+          "display_name": "Field-programmable gate array",
+          "level": 2,
+          "score": 0.7303062081336975
+        },
+        {
+          "id": "https://openalex.org/C149635348",
+          "wikidata": "https://www.wikidata.org/wiki/Q193040",
+          "display_name": "Embedded system",
+          "level": 1,
+          "score": 0.654686450958252
+        },
+        {
+          "id": "https://openalex.org/C2777904410",
+          "wikidata": "https://www.wikidata.org/wiki/Q7397",
+          "display_name": "Software",
+          "level": 2,
+          "score": 0.5932804346084595
+        },
+        {
+          "id": "https://openalex.org/C177212765",
+          "wikidata": "https://www.wikidata.org/wiki/Q627335",
+          "display_name": "Workflow",
+          "level": 2,
+          "score": 0.5700910687446594
+        },
+        {
+          "id": "https://openalex.org/C37135326",
+          "wikidata": "https://www.wikidata.org/wiki/Q931942",
+          "display_name": "Design flow",
+          "level": 2,
+          "score": 0.5643294453620911
+        },
+        {
+          "id": "https://openalex.org/C2778012447",
+          "wikidata": "https://www.wikidata.org/wiki/Q1034415",
+          "display_name": "Scope (computer science)",
+          "level": 2,
+          "score": 0.5152971744537354
+        },
+        {
+          "id": "https://openalex.org/C2776221188",
+          "wikidata": "https://www.wikidata.org/wiki/Q21072556",
+          "display_name": "Design space exploration",
+          "level": 2,
+          "score": 0.5114080309867859
+        },
+        {
+          "id": "https://openalex.org/C118524514",
+          "wikidata": "https://www.wikidata.org/wiki/Q173212",
+          "display_name": "Computer architecture",
+          "level": 1,
+          "score": 0.4661399722099304
+        },
+        {
+          "id": "https://openalex.org/C36503486",
+          "wikidata": "https://www.wikidata.org/wiki/Q11235244",
+          "display_name": "Domain (mathematical analysis)",
+          "level": 2,
+          "score": 0.4610658288002014
+        },
+        {
+          "id": "https://openalex.org/C111919701",
+          "wikidata": "https://www.wikidata.org/wiki/Q9135",
+          "display_name": "Operating system",
+          "level": 1,
+          "score": 0.19926097989082336
+        },
+        {
+          "id": "https://openalex.org/C199360897",
+          "wikidata": "https://www.wikidata.org/wiki/Q9143",
+          "display_name": "Programming language",
+          "level": 1,
+          "score": 0.107298344373703
+        },
+        {
+          "id": "https://openalex.org/C33923547",
+          "wikidata": "https://www.wikidata.org/wiki/Q395",
+          "display_name": "Mathematics",
+          "level": 0,
+          "score": 0.0
+        },
+        {
+          "id": "https://openalex.org/C134306372",
+          "wikidata": "https://www.wikidata.org/wiki/Q7754",
+          "display_name": "Mathematical analysis",
+          "level": 1,
+          "score": 0.0
+        },
+        {
+          "id": "https://openalex.org/C77088390",
+          "wikidata": "https://www.wikidata.org/wiki/Q8513",
+          "display_name": "Database",
+          "level": 1,
+          "score": 0.0
+        }
+      ],
+      "mesh": [],
+      "locations_count": 1,
+      "locations": [
+        {
+          "id": "pmh:oai:HAL:hal-02474476v1",
+          "doi": null,
+          "is_oa": true,
+          "landing_page_url": "https://hal.science/hal-02474476",
+          "pdf_url": null,
+          "source": {
+            "id": "https://openalex.org/S4306402512",
+            "display_name": "HAL",
+            "issn_l": null,
+            "issn": null,
+            "is_oa": false,
+            "is_in_doaj": false,
+            "is_core": false,
+            "listed_in": [],
+            "host_organization": "https://openalex.org/I4405252976",
+            "host_organization_name": "Centre pour la Communication Scientifique Directe",
+            "host_organization_lineage": [
+              "https://openalex.org/I4405252976"
+            ],
+            "host_organization_lineage_names": [],
+            "type": "repository"
+          },
+          "license": "other-oa",
+          "license_id": "https://openalex.org/licenses/other-oa",
+          "version": "submittedVersion",
+          "is_accepted": false,
+          "is_published": false,
+          "raw_source_name": "http://www.erts2020.org/",
+          "raw_type": "info:eu-repo/semantics/conferenceObject"
+        }
+      ],
+      "best_oa_location": {
+        "id": "pmh:oai:HAL:hal-02474476v1",
+        "doi": null,
+        "is_oa": true,
+        "landing_page_url": "https://hal.science/hal-02474476",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4306402512",
+          "display_name": "HAL",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "listed_in": [],
+          "host_organization": "https://openalex.org/I4405252976",
+          "host_organization_name": "Centre pour la Communication Scientifique Directe",
+          "host_organization_lineage": [
+            "https://openalex.org/I4405252976"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": "other-oa",
+        "license_id": "https://openalex.org/licenses/other-oa",
+        "version": "submittedVersion",
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": "http://www.erts2020.org/",
+        "raw_type": "info:eu-repo/semantics/conferenceObject"
+      },
+      "sustainable_development_goals": [],
+      "study_designs": [],
+      "awards": [],
+      "funders": [],
+      "has_content": {
+        "pdf": false,
+        "grobid_xml": false
+      },
+      "content_urls": null,
+      "referenced_works_count": 0,
+      "referenced_works": [],
+      "related_works": [
+        "https://openalex.org/W2965009651",
+        "https://openalex.org/W2074349187",
+        "https://openalex.org/W2530938462",
+        "https://openalex.org/W2159939619",
+        "https://openalex.org/W7172206063",
+        "https://openalex.org/W3081695820",
+        "https://openalex.org/W2045365134",
+        "https://openalex.org/W2969953515",
+        "https://openalex.org/W2154056489",
+        "https://openalex.org/W2070889743"
+      ],
+      "abstract_inverted_index": {
+        "The": [
+          0
+        ],
+        "increasingly": [
+          1
+        ],
+        "parallel": [
+          2
+        ],
+        "execution": [
+          3
+        ],
+        "platforms-mixing": [
+          4
+        ],
+        "multi-cores,": [
+          5
+        ],
+        "GPUs,": [
+          6
+        ],
+        "and": [
+          7,
+          15,
+          31,
+          48,
+          76,
+          178
+        ],
+        "programmable": [
+          8
+        ],
+        "logic": [
+          9
+        ],
+        "(namely,": [
+          10
+        ],
+        "FPGA)-require": [
+          11
+        ],
+        "new": [
+          12
+        ],
+        "development": [
+          13
+        ],
+        "techniques": [
+          14
+        ],
+        "technologies": [
+          16
+        ],
+        "to": [
+          17,
+          57,
+          135,
+          139
+        ],
+        "be": [
+          18,
+          58
+        ],
+        "used": [
+          19
+        ],
+        "efficiently.": [
+          20
+        ],
+        "Software": [
+          21
+        ],
+        "developers": [
+          22
+        ],
+        "are": [
+          23,
+          157
+        ],
+        "hampered": [
+          24
+        ],
+        "by": [
+          25,
+          159
+        ],
+        "the": [
+          26,
+          35,
+          38,
+          43,
+          54,
+          123,
+          146
+        ],
+        "complexity": [
+          27,
+          36
+        ],
+        "of": [
+          28,
+          37,
+          45,
+          73,
+          166
+        ],
+        "modern": [
+          29
+        ],
+        "SoCs": [
+          30
+        ],
+        "MPSoCs.": [
+          32
+        ],
+        "In": [
+          33
+        ],
+        "particular,": [
+          34
+        ],
+        "hardware": [
+          39,
+          75
+        ],
+        "design": [
+          40,
+          55,
+          67
+        ],
+        "flow": [
+          41,
+          68
+        ],
+        "makes": [
+          42
+        ],
+        "exploitation": [
+          44
+        ],
+        "FPGAs": [
+          46
+        ],
+        "difficult": [
+          47
+        ],
+        "expensive,": [
+          49
+        ],
+        "especially": [
+          50
+        ],
+        "in": [
+          51,
+          122,
+          150
+        ],
+        "cases": [
+          52
+        ],
+        "where": [
+          53,
+          94
+        ],
+        "space": [
+          56
+        ],
+        "explored": [
+          59
+        ],
+        "is": [
+          60,
+          87,
+          104,
+          117,
+          131
+        ],
+        "large.": [
+          61
+        ],
+        "Therefore,": [
+          62
+        ],
+        "this": [
+          63
+        ],
+        "paper": [
+          64,
+          144
+        ],
+        "proposes": [
+          65
+        ],
+        "a": [
+          66,
+          90,
+          95,
+          118,
+          152
+        ],
+        "that": [
+          69
+        ],
+        "offers": [
+          70
+        ],
+        "joint": [
+          71
+        ],
+        "support": [
+          72
+        ],
+        "both": [
+          74,
+          176
+        ],
+        "software": [
+          77,
+          84
+        ],
+        "flows": [
+          78
+        ],
+        "making": [
+          79
+        ],
+        "life": [
+          80
+        ],
+        "easier": [
+          81
+        ],
+        "for": [
+          82
+        ],
+        "embedded": [
+          83,
+          140
+        ],
+        "engineers.": [
+          85
+        ],
+        "It": [
+          86
+        ],
+        "based": [
+          88
+        ],
+        "on": [
+          89,
+          134,
+          169,
+          175
+        ],
+        "HW/SW": [
+          91
+        ],
+        "codesign": [
+          92
+        ],
+        "approach": [
+          93,
+          168
+        ],
+        "sequential": [
+          96
+        ],
+        "C": [
+          97
+        ],
+        "code": [
+          98
+        ],
+        "annotated": [
+          99
+        ],
+        "with": [
+          100
+        ],
+        "OpenMP": [
+          101,
+          111
+        ],
+        "offloading": [
+          102
+        ],
+        "directives": [
+          103
+        ],
+        "progressively": [
+          105
+        ],
+        "transformed": [
+          106
+        ],
+        "into": [
+          107
+        ],
+        "an": [
+          108,
+          170
+        ],
+        "FPGA": [
+          109
+        ],
+        "implementation.": [
+          110
+        ],
+        "has": [
+          112
+        ],
+        "been": [
+          113
+        ],
+        "selected": [
+          114
+        ],
+        "because": [
+          115,
+          129
+        ],
+        "it": [
+          116
+        ],
+        "widely": [
+          119
+        ],
+        "adopted": [
+          120
+        ],
+        "solution": [
+          121
+        ],
+        "high-performance": [
+          124
+        ],
+        "computing": [
+          125
+        ],
+        "domain,": [
+          126
+        ],
+        "but": [
+          127
+        ],
+        "also": [
+          128
+        ],
+        "work": [
+          130
+        ],
+        "currently": [
+          132
+        ],
+        "going": [
+          133
+        ],
+        "extend": [
+          136
+        ],
+        "its": [
+          137
+        ],
+        "scope": [
+          138
+        ],
+        "real-time": [
+          141
+        ],
+        "systems.": [
+          142
+        ],
+        "This": [
+          143
+        ],
+        "identifies": [
+          145
+        ],
+        "important": [
+          147
+        ],
+        "properties": [
+          148
+        ],
+        "required": [
+          149
+        ],
+        "such": [
+          151
+        ],
+        "flow,": [
+          153
+        ],
+        "demonstrates": [
+          154
+        ],
+        "how": [
+          155
+        ],
+        "they": [
+          156
+        ],
+        "supported": [
+          158
+        ],
+        "our": [
+          160,
+          167
+        ],
+        "workflow,": [
+          161
+        ],
+        "and,": [
+          162
+        ],
+        "finally,": [
+          163
+        ],
+        "presents": [
+          164
+        ],
+        "results": [
+          165
+        ],
+        "image": [
+          171
+        ],
+        "processing": [
+          172
+        ],
+        "function": [
+          173
+        ],
+        "deployed": [
+          174
+        ],
+        "Zynq": [
+          177
+        ],
+        "Cyclone": [
+          179
+        ],
+        "platforms.": [
+          180
+        ]
+      },
+      "counts_by_year": [
+        {
+          "year": 2025,
+          "cited_by_count": 1
+        },
+        {
+          "year": 2020,
+          "cited_by_count": 1
+        }
+      ],
+      "updated_date": "2026-11-08T12:12:28.789561",
+      "created_date": "2021-10-25T00:00:00"
+    },
+    {
+      "id": "https://openalex.org/W2093432410",
+      "doi": "https://doi.org/10.1541/ieejeiss.131.468",
+      "title": "Real-time Kernel Implementation Practice Program for Embedded Software Engineers' Education and its Evaluation",
+      "display_name": "Real-time Kernel Implementation Practice Program for Embedded Software Engineers' Education and its Evaluation",
+      "relevance_score": 130.04083,
+      "publication_year": 2011,
+      "publication_date": "2011-01-01",
+      "ids": {
+        "openalex": "https://openalex.org/W2093432410",
+        "doi": "https://doi.org/10.1541/ieejeiss.131.468",
+        "mag": "2093432410"
+      },
+      "language": "en",
+      "primary_location": {
+        "id": "doi:10.1541/ieejeiss.131.468",
+        "doi": "https://doi.org/10.1541/ieejeiss.131.468",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.1541/ieejeiss.131.468",
+        "pdf_url": "https://www.jstage.jst.go.jp/article/ieejeiss/131/2/131_2_468/_pdf",
+        "source": {
+          "id": "https://openalex.org/S2764471703",
+          "display_name": "IEEJ Transactions on Electronics Information and Systems",
+          "issn_l": "0385-4221",
+          "issn": [
+            "0385-4221",
+            "1348-8155"
+          ],
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "listed_in": [
+            "poland-20",
+            "russia-white-list-4"
+          ],
+          "host_organization": "https://openalex.org/P4320800591",
+          "host_organization_name": "Institute of Electrical Engineers of Japan",
+          "host_organization_lineage": [
+            "https://openalex.org/P4320800591"
+          ],
+          "host_organization_lineage_names": [
+            "Institute of Electrical Engineers of Japan"
+          ],
+          "type": "journal"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "IEEJ Transactions on Electronics, Information and Systems",
+        "raw_type": "journal-article"
+      },
+      "parent_works": [],
+      "lineage": [
+        "https://openalex.org/W2093432410"
+      ],
+      "child_works_count": 0,
+      "type": "article",
+      "is_traditional": true,
+      "indexed_in": [
+        "crossref"
+      ],
+      "open_access": {
+        "is_oa": true,
+        "oa_status": "bronze",
+        "oa_url": "https://www.jstage.jst.go.jp/article/ieejeiss/131/2/131_2_468/_pdf",
+        "any_repository_has_fulltext": false
+      },
+      "authorships": [
+        {
+          "author_position": "first",
+          "author": {
+            "id": "https://openalex.org/A5111388914",
+            "display_name": "Toshio Yoshida",
+            "orcid": null,
+            "observed_orcids": []
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I136259955",
+              "display_name": "Toyohashi University of Technology",
+              "ror": "https://ror.org/04ezg6d83",
+              "country_code": "JP",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I136259955"
+              ]
+            }
+          ],
+          "countries": [
+            "JP"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "Toshio Yoshida",
+          "raw_affiliation_strings": [
+            "Toyohashi university of technology",
+            "(Toyohashi Univetsity of Technology)"
+          ],
+          "raw_orcid": null,
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Toyohashi university of technology",
+              "institution_ids": [
+                "https://openalex.org/I136259955"
+              ]
+            },
+            {
+              "raw_affiliation_string": "(Toyohashi Univetsity of Technology)",
+              "institution_ids": [
+                "https://openalex.org/I136259955"
+              ]
+            }
+          ]
+        },
+        {
+          "author_position": "middle",
+          "author": {
+            "id": null,
+            "display_name": "Masahide Matsumoto",
+            "orcid": null,
+            "observed_orcids": []
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I4210110924",
+              "display_name": "Genetec (United States)",
+              "ror": "https://ror.org/017w8ej57",
+              "country_code": "US",
+              "type": "company",
+              "lineage": [
+                "https://openalex.org/I4210110924",
+                "https://openalex.org/I4210158879"
+              ]
+            }
+          ],
+          "countries": [
+            "US"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "Masahide Matsumoto",
+          "raw_affiliation_strings": [
+            "Genetec Corporation",
+            "Non-member (Genetec Corporation)"
+          ],
+          "raw_orcid": null,
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Genetec Corporation",
+              "institution_ids": [
+                "https://openalex.org/I4210110924"
+              ]
+            },
+            {
+              "raw_affiliation_string": "Non-member (Genetec Corporation)",
+              "institution_ids": [
+                "https://openalex.org/I4210110924"
+              ]
+            }
+          ]
+        },
+        {
+          "author_position": "middle",
+          "author": {
+            "id": "https://openalex.org/A5069867996",
+            "display_name": "Katsuhiko Seo",
+            "orcid": null,
+            "observed_orcids": []
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I4210110924",
+              "display_name": "Genetec (United States)",
+              "ror": "https://ror.org/017w8ej57",
+              "country_code": "US",
+              "type": "company",
+              "lineage": [
+                "https://openalex.org/I4210110924",
+                "https://openalex.org/I4210158879"
+              ]
+            }
+          ],
+          "countries": [
+            "US"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "Katsuhiko Seo",
+          "raw_affiliation_strings": [
+            "Genetec Corporation",
+            "Non-member (Genetec Corporation)"
+          ],
+          "raw_orcid": null,
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Genetec Corporation",
+              "institution_ids": [
+                "https://openalex.org/I4210110924"
+              ]
+            },
+            {
+              "raw_affiliation_string": "Non-member (Genetec Corporation)",
+              "institution_ids": [
+                "https://openalex.org/I4210110924"
+              ]
+            }
+          ]
+        },
+        {
+          "author_position": "middle",
+          "author": {
+            "id": null,
+            "display_name": "Shinichiro Chino",
+            "orcid": null,
+            "observed_orcids": []
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I165522056",
+              "display_name": "Tokyo Denki University",
+              "ror": "https://ror.org/01pa62v70",
+              "country_code": "JP",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I165522056"
+              ]
+            },
+            {
+              "id": "https://openalex.org/I4210133125",
+              "display_name": "Mitsubishi Electric (Japan)",
+              "ror": "https://ror.org/033y26782",
+              "country_code": "JP",
+              "type": "company",
+              "lineage": [
+                "https://openalex.org/I1306287861",
+                "https://openalex.org/I4210133125"
+              ]
+            },
+            {
+              "id": "https://openalex.org/I6090238",
+              "display_name": "Iwate Prefectural University",
+              "ror": "https://ror.org/054dx8336",
+              "country_code": "JP",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I6090238"
+              ]
+            }
+          ],
+          "countries": [
+            "JP"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "Shinichiro Chino",
+          "raw_affiliation_strings": [
+            "Mitsubishi Electric Corporation",
+            "Non-member (Mitsubishi Electric Corporation) Eiji Sugino Non-member (Iwate Prefectural University) Jun Sawamoto Member (Iwate Prefectural University) Hisao Koizumi Member (Tokyo Denki University"
+          ],
+          "raw_orcid": null,
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Mitsubishi Electric Corporation",
+              "institution_ids": [
+                "https://openalex.org/I4210133125"
+              ]
+            },
+            {
+              "raw_affiliation_string": "Non-member (Mitsubishi Electric Corporation) Eiji Sugino Non-member (Iwate Prefectural University) Jun Sawamoto Member (Iwate Prefectural University) Hisao Koizumi Member (Tokyo Denki University",
+              "institution_ids": [
+                "https://openalex.org/I165522056",
+                "https://openalex.org/I6090238"
+              ]
+            }
+          ]
+        },
+        {
+          "author_position": "middle",
+          "author": {
+            "id": "https://openalex.org/A5047432092",
+            "display_name": "Eiji Sugino",
+            "orcid": null,
+            "observed_orcids": []
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I6090238",
+              "display_name": "Iwate Prefectural University",
+              "ror": "https://ror.org/054dx8336",
+              "country_code": "JP",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I6090238"
+              ]
+            }
+          ],
+          "countries": [
+            "JP"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "Eiji Sugino",
+          "raw_affiliation_strings": [
+            "Iwate Prefectural University"
+          ],
+          "raw_orcid": null,
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Iwate Prefectural University",
+              "institution_ids": [
+                "https://openalex.org/I6090238"
+              ]
+            }
+          ]
+        },
+        {
+          "author_position": "middle",
+          "author": {
+            "id": "https://openalex.org/A5075844793",
+            "display_name": "Jun Sawamoto",
+            "orcid": null,
+            "observed_orcids": []
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I6090238",
+              "display_name": "Iwate Prefectural University",
+              "ror": "https://ror.org/054dx8336",
+              "country_code": "JP",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I6090238"
+              ]
+            }
+          ],
+          "countries": [
+            "JP"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "Jun Sawamoto",
+          "raw_affiliation_strings": [
+            "Iwate Prefectural University"
+          ],
+          "raw_orcid": null,
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Iwate Prefectural University",
+              "institution_ids": [
+                "https://openalex.org/I6090238"
+              ]
+            }
+          ]
+        },
+        {
+          "author_position": "last",
+          "author": {
+            "id": "https://openalex.org/A5102186542",
+            "display_name": "Hisao Koizumi",
+            "orcid": null,
+            "observed_orcids": []
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I165522056",
+              "display_name": "Tokyo Denki University",
+              "ror": "https://ror.org/01pa62v70",
+              "country_code": "JP",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I165522056"
+              ]
+            }
+          ],
+          "countries": [
+            "JP"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "Hisao Koizumi",
+          "raw_affiliation_strings": [
+            "Tokyo Denki University"
+          ],
+          "raw_orcid": null,
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Tokyo Denki University",
+              "institution_ids": [
+                "https://openalex.org/I165522056"
+              ]
+            }
+          ]
+        }
+      ],
+      "institutions": [],
+      "countries_distinct_count": 2,
+      "institutions_distinct_count": 5,
+      "corresponding_author_ids": [],
+      "corresponding_institution_ids": [],
+      "apc_list": null,
+      "apc_paid": null,
+      "fwci": 1.4266,
+      "is_authors_truncated": false,
+      "has_fulltext": true,
+      "cited_by_count": 3,
+      "citation_normalized_percentile": {
+        "value": 0.86979732,
+        "is_in_top_1_percent": false,
+        "is_in_top_10_percent": false
+      },
+      "cited_by_percentile_year": {
+        "min": 88,
+        "max": 95
+      },
+      "biblio": {
+        "volume": "131",
+        "issue": "2",
+        "first_page": "468",
+        "last_page": "479"
+      },
+      "is_retracted": false,
+      "is_paratext": false,
+      "is_xpac": false,
+      "primary_topic": {
+        "id": "https://openalex.org/T13682",
+        "display_name": "Engineering Education and Pedagogy",
+        "score": 0.3693999946117401,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3304",
+          "display_name": "Education"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/33",
+          "display_name": "Social Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      "topics": [
+        {
+          "id": "https://openalex.org/T13682",
+          "display_name": "Engineering Education and Pedagogy",
+          "score": 0.3693999946117401,
+          "subfield": {
+            "id": "https://openalex.org/subfields/3304",
+            "display_name": "Education"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/33",
+            "display_name": "Social Sciences"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/2",
+            "display_name": "Social Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T10904",
+          "display_name": "Embedded Systems Design Techniques",
+          "score": 0.1306000053882599,
+          "subfield": {
+            "id": "https://openalex.org/subfields/1708",
+            "display_name": "Hardware and Architecture"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/17",
+            "display_name": "Computer Science"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T10533",
+          "display_name": "Teaching and Learning Programming",
+          "score": 0.09839999675750732,
+          "subfield": {
+            "id": "https://openalex.org/subfields/1706",
+            "display_name": "Computer Science Applications"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/17",
+            "display_name": "Computer Science"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        }
+      ],
+      "keywords": [
+        {
+          "id": "https://openalex.org/keywords/real-time-kernel",
+          "display_name": "real-time kernel",
+          "score": 0.9490000009536743
+        },
+        {
+          "id": "https://openalex.org/keywords/practice-program",
+          "display_name": "practice program",
+          "score": 0.4740000069141388
+        },
+        {
+          "id": "https://openalex.org/keywords/educational-assessment",
+          "display_name": "educational assessment",
+          "score": 0.49300000071525574
+        },
+        {
+          "id": "https://openalex.org/keywords/embedded-system-design",
+          "display_name": "embedded system design",
+          "score": 0.4490000009536743
+        }
+      ],
+      "concepts": [
+        {
+          "id": "https://openalex.org/C41008148",
+          "wikidata": "https://www.wikidata.org/wiki/Q21198",
+          "display_name": "Computer science",
+          "level": 0,
+          "score": 0.7373975515365601
+        },
+        {
+          "id": "https://openalex.org/C2777904410",
+          "wikidata": "https://www.wikidata.org/wiki/Q7397",
+          "display_name": "Software",
+          "level": 2,
+          "score": 0.6765900254249573
+        },
+        {
+          "id": "https://openalex.org/C115903868",
+          "wikidata": "https://www.wikidata.org/wiki/Q80993",
+          "display_name": "Software engineering",
+          "level": 1,
+          "score": 0.6702974438667297
+        },
+        {
+          "id": "https://openalex.org/C529173508",
+          "wikidata": "https://www.wikidata.org/wiki/Q638608",
+          "display_name": "Software development",
+          "level": 3,
+          "score": 0.5859214067459106
+        },
+        {
+          "id": "https://openalex.org/C98045186",
+          "wikidata": "https://www.wikidata.org/wiki/Q205663",
+          "display_name": "Process (computing)",
+          "level": 2,
+          "score": 0.5529814958572388
+        },
+        {
+          "id": "https://openalex.org/C154488198",
+          "wikidata": "https://www.wikidata.org/wiki/Q1335007",
+          "display_name": "Embedded software",
+          "level": 3,
+          "score": 0.477680504322052
+        },
+        {
+          "id": "https://openalex.org/C186846655",
+          "wikidata": "https://www.wikidata.org/wiki/Q3398377",
+          "display_name": "Software construction",
+          "level": 4,
+          "score": 0.46885618567466736
+        },
+        {
+          "id": "https://openalex.org/C180152950",
+          "wikidata": "https://www.wikidata.org/wiki/Q2904257",
+          "display_name": "Software development process",
+          "level": 4,
+          "score": 0.46199560165405273
+        },
+        {
+          "id": "https://openalex.org/C74193536",
+          "wikidata": "https://www.wikidata.org/wiki/Q574844",
+          "display_name": "Kernel (algebra)",
+          "level": 2,
+          "score": 0.45217257738113403
+        },
+        {
+          "id": "https://openalex.org/C113843644",
+          "wikidata": "https://www.wikidata.org/wiki/Q901882",
+          "display_name": "Interface (matter)",
+          "level": 4,
+          "score": 0.42363616824150085
+        },
+        {
+          "id": "https://openalex.org/C111919701",
+          "wikidata": "https://www.wikidata.org/wiki/Q9135",
+          "display_name": "Operating system",
+          "level": 1,
+          "score": 0.37881922721862793
+        },
+        {
+          "id": "https://openalex.org/C149635348",
+          "wikidata": "https://www.wikidata.org/wiki/Q193040",
+          "display_name": "Embedded system",
+          "level": 1,
+          "score": 0.3680429756641388
+        },
+        {
+          "id": "https://openalex.org/C157915830",
+          "wikidata": "https://www.wikidata.org/wiki/Q2928001",
+          "display_name": "Bubble",
+          "level": 2,
+          "score": 0.0
+        },
+        {
+          "id": "https://openalex.org/C33923547",
+          "wikidata": "https://www.wikidata.org/wiki/Q395",
+          "display_name": "Mathematics",
+          "level": 0,
+          "score": 0.0
+        },
+        {
+          "id": "https://openalex.org/C114614502",
+          "wikidata": "https://www.wikidata.org/wiki/Q76592",
+          "display_name": "Combinatorics",
+          "level": 1,
+          "score": 0.0
+        },
+        {
+          "id": "https://openalex.org/C129307140",
+          "wikidata": "https://www.wikidata.org/wiki/Q6795880",
+          "display_name": "Maximum bubble pressure method",
+          "level": 3,
+          "score": 0.0
+        }
+      ],
+      "mesh": [],
+      "locations_count": 1,
+      "locations": [
+        {
+          "id": "doi:10.1541/ieejeiss.131.468",
+          "doi": "https://doi.org/10.1541/ieejeiss.131.468",
+          "is_oa": true,
+          "landing_page_url": "https://doi.org/10.1541/ieejeiss.131.468",
+          "pdf_url": "https://www.jstage.jst.go.jp/article/ieejeiss/131/2/131_2_468/_pdf",
+          "source": {
+            "id": "https://openalex.org/S2764471703",
+            "display_name": "IEEJ Transactions on Electronics Information and Systems",
+            "issn_l": "0385-4221",
+            "issn": [
+              "0385-4221",
+              "1348-8155"
+            ],
+            "is_oa": false,
+            "is_in_doaj": false,
+            "is_core": false,
+            "listed_in": [
+              "poland-20",
+              "russia-white-list-4"
+            ],
+            "host_organization": "https://openalex.org/P4320800591",
+            "host_organization_name": "Institute of Electrical Engineers of Japan",
+            "host_organization_lineage": [
+              "https://openalex.org/P4320800591"
+            ],
+            "host_organization_lineage_names": [
+              "Institute of Electrical Engineers of Japan"
+            ],
+            "type": "journal"
+          },
+          "license": null,
+          "license_id": null,
+          "version": "publishedVersion",
+          "is_accepted": true,
+          "is_published": true,
+          "raw_source_name": "IEEJ Transactions on Electronics, Information and Systems",
+          "raw_type": "journal-article"
+        }
+      ],
+      "best_oa_location": {
+        "id": "doi:10.1541/ieejeiss.131.468",
+        "doi": "https://doi.org/10.1541/ieejeiss.131.468",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.1541/ieejeiss.131.468",
+        "pdf_url": "https://www.jstage.jst.go.jp/article/ieejeiss/131/2/131_2_468/_pdf",
+        "source": {
+          "id": "https://openalex.org/S2764471703",
+          "display_name": "IEEJ Transactions on Electronics Information and Systems",
+          "issn_l": "0385-4221",
+          "issn": [
+            "0385-4221",
+            "1348-8155"
+          ],
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "listed_in": [
+            "poland-20",
+            "russia-white-list-4"
+          ],
+          "host_organization": "https://openalex.org/P4320800591",
+          "host_organization_name": "Institute of Electrical Engineers of Japan",
+          "host_organization_lineage": [
+            "https://openalex.org/P4320800591"
+          ],
+          "host_organization_lineage_names": [
+            "Institute of Electrical Engineers of Japan"
+          ],
+          "type": "journal"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "IEEJ Transactions on Electronics, Information and Systems",
+        "raw_type": "journal-article"
+      },
+      "sustainable_development_goals": [
+        {
+          "display_name": "Quality education",
+          "score": 0.9235000014305115,
+          "id": "https://metadata.un.org/sdg/4"
+        }
+      ],
+      "study_designs": [],
+      "awards": [],
+      "funders": [],
+      "has_content": {
+        "pdf": true,
+        "grobid_xml": true
+      },
+      "content_urls": {
+        "pdf": "https://content.openalex.org/works/W2093432410.pdf",
+        "grobid_xml": "https://content.openalex.org/works/W2093432410.grobid-xml"
+      },
+      "referenced_works_count": 2,
+      "referenced_works": [
+        "https://openalex.org/W2100835130",
+        "https://openalex.org/W2882888911"
+      ],
+      "related_works": [
+        "https://openalex.org/W2338443808",
+        "https://openalex.org/W2021386185",
+        "https://openalex.org/W1540684945",
+        "https://openalex.org/W2040259160",
+        "https://openalex.org/W2365080236",
+        "https://openalex.org/W7204839349",
+        "https://openalex.org/W2142253855",
+        "https://openalex.org/W4249087465",
+        "https://openalex.org/W2060372396",
+        "https://openalex.org/W2080727199"
+      ],
+      "abstract_inverted_index": {
+        "A": [
+          0
+        ],
+        "real-time": [
+          1
+        ],
+        "kernel": [
+          2
+        ],
+        "(henceforth": [
+          3
+        ],
+        "RTK)": [
+          4
+        ],
+        "is": [
+          5,
+          19,
+          30,
+          80,
+          87,
+          173
+        ],
+        "in": [
+          6,
+          60,
+          101
+        ],
+        "the": [
+          7,
+          15,
+          22,
+          53,
+          94,
+          152,
+          160,
+          177
+        ],
+        "center": [
+          8
+        ],
+        "place": [
+          9
+        ],
+        "of": [
+          10,
+          17,
+          64,
+          93,
+          96,
+          106,
+          154,
+          159,
+          179
+        ],
+        "embedded": [
+          11,
+          23,
+          74,
+          98,
+          121,
+          180
+        ],
+        "software": [
+          12,
+          38,
+          44,
+          56,
+          75,
+          99,
+          122,
+          161,
+          181
+        ],
+        "technology,": [
+          13
+        ],
+        "and": [
+          14,
+          52,
+          57,
+          131,
+          140,
+          157
+        ],
+        "understanding": [
+          16,
+          63
+        ],
+        "RTK": [
+          18,
+          37,
+          50,
+          65,
+          69,
+          83,
+          107,
+          116,
+          134,
+          169
+        ],
+        "indispensable": [
+          20
+        ],
+        "for": [
+          21,
+          137,
+          151,
+          176
+        ],
+        "system": [
+          24,
+          41
+        ],
+        "design.": [
+          25
+        ],
+        "To": [
+          26
+        ],
+        "implement": [
+          27
+        ],
+        "RTK,": [
+          28
+        ],
+        "it": [
+          29,
+          79
+        ],
+        "necessary": [
+          31
+        ],
+        "to": [
+          32,
+          62,
+          103,
+          114,
+          120
+        ],
+        "understand": [
+          33
+        ],
+        "languages": [
+          34
+        ],
+        "that": [
+          35,
+          49,
+          82,
+          144,
+          168
+        ],
+        "describe": [
+          36
+        ],
+        "program": [
+          39,
+          86,
+          119,
+          172
+        ],
+        "code,": [
+          40
+        ],
+        "programming": [
+          42
+        ],
+        "manners,": [
+          43
+        ],
+        "development": [
+          45
+        ],
+        "tools,": [
+          46
+        ],
+        "CPU": [
+          47
+        ],
+        "on": [
+          48
+        ],
+        "runs": [
+          51
+        ],
+        "interface": [
+          54
+        ],
+        "between": [
+          55
+        ],
+        "hardware,": [
+          58
+        ],
+        "etc.": [
+          59
+        ],
+        "addition": [
+          61,
+          102
+        ],
+        "itself.": [
+          66,
+          108
+        ],
+        "This": [
+          67
+        ],
+        "means": [
+          68,
+          92
+        ],
+        "implementation": [
+          70,
+          76,
+          84,
+          170
+        ],
+        "process": [
+          71
+        ],
+        "largely": [
+          72
+        ],
+        "covers": [
+          73
+        ],
+        "process.": [
+          77
+        ],
+        "Therefore,": [
+          78
+        ],
+        "thought": [
+          81
+        ],
+        "practice": [
+          85,
+          118,
+          171
+        ],
+        "very": [
+          88,
+          129,
+          174
+        ],
+        "effective": [
+          89,
+          175
+        ],
+        "as": [
+          90,
+          147
+        ],
+        "a": [
+          91,
+          142,
+          148,
+          164
+        ],
+        "acquisition": [
+          95,
+          105,
+          178
+        ],
+        "common": [
+          97,
+          182
+        ],
+        "skill": [
+          100
+        ],
+        "deeper": [
+          104
+        ],
+        "In": [
+          109
+        ],
+        "this": [
+          110
+        ],
+        "paper,": [
+          111
+        ],
+        "we": [
+          112,
+          166
+        ],
+        "propose": [
+          113
+        ],
+        "apply": [
+          115
+        ],
+        "implementing": [
+          117
+        ],
+        "engineers": [
+          123,
+          158
+        ],
+        "educational": [
+          124,
+          138
+        ],
+        "program.": [
+          125
+        ],
+        "We": [
+          126
+        ],
+        "newly": [
+          127
+        ],
+        "developed": [
+          128
+        ],
+        "small": [
+          130
+        ],
+        "step-up": [
+          132
+        ],
+        "type": [
+          133
+        ],
+        "named": [
+          135
+        ],
+        "μK": [
+          136,
+          146
+        ],
+        "use,": [
+          139
+        ],
+        "held": [
+          141
+        ],
+        "seminar": [
+          143
+        ],
+        "used": [
+          145
+        ],
+        "teaching": [
+          149
+        ],
+        "material": [
+          150
+        ],
+        "students": [
+          153
+        ],
+        "information": [
+          155
+        ],
+        "science": [
+          156
+        ],
+        "house.": [
+          162
+        ],
+        "As": [
+          163
+        ],
+        "result,": [
+          165
+        ],
+        "confirmed": [
+          167
+        ],
+        "skill.": [
+          183
+        ]
+      },
+      "counts_by_year": [
+        {
+          "year": 2026,
+          "cited_by_count": 1
+        },
+        {
+          "year": 2023,
+          "cited_by_count": 1
+        }
+      ],
+      "updated_date": "2026-11-14T11:04:58.165337",
+      "created_date": "2016-06-24T00:00:00"
+    },
+    {
+      "id": "https://openalex.org/W2338443808",
+      "doi": null,
+      "title": "Proposal for training embedded software engineers using a real-time kernel implementation practice program",
+      "display_name": "Proposal for training embedded software engineers using a real-time kernel implementation practice program",
+      "relevance_score": 129.89246,
+      "publication_year": 2010,
+      "publication_date": "2010-10-04",
+      "ids": {
+        "openalex": "https://openalex.org/W2338443808",
+        "mag": "2338443808"
+      },
+      "language": "en",
+      "primary_location": {
+        "id": "mag:2338443808",
+        "doi": null,
+        "is_oa": false,
+        "landing_page_url": "http://www.wseas.us/e-library/conferences/2010/Japan/ACS/ACS-16.pdf",
+        "pdf_url": null,
+        "source": null,
+        "license": null,
+        "license_id": null,
+        "version": null,
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": null,
+        "raw_type": null
+      },
+      "parent_works": [],
+      "lineage": [
+        "https://openalex.org/W2338443808"
+      ],
+      "child_works_count": 0,
+      "type": "article",
+      "is_traditional": true,
+      "indexed_in": [],
+      "open_access": {
+        "is_oa": false,
+        "oa_status": "closed",
+        "oa_url": null,
+        "any_repository_has_fulltext": false
+      },
+      "authorships": [
+        {
+          "author_position": "first",
+          "author": {
+            "id": "https://openalex.org/A5111388914",
+            "display_name": "Toshio Yoshida",
+            "orcid": null,
+            "observed_orcids": []
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I136259955",
+              "display_name": "Toyohashi University of Technology",
+              "ror": "https://ror.org/04ezg6d83",
+              "country_code": "JP",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I136259955"
+              ]
+            }
+          ],
+          "countries": [
+            "JP"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "Toshio Yoshida",
+          "raw_affiliation_strings": [
+            "Intelligent Sensing System Research Center, Toyohashi University of Technology, Toyohahi-city, Japan#TAB#"
+          ],
+          "raw_orcid": null,
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Intelligent Sensing System Research Center, Toyohashi University of Technology, Toyohahi-city, Japan#TAB#",
+              "institution_ids": [
+                "https://openalex.org/I136259955"
+              ]
+            }
+          ]
+        },
+        {
+          "author_position": "last",
+          "author": {
+            "id": "https://openalex.org/A5075844793",
+            "display_name": "Jun Sawamoto",
+            "orcid": null,
+            "observed_orcids": []
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I6090238",
+              "display_name": "Iwate Prefectural University",
+              "ror": "https://ror.org/054dx8336",
+              "country_code": "JP",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I6090238"
+              ]
+            }
+          ],
+          "countries": [
+            "JP"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "Jun Sawamoto",
+          "raw_affiliation_strings": [
+            "[Faculty of Software and Information Science, Iwate Prefectural University, Takizawa, Iwate, Japan]"
+          ],
+          "raw_orcid": null,
+          "affiliations": [
+            {
+              "raw_affiliation_string": "[Faculty of Software and Information Science, Iwate Prefectural University, Takizawa, Iwate, Japan]",
+              "institution_ids": [
+                "https://openalex.org/I6090238"
+              ]
+            }
+          ]
+        }
+      ],
+      "institutions": [],
+      "countries_distinct_count": 1,
+      "institutions_distinct_count": 2,
+      "corresponding_author_ids": [],
+      "corresponding_institution_ids": [],
+      "apc_list": null,
+      "apc_paid": null,
+      "fwci": 0.0,
+      "is_authors_truncated": false,
+      "has_fulltext": false,
+      "cited_by_count": 0,
+      "citation_normalized_percentile": {
+        "value": 0.0,
+        "is_in_top_1_percent": false,
+        "is_in_top_10_percent": false
+      },
+      "cited_by_percentile_year": null,
+      "biblio": {
+        "volume": null,
+        "issue": null,
+        "first_page": "116",
+        "last_page": "121"
+      },
+      "is_retracted": false,
+      "is_paratext": false,
+      "is_xpac": false,
+      "primary_topic": {
+        "id": "https://openalex.org/T13682",
+        "display_name": "Engineering Education and Pedagogy",
+        "score": 0.4758000075817108,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3304",
+          "display_name": "Education"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/33",
+          "display_name": "Social Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      "topics": [
+        {
+          "id": "https://openalex.org/T13682",
+          "display_name": "Engineering Education and Pedagogy",
+          "score": 0.4758000075817108,
+          "subfield": {
+            "id": "https://openalex.org/subfields/3304",
+            "display_name": "Education"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/33",
+            "display_name": "Social Sciences"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/2",
+            "display_name": "Social Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T10904",
+          "display_name": "Embedded Systems Design Techniques",
+          "score": 0.14259999990463257,
+          "subfield": {
+            "id": "https://openalex.org/subfields/1708",
+            "display_name": "Hardware and Architecture"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/17",
+            "display_name": "Computer Science"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T12124",
+          "display_name": "Engineering Education and Curriculum Development",
+          "score": 0.10679999738931656,
+          "subfield": {
+            "id": "https://openalex.org/subfields/3304",
+            "display_name": "Education"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/33",
+            "display_name": "Social Sciences"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/2",
+            "display_name": "Social Sciences"
+          }
+        }
+      ],
+      "keywords": [
+        {
+          "id": "https://openalex.org/keywords/real-time-kernel",
+          "display_name": "real-time kernel",
+          "score": 0.8460000157356262
+        },
+        {
+          "id": "https://openalex.org/keywords/hands-on-training",
+          "display_name": "hands-on training",
+          "score": 0.7229999899864197
+        },
+        {
+          "id": "https://openalex.org/keywords/embedded-systems",
+          "display_name": "embedded systems",
+          "score": 0.6710000038146973
+        },
+        {
+          "id": "https://openalex.org/keywords/training-program",
+          "display_name": "training program",
+          "score": 0.3240000009536743
+        }
+      ],
+      "concepts": [
+        {
+          "id": "https://openalex.org/C74193536",
+          "wikidata": "https://www.wikidata.org/wiki/Q574844",
+          "display_name": "Kernel (algebra)",
+          "level": 2,
+          "score": 0.7540178298950195
+        },
+        {
+          "id": "https://openalex.org/C41008148",
+          "wikidata": "https://www.wikidata.org/wiki/Q21198",
+          "display_name": "Computer science",
+          "level": 0,
+          "score": 0.6546920537948608
+        },
+        {
+          "id": "https://openalex.org/C115903868",
+          "wikidata": "https://www.wikidata.org/wiki/Q80993",
+          "display_name": "Software engineering",
+          "level": 1,
+          "score": 0.6297988295555115
+        },
+        {
+          "id": "https://openalex.org/C2777904410",
+          "wikidata": "https://www.wikidata.org/wiki/Q7397",
+          "display_name": "Software",
+          "level": 2,
+          "score": 0.5641958117485046
+        },
+        {
+          "id": "https://openalex.org/C2988963302",
+          "wikidata": "https://www.wikidata.org/wiki/Q629206",
+          "display_name": "Program code",
+          "level": 2,
+          "score": 0.46641361713409424
+        },
+        {
+          "id": "https://openalex.org/C2776760102",
+          "wikidata": "https://www.wikidata.org/wiki/Q5139990",
+          "display_name": "Code (set theory)",
+          "level": 3,
+          "score": 0.4337725043296814
+        },
+        {
+          "id": "https://openalex.org/C154488198",
+          "wikidata": "https://www.wikidata.org/wiki/Q1335007",
+          "display_name": "Embedded software",
+          "level": 3,
+          "score": 0.4194568395614624
+        },
+        {
+          "id": "https://openalex.org/C149635348",
+          "wikidata": "https://www.wikidata.org/wiki/Q193040",
+          "display_name": "Embedded system",
+          "level": 1,
+          "score": 0.3634878098964691
+        },
+        {
+          "id": "https://openalex.org/C111919701",
+          "wikidata": "https://www.wikidata.org/wiki/Q9135",
+          "display_name": "Operating system",
+          "level": 1,
+          "score": 0.29631173610687256
+        },
+        {
+          "id": "https://openalex.org/C199360897",
+          "wikidata": "https://www.wikidata.org/wiki/Q9143",
+          "display_name": "Programming language",
+          "level": 1,
+          "score": 0.2222585380077362
+        },
+        {
+          "id": "https://openalex.org/C177264268",
+          "wikidata": "https://www.wikidata.org/wiki/Q1514741",
+          "display_name": "Set (abstract data type)",
+          "level": 2,
+          "score": 0.0
+        },
+        {
+          "id": "https://openalex.org/C114614502",
+          "wikidata": "https://www.wikidata.org/wiki/Q76592",
+          "display_name": "Combinatorics",
+          "level": 1,
+          "score": 0.0
+        },
+        {
+          "id": "https://openalex.org/C33923547",
+          "wikidata": "https://www.wikidata.org/wiki/Q395",
+          "display_name": "Mathematics",
+          "level": 0,
+          "score": 0.0
+        }
+      ],
+      "mesh": [],
+      "locations_count": 1,
+      "locations": [
+        {
+          "id": "mag:2338443808",
+          "doi": null,
+          "is_oa": false,
+          "landing_page_url": "http://www.wseas.us/e-library/conferences/2010/Japan/ACS/ACS-16.pdf",
+          "pdf_url": null,
+          "source": null,
+          "license": null,
+          "license_id": null,
+          "version": null,
+          "is_accepted": false,
+          "is_published": false,
+          "raw_source_name": null,
+          "raw_type": null
+        }
+      ],
+      "best_oa_location": null,
+      "sustainable_development_goals": [
+        {
+          "display_name": "Quality education",
+          "score": 0.8278999924659729,
+          "id": "https://metadata.un.org/sdg/4"
+        }
+      ],
+      "study_designs": [],
+      "awards": [],
+      "funders": [],
+      "has_content": {
+        "pdf": false,
+        "grobid_xml": false
+      },
+      "content_urls": null,
+      "referenced_works_count": 0,
+      "referenced_works": [],
+      "related_works": [
+        "https://openalex.org/W2093432410",
+        "https://openalex.org/W7204839349",
+        "https://openalex.org/W1938814983",
+        "https://openalex.org/W2365080236",
+        "https://openalex.org/W2142253855",
+        "https://openalex.org/W2068680004",
+        "https://openalex.org/W2021386185",
+        "https://openalex.org/W4236743447",
+        "https://openalex.org/W7095750987",
+        "https://openalex.org/W4247573437"
+      ],
+      "abstract_inverted_index": {
+        "One": [
+          0
+        ],
+        "of": [
+          1,
+          50,
+          87,
+          102
+        ],
+        "the": [
+          2,
+          16,
+          47,
+          64,
+          71,
+          81,
+          85,
+          92,
+          100,
+          112
+        ],
+        "important": [
+          3,
+          21
+        ],
+        "issues": [
+          4
+        ],
+        "recognized": [
+          5
+        ],
+        "recently": [
+          6
+        ],
+        "is": [
+          7,
+          43
+        ],
+        "how": [
+          8,
+          58
+        ],
+        "to": [
+          9,
+          37,
+          45,
+          56,
+          62
+        ],
+        "educate": [
+          10
+        ],
+        "embedded-software": [
+          11
+        ],
+        "engineers.": [
+          12
+        ],
+        "With": [
+          13
+        ],
+        "embedded": [
+          14,
+          34,
+          107
+        ],
+        "systems,": [
+          15
+        ],
+        "real-time": [
+          17,
+          52,
+          73
+        ],
+        "kernel": [
+          18,
+          53
+        ],
+        "plays": [
+          19
+        ],
+        "an": [
+          20,
+          29
+        ],
+        "role": [
+          22
+        ],
+        "in": [
+          23
+        ],
+        "basic": [
+          24
+        ],
+        "controlling.": [
+          25
+        ],
+        "This": [
+          26
+        ],
+        "paper": [
+          27
+        ],
+        "proposes": [
+          28
+        ],
+        "implementation": [
+          30,
+          93
+        ],
+        "practice": [
+          31,
+          94
+        ],
+        "program": [
+          32,
+          48,
+          96
+        ],
+        "for": [
+          33,
+          80,
+          91,
+          106
+        ],
+        "software": [
+          35
+        ],
+        "engineers": [
+          36
+        ],
+        "be": [
+          38
+        ],
+        "trained": [
+          39
+        ],
+        "so": [
+          40
+        ],
+        "that": [
+          41,
+          76
+        ],
+        "each": [
+          42
+        ],
+        "able": [
+          44
+        ],
+        "write": [
+          46
+        ],
+        "code": [
+          49
+        ],
+        "a": [
+          51
+        ],
+        "and": [
+          54,
+          84
+        ],
+        "check": [
+          55
+        ],
+        "see": [
+          57
+        ],
+        "it": [
+          59,
+          90
+        ],
+        "can": [
+          60
+        ],
+        "function": [
+          61
+        ],
+        "support": [
+          63
+        ],
+        "design": [
+          65
+        ],
+        "goals.": [
+          66
+        ],
+        "Described": [
+          67
+        ],
+        "herein": [
+          68
+        ],
+        "also": [
+          69
+        ],
+        "are": [
+          70
+        ],
+        "new": [
+          72
+        ],
+        "kernel,": [
+          74
+        ],
+        "µK,": [
+          75
+        ],
+        "was": [
+          77
+        ],
+        "specifically": [
+          78
+        ],
+        "developed": [
+          79
+        ],
+        "training": [
+          82,
+          95
+        ],
+        "use,": [
+          83
+        ],
+        "results": [
+          86
+        ],
+        "having": [
+          88
+        ],
+        "applied": [
+          89
+        ],
+        "with": [
+          97
+        ],
+        "µK": [
+          98
+        ],
+        "at": [
+          99,
+          116
+        ],
+        "School": [
+          101
+        ],
+        "Monodzukuri": [
+          103
+        ],
+        "(Manufacturing)": [
+          104
+        ],
+        "2008": [
+          105
+        ],
+        "system": [
+          108
+        ],
+        "(as": [
+          109
+        ],
+        "organized": [
+          110
+        ],
+        "by": [
+          111
+        ],
+        "Embedded": [
+          113
+        ],
+        "Technology": [
+          114
+        ],
+        "Center": [
+          115
+        ],
+        "Iwate": [
+          117
+        ],
+        "Prefectural": [
+          118
+        ],
+        "University).": [
+          119
+        ]
+      },
+      "counts_by_year": [],
+      "updated_date": "2025-11-06T04:12:42.849631",
+      "created_date": "2016-06-24T00:00:00"
+    },
+    {
+      "id": "https://openalex.org/W2332082323",
+      "doi": "https://doi.org/10.4307/jsee.60.3_75",
+      "title": "Training Initiative for Embedded Software Engineers through Collaborative Research Project and Open Educational Course",
+      "display_name": "Training Initiative for Embedded Software Engineers through Collaborative Research Project and Open Educational Course",
+      "relevance_score": 129.5548,
+      "publication_year": 2012,
+      "publication_date": "2012-01-01",
+      "ids": {
+        "openalex": "https://openalex.org/W2332082323",
+        "doi": "https://doi.org/10.4307/jsee.60.3_75",
+        "mag": "2332082323"
+      },
+      "language": "en",
+      "primary_location": {
+        "id": "doi:10.4307/jsee.60.3_75",
+        "doi": "https://doi.org/10.4307/jsee.60.3_75",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.4307/jsee.60.3_75",
+        "pdf_url": "https://www.jstage.jst.go.jp/article/jsee/60/3/60_3_75/_pdf",
+        "source": {
+          "id": "https://openalex.org/S2764639374",
+          "display_name": "Journal of JSEE",
+          "issn_l": "1341-2167",
+          "issn": [
+            "1341-2167",
+            "1881-0764"
+          ],
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "listed_in": [],
+          "host_organization": "https://openalex.org/P4323999981",
+          "host_organization_name": "Japanese Society for Engineering Education",
+          "host_organization_lineage": [
+            "https://openalex.org/P4323999981"
+          ],
+          "host_organization_lineage_names": [
+            "Japanese Society for Engineering Education"
+          ],
+          "type": "journal"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Journal of JSEE",
+        "raw_type": "journal-article"
+      },
+      "parent_works": [],
+      "lineage": [
+        "https://openalex.org/W2332082323"
+      ],
+      "child_works_count": 0,
+      "type": "article",
+      "is_traditional": true,
+      "indexed_in": [
+        "crossref"
+      ],
+      "open_access": {
+        "is_oa": true,
+        "oa_status": "bronze",
+        "oa_url": "https://www.jstage.jst.go.jp/article/jsee/60/3/60_3_75/_pdf",
+        "any_repository_has_fulltext": false
+      },
+      "authorships": [
+        {
+          "author_position": "first",
+          "author": {
+            "id": "https://openalex.org/A5019832002",
+            "display_name": "Rieko ISHIDA",
+            "orcid": null,
+            "observed_orcids": []
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I60134161",
+              "display_name": "Nagoya University",
+              "ror": "https://ror.org/04chrp450",
+              "country_code": "JP",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I60134161"
+              ]
+            }
+          ],
+          "countries": [
+            "JP"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "Rieko ISHIDA",
+          "raw_affiliation_strings": [
+            "名古屋大学大学院情報科学研究科"
+          ],
+          "raw_orcid": null,
+          "affiliations": [
+            {
+              "raw_affiliation_string": "名古屋大学大学院情報科学研究科",
+              "institution_ids": [
+                "https://openalex.org/I60134161"
+              ]
+            }
+          ]
+        },
+        {
+          "author_position": "middle",
+          "author": {
+            "id": "https://openalex.org/A5072326450",
+            "display_name": "Masaki Yamamoto",
+            "orcid": "https://orcid.org/0000-0002-0288-7990",
+            "observed_orcids": [
+              "https://orcid.org/0000-0002-0288-7990",
+              "https://orcid.org/0000-0002-3472-941X"
+            ]
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I60134161",
+              "display_name": "Nagoya University",
+              "ror": "https://ror.org/04chrp450",
+              "country_code": "JP",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I60134161"
+              ]
+            }
+          ],
+          "countries": [
+            "JP"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "Masaki YAMAMOTO",
+          "raw_affiliation_strings": [
+            "名古屋大学大学院情報科学研究科"
+          ],
+          "raw_orcid": null,
+          "affiliations": [
+            {
+              "raw_affiliation_string": "名古屋大学大学院情報科学研究科",
+              "institution_ids": [
+                "https://openalex.org/I60134161"
+              ]
+            }
+          ]
+        },
+        {
+          "author_position": "middle",
+          "author": {
+            "id": "https://openalex.org/A5071621086",
+            "display_name": "Tomoaki Unagami",
+            "orcid": null,
+            "observed_orcids": []
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I60134161",
+              "display_name": "Nagoya University",
+              "ror": "https://ror.org/04chrp450",
+              "country_code": "JP",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I60134161"
+              ]
+            }
+          ],
+          "countries": [
+            "JP"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "Tomoaki UNAGAMI",
+          "raw_affiliation_strings": [
+            "名古屋大学大学院情報科学研究科"
+          ],
+          "raw_orcid": null,
+          "affiliations": [
+            {
+              "raw_affiliation_string": "名古屋大学大学院情報科学研究科",
+              "institution_ids": [
+                "https://openalex.org/I60134161"
+              ]
+            }
+          ]
+        },
+        {
+          "author_position": "middle",
+          "author": {
+            "id": "https://openalex.org/A5068864721",
+            "display_name": "Takao Mori",
+            "orcid": "https://orcid.org/0000-0003-2682-1846",
+            "observed_orcids": [
+              "https://orcid.org/0000-0003-2682-1846"
+            ]
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I4210132650",
+              "display_name": "Denso (Japan)",
+              "ror": "https://ror.org/04hkpfa76",
+              "country_code": "JP",
+              "type": "company",
+              "lineage": [
+                "https://openalex.org/I4210132650"
+              ]
+            }
+          ],
+          "countries": [
+            "JP"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "Takao MORI",
+          "raw_affiliation_strings": [
+            "(株)デンソー"
+          ],
+          "raw_orcid": null,
+          "affiliations": [
+            {
+              "raw_affiliation_string": "(株)デンソー",
+              "institution_ids": [
+                "https://openalex.org/I4210132650"
+              ]
+            }
+          ]
+        },
+        {
+          "author_position": "middle",
+          "author": {
+            "id": "https://openalex.org/A5037364404",
+            "display_name": "Shinya HOND",
+            "orcid": null,
+            "observed_orcids": []
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I60134161",
+              "display_name": "Nagoya University",
+              "ror": "https://ror.org/04chrp450",
+              "country_code": "JP",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I60134161"
+              ]
+            }
+          ],
+          "countries": [
+            "JP"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "Shinya HOND",
+          "raw_affiliation_strings": [
+            "名古屋大学大学院情報科学研究科"
+          ],
+          "raw_orcid": null,
+          "affiliations": [
+            {
+              "raw_affiliation_string": "名古屋大学大学院情報科学研究科",
+              "institution_ids": [
+                "https://openalex.org/I60134161"
+              ]
+            }
+          ]
+        },
+        {
+          "author_position": "middle",
+          "author": {
+            "id": "https://openalex.org/A5063813304",
+            "display_name": "Toshiyuki Ichiba",
+            "orcid": null,
+            "observed_orcids": []
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I60134161",
+              "display_name": "Nagoya University",
+              "ror": "https://ror.org/04chrp450",
+              "country_code": "JP",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I60134161"
+              ]
+            }
+          ],
+          "countries": [
+            "JP"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "Toshiyuki ICHIBA",
+          "raw_affiliation_strings": [
+            "名古屋大学大学院情報科学研究科"
+          ],
+          "raw_orcid": null,
+          "affiliations": [
+            {
+              "raw_affiliation_string": "名古屋大学大学院情報科学研究科",
+              "institution_ids": [
+                "https://openalex.org/I60134161"
+              ]
+            }
+          ]
+        },
+        {
+          "author_position": "middle",
+          "author": {
+            "id": "https://openalex.org/A5031424624",
+            "display_name": "Hideki Takase",
+            "orcid": "https://orcid.org/0000-0002-2660-5927",
+            "observed_orcids": [
+              "https://orcid.org/0000-0002-2660-5927"
+            ]
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I60134161",
+              "display_name": "Nagoya University",
+              "ror": "https://ror.org/04chrp450",
+              "country_code": "JP",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I60134161"
+              ]
+            }
+          ],
+          "countries": [
+            "JP"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "Hideki TAKASE",
+          "raw_affiliation_strings": [
+            "名古屋大学大学院情報科学研究科"
+          ],
+          "raw_orcid": null,
+          "affiliations": [
+            {
+              "raw_affiliation_string": "名古屋大学大学院情報科学研究科",
+              "institution_ids": [
+                "https://openalex.org/I60134161"
+              ]
+            }
+          ]
+        },
+        {
+          "author_position": "last",
+          "author": {
+            "id": "https://openalex.org/A5032678689",
+            "display_name": "Hiroaki Takada",
+            "orcid": "https://orcid.org/0000-0003-3544-2397",
+            "observed_orcids": [
+              "https://orcid.org/0000-0003-3544-2397"
+            ]
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I60134161",
+              "display_name": "Nagoya University",
+              "ror": "https://ror.org/04chrp450",
+              "country_code": "JP",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I60134161"
+              ]
+            }
+          ],
+          "countries": [
+            "JP"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "Hiroaki TAKADA",
+          "raw_affiliation_strings": [
+            "名古屋大学大学院情報科学研究科"
+          ],
+          "raw_orcid": null,
+          "affiliations": [
+            {
+              "raw_affiliation_string": "名古屋大学大学院情報科学研究科",
+              "institution_ids": [
+                "https://openalex.org/I60134161"
+              ]
+            }
+          ]
+        }
+      ],
+      "institutions": [],
+      "countries_distinct_count": 1,
+      "institutions_distinct_count": 2,
+      "corresponding_author_ids": [],
+      "corresponding_institution_ids": [],
+      "apc_list": null,
+      "apc_paid": null,
+      "fwci": 0.0,
+      "is_authors_truncated": false,
+      "has_fulltext": true,
+      "cited_by_count": 1,
+      "citation_normalized_percentile": {
+        "value": 0.0,
+        "is_in_top_1_percent": false,
+        "is_in_top_10_percent": false
+      },
+      "cited_by_percentile_year": {
+        "min": 88,
+        "max": 93
+      },
+      "biblio": {
+        "volume": "60",
+        "issue": "3",
+        "first_page": "3_75",
+        "last_page": "3_81"
+      },
+      "is_retracted": false,
+      "is_paratext": false,
+      "is_xpac": false,
+      "primary_topic": {
+        "id": "https://openalex.org/T12124",
+        "display_name": "Engineering Education and Curriculum Development",
+        "score": 0.8276000022888184,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3304",
+          "display_name": "Education"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/33",
+          "display_name": "Social Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      "topics": [
+        {
+          "id": "https://openalex.org/T12124",
+          "display_name": "Engineering Education and Curriculum Development",
+          "score": 0.8276000022888184,
+          "subfield": {
+            "id": "https://openalex.org/subfields/3304",
+            "display_name": "Education"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/33",
+            "display_name": "Social Sciences"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/2",
+            "display_name": "Social Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T13682",
+          "display_name": "Engineering Education and Pedagogy",
+          "score": 0.1412000060081482,
+          "subfield": {
+            "id": "https://openalex.org/subfields/3304",
+            "display_name": "Education"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/33",
+            "display_name": "Social Sciences"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/2",
+            "display_name": "Social Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T13034",
+          "display_name": "Information Systems Education and Curriculum Development",
+          "score": 0.005799999926239252,
+          "subfield": {
+            "id": "https://openalex.org/subfields/1710",
+            "display_name": "Information Systems"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/17",
+            "display_name": "Computer Science"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        }
+      ],
+      "keywords": [
+        {
+          "id": "https://openalex.org/keywords/embedded-software-development",
+          "display_name": "embedded software development",
+          "score": 0.7540000081062317
+        },
+        {
+          "id": "https://openalex.org/keywords/human-resource-development",
+          "display_name": "human resource development",
+          "score": 0.7990000247955322
+        },
+        {
+          "id": "https://openalex.org/keywords/collaborative-research-projects",
+          "display_name": "joint research projects",
+          "score": 0.8090000152587891
+        },
+        {
+          "id": "https://openalex.org/keywords/engineering-training",
+          "display_name": "engineering training",
+          "score": 0.46399998664855957
+        },
+        {
+          "id": "https://openalex.org/keywords/university-industry-collaboration",
+          "display_name": "university-industry collaboration",
+          "score": 0.8029999732971191
+        },
+        {
+          "id": "https://openalex.org/keywords/continuing-education",
+          "display_name": "continuing education",
+          "score": 0.3529999852180481
+        }
+      ],
+      "concepts": [
+        {
+          "id": "https://openalex.org/C110354214",
+          "wikidata": "https://www.wikidata.org/wiki/Q6314146",
+          "display_name": "Engineering management",
+          "level": 1,
+          "score": 0.6571616530418396
+        },
+        {
+          "id": "https://openalex.org/C127413603",
+          "wikidata": "https://www.wikidata.org/wiki/Q11023",
+          "display_name": "Engineering",
+          "level": 0,
+          "score": 0.6155760884284973
+        },
+        {
+          "id": "https://openalex.org/C206345919",
+          "wikidata": "https://www.wikidata.org/wiki/Q20380951",
+          "display_name": "Resource (disambiguation)",
+          "level": 2,
+          "score": 0.49410656094551086
+        },
+        {
+          "id": "https://openalex.org/C2777552389",
+          "wikidata": "https://www.wikidata.org/wiki/Q1962728",
+          "display_name": "Course (navigation)",
+          "level": 2,
+          "score": 0.4701305329799652
+        },
+        {
+          "id": "https://openalex.org/C2777904410",
+          "wikidata": "https://www.wikidata.org/wiki/Q7397",
+          "display_name": "Software",
+          "level": 2,
+          "score": 0.4622483253479004
+        },
+        {
+          "id": "https://openalex.org/C40919944",
+          "wikidata": "https://www.wikidata.org/wiki/Q947779",
+          "display_name": "Software project management",
+          "level": 5,
+          "score": 0.41211050748825073
+        },
+        {
+          "id": "https://openalex.org/C115903868",
+          "wikidata": "https://www.wikidata.org/wiki/Q80993",
+          "display_name": "Software engineering",
+          "level": 1,
+          "score": 0.3766307532787323
+        },
+        {
+          "id": "https://openalex.org/C529173508",
+          "wikidata": "https://www.wikidata.org/wiki/Q638608",
+          "display_name": "Software development",
+          "level": 3,
+          "score": 0.3259216547012329
+        },
+        {
+          "id": "https://openalex.org/C41008148",
+          "wikidata": "https://www.wikidata.org/wiki/Q21198",
+          "display_name": "Computer science",
+          "level": 0,
+          "score": 0.2857949733734131
+        },
+        {
+          "id": "https://openalex.org/C186846655",
+          "wikidata": "https://www.wikidata.org/wiki/Q3398377",
+          "display_name": "Software construction",
+          "level": 4,
+          "score": 0.2143738567829132
+        },
+        {
+          "id": "https://openalex.org/C146978453",
+          "wikidata": "https://www.wikidata.org/wiki/Q3798668",
+          "display_name": "Aerospace engineering",
+          "level": 1,
+          "score": 0.0
+        },
+        {
+          "id": "https://openalex.org/C31258907",
+          "wikidata": "https://www.wikidata.org/wiki/Q1301371",
+          "display_name": "Computer network",
+          "level": 1,
+          "score": 0.0
+        },
+        {
+          "id": "https://openalex.org/C199360897",
+          "wikidata": "https://www.wikidata.org/wiki/Q9143",
+          "display_name": "Programming language",
+          "level": 1,
+          "score": 0.0
+        }
+      ],
+      "mesh": [],
+      "locations_count": 1,
+      "locations": [
+        {
+          "id": "doi:10.4307/jsee.60.3_75",
+          "doi": "https://doi.org/10.4307/jsee.60.3_75",
+          "is_oa": true,
+          "landing_page_url": "https://doi.org/10.4307/jsee.60.3_75",
+          "pdf_url": "https://www.jstage.jst.go.jp/article/jsee/60/3/60_3_75/_pdf",
+          "source": {
+            "id": "https://openalex.org/S2764639374",
+            "display_name": "Journal of JSEE",
+            "issn_l": "1341-2167",
+            "issn": [
+              "1341-2167",
+              "1881-0764"
+            ],
+            "is_oa": false,
+            "is_in_doaj": false,
+            "is_core": false,
+            "listed_in": [],
+            "host_organization": "https://openalex.org/P4323999981",
+            "host_organization_name": "Japanese Society for Engineering Education",
+            "host_organization_lineage": [
+              "https://openalex.org/P4323999981"
+            ],
+            "host_organization_lineage_names": [
+              "Japanese Society for Engineering Education"
+            ],
+            "type": "journal"
+          },
+          "license": null,
+          "license_id": null,
+          "version": "publishedVersion",
+          "is_accepted": true,
+          "is_published": true,
+          "raw_source_name": "Journal of JSEE",
+          "raw_type": "journal-article"
+        }
+      ],
+      "best_oa_location": {
+        "id": "doi:10.4307/jsee.60.3_75",
+        "doi": "https://doi.org/10.4307/jsee.60.3_75",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.4307/jsee.60.3_75",
+        "pdf_url": "https://www.jstage.jst.go.jp/article/jsee/60/3/60_3_75/_pdf",
+        "source": {
+          "id": "https://openalex.org/S2764639374",
+          "display_name": "Journal of JSEE",
+          "issn_l": "1341-2167",
+          "issn": [
+            "1341-2167",
+            "1881-0764"
+          ],
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "listed_in": [],
+          "host_organization": "https://openalex.org/P4323999981",
+          "host_organization_name": "Japanese Society for Engineering Education",
+          "host_organization_lineage": [
+            "https://openalex.org/P4323999981"
+          ],
+          "host_organization_lineage_names": [
+            "Japanese Society for Engineering Education"
+          ],
+          "type": "journal"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Journal of JSEE",
+        "raw_type": "journal-article"
+      },
+      "sustainable_development_goals": [
+        {
+          "display_name": "Quality education",
+          "score": 0.975600004196167,
+          "id": "https://metadata.un.org/sdg/4"
+        },
+        {
+          "display_name": "Industry, innovation and infrastructure",
+          "score": 0.428600013256073,
+          "id": "https://metadata.un.org/sdg/9"
+        }
+      ],
+      "study_designs": [],
+      "awards": [],
+      "funders": [
+        {
+          "id": "https://openalex.org/F4320322916",
+          "display_name": "Nagoya University",
+          "ror": "https://ror.org/04chrp450"
+        },
+        {
+          "id": "https://openalex.org/F4320337407",
+          "display_name": "Division of Human Resource Development",
+          "ror": "https://ror.org/03mamvh39"
+        }
+      ],
+      "has_content": {
+        "pdf": true,
+        "grobid_xml": true
+      },
+      "content_urls": {
+        "pdf": "https://content.openalex.org/works/W2332082323.pdf",
+        "grobid_xml": "https://content.openalex.org/works/W2332082323.grobid-xml"
+      },
+      "referenced_works_count": 1,
+      "referenced_works": [
+        "https://openalex.org/W2058723522"
+      ],
+      "related_works": [
+        "https://openalex.org/W1974123933",
+        "https://openalex.org/W2012850287",
+        "https://openalex.org/W2064024468",
+        "https://openalex.org/W2060749685",
+        "https://openalex.org/W2030229173",
+        "https://openalex.org/W369269113",
+        "https://openalex.org/W1972289411",
+        "https://openalex.org/W2058723522",
+        "https://openalex.org/W2098687730",
+        "https://openalex.org/W2323942007"
+      ],
+      "abstract_inverted_index": {
+        "The": [
+          0,
+          106
+        ],
+        "authors": [
+          1,
+          39,
+          54,
+          80
+        ],
+        "developed": [
+          2
+        ],
+        "two": [
+          3,
+          69
+        ],
+        "types": [
+          4
+        ],
+        "of": [
+          5,
+          11,
+          61
+        ],
+        "human": [
+          6
+        ],
+        "resource": [
+          7
+        ],
+        "development": [
+          8
+        ],
+        "program": [
+          9
+        ],
+        "consisting": [
+          10
+        ],
+        "a)": [
+          12
+        ],
+        "one-year": [
+          13
+        ],
+        "collaborative": [
+          14,
+          34
+        ],
+        "research": [
+          15,
+          35,
+          43,
+          64
+        ],
+        "project,": [
+          16
+        ],
+        "and": [
+          17,
+          56,
+          83
+        ],
+        "b)": [
+          18
+        ],
+        "open": [
+          19,
+          50,
+          71
+        ],
+        "education": [
+          20,
+          51,
+          72
+        ],
+        "course,": [
+          21,
+          52
+        ],
+        "aimed": [
+          22,
+          87
+        ],
+        "to": [
+          23,
+          28,
+          66,
+          74,
+          81,
+          88
+        ],
+        "train": [
+          24,
+          40,
+          89
+        ],
+        "embedded": [
+          25,
+          103
+        ],
+        "software": [
+          26,
+          104
+        ],
+        "engineers": [
+          27,
+          41,
+          90
+        ],
+        "high": [
+          29
+        ],
+        "technical": [
+          30,
+          99
+        ],
+        "standards.": [
+          31
+        ],
+        "In": [
+          32,
+          48
+        ],
+        "the": [
+          33,
+          38,
+          49,
+          53,
+          58,
+          62,
+          79,
+          92,
+          97,
+          102,
+          112
+        ],
+        "oriented": [
+          36
+        ],
+        "approach,": [
+          37
+        ],
+        "through": [
+          42
+        ],
+        "project": [
+          44,
+          65
+        ],
+        "at": [
+          45
+        ],
+        "Nagoya": [
+          46
+        ],
+        "University.": [
+          47
+        ],
+        "reflect": [
+          55,
+          96
+        ],
+        "adopt": [
+          57
+        ],
+        "latest": [
+          59,
+          93
+        ],
+        "outcome": [
+          60
+        ],
+        "aforementioned": [
+          63
+        ],
+        "one": [
+          67
+        ],
+        "or": [
+          68
+        ],
+        "days": [
+          70
+        ],
+        "course": [
+          73
+        ],
+        "educate": [
+          75
+        ],
+        "engineers.": [
+          76
+        ],
+        "This": [
+          77
+        ],
+        "allowed": [
+          78
+        ],
+        "design": [
+          82
+        ],
+        "provide": [
+          84
+        ],
+        "several": [
+          85
+        ],
+        "courses": [
+          86,
+          107
+        ],
+        "with": [
+          91
+        ],
+        "contents": [
+          94
+        ],
+        "that": [
+          95
+        ],
+        "rapid": [
+          98
+        ],
+        "advances": [
+          100
+        ],
+        "in": [
+          101
+        ],
+        "industry.": [
+          105
+        ],
+        "were": [
+          108
+        ],
+        "highly": [
+          109
+        ],
+        "evaluated": [
+          110
+        ],
+        "by": [
+          111
+        ],
+        "participants.": [
+          113
+        ]
+      },
+      "counts_by_year": [
+        {
+          "year": 2023,
+          "cited_by_count": 1
+        }
+      ],
+      "updated_date": "2026-10-18T09:31:52.927876",
+      "created_date": "2016-06-24T00:00:00"
+    },
+    {
+      "id": "https://openalex.org/W2288242738",
+      "doi": null,
+      "title": "7-330 Development of Educational Material for Fostering Embedded Software Engineers",
+      "display_name": "7-330 Development of Educational Material for Fostering Embedded Software Engineers",
+      "relevance_score": 127.83029,
+      "publication_year": 2010,
+      "publication_date": "2010-08-19",
+      "ids": {
+        "openalex": "https://openalex.org/W2288242738",
+        "mag": "2288242738"
+      },
+      "language": "en",
+      "primary_location": {
+        "id": "mag:2288242738",
+        "doi": null,
+        "is_oa": false,
+        "landing_page_url": "http://ci.nii.ac.jp/naid/110007983926/en/",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4306548194",
+          "display_name": "工学教育研究講演会講演論文集",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "listed_in": [],
+          "host_organization": null,
+          "host_organization_name": null,
+          "host_organization_lineage": [],
+          "host_organization_lineage_names": [],
+          "type": "journal"
+        },
+        "license": null,
+        "license_id": null,
+        "version": null,
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": "工学・工業教育研究講演会講演論文集",
+        "raw_type": null
+      },
+      "parent_works": [],
+      "lineage": [
+        "https://openalex.org/W2288242738"
+      ],
+      "child_works_count": 0,
+      "type": "article",
+      "is_traditional": true,
+      "indexed_in": [],
+      "open_access": {
+        "is_oa": false,
+        "oa_status": "closed",
+        "oa_url": null,
+        "any_repository_has_fulltext": false
+      },
+      "authorships": [
+        {
+          "author_position": "first",
+          "author": {
+            "id": "https://openalex.org/A5011472134",
+            "display_name": "Yoshinori Fujisawa",
+            "orcid": null,
+            "observed_orcids": []
+          },
+          "institutions": [],
+          "countries": [],
+          "is_corresponding": true,
+          "raw_author_name": "Yoshinori Fujisawa",
+          "raw_affiliation_strings": [],
+          "raw_orcid": null,
+          "affiliations": []
+        }
+      ],
+      "institutions": [],
+      "countries_distinct_count": 0,
+      "institutions_distinct_count": 0,
+      "corresponding_author_ids": [
+        "https://openalex.org/A5011472134"
+      ],
+      "corresponding_institution_ids": [],
+      "apc_list": null,
+      "apc_paid": null,
+      "fwci": 0.0,
+      "is_authors_truncated": false,
+      "has_fulltext": false,
+      "cited_by_count": 0,
+      "citation_normalized_percentile": {
+        "value": 0.0,
+        "is_in_top_1_percent": false,
+        "is_in_top_10_percent": false
+      },
+      "cited_by_percentile_year": null,
+      "biblio": {
+        "volume": "22",
+        "issue": null,
+        "first_page": "594",
+        "last_page": "595"
+      },
+      "is_retracted": false,
+      "is_paratext": false,
+      "is_xpac": false,
+      "primary_topic": {
+        "id": "https://openalex.org/T12124",
+        "display_name": "Engineering Education and Curriculum Development",
+        "score": 0.4009000062942505,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3304",
+          "display_name": "Education"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/33",
+          "display_name": "Social Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      "topics": [
+        {
+          "id": "https://openalex.org/T12124",
+          "display_name": "Engineering Education and Curriculum Development",
+          "score": 0.4009000062942505,
+          "subfield": {
+            "id": "https://openalex.org/subfields/3304",
+            "display_name": "Education"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/33",
+            "display_name": "Social Sciences"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/2",
+            "display_name": "Social Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T10533",
+          "display_name": "Teaching and Learning Programming",
+          "score": 0.2321999967098236,
+          "subfield": {
+            "id": "https://openalex.org/subfields/1706",
+            "display_name": "Computer Science Applications"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/17",
+            "display_name": "Computer Science"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T13682",
+          "display_name": "Engineering Education and Pedagogy",
+          "score": 0.18410000205039978,
+          "subfield": {
+            "id": "https://openalex.org/subfields/3304",
+            "display_name": "Education"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/33",
+            "display_name": "Social Sciences"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/2",
+            "display_name": "Social Sciences"
+          }
+        }
+      ],
+      "keywords": [
+        {
+          "id": "https://openalex.org/keywords/embedded-software-development",
+          "display_name": "embedded software development",
+          "score": 0.7919999957084656
+        },
+        {
+          "id": "https://openalex.org/keywords/teaching-materials",
+          "display_name": "teaching materials",
+          "score": 0.8529999852180481
+        },
+        {
+          "id": "https://openalex.org/keywords/engineering-education",
+          "display_name": "engineering education",
+          "score": 0.8009999990463257
+        },
+        {
+          "id": "https://openalex.org/keywords/curriculum-development",
+          "display_name": "curriculum development",
+          "score": 0.7279999852180481
+        }
+      ],
+      "concepts": [
+        {
+          "id": "https://openalex.org/C55587333",
+          "wikidata": "https://www.wikidata.org/wiki/Q1133029",
+          "display_name": "Engineering ethics",
+          "level": 1,
+          "score": 0.566318154335022
+        },
+        {
+          "id": "https://openalex.org/C2777904410",
+          "wikidata": "https://www.wikidata.org/wiki/Q7397",
+          "display_name": "Software",
+          "level": 2,
+          "score": 0.47693532705307007
+        },
+        {
+          "id": "https://openalex.org/C115903868",
+          "wikidata": "https://www.wikidata.org/wiki/Q80993",
+          "display_name": "Software engineering",
+          "level": 1,
+          "score": 0.43727898597717285
+        },
+        {
+          "id": "https://openalex.org/C41008148",
+          "wikidata": "https://www.wikidata.org/wiki/Q21198",
+          "display_name": "Computer science",
+          "level": 0,
+          "score": 0.39092421531677246
+        },
+        {
+          "id": "https://openalex.org/C110354214",
+          "wikidata": "https://www.wikidata.org/wiki/Q6314146",
+          "display_name": "Engineering management",
+          "level": 1,
+          "score": 0.3727107644081116
+        },
+        {
+          "id": "https://openalex.org/C127413603",
+          "wikidata": "https://www.wikidata.org/wiki/Q11023",
+          "display_name": "Engineering",
+          "level": 0,
+          "score": 0.3628450632095337
+        },
+        {
+          "id": "https://openalex.org/C199360897",
+          "wikidata": "https://www.wikidata.org/wiki/Q9143",
+          "display_name": "Programming language",
+          "level": 1,
+          "score": 0.15031448006629944
+        }
+      ],
+      "mesh": [],
+      "locations_count": 1,
+      "locations": [
+        {
+          "id": "mag:2288242738",
+          "doi": null,
+          "is_oa": false,
+          "landing_page_url": "http://ci.nii.ac.jp/naid/110007983926/en/",
+          "pdf_url": null,
+          "source": {
+            "id": "https://openalex.org/S4306548194",
+            "display_name": "工学教育研究講演会講演論文集",
+            "issn_l": null,
+            "issn": null,
+            "is_oa": false,
+            "is_in_doaj": false,
+            "is_core": false,
+            "listed_in": [],
+            "host_organization": null,
+            "host_organization_name": null,
+            "host_organization_lineage": [],
+            "host_organization_lineage_names": [],
+            "type": "journal"
+          },
+          "license": null,
+          "license_id": null,
+          "version": null,
+          "is_accepted": false,
+          "is_published": false,
+          "raw_source_name": "工学・工業教育研究講演会講演論文集",
+          "raw_type": null
+        }
+      ],
+      "best_oa_location": null,
+      "sustainable_development_goals": [
+        {
+          "display_name": "Quality education",
+          "score": 0.6164000034332275,
+          "id": "https://metadata.un.org/sdg/4"
+        }
+      ],
+      "study_designs": [],
+      "awards": [],
+      "funders": [],
+      "has_content": {
+        "pdf": false,
+        "grobid_xml": false
+      },
+      "content_urls": null,
+      "referenced_works_count": 0,
+      "referenced_works": [],
+      "related_works": [
+        "https://openalex.org/W7037705602",
+        "https://openalex.org/W2286891209",
+        "https://openalex.org/W2598853994",
+        "https://openalex.org/W4410209157",
+        "https://openalex.org/W3002618424",
+        "https://openalex.org/W2273850325",
+        "https://openalex.org/W7009620797",
+        "https://openalex.org/W2323942007",
+        "https://openalex.org/W7216702463",
+        "https://openalex.org/W2336525349"
+      ],
+      "abstract_inverted_index": null,
+      "counts_by_year": [],
+      "updated_date": "2026-11-15T12:55:33.944570",
+      "created_date": "2016-06-24T00:00:00"
+    }
+  ],
+  "group_by": []
+}

@@ -1,0 +1,5789 @@
+{
+  "meta": {
+    "notice": "No API key, so this request shares one free daily budget ($0.10) with everyone on your network's IP address. Get a free key with its own $1/day at https://openalex.org/settings/api and add api_key=YOUR_KEY to your requests. An AI agent can get one for its user in one call: POST https://api.openalex.org/api-keys with {\"email\": \"<your user's email>\"}; we email them a link, and the key works once they click it. Docs for agents: https://help.openalex.org/llms.txt",
+    "count": 348917,
+    "db_response_time_ms": 259,
+    "page": 1,
+    "per_page": 5,
+    "groups_count": null,
+    "x_query": {
+      "oql": "get works with (CLOUD SYSTEM ENGINEER) in the title, abstract, or full text",
+      "x_new_oql": "get works with (CLOUD SYSTEM ENGINEER) in the title, abstract, or full text",
+      "oqo": {
+        "get_rows": "works",
+        "filter_rows": [
+          {
+            "column_id": "fulltext.search",
+            "value": "CLOUD SYSTEM ENGINEER",
+            "operator": "has"
+          }
+        ]
+      },
+      "url": "/works?filter=fulltext.search:CLOUD SYSTEM ENGINEER&per_page=5",
+      "order": "best matches first",
+      "order_default": true
+    },
+    "cost_usd": 0.001
+  },
+  "results": [
+    {
+      "id": "https://openalex.org/W2566986399",
+      "doi": "https://doi.org/10.1109/jlt.2016.2642822",
+      "title": "From Chip to Cloud: Optical Interconnects in Engineered Systems",
+      "display_name": "From Chip to Cloud: Optical Interconnects in Engineered Systems",
+      "relevance_score": 78.59495,
+      "publication_year": 2016,
+      "publication_date": "2016-12-21",
+      "ids": {
+        "openalex": "https://openalex.org/W2566986399",
+        "doi": "https://doi.org/10.1109/jlt.2016.2642822",
+        "mag": "2566986399"
+      },
+      "language": "en",
+      "primary_location": {
+        "id": "doi:10.1109/jlt.2016.2642822",
+        "doi": "https://doi.org/10.1109/jlt.2016.2642822",
+        "is_oa": false,
+        "landing_page_url": "https://doi.org/10.1109/jlt.2016.2642822",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S2307745",
+          "display_name": "Journal of Lightwave Technology",
+          "issn_l": "0733-8724",
+          "issn": [
+            "0733-8724",
+            "1558-2213"
+          ],
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": true,
+          "listed_in": [
+            "cwts-core",
+            "dongbi-a",
+            "jufo-3",
+            "ki-jl-1",
+            "norway-1",
+            "poland-140",
+            "russia-white-list-1"
+          ],
+          "host_organization": "https://openalex.org/P4310319808",
+          "host_organization_name": "Institute of Electrical and Electronics Engineers",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310319808"
+          ],
+          "host_organization_lineage_names": [
+            "Institute of Electrical and Electronics Engineers"
+          ],
+          "type": "journal"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Journal of Lightwave Technology",
+        "raw_type": "journal-article"
+      },
+      "parent_works": [],
+      "lineage": [
+        "https://openalex.org/W2566986399"
+      ],
+      "child_works_count": 0,
+      "type": "article",
+      "is_traditional": true,
+      "indexed_in": [
+        "crossref"
+      ],
+      "open_access": {
+        "is_oa": false,
+        "oa_status": "closed",
+        "oa_url": null,
+        "any_repository_has_fulltext": false
+      },
+      "authorships": [
+        {
+          "author_position": "first",
+          "author": {
+            "id": "https://openalex.org/A5008485416",
+            "display_name": "Ashok V. Krishnamoorthy",
+            "orcid": null,
+            "observed_orcids": []
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I135428043",
+              "display_name": "Cisco Systems (United States)",
+              "ror": "https://ror.org/03yt1ez60",
+              "country_code": "US",
+              "type": "company",
+              "lineage": [
+                "https://openalex.org/I135428043"
+              ]
+            }
+          ],
+          "countries": [
+            "US"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "Ashok V. Krishnamoorthy",
+          "raw_affiliation_strings": [
+            "Cisco Systems, San Jose",
+            "Tech301 Eng., San Diego, CA"
+          ],
+          "raw_orcid": null,
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Cisco Systems, San Jose",
+              "institution_ids": [
+                "https://openalex.org/I135428043"
+              ]
+            },
+            {
+              "raw_affiliation_string": "Tech301 Eng., San Diego, CA",
+              "institution_ids": []
+            }
+          ]
+        },
+        {
+          "author_position": "middle",
+          "author": {
+            "id": "https://openalex.org/A5035912859",
+            "display_name": "Hiren D. Thacker",
+            "orcid": null,
+            "observed_orcids": []
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I135428043",
+              "display_name": "Cisco Systems (United States)",
+              "ror": "https://ror.org/03yt1ez60",
+              "country_code": "US",
+              "type": "company",
+              "lineage": [
+                "https://openalex.org/I135428043"
+              ]
+            }
+          ],
+          "countries": [
+            "US"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "Hiren D. Thacker",
+          "raw_affiliation_strings": [
+            "Cisco Systems, San Jose",
+            "Tech301 Eng., San Diego, CA"
+          ],
+          "raw_orcid": null,
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Cisco Systems, San Jose",
+              "institution_ids": [
+                "https://openalex.org/I135428043"
+              ]
+            },
+            {
+              "raw_affiliation_string": "Tech301 Eng., San Diego, CA",
+              "institution_ids": []
+            }
+          ]
+        },
+        {
+          "author_position": "middle",
+          "author": {
+            "id": "https://openalex.org/A5065980692",
+            "display_name": "Ola Torudbakken",
+            "orcid": null,
+            "observed_orcids": []
+          },
+          "institutions": [],
+          "countries": [],
+          "is_corresponding": false,
+          "raw_author_name": "Ola Torudbakken",
+          "raw_affiliation_strings": [
+            "Oracle Networking Systems, Oslo, Norway"
+          ],
+          "raw_orcid": null,
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Oracle Networking Systems, Oslo, Norway",
+              "institution_ids": []
+            }
+          ]
+        },
+        {
+          "author_position": "middle",
+          "author": {
+            "id": "https://openalex.org/A5108618483",
+            "display_name": "S. Muller",
+            "orcid": null,
+            "observed_orcids": []
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I1343180700",
+              "display_name": "Intel (United States)",
+              "ror": "https://ror.org/01ek73717",
+              "country_code": "US",
+              "type": "company",
+              "lineage": [
+                "https://openalex.org/I1343180700"
+              ]
+            }
+          ],
+          "countries": [
+            "US"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "Shimon Muller",
+          "raw_affiliation_strings": [
+            "Intel Corp., Santa Clara, CA",
+            "Oracle Networking Systems, Santa Clara, CA, USA"
+          ],
+          "raw_orcid": null,
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Intel Corp., Santa Clara, CA",
+              "institution_ids": [
+                "https://openalex.org/I1343180700"
+              ]
+            },
+            {
+              "raw_affiliation_string": "Oracle Networking Systems, Santa Clara, CA, USA",
+              "institution_ids": []
+            }
+          ]
+        },
+        {
+          "author_position": "middle",
+          "author": {
+            "id": "https://openalex.org/A5103784452",
+            "display_name": "Arvind Srinivasan",
+            "orcid": "https://orcid.org/0009-0009-8420-1291",
+            "observed_orcids": [
+              "https://orcid.org/0009-0009-8420-1291"
+            ]
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I1343180700",
+              "display_name": "Intel (United States)",
+              "ror": "https://ror.org/01ek73717",
+              "country_code": "US",
+              "type": "company",
+              "lineage": [
+                "https://openalex.org/I1343180700"
+              ]
+            }
+          ],
+          "countries": [
+            "US"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "Arvind Srinivasan",
+          "raw_affiliation_strings": [
+            "Intel Corp., Santa Clara, CA",
+            "Oracle Networking Systems, Santa Clara, CA, USA"
+          ],
+          "raw_orcid": null,
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Intel Corp., Santa Clara, CA",
+              "institution_ids": [
+                "https://openalex.org/I1343180700"
+              ]
+            },
+            {
+              "raw_affiliation_string": "Oracle Networking Systems, Santa Clara, CA, USA",
+              "institution_ids": []
+            }
+          ]
+        },
+        {
+          "author_position": "middle",
+          "author": {
+            "id": "https://openalex.org/A5002260861",
+            "display_name": "Patrick J. Decker",
+            "orcid": null,
+            "observed_orcids": []
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I135428043",
+              "display_name": "Cisco Systems (United States)",
+              "ror": "https://ror.org/03yt1ez60",
+              "country_code": "US",
+              "type": "company",
+              "lineage": [
+                "https://openalex.org/I135428043"
+              ]
+            }
+          ],
+          "countries": [
+            "US"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "Patrick J. Decker",
+          "raw_affiliation_strings": [
+            "Cisco Systems, San Jose",
+            "Tech301 Eng., San Diego, CA"
+          ],
+          "raw_orcid": null,
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Cisco Systems, San Jose",
+              "institution_ids": [
+                "https://openalex.org/I135428043"
+              ]
+            },
+            {
+              "raw_affiliation_string": "Tech301 Eng., San Diego, CA",
+              "institution_ids": []
+            }
+          ]
+        },
+        {
+          "author_position": "middle",
+          "author": {
+            "id": "https://openalex.org/A5018477510",
+            "display_name": "Hans Opheim",
+            "orcid": null,
+            "observed_orcids": []
+          },
+          "institutions": [],
+          "countries": [],
+          "is_corresponding": false,
+          "raw_author_name": "Hans Opheim",
+          "raw_affiliation_strings": [
+            "Oracle Networking Systems, Oslo, Norway"
+          ],
+          "raw_orcid": null,
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Oracle Networking Systems, Oslo, Norway",
+              "institution_ids": []
+            }
+          ]
+        },
+        {
+          "author_position": "middle",
+          "author": {
+            "id": "https://openalex.org/A5008420001",
+            "display_name": "J. E. Cunningham",
+            "orcid": "https://orcid.org/0000-0002-1805-9743",
+            "observed_orcids": [
+              "https://orcid.org/0000-0002-1805-9743"
+            ]
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I135428043",
+              "display_name": "Cisco Systems (United States)",
+              "ror": "https://ror.org/03yt1ez60",
+              "country_code": "US",
+              "type": "company",
+              "lineage": [
+                "https://openalex.org/I135428043"
+              ]
+            }
+          ],
+          "countries": [
+            "US"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "John E. Cunningham",
+          "raw_affiliation_strings": [
+            "Cisco Systems, San Jose",
+            "Tech301 Eng., San Diego, CA"
+          ],
+          "raw_orcid": null,
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Cisco Systems, San Jose",
+              "institution_ids": [
+                "https://openalex.org/I135428043"
+              ]
+            },
+            {
+              "raw_affiliation_string": "Tech301 Eng., San Diego, CA",
+              "institution_ids": []
+            }
+          ]
+        },
+        {
+          "author_position": "middle",
+          "author": {
+            "id": "https://openalex.org/A5010760157",
+            "display_name": "Ivan N. Shubin",
+            "orcid": null,
+            "observed_orcids": []
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I135428043",
+              "display_name": "Cisco Systems (United States)",
+              "ror": "https://ror.org/03yt1ez60",
+              "country_code": "US",
+              "type": "company",
+              "lineage": [
+                "https://openalex.org/I135428043"
+              ]
+            }
+          ],
+          "countries": [
+            "US"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "Ivan Shubin",
+          "raw_affiliation_strings": [
+            "Cisco Systems, San Jose",
+            "Tech301 Eng., San Diego, CA"
+          ],
+          "raw_orcid": null,
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Cisco Systems, San Jose",
+              "institution_ids": [
+                "https://openalex.org/I135428043"
+              ]
+            },
+            {
+              "raw_affiliation_string": "Tech301 Eng., San Diego, CA",
+              "institution_ids": []
+            }
+          ]
+        },
+        {
+          "author_position": "middle",
+          "author": {
+            "id": "https://openalex.org/A5113646483",
+            "display_name": "Xuezhe Zheng",
+            "orcid": "https://orcid.org/0000-0001-6962-6202",
+            "observed_orcids": [
+              "https://orcid.org/0000-0001-6962-6202"
+            ]
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I135428043",
+              "display_name": "Cisco Systems (United States)",
+              "ror": "https://ror.org/03yt1ez60",
+              "country_code": "US",
+              "type": "company",
+              "lineage": [
+                "https://openalex.org/I135428043"
+              ]
+            }
+          ],
+          "countries": [
+            "US"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "Xuezhe Zheng",
+          "raw_affiliation_strings": [
+            "Cisco Systems, San Jose",
+            "Tech301 Eng., San Diego, CA"
+          ],
+          "raw_orcid": null,
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Cisco Systems, San Jose",
+              "institution_ids": [
+                "https://openalex.org/I135428043"
+              ]
+            },
+            {
+              "raw_affiliation_string": "Tech301 Eng., San Diego, CA",
+              "institution_ids": []
+            }
+          ]
+        },
+        {
+          "author_position": "middle",
+          "author": {
+            "id": "https://openalex.org/A5032925293",
+            "display_name": "Marcelino Dignum",
+            "orcid": null,
+            "observed_orcids": []
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I1343180700",
+              "display_name": "Intel (United States)",
+              "ror": "https://ror.org/01ek73717",
+              "country_code": "US",
+              "type": "company",
+              "lineage": [
+                "https://openalex.org/I1343180700"
+              ]
+            }
+          ],
+          "countries": [
+            "US"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "Marcelino Dignum",
+          "raw_affiliation_strings": [
+            "Intel Corp., Santa Clara, CA",
+            "Oracle Networking Systems, Santa Clara, CA, USA"
+          ],
+          "raw_orcid": null,
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Intel Corp., Santa Clara, CA",
+              "institution_ids": [
+                "https://openalex.org/I1343180700"
+              ]
+            },
+            {
+              "raw_affiliation_string": "Oracle Networking Systems, Santa Clara, CA, USA",
+              "institution_ids": []
+            }
+          ]
+        },
+        {
+          "author_position": "middle",
+          "author": {
+            "id": "https://openalex.org/A5111013579",
+            "display_name": "Kannan Raj",
+            "orcid": null,
+            "observed_orcids": []
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I135428043",
+              "display_name": "Cisco Systems (United States)",
+              "ror": "https://ror.org/03yt1ez60",
+              "country_code": "US",
+              "type": "company",
+              "lineage": [
+                "https://openalex.org/I135428043"
+              ]
+            }
+          ],
+          "countries": [
+            "US"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "Kannan Raj",
+          "raw_affiliation_strings": [
+            "Cisco Systems, San Jose",
+            "Tech301 Eng., San Diego, CA"
+          ],
+          "raw_orcid": null,
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Cisco Systems, San Jose",
+              "institution_ids": [
+                "https://openalex.org/I135428043"
+              ]
+            },
+            {
+              "raw_affiliation_string": "Tech301 Eng., San Diego, CA",
+              "institution_ids": []
+            }
+          ]
+        },
+        {
+          "author_position": "middle",
+          "author": {
+            "id": "https://openalex.org/A5065784280",
+            "display_name": "Eivind Rongved",
+            "orcid": null,
+            "observed_orcids": []
+          },
+          "institutions": [],
+          "countries": [],
+          "is_corresponding": false,
+          "raw_author_name": "Eivind Rongved",
+          "raw_affiliation_strings": [
+            "Oracle Networking Systems, Oslo, Norway"
+          ],
+          "raw_orcid": null,
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Oracle Networking Systems, Oslo, Norway",
+              "institution_ids": []
+            }
+          ]
+        },
+        {
+          "author_position": "last",
+          "author": {
+            "id": "https://openalex.org/A5015106130",
+            "display_name": "Raju Penumatcha",
+            "orcid": null,
+            "observed_orcids": []
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I1343180700",
+              "display_name": "Intel (United States)",
+              "ror": "https://ror.org/01ek73717",
+              "country_code": "US",
+              "type": "company",
+              "lineage": [
+                "https://openalex.org/I1343180700"
+              ]
+            }
+          ],
+          "countries": [
+            "US"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "Raju Penumatcha",
+          "raw_affiliation_strings": [
+            "Intel Corp., Santa Clara, CA",
+            "Oracle Networking Systems, Santa Clara, CA, USA"
+          ],
+          "raw_orcid": null,
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Intel Corp., Santa Clara, CA",
+              "institution_ids": [
+                "https://openalex.org/I1343180700"
+              ]
+            },
+            {
+              "raw_affiliation_string": "Oracle Networking Systems, Santa Clara, CA, USA",
+              "institution_ids": []
+            }
+          ]
+        }
+      ],
+      "institutions": [],
+      "countries_distinct_count": 1,
+      "institutions_distinct_count": 2,
+      "corresponding_author_ids": [],
+      "corresponding_institution_ids": [],
+      "apc_list": {
+        "value": 2645,
+        "currency": "USD",
+        "value_usd": 2645
+      },
+      "apc_paid": null,
+      "fwci": 2.7468,
+      "is_authors_truncated": false,
+      "has_fulltext": false,
+      "cited_by_count": 86,
+      "citation_normalized_percentile": {
+        "value": 0.90243041,
+        "is_in_top_1_percent": false,
+        "is_in_top_10_percent": true
+      },
+      "cited_by_percentile_year": {
+        "min": 88,
+        "max": 99
+      },
+      "biblio": {
+        "volume": "35",
+        "issue": "15",
+        "first_page": "3103",
+        "last_page": "3115"
+      },
+      "is_retracted": false,
+      "is_paratext": false,
+      "is_xpac": false,
+      "primary_topic": {
+        "id": "https://openalex.org/T11429",
+        "display_name": "Semiconductor Lasers and Optical Devices",
+        "score": 0.7710000276565552,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2208",
+          "display_name": "Electrical and Electronic Engineering"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/22",
+          "display_name": "Engineering"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      "topics": [
+        {
+          "id": "https://openalex.org/T11429",
+          "display_name": "Semiconductor Lasers and Optical Devices",
+          "score": 0.7710000276565552,
+          "subfield": {
+            "id": "https://openalex.org/subfields/2208",
+            "display_name": "Electrical and Electronic Engineering"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/22",
+            "display_name": "Engineering"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T10829",
+          "display_name": "Interconnection Networks and Systems",
+          "score": 0.16220000386238098,
+          "subfield": {
+            "id": "https://openalex.org/subfields/1705",
+            "display_name": "Computer Networks and Communications"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/17",
+            "display_name": "Computer Science"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T10847",
+          "display_name": "Advanced Optical Network Technologies",
+          "score": 0.02449999935925007,
+          "subfield": {
+            "id": "https://openalex.org/subfields/2208",
+            "display_name": "Electrical and Electronic Engineering"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/22",
+            "display_name": "Engineering"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        }
+      ],
+      "keywords": [
+        {
+          "id": "https://openalex.org/keywords/optical-interconnects",
+          "display_name": "optical interconnects",
+          "score": 0.9990000128746033
+        },
+        {
+          "id": "https://openalex.org/keywords/optical-backplane",
+          "display_name": "optical backplane",
+          "score": 0.9160000085830688
+        },
+        {
+          "id": "https://openalex.org/keywords/active-optical-cable",
+          "display_name": "active optical cable",
+          "score": 0.7160000205039978
+        },
+        {
+          "id": "https://openalex.org/keywords/energy-efficiency",
+          "display_name": "energy efficiency",
+          "score": 0.5899999737739563
+        },
+        {
+          "id": "https://openalex.org/keywords/i-o-bottleneck",
+          "display_name": "I/O bottleneck",
+          "score": 0.621999979019165
+        }
+      ],
+      "concepts": [
+        {
+          "id": "https://openalex.org/C134256836",
+          "wikidata": "https://www.wikidata.org/wiki/Q545913",
+          "display_name": "Backplane",
+          "level": 2,
+          "score": 0.7990331649780273
+        },
+        {
+          "id": "https://openalex.org/C101336846",
+          "wikidata": "https://www.wikidata.org/wiki/Q17105111",
+          "display_name": "Optical switch",
+          "level": 2,
+          "score": 0.6748934984207153
+        },
+        {
+          "id": "https://openalex.org/C158802814",
+          "wikidata": "https://www.wikidata.org/wiki/Q6056418",
+          "display_name": "Interposer",
+          "level": 4,
+          "score": 0.6565271019935608
+        },
+        {
+          "id": "https://openalex.org/C41008148",
+          "wikidata": "https://www.wikidata.org/wiki/Q21198",
+          "display_name": "Computer science",
+          "level": 0,
+          "score": 0.5477860569953918
+        },
+        {
+          "id": "https://openalex.org/C20788544",
+          "wikidata": "https://www.wikidata.org/wiki/Q467054",
+          "display_name": "Photonics",
+          "level": 2,
+          "score": 0.5430845618247986
+        },
+        {
+          "id": "https://openalex.org/C77390884",
+          "wikidata": "https://www.wikidata.org/wiki/Q217302",
+          "display_name": "Application-specific integrated circuit",
+          "level": 2,
+          "score": 0.5265648365020752
+        },
+        {
+          "id": "https://openalex.org/C2781030343",
+          "wikidata": "https://www.wikidata.org/wiki/Q922437",
+          "display_name": "InfiniBand",
+          "level": 2,
+          "score": 0.5078688263893127
+        },
+        {
+          "id": "https://openalex.org/C2781382545",
+          "wikidata": "https://www.wikidata.org/wiki/Q7098878",
+          "display_name": "Optical networking",
+          "level": 4,
+          "score": 0.49097660183906555
+        },
+        {
+          "id": "https://openalex.org/C7720470",
+          "wikidata": "https://www.wikidata.org/wiki/Q954187",
+          "display_name": "Transceiver",
+          "level": 3,
+          "score": 0.48750588297843933
+        },
+        {
+          "id": "https://openalex.org/C24326235",
+          "wikidata": "https://www.wikidata.org/wiki/Q126095",
+          "display_name": "Electronic engineering",
+          "level": 1,
+          "score": 0.4786219000816345
+        },
+        {
+          "id": "https://openalex.org/C131313210",
+          "wikidata": "https://www.wikidata.org/wiki/Q376827",
+          "display_name": "Fibre Channel",
+          "level": 2,
+          "score": 0.44815242290496826
+        },
+        {
+          "id": "https://openalex.org/C9390403",
+          "wikidata": "https://www.wikidata.org/wiki/Q3966",
+          "display_name": "Computer hardware",
+          "level": 1,
+          "score": 0.4281119704246521
+        },
+        {
+          "id": "https://openalex.org/C149635348",
+          "wikidata": "https://www.wikidata.org/wiki/Q193040",
+          "display_name": "Embedded system",
+          "level": 1,
+          "score": 0.40014031529426575
+        },
+        {
+          "id": "https://openalex.org/C127413603",
+          "wikidata": "https://www.wikidata.org/wiki/Q11023",
+          "display_name": "Engineering",
+          "level": 0,
+          "score": 0.3232424259185791
+        },
+        {
+          "id": "https://openalex.org/C160724564",
+          "wikidata": "https://www.wikidata.org/wiki/Q1620670",
+          "display_name": "Wavelength-division multiplexing",
+          "level": 3,
+          "score": 0.3014642596244812
+        },
+        {
+          "id": "https://openalex.org/C46362747",
+          "wikidata": "https://www.wikidata.org/wiki/Q173431",
+          "display_name": "CMOS",
+          "level": 2,
+          "score": 0.296834796667099
+        },
+        {
+          "id": "https://openalex.org/C31258907",
+          "wikidata": "https://www.wikidata.org/wiki/Q1301371",
+          "display_name": "Computer network",
+          "level": 1,
+          "score": 0.21498370170593262
+        },
+        {
+          "id": "https://openalex.org/C49040817",
+          "wikidata": "https://www.wikidata.org/wiki/Q193091",
+          "display_name": "Optoelectronics",
+          "level": 1,
+          "score": 0.16205823421478271
+        },
+        {
+          "id": "https://openalex.org/C192562407",
+          "wikidata": "https://www.wikidata.org/wiki/Q228736",
+          "display_name": "Materials science",
+          "level": 0,
+          "score": 0.135258287191391
+        },
+        {
+          "id": "https://openalex.org/C100460472",
+          "wikidata": "https://www.wikidata.org/wiki/Q2368605",
+          "display_name": "Etching (microfabrication)",
+          "level": 3,
+          "score": 0.0
+        },
+        {
+          "id": "https://openalex.org/C6260449",
+          "wikidata": "https://www.wikidata.org/wiki/Q41364",
+          "display_name": "Wavelength",
+          "level": 2,
+          "score": 0.0
+        },
+        {
+          "id": "https://openalex.org/C159985019",
+          "wikidata": "https://www.wikidata.org/wiki/Q181790",
+          "display_name": "Composite material",
+          "level": 1,
+          "score": 0.0
+        },
+        {
+          "id": "https://openalex.org/C2779227376",
+          "wikidata": "https://www.wikidata.org/wiki/Q6505497",
+          "display_name": "Layer (electronics)",
+          "level": 2,
+          "score": 0.0
+        }
+      ],
+      "mesh": [],
+      "locations_count": 1,
+      "locations": [
+        {
+          "id": "doi:10.1109/jlt.2016.2642822",
+          "doi": "https://doi.org/10.1109/jlt.2016.2642822",
+          "is_oa": false,
+          "landing_page_url": "https://doi.org/10.1109/jlt.2016.2642822",
+          "pdf_url": null,
+          "source": {
+            "id": "https://openalex.org/S2307745",
+            "display_name": "Journal of Lightwave Technology",
+            "issn_l": "0733-8724",
+            "issn": [
+              "0733-8724",
+              "1558-2213"
+            ],
+            "is_oa": false,
+            "is_in_doaj": false,
+            "is_core": true,
+            "listed_in": [
+              "cwts-core",
+              "dongbi-a",
+              "jufo-3",
+              "ki-jl-1",
+              "norway-1",
+              "poland-140",
+              "russia-white-list-1"
+            ],
+            "host_organization": "https://openalex.org/P4310319808",
+            "host_organization_name": "Institute of Electrical and Electronics Engineers",
+            "host_organization_lineage": [
+              "https://openalex.org/P4310319808"
+            ],
+            "host_organization_lineage_names": [
+              "Institute of Electrical and Electronics Engineers"
+            ],
+            "type": "journal"
+          },
+          "license": null,
+          "license_id": null,
+          "version": "publishedVersion",
+          "is_accepted": true,
+          "is_published": true,
+          "raw_source_name": "Journal of Lightwave Technology",
+          "raw_type": "journal-article"
+        }
+      ],
+      "best_oa_location": null,
+      "sustainable_development_goals": [
+        {
+          "display_name": "Industry, innovation and infrastructure",
+          "id": "https://metadata.un.org/sdg/9",
+          "score": 0.8970999717712402
+        }
+      ],
+      "study_designs": [],
+      "awards": [],
+      "funders": [
+        {
+          "id": "https://openalex.org/F4320332180",
+          "display_name": "Defense Advanced Research Projects Agency",
+          "ror": "https://ror.org/02caytj08"
+        }
+      ],
+      "has_content": {
+        "grobid_xml": false,
+        "pdf": false
+      },
+      "content_urls": null,
+      "referenced_works_count": 66,
+      "referenced_works": [
+        "https://openalex.org/W1536979667",
+        "https://openalex.org/W1564576805",
+        "https://openalex.org/W1569009693",
+        "https://openalex.org/W1576211906",
+        "https://openalex.org/W1595212310",
+        "https://openalex.org/W1886649049",
+        "https://openalex.org/W1889032512",
+        "https://openalex.org/W1982189691",
+        "https://openalex.org/W1987699374",
+        "https://openalex.org/W1989416966",
+        "https://openalex.org/W1993882422",
+        "https://openalex.org/W1995473528",
+        "https://openalex.org/W1997370921",
+        "https://openalex.org/W2002091191",
+        "https://openalex.org/W2004891041",
+        "https://openalex.org/W2006886576",
+        "https://openalex.org/W2007085558",
+        "https://openalex.org/W2013203108",
+        "https://openalex.org/W2030924055",
+        "https://openalex.org/W2032531286",
+        "https://openalex.org/W2033473027",
+        "https://openalex.org/W2036180171",
+        "https://openalex.org/W2052024699",
+        "https://openalex.org/W2071113412",
+        "https://openalex.org/W2072712462",
+        "https://openalex.org/W2074427997",
+        "https://openalex.org/W2087719038",
+        "https://openalex.org/W2088095580",
+        "https://openalex.org/W2089949613",
+        "https://openalex.org/W2096313289",
+        "https://openalex.org/W2098894274",
+        "https://openalex.org/W2104828172",
+        "https://openalex.org/W2108632735",
+        "https://openalex.org/W2120542415",
+        "https://openalex.org/W2127401942",
+        "https://openalex.org/W2135129294",
+        "https://openalex.org/W2139931103",
+        "https://openalex.org/W2140450366",
+        "https://openalex.org/W2141387869",
+        "https://openalex.org/W2144549055",
+        "https://openalex.org/W2144558071",
+        "https://openalex.org/W2152812634",
+        "https://openalex.org/W2152832146",
+        "https://openalex.org/W2157224208",
+        "https://openalex.org/W2161118168",
+        "https://openalex.org/W2162947069",
+        "https://openalex.org/W2164109339",
+        "https://openalex.org/W2165270294",
+        "https://openalex.org/W2166792218",
+        "https://openalex.org/W2291503793",
+        "https://openalex.org/W2328285527",
+        "https://openalex.org/W2340894579",
+        "https://openalex.org/W2418716856",
+        "https://openalex.org/W2481982932",
+        "https://openalex.org/W2495853989",
+        "https://openalex.org/W2497599918",
+        "https://openalex.org/W2509724465",
+        "https://openalex.org/W2513352037",
+        "https://openalex.org/W2541333673",
+        "https://openalex.org/W2550003623",
+        "https://openalex.org/W4249276097",
+        "https://openalex.org/W6651044919",
+        "https://openalex.org/W6659351040",
+        "https://openalex.org/W6680578463",
+        "https://openalex.org/W6697048078",
+        "https://openalex.org/W6704208842"
+      ],
+      "related_works": [
+        "https://openalex.org/W2418716856",
+        "https://openalex.org/W2088643072",
+        "https://openalex.org/W2138799792",
+        "https://openalex.org/W2105782253",
+        "https://openalex.org/W3007821222",
+        "https://openalex.org/W1579493692",
+        "https://openalex.org/W2320798422",
+        "https://openalex.org/W2035430647",
+        "https://openalex.org/W2793945159",
+        "https://openalex.org/W2022706733"
+      ],
+      "abstract_inverted_index": {
+        "The": [
+          0,
+          7
+        ],
+        "high-performance": [
+          1
+        ],
+        "server": [
+          2
+        ],
+        "compute": [
+          3,
+          14,
+          28,
+          64
+        ],
+        "landscape": [
+          4
+        ],
+        "is": [
+          5
+        ],
+        "changing.": [
+          6
+        ],
+        "traditional": [
+          8
+        ],
+        "model": [
+          9
+        ],
+        "of": [
+          10,
+          42,
+          61,
+          71,
+          131,
+          166
+        ],
+        "building": [
+          11
+        ],
+        "general-purpose": [
+          12
+        ],
+        "enterprise": [
+          13
+        ],
+        "boxes": [
+          15
+        ],
+        "that": [
+          16,
+          183
+        ],
+        "end-users": [
+          17
+        ],
+        "can": [
+          18
+        ],
+        "configure": [
+          19
+        ],
+        "with": [
+          20,
+          48,
+          110,
+          124,
+          143,
+          156,
+          169
+        ],
+        "storage": [
+          21
+        ],
+        "and": [
+          22,
+          44,
+          53,
+          63,
+          66,
+          95,
+          160,
+          171,
+          179,
+          190
+        ],
+        "networking": [
+          23
+        ],
+        "to": [
+          24,
+          32,
+          145
+        ],
+        "assemble": [
+          25
+        ],
+        "their": [
+          26
+        ],
+        "desired": [
+          27
+        ],
+        "environments,": [
+          29
+        ],
+        "has": [
+          30,
+          67
+        ],
+        "evolved": [
+          31
+        ],
+        "purpose-built": [
+          33
+        ],
+        "systems": [
+          34,
+          89,
+          142
+        ],
+        "optimized": [
+          35
+        ],
+        "for": [
+          36,
+          58,
+          79
+        ],
+        "specific": [
+          37
+        ],
+        "applications.": [
+          38
+        ],
+        "This": [
+          39
+        ],
+        "tight": [
+          40
+        ],
+        "integration": [
+          41
+        ],
+        "hardware": [
+          43
+        ],
+        "software": [
+          45
+        ],
+        "components": [
+          46,
+          140
+        ],
+        "together": [
+          47
+        ],
+        "high-density": [
+          49
+        ],
+        "midboard": [
+          50,
+          121
+        ],
+        "optical": [
+          51,
+          55,
+          72,
+          93,
+          122,
+          132,
+          137,
+          167
+        ],
+        "modules": [
+          52
+        ],
+        "an": [
+          54
+        ],
+        "backplane": [
+          56
+        ],
+        "allows": [
+          57
+        ],
+        "unprecedented": [
+          59
+        ],
+        "levels": [
+          60
+        ],
+        "switching": [
+          62,
+          88
+        ],
+        "efficiencies": [
+          65,
+          189
+        ],
+        "fueled": [
+          68
+        ],
+        "the": [
+          69,
+          76
+        ],
+        "penetration": [
+          70
+        ],
+        "interconnects": [
+          73,
+          168
+        ],
+        "deep": [
+          74
+        ],
+        "“inside": [
+          75
+        ],
+        "box,”": [
+          77
+        ],
+        "particularly": [
+          78
+        ],
+        "switch": [
+          80,
+          108,
+          170
+        ],
+        "scale-up.": [
+          81
+        ],
+        "We": [
+          82
+        ],
+        "briefly": [
+          83
+        ],
+        "review": [
+          84
+        ],
+        "earlier": [
+          85
+        ],
+        "40": [
+          86
+        ],
+        "G/port": [
+          87,
+          103
+        ],
+        "based": [
+          90
+        ],
+        "on": [
+          91
+        ],
+        "active": [
+          92
+        ],
+        "cables,": [
+          94
+        ],
+        "present": [
+          96
+        ],
+        "our": [
+          97
+        ],
+        "newest": [
+          98
+        ],
+        "system:": [
+          99
+        ],
+        "An": [
+          100
+        ],
+        "all-optically-interconnected": [
+          101
+        ],
+        "100": [
+          102,
+          114
+        ],
+        "8.2": [
+          104
+        ],
+        "Tb/s": [
+          105,
+          147
+        ],
+        "InfiniBand": [
+          106
+        ],
+        "packet": [
+          107
+        ],
+        "ASIC": [
+          109
+        ],
+        "41": [
+          111
+        ],
+        "ports": [
+          112
+        ],
+        "running": [
+          113
+        ],
+        "Gb/s": [
+          115,
+          126
+        ],
+        "per": [
+          116,
+          127,
+          129
+        ],
+        "port": [
+          117
+        ],
+        "interconnected": [
+          118
+        ],
+        "by": [
+          119
+        ],
+        "12-channel": [
+          120
+        ],
+        "transceivers": [
+          123
+        ],
+        "25": [
+          125
+        ],
+        "channel": [
+          128
+        ],
+        "direction": [
+          130
+        ],
+        "I/O.": [
+          133
+        ],
+        "Using": [
+          134
+        ],
+        "a": [
+          135,
+          150
+        ],
+        "blind-mate": [
+          136
+        ],
+        "backplane,": [
+          138
+        ],
+        "these": [
+          139
+        ],
+        "enable": [
+          141
+        ],
+        "up": [
+          144
+        ],
+        "50": [
+          146
+        ],
+        "bandwidth": [
+          148
+        ],
+        "in": [
+          149
+        ],
+        "2U": [
+          151
+        ],
+        "standard": [
+          152
+        ],
+        "rack": [
+          153
+        ],
+        "mount": [
+          154
+        ],
+        "configuration": [
+          155
+        ],
+        "industry-leading": [
+          157
+        ],
+        "density,": [
+          158
+        ],
+        "efficiency,": [
+          159
+        ],
+        "latency.": [
+          161
+        ],
+        "For": [
+          162
+        ],
+        "even": [
+          163
+        ],
+        "tighter": [
+          164
+        ],
+        "co-integration": [
+          165
+        ],
+        "processor": [
+          172
+        ],
+        "ASICs,": [
+          173
+        ],
+        "we": [
+          174
+        ],
+        "discuss": [
+          175
+        ],
+        "photonic": [
+          176
+        ],
+        "multichip": [
+          177
+        ],
+        "module": [
+          178
+        ],
+        "interposer": [
+          180
+        ],
+        "packaging": [
+          181
+        ],
+        "technologies": [
+          182
+        ],
+        "will": [
+          184
+        ],
+        "further": [
+          185
+        ],
+        "improve": [
+          186
+        ],
+        "system": [
+          187,
+          193
+        ],
+        "energy": [
+          188
+        ],
+        "overcome": [
+          191
+        ],
+        "impending": [
+          192
+        ],
+        "I/O": [
+          194
+        ],
+        "bottlenecks.": [
+          195
+        ]
+      },
+      "counts_by_year": [
+        {
+          "year": 2026,
+          "cited_by_count": 6
+        },
+        {
+          "year": 2025,
+          "cited_by_count": 13
+        },
+        {
+          "year": 2024,
+          "cited_by_count": 8
+        },
+        {
+          "year": 2023,
+          "cited_by_count": 5
+        },
+        {
+          "year": 2022,
+          "cited_by_count": 13
+        },
+        {
+          "year": 2021,
+          "cited_by_count": 5
+        },
+        {
+          "year": 2020,
+          "cited_by_count": 15
+        },
+        {
+          "year": 2019,
+          "cited_by_count": 9
+        },
+        {
+          "year": 2018,
+          "cited_by_count": 11
+        },
+        {
+          "year": 2017,
+          "cited_by_count": 1
+        }
+      ],
+      "updated_date": "2026-11-07T11:25:07.637180",
+      "created_date": "2017-01-06T00:00:00"
+    },
+    {
+      "id": "https://openalex.org/W7197962387",
+      "doi": null,
+      "title": "Cloud management system software for network engineers",
+      "display_name": "Cloud management system software for network engineers",
+      "relevance_score": 72.77037,
+      "publication_year": 2021,
+      "publication_date": "2021-06-02",
+      "ids": {
+        "openalex": "https://openalex.org/W7197962387"
+      },
+      "language": "uk",
+      "primary_location": {
+        "id": "pmh:oai:dspace.kntu.kr.ua:123456789/11363",
+        "doi": null,
+        "is_oa": true,
+        "landing_page_url": "https://dspace.kntu.kr.ua/handle/123456789/11363",
+        "pdf_url": "https://dspace.kntu.kr.ua/bitstreams/d949e715-57fd-487a-80a9-a77dbd07f292/download",
+        "source": {
+          "id": "https://openalex.org/S4406922243",
+          "display_name": "Central Ukrainian National Technical University Repozitory",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "listed_in": [],
+          "host_organization": null,
+          "host_organization_name": null,
+          "host_organization_lineage": [],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "version": "submittedVersion",
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": null,
+        "raw_type": "Other"
+      },
+      "parent_works": [],
+      "lineage": [
+        "https://openalex.org/W7197962387"
+      ],
+      "child_works_count": 0,
+      "type": "other",
+      "is_traditional": false,
+      "indexed_in": [],
+      "open_access": {
+        "is_oa": true,
+        "oa_status": "green",
+        "oa_url": "https://dspace.kntu.kr.ua/bitstreams/d949e715-57fd-487a-80a9-a77dbd07f292/download",
+        "any_repository_has_fulltext": true
+      },
+      "authorships": [
+        {
+          "author_position": "first",
+          "author": {
+            "id": "https://openalex.org/A5017691418",
+            "display_name": "Роман Олександрович Ковтуненко",
+            "orcid": null,
+            "observed_orcids": []
+          },
+          "institutions": [],
+          "countries": [],
+          "is_corresponding": false,
+          "raw_author_name": "Ковтуненко, Роман Олександрович",
+          "raw_affiliation_strings": [],
+          "raw_orcid": null,
+          "affiliations": []
+        },
+        {
+          "author_position": "last",
+          "author": {
+            "id": "https://openalex.org/A5000535299",
+            "display_name": "Roman Kovtunenko",
+            "orcid": null,
+            "observed_orcids": []
+          },
+          "institutions": [],
+          "countries": [],
+          "is_corresponding": false,
+          "raw_author_name": "Kovtunenko, Roman",
+          "raw_affiliation_strings": [],
+          "raw_orcid": null,
+          "affiliations": []
+        }
+      ],
+      "institutions": [],
+      "countries_distinct_count": 0,
+      "institutions_distinct_count": 0,
+      "corresponding_author_ids": [],
+      "corresponding_institution_ids": [],
+      "apc_list": null,
+      "apc_paid": null,
+      "fwci": null,
+      "is_authors_truncated": false,
+      "has_fulltext": true,
+      "cited_by_count": 0,
+      "citation_normalized_percentile": null,
+      "cited_by_percentile_year": null,
+      "biblio": {
+        "volume": null,
+        "issue": null,
+        "first_page": null,
+        "last_page": null
+      },
+      "is_retracted": false,
+      "is_paratext": false,
+      "is_xpac": false,
+      "primary_topic": {
+        "id": "https://openalex.org/T10101",
+        "display_name": "Cloud Computing and Resource Management",
+        "score": 0.9086999893188477,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1710",
+          "display_name": "Information Systems"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      "topics": [
+        {
+          "id": "https://openalex.org/T10101",
+          "display_name": "Cloud Computing and Resource Management",
+          "score": 0.9086999893188477,
+          "subfield": {
+            "id": "https://openalex.org/subfields/1710",
+            "display_name": "Information Systems"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/17",
+            "display_name": "Computer Science"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T13681",
+          "display_name": "Engineering and Information Technology",
+          "score": 0.033399999141693115,
+          "subfield": {
+            "id": "https://openalex.org/subfields/1712",
+            "display_name": "Software"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/17",
+            "display_name": "Computer Science"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T14067",
+          "display_name": "Cloud Computing and Remote Desktop Technologies",
+          "score": 0.02459999918937683,
+          "subfield": {
+            "id": "https://openalex.org/subfields/1708",
+            "display_name": "Hardware and Architecture"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/17",
+            "display_name": "Computer Science"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        }
+      ],
+      "keywords": [
+        {
+          "id": "https://openalex.org/keywords/cloud-management-systems",
+          "display_name": "cloud management systems",
+          "score": 0.9850000143051147
+        },
+        {
+          "id": "https://openalex.org/keywords/network-engineers",
+          "display_name": "network engineers",
+          "score": 0.7900000214576721
+        },
+        {
+          "id": "https://openalex.org/keywords/network-management-tools",
+          "display_name": "network management software",
+          "score": 0.6269999742507935
+        },
+        {
+          "id": "https://openalex.org/keywords/user-interface-design",
+          "display_name": "user interface design",
+          "score": 0.8389999866485596
+        },
+        {
+          "id": "https://openalex.org/keywords/delphi",
+          "display_name": "Delphi",
+          "score": 0.656000018119812
+        },
+        {
+          "id": "https://openalex.org/keywords/windows-software",
+          "display_name": "Windows applications",
+          "score": 0.5099999904632568
+        },
+        {
+          "id": "https://openalex.org/keywords/software-requirements-analysis",
+          "display_name": "software requirements analysis",
+          "score": 0.5210000276565552
+        }
+      ],
+      "concepts": [
+        {
+          "id": "https://openalex.org/C79974875",
+          "wikidata": "https://www.wikidata.org/wiki/Q483639",
+          "display_name": "Cloud computing",
+          "level": 2,
+          "score": 0.5839999914169312
+        },
+        {
+          "id": "https://openalex.org/C111919701",
+          "wikidata": "https://www.wikidata.org/wiki/Q9135",
+          "display_name": "Operating system",
+          "level": 1,
+          "score": 0.5601999759674072
+        },
+        {
+          "id": "https://openalex.org/C115903868",
+          "wikidata": "https://www.wikidata.org/wiki/Q80993",
+          "display_name": "Software engineering",
+          "level": 1,
+          "score": 0.5509999990463257
+        },
+        {
+          "id": "https://openalex.org/C149091818",
+          "wikidata": "https://www.wikidata.org/wiki/Q2429814",
+          "display_name": "Software system",
+          "level": 3,
+          "score": 0.5382999777793884
+        },
+        {
+          "id": "https://openalex.org/C41008148",
+          "wikidata": "https://www.wikidata.org/wiki/Q21198",
+          "display_name": "Computer science",
+          "level": 0,
+          "score": 0.5321999788284302
+        },
+        {
+          "id": "https://openalex.org/C2777904410",
+          "wikidata": "https://www.wikidata.org/wiki/Q7397",
+          "display_name": "Software",
+          "level": 2,
+          "score": 0.5266000032424927
+        },
+        {
+          "id": "https://openalex.org/C70388272",
+          "wikidata": "https://www.wikidata.org/wiki/Q5968558",
+          "display_name": "IBM",
+          "level": 2,
+          "score": 0.5065000057220459
+        },
+        {
+          "id": "https://openalex.org/C186846655",
+          "wikidata": "https://www.wikidata.org/wiki/Q3398377",
+          "display_name": "Software construction",
+          "level": 4,
+          "score": 0.4912000000476837
+        },
+        {
+          "id": "https://openalex.org/C529173508",
+          "wikidata": "https://www.wikidata.org/wiki/Q638608",
+          "display_name": "Software development",
+          "level": 3,
+          "score": 0.48669999837875366
+        },
+        {
+          "id": "https://openalex.org/C175133352",
+          "wikidata": "https://www.wikidata.org/wiki/Q1254596",
+          "display_name": "Software as a service",
+          "level": 4,
+          "score": 0.4350999891757965
+        },
+        {
+          "id": "https://openalex.org/C21491501",
+          "wikidata": "https://www.wikidata.org/wiki/Q430253",
+          "display_name": "Backporting",
+          "level": 5,
+          "score": 0.420199990272522
+        },
+        {
+          "id": "https://openalex.org/C98045186",
+          "wikidata": "https://www.wikidata.org/wiki/Q205663",
+          "display_name": "Process (computing)",
+          "level": 2,
+          "score": 0.3540000021457672
+        },
+        {
+          "id": "https://openalex.org/C123551368",
+          "wikidata": "https://www.wikidata.org/wiki/Q7122888",
+          "display_name": "Package development process",
+          "level": 5,
+          "score": 0.3409999907016754
+        },
+        {
+          "id": "https://openalex.org/C512115632",
+          "wikidata": "https://www.wikidata.org/wiki/Q134067",
+          "display_name": "Microsoft Visual Studio",
+          "level": 3,
+          "score": 0.32839998602867126
+        },
+        {
+          "id": "https://openalex.org/C174683762",
+          "wikidata": "https://www.wikidata.org/wiki/Q609588",
+          "display_name": "Component-based software engineering",
+          "level": 4,
+          "score": 0.3255000114440918
+        },
+        {
+          "id": "https://openalex.org/C40919944",
+          "wikidata": "https://www.wikidata.org/wiki/Q947779",
+          "display_name": "Software project management",
+          "level": 5,
+          "score": 0.3246000111103058
+        },
+        {
+          "id": "https://openalex.org/C39890963",
+          "wikidata": "https://www.wikidata.org/wiki/Q1702721",
+          "display_name": "Personal software process",
+          "level": 5,
+          "score": 0.32249999046325684
+        },
+        {
+          "id": "https://openalex.org/C76518257",
+          "wikidata": "https://www.wikidata.org/wiki/Q271680",
+          "display_name": "Software framework",
+          "level": 5,
+          "score": 0.31839999556541443
+        },
+        {
+          "id": "https://openalex.org/C198783460",
+          "wikidata": "https://www.wikidata.org/wiki/Q629173",
+          "display_name": "Management system",
+          "level": 2,
+          "score": 0.3181999921798706
+        },
+        {
+          "id": "https://openalex.org/C531996449",
+          "wikidata": "https://www.wikidata.org/wiki/Q486487",
+          "display_name": "Windows NT",
+          "level": 3,
+          "score": 0.31360000371932983
+        },
+        {
+          "id": "https://openalex.org/C129763632",
+          "wikidata": "https://www.wikidata.org/wiki/Q1454667",
+          "display_name": "Network management",
+          "level": 2,
+          "score": 0.31290000677108765
+        },
+        {
+          "id": "https://openalex.org/C149635348",
+          "wikidata": "https://www.wikidata.org/wiki/Q193040",
+          "display_name": "Embedded system",
+          "level": 1,
+          "score": 0.2996000051498413
+        },
+        {
+          "id": "https://openalex.org/C508378895",
+          "wikidata": "https://www.wikidata.org/wiki/Q1406",
+          "display_name": "Microsoft Windows",
+          "level": 3,
+          "score": 0.2971999943256378
+        },
+        {
+          "id": "https://openalex.org/C146778888",
+          "wikidata": "https://www.wikidata.org/wiki/Q836862",
+          "display_name": "Installation",
+          "level": 2,
+          "score": 0.2922999858856201
+        },
+        {
+          "id": "https://openalex.org/C48002344",
+          "wikidata": "https://www.wikidata.org/wiki/Q2919644",
+          "display_name": "Verification and validation",
+          "level": 2,
+          "score": 0.28940001130104065
+        },
+        {
+          "id": "https://openalex.org/C77741850",
+          "wikidata": "https://www.wikidata.org/wiki/Q751046",
+          "display_name": "IBM PC compatible",
+          "level": 3,
+          "score": 0.28929999470710754
+        },
+        {
+          "id": "https://openalex.org/C36871734",
+          "wikidata": "https://www.wikidata.org/wiki/Q613566",
+          "display_name": "Software configuration management",
+          "level": 5,
+          "score": 0.27709999680519104
+        },
+        {
+          "id": "https://openalex.org/C53621112",
+          "wikidata": "https://www.wikidata.org/wiki/Q7300774",
+          "display_name": "Real-time Control System Software",
+          "level": 5,
+          "score": 0.2766999900341034
+        },
+        {
+          "id": "https://openalex.org/C180152950",
+          "wikidata": "https://www.wikidata.org/wiki/Q2904257",
+          "display_name": "Software development process",
+          "level": 4,
+          "score": 0.27250000834465027
+        },
+        {
+          "id": "https://openalex.org/C30452754",
+          "wikidata": "https://www.wikidata.org/wiki/Q621590",
+          "display_name": "Application lifecycle management",
+          "level": 3,
+          "score": 0.26930001378059387
+        },
+        {
+          "id": "https://openalex.org/C120115606",
+          "wikidata": "https://www.wikidata.org/wiki/Q5135723",
+          "display_name": "Cloud testing",
+          "level": 4,
+          "score": 0.26930001378059387
+        },
+        {
+          "id": "https://openalex.org/C127413603",
+          "wikidata": "https://www.wikidata.org/wiki/Q11023",
+          "display_name": "Engineering",
+          "level": 0,
+          "score": 0.25940001010894775
+        },
+        {
+          "id": "https://openalex.org/C201995342",
+          "wikidata": "https://www.wikidata.org/wiki/Q682496",
+          "display_name": "Systems engineering",
+          "level": 1,
+          "score": 0.2572000026702881
+        },
+        {
+          "id": "https://openalex.org/C2779960034",
+          "wikidata": "https://www.wikidata.org/wiki/Q676202",
+          "display_name": "System software",
+          "level": 3,
+          "score": 0.25429999828338623
+        },
+        {
+          "id": "https://openalex.org/C8816202",
+          "wikidata": "https://www.wikidata.org/wiki/Q4476407",
+          "display_name": "Systems management",
+          "level": 2,
+          "score": 0.25099998712539673
+        }
+      ],
+      "mesh": [],
+      "locations_count": 1,
+      "locations": [
+        {
+          "id": "pmh:oai:dspace.kntu.kr.ua:123456789/11363",
+          "doi": null,
+          "is_oa": true,
+          "landing_page_url": "https://dspace.kntu.kr.ua/handle/123456789/11363",
+          "pdf_url": "https://dspace.kntu.kr.ua/bitstreams/d949e715-57fd-487a-80a9-a77dbd07f292/download",
+          "source": {
+            "id": "https://openalex.org/S4406922243",
+            "display_name": "Central Ukrainian National Technical University Repozitory",
+            "issn_l": null,
+            "issn": null,
+            "is_oa": false,
+            "is_in_doaj": false,
+            "is_core": false,
+            "listed_in": [],
+            "host_organization": null,
+            "host_organization_name": null,
+            "host_organization_lineage": [],
+            "host_organization_lineage_names": [],
+            "type": "repository"
+          },
+          "license": "cc-by",
+          "license_id": "https://openalex.org/licenses/cc-by",
+          "version": "submittedVersion",
+          "is_accepted": false,
+          "is_published": false,
+          "raw_source_name": null,
+          "raw_type": "Other"
+        }
+      ],
+      "best_oa_location": {
+        "id": "pmh:oai:dspace.kntu.kr.ua:123456789/11363",
+        "doi": null,
+        "is_oa": true,
+        "landing_page_url": "https://dspace.kntu.kr.ua/handle/123456789/11363",
+        "pdf_url": "https://dspace.kntu.kr.ua/bitstreams/d949e715-57fd-487a-80a9-a77dbd07f292/download",
+        "source": {
+          "id": "https://openalex.org/S4406922243",
+          "display_name": "Central Ukrainian National Technical University Repozitory",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "listed_in": [],
+          "host_organization": null,
+          "host_organization_name": null,
+          "host_organization_lineage": [],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "version": "submittedVersion",
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": null,
+        "raw_type": "Other"
+      },
+      "sustainable_development_goals": [],
+      "study_designs": [],
+      "awards": [],
+      "funders": [],
+      "has_content": {
+        "grobid_xml": true,
+        "pdf": true
+      },
+      "content_urls": {
+        "pdf": "https://content.openalex.org/works/W7197962387.pdf",
+        "grobid_xml": "https://content.openalex.org/works/W7197962387.grobid-xml"
+      },
+      "referenced_works_count": 0,
+      "referenced_works": [],
+      "related_works": [
+        "https://openalex.org/W7197240897",
+        "https://openalex.org/W7197654231",
+        "https://openalex.org/W7198347267",
+        "https://openalex.org/W7217270689",
+        "https://openalex.org/W3217340268",
+        "https://openalex.org/W7052193582",
+        "https://openalex.org/W7016409687",
+        "https://openalex.org/W7214816964",
+        "https://openalex.org/W7160260354",
+        "https://openalex.org/W6941711694"
+      ],
+      "abstract_inverted_index": {
+        "В": [
+          0,
+          39,
+          52
+        ],
+        "даній": [
+          1
+        ],
+        "кваліфікаційній": [
+          2
+        ],
+        "бакалаврській": [
+          3
+        ],
+        "роботі": [
+          4,
+          68
+        ],
+        "розроблено": [
+          5,
+          85
+        ],
+        "програмне": [
+          6,
+          20
+        ],
+        "забезпечення,": [
+          7
+        ],
+        "яке": [
+          8
+        ],
+        "призначено": [
+          9
+        ],
+        "для": [
+          10,
+          14,
+          25,
+          36
+        ],
+        "системи": [
+          11,
+          22,
+          33
+        ],
+        "керування": [
+          12,
+          23,
+          34
+        ],
+        "хмарою": [
+          13,
+          24,
+          35
+        ],
+        "мережевих": [
+          15,
+          26,
+          37
+        ],
+        "інженерів.": [
+          16,
+          27,
+          38
+        ],
+        "Метою": [
+          17
+        ],
+        "розробки": [
+          18
+        ],
+        "є": [
+          19
+        ],
+        "забезпечення": [
+          21
+        ],
+        "Результат": [
+          28
+        ],
+        "роботи": [
+          29,
+          41
+        ],
+        "–": [
+          30
+        ],
+        "програмна": [
+          31
+        ],
+        "реалізація": [
+          32
+        ],
+        "процесі": [
+          40
+        ],
+        "над": [
+          42
+        ],
+        "програмною": [
+          43
+        ],
+        "моделлю": [
+          44
+        ],
+        "виконано": [
+          45
+        ],
+        "аналіз": [
+          46
+        ],
+        "існуючих": [
+          47
+        ],
+        "апаратних": [
+          48
+        ],
+        "та": [
+          49
+        ],
+        "програмних": [
+          50
+        ],
+        "засобів.": [
+          51
+        ],
+        "повній": [
+          53
+        ],
+        "мірі": [
+          54
+        ],
+        "описані": [
+          55
+        ],
+        "всі": [
+          56
+        ],
+        "компоненти": [
+          57
+        ],
+        "розробленого": [
+          58
+        ],
+        "програмного": [
+          59
+        ],
+        "забезпечення.": [
+          60
+        ],
+        "Розроблено": [
+          61
+        ],
+        "зручний": [
+          62
+        ],
+        "інтерфейс": [
+          63
+        ],
+        "користувача.": [
+          64
+        ],
+        "Наведені": [
+          65
+        ],
+        "інструкції": [
+          66
+        ],
+        "по": [
+          67
+        ],
+        "з": [
+          69,
+          80
+        ],
+        "програмними": [
+          70
+        ],
+        "засобами.": [
+          71
+        ],
+        "Програма": [
+          72
+        ],
+        "може": [
+          73
+        ],
+        "використовуватися": [
+          74
+        ],
+        "на": [
+          75
+        ],
+        "ПЕОМ": [
+          76
+        ],
+        "архітектури": [
+          77
+        ],
+        "IBM": [
+          78,
+          181
+        ],
+        "PC": [
+          79,
+          182
+        ],
+        "ОС": [
+          81
+        ],
+        "Windows": [
+          82,
+          184
+        ],
+        "ХР/Vista/7/8/10.": [
+          83
+        ],
+        "Програму": [
+          84
+        ],
+        "в": [
+          86
+        ],
+        "середовищі": [
+          87
+        ],
+        "RAD": [
+          88,
+          198
+        ],
+        "Studio": [
+          89,
+          199
+        ],
+        "Delphi.": [
+          90,
+          200
+        ],
+        "In": [
+          91,
+          137
+        ],
+        "this": [
+          92
+        ],
+        "bachelor's": [
+          93
+        ],
+        "qualification,": [
+          94
+        ],
+        "software": [
+          95,
+          119,
+          127,
+          144,
+          152,
+          160,
+          171
+        ],
+        "has": [
+          96
+        ],
+        "been": [
+          97
+        ],
+        "developed": [
+          98,
+          159,
+          193
+        ],
+        "that": [
+          99
+        ],
+        "is": [
+          100,
+          115,
+          125,
+          192
+        ],
+        "designed": [
+          101
+        ],
+        "for": [
+          102,
+          107,
+          120,
+          134,
+          168
+        ],
+        "a": [
+          103,
+          126,
+          130
+        ],
+        "cloud": [
+          104,
+          116,
+          131
+        ],
+        "management": [
+          105,
+          117,
+          132
+        ],
+        "system": [
+          106,
+          118,
+          133
+        ],
+        "network": [
+          108,
+          121,
+          135
+        ],
+        "engineers.": [
+          109,
+          122,
+          136
+        ],
+        "The": [
+          110,
+          123,
+          174,
+          190
+        ],
+        "purpose": [
+          111
+        ],
+        "of": [
+          112,
+          129,
+          140,
+          148,
+          157,
+          197
+        ],
+        "the": [
+          113,
+          138,
+          143,
+          158,
+          195
+        ],
+        "development": [
+          114
+        ],
+        "result": [
+          124
+        ],
+        "implementation": [
+          128
+        ],
+        "process": [
+          139
+        ],
+        "working": [
+          141,
+          169
+        ],
+        "on": [
+          142,
+          179
+        ],
+        "model,": [
+          145
+        ],
+        "an": [
+          146,
+          180
+        ],
+        "analysis": [
+          147
+        ],
+        "existing": [
+          149
+        ],
+        "hardware": [
+          150
+        ],
+        "and": [
+          151
+        ],
+        "was": [
+          153
+        ],
+        "performed.": [
+          154
+        ],
+        "All": [
+          155
+        ],
+        "components": [
+          156
+        ],
+        "are": [
+          161,
+          172
+        ],
+        "fully": [
+          162
+        ],
+        "described.": [
+          163
+        ],
+        "Developed": [
+          164
+        ],
+        "user-friendly": [
+          165
+        ],
+        "interface.": [
+          166
+        ],
+        "Instructions": [
+          167
+        ],
+        "with": [
+          170,
+          183
+        ],
+        "given.": [
+          173
+        ],
+        "program": [
+          175,
+          191
+        ],
+        "can": [
+          176
+        ],
+        "be": [
+          177
+        ],
+        "used": [
+          178
+        ],
+        "XP": [
+          185
+        ],
+        "/": [
+          186,
+          188
+        ],
+        "Vista": [
+          187
+        ],
+        "7/8/10.": [
+          189
+        ],
+        "in": [
+          194
+        ],
+        "environment": [
+          196
+        ]
+      },
+      "counts_by_year": [],
+      "updated_date": "2026-08-09T07:27:16.801131",
+      "created_date": "2026-08-07T00:00:00"
+    },
+    {
+      "id": "https://openalex.org/W4293707139",
+      "doi": "https://doi.org/10.55056/cte.178",
+      "title": "Using cloud technologies in the training of computer systems engineers",
+      "display_name": "Using cloud technologies in the training of computer systems engineers",
+      "relevance_score": 69.95546,
+      "publication_year": 2013,
+      "publication_date": "2013-03-21",
+      "ids": {
+        "openalex": "https://openalex.org/W4293707139",
+        "doi": "https://doi.org/10.55056/cte.178"
+      },
+      "language": "en",
+      "primary_location": {
+        "id": "doi:10.55056/cte.178",
+        "doi": "https://doi.org/10.55056/cte.178",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.55056/cte.178",
+        "pdf_url": "https://acnsci.org/journal/index.php/cte/article/download/178/176",
+        "source": {
+          "id": "https://openalex.org/S4387282930",
+          "display_name": "CTE Workshop Proceedings",
+          "issn_l": "2833-5473",
+          "issn": [
+            "2833-5473"
+          ],
+          "is_oa": true,
+          "is_in_doaj": true,
+          "is_core": false,
+          "listed_in": [
+            "doaj",
+            "erih-plus",
+            "norway-1"
+          ],
+          "host_organization": "https://openalex.org/P4366728417",
+          "host_organization_name": "Academy of Cognitive and Natural Sciences",
+          "host_organization_lineage": [
+            "https://openalex.org/P4366728417"
+          ],
+          "host_organization_lineage_names": [
+            "Academy of Cognitive and Natural Sciences"
+          ],
+          "type": "journal"
+        },
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "CTE Workshop Proceedings",
+        "raw_type": "journal-article"
+      },
+      "parent_works": [],
+      "lineage": [
+        "https://openalex.org/W4293707139"
+      ],
+      "child_works_count": 0,
+      "type": "conference-paper",
+      "is_traditional": true,
+      "indexed_in": [
+        "crossref",
+        "doaj"
+      ],
+      "open_access": {
+        "is_oa": true,
+        "oa_status": "diamond",
+        "oa_url": "https://acnsci.org/journal/index.php/cte/article/download/178/176",
+        "any_repository_has_fulltext": false
+      },
+      "authorships": [
+        {
+          "author_position": "first",
+          "author": {
+            "id": null,
+            "display_name": "T. V. Bodnenko",
+            "orcid": "https://orcid.org/0000-0002-9790-2718",
+            "observed_orcids": [
+              "https://orcid.org/0000-0002-9790-2718"
+            ]
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I3129995574",
+              "display_name": "Cherkasy National University",
+              "ror": "https://ror.org/009apaj69",
+              "country_code": "UA",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I3129995574"
+              ]
+            }
+          ],
+          "countries": [
+            "UA"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "T. V. Bodnenko",
+          "raw_affiliation_strings": [
+            "Cherkasy National University"
+          ],
+          "raw_orcid": "https://orcid.org/0000-0002-9790-2718",
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Cherkasy National University",
+              "institution_ids": [
+                "https://openalex.org/I3129995574"
+              ]
+            }
+          ]
+        },
+        {
+          "author_position": "last",
+          "author": {
+            "id": "https://openalex.org/A5060003906",
+            "display_name": "O. V. Kharchenko",
+            "orcid": null,
+            "observed_orcids": []
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I3129995574",
+              "display_name": "Cherkasy National University",
+              "ror": "https://ror.org/009apaj69",
+              "country_code": "UA",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I3129995574"
+              ]
+            }
+          ],
+          "countries": [
+            "UA"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "O. V. Kharchenko",
+          "raw_affiliation_strings": [
+            "Cherkasy National University"
+          ],
+          "raw_orcid": null,
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Cherkasy National University",
+              "institution_ids": [
+                "https://openalex.org/I3129995574"
+              ]
+            }
+          ]
+        }
+      ],
+      "institutions": [],
+      "countries_distinct_count": 1,
+      "institutions_distinct_count": 1,
+      "corresponding_author_ids": [],
+      "corresponding_institution_ids": [
+        "https://openalex.org/I3129995574"
+      ],
+      "apc_list": null,
+      "apc_paid": null,
+      "fwci": 0.0,
+      "is_authors_truncated": false,
+      "has_fulltext": true,
+      "cited_by_count": 0,
+      "citation_normalized_percentile": {
+        "value": 0.0,
+        "is_in_top_1_percent": false,
+        "is_in_top_10_percent": false
+      },
+      "cited_by_percentile_year": null,
+      "biblio": {
+        "volume": "1",
+        "issue": null,
+        "first_page": "149",
+        "last_page": "149"
+      },
+      "is_retracted": false,
+      "is_paratext": false,
+      "is_xpac": false,
+      "primary_topic": {
+        "id": "https://openalex.org/T13016",
+        "display_name": "Innovative Educational Technologies",
+        "score": 0.9980000257492065,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3304",
+          "display_name": "Education"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/33",
+          "display_name": "Social Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      "topics": [
+        {
+          "id": "https://openalex.org/T13016",
+          "display_name": "Innovative Educational Technologies",
+          "score": 0.9980000257492065,
+          "subfield": {
+            "id": "https://openalex.org/subfields/3304",
+            "display_name": "Education"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/33",
+            "display_name": "Social Sciences"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/2",
+            "display_name": "Social Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T14519",
+          "display_name": "Innovations in Education and Learning Technologies",
+          "score": 0.0007999999797903001,
+          "subfield": {
+            "id": "https://openalex.org/subfields/3304",
+            "display_name": "Education"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/33",
+            "display_name": "Social Sciences"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/2",
+            "display_name": "Social Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T12124",
+          "display_name": "Engineering Education and Curriculum Development",
+          "score": 0.0003000000142492354,
+          "subfield": {
+            "id": "https://openalex.org/subfields/3304",
+            "display_name": "Education"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/33",
+            "display_name": "Social Sciences"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/2",
+            "display_name": "Social Sciences"
+          }
+        }
+      ],
+      "keywords": [
+        {
+          "id": "https://openalex.org/keywords/cloud-technologies",
+          "display_name": "cloud technologies",
+          "score": 0.800000011920929
+        },
+        {
+          "id": "https://openalex.org/keywords/computer-systems-engineering-education",
+          "display_name": "computer systems engineering education",
+          "score": 0.8799999952316284
+        },
+        {
+          "id": "https://openalex.org/keywords/professional-competence",
+          "display_name": "professional competence",
+          "score": 0.7730000019073486
+        },
+        {
+          "id": "https://openalex.org/keywords/online-assessment",
+          "display_name": "online assessment",
+          "score": 0.6539999842643738
+        },
+        {
+          "id": "https://openalex.org/keywords/remote-assessment",
+          "display_name": "remote assessment",
+          "score": 0.6660000085830688
+        },
+        {
+          "id": "https://openalex.org/keywords/data-security",
+          "display_name": "data security",
+          "score": 0.6060000061988831
+        },
+        {
+          "id": "https://openalex.org/keywords/self-assessment",
+          "display_name": "self-assessment",
+          "score": 0.8370000123977661
+        },
+        {
+          "id": "https://openalex.org/keywords/distance-education",
+          "display_name": "distance education",
+          "score": 0.6190000176429749
+        },
+        {
+          "id": "https://openalex.org/keywords/quality-of-specialist-training",
+          "display_name": "quality of specialist training",
+          "score": 0.6859999895095825
+        }
+      ],
+      "concepts": [
+        {
+          "id": "https://openalex.org/C79974875",
+          "wikidata": "https://www.wikidata.org/wiki/Q483639",
+          "display_name": "Cloud computing",
+          "level": 2,
+          "score": 0.8305453658103943
+        },
+        {
+          "id": "https://openalex.org/C71745522",
+          "wikidata": "https://www.wikidata.org/wiki/Q2476929",
+          "display_name": "Confidentiality",
+          "level": 2,
+          "score": 0.723838210105896
+        },
+        {
+          "id": "https://openalex.org/C100521375",
+          "wikidata": "https://www.wikidata.org/wiki/Q2015382",
+          "display_name": "Competence (human resources)",
+          "level": 2,
+          "score": 0.6265100836753845
+        },
+        {
+          "id": "https://openalex.org/C41008148",
+          "wikidata": "https://www.wikidata.org/wiki/Q21198",
+          "display_name": "Computer science",
+          "level": 0,
+          "score": 0.61441570520401
+        },
+        {
+          "id": "https://openalex.org/C98045186",
+          "wikidata": "https://www.wikidata.org/wiki/Q205663",
+          "display_name": "Process (computing)",
+          "level": 2,
+          "score": 0.578319787979126
+        },
+        {
+          "id": "https://openalex.org/C207267971",
+          "wikidata": "https://www.wikidata.org/wiki/Q120208",
+          "display_name": "Emerging technologies",
+          "level": 2,
+          "score": 0.4684104323387146
+        },
+        {
+          "id": "https://openalex.org/C2779530757",
+          "wikidata": "https://www.wikidata.org/wiki/Q1207505",
+          "display_name": "Quality (philosophy)",
+          "level": 2,
+          "score": 0.4530763328075409
+        },
+        {
+          "id": "https://openalex.org/C110354214",
+          "wikidata": "https://www.wikidata.org/wiki/Q6314146",
+          "display_name": "Engineering management",
+          "level": 1,
+          "score": 0.4044119119644165
+        },
+        {
+          "id": "https://openalex.org/C49774154",
+          "wikidata": "https://www.wikidata.org/wiki/Q131765",
+          "display_name": "Multimedia",
+          "level": 1,
+          "score": 0.3900551199913025
+        },
+        {
+          "id": "https://openalex.org/C127413603",
+          "wikidata": "https://www.wikidata.org/wiki/Q11023",
+          "display_name": "Engineering",
+          "level": 0,
+          "score": 0.2733455300331116
+        },
+        {
+          "id": "https://openalex.org/C38652104",
+          "wikidata": "https://www.wikidata.org/wiki/Q3510521",
+          "display_name": "Computer security",
+          "level": 1,
+          "score": 0.21679797768592834
+        },
+        {
+          "id": "https://openalex.org/C15744967",
+          "wikidata": "https://www.wikidata.org/wiki/Q9418",
+          "display_name": "Psychology",
+          "level": 0,
+          "score": 0.14600199460983276
+        },
+        {
+          "id": "https://openalex.org/C154945302",
+          "wikidata": "https://www.wikidata.org/wiki/Q11660",
+          "display_name": "Artificial intelligence",
+          "level": 1,
+          "score": 0.12046840786933899
+        },
+        {
+          "id": "https://openalex.org/C138885662",
+          "wikidata": "https://www.wikidata.org/wiki/Q5891",
+          "display_name": "Philosophy",
+          "level": 0,
+          "score": 0.0
+        },
+        {
+          "id": "https://openalex.org/C77805123",
+          "wikidata": "https://www.wikidata.org/wiki/Q161272",
+          "display_name": "Social psychology",
+          "level": 1,
+          "score": 0.0
+        },
+        {
+          "id": "https://openalex.org/C111472728",
+          "wikidata": "https://www.wikidata.org/wiki/Q9471",
+          "display_name": "Epistemology",
+          "level": 1,
+          "score": 0.0
+        },
+        {
+          "id": "https://openalex.org/C111919701",
+          "wikidata": "https://www.wikidata.org/wiki/Q9135",
+          "display_name": "Operating system",
+          "level": 1,
+          "score": 0.0
+        }
+      ],
+      "mesh": [],
+      "locations_count": 2,
+      "locations": [
+        {
+          "id": "doi:10.55056/cte.178",
+          "doi": "https://doi.org/10.55056/cte.178",
+          "is_oa": true,
+          "landing_page_url": "https://doi.org/10.55056/cte.178",
+          "pdf_url": "https://acnsci.org/journal/index.php/cte/article/download/178/176",
+          "source": {
+            "id": "https://openalex.org/S4387282930",
+            "display_name": "CTE Workshop Proceedings",
+            "issn_l": "2833-5473",
+            "issn": [
+              "2833-5473"
+            ],
+            "is_oa": true,
+            "is_in_doaj": true,
+            "is_core": false,
+            "listed_in": [
+              "doaj",
+              "erih-plus",
+              "norway-1"
+            ],
+            "host_organization": "https://openalex.org/P4366728417",
+            "host_organization_name": "Academy of Cognitive and Natural Sciences",
+            "host_organization_lineage": [
+              "https://openalex.org/P4366728417"
+            ],
+            "host_organization_lineage_names": [
+              "Academy of Cognitive and Natural Sciences"
+            ],
+            "type": "journal"
+          },
+          "license": "cc-by",
+          "license_id": "https://openalex.org/licenses/cc-by",
+          "version": "publishedVersion",
+          "is_accepted": true,
+          "is_published": true,
+          "raw_source_name": "CTE Workshop Proceedings",
+          "raw_type": "journal-article"
+        },
+        {
+          "id": "pmh:oai:doaj.org/article:bca73cc8779340f79c499fbbe3bc0bf9",
+          "doi": null,
+          "is_oa": false,
+          "landing_page_url": "https://doaj.org/article/bca73cc8779340f79c499fbbe3bc0bf9",
+          "pdf_url": null,
+          "source": {
+            "id": "https://openalex.org/S4306401280",
+            "display_name": "DOAJ (DOAJ: Directory of Open Access Journals)",
+            "issn_l": null,
+            "issn": null,
+            "is_oa": false,
+            "is_in_doaj": false,
+            "is_core": false,
+            "listed_in": [],
+            "host_organization": null,
+            "host_organization_name": null,
+            "host_organization_lineage": [],
+            "host_organization_lineage_names": [],
+            "type": "repository"
+          },
+          "license": null,
+          "license_id": null,
+          "version": "submittedVersion",
+          "is_accepted": false,
+          "is_published": false,
+          "raw_source_name": "CTE Workshop Proceedings, Vol 1 (2013)",
+          "raw_type": "article"
+        }
+      ],
+      "best_oa_location": {
+        "id": "doi:10.55056/cte.178",
+        "doi": "https://doi.org/10.55056/cte.178",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.55056/cte.178",
+        "pdf_url": "https://acnsci.org/journal/index.php/cte/article/download/178/176",
+        "source": {
+          "id": "https://openalex.org/S4387282930",
+          "display_name": "CTE Workshop Proceedings",
+          "issn_l": "2833-5473",
+          "issn": [
+            "2833-5473"
+          ],
+          "is_oa": true,
+          "is_in_doaj": true,
+          "is_core": false,
+          "listed_in": [
+            "doaj",
+            "erih-plus",
+            "norway-1"
+          ],
+          "host_organization": "https://openalex.org/P4366728417",
+          "host_organization_name": "Academy of Cognitive and Natural Sciences",
+          "host_organization_lineage": [
+            "https://openalex.org/P4366728417"
+          ],
+          "host_organization_lineage_names": [
+            "Academy of Cognitive and Natural Sciences"
+          ],
+          "type": "journal"
+        },
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "CTE Workshop Proceedings",
+        "raw_type": "journal-article"
+      },
+      "sustainable_development_goals": [
+        {
+          "display_name": "Quality education",
+          "id": "https://metadata.un.org/sdg/4",
+          "score": 0.975600004196167
+        }
+      ],
+      "study_designs": [],
+      "awards": [],
+      "funders": [],
+      "has_content": {
+        "grobid_xml": true,
+        "pdf": true
+      },
+      "content_urls": {
+        "pdf": "https://content.openalex.org/works/W4293707139.pdf",
+        "grobid_xml": "https://content.openalex.org/works/W4293707139.grobid-xml"
+      },
+      "referenced_works_count": 0,
+      "referenced_works": [],
+      "related_works": [
+        "https://openalex.org/W4293584173",
+        "https://openalex.org/W4285450619",
+        "https://openalex.org/W2605482370",
+        "https://openalex.org/W2770412722",
+        "https://openalex.org/W7135601530",
+        "https://openalex.org/W1640163539",
+        "https://openalex.org/W6941967700",
+        "https://openalex.org/W4294376170",
+        "https://openalex.org/W2922049471",
+        "https://openalex.org/W2794068173"
+      ],
+      "abstract_inverted_index": {
+        "One": [
+          0
+        ],
+        "of": [
+          1,
+          11,
+          21,
+          32,
+          36,
+          40,
+          50,
+          58,
+          62,
+          68,
+          71,
+          90,
+          114,
+          119,
+          129,
+          142,
+          144,
+          147
+        ],
+        "the": [
+          2,
+          9,
+          19,
+          30,
+          38,
+          54,
+          66,
+          88,
+          106,
+          112,
+          140
+        ],
+        "ways": [
+          3
+        ],
+        "to": [
+          4,
+          17,
+          101,
+          126,
+          137,
+          149
+        ],
+        "use": [
+          5,
+          61,
+          118
+        ],
+        "cloud": [
+          6,
+          63,
+          95,
+          120
+        ],
+        "technologies": [
+          7,
+          64,
+          96
+        ],
+        "in": [
+          8,
+          26,
+          29,
+          65,
+          111,
+          139
+        ],
+        "process": [
+          10,
+          20,
+          113,
+          141
+        ],
+        "computer": [
+          12,
+          73
+        ],
+        "systems": [
+          13,
+          74
+        ],
+        "engineer": [
+          14,
+          75
+        ],
+        "training": [
+          15,
+          42
+        ],
+        "is": [
+          16,
+          109
+        ],
+        "control": [
+          18
+        ],
+        "forming": [
+          22
+        ],
+        "his/her": [
+          23
+        ],
+        "professional": [
+          24,
+          69
+        ],
+        "competence,": [
+          25
+        ],
+        "particular": [
+          27
+        ],
+        "-": [
+          28
+        ],
+        "form": [
+          31
+        ],
+        "testing.": [
+          33
+        ],
+        "This": [
+          34
+        ],
+        "way": [
+          35
+        ],
+        "assessing": [
+          37
+        ],
+        "quality": [
+          39,
+          89
+        ],
+        "specialist": [
+          41
+        ],
+        "will": [
+          43,
+          76
+        ],
+        "allow": [
+          44,
+          77
+        ],
+        "testing": [
+          45
+        ],
+        "and": [
+          46,
+          56,
+          86
+        ],
+        "teaching": [
+          47
+        ],
+        "students": [
+          48,
+          100
+        ],
+        "regardless": [
+          49
+        ],
+        "their": [
+          51
+        ],
+        "location,": [
+          52
+        ],
+        "ensuring": [
+          53
+        ],
+        "security": [
+          55
+        ],
+        "confidentiality": [
+          57
+        ],
+        "all": [
+          59
+        ],
+        "data.The": [
+          60
+        ],
+        "formation": [
+          67
+        ],
+        "competence": [
+          70
+        ],
+        "a": [
+          72,
+          154,
+          157
+        ],
+        "overcoming": [
+          78
+        ],
+        "such": [
+          79
+        ],
+        "existing": [
+          80
+        ],
+        "barriers": [
+          81
+        ],
+        "as": [
+          82
+        ],
+        "technological,": [
+          83
+        ],
+        "geographical,": [
+          84
+        ],
+        "social,": [
+          85
+        ],
+        "improve": [
+          87
+        ],
+        "education.": [
+          91
+        ],
+        "Conducting": [
+          92
+        ],
+        "inspections": [
+          93
+        ],
+        "using": [
+          94
+        ],
+        "does": [
+          97
+        ],
+        "not": [
+          98,
+          123
+        ],
+        "require": [
+          99
+        ],
+        "be": [
+          102
+        ],
+        "physically": [
+          103
+        ],
+        "present": [
+          104
+        ],
+        "during": [
+          105
+        ],
+        "inspection,": [
+          107
+        ],
+        "which": [
+          108
+        ],
+        "important": [
+          110
+        ],
+        "modern": [
+          115
+        ],
+        "life.": [
+          116
+        ],
+        "The": [
+          117
+        ],
+        "technology": [
+          121
+        ],
+        "allows": [
+          122
+        ],
+        "only": [
+          124
+        ],
+        "access": [
+          125
+        ],
+        "educational": [
+          127
+        ],
+        "materials": [
+          128
+        ],
+        "different": [
+          130
+        ],
+        "types": [
+          131
+        ],
+        "(text,": [
+          132
+        ],
+        "visual,": [
+          133
+        ],
+        "multimedia),": [
+          134
+        ],
+        "but": [
+          135
+        ],
+        "also": [
+          136
+        ],
+        "participate": [
+          138
+        ],
+        "self-assessment": [
+          143
+        ],
+        "personal": [
+          145
+        ],
+        "level": [
+          146
+        ],
+        "achievement,": [
+          148
+        ],
+        "perform": [
+          150
+        ],
+        "joint": [
+          151
+        ],
+        "work": [
+          152
+        ],
+        "with": [
+          153
+        ],
+        "group": [
+          155
+        ],
+        "or": [
+          156
+        ],
+        "teacher.": [
+          158
+        ]
+      },
+      "counts_by_year": [],
+      "updated_date": "2026-11-14T11:04:58.165337",
+      "created_date": "2022-08-31T00:00:00"
+    },
+    {
+      "id": "https://openalex.org/W3133014558",
+      "doi": "https://doi.org/10.1115/1.4050247",
+      "title": "Knowledge-Based Design Guidance System for Cloud-Based Decision Support in the Design of Complex Engineered Systems",
+      "display_name": "Knowledge-Based Design Guidance System for Cloud-Based Decision Support in the Design of Complex Engineered Systems",
+      "relevance_score": 65.11497,
+      "publication_year": 2021,
+      "publication_date": "2021-02-22",
+      "ids": {
+        "openalex": "https://openalex.org/W3133014558",
+        "doi": "https://doi.org/10.1115/1.4050247",
+        "mag": "3133014558"
+      },
+      "language": "en",
+      "primary_location": {
+        "id": "doi:10.1115/1.4050247",
+        "doi": "https://doi.org/10.1115/1.4050247",
+        "is_oa": false,
+        "landing_page_url": "https://doi.org/10.1115/1.4050247",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S88457320",
+          "display_name": "Journal of Mechanical Design",
+          "issn_l": "0161-8458",
+          "issn": [
+            "0161-8458",
+            "1050-0472",
+            "1528-9001"
+          ],
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": true,
+          "listed_in": [
+            "anvur-scientific",
+            "cwts-core",
+            "dongbi-b",
+            "jufo-2",
+            "norway-1",
+            "poland-100",
+            "russia-white-list-1"
+          ],
+          "host_organization": "https://openalex.org/P4310321320",
+          "host_organization_name": "American Society of Mechanical Engineers",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310321320"
+          ],
+          "host_organization_lineage_names": [
+            "American Society of Mechanical Engineers"
+          ],
+          "type": "journal"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Journal of Mechanical Design",
+        "raw_type": "journal-article"
+      },
+      "parent_works": [],
+      "lineage": [
+        "https://openalex.org/W3133014558"
+      ],
+      "child_works_count": 0,
+      "type": "article",
+      "is_traditional": true,
+      "indexed_in": [
+        "crossref"
+      ],
+      "open_access": {
+        "is_oa": false,
+        "oa_status": "closed",
+        "oa_url": null,
+        "any_repository_has_fulltext": false
+      },
+      "authorships": [
+        {
+          "author_position": "first",
+          "author": {
+            "id": "https://openalex.org/A5100431093",
+            "display_name": "Ru Wang",
+            "orcid": "https://orcid.org/0000-0003-2106-9800",
+            "observed_orcids": [
+              "https://orcid.org/0000-0003-2106-9800",
+              "https://orcid.org/0000-0002-5042-6179"
+            ]
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I125839683",
+              "display_name": "Beijing Institute of Technology",
+              "ror": "https://ror.org/01skt4w74",
+              "country_code": "CN",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I125839683",
+                "https://openalex.org/I890469752"
+              ]
+            }
+          ],
+          "countries": [
+            "CN"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "Ru Wang",
+          "raw_affiliation_strings": [
+            "School of Mechanical Engineering, Beijing Institute of Technology, Rm 343, No. 1 Teaching Building, No. 5 Zhongguancun South Street, Haidian District, Beijing 100081, China"
+          ],
+          "raw_orcid": null,
+          "affiliations": [
+            {
+              "raw_affiliation_string": "School of Mechanical Engineering, Beijing Institute of Technology, Rm 343, No. 1 Teaching Building, No. 5 Zhongguancun South Street, Haidian District, Beijing 100081, China",
+              "institution_ids": [
+                "https://openalex.org/I125839683"
+              ]
+            }
+          ]
+        },
+        {
+          "author_position": "middle",
+          "author": {
+            "id": "https://openalex.org/A5054040946",
+            "display_name": "Jelena Milisavljevic-Syed",
+            "orcid": "https://orcid.org/0000-0003-2957-8933",
+            "observed_orcids": [
+              "https://orcid.org/0000-0003-2957-8933"
+            ]
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I146655781",
+              "display_name": "University of Liverpool",
+              "ror": "https://ror.org/04xs57h96",
+              "country_code": "GB",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I146655781"
+              ]
+            }
+          ],
+          "countries": [
+            "GB"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "Jelena Milisavljevic-Syed",
+          "raw_affiliation_strings": [
+            "Systems Realization Laboratory, Division of Industrial Design, School of Engineering, The University of Liverpool, Brodie Tower, Brownlow Hill, Liverpool, L69 3GH, UK"
+          ],
+          "raw_orcid": null,
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Systems Realization Laboratory, Division of Industrial Design, School of Engineering, The University of Liverpool, Brodie Tower, Brownlow Hill, Liverpool, L69 3GH, UK",
+              "institution_ids": [
+                "https://openalex.org/I146655781"
+              ]
+            }
+          ]
+        },
+        {
+          "author_position": "middle",
+          "author": {
+            "id": "https://openalex.org/A5101959952",
+            "display_name": "Lin Guo",
+            "orcid": "https://orcid.org/0000-0001-9750-4616",
+            "observed_orcids": [
+              "https://orcid.org/0000-0001-9750-4616"
+            ]
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I8692664",
+              "display_name": "University of Oklahoma",
+              "ror": "https://ror.org/02aqsxs83",
+              "country_code": "US",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I8692664"
+              ]
+            }
+          ],
+          "countries": [
+            "US"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "Lin Guo",
+          "raw_affiliation_strings": [
+            "Systems Realization Laboratory, School of Industrial and Systems Engineering, The University of Oklahoma, 202 W. Boyd, Suite 218, Norman, OK 73019-1022"
+          ],
+          "raw_orcid": null,
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Systems Realization Laboratory, School of Industrial and Systems Engineering, The University of Oklahoma, 202 W. Boyd, Suite 218, Norman, OK 73019-1022",
+              "institution_ids": [
+                "https://openalex.org/I8692664"
+              ]
+            }
+          ]
+        },
+        {
+          "author_position": "middle",
+          "author": {
+            "id": null,
+            "display_name": "Yu Huang",
+            "orcid": null,
+            "observed_orcids": []
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I125839683",
+              "display_name": "Beijing Institute of Technology",
+              "ror": "https://ror.org/01skt4w74",
+              "country_code": "CN",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I125839683",
+                "https://openalex.org/I890469752"
+              ]
+            }
+          ],
+          "countries": [
+            "CN"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "Yu Huang",
+          "raw_affiliation_strings": [
+            "School of Mechanical Engineering, Beijing Institute of Technology, Rm 344, No. 1 Teaching Building, No. 5 Zhongguancun South Street, Haidian District, Beijing 100081, China"
+          ],
+          "raw_orcid": null,
+          "affiliations": [
+            {
+              "raw_affiliation_string": "School of Mechanical Engineering, Beijing Institute of Technology, Rm 344, No. 1 Teaching Building, No. 5 Zhongguancun South Street, Haidian District, Beijing 100081, China",
+              "institution_ids": [
+                "https://openalex.org/I125839683"
+              ]
+            }
+          ]
+        },
+        {
+          "author_position": "last",
+          "author": {
+            "id": "https://openalex.org/A5101457292",
+            "display_name": "Guoxin Wang",
+            "orcid": "https://orcid.org/0000-0003-2363-8595",
+            "observed_orcids": [
+              "https://orcid.org/0000-0003-2363-8595"
+            ]
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I125839683",
+              "display_name": "Beijing Institute of Technology",
+              "ror": "https://ror.org/01skt4w74",
+              "country_code": "CN",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I125839683",
+                "https://openalex.org/I890469752"
+              ]
+            }
+          ],
+          "countries": [
+            "CN"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "Guoxin Wang",
+          "raw_affiliation_strings": [
+            "School of Mechanical Engineering, Beijing Institute of Technology, Rm 343, No. 1 Teaching Building, No. 5 Zhongguancun South Street, Haidian District, Beijing 100081, China"
+          ],
+          "raw_orcid": null,
+          "affiliations": [
+            {
+              "raw_affiliation_string": "School of Mechanical Engineering, Beijing Institute of Technology, Rm 343, No. 1 Teaching Building, No. 5 Zhongguancun South Street, Haidian District, Beijing 100081, China",
+              "institution_ids": [
+                "https://openalex.org/I125839683"
+              ]
+            }
+          ]
+        }
+      ],
+      "institutions": [],
+      "countries_distinct_count": 3,
+      "institutions_distinct_count": 3,
+      "corresponding_author_ids": [],
+      "corresponding_institution_ids": [],
+      "apc_list": null,
+      "apc_paid": null,
+      "fwci": 3.418,
+      "is_authors_truncated": false,
+      "has_fulltext": false,
+      "cited_by_count": 27,
+      "citation_normalized_percentile": {
+        "value": 0.92166042,
+        "is_in_top_1_percent": false,
+        "is_in_top_10_percent": true
+      },
+      "cited_by_percentile_year": {
+        "min": 93,
+        "max": 99
+      },
+      "biblio": {
+        "volume": "143",
+        "issue": "7",
+        "first_page": null,
+        "last_page": null
+      },
+      "is_retracted": false,
+      "is_paratext": false,
+      "is_xpac": false,
+      "primary_topic": {
+        "id": "https://openalex.org/T11729",
+        "display_name": "Product Development and Customization",
+        "score": 0.2992999851703644,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1405",
+          "display_name": "Management of Technology and Innovation"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/14",
+          "display_name": "Business, Management and Accounting"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      "topics": [
+        {
+          "id": "https://openalex.org/T11729",
+          "display_name": "Product Development and Customization",
+          "score": 0.2992999851703644,
+          "subfield": {
+            "id": "https://openalex.org/subfields/1405",
+            "display_name": "Management of Technology and Innovation"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/14",
+            "display_name": "Business, Management and Accounting"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/2",
+            "display_name": "Social Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T12000",
+          "display_name": "Systems Engineering Methodologies and Applications",
+          "score": 0.29269999265670776,
+          "subfield": {
+            "id": "https://openalex.org/subfields/2207",
+            "display_name": "Control and Systems Engineering"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/22",
+            "display_name": "Engineering"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T10763",
+          "display_name": "Digital Transformation in Industry",
+          "score": 0.20090000331401825,
+          "subfield": {
+            "id": "https://openalex.org/subfields/2209",
+            "display_name": "Industrial and Manufacturing Engineering"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/22",
+            "display_name": "Engineering"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        }
+      ],
+      "keywords": [
+        {
+          "id": "https://openalex.org/keywords/industry-4-0",
+          "display_name": "Industry 4.0",
+          "score": 0.9649999737739563
+        },
+        {
+          "id": "https://openalex.org/keywords/design-decision-making",
+          "display_name": "design decision-making",
+          "score": 0.6549999713897705
+        },
+        {
+          "id": "https://openalex.org/keywords/design-life-cycle",
+          "display_name": "design life cycle",
+          "score": 0.4399999976158142
+        },
+        {
+          "id": "https://openalex.org/keywords/uncertainty-handling",
+          "display_name": "uncertainty management",
+          "score": 0.4390000104904175
+        }
+      ],
+      "concepts": [
+        {
+          "id": "https://openalex.org/C107327155",
+          "wikidata": "https://www.wikidata.org/wiki/Q330268",
+          "display_name": "Decision support system",
+          "level": 2,
+          "score": 0.6009997725486755
+        },
+        {
+          "id": "https://openalex.org/C201995342",
+          "wikidata": "https://www.wikidata.org/wiki/Q682496",
+          "display_name": "Systems engineering",
+          "level": 1,
+          "score": 0.5627836585044861
+        },
+        {
+          "id": "https://openalex.org/C41008148",
+          "wikidata": "https://www.wikidata.org/wiki/Q21198",
+          "display_name": "Computer science",
+          "level": 0,
+          "score": 0.5132186412811279
+        },
+        {
+          "id": "https://openalex.org/C2779343474",
+          "wikidata": "https://www.wikidata.org/wiki/Q3109175",
+          "display_name": "Context (archaeology)",
+          "level": 2,
+          "score": 0.4821586012840271
+        },
+        {
+          "id": "https://openalex.org/C34972735",
+          "wikidata": "https://www.wikidata.org/wiki/Q2920267",
+          "display_name": "Engineering design process",
+          "level": 2,
+          "score": 0.4546939432621002
+        },
+        {
+          "id": "https://openalex.org/C106246047",
+          "wikidata": "https://www.wikidata.org/wiki/Q4928435",
+          "display_name": "Iterative design",
+          "level": 3,
+          "score": 0.43171942234039307
+        },
+        {
+          "id": "https://openalex.org/C2778712445",
+          "wikidata": "https://www.wikidata.org/wiki/Q5264352",
+          "display_name": "Design knowledge",
+          "level": 3,
+          "score": 0.42690831422805786
+        },
+        {
+          "id": "https://openalex.org/C56739046",
+          "wikidata": "https://www.wikidata.org/wiki/Q192060",
+          "display_name": "Knowledge management",
+          "level": 1,
+          "score": 0.42140278220176697
+        },
+        {
+          "id": "https://openalex.org/C179737136",
+          "wikidata": "https://www.wikidata.org/wiki/Q5264382",
+          "display_name": "Design technology",
+          "level": 2,
+          "score": 0.410614550113678
+        },
+        {
+          "id": "https://openalex.org/C127413603",
+          "wikidata": "https://www.wikidata.org/wiki/Q11023",
+          "display_name": "Engineering",
+          "level": 0,
+          "score": 0.3708702325820923
+        },
+        {
+          "id": "https://openalex.org/C115903868",
+          "wikidata": "https://www.wikidata.org/wiki/Q80993",
+          "display_name": "Software engineering",
+          "level": 1,
+          "score": 0.34908097982406616
+        },
+        {
+          "id": "https://openalex.org/C195094911",
+          "wikidata": "https://www.wikidata.org/wiki/Q14167904",
+          "display_name": "Process management",
+          "level": 1,
+          "score": 0.3369380235671997
+        },
+        {
+          "id": "https://openalex.org/C154945302",
+          "wikidata": "https://www.wikidata.org/wiki/Q11660",
+          "display_name": "Artificial intelligence",
+          "level": 1,
+          "score": 0.18848058581352234
+        },
+        {
+          "id": "https://openalex.org/C2778648169",
+          "wikidata": "https://www.wikidata.org/wiki/Q967768",
+          "display_name": "Compatibility (geochemistry)",
+          "level": 2,
+          "score": 0.0
+        },
+        {
+          "id": "https://openalex.org/C151730666",
+          "wikidata": "https://www.wikidata.org/wiki/Q7205",
+          "display_name": "Paleontology",
+          "level": 1,
+          "score": 0.0
+        },
+        {
+          "id": "https://openalex.org/C42360764",
+          "wikidata": "https://www.wikidata.org/wiki/Q83588",
+          "display_name": "Chemical engineering",
+          "level": 1,
+          "score": 0.0
+        },
+        {
+          "id": "https://openalex.org/C149635348",
+          "wikidata": "https://www.wikidata.org/wiki/Q193040",
+          "display_name": "Embedded system",
+          "level": 1,
+          "score": 0.0
+        },
+        {
+          "id": "https://openalex.org/C2780513914",
+          "wikidata": "https://www.wikidata.org/wiki/Q18210350",
+          "display_name": "Bottleneck",
+          "level": 2,
+          "score": 0.0
+        },
+        {
+          "id": "https://openalex.org/C78519656",
+          "wikidata": "https://www.wikidata.org/wiki/Q101333",
+          "display_name": "Mechanical engineering",
+          "level": 1,
+          "score": 0.0
+        },
+        {
+          "id": "https://openalex.org/C86803240",
+          "wikidata": "https://www.wikidata.org/wiki/Q420",
+          "display_name": "Biology",
+          "level": 0,
+          "score": 0.0
+        }
+      ],
+      "mesh": [],
+      "locations_count": 1,
+      "locations": [
+        {
+          "id": "doi:10.1115/1.4050247",
+          "doi": "https://doi.org/10.1115/1.4050247",
+          "is_oa": false,
+          "landing_page_url": "https://doi.org/10.1115/1.4050247",
+          "pdf_url": null,
+          "source": {
+            "id": "https://openalex.org/S88457320",
+            "display_name": "Journal of Mechanical Design",
+            "issn_l": "0161-8458",
+            "issn": [
+              "0161-8458",
+              "1050-0472",
+              "1528-9001"
+            ],
+            "is_oa": false,
+            "is_in_doaj": false,
+            "is_core": true,
+            "listed_in": [
+              "anvur-scientific",
+              "cwts-core",
+              "dongbi-b",
+              "jufo-2",
+              "norway-1",
+              "poland-100",
+              "russia-white-list-1"
+            ],
+            "host_organization": "https://openalex.org/P4310321320",
+            "host_organization_name": "American Society of Mechanical Engineers",
+            "host_organization_lineage": [
+              "https://openalex.org/P4310321320"
+            ],
+            "host_organization_lineage_names": [
+              "American Society of Mechanical Engineers"
+            ],
+            "type": "journal"
+          },
+          "license": null,
+          "license_id": null,
+          "version": "publishedVersion",
+          "is_accepted": true,
+          "is_published": true,
+          "raw_source_name": "Journal of Mechanical Design",
+          "raw_type": "journal-article"
+        }
+      ],
+      "best_oa_location": null,
+      "sustainable_development_goals": [
+        {
+          "display_name": "Industry, innovation and infrastructure",
+          "id": "https://metadata.un.org/sdg/9",
+          "score": 0.7207000255584717
+        }
+      ],
+      "study_designs": [],
+      "awards": [],
+      "funders": [],
+      "has_content": {
+        "grobid_xml": false,
+        "pdf": false
+      },
+      "content_urls": null,
+      "referenced_works_count": 86,
+      "referenced_works": [
+        "https://openalex.org/W1492747786",
+        "https://openalex.org/W1718306640",
+        "https://openalex.org/W1967243369",
+        "https://openalex.org/W1974198230",
+        "https://openalex.org/W2014090381",
+        "https://openalex.org/W2019096978",
+        "https://openalex.org/W2025850589",
+        "https://openalex.org/W2029082392",
+        "https://openalex.org/W2042047531",
+        "https://openalex.org/W2043089213",
+        "https://openalex.org/W2058830956",
+        "https://openalex.org/W2064462400",
+        "https://openalex.org/W2064910157",
+        "https://openalex.org/W2072532970",
+        "https://openalex.org/W2078240955",
+        "https://openalex.org/W2113313430",
+        "https://openalex.org/W2120668716",
+        "https://openalex.org/W2131201914",
+        "https://openalex.org/W2133499271",
+        "https://openalex.org/W2154983631",
+        "https://openalex.org/W2179664795",
+        "https://openalex.org/W2228374642",
+        "https://openalex.org/W2239710762",
+        "https://openalex.org/W2254884657",
+        "https://openalex.org/W2295307183",
+        "https://openalex.org/W2296107462",
+        "https://openalex.org/W2336082409",
+        "https://openalex.org/W2395657113",
+        "https://openalex.org/W2406294426",
+        "https://openalex.org/W2465639267",
+        "https://openalex.org/W2510173668",
+        "https://openalex.org/W2517238017",
+        "https://openalex.org/W2522009427",
+        "https://openalex.org/W2523673892",
+        "https://openalex.org/W2529162806",
+        "https://openalex.org/W2610657714",
+        "https://openalex.org/W2611870805",
+        "https://openalex.org/W2766020959",
+        "https://openalex.org/W2766174912",
+        "https://openalex.org/W2767346351",
+        "https://openalex.org/W2785339424",
+        "https://openalex.org/W2789799464",
+        "https://openalex.org/W2792898154",
+        "https://openalex.org/W2793333205",
+        "https://openalex.org/W2794591553",
+        "https://openalex.org/W2795194316",
+        "https://openalex.org/W2800764481",
+        "https://openalex.org/W2804377122",
+        "https://openalex.org/W2807652022",
+        "https://openalex.org/W2883908928",
+        "https://openalex.org/W2884469704",
+        "https://openalex.org/W2889220690",
+        "https://openalex.org/W2890695128",
+        "https://openalex.org/W2891193910",
+        "https://openalex.org/W2901894327",
+        "https://openalex.org/W2907627447",
+        "https://openalex.org/W2912026759",
+        "https://openalex.org/W2913678520",
+        "https://openalex.org/W2934302500",
+        "https://openalex.org/W2937471003",
+        "https://openalex.org/W2950003876",
+        "https://openalex.org/W2953699170",
+        "https://openalex.org/W2970012586",
+        "https://openalex.org/W2974962619",
+        "https://openalex.org/W2979173878",
+        "https://openalex.org/W2988458498",
+        "https://openalex.org/W2989925413",
+        "https://openalex.org/W2995992997",
+        "https://openalex.org/W3001148299",
+        "https://openalex.org/W3003492992",
+        "https://openalex.org/W3005590119",
+        "https://openalex.org/W3008246557",
+        "https://openalex.org/W3008334068",
+        "https://openalex.org/W3013163308",
+        "https://openalex.org/W3014406063",
+        "https://openalex.org/W3017243121",
+        "https://openalex.org/W3023728841",
+        "https://openalex.org/W3025383415",
+        "https://openalex.org/W3030144179",
+        "https://openalex.org/W3034633578",
+        "https://openalex.org/W3036085072",
+        "https://openalex.org/W3036411661",
+        "https://openalex.org/W3129400535",
+        "https://openalex.org/W4233904321",
+        "https://openalex.org/W4234561265",
+        "https://openalex.org/W6805370748"
+      ],
+      "related_works": [
+        "https://openalex.org/W2786631117",
+        "https://openalex.org/W2366871142",
+        "https://openalex.org/W3126827470",
+        "https://openalex.org/W4210998951",
+        "https://openalex.org/W4280577846",
+        "https://openalex.org/W4211014778",
+        "https://openalex.org/W3129400535",
+        "https://openalex.org/W4210974059",
+        "https://openalex.org/W4211072244",
+        "https://openalex.org/W1917758226"
+      ],
+      "abstract_inverted_index": {
+        "Abstract": [
+          0
+        ],
+        "The": [
+          1,
+          142,
+          172
+        ],
+        "automation": [
+          2
+        ],
+        "and": [
+          3,
+          18,
+          45,
+          120,
+          165,
+          187,
+          200
+        ],
+        "intelligence": [
+          4
+        ],
+        "highlighted": [
+          5
+        ],
+        "in": [
+          6,
+          24,
+          72,
+          93,
+          122,
+          149,
+          189,
+          212
+        ],
+        "Industry": [
+          7,
+          28,
+          74,
+          222
+        ],
+        "4.0": [
+          8,
+          75,
+          223
+        ],
+        "put": [
+          9
+        ],
+        "forward": [
+          10
+        ],
+        "higher": [
+          11
+        ],
+        "requirements": [
+          12
+        ],
+        "for": [
+          13,
+          20,
+          35,
+          67,
+          105,
+          218
+        ],
+        "reasonable": [
+          14
+        ],
+        "trade-offs": [
+          15
+        ],
+        "between": [
+          16
+        ],
+        "humans": [
+          17
+        ],
+        "machines": [
+          19
+        ],
+        "decision-making": [
+          21
+        ],
+        "governance.": [
+          22
+        ],
+        "However,": [
+          23
+        ],
+        "the": [
+          25,
+          30,
+          42,
+          52,
+          73,
+          78,
+          86,
+          96,
+          114,
+          137,
+          162,
+          166,
+          169,
+          190,
+          198,
+          207,
+          213,
+          219
+        ],
+        "context": [
+          26,
+          191
+        ],
+        "of": [
+          27,
+          32,
+          54,
+          85,
+          98,
+          117,
+          168,
+          174,
+          192,
+          202,
+          209,
+          215,
+          221
+        ],
+        "4.0,": [
+          29
+        ],
+        "vision": [
+          31
+        ],
+        "decision": [
+          33,
+          64,
+          107,
+          124,
+          210
+        ],
+        "support": [
+          34,
+          51,
+          65,
+          108,
+          211
+        ],
+        "design": [
+          36,
+          59,
+          80,
+          130,
+          155,
+          180,
+          216
+        ],
+        "engineering": [
+          37,
+          217
+        ],
+        "is": [
+          38,
+          110,
+          177
+        ],
+        "still": [
+          39
+        ],
+        "unclear.": [
+          40
+        ],
+        "Additionally,": [
+          41
+        ],
+        "corresponding": [
+          43
+        ],
+        "methods": [
+          44
+        ],
+        "system": [
+          46
+        ],
+        "architectures": [
+          47
+        ],
+        "are": [
+          48,
+          158
+        ],
+        "lacking": [
+          49
+        ],
+        "to": [
+          50,
+          132,
+          160,
+          178,
+          182
+        ],
+        "realization": [
+          53
+        ],
+        "value-chain-centric": [
+          55
+        ],
+        "complex": [
+          56,
+          68
+        ],
+        "engineered": [
+          57,
+          69
+        ],
+        "systems": [
+          58,
+          70
+        ],
+        "lifecycles.": [
+          60
+        ],
+        "Hence,": [
+          61
+        ],
+        "we": [
+          62
+        ],
+        "identify": [
+          63
+        ],
+        "demands": [
+          66
+        ],
+        "designs": [
+          71
+        ],
+        "era,": [
+          76
+        ],
+        "representing": [
+          77
+        ],
+        "integrated": [
+          79,
+          115
+        ],
+        "problems": [
+          81
+        ],
+        "at": [
+          82
+        ],
+        "various": [
+          83
+        ],
+        "stages": [
+          84
+        ],
+        "product": [
+          87
+        ],
+        "value": [
+          88
+        ],
+        "chain.": [
+          89
+        ],
+        "As": [
+          90
+        ],
+        "a": [
+          91,
+          99
+        ],
+        "response,": [
+          92
+        ],
+        "this": [
+          94,
+          175
+        ],
+        "paper,": [
+          95
+        ],
+        "architecture": [
+          97
+        ],
+        "Knowledge-Based": [
+          100
+        ],
+        "Design": [
+          101
+        ],
+        "Guidance": [
+          102
+        ],
+        "System": [
+          103
+        ],
+        "(KBDGS)": [
+          104
+        ],
+        "cloud-based": [
+          106
+        ],
+        "(CBDS)": [
+          109
+        ],
+        "presented": [
+          111
+        ],
+        "that": [
+          112
+        ],
+        "highlights": [
+          113
+        ],
+        "management": [
+          116
+        ],
+        "complexity,": [
+          118
+        ],
+        "uncertainty,": [
+          119
+        ],
+        "knowledge": [
+          121,
+          184
+        ],
+        "designing": [
+          123
+        ],
+        "workflows,": [
+          125
+        ],
+        "as": [
+          126,
+          128,
+          204,
+          206
+        ],
+        "well": [
+          127,
+          205
+        ],
+        "systematic": [
+          129
+        ],
+        "guidance": [
+          131,
+          181
+        ],
+        "find": [
+          133
+        ],
+        "satisfying": [
+          134
+        ],
+        "solutions": [
+          135
+        ],
+        "with": [
+          136
+        ],
+        "iterative": [
+          138
+        ],
+        "process": [
+          139
+        ],
+        "“formulation-refinement-exploration-improvement”": [
+          140
+        ],
+        "(FREI).": [
+          141
+        ],
+        "KBDGS": [
+          143
+        ],
+        "facilitates": [
+          144
+        ],
+        "diverse": [
+          145
+        ],
+        "multi-stakeholder": [
+          146
+        ],
+        "collaborative": [
+          147
+        ],
+        "decisions": [
+          148
+        ],
+        "end-to-end": [
+          150
+        ],
+        "cloud": [
+          151
+        ],
+        "services.": [
+          152
+        ],
+        "Finally,": [
+          153
+        ],
+        "two": [
+          154
+        ],
+        "case": [
+          156
+        ],
+        "studies": [
+          157
+        ],
+        "conducted": [
+          159
+        ],
+        "illustrate": [
+          161
+        ],
+        "proposed": [
+          163
+        ],
+        "work": [
+          164
+        ],
+        "efficacy": [
+          167
+        ],
+        "developed": [
+          170
+        ],
+        "KBDGS.": [
+          171
+        ],
+        "contribution": [
+          173
+        ],
+        "paper": [
+          176
+        ],
+        "provide": [
+          179
+        ],
+        "facilitate": [
+          183
+        ],
+        "discovery,": [
+          185
+        ],
+        "capturing,": [
+          186
+        ],
+        "reuse": [
+          188
+        ],
+        "decision-centric": [
+          193
+        ],
+        "digital": [
+          194
+        ],
+        "design,": [
+          195
+        ],
+        "thus": [
+          196
+        ],
+        "improving": [
+          197
+        ],
+        "efficiency": [
+          199
+        ],
+        "effectiveness": [
+          201
+        ],
+        "decision-making,": [
+          203
+        ],
+        "evolution": [
+          208
+        ],
+        "field": [
+          214
+        ],
+        "age": [
+          220
+        ],
+        "innovation": [
+          224
+        ],
+        "paradigm.": [
+          225
+        ]
+      },
+      "counts_by_year": [
+        {
+          "year": 2026,
+          "cited_by_count": 3
+        },
+        {
+          "year": 2025,
+          "cited_by_count": 7
+        },
+        {
+          "year": 2024,
+          "cited_by_count": 6
+        },
+        {
+          "year": 2023,
+          "cited_by_count": 7
+        },
+        {
+          "year": 2022,
+          "cited_by_count": 2
+        },
+        {
+          "year": 2021,
+          "cited_by_count": 2
+        }
+      ],
+      "updated_date": "2026-11-10T11:39:43.021295",
+      "created_date": "2021-03-01T00:00:00"
+    },
+    {
+      "id": "https://openalex.org/W2418716856",
+      "doi": "https://doi.org/10.1109/oic.2016.7483034",
+      "title": "From chip to cloud: Optical interconnects in engineered systems for the enterprise",
+      "display_name": "From chip to cloud: Optical interconnects in engineered systems for the enterprise",
+      "relevance_score": 64.20522,
+      "publication_year": 2016,
+      "publication_date": "2016-05-01",
+      "ids": {
+        "openalex": "https://openalex.org/W2418716856",
+        "doi": "https://doi.org/10.1109/oic.2016.7483034",
+        "mag": "2418716856"
+      },
+      "language": "en",
+      "primary_location": {
+        "id": "doi:10.1109/oic.2016.7483034",
+        "doi": "https://doi.org/10.1109/oic.2016.7483034",
+        "is_oa": false,
+        "landing_page_url": "https://doi.org/10.1109/oic.2016.7483034",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4306422806",
+          "display_name": "IEEE Optical Interconnects Conference",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "listed_in": [],
+          "host_organization": "https://openalex.org/P4310319808",
+          "host_organization_name": "Institute of Electrical and Electronics Engineers",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310319808"
+          ],
+          "host_organization_lineage_names": [
+            "Institute of Electrical and Electronics Engineers"
+          ],
+          "type": "conference"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "2016 IEEE Optical Interconnects Conference (OI)",
+        "raw_type": "proceedings-article"
+      },
+      "parent_works": [],
+      "lineage": [
+        "https://openalex.org/W2418716856"
+      ],
+      "child_works_count": 0,
+      "type": "conference-paper",
+      "is_traditional": true,
+      "indexed_in": [
+        "crossref"
+      ],
+      "open_access": {
+        "is_oa": false,
+        "oa_status": "closed",
+        "oa_url": null,
+        "any_repository_has_fulltext": false
+      },
+      "authorships": [
+        {
+          "author_position": "first",
+          "author": {
+            "id": "https://openalex.org/A5008485416",
+            "display_name": "Ashok V. Krishnamoorthy",
+            "orcid": null,
+            "observed_orcids": []
+          },
+          "institutions": [],
+          "countries": [],
+          "is_corresponding": false,
+          "raw_author_name": "A. V. Krishnamoorthy",
+          "raw_affiliation_strings": [
+            "Oracle Networking, San Diego, USA"
+          ],
+          "raw_orcid": null,
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Oracle Networking, San Diego, USA",
+              "institution_ids": []
+            }
+          ]
+        },
+        {
+          "author_position": "middle",
+          "author": {
+            "id": "https://openalex.org/A5065980692",
+            "display_name": "Ola Torudbakken",
+            "orcid": null,
+            "observed_orcids": []
+          },
+          "institutions": [],
+          "countries": [],
+          "is_corresponding": false,
+          "raw_author_name": "O. Torudbakken",
+          "raw_affiliation_strings": [
+            "Oracle Networking in Oslo, Norway"
+          ],
+          "raw_orcid": null,
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Oracle Networking in Oslo, Norway",
+              "institution_ids": []
+            }
+          ]
+        },
+        {
+          "author_position": "middle",
+          "author": {
+            "id": "https://openalex.org/A5108618483",
+            "display_name": "S. Muller",
+            "orcid": null,
+            "observed_orcids": []
+          },
+          "institutions": [],
+          "countries": [],
+          "is_corresponding": false,
+          "raw_author_name": "S. Muller",
+          "raw_affiliation_strings": [
+            "Oracle Networking in Santa Clara, USA"
+          ],
+          "raw_orcid": null,
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Oracle Networking in Santa Clara, USA",
+              "institution_ids": []
+            }
+          ]
+        },
+        {
+          "author_position": "middle",
+          "author": {
+            "id": "https://openalex.org/A5101424247",
+            "display_name": "A. Srinivasan",
+            "orcid": "https://orcid.org/0000-0002-2763-1342",
+            "observed_orcids": [
+              "https://orcid.org/0000-0002-2763-1342"
+            ]
+          },
+          "institutions": [],
+          "countries": [],
+          "is_corresponding": false,
+          "raw_author_name": "A. Srinivasan",
+          "raw_affiliation_strings": [
+            "Oracle Networking in Santa Clara, USA"
+          ],
+          "raw_orcid": null,
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Oracle Networking in Santa Clara, USA",
+              "institution_ids": []
+            }
+          ]
+        },
+        {
+          "author_position": "middle",
+          "author": {
+            "id": "https://openalex.org/A5002260861",
+            "display_name": "Patrick J. Decker",
+            "orcid": null,
+            "observed_orcids": []
+          },
+          "institutions": [],
+          "countries": [],
+          "is_corresponding": false,
+          "raw_author_name": "P. Decker",
+          "raw_affiliation_strings": [
+            "Oracle Networking, San Diego, USA"
+          ],
+          "raw_orcid": null,
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Oracle Networking, San Diego, USA",
+              "institution_ids": []
+            }
+          ]
+        },
+        {
+          "author_position": "middle",
+          "author": {
+            "id": "https://openalex.org/A5018477510",
+            "display_name": "Hans Opheim",
+            "orcid": null,
+            "observed_orcids": []
+          },
+          "institutions": [],
+          "countries": [],
+          "is_corresponding": false,
+          "raw_author_name": "H. Opheim",
+          "raw_affiliation_strings": [
+            "Oracle Networking in Oslo, Norway"
+          ],
+          "raw_orcid": null,
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Oracle Networking in Oslo, Norway",
+              "institution_ids": []
+            }
+          ]
+        },
+        {
+          "author_position": "middle",
+          "author": {
+            "id": "https://openalex.org/A5019207049",
+            "display_name": "J. E. Cunningham",
+            "orcid": null,
+            "observed_orcids": []
+          },
+          "institutions": [],
+          "countries": [],
+          "is_corresponding": false,
+          "raw_author_name": "J. E. Cunningham",
+          "raw_affiliation_strings": [
+            "Oracle Networking, San Diego, USA"
+          ],
+          "raw_orcid": null,
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Oracle Networking, San Diego, USA",
+              "institution_ids": []
+            }
+          ]
+        },
+        {
+          "author_position": "middle",
+          "author": {
+            "id": "https://openalex.org/A5004684778",
+            "display_name": "Xinran Zheng",
+            "orcid": "https://orcid.org/0000-0002-0595-2284",
+            "observed_orcids": [
+              "https://orcid.org/0000-0002-0595-2284"
+            ]
+          },
+          "institutions": [],
+          "countries": [],
+          "is_corresponding": false,
+          "raw_author_name": "X. Zheng",
+          "raw_affiliation_strings": [
+            "Oracle Networking, San Diego, USA"
+          ],
+          "raw_orcid": null,
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Oracle Networking, San Diego, USA",
+              "institution_ids": []
+            }
+          ]
+        },
+        {
+          "author_position": "middle",
+          "author": {
+            "id": "https://openalex.org/A5032925293",
+            "display_name": "Marcelino Dignum",
+            "orcid": null,
+            "observed_orcids": []
+          },
+          "institutions": [],
+          "countries": [],
+          "is_corresponding": false,
+          "raw_author_name": "M. Dignum",
+          "raw_affiliation_strings": [
+            "Oracle Networking in Santa Clara, USA"
+          ],
+          "raw_orcid": null,
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Oracle Networking in Santa Clara, USA",
+              "institution_ids": []
+            }
+          ]
+        },
+        {
+          "author_position": "last",
+          "author": {
+            "id": "https://openalex.org/A5111013579",
+            "display_name": "Kannan Raj",
+            "orcid": null,
+            "observed_orcids": []
+          },
+          "institutions": [],
+          "countries": [],
+          "is_corresponding": false,
+          "raw_author_name": "K. Raj",
+          "raw_affiliation_strings": [
+            "Oracle Networking, San Diego, USA"
+          ],
+          "raw_orcid": null,
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Oracle Networking, San Diego, USA",
+              "institution_ids": []
+            }
+          ]
+        }
+      ],
+      "institutions": [],
+      "countries_distinct_count": 0,
+      "institutions_distinct_count": 0,
+      "corresponding_author_ids": [],
+      "corresponding_institution_ids": [],
+      "apc_list": null,
+      "apc_paid": null,
+      "fwci": 4.1679,
+      "is_authors_truncated": false,
+      "has_fulltext": false,
+      "cited_by_count": 12,
+      "citation_normalized_percentile": {
+        "value": 0.94450662,
+        "is_in_top_1_percent": false,
+        "is_in_top_10_percent": true
+      },
+      "cited_by_percentile_year": {
+        "min": 87,
+        "max": 97
+      },
+      "biblio": {
+        "volume": null,
+        "issue": null,
+        "first_page": "34",
+        "last_page": "35"
+      },
+      "is_retracted": false,
+      "is_paratext": false,
+      "is_xpac": false,
+      "primary_topic": {
+        "id": "https://openalex.org/T11429",
+        "display_name": "Semiconductor Lasers and Optical Devices",
+        "score": 0.8295999765396118,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2208",
+          "display_name": "Electrical and Electronic Engineering"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/22",
+          "display_name": "Engineering"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      "topics": [
+        {
+          "id": "https://openalex.org/T11429",
+          "display_name": "Semiconductor Lasers and Optical Devices",
+          "score": 0.8295999765396118,
+          "subfield": {
+            "id": "https://openalex.org/subfields/2208",
+            "display_name": "Electrical and Electronic Engineering"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/22",
+            "display_name": "Engineering"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T10829",
+          "display_name": "Interconnection Networks and Systems",
+          "score": 0.09279999881982803,
+          "subfield": {
+            "id": "https://openalex.org/subfields/1705",
+            "display_name": "Computer Networks and Communications"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/17",
+            "display_name": "Computer Science"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T10847",
+          "display_name": "Advanced Optical Network Technologies",
+          "score": 0.026599999517202377,
+          "subfield": {
+            "id": "https://openalex.org/subfields/2208",
+            "display_name": "Electrical and Electronic Engineering"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/22",
+            "display_name": "Engineering"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        }
+      ],
+      "keywords": [
+        {
+          "id": "https://openalex.org/keywords/optical-interconnects",
+          "display_name": "optical interconnects",
+          "score": 1.0
+        },
+        {
+          "id": "https://openalex.org/keywords/infiniband",
+          "display_name": "InfiniBand",
+          "score": 0.8090000152587891
+        },
+        {
+          "id": "https://openalex.org/keywords/packet-switches",
+          "display_name": "packet switches",
+          "score": 0.8349999785423279
+        },
+        {
+          "id": "https://openalex.org/keywords/data-center-interconnection",
+          "display_name": "data center interconnects",
+          "score": 0.515999972820282
+        }
+      ],
+      "concepts": [
+        {
+          "id": "https://openalex.org/C2781030343",
+          "wikidata": "https://www.wikidata.org/wiki/Q922437",
+          "display_name": "InfiniBand",
+          "level": 2,
+          "score": 0.7487657070159912
+        },
+        {
+          "id": "https://openalex.org/C41008148",
+          "wikidata": "https://www.wikidata.org/wiki/Q21198",
+          "display_name": "Computer science",
+          "level": 0,
+          "score": 0.6895500421524048
+        },
+        {
+          "id": "https://openalex.org/C101336846",
+          "wikidata": "https://www.wikidata.org/wiki/Q17105111",
+          "display_name": "Optical switch",
+          "level": 2,
+          "score": 0.5798551440238953
+        },
+        {
+          "id": "https://openalex.org/C79974875",
+          "wikidata": "https://www.wikidata.org/wiki/Q483639",
+          "display_name": "Cloud computing",
+          "level": 2,
+          "score": 0.5766015648841858
+        },
+        {
+          "id": "https://openalex.org/C153740404",
+          "wikidata": "https://www.wikidata.org/wiki/Q671224",
+          "display_name": "Data center",
+          "level": 2,
+          "score": 0.5614787340164185
+        },
+        {
+          "id": "https://openalex.org/C7720470",
+          "wikidata": "https://www.wikidata.org/wiki/Q954187",
+          "display_name": "Transceiver",
+          "level": 3,
+          "score": 0.5281686186790466
+        },
+        {
+          "id": "https://openalex.org/C131313210",
+          "wikidata": "https://www.wikidata.org/wiki/Q376827",
+          "display_name": "Fibre Channel",
+          "level": 2,
+          "score": 0.5237757563591003
+        },
+        {
+          "id": "https://openalex.org/C158379750",
+          "wikidata": "https://www.wikidata.org/wiki/Q214111",
+          "display_name": "Network packet",
+          "level": 2,
+          "score": 0.4630219340324402
+        },
+        {
+          "id": "https://openalex.org/C2776257435",
+          "wikidata": "https://www.wikidata.org/wiki/Q1576430",
+          "display_name": "Bandwidth (computing)",
+          "level": 2,
+          "score": 0.45601940155029297
+        },
+        {
+          "id": "https://openalex.org/C134256836",
+          "wikidata": "https://www.wikidata.org/wiki/Q545913",
+          "display_name": "Backplane",
+          "level": 2,
+          "score": 0.4469972550868988
+        },
+        {
+          "id": "https://openalex.org/C2777904410",
+          "wikidata": "https://www.wikidata.org/wiki/Q7397",
+          "display_name": "Software",
+          "level": 2,
+          "score": 0.4321364164352417
+        },
+        {
+          "id": "https://openalex.org/C127162648",
+          "wikidata": "https://www.wikidata.org/wiki/Q16858953",
+          "display_name": "Channel (broadcasting)",
+          "level": 2,
+          "score": 0.4165036678314209
+        },
+        {
+          "id": "https://openalex.org/C2781382545",
+          "wikidata": "https://www.wikidata.org/wiki/Q7098878",
+          "display_name": "Optical networking",
+          "level": 4,
+          "score": 0.41402700543403625
+        },
+        {
+          "id": "https://openalex.org/C24326235",
+          "wikidata": "https://www.wikidata.org/wiki/Q126095",
+          "display_name": "Electronic engineering",
+          "level": 1,
+          "score": 0.3747002184391022
+        },
+        {
+          "id": "https://openalex.org/C31258907",
+          "wikidata": "https://www.wikidata.org/wiki/Q1301371",
+          "display_name": "Computer network",
+          "level": 1,
+          "score": 0.3693997263908386
+        },
+        {
+          "id": "https://openalex.org/C9390403",
+          "wikidata": "https://www.wikidata.org/wiki/Q3966",
+          "display_name": "Computer hardware",
+          "level": 1,
+          "score": 0.3486960530281067
+        },
+        {
+          "id": "https://openalex.org/C160724564",
+          "wikidata": "https://www.wikidata.org/wiki/Q1620670",
+          "display_name": "Wavelength-division multiplexing",
+          "level": 3,
+          "score": 0.2943993806838989
+        },
+        {
+          "id": "https://openalex.org/C76155785",
+          "wikidata": "https://www.wikidata.org/wiki/Q418",
+          "display_name": "Telecommunications",
+          "level": 1,
+          "score": 0.24229037761688232
+        },
+        {
+          "id": "https://openalex.org/C111919701",
+          "wikidata": "https://www.wikidata.org/wiki/Q9135",
+          "display_name": "Operating system",
+          "level": 1,
+          "score": 0.23054465651512146
+        },
+        {
+          "id": "https://openalex.org/C555944384",
+          "wikidata": "https://www.wikidata.org/wiki/Q249",
+          "display_name": "Wireless",
+          "level": 2,
+          "score": 0.19473394751548767
+        },
+        {
+          "id": "https://openalex.org/C127413603",
+          "wikidata": "https://www.wikidata.org/wiki/Q11023",
+          "display_name": "Engineering",
+          "level": 0,
+          "score": 0.17811432480812073
+        },
+        {
+          "id": "https://openalex.org/C121332964",
+          "wikidata": "https://www.wikidata.org/wiki/Q413",
+          "display_name": "Physics",
+          "level": 0,
+          "score": 0.0
+        },
+        {
+          "id": "https://openalex.org/C49040817",
+          "wikidata": "https://www.wikidata.org/wiki/Q193091",
+          "display_name": "Optoelectronics",
+          "level": 1,
+          "score": 0.0
+        },
+        {
+          "id": "https://openalex.org/C6260449",
+          "wikidata": "https://www.wikidata.org/wiki/Q41364",
+          "display_name": "Wavelength",
+          "level": 2,
+          "score": 0.0
+        }
+      ],
+      "mesh": [],
+      "locations_count": 1,
+      "locations": [
+        {
+          "id": "doi:10.1109/oic.2016.7483034",
+          "doi": "https://doi.org/10.1109/oic.2016.7483034",
+          "is_oa": false,
+          "landing_page_url": "https://doi.org/10.1109/oic.2016.7483034",
+          "pdf_url": null,
+          "source": {
+            "id": "https://openalex.org/S4306422806",
+            "display_name": "IEEE Optical Interconnects Conference",
+            "issn_l": null,
+            "issn": null,
+            "is_oa": false,
+            "is_in_doaj": false,
+            "is_core": false,
+            "listed_in": [],
+            "host_organization": "https://openalex.org/P4310319808",
+            "host_organization_name": "Institute of Electrical and Electronics Engineers",
+            "host_organization_lineage": [
+              "https://openalex.org/P4310319808"
+            ],
+            "host_organization_lineage_names": [
+              "Institute of Electrical and Electronics Engineers"
+            ],
+            "type": "conference"
+          },
+          "license": null,
+          "license_id": null,
+          "version": "publishedVersion",
+          "is_accepted": true,
+          "is_published": true,
+          "raw_source_name": "2016 IEEE Optical Interconnects Conference (OI)",
+          "raw_type": "proceedings-article"
+        }
+      ],
+      "best_oa_location": null,
+      "sustainable_development_goals": [
+        {
+          "display_name": "Industry, innovation and infrastructure",
+          "id": "https://metadata.un.org/sdg/9",
+          "score": 0.8970999717712402
+        }
+      ],
+      "study_designs": [],
+      "awards": [],
+      "funders": [],
+      "has_content": {
+        "grobid_xml": false,
+        "pdf": false
+      },
+      "content_urls": null,
+      "referenced_works_count": 0,
+      "referenced_works": [],
+      "related_works": [
+        "https://openalex.org/W2566986399",
+        "https://openalex.org/W2105782253",
+        "https://openalex.org/W2088643072",
+        "https://openalex.org/W2811001601",
+        "https://openalex.org/W3008959714",
+        "https://openalex.org/W2035430647",
+        "https://openalex.org/W2122157983",
+        "https://openalex.org/W2036180171",
+        "https://openalex.org/W2506485306",
+        "https://openalex.org/W2063608384"
+      ],
+      "abstract_inverted_index": {
+        "The": [
+          0,
+          6
+        ],
+        "server": [
+          1
+        ],
+        "compute": [
+          2,
+          13,
+          30,
+          56
+        ],
+        "landscape": [
+          3
+        ],
+        "is": [
+          4
+        ],
+        "changing.": [
+          5
+        ],
+        "traditional": [
+          7
+        ],
+        "model": [
+          8
+        ],
+        "of": [
+          9,
+          44,
+          53,
+          63,
+          100
+        ],
+        "building": [
+          10
+        ],
+        "general-purpose": [
+          11
+        ],
+        "enterprise": [
+          12
+        ],
+        "boxes,": [
+          14
+        ],
+        "that": [
+          15
+        ],
+        "end-users": [
+          16
+        ],
+        "can": [
+          17
+        ],
+        "use": [
+          18
+        ],
+        "in": [
+          19,
+          112
+        ],
+        "various": [
+          20
+        ],
+        "combinations": [
+          21
+        ],
+        "with": [
+          22,
+          81,
+          94,
+          107
+        ],
+        "storage": [
+          23
+        ],
+        "and": [
+          24,
+          46,
+          55,
+          58
+        ],
+        "networking": [
+          25
+        ],
+        "to": [
+          26,
+          34,
+          109
+        ],
+        "assemble": [
+          27
+        ],
+        "their": [
+          28
+        ],
+        "desired": [
+          29
+        ],
+        "environments,": [
+          31
+        ],
+        "has": [
+          32,
+          59
+        ],
+        "evolved": [
+          33
+        ],
+        "purpose-built": [
+          35
+        ],
+        "systems": [
+          36,
+          106
+        ],
+        "optimized": [
+          37
+        ],
+        "for": [
+          38,
+          50,
+          71
+        ],
+        "specific": [
+          39
+        ],
+        "applications.": [
+          40
+        ],
+        "This": [
+          41
+        ],
+        "tight": [
+          42
+        ],
+        "integration": [
+          43
+        ],
+        "hardware": [
+          45
+        ],
+        "software": [
+          47
+        ],
+        "components": [
+          48,
+          104
+        ],
+        "allows": [
+          49
+        ],
+        "unprecedented": [
+          51
+        ],
+        "levels": [
+          52
+        ],
+        "switching": [
+          54
+        ],
+        "efficiencies": [
+          57
+        ],
+        "fueled": [
+          60
+        ],
+        "the": [
+          61,
+          68
+        ],
+        "penetration": [
+          62
+        ],
+        "optical": [
+          64,
+          92,
+          101
+        ],
+        "interconnects": [
+          65
+        ],
+        "deep": [
+          66
+        ],
+        "\"inside": [
+          67
+        ],
+        "box\",": [
+          69
+        ],
+        "particularly": [
+          70
+        ],
+        "switch": [
+          72,
+          80
+        ],
+        "scale-up.": [
+          73
+        ],
+        "We": [
+          74
+        ],
+        "present": [
+          75
+        ],
+        "an": [
+          76
+        ],
+        "8.2Tb/s": [
+          77
+        ],
+        "Infiniband": [
+          78
+        ],
+        "packet": [
+          79
+        ],
+        "41": [
+          82
+        ],
+        "ports": [
+          83
+        ],
+        "running": [
+          84
+        ],
+        "100Gb/s": [
+          85
+        ],
+        "per": [
+          86,
+          96,
+          98
+        ],
+        "port": [
+          87
+        ],
+        "interconnected": [
+          88
+        ],
+        "by": [
+          89
+        ],
+        "12-channel": [
+          90
+        ],
+        "mid-board": [
+          91
+        ],
+        "transceivers": [
+          93
+        ],
+        "25Gb/s": [
+          95
+        ],
+        "channel": [
+          97
+        ],
+        "direction": [
+          99
+        ],
+        "I/O.": [
+          102
+        ],
+        "These": [
+          103
+        ],
+        "enable": [
+          105
+        ],
+        "up": [
+          108
+        ],
+        "49Tb/s": [
+          110
+        ],
+        "bandwidth": [
+          111
+        ],
+        "a": [
+          113
+        ],
+        "2U": [
+          114
+        ],
+        "standard": [
+          115
+        ],
+        "rack": [
+          116
+        ],
+        "mount": [
+          117
+        ],
+        "configuration.": [
+          118
+        ]
+      },
+      "counts_by_year": [
+        {
+          "year": 2026,
+          "cited_by_count": 1
+        },
+        {
+          "year": 2022,
+          "cited_by_count": 1
+        },
+        {
+          "year": 2021,
+          "cited_by_count": 1
+        },
+        {
+          "year": 2019,
+          "cited_by_count": 1
+        },
+        {
+          "year": 2018,
+          "cited_by_count": 2
+        },
+        {
+          "year": 2017,
+          "cited_by_count": 3
+        },
+        {
+          "year": 2016,
+          "cited_by_count": 3
+        }
+      ],
+      "updated_date": "2026-11-14T11:04:58.165337",
+      "created_date": "2016-06-24T00:00:00"
+    }
+  ],
+  "group_by": []
+}

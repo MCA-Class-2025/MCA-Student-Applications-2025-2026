@@ -1,0 +1,5653 @@
+{
+  "meta": {
+    "notice": "No API key, so this request shares one free daily budget ($0.10) with everyone on your network's IP address. Get a free key with its own $1/day at https://openalex.org/settings/api and add api_key=YOUR_KEY to your requests. An AI agent can get one for its user in one call: POST https://api.openalex.org/api-keys with {\"email\": \"<your user's email>\"}; we email them a link, and the key works once they click it. Docs for agents: https://help.openalex.org/llms.txt",
+    "count": 13225751,
+    "db_response_time_ms": 522,
+    "page": 1,
+    "per_page": 5,
+    "groups_count": null,
+    "x_query": {
+      "oql": "get works with Coder in the title, abstract, or full text",
+      "x_new_oql": "get works with Coder in the title, abstract, or full text",
+      "oqo": {
+        "get_rows": "works",
+        "filter_rows": [
+          {
+            "column_id": "fulltext.search",
+            "value": "Coder",
+            "operator": "has"
+          }
+        ]
+      },
+      "url": "/works?filter=fulltext.search:Coder&per_page=5",
+      "order": "best matches first",
+      "order_default": true
+    },
+    "cost_usd": 0.001
+  },
+  "results": [
+    {
+      "id": "https://openalex.org/W4386185625",
+      "doi": "https://doi.org/10.48550/arxiv.2308.12950",
+      "title": "Code Llama: Open Foundation Models for Code",
+      "display_name": "Code Llama: Open Foundation Models for Code",
+      "relevance_score": 94.05669,
+      "publication_year": 2023,
+      "publication_date": "2023-08-24",
+      "ids": {
+        "openalex": "https://openalex.org/W4386185625",
+        "doi": "https://doi.org/10.48550/arxiv.2308.12950"
+      },
+      "language": "en",
+      "primary_location": {
+        "id": "pmh:oai:arXiv.org:2308.12950",
+        "doi": null,
+        "is_oa": true,
+        "landing_page_url": "http://arxiv.org/abs/2308.12950",
+        "pdf_url": "https://arxiv.org/pdf/2308.12950",
+        "source": {
+          "id": "https://openalex.org/S4306400194",
+          "display_name": "arXiv (Cornell University)",
+          "issn_l": "2331-8422",
+          "issn": [
+            "2331-8422"
+          ],
+          "is_oa": true,
+          "is_in_doaj": false,
+          "is_core": false,
+          "listed_in": [],
+          "host_organization": "https://openalex.org/I205783295",
+          "host_organization_name": "Cornell University",
+          "host_organization_lineage": [
+            "https://openalex.org/I205783295"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "version": "submittedVersion",
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": null,
+        "raw_type": "text"
+      },
+      "parent_works": [],
+      "lineage": [
+        "https://openalex.org/W4386185625"
+      ],
+      "child_works_count": 0,
+      "type": "preprint",
+      "is_traditional": true,
+      "indexed_in": [
+        "arxiv",
+        "datacite"
+      ],
+      "open_access": {
+        "is_oa": true,
+        "oa_status": "green",
+        "oa_url": "https://arxiv.org/pdf/2308.12950",
+        "any_repository_has_fulltext": true
+      },
+      "authorships": [
+        {
+          "author_position": "first",
+          "author": {
+            "id": "https://openalex.org/A5048065823",
+            "display_name": "Baptiste Rozière",
+            "orcid": "https://orcid.org/0000-0002-9014-4379",
+            "observed_orcids": [
+              "https://orcid.org/0000-0002-9014-4379"
+            ]
+          },
+          "institutions": [],
+          "countries": [],
+          "is_corresponding": false,
+          "raw_author_name": "Rozière, Baptiste",
+          "raw_affiliation_strings": [],
+          "raw_orcid": null,
+          "affiliations": []
+        },
+        {
+          "author_position": "middle",
+          "author": {
+            "id": "https://openalex.org/A5069183549",
+            "display_name": "Jonas Gehring",
+            "orcid": "https://orcid.org/0009-0005-4115-3964",
+            "observed_orcids": [
+              "https://orcid.org/0009-0005-4115-3964"
+            ]
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I142631665",
+              "display_name": "École nationale des ponts et chaussées",
+              "ror": "https://ror.org/02nwvxz07",
+              "country_code": "FR",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I142631665",
+                "https://openalex.org/I4210145102"
+              ]
+            },
+            {
+              "id": "https://openalex.org/I4210128309",
+              "display_name": "CERMICS",
+              "ror": "https://ror.org/03wct8w46",
+              "country_code": "FR",
+              "type": "facility",
+              "lineage": [
+                "https://openalex.org/I1294671590",
+                "https://openalex.org/I142631665",
+                "https://openalex.org/I4210128309",
+                "https://openalex.org/I4210145102"
+              ]
+            }
+          ],
+          "countries": [
+            "FR"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "Gehring, Jonas",
+          "raw_affiliation_strings": [
+            "CERMICS École des Ponts ParisTech. ⋄ : Meta AI & Hebrew University of Jerusalem"
+          ],
+          "raw_orcid": null,
+          "affiliations": [
+            {
+              "raw_affiliation_string": "CERMICS École des Ponts ParisTech. ⋄ : Meta AI & Hebrew University of Jerusalem",
+              "institution_ids": [
+                "https://openalex.org/I142631665",
+                "https://openalex.org/I4210128309"
+              ]
+            }
+          ]
+        },
+        {
+          "author_position": "middle",
+          "author": {
+            "id": "https://openalex.org/A5092698871",
+            "display_name": "Fabian Gloeckle",
+            "orcid": null,
+            "observed_orcids": []
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I142631665",
+              "display_name": "École nationale des ponts et chaussées",
+              "ror": "https://ror.org/02nwvxz07",
+              "country_code": "FR",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I142631665",
+                "https://openalex.org/I4210145102"
+              ]
+            },
+            {
+              "id": "https://openalex.org/I4210128309",
+              "display_name": "CERMICS",
+              "ror": "https://ror.org/03wct8w46",
+              "country_code": "FR",
+              "type": "facility",
+              "lineage": [
+                "https://openalex.org/I1294671590",
+                "https://openalex.org/I142631665",
+                "https://openalex.org/I4210128309",
+                "https://openalex.org/I4210145102"
+              ]
+            }
+          ],
+          "countries": [
+            "FR"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "Gloeckle, Fabian",
+          "raw_affiliation_strings": [
+            "CERMICS École des Ponts ParisTech. ⋄ : Meta AI & Hebrew University of Jerusalem"
+          ],
+          "raw_orcid": null,
+          "affiliations": [
+            {
+              "raw_affiliation_string": "CERMICS École des Ponts ParisTech. ⋄ : Meta AI & Hebrew University of Jerusalem",
+              "institution_ids": [
+                "https://openalex.org/I142631665",
+                "https://openalex.org/I4210128309"
+              ]
+            }
+          ]
+        },
+        {
+          "author_position": "middle",
+          "author": {
+            "id": "https://openalex.org/A5036439306",
+            "display_name": "Sten Sootla",
+            "orcid": null,
+            "observed_orcids": []
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I142631665",
+              "display_name": "École nationale des ponts et chaussées",
+              "ror": "https://ror.org/02nwvxz07",
+              "country_code": "FR",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I142631665",
+                "https://openalex.org/I4210145102"
+              ]
+            },
+            {
+              "id": "https://openalex.org/I4210128309",
+              "display_name": "CERMICS",
+              "ror": "https://ror.org/03wct8w46",
+              "country_code": "FR",
+              "type": "facility",
+              "lineage": [
+                "https://openalex.org/I1294671590",
+                "https://openalex.org/I142631665",
+                "https://openalex.org/I4210128309",
+                "https://openalex.org/I4210145102"
+              ]
+            }
+          ],
+          "countries": [
+            "FR"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "Sootla, Sten",
+          "raw_affiliation_strings": [
+            "CERMICS École des Ponts ParisTech. ⋄ : Meta AI & Hebrew University of Jerusalem"
+          ],
+          "raw_orcid": null,
+          "affiliations": [
+            {
+              "raw_affiliation_string": "CERMICS École des Ponts ParisTech. ⋄ : Meta AI & Hebrew University of Jerusalem",
+              "institution_ids": [
+                "https://openalex.org/I142631665",
+                "https://openalex.org/I4210128309"
+              ]
+            }
+          ]
+        },
+        {
+          "author_position": "middle",
+          "author": {
+            "id": null,
+            "display_name": "Gat, Itai",
+            "orcid": null,
+            "observed_orcids": []
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I142631665",
+              "display_name": "École nationale des ponts et chaussées",
+              "ror": "https://ror.org/02nwvxz07",
+              "country_code": "FR",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I142631665",
+                "https://openalex.org/I4210145102"
+              ]
+            },
+            {
+              "id": "https://openalex.org/I4210128309",
+              "display_name": "CERMICS",
+              "ror": "https://ror.org/03wct8w46",
+              "country_code": "FR",
+              "type": "facility",
+              "lineage": [
+                "https://openalex.org/I1294671590",
+                "https://openalex.org/I142631665",
+                "https://openalex.org/I4210128309",
+                "https://openalex.org/I4210145102"
+              ]
+            }
+          ],
+          "countries": [
+            "FR"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "Gat, Itai",
+          "raw_affiliation_strings": [
+            "CERMICS École des Ponts ParisTech. ⋄ : Meta AI & Hebrew University of Jerusalem"
+          ],
+          "raw_orcid": null,
+          "affiliations": [
+            {
+              "raw_affiliation_string": "CERMICS École des Ponts ParisTech. ⋄ : Meta AI & Hebrew University of Jerusalem",
+              "institution_ids": [
+                "https://openalex.org/I142631665",
+                "https://openalex.org/I4210128309"
+              ]
+            }
+          ]
+        },
+        {
+          "author_position": "middle",
+          "author": {
+            "id": "https://openalex.org/A5104238116",
+            "display_name": "Xiaoqing Ellen Tan",
+            "orcid": null,
+            "observed_orcids": []
+          },
+          "institutions": [],
+          "countries": [],
+          "is_corresponding": false,
+          "raw_author_name": "Tan, Xiaoqing Ellen",
+          "raw_affiliation_strings": [],
+          "raw_orcid": null,
+          "affiliations": []
+        },
+        {
+          "author_position": "middle",
+          "author": {
+            "id": "https://openalex.org/A5005191803",
+            "display_name": "Yossi Adi",
+            "orcid": "https://orcid.org/0000-0003-2237-3898",
+            "observed_orcids": [
+              "https://orcid.org/0000-0003-2237-3898"
+            ]
+          },
+          "institutions": [],
+          "countries": [],
+          "is_corresponding": false,
+          "raw_author_name": "Adi, Yossi",
+          "raw_affiliation_strings": [],
+          "raw_orcid": null,
+          "affiliations": []
+        },
+        {
+          "author_position": "middle",
+          "author": {
+            "id": "https://openalex.org/A5100424757",
+            "display_name": "Jingyu Liu",
+            "orcid": "https://orcid.org/0000-0003-4079-6077",
+            "observed_orcids": [
+              "https://orcid.org/0000-0003-4079-6077"
+            ]
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I142631665",
+              "display_name": "École nationale des ponts et chaussées",
+              "ror": "https://ror.org/02nwvxz07",
+              "country_code": "FR",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I142631665",
+                "https://openalex.org/I4210145102"
+              ]
+            },
+            {
+              "id": "https://openalex.org/I4210128309",
+              "display_name": "CERMICS",
+              "ror": "https://ror.org/03wct8w46",
+              "country_code": "FR",
+              "type": "facility",
+              "lineage": [
+                "https://openalex.org/I1294671590",
+                "https://openalex.org/I142631665",
+                "https://openalex.org/I4210128309",
+                "https://openalex.org/I4210145102"
+              ]
+            }
+          ],
+          "countries": [
+            "FR"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "Liu, Jingyu",
+          "raw_affiliation_strings": [
+            "CERMICS École des Ponts ParisTech. ⋄ : Meta AI & Hebrew University of Jerusalem"
+          ],
+          "raw_orcid": null,
+          "affiliations": [
+            {
+              "raw_affiliation_string": "CERMICS École des Ponts ParisTech. ⋄ : Meta AI & Hebrew University of Jerusalem",
+              "institution_ids": [
+                "https://openalex.org/I142631665",
+                "https://openalex.org/I4210128309"
+              ]
+            }
+          ]
+        },
+        {
+          "author_position": "middle",
+          "author": {
+            "id": null,
+            "display_name": "Sauvestre, Romain",
+            "orcid": null,
+            "observed_orcids": []
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I142631665",
+              "display_name": "École nationale des ponts et chaussées",
+              "ror": "https://ror.org/02nwvxz07",
+              "country_code": "FR",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I142631665",
+                "https://openalex.org/I4210145102"
+              ]
+            },
+            {
+              "id": "https://openalex.org/I4210128309",
+              "display_name": "CERMICS",
+              "ror": "https://ror.org/03wct8w46",
+              "country_code": "FR",
+              "type": "facility",
+              "lineage": [
+                "https://openalex.org/I1294671590",
+                "https://openalex.org/I142631665",
+                "https://openalex.org/I4210128309",
+                "https://openalex.org/I4210145102"
+              ]
+            }
+          ],
+          "countries": [
+            "FR"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "Sauvestre, Romain",
+          "raw_affiliation_strings": [
+            "CERMICS École des Ponts ParisTech. ⋄ : Meta AI & Hebrew University of Jerusalem"
+          ],
+          "raw_orcid": null,
+          "affiliations": [
+            {
+              "raw_affiliation_string": "CERMICS École des Ponts ParisTech. ⋄ : Meta AI & Hebrew University of Jerusalem",
+              "institution_ids": [
+                "https://openalex.org/I142631665",
+                "https://openalex.org/I4210128309"
+              ]
+            }
+          ]
+        },
+        {
+          "author_position": "middle",
+          "author": {
+            "id": "https://openalex.org/A5015117736",
+            "display_name": "Tal Remez",
+            "orcid": "https://orcid.org/0000-0002-9930-8624",
+            "observed_orcids": [
+              "https://orcid.org/0000-0002-9930-8624"
+            ]
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I142631665",
+              "display_name": "École nationale des ponts et chaussées",
+              "ror": "https://ror.org/02nwvxz07",
+              "country_code": "FR",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I142631665",
+                "https://openalex.org/I4210145102"
+              ]
+            },
+            {
+              "id": "https://openalex.org/I4210128309",
+              "display_name": "CERMICS",
+              "ror": "https://ror.org/03wct8w46",
+              "country_code": "FR",
+              "type": "facility",
+              "lineage": [
+                "https://openalex.org/I1294671590",
+                "https://openalex.org/I142631665",
+                "https://openalex.org/I4210128309",
+                "https://openalex.org/I4210145102"
+              ]
+            }
+          ],
+          "countries": [
+            "FR"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "Remez, Tal",
+          "raw_affiliation_strings": [
+            "CERMICS École des Ponts ParisTech. ⋄ : Meta AI & Hebrew University of Jerusalem"
+          ],
+          "raw_orcid": null,
+          "affiliations": [
+            {
+              "raw_affiliation_string": "CERMICS École des Ponts ParisTech. ⋄ : Meta AI & Hebrew University of Jerusalem",
+              "institution_ids": [
+                "https://openalex.org/I142631665",
+                "https://openalex.org/I4210128309"
+              ]
+            }
+          ]
+        },
+        {
+          "author_position": "middle",
+          "author": {
+            "id": "https://openalex.org/A5108109774",
+            "display_name": "Jérémy Rapin",
+            "orcid": null,
+            "observed_orcids": []
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I142631665",
+              "display_name": "École nationale des ponts et chaussées",
+              "ror": "https://ror.org/02nwvxz07",
+              "country_code": "FR",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I142631665",
+                "https://openalex.org/I4210145102"
+              ]
+            },
+            {
+              "id": "https://openalex.org/I4210128309",
+              "display_name": "CERMICS",
+              "ror": "https://ror.org/03wct8w46",
+              "country_code": "FR",
+              "type": "facility",
+              "lineage": [
+                "https://openalex.org/I1294671590",
+                "https://openalex.org/I142631665",
+                "https://openalex.org/I4210128309",
+                "https://openalex.org/I4210145102"
+              ]
+            }
+          ],
+          "countries": [
+            "FR"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "Rapin, Jérémy",
+          "raw_affiliation_strings": [
+            "CERMICS École des Ponts ParisTech. ⋄ : Meta AI & Hebrew University of Jerusalem"
+          ],
+          "raw_orcid": null,
+          "affiliations": [
+            {
+              "raw_affiliation_string": "CERMICS École des Ponts ParisTech. ⋄ : Meta AI & Hebrew University of Jerusalem",
+              "institution_ids": [
+                "https://openalex.org/I142631665",
+                "https://openalex.org/I4210128309"
+              ]
+            }
+          ]
+        },
+        {
+          "author_position": "middle",
+          "author": {
+            "id": "https://openalex.org/A5112988007",
+            "display_name": "Artyom Kozhevnikov",
+            "orcid": null,
+            "observed_orcids": []
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I142631665",
+              "display_name": "École nationale des ponts et chaussées",
+              "ror": "https://ror.org/02nwvxz07",
+              "country_code": "FR",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I142631665",
+                "https://openalex.org/I4210145102"
+              ]
+            },
+            {
+              "id": "https://openalex.org/I4210128309",
+              "display_name": "CERMICS",
+              "ror": "https://ror.org/03wct8w46",
+              "country_code": "FR",
+              "type": "facility",
+              "lineage": [
+                "https://openalex.org/I1294671590",
+                "https://openalex.org/I142631665",
+                "https://openalex.org/I4210128309",
+                "https://openalex.org/I4210145102"
+              ]
+            }
+          ],
+          "countries": [
+            "FR"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "Kozhevnikov, Artyom",
+          "raw_affiliation_strings": [
+            "CERMICS École des Ponts ParisTech. ⋄ : Meta AI & Hebrew University of Jerusalem"
+          ],
+          "raw_orcid": null,
+          "affiliations": [
+            {
+              "raw_affiliation_string": "CERMICS École des Ponts ParisTech. ⋄ : Meta AI & Hebrew University of Jerusalem",
+              "institution_ids": [
+                "https://openalex.org/I142631665",
+                "https://openalex.org/I4210128309"
+              ]
+            }
+          ]
+        },
+        {
+          "author_position": "middle",
+          "author": {
+            "id": "https://openalex.org/A5021932110",
+            "display_name": "Ivan Evtimov",
+            "orcid": "https://orcid.org/0009-0003-7763-4263",
+            "observed_orcids": [
+              "https://orcid.org/0009-0003-7763-4263"
+            ]
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I142631665",
+              "display_name": "École nationale des ponts et chaussées",
+              "ror": "https://ror.org/02nwvxz07",
+              "country_code": "FR",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I142631665",
+                "https://openalex.org/I4210145102"
+              ]
+            },
+            {
+              "id": "https://openalex.org/I4210128309",
+              "display_name": "CERMICS",
+              "ror": "https://ror.org/03wct8w46",
+              "country_code": "FR",
+              "type": "facility",
+              "lineage": [
+                "https://openalex.org/I1294671590",
+                "https://openalex.org/I142631665",
+                "https://openalex.org/I4210128309",
+                "https://openalex.org/I4210145102"
+              ]
+            }
+          ],
+          "countries": [
+            "FR"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "Evtimov, Ivan",
+          "raw_affiliation_strings": [
+            "CERMICS École des Ponts ParisTech. ⋄ : Meta AI & Hebrew University of Jerusalem"
+          ],
+          "raw_orcid": null,
+          "affiliations": [
+            {
+              "raw_affiliation_string": "CERMICS École des Ponts ParisTech. ⋄ : Meta AI & Hebrew University of Jerusalem",
+              "institution_ids": [
+                "https://openalex.org/I142631665",
+                "https://openalex.org/I4210128309"
+              ]
+            }
+          ]
+        },
+        {
+          "author_position": "middle",
+          "author": {
+            "id": "https://openalex.org/A5072736125",
+            "display_name": "Joanna Bitton",
+            "orcid": null,
+            "observed_orcids": []
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I142631665",
+              "display_name": "École nationale des ponts et chaussées",
+              "ror": "https://ror.org/02nwvxz07",
+              "country_code": "FR",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I142631665",
+                "https://openalex.org/I4210145102"
+              ]
+            },
+            {
+              "id": "https://openalex.org/I4210128309",
+              "display_name": "CERMICS",
+              "ror": "https://ror.org/03wct8w46",
+              "country_code": "FR",
+              "type": "facility",
+              "lineage": [
+                "https://openalex.org/I1294671590",
+                "https://openalex.org/I142631665",
+                "https://openalex.org/I4210128309",
+                "https://openalex.org/I4210145102"
+              ]
+            }
+          ],
+          "countries": [
+            "FR"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "Bitton, Joanna",
+          "raw_affiliation_strings": [
+            "CERMICS École des Ponts ParisTech. ⋄ : Meta AI & Hebrew University of Jerusalem"
+          ],
+          "raw_orcid": null,
+          "affiliations": [
+            {
+              "raw_affiliation_string": "CERMICS École des Ponts ParisTech. ⋄ : Meta AI & Hebrew University of Jerusalem",
+              "institution_ids": [
+                "https://openalex.org/I142631665",
+                "https://openalex.org/I4210128309"
+              ]
+            }
+          ]
+        },
+        {
+          "author_position": "middle",
+          "author": {
+            "id": "https://openalex.org/A5112988008",
+            "display_name": "Manish Bhatt",
+            "orcid": "https://orcid.org/0000-0002-3867-5180",
+            "observed_orcids": [
+              "https://orcid.org/0000-0002-3867-5180"
+            ]
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I142631665",
+              "display_name": "École nationale des ponts et chaussées",
+              "ror": "https://ror.org/02nwvxz07",
+              "country_code": "FR",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I142631665",
+                "https://openalex.org/I4210145102"
+              ]
+            },
+            {
+              "id": "https://openalex.org/I4210128309",
+              "display_name": "CERMICS",
+              "ror": "https://ror.org/03wct8w46",
+              "country_code": "FR",
+              "type": "facility",
+              "lineage": [
+                "https://openalex.org/I1294671590",
+                "https://openalex.org/I142631665",
+                "https://openalex.org/I4210128309",
+                "https://openalex.org/I4210145102"
+              ]
+            }
+          ],
+          "countries": [
+            "FR"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "Bhatt, Manish",
+          "raw_affiliation_strings": [
+            "CERMICS École des Ponts ParisTech. ⋄ : Meta AI & Hebrew University of Jerusalem"
+          ],
+          "raw_orcid": null,
+          "affiliations": [
+            {
+              "raw_affiliation_string": "CERMICS École des Ponts ParisTech. ⋄ : Meta AI & Hebrew University of Jerusalem",
+              "institution_ids": [
+                "https://openalex.org/I142631665",
+                "https://openalex.org/I4210128309"
+              ]
+            }
+          ]
+        },
+        {
+          "author_position": "middle",
+          "author": {
+            "id": "https://openalex.org/A5079611849",
+            "display_name": "Cristian Canton Ferrer",
+            "orcid": "https://orcid.org/0000-0002-3189-5498",
+            "observed_orcids": [
+              "https://orcid.org/0000-0002-3189-5498"
+            ]
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I142631665",
+              "display_name": "École nationale des ponts et chaussées",
+              "ror": "https://ror.org/02nwvxz07",
+              "country_code": "FR",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I142631665",
+                "https://openalex.org/I4210145102"
+              ]
+            },
+            {
+              "id": "https://openalex.org/I4210128309",
+              "display_name": "CERMICS",
+              "ror": "https://ror.org/03wct8w46",
+              "country_code": "FR",
+              "type": "facility",
+              "lineage": [
+                "https://openalex.org/I1294671590",
+                "https://openalex.org/I142631665",
+                "https://openalex.org/I4210128309",
+                "https://openalex.org/I4210145102"
+              ]
+            }
+          ],
+          "countries": [
+            "FR"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "Ferrer, Cristian Canton",
+          "raw_affiliation_strings": [
+            "CERMICS École des Ponts ParisTech. ⋄ : Meta AI & Hebrew University of Jerusalem"
+          ],
+          "raw_orcid": null,
+          "affiliations": [
+            {
+              "raw_affiliation_string": "CERMICS École des Ponts ParisTech. ⋄ : Meta AI & Hebrew University of Jerusalem",
+              "institution_ids": [
+                "https://openalex.org/I142631665",
+                "https://openalex.org/I4210128309"
+              ]
+            }
+          ]
+        },
+        {
+          "author_position": "middle",
+          "author": {
+            "id": "https://openalex.org/A5026557666",
+            "display_name": "Aaron Grattafiori",
+            "orcid": null,
+            "observed_orcids": []
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I142631665",
+              "display_name": "École nationale des ponts et chaussées",
+              "ror": "https://ror.org/02nwvxz07",
+              "country_code": "FR",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I142631665",
+                "https://openalex.org/I4210145102"
+              ]
+            },
+            {
+              "id": "https://openalex.org/I4210128309",
+              "display_name": "CERMICS",
+              "ror": "https://ror.org/03wct8w46",
+              "country_code": "FR",
+              "type": "facility",
+              "lineage": [
+                "https://openalex.org/I1294671590",
+                "https://openalex.org/I142631665",
+                "https://openalex.org/I4210128309",
+                "https://openalex.org/I4210145102"
+              ]
+            }
+          ],
+          "countries": [
+            "FR"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "Grattafiori, Aaron",
+          "raw_affiliation_strings": [
+            "CERMICS École des Ponts ParisTech. ⋄ : Meta AI & Hebrew University of Jerusalem"
+          ],
+          "raw_orcid": null,
+          "affiliations": [
+            {
+              "raw_affiliation_string": "CERMICS École des Ponts ParisTech. ⋄ : Meta AI & Hebrew University of Jerusalem",
+              "institution_ids": [
+                "https://openalex.org/I142631665",
+                "https://openalex.org/I4210128309"
+              ]
+            }
+          ]
+        },
+        {
+          "author_position": "middle",
+          "author": {
+            "id": "https://openalex.org/A5110635444",
+            "display_name": "Wenhan Xiong",
+            "orcid": null,
+            "observed_orcids": []
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I142631665",
+              "display_name": "École nationale des ponts et chaussées",
+              "ror": "https://ror.org/02nwvxz07",
+              "country_code": "FR",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I142631665",
+                "https://openalex.org/I4210145102"
+              ]
+            },
+            {
+              "id": "https://openalex.org/I4210128309",
+              "display_name": "CERMICS",
+              "ror": "https://ror.org/03wct8w46",
+              "country_code": "FR",
+              "type": "facility",
+              "lineage": [
+                "https://openalex.org/I1294671590",
+                "https://openalex.org/I142631665",
+                "https://openalex.org/I4210128309",
+                "https://openalex.org/I4210145102"
+              ]
+            }
+          ],
+          "countries": [
+            "FR"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "Xiong, Wenhan",
+          "raw_affiliation_strings": [
+            "CERMICS École des Ponts ParisTech. ⋄ : Meta AI & Hebrew University of Jerusalem"
+          ],
+          "raw_orcid": null,
+          "affiliations": [
+            {
+              "raw_affiliation_string": "CERMICS École des Ponts ParisTech. ⋄ : Meta AI & Hebrew University of Jerusalem",
+              "institution_ids": [
+                "https://openalex.org/I142631665",
+                "https://openalex.org/I4210128309"
+              ]
+            }
+          ]
+        },
+        {
+          "author_position": "middle",
+          "author": {
+            "id": null,
+            "display_name": "Défossez, Alexandre",
+            "orcid": null,
+            "observed_orcids": []
+          },
+          "institutions": [],
+          "countries": [],
+          "is_corresponding": false,
+          "raw_author_name": "Défossez, Alexandre",
+          "raw_affiliation_strings": [],
+          "raw_orcid": null,
+          "affiliations": []
+        },
+        {
+          "author_position": "middle",
+          "author": {
+            "id": "https://openalex.org/A5020182193",
+            "display_name": "Jade Copet",
+            "orcid": null,
+            "observed_orcids": []
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I142631665",
+              "display_name": "École nationale des ponts et chaussées",
+              "ror": "https://ror.org/02nwvxz07",
+              "country_code": "FR",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I142631665",
+                "https://openalex.org/I4210145102"
+              ]
+            },
+            {
+              "id": "https://openalex.org/I4210128309",
+              "display_name": "CERMICS",
+              "ror": "https://ror.org/03wct8w46",
+              "country_code": "FR",
+              "type": "facility",
+              "lineage": [
+                "https://openalex.org/I1294671590",
+                "https://openalex.org/I142631665",
+                "https://openalex.org/I4210128309",
+                "https://openalex.org/I4210145102"
+              ]
+            }
+          ],
+          "countries": [
+            "FR"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "Copet, Jade",
+          "raw_affiliation_strings": [
+            "CERMICS École des Ponts ParisTech. ⋄ : Meta AI & Hebrew University of Jerusalem"
+          ],
+          "raw_orcid": null,
+          "affiliations": [
+            {
+              "raw_affiliation_string": "CERMICS École des Ponts ParisTech. ⋄ : Meta AI & Hebrew University of Jerusalem",
+              "institution_ids": [
+                "https://openalex.org/I142631665",
+                "https://openalex.org/I4210128309"
+              ]
+            }
+          ]
+        },
+        {
+          "author_position": "middle",
+          "author": {
+            "id": null,
+            "display_name": "Azhar, Faisal",
+            "orcid": null,
+            "observed_orcids": []
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I142631665",
+              "display_name": "École nationale des ponts et chaussées",
+              "ror": "https://ror.org/02nwvxz07",
+              "country_code": "FR",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I142631665",
+                "https://openalex.org/I4210145102"
+              ]
+            },
+            {
+              "id": "https://openalex.org/I4210128309",
+              "display_name": "CERMICS",
+              "ror": "https://ror.org/03wct8w46",
+              "country_code": "FR",
+              "type": "facility",
+              "lineage": [
+                "https://openalex.org/I1294671590",
+                "https://openalex.org/I142631665",
+                "https://openalex.org/I4210128309",
+                "https://openalex.org/I4210145102"
+              ]
+            }
+          ],
+          "countries": [
+            "FR"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "Azhar, Faisal",
+          "raw_affiliation_strings": [
+            "CERMICS École des Ponts ParisTech. ⋄ : Meta AI & Hebrew University of Jerusalem"
+          ],
+          "raw_orcid": null,
+          "affiliations": [
+            {
+              "raw_affiliation_string": "CERMICS École des Ponts ParisTech. ⋄ : Meta AI & Hebrew University of Jerusalem",
+              "institution_ids": [
+                "https://openalex.org/I142631665",
+                "https://openalex.org/I4210128309"
+              ]
+            }
+          ]
+        },
+        {
+          "author_position": "middle",
+          "author": {
+            "id": "https://openalex.org/A5032644449",
+            "display_name": "Hugo Touvron",
+            "orcid": "https://orcid.org/0000-0003-1678-392X",
+            "observed_orcids": [
+              "https://orcid.org/0000-0003-1678-392X"
+            ]
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I142631665",
+              "display_name": "École nationale des ponts et chaussées",
+              "ror": "https://ror.org/02nwvxz07",
+              "country_code": "FR",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I142631665",
+                "https://openalex.org/I4210145102"
+              ]
+            },
+            {
+              "id": "https://openalex.org/I4210128309",
+              "display_name": "CERMICS",
+              "ror": "https://ror.org/03wct8w46",
+              "country_code": "FR",
+              "type": "facility",
+              "lineage": [
+                "https://openalex.org/I1294671590",
+                "https://openalex.org/I142631665",
+                "https://openalex.org/I4210128309",
+                "https://openalex.org/I4210145102"
+              ]
+            }
+          ],
+          "countries": [
+            "FR"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "Touvron, Hugo",
+          "raw_affiliation_strings": [
+            "CERMICS École des Ponts ParisTech. ⋄ : Meta AI & Hebrew University of Jerusalem"
+          ],
+          "raw_orcid": null,
+          "affiliations": [
+            {
+              "raw_affiliation_string": "CERMICS École des Ponts ParisTech. ⋄ : Meta AI & Hebrew University of Jerusalem",
+              "institution_ids": [
+                "https://openalex.org/I142631665",
+                "https://openalex.org/I4210128309"
+              ]
+            }
+          ]
+        },
+        {
+          "author_position": "middle",
+          "author": {
+            "id": null,
+            "display_name": "Martin, Louis",
+            "orcid": null,
+            "observed_orcids": []
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I142631665",
+              "display_name": "École nationale des ponts et chaussées",
+              "ror": "https://ror.org/02nwvxz07",
+              "country_code": "FR",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I142631665",
+                "https://openalex.org/I4210145102"
+              ]
+            },
+            {
+              "id": "https://openalex.org/I4210128309",
+              "display_name": "CERMICS",
+              "ror": "https://ror.org/03wct8w46",
+              "country_code": "FR",
+              "type": "facility",
+              "lineage": [
+                "https://openalex.org/I1294671590",
+                "https://openalex.org/I142631665",
+                "https://openalex.org/I4210128309",
+                "https://openalex.org/I4210145102"
+              ]
+            }
+          ],
+          "countries": [
+            "FR"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "Martin, Louis",
+          "raw_affiliation_strings": [
+            "CERMICS École des Ponts ParisTech. ⋄ : Meta AI & Hebrew University of Jerusalem"
+          ],
+          "raw_orcid": null,
+          "affiliations": [
+            {
+              "raw_affiliation_string": "CERMICS École des Ponts ParisTech. ⋄ : Meta AI & Hebrew University of Jerusalem",
+              "institution_ids": [
+                "https://openalex.org/I142631665",
+                "https://openalex.org/I4210128309"
+              ]
+            }
+          ]
+        },
+        {
+          "author_position": "middle",
+          "author": {
+            "id": "https://openalex.org/A5084360449",
+            "display_name": "Nicolas Usunier",
+            "orcid": "https://orcid.org/0000-0002-9324-1457",
+            "observed_orcids": [
+              "https://orcid.org/0000-0002-9324-1457"
+            ]
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I142631665",
+              "display_name": "École nationale des ponts et chaussées",
+              "ror": "https://ror.org/02nwvxz07",
+              "country_code": "FR",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I142631665",
+                "https://openalex.org/I4210145102"
+              ]
+            },
+            {
+              "id": "https://openalex.org/I4210128309",
+              "display_name": "CERMICS",
+              "ror": "https://ror.org/03wct8w46",
+              "country_code": "FR",
+              "type": "facility",
+              "lineage": [
+                "https://openalex.org/I1294671590",
+                "https://openalex.org/I142631665",
+                "https://openalex.org/I4210128309",
+                "https://openalex.org/I4210145102"
+              ]
+            }
+          ],
+          "countries": [
+            "FR"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "Usunier, Nicolas",
+          "raw_affiliation_strings": [
+            "CERMICS École des Ponts ParisTech. ⋄ : Meta AI & Hebrew University of Jerusalem"
+          ],
+          "raw_orcid": null,
+          "affiliations": [
+            {
+              "raw_affiliation_string": "CERMICS École des Ponts ParisTech. ⋄ : Meta AI & Hebrew University of Jerusalem",
+              "institution_ids": [
+                "https://openalex.org/I142631665",
+                "https://openalex.org/I4210128309"
+              ]
+            }
+          ]
+        },
+        {
+          "author_position": "middle",
+          "author": {
+            "id": "https://openalex.org/A5089419558",
+            "display_name": "Thomas Scialom",
+            "orcid": null,
+            "observed_orcids": []
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I142631665",
+              "display_name": "École nationale des ponts et chaussées",
+              "ror": "https://ror.org/02nwvxz07",
+              "country_code": "FR",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I142631665",
+                "https://openalex.org/I4210145102"
+              ]
+            },
+            {
+              "id": "https://openalex.org/I4210128309",
+              "display_name": "CERMICS",
+              "ror": "https://ror.org/03wct8w46",
+              "country_code": "FR",
+              "type": "facility",
+              "lineage": [
+                "https://openalex.org/I1294671590",
+                "https://openalex.org/I142631665",
+                "https://openalex.org/I4210128309",
+                "https://openalex.org/I4210145102"
+              ]
+            }
+          ],
+          "countries": [
+            "FR"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "Scialom, Thomas",
+          "raw_affiliation_strings": [
+            "CERMICS École des Ponts ParisTech. ⋄ : Meta AI & Hebrew University of Jerusalem"
+          ],
+          "raw_orcid": null,
+          "affiliations": [
+            {
+              "raw_affiliation_string": "CERMICS École des Ponts ParisTech. ⋄ : Meta AI & Hebrew University of Jerusalem",
+              "institution_ids": [
+                "https://openalex.org/I142631665",
+                "https://openalex.org/I4210128309"
+              ]
+            }
+          ]
+        },
+        {
+          "author_position": "last",
+          "author": {
+            "id": "https://openalex.org/A5041907084",
+            "display_name": "Gabriel Synnaeve",
+            "orcid": "https://orcid.org/0000-0003-1715-3356",
+            "observed_orcids": [
+              "https://orcid.org/0000-0003-1715-3356"
+            ]
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I142631665",
+              "display_name": "École nationale des ponts et chaussées",
+              "ror": "https://ror.org/02nwvxz07",
+              "country_code": "FR",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I142631665",
+                "https://openalex.org/I4210145102"
+              ]
+            },
+            {
+              "id": "https://openalex.org/I4210128309",
+              "display_name": "CERMICS",
+              "ror": "https://ror.org/03wct8w46",
+              "country_code": "FR",
+              "type": "facility",
+              "lineage": [
+                "https://openalex.org/I1294671590",
+                "https://openalex.org/I142631665",
+                "https://openalex.org/I4210128309",
+                "https://openalex.org/I4210145102"
+              ]
+            }
+          ],
+          "countries": [
+            "FR"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "Synnaeve, Gabriel",
+          "raw_affiliation_strings": [
+            "CERMICS École des Ponts ParisTech. ⋄ : Meta AI & Hebrew University of Jerusalem"
+          ],
+          "raw_orcid": null,
+          "affiliations": [
+            {
+              "raw_affiliation_string": "CERMICS École des Ponts ParisTech. ⋄ : Meta AI & Hebrew University of Jerusalem",
+              "institution_ids": [
+                "https://openalex.org/I142631665",
+                "https://openalex.org/I4210128309"
+              ]
+            }
+          ]
+        }
+      ],
+      "institutions": [],
+      "countries_distinct_count": 1,
+      "institutions_distinct_count": 2,
+      "corresponding_author_ids": [],
+      "corresponding_institution_ids": [],
+      "apc_list": null,
+      "apc_paid": null,
+      "fwci": null,
+      "is_authors_truncated": false,
+      "has_fulltext": true,
+      "cited_by_count": 3961,
+      "citation_normalized_percentile": null,
+      "cited_by_percentile_year": null,
+      "biblio": {
+        "volume": null,
+        "issue": null,
+        "first_page": null,
+        "last_page": null
+      },
+      "is_retracted": false,
+      "is_paratext": false,
+      "is_xpac": false,
+      "primary_topic": {
+        "id": "https://openalex.org/T10260",
+        "display_name": "Software Engineering Research",
+        "score": 0.9829000234603882,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1710",
+          "display_name": "Information Systems"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      "topics": [
+        {
+          "id": "https://openalex.org/T10260",
+          "display_name": "Software Engineering Research",
+          "score": 0.9829000234603882,
+          "subfield": {
+            "id": "https://openalex.org/subfields/1710",
+            "display_name": "Information Systems"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/17",
+            "display_name": "Computer Science"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T10028",
+          "display_name": "Topic Modeling",
+          "score": 0.01080000028014183,
+          "subfield": {
+            "id": "https://openalex.org/subfields/1702",
+            "display_name": "Artificial Intelligence"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/17",
+            "display_name": "Computer Science"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T10533",
+          "display_name": "Teaching and Learning Programming",
+          "score": 0.0017000000225380063,
+          "subfield": {
+            "id": "https://openalex.org/subfields/1706",
+            "display_name": "Computer Science Applications"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/17",
+            "display_name": "Computer Science"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        }
+      ],
+      "keywords": [
+        {
+          "id": "https://openalex.org/keywords/code-llama",
+          "display_name": "CodeLlama",
+          "score": 0.9599999785423279
+        },
+        {
+          "id": "https://openalex.org/keywords/large-language-models-for-code",
+          "display_name": "code large language models",
+          "score": 0.9269999861717224
+        },
+        {
+          "id": "https://openalex.org/keywords/llama-2",
+          "display_name": "Llama 2",
+          "score": 0.9660000205039978
+        },
+        {
+          "id": "https://openalex.org/keywords/humaneval",
+          "display_name": "HumanEval",
+          "score": 0.781000018119812
+        },
+        {
+          "id": "https://openalex.org/keywords/mbpp",
+          "display_name": "MBPP",
+          "score": 0.8759999871253967
+        },
+        {
+          "id": "https://openalex.org/keywords/code-generation-benchmarks",
+          "display_name": "code generation benchmarks",
+          "score": 0.4909999966621399
+        }
+      ],
+      "concepts": [
+        {
+          "id": "https://openalex.org/C2776760102",
+          "wikidata": "https://www.wikidata.org/wiki/Q5139990",
+          "display_name": "Code (set theory)",
+          "level": 3,
+          "score": 0.7229094505310059
+        },
+        {
+          "id": "https://openalex.org/C2780966255",
+          "wikidata": "https://www.wikidata.org/wiki/Q5474306",
+          "display_name": "Foundation (evidence)",
+          "level": 2,
+          "score": 0.6620822548866272
+        },
+        {
+          "id": "https://openalex.org/C2992077309",
+          "wikidata": "https://www.wikidata.org/wiki/Q55607839",
+          "display_name": "Code of practice",
+          "level": 2,
+          "score": 0.5676681399345398
+        },
+        {
+          "id": "https://openalex.org/C199360897",
+          "wikidata": "https://www.wikidata.org/wiki/Q9143",
+          "display_name": "Programming language",
+          "level": 1,
+          "score": 0.4552927315235138
+        },
+        {
+          "id": "https://openalex.org/C41008148",
+          "wikidata": "https://www.wikidata.org/wiki/Q21198",
+          "display_name": "Computer science",
+          "level": 0,
+          "score": 0.40121620893478394
+        },
+        {
+          "id": "https://openalex.org/C205649164",
+          "wikidata": "https://www.wikidata.org/wiki/Q1071",
+          "display_name": "Geography",
+          "level": 0,
+          "score": 0.22503453493118286
+        },
+        {
+          "id": "https://openalex.org/C127413603",
+          "wikidata": "https://www.wikidata.org/wiki/Q11023",
+          "display_name": "Engineering",
+          "level": 0,
+          "score": 0.2037246823310852
+        },
+        {
+          "id": "https://openalex.org/C166957645",
+          "wikidata": "https://www.wikidata.org/wiki/Q23498",
+          "display_name": "Archaeology",
+          "level": 1,
+          "score": 0.15402525663375854
+        },
+        {
+          "id": "https://openalex.org/C107053488",
+          "wikidata": "https://www.wikidata.org/wiki/Q2674423",
+          "display_name": "Construction engineering",
+          "level": 1,
+          "score": 0.08332914113998413
+        },
+        {
+          "id": "https://openalex.org/C177264268",
+          "wikidata": "https://www.wikidata.org/wiki/Q1514741",
+          "display_name": "Set (abstract data type)",
+          "level": 2,
+          "score": 0.04701578617095947
+        }
+      ],
+      "mesh": [],
+      "locations_count": 2,
+      "locations": [
+        {
+          "id": "pmh:oai:arXiv.org:2308.12950",
+          "doi": null,
+          "is_oa": true,
+          "landing_page_url": "http://arxiv.org/abs/2308.12950",
+          "pdf_url": "https://arxiv.org/pdf/2308.12950",
+          "source": {
+            "id": "https://openalex.org/S4306400194",
+            "display_name": "arXiv (Cornell University)",
+            "issn_l": "2331-8422",
+            "issn": [
+              "2331-8422"
+            ],
+            "is_oa": true,
+            "is_in_doaj": false,
+            "is_core": false,
+            "listed_in": [],
+            "host_organization": "https://openalex.org/I205783295",
+            "host_organization_name": "Cornell University",
+            "host_organization_lineage": [
+              "https://openalex.org/I205783295"
+            ],
+            "host_organization_lineage_names": [],
+            "type": "repository"
+          },
+          "license": "cc-by",
+          "license_id": "https://openalex.org/licenses/cc-by",
+          "version": "submittedVersion",
+          "is_accepted": false,
+          "is_published": false,
+          "raw_source_name": null,
+          "raw_type": "text"
+        },
+        {
+          "id": "doi:10.48550/arxiv.2308.12950",
+          "doi": "https://doi.org/10.48550/arxiv.2308.12950",
+          "is_oa": true,
+          "landing_page_url": "https://doi.org/10.48550/arxiv.2308.12950",
+          "pdf_url": null,
+          "source": {
+            "id": "https://openalex.org/S4306400194",
+            "display_name": "arXiv (Cornell University)",
+            "issn_l": "2331-8422",
+            "issn": [
+              "2331-8422"
+            ],
+            "is_oa": true,
+            "is_in_doaj": false,
+            "is_core": false,
+            "listed_in": [],
+            "host_organization": "https://openalex.org/I205783295",
+            "host_organization_name": "Cornell University",
+            "host_organization_lineage": [
+              "https://openalex.org/I205783295"
+            ],
+            "host_organization_lineage_names": [],
+            "type": "repository"
+          },
+          "license": "cc-by",
+          "license_id": "https://openalex.org/licenses/cc-by",
+          "version": null,
+          "is_accepted": false,
+          "is_published": false,
+          "raw_source_name": null,
+          "raw_type": "Preprint"
+        }
+      ],
+      "best_oa_location": {
+        "id": "pmh:oai:arXiv.org:2308.12950",
+        "doi": null,
+        "is_oa": true,
+        "landing_page_url": "http://arxiv.org/abs/2308.12950",
+        "pdf_url": "https://arxiv.org/pdf/2308.12950",
+        "source": {
+          "id": "https://openalex.org/S4306400194",
+          "display_name": "arXiv (Cornell University)",
+          "issn_l": "2331-8422",
+          "issn": [
+            "2331-8422"
+          ],
+          "is_oa": true,
+          "is_in_doaj": false,
+          "is_core": false,
+          "listed_in": [],
+          "host_organization": "https://openalex.org/I205783295",
+          "host_organization_name": "Cornell University",
+          "host_organization_lineage": [
+            "https://openalex.org/I205783295"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "version": "submittedVersion",
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": null,
+        "raw_type": "text"
+      },
+      "sustainable_development_goals": [],
+      "study_designs": [],
+      "awards": [],
+      "funders": [],
+      "has_content": {
+        "grobid_xml": true,
+        "pdf": true
+      },
+      "content_urls": {
+        "pdf": "https://content.openalex.org/works/W4386185625.pdf",
+        "grobid_xml": "https://content.openalex.org/works/W4386185625.grobid-xml"
+      },
+      "referenced_works_count": 1,
+      "referenced_works": [
+        "https://openalex.org/W3212496002"
+      ],
+      "related_works": [
+        "https://openalex.org/W7162815490",
+        "https://openalex.org/W7162815980",
+        "https://openalex.org/W7162780864",
+        "https://openalex.org/W4281763794",
+        "https://openalex.org/W4376167329",
+        "https://openalex.org/W4396814788",
+        "https://openalex.org/W4389519352",
+        "https://openalex.org/W4380993527",
+        "https://openalex.org/W4385849242",
+        "https://openalex.org/W4413349688"
+      ],
+      "abstract_inverted_index": {
+        "We": [
+          0,
+          37,
+          161
+        ],
+        "release": [
+          1,
+          162
+        ],
+        "Code": [
+          2,
+          96,
+          99,
+          110,
+          136,
+          163
+        ],
+        "Llama,": [
+          3
+        ],
+        "a": [
+          4,
+          43,
+          166
+        ],
+        "family": [
+          5
+        ],
+        "of": [
+          6,
+          46,
+          79,
+          124
+        ],
+        "large": [
+          7,
+          26
+        ],
+        "language": [
+          8
+        ],
+        "models": [
+          9,
+          49,
+          60,
+          74,
+          117,
+          152
+        ],
+        "for": [
+          10,
+          25,
+          34,
+          171
+        ],
+        "code": [
+          11,
+          120
+        ],
+        "based": [
+          12,
+          106
+        ],
+        "on": [
+          13,
+          77,
+          85,
+          107,
+          118,
+          130,
+          145,
+          159
+        ],
+        "Llama": [
+          14,
+          55,
+          62,
+          97,
+          100,
+          111,
+          137,
+          142,
+          164
+        ],
+        "2": [
+          15,
+          143
+        ],
+        "providing": [
+          16
+        ],
+        "state-of-the-art": [
+          17,
+          113
+        ],
+        "performance": [
+          18,
+          114
+        ],
+        "among": [
+          19,
+          115
+        ],
+        "open": [
+          20,
+          116
+        ],
+        "models,": [
+          21
+        ],
+        "infilling": [
+          22,
+          105
+        ],
+        "capabilities,": [
+          23
+        ],
+        "support": [
+          24,
+          104
+        ],
+        "input": [
+          27
+        ],
+        "contexts,": [
+          28
+        ],
+        "and": [
+          29,
+          58,
+          69,
+          82,
+          94,
+          98,
+          128,
+          132,
+          147,
+          149,
+          174
+        ],
+        "zero-shot": [
+          30
+        ],
+        "instruction": [
+          31
+        ],
+        "following": [
+          32
+        ],
+        "ability": [
+          33
+        ],
+        "programming": [
+          35
+        ],
+        "tasks.": [
+          36
+        ],
+        "provide": [
+          38
+        ],
+        "multiple": [
+          39
+        ],
+        "flavors": [
+          40
+        ],
+        "to": [
+          41,
+          89,
+          126
+        ],
+        "cover": [
+          42
+        ],
+        "wide": [
+          44
+        ],
+        "range": [
+          45
+        ],
+        "applications:": [
+          47
+        ],
+        "foundation": [
+          48
+        ],
+        "(Code": [
+          50,
+          54,
+          61
+        ],
+        "Llama),": [
+          51
+        ],
+        "Python": [
+          52,
+          139
+        ],
+        "specializations": [
+          53
+        ],
+        "-": [
+          56,
+          63,
+          101,
+          138
+        ],
+        "Python),": [
+          57
+        ],
+        "instruction-following": [
+          59
+        ],
+        "Instruct)": [
+          64
+        ],
+        "with": [
+          65,
+          87,
+          122
+        ],
+        "7B,": [
+          66,
+          92
+        ],
+        "13B,": [
+          67
+        ],
+        "34B": [
+          68
+        ],
+        "70B": [
+          70,
+          95,
+          144
+        ],
+        "parameters": [
+          71
+        ],
+        "each.": [
+          72
+        ],
+        "All": [
+          73
+        ],
+        "are": [
+          75
+        ],
+        "trained": [
+          76
+        ],
+        "sequences": [
+          78
+        ],
+        "16k": [
+          80
+        ],
+        "tokens": [
+          81
+        ],
+        "show": [
+          83
+        ],
+        "improvements": [
+          84
+        ],
+        "inputs": [
+          86
+        ],
+        "up": [
+          88,
+          125
+        ],
+        "100k": [
+          90
+        ],
+        "tokens.": [
+          91
+        ],
+        "13B": [
+          93
+        ],
+        "Instruct": [
+          102
+        ],
+        "variants": [
+          103
+        ],
+        "surrounding": [
+          108
+        ],
+        "content.": [
+          109
+        ],
+        "reaches": [
+          112
+        ],
+        "several": [
+          119
+        ],
+        "benchmarks,": [
+          121
+        ],
+        "scores": [
+          123
+        ],
+        "67%": [
+          127
+        ],
+        "65%": [
+          129
+        ],
+        "HumanEval": [
+          131,
+          146
+        ],
+        "MBPP,": [
+          133,
+          148
+        ],
+        "respectively.": [
+          134
+        ],
+        "Notably,": [
+          135
+        ],
+        "7B": [
+          140
+        ],
+        "outperforms": [
+          141
+        ],
+        "all": [
+          150
+        ],
+        "our": [
+          151
+        ],
+        "outperform": [
+          153
+        ],
+        "every": [
+          154
+        ],
+        "other": [
+          155
+        ],
+        "publicly": [
+          156
+        ],
+        "available": [
+          157
+        ],
+        "model": [
+          158
+        ],
+        "MultiPL-E.": [
+          160
+        ],
+        "under": [
+          165
+        ],
+        "permissive": [
+          167
+        ],
+        "license": [
+          168
+        ],
+        "that": [
+          169
+        ],
+        "allows": [
+          170
+        ],
+        "both": [
+          172
+        ],
+        "research": [
+          173
+        ],
+        "commercial": [
+          175
+        ],
+        "use.": [
+          176
+        ]
+      },
+      "counts_by_year": [
+        {
+          "year": 2026,
+          "cited_by_count": 1218
+        },
+        {
+          "year": 2025,
+          "cited_by_count": 1483
+        },
+        {
+          "year": 2024,
+          "cited_by_count": 1136
+        },
+        {
+          "year": 2023,
+          "cited_by_count": 122
+        },
+        {
+          "year": 2015,
+          "cited_by_count": 1
+        },
+        {
+          "year": 2013,
+          "cited_by_count": 1
+        }
+      ],
+      "updated_date": "2026-11-15T12:55:33.944570",
+      "created_date": "2023-08-26T00:00:00"
+    },
+    {
+      "id": "https://openalex.org/W2139416652",
+      "doi": "https://doi.org/10.1109/tit.2008.926449",
+      "title": "Coding for Errors and Erasures in Random Network Coding",
+      "display_name": "Coding for Errors and Erasures in Random Network Coding",
+      "relevance_score": 91.42488,
+      "publication_year": 2008,
+      "publication_date": "2008-07-24",
+      "ids": {
+        "openalex": "https://openalex.org/W2139416652",
+        "doi": "https://doi.org/10.1109/tit.2008.926449",
+        "mag": "2139416652"
+      },
+      "language": "en",
+      "primary_location": {
+        "id": "doi:10.1109/tit.2008.926449",
+        "doi": "https://doi.org/10.1109/tit.2008.926449",
+        "is_oa": false,
+        "landing_page_url": "https://doi.org/10.1109/tit.2008.926449",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4502562",
+          "display_name": "IEEE Transactions on Information Theory",
+          "issn_l": "0018-9448",
+          "issn": [
+            "0018-9448",
+            "1557-9654"
+          ],
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": true,
+          "listed_in": [
+            "anvur-class-a",
+            "anvur-scientific",
+            "ccf-a",
+            "cwts-core",
+            "dongbi-a",
+            "jufo-3",
+            "norway-2",
+            "poland-200",
+            "russia-white-list-1"
+          ],
+          "host_organization": "https://openalex.org/P4310319808",
+          "host_organization_name": "Institute of Electrical and Electronics Engineers",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310319808"
+          ],
+          "host_organization_lineage_names": [
+            "Institute of Electrical and Electronics Engineers"
+          ],
+          "type": "journal"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "IEEE Transactions on Information Theory",
+        "raw_type": "journal-article"
+      },
+      "parent_works": [],
+      "lineage": [
+        "https://openalex.org/W2139416652"
+      ],
+      "child_works_count": 0,
+      "type": "article",
+      "is_traditional": true,
+      "indexed_in": [
+        "arxiv",
+        "crossref",
+        "datacite"
+      ],
+      "open_access": {
+        "is_oa": true,
+        "oa_status": "green",
+        "oa_url": "https://arxiv.org/pdf/cs/0703061",
+        "any_repository_has_fulltext": true
+      },
+      "authorships": [
+        {
+          "author_position": "first",
+          "author": {
+            "id": "https://openalex.org/A5000238160",
+            "display_name": "R. Koetter",
+            "orcid": null,
+            "observed_orcids": []
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I62916508",
+              "display_name": "Technical University of Munich",
+              "ror": "https://ror.org/02kkvpp62",
+              "country_code": "DE",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I62916508"
+              ]
+            }
+          ],
+          "countries": [
+            "DE"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "Ralf Koetter",
+          "raw_affiliation_strings": [
+            "Technische Universitat Munchen, Munchen, Bayern, DE",
+            "Inst. for Commun. Eng., Tech. Univ. of Munich, Munich#TAB#"
+          ],
+          "raw_orcid": null,
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Technische Universitat Munchen, Munchen, Bayern, DE",
+              "institution_ids": [
+                "https://openalex.org/I62916508"
+              ]
+            },
+            {
+              "raw_affiliation_string": "Inst. for Commun. Eng., Tech. Univ. of Munich, Munich#TAB#",
+              "institution_ids": [
+                "https://openalex.org/I62916508"
+              ]
+            }
+          ]
+        },
+        {
+          "author_position": "last",
+          "author": {
+            "id": "https://openalex.org/A5077846751",
+            "display_name": "Frank R. Kschischang",
+            "orcid": "https://orcid.org/0000-0002-4274-1785",
+            "observed_orcids": [
+              "https://orcid.org/0000-0002-4274-1785"
+            ]
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I185261750",
+              "display_name": "University of Toronto",
+              "ror": "https://ror.org/03dbr7087",
+              "country_code": "CA",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I185261750"
+              ]
+            }
+          ],
+          "countries": [
+            "CA"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "Frank R. Kschischang",
+          "raw_affiliation_strings": [
+            "Department of Electrical and Computer Engineering, University of Toronto, Toronto, ON, Canada",
+            "Department of Electrical & Computer Engineering, University of Toronto, Toronto, On, Canada"
+          ],
+          "raw_orcid": null,
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Department of Electrical and Computer Engineering, University of Toronto, Toronto, ON, Canada",
+              "institution_ids": [
+                "https://openalex.org/I185261750"
+              ]
+            },
+            {
+              "raw_affiliation_string": "Department of Electrical & Computer Engineering, University of Toronto, Toronto, On, Canada",
+              "institution_ids": [
+                "https://openalex.org/I185261750"
+              ]
+            }
+          ]
+        }
+      ],
+      "institutions": [],
+      "countries_distinct_count": 2,
+      "institutions_distinct_count": 2,
+      "corresponding_author_ids": [],
+      "corresponding_institution_ids": [],
+      "apc_list": {
+        "value": 2645,
+        "currency": "USD",
+        "value_usd": 2645
+      },
+      "apc_paid": null,
+      "fwci": 83.9227,
+      "is_authors_truncated": false,
+      "has_fulltext": true,
+      "cited_by_count": 1033,
+      "citation_normalized_percentile": {
+        "value": 1.0,
+        "is_in_top_1_percent": true,
+        "is_in_top_10_percent": true
+      },
+      "cited_by_percentile_year": {
+        "min": 99,
+        "max": 100
+      },
+      "biblio": {
+        "volume": "54",
+        "issue": "8",
+        "first_page": "3579",
+        "last_page": "3591"
+      },
+      "is_retracted": false,
+      "is_paratext": false,
+      "is_xpac": false,
+      "primary_topic": {
+        "id": "https://openalex.org/T11130",
+        "display_name": "Coding theory and cryptography",
+        "score": 0.8759999871253967,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2607",
+          "display_name": "Discrete Mathematics and Combinatorics"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/26",
+          "display_name": "Mathematics"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      "topics": [
+        {
+          "id": "https://openalex.org/T11130",
+          "display_name": "Coding theory and cryptography",
+          "score": 0.8759999871253967,
+          "subfield": {
+            "id": "https://openalex.org/subfields/2607",
+            "display_name": "Discrete Mathematics and Combinatorics"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/26",
+            "display_name": "Mathematics"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T10796",
+          "display_name": "Cooperative Communication and Network Coding",
+          "score": 0.06989999860525131,
+          "subfield": {
+            "id": "https://openalex.org/subfields/1705",
+            "display_name": "Computer Networks and Communications"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/17",
+            "display_name": "Computer Science"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T11321",
+          "display_name": "Error Correcting Code Techniques",
+          "score": 0.020099999383091927,
+          "subfield": {
+            "id": "https://openalex.org/subfields/1705",
+            "display_name": "Computer Networks and Communications"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/17",
+            "display_name": "Computer Science"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        }
+      ],
+      "keywords": [
+        {
+          "id": "https://openalex.org/keywords/random-linear-network-coding",
+          "display_name": "random linear network coding",
+          "score": 0.9120000004768372
+        },
+        {
+          "id": "https://openalex.org/keywords/error-control",
+          "display_name": "error control",
+          "score": 0.7289999723434448
+        },
+        {
+          "id": "https://openalex.org/keywords/erasure-correction",
+          "display_name": "erasure correction",
+          "score": 0.7559999823570251
+        },
+        {
+          "id": "https://openalex.org/keywords/minimum-distance-decoding",
+          "display_name": "minimum distance decoding",
+          "score": 0.953000009059906
+        },
+        {
+          "id": "https://openalex.org/keywords/grassmann-graphs",
+          "display_name": "Grassmann graphs",
+          "score": 0.9739999771118164
+        },
+        {
+          "id": "https://openalex.org/keywords/sphere-packing-bound",
+          "display_name": "sphere-packing bound",
+          "score": 0.8389999866485596
+        },
+        {
+          "id": "https://openalex.org/keywords/singleton-bound",
+          "display_name": "Singleton bound",
+          "score": 0.9480000138282776
+        },
+        {
+          "id": "https://openalex.org/keywords/maximum-rank-distance-codes",
+          "display_name": "maximum rank distance codes",
+          "score": 0.8659999966621399
+        },
+        {
+          "id": "https://openalex.org/keywords/gabidulin-codes",
+          "display_name": "Gabidulin codes",
+          "score": 0.8500000238418579
+        },
+        {
+          "id": "https://openalex.org/keywords/reed-solomon-codes",
+          "display_name": "Reed-Solomon codes",
+          "score": 0.8339999914169312
+        },
+        {
+          "id": "https://openalex.org/keywords/list-decoding",
+          "display_name": "list decoding",
+          "score": 0.6759999990463257
+        }
+      ],
+      "concepts": [
+        {
+          "id": "https://openalex.org/C162929932",
+          "wikidata": "https://www.wikidata.org/wiki/Q129638",
+          "display_name": "Grassmannian",
+          "level": 2,
+          "score": 0.6854450702667236
+        },
+        {
+          "id": "https://openalex.org/C57273362",
+          "wikidata": "https://www.wikidata.org/wiki/Q576722",
+          "display_name": "Decoding methods",
+          "level": 2,
+          "score": 0.652054488658905
+        },
+        {
+          "id": "https://openalex.org/C33923547",
+          "wikidata": "https://www.wikidata.org/wiki/Q395",
+          "display_name": "Mathematics",
+          "level": 0,
+          "score": 0.6292191743850708
+        },
+        {
+          "id": "https://openalex.org/C153207627",
+          "wikidata": "https://www.wikidata.org/wiki/Q863873",
+          "display_name": "Code word",
+          "level": 3,
+          "score": 0.5009844303131104
+        },
+        {
+          "id": "https://openalex.org/C118615104",
+          "wikidata": "https://www.wikidata.org/wiki/Q121416",
+          "display_name": "Discrete mathematics",
+          "level": 1,
+          "score": 0.4883405864238739
+        },
+        {
+          "id": "https://openalex.org/C204397858",
+          "wikidata": "https://www.wikidata.org/wiki/Q4437907",
+          "display_name": "List decoding",
+          "level": 5,
+          "score": 0.47210851311683655
+        },
+        {
+          "id": "https://openalex.org/C138293262",
+          "wikidata": "https://www.wikidata.org/wiki/Q1089578",
+          "display_name": "Linear network coding",
+          "level": 3,
+          "score": 0.45567306876182556
+        },
+        {
+          "id": "https://openalex.org/C13336665",
+          "wikidata": "https://www.wikidata.org/wiki/Q125977",
+          "display_name": "Vector space",
+          "level": 2,
+          "score": 0.4522859752178192
+        },
+        {
+          "id": "https://openalex.org/C113709454",
+          "wikidata": "https://www.wikidata.org/wiki/Q602136",
+          "display_name": "Coding theory",
+          "level": 2,
+          "score": 0.4504826068878174
+        },
+        {
+          "id": "https://openalex.org/C176370821",
+          "wikidata": "https://www.wikidata.org/wiki/Q1826459",
+          "display_name": "Linear space",
+          "level": 2,
+          "score": 0.4402424693107605
+        },
+        {
+          "id": "https://openalex.org/C2400350",
+          "wikidata": "https://www.wikidata.org/wiki/Q1752667",
+          "display_name": "Linear code",
+          "level": 4,
+          "score": 0.4266390800476074
+        },
+        {
+          "id": "https://openalex.org/C114614502",
+          "wikidata": "https://www.wikidata.org/wiki/Q76592",
+          "display_name": "Combinatorics",
+          "level": 1,
+          "score": 0.3574380874633789
+        },
+        {
+          "id": "https://openalex.org/C11413529",
+          "wikidata": "https://www.wikidata.org/wiki/Q8366",
+          "display_name": "Algorithm",
+          "level": 1,
+          "score": 0.344110369682312
+        },
+        {
+          "id": "https://openalex.org/C78944582",
+          "wikidata": "https://www.wikidata.org/wiki/Q5158264",
+          "display_name": "Concatenated error correction code",
+          "level": 4,
+          "score": 0.3354461193084717
+        },
+        {
+          "id": "https://openalex.org/C157125643",
+          "wikidata": "https://www.wikidata.org/wiki/Q884707",
+          "display_name": "Block code",
+          "level": 3,
+          "score": 0.3042677640914917
+        },
+        {
+          "id": "https://openalex.org/C41008148",
+          "wikidata": "https://www.wikidata.org/wiki/Q21198",
+          "display_name": "Computer science",
+          "level": 0,
+          "score": 0.26117652654647827
+        },
+        {
+          "id": "https://openalex.org/C158379750",
+          "wikidata": "https://www.wikidata.org/wiki/Q214111",
+          "display_name": "Network packet",
+          "level": 2,
+          "score": 0.2178286612033844
+        },
+        {
+          "id": "https://openalex.org/C202444582",
+          "wikidata": "https://www.wikidata.org/wiki/Q837863",
+          "display_name": "Pure mathematics",
+          "level": 1,
+          "score": 0.15016406774520874
+        },
+        {
+          "id": "https://openalex.org/C31258907",
+          "wikidata": "https://www.wikidata.org/wiki/Q1301371",
+          "display_name": "Computer network",
+          "level": 1,
+          "score": 0.0
+        }
+      ],
+      "mesh": [],
+      "locations_count": 4,
+      "locations": [
+        {
+          "id": "doi:10.1109/tit.2008.926449",
+          "doi": "https://doi.org/10.1109/tit.2008.926449",
+          "is_oa": false,
+          "landing_page_url": "https://doi.org/10.1109/tit.2008.926449",
+          "pdf_url": null,
+          "source": {
+            "id": "https://openalex.org/S4502562",
+            "display_name": "IEEE Transactions on Information Theory",
+            "issn_l": "0018-9448",
+            "issn": [
+              "0018-9448",
+              "1557-9654"
+            ],
+            "is_oa": false,
+            "is_in_doaj": false,
+            "is_core": true,
+            "listed_in": [
+              "anvur-class-a",
+              "anvur-scientific",
+              "ccf-a",
+              "cwts-core",
+              "dongbi-a",
+              "jufo-3",
+              "norway-2",
+              "poland-200",
+              "russia-white-list-1"
+            ],
+            "host_organization": "https://openalex.org/P4310319808",
+            "host_organization_name": "Institute of Electrical and Electronics Engineers",
+            "host_organization_lineage": [
+              "https://openalex.org/P4310319808"
+            ],
+            "host_organization_lineage_names": [
+              "Institute of Electrical and Electronics Engineers"
+            ],
+            "type": "journal"
+          },
+          "license": null,
+          "license_id": null,
+          "version": "publishedVersion",
+          "is_accepted": true,
+          "is_published": true,
+          "raw_source_name": "IEEE Transactions on Information Theory",
+          "raw_type": "journal-article"
+        },
+        {
+          "id": "pmh:oai:arXiv.org:cs/0703061",
+          "doi": null,
+          "is_oa": true,
+          "landing_page_url": "http://arxiv.org/abs/cs/0703061",
+          "pdf_url": "https://arxiv.org/pdf/cs/0703061",
+          "source": {
+            "id": "https://openalex.org/S4306400194",
+            "display_name": "arXiv (Cornell University)",
+            "issn_l": "2331-8422",
+            "issn": [
+              "2331-8422"
+            ],
+            "is_oa": true,
+            "is_in_doaj": false,
+            "is_core": false,
+            "listed_in": [],
+            "host_organization": "https://openalex.org/I205783295",
+            "host_organization_name": "Cornell University",
+            "host_organization_lineage": [
+              "https://openalex.org/I205783295"
+            ],
+            "host_organization_lineage_names": [],
+            "type": "repository"
+          },
+          "license": null,
+          "license_id": null,
+          "version": "submittedVersion",
+          "is_accepted": false,
+          "is_published": false,
+          "raw_source_name": null,
+          "raw_type": "text"
+        },
+        {
+          "id": "pmh:oai:mediatum.ub.tum.de:node/823716",
+          "doi": null,
+          "is_oa": true,
+          "landing_page_url": "http://mediatum.ub.tum.de/node?id=823716",
+          "pdf_url": null,
+          "source": {
+            "id": "https://openalex.org/S4306400453",
+            "display_name": "mediaTUM – the media and publications repository of the Technical University Munich (Technical University Munich)",
+            "issn_l": null,
+            "issn": null,
+            "is_oa": false,
+            "is_in_doaj": false,
+            "is_core": false,
+            "listed_in": [],
+            "host_organization": "https://openalex.org/I62916508",
+            "host_organization_name": "Technical University of Munich",
+            "host_organization_lineage": [
+              "https://openalex.org/I62916508"
+            ],
+            "host_organization_lineage_names": [],
+            "type": "repository"
+          },
+          "license": "other-oa",
+          "license_id": "https://openalex.org/licenses/other-oa",
+          "version": "submittedVersion",
+          "is_accepted": false,
+          "is_published": false,
+          "raw_source_name": "",
+          "raw_type": "article"
+        },
+        {
+          "id": "doi:10.48550/arxiv.cs/0703061",
+          "doi": "https://doi.org/10.48550/arxiv.cs/0703061",
+          "is_oa": true,
+          "landing_page_url": "https://doi.org/10.48550/arxiv.cs/0703061",
+          "pdf_url": null,
+          "source": {
+            "id": "https://openalex.org/S4306400194",
+            "display_name": "arXiv (Cornell University)",
+            "issn_l": "2331-8422",
+            "issn": [
+              "2331-8422"
+            ],
+            "is_oa": true,
+            "is_in_doaj": false,
+            "is_core": false,
+            "listed_in": [],
+            "host_organization": "https://openalex.org/I205783295",
+            "host_organization_name": "Cornell University",
+            "host_organization_lineage": [
+              "https://openalex.org/I205783295"
+            ],
+            "host_organization_lineage_names": [],
+            "type": "repository"
+          },
+          "license": null,
+          "license_id": null,
+          "version": null,
+          "is_accepted": false,
+          "is_published": false,
+          "raw_source_name": null,
+          "raw_type": "Preprint"
+        }
+      ],
+      "best_oa_location": {
+        "id": "pmh:oai:arXiv.org:cs/0703061",
+        "doi": null,
+        "is_oa": true,
+        "landing_page_url": "http://arxiv.org/abs/cs/0703061",
+        "pdf_url": "https://arxiv.org/pdf/cs/0703061",
+        "source": {
+          "id": "https://openalex.org/S4306400194",
+          "display_name": "arXiv (Cornell University)",
+          "issn_l": "2331-8422",
+          "issn": [
+            "2331-8422"
+          ],
+          "is_oa": true,
+          "is_in_doaj": false,
+          "is_core": false,
+          "listed_in": [],
+          "host_organization": "https://openalex.org/I205783295",
+          "host_organization_name": "Cornell University",
+          "host_organization_lineage": [
+            "https://openalex.org/I205783295"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "submittedVersion",
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": null,
+        "raw_type": "text"
+      },
+      "sustainable_development_goals": [],
+      "study_designs": [],
+      "awards": [],
+      "funders": [
+        {
+          "id": "https://openalex.org/F4320332180",
+          "display_name": "Defense Advanced Research Projects Agency",
+          "ror": "https://ror.org/02caytj08"
+        }
+      ],
+      "has_content": {
+        "grobid_xml": true,
+        "pdf": true
+      },
+      "content_urls": {
+        "pdf": "https://content.openalex.org/works/W2139416652.pdf",
+        "grobid_xml": "https://content.openalex.org/works/W2139416652.grobid-xml"
+      },
+      "referenced_works_count": 35,
+      "referenced_works": [
+        "https://openalex.org/W1471103927",
+        "https://openalex.org/W1502102369",
+        "https://openalex.org/W1568510176",
+        "https://openalex.org/W1570162207",
+        "https://openalex.org/W1584248758",
+        "https://openalex.org/W1594652978",
+        "https://openalex.org/W1599335667",
+        "https://openalex.org/W1606480398",
+        "https://openalex.org/W1989791295",
+        "https://openalex.org/W1992480150",
+        "https://openalex.org/W1996897280",
+        "https://openalex.org/W2011598702",
+        "https://openalex.org/W2014554046",
+        "https://openalex.org/W2016312880",
+        "https://openalex.org/W2026288260",
+        "https://openalex.org/W2048235391",
+        "https://openalex.org/W2055060019",
+        "https://openalex.org/W2066433798",
+        "https://openalex.org/W2083270107",
+        "https://openalex.org/W2106831077",
+        "https://openalex.org/W2107712595",
+        "https://openalex.org/W2112063104",
+        "https://openalex.org/W2118456153",
+        "https://openalex.org/W2130350209",
+        "https://openalex.org/W2133214726",
+        "https://openalex.org/W2136237463",
+        "https://openalex.org/W2138033161",
+        "https://openalex.org/W2534491645",
+        "https://openalex.org/W2895239415",
+        "https://openalex.org/W3114417543",
+        "https://openalex.org/W3151140615",
+        "https://openalex.org/W4233121052",
+        "https://openalex.org/W4285719527",
+        "https://openalex.org/W4298236575",
+        "https://openalex.org/W4300692961"
+      ],
+      "related_works": [
+        "https://openalex.org/W7099872968",
+        "https://openalex.org/W2055060019",
+        "https://openalex.org/W7099318173",
+        "https://openalex.org/W1989883908",
+        "https://openalex.org/W2163304767",
+        "https://openalex.org/W2967622080",
+        "https://openalex.org/W2309103680",
+        "https://openalex.org/W2155398259",
+        "https://openalex.org/W2114622095",
+        "https://openalex.org/W1503478229"
+      ],
+      "abstract_inverted_index": {
+        "The": [
+          0
+        ],
+        "problem": [
+          1
+        ],
+        "of": [
+          2,
+          29,
+          55,
+          67,
+          104,
+          114,
+          128,
+          136,
+          139,
+          153,
+          171
+        ],
+        "error-control": [
+          3
+        ],
+        "in": [
+          4
+        ],
+        "random": [
+          5
+        ],
+        "linear": [
+          6,
+          39
+        ],
+        "network": [
+          7,
+          40,
+          54
+        ],
+        "coding": [
+          8,
+          41
+        ],
+        "is": [
+          9,
+          17,
+          24,
+          42,
+          47,
+          85,
+          89,
+          117,
+          175,
+          184
+        ],
+        "considered.": [
+          10
+        ],
+        "A": [
+          11,
+          74
+        ],
+        "“noncoherent”": [
+          12
+        ],
+        "or": [
+          13
+        ],
+        "“channel": [
+          14
+        ],
+        "oblivious”": [
+          15
+        ],
+        "model": [
+          16
+        ],
+        "assumed": [
+          18,
+          25
+        ],
+        "where": [
+          19
+        ],
+        "neither": [
+          20
+        ],
+        "transmitter": [
+          21
+        ],
+        "nor": [
+          22
+        ],
+        "receiver": [
+          23,
+          66
+        ],
+        "to": [
+          26,
+          119,
+          168
+        ],
+        "have": [
+          27
+        ],
+        "knowledge": [
+          28
+        ],
+        "the": [
+          30,
+          36,
+          50,
+          53,
+          62,
+          65,
+          77,
+          82,
+          102,
+          105,
+          112,
+          123,
+          137,
+          140,
+          154
+        ],
+        "channel": [
+          31
+        ],
+        "transfer": [
+          32
+        ],
+        "characteristic.": [
+          33
+        ],
+        "Motivated": [
+          34
+        ],
+        "by": [
+          35,
+          64
+        ],
+        "property": [
+          37
+        ],
+        "that": [
+          38,
+          91
+        ],
+        "vector-space": [
+          43
+        ],
+        "preserving,": [
+          44
+        ],
+        "information": [
+          45
+        ],
+        "transmission": [
+          46
+        ],
+        "modeled": [
+          48
+        ],
+        "as": [
+          49,
+          148,
+          150
+        ],
+        "injection": [
+          51
+        ],
+        "into": [
+          52
+        ],
+        "a": [
+          56,
+          59,
+          68,
+          71,
+          92,
+          120,
+          126,
+          129,
+          134,
+          151,
+          163,
+          178
+        ],
+        "basis": [
+          57,
+          69
+        ],
+        "for": [
+          58,
+          70,
+          95,
+          159
+        ],
+        "vector": [
+          60,
+          72
+        ],
+        "space$V$and": [
+          61
+        ],
+        "collection": [
+          63
+        ],
+        "space$U$.": [
+          73
+        ],
+        "metric": [
+          75,
+          97
+        ],
+        "on": [
+          76
+        ],
+        "projective": [
+          78
+        ],
+        "geometry": [
+          79
+        ],
+        "associated": [
+          80
+        ],
+        "with": [
+          81
+        ],
+        "packet": [
+          83
+        ],
+        "space": [
+          84
+        ],
+        "introduced,": [
+          86
+        ],
+        "and": [
+          87,
+          145,
+          177
+        ],
+        "it": [
+          88
+        ],
+        "shown": [
+          90
+        ],
+        "minimum-distance": [
+          93,
+          181
+        ],
+        "decoder": [
+          94
+        ],
+        "this": [
+          96
+        ],
+        "achieves": [
+          98
+        ],
+        "correct": [
+          99
+        ],
+        "decoding": [
+          100,
+          182
+        ],
+        "if": [
+          101
+        ],
+        "dimension": [
+          103,
+          113
+        ],
+        "space$V": [
+          106
+        ],
+        "\\cap": [
+          107
+        ],
+        "U$is": [
+          108
+        ],
+        "sufficiently": [
+          109
+        ],
+        "large.": [
+          110
+        ],
+        "If": [
+          111
+        ],
+        "each": [
+          115
+        ],
+        "codeword": [
+          116
+        ],
+        "restricted": [
+          118
+        ],
+        "fixed": [
+          121
+        ],
+        "integer,": [
+          122
+        ],
+        "code": [
+          124,
+          165
+        ],
+        "forms": [
+          125
+        ],
+        "subset": [
+          127,
+          135
+        ],
+        "finite-field": [
+          130
+        ],
+        "Grassmannian,": [
+          131
+        ],
+        "or,": [
+          132
+        ],
+        "equivalently,": [
+          133
+        ],
+        "vertices": [
+          138
+        ],
+        "corresponding": [
+          141
+        ],
+        "Grassmann": [
+          142
+        ],
+        "graph.": [
+          143
+        ],
+        "Sphere-packing": [
+          144
+        ],
+        "sphere-covering": [
+          146
+        ],
+        "bounds": [
+          147
+        ],
+        "well": [
+          149
+        ],
+        "generalization": [
+          152
+        ],
+        "Singleton": [
+          155
+        ],
+        "bound": [
+          156
+        ],
+        "are": [
+          157
+        ],
+        "provided": [
+          158
+        ],
+        "such": [
+          160
+        ],
+        "codes.": [
+          161
+        ],
+        "Finally,": [
+          162
+        ],
+        "Reed–Solomon-like": [
+          164
+        ],
+        "construction,": [
+          166
+        ],
+        "related": [
+          167
+        ],
+        "Gabidulin's": [
+          169
+        ],
+        "construction": [
+          170
+        ],
+        "maximum": [
+          172
+        ],
+        "rank-distance": [
+          173
+        ],
+        "codes,": [
+          174
+        ],
+        "described": [
+          176
+        ],
+        "Sudan-style": [
+          179
+        ],
+        "“list-1”": [
+          180
+        ],
+        "algorithm": [
+          183
+        ],
+        "provided.": [
+          185
+        ]
+      },
+      "counts_by_year": [
+        {
+          "year": 2026,
+          "cited_by_count": 36
+        },
+        {
+          "year": 2025,
+          "cited_by_count": 47
+        },
+        {
+          "year": 2024,
+          "cited_by_count": 40
+        },
+        {
+          "year": 2023,
+          "cited_by_count": 34
+        },
+        {
+          "year": 2022,
+          "cited_by_count": 39
+        },
+        {
+          "year": 2021,
+          "cited_by_count": 55
+        },
+        {
+          "year": 2020,
+          "cited_by_count": 54
+        },
+        {
+          "year": 2019,
+          "cited_by_count": 44
+        },
+        {
+          "year": 2018,
+          "cited_by_count": 70
+        },
+        {
+          "year": 2017,
+          "cited_by_count": 63
+        },
+        {
+          "year": 2016,
+          "cited_by_count": 63
+        },
+        {
+          "year": 2015,
+          "cited_by_count": 69
+        },
+        {
+          "year": 2014,
+          "cited_by_count": 60
+        },
+        {
+          "year": 2013,
+          "cited_by_count": 83
+        },
+        {
+          "year": 2012,
+          "cited_by_count": 60
+        }
+      ],
+      "updated_date": "2026-11-14T11:04:58.165337",
+      "created_date": "2016-06-24T00:00:00"
+    },
+    {
+      "id": "https://openalex.org/W2296125569",
+      "doi": "https://doi.org/10.1109/sfcs.2002.1181950",
+      "title": "LT codes",
+      "display_name": "LT codes",
+      "relevance_score": 89.632744,
+      "publication_year": 2003,
+      "publication_date": "2003-06-26",
+      "ids": {
+        "openalex": "https://openalex.org/W2296125569",
+        "doi": "https://doi.org/10.1109/sfcs.2002.1181950",
+        "mag": "2296125569"
+      },
+      "language": "en",
+      "primary_location": {
+        "id": "doi:10.1109/sfcs.2002.1181950",
+        "doi": "https://doi.org/10.1109/sfcs.2002.1181950",
+        "is_oa": false,
+        "landing_page_url": "https://doi.org/10.1109/sfcs.2002.1181950",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4210175768",
+          "display_name": "Annual Symposium on Foundations of Computer Science",
+          "issn_l": "0272-5428",
+          "issn": [
+            "0272-5428"
+          ],
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": true,
+          "listed_in": [
+            "cwts-core"
+          ],
+          "host_organization": "https://openalex.org/P4310319808",
+          "host_organization_name": "Institute of Electrical and Electronics Engineers",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310319808"
+          ],
+          "host_organization_lineage_names": [
+            "Institute of Electrical and Electronics Engineers"
+          ],
+          "type": "conference"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "The 43rd Annual IEEE Symposium on Foundations of Computer Science, 2002. Proceedings.",
+        "raw_type": "proceedings-article"
+      },
+      "parent_works": [],
+      "lineage": [
+        "https://openalex.org/W2296125569"
+      ],
+      "child_works_count": 0,
+      "type": "conference-paper",
+      "is_traditional": true,
+      "indexed_in": [
+        "crossref"
+      ],
+      "open_access": {
+        "is_oa": false,
+        "oa_status": "closed",
+        "oa_url": null,
+        "any_repository_has_fulltext": false
+      },
+      "authorships": [
+        {
+          "author_position": "first",
+          "author": {
+            "id": "https://openalex.org/A5079654174",
+            "display_name": "Michael G. Luby",
+            "orcid": "https://orcid.org/0000-0002-6239-8072",
+            "observed_orcids": [
+              "https://orcid.org/0000-0002-6239-8072"
+            ]
+          },
+          "institutions": [],
+          "countries": [],
+          "is_corresponding": true,
+          "raw_author_name": "M. Luby",
+          "raw_affiliation_strings": [
+            "Digital Fountain, Inc"
+          ],
+          "raw_orcid": null,
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Digital Fountain, Inc",
+              "institution_ids": []
+            }
+          ]
+        }
+      ],
+      "institutions": [],
+      "countries_distinct_count": 0,
+      "institutions_distinct_count": 0,
+      "corresponding_author_ids": [
+        "https://openalex.org/A5079654174"
+      ],
+      "corresponding_institution_ids": [],
+      "apc_list": null,
+      "apc_paid": null,
+      "fwci": 32.1413,
+      "is_authors_truncated": false,
+      "has_fulltext": false,
+      "cited_by_count": 2759,
+      "citation_normalized_percentile": {
+        "value": 0.99787505,
+        "is_in_top_1_percent": true,
+        "is_in_top_10_percent": true
+      },
+      "cited_by_percentile_year": {
+        "min": 99,
+        "max": 100
+      },
+      "biblio": {
+        "volume": null,
+        "issue": null,
+        "first_page": "271",
+        "last_page": "280"
+      },
+      "is_retracted": false,
+      "is_paratext": false,
+      "is_xpac": false,
+      "primary_topic": {
+        "id": "https://openalex.org/T11321",
+        "display_name": "Error Correcting Code Techniques",
+        "score": 0.9628999829292297,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1705",
+          "display_name": "Computer Networks and Communications"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      "topics": [
+        {
+          "id": "https://openalex.org/T11321",
+          "display_name": "Error Correcting Code Techniques",
+          "score": 0.9628999829292297,
+          "subfield": {
+            "id": "https://openalex.org/subfields/1705",
+            "display_name": "Computer Networks and Communications"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/17",
+            "display_name": "Computer Science"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T11181",
+          "display_name": "Advanced Data Storage Technologies",
+          "score": 0.021199999377131462,
+          "subfield": {
+            "id": "https://openalex.org/subfields/1705",
+            "display_name": "Computer Networks and Communications"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/17",
+            "display_name": "Computer Science"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T11130",
+          "display_name": "Coding theory and cryptography",
+          "score": 0.002899999963119626,
+          "subfield": {
+            "id": "https://openalex.org/subfields/2607",
+            "display_name": "Discrete Mathematics and Combinatorics"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/26",
+            "display_name": "Mathematics"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        }
+      ],
+      "keywords": [
+        {
+          "id": "https://openalex.org/keywords/lt-codes",
+          "display_name": "LT codes",
+          "score": 0.9950000047683716
+        },
+        {
+          "id": "https://openalex.org/keywords/rateless-codes",
+          "display_name": "rateless codes",
+          "score": 0.8690000176429749
+        },
+        {
+          "id": "https://openalex.org/keywords/erasure-codes",
+          "display_name": "erasure coding",
+          "score": 0.9620000123977661
+        }
+      ],
+      "concepts": [
+        {
+          "id": "https://openalex.org/C41008148",
+          "wikidata": "https://www.wikidata.org/wiki/Q21198",
+          "display_name": "Computer science",
+          "level": 0,
+          "score": 0.7190619707107544
+        },
+        {
+          "id": "https://openalex.org/C128151799",
+          "wikidata": "https://www.wikidata.org/wiki/Q13563306",
+          "display_name": "Luby transform code",
+          "level": 5,
+          "score": 0.6269638538360596
+        },
+        {
+          "id": "https://openalex.org/C65058987",
+          "wikidata": "https://www.wikidata.org/wiki/Q7826005",
+          "display_name": "Tornado code",
+          "level": 5,
+          "score": 0.617730438709259
+        },
+        {
+          "id": "https://openalex.org/C103093684",
+          "wikidata": "https://www.wikidata.org/wiki/Q7094069",
+          "display_name": "Online codes",
+          "level": 5,
+          "score": 0.617414653301239
+        },
+        {
+          "id": "https://openalex.org/C76132124",
+          "wikidata": "https://www.wikidata.org/wiki/Q5474786",
+          "display_name": "Fountain code",
+          "level": 5,
+          "score": 0.5579250454902649
+        },
+        {
+          "id": "https://openalex.org/C101252705",
+          "wikidata": "https://www.wikidata.org/wiki/Q7294373",
+          "display_name": "Raptor code",
+          "level": 5,
+          "score": 0.5414474606513977
+        },
+        {
+          "id": "https://openalex.org/C137529215",
+          "wikidata": "https://www.wikidata.org/wiki/Q5385031",
+          "display_name": "Erasure code",
+          "level": 3,
+          "score": 0.5252313613891602
+        },
+        {
+          "id": "https://openalex.org/C2778790127",
+          "wikidata": "https://www.wikidata.org/wiki/Q484885",
+          "display_name": "Erasure",
+          "level": 2,
+          "score": 0.49452754855155945
+        },
+        {
+          "id": "https://openalex.org/C157125643",
+          "wikidata": "https://www.wikidata.org/wiki/Q884707",
+          "display_name": "Block code",
+          "level": 3,
+          "score": 0.42450472712516785
+        },
+        {
+          "id": "https://openalex.org/C31258907",
+          "wikidata": "https://www.wikidata.org/wiki/Q1301371",
+          "display_name": "Computer network",
+          "level": 1,
+          "score": 0.32383912801742554
+        },
+        {
+          "id": "https://openalex.org/C57273362",
+          "wikidata": "https://www.wikidata.org/wiki/Q576722",
+          "display_name": "Decoding methods",
+          "level": 2,
+          "score": 0.30931663513183594
+        },
+        {
+          "id": "https://openalex.org/C78944582",
+          "wikidata": "https://www.wikidata.org/wiki/Q5158264",
+          "display_name": "Concatenated error correction code",
+          "level": 4,
+          "score": 0.29484570026397705
+        },
+        {
+          "id": "https://openalex.org/C11413529",
+          "wikidata": "https://www.wikidata.org/wiki/Q8366",
+          "display_name": "Algorithm",
+          "level": 1,
+          "score": 0.2944570481777191
+        },
+        {
+          "id": "https://openalex.org/C199360897",
+          "wikidata": "https://www.wikidata.org/wiki/Q9143",
+          "display_name": "Programming language",
+          "level": 1,
+          "score": 0.10855650901794434
+        }
+      ],
+      "mesh": [],
+      "locations_count": 1,
+      "locations": [
+        {
+          "id": "doi:10.1109/sfcs.2002.1181950",
+          "doi": "https://doi.org/10.1109/sfcs.2002.1181950",
+          "is_oa": false,
+          "landing_page_url": "https://doi.org/10.1109/sfcs.2002.1181950",
+          "pdf_url": null,
+          "source": {
+            "id": "https://openalex.org/S4210175768",
+            "display_name": "Annual Symposium on Foundations of Computer Science",
+            "issn_l": "0272-5428",
+            "issn": [
+              "0272-5428"
+            ],
+            "is_oa": false,
+            "is_in_doaj": false,
+            "is_core": true,
+            "listed_in": [
+              "cwts-core"
+            ],
+            "host_organization": "https://openalex.org/P4310319808",
+            "host_organization_name": "Institute of Electrical and Electronics Engineers",
+            "host_organization_lineage": [
+              "https://openalex.org/P4310319808"
+            ],
+            "host_organization_lineage_names": [
+              "Institute of Electrical and Electronics Engineers"
+            ],
+            "type": "conference"
+          },
+          "license": null,
+          "license_id": null,
+          "version": "publishedVersion",
+          "is_accepted": true,
+          "is_published": true,
+          "raw_source_name": "The 43rd Annual IEEE Symposium on Foundations of Computer Science, 2002. Proceedings.",
+          "raw_type": "proceedings-article"
+        }
+      ],
+      "best_oa_location": null,
+      "sustainable_development_goals": [],
+      "study_designs": [],
+      "awards": [],
+      "funders": [],
+      "has_content": {
+        "grobid_xml": false,
+        "pdf": false
+      },
+      "content_urls": null,
+      "referenced_works_count": 28,
+      "referenced_works": [
+        "https://openalex.org/W2757614",
+        "https://openalex.org/W159106371",
+        "https://openalex.org/W1595954723",
+        "https://openalex.org/W1606480398",
+        "https://openalex.org/W1892696237",
+        "https://openalex.org/W1969971353",
+        "https://openalex.org/W2026357470",
+        "https://openalex.org/W2029268759",
+        "https://openalex.org/W2029712200",
+        "https://openalex.org/W2039915451",
+        "https://openalex.org/W2056386972",
+        "https://openalex.org/W2058972589",
+        "https://openalex.org/W2097562715",
+        "https://openalex.org/W2108053501",
+        "https://openalex.org/W2115104320",
+        "https://openalex.org/W2117264435",
+        "https://openalex.org/W2120454288",
+        "https://openalex.org/W2121052104",
+        "https://openalex.org/W2121667323",
+        "https://openalex.org/W2148575324",
+        "https://openalex.org/W2152252113",
+        "https://openalex.org/W2159105483",
+        "https://openalex.org/W2159535313",
+        "https://openalex.org/W2161342511",
+        "https://openalex.org/W2162263346",
+        "https://openalex.org/W2171140030",
+        "https://openalex.org/W4244625299",
+        "https://openalex.org/W6674843678"
+      ],
+      "related_works": [
+        "https://openalex.org/W2367324001",
+        "https://openalex.org/W2587887602",
+        "https://openalex.org/W2744779861",
+        "https://openalex.org/W4386082994",
+        "https://openalex.org/W2172232382",
+        "https://openalex.org/W2243098549",
+        "https://openalex.org/W2363930252",
+        "https://openalex.org/W6977909299",
+        "https://openalex.org/W2395492668",
+        "https://openalex.org/W2991268034"
+      ],
+      "abstract_inverted_index": {
+        "We": [
+          0
+        ],
+        "introduce": [
+          1
+        ],
+        "LT": [
+          2
+        ],
+        "codes,": [
+          3
+        ],
+        "the": [
+          4,
+          14
+        ],
+        "first": [
+          5
+        ],
+        "rateless": [
+          6
+        ],
+        "erasure": [
+          7
+        ],
+        "codes": [
+          8
+        ],
+        "that": [
+          9
+        ],
+        "are": [
+          10
+        ],
+        "very": [
+          11
+        ],
+        "efficient": [
+          12
+        ],
+        "as": [
+          13
+        ],
+        "data": [
+          15
+        ],
+        "length": [
+          16
+        ],
+        "grows.": [
+          17
+        ]
+      },
+      "counts_by_year": [
+        {
+          "year": 2026,
+          "cited_by_count": 44
+        },
+        {
+          "year": 2025,
+          "cited_by_count": 56
+        },
+        {
+          "year": 2024,
+          "cited_by_count": 53
+        },
+        {
+          "year": 2023,
+          "cited_by_count": 37
+        },
+        {
+          "year": 2022,
+          "cited_by_count": 32
+        },
+        {
+          "year": 2021,
+          "cited_by_count": 80
+        },
+        {
+          "year": 2020,
+          "cited_by_count": 70
+        },
+        {
+          "year": 2019,
+          "cited_by_count": 91
+        },
+        {
+          "year": 2018,
+          "cited_by_count": 114
+        },
+        {
+          "year": 2017,
+          "cited_by_count": 109
+        },
+        {
+          "year": 2016,
+          "cited_by_count": 150
+        },
+        {
+          "year": 2015,
+          "cited_by_count": 141
+        },
+        {
+          "year": 2014,
+          "cited_by_count": 204
+        },
+        {
+          "year": 2013,
+          "cited_by_count": 213
+        },
+        {
+          "year": 2012,
+          "cited_by_count": 235
+        }
+      ],
+      "updated_date": "2026-11-14T11:04:58.165337",
+      "created_date": "2016-06-24T00:00:00"
+    },
+    {
+      "id": "https://openalex.org/W4229922087",
+      "doi": "https://doi.org/10.1109/tit.2006.874390",
+      "title": "Raptor codes",
+      "display_name": "Raptor codes",
+      "relevance_score": 89.61543,
+      "publication_year": 2006,
+      "publication_date": "2006-06-01",
+      "ids": {
+        "openalex": "https://openalex.org/W4229922087",
+        "doi": "https://doi.org/10.1109/tit.2006.874390"
+      },
+      "language": "en",
+      "primary_location": {
+        "id": "doi:10.1109/tit.2006.874390",
+        "doi": "https://doi.org/10.1109/tit.2006.874390",
+        "is_oa": false,
+        "landing_page_url": "https://doi.org/10.1109/tit.2006.874390",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4502562",
+          "display_name": "IEEE Transactions on Information Theory",
+          "issn_l": "0018-9448",
+          "issn": [
+            "0018-9448",
+            "1557-9654"
+          ],
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": true,
+          "listed_in": [
+            "anvur-class-a",
+            "anvur-scientific",
+            "ccf-a",
+            "cwts-core",
+            "dongbi-a",
+            "jufo-3",
+            "norway-2",
+            "poland-200",
+            "russia-white-list-1"
+          ],
+          "host_organization": "https://openalex.org/P4310319808",
+          "host_organization_name": "Institute of Electrical and Electronics Engineers",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310319808"
+          ],
+          "host_organization_lineage_names": [
+            "Institute of Electrical and Electronics Engineers"
+          ],
+          "type": "journal"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "IEEE Transactions on Information Theory",
+        "raw_type": "journal-article"
+      },
+      "parent_works": [],
+      "lineage": [
+        "https://openalex.org/W4229922087"
+      ],
+      "child_works_count": 0,
+      "type": "article",
+      "is_traditional": true,
+      "indexed_in": [
+        "crossref"
+      ],
+      "open_access": {
+        "is_oa": true,
+        "oa_status": "green",
+        "oa_url": "http://infoscience.epfl.ch/record/99179",
+        "any_repository_has_fulltext": true
+      },
+      "authorships": [
+        {
+          "author_position": "first",
+          "author": {
+            "id": "https://openalex.org/A5058641647",
+            "display_name": "Amin Shokrollahi",
+            "orcid": "https://orcid.org/0000-0001-7938-7022",
+            "observed_orcids": [
+              "https://orcid.org/0000-0001-7938-7022"
+            ]
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I5124864",
+              "display_name": "École Polytechnique Fédérale de Lausanne",
+              "ror": "https://ror.org/02s376052",
+              "country_code": "CH",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I2799323385",
+                "https://openalex.org/I5124864"
+              ]
+            }
+          ],
+          "countries": [
+            "CH"
+          ],
+          "is_corresponding": true,
+          "raw_author_name": "A. Shokrollahi",
+          "raw_affiliation_strings": [
+            "School of Basic Sciences, and School of Computer Science and Communications, Ecole Polytechnique Federale de Lausanne, Lausanne, Switzerland"
+          ],
+          "raw_orcid": null,
+          "affiliations": [
+            {
+              "raw_affiliation_string": "School of Basic Sciences, and School of Computer Science and Communications, Ecole Polytechnique Federale de Lausanne, Lausanne, Switzerland",
+              "institution_ids": [
+                "https://openalex.org/I5124864"
+              ]
+            }
+          ]
+        }
+      ],
+      "institutions": [],
+      "countries_distinct_count": 1,
+      "institutions_distinct_count": 1,
+      "corresponding_author_ids": [
+        "https://openalex.org/A5058641647"
+      ],
+      "corresponding_institution_ids": [
+        "https://openalex.org/I5124864"
+      ],
+      "apc_list": {
+        "value": 2645,
+        "currency": "USD",
+        "value_usd": 2645
+      },
+      "apc_paid": null,
+      "fwci": 119.3783,
+      "is_authors_truncated": false,
+      "has_fulltext": false,
+      "cited_by_count": 2189,
+      "citation_normalized_percentile": {
+        "value": 0.99975452,
+        "is_in_top_1_percent": true,
+        "is_in_top_10_percent": true
+      },
+      "cited_by_percentile_year": {
+        "min": 99,
+        "max": 100
+      },
+      "biblio": {
+        "volume": "52",
+        "issue": "6",
+        "first_page": "2551",
+        "last_page": "2567"
+      },
+      "is_retracted": false,
+      "is_paratext": false,
+      "is_xpac": false,
+      "primary_topic": {
+        "id": "https://openalex.org/T11321",
+        "display_name": "Error Correcting Code Techniques",
+        "score": 0.989300012588501,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1705",
+          "display_name": "Computer Networks and Communications"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      "topics": [
+        {
+          "id": "https://openalex.org/T11321",
+          "display_name": "Error Correcting Code Techniques",
+          "score": 0.989300012588501,
+          "subfield": {
+            "id": "https://openalex.org/subfields/1705",
+            "display_name": "Computer Networks and Communications"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/17",
+            "display_name": "Computer Science"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T11130",
+          "display_name": "Coding theory and cryptography",
+          "score": 0.004800000227987766,
+          "subfield": {
+            "id": "https://openalex.org/subfields/2607",
+            "display_name": "Discrete Mathematics and Combinatorics"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/26",
+            "display_name": "Mathematics"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T11269",
+          "display_name": "Algorithms and Data Compression",
+          "score": 0.0017000000225380063,
+          "subfield": {
+            "id": "https://openalex.org/subfields/2614",
+            "display_name": "Theoretical Computer Science"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/26",
+            "display_name": "Mathematics"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        }
+      ],
+      "keywords": [
+        {
+          "id": "https://openalex.org/keywords/raptor-codes",
+          "display_name": "Raptor codes",
+          "score": 0.9990000128746033
+        },
+        {
+          "id": "https://openalex.org/keywords/lt-codes",
+          "display_name": "LT codes",
+          "score": 0.9350000023841858
+        },
+        {
+          "id": "https://openalex.org/keywords/error-probability-analysis",
+          "display_name": "error probability analysis",
+          "score": 0.7540000081062317
+        },
+        {
+          "id": "https://openalex.org/keywords/systematic-codes",
+          "display_name": "systematic codes",
+          "score": 0.6269999742507935
+        },
+        {
+          "id": "https://openalex.org/keywords/network-coding",
+          "display_name": "network coding",
+          "score": 0.39800000190734863
+        },
+        {
+          "id": "https://openalex.org/keywords/erasure-recovery",
+          "display_name": "erasure recovery",
+          "score": 0.4050000011920929
+        }
+      ],
+      "concepts": [
+        {
+          "id": "https://openalex.org/C101252705",
+          "wikidata": "https://www.wikidata.org/wiki/Q7294373",
+          "display_name": "Raptor code",
+          "level": 5,
+          "score": 0.8838121891021729
+        },
+        {
+          "id": "https://openalex.org/C76132124",
+          "wikidata": "https://www.wikidata.org/wiki/Q5474786",
+          "display_name": "Fountain code",
+          "level": 5,
+          "score": 0.6990600228309631
+        },
+        {
+          "id": "https://openalex.org/C128151799",
+          "wikidata": "https://www.wikidata.org/wiki/Q13563306",
+          "display_name": "Luby transform code",
+          "level": 5,
+          "score": 0.6611231565475464
+        },
+        {
+          "id": "https://openalex.org/C157125643",
+          "wikidata": "https://www.wikidata.org/wiki/Q884707",
+          "display_name": "Block code",
+          "level": 3,
+          "score": 0.6564986705780029
+        },
+        {
+          "id": "https://openalex.org/C41008148",
+          "wikidata": "https://www.wikidata.org/wiki/Q21198",
+          "display_name": "Computer science",
+          "level": 0,
+          "score": 0.6442762613296509
+        },
+        {
+          "id": "https://openalex.org/C103093684",
+          "wikidata": "https://www.wikidata.org/wiki/Q7094069",
+          "display_name": "Online codes",
+          "level": 5,
+          "score": 0.6205028295516968
+        },
+        {
+          "id": "https://openalex.org/C65058987",
+          "wikidata": "https://www.wikidata.org/wiki/Q7826005",
+          "display_name": "Tornado code",
+          "level": 5,
+          "score": 0.6097427010536194
+        },
+        {
+          "id": "https://openalex.org/C57273362",
+          "wikidata": "https://www.wikidata.org/wiki/Q576722",
+          "display_name": "Decoding methods",
+          "level": 2,
+          "score": 0.571165919303894
+        },
+        {
+          "id": "https://openalex.org/C2400350",
+          "wikidata": "https://www.wikidata.org/wiki/Q1752667",
+          "display_name": "Linear code",
+          "level": 4,
+          "score": 0.5699760913848877
+        },
+        {
+          "id": "https://openalex.org/C80444323",
+          "wikidata": "https://www.wikidata.org/wiki/Q2878974",
+          "display_name": "Theoretical computer science",
+          "level": 1,
+          "score": 0.4820635914802551
+        },
+        {
+          "id": "https://openalex.org/C11413529",
+          "wikidata": "https://www.wikidata.org/wiki/Q8366",
+          "display_name": "Algorithm",
+          "level": 1,
+          "score": 0.44933387637138367
+        },
+        {
+          "id": "https://openalex.org/C108509264",
+          "wikidata": "https://www.wikidata.org/wiki/Q5420758",
+          "display_name": "Expander code",
+          "level": 5,
+          "score": 0.4485378563404083
+        },
+        {
+          "id": "https://openalex.org/C118615104",
+          "wikidata": "https://www.wikidata.org/wiki/Q121416",
+          "display_name": "Discrete mathematics",
+          "level": 1,
+          "score": 0.4411679208278656
+        },
+        {
+          "id": "https://openalex.org/C33923547",
+          "wikidata": "https://www.wikidata.org/wiki/Q395",
+          "display_name": "Mathematics",
+          "level": 0,
+          "score": 0.2793847918510437
+        }
+      ],
+      "mesh": [],
+      "locations_count": 3,
+      "locations": [
+        {
+          "id": "doi:10.1109/tit.2006.874390",
+          "doi": "https://doi.org/10.1109/tit.2006.874390",
+          "is_oa": false,
+          "landing_page_url": "https://doi.org/10.1109/tit.2006.874390",
+          "pdf_url": null,
+          "source": {
+            "id": "https://openalex.org/S4502562",
+            "display_name": "IEEE Transactions on Information Theory",
+            "issn_l": "0018-9448",
+            "issn": [
+              "0018-9448",
+              "1557-9654"
+            ],
+            "is_oa": false,
+            "is_in_doaj": false,
+            "is_core": true,
+            "listed_in": [
+              "anvur-class-a",
+              "anvur-scientific",
+              "ccf-a",
+              "cwts-core",
+              "dongbi-a",
+              "jufo-3",
+              "norway-2",
+              "poland-200",
+              "russia-white-list-1"
+            ],
+            "host_organization": "https://openalex.org/P4310319808",
+            "host_organization_name": "Institute of Electrical and Electronics Engineers",
+            "host_organization_lineage": [
+              "https://openalex.org/P4310319808"
+            ],
+            "host_organization_lineage_names": [
+              "Institute of Electrical and Electronics Engineers"
+            ],
+            "type": "journal"
+          },
+          "license": null,
+          "license_id": null,
+          "version": "publishedVersion",
+          "is_accepted": true,
+          "is_published": true,
+          "raw_source_name": "IEEE Transactions on Information Theory",
+          "raw_type": "journal-article"
+        },
+        {
+          "id": "pmh:oai:infoscience.epfl.ch:99179",
+          "doi": null,
+          "is_oa": true,
+          "landing_page_url": "http://infoscience.epfl.ch/record/99179",
+          "pdf_url": null,
+          "source": {
+            "id": "https://openalex.org/S4306400487",
+            "display_name": "Infoscience (Ecole Polytechnique Fédérale de Lausanne)",
+            "issn_l": null,
+            "issn": null,
+            "is_oa": true,
+            "is_in_doaj": false,
+            "is_core": false,
+            "listed_in": [],
+            "host_organization": "https://openalex.org/I5124864",
+            "host_organization_name": "École Polytechnique Fédérale de Lausanne",
+            "host_organization_lineage": [
+              "https://openalex.org/I5124864"
+            ],
+            "host_organization_lineage_names": [],
+            "type": "repository"
+          },
+          "license": "cc-by-nc-nd",
+          "license_id": "https://openalex.org/licenses/cc-by-nc-nd",
+          "version": "submittedVersion",
+          "is_accepted": false,
+          "is_published": false,
+          "raw_source_name": "",
+          "raw_type": "Text"
+        },
+        {
+          "id": "pmh:oai:infoscience.tind.io:99179",
+          "doi": null,
+          "is_oa": true,
+          "landing_page_url": "https://infoscience.epfl.ch/handle/20.500.14299/239453",
+          "pdf_url": null,
+          "source": {
+            "id": "https://openalex.org/S4306400487",
+            "display_name": "Infoscience (Ecole Polytechnique Fédérale de Lausanne)",
+            "issn_l": null,
+            "issn": null,
+            "is_oa": true,
+            "is_in_doaj": false,
+            "is_core": false,
+            "listed_in": [],
+            "host_organization": "https://openalex.org/I5124864",
+            "host_organization_name": "École Polytechnique Fédérale de Lausanne",
+            "host_organization_lineage": [
+              "https://openalex.org/I5124864"
+            ],
+            "host_organization_lineage_names": [],
+            "type": "repository"
+          },
+          "license": "cc-by-nc-nd",
+          "license_id": "https://openalex.org/licenses/cc-by-nc-nd",
+          "version": "submittedVersion",
+          "is_accepted": false,
+          "is_published": false,
+          "raw_source_name": null,
+          "raw_type": "research article"
+        }
+      ],
+      "best_oa_location": {
+        "id": "pmh:oai:infoscience.epfl.ch:99179",
+        "doi": null,
+        "is_oa": true,
+        "landing_page_url": "http://infoscience.epfl.ch/record/99179",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4306400487",
+          "display_name": "Infoscience (Ecole Polytechnique Fédérale de Lausanne)",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": true,
+          "is_in_doaj": false,
+          "is_core": false,
+          "listed_in": [],
+          "host_organization": "https://openalex.org/I5124864",
+          "host_organization_name": "École Polytechnique Fédérale de Lausanne",
+          "host_organization_lineage": [
+            "https://openalex.org/I5124864"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": "cc-by-nc-nd",
+        "license_id": "https://openalex.org/licenses/cc-by-nc-nd",
+        "version": "submittedVersion",
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": "",
+        "raw_type": "Text"
+      },
+      "sustainable_development_goals": [],
+      "study_designs": [],
+      "awards": [],
+      "funders": [],
+      "has_content": {
+        "grobid_xml": false,
+        "pdf": false
+      },
+      "content_urls": null,
+      "referenced_works_count": 13,
+      "referenced_works": [
+        "https://openalex.org/W1493541001",
+        "https://openalex.org/W2029268759",
+        "https://openalex.org/W2095882513",
+        "https://openalex.org/W2115104320",
+        "https://openalex.org/W2133349749",
+        "https://openalex.org/W2136307214",
+        "https://openalex.org/W2137699000",
+        "https://openalex.org/W2158669549",
+        "https://openalex.org/W2165573107",
+        "https://openalex.org/W2296125569",
+        "https://openalex.org/W2562965985",
+        "https://openalex.org/W4244625299",
+        "https://openalex.org/W4300188436"
+      ],
+      "related_works": [
+        "https://openalex.org/W7098859863",
+        "https://openalex.org/W2892063590",
+        "https://openalex.org/W1982485766",
+        "https://openalex.org/W7099022506",
+        "https://openalex.org/W4386082994",
+        "https://openalex.org/W2587887602",
+        "https://openalex.org/W2100516535",
+        "https://openalex.org/W2343196265",
+        "https://openalex.org/W2362533498",
+        "https://openalex.org/W2624743861"
+      ],
+      "abstract_inverted_index": {
+        "LT-codes": [
+          0,
+          33
+        ],
+        "are": [
+          1,
+          102
+        ],
+        "a": [
+          2,
+          43,
+          50,
+          64
+        ],
+        "new": [
+          3
+        ],
+        "class": [
+          4,
+          44,
+          62
+        ],
+        "of": [
+          5,
+          13,
+          18,
+          32,
+          45,
+          68,
+          74,
+          76,
+          120,
+          124,
+          140,
+          151
+        ],
+        "codes": [
+          6,
+          59
+        ],
+        "introduced": [
+          7
+        ],
+        "by": [
+          8
+        ],
+        "Luby": [
+          9
+        ],
+        "for": [
+          10,
+          49,
+          117,
+          127
+        ],
+        "the": [
+          11,
+          83,
+          99,
+          105,
+          118,
+          121,
+          125,
+          147,
+          152,
+          157
+        ],
+        "purpose": [
+          12
+        ],
+        "scalable": [
+          14
+        ],
+        "and": [
+          15,
+          38,
+          54,
+          98,
+          136
+        ],
+        "fault-tolerant": [
+          16
+        ],
+        "distribution": [
+          17
+        ],
+        "data": [
+          19
+        ],
+        "over": [
+          20
+        ],
+        "computer": [
+          21
+        ],
+        "networks.": [
+          22
+        ],
+        "In": [
+          23
+        ],
+        "this": [
+          24,
+          61
+        ],
+        "paper,": [
+          25
+        ],
+        "we": [
+          26,
+          133
+        ],
+        "introduce": [
+          27,
+          114,
+          135
+        ],
+        "Raptor": [
+          28,
+          47,
+          58,
+          130,
+          141
+        ],
+        "codes,": [
+          29,
+          142
+        ],
+        "an": [
+          30
+        ],
+        "extension": [
+          31
+        ],
+        "with": [
+          34,
+          87,
+          108,
+          156
+        ],
+        "linear": [
+          35
+        ],
+        "time": [
+          36
+        ],
+        "encoding": [
+          37
+        ],
+        "decoding.": [
+          39
+        ],
+        "We": [
+          40,
+          111
+        ],
+        "will": [
+          41,
+          112,
+          134
+        ],
+        "exhibit": [
+          42
+        ],
+        "universal": [
+          46
+        ],
+        "codes:": [
+          48
+        ],
+        "given": [
+          51
+        ],
+        "integer": [
+          52
+        ],
+        "k": [
+          53,
+          85,
+          159
+        ],
+        "any": [
+          55,
+          72
+        ],
+        "real": [
+          56
+        ],
+        "epsiv>0,": [
+          57
+        ],
+        "in": [
+          60,
+          145
+        ],
+        "produce": [
+          63
+        ],
+        "potentially": [
+          65
+        ],
+        "infinite": [
+          66
+        ],
+        "stream": [
+          67
+        ],
+        "symbols": [
+          69,
+          75,
+          86,
+          101
+        ],
+        "such": [
+          70
+        ],
+        "that": [
+          71
+        ],
+        "subset": [
+          73
+        ],
+        "size": [
+          77
+        ],
+        "k(1+epsiv)": [
+          78
+        ],
+        "is": [
+          79,
+          93
+        ],
+        "sufficient": [
+          80
+        ],
+        "to": [
+          81
+        ],
+        "recover": [
+          82
+        ],
+        "original": [
+          84,
+          100,
+          158
+        ],
+        "high": [
+          88
+        ],
+        "probability.": [
+          89
+        ],
+        "Each": [
+          90
+        ],
+        "output": [
+          91,
+          149
+        ],
+        "symbol": [
+          92
+        ],
+        "generated": [
+          94
+        ],
+        "using": [
+          95
+        ],
+        "O(log(1/epsiv))": [
+          96
+        ],
+        "operations,": [
+          97
+        ],
+        "recovered": [
+          103
+        ],
+        "from": [
+          104
+        ],
+        "collected": [
+          106
+        ],
+        "ones": [
+          107
+        ],
+        "O(klog(1/epsiv))": [
+          109
+        ],
+        "operations.": [
+          110
+        ],
+        "also": [
+          113
+        ],
+        "novel": [
+          115
+        ],
+        "techniques": [
+          116
+        ],
+        "analysis": [
+          119
+        ],
+        "error": [
+          122
+        ],
+        "probability": [
+          123
+        ],
+        "decoder": [
+          126
+        ],
+        "finite": [
+          128
+        ],
+        "length": [
+          129
+        ],
+        "codes.": [
+          131
+        ],
+        "Moreover,": [
+          132
+        ],
+        "analyze": [
+          137
+        ],
+        "systematic": [
+          138
+        ],
+        "versions": [
+          139,
+          144
+        ],
+        "i.e.,": [
+          143
+        ],
+        "which": [
+          146
+        ],
+        "first": [
+          148
+        ],
+        "elements": [
+          150,
+          160
+        ],
+        "coding": [
+          153
+        ],
+        "system": [
+          154
+        ],
+        "coincide": [
+          155
+        ]
+      },
+      "counts_by_year": [
+        {
+          "year": 2026,
+          "cited_by_count": 43
+        },
+        {
+          "year": 2025,
+          "cited_by_count": 55
+        },
+        {
+          "year": 2024,
+          "cited_by_count": 50
+        },
+        {
+          "year": 2023,
+          "cited_by_count": 51
+        },
+        {
+          "year": 2022,
+          "cited_by_count": 54
+        },
+        {
+          "year": 2021,
+          "cited_by_count": 66
+        },
+        {
+          "year": 2020,
+          "cited_by_count": 77
+        },
+        {
+          "year": 2019,
+          "cited_by_count": 91
+        },
+        {
+          "year": 2018,
+          "cited_by_count": 128
+        },
+        {
+          "year": 2017,
+          "cited_by_count": 131
+        },
+        {
+          "year": 2016,
+          "cited_by_count": 152
+        },
+        {
+          "year": 2015,
+          "cited_by_count": 127
+        },
+        {
+          "year": 2014,
+          "cited_by_count": 168
+        },
+        {
+          "year": 2013,
+          "cited_by_count": 164
+        },
+        {
+          "year": 2012,
+          "cited_by_count": 182
+        }
+      ],
+      "updated_date": "2026-11-15T12:55:33.944570",
+      "created_date": "2022-05-11T00:00:00"
+    },
+    {
+      "id": "https://openalex.org/W2103005479",
+      "doi": "https://doi.org/10.1109/4234.846498",
+      "title": "Lattice code decoder for space-time codes",
+      "display_name": "Lattice code decoder for space-time codes",
+      "relevance_score": 89.45707,
+      "publication_year": 2000,
+      "publication_date": "2000-05-01",
+      "ids": {
+        "openalex": "https://openalex.org/W2103005479",
+        "doi": "https://doi.org/10.1109/4234.846498",
+        "mag": "2103005479"
+      },
+      "language": "en",
+      "primary_location": {
+        "id": "doi:10.1109/4234.846498",
+        "doi": "https://doi.org/10.1109/4234.846498",
+        "is_oa": false,
+        "landing_page_url": "https://doi.org/10.1109/4234.846498",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S147316732",
+          "display_name": "IEEE Communications Letters",
+          "issn_l": "1089-7798",
+          "issn": [
+            "1089-7798",
+            "1558-2558",
+            "2373-7891"
+          ],
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": true,
+          "listed_in": [
+            "anvur-scientific",
+            "cwts-core",
+            "dongbi-a",
+            "jufo-2",
+            "norway-1",
+            "poland-100",
+            "russia-white-list-1"
+          ],
+          "host_organization": "https://openalex.org/P4310316002",
+          "host_organization_name": "IEEE Communications Society",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310316002",
+            "https://openalex.org/P4310319808"
+          ],
+          "host_organization_lineage_names": [
+            "IEEE Communications Society",
+            "Institute of Electrical and Electronics Engineers"
+          ],
+          "type": "journal"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "IEEE Communications Letters",
+        "raw_type": "journal-article"
+      },
+      "parent_works": [],
+      "lineage": [
+        "https://openalex.org/W2103005479"
+      ],
+      "child_works_count": 0,
+      "type": "article",
+      "is_traditional": true,
+      "indexed_in": [
+        "crossref"
+      ],
+      "open_access": {
+        "is_oa": false,
+        "oa_status": "closed",
+        "oa_url": null,
+        "any_repository_has_fulltext": false
+      },
+      "authorships": [
+        {
+          "author_position": "first",
+          "author": {
+            "id": "https://openalex.org/A5023596914",
+            "display_name": "Oussama Damen",
+            "orcid": "https://orcid.org/0000-0002-9896-7265",
+            "observed_orcids": [
+              "https://orcid.org/0000-0002-9896-7265"
+            ]
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I12356871",
+              "display_name": "Télécom Paris",
+              "ror": "https://ror.org/01naq7912",
+              "country_code": "FR",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I12356871",
+                "https://openalex.org/I205703379",
+                "https://openalex.org/I4210145102"
+              ]
+            }
+          ],
+          "countries": [
+            "FR"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "O. Damen",
+          "raw_affiliation_strings": [
+            "Ecole Nationale Superieure de Telecommunications, Paris, France",
+            "Ecole Nat. Superieure des Telecommun., Paris, France"
+          ],
+          "raw_orcid": null,
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Ecole Nationale Superieure de Telecommunications, Paris, France",
+              "institution_ids": [
+                "https://openalex.org/I12356871"
+              ]
+            },
+            {
+              "raw_affiliation_string": "Ecole Nat. Superieure des Telecommun., Paris, France",
+              "institution_ids": [
+                "https://openalex.org/I12356871"
+              ]
+            }
+          ]
+        },
+        {
+          "author_position": "middle",
+          "author": {
+            "id": "https://openalex.org/A5048380474",
+            "display_name": "Ammar Chkeif",
+            "orcid": null,
+            "observed_orcids": []
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I12356871",
+              "display_name": "Télécom Paris",
+              "ror": "https://ror.org/01naq7912",
+              "country_code": "FR",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I12356871",
+                "https://openalex.org/I205703379",
+                "https://openalex.org/I4210145102"
+              ]
+            }
+          ],
+          "countries": [
+            "FR"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "A. Chkeif",
+          "raw_affiliation_strings": [
+            "Ecole Nationale Superieure de Telecommunications, Paris, France"
+          ],
+          "raw_orcid": null,
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Ecole Nationale Superieure de Telecommunications, Paris, France",
+              "institution_ids": [
+                "https://openalex.org/I12356871"
+              ]
+            }
+          ]
+        },
+        {
+          "author_position": "last",
+          "author": {
+            "id": "https://openalex.org/A5113613594",
+            "display_name": "J.-C. Belfiore",
+            "orcid": null,
+            "observed_orcids": []
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I12356871",
+              "display_name": "Télécom Paris",
+              "ror": "https://ror.org/01naq7912",
+              "country_code": "FR",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I12356871",
+                "https://openalex.org/I205703379",
+                "https://openalex.org/I4210145102"
+              ]
+            }
+          ],
+          "countries": [
+            "FR"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "J.-C. Belfiore",
+          "raw_affiliation_strings": [
+            "Ecole Nationale Superieure de Telecommunications, Paris, France"
+          ],
+          "raw_orcid": null,
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Ecole Nationale Superieure de Telecommunications, Paris, France",
+              "institution_ids": [
+                "https://openalex.org/I12356871"
+              ]
+            }
+          ]
+        }
+      ],
+      "institutions": [],
+      "countries_distinct_count": 1,
+      "institutions_distinct_count": 1,
+      "corresponding_author_ids": [],
+      "corresponding_institution_ids": [
+        "https://openalex.org/I12356871"
+      ],
+      "apc_list": {
+        "value": 2645,
+        "currency": "USD",
+        "value_usd": 2645
+      },
+      "apc_paid": null,
+      "fwci": 30.4053,
+      "is_authors_truncated": false,
+      "has_fulltext": false,
+      "cited_by_count": 742,
+      "citation_normalized_percentile": {
+        "value": 0.99856718,
+        "is_in_top_1_percent": true,
+        "is_in_top_10_percent": true
+      },
+      "cited_by_percentile_year": {
+        "min": 89,
+        "max": 100
+      },
+      "biblio": {
+        "volume": "4",
+        "issue": "5",
+        "first_page": "161",
+        "last_page": "163"
+      },
+      "is_retracted": false,
+      "is_paratext": false,
+      "is_xpac": false,
+      "primary_topic": {
+        "id": "https://openalex.org/T10125",
+        "display_name": "Advanced Wireless Communication Techniques",
+        "score": 0.9984999895095825,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2208",
+          "display_name": "Electrical and Electronic Engineering"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/22",
+          "display_name": "Engineering"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      "topics": [
+        {
+          "id": "https://openalex.org/T10125",
+          "display_name": "Advanced Wireless Communication Techniques",
+          "score": 0.9984999895095825,
+          "subfield": {
+            "id": "https://openalex.org/subfields/2208",
+            "display_name": "Electrical and Electronic Engineering"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/22",
+            "display_name": "Engineering"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T11321",
+          "display_name": "Error Correcting Code Techniques",
+          "score": 9.999999747378752e-05,
+          "subfield": {
+            "id": "https://openalex.org/subfields/1705",
+            "display_name": "Computer Networks and Communications"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/17",
+            "display_name": "Computer Science"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T12024",
+          "display_name": "Ultra-Wideband Communications Technology",
+          "score": 0.0,
+          "subfield": {
+            "id": "https://openalex.org/subfields/2208",
+            "display_name": "Electrical and Electronic Engineering"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/22",
+            "display_name": "Engineering"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        }
+      ],
+      "keywords": [
+        {
+          "id": "https://openalex.org/keywords/sphere-decoding",
+          "display_name": "sphere decoding",
+          "score": 0.7279999852180481
+        },
+        {
+          "id": "https://openalex.org/keywords/lattice-codes",
+          "display_name": "lattice codes",
+          "score": 0.8510000109672546
+        },
+        {
+          "id": "https://openalex.org/keywords/sphere-packing",
+          "display_name": "sphere packing",
+          "score": 0.6940000057220459
+        },
+        {
+          "id": "https://openalex.org/keywords/multi-antenna-systems",
+          "display_name": "multiple antennas",
+          "score": 0.9169999957084656
+        },
+        {
+          "id": "https://openalex.org/keywords/mimo-detection",
+          "display_name": "MIMO detection",
+          "score": 0.6830000281333923
+        },
+        {
+          "id": "https://openalex.org/keywords/v-blast",
+          "display_name": "V-BLAST",
+          "score": 0.7760000228881836
+        },
+        {
+          "id": "https://openalex.org/keywords/diversity",
+          "display_name": "diversity",
+          "score": 0.546999990940094
+        },
+        {
+          "id": "https://openalex.org/keywords/maximum-likelihood-detection",
+          "display_name": "maximum likelihood detection",
+          "score": 0.824999988079071
+        },
+        {
+          "id": "https://openalex.org/keywords/decoding-complexity",
+          "display_name": "decoding complexity",
+          "score": 0.7279999852180481
+        },
+        {
+          "id": "https://openalex.org/keywords/spectral-efficiency",
+          "display_name": "spectral efficiency",
+          "score": 0.9860000014305115
+        }
+      ],
+      "concepts": [
+        {
+          "id": "https://openalex.org/C57273362",
+          "wikidata": "https://www.wikidata.org/wiki/Q576722",
+          "display_name": "Decoding methods",
+          "level": 2,
+          "score": 0.7617862224578857
+        },
+        {
+          "id": "https://openalex.org/C41008148",
+          "wikidata": "https://www.wikidata.org/wiki/Q21198",
+          "display_name": "Computer science",
+          "level": 0,
+          "score": 0.6182635426521301
+        },
+        {
+          "id": "https://openalex.org/C2781204021",
+          "wikidata": "https://www.wikidata.org/wiki/Q6497091",
+          "display_name": "Lattice (music)",
+          "level": 2,
+          "score": 0.5728977918624878
+        },
+        {
+          "id": "https://openalex.org/C11413529",
+          "wikidata": "https://www.wikidata.org/wiki/Q8366",
+          "display_name": "Algorithm",
+          "level": 1,
+          "score": 0.5647657513618469
+        },
+        {
+          "id": "https://openalex.org/C137246740",
+          "wikidata": "https://www.wikidata.org/wiki/Q583970",
+          "display_name": "Spectral efficiency",
+          "level": 3,
+          "score": 0.552555501461029
+        },
+        {
+          "id": "https://openalex.org/C197477341",
+          "wikidata": "https://www.wikidata.org/wiki/Q2532845",
+          "display_name": "Full Rate",
+          "level": 3,
+          "score": 0.4484807550907135
+        },
+        {
+          "id": "https://openalex.org/C80444323",
+          "wikidata": "https://www.wikidata.org/wiki/Q2878974",
+          "display_name": "Theoretical computer science",
+          "level": 1,
+          "score": 0.4385816156864166
+        },
+        {
+          "id": "https://openalex.org/C2776760102",
+          "wikidata": "https://www.wikidata.org/wiki/Q5139990",
+          "display_name": "Code (set theory)",
+          "level": 3,
+          "score": 0.42565304040908813
+        },
+        {
+          "id": "https://openalex.org/C33923547",
+          "wikidata": "https://www.wikidata.org/wiki/Q395",
+          "display_name": "Mathematics",
+          "level": 0,
+          "score": 0.33303067088127136
+        },
+        {
+          "id": "https://openalex.org/C76155785",
+          "wikidata": "https://www.wikidata.org/wiki/Q418",
+          "display_name": "Telecommunications",
+          "level": 1,
+          "score": 0.2633315920829773
+        },
+        {
+          "id": "https://openalex.org/C121332964",
+          "wikidata": "https://www.wikidata.org/wiki/Q413",
+          "display_name": "Physics",
+          "level": 0,
+          "score": 0.0
+        },
+        {
+          "id": "https://openalex.org/C54197355",
+          "wikidata": "https://www.wikidata.org/wiki/Q5782992",
+          "display_name": "Beamforming",
+          "level": 2,
+          "score": 0.0
+        },
+        {
+          "id": "https://openalex.org/C199360897",
+          "wikidata": "https://www.wikidata.org/wiki/Q9143",
+          "display_name": "Programming language",
+          "level": 1,
+          "score": 0.0
+        },
+        {
+          "id": "https://openalex.org/C24890656",
+          "wikidata": "https://www.wikidata.org/wiki/Q82811",
+          "display_name": "Acoustics",
+          "level": 1,
+          "score": 0.0
+        },
+        {
+          "id": "https://openalex.org/C177264268",
+          "wikidata": "https://www.wikidata.org/wiki/Q1514741",
+          "display_name": "Set (abstract data type)",
+          "level": 2,
+          "score": 0.0
+        }
+      ],
+      "mesh": [],
+      "locations_count": 1,
+      "locations": [
+        {
+          "id": "doi:10.1109/4234.846498",
+          "doi": "https://doi.org/10.1109/4234.846498",
+          "is_oa": false,
+          "landing_page_url": "https://doi.org/10.1109/4234.846498",
+          "pdf_url": null,
+          "source": {
+            "id": "https://openalex.org/S147316732",
+            "display_name": "IEEE Communications Letters",
+            "issn_l": "1089-7798",
+            "issn": [
+              "1089-7798",
+              "1558-2558",
+              "2373-7891"
+            ],
+            "is_oa": false,
+            "is_in_doaj": false,
+            "is_core": true,
+            "listed_in": [
+              "anvur-scientific",
+              "cwts-core",
+              "dongbi-a",
+              "jufo-2",
+              "norway-1",
+              "poland-100",
+              "russia-white-list-1"
+            ],
+            "host_organization": "https://openalex.org/P4310316002",
+            "host_organization_name": "IEEE Communications Society",
+            "host_organization_lineage": [
+              "https://openalex.org/P4310316002",
+              "https://openalex.org/P4310319808"
+            ],
+            "host_organization_lineage_names": [
+              "IEEE Communications Society",
+              "Institute of Electrical and Electronics Engineers"
+            ],
+            "type": "journal"
+          },
+          "license": null,
+          "license_id": null,
+          "version": "publishedVersion",
+          "is_accepted": true,
+          "is_published": true,
+          "raw_source_name": "IEEE Communications Letters",
+          "raw_type": "journal-article"
+        }
+      ],
+      "best_oa_location": null,
+      "sustainable_development_goals": [],
+      "study_designs": [],
+      "awards": [],
+      "funders": [],
+      "has_content": {
+        "grobid_xml": false,
+        "pdf": false
+      },
+      "content_urls": null,
+      "referenced_works_count": 8,
+      "referenced_works": [
+        "https://openalex.org/W1995990042",
+        "https://openalex.org/W1997002146",
+        "https://openalex.org/W2110659753",
+        "https://openalex.org/W2116631972",
+        "https://openalex.org/W2118040894",
+        "https://openalex.org/W2130509920",
+        "https://openalex.org/W2541204438",
+        "https://openalex.org/W4292408570"
+      ],
+      "related_works": [
+        "https://openalex.org/W2150933424",
+        "https://openalex.org/W2098098214",
+        "https://openalex.org/W7098671004",
+        "https://openalex.org/W2011773374",
+        "https://openalex.org/W1539259383",
+        "https://openalex.org/W7096532806",
+        "https://openalex.org/W1508249372",
+        "https://openalex.org/W2317516970",
+        "https://openalex.org/W1577789007",
+        "https://openalex.org/W2140110715"
+      ],
+      "abstract_inverted_index": {
+        "We": [
+          0,
+          17
+        ],
+        "explore": [
+          1
+        ],
+        "the": [
+          2,
+          12,
+          19,
+          25,
+          30,
+          44,
+          55,
+          59,
+          65,
+          74,
+          77,
+          83,
+          89
+        ],
+        "lattice": [
+          3,
+          27
+        ],
+        "sphere": [
+          4,
+          20
+        ],
+        "packing": [
+          5
+        ],
+        "representation": [
+          6
+        ],
+        "of": [
+          7,
+          50,
+          58,
+          73,
+          76
+        ],
+        "a": [
+          8,
+          40
+        ],
+        "multi-antenna": [
+          9,
+          61,
+          78
+        ],
+        "system": [
+          10
+        ],
+        "and": [
+          11,
+          63,
+          103
+        ],
+        "algebraic": [
+          13,
+          51
+        ],
+        "space-time": [
+          14
+        ],
+        "(ST)": [
+          15
+        ],
+        "codes.": [
+          16
+        ],
+        "apply": [
+          18
+        ],
+        "decoding": [
+          21,
+          105
+        ],
+        "(SD)": [
+          22
+        ],
+        "algorithm": [
+          23
+        ],
+        "to": [
+          24,
+          70,
+          94
+        ],
+        "resulted": [
+          26
+        ],
+        "code.": [
+          28
+        ],
+        "For": [
+          29
+        ],
+        "uncoded": [
+          31
+        ],
+        "system,": [
+          32,
+          62
+        ],
+        "SD": [
+          33,
+          49,
+          84
+        ],
+        "yields,": [
+          34
+        ],
+        "with": [
+          35,
+          96
+        ],
+        "small": [
+          36
+        ],
+        "increase": [
+          37
+        ],
+        "in": [
+          38
+        ],
+        "complexity,": [
+          39
+        ],
+        "huge": [
+          41
+        ],
+        "improvement": [
+          42
+        ],
+        "over": [
+          43
+        ],
+        "well-known": [
+          45
+        ],
+        "V-BLAST": [
+          46
+        ],
+        "detection": [
+          47
+        ],
+        "algorithm.": [
+          48
+        ],
+        "ST": [
+          52
+        ],
+        "codes": [
+          53
+        ],
+        "exploits": [
+          54
+        ],
+        "full": [
+          56
+        ],
+        "diversity": [
+          57
+        ],
+        "coded": [
+          60
+        ],
+        "makes": [
+          64
+        ],
+        "proposed": [
+          66
+        ],
+        "scheme": [
+          67
+        ],
+        "very": [
+          68,
+          97
+        ],
+        "appealing": [
+          69
+        ],
+        "take": [
+          71
+        ],
+        "advantage": [
+          72
+        ],
+        "richness": [
+          75
+        ],
+        "environment.": [
+          79
+        ],
+        "The": [
+          80
+        ],
+        "fact": [
+          81
+        ],
+        "that": [
+          82
+        ],
+        "does": [
+          85
+        ],
+        "not": [
+          86
+        ],
+        "depend": [
+          87
+        ],
+        "on": [
+          88
+        ],
+        "constellation": [
+          90
+        ],
+        "size,": [
+          91
+        ],
+        "gives": [
+          92
+        ],
+        "rise": [
+          93
+        ],
+        "systems": [
+          95
+        ],
+        "high": [
+          98
+        ],
+        "spectral": [
+          99
+        ],
+        "efficiency,": [
+          100
+        ],
+        "maximum-likelihood": [
+          101
+        ],
+        "performance,": [
+          102
+        ],
+        "low": [
+          104
+        ],
+        "complexity.": [
+          106
+        ]
+      },
+      "counts_by_year": [
+        {
+          "year": 2025,
+          "cited_by_count": 1
+        },
+        {
+          "year": 2024,
+          "cited_by_count": 5
+        },
+        {
+          "year": 2023,
+          "cited_by_count": 6
+        },
+        {
+          "year": 2022,
+          "cited_by_count": 2
+        },
+        {
+          "year": 2021,
+          "cited_by_count": 10
+        },
+        {
+          "year": 2020,
+          "cited_by_count": 7
+        },
+        {
+          "year": 2019,
+          "cited_by_count": 7
+        },
+        {
+          "year": 2018,
+          "cited_by_count": 6
+        },
+        {
+          "year": 2017,
+          "cited_by_count": 10
+        },
+        {
+          "year": 2016,
+          "cited_by_count": 9
+        },
+        {
+          "year": 2015,
+          "cited_by_count": 21
+        },
+        {
+          "year": 2014,
+          "cited_by_count": 26
+        },
+        {
+          "year": 2013,
+          "cited_by_count": 29
+        },
+        {
+          "year": 2012,
+          "cited_by_count": 33
+        }
+      ],
+      "updated_date": "2026-11-12T12:28:57.059296",
+      "created_date": "2016-06-24T00:00:00"
+    }
+  ],
+  "group_by": []
+}

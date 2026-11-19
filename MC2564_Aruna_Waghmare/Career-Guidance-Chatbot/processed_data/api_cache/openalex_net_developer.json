@@ -1,0 +1,2638 @@
+{
+  "meta": {
+    "notice": "No API key, so this request shares one free daily budget ($0.10) with everyone on your network's IP address. Get a free key with its own $1/day at https://openalex.org/settings/api and add api_key=YOUR_KEY to your requests. An AI agent can get one for its user in one call: POST https://api.openalex.org/api-keys with {\"email\": \"<your user's email>\"}; we email them a link, and the key works once they click it. Docs for agents: https://help.openalex.org/llms.txt",
+    "count": 255620,
+    "db_response_time_ms": 301,
+    "page": 1,
+    "per_page": 5,
+    "groups_count": null,
+    "x_query": {
+      "oql": "get works with (.NET Developer) in the title, abstract, or full text",
+      "x_new_oql": "get works with (.NET Developer) in the title, abstract, or full text",
+      "oqo": {
+        "get_rows": "works",
+        "filter_rows": [
+          {
+            "column_id": "fulltext.search",
+            "value": ".NET Developer",
+            "operator": "has"
+          }
+        ]
+      },
+      "url": "/works?filter=fulltext.search:.NET Developer&per_page=5",
+      "order": "best matches first",
+      "order_default": true
+    },
+    "cost_usd": 0.001
+  },
+  "results": [
+    {
+      "id": "https://openalex.org/W36780199",
+      "doi": null,
+      "title": "Delphi for .NET Developer's Guide",
+      "display_name": "Delphi for .NET Developer's Guide",
+      "relevance_score": 148.4079,
+      "publication_year": 2004,
+      "publication_date": "2004-05-01",
+      "ids": {
+        "openalex": "https://openalex.org/W36780199",
+        "mag": "36780199"
+      },
+      "language": "en",
+      "primary_location": {
+        "id": "pmh:oai:cds.cern.ch:1521043",
+        "doi": null,
+        "is_oa": false,
+        "landing_page_url": "http://cds.cern.ch/record/1521043",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4306402195",
+          "display_name": "CERN Document Server (European Organization for Nuclear Research)",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "listed_in": [],
+          "host_organization": "https://openalex.org/I67311998",
+          "host_organization_name": "European Organization for Nuclear Research",
+          "host_organization_lineage": [
+            "https://openalex.org/I67311998"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "submittedVersion",
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": "",
+        "raw_type": null
+      },
+      "parent_works": [],
+      "lineage": [
+        "https://openalex.org/W36780199"
+      ],
+      "child_works_count": 0,
+      "type": "article",
+      "is_traditional": true,
+      "indexed_in": [],
+      "open_access": {
+        "is_oa": false,
+        "oa_status": "closed",
+        "oa_url": null,
+        "any_repository_has_fulltext": false
+      },
+      "authorships": [
+        {
+          "author_position": "first",
+          "author": {
+            "id": "https://openalex.org/A5055834158",
+            "display_name": "Xavier Pacheco",
+            "orcid": null,
+            "observed_orcids": []
+          },
+          "institutions": [],
+          "countries": [],
+          "is_corresponding": true,
+          "raw_author_name": "Xavier Pacheco",
+          "raw_affiliation_strings": [],
+          "raw_orcid": null,
+          "affiliations": []
+        }
+      ],
+      "institutions": [],
+      "countries_distinct_count": 0,
+      "institutions_distinct_count": 0,
+      "corresponding_author_ids": [
+        "https://openalex.org/A5055834158"
+      ],
+      "corresponding_institution_ids": [],
+      "apc_list": null,
+      "apc_paid": null,
+      "fwci": 0.0,
+      "is_authors_truncated": false,
+      "has_fulltext": false,
+      "cited_by_count": 4,
+      "citation_normalized_percentile": {
+        "value": 0.00854145,
+        "is_in_top_1_percent": false,
+        "is_in_top_10_percent": false
+      },
+      "cited_by_percentile_year": {
+        "min": 88,
+        "max": 93
+      },
+      "biblio": {
+        "volume": null,
+        "issue": null,
+        "first_page": null,
+        "last_page": null
+      },
+      "is_retracted": false,
+      "is_paratext": false,
+      "is_xpac": false,
+      "primary_topic": {
+        "id": "https://openalex.org/T13681",
+        "display_name": "Engineering and Information Technology",
+        "score": 0.9907000064849854,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1712",
+          "display_name": "Software"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      "topics": [
+        {
+          "id": "https://openalex.org/T13681",
+          "display_name": "Engineering and Information Technology",
+          "score": 0.9907000064849854,
+          "subfield": {
+            "id": "https://openalex.org/subfields/1712",
+            "display_name": "Software"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/17",
+            "display_name": "Computer Science"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T12799",
+          "display_name": "Mobile and Web Applications",
+          "score": 0.004399999976158142,
+          "subfield": {
+            "id": "https://openalex.org/subfields/1710",
+            "display_name": "Information Systems"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/17",
+            "display_name": "Computer Science"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T10639",
+          "display_name": "Advanced Software Engineering Methodologies",
+          "score": 0.0008999999845400453,
+          "subfield": {
+            "id": "https://openalex.org/subfields/1712",
+            "display_name": "Software"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/17",
+            "display_name": "Computer Science"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        }
+      ],
+      "keywords": [
+        {
+          "id": "https://openalex.org/keywords/delphi",
+          "display_name": "Delphi",
+          "score": 0.7749999761581421
+        },
+        {
+          "id": "https://openalex.org/keywords/net-framework",
+          "display_name": ".NET Framework",
+          "score": 0.972000002861023
+        },
+        {
+          "id": "https://openalex.org/keywords/soap",
+          "display_name": "soap",
+          "score": 0.9750000238418579
+        },
+        {
+          "id": "https://openalex.org/keywords/corba",
+          "display_name": "CORBA",
+          "score": 0.9990000128746033
+        },
+        {
+          "id": "https://openalex.org/keywords/namespaces",
+          "display_name": "namespaces",
+          "score": 0.5360000133514404
+        },
+        {
+          "id": "https://openalex.org/keywords/garbage-collection",
+          "display_name": "garbage collection",
+          "score": 0.9079999923706055
+        },
+        {
+          "id": "https://openalex.org/keywords/memory-management",
+          "display_name": "memory management",
+          "score": 0.8949999809265137
+        },
+        {
+          "id": "https://openalex.org/keywords/com",
+          "display_name": "COM",
+          "score": 0.9649999737739563
+        },
+        {
+          "id": "https://openalex.org/keywords/ado-net",
+          "display_name": "ADO.NET",
+          "score": 1.0
+        },
+        {
+          "id": "https://openalex.org/keywords/asp-net",
+          "display_name": "ASP.NET",
+          "score": 0.9980000257492065
+        },
+        {
+          "id": "https://openalex.org/keywords/web-services",
+          "display_name": "web services",
+          "score": 0.9710000157356262
+        }
+      ],
+      "concepts": [
+        {
+          "id": "https://openalex.org/C2779495148",
+          "wikidata": "https://www.wikidata.org/wiki/Q487378",
+          "display_name": "Delphi",
+          "level": 2,
+          "score": 0.8260918855667114
+        },
+        {
+          "id": "https://openalex.org/C49312422",
+          "wikidata": "https://www.wikidata.org/wiki/Q691593",
+          "display_name": "Common Object Request Broker Architecture",
+          "level": 2,
+          "score": 0.6092719435691833
+        },
+        {
+          "id": "https://openalex.org/C41008148",
+          "wikidata": "https://www.wikidata.org/wiki/Q21198",
+          "display_name": "Computer science",
+          "level": 0,
+          "score": 0.5829768180847168
+        },
+        {
+          "id": "https://openalex.org/C17881449",
+          "wikidata": "https://www.wikidata.org/wiki/Q189620",
+          "display_name": "SOAP",
+          "level": 2,
+          "score": 0.5813455581665039
+        },
+        {
+          "id": "https://openalex.org/C136764020",
+          "wikidata": "https://www.wikidata.org/wiki/Q466",
+          "display_name": "World Wide Web",
+          "level": 1,
+          "score": 0.4957984387874603
+        },
+        {
+          "id": "https://openalex.org/C14166107",
+          "wikidata": "https://www.wikidata.org/wiki/Q253829",
+          "display_name": "Net (polyhedron)",
+          "level": 2,
+          "score": 0.48553749918937683
+        },
+        {
+          "id": "https://openalex.org/C20136886",
+          "wikidata": "https://www.wikidata.org/wiki/Q749647",
+          "display_name": "Interoperability",
+          "level": 2,
+          "score": 0.4780595600605011
+        },
+        {
+          "id": "https://openalex.org/C115903868",
+          "wikidata": "https://www.wikidata.org/wiki/Q80993",
+          "display_name": "Software engineering",
+          "level": 1,
+          "score": 0.4668126106262207
+        },
+        {
+          "id": "https://openalex.org/C123657996",
+          "wikidata": "https://www.wikidata.org/wiki/Q12271",
+          "display_name": "Architecture",
+          "level": 2,
+          "score": 0.46171092987060547
+        },
+        {
+          "id": "https://openalex.org/C523747234",
+          "wikidata": "https://www.wikidata.org/wiki/Q5289",
+          "display_name": ".NET Framework",
+          "level": 2,
+          "score": 0.4596613645553589
+        },
+        {
+          "id": "https://openalex.org/C60641444",
+          "wikidata": "https://www.wikidata.org/wiki/Q841602",
+          "display_name": "Delphi method",
+          "level": 2,
+          "score": 0.443929523229599
+        },
+        {
+          "id": "https://openalex.org/C77088390",
+          "wikidata": "https://www.wikidata.org/wiki/Q8513",
+          "display_name": "Database",
+          "level": 1,
+          "score": 0.4309025704860687
+        },
+        {
+          "id": "https://openalex.org/C111919701",
+          "wikidata": "https://www.wikidata.org/wiki/Q9135",
+          "display_name": "Operating system",
+          "level": 1,
+          "score": 0.34026187658309937
+        },
+        {
+          "id": "https://openalex.org/C154945302",
+          "wikidata": "https://www.wikidata.org/wiki/Q11660",
+          "display_name": "Artificial intelligence",
+          "level": 1,
+          "score": 0.10900121927261353
+        },
+        {
+          "id": "https://openalex.org/C142362112",
+          "wikidata": "https://www.wikidata.org/wiki/Q735",
+          "display_name": "Art",
+          "level": 0,
+          "score": 0.07923409342765808
+        },
+        {
+          "id": "https://openalex.org/C33923547",
+          "wikidata": "https://www.wikidata.org/wiki/Q395",
+          "display_name": "Mathematics",
+          "level": 0,
+          "score": 0.0
+        },
+        {
+          "id": "https://openalex.org/C153349607",
+          "wikidata": "https://www.wikidata.org/wiki/Q36649",
+          "display_name": "Visual arts",
+          "level": 1,
+          "score": 0.0
+        },
+        {
+          "id": "https://openalex.org/C2524010",
+          "wikidata": "https://www.wikidata.org/wiki/Q8087",
+          "display_name": "Geometry",
+          "level": 1,
+          "score": 0.0
+        }
+      ],
+      "mesh": [],
+      "locations_count": 2,
+      "locations": [
+        {
+          "id": "pmh:oai:cds.cern.ch:1521043",
+          "doi": null,
+          "is_oa": false,
+          "landing_page_url": "http://cds.cern.ch/record/1521043",
+          "pdf_url": null,
+          "source": {
+            "id": "https://openalex.org/S4306402195",
+            "display_name": "CERN Document Server (European Organization for Nuclear Research)",
+            "issn_l": null,
+            "issn": null,
+            "is_oa": false,
+            "is_in_doaj": false,
+            "is_core": false,
+            "listed_in": [],
+            "host_organization": "https://openalex.org/I67311998",
+            "host_organization_name": "European Organization for Nuclear Research",
+            "host_organization_lineage": [
+              "https://openalex.org/I67311998"
+            ],
+            "host_organization_lineage_names": [],
+            "type": "repository"
+          },
+          "license": null,
+          "license_id": null,
+          "version": "submittedVersion",
+          "is_accepted": false,
+          "is_published": false,
+          "raw_source_name": "",
+          "raw_type": null
+        },
+        {
+          "id": "mag:36780199",
+          "doi": null,
+          "is_oa": false,
+          "landing_page_url": "https://openlibrary.org/books/OL24262151M/Delphi_for_.NET_Developer's_Guide",
+          "pdf_url": null,
+          "source": null,
+          "license": null,
+          "license_id": null,
+          "version": null,
+          "is_accepted": false,
+          "is_published": false,
+          "raw_source_name": null,
+          "raw_type": null
+        }
+      ],
+      "best_oa_location": null,
+      "sustainable_development_goals": [],
+      "study_designs": [],
+      "awards": [],
+      "funders": [],
+      "has_content": {
+        "grobid_xml": false,
+        "pdf": false
+      },
+      "content_urls": null,
+      "referenced_works_count": 0,
+      "referenced_works": [],
+      "related_works": [
+        "https://openalex.org/W637051962",
+        "https://openalex.org/W1567691698",
+        "https://openalex.org/W1717120615",
+        "https://openalex.org/W163068283",
+        "https://openalex.org/W2470820997",
+        "https://openalex.org/W39629632",
+        "https://openalex.org/W7017845304",
+        "https://openalex.org/W2411956178",
+        "https://openalex.org/W2742236125",
+        "https://openalex.org/W6980979890"
+      ],
+      "abstract_inverted_index": {
+        "Master": [
+          0
+        ],
+        "Microsoft's": [
+          1
+        ],
+        ".NET": [
+          2,
+          31,
+          60,
+          99
+        ],
+        "Framework": [
+          3,
+          61
+        ],
+        "using": [
+          4,
+          58
+        ],
+        "Delphi.This": [
+          5
+        ],
+        "book": [
+          6,
+          42
+        ],
+        "provides": [
+          7
+        ],
+        "expert": [
+          8
+        ],
+        "knowledge": [
+          9
+        ],
+        "of": [
+          10,
+          38,
+          92
+        ],
+        "both": [
+          11
+        ],
+        "Delphi": [
+          12,
+          26,
+          29,
+          41,
+          57
+        ],
+        "and.": [
+          13
+        ],
+        "NET": [
+          14
+        ],
+        "with": [
+          15
+        ],
+        "the": [
+          16,
+          39,
+          59,
+          89
+        ],
+        "same,": [
+          17
+        ],
+        "practicable": [
+          18
+        ],
+        "and": [
+          19,
+          47,
+          62,
+          76,
+          85,
+          103,
+          111,
+          115,
+          120
+        ],
+        "real-world": [
+          20
+        ],
+        "solutions": [
+          21
+        ],
+        "approach": [
+          22
+        ],
+        "used": [
+          23
+        ],
+        "in": [
+          24
+        ],
+        "previous": [
+          25
+        ],
+        "Developer's": [
+          27,
+          32
+        ],
+        "Guides.": [
+          28
+        ],
+        "for": [
+          30,
+          56
+        ],
+        "Guide": [
+          33
+        ],
+        "is": [
+          34,
+          53
+        ],
+        "a": [
+          35,
+          82
+        ],
+        "new": [
+          36,
+          68
+        ],
+        "edition": [
+          37,
+          52
+        ],
+        "#1": [
+          40
+        ],
+        "by": [
+          43
+        ],
+        "authors": [
+          44
+        ],
+        "Xavier": [
+          45
+        ],
+        "Pacheco": [
+          46
+        ],
+        "Steve": [
+          48
+        ],
+        "Teixeira.": [
+          49
+        ],
+        "This": [
+          50
+        ],
+        "newest": [
+          51,
+          90
+        ],
+        "completely": [
+          54
+        ],
+        "updated": [
+          55
+        ],
+        "includes": [
+          63
+        ],
+        "in-depth": [
+          64
+        ],
+        "coverage": [
+          65
+        ],
+        "on": [
+          66
+        ],
+        "Borland's": [
+          67
+        ],
+        "CLX": [
+          69
+        ],
+        "architecture,": [
+          70
+        ],
+        "DBExpress": [
+          71
+        ],
+        "Applications,": [
+          72
+        ],
+        "SOAP,": [
+          73
+        ],
+        "CORBA,": [
+          74
+        ],
+        "WebSnap": [
+          75
+        ],
+        "BizSnap": [
+          77
+        ],
+        "features.": [
+          78
+        ],
+        "It": [
+          79
+        ],
+        "continues": [
+          80
+        ],
+        "as": [
+          81
+        ],
+        "complete": [
+          83
+        ],
+        "reference": [
+          84
+        ],
+        "authoritative": [
+          86
+        ],
+        "guide": [
+          87
+        ],
+        "to": [
+          88
+        ],
+        "version": [
+          91
+        ],
+        "Delphi.": [
+          93
+        ],
+        "Additional": [
+          94
+        ],
+        "topics": [
+          95
+        ],
+        "covered": [
+          96
+        ],
+        "include:": [
+          97
+        ],
+        "The": [
+          98
+        ],
+        "Framework;": [
+          100
+        ],
+        "Programs,": [
+          101
+        ],
+        "Units,": [
+          102
+        ],
+        "Namespaces;.NET": [
+          104
+        ],
+        "Security": [
+          105
+        ],
+        "Custom": [
+          106
+        ],
+        "WinForms": [
+          107
+        ],
+        "Controls;": [
+          108
+        ],
+        "Memory": [
+          109
+        ],
+        "Management": [
+          110
+        ],
+        "Garbage": [
+          112
+        ],
+        "Collection;": [
+          113
+        ],
+        "COM": [
+          114
+        ],
+        "COM+": [
+          116
+        ],
+        "Interoperability;": [
+          117
+        ],
+        "ADO.NET,": [
+          118
+        ],
+        "ASP.NET": [
+          119
+        ],
+        "Web": [
+          121
+        ],
+        "Services.": [
+          122
+        ]
+      },
+      "counts_by_year": [
+        {
+          "year": 2020,
+          "cited_by_count": 1
+        },
+        {
+          "year": 2019,
+          "cited_by_count": 1
+        }
+      ],
+      "updated_date": "2026-10-01T08:54:57.152042",
+      "created_date": "2016-06-24T00:00:00"
+    },
+    {
+      "id": "https://openalex.org/W2504615802",
+      "doi": "https://doi.org/10.1007/978-1-4302-0760-3",
+      "title": "Debugging Strategies for .NET Developers",
+      "display_name": "Debugging Strategies for .NET Developers",
+      "relevance_score": 147.70148,
+      "publication_year": 2003,
+      "publication_date": "2003-01-01",
+      "ids": {
+        "openalex": "https://openalex.org/W2504615802",
+        "doi": "https://doi.org/10.1007/978-1-4302-0760-3",
+        "mag": "2504615802"
+      },
+      "language": "en",
+      "primary_location": {
+        "id": "doi:10.1007/978-1-4302-0760-3",
+        "doi": "https://doi.org/10.1007/978-1-4302-0760-3",
+        "is_oa": false,
+        "landing_page_url": "https://doi.org/10.1007/978-1-4302-0760-3",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4306462844",
+          "display_name": "Apress eBooks",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "listed_in": [],
+          "host_organization": null,
+          "host_organization_name": null,
+          "host_organization_lineage": [],
+          "host_organization_lineage_names": [],
+          "type": "ebook platform"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": null,
+        "raw_type": "book"
+      },
+      "parent_works": [],
+      "lineage": [
+        "https://openalex.org/W2504615802"
+      ],
+      "child_works_count": 11,
+      "type": "book",
+      "is_traditional": true,
+      "indexed_in": [
+        "crossref"
+      ],
+      "open_access": {
+        "is_oa": false,
+        "oa_status": "closed",
+        "oa_url": null,
+        "any_repository_has_fulltext": false
+      },
+      "authorships": [
+        {
+          "author_position": "first",
+          "author": {
+            "id": "https://openalex.org/A5001722050",
+            "display_name": "Darin Dillon",
+            "orcid": null,
+            "observed_orcids": []
+          },
+          "institutions": [],
+          "countries": [],
+          "is_corresponding": true,
+          "raw_author_name": "Darin Dillon",
+          "raw_affiliation_strings": [],
+          "raw_orcid": null,
+          "affiliations": []
+        }
+      ],
+      "institutions": [],
+      "countries_distinct_count": 0,
+      "institutions_distinct_count": 0,
+      "corresponding_author_ids": [
+        "https://openalex.org/A5001722050"
+      ],
+      "corresponding_institution_ids": [],
+      "apc_list": null,
+      "apc_paid": null,
+      "fwci": 0.0,
+      "is_authors_truncated": false,
+      "has_fulltext": false,
+      "cited_by_count": 0,
+      "citation_normalized_percentile": {
+        "value": 0.0,
+        "is_in_top_1_percent": false,
+        "is_in_top_10_percent": false
+      },
+      "cited_by_percentile_year": null,
+      "biblio": {
+        "volume": null,
+        "issue": null,
+        "first_page": null,
+        "last_page": null
+      },
+      "is_retracted": false,
+      "is_paratext": false,
+      "is_xpac": false,
+      "primary_topic": {
+        "id": "https://openalex.org/T10743",
+        "display_name": "Software Testing and Debugging Techniques",
+        "score": 0.9398999810218811,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1712",
+          "display_name": "Software"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      "topics": [
+        {
+          "id": "https://openalex.org/T10743",
+          "display_name": "Software Testing and Debugging Techniques",
+          "score": 0.9398999810218811,
+          "subfield": {
+            "id": "https://openalex.org/subfields/1712",
+            "display_name": "Software"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/17",
+            "display_name": "Computer Science"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T10430",
+          "display_name": "Software Engineering Techniques and Practices",
+          "score": 0.01720000058412552,
+          "subfield": {
+            "id": "https://openalex.org/subfields/1710",
+            "display_name": "Information Systems"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/17",
+            "display_name": "Computer Science"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T12127",
+          "display_name": "Software System Performance and Reliability",
+          "score": 0.01489999983459711,
+          "subfield": {
+            "id": "https://openalex.org/subfields/1705",
+            "display_name": "Computer Networks and Communications"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/17",
+            "display_name": "Computer Science"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        }
+      ],
+      "keywords": [
+        {
+          "id": "https://openalex.org/keywords/debugging",
+          "display_name": "debugging",
+          "score": 0.9509999752044678
+        },
+        {
+          "id": "https://openalex.org/keywords/microsoft-net",
+          "display_name": "Microsoft .NET",
+          "score": 0.9879999756813049
+        },
+        {
+          "id": "https://openalex.org/keywords/software-development",
+          "display_name": "software development",
+          "score": 0.6200000047683716
+        },
+        {
+          "id": "https://openalex.org/keywords/debugging-strategies",
+          "display_name": "debugging strategies",
+          "score": 0.6100000143051147
+        }
+      ],
+      "concepts": [
+        {
+          "id": "https://openalex.org/C168065819",
+          "wikidata": "https://www.wikidata.org/wiki/Q845566",
+          "display_name": "Debugging",
+          "level": 2,
+          "score": 0.8662096858024597
+        },
+        {
+          "id": "https://openalex.org/C41008148",
+          "wikidata": "https://www.wikidata.org/wiki/Q21198",
+          "display_name": "Computer science",
+          "level": 0,
+          "score": 0.6157554984092712
+        },
+        {
+          "id": "https://openalex.org/C14166107",
+          "wikidata": "https://www.wikidata.org/wiki/Q253829",
+          "display_name": "Net (polyhedron)",
+          "level": 2,
+          "score": 0.5958903431892395
+        },
+        {
+          "id": "https://openalex.org/C199360897",
+          "wikidata": "https://www.wikidata.org/wiki/Q9143",
+          "display_name": "Programming language",
+          "level": 1,
+          "score": 0.593772828578949
+        },
+        {
+          "id": "https://openalex.org/C115903868",
+          "wikidata": "https://www.wikidata.org/wiki/Q80993",
+          "display_name": "Software engineering",
+          "level": 1,
+          "score": 0.4694012701511383
+        },
+        {
+          "id": "https://openalex.org/C33923547",
+          "wikidata": "https://www.wikidata.org/wiki/Q395",
+          "display_name": "Mathematics",
+          "level": 0,
+          "score": 0.0884222686290741
+        },
+        {
+          "id": "https://openalex.org/C2524010",
+          "wikidata": "https://www.wikidata.org/wiki/Q8087",
+          "display_name": "Geometry",
+          "level": 1,
+          "score": 0.0
+        }
+      ],
+      "mesh": [],
+      "locations_count": 2,
+      "locations": [
+        {
+          "id": "doi:10.1007/978-1-4302-0760-3",
+          "doi": "https://doi.org/10.1007/978-1-4302-0760-3",
+          "is_oa": false,
+          "landing_page_url": "https://doi.org/10.1007/978-1-4302-0760-3",
+          "pdf_url": null,
+          "source": {
+            "id": "https://openalex.org/S4306462844",
+            "display_name": "Apress eBooks",
+            "issn_l": null,
+            "issn": null,
+            "is_oa": false,
+            "is_in_doaj": false,
+            "is_core": false,
+            "listed_in": [],
+            "host_organization": null,
+            "host_organization_name": null,
+            "host_organization_lineage": [],
+            "host_organization_lineage_names": [],
+            "type": "ebook platform"
+          },
+          "license": null,
+          "license_id": null,
+          "version": "publishedVersion",
+          "is_accepted": true,
+          "is_published": true,
+          "raw_source_name": null,
+          "raw_type": "book"
+        },
+        {
+          "id": "pmh:oai:aleph.bib-bvb.de:BVB01-014864338",
+          "doi": null,
+          "is_oa": false,
+          "landing_page_url": "http://bvbr.bib-bvb.de:8991/F?func=service&amp;doc_library=BVB01&amp;local_base=BVB01&amp;doc_number=014864338&amp;sequence=000001&amp;line_number=0001&amp;func_code=DB_RECORDS&amp;service_type=MEDIA",
+          "pdf_url": null,
+          "source": null,
+          "license": null,
+          "license_id": null,
+          "version": "submittedVersion",
+          "is_accepted": false,
+          "is_published": false,
+          "raw_source_name": "",
+          "raw_type": "text"
+        }
+      ],
+      "best_oa_location": null,
+      "sustainable_development_goals": [],
+      "study_designs": [],
+      "awards": [],
+      "funders": [],
+      "has_content": {
+        "grobid_xml": false,
+        "pdf": false
+      },
+      "content_urls": null,
+      "referenced_works_count": 0,
+      "referenced_works": [],
+      "related_works": [
+        "https://openalex.org/W2338669597",
+        "https://openalex.org/W101985788",
+        "https://openalex.org/W798986",
+        "https://openalex.org/W2418923119",
+        "https://openalex.org/W4230559689",
+        "https://openalex.org/W4232899088",
+        "https://openalex.org/W3094742641",
+        "https://openalex.org/W3096129701",
+        "https://openalex.org/W1582449902"
+      ],
+      "abstract_inverted_index": {
+        "Debugging": [
+          0
+        ],
+        "Strategies": [
+          1
+        ],
+        "for": [
+          2,
+          24
+        ],
+        ".NET": [
+          3
+        ],
+        "Developers": [
+          4
+        ],
+        "is": [
+          5
+        ],
+        "a": [
+          6
+        ],
+        "highly": [
+          7
+        ],
+        "readable": [
+          8
+        ],
+        "exploration": [
+          9
+        ],
+        "of": [
+          10
+        ],
+        "debugging": [
+          11,
+          18
+        ],
+        "with": [
+          12
+        ],
+        "Microsoft": [
+          13
+        ],
+        ".NET.": [
+          14
+        ],
+        "While": [
+          15
+        ],
+        "many": [
+          16
+        ],
+        "other": [
+          17
+        ],
+        "books": [
+          19
+        ],
+        "focus": [
+          20
+        ],
+        "on": [
+          21
+        ],
+        "obscure": [
+          22
+        ],
+        "techniques": [
+          23
+        ],
+        "advanced": [
+          25
+        ],
+        "users,": [
+          26
+        ],
+        "this": [
+          27
+        ],
+        "book": [
+          28
+        ],
+        "i": [
+          29
+        ]
+      },
+      "counts_by_year": [],
+      "updated_date": "2026-11-14T11:04:58.165337",
+      "created_date": "2016-08-23T00:00:00"
+    },
+    {
+      "id": "https://openalex.org/W2507824785",
+      "doi": null,
+      "title": "Mastering AngularJS for .NET Developers",
+      "display_name": "Mastering AngularJS for .NET Developers",
+      "relevance_score": 146.42488,
+      "publication_year": 2015,
+      "publication_date": "2015-04-30",
+      "ids": {
+        "openalex": "https://openalex.org/W2507824785",
+        "mag": "2507824785"
+      },
+      "language": "en",
+      "primary_location": {
+        "id": "pmh:oai:cds.cern.ch:2024850",
+        "doi": null,
+        "is_oa": false,
+        "landing_page_url": "http://cds.cern.ch/record/2024850",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4306402195",
+          "display_name": "CERN Document Server (European Organization for Nuclear Research)",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "listed_in": [],
+          "host_organization": "https://openalex.org/I67311998",
+          "host_organization_name": "European Organization for Nuclear Research",
+          "host_organization_lineage": [
+            "https://openalex.org/I67311998"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "submittedVersion",
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": "",
+        "raw_type": null
+      },
+      "parent_works": [],
+      "lineage": [
+        "https://openalex.org/W2507824785"
+      ],
+      "child_works_count": 0,
+      "type": "article",
+      "is_traditional": true,
+      "indexed_in": [],
+      "open_access": {
+        "is_oa": false,
+        "oa_status": "closed",
+        "oa_url": null,
+        "any_repository_has_fulltext": false
+      },
+      "authorships": [
+        {
+          "author_position": "first",
+          "author": {
+            "id": "https://openalex.org/A5029731505",
+            "display_name": "Mohammad Wadood Majid",
+            "orcid": null,
+            "observed_orcids": []
+          },
+          "institutions": [],
+          "countries": [],
+          "is_corresponding": false,
+          "raw_author_name": "Mohammad Wadood Majid",
+          "raw_affiliation_strings": [],
+          "raw_orcid": null,
+          "affiliations": []
+        },
+        {
+          "author_position": "last",
+          "author": {
+            "id": "https://openalex.org/A5088613313",
+            "display_name": "Golrokh Mirzaei",
+            "orcid": "https://orcid.org/0000-0003-1756-7604",
+            "observed_orcids": [
+              "https://orcid.org/0000-0003-1756-7604"
+            ]
+          },
+          "institutions": [],
+          "countries": [],
+          "is_corresponding": false,
+          "raw_author_name": "Golrokh Mirzaei",
+          "raw_affiliation_strings": [],
+          "raw_orcid": "https://orcid.org/0000-0003-1756-7604",
+          "affiliations": []
+        }
+      ],
+      "institutions": [],
+      "countries_distinct_count": 0,
+      "institutions_distinct_count": 0,
+      "corresponding_author_ids": [],
+      "corresponding_institution_ids": [],
+      "apc_list": null,
+      "apc_paid": null,
+      "fwci": 0.0,
+      "is_authors_truncated": false,
+      "has_fulltext": false,
+      "cited_by_count": 0,
+      "citation_normalized_percentile": {
+        "value": 0.0,
+        "is_in_top_1_percent": false,
+        "is_in_top_10_percent": false
+      },
+      "cited_by_percentile_year": null,
+      "biblio": {
+        "volume": null,
+        "issue": null,
+        "first_page": null,
+        "last_page": null
+      },
+      "is_retracted": false,
+      "is_paratext": false,
+      "is_xpac": false,
+      "primary_topic": {
+        "id": "https://openalex.org/T12799",
+        "display_name": "Mobile and Web Applications",
+        "score": 0.9897000193595886,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1710",
+          "display_name": "Information Systems"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      "topics": [
+        {
+          "id": "https://openalex.org/T12799",
+          "display_name": "Mobile and Web Applications",
+          "score": 0.9897000193595886,
+          "subfield": {
+            "id": "https://openalex.org/subfields/1710",
+            "display_name": "Information Systems"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/17",
+            "display_name": "Computer Science"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T12601",
+          "display_name": "Web Applications and Data Management",
+          "score": 0.009999999776482582,
+          "subfield": {
+            "id": "https://openalex.org/subfields/1710",
+            "display_name": "Information Systems"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/17",
+            "display_name": "Computer Science"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T13681",
+          "display_name": "Engineering and Information Technology",
+          "score": 9.999999747378752e-05,
+          "subfield": {
+            "id": "https://openalex.org/subfields/1712",
+            "display_name": "Software"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/17",
+            "display_name": "Computer Science"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        }
+      ],
+      "keywords": [
+        {
+          "id": "https://openalex.org/keywords/angularjs",
+          "display_name": "AngularJS",
+          "score": 1.0
+        },
+        {
+          "id": "https://openalex.org/keywords/single-page-applications",
+          "display_name": "single-page applications",
+          "score": 0.8809999823570251
+        },
+        {
+          "id": "https://openalex.org/keywords/client-side-web-development",
+          "display_name": "client-side web development",
+          "score": 0.8650000095367432
+        },
+        {
+          "id": "https://openalex.org/keywords/visual-studio",
+          "display_name": "Visual Studio",
+          "score": 0.8700000047683716
+        },
+        {
+          "id": "https://openalex.org/keywords/javascript",
+          "display_name": "JavaScript",
+          "score": 0.7139999866485596
+        },
+        {
+          "id": "https://openalex.org/keywords/html",
+          "display_name": "HTML",
+          "score": 0.9210000038146973
+        },
+        {
+          "id": "https://openalex.org/keywords/css",
+          "display_name": "CSS",
+          "score": 0.9620000123977661
+        }
+      ],
+      "concepts": [
+        {
+          "id": "https://openalex.org/C2780416260",
+          "wikidata": "https://www.wikidata.org/wiki/Q2063",
+          "display_name": "JSON",
+          "level": 2,
+          "score": 0.8404078483581543
+        },
+        {
+          "id": "https://openalex.org/C41008148",
+          "wikidata": "https://www.wikidata.org/wiki/Q21198",
+          "display_name": "Computer science",
+          "level": 0,
+          "score": 0.7750786542892456
+        },
+        {
+          "id": "https://openalex.org/C544833334",
+          "wikidata": "https://www.wikidata.org/wiki/Q2005",
+          "display_name": "JavaScript",
+          "level": 2,
+          "score": 0.6937013268470764
+        },
+        {
+          "id": "https://openalex.org/C136764020",
+          "wikidata": "https://www.wikidata.org/wiki/Q466",
+          "display_name": "World Wide Web",
+          "level": 1,
+          "score": 0.5904872417449951
+        },
+        {
+          "id": "https://openalex.org/C504723692",
+          "wikidata": "https://www.wikidata.org/wiki/Q134471",
+          "display_name": "Ajax",
+          "level": 3,
+          "score": 0.5885609984397888
+        },
+        {
+          "id": "https://openalex.org/C118643609",
+          "wikidata": "https://www.wikidata.org/wiki/Q189210",
+          "display_name": "Web application",
+          "level": 2,
+          "score": 0.5760720372200012
+        },
+        {
+          "id": "https://openalex.org/C512115632",
+          "wikidata": "https://www.wikidata.org/wiki/Q134067",
+          "display_name": "Microsoft Visual Studio",
+          "level": 3,
+          "score": 0.5585943460464478
+        },
+        {
+          "id": "https://openalex.org/C35578498",
+          "wikidata": "https://www.wikidata.org/wiki/Q193424",
+          "display_name": "Web service",
+          "level": 2,
+          "score": 0.45473816990852356
+        },
+        {
+          "id": "https://openalex.org/C115903868",
+          "wikidata": "https://www.wikidata.org/wiki/Q80993",
+          "display_name": "Software engineering",
+          "level": 1,
+          "score": 0.34157177805900574
+        },
+        {
+          "id": "https://openalex.org/C111919701",
+          "wikidata": "https://www.wikidata.org/wiki/Q9135",
+          "display_name": "Operating system",
+          "level": 1,
+          "score": 0.2512892484664917
+        },
+        {
+          "id": "https://openalex.org/C2777904410",
+          "wikidata": "https://www.wikidata.org/wiki/Q7397",
+          "display_name": "Software",
+          "level": 2,
+          "score": 0.07769018411636353
+        }
+      ],
+      "mesh": [],
+      "locations_count": 2,
+      "locations": [
+        {
+          "id": "pmh:oai:cds.cern.ch:2024850",
+          "doi": null,
+          "is_oa": false,
+          "landing_page_url": "http://cds.cern.ch/record/2024850",
+          "pdf_url": null,
+          "source": {
+            "id": "https://openalex.org/S4306402195",
+            "display_name": "CERN Document Server (European Organization for Nuclear Research)",
+            "issn_l": null,
+            "issn": null,
+            "is_oa": false,
+            "is_in_doaj": false,
+            "is_core": false,
+            "listed_in": [],
+            "host_organization": "https://openalex.org/I67311998",
+            "host_organization_name": "European Organization for Nuclear Research",
+            "host_organization_lineage": [
+              "https://openalex.org/I67311998"
+            ],
+            "host_organization_lineage_names": [],
+            "type": "repository"
+          },
+          "license": null,
+          "license_id": null,
+          "version": "submittedVersion",
+          "is_accepted": false,
+          "is_published": false,
+          "raw_source_name": "",
+          "raw_type": null
+        },
+        {
+          "id": "mag:2507824785",
+          "doi": null,
+          "is_oa": false,
+          "landing_page_url": "https://www.amazon.com/Mastering-AngularJS-Developers-Mohammad-Wadood/dp/1783553987",
+          "pdf_url": null,
+          "source": null,
+          "license": null,
+          "license_id": null,
+          "version": null,
+          "is_accepted": false,
+          "is_published": false,
+          "raw_source_name": null,
+          "raw_type": null
+        }
+      ],
+      "best_oa_location": null,
+      "sustainable_development_goals": [],
+      "study_designs": [],
+      "awards": [],
+      "funders": [],
+      "has_content": {
+        "grobid_xml": false,
+        "pdf": false
+      },
+      "content_urls": null,
+      "referenced_works_count": 0,
+      "referenced_works": [],
+      "related_works": [
+        "https://openalex.org/W2408898125",
+        "https://openalex.org/W2737036516",
+        "https://openalex.org/W2283946093",
+        "https://openalex.org/W4288879084",
+        "https://openalex.org/W3187782639",
+        "https://openalex.org/W2737226505",
+        "https://openalex.org/W3048241771",
+        "https://openalex.org/W7002268009",
+        "https://openalex.org/W2251842826"
+      ],
+      "abstract_inverted_index": {
+        "This": [
+          0
+        ],
+        "book": [
+          1
+        ],
+        "is": [
+          2
+        ],
+        "envisioned": [
+          3
+        ],
+        "for": [
+          4
+        ],
+        "traditional": [
+          5
+        ],
+        "developers": [
+          6,
+          28
+        ],
+        "and": [
+          7,
+          19,
+          38,
+          47,
+          49
+        ],
+        "programmers": [
+          8
+        ],
+        "who": [
+          9,
+          29,
+          39
+        ],
+        "want": [
+          10,
+          50
+        ],
+        "to": [
+          11,
+          51
+        ],
+        "develop": [
+          12
+        ],
+        "client-side": [
+          13
+        ],
+        "applications": [
+          14,
+          34,
+          54
+        ],
+        "using": [
+          15
+        ],
+        "the": [
+          16
+        ],
+        "AngularJS": [
+          17,
+          64
+        ],
+        "framework": [
+          18
+        ],
+        "ASP.NET": [
+          20
+        ],
+        "Web": [
+          21
+        ],
+        "API": [
+          22
+        ],
+        "2": [
+          23
+        ],
+        "with": [
+          24
+        ],
+        "Visual": [
+          25
+        ],
+        "Studio.": [
+          26
+        ],
+        ".NET": [
+          27
+        ],
+        "have": [
+          30,
+          40
+        ],
+        "already": [
+          31
+        ],
+        "built": [
+          32
+        ],
+        "web": [
+          33,
+          36
+        ],
+        "or": [
+          35
+        ],
+        "services": [
+          37
+        ],
+        "a": [
+          41
+        ],
+        "fundamental": [
+          42
+        ],
+        "knowledge": [
+          43,
+          62
+        ],
+        "of": [
+          44,
+          63
+        ],
+        "HTML,": [
+          45
+        ],
+        "JavaScript,": [
+          46
+        ],
+        "CSS": [
+          48
+        ],
+        "explore": [
+          52
+        ],
+        "single-page": [
+          53
+        ],
+        "will": [
+          55
+        ],
+        "also": [
+          56
+        ],
+        "find": [
+          57
+        ],
+        "this": [
+          58
+        ],
+        "guide": [
+          59
+        ],
+        "useful.": [
+          60
+        ],
+        "Basic": [
+          61
+        ],
+        "would": [
+          65
+        ],
+        "be": [
+          66
+        ],
+        "helpful.": [
+          67
+        ]
+      },
+      "counts_by_year": [],
+      "updated_date": "2026-11-14T11:04:58.165337",
+      "created_date": "2016-09-16T00:00:00"
+    },
+    {
+      "id": "https://openalex.org/W2752345124",
+      "doi": "https://doi.org/10.1016/b978-1-928994-47-3.x5000-8",
+      "title": "XML .NET Developer's Guide",
+      "display_name": "XML .NET Developer's Guide",
+      "relevance_score": 144.77124,
+      "publication_year": 2002,
+      "publication_date": "2002-01-01",
+      "ids": {
+        "openalex": "https://openalex.org/W2752345124",
+        "doi": "https://doi.org/10.1016/b978-1-928994-47-3.x5000-8",
+        "mag": "2752345124"
+      },
+      "language": "en",
+      "primary_location": {
+        "id": "doi:10.1016/b978-1-928994-47-3.x5000-8",
+        "doi": "https://doi.org/10.1016/b978-1-928994-47-3.x5000-8",
+        "is_oa": false,
+        "landing_page_url": "https://doi.org/10.1016/b978-1-928994-47-3.x5000-8",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4306463230",
+          "display_name": "Elsevier eBooks",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "listed_in": [],
+          "host_organization": "https://openalex.org/P4310320990",
+          "host_organization_name": "Elsevier BV",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310320990"
+          ],
+          "host_organization_lineage_names": [
+            "Elsevier BV"
+          ],
+          "type": "ebook platform"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": null,
+        "raw_type": "edited-book"
+      },
+      "parent_works": [],
+      "lineage": [
+        "https://openalex.org/W2752345124"
+      ],
+      "child_works_count": 15,
+      "type": "book",
+      "is_traditional": true,
+      "indexed_in": [
+        "crossref"
+      ],
+      "open_access": {
+        "is_oa": false,
+        "oa_status": "closed",
+        "oa_url": null,
+        "any_repository_has_fulltext": false
+      },
+      "authorships": [],
+      "institutions": [],
+      "countries_distinct_count": 0,
+      "institutions_distinct_count": 0,
+      "corresponding_author_ids": [],
+      "corresponding_institution_ids": [],
+      "apc_list": null,
+      "apc_paid": null,
+      "fwci": 0.8144,
+      "is_authors_truncated": false,
+      "has_fulltext": false,
+      "cited_by_count": 4,
+      "citation_normalized_percentile": {
+        "value": 0.81183179,
+        "is_in_top_1_percent": false,
+        "is_in_top_10_percent": false
+      },
+      "cited_by_percentile_year": {
+        "min": 88,
+        "max": 93
+      },
+      "biblio": {
+        "volume": null,
+        "issue": null,
+        "first_page": null,
+        "last_page": null
+      },
+      "is_retracted": false,
+      "is_paratext": false,
+      "is_xpac": false,
+      "primary_topic": {
+        "id": "https://openalex.org/T10679",
+        "display_name": "Service-Oriented Architecture and Web Services",
+        "score": 0.5893999934196472,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1710",
+          "display_name": "Information Systems"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      "topics": [
+        {
+          "id": "https://openalex.org/T10679",
+          "display_name": "Service-Oriented Architecture and Web Services",
+          "score": 0.5893999934196472,
+          "subfield": {
+            "id": "https://openalex.org/subfields/1710",
+            "display_name": "Information Systems"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/17",
+            "display_name": "Computer Science"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T10317",
+          "display_name": "Advanced Database Systems and Queries",
+          "score": 0.19419999420642853,
+          "subfield": {
+            "id": "https://openalex.org/subfields/1710",
+            "display_name": "Information Systems"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/17",
+            "display_name": "Computer Science"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T13681",
+          "display_name": "Engineering and Information Technology",
+          "score": 0.05550000071525574,
+          "subfield": {
+            "id": "https://openalex.org/subfields/1712",
+            "display_name": "Software"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/17",
+            "display_name": "Computer Science"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        }
+      ],
+      "keywords": [
+        {
+          "id": "https://openalex.org/keywords/xml",
+          "display_name": "XML",
+          "score": 0.8349999785423279
+        },
+        {
+          "id": "https://openalex.org/keywords/electronic-data-interchange",
+          "display_name": "electronic data interchange",
+          "score": 0.8579999804496765
+        },
+        {
+          "id": "https://openalex.org/keywords/edi",
+          "display_name": "EDI",
+          "score": 0.7070000171661377
+        },
+        {
+          "id": "https://openalex.org/keywords/b2b-e-commerce",
+          "display_name": "B2B e-commerce",
+          "score": 0.8389999866485596
+        },
+        {
+          "id": "https://openalex.org/keywords/small-and-medium-sized-enterprises",
+          "display_name": "small and medium-sized enterprises",
+          "score": 0.6819999814033508
+        },
+        {
+          "id": "https://openalex.org/keywords/data-management",
+          "display_name": "data management",
+          "score": 0.6949999928474426
+        }
+      ],
+      "concepts": [
+        {
+          "id": "https://openalex.org/C8797682",
+          "wikidata": "https://www.wikidata.org/wiki/Q2115",
+          "display_name": "XML",
+          "level": 2,
+          "score": 0.6711835265159607
+        },
+        {
+          "id": "https://openalex.org/C14166107",
+          "wikidata": "https://www.wikidata.org/wiki/Q253829",
+          "display_name": "Net (polyhedron)",
+          "level": 2,
+          "score": 0.5383198857307434
+        },
+        {
+          "id": "https://openalex.org/C41008148",
+          "wikidata": "https://www.wikidata.org/wiki/Q21198",
+          "display_name": "Computer science",
+          "level": 0,
+          "score": 0.4912676215171814
+        },
+        {
+          "id": "https://openalex.org/C77088390",
+          "wikidata": "https://www.wikidata.org/wiki/Q8513",
+          "display_name": "Database",
+          "level": 1,
+          "score": 0.41125819087028503
+        },
+        {
+          "id": "https://openalex.org/C136764020",
+          "wikidata": "https://www.wikidata.org/wiki/Q466",
+          "display_name": "World Wide Web",
+          "level": 1,
+          "score": 0.3928796947002411
+        },
+        {
+          "id": "https://openalex.org/C33923547",
+          "wikidata": "https://www.wikidata.org/wiki/Q395",
+          "display_name": "Mathematics",
+          "level": 0,
+          "score": 0.06301140785217285
+        },
+        {
+          "id": "https://openalex.org/C2524010",
+          "wikidata": "https://www.wikidata.org/wiki/Q8087",
+          "display_name": "Geometry",
+          "level": 1,
+          "score": 0.0
+        }
+      ],
+      "mesh": [],
+      "locations_count": 1,
+      "locations": [
+        {
+          "id": "doi:10.1016/b978-1-928994-47-3.x5000-8",
+          "doi": "https://doi.org/10.1016/b978-1-928994-47-3.x5000-8",
+          "is_oa": false,
+          "landing_page_url": "https://doi.org/10.1016/b978-1-928994-47-3.x5000-8",
+          "pdf_url": null,
+          "source": {
+            "id": "https://openalex.org/S4306463230",
+            "display_name": "Elsevier eBooks",
+            "issn_l": null,
+            "issn": null,
+            "is_oa": false,
+            "is_in_doaj": false,
+            "is_core": false,
+            "listed_in": [],
+            "host_organization": "https://openalex.org/P4310320990",
+            "host_organization_name": "Elsevier BV",
+            "host_organization_lineage": [
+              "https://openalex.org/P4310320990"
+            ],
+            "host_organization_lineage_names": [
+              "Elsevier BV"
+            ],
+            "type": "ebook platform"
+          },
+          "license": null,
+          "license_id": null,
+          "version": "publishedVersion",
+          "is_accepted": true,
+          "is_published": true,
+          "raw_source_name": null,
+          "raw_type": "edited-book"
+        }
+      ],
+      "best_oa_location": null,
+      "sustainable_development_goals": [],
+      "study_designs": [],
+      "awards": [],
+      "funders": [],
+      "has_content": {
+        "grobid_xml": false,
+        "pdf": false
+      },
+      "content_urls": null,
+      "referenced_works_count": 0,
+      "referenced_works": [],
+      "related_works": [
+        "https://openalex.org/W2390838803",
+        "https://openalex.org/W1481695114",
+        "https://openalex.org/W2267456191",
+        "https://openalex.org/W2744798496",
+        "https://openalex.org/W288184351",
+        "https://openalex.org/W2970205073",
+        "https://openalex.org/W2360911760",
+        "https://openalex.org/W1596000294",
+        "https://openalex.org/W7056427895",
+        "https://openalex.org/W2236711414"
+      ],
+      "abstract_inverted_index": null,
+      "counts_by_year": [
+        {
+          "year": 2013,
+          "cited_by_count": 1
+        }
+      ],
+      "updated_date": "2026-11-14T11:04:58.165337",
+      "created_date": "2017-09-15T00:00:00"
+    },
+    {
+      "id": "https://openalex.org/W2283946093",
+      "doi": null,
+      "title": "Learning AngularJS for .NET Developers",
+      "display_name": "Learning AngularJS for .NET Developers",
+      "relevance_score": 144.6575,
+      "publication_year": 2014,
+      "publication_date": "2014-07-25",
+      "ids": {
+        "openalex": "https://openalex.org/W2283946093",
+        "mag": "2283946093"
+      },
+      "language": "en",
+      "primary_location": {
+        "id": "pmh:oai:cds.cern.ch:1748250",
+        "doi": null,
+        "is_oa": false,
+        "landing_page_url": "http://cds.cern.ch/record/1748250",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4306402195",
+          "display_name": "CERN Document Server (European Organization for Nuclear Research)",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "listed_in": [],
+          "host_organization": "https://openalex.org/I67311998",
+          "host_organization_name": "European Organization for Nuclear Research",
+          "host_organization_lineage": [
+            "https://openalex.org/I67311998"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "submittedVersion",
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": "",
+        "raw_type": null
+      },
+      "parent_works": [],
+      "lineage": [
+        "https://openalex.org/W2283946093"
+      ],
+      "child_works_count": 0,
+      "type": "article",
+      "is_traditional": true,
+      "indexed_in": [],
+      "open_access": {
+        "is_oa": false,
+        "oa_status": "closed",
+        "oa_url": null,
+        "any_repository_has_fulltext": false
+      },
+      "authorships": [
+        {
+          "author_position": "first",
+          "author": {
+            "id": "https://openalex.org/A5077868562",
+            "display_name": "Alex Pop",
+            "orcid": null,
+            "observed_orcids": []
+          },
+          "institutions": [],
+          "countries": [],
+          "is_corresponding": true,
+          "raw_author_name": "Alex Pop",
+          "raw_affiliation_strings": [],
+          "raw_orcid": null,
+          "affiliations": []
+        }
+      ],
+      "institutions": [],
+      "countries_distinct_count": 0,
+      "institutions_distinct_count": 0,
+      "corresponding_author_ids": [
+        "https://openalex.org/A5077868562"
+      ],
+      "corresponding_institution_ids": [],
+      "apc_list": null,
+      "apc_paid": null,
+      "fwci": 0.0,
+      "is_authors_truncated": false,
+      "has_fulltext": false,
+      "cited_by_count": 0,
+      "citation_normalized_percentile": {
+        "value": 0.0,
+        "is_in_top_1_percent": false,
+        "is_in_top_10_percent": false
+      },
+      "cited_by_percentile_year": null,
+      "biblio": {
+        "volume": null,
+        "issue": null,
+        "first_page": null,
+        "last_page": null
+      },
+      "is_retracted": false,
+      "is_paratext": false,
+      "is_xpac": false,
+      "primary_topic": {
+        "id": "https://openalex.org/T12799",
+        "display_name": "Mobile and Web Applications",
+        "score": 0.9771000146865845,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1710",
+          "display_name": "Information Systems"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      "topics": [
+        {
+          "id": "https://openalex.org/T12799",
+          "display_name": "Mobile and Web Applications",
+          "score": 0.9771000146865845,
+          "subfield": {
+            "id": "https://openalex.org/subfields/1710",
+            "display_name": "Information Systems"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/17",
+            "display_name": "Computer Science"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T12601",
+          "display_name": "Web Applications and Data Management",
+          "score": 0.022700000554323196,
+          "subfield": {
+            "id": "https://openalex.org/subfields/1710",
+            "display_name": "Information Systems"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/17",
+            "display_name": "Computer Science"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T13681",
+          "display_name": "Engineering and Information Technology",
+          "score": 0.0,
+          "subfield": {
+            "id": "https://openalex.org/subfields/1712",
+            "display_name": "Software"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/17",
+            "display_name": "Computer Science"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        }
+      ],
+      "keywords": [
+        {
+          "id": "https://openalex.org/keywords/angularjs",
+          "display_name": "AngularJS",
+          "score": 1.0
+        },
+        {
+          "id": "https://openalex.org/keywords/single-page-applications",
+          "display_name": "single-page applications",
+          "score": 0.8949999809265137
+        },
+        {
+          "id": "https://openalex.org/keywords/javascript-frameworks",
+          "display_name": "JavaScript frameworks",
+          "score": 0.6700000166893005
+        },
+        {
+          "id": "https://openalex.org/keywords/web-application-development",
+          "display_name": "web application development",
+          "score": 0.6990000009536743
+        },
+        {
+          "id": "https://openalex.org/keywords/client-side-web-development",
+          "display_name": "client-side web development",
+          "score": 0.6470000147819519
+        },
+        {
+          "id": "https://openalex.org/keywords/html",
+          "display_name": "HTML",
+          "score": 0.5559999942779541
+        },
+        {
+          "id": "https://openalex.org/keywords/css",
+          "display_name": "CSS",
+          "score": 0.7870000004768372
+        },
+        {
+          "id": "https://openalex.org/keywords/javascript",
+          "display_name": "JavaScript",
+          "score": 0.7229999899864197
+        }
+      ],
+      "concepts": [
+        {
+          "id": "https://openalex.org/C14166107",
+          "wikidata": "https://www.wikidata.org/wiki/Q253829",
+          "display_name": "Net (polyhedron)",
+          "level": 2,
+          "score": 0.5706449151039124
+        },
+        {
+          "id": "https://openalex.org/C41008148",
+          "wikidata": "https://www.wikidata.org/wiki/Q21198",
+          "display_name": "Computer science",
+          "level": 0,
+          "score": 0.49852490425109863
+        },
+        {
+          "id": "https://openalex.org/C33923547",
+          "wikidata": "https://www.wikidata.org/wiki/Q395",
+          "display_name": "Mathematics",
+          "level": 0,
+          "score": 0.04333078861236572
+        },
+        {
+          "id": "https://openalex.org/C2524010",
+          "wikidata": "https://www.wikidata.org/wiki/Q8087",
+          "display_name": "Geometry",
+          "level": 1,
+          "score": 0.0
+        }
+      ],
+      "mesh": [],
+      "locations_count": 2,
+      "locations": [
+        {
+          "id": "pmh:oai:cds.cern.ch:1748250",
+          "doi": null,
+          "is_oa": false,
+          "landing_page_url": "http://cds.cern.ch/record/1748250",
+          "pdf_url": null,
+          "source": {
+            "id": "https://openalex.org/S4306402195",
+            "display_name": "CERN Document Server (European Organization for Nuclear Research)",
+            "issn_l": null,
+            "issn": null,
+            "is_oa": false,
+            "is_in_doaj": false,
+            "is_core": false,
+            "listed_in": [],
+            "host_organization": "https://openalex.org/I67311998",
+            "host_organization_name": "European Organization for Nuclear Research",
+            "host_organization_lineage": [
+              "https://openalex.org/I67311998"
+            ],
+            "host_organization_lineage_names": [],
+            "type": "repository"
+          },
+          "license": null,
+          "license_id": null,
+          "version": "submittedVersion",
+          "is_accepted": false,
+          "is_published": false,
+          "raw_source_name": "",
+          "raw_type": null
+        },
+        {
+          "id": "mag:2283946093",
+          "doi": null,
+          "is_oa": false,
+          "landing_page_url": "https://cds.cern.ch/record/1748250",
+          "pdf_url": null,
+          "source": null,
+          "license": null,
+          "license_id": null,
+          "version": null,
+          "is_accepted": false,
+          "is_published": false,
+          "raw_source_name": null,
+          "raw_type": null
+        }
+      ],
+      "best_oa_location": null,
+      "sustainable_development_goals": [],
+      "study_designs": [],
+      "awards": [],
+      "funders": [],
+      "has_content": {
+        "grobid_xml": false,
+        "pdf": false
+      },
+      "content_urls": null,
+      "referenced_works_count": 0,
+      "referenced_works": [],
+      "related_works": [
+        "https://openalex.org/W2507824785",
+        "https://openalex.org/W2408898125",
+        "https://openalex.org/W2996470071",
+        "https://openalex.org/W4250170885",
+        "https://openalex.org/W4237505464",
+        "https://openalex.org/W7011009181",
+        "https://openalex.org/W7005866369",
+        "https://openalex.org/W4232458252",
+        "https://openalex.org/W6991865848"
+      ],
+      "abstract_inverted_index": {
+        "This": [
+          0
+        ],
+        "is": [
+          1
+        ],
+        "a": [
+          2,
+          8,
+          26,
+          30,
+          36,
+          49,
+          69
+        ],
+        "step-by-step,": [
+          3
+        ],
+        "example-driven": [
+          4
+        ],
+        "guide": [
+          5
+        ],
+        "that": [
+          6,
+          39
+        ],
+        "uses": [
+          7
+        ],
+        "gradual": [
+          9
+        ],
+        "introduction": [
+          10
+        ],
+        "of": [
+          11,
+          14,
+          22,
+          29,
+          52
+        ],
+        "concepts;": [
+          12
+        ],
+        "most": [
+          13
+        ],
+        "the": [
+          15,
+          85
+        ],
+        "chapters": [
+          16
+        ],
+        "also": [
+          17
+        ],
+        "contain": [
+          18
+        ],
+        "an": [
+          19
+        ],
+        "annotated": [
+          20
+        ],
+        "exploration": [
+          21
+        ],
+        "how": [
+          23
+        ],
+        "to": [
+          24,
+          59
+        ],
+        "build": [
+          25
+        ],
+        "specific": [
+          27
+        ],
+        "part": [
+          28
+        ],
+        "production-ready": [
+          31
+        ],
+        "application.": [
+          32
+        ],
+        "If": [
+          33
+        ],
+        "you": [
+          34,
+          68,
+          81
+        ],
+        "are": [
+          35
+        ],
+        ".NET": [
+          37
+        ],
+        "developer": [
+          38
+        ],
+        "has": [
+          40
+        ],
+        "already": [
+          41
+        ],
+        "built": [
+          42
+        ],
+        "web": [
+          43,
+          46
+        ],
+        "applications": [
+          44
+        ],
+        "or": [
+          45
+        ],
+        "services": [
+          47
+        ],
+        "with": [
+          48,
+          89
+        ],
+        "fundamental": [
+          50
+        ],
+        "knowledge": [
+          51
+        ],
+        "HTML,": [
+          53
+        ],
+        "JavaScript,": [
+          54
+        ],
+        "and": [
+          55,
+          57,
+          75,
+          83
+        ],
+        "CSS,": [
+          56
+        ],
+        "want": [
+          58
+        ],
+        "explore": [
+          60
+        ],
+        "single-page": [
+          61
+        ],
+        "applications,": [
+          62
+        ],
+        "then": [
+          63
+        ],
+        "this": [
+          64
+        ],
+        "book": [
+          65
+        ],
+        "will": [
+          66,
+          79
+        ],
+        "give": [
+          67
+        ],
+        "great": [
+          70
+        ],
+        "start.": [
+          71
+        ],
+        "The": [
+          72
+        ],
+        "frameworks,": [
+          73
+        ],
+        "tools,": [
+          74
+        ],
+        "libraries": [
+          76
+        ],
+        "mentioned": [
+          77
+        ],
+        "here": [
+          78
+        ],
+        "make": [
+          80
+        ],
+        "productive": [
+          82
+        ],
+        "minimize": [
+          84
+        ],
+        "friction": [
+          86
+        ],
+        "usually": [
+          87
+        ],
+        "associated": [
+          88
+        ],
+        "building": [
+          90
+        ],
+        "server-side": [
+          91
+        ],
+        "we": [
+          92
+        ]
+      },
+      "counts_by_year": [],
+      "updated_date": "2026-11-14T11:04:58.165337",
+      "created_date": "2016-06-24T00:00:00"
+    }
+  ],
+  "group_by": []
+}

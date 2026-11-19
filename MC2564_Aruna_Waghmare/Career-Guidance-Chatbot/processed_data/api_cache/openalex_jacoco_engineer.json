@@ -1,0 +1,4446 @@
+{
+  "meta": {
+    "notice": "No API key, so this request shares one free daily budget ($0.10) with everyone on your network's IP address. Get a free key with its own $1/day at https://openalex.org/settings/api and add api_key=YOUR_KEY to your requests. An AI agent can get one for its user in one call: POST https://api.openalex.org/api-keys with {\"email\": \"<your user's email>\"}; we email them a link, and the key works once they click it. Docs for agents: https://help.openalex.org/llms.txt",
+    "count": 267,
+    "db_response_time_ms": 60,
+    "page": 1,
+    "per_page": 5,
+    "groups_count": null,
+    "x_query": {
+      "oql": "get works with (JACOCO ENGINEER) in the title, abstract, or full text",
+      "x_new_oql": "get works with (JACOCO ENGINEER) in the title, abstract, or full text",
+      "oqo": {
+        "get_rows": "works",
+        "filter_rows": [
+          {
+            "column_id": "fulltext.search",
+            "value": "JACOCO ENGINEER",
+            "operator": "has"
+          }
+        ]
+      },
+      "url": "/works?filter=fulltext.search:JACOCO ENGINEER&per_page=5",
+      "order": "best matches first",
+      "order_default": true
+    },
+    "cost_usd": 0.001
+  },
+  "results": [
+    {
+      "id": "https://openalex.org/W7136139184",
+      "doi": "https://doi.org/10.1109/icicse66971.2025.11429904",
+      "title": "Integration Test CodeCoverage Report generator",
+      "display_name": "Integration Test CodeCoverage Report generator",
+      "relevance_score": 14.426998,
+      "publication_year": 2025,
+      "publication_date": "2025-12-12",
+      "ids": {
+        "openalex": "https://openalex.org/W7136139184",
+        "doi": "https://doi.org/10.1109/icicse66971.2025.11429904"
+      },
+      "language": "en",
+      "primary_location": {
+        "id": "doi:10.1109/icicse66971.2025.11429904",
+        "doi": "https://doi.org/10.1109/icicse66971.2025.11429904",
+        "is_oa": false,
+        "landing_page_url": "https://doi.org/10.1109/icicse66971.2025.11429904",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S7407087703",
+          "display_name": "International Conference on Information Communication and Software Engineering (ICICSE)",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "listed_in": [],
+          "host_organization": "https://openalex.org/P4310319808",
+          "host_organization_name": "Institute of Electrical and Electronics Engineers",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310319808"
+          ],
+          "host_organization_lineage_names": [
+            "Institute of Electrical and Electronics Engineers"
+          ],
+          "type": "conference"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "2025 5th International Conference on Information Communication and Software Engineering (ICICSE)",
+        "raw_type": "proceedings-article"
+      },
+      "parent_works": [],
+      "lineage": [
+        "https://openalex.org/W7136139184"
+      ],
+      "child_works_count": 0,
+      "type": "conference-paper",
+      "is_traditional": true,
+      "indexed_in": [
+        "crossref"
+      ],
+      "open_access": {
+        "is_oa": false,
+        "oa_status": "closed",
+        "oa_url": null,
+        "any_repository_has_fulltext": false
+      },
+      "authorships": [
+        {
+          "author_position": "first",
+          "author": {
+            "id": "https://openalex.org/A5129496755",
+            "display_name": "Abhirup Chatterjee",
+            "orcid": "https://orcid.org/0009-0007-3358-2173",
+            "observed_orcids": [
+              "https://orcid.org/0009-0007-3358-2173"
+            ]
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I65674248",
+              "display_name": "Visvesvaraya Technological University",
+              "ror": "https://ror.org/00ha14p11",
+              "country_code": "IN",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I65674248"
+              ]
+            }
+          ],
+          "countries": [
+            "IN"
+          ],
+          "is_corresponding": true,
+          "raw_author_name": "Abhirup Chatterjee",
+          "raw_affiliation_strings": [
+            "Visvesvaraya Technological University,India"
+          ],
+          "raw_orcid": null,
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Visvesvaraya Technological University,India",
+              "institution_ids": [
+                "https://openalex.org/I65674248"
+              ]
+            }
+          ]
+        }
+      ],
+      "institutions": [],
+      "countries_distinct_count": 1,
+      "institutions_distinct_count": 1,
+      "corresponding_author_ids": [
+        "https://openalex.org/A5129496755"
+      ],
+      "corresponding_institution_ids": [
+        "https://openalex.org/I65674248"
+      ],
+      "apc_list": null,
+      "apc_paid": null,
+      "fwci": 0.0,
+      "is_authors_truncated": false,
+      "has_fulltext": false,
+      "cited_by_count": 0,
+      "citation_normalized_percentile": {
+        "value": 0.0,
+        "is_in_top_1_percent": false,
+        "is_in_top_10_percent": false
+      },
+      "cited_by_percentile_year": null,
+      "biblio": {
+        "volume": null,
+        "issue": null,
+        "first_page": "78",
+        "last_page": "82"
+      },
+      "is_retracted": false,
+      "is_paratext": false,
+      "is_xpac": false,
+      "primary_topic": {
+        "id": "https://openalex.org/T10743",
+        "display_name": "Software Testing and Debugging Techniques",
+        "score": 0.9984999895095825,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1712",
+          "display_name": "Software"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      "topics": [
+        {
+          "id": "https://openalex.org/T10743",
+          "display_name": "Software Testing and Debugging Techniques",
+          "score": 0.9984999895095825,
+          "subfield": {
+            "id": "https://openalex.org/subfields/1712",
+            "display_name": "Software"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/17",
+            "display_name": "Computer Science"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T12127",
+          "display_name": "Software System Performance and Reliability",
+          "score": 0.000699999975040555,
+          "subfield": {
+            "id": "https://openalex.org/subfields/1705",
+            "display_name": "Computer Networks and Communications"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/17",
+            "display_name": "Computer Science"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T10430",
+          "display_name": "Software Engineering Techniques and Practices",
+          "score": 0.0006000000284984708,
+          "subfield": {
+            "id": "https://openalex.org/subfields/1710",
+            "display_name": "Information Systems"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/17",
+            "display_name": "Computer Science"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        }
+      ],
+      "keywords": [
+        {
+          "id": "https://openalex.org/keywords/integration-testing",
+          "display_name": "integration testing",
+          "score": 0.8299999833106995
+        },
+        {
+          "id": "https://openalex.org/keywords/code-coverage",
+          "display_name": "code coverage",
+          "score": 0.9869999885559082
+        },
+        {
+          "id": "https://openalex.org/keywords/jenkins-pipeline",
+          "display_name": "Jenkins Pipeline",
+          "score": 0.7749999761581421
+        },
+        {
+          "id": "https://openalex.org/keywords/continuous-integration",
+          "display_name": "continuous integration",
+          "score": 0.906000018119812
+        },
+        {
+          "id": "https://openalex.org/keywords/quality-gates",
+          "display_name": "quality gates",
+          "score": 0.8309999704360962
+        },
+        {
+          "id": "https://openalex.org/keywords/coverage-gaps",
+          "display_name": "coverage gaps",
+          "score": 0.47099998593330383
+        },
+        {
+          "id": "https://openalex.org/keywords/defect-detection",
+          "display_name": "defect detection",
+          "score": 0.5019999742507935
+        }
+      ],
+      "concepts": [
+        {
+          "id": "https://openalex.org/C206588197",
+          "wikidata": "https://www.wikidata.org/wiki/Q846574",
+          "display_name": "Reuse",
+          "level": 2,
+          "score": 0.644599974155426
+        },
+        {
+          "id": "https://openalex.org/C148027188",
+          "wikidata": "https://www.wikidata.org/wiki/Q907375",
+          "display_name": "Unit testing",
+          "level": 3,
+          "score": 0.5958999991416931
+        },
+        {
+          "id": "https://openalex.org/C43521106",
+          "wikidata": "https://www.wikidata.org/wiki/Q2165493",
+          "display_name": "Pipeline (software)",
+          "level": 2,
+          "score": 0.5472999811172485
+        },
+        {
+          "id": "https://openalex.org/C41008148",
+          "wikidata": "https://www.wikidata.org/wiki/Q21198",
+          "display_name": "Computer science",
+          "level": 0,
+          "score": 0.5410000085830688
+        },
+        {
+          "id": "https://openalex.org/C2776760102",
+          "wikidata": "https://www.wikidata.org/wiki/Q5139990",
+          "display_name": "Code (set theory)",
+          "level": 3,
+          "score": 0.48840001225471497
+        },
+        {
+          "id": "https://openalex.org/C53942775",
+          "wikidata": "https://www.wikidata.org/wiki/Q1211721",
+          "display_name": "Code coverage",
+          "level": 3,
+          "score": 0.48030000925064087
+        },
+        {
+          "id": "https://openalex.org/C200601418",
+          "wikidata": "https://www.wikidata.org/wiki/Q2193887",
+          "display_name": "Reliability engineering",
+          "level": 1,
+          "score": 0.4602000117301941
+        },
+        {
+          "id": "https://openalex.org/C79403827",
+          "wikidata": "https://www.wikidata.org/wiki/Q3988",
+          "display_name": "Real-time computing",
+          "level": 1,
+          "score": 0.4253000020980835
+        },
+        {
+          "id": "https://openalex.org/C72634772",
+          "wikidata": "https://www.wikidata.org/wiki/Q386824",
+          "display_name": "Data integration",
+          "level": 2,
+          "score": 0.4052000045776367
+        },
+        {
+          "id": "https://openalex.org/C2780992000",
+          "wikidata": "https://www.wikidata.org/wiki/Q17016113",
+          "display_name": "Generator (circuit theory)",
+          "level": 3,
+          "score": 0.39969998598098755
+        },
+        {
+          "id": "https://openalex.org/C2779530757",
+          "wikidata": "https://www.wikidata.org/wiki/Q1207505",
+          "display_name": "Quality (philosophy)",
+          "level": 2,
+          "score": 0.391400009393692
+        },
+        {
+          "id": "https://openalex.org/C107683887",
+          "wikidata": "https://www.wikidata.org/wiki/Q782466",
+          "display_name": "Integration testing",
+          "level": 3,
+          "score": 0.37209999561309814
+        },
+        {
+          "id": "https://openalex.org/C168167062",
+          "wikidata": "https://www.wikidata.org/wiki/Q1117970",
+          "display_name": "Component (thermodynamics)",
+          "level": 2,
+          "score": 0.3652999997138977
+        },
+        {
+          "id": "https://openalex.org/C127413603",
+          "wikidata": "https://www.wikidata.org/wiki/Q11023",
+          "display_name": "Engineering",
+          "level": 0,
+          "score": 0.35019999742507935
+        },
+        {
+          "id": "https://openalex.org/C19527686",
+          "wikidata": "https://www.wikidata.org/wiki/Q1665453",
+          "display_name": "System integration",
+          "level": 2,
+          "score": 0.33730000257492065
+        },
+        {
+          "id": "https://openalex.org/C2777267654",
+          "wikidata": "https://www.wikidata.org/wiki/Q3519023",
+          "display_name": "Test (biology)",
+          "level": 2,
+          "score": 0.33709999918937683
+        },
+        {
+          "id": "https://openalex.org/C128942645",
+          "wikidata": "https://www.wikidata.org/wiki/Q1568346",
+          "display_name": "Test case",
+          "level": 3,
+          "score": 0.3334999978542328
+        },
+        {
+          "id": "https://openalex.org/C2780821815",
+          "wikidata": "https://www.wikidata.org/wiki/Q5340806",
+          "display_name": "Portfolio",
+          "level": 2,
+          "score": 0.32499998807907104
+        },
+        {
+          "id": "https://openalex.org/C149635348",
+          "wikidata": "https://www.wikidata.org/wiki/Q193040",
+          "display_name": "Embedded system",
+          "level": 1,
+          "score": 0.3240000009536743
+        },
+        {
+          "id": "https://openalex.org/C2777212361",
+          "wikidata": "https://www.wikidata.org/wiki/Q5127848",
+          "display_name": "Class (philosophy)",
+          "level": 2,
+          "score": 0.3208000063896179
+        },
+        {
+          "id": "https://openalex.org/C124101348",
+          "wikidata": "https://www.wikidata.org/wiki/Q172491",
+          "display_name": "Data mining",
+          "level": 1,
+          "score": 0.3183000087738037
+        },
+        {
+          "id": "https://openalex.org/C2778348673",
+          "wikidata": "https://www.wikidata.org/wiki/Q739302",
+          "display_name": "Production (economics)",
+          "level": 2,
+          "score": 0.3046000003814697
+        },
+        {
+          "id": "https://openalex.org/C2778583558",
+          "wikidata": "https://www.wikidata.org/wiki/Q771245",
+          "display_name": "Code reuse",
+          "level": 3,
+          "score": 0.2745000123977661
+        },
+        {
+          "id": "https://openalex.org/C16910744",
+          "wikidata": "https://www.wikidata.org/wiki/Q7705759",
+          "display_name": "Test data",
+          "level": 2,
+          "score": 0.2736999988555908
+        },
+        {
+          "id": "https://openalex.org/C43126263",
+          "wikidata": "https://www.wikidata.org/wiki/Q128751",
+          "display_name": "Source code",
+          "level": 2,
+          "score": 0.27219998836517334
+        },
+        {
+          "id": "https://openalex.org/C105339364",
+          "wikidata": "https://www.wikidata.org/wiki/Q2297740",
+          "display_name": "Software deployment",
+          "level": 2,
+          "score": 0.2718000113964081
+        },
+        {
+          "id": "https://openalex.org/C113775141",
+          "wikidata": "https://www.wikidata.org/wiki/Q428691",
+          "display_name": "Computer engineering",
+          "level": 1,
+          "score": 0.26750001311302185
+        },
+        {
+          "id": "https://openalex.org/C133162039",
+          "wikidata": "https://www.wikidata.org/wiki/Q1061077",
+          "display_name": "Code generation",
+          "level": 3,
+          "score": 0.2646999955177307
+        },
+        {
+          "id": "https://openalex.org/C24756922",
+          "wikidata": "https://www.wikidata.org/wiki/Q1757694",
+          "display_name": "Data quality",
+          "level": 3,
+          "score": 0.2635999917984009
+        }
+      ],
+      "mesh": [],
+      "locations_count": 1,
+      "locations": [
+        {
+          "id": "doi:10.1109/icicse66971.2025.11429904",
+          "doi": "https://doi.org/10.1109/icicse66971.2025.11429904",
+          "is_oa": false,
+          "landing_page_url": "https://doi.org/10.1109/icicse66971.2025.11429904",
+          "pdf_url": null,
+          "source": {
+            "id": "https://openalex.org/S7407087703",
+            "display_name": "International Conference on Information Communication and Software Engineering (ICICSE)",
+            "issn_l": null,
+            "issn": null,
+            "is_oa": false,
+            "is_in_doaj": false,
+            "is_core": false,
+            "listed_in": [],
+            "host_organization": "https://openalex.org/P4310319808",
+            "host_organization_name": "Institute of Electrical and Electronics Engineers",
+            "host_organization_lineage": [
+              "https://openalex.org/P4310319808"
+            ],
+            "host_organization_lineage_names": [
+              "Institute of Electrical and Electronics Engineers"
+            ],
+            "type": "conference"
+          },
+          "license": null,
+          "license_id": null,
+          "version": "publishedVersion",
+          "is_accepted": true,
+          "is_published": true,
+          "raw_source_name": "2025 5th International Conference on Information Communication and Software Engineering (ICICSE)",
+          "raw_type": "proceedings-article"
+        }
+      ],
+      "best_oa_location": null,
+      "sustainable_development_goals": [
+        {
+          "display_name": "Industry, innovation and infrastructure",
+          "score": 0.5378999710083008,
+          "id": "https://metadata.un.org/sdg/9"
+        }
+      ],
+      "study_designs": [],
+      "awards": [],
+      "funders": [],
+      "has_content": {
+        "grobid_xml": false,
+        "pdf": false
+      },
+      "content_urls": null,
+      "referenced_works_count": 2,
+      "referenced_works": [
+        "https://openalex.org/W2002753905",
+        "https://openalex.org/W2083222184"
+      ],
+      "related_works": [
+        "https://openalex.org/W4385385897",
+        "https://openalex.org/W2079249578",
+        "https://openalex.org/W162399950",
+        "https://openalex.org/W2010496286",
+        "https://openalex.org/W7155029898",
+        "https://openalex.org/W3132610141",
+        "https://openalex.org/W2036728634",
+        "https://openalex.org/W2949471387",
+        "https://openalex.org/W2114701649",
+        "https://openalex.org/W2154032253"
+      ],
+      "abstract_inverted_index": {
+        "Code": [
+          0,
+          38
+        ],
+        "coverage": [
+          1,
+          14,
+          45,
+          74,
+          99,
+          148
+        ],
+        "is": [
+          2,
+          101,
+          175
+        ],
+        "widely": [
+          3
+        ],
+        "used": [
+          4
+        ],
+        "to": [
+          5,
+          50,
+          97,
+          130
+        ],
+        "evaluate": [
+          6
+        ],
+        "the": [
+          7,
+          13,
+          35,
+          57,
+          70
+        ],
+        "effectiveness": [
+          8
+        ],
+        "of": [
+          9,
+          123
+        ],
+        "unit": [
+          10,
+          147
+        ],
+        "tests,": [
+          11
+        ],
+        "but": [
+          12
+        ],
+        "achieved": [
+          15
+        ],
+        "by": [
+          16
+        ],
+        "integration": [
+          17,
+          44,
+          71,
+          124
+        ],
+        "tests—validating": [
+          18
+        ],
+        "real": [
+          19
+        ],
+        "component": [
+          20
+        ],
+        "interactions,": [
+          21
+        ],
+        "data": [
+          22
+        ],
+        "stores,": [
+          23
+        ],
+        "and": [
+          24,
+          48,
+          76,
+          82,
+          94,
+          113,
+          139,
+          165,
+          181
+        ],
+        "network": [
+          25
+        ],
+        "boundaries—remains": [
+          26
+        ],
+        "largely": [
+          27
+        ],
+        "invisible": [
+          28
+        ],
+        "in": [
+          29,
+          184
+        ],
+        "most": [
+          30
+        ],
+        "pipelines.": [
+          31
+        ],
+        "This": [
+          32
+        ],
+        "paper": [
+          33
+        ],
+        "presents": [
+          34
+        ],
+        "Integration": [
+          36
+        ],
+        "Test": [
+          37
+        ],
+        "Coverage": [
+          39
+        ],
+        "(ITCC)": [
+          40
+        ],
+        "framework,": [
+          41
+        ],
+        "which": [
+          42
+        ],
+        "makes": [
+          43
+        ],
+        "measurable,": [
+          46
+        ],
+        "actionable,": [
+          47
+        ],
+        "easy": [
+          49
+        ],
+        "integrate": [
+          51
+        ],
+        "into": [
+          52
+        ],
+        "continuous": [
+          53
+        ],
+        "workflows.": [
+          54
+        ],
+        "ITCC": [
+          55,
+          154
+        ],
+        "instruments": [
+          56
+        ],
+        "application": [
+          58
+        ],
+        "under": [
+          59
+        ],
+        "test": [
+          60,
+          179
+        ],
+        "with": [
+          61,
+          108
+        ],
+        "JaCoCo,": [
+          62
+        ],
+        "performs": [
+          63
+        ],
+        "a": [
+          64,
+          109,
+          127,
+          176
+        ],
+        "local": [
+          65
+        ],
+        "deployment": [
+          66
+        ],
+        "on": [
+          67
+        ],
+        "Jenkins,": [
+          68
+        ],
+        "executes": [
+          69
+        ],
+        "suite,": [
+          72
+        ],
+        "collects": [
+          73
+        ],
+        "artifacts,": [
+          75
+        ],
+        "generates": [
+          77
+        ],
+        "reports": [
+          78,
+          86
+        ],
+        "at": [
+          79
+        ],
+        "statement,": [
+          80
+        ],
+        "method,": [
+          81
+        ],
+        "class": [
+          83
+        ],
+        "levels.": [
+          84
+        ],
+        "These": [
+          85
+        ],
+        "help": [
+          87
+        ],
+        "quality": [
+          88,
+          128
+        ],
+        "engineers": [
+          89
+        ],
+        "identify": [
+          90
+        ],
+        "untested": [
+          91
+        ],
+        "execution": [
+          92
+        ],
+        "paths": [
+          93
+        ],
+        "design": [
+          95
+        ],
+        "scenarios": [
+          96
+        ],
+        "close": [
+          98
+        ],
+        "gaps.ITCC": [
+          100
+        ],
+        "non-intrusive,": [
+          102
+        ],
+        "requiring": [
+          103
+        ],
+        "no": [
+          104
+        ],
+        "code": [
+          105
+        ],
+        "changes,": [
+          106
+        ],
+        "integrating": [
+          107
+        ],
+        "Jenkins": [
+          110
+        ],
+        "pipeline": [
+          111
+        ],
+        "job,": [
+          112
+        ],
+        "reusing": [
+          114
+        ],
+        "standard": [
+          115
+        ],
+        "JaCoCo": [
+          116
+        ],
+        "formats.": [
+          117
+        ],
+        "It": [
+          118
+        ],
+        "enables": [
+          119
+        ],
+        "(i)": [
+          120
+        ],
+        "targeted": [
+          121
+        ],
+        "expansion": [
+          122
+        ],
+        "scenarios,": [
+          125
+        ],
+        "(ii)": [
+          126
+        ],
+        "gate": [
+          129
+        ],
+        "enforce": [
+          131
+        ],
+        "minimum": [
+          132
+        ],
+        "thresholds,": [
+          133
+        ],
+        "(iii)": [
+          134
+        ],
+        "trend": [
+          135
+        ],
+        "tracking": [
+          136
+        ],
+        "across": [
+          137
+        ],
+        "builds,": [
+          138
+        ],
+        "(iv)": [
+          140
+        ],
+        "pull-request": [
+          141
+        ],
+        "feedback": [
+          142
+        ],
+        "highlighting": [
+          143
+        ],
+        "uncovered": [
+          144
+        ],
+        "changes.": [
+          145
+        ],
+        "While": [
+          146
+        ],
+        "remains": [
+          149
+        ],
+        "essential": [
+          150
+        ],
+        "for": [
+          151
+        ],
+        "fast": [
+          152
+        ],
+        "feedback,": [
+          153
+        ],
+        "reveals": [
+          155
+        ],
+        "whether": [
+          156
+        ],
+        "end-to-end": [
+          157
+        ],
+        "flows": [
+          158
+        ],
+        "exercise": [
+          159
+        ],
+        "critical": [
+          160
+        ],
+        "paths—APIs,": [
+          161
+        ],
+        "database": [
+          162
+        ],
+        "calls,": [
+          163
+        ],
+        "messaging,": [
+          164
+        ],
+        "security": [
+          166
+        ],
+        "checks—helping": [
+          167
+        ],
+        "teams": [
+          168
+        ],
+        "detect": [
+          169
+        ],
+        "high-impact": [
+          170
+        ],
+        "defects": [
+          171
+        ],
+        "earlier.": [
+          172
+        ],
+        "The": [
+          173
+        ],
+        "result": [
+          174
+        ],
+        "balanced,": [
+          177
+        ],
+        "data-driven": [
+          178
+        ],
+        "portfolio": [
+          180
+        ],
+        "greater": [
+          182
+        ],
+        "confidence": [
+          183
+        ],
+        "production": [
+          185
+        ],
+        "readiness.": [
+          186
+        ]
+      },
+      "counts_by_year": [],
+      "updated_date": "2026-11-14T11:04:58.165337",
+      "created_date": "2026-03-17T00:00:00"
+    },
+    {
+      "id": "https://openalex.org/W2768363122",
+      "doi": "https://doi.org/10.1007/s10664-017-9570-9",
+      "title": "An experience report on applying software testing academic results in industry: we need usable automated test generation",
+      "display_name": "An experience report on applying software testing academic results in industry: we need usable automated test generation",
+      "relevance_score": 14.125482,
+      "publication_year": 2017,
+      "publication_date": "2017-11-27",
+      "ids": {
+        "openalex": "https://openalex.org/W2768363122",
+        "doi": "https://doi.org/10.1007/s10664-017-9570-9",
+        "mag": "2768363122"
+      },
+      "language": "en",
+      "primary_location": {
+        "id": "doi:10.1007/s10664-017-9570-9",
+        "doi": "https://doi.org/10.1007/s10664-017-9570-9",
+        "is_oa": false,
+        "landing_page_url": "https://doi.org/10.1007/s10664-017-9570-9",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S109852484",
+          "display_name": "Empirical Software Engineering",
+          "issn_l": "1382-3256",
+          "issn": [
+            "1382-3256",
+            "1573-7616"
+          ],
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": true,
+          "listed_in": [
+            "ccf-b",
+            "cwts-core",
+            "dongbi-a",
+            "jufo-3",
+            "norway-2",
+            "poland-140",
+            "russia-white-list-1",
+            "vabb-shw"
+          ],
+          "host_organization": "https://openalex.org/P4310319900",
+          "host_organization_name": "Springer Science+Business Media",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310319900",
+            "https://openalex.org/P4310319965"
+          ],
+          "host_organization_lineage_names": [
+            "Springer Science+Business Media",
+            "Springer Nature"
+          ],
+          "type": "journal"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Empirical Software Engineering",
+        "raw_type": "journal-article"
+      },
+      "parent_works": [],
+      "lineage": [
+        "https://openalex.org/W2768363122"
+      ],
+      "child_works_count": 0,
+      "type": "article",
+      "is_traditional": true,
+      "indexed_in": [
+        "arxiv",
+        "crossref",
+        "datacite"
+      ],
+      "open_access": {
+        "is_oa": true,
+        "oa_status": "green",
+        "oa_url": "https://arxiv.org/pdf/1901.03865",
+        "any_repository_has_fulltext": true
+      },
+      "authorships": [
+        {
+          "author_position": "first",
+          "author": {
+            "id": "https://openalex.org/A5052735480",
+            "display_name": "Andrea Arcuri",
+            "orcid": "https://orcid.org/0000-0003-0799-2930",
+            "observed_orcids": [
+              "https://orcid.org/0000-0003-0799-2930"
+            ]
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I186903577",
+              "display_name": "University of Luxembourg",
+              "ror": "https://ror.org/036x5ad56",
+              "country_code": "LU",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I186903577"
+              ]
+            },
+            {
+              "id": "https://openalex.org/I2801609477",
+              "display_name": "Westerdals Oslo School of Arts, Communication and Technology",
+              "ror": "https://ror.org/02re25503",
+              "country_code": "NO",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I2801609477"
+              ]
+            },
+            {
+              "id": "https://openalex.org/I4405259781",
+              "display_name": "Interdisciplinary Centre for Security, Reliability and Trust",
+              "ror": "https://ror.org/02qav7c04",
+              "country_code": "LU",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I186903577",
+                "https://openalex.org/I4405259781"
+              ]
+            }
+          ],
+          "countries": [
+            "LU",
+            "NO"
+          ],
+          "is_corresponding": true,
+          "raw_author_name": "Andrea Arcuri",
+          "raw_affiliation_strings": [
+            "Faculty of Technology, Westerdals Oslo ACT, Oslo, Norway",
+            "SnT, University of Luxembourg, Luxembourg, Luxembourg"
+          ],
+          "raw_orcid": null,
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Faculty of Technology, Westerdals Oslo ACT, Oslo, Norway",
+              "institution_ids": [
+                "https://openalex.org/I2801609477"
+              ]
+            },
+            {
+              "raw_affiliation_string": "SnT, University of Luxembourg, Luxembourg, Luxembourg",
+              "institution_ids": [
+                "https://openalex.org/I186903577",
+                "https://openalex.org/I4405259781"
+              ]
+            }
+          ]
+        }
+      ],
+      "institutions": [],
+      "countries_distinct_count": 2,
+      "institutions_distinct_count": 3,
+      "corresponding_author_ids": [
+        "https://openalex.org/A5052735480"
+      ],
+      "corresponding_institution_ids": [
+        "https://openalex.org/I186903577",
+        "https://openalex.org/I2801609477",
+        "https://openalex.org/I4405259781"
+      ],
+      "apc_list": {
+        "value": 2290,
+        "currency": "USD",
+        "value_usd": 2290
+      },
+      "apc_paid": null,
+      "fwci": 8.0543,
+      "is_authors_truncated": false,
+      "has_fulltext": true,
+      "cited_by_count": 78,
+      "citation_normalized_percentile": {
+        "value": 0.98300824,
+        "is_in_top_1_percent": false,
+        "is_in_top_10_percent": true
+      },
+      "cited_by_percentile_year": {
+        "min": 97,
+        "max": 99
+      },
+      "biblio": {
+        "volume": "23",
+        "issue": "4",
+        "first_page": "1959",
+        "last_page": "1981"
+      },
+      "is_retracted": false,
+      "is_paratext": false,
+      "is_xpac": false,
+      "primary_topic": {
+        "id": "https://openalex.org/T10743",
+        "display_name": "Software Testing and Debugging Techniques",
+        "score": 0.9580000042915344,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1712",
+          "display_name": "Software"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      "topics": [
+        {
+          "id": "https://openalex.org/T10743",
+          "display_name": "Software Testing and Debugging Techniques",
+          "score": 0.9580000042915344,
+          "subfield": {
+            "id": "https://openalex.org/subfields/1712",
+            "display_name": "Software"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/17",
+            "display_name": "Computer Science"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T10430",
+          "display_name": "Software Engineering Techniques and Practices",
+          "score": 0.03319999948143959,
+          "subfield": {
+            "id": "https://openalex.org/subfields/1710",
+            "display_name": "Information Systems"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/17",
+            "display_name": "Computer Science"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T10260",
+          "display_name": "Software Engineering Research",
+          "score": 0.00430000014603138,
+          "subfield": {
+            "id": "https://openalex.org/subfields/1710",
+            "display_name": "Information Systems"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/17",
+            "display_name": "Computer Science"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        }
+      ],
+      "keywords": [
+        {
+          "id": "https://openalex.org/keywords/software-testing",
+          "display_name": "software testing",
+          "score": 0.7149999737739563
+        },
+        {
+          "id": "https://openalex.org/keywords/automatic-test-generation",
+          "display_name": "automated test generation",
+          "score": 0.8690000176429749
+        },
+        {
+          "id": "https://openalex.org/keywords/verification-and-validation",
+          "display_name": "verification and validation",
+          "score": 0.7839999794960022
+        },
+        {
+          "id": "https://openalex.org/keywords/findbugs",
+          "display_name": "FindBugs",
+          "score": 0.9449999928474426
+        },
+        {
+          "id": "https://openalex.org/keywords/selenium",
+          "display_name": "selenium",
+          "score": 0.9620000123977661
+        },
+        {
+          "id": "https://openalex.org/keywords/unit-testing",
+          "display_name": "unit testing",
+          "score": 0.878000020980835
+        },
+        {
+          "id": "https://openalex.org/keywords/web-application-testing",
+          "display_name": "web application testing",
+          "score": 0.9480000138282776
+        },
+        {
+          "id": "https://openalex.org/keywords/mutation-testing",
+          "display_name": "mutation testing",
+          "score": 0.7459999918937683
+        },
+        {
+          "id": "https://openalex.org/keywords/regression-testing",
+          "display_name": "regression testing",
+          "score": 0.9860000014305115
+        },
+        {
+          "id": "https://openalex.org/keywords/uml",
+          "display_name": "UML",
+          "score": 0.8730000257492065
+        },
+        {
+          "id": "https://openalex.org/keywords/open-source-projects",
+          "display_name": "open source projects",
+          "score": 0.7120000123977661
+        },
+        {
+          "id": "https://openalex.org/keywords/academic-evaluation",
+          "display_name": "academic assessment",
+          "score": 0.6079999804496765
+        }
+      ],
+      "concepts": [
+        {
+          "id": "https://openalex.org/C2780615836",
+          "wikidata": "https://www.wikidata.org/wiki/Q2471869",
+          "display_name": "USable",
+          "level": 2,
+          "score": 0.5671236515045166
+        },
+        {
+          "id": "https://openalex.org/C115903868",
+          "wikidata": "https://www.wikidata.org/wiki/Q80993",
+          "display_name": "Software engineering",
+          "level": 1,
+          "score": 0.5395826697349548
+        },
+        {
+          "id": "https://openalex.org/C110354214",
+          "wikidata": "https://www.wikidata.org/wiki/Q6314146",
+          "display_name": "Engineering management",
+          "level": 1,
+          "score": 0.5146873593330383
+        },
+        {
+          "id": "https://openalex.org/C2777267654",
+          "wikidata": "https://www.wikidata.org/wiki/Q3519023",
+          "display_name": "Test (biology)",
+          "level": 2,
+          "score": 0.5039185881614685
+        },
+        {
+          "id": "https://openalex.org/C127413603",
+          "wikidata": "https://www.wikidata.org/wiki/Q11023",
+          "display_name": "Engineering",
+          "level": 0,
+          "score": 0.49566590785980225
+        },
+        {
+          "id": "https://openalex.org/C18762648",
+          "wikidata": "https://www.wikidata.org/wiki/Q42213",
+          "display_name": "Work (physics)",
+          "level": 2,
+          "score": 0.46574175357818604
+        },
+        {
+          "id": "https://openalex.org/C148027188",
+          "wikidata": "https://www.wikidata.org/wiki/Q907375",
+          "display_name": "Unit testing",
+          "level": 3,
+          "score": 0.4620939791202545
+        },
+        {
+          "id": "https://openalex.org/C2777904410",
+          "wikidata": "https://www.wikidata.org/wiki/Q7397",
+          "display_name": "Software",
+          "level": 2,
+          "score": 0.4208580553531647
+        },
+        {
+          "id": "https://openalex.org/C2984328558",
+          "wikidata": "https://www.wikidata.org/wiki/Q188522",
+          "display_name": "Software testing",
+          "level": 3,
+          "score": 0.41293489933013916
+        },
+        {
+          "id": "https://openalex.org/C41008148",
+          "wikidata": "https://www.wikidata.org/wiki/Q21198",
+          "display_name": "Computer science",
+          "level": 0,
+          "score": 0.37554341554641724
+        },
+        {
+          "id": "https://openalex.org/C136764020",
+          "wikidata": "https://www.wikidata.org/wiki/Q466",
+          "display_name": "World Wide Web",
+          "level": 1,
+          "score": 0.17413288354873657
+        },
+        {
+          "id": "https://openalex.org/C151730666",
+          "wikidata": "https://www.wikidata.org/wiki/Q7205",
+          "display_name": "Paleontology",
+          "level": 1,
+          "score": 0.0
+        },
+        {
+          "id": "https://openalex.org/C199360897",
+          "wikidata": "https://www.wikidata.org/wiki/Q9143",
+          "display_name": "Programming language",
+          "level": 1,
+          "score": 0.0
+        },
+        {
+          "id": "https://openalex.org/C78519656",
+          "wikidata": "https://www.wikidata.org/wiki/Q101333",
+          "display_name": "Mechanical engineering",
+          "level": 1,
+          "score": 0.0
+        },
+        {
+          "id": "https://openalex.org/C86803240",
+          "wikidata": "https://www.wikidata.org/wiki/Q420",
+          "display_name": "Biology",
+          "level": 0,
+          "score": 0.0
+        }
+      ],
+      "mesh": [],
+      "locations_count": 4,
+      "locations": [
+        {
+          "id": "doi:10.1007/s10664-017-9570-9",
+          "doi": "https://doi.org/10.1007/s10664-017-9570-9",
+          "is_oa": false,
+          "landing_page_url": "https://doi.org/10.1007/s10664-017-9570-9",
+          "pdf_url": null,
+          "source": {
+            "id": "https://openalex.org/S109852484",
+            "display_name": "Empirical Software Engineering",
+            "issn_l": "1382-3256",
+            "issn": [
+              "1382-3256",
+              "1573-7616"
+            ],
+            "is_oa": false,
+            "is_in_doaj": false,
+            "is_core": true,
+            "listed_in": [
+              "ccf-b",
+              "cwts-core",
+              "dongbi-a",
+              "jufo-3",
+              "norway-2",
+              "poland-140",
+              "russia-white-list-1",
+              "vabb-shw"
+            ],
+            "host_organization": "https://openalex.org/P4310319900",
+            "host_organization_name": "Springer Science+Business Media",
+            "host_organization_lineage": [
+              "https://openalex.org/P4310319900",
+              "https://openalex.org/P4310319965"
+            ],
+            "host_organization_lineage_names": [
+              "Springer Science+Business Media",
+              "Springer Nature"
+            ],
+            "type": "journal"
+          },
+          "license": null,
+          "license_id": null,
+          "version": "publishedVersion",
+          "is_accepted": true,
+          "is_published": true,
+          "raw_source_name": "Empirical Software Engineering",
+          "raw_type": "journal-article"
+        },
+        {
+          "id": "pmh:oai:arXiv.org:1901.03865",
+          "doi": null,
+          "is_oa": true,
+          "landing_page_url": "http://arxiv.org/abs/1901.03865",
+          "pdf_url": "https://arxiv.org/pdf/1901.03865",
+          "source": {
+            "id": "https://openalex.org/S4306400194",
+            "display_name": "arXiv (Cornell University)",
+            "issn_l": "2331-8422",
+            "issn": [
+              "2331-8422"
+            ],
+            "is_oa": true,
+            "is_in_doaj": false,
+            "is_core": false,
+            "listed_in": [],
+            "host_organization": "https://openalex.org/I205783295",
+            "host_organization_name": "Cornell University",
+            "host_organization_lineage": [
+              "https://openalex.org/I205783295"
+            ],
+            "host_organization_lineage_names": [],
+            "type": "repository"
+          },
+          "license": null,
+          "license_id": null,
+          "version": "submittedVersion",
+          "is_accepted": false,
+          "is_published": false,
+          "raw_source_name": null,
+          "raw_type": "text"
+        },
+        {
+          "id": "pmh:oai:orbilu.uni.lu:10993/33283",
+          "doi": null,
+          "is_oa": true,
+          "landing_page_url": "https://orbilu.uni.lu/handle/10993/33283",
+          "pdf_url": null,
+          "source": {
+            "id": "https://openalex.org/S4306401815",
+            "display_name": "Open Repository and Bibliography (University of Luxembourg)",
+            "issn_l": null,
+            "issn": null,
+            "is_oa": false,
+            "is_in_doaj": false,
+            "is_core": false,
+            "listed_in": [],
+            "host_organization": "https://openalex.org/I186903577",
+            "host_organization_name": "University of Luxembourg",
+            "host_organization_lineage": [
+              "https://openalex.org/I186903577"
+            ],
+            "host_organization_lineage_names": [],
+            "type": "repository"
+          },
+          "license": "cc-by-nc-sa",
+          "license_id": "https://openalex.org/licenses/cc-by-nc-sa",
+          "version": "submittedVersion",
+          "is_accepted": false,
+          "is_published": false,
+          "raw_source_name": "Empirical Software Engineering, 23 (4) (2018)",
+          "raw_type": "http://purl.org/coar/resource_type/c_6501"
+        },
+        {
+          "id": "doi:10.48550/arxiv.1901.03865",
+          "doi": "https://doi.org/10.48550/arxiv.1901.03865",
+          "is_oa": true,
+          "landing_page_url": "https://doi.org/10.48550/arxiv.1901.03865",
+          "pdf_url": null,
+          "source": {
+            "id": "https://openalex.org/S4306400194",
+            "display_name": "arXiv (Cornell University)",
+            "issn_l": "2331-8422",
+            "issn": [
+              "2331-8422"
+            ],
+            "is_oa": true,
+            "is_in_doaj": false,
+            "is_core": false,
+            "listed_in": [],
+            "host_organization": "https://openalex.org/I205783295",
+            "host_organization_name": "Cornell University",
+            "host_organization_lineage": [
+              "https://openalex.org/I205783295"
+            ],
+            "host_organization_lineage_names": [],
+            "type": "repository"
+          },
+          "license": null,
+          "license_id": null,
+          "version": null,
+          "is_accepted": false,
+          "is_published": false,
+          "raw_source_name": null,
+          "raw_type": "article-journal"
+        }
+      ],
+      "best_oa_location": {
+        "id": "pmh:oai:arXiv.org:1901.03865",
+        "doi": null,
+        "is_oa": true,
+        "landing_page_url": "http://arxiv.org/abs/1901.03865",
+        "pdf_url": "https://arxiv.org/pdf/1901.03865",
+        "source": {
+          "id": "https://openalex.org/S4306400194",
+          "display_name": "arXiv (Cornell University)",
+          "issn_l": "2331-8422",
+          "issn": [
+            "2331-8422"
+          ],
+          "is_oa": true,
+          "is_in_doaj": false,
+          "is_core": false,
+          "listed_in": [],
+          "host_organization": "https://openalex.org/I205783295",
+          "host_organization_name": "Cornell University",
+          "host_organization_lineage": [
+            "https://openalex.org/I205783295"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "submittedVersion",
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": null,
+        "raw_type": "text"
+      },
+      "sustainable_development_goals": [],
+      "study_designs": [],
+      "awards": [
+        {
+          "id": "https://openalex.org/G6125804149",
+          "display_name": null,
+          "funder_award_id": "FNR/P10/03",
+          "funder_id": "https://openalex.org/F4320321038",
+          "funder_display_name": "Fonds National de la Recherche Luxembourg"
+        }
+      ],
+      "funders": [
+        {
+          "id": "https://openalex.org/F4320310700",
+          "display_name": "Université du Luxembourg",
+          "ror": "https://ror.org/036x5ad56"
+        },
+        {
+          "id": "https://openalex.org/F4320321038",
+          "display_name": "Fonds National de la Recherche Luxembourg",
+          "ror": "https://ror.org/039z13y21"
+        }
+      ],
+      "has_content": {
+        "grobid_xml": true,
+        "pdf": true
+      },
+      "content_urls": {
+        "pdf": "https://content.openalex.org/works/W2768363122.pdf",
+        "grobid_xml": "https://content.openalex.org/works/W2768363122.grobid-xml"
+      },
+      "referenced_works_count": 49,
+      "referenced_works": [
+        "https://openalex.org/W139286382",
+        "https://openalex.org/W175386426",
+        "https://openalex.org/W1505885302",
+        "https://openalex.org/W1523846875",
+        "https://openalex.org/W1536944383",
+        "https://openalex.org/W1557824269",
+        "https://openalex.org/W1929689911",
+        "https://openalex.org/W1971650562",
+        "https://openalex.org/W1980713699",
+        "https://openalex.org/W1986453394",
+        "https://openalex.org/W2000522005",
+        "https://openalex.org/W2003385991",
+        "https://openalex.org/W2008626182",
+        "https://openalex.org/W2011044158",
+        "https://openalex.org/W2012210872",
+        "https://openalex.org/W2014515160",
+        "https://openalex.org/W2041668232",
+        "https://openalex.org/W2043584256",
+        "https://openalex.org/W2059865504",
+        "https://openalex.org/W2064975723",
+        "https://openalex.org/W2087527532",
+        "https://openalex.org/W2088697603",
+        "https://openalex.org/W2107709519",
+        "https://openalex.org/W2108120825",
+        "https://openalex.org/W2108655250",
+        "https://openalex.org/W2109386870",
+        "https://openalex.org/W2118604270",
+        "https://openalex.org/W2125291571",
+        "https://openalex.org/W2135841285",
+        "https://openalex.org/W2138464849",
+        "https://openalex.org/W2139872812",
+        "https://openalex.org/W2229336147",
+        "https://openalex.org/W2283438976",
+        "https://openalex.org/W2289852464",
+        "https://openalex.org/W2420853400",
+        "https://openalex.org/W2462111230",
+        "https://openalex.org/W2466388701",
+        "https://openalex.org/W2466590866",
+        "https://openalex.org/W2494902551",
+        "https://openalex.org/W2525290333",
+        "https://openalex.org/W2558898614",
+        "https://openalex.org/W2622213173",
+        "https://openalex.org/W2751862591",
+        "https://openalex.org/W2760376440",
+        "https://openalex.org/W2790647267",
+        "https://openalex.org/W3010856131",
+        "https://openalex.org/W3155744979",
+        "https://openalex.org/W4253811964",
+        "https://openalex.org/W4301441647"
+      ],
+      "related_works": [
+        "https://openalex.org/W2808622176",
+        "https://openalex.org/W2169019702",
+        "https://openalex.org/W2884769900",
+        "https://openalex.org/W2396678227",
+        "https://openalex.org/W4386082319",
+        "https://openalex.org/W2767642134",
+        "https://openalex.org/W2982452422",
+        "https://openalex.org/W2087097337",
+        "https://openalex.org/W7100786828",
+        "https://openalex.org/W2573192904"
+      ],
+      "abstract_inverted_index": null,
+      "counts_by_year": [
+        {
+          "year": 2026,
+          "cited_by_count": 4
+        },
+        {
+          "year": 2025,
+          "cited_by_count": 11
+        },
+        {
+          "year": 2024,
+          "cited_by_count": 11
+        },
+        {
+          "year": 2023,
+          "cited_by_count": 13
+        },
+        {
+          "year": 2022,
+          "cited_by_count": 8
+        },
+        {
+          "year": 2021,
+          "cited_by_count": 7
+        },
+        {
+          "year": 2020,
+          "cited_by_count": 9
+        },
+        {
+          "year": 2019,
+          "cited_by_count": 10
+        },
+        {
+          "year": 2018,
+          "cited_by_count": 5
+        }
+      ],
+      "updated_date": "2026-11-07T11:25:07.637180",
+      "created_date": "2017-12-04T00:00:00"
+    },
+    {
+      "id": "https://openalex.org/W4413403546",
+      "doi": "https://doi.org/10.1007/978-3-032-04288-0_3",
+      "title": "Baseline Evaluation of LLM-Facilitated UI Test-Case Generation from Gherkin Specifications",
+      "display_name": "Baseline Evaluation of LLM-Facilitated UI Test-Case Generation from Gherkin Specifications",
+      "relevance_score": 10.425789,
+      "publication_year": 2025,
+      "publication_date": "2025-08-21",
+      "ids": {
+        "openalex": "https://openalex.org/W4413403546",
+        "doi": "https://doi.org/10.1007/978-3-032-04288-0_3"
+      },
+      "language": "en",
+      "primary_location": {
+        "id": "doi:10.1007/978-3-032-04288-0_3",
+        "doi": "https://doi.org/10.1007/978-3-032-04288-0_3",
+        "is_oa": false,
+        "landing_page_url": "https://doi.org/10.1007/978-3-032-04288-0_3",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S2764900261",
+          "display_name": "Communications in computer and information science",
+          "issn_l": "1865-0929",
+          "issn": [
+            "1865-0929",
+            "1865-0937"
+          ],
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": true,
+          "listed_in": [
+            "cwts-core",
+            "jufo-1",
+            "norway-1"
+          ],
+          "host_organization": "https://openalex.org/P4310319900",
+          "host_organization_name": "Springer Science+Business Media",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310319900",
+            "https://openalex.org/P4310319965"
+          ],
+          "host_organization_lineage_names": [
+            "Springer Science+Business Media",
+            "Springer Nature"
+          ],
+          "type": "book series"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Communications in Computer and Information Science",
+        "raw_type": "book-chapter"
+      },
+      "parent_works": [
+        {
+          "id": "https://openalex.org/W4413403534",
+          "display_name": "Systems, Software and Services Process Improvement: 32nd European Conference, EuroSPI 2025, Riga, Latvia, September 17–19, 2025, Proceedings, Part I",
+          "relationship": "volume"
+        }
+      ],
+      "lineage": [
+        "https://openalex.org/W4413403546",
+        "https://openalex.org/W4413403534"
+      ],
+      "child_works_count": 0,
+      "type": "conference-paper",
+      "is_traditional": true,
+      "indexed_in": [
+        "crossref"
+      ],
+      "open_access": {
+        "is_oa": false,
+        "oa_status": "closed",
+        "oa_url": null,
+        "any_repository_has_fulltext": false
+      },
+      "authorships": [
+        {
+          "author_position": "first",
+          "author": {
+            "id": "https://openalex.org/A5062094487",
+            "display_name": "Alexander Poth",
+            "orcid": "https://orcid.org/0000-0002-2868-5633",
+            "observed_orcids": [
+              "https://orcid.org/0000-0002-2868-5633"
+            ]
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I1319473763",
+              "display_name": "Volkswagen Group (Germany)",
+              "ror": "https://ror.org/01f3bhg26",
+              "country_code": "DE",
+              "type": "company",
+              "lineage": [
+                "https://openalex.org/I1319473763"
+              ]
+            },
+            {
+              "id": "https://openalex.org/I155765044",
+              "display_name": "University of Hildesheim",
+              "ror": "https://ror.org/02f9det96",
+              "country_code": "DE",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I155765044"
+              ]
+            }
+          ],
+          "countries": [
+            "DE"
+          ],
+          "is_corresponding": true,
+          "raw_author_name": "Alexander Poth",
+          "raw_affiliation_strings": [
+            "Institute of Computer Science, Software Systems Engineering, University of Hildesheim, Universitätsplatz 1, 31141, Hildesheim, Germany",
+            "Volkswagen AG, Berliner Ring 2, 38436, Wolfsburg, Germany"
+          ],
+          "raw_orcid": "https://orcid.org/0000-0002-2868-5633",
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Institute of Computer Science, Software Systems Engineering, University of Hildesheim, Universitätsplatz 1, 31141, Hildesheim, Germany",
+              "institution_ids": [
+                "https://openalex.org/I155765044"
+              ]
+            },
+            {
+              "raw_affiliation_string": "Volkswagen AG, Berliner Ring 2, 38436, Wolfsburg, Germany",
+              "institution_ids": [
+                "https://openalex.org/I1319473763"
+              ]
+            }
+          ]
+        },
+        {
+          "author_position": "middle",
+          "author": {
+            "id": "https://openalex.org/A5067040474",
+            "display_name": "Olsi Rrjolli",
+            "orcid": null,
+            "observed_orcids": []
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I1319473763",
+              "display_name": "Volkswagen Group (Germany)",
+              "ror": "https://ror.org/01f3bhg26",
+              "country_code": "DE",
+              "type": "company",
+              "lineage": [
+                "https://openalex.org/I1319473763"
+              ]
+            },
+            {
+              "id": "https://openalex.org/I155765044",
+              "display_name": "University of Hildesheim",
+              "ror": "https://ror.org/02f9det96",
+              "country_code": "DE",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I155765044"
+              ]
+            }
+          ],
+          "countries": [
+            "DE"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "Olsi Rrjolli",
+          "raw_affiliation_strings": [
+            "Institute of Computer Science, Software Systems Engineering, University of Hildesheim, Universitätsplatz 1, 31141, Hildesheim, Germany",
+            "Volkswagen AG, Berliner Ring 2, 38436, Wolfsburg, Germany"
+          ],
+          "raw_orcid": null,
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Institute of Computer Science, Software Systems Engineering, University of Hildesheim, Universitätsplatz 1, 31141, Hildesheim, Germany",
+              "institution_ids": [
+                "https://openalex.org/I155765044"
+              ]
+            },
+            {
+              "raw_affiliation_string": "Volkswagen AG, Berliner Ring 2, 38436, Wolfsburg, Germany",
+              "institution_ids": [
+                "https://openalex.org/I1319473763"
+              ]
+            }
+          ]
+        },
+        {
+          "author_position": "middle",
+          "author": {
+            "id": null,
+            "display_name": "Huiyu Wang",
+            "orcid": null,
+            "observed_orcids": []
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I1319473763",
+              "display_name": "Volkswagen Group (Germany)",
+              "ror": "https://ror.org/01f3bhg26",
+              "country_code": "DE",
+              "type": "company",
+              "lineage": [
+                "https://openalex.org/I1319473763"
+              ]
+            },
+            {
+              "id": "https://openalex.org/I155765044",
+              "display_name": "University of Hildesheim",
+              "ror": "https://ror.org/02f9det96",
+              "country_code": "DE",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I155765044"
+              ]
+            }
+          ],
+          "countries": [
+            "DE"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "Huiyu Wang",
+          "raw_affiliation_strings": [
+            "Institute of Computer Science, Software Systems Engineering, University of Hildesheim, Universitätsplatz 1, 31141, Hildesheim, Germany",
+            "Volkswagen AG, Berliner Ring 2, 38436, Wolfsburg, Germany"
+          ],
+          "raw_orcid": null,
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Institute of Computer Science, Software Systems Engineering, University of Hildesheim, Universitätsplatz 1, 31141, Hildesheim, Germany",
+              "institution_ids": [
+                "https://openalex.org/I155765044"
+              ]
+            },
+            {
+              "raw_affiliation_string": "Volkswagen AG, Berliner Ring 2, 38436, Wolfsburg, Germany",
+              "institution_ids": [
+                "https://openalex.org/I1319473763"
+              ]
+            }
+          ]
+        },
+        {
+          "author_position": "last",
+          "author": {
+            "id": null,
+            "display_name": "Klaus Schmid",
+            "orcid": null,
+            "observed_orcids": []
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I1319473763",
+              "display_name": "Volkswagen Group (Germany)",
+              "ror": "https://ror.org/01f3bhg26",
+              "country_code": "DE",
+              "type": "company",
+              "lineage": [
+                "https://openalex.org/I1319473763"
+              ]
+            },
+            {
+              "id": "https://openalex.org/I155765044",
+              "display_name": "University of Hildesheim",
+              "ror": "https://ror.org/02f9det96",
+              "country_code": "DE",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I155765044"
+              ]
+            }
+          ],
+          "countries": [
+            "DE"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "Klaus Schmid",
+          "raw_affiliation_strings": [
+            "Institute of Computer Science, Software Systems Engineering, University of Hildesheim, Universitätsplatz 1, 31141, Hildesheim, Germany",
+            "Volkswagen AG, Berliner Ring 2, 38436, Wolfsburg, Germany"
+          ],
+          "raw_orcid": null,
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Institute of Computer Science, Software Systems Engineering, University of Hildesheim, Universitätsplatz 1, 31141, Hildesheim, Germany",
+              "institution_ids": [
+                "https://openalex.org/I155765044"
+              ]
+            },
+            {
+              "raw_affiliation_string": "Volkswagen AG, Berliner Ring 2, 38436, Wolfsburg, Germany",
+              "institution_ids": [
+                "https://openalex.org/I1319473763"
+              ]
+            }
+          ]
+        }
+      ],
+      "institutions": [],
+      "countries_distinct_count": 1,
+      "institutions_distinct_count": 2,
+      "corresponding_author_ids": [
+        "https://openalex.org/A5062094487"
+      ],
+      "corresponding_institution_ids": [
+        "https://openalex.org/I1319473763",
+        "https://openalex.org/I155765044"
+      ],
+      "apc_list": null,
+      "apc_paid": null,
+      "fwci": 1.9655,
+      "is_authors_truncated": false,
+      "has_fulltext": false,
+      "cited_by_count": 4,
+      "citation_normalized_percentile": {
+        "value": 0.86508918,
+        "is_in_top_1_percent": false,
+        "is_in_top_10_percent": false
+      },
+      "cited_by_percentile_year": {
+        "min": 89,
+        "max": 97
+      },
+      "biblio": {
+        "volume": null,
+        "issue": null,
+        "first_page": "39",
+        "last_page": "53"
+      },
+      "is_retracted": false,
+      "is_paratext": false,
+      "is_xpac": false,
+      "primary_topic": {
+        "id": "https://openalex.org/T10743",
+        "display_name": "Software Testing and Debugging Techniques",
+        "score": 1.0,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1712",
+          "display_name": "Software"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      "topics": [
+        {
+          "id": "https://openalex.org/T10743",
+          "display_name": "Software Testing and Debugging Techniques",
+          "score": 1.0,
+          "subfield": {
+            "id": "https://openalex.org/subfields/1712",
+            "display_name": "Software"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/17",
+            "display_name": "Computer Science"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T10260",
+          "display_name": "Software Engineering Research",
+          "score": 9.999999747378752e-05,
+          "subfield": {
+            "id": "https://openalex.org/subfields/1710",
+            "display_name": "Information Systems"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/17",
+            "display_name": "Computer Science"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T10430",
+          "display_name": "Software Engineering Techniques and Practices",
+          "score": 0.0,
+          "subfield": {
+            "id": "https://openalex.org/subfields/1710",
+            "display_name": "Information Systems"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/17",
+            "display_name": "Computer Science"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        }
+      ],
+      "keywords": [
+        {
+          "id": "https://openalex.org/keywords/large-language-models",
+          "display_name": "large language models",
+          "score": 0.8289999961853027
+        },
+        {
+          "id": "https://openalex.org/keywords/automatic-test-generation",
+          "display_name": "automated test generation",
+          "score": 0.8080000281333923
+        },
+        {
+          "id": "https://openalex.org/keywords/ui-testing",
+          "display_name": "UI testing",
+          "score": 0.7519999742507935
+        },
+        {
+          "id": "https://openalex.org/keywords/test-coverage",
+          "display_name": "test coverage",
+          "score": 0.6790000200271606
+        },
+        {
+          "id": "https://openalex.org/keywords/test-engineering",
+          "display_name": "test engineering",
+          "score": 0.4300000071525574
+        }
+      ],
+      "concepts": [
+        {
+          "id": "https://openalex.org/C12725497",
+          "wikidata": "https://www.wikidata.org/wiki/Q810247",
+          "display_name": "Baseline (sea)",
+          "level": 2,
+          "score": 0.7632044553756714
+        },
+        {
+          "id": "https://openalex.org/C2777267654",
+          "wikidata": "https://www.wikidata.org/wiki/Q3519023",
+          "display_name": "Test (biology)",
+          "level": 2,
+          "score": 0.4952205717563629
+        },
+        {
+          "id": "https://openalex.org/C41008148",
+          "wikidata": "https://www.wikidata.org/wiki/Q21198",
+          "display_name": "Computer science",
+          "level": 0,
+          "score": 0.4726475775241852
+        },
+        {
+          "id": "https://openalex.org/C23123220",
+          "wikidata": "https://www.wikidata.org/wiki/Q816826",
+          "display_name": "Information retrieval",
+          "level": 1,
+          "score": 0.3326050341129303
+        },
+        {
+          "id": "https://openalex.org/C86803240",
+          "wikidata": "https://www.wikidata.org/wiki/Q420",
+          "display_name": "Biology",
+          "level": 0,
+          "score": 0.10435780882835388
+        },
+        {
+          "id": "https://openalex.org/C59822182",
+          "wikidata": "https://www.wikidata.org/wiki/Q441",
+          "display_name": "Botany",
+          "level": 1,
+          "score": 0.09903836250305176
+        },
+        {
+          "id": "https://openalex.org/C505870484",
+          "wikidata": "https://www.wikidata.org/wiki/Q180538",
+          "display_name": "Fishery",
+          "level": 1,
+          "score": 0.0
+        }
+      ],
+      "mesh": [],
+      "locations_count": 1,
+      "locations": [
+        {
+          "id": "doi:10.1007/978-3-032-04288-0_3",
+          "doi": "https://doi.org/10.1007/978-3-032-04288-0_3",
+          "is_oa": false,
+          "landing_page_url": "https://doi.org/10.1007/978-3-032-04288-0_3",
+          "pdf_url": null,
+          "source": {
+            "id": "https://openalex.org/S2764900261",
+            "display_name": "Communications in computer and information science",
+            "issn_l": "1865-0929",
+            "issn": [
+              "1865-0929",
+              "1865-0937"
+            ],
+            "is_oa": false,
+            "is_in_doaj": false,
+            "is_core": true,
+            "listed_in": [
+              "cwts-core",
+              "jufo-1",
+              "norway-1"
+            ],
+            "host_organization": "https://openalex.org/P4310319900",
+            "host_organization_name": "Springer Science+Business Media",
+            "host_organization_lineage": [
+              "https://openalex.org/P4310319900",
+              "https://openalex.org/P4310319965"
+            ],
+            "host_organization_lineage_names": [
+              "Springer Science+Business Media",
+              "Springer Nature"
+            ],
+            "type": "book series"
+          },
+          "license": null,
+          "license_id": null,
+          "version": "publishedVersion",
+          "is_accepted": true,
+          "is_published": true,
+          "raw_source_name": "Communications in Computer and Information Science",
+          "raw_type": "book-chapter"
+        }
+      ],
+      "best_oa_location": null,
+      "sustainable_development_goals": [],
+      "study_designs": [],
+      "awards": [],
+      "funders": [],
+      "has_content": {
+        "grobid_xml": false,
+        "pdf": false
+      },
+      "content_urls": null,
+      "referenced_works_count": 22,
+      "referenced_works": [
+        "https://openalex.org/W2261112062",
+        "https://openalex.org/W2886151198",
+        "https://openalex.org/W4388212420",
+        "https://openalex.org/W4390188013",
+        "https://openalex.org/W4391974543",
+        "https://openalex.org/W4399061639",
+        "https://openalex.org/W4399668033",
+        "https://openalex.org/W4400582872",
+        "https://openalex.org/W4403795814",
+        "https://openalex.org/W4404900414",
+        "https://openalex.org/W4405696153",
+        "https://openalex.org/W4410538774",
+        "https://openalex.org/W4411450140",
+        "https://openalex.org/W4412400243",
+        "https://openalex.org/W4415095205",
+        "https://openalex.org/W6600076646",
+        "https://openalex.org/W6600263792",
+        "https://openalex.org/W6603054696",
+        "https://openalex.org/W6815294043",
+        "https://openalex.org/W6903850950",
+        "https://openalex.org/W7128785481",
+        "https://openalex.org/W7136464128"
+      ],
+      "related_works": [
+        "https://openalex.org/W4416867344",
+        "https://openalex.org/W4413404038",
+        "https://openalex.org/W7124996121",
+        "https://openalex.org/W7115713359",
+        "https://openalex.org/W7216906481",
+        "https://openalex.org/W4414621220",
+        "https://openalex.org/W4412537370",
+        "https://openalex.org/W4402527446",
+        "https://openalex.org/W4406255353",
+        "https://openalex.org/W4389104713"
+      ],
+      "abstract_inverted_index": null,
+      "counts_by_year": [
+        {
+          "year": 2026,
+          "cited_by_count": 3
+        },
+        {
+          "year": 2025,
+          "cited_by_count": 1
+        }
+      ],
+      "updated_date": "2026-11-14T11:04:58.165337",
+      "created_date": "2025-10-10T00:00:00"
+    },
+    {
+      "id": "https://openalex.org/W2808622176",
+      "doi": "https://doi.org/10.1145/3180155.3182555",
+      "title": "Journal first presentation of an experience report on applying software testing academic results in industry: we need usable automated test generation",
+      "display_name": "Journal first presentation of an experience report on applying software testing academic results in industry: we need usable automated test generation",
+      "relevance_score": 10.418431,
+      "publication_year": 2018,
+      "publication_date": "2018-05-27",
+      "ids": {
+        "openalex": "https://openalex.org/W2808622176",
+        "doi": "https://doi.org/10.1145/3180155.3182555",
+        "mag": "2808622176"
+      },
+      "language": "en",
+      "primary_location": {
+        "id": "doi:10.1145/3180155.3182555",
+        "doi": "https://doi.org/10.1145/3180155.3182555",
+        "is_oa": false,
+        "landing_page_url": "https://doi.org/10.1145/3180155.3182555",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4210203175",
+          "display_name": "ACM/IEEE International Conference on Software Engineering: Companion Proceedings (ICSE-Companion)",
+          "issn_l": "0270-5257",
+          "issn": [
+            "0270-5257",
+            "1558-1225"
+          ],
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": true,
+          "listed_in": [
+            "cwts-core",
+            "norway-2"
+          ],
+          "host_organization": "https://openalex.org/P4310319808",
+          "host_organization_name": "Institute of Electrical and Electronics Engineers",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310319808"
+          ],
+          "host_organization_lineage_names": [
+            "Institute of Electrical and Electronics Engineers"
+          ],
+          "type": "conference"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Proceedings of the 40th International Conference on Software Engineering",
+        "raw_type": "proceedings-article"
+      },
+      "parent_works": [],
+      "lineage": [
+        "https://openalex.org/W2808622176"
+      ],
+      "child_works_count": 0,
+      "type": "conference-paper",
+      "is_traditional": true,
+      "indexed_in": [
+        "crossref"
+      ],
+      "open_access": {
+        "is_oa": false,
+        "oa_status": "closed",
+        "oa_url": null,
+        "any_repository_has_fulltext": false
+      },
+      "authorships": [
+        {
+          "author_position": "first",
+          "author": {
+            "id": "https://openalex.org/A5112371461",
+            "display_name": "Andre Arcuri",
+            "orcid": null,
+            "observed_orcids": []
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I186903577",
+              "display_name": "University of Luxembourg",
+              "ror": "https://ror.org/036x5ad56",
+              "country_code": "LU",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I186903577"
+              ]
+            }
+          ],
+          "countries": [
+            "LU"
+          ],
+          "is_corresponding": true,
+          "raw_author_name": "Andre Arcuri",
+          "raw_affiliation_strings": [
+            "Faculty of Technology, Oslo, Norway and University of Luxembourg, Luxembourg"
+          ],
+          "raw_orcid": null,
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Faculty of Technology, Oslo, Norway and University of Luxembourg, Luxembourg",
+              "institution_ids": [
+                "https://openalex.org/I186903577"
+              ]
+            }
+          ]
+        }
+      ],
+      "institutions": [],
+      "countries_distinct_count": 1,
+      "institutions_distinct_count": 1,
+      "corresponding_author_ids": [
+        "https://openalex.org/A5112371461"
+      ],
+      "corresponding_institution_ids": [
+        "https://openalex.org/I186903577"
+      ],
+      "apc_list": null,
+      "apc_paid": null,
+      "fwci": 0.171,
+      "is_authors_truncated": false,
+      "has_fulltext": false,
+      "cited_by_count": 2,
+      "citation_normalized_percentile": {
+        "value": 0.28841217,
+        "is_in_top_1_percent": false,
+        "is_in_top_10_percent": false
+      },
+      "cited_by_percentile_year": {
+        "min": 88,
+        "max": 93
+      },
+      "biblio": {
+        "volume": null,
+        "issue": null,
+        "first_page": "1065",
+        "last_page": "1065"
+      },
+      "is_retracted": false,
+      "is_paratext": false,
+      "is_xpac": false,
+      "primary_topic": {
+        "id": "https://openalex.org/T10743",
+        "display_name": "Software Testing and Debugging Techniques",
+        "score": 0.6714000105857849,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1712",
+          "display_name": "Software"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      "topics": [
+        {
+          "id": "https://openalex.org/T10743",
+          "display_name": "Software Testing and Debugging Techniques",
+          "score": 0.6714000105857849,
+          "subfield": {
+            "id": "https://openalex.org/subfields/1712",
+            "display_name": "Software"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/17",
+            "display_name": "Computer Science"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T10430",
+          "display_name": "Software Engineering Techniques and Practices",
+          "score": 0.295199990272522,
+          "subfield": {
+            "id": "https://openalex.org/subfields/1710",
+            "display_name": "Information Systems"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/17",
+            "display_name": "Computer Science"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T10260",
+          "display_name": "Software Engineering Research",
+          "score": 0.014600000344216824,
+          "subfield": {
+            "id": "https://openalex.org/subfields/1710",
+            "display_name": "Information Systems"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/17",
+            "display_name": "Computer Science"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        }
+      ],
+      "keywords": [
+        {
+          "id": "https://openalex.org/keywords/software-testing",
+          "display_name": "software testing",
+          "score": 0.8289999961853027
+        },
+        {
+          "id": "https://openalex.org/keywords/industry-practices",
+          "display_name": "industrial practice",
+          "score": 0.6290000081062317
+        },
+        {
+          "id": "https://openalex.org/keywords/verification-and-validation",
+          "display_name": "verification and validation",
+          "score": 0.8880000114440918
+        },
+        {
+          "id": "https://openalex.org/keywords/findbugs",
+          "display_name": "FindBugs",
+          "score": 0.9599999785423279
+        },
+        {
+          "id": "https://openalex.org/keywords/selenium",
+          "display_name": "selenium",
+          "score": 0.9700000286102295
+        },
+        {
+          "id": "https://openalex.org/keywords/unit-testing",
+          "display_name": "unit testing",
+          "score": 0.9369999766349792
+        },
+        {
+          "id": "https://openalex.org/keywords/web-application-testing",
+          "display_name": "web application testing",
+          "score": 0.9760000109672546
+        },
+        {
+          "id": "https://openalex.org/keywords/uml",
+          "display_name": "UML",
+          "score": 0.7129999995231628
+        },
+        {
+          "id": "https://openalex.org/keywords/regression-testing",
+          "display_name": "regression testing",
+          "score": 0.9620000123977661
+        },
+        {
+          "id": "https://openalex.org/keywords/mutation-testing",
+          "display_name": "mutation testing",
+          "score": 0.9990000128746033
+        },
+        {
+          "id": "https://openalex.org/keywords/open-source-projects",
+          "display_name": "open source projects",
+          "score": 0.652999997138977
+        },
+        {
+          "id": "https://openalex.org/keywords/academic-evaluation",
+          "display_name": "academic assessment",
+          "score": 0.6639999747276306
+        }
+      ],
+      "concepts": [
+        {
+          "id": "https://openalex.org/C2777601897",
+          "wikidata": "https://www.wikidata.org/wiki/Q3409113",
+          "display_name": "Presentation (obstetrics)",
+          "level": 2,
+          "score": 0.8337281942367554
+        },
+        {
+          "id": "https://openalex.org/C41008148",
+          "wikidata": "https://www.wikidata.org/wiki/Q21198",
+          "display_name": "Computer science",
+          "level": 0,
+          "score": 0.7006404399871826
+        },
+        {
+          "id": "https://openalex.org/C115903868",
+          "wikidata": "https://www.wikidata.org/wiki/Q80993",
+          "display_name": "Software engineering",
+          "level": 1,
+          "score": 0.5732823014259338
+        },
+        {
+          "id": "https://openalex.org/C2984328558",
+          "wikidata": "https://www.wikidata.org/wiki/Q188522",
+          "display_name": "Software testing",
+          "level": 3,
+          "score": 0.5022437572479248
+        },
+        {
+          "id": "https://openalex.org/C2777904410",
+          "wikidata": "https://www.wikidata.org/wiki/Q7397",
+          "display_name": "Software",
+          "level": 2,
+          "score": 0.448382169008255
+        },
+        {
+          "id": "https://openalex.org/C199360897",
+          "wikidata": "https://www.wikidata.org/wiki/Q9143",
+          "display_name": "Programming language",
+          "level": 1,
+          "score": 0.15816405415534973
+        },
+        {
+          "id": "https://openalex.org/C71924100",
+          "wikidata": "https://www.wikidata.org/wiki/Q11190",
+          "display_name": "Medicine",
+          "level": 0,
+          "score": 0.1365855634212494
+        },
+        {
+          "id": "https://openalex.org/C126838900",
+          "wikidata": "https://www.wikidata.org/wiki/Q77604",
+          "display_name": "Radiology",
+          "level": 1,
+          "score": 0.06916603446006775
+        }
+      ],
+      "mesh": [],
+      "locations_count": 1,
+      "locations": [
+        {
+          "id": "doi:10.1145/3180155.3182555",
+          "doi": "https://doi.org/10.1145/3180155.3182555",
+          "is_oa": false,
+          "landing_page_url": "https://doi.org/10.1145/3180155.3182555",
+          "pdf_url": null,
+          "source": {
+            "id": "https://openalex.org/S4210203175",
+            "display_name": "ACM/IEEE International Conference on Software Engineering: Companion Proceedings (ICSE-Companion)",
+            "issn_l": "0270-5257",
+            "issn": [
+              "0270-5257",
+              "1558-1225"
+            ],
+            "is_oa": false,
+            "is_in_doaj": false,
+            "is_core": true,
+            "listed_in": [
+              "cwts-core",
+              "norway-2"
+            ],
+            "host_organization": "https://openalex.org/P4310319808",
+            "host_organization_name": "Institute of Electrical and Electronics Engineers",
+            "host_organization_lineage": [
+              "https://openalex.org/P4310319808"
+            ],
+            "host_organization_lineage_names": [
+              "Institute of Electrical and Electronics Engineers"
+            ],
+            "type": "conference"
+          },
+          "license": null,
+          "license_id": null,
+          "version": "publishedVersion",
+          "is_accepted": true,
+          "is_published": true,
+          "raw_source_name": "Proceedings of the 40th International Conference on Software Engineering",
+          "raw_type": "proceedings-article"
+        }
+      ],
+      "best_oa_location": null,
+      "sustainable_development_goals": [],
+      "study_designs": [],
+      "awards": [],
+      "funders": [
+        {
+          "id": "https://openalex.org/F4320321038",
+          "display_name": "Fonds National de la Recherche Luxembourg",
+          "ror": "https://ror.org/039z13y21"
+        },
+        {
+          "id": "https://openalex.org/F4320321390",
+          "display_name": "Fonds De La Recherche Scientifique - FNRS",
+          "ror": "https://ror.org/03q83t159"
+        }
+      ],
+      "has_content": {
+        "grobid_xml": false,
+        "pdf": false
+      },
+      "content_urls": null,
+      "referenced_works_count": 1,
+      "referenced_works": [
+        "https://openalex.org/W2768363122"
+      ],
+      "related_works": [
+        "https://openalex.org/W2768363122",
+        "https://openalex.org/W2169019702",
+        "https://openalex.org/W4386082319",
+        "https://openalex.org/W2767642134",
+        "https://openalex.org/W2087097337",
+        "https://openalex.org/W1873117474",
+        "https://openalex.org/W2625014120",
+        "https://openalex.org/W2100426735",
+        "https://openalex.org/W2396678227",
+        "https://openalex.org/W2573192904"
+      ],
+      "abstract_inverted_index": {
+        "What": [
+          0
+        ],
+        "is": [
+          1,
+          100,
+          212
+        ],
+        "the": [
+          2,
+          34,
+          49,
+          84,
+          98,
+          120,
+          125,
+          140,
+          168,
+          203
+        ],
+        "impact": [
+          3,
+          201
+        ],
+        "of": [
+          4,
+          86,
+          96,
+          200,
+          205
+        ],
+        "software": [
+          5,
+          27,
+          63
+        ],
+        "engineering": [
+          6,
+          28,
+          64
+        ],
+        "research": [
+          7,
+          29
+        ],
+        "on": [
+          8,
+          18,
+          116,
+          202,
+          209
+        ],
+        "current": [
+          9
+        ],
+        "practices": [
+          10
+        ],
+        "in": [
+          11,
+          26,
+          41,
+          53,
+          62,
+          76,
+          132,
+          139,
+          155,
+          187,
+          210,
+          231
+        ],
+        "industry?": [
+          12
+        ],
+        "In": [
+          13,
+          111,
+          143
+        ],
+        "this": [
+          14,
+          112,
+          118,
+          217,
+          226
+        ],
+        "paper,": [
+          15,
+          113
+        ],
+        "I": [
+          16,
+          51,
+          74,
+          106,
+          114,
+          145,
+          152,
+          165,
+          172,
+          207,
+          220
+        ],
+        "report": [
+          17,
+          115
+        ],
+        "my": [
+          19,
+          57,
+          77,
+          156,
+          222
+        ],
+        "direct": [
+          20
+        ],
+        "experience": [
+          21
+        ],
+        "as": [
+          22,
+          38,
+          103,
+          105,
+          160,
+          192
+        ],
+        "a": [
+          23,
+          60,
+          242
+        ],
+        "PhD/post-doc": [
+          24
+        ],
+        "working": [
+          25
+        ],
+        "projects,": [
+          30
+        ],
+        "and": [
+          31,
+          69,
+          82,
+          91,
+          122,
+          134,
+          162,
+          180,
+          195,
+          239
+        ],
+        "then": [
+          32,
+          213
+        ],
+        "spending": [
+          33
+        ],
+        "following": [
+          35
+        ],
+        "five": [
+          36
+        ],
+        "years": [
+          37
+        ],
+        "an": [
+          39
+        ],
+        "engineer": [
+          40
+        ],
+        "two": [
+          42
+        ],
+        "different": [
+          43
+        ],
+        "companies": [
+          44
+        ],
+        "(the": [
+          45
+        ],
+        "first": [
+          46,
+          147
+        ],
+        "one": [
+          47
+        ],
+        "being": [
+          48
+        ],
+        "same": [
+          50
+        ],
+        "worked": [
+          52,
+          208
+        ],
+        "collaboration": [
+          54
+        ],
+        "with": [
+          55
+        ],
+        "during": [
+          56
+        ],
+        "post-doc).": [
+          58
+        ],
+        "Given": [
+          59
+        ],
+        "background": [
+          61
+        ],
+        "research,": [
+          65
+        ],
+        "what": [
+          66,
+          149
+        ],
+        "cutting-edge": [
+          67
+        ],
+        "techniques": [
+          68
+        ],
+        "tools": [
+          70,
+          151
+        ],
+        "from": [
+          71,
+          216
+        ],
+        "academia": [
+          72,
+          188
+        ],
+        "did": [
+          73
+        ],
+        "use": [
+          75,
+          154
+        ],
+        "daily": [
+          78,
+          157
+        ],
+        "work": [
+          79
+        ],
+        "when": [
+          80
+        ],
+        "developing": [
+          81
+        ],
+        "testing": [
+          83
+        ],
+        "systems": [
+          85
+        ],
+        "these": [
+          87
+        ],
+        "companies?": [
+          88
+        ],
+        "Regarding": [
+          89
+        ],
+        "validation": [
+          90
+        ],
+        "verification": [
+          92
+        ],
+        "(my": [
+          93
+        ],
+        "main": [
+          94,
+          169
+        ],
+        "area": [
+          95
+        ],
+        "research),": [
+          97
+        ],
+        "answer": [
+          99
+        ],
+        "rather": [
+          101
+        ],
+        "short:": [
+          102
+        ],
+        "far": [
+          104
+        ],
+        "can": [
+          107,
+          228
+        ],
+        "tell,": [
+          108
+        ],
+        "only": [
+          109
+        ],
+        "FindBugs.": [
+          110
+        ],
+        "why": [
+          117
+        ],
+        "was": [
+          119
+        ],
+        "case,": [
+          121
+        ],
+        "discuss": [
+          123,
+          148,
+          167
+        ],
+        "all": [
+          124
+        ],
+        "challenging,": [
+          126
+        ],
+        "complex": [
+          127
+        ],
+        "open": [
+          128,
+          170
+        ],
+        "problems": [
+          129,
+          171
+        ],
+        "we": [
+          130
+        ],
+        "face": [
+          131
+        ],
+        "industry": [
+          133,
+          211
+        ],
+        "which": [
+          135
+        ],
+        "somehow": [
+          136
+        ],
+        "are": [
+          137,
+          189,
+          237
+        ],
+        "\"neglected\"": [
+          138
+        ],
+        "academic": [
+          141
+        ],
+        "circles.": [
+          142
+        ],
+        "particular,": [
+          144
+        ],
+        "will": [
+          146,
+          166
+        ],
+        "actual": [
+          150
+        ],
+        "could": [
+          153
+        ],
+        "work,": [
+          158
+        ],
+        "such": [
+          159,
+          191
+        ],
+        "JaCoCo": [
+          161
+        ],
+        "Selenium.": [
+          163
+        ],
+        "Then,": [
+          164
+        ],
+        "faced,": [
+          173
+        ],
+        "particularly": [
+          174
+        ],
+        "related": [
+          175,
+          233
+        ],
+        "to": [
+          176,
+          234
+        ],
+        "environment": [
+          177
+        ],
+        "simulators,": [
+          178
+        ],
+        "unit": [
+          179
+        ],
+        "web": [
+          181
+        ],
+        "testing.": [
+          182,
+          197
+        ],
+        "After": [
+          183
+        ],
+        "that,": [
+          184
+        ],
+        "popular": [
+          185
+        ],
+        "topics": [
+          186
+        ],
+        "presented,": [
+          190
+        ],
+        "UML,": [
+          193
+        ],
+        "regression": [
+          194
+        ],
+        "mutation": [
+          196
+        ],
+        "Their": [
+          198
+        ],
+        "lack": [
+          199
+        ],
+        "type": [
+          204
+        ],
+        "projects": [
+          206
+        ],
+        "discussed.": [
+          214
+        ],
+        "Finally,": [
+          215
+        ],
+        "industrial": [
+          218
+        ],
+        "experience,": [
+          219
+        ],
+        "provide": [
+          221
+        ],
+        "opinions": [
+          223
+        ],
+        "about": [
+          224
+        ],
+        "how": [
+          225,
+          235
+        ],
+        "situation": [
+          227
+        ],
+        "be": [
+          229
+        ],
+        "improved,": [
+          230
+        ],
+        "particular": [
+          232
+        ],
+        "academics": [
+          236
+        ],
+        "evaluated,": [
+          238
+        ],
+        "advocate": [
+          240
+        ],
+        "for": [
+          241
+        ],
+        "greater": [
+          243
+        ],
+        "involvement": [
+          244
+        ],
+        "into": [
+          245
+        ],
+        "open-source": [
+          246
+        ],
+        "projects.": [
+          247
+        ]
+      },
+      "counts_by_year": [
+        {
+          "year": 2022,
+          "cited_by_count": 1
+        },
+        {
+          "year": 2019,
+          "cited_by_count": 1
+        }
+      ],
+      "updated_date": "2026-11-12T12:28:57.059296",
+      "created_date": "2018-06-21T00:00:00"
+    },
+    {
+      "id": "https://openalex.org/W3216855080",
+      "doi": "https://doi.org/10.48550/arxiv.2111.12513",
+      "title": "FLACOCO: Fault Localization for Java based on Industry-grade Coverage",
+      "display_name": "FLACOCO: Fault Localization for Java based on Industry-grade Coverage",
+      "relevance_score": 7.034602,
+      "publication_year": 2021,
+      "publication_date": "2021-11-24",
+      "ids": {
+        "openalex": "https://openalex.org/W3216855080",
+        "doi": "https://doi.org/10.48550/arxiv.2111.12513",
+        "mag": "3216855080"
+      },
+      "language": "en",
+      "primary_location": {
+        "id": "pmh:oai:arXiv.org:2111.12513",
+        "doi": null,
+        "is_oa": true,
+        "landing_page_url": "http://arxiv.org/abs/2111.12513",
+        "pdf_url": "https://arxiv.org/pdf/2111.12513",
+        "source": {
+          "id": "https://openalex.org/S4306400194",
+          "display_name": "arXiv (Cornell University)",
+          "issn_l": "2331-8422",
+          "issn": [
+            "2331-8422"
+          ],
+          "is_oa": true,
+          "is_in_doaj": false,
+          "is_core": false,
+          "listed_in": [],
+          "host_organization": "https://openalex.org/I205783295",
+          "host_organization_name": "Cornell University",
+          "host_organization_lineage": [
+            "https://openalex.org/I205783295"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "submittedVersion",
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": null,
+        "raw_type": "text"
+      },
+      "parent_works": [],
+      "lineage": [
+        "https://openalex.org/W3216855080"
+      ],
+      "child_works_count": 0,
+      "type": "preprint",
+      "is_traditional": true,
+      "indexed_in": [
+        "arxiv",
+        "datacite"
+      ],
+      "open_access": {
+        "is_oa": true,
+        "oa_status": "green",
+        "oa_url": "https://arxiv.org/pdf/2111.12513",
+        "any_repository_has_fulltext": true
+      },
+      "authorships": [
+        {
+          "author_position": "first",
+          "author": {
+            "id": "https://openalex.org/A5046611476",
+            "display_name": "André Silva",
+            "orcid": "https://orcid.org/0000-0001-6667-4970",
+            "observed_orcids": [
+              "https://orcid.org/0000-0001-6667-4970"
+            ]
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I86987016",
+              "display_name": "KTH Royal Institute of Technology",
+              "ror": "https://ror.org/026vcq606",
+              "country_code": "SE",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I86987016"
+              ]
+            }
+          ],
+          "countries": [
+            "SE"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "Silva, André",
+          "raw_affiliation_strings": [
+            "KTH Royal Institute of Technology"
+          ],
+          "raw_orcid": null,
+          "affiliations": [
+            {
+              "raw_affiliation_string": "KTH Royal Institute of Technology",
+              "institution_ids": [
+                "https://openalex.org/I86987016"
+              ]
+            }
+          ]
+        },
+        {
+          "author_position": "middle",
+          "author": {
+            "id": "https://openalex.org/A5100762798",
+            "display_name": "Matías Martínez",
+            "orcid": "https://orcid.org/0000-0002-2945-866X",
+            "observed_orcids": [
+              "https://orcid.org/0000-0002-2945-866X"
+            ]
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I86987016",
+              "display_name": "KTH Royal Institute of Technology",
+              "ror": "https://ror.org/026vcq606",
+              "country_code": "SE",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I86987016"
+              ]
+            },
+            {
+              "id": "https://openalex.org/I9617848",
+              "display_name": "Universitat Politècnica de Catalunya",
+              "ror": "https://ror.org/03mb6wj31",
+              "country_code": "ES",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I9617848"
+              ]
+            }
+          ],
+          "countries": [
+            "ES",
+            "SE"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "Martinez, Matias",
+          "raw_affiliation_strings": [
+            "KTH Royal Institute of Technology",
+            "Universitat Politècnica de Catalunya -BarcelonaTech"
+          ],
+          "raw_orcid": null,
+          "affiliations": [
+            {
+              "raw_affiliation_string": "KTH Royal Institute of Technology",
+              "institution_ids": [
+                "https://openalex.org/I86987016"
+              ]
+            },
+            {
+              "raw_affiliation_string": "Universitat Politècnica de Catalunya -BarcelonaTech",
+              "institution_ids": [
+                "https://openalex.org/I9617848"
+              ]
+            }
+          ]
+        },
+        {
+          "author_position": "middle",
+          "author": {
+            "id": "https://openalex.org/A5081911423",
+            "display_name": "Benjamin Danglot",
+            "orcid": "https://orcid.org/0000-0001-9483-5743",
+            "observed_orcids": [
+              "https://orcid.org/0000-0001-9483-5743"
+            ]
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I66752286",
+              "display_name": "University of Milano-Bicocca",
+              "ror": "https://ror.org/01ynf4891",
+              "country_code": "IT",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I66752286"
+              ]
+            }
+          ],
+          "countries": [
+            "IT"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "Danglot, Benjamin",
+          "raw_affiliation_strings": [
+            "Finsit § University of Milano -Bicocca"
+          ],
+          "raw_orcid": null,
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Finsit § University of Milano -Bicocca",
+              "institution_ids": [
+                "https://openalex.org/I66752286"
+              ]
+            }
+          ]
+        },
+        {
+          "author_position": "middle",
+          "author": {
+            "id": "https://openalex.org/A5031106961",
+            "display_name": "Davide Ginelli",
+            "orcid": "https://orcid.org/0000-0003-1489-321X",
+            "observed_orcids": [
+              "https://orcid.org/0000-0003-1489-321X"
+            ]
+          },
+          "institutions": [],
+          "countries": [],
+          "is_corresponding": false,
+          "raw_author_name": "Ginelli, Davide",
+          "raw_affiliation_strings": [],
+          "raw_orcid": null,
+          "affiliations": []
+        },
+        {
+          "author_position": "last",
+          "author": {
+            "id": "https://openalex.org/A5027206285",
+            "display_name": "Martin Monperrus",
+            "orcid": "https://orcid.org/0000-0003-3505-3383",
+            "observed_orcids": [
+              "https://orcid.org/0000-0003-3505-3383"
+            ]
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I86987016",
+              "display_name": "KTH Royal Institute of Technology",
+              "ror": "https://ror.org/026vcq606",
+              "country_code": "SE",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I86987016"
+              ]
+            }
+          ],
+          "countries": [
+            "SE"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "Monperrus, Martin",
+          "raw_affiliation_strings": [
+            "KTH Royal Institute of Technology"
+          ],
+          "raw_orcid": null,
+          "affiliations": [
+            {
+              "raw_affiliation_string": "KTH Royal Institute of Technology",
+              "institution_ids": [
+                "https://openalex.org/I86987016"
+              ]
+            }
+          ]
+        }
+      ],
+      "institutions": [],
+      "countries_distinct_count": 3,
+      "institutions_distinct_count": 3,
+      "corresponding_author_ids": [],
+      "corresponding_institution_ids": [],
+      "apc_list": null,
+      "apc_paid": null,
+      "fwci": null,
+      "is_authors_truncated": false,
+      "has_fulltext": true,
+      "cited_by_count": 25,
+      "citation_normalized_percentile": null,
+      "cited_by_percentile_year": null,
+      "biblio": {
+        "volume": null,
+        "issue": null,
+        "first_page": null,
+        "last_page": null
+      },
+      "is_retracted": false,
+      "is_paratext": false,
+      "is_xpac": false,
+      "primary_topic": {
+        "id": "https://openalex.org/T10743",
+        "display_name": "Software Testing and Debugging Techniques",
+        "score": 1.0,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1712",
+          "display_name": "Software"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      "topics": [
+        {
+          "id": "https://openalex.org/T10743",
+          "display_name": "Software Testing and Debugging Techniques",
+          "score": 1.0,
+          "subfield": {
+            "id": "https://openalex.org/subfields/1712",
+            "display_name": "Software"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/17",
+            "display_name": "Computer Science"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T10260",
+          "display_name": "Software Engineering Research",
+          "score": 0.0,
+          "subfield": {
+            "id": "https://openalex.org/subfields/1710",
+            "display_name": "Information Systems"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/17",
+            "display_name": "Computer Science"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T12127",
+          "display_name": "Software System Performance and Reliability",
+          "score": 0.0,
+          "subfield": {
+            "id": "https://openalex.org/subfields/1705",
+            "display_name": "Computer Networks and Communications"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/17",
+            "display_name": "Computer Science"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        }
+      ],
+      "keywords": [
+        {
+          "id": "https://openalex.org/keywords/fault-localization",
+          "display_name": "fault location",
+          "score": 0.9440000057220459
+        },
+        {
+          "id": "https://openalex.org/keywords/spectrum-based-fault-localization",
+          "display_name": "spectrum-based fault localization",
+          "score": 0.9620000123977661
+        },
+        {
+          "id": "https://openalex.org/keywords/java",
+          "display_name": "Java",
+          "score": 0.8240000009536743
+        },
+        {
+          "id": "https://openalex.org/keywords/code-coverage",
+          "display_name": "code coverage",
+          "score": 0.9800000190734863
+        },
+        {
+          "id": "https://openalex.org/keywords/automated-program-repair",
+          "display_name": "automated program repair",
+          "score": 0.8650000095367432
+        },
+        {
+          "id": "https://openalex.org/keywords/debugging",
+          "display_name": "debugging",
+          "score": 0.6620000004768372
+        }
+      ],
+      "concepts": [
+        {
+          "id": "https://openalex.org/C548217200",
+          "wikidata": "https://www.wikidata.org/wiki/Q251",
+          "display_name": "Java",
+          "level": 2,
+          "score": 0.8786155581474304
+        },
+        {
+          "id": "https://openalex.org/C168065819",
+          "wikidata": "https://www.wikidata.org/wiki/Q845566",
+          "display_name": "Debugging",
+          "level": 2,
+          "score": 0.8338836431503296
+        },
+        {
+          "id": "https://openalex.org/C41008148",
+          "wikidata": "https://www.wikidata.org/wiki/Q21198",
+          "display_name": "Computer science",
+          "level": 0,
+          "score": 0.7638013362884521
+        },
+        {
+          "id": "https://openalex.org/C175551986",
+          "wikidata": "https://www.wikidata.org/wiki/Q47089",
+          "display_name": "Fault (geology)",
+          "level": 2,
+          "score": 0.6543381810188293
+        },
+        {
+          "id": "https://openalex.org/C2778738651",
+          "wikidata": "https://www.wikidata.org/wiki/Q16546687",
+          "display_name": "Novelty",
+          "level": 2,
+          "score": 0.6415089964866638
+        },
+        {
+          "id": "https://openalex.org/C2776760102",
+          "wikidata": "https://www.wikidata.org/wiki/Q5139990",
+          "display_name": "Code (set theory)",
+          "level": 3,
+          "score": 0.5657903552055359
+        },
+        {
+          "id": "https://openalex.org/C43126263",
+          "wikidata": "https://www.wikidata.org/wiki/Q128751",
+          "display_name": "Source code",
+          "level": 2,
+          "score": 0.4917590916156769
+        },
+        {
+          "id": "https://openalex.org/C36503486",
+          "wikidata": "https://www.wikidata.org/wiki/Q11235244",
+          "display_name": "Domain (mathematical analysis)",
+          "level": 2,
+          "score": 0.48508182168006897
+        },
+        {
+          "id": "https://openalex.org/C98045186",
+          "wikidata": "https://www.wikidata.org/wiki/Q205663",
+          "display_name": "Process (computing)",
+          "level": 2,
+          "score": 0.48447656631469727
+        },
+        {
+          "id": "https://openalex.org/C199360897",
+          "wikidata": "https://www.wikidata.org/wiki/Q9143",
+          "display_name": "Programming language",
+          "level": 1,
+          "score": 0.4311986565589905
+        },
+        {
+          "id": "https://openalex.org/C111919701",
+          "wikidata": "https://www.wikidata.org/wiki/Q9135",
+          "display_name": "Operating system",
+          "level": 1,
+          "score": 0.3562992513179779
+        },
+        {
+          "id": "https://openalex.org/C177264268",
+          "wikidata": "https://www.wikidata.org/wiki/Q1514741",
+          "display_name": "Set (abstract data type)",
+          "level": 2,
+          "score": 0.2781323194503784
+        },
+        {
+          "id": "https://openalex.org/C27206212",
+          "wikidata": "https://www.wikidata.org/wiki/Q34178",
+          "display_name": "Theology",
+          "level": 1,
+          "score": 0.0
+        },
+        {
+          "id": "https://openalex.org/C127313418",
+          "wikidata": "https://www.wikidata.org/wiki/Q1069",
+          "display_name": "Geology",
+          "level": 0,
+          "score": 0.0
+        },
+        {
+          "id": "https://openalex.org/C134306372",
+          "wikidata": "https://www.wikidata.org/wiki/Q7754",
+          "display_name": "Mathematical analysis",
+          "level": 1,
+          "score": 0.0
+        },
+        {
+          "id": "https://openalex.org/C165205528",
+          "wikidata": "https://www.wikidata.org/wiki/Q83371",
+          "display_name": "Seismology",
+          "level": 1,
+          "score": 0.0
+        },
+        {
+          "id": "https://openalex.org/C138885662",
+          "wikidata": "https://www.wikidata.org/wiki/Q5891",
+          "display_name": "Philosophy",
+          "level": 0,
+          "score": 0.0
+        },
+        {
+          "id": "https://openalex.org/C33923547",
+          "wikidata": "https://www.wikidata.org/wiki/Q395",
+          "display_name": "Mathematics",
+          "level": 0,
+          "score": 0.0
+        }
+      ],
+      "mesh": [],
+      "locations_count": 3,
+      "locations": [
+        {
+          "id": "pmh:oai:arXiv.org:2111.12513",
+          "doi": null,
+          "is_oa": true,
+          "landing_page_url": "http://arxiv.org/abs/2111.12513",
+          "pdf_url": "https://arxiv.org/pdf/2111.12513",
+          "source": {
+            "id": "https://openalex.org/S4306400194",
+            "display_name": "arXiv (Cornell University)",
+            "issn_l": "2331-8422",
+            "issn": [
+              "2331-8422"
+            ],
+            "is_oa": true,
+            "is_in_doaj": false,
+            "is_core": false,
+            "listed_in": [],
+            "host_organization": "https://openalex.org/I205783295",
+            "host_organization_name": "Cornell University",
+            "host_organization_lineage": [
+              "https://openalex.org/I205783295"
+            ],
+            "host_organization_lineage_names": [],
+            "type": "repository"
+          },
+          "license": null,
+          "license_id": null,
+          "version": "submittedVersion",
+          "is_accepted": false,
+          "is_published": false,
+          "raw_source_name": null,
+          "raw_type": "text"
+        },
+        {
+          "id": "mag:3216855080",
+          "doi": null,
+          "is_oa": true,
+          "landing_page_url": "https://arxiv.org/pdf/2111.12513",
+          "pdf_url": null,
+          "source": {
+            "id": "https://openalex.org/S4306400194",
+            "display_name": "arXiv (Cornell University)",
+            "issn_l": "2331-8422",
+            "issn": [
+              "2331-8422"
+            ],
+            "is_oa": true,
+            "is_in_doaj": false,
+            "is_core": false,
+            "listed_in": [],
+            "host_organization": "https://openalex.org/I205783295",
+            "host_organization_name": "Cornell University",
+            "host_organization_lineage": [
+              "https://openalex.org/I205783295"
+            ],
+            "host_organization_lineage_names": [],
+            "type": "repository"
+          },
+          "license": null,
+          "license_id": null,
+          "version": "submittedVersion",
+          "is_accepted": false,
+          "is_published": false,
+          "raw_source_name": "arXiv (Cornell University)",
+          "raw_type": null
+        },
+        {
+          "id": "doi:10.48550/arxiv.2111.12513",
+          "doi": "https://doi.org/10.48550/arxiv.2111.12513",
+          "is_oa": true,
+          "landing_page_url": "https://doi.org/10.48550/arxiv.2111.12513",
+          "pdf_url": null,
+          "source": {
+            "id": "https://openalex.org/S4306400194",
+            "display_name": "arXiv (Cornell University)",
+            "issn_l": "2331-8422",
+            "issn": [
+              "2331-8422"
+            ],
+            "is_oa": true,
+            "is_in_doaj": false,
+            "is_core": false,
+            "listed_in": [],
+            "host_organization": "https://openalex.org/I205783295",
+            "host_organization_name": "Cornell University",
+            "host_organization_lineage": [
+              "https://openalex.org/I205783295"
+            ],
+            "host_organization_lineage_names": [],
+            "type": "repository"
+          },
+          "license": "cc-by-sa",
+          "license_id": "https://openalex.org/licenses/cc-by-sa",
+          "version": null,
+          "is_accepted": false,
+          "is_published": false,
+          "raw_source_name": null,
+          "raw_type": "Preprint"
+        }
+      ],
+      "best_oa_location": {
+        "id": "pmh:oai:arXiv.org:2111.12513",
+        "doi": null,
+        "is_oa": true,
+        "landing_page_url": "http://arxiv.org/abs/2111.12513",
+        "pdf_url": "https://arxiv.org/pdf/2111.12513",
+        "source": {
+          "id": "https://openalex.org/S4306400194",
+          "display_name": "arXiv (Cornell University)",
+          "issn_l": "2331-8422",
+          "issn": [
+            "2331-8422"
+          ],
+          "is_oa": true,
+          "is_in_doaj": false,
+          "is_core": false,
+          "listed_in": [],
+          "host_organization": "https://openalex.org/I205783295",
+          "host_organization_name": "Cornell University",
+          "host_organization_lineage": [
+            "https://openalex.org/I205783295"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "submittedVersion",
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": null,
+        "raw_type": "text"
+      },
+      "sustainable_development_goals": [],
+      "study_designs": [],
+      "awards": [],
+      "funders": [],
+      "has_content": {
+        "grobid_xml": true,
+        "pdf": true
+      },
+      "content_urls": {
+        "pdf": "https://content.openalex.org/works/W3216855080.pdf",
+        "grobid_xml": "https://content.openalex.org/works/W3216855080.grobid-xml"
+      },
+      "referenced_works_count": 31,
+      "referenced_works": [
+        "https://openalex.org/W1950030762",
+        "https://openalex.org/W1962482270",
+        "https://openalex.org/W2045736506",
+        "https://openalex.org/W2092239677",
+        "https://openalex.org/W2098549348",
+        "https://openalex.org/W2109681145",
+        "https://openalex.org/W2128049346",
+        "https://openalex.org/W2128870743",
+        "https://openalex.org/W2156723666",
+        "https://openalex.org/W2172154252",
+        "https://openalex.org/W2343875716",
+        "https://openalex.org/W2344973853",
+        "https://openalex.org/W2400551002",
+        "https://openalex.org/W2465133314",
+        "https://openalex.org/W2765440848",
+        "https://openalex.org/W2806668801",
+        "https://openalex.org/W2808438073",
+        "https://openalex.org/W2950571912",
+        "https://openalex.org/W2958754741",
+        "https://openalex.org/W2962715466",
+        "https://openalex.org/W3000216919",
+        "https://openalex.org/W3104012431",
+        "https://openalex.org/W3129824023",
+        "https://openalex.org/W3160492491",
+        "https://openalex.org/W3195442242",
+        "https://openalex.org/W3197781994",
+        "https://openalex.org/W4210924384",
+        "https://openalex.org/W4225915603",
+        "https://openalex.org/W4284702776",
+        "https://openalex.org/W4294558964",
+        "https://openalex.org/W4400988838"
+      ],
+      "related_works": [
+        "https://openalex.org/W888613140",
+        "https://openalex.org/W7117369470",
+        "https://openalex.org/W2806668801",
+        "https://openalex.org/W2903179367",
+        "https://openalex.org/W2736091366",
+        "https://openalex.org/W2964803737",
+        "https://openalex.org/W2980518752",
+        "https://openalex.org/W2546562498",
+        "https://openalex.org/W2001005268",
+        "https://openalex.org/W7160084033"
+      ],
+      "abstract_inverted_index": {
+        "Fault": [
+          0,
+          11
+        ],
+        "localization": [
+          1,
+          18,
+          39,
+          125
+        ],
+        "is": [
+          2,
+          14,
+          48,
+          51,
+          70,
+          106,
+          142
+        ],
+        "an": [
+          3
+        ],
+        "essential": [
+          4
+        ],
+        "step": [
+          5
+        ],
+        "in": [
+          6,
+          123
+        ],
+        "the": [
+          7,
+          58,
+          93,
+          111
+        ],
+        "debugging": [
+          8
+        ],
+        "process.": [
+          9
+        ],
+        "Spectrum-Based": [
+          10
+        ],
+        "Localization": [
+          12
+        ],
+        "(SBFL)": [
+          13
+        ],
+        "a": [
+          15,
+          36,
+          74
+        ],
+        "popular": [
+          16
+        ],
+        "fault": [
+          17,
+          38,
+          124
+        ],
+        "family": [
+          19
+        ],
+        "of": [
+          20,
+          28,
+          46,
+          55,
+          57,
+          108
+        ],
+        "techniques,": [
+          21
+        ],
+        "utilizing": [
+          22
+        ],
+        "code-coverage": [
+          23
+        ],
+        "to": [
+          24,
+          132
+        ],
+        "predict": [
+          25
+        ],
+        "suspicious": [
+          26
+        ],
+        "lines": [
+          27
+        ],
+        "code.": [
+          29
+        ],
+        "In": [
+          30
+        ],
+        "this": [
+          31
+        ],
+        "paper,": [
+          32
+        ],
+        "we": [
+          33,
+          116
+        ],
+        "present": [
+          34
+        ],
+        "FLACOCO,": [
+          35
+        ],
+        "new": [
+          37
+        ],
+        "tool": [
+          40
+        ],
+        "for": [
+          41,
+          66
+        ],
+        "Java.": [
+          42
+        ],
+        "The": [
+          43
+        ],
+        "key": [
+          44
+        ],
+        "novelty": [
+          45
+        ],
+        "FLACOCO": [
+          47,
+          69,
+          88,
+          119
+        ],
+        "that": [
+          49,
+          118
+        ],
+        "it": [
+          50,
+          105
+        ],
+        "built": [
+          52
+        ],
+        "on": [
+          53,
+          89,
+          135
+        ],
+        "top": [
+          54
+        ],
+        "one": [
+          56
+        ],
+        "most": [
+          59,
+          62
+        ],
+        "used": [
+          60
+        ],
+        "and": [
+          61,
+          78,
+          81
+        ],
+        "reliable": [
+          63
+        ],
+        "coverage": [
+          64
+        ],
+        "libraries": [
+          65
+        ],
+        "Java,": [
+          67
+        ],
+        "JaCoCo.": [
+          68
+        ],
+        "made": [
+          71
+        ],
+        "available": [
+          72,
+          143
+        ],
+        "through": [
+          73
+        ],
+        "well-designed": [
+          75
+        ],
+        "command-line": [
+          76
+        ],
+        "interface": [
+          77
+        ],
+        "Java": [
+          79,
+          84
+        ],
+        "API": [
+          80
+        ],
+        "supports": [
+          82
+        ],
+        "all": [
+          83
+        ],
+        "versions.": [
+          85
+        ],
+        "We": [
+          86,
+          103
+        ],
+        "validate": [
+          87
+        ],
+        "two": [
+          90
+        ],
+        "use-cases": [
+          91
+        ],
+        "from": [
+          92
+        ],
+        "automatic": [
+          94
+        ],
+        "program": [
+          95
+        ],
+        "repair": [
+          96
+        ],
+        "domain": [
+          97
+        ],
+        "by": [
+          98
+        ],
+        "reproducing": [
+          99
+        ],
+        "previous": [
+          100
+        ],
+        "scientific": [
+          101
+        ],
+        "experiments.": [
+          102
+        ],
+        "find": [
+          104
+        ],
+        "capable": [
+          107
+        ],
+        "effectively": [
+          109
+        ],
+        "replacing": [
+          110
+        ],
+        "state-of-the-art": [
+          112
+        ],
+        "FL": [
+          113
+        ],
+        "library.": [
+          114
+        ],
+        "Overall,": [
+          115
+        ],
+        "hope": [
+          117
+        ],
+        "will": [
+          120
+        ],
+        "help": [
+          121
+        ],
+        "research": [
+          122
+        ],
+        "as": [
+          126,
+          128
+        ],
+        "well": [
+          127
+        ],
+        "industry": [
+          129
+        ],
+        "adoption": [
+          130
+        ],
+        "thanks": [
+          131
+        ],
+        "being": [
+          133
+        ],
+        "founded": [
+          134
+        ],
+        "industry-grade": [
+          136
+        ],
+        "code": [
+          137
+        ],
+        "coverage.": [
+          138
+        ],
+        "An": [
+          139
+        ],
+        "introductory": [
+          140
+        ],
+        "video": [
+          141
+        ],
+        "at": [
+          144
+        ],
+        "https://youtu.be/RFRyvQuwRYA": [
+          145
+        ]
+      },
+      "counts_by_year": [
+        {
+          "year": 2026,
+          "cited_by_count": 5
+        },
+        {
+          "year": 2025,
+          "cited_by_count": 7
+        },
+        {
+          "year": 2024,
+          "cited_by_count": 8
+        },
+        {
+          "year": 2023,
+          "cited_by_count": 2
+        },
+        {
+          "year": 2022,
+          "cited_by_count": 3
+        }
+      ],
+      "updated_date": "2026-11-13T13:42:25.865203",
+      "created_date": "2021-12-06T00:00:00"
+    }
+  ],
+  "group_by": []
+}

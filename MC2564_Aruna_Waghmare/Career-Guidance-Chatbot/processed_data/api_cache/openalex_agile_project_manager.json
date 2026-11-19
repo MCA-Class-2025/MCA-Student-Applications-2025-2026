@@ -1,0 +1,4476 @@
+{
+  "meta": {
+    "notice": "No API key, so this request shares one free daily budget ($0.10) with everyone on your network's IP address. Get a free key with its own $1/day at https://openalex.org/settings/api and add api_key=YOUR_KEY to your requests. An AI agent can get one for its user in one call: POST https://api.openalex.org/api-keys with {\"email\": \"<your user's email>\"}; we email them a link, and the key works once they click it. Docs for agents: https://help.openalex.org/llms.txt",
+    "count": 144269,
+    "db_response_time_ms": 290,
+    "page": 1,
+    "per_page": 5,
+    "groups_count": null,
+    "x_query": {
+      "oql": "get works with (AGILE PROJECT MANAGER) in the title, abstract, or full text",
+      "x_new_oql": "get works with (AGILE PROJECT MANAGER) in the title, abstract, or full text",
+      "oqo": {
+        "get_rows": "works",
+        "filter_rows": [
+          {
+            "column_id": "fulltext.search",
+            "value": "AGILE PROJECT MANAGER",
+            "operator": "has"
+          }
+        ]
+      },
+      "url": "/works?filter=fulltext.search:AGILE PROJECT MANAGER&per_page=5",
+      "order": "best matches first",
+      "order_default": true
+    },
+    "cost_usd": 0.001
+  },
+  "results": [
+    {
+      "id": "https://openalex.org/W2334586694",
+      "doi": "https://doi.org/10.1109/mysec.2014.6986020",
+      "title": "Agile project manager behavior: The taxonomy",
+      "display_name": "Agile project manager behavior: The taxonomy",
+      "relevance_score": 197.06943,
+      "publication_year": 2014,
+      "publication_date": "2014-09-01",
+      "ids": {
+        "openalex": "https://openalex.org/W2334586694",
+        "doi": "https://doi.org/10.1109/mysec.2014.6986020",
+        "mag": "2334586694"
+      },
+      "language": "en",
+      "primary_location": {
+        "id": "doi:10.1109/mysec.2014.6986020",
+        "doi": "https://doi.org/10.1109/mysec.2014.6986020",
+        "is_oa": false,
+        "landing_page_url": "https://doi.org/10.1109/mysec.2014.6986020",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S7407096585",
+          "display_name": "Malaysian Software Engineering Conference (MySEC)",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "listed_in": [],
+          "host_organization": "https://openalex.org/P4310319808",
+          "host_organization_name": "Institute of Electrical and Electronics Engineers",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310319808"
+          ],
+          "host_organization_lineage_names": [
+            "Institute of Electrical and Electronics Engineers"
+          ],
+          "type": "conference"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "2014 8th. Malaysian Software Engineering Conference (MySEC)",
+        "raw_type": "proceedings-article"
+      },
+      "parent_works": [],
+      "lineage": [
+        "https://openalex.org/W2334586694"
+      ],
+      "child_works_count": 0,
+      "type": "conference-paper",
+      "is_traditional": true,
+      "indexed_in": [
+        "crossref"
+      ],
+      "open_access": {
+        "is_oa": false,
+        "oa_status": "closed",
+        "oa_url": null,
+        "any_repository_has_fulltext": false
+      },
+      "authorships": [
+        {
+          "author_position": "first",
+          "author": {
+            "id": "https://openalex.org/A5060723899",
+            "display_name": "Kamalrufadillah Sutling",
+            "orcid": null,
+            "observed_orcids": []
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I188524465",
+              "display_name": "University of Selangor",
+              "ror": "https://ror.org/03j4n8s31",
+              "country_code": "MY",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I188524465"
+              ]
+            }
+          ],
+          "countries": [
+            "MY"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "Kamalrufadillah Sutling",
+          "raw_affiliation_strings": [
+            "Faculty of Computer Science and Information Technology, Universiti Selangor, Bestari Jaya, Selangor Darul Ehsan, MALAYSIA"
+          ],
+          "raw_orcid": null,
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Faculty of Computer Science and Information Technology, Universiti Selangor, Bestari Jaya, Selangor Darul Ehsan, MALAYSIA",
+              "institution_ids": [
+                "https://openalex.org/I188524465"
+              ]
+            }
+          ]
+        },
+        {
+          "author_position": "middle",
+          "author": {
+            "id": "https://openalex.org/A5051973071",
+            "display_name": "Zulkefli Mansor",
+            "orcid": "https://orcid.org/0000-0001-9375-8803",
+            "observed_orcids": [
+              "https://orcid.org/0000-0001-9375-8803"
+            ]
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I188524465",
+              "display_name": "University of Selangor",
+              "ror": "https://ror.org/03j4n8s31",
+              "country_code": "MY",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I188524465"
+              ]
+            }
+          ],
+          "countries": [
+            "MY"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "Zulkefli Mansor",
+          "raw_affiliation_strings": [
+            "Faculty of Computer Science and Information Technology, Universiti Selangor, Bestari Jaya, Selangor Darul Ehsan, MALAYSIA"
+          ],
+          "raw_orcid": null,
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Faculty of Computer Science and Information Technology, Universiti Selangor, Bestari Jaya, Selangor Darul Ehsan, MALAYSIA",
+              "institution_ids": [
+                "https://openalex.org/I188524465"
+              ]
+            }
+          ]
+        },
+        {
+          "author_position": "middle",
+          "author": {
+            "id": "https://openalex.org/A5044112884",
+            "display_name": "Setyawan Widyarto",
+            "orcid": "https://orcid.org/0000-0002-6317-9875",
+            "observed_orcids": [
+              "https://orcid.org/0000-0002-6317-9875"
+            ]
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I188524465",
+              "display_name": "University of Selangor",
+              "ror": "https://ror.org/03j4n8s31",
+              "country_code": "MY",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I188524465"
+              ]
+            }
+          ],
+          "countries": [
+            "MY"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "Setyawan Widyarto",
+          "raw_affiliation_strings": [
+            "Faculty of Computer Science and Information Technology, Universiti Selangor, Bestari Jaya, Selangor Darul Ehsan, MALAYSIA"
+          ],
+          "raw_orcid": null,
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Faculty of Computer Science and Information Technology, Universiti Selangor, Bestari Jaya, Selangor Darul Ehsan, MALAYSIA",
+              "institution_ids": [
+                "https://openalex.org/I188524465"
+              ]
+            }
+          ]
+        },
+        {
+          "author_position": "middle",
+          "author": {
+            "id": "https://openalex.org/A5073999917",
+            "display_name": "Sukumar Letchmunan",
+            "orcid": "https://orcid.org/0000-0002-3521-7141",
+            "observed_orcids": [
+              "https://orcid.org/0000-0002-3521-7141"
+            ]
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I139322472",
+              "display_name": "Universiti Sains Malaysia",
+              "ror": "https://ror.org/02rgb2k63",
+              "country_code": "MY",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I139322472"
+              ]
+            }
+          ],
+          "countries": [
+            "MY"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "Sukumar Letchmunan",
+          "raw_affiliation_strings": [
+            "School of Computer Sciences, Universiti Sains Malaysia, Minden, Pulau Pinang, MALAYSIA"
+          ],
+          "raw_orcid": null,
+          "affiliations": [
+            {
+              "raw_affiliation_string": "School of Computer Sciences, Universiti Sains Malaysia, Minden, Pulau Pinang, MALAYSIA",
+              "institution_ids": [
+                "https://openalex.org/I139322472"
+              ]
+            }
+          ]
+        },
+        {
+          "author_position": "last",
+          "author": {
+            "id": "https://openalex.org/A5003829905",
+            "display_name": "Noor Habibah Arshad",
+            "orcid": "https://orcid.org/0000-0002-3915-9153",
+            "observed_orcids": [
+              "https://orcid.org/0000-0002-3915-9153"
+            ]
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I4210138650",
+              "display_name": "Universiti Teknologi MARA System",
+              "ror": "https://ror.org/030847t23",
+              "country_code": "MY",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I4210138650",
+                "https://openalex.org/I82724352"
+              ]
+            },
+            {
+              "id": "https://openalex.org/I82724352",
+              "display_name": "Universiti Teknologi MARA",
+              "ror": "https://ror.org/05n8tts92",
+              "country_code": "MY",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I82724352"
+              ]
+            }
+          ],
+          "countries": [
+            "MY"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "Noor Habibah Arshad",
+          "raw_affiliation_strings": [
+            "Faculty of Computer and Mathematical Sciences, Universiti Teknologi MARA, Shah Alam, Selangor, MALAYSIA"
+          ],
+          "raw_orcid": null,
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Faculty of Computer and Mathematical Sciences, Universiti Teknologi MARA, Shah Alam, Selangor, MALAYSIA",
+              "institution_ids": [
+                "https://openalex.org/I4210138650",
+                "https://openalex.org/I82724352"
+              ]
+            }
+          ]
+        }
+      ],
+      "institutions": [],
+      "countries_distinct_count": 1,
+      "institutions_distinct_count": 4,
+      "corresponding_author_ids": [],
+      "corresponding_institution_ids": [],
+      "apc_list": null,
+      "apc_paid": null,
+      "fwci": 0.4675,
+      "is_authors_truncated": false,
+      "has_fulltext": false,
+      "cited_by_count": 16,
+      "citation_normalized_percentile": {
+        "value": 0.5145201,
+        "is_in_top_1_percent": false,
+        "is_in_top_10_percent": false
+      },
+      "cited_by_percentile_year": {
+        "min": 88,
+        "max": 97
+      },
+      "biblio": {
+        "volume": null,
+        "issue": null,
+        "first_page": "234",
+        "last_page": "239"
+      },
+      "is_retracted": false,
+      "is_paratext": false,
+      "is_xpac": false,
+      "primary_topic": {
+        "id": "https://openalex.org/T10430",
+        "display_name": "Software Engineering Techniques and Practices",
+        "score": 0.9990000128746033,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1710",
+          "display_name": "Information Systems"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      "topics": [
+        {
+          "id": "https://openalex.org/T10430",
+          "display_name": "Software Engineering Techniques and Practices",
+          "score": 0.9990000128746033,
+          "subfield": {
+            "id": "https://openalex.org/subfields/1710",
+            "display_name": "Information Systems"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/17",
+            "display_name": "Computer Science"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T10395",
+          "display_name": "Construction Project Management and Performance",
+          "score": 0.0005000000237487257,
+          "subfield": {
+            "id": "https://openalex.org/subfields/1803",
+            "display_name": "Management Science and Operations Research"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/18",
+            "display_name": "Decision Sciences"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/2",
+            "display_name": "Social Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T13149",
+          "display_name": "Organizational Change and Leadership",
+          "score": 9.999999747378752e-05,
+          "subfield": {
+            "id": "https://openalex.org/subfields/1407",
+            "display_name": "Organizational Behavior and Human Resource Management"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/14",
+            "display_name": "Business, Management and Accounting"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/2",
+            "display_name": "Social Sciences"
+          }
+        }
+      ],
+      "keywords": [
+        {
+          "id": "https://openalex.org/keywords/agile-project-management",
+          "display_name": "agile project management",
+          "score": 0.9620000123977661
+        },
+        {
+          "id": "https://openalex.org/keywords/software-projects",
+          "display_name": "software development projects",
+          "score": 0.8859999775886536
+        },
+        {
+          "id": "https://openalex.org/keywords/leadership",
+          "display_name": "leadership",
+          "score": 0.9480000138282776
+        },
+        {
+          "id": "https://openalex.org/keywords/openness",
+          "display_name": "openness",
+          "score": 0.7590000033378601
+        },
+        {
+          "id": "https://openalex.org/keywords/results-orientation",
+          "display_name": "results orientation",
+          "score": 0.9950000047683716
+        },
+        {
+          "id": "https://openalex.org/keywords/ethics",
+          "display_name": "ethics",
+          "score": 0.6660000085830688
+        },
+        {
+          "id": "https://openalex.org/keywords/communication",
+          "display_name": "communication",
+          "score": 0.9800000190734863
+        },
+        {
+          "id": "https://openalex.org/keywords/innovation",
+          "display_name": "innovation",
+          "score": 0.7310000061988831
+        },
+        {
+          "id": "https://openalex.org/keywords/strategic-thinking",
+          "display_name": "strategic thinking",
+          "score": 0.44699999690055847
+        }
+      ],
+      "concepts": [
+        {
+          "id": "https://openalex.org/C14185376",
+          "wikidata": "https://www.wikidata.org/wiki/Q30232",
+          "display_name": "Agile software development",
+          "level": 2,
+          "score": 0.783141016960144
+        },
+        {
+          "id": "https://openalex.org/C15952604",
+          "wikidata": "https://www.wikidata.org/wiki/Q179012",
+          "display_name": "Project management",
+          "level": 2,
+          "score": 0.6206193566322327
+        },
+        {
+          "id": "https://openalex.org/C195094911",
+          "wikidata": "https://www.wikidata.org/wiki/Q14167904",
+          "display_name": "Process management",
+          "level": 1,
+          "score": 0.5995908975601196
+        },
+        {
+          "id": "https://openalex.org/C36837802",
+          "wikidata": "https://www.wikidata.org/wiki/Q17011481",
+          "display_name": "Agile usability engineering",
+          "level": 5,
+          "score": 0.499739408493042
+        },
+        {
+          "id": "https://openalex.org/C2780612406",
+          "wikidata": "https://www.wikidata.org/wiki/Q816432",
+          "display_name": "Project manager",
+          "level": 3,
+          "score": 0.49760034680366516
+        },
+        {
+          "id": "https://openalex.org/C40919944",
+          "wikidata": "https://www.wikidata.org/wiki/Q947779",
+          "display_name": "Software project management",
+          "level": 5,
+          "score": 0.4866379201412201
+        },
+        {
+          "id": "https://openalex.org/C56739046",
+          "wikidata": "https://www.wikidata.org/wiki/Q192060",
+          "display_name": "Knowledge management",
+          "level": 1,
+          "score": 0.48626816272735596
+        },
+        {
+          "id": "https://openalex.org/C168074093",
+          "wikidata": "https://www.wikidata.org/wiki/Q2394609",
+          "display_name": "Project management triangle",
+          "level": 3,
+          "score": 0.4862562417984009
+        },
+        {
+          "id": "https://openalex.org/C87813535",
+          "wikidata": "https://www.wikidata.org/wiki/Q956418",
+          "display_name": "Agile Unified Process",
+          "level": 5,
+          "score": 0.47915998101234436
+        },
+        {
+          "id": "https://openalex.org/C41008148",
+          "wikidata": "https://www.wikidata.org/wiki/Q21198",
+          "display_name": "Computer science",
+          "level": 0,
+          "score": 0.4765073359012604
+        },
+        {
+          "id": "https://openalex.org/C187642187",
+          "wikidata": "https://www.wikidata.org/wiki/Q7249409",
+          "display_name": "Project management 2.0",
+          "level": 5,
+          "score": 0.4265226721763611
+        },
+        {
+          "id": "https://openalex.org/C199561411",
+          "wikidata": "https://www.wikidata.org/wiki/Q2665555",
+          "display_name": "Lean software development",
+          "level": 5,
+          "score": 0.42053940892219543
+        },
+        {
+          "id": "https://openalex.org/C110354214",
+          "wikidata": "https://www.wikidata.org/wiki/Q6314146",
+          "display_name": "Engineering management",
+          "level": 1,
+          "score": 0.39662811160087585
+        },
+        {
+          "id": "https://openalex.org/C180152950",
+          "wikidata": "https://www.wikidata.org/wiki/Q2904257",
+          "display_name": "Software development process",
+          "level": 4,
+          "score": 0.37842321395874023
+        },
+        {
+          "id": "https://openalex.org/C56691978",
+          "wikidata": "https://www.wikidata.org/wiki/Q1545010",
+          "display_name": "OPM3",
+          "level": 4,
+          "score": 0.3758317530155182
+        },
+        {
+          "id": "https://openalex.org/C529173508",
+          "wikidata": "https://www.wikidata.org/wiki/Q638608",
+          "display_name": "Software development",
+          "level": 3,
+          "score": 0.3682647943496704
+        },
+        {
+          "id": "https://openalex.org/C127413603",
+          "wikidata": "https://www.wikidata.org/wiki/Q11023",
+          "display_name": "Engineering",
+          "level": 0,
+          "score": 0.318107545375824
+        },
+        {
+          "id": "https://openalex.org/C2777904410",
+          "wikidata": "https://www.wikidata.org/wiki/Q7397",
+          "display_name": "Software",
+          "level": 2,
+          "score": 0.26015883684158325
+        },
+        {
+          "id": "https://openalex.org/C201995342",
+          "wikidata": "https://www.wikidata.org/wiki/Q682496",
+          "display_name": "Systems engineering",
+          "level": 1,
+          "score": 0.25694435834884644
+        },
+        {
+          "id": "https://openalex.org/C115903868",
+          "wikidata": "https://www.wikidata.org/wiki/Q80993",
+          "display_name": "Software engineering",
+          "level": 1,
+          "score": 0.21433979272842407
+        },
+        {
+          "id": "https://openalex.org/C199360897",
+          "wikidata": "https://www.wikidata.org/wiki/Q9143",
+          "display_name": "Programming language",
+          "level": 1,
+          "score": 0.0
+        },
+        {
+          "id": "https://openalex.org/C186846655",
+          "wikidata": "https://www.wikidata.org/wiki/Q3398377",
+          "display_name": "Software construction",
+          "level": 4,
+          "score": 0.0
+        }
+      ],
+      "mesh": [],
+      "locations_count": 1,
+      "locations": [
+        {
+          "id": "doi:10.1109/mysec.2014.6986020",
+          "doi": "https://doi.org/10.1109/mysec.2014.6986020",
+          "is_oa": false,
+          "landing_page_url": "https://doi.org/10.1109/mysec.2014.6986020",
+          "pdf_url": null,
+          "source": {
+            "id": "https://openalex.org/S7407096585",
+            "display_name": "Malaysian Software Engineering Conference (MySEC)",
+            "issn_l": null,
+            "issn": null,
+            "is_oa": false,
+            "is_in_doaj": false,
+            "is_core": false,
+            "listed_in": [],
+            "host_organization": "https://openalex.org/P4310319808",
+            "host_organization_name": "Institute of Electrical and Electronics Engineers",
+            "host_organization_lineage": [
+              "https://openalex.org/P4310319808"
+            ],
+            "host_organization_lineage_names": [
+              "Institute of Electrical and Electronics Engineers"
+            ],
+            "type": "conference"
+          },
+          "license": null,
+          "license_id": null,
+          "version": "publishedVersion",
+          "is_accepted": true,
+          "is_published": true,
+          "raw_source_name": "2014 8th. Malaysian Software Engineering Conference (MySEC)",
+          "raw_type": "proceedings-article"
+        }
+      ],
+      "best_oa_location": null,
+      "sustainable_development_goals": [],
+      "study_designs": [],
+      "awards": [],
+      "funders": [],
+      "has_content": {
+        "pdf": false,
+        "grobid_xml": false
+      },
+      "content_urls": null,
+      "referenced_works_count": 28,
+      "referenced_works": [
+        "https://openalex.org/W53307874",
+        "https://openalex.org/W285857824",
+        "https://openalex.org/W1481895559",
+        "https://openalex.org/W1557635631",
+        "https://openalex.org/W1957520719",
+        "https://openalex.org/W1967484516",
+        "https://openalex.org/W1995045452",
+        "https://openalex.org/W2007148299",
+        "https://openalex.org/W2011184726",
+        "https://openalex.org/W2018944916",
+        "https://openalex.org/W2025415731",
+        "https://openalex.org/W2037493585",
+        "https://openalex.org/W2041106209",
+        "https://openalex.org/W2044366151",
+        "https://openalex.org/W2062616630",
+        "https://openalex.org/W2064822941",
+        "https://openalex.org/W2090607699",
+        "https://openalex.org/W2090904077",
+        "https://openalex.org/W2104003693",
+        "https://openalex.org/W2113536677",
+        "https://openalex.org/W2124536290",
+        "https://openalex.org/W2171738512",
+        "https://openalex.org/W2241961392",
+        "https://openalex.org/W2464125810",
+        "https://openalex.org/W2490324814",
+        "https://openalex.org/W2577413333",
+        "https://openalex.org/W2989083979",
+        "https://openalex.org/W6652162746"
+      ],
+      "related_works": [
+        "https://openalex.org/W765052094",
+        "https://openalex.org/W3108239695",
+        "https://openalex.org/W2305785499",
+        "https://openalex.org/W4310608412",
+        "https://openalex.org/W2298440307",
+        "https://openalex.org/W1557480015",
+        "https://openalex.org/W2956159595",
+        "https://openalex.org/W3037722589",
+        "https://openalex.org/W2486115648"
+      ],
+      "abstract_inverted_index": {
+        "The": [
+          0
+        ],
+        "past": [
+          1
+        ],
+        "few": [
+          2
+        ],
+        "years": [
+          3
+        ],
+        "have": [
+          4
+        ],
+        "witnessed": [
+          5
+        ],
+        "dynamic": [
+          6
+        ],
+        "changes": [
+          7
+        ],
+        "in": [
+          8,
+          113,
+          127
+        ],
+        "the": [
+          9,
+          19,
+          31,
+          54,
+          62,
+          82,
+          94,
+          97,
+          106,
+          115,
+          122,
+          132,
+          160,
+          186,
+          193,
+          209,
+          232
+        ],
+        "field": [
+          10
+        ],
+        "of": [
+          11,
+          18,
+          21,
+          33,
+          37,
+          45,
+          64,
+          96,
+          121,
+          131,
+          192,
+          217,
+          235
+        ],
+        "software": [
+          12,
+          166,
+          236
+        ],
+        "project": [
+          13,
+          41,
+          55,
+          99,
+          109,
+          134,
+          195
+        ],
+        "management.": [
+          14
+        ],
+        "These": [
+          15,
+          169
+        ],
+        "provided": [
+          16
+        ],
+        "evidence": [
+          17
+        ],
+        "strength": [
+          20
+        ],
+        "agile": [
+          22,
+          79,
+          98,
+          112,
+          133,
+          146,
+          194
+        ],
+        "methodologies": [
+          23
+        ],
+        "as": [
+          24,
+          57,
+          137,
+          203
+        ],
+        "a": [
+          25,
+          40,
+          43,
+          65,
+          119,
+          204
+        ],
+        "strategy": [
+          26
+        ],
+        "that": [
+          27,
+          151,
+          159,
+          207,
+          214
+        ],
+        "can": [
+          28,
+          199
+        ],
+        "speed": [
+          29
+        ],
+        "up": [
+          30
+        ],
+        "development": [
+          32,
+          83,
+          116,
+          148,
+          167,
+          237
+        ],
+        "rhythms": [
+          34
+        ],
+        "and": [
+          35,
+          47,
+          178,
+          180,
+          228
+        ],
+        "growth": [
+          36
+        ],
+        "innovation.": [
+          38
+        ],
+        "Managing": [
+          39
+        ],
+        "involves": [
+          42
+        ],
+        "complexity": [
+          44
+        ],
+        "requirements": [
+          46
+        ],
+        "developmental": [
+          48
+        ],
+        "processes.": [
+          49
+        ],
+        "This": [
+          50,
+          101,
+          182,
+          220
+        ],
+        "provides": [
+          51
+        ],
+        "challenges": [
+          52
+        ],
+        "to": [
+          53,
+          73,
+          92,
+          104,
+          143,
+          163,
+          185,
+          211,
+          223
+        ],
+        "manager": [
+          56,
+          161,
+          210
+        ],
+        "he": [
+          58,
+          70
+        ],
+        "is": [
+          59,
+          71,
+          88,
+          139,
+          221
+        ],
+        "accountable": [
+          60
+        ],
+        "for": [
+          61,
+          141
+        ],
+        "failure": [
+          63
+        ],
+        "completed": [
+          66
+        ],
+        "project.": [
+          67
+        ],
+        "As": [
+          68
+        ],
+        "such": [
+          69
+        ],
+        "required": [
+          72
+        ],
+        "tackle": [
+          74
+        ],
+        "any": [
+          75
+        ],
+        "problems": [
+          76
+        ],
+        "by": [
+          77,
+          189
+        ],
+        "adopting": [
+          78
+        ],
+        "methodology": [
+          80
+        ],
+        "during": [
+          81,
+          165
+        ],
+        "process.": [
+          84,
+          168
+        ],
+        "In": [
+          85
+        ],
+        "Malaysia": [
+          86
+        ],
+        "there": [
+          87
+        ],
+        "little": [
+          89
+        ],
+        "research": [
+          90
+        ],
+        "done": [
+          91
+        ],
+        "examine": [
+          93
+        ],
+        "behavior": [
+          95,
+          107,
+          136,
+          213
+        ],
+        "manager.": [
+          100
+        ],
+        "study": [
+          102
+        ],
+        "aims": [
+          103
+        ],
+        "analyze": [
+          105
+        ],
+        "when": [
+          108
+        ],
+        "managers": [
+          110
+        ],
+        "adopt": [
+          111,
+          164
+        ],
+        "managing": [
+          114
+        ],
+        "projects.": [
+          117,
+          149,
+          219,
+          238
+        ],
+        "Moreover,": [
+          118
+        ],
+        "review": [
+          120
+        ],
+        "relevant": [
+          123,
+          187
+        ],
+        "literature": [
+          124
+        ],
+        "has": [
+          125,
+          155
+        ],
+        "helped": [
+          126
+        ],
+        "developing": [
+          128,
+          190
+        ],
+        "an": [
+          129,
+          225
+        ],
+        "understanding": [
+          130
+        ],
+        "manager's": [
+          135,
+          196
+        ],
+        "this": [
+          138,
+          153,
+          201
+        ],
+        "necessary": [
+          140
+        ],
+        "them": [
+          142
+        ],
+        "become": [
+          144
+        ],
+        "more": [
+          145
+        ],
+        "inside": [
+          147
+        ],
+        "For": [
+          150
+        ],
+        "reason,": [
+          152
+        ],
+        "paper": [
+          154,
+          183
+        ],
+        "identified": [
+          156
+        ],
+        "seven": [
+          157
+        ],
+        "behaviors": [
+          158
+        ],
+        "needs": [
+          162
+        ],
+        "include": [
+          170
+        ],
+        "Leadership,": [
+          171
+        ],
+        "Openness,": [
+          172
+        ],
+        "Results": [
+          173
+        ],
+        "Orientation,": [
+          174
+        ],
+        "Ethics,": [
+          175
+        ],
+        "Communication,": [
+          176
+        ],
+        "Strategic": [
+          177
+        ],
+        "Creative": [
+          179
+        ],
+        "Innovative.": [
+          181
+        ],
+        "contributes": [
+          184
+        ],
+        "theory": [
+          188
+        ],
+        "taxonomy": [
+          191,
+          202
+        ],
+        "behavior.": [
+          197
+        ],
+        "Practitioners": [
+          198
+        ],
+        "use": [
+          200
+        ],
+        "sensitizing": [
+          205
+        ],
+        "device": [
+          206
+        ],
+        "helps": [
+          208
+        ],
+        "consider": [
+          212
+        ],
+        "promotes": [
+          215
+        ],
+        "success": [
+          216
+        ],
+        "their": [
+          218
+        ],
+        "important": [
+          222
+        ],
+        "ensure": [
+          224
+        ],
+        "increase": [
+          226
+        ],
+        "productivity": [
+          227
+        ],
+        "profitability,": [
+          229
+        ],
+        "which": [
+          230
+        ],
+        "are": [
+          231
+        ],
+        "business": [
+          233
+        ],
+        "strategies": [
+          234
+        ]
+      },
+      "counts_by_year": [
+        {
+          "year": 2026,
+          "cited_by_count": 1
+        },
+        {
+          "year": 2025,
+          "cited_by_count": 1
+        },
+        {
+          "year": 2024,
+          "cited_by_count": 1
+        },
+        {
+          "year": 2023,
+          "cited_by_count": 1
+        },
+        {
+          "year": 2022,
+          "cited_by_count": 1
+        },
+        {
+          "year": 2021,
+          "cited_by_count": 4
+        },
+        {
+          "year": 2020,
+          "cited_by_count": 3
+        },
+        {
+          "year": 2019,
+          "cited_by_count": 2
+        },
+        {
+          "year": 2017,
+          "cited_by_count": 2
+        }
+      ],
+      "updated_date": "2026-11-14T11:04:58.165337",
+      "created_date": "2016-06-24T00:00:00"
+    },
+    {
+      "id": "https://openalex.org/W4238938739",
+      "doi": "https://doi.org/10.1201/9781315166087-15",
+      "title": "The Lean and Agile Project Manager",
+      "display_name": "The Lean and Agile Project Manager",
+      "relevance_score": 189.92542,
+      "publication_year": 2017,
+      "publication_date": "2017-02-03",
+      "ids": {
+        "openalex": "https://openalex.org/W4238938739",
+        "doi": "https://doi.org/10.1201/9781315166087-15"
+      },
+      "language": "en",
+      "primary_location": {
+        "id": "doi:10.1201/9781315166087-15",
+        "doi": "https://doi.org/10.1201/9781315166087-15",
+        "is_oa": false,
+        "landing_page_url": "https://doi.org/10.1201/9781315166087-15",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4306463806",
+          "display_name": "Productivity Press eBooks",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "listed_in": [],
+          "host_organization": null,
+          "host_organization_name": null,
+          "host_organization_lineage": [],
+          "host_organization_lineage_names": [],
+          "type": "ebook platform"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Lean and Agile Project Management",
+        "raw_type": "book-chapter"
+      },
+      "parent_works": [
+        {
+          "id": "https://openalex.org/W4245174805",
+          "display_name": "Lean and Agile Project Management: How to Make Any Project Better, Faster, and More Cost Effective",
+          "relationship": "volume"
+        }
+      ],
+      "lineage": [
+        "https://openalex.org/W4238938739",
+        "https://openalex.org/W4245174805"
+      ],
+      "child_works_count": 0,
+      "type": "book-chapter",
+      "is_traditional": true,
+      "indexed_in": [
+        "crossref"
+      ],
+      "open_access": {
+        "is_oa": false,
+        "oa_status": "closed",
+        "oa_url": null,
+        "any_repository_has_fulltext": false
+      },
+      "authorships": [
+        {
+          "author_position": "first",
+          "author": {
+            "id": null,
+            "display_name": "Terra Vanzant Stern",
+            "orcid": null,
+            "observed_orcids": []
+          },
+          "institutions": [],
+          "countries": [],
+          "is_corresponding": true,
+          "raw_author_name": "Terra Vanzant Stern",
+          "raw_affiliation_strings": [],
+          "raw_orcid": null,
+          "affiliations": []
+        }
+      ],
+      "institutions": [],
+      "countries_distinct_count": 0,
+      "institutions_distinct_count": 0,
+      "corresponding_author_ids": [],
+      "corresponding_institution_ids": [],
+      "apc_list": null,
+      "apc_paid": null,
+      "fwci": 0.0,
+      "is_authors_truncated": false,
+      "has_fulltext": false,
+      "cited_by_count": 0,
+      "citation_normalized_percentile": {
+        "value": 0.0,
+        "is_in_top_1_percent": false,
+        "is_in_top_10_percent": false
+      },
+      "cited_by_percentile_year": null,
+      "biblio": {
+        "volume": null,
+        "issue": null,
+        "first_page": "211",
+        "last_page": "220"
+      },
+      "is_retracted": false,
+      "is_paratext": false,
+      "is_xpac": false,
+      "primary_topic": {
+        "id": "https://openalex.org/T10395",
+        "display_name": "Construction Project Management and Performance",
+        "score": 0.3312999904155731,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1803",
+          "display_name": "Management Science and Operations Research"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/18",
+          "display_name": "Decision Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      "topics": [
+        {
+          "id": "https://openalex.org/T10395",
+          "display_name": "Construction Project Management and Performance",
+          "score": 0.3312999904155731,
+          "subfield": {
+            "id": "https://openalex.org/subfields/1803",
+            "display_name": "Management Science and Operations Research"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/18",
+            "display_name": "Decision Sciences"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/2",
+            "display_name": "Social Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T10164",
+          "display_name": "Quality and Supply Management",
+          "score": 0.266400009393692,
+          "subfield": {
+            "id": "https://openalex.org/subfields/1404",
+            "display_name": "Management Information Systems"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/14",
+            "display_name": "Business, Management and Accounting"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/2",
+            "display_name": "Social Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T13149",
+          "display_name": "Organizational Change and Leadership",
+          "score": 0.12300000339746475,
+          "subfield": {
+            "id": "https://openalex.org/subfields/1407",
+            "display_name": "Organizational Behavior and Human Resource Management"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/14",
+            "display_name": "Business, Management and Accounting"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/2",
+            "display_name": "Social Sciences"
+          }
+        }
+      ],
+      "keywords": [
+        {
+          "id": "https://openalex.org/keywords/lean-project-management",
+          "display_name": "lean project management",
+          "score": 0.8550000190734863
+        },
+        {
+          "id": "https://openalex.org/keywords/agile-project-management",
+          "display_name": "agile project management",
+          "score": 0.9980000257492065
+        },
+        {
+          "id": "https://openalex.org/keywords/w-edwards-deming",
+          "display_name": "W. Edwards Deming",
+          "score": 0.9559999704360962
+        },
+        {
+          "id": "https://openalex.org/keywords/quality-movement",
+          "display_name": "quality movement",
+          "score": 0.5170000195503235
+        },
+        {
+          "id": "https://openalex.org/keywords/process-improvement",
+          "display_name": "process improvement",
+          "score": 0.9509999752044678
+        },
+        {
+          "id": "https://openalex.org/keywords/leadership-skills",
+          "display_name": "leadership skills",
+          "score": 0.7459999918937683
+        },
+        {
+          "id": "https://openalex.org/keywords/managerial-competencies",
+          "display_name": "managerial competencies",
+          "score": 0.7979999780654907
+        },
+        {
+          "id": "https://openalex.org/keywords/epistemology",
+          "display_name": "epistemology",
+          "score": 0.8259999752044678
+        },
+        {
+          "id": "https://openalex.org/keywords/management-psychology",
+          "display_name": "management psychology",
+          "score": 0.46700000762939453
+        }
+      ],
+      "concepts": [
+        {
+          "id": "https://openalex.org/C14185376",
+          "wikidata": "https://www.wikidata.org/wiki/Q30232",
+          "display_name": "Agile software development",
+          "level": 2,
+          "score": 0.7320421934127808
+        },
+        {
+          "id": "https://openalex.org/C144133560",
+          "wikidata": "https://www.wikidata.org/wiki/Q4830453",
+          "display_name": "Business",
+          "level": 0,
+          "score": 0.47767549753189087
+        },
+        {
+          "id": "https://openalex.org/C195094911",
+          "wikidata": "https://www.wikidata.org/wiki/Q14167904",
+          "display_name": "Process management",
+          "level": 1,
+          "score": 0.3992357850074768
+        },
+        {
+          "id": "https://openalex.org/C41008148",
+          "wikidata": "https://www.wikidata.org/wiki/Q21198",
+          "display_name": "Computer science",
+          "level": 0,
+          "score": 0.3135135769844055
+        },
+        {
+          "id": "https://openalex.org/C115903868",
+          "wikidata": "https://www.wikidata.org/wiki/Q80993",
+          "display_name": "Software engineering",
+          "level": 1,
+          "score": 0.15212205052375793
+        }
+      ],
+      "mesh": [],
+      "locations_count": 1,
+      "locations": [
+        {
+          "id": "doi:10.1201/9781315166087-15",
+          "doi": "https://doi.org/10.1201/9781315166087-15",
+          "is_oa": false,
+          "landing_page_url": "https://doi.org/10.1201/9781315166087-15",
+          "pdf_url": null,
+          "source": {
+            "id": "https://openalex.org/S4306463806",
+            "display_name": "Productivity Press eBooks",
+            "issn_l": null,
+            "issn": null,
+            "is_oa": false,
+            "is_in_doaj": false,
+            "is_core": false,
+            "listed_in": [],
+            "host_organization": null,
+            "host_organization_name": null,
+            "host_organization_lineage": [],
+            "host_organization_lineage_names": [],
+            "type": "ebook platform"
+          },
+          "license": null,
+          "license_id": null,
+          "version": "publishedVersion",
+          "is_accepted": true,
+          "is_published": true,
+          "raw_source_name": "Lean and Agile Project Management",
+          "raw_type": "book-chapter"
+        }
+      ],
+      "best_oa_location": null,
+      "sustainable_development_goals": [],
+      "study_designs": [],
+      "awards": [],
+      "funders": [],
+      "has_content": {
+        "pdf": false,
+        "grobid_xml": false
+      },
+      "content_urls": null,
+      "referenced_works_count": 0,
+      "referenced_works": [],
+      "related_works": [
+        "https://openalex.org/W3023044528",
+        "https://openalex.org/W2495060336",
+        "https://openalex.org/W2010291034",
+        "https://openalex.org/W1974066956",
+        "https://openalex.org/W2783671074",
+        "https://openalex.org/W3043208451",
+        "https://openalex.org/W2009400385",
+        "https://openalex.org/W2472058035",
+        "https://openalex.org/W4253897515",
+        "https://openalex.org/W3201207380"
+      ],
+      "abstract_inverted_index": {
+        "The": [
+          0
+        ],
+        "Lean": [
+          1,
+          89,
+          112,
+          137
+        ],
+        "and": [
+          2,
+          27,
+          36,
+          42,
+          69,
+          80,
+          90,
+          113,
+          138
+        ],
+        "agile": [
+          3,
+          91,
+          114,
+          139
+        ],
+        "project": [
+          4,
+          43,
+          122
+        ],
+        "manager": [
+          5
+        ],
+        "(PM)": [
+          6
+        ],
+        "will": [
+          7,
+          84,
+          101,
+          128
+        ],
+        "benefit": [
+          8
+        ],
+        "from": [
+          9
+        ],
+        "becoming": [
+          10
+        ],
+        "familiar": [
+          11
+        ],
+        "with": [
+          12
+        ],
+        "the": [
+          13,
+          24,
+          50,
+          61,
+          74,
+          78,
+          88,
+          104,
+          111,
+          133
+        ],
+        "work": [
+          14
+        ],
+        "of": [
+          15,
+          34,
+          60,
+          64,
+          67,
+          71,
+          77
+        ],
+        "W.": [
+          16
+        ],
+        "Edwards": [
+          17
+        ],
+        "Deming.": [
+          18
+        ],
+        "Deming": [
+          19
+        ],
+        "was": [
+          20
+        ],
+        "a": [
+          21,
+          32,
+          54,
+          121
+        ],
+        "pioneer": [
+          22
+        ],
+        "in": [
+          23,
+          120
+        ],
+        "quality": [
+          25
+        ],
+        "movement": [
+          26
+        ],
+        "is": [
+          28,
+          93
+        ],
+        "well": [
+          29
+        ],
+        "known": [
+          30
+        ],
+        "for": [
+          31
+        ],
+        "number": [
+          33
+        ],
+        "works": [
+          35
+        ],
+        "theories": [
+          37
+        ],
+        "related": [
+          38
+        ],
+        "to": [
+          39,
+          56,
+          87,
+          103,
+          118,
+          131
+        ],
+        "process": [
+          40
+        ],
+        "improvement": [
+          41
+        ],
+        "management": [
+          44,
+          123,
+          146
+        ],
+        "concepts.": [
+          45
+        ],
+        "This": [
+          46
+        ],
+        "theory": [
+          47,
+          66
+        ],
+        "states": [
+          48
+        ],
+        "that": [
+          49
+        ],
+        "following": [
+          51
+        ],
+        "things": [
+          52
+        ],
+        "are": [
+          53,
+          116
+        ],
+        "key": [
+          55
+        ],
+        "good": [
+          57
+        ],
+        "management:": [
+          58
+        ],
+        "appreciation": [
+          59
+        ],
+        "system,": [
+          62
+        ],
+        "knowledge": [
+          63
+        ],
+        "variation,": [
+          65
+        ],
+        "knowledge,": [
+          68
+        ],
+        "understanding": [
+          70,
+          98
+        ],
+        "psychology.": [
+          72
+        ],
+        "Assessing": [
+          73
+        ],
+        "leadership": [
+          75,
+          126,
+          144
+        ],
+        "model": [
+          76
+        ],
+        "company": [
+          79
+        ],
+        "how": [
+          81,
+          99
+        ],
+        "much": [
+          82
+        ],
+        "authority": [
+          83
+        ],
+        "be": [
+          85,
+          129
+        ],
+        "given": [
+          86
+        ],
+        "PM": [
+          92,
+          115
+        ],
+        "just": [
+          94
+        ],
+        "as": [
+          95,
+          97
+        ],
+        "important": [
+          96
+        ],
+        "employees": [
+          100
+        ],
+        "react": [
+          102
+        ],
+        "new": [
+          105
+        ],
+        "leader": [
+          106
+        ],
+        "or": [
+          107
+        ],
+        "manager.": [
+          108
+        ],
+        "Even": [
+          109
+        ],
+        "when": [
+          110
+        ],
+        "expected": [
+          117
+        ],
+        "perform": [
+          119
+        ],
+        "role,": [
+          124
+        ],
+        "some": [
+          125
+        ],
+        "skills": [
+          127
+        ],
+        "necessary": [
+          130
+        ],
+        "move": [
+          132
+        ],
+        "team": [
+          134
+        ],
+        "forward.": [
+          135
+        ],
+        "Some": [
+          136
+        ],
+        "PMs": [
+          140
+        ],
+        "come": [
+          141
+        ],
+        "by": [
+          142
+        ],
+        "both": [
+          143
+        ],
+        "and/or": [
+          145
+        ],
+        "competencies": [
+          147
+        ],
+        "naturally.": [
+          148
+        ]
+      },
+      "counts_by_year": [],
+      "updated_date": "2026-11-14T11:04:58.165337",
+      "created_date": "2022-05-12T00:00:00"
+    },
+    {
+      "id": "https://openalex.org/W3211501219",
+      "doi": "https://doi.org/10.12816/0056351",
+      "title": "Framework for Developing Agile Project Managers",
+      "display_name": "Framework for Developing Agile Project Managers",
+      "relevance_score": 174.2191,
+      "publication_year": 2020,
+      "publication_date": "2020-06-01",
+      "ids": {
+        "openalex": "https://openalex.org/W3211501219",
+        "doi": "https://doi.org/10.12816/0056351",
+        "mag": "3211501219"
+      },
+      "language": "en",
+      "primary_location": {
+        "id": "doi:10.12816/0056351",
+        "doi": "https://doi.org/10.12816/0056351",
+        "is_oa": false,
+        "landing_page_url": "https://doi.org/10.12816/0056351",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S5406987697",
+          "display_name": "Singaporean Journal of Business Economics and Management Studies",
+          "issn_l": "2301-3621",
+          "issn": [
+            "2301-3621"
+          ],
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "listed_in": [],
+          "host_organization": null,
+          "host_organization_name": null,
+          "host_organization_lineage": [],
+          "host_organization_lineage_names": [],
+          "type": "journal"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Singaporean Journal of Business Economics and Management Studies",
+        "raw_type": "journal-article"
+      },
+      "parent_works": [],
+      "lineage": [
+        "https://openalex.org/W3211501219"
+      ],
+      "child_works_count": 0,
+      "type": "article",
+      "is_traditional": true,
+      "indexed_in": [
+        "crossref"
+      ],
+      "open_access": {
+        "is_oa": true,
+        "oa_status": "diamond",
+        "oa_url": "https://singaporeanjbem.com/index.php/SJBEM/article/download/491/488",
+        "any_repository_has_fulltext": false
+      },
+      "authorships": [
+        {
+          "author_position": "first",
+          "author": {
+            "id": "https://openalex.org/A5097422228",
+            "display_name": "Sam Abbasi",
+            "orcid": null,
+            "observed_orcids": []
+          },
+          "institutions": [],
+          "countries": [],
+          "is_corresponding": true,
+          "raw_author_name": "Abbasi , Sam",
+          "raw_affiliation_strings": [],
+          "raw_orcid": null,
+          "affiliations": []
+        }
+      ],
+      "institutions": [],
+      "countries_distinct_count": 0,
+      "institutions_distinct_count": 0,
+      "corresponding_author_ids": [
+        "https://openalex.org/A5097422228"
+      ],
+      "corresponding_institution_ids": [],
+      "apc_list": null,
+      "apc_paid": null,
+      "fwci": 0.0,
+      "is_authors_truncated": false,
+      "has_fulltext": true,
+      "cited_by_count": 0,
+      "citation_normalized_percentile": {
+        "value": 0.0,
+        "is_in_top_1_percent": false,
+        "is_in_top_10_percent": false
+      },
+      "cited_by_percentile_year": null,
+      "biblio": {
+        "volume": "7",
+        "issue": "3",
+        "first_page": "38",
+        "last_page": "45"
+      },
+      "is_retracted": false,
+      "is_paratext": false,
+      "is_xpac": false,
+      "primary_topic": {
+        "id": "https://openalex.org/T10430",
+        "display_name": "Software Engineering Techniques and Practices",
+        "score": 0.9110999703407288,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1710",
+          "display_name": "Information Systems"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      "topics": [
+        {
+          "id": "https://openalex.org/T10430",
+          "display_name": "Software Engineering Techniques and Practices",
+          "score": 0.9110999703407288,
+          "subfield": {
+            "id": "https://openalex.org/subfields/1710",
+            "display_name": "Information Systems"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/17",
+            "display_name": "Computer Science"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T10395",
+          "display_name": "Construction Project Management and Performance",
+          "score": 0.035599999129772186,
+          "subfield": {
+            "id": "https://openalex.org/subfields/1803",
+            "display_name": "Management Science and Operations Research"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/18",
+            "display_name": "Decision Sciences"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/2",
+            "display_name": "Social Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T13149",
+          "display_name": "Organizational Change and Leadership",
+          "score": 0.024399999529123306,
+          "subfield": {
+            "id": "https://openalex.org/subfields/1407",
+            "display_name": "Organizational Behavior and Human Resource Management"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/14",
+            "display_name": "Business, Management and Accounting"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/2",
+            "display_name": "Social Sciences"
+          }
+        }
+      ],
+      "keywords": [
+        {
+          "id": "https://openalex.org/keywords/agile-project-management",
+          "display_name": "agile project management",
+          "score": 0.9739999771118164
+        },
+        {
+          "id": "https://openalex.org/keywords/project-manager-training",
+          "display_name": "project manager training",
+          "score": 0.7289999723434448
+        },
+        {
+          "id": "https://openalex.org/keywords/coaching",
+          "display_name": "coaching",
+          "score": 0.777999997138977
+        },
+        {
+          "id": "https://openalex.org/keywords/traditional-project-management",
+          "display_name": "traditional project management",
+          "score": 0.796999990940094
+        },
+        {
+          "id": "https://openalex.org/keywords/agile-adoption",
+          "display_name": "agile adoption",
+          "score": 0.5569999814033508
+        }
+      ],
+      "concepts": [
+        {
+          "id": "https://openalex.org/C14185376",
+          "wikidata": "https://www.wikidata.org/wiki/Q30232",
+          "display_name": "Agile software development",
+          "level": 2,
+          "score": 0.8504181504249573
+        },
+        {
+          "id": "https://openalex.org/C195094911",
+          "wikidata": "https://www.wikidata.org/wiki/Q14167904",
+          "display_name": "Process management",
+          "level": 1,
+          "score": 0.5614320039749146
+        },
+        {
+          "id": "https://openalex.org/C144133560",
+          "wikidata": "https://www.wikidata.org/wiki/Q4830453",
+          "display_name": "Business",
+          "level": 0,
+          "score": 0.5306293964385986
+        },
+        {
+          "id": "https://openalex.org/C56739046",
+          "wikidata": "https://www.wikidata.org/wiki/Q192060",
+          "display_name": "Knowledge management",
+          "level": 1,
+          "score": 0.33109885454177856
+        },
+        {
+          "id": "https://openalex.org/C41008148",
+          "wikidata": "https://www.wikidata.org/wiki/Q21198",
+          "display_name": "Computer science",
+          "level": 0,
+          "score": 0.319688618183136
+        },
+        {
+          "id": "https://openalex.org/C115903868",
+          "wikidata": "https://www.wikidata.org/wiki/Q80993",
+          "display_name": "Software engineering",
+          "level": 1,
+          "score": 0.03929683566093445
+        }
+      ],
+      "mesh": [],
+      "locations_count": 2,
+      "locations": [
+        {
+          "id": "doi:10.12816/0056351",
+          "doi": "https://doi.org/10.12816/0056351",
+          "is_oa": false,
+          "landing_page_url": "https://doi.org/10.12816/0056351",
+          "pdf_url": null,
+          "source": {
+            "id": "https://openalex.org/S5406987697",
+            "display_name": "Singaporean Journal of Business Economics and Management Studies",
+            "issn_l": "2301-3621",
+            "issn": [
+              "2301-3621"
+            ],
+            "is_oa": false,
+            "is_in_doaj": false,
+            "is_core": false,
+            "listed_in": [],
+            "host_organization": null,
+            "host_organization_name": null,
+            "host_organization_lineage": [],
+            "host_organization_lineage_names": [],
+            "type": "journal"
+          },
+          "license": null,
+          "license_id": null,
+          "version": "publishedVersion",
+          "is_accepted": true,
+          "is_published": true,
+          "raw_source_name": "Singaporean Journal of Business Economics and Management Studies",
+          "raw_type": "journal-article"
+        },
+        {
+          "id": "pmh:oai:singaporeanjbem.com:article/491",
+          "doi": null,
+          "is_oa": true,
+          "landing_page_url": "https://singaporeanjbem.com/index.php/SJBEM/article/view/491",
+          "pdf_url": "https://singaporeanjbem.com/index.php/SJBEM/article/download/491/488",
+          "source": {
+            "id": "https://openalex.org/S7407075325",
+            "display_name": "Singaporean Journal of Business Economics and Management",
+            "issn_l": "3009-0024",
+            "issn": [
+              "3009-0024"
+            ],
+            "is_oa": true,
+            "is_in_doaj": false,
+            "is_core": false,
+            "listed_in": [],
+            "host_organization": null,
+            "host_organization_name": null,
+            "host_organization_lineage": [],
+            "host_organization_lineage_names": [],
+            "type": "journal"
+          },
+          "license": "cc-by",
+          "license_id": "https://openalex.org/licenses/cc-by",
+          "version": "publishedVersion",
+          "is_accepted": true,
+          "is_published": true,
+          "raw_source_name": "3009-0024",
+          "raw_type": "info:eu-repo/semantics/article"
+        }
+      ],
+      "best_oa_location": {
+        "id": "pmh:oai:singaporeanjbem.com:article/491",
+        "doi": null,
+        "is_oa": true,
+        "landing_page_url": "https://singaporeanjbem.com/index.php/SJBEM/article/view/491",
+        "pdf_url": "https://singaporeanjbem.com/index.php/SJBEM/article/download/491/488",
+        "source": {
+          "id": "https://openalex.org/S7407075325",
+          "display_name": "Singaporean Journal of Business Economics and Management",
+          "issn_l": "3009-0024",
+          "issn": [
+            "3009-0024"
+          ],
+          "is_oa": true,
+          "is_in_doaj": false,
+          "is_core": false,
+          "listed_in": [],
+          "host_organization": null,
+          "host_organization_name": null,
+          "host_organization_lineage": [],
+          "host_organization_lineage_names": [],
+          "type": "journal"
+        },
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "3009-0024",
+        "raw_type": "info:eu-repo/semantics/article"
+      },
+      "sustainable_development_goals": [],
+      "study_designs": [],
+      "awards": [],
+      "funders": [],
+      "has_content": {
+        "pdf": true,
+        "grobid_xml": true
+      },
+      "content_urls": {
+        "pdf": "https://content.openalex.org/works/W3211501219.pdf",
+        "grobid_xml": "https://content.openalex.org/works/W3211501219.grobid-xml"
+      },
+      "referenced_works_count": 20,
+      "referenced_works": [
+        "https://openalex.org/W569944988",
+        "https://openalex.org/W1848663767",
+        "https://openalex.org/W1965779102",
+        "https://openalex.org/W2028477248",
+        "https://openalex.org/W2046216252",
+        "https://openalex.org/W2051526268",
+        "https://openalex.org/W2063147447",
+        "https://openalex.org/W2113144428",
+        "https://openalex.org/W2199735891",
+        "https://openalex.org/W2410887582",
+        "https://openalex.org/W2471604960",
+        "https://openalex.org/W2523089935",
+        "https://openalex.org/W2586599149",
+        "https://openalex.org/W2734385562",
+        "https://openalex.org/W2734855680",
+        "https://openalex.org/W2799729174",
+        "https://openalex.org/W2810227594",
+        "https://openalex.org/W2899828947",
+        "https://openalex.org/W2904515609",
+        "https://openalex.org/W3197193983"
+      ],
+      "related_works": [
+        "https://openalex.org/W2516445044",
+        "https://openalex.org/W4381730678",
+        "https://openalex.org/W2950717039",
+        "https://openalex.org/W2895169840",
+        "https://openalex.org/W2980557883",
+        "https://openalex.org/W4404035893",
+        "https://openalex.org/W3008139654",
+        "https://openalex.org/W7100795990",
+        "https://openalex.org/W39466513",
+        "https://openalex.org/W3012071753"
+      ],
+      "abstract_inverted_index": {
+        "Organizations": [
+          0
+        ],
+        "are": [
+          1,
+          46
+        ],
+        "choosing": [
+          2
+        ],
+        "to": [
+          3,
+          10,
+          39,
+          55,
+          75,
+          84,
+          126,
+          133,
+          135,
+          176,
+          179
+        ],
+        "transition": [
+          4
+        ],
+        "from": [
+          5,
+          110
+        ],
+        "Traditional": [
+          6,
+          141
+        ],
+        "Project": [
+          7,
+          12
+        ],
+        "Management": [
+          8,
+          13
+        ],
+        "(TPM)": [
+          9
+        ],
+        "Agile": [
+          11,
+          41
+        ],
+        "(APM)": [
+          14
+        ],
+        "for": [
+          15,
+          148
+        ],
+        "competitive": [
+          16
+        ],
+        "advantage.": [
+          17
+        ],
+        "APM": [
+          18,
+          134
+        ],
+        "offersmany": [
+          19
+        ],
+        "benefits": [
+          20
+        ],
+        "such": [
+          21
+        ],
+        "as": [
+          22,
+          35
+        ],
+        "better": [
+          23
+        ],
+        "customer": [
+          24
+        ],
+        "satisfaction,": [
+          25
+        ],
+        "shorter": [
+          26
+        ],
+        "project": [
+          27,
+          31,
+          44,
+          73,
+          93,
+          97,
+          130
+        ],
+        "times,": [
+          28
+        ],
+        "and": [
+          29,
+          53,
+          71,
+          91,
+          100,
+          104,
+          118,
+          128,
+          163
+        ],
+        "higher": [
+          30
+        ],
+        "success": [
+          32
+        ],
+        "rates.": [
+          33
+        ],
+        "But": [
+          34
+        ],
+        "organizations": [
+          36
+        ],
+        "set": [
+          37
+        ],
+        "out": [
+          38
+        ],
+        "adopt": [
+          40
+        ],
+        "practices,": [
+          42
+        ],
+        "their": [
+          43,
+          51
+        ],
+        "managers": [
+          45,
+          74,
+          131
+        ],
+        "experiencing": [
+          47
+        ],
+        "challenges": [
+          48,
+          86
+        ],
+        "that": [
+          49,
+          87
+        ],
+        "hinder": [
+          50
+        ],
+        "development": [
+          52,
+          102
+        ],
+        "ability": [
+          54
+        ],
+        "be": [
+          56,
+          177
+        ],
+        "competent": [
+          57
+        ],
+        "in": [
+          58
+        ],
+        "the": [
+          59,
+          66,
+          89,
+          92,
+          107,
+          111,
+          140,
+          149,
+          156,
+          170,
+          181,
+          184
+        ],
+        "agile": [
+          60,
+          77,
+          137
+        ],
+        "environment.": [
+          61
+        ],
+        "The": [
+          62,
+          120
+        ],
+        "problem": [
+          63
+        ],
+        "identified": [
+          64
+        ],
+        "was": [
+          65,
+          82,
+          116,
+          151
+        ],
+        "underdeveloped": [
+          67
+        ],
+        "process": [
+          68,
+          125
+        ],
+        "of": [
+          69,
+          169,
+          183
+        ],
+        "training": [
+          70
+        ],
+        "coaching": [
+          72
+        ],
+        "gain": [
+          76,
+          136
+        ],
+        "competencies.": [
+          78
+        ],
+        "A": [
+          79
+        ],
+        "literature": [
+          80,
+          112
+        ],
+        "research": [
+          81,
+          173
+        ],
+        "performed": [
+          83
+        ],
+        "capture": [
+          85
+        ],
+        "both": [
+          88
+        ],
+        "organization": [
+          90
+        ],
+        "manager": [
+          94,
+          98
+        ],
+        "were": [
+          95
+        ],
+        "experiencing,": [
+          96
+        ],
+        "competency,": [
+          99
+        ],
+        "current": [
+          101
+        ],
+        "tools": [
+          103
+        ],
+        "techniques.": [
+          105
+        ],
+        "With": [
+          106
+        ],
+        "information": [
+          108
+        ],
+        "gathered": [
+          109
+        ],
+        "review,": [
+          113
+        ],
+        "a": [
+          114,
+          124,
+          167
+        ],
+        "solution": [
+          115,
+          122,
+          150,
+          158
+        ],
+        "formulated": [
+          117
+        ],
+        "proposed.": [
+          119
+        ],
+        "proposed": [
+          121,
+          157,
+          185
+        ],
+        "provided": [
+          123
+        ],
+        "train": [
+          127
+        ],
+        "coach": [
+          129
+        ],
+        "new": [
+          132
+        ],
+        "competencies": [
+          138
+        ],
+        "using": [
+          139
+        ],
+        "Predictive": [
+          142
+        ],
+        "Life": [
+          143
+        ],
+        "Cycle.": [
+          144
+        ],
+        "An": [
+          145
+        ],
+        "implementation": [
+          146
+        ],
+        "plan": [
+          147
+        ],
+        "also": [
+          152
+        ],
+        "provided.": [
+          153
+        ],
+        "However": [
+          154
+        ],
+        "because": [
+          155
+        ],
+        "has": [
+          159
+        ],
+        "not": [
+          160
+        ],
+        "been": [
+          161
+        ],
+        "tested": [
+          162
+        ],
+        "only": [
+          164
+        ],
+        "based": [
+          165
+        ],
+        "on": [
+          166
+        ],
+        "review": [
+          168
+        ],
+        "literature,": [
+          171
+        ],
+        "future": [
+          172
+        ],
+        "will": [
+          174
+        ],
+        "need": [
+          175
+        ],
+        "done": [
+          178
+        ],
+        "validate": [
+          180
+        ],
+        "effectiveness": [
+          182
+        ],
+        "solution.": [
+          186
+        ]
+      },
+      "counts_by_year": [],
+      "updated_date": "2026-11-14T11:04:58.165337",
+      "created_date": "2021-11-22T00:00:00"
+    },
+    {
+      "id": "https://openalex.org/W4312329189",
+      "doi": "https://doi.org/10.1109/tem.2022.3222037",
+      "title": "Analysis of Agile Project Manager Competencies From Recruitment Signals",
+      "display_name": "Analysis of Agile Project Manager Competencies From Recruitment Signals",
+      "relevance_score": 165.2489,
+      "publication_year": 2022,
+      "publication_date": "2022-12-01",
+      "ids": {
+        "openalex": "https://openalex.org/W4312329189",
+        "doi": "https://doi.org/10.1109/tem.2022.3222037"
+      },
+      "language": "en",
+      "primary_location": {
+        "id": "doi:10.1109/tem.2022.3222037",
+        "doi": "https://doi.org/10.1109/tem.2022.3222037",
+        "is_oa": false,
+        "landing_page_url": "https://doi.org/10.1109/tem.2022.3222037",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S154533451",
+          "display_name": "IEEE Transactions on Engineering Management",
+          "issn_l": "0018-9391",
+          "issn": [
+            "0018-9391",
+            "1558-0040"
+          ],
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": true,
+          "listed_in": [
+            "abdc-a",
+            "anvur-class-a",
+            "anvur-scientific",
+            "cwts-core",
+            "fnege-2",
+            "jufo-1",
+            "norway-1",
+            "poland-70",
+            "russia-white-list-1",
+            "vabb-shw"
+          ],
+          "host_organization": "https://openalex.org/P4310319808",
+          "host_organization_name": "Institute of Electrical and Electronics Engineers",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310319808"
+          ],
+          "host_organization_lineage_names": [
+            "Institute of Electrical and Electronics Engineers"
+          ],
+          "type": "journal"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "IEEE Transactions on Engineering Management",
+        "raw_type": "journal-article"
+      },
+      "parent_works": [],
+      "lineage": [
+        "https://openalex.org/W4312329189"
+      ],
+      "child_works_count": 0,
+      "type": "article",
+      "is_traditional": true,
+      "indexed_in": [
+        "crossref"
+      ],
+      "open_access": {
+        "is_oa": true,
+        "oa_status": "green",
+        "oa_url": "https://openrepository.aut.ac.nz/bitstreams/bd0e7b57-1bb9-45ad-aab4-75a8f5ab8b6c/download",
+        "any_repository_has_fulltext": true
+      },
+      "authorships": [
+        {
+          "author_position": "first",
+          "author": {
+            "id": "https://openalex.org/A5011220746",
+            "display_name": "Kamrul Ahsan",
+            "orcid": "https://orcid.org/0000-0002-9757-1285",
+            "observed_orcids": [
+              "https://orcid.org/0000-0002-9757-1285"
+            ]
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I82951845",
+              "display_name": "RMIT University",
+              "ror": "https://ror.org/04ttjf776",
+              "country_code": "AU",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I82951845"
+              ]
+            }
+          ],
+          "countries": [
+            "AU"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "Kamrul Ahsan",
+          "raw_affiliation_strings": [
+            "Department of Supply Chain and Logistics Management, College of Business and Law, RMIT University, Melbourne, VIC, Australia"
+          ],
+          "raw_orcid": "https://orcid.org/0000-0002-9757-1285",
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Department of Supply Chain and Logistics Management, College of Business and Law, RMIT University, Melbourne, VIC, Australia",
+              "institution_ids": [
+                "https://openalex.org/I82951845"
+              ]
+            }
+          ]
+        },
+        {
+          "author_position": "last",
+          "author": {
+            "id": "https://openalex.org/A5024109010",
+            "display_name": "Marcus W. Y. Ho",
+            "orcid": "https://orcid.org/0000-0002-8838-2028",
+            "observed_orcids": [
+              "https://orcid.org/0000-0002-8838-2028"
+            ]
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I39854758",
+              "display_name": "Auckland University of Technology",
+              "ror": "https://ror.org/01zvqw119",
+              "country_code": "NZ",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I39854758"
+              ]
+            }
+          ],
+          "countries": [
+            "NZ"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "Marcus Ho",
+          "raw_affiliation_strings": [
+            "Department of Management, Faculty of Business, Economics and Law, Auckland University of Technology, Auckland, New Zealand"
+          ],
+          "raw_orcid": "https://orcid.org/0000-0002-8838-2028",
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Department of Management, Faculty of Business, Economics and Law, Auckland University of Technology, Auckland, New Zealand",
+              "institution_ids": [
+                "https://openalex.org/I39854758"
+              ]
+            }
+          ]
+        }
+      ],
+      "institutions": [],
+      "countries_distinct_count": 2,
+      "institutions_distinct_count": 2,
+      "corresponding_author_ids": [],
+      "corresponding_institution_ids": [],
+      "apc_list": {
+        "value": 2195,
+        "currency": "USD",
+        "value_usd": 2195
+      },
+      "apc_paid": null,
+      "fwci": 0.7157,
+      "is_authors_truncated": false,
+      "has_fulltext": true,
+      "cited_by_count": 11,
+      "citation_normalized_percentile": {
+        "value": 0.72569551,
+        "is_in_top_1_percent": false,
+        "is_in_top_10_percent": false
+      },
+      "cited_by_percentile_year": {
+        "min": 86,
+        "max": 98
+      },
+      "biblio": {
+        "volume": "71",
+        "issue": null,
+        "first_page": "3892",
+        "last_page": "3905"
+      },
+      "is_retracted": false,
+      "is_paratext": false,
+      "is_xpac": false,
+      "primary_topic": {
+        "id": "https://openalex.org/T10430",
+        "display_name": "Software Engineering Techniques and Practices",
+        "score": 0.420199990272522,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1710",
+          "display_name": "Information Systems"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      "topics": [
+        {
+          "id": "https://openalex.org/T10430",
+          "display_name": "Software Engineering Techniques and Practices",
+          "score": 0.420199990272522,
+          "subfield": {
+            "id": "https://openalex.org/subfields/1710",
+            "display_name": "Information Systems"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/17",
+            "display_name": "Computer Science"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T12802",
+          "display_name": "Competency Development and Evaluation",
+          "score": 0.3905999958515167,
+          "subfield": {
+            "id": "https://openalex.org/subfields/1407",
+            "display_name": "Organizational Behavior and Human Resource Management"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/14",
+            "display_name": "Business, Management and Accounting"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/2",
+            "display_name": "Social Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T11779",
+          "display_name": "Higher Education and Employability",
+          "score": 0.09989999979734421,
+          "subfield": {
+            "id": "https://openalex.org/subfields/3304",
+            "display_name": "Education"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/33",
+            "display_name": "Social Sciences"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/2",
+            "display_name": "Social Sciences"
+          }
+        }
+      ],
+      "keywords": [
+        {
+          "id": "https://openalex.org/keywords/agile-project-management",
+          "display_name": "agile project management",
+          "score": 0.949999988079071
+        },
+        {
+          "id": "https://openalex.org/keywords/competency-framework",
+          "display_name": "competency framework",
+          "score": 0.9470000267028809
+        },
+        {
+          "id": "https://openalex.org/keywords/job-advertisements",
+          "display_name": "job advertisements",
+          "score": 0.9660000205039978
+        },
+        {
+          "id": "https://openalex.org/keywords/employment-expectations",
+          "display_name": "employment expectations",
+          "score": 0.6060000061988831
+        },
+        {
+          "id": "https://openalex.org/keywords/personal-competence",
+          "display_name": "personal competencies",
+          "score": 0.7670000195503235
+        },
+        {
+          "id": "https://openalex.org/keywords/practice-competencies",
+          "display_name": "practice competencies",
+          "score": 0.9309999942779541
+        }
+      ],
+      "concepts": [
+        {
+          "id": "https://openalex.org/C14185376",
+          "wikidata": "https://www.wikidata.org/wiki/Q30232",
+          "display_name": "Agile software development",
+          "level": 2,
+          "score": 0.7661590576171875
+        },
+        {
+          "id": "https://openalex.org/C2780612406",
+          "wikidata": "https://www.wikidata.org/wiki/Q816432",
+          "display_name": "Project manager",
+          "level": 3,
+          "score": 0.593862771987915
+        },
+        {
+          "id": "https://openalex.org/C15952604",
+          "wikidata": "https://www.wikidata.org/wiki/Q179012",
+          "display_name": "Project management",
+          "level": 2,
+          "score": 0.49759653210639954
+        },
+        {
+          "id": "https://openalex.org/C110354214",
+          "wikidata": "https://www.wikidata.org/wiki/Q6314146",
+          "display_name": "Engineering management",
+          "level": 1,
+          "score": 0.4507442116737366
+        },
+        {
+          "id": "https://openalex.org/C56739046",
+          "wikidata": "https://www.wikidata.org/wiki/Q192060",
+          "display_name": "Knowledge management",
+          "level": 1,
+          "score": 0.43204864859580994
+        },
+        {
+          "id": "https://openalex.org/C144133560",
+          "wikidata": "https://www.wikidata.org/wiki/Q4830453",
+          "display_name": "Business",
+          "level": 0,
+          "score": 0.4178921580314636
+        },
+        {
+          "id": "https://openalex.org/C127413603",
+          "wikidata": "https://www.wikidata.org/wiki/Q11023",
+          "display_name": "Engineering",
+          "level": 0,
+          "score": 0.3913955092430115
+        },
+        {
+          "id": "https://openalex.org/C195094911",
+          "wikidata": "https://www.wikidata.org/wiki/Q14167904",
+          "display_name": "Process management",
+          "level": 1,
+          "score": 0.3798408508300781
+        },
+        {
+          "id": "https://openalex.org/C41008148",
+          "wikidata": "https://www.wikidata.org/wiki/Q21198",
+          "display_name": "Computer science",
+          "level": 0,
+          "score": 0.33673202991485596
+        },
+        {
+          "id": "https://openalex.org/C187736073",
+          "wikidata": "https://www.wikidata.org/wiki/Q2920921",
+          "display_name": "Management",
+          "level": 1,
+          "score": 0.33407771587371826
+        },
+        {
+          "id": "https://openalex.org/C201995342",
+          "wikidata": "https://www.wikidata.org/wiki/Q682496",
+          "display_name": "Systems engineering",
+          "level": 1,
+          "score": 0.26329168677330017
+        },
+        {
+          "id": "https://openalex.org/C115903868",
+          "wikidata": "https://www.wikidata.org/wiki/Q80993",
+          "display_name": "Software engineering",
+          "level": 1,
+          "score": 0.21198546886444092
+        },
+        {
+          "id": "https://openalex.org/C162324750",
+          "wikidata": "https://www.wikidata.org/wiki/Q8134",
+          "display_name": "Economics",
+          "level": 0,
+          "score": 0.0
+        }
+      ],
+      "mesh": [],
+      "locations_count": 3,
+      "locations": [
+        {
+          "id": "doi:10.1109/tem.2022.3222037",
+          "doi": "https://doi.org/10.1109/tem.2022.3222037",
+          "is_oa": false,
+          "landing_page_url": "https://doi.org/10.1109/tem.2022.3222037",
+          "pdf_url": null,
+          "source": {
+            "id": "https://openalex.org/S154533451",
+            "display_name": "IEEE Transactions on Engineering Management",
+            "issn_l": "0018-9391",
+            "issn": [
+              "0018-9391",
+              "1558-0040"
+            ],
+            "is_oa": false,
+            "is_in_doaj": false,
+            "is_core": true,
+            "listed_in": [
+              "abdc-a",
+              "anvur-class-a",
+              "anvur-scientific",
+              "cwts-core",
+              "fnege-2",
+              "jufo-1",
+              "norway-1",
+              "poland-70",
+              "russia-white-list-1",
+              "vabb-shw"
+            ],
+            "host_organization": "https://openalex.org/P4310319808",
+            "host_organization_name": "Institute of Electrical and Electronics Engineers",
+            "host_organization_lineage": [
+              "https://openalex.org/P4310319808"
+            ],
+            "host_organization_lineage_names": [
+              "Institute of Electrical and Electronics Engineers"
+            ],
+            "type": "journal"
+          },
+          "license": null,
+          "license_id": null,
+          "version": "publishedVersion",
+          "is_accepted": true,
+          "is_published": true,
+          "raw_source_name": "IEEE Transactions on Engineering Management",
+          "raw_type": "journal-article"
+        },
+        {
+          "id": "pmh:oai:openrepository.aut.ac.nz:10292/15695",
+          "doi": null,
+          "is_oa": true,
+          "landing_page_url": "https://hdl.handle.net/10292/15695",
+          "pdf_url": "https://openrepository.aut.ac.nz/bitstreams/bd0e7b57-1bb9-45ad-aab4-75a8f5ab8b6c/download",
+          "source": {
+            "id": "https://openalex.org/S4306401809",
+            "display_name": "Tuwhera (Auckland University of Technology)",
+            "issn_l": null,
+            "issn": null,
+            "is_oa": false,
+            "is_in_doaj": false,
+            "is_core": false,
+            "listed_in": [],
+            "host_organization": "https://openalex.org/I39854758",
+            "host_organization_name": "Auckland University of Technology",
+            "host_organization_lineage": [
+              "https://openalex.org/I39854758"
+            ],
+            "host_organization_lineage_names": [],
+            "type": "repository"
+          },
+          "license": null,
+          "license_id": null,
+          "version": "submittedVersion",
+          "is_accepted": false,
+          "is_published": false,
+          "raw_source_name": null,
+          "raw_type": "Journal Article"
+        },
+        {
+          "id": "pmh:oai:figshare.com:article/27564309",
+          "doi": null,
+          "is_oa": false,
+          "landing_page_url": "https://figshare.com/articles/journal_contribution/Analysis_of_Agile_project_manager_competencies_from_recruitment_signals/27564309",
+          "pdf_url": null,
+          "source": {
+            "id": "https://openalex.org/S4377196282",
+            "display_name": "Figshare",
+            "issn_l": null,
+            "issn": null,
+            "is_oa": false,
+            "is_in_doaj": false,
+            "is_core": false,
+            "listed_in": [],
+            "host_organization": "https://openalex.org/I4210132348",
+            "host_organization_name": "Figshare (United Kingdom)",
+            "host_organization_lineage": [
+              "https://openalex.org/I4210132348"
+            ],
+            "host_organization_lineage_names": [],
+            "type": "repository"
+          },
+          "license": null,
+          "license_id": null,
+          "version": "submittedVersion",
+          "is_accepted": false,
+          "is_published": false,
+          "raw_source_name": null,
+          "raw_type": "Text"
+        }
+      ],
+      "best_oa_location": {
+        "id": "pmh:oai:openrepository.aut.ac.nz:10292/15695",
+        "doi": null,
+        "is_oa": true,
+        "landing_page_url": "https://hdl.handle.net/10292/15695",
+        "pdf_url": "https://openrepository.aut.ac.nz/bitstreams/bd0e7b57-1bb9-45ad-aab4-75a8f5ab8b6c/download",
+        "source": {
+          "id": "https://openalex.org/S4306401809",
+          "display_name": "Tuwhera (Auckland University of Technology)",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "listed_in": [],
+          "host_organization": "https://openalex.org/I39854758",
+          "host_organization_name": "Auckland University of Technology",
+          "host_organization_lineage": [
+            "https://openalex.org/I39854758"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "submittedVersion",
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": null,
+        "raw_type": "Journal Article"
+      },
+      "sustainable_development_goals": [
+        {
+          "score": 0.48510000109672546,
+          "id": "https://metadata.un.org/sdg/8",
+          "display_name": "Decent work and economic growth"
+        }
+      ],
+      "study_designs": [],
+      "awards": [],
+      "funders": [],
+      "has_content": {
+        "pdf": true,
+        "grobid_xml": true
+      },
+      "content_urls": {
+        "pdf": "https://content.openalex.org/works/W4312329189.pdf",
+        "grobid_xml": "https://content.openalex.org/works/W4312329189.grobid-xml"
+      },
+      "referenced_works_count": 61,
+      "referenced_works": [
+        "https://openalex.org/W18396254",
+        "https://openalex.org/W33792102",
+        "https://openalex.org/W79381569",
+        "https://openalex.org/W159321140",
+        "https://openalex.org/W377384883",
+        "https://openalex.org/W1493688518",
+        "https://openalex.org/W1529465401",
+        "https://openalex.org/W1602304209",
+        "https://openalex.org/W1654158845",
+        "https://openalex.org/W1965779102",
+        "https://openalex.org/W2011376856",
+        "https://openalex.org/W2027491256",
+        "https://openalex.org/W2051526268",
+        "https://openalex.org/W2057492893",
+        "https://openalex.org/W2070945893",
+        "https://openalex.org/W2074535542",
+        "https://openalex.org/W2086487392",
+        "https://openalex.org/W2115747715",
+        "https://openalex.org/W2118298147",
+        "https://openalex.org/W2119366833",
+        "https://openalex.org/W2121036718",
+        "https://openalex.org/W2128142025",
+        "https://openalex.org/W2134160905",
+        "https://openalex.org/W2144190226",
+        "https://openalex.org/W2150957793",
+        "https://openalex.org/W2168811232",
+        "https://openalex.org/W2300811185",
+        "https://openalex.org/W2523089935",
+        "https://openalex.org/W2557436080",
+        "https://openalex.org/W2568597113",
+        "https://openalex.org/W2602491906",
+        "https://openalex.org/W2734875900",
+        "https://openalex.org/W2797802404",
+        "https://openalex.org/W2804446632",
+        "https://openalex.org/W2810283743",
+        "https://openalex.org/W2811415407",
+        "https://openalex.org/W2895293496",
+        "https://openalex.org/W2896975396",
+        "https://openalex.org/W2896988057",
+        "https://openalex.org/W2900956008",
+        "https://openalex.org/W2945420395",
+        "https://openalex.org/W2955746573",
+        "https://openalex.org/W2980886018",
+        "https://openalex.org/W2989032170",
+        "https://openalex.org/W2989463651",
+        "https://openalex.org/W2993599742",
+        "https://openalex.org/W3001799900",
+        "https://openalex.org/W3008000493",
+        "https://openalex.org/W3018743753",
+        "https://openalex.org/W3021916629",
+        "https://openalex.org/W3042262449",
+        "https://openalex.org/W3080549094",
+        "https://openalex.org/W3098918900",
+        "https://openalex.org/W3108239695",
+        "https://openalex.org/W3136162529",
+        "https://openalex.org/W3183441969",
+        "https://openalex.org/W4247373162",
+        "https://openalex.org/W4254273251",
+        "https://openalex.org/W4300282506",
+        "https://openalex.org/W7001929244",
+        "https://openalex.org/W7026625752"
+      ],
+      "related_works": [
+        "https://openalex.org/W3183441969",
+        "https://openalex.org/W2121036718",
+        "https://openalex.org/W3093796125",
+        "https://openalex.org/W2707341262",
+        "https://openalex.org/W2810283743",
+        "https://openalex.org/W4414845363",
+        "https://openalex.org/W7172532564",
+        "https://openalex.org/W3215468314",
+        "https://openalex.org/W765052094",
+        "https://openalex.org/W4414940944"
+      ],
+      "abstract_inverted_index": {
+        "As": [
+          0
+        ],
+        "Agile": [
+          1,
+          13,
+          23,
+          70,
+          140
+        ],
+        "project": [
+          2,
+          10,
+          14,
+          27,
+          71
+        ],
+        "management": [
+          3,
+          11,
+          28
+        ],
+        "has": [
+          4
+        ],
+        "become": [
+          5
+        ],
+        "increasingly": [
+          6
+        ],
+        "popular": [
+          7
+        ],
+        "as": [
+          8,
+          57,
+          123,
+          125
+        ],
+        "a": [
+          9,
+          75
+        ],
+        "methodology,": [
+          12
+        ],
+        "managers": [
+          15
+        ],
+        "(AgPM)": [
+          16
+        ],
+        "are": [
+          17,
+          146
+        ],
+        "important": [
+          18,
+          148
+        ],
+        "in": [
+          19,
+          38,
+          187,
+          196
+        ],
+        "leading": [
+          20
+        ],
+        "and": [
+          21,
+          30,
+          85,
+          98,
+          119,
+          163,
+          169
+        ],
+        "managing": [
+          22
+        ],
+        "projects.": [
+          24
+        ],
+        "However,": [
+          25
+        ],
+        "professional": [
+          26
+        ],
+        "bodies": [
+          29
+        ],
+        "the": [
+          31,
+          44,
+          51,
+          60,
+          83,
+          93,
+          102,
+          113,
+          126,
+          139,
+          143,
+          171,
+          188,
+          193
+        ],
+        "academic": [
+          32
+        ],
+        "literature": [
+          33
+        ],
+        "lag": [
+          34
+        ],
+        "behind": [
+          35
+        ],
+        "industry": [
+          36
+        ],
+        "practices": [
+          37
+        ],
+        "articulating": [
+          39
+        ],
+        "competency": [
+          40,
+          158
+        ],
+        "frameworks": [
+          41
+        ],
+        "for": [
+          42,
+          54,
+          107,
+          149,
+          160,
+          174,
+          192
+        ],
+        "understanding": [
+          43
+        ],
+        "requirements": [
+          45,
+          159
+        ],
+        "of": [
+          46,
+          69,
+          78,
+          104,
+          134
+        ],
+        "AgPM.": [
+          47,
+          109
+        ],
+        "This": [
+          48
+        ],
+        "study": [
+          49,
+          136,
+          182
+        ],
+        "examines": [
+          50
+        ],
+        "organizational": [
+          52
+        ],
+        "expectations": [
+          53
+        ],
+        "AgPM": [
+          55,
+          79,
+          178,
+          194
+        ],
+        "competencies": [
+          56,
+          144,
+          173,
+          190
+        ],
+        "signaled": [
+          58,
+          95
+        ],
+        "to": [
+          59,
+          151,
+          155,
+          167,
+          177
+        ],
+        "job": [
+          61,
+          80,
+          88,
+          165
+        ],
+        "market": [
+          62
+        ],
+        "through": [
+          63
+        ],
+        "advertisements.": [
+          64
+        ],
+        "Using": [
+          65
+        ],
+        "an": [
+          66,
+          184
+        ],
+        "integrated": [
+          67
+        ],
+        "framework": [
+          68
+        ],
+        "competencies,": [
+          72,
+          100,
+          106,
+          122
+        ],
+        "we": [
+          73,
+          111
+        ],
+        "conduct": [
+          74
+        ],
+        "content": [
+          76
+        ],
+        "analysis": [
+          77
+        ],
+        "advertisements": [
+          81
+        ],
+        "from": [
+          82
+        ],
+        "Australian": [
+          84
+        ],
+        "New": [
+          86
+        ],
+        "Zealand": [
+          87
+        ],
+        "market.": [
+          89
+        ],
+        "Our": [
+          90
+        ],
+        "results": [
+          91
+        ],
+        "identified": [
+          92,
+          112
+        ],
+        "frequently": [
+          94,
+          115
+        ],
+        "personal,": [
+          96
+        ],
+        "practice": [
+          97,
+          121
+        ],
+        "perspective": [
+          99,
+          130
+        ],
+        "including": [
+          101
+        ],
+        "co-occurrences": [
+          103
+        ],
+        "these": [
+          105
+        ],
+        "recruiting": [
+          108
+        ],
+        "Additionally,": [
+          110
+        ],
+        "more": [
+          114,
+          147
+        ],
+        "utilized": [
+          116,
+          128
+        ],
+        "individual": [
+          117
+        ],
+        "personal": [
+          118
+        ],
+        "project-related": [
+          120
+        ],
+        "well": [
+          124
+        ],
+        "less": [
+          127
+        ],
+        "Agile-focused": [
+          129
+        ],
+        "competencies.": [
+          131
+        ],
+        "The": [
+          132
+        ],
+        "findings": [
+          133
+        ],
+        "this": [
+          135,
+          181
+        ],
+        "will": [
+          137
+        ],
+        "help": [
+          138
+        ],
+        "movement": [
+          141
+        ],
+        "consider": [
+          142
+        ],
+        "that": [
+          145
+        ],
+        "organizations": [
+          150
+        ],
+        "learn;": [
+          152
+        ],
+        "allow": [
+          153
+        ],
+        "employers": [
+          154
+        ],
+        "articulate": [
+          156
+        ],
+        "their": [
+          157
+        ],
+        "potential": [
+          161
+        ],
+        "jobs;": [
+          162
+        ],
+        "enable": [
+          164
+        ],
+        "seekers": [
+          166
+        ],
+        "understand": [
+          168
+        ],
+        "develop": [
+          170
+        ],
+        "required": [
+          172,
+          191
+        ],
+        "successful": [
+          175
+        ],
+        "application": [
+          176
+        ],
+        "roles.": [
+          179
+        ],
+        "Overall,": [
+          180
+        ],
+        "provides": [
+          183
+        ],
+        "empirical": [
+          185
+        ],
+        "grounding": [
+          186
+        ],
+        "specific": [
+          189
+        ],
+        "role": [
+          195
+        ],
+        "industry.": [
+          197
+        ]
+      },
+      "counts_by_year": [
+        {
+          "year": 2026,
+          "cited_by_count": 6
+        },
+        {
+          "year": 2025,
+          "cited_by_count": 4
+        },
+        {
+          "year": 2023,
+          "cited_by_count": 1
+        }
+      ],
+      "updated_date": "2026-11-16T12:05:36.265796",
+      "created_date": "2023-01-04T00:00:00"
+    },
+    {
+      "id": "https://openalex.org/W4253897515",
+      "doi": "https://doi.org/10.1201/9781315166087-16",
+      "title": "Change Management Basics for Lean and Agile Project Managers *",
+      "display_name": "Change Management Basics for Lean and Agile Project Managers *",
+      "relevance_score": 162.8851,
+      "publication_year": 2017,
+      "publication_date": "2017-02-03",
+      "ids": {
+        "openalex": "https://openalex.org/W4253897515",
+        "doi": "https://doi.org/10.1201/9781315166087-16"
+      },
+      "language": "en",
+      "primary_location": {
+        "id": "doi:10.1201/9781315166087-16",
+        "doi": "https://doi.org/10.1201/9781315166087-16",
+        "is_oa": false,
+        "landing_page_url": "https://doi.org/10.1201/9781315166087-16",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4306463806",
+          "display_name": "Productivity Press eBooks",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "listed_in": [],
+          "host_organization": null,
+          "host_organization_name": null,
+          "host_organization_lineage": [],
+          "host_organization_lineage_names": [],
+          "type": "ebook platform"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Lean and Agile Project Management",
+        "raw_type": "book-chapter"
+      },
+      "parent_works": [
+        {
+          "id": "https://openalex.org/W4245174805",
+          "display_name": "Lean and Agile Project Management: How to Make Any Project Better, Faster, and More Cost Effective",
+          "relationship": "volume"
+        }
+      ],
+      "lineage": [
+        "https://openalex.org/W4253897515",
+        "https://openalex.org/W4245174805"
+      ],
+      "child_works_count": 0,
+      "type": "book-chapter",
+      "is_traditional": true,
+      "indexed_in": [
+        "crossref"
+      ],
+      "open_access": {
+        "is_oa": false,
+        "oa_status": "closed",
+        "oa_url": null,
+        "any_repository_has_fulltext": false
+      },
+      "authorships": [
+        {
+          "author_position": "first",
+          "author": {
+            "id": null,
+            "display_name": "Terra Vanzant Stern",
+            "orcid": null,
+            "observed_orcids": []
+          },
+          "institutions": [],
+          "countries": [],
+          "is_corresponding": true,
+          "raw_author_name": "Terra Vanzant Stern",
+          "raw_affiliation_strings": [],
+          "raw_orcid": null,
+          "affiliations": []
+        }
+      ],
+      "institutions": [],
+      "countries_distinct_count": 0,
+      "institutions_distinct_count": 0,
+      "corresponding_author_ids": [],
+      "corresponding_institution_ids": [],
+      "apc_list": null,
+      "apc_paid": null,
+      "fwci": 0.0,
+      "is_authors_truncated": false,
+      "has_fulltext": false,
+      "cited_by_count": 0,
+      "citation_normalized_percentile": {
+        "value": 0.0,
+        "is_in_top_1_percent": false,
+        "is_in_top_10_percent": false
+      },
+      "cited_by_percentile_year": null,
+      "biblio": {
+        "volume": null,
+        "issue": null,
+        "first_page": "221",
+        "last_page": "233"
+      },
+      "is_retracted": false,
+      "is_paratext": false,
+      "is_xpac": false,
+      "primary_topic": {
+        "id": "https://openalex.org/T13149",
+        "display_name": "Organizational Change and Leadership",
+        "score": 0.9990000128746033,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1407",
+          "display_name": "Organizational Behavior and Human Resource Management"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/14",
+          "display_name": "Business, Management and Accounting"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      "topics": [
+        {
+          "id": "https://openalex.org/T13149",
+          "display_name": "Organizational Change and Leadership",
+          "score": 0.9990000128746033,
+          "subfield": {
+            "id": "https://openalex.org/subfields/1407",
+            "display_name": "Organizational Behavior and Human Resource Management"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/14",
+            "display_name": "Business, Management and Accounting"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/2",
+            "display_name": "Social Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T13449",
+          "display_name": "Organizational Management and Change",
+          "score": 0.0003000000142492354,
+          "subfield": {
+            "id": "https://openalex.org/subfields/1407",
+            "display_name": "Organizational Behavior and Human Resource Management"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/14",
+            "display_name": "Business, Management and Accounting"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/2",
+            "display_name": "Social Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T10395",
+          "display_name": "Construction Project Management and Performance",
+          "score": 0.00019999999494757503,
+          "subfield": {
+            "id": "https://openalex.org/subfields/1803",
+            "display_name": "Management Science and Operations Research"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/18",
+            "display_name": "Decision Sciences"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/2",
+            "display_name": "Social Sciences"
+          }
+        }
+      ],
+      "keywords": [
+        {
+          "id": "https://openalex.org/keywords/change-management",
+          "display_name": "change management",
+          "score": 1.0
+        },
+        {
+          "id": "https://openalex.org/keywords/lean-project-management",
+          "display_name": "lean project management",
+          "score": 0.9390000104904175
+        },
+        {
+          "id": "https://openalex.org/keywords/agile-project-management",
+          "display_name": "agile project management",
+          "score": 1.0
+        },
+        {
+          "id": "https://openalex.org/keywords/project-managers",
+          "display_name": "project managers",
+          "score": 0.8059999942779541
+        },
+        {
+          "id": "https://openalex.org/keywords/change-management-plan",
+          "display_name": "change management plan",
+          "score": 0.6079999804496765
+        },
+        {
+          "id": "https://openalex.org/keywords/organizational-change",
+          "display_name": "organizational change",
+          "score": 0.6340000033378601
+        }
+      ],
+      "concepts": [
+        {
+          "id": "https://openalex.org/C14185376",
+          "wikidata": "https://www.wikidata.org/wiki/Q30232",
+          "display_name": "Agile software development",
+          "level": 2,
+          "score": 0.8077078461647034
+        },
+        {
+          "id": "https://openalex.org/C195094911",
+          "wikidata": "https://www.wikidata.org/wiki/Q14167904",
+          "display_name": "Process management",
+          "level": 1,
+          "score": 0.4977867603302002
+        },
+        {
+          "id": "https://openalex.org/C137335462",
+          "wikidata": "https://www.wikidata.org/wiki/Q380772",
+          "display_name": "Lean manufacturing",
+          "level": 2,
+          "score": 0.457931786775589
+        },
+        {
+          "id": "https://openalex.org/C144133560",
+          "wikidata": "https://www.wikidata.org/wiki/Q4830453",
+          "display_name": "Business",
+          "level": 0,
+          "score": 0.41385558247566223
+        },
+        {
+          "id": "https://openalex.org/C127413603",
+          "wikidata": "https://www.wikidata.org/wiki/Q11023",
+          "display_name": "Engineering",
+          "level": 0,
+          "score": 0.373803973197937
+        },
+        {
+          "id": "https://openalex.org/C110354214",
+          "wikidata": "https://www.wikidata.org/wiki/Q6314146",
+          "display_name": "Engineering management",
+          "level": 1,
+          "score": 0.346602201461792
+        },
+        {
+          "id": "https://openalex.org/C21547014",
+          "wikidata": "https://www.wikidata.org/wiki/Q1423657",
+          "display_name": "Operations management",
+          "level": 1,
+          "score": 0.28615033626556396
+        },
+        {
+          "id": "https://openalex.org/C115903868",
+          "wikidata": "https://www.wikidata.org/wiki/Q80993",
+          "display_name": "Software engineering",
+          "level": 1,
+          "score": 0.10841542482376099
+        }
+      ],
+      "mesh": [],
+      "locations_count": 1,
+      "locations": [
+        {
+          "id": "doi:10.1201/9781315166087-16",
+          "doi": "https://doi.org/10.1201/9781315166087-16",
+          "is_oa": false,
+          "landing_page_url": "https://doi.org/10.1201/9781315166087-16",
+          "pdf_url": null,
+          "source": {
+            "id": "https://openalex.org/S4306463806",
+            "display_name": "Productivity Press eBooks",
+            "issn_l": null,
+            "issn": null,
+            "is_oa": false,
+            "is_in_doaj": false,
+            "is_core": false,
+            "listed_in": [],
+            "host_organization": null,
+            "host_organization_name": null,
+            "host_organization_lineage": [],
+            "host_organization_lineage_names": [],
+            "type": "ebook platform"
+          },
+          "license": null,
+          "license_id": null,
+          "version": "publishedVersion",
+          "is_accepted": true,
+          "is_published": true,
+          "raw_source_name": "Lean and Agile Project Management",
+          "raw_type": "book-chapter"
+        }
+      ],
+      "best_oa_location": null,
+      "sustainable_development_goals": [],
+      "study_designs": [],
+      "awards": [],
+      "funders": [],
+      "has_content": {
+        "pdf": false,
+        "grobid_xml": false
+      },
+      "content_urls": null,
+      "referenced_works_count": 0,
+      "referenced_works": [],
+      "related_works": [
+        "https://openalex.org/W3022960961",
+        "https://openalex.org/W3195582479",
+        "https://openalex.org/W2953742667",
+        "https://openalex.org/W4239540249",
+        "https://openalex.org/W4212919355",
+        "https://openalex.org/W2285864189",
+        "https://openalex.org/W2921157758",
+        "https://openalex.org/W1647612417",
+        "https://openalex.org/W2480318884"
+      ],
+      "abstract_inverted_index": {
+        "Lean": [
+          0,
+          52
+        ],
+        "and": [
+          1,
+          53,
+          107,
+          142
+        ],
+        "agile": [
+          2,
+          54
+        ],
+        "project": [
+          3
+        ],
+        "managers": [
+          4
+        ],
+        "(PMs)": [
+          5
+        ],
+        "are": [
+          6,
+          121
+        ],
+        "now": [
+          7
+        ],
+        "expected": [
+          8,
+          22
+        ],
+        "to": [
+          9,
+          69,
+          125
+        ],
+        "take": [
+          10
+        ],
+        "an": [
+          11,
+          44
+        ],
+        "active": [
+          12
+        ],
+        "role": [
+          13
+        ],
+        "in": [
+          14,
+          35,
+          76
+        ],
+        "the": [
+          15,
+          36,
+          40,
+          51,
+          71,
+          95,
+          102,
+          115
+        ],
+        "change": [
+          16,
+          58,
+          61,
+          99,
+          118,
+          132
+        ],
+        "management": [
+          17,
+          62,
+          100,
+          119,
+          133,
+          136
+        ],
+        "process.": [
+          18
+        ],
+        "This": [
+          19
+        ],
+        "participation": [
+          20
+        ],
+        "is": [
+          21,
+          64,
+          67,
+          85,
+          101
+        ],
+        "even": [
+          23,
+          39
+        ],
+        "when": [
+          24
+        ],
+        "a": [
+          25,
+          48,
+          57,
+          60,
+          80,
+          131
+        ],
+        "program": [
+          26
+        ],
+        "has": [
+          27
+        ],
+        "been": [
+          28
+        ],
+        "developed": [
+          29
+        ],
+        "by": [
+          30,
+          111
+        ],
+        "human": [
+          31
+        ],
+        "resources": [
+          32,
+          97
+        ],
+        "(HR),": [
+          33
+        ],
+        "but": [
+          34
+        ],
+        "new": [
+          37
+        ],
+        "economy,": [
+          38
+        ],
+        "formation": [
+          41
+        ],
+        "of": [
+          42,
+          50,
+          73,
+          82,
+          94,
+          117
+        ],
+        "such": [
+          43
+        ],
+        "effort": [
+          45
+        ],
+        "may": [
+          46
+        ],
+        "become": [
+          47
+        ],
+        "duty": [
+          49
+        ],
+        "PM.": [
+          55
+        ],
+        "Once": [
+          56
+        ],
+        "or": [
+          59,
+          127
+        ],
+        "plan": [
+          63
+        ],
+        "formed,": [
+          65
+        ],
+        "it": [
+          66
+        ],
+        "necessary": [
+          68
+        ],
+        "discuss": [
+          70
+        ],
+        "balance": [
+          72
+        ],
+        "communication.": [
+          74
+        ],
+        "Even": [
+          75
+        ],
+        "companies": [
+          77
+        ],
+        "that": [
+          78
+        ],
+        "have": [
+          79
+        ],
+        "multitude": [
+          81
+        ],
+        "meetings,": [
+          83
+        ],
+        "there": [
+          84
+        ],
+        "often": [
+          86
+        ],
+        "not": [
+          87
+        ],
+        "enough": [
+          88
+        ],
+        "communication": [
+          89
+        ],
+        "provided": [
+          90
+        ],
+        "regarding": [
+          91
+        ],
+        "change.": [
+          92
+        ],
+        "One": [
+          93
+        ],
+        "best": [
+          96
+        ],
+        "on": [
+          98
+        ],
+        "Wharton": [
+          103
+        ],
+        "Center": [
+          104
+        ],
+        "for": [
+          105
+        ],
+        "Leadership": [
+          106
+        ],
+        "Change.": [
+          108
+        ],
+        "Works": [
+          109
+        ],
+        "written": [
+          110
+        ],
+        "William": [
+          112
+        ],
+        "Bridges,": [
+          113
+        ],
+        "considered": [
+          114
+        ],
+        "pioneer": [
+          116
+        ],
+        "theory,": [
+          120
+        ],
+        "also": [
+          122
+        ],
+        "valuable": [
+          123
+        ],
+        "references": [
+          124
+        ],
+        "read": [
+          126
+        ],
+        "review": [
+          128
+        ],
+        "before": [
+          129
+        ],
+        "implementing": [
+          130
+        ],
+        "plan.": [
+          134
+        ],
+        "Change": [
+          135
+        ],
+        "requires": [
+          137
+        ],
+        "political,": [
+          138
+        ],
+        "analytical,": [
+          139
+        ],
+        "people,": [
+          140
+        ],
+        "business,": [
+          141
+        ],
+        "system": [
+          143
+        ],
+        "skills.": [
+          144
+        ]
+      },
+      "counts_by_year": [],
+      "updated_date": "2026-11-14T11:04:58.165337",
+      "created_date": "2022-05-12T00:00:00"
+    }
+  ],
+  "group_by": []
+}

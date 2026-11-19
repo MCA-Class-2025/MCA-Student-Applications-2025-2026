@@ -1,0 +1,3845 @@
+{
+  "meta": {
+    "notice": "No API key, so this request shares one free daily budget ($0.10) with everyone on your network's IP address. Get a free key with its own $1/day at https://openalex.org/settings/api and add api_key=YOUR_KEY to your requests. An AI agent can get one for its user in one call: POST https://api.openalex.org/api-keys with {\"email\": \"<your user's email>\"}; we email them a link, and the key works once they click it. Docs for agents: https://help.openalex.org/llms.txt",
+    "count": 2495,
+    "db_response_time_ms": 72,
+    "page": 1,
+    "per_page": 5,
+    "groups_count": null,
+    "x_query": {
+      "oql": "get works with (Grafana Engineer) in the title, abstract, or full text",
+      "x_new_oql": "get works with (Grafana Engineer) in the title, abstract, or full text",
+      "oqo": {
+        "get_rows": "works",
+        "filter_rows": [
+          {
+            "column_id": "fulltext.search",
+            "value": "Grafana Engineer",
+            "operator": "has"
+          }
+        ]
+      },
+      "url": "/works?filter=fulltext.search:Grafana Engineer&per_page=5",
+      "order": "best matches first",
+      "order_default": true
+    },
+    "cost_usd": 0.001
+  },
+  "results": [
+    {
+      "id": "https://openalex.org/W4415695170",
+      "doi": "https://doi.org/10.63282/3050-9246.ijetcsit-v6i4p103",
+      "title": "Automating Distributed Systems Monitoring with CloudWatch, OpsGenie, and Grafana: A Comprehensive Guide",
+      "display_name": "Automating Distributed Systems Monitoring with CloudWatch, OpsGenie, and Grafana: A Comprehensive Guide",
+      "relevance_score": 39.54303,
+      "publication_year": 2025,
+      "publication_date": "2025-10-08",
+      "ids": {
+        "openalex": "https://openalex.org/W4415695170",
+        "doi": "https://doi.org/10.63282/3050-9246.ijetcsit-v6i4p103"
+      },
+      "language": "en",
+      "primary_location": {
+        "id": "doi:10.63282/3050-9246.ijetcsit-v6i4p103",
+        "doi": "https://doi.org/10.63282/3050-9246.ijetcsit-v6i4p103",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.63282/3050-9246.ijetcsit-v6i4p103",
+        "pdf_url": "https://ijetcsit.org/index.php/ijetcsit/article/download/401/352",
+        "source": {
+          "id": "https://openalex.org/S5407047514",
+          "display_name": "International Journal of Emerging Trends in Computer Science and Information Technology",
+          "issn_l": "3050-9238",
+          "issn": [
+            "3050-9238",
+            "3050-9246"
+          ],
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "listed_in": [],
+          "host_organization": null,
+          "host_organization_name": null,
+          "host_organization_lineage": [],
+          "host_organization_lineage_names": [],
+          "type": "journal"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "International Journal of Emerging Trends in Computer Science and Information Technology",
+        "raw_type": "journal-article"
+      },
+      "parent_works": [],
+      "lineage": [
+        "https://openalex.org/W4415695170"
+      ],
+      "child_works_count": 0,
+      "type": "article",
+      "is_traditional": true,
+      "indexed_in": [
+        "crossref"
+      ],
+      "open_access": {
+        "is_oa": true,
+        "oa_status": "bronze",
+        "oa_url": "https://ijetcsit.org/index.php/ijetcsit/article/download/401/352",
+        "any_repository_has_fulltext": false
+      },
+      "authorships": [
+        {
+          "author_position": "first",
+          "author": {
+            "id": null,
+            "display_name": "Naga Surya Teja Thallam",
+            "orcid": null,
+            "observed_orcids": []
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I4210155268",
+              "display_name": "Salesforce (United States)",
+              "ror": "https://ror.org/057315g56",
+              "country_code": "US",
+              "type": "company",
+              "lineage": [
+                "https://openalex.org/I4210155268"
+              ]
+            }
+          ],
+          "countries": [
+            "US"
+          ],
+          "is_corresponding": true,
+          "raw_author_name": "Naga Surya Teja Thallam",
+          "raw_affiliation_strings": [
+            "Senior Software Engineer at Salesforce. USA"
+          ],
+          "raw_orcid": null,
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Senior Software Engineer at Salesforce. USA",
+              "institution_ids": [
+                "https://openalex.org/I4210155268"
+              ]
+            }
+          ]
+        }
+      ],
+      "institutions": [],
+      "countries_distinct_count": 1,
+      "institutions_distinct_count": 1,
+      "corresponding_author_ids": [],
+      "corresponding_institution_ids": [
+        "https://openalex.org/I4210155268"
+      ],
+      "apc_list": null,
+      "apc_paid": null,
+      "fwci": 0.2992,
+      "is_authors_truncated": false,
+      "has_fulltext": true,
+      "cited_by_count": 1,
+      "citation_normalized_percentile": {
+        "value": 0.51637428,
+        "is_in_top_1_percent": false,
+        "is_in_top_10_percent": false
+      },
+      "cited_by_percentile_year": {
+        "min": 89,
+        "max": 93
+      },
+      "biblio": {
+        "volume": "6",
+        "issue": "4",
+        "first_page": null,
+        "last_page": null
+      },
+      "is_retracted": false,
+      "is_paratext": false,
+      "is_xpac": false,
+      "primary_topic": {
+        "id": "https://openalex.org/T12127",
+        "display_name": "Software System Performance and Reliability",
+        "score": 0.9970999956130981,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1705",
+          "display_name": "Computer Networks and Communications"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      "topics": [
+        {
+          "id": "https://openalex.org/T12127",
+          "display_name": "Software System Performance and Reliability",
+          "score": 0.9970999956130981,
+          "subfield": {
+            "id": "https://openalex.org/subfields/1705",
+            "display_name": "Computer Networks and Communications"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/17",
+            "display_name": "Computer Science"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T10101",
+          "display_name": "Cloud Computing and Resource Management",
+          "score": 0.003100000089034438,
+          "subfield": {
+            "id": "https://openalex.org/subfields/1710",
+            "display_name": "Information Systems"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/17",
+            "display_name": "Computer Science"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T10772",
+          "display_name": "Distributed systems and fault tolerance",
+          "score": 0.0,
+          "subfield": {
+            "id": "https://openalex.org/subfields/1705",
+            "display_name": "Computer Networks and Communications"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/17",
+            "display_name": "Computer Science"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        }
+      ],
+      "keywords": [
+        {
+          "id": "https://openalex.org/keywords/distributed-systems-monitoring",
+          "display_name": "distributed systems monitoring",
+          "score": 0.9570000171661377
+        },
+        {
+          "id": "https://openalex.org/keywords/automatic-monitoring",
+          "display_name": "automated monitoring",
+          "score": 0.9279999732971191
+        },
+        {
+          "id": "https://openalex.org/keywords/grafana",
+          "display_name": "Grafana",
+          "score": 1.0
+        },
+        {
+          "id": "https://openalex.org/keywords/alerting",
+          "display_name": "alerting",
+          "score": 0.6779999732971191
+        },
+        {
+          "id": "https://openalex.org/keywords/anomaly-detection",
+          "display_name": "anomaly detection",
+          "score": 0.9129999876022339
+        },
+        {
+          "id": "https://openalex.org/keywords/dashboarding",
+          "display_name": "dashboarding",
+          "score": 0.6539999842643738
+        },
+        {
+          "id": "https://openalex.org/keywords/key-performance-indicators",
+          "display_name": "key performance indicators",
+          "score": 0.921999990940094
+        },
+        {
+          "id": "https://openalex.org/keywords/mean-time-to-detect",
+          "display_name": "mean time to detect",
+          "score": 0.796999990940094
+        },
+        {
+          "id": "https://openalex.org/keywords/system-availability",
+          "display_name": "system availability",
+          "score": 0.6480000019073486
+        },
+        {
+          "id": "https://openalex.org/keywords/latency",
+          "display_name": "latency",
+          "score": 0.4869999885559082
+        },
+        {
+          "id": "https://openalex.org/keywords/throughput",
+          "display_name": "throughput",
+          "score": 0.9900000095367432
+        },
+        {
+          "id": "https://openalex.org/keywords/cloud-native-applications",
+          "display_name": "cloud-native applications",
+          "score": 0.7129999995231628
+        },
+        {
+          "id": "https://openalex.org/keywords/devops",
+          "display_name": "DevOps",
+          "score": 0.890999972820282
+        }
+      ],
+      "concepts": [
+        {
+          "id": "https://openalex.org/C79974875",
+          "wikidata": "https://www.wikidata.org/wiki/Q483639",
+          "display_name": "Cloud computing",
+          "level": 2,
+          "score": 0.7792999744415283
+        },
+        {
+          "id": "https://openalex.org/C41008148",
+          "wikidata": "https://www.wikidata.org/wiki/Q21198",
+          "display_name": "Computer science",
+          "level": 0,
+          "score": 0.6875
+        },
+        {
+          "id": "https://openalex.org/C9903902",
+          "wikidata": "https://www.wikidata.org/wiki/Q3025536",
+          "display_name": "DevOps",
+          "level": 3,
+          "score": 0.6402999758720398
+        },
+        {
+          "id": "https://openalex.org/C180591934",
+          "wikidata": "https://www.wikidata.org/wiki/Q1253369",
+          "display_name": "Downtime",
+          "level": 2,
+          "score": 0.6377999782562256
+        },
+        {
+          "id": "https://openalex.org/C115901376",
+          "wikidata": "https://www.wikidata.org/wiki/Q184199",
+          "display_name": "Automation",
+          "level": 2,
+          "score": 0.5992000102996826
+        },
+        {
+          "id": "https://openalex.org/C26517878",
+          "wikidata": "https://www.wikidata.org/wiki/Q228039",
+          "display_name": "Key (lock)",
+          "level": 2,
+          "score": 0.47369998693466187
+        },
+        {
+          "id": "https://openalex.org/C120314980",
+          "wikidata": "https://www.wikidata.org/wiki/Q180634",
+          "display_name": "Distributed computing",
+          "level": 1,
+          "score": 0.41850000619888306
+        },
+        {
+          "id": "https://openalex.org/C739882",
+          "wikidata": "https://www.wikidata.org/wiki/Q3560506",
+          "display_name": "Anomaly detection",
+          "level": 2,
+          "score": 0.4113999903202057
+        },
+        {
+          "id": "https://openalex.org/C201995342",
+          "wikidata": "https://www.wikidata.org/wiki/Q682496",
+          "display_name": "Systems engineering",
+          "level": 1,
+          "score": 0.38269999623298645
+        },
+        {
+          "id": "https://openalex.org/C200749887",
+          "wikidata": "https://www.wikidata.org/wiki/Q1165574",
+          "display_name": "System monitoring",
+          "level": 2,
+          "score": 0.37470000982284546
+        },
+        {
+          "id": "https://openalex.org/C2779585090",
+          "wikidata": "https://www.wikidata.org/wiki/Q3457762",
+          "display_name": "Resilience (materials science)",
+          "level": 2,
+          "score": 0.3546000123023987
+        },
+        {
+          "id": "https://openalex.org/C21457203",
+          "wikidata": "https://www.wikidata.org/wiki/Q4056293",
+          "display_name": "Process automation system",
+          "level": 3,
+          "score": 0.3377000093460083
+        },
+        {
+          "id": "https://openalex.org/C43645609",
+          "wikidata": "https://www.wikidata.org/wiki/Q60750670",
+          "display_name": "Information technology operations",
+          "level": 3,
+          "score": 0.33649998903274536
+        },
+        {
+          "id": "https://openalex.org/C25344961",
+          "wikidata": "https://www.wikidata.org/wiki/Q192726",
+          "display_name": "Virtual machine",
+          "level": 2,
+          "score": 0.3240000009536743
+        },
+        {
+          "id": "https://openalex.org/C115903868",
+          "wikidata": "https://www.wikidata.org/wiki/Q80993",
+          "display_name": "Software engineering",
+          "level": 1,
+          "score": 0.3156000077724457
+        },
+        {
+          "id": "https://openalex.org/C79403827",
+          "wikidata": "https://www.wikidata.org/wiki/Q3988",
+          "display_name": "Real-time computing",
+          "level": 1,
+          "score": 0.31520000100135803
+        }
+      ],
+      "mesh": [],
+      "locations_count": 2,
+      "locations": [
+        {
+          "id": "doi:10.63282/3050-9246.ijetcsit-v6i4p103",
+          "doi": "https://doi.org/10.63282/3050-9246.ijetcsit-v6i4p103",
+          "is_oa": true,
+          "landing_page_url": "https://doi.org/10.63282/3050-9246.ijetcsit-v6i4p103",
+          "pdf_url": "https://ijetcsit.org/index.php/ijetcsit/article/download/401/352",
+          "source": {
+            "id": "https://openalex.org/S5407047514",
+            "display_name": "International Journal of Emerging Trends in Computer Science and Information Technology",
+            "issn_l": "3050-9238",
+            "issn": [
+              "3050-9238",
+              "3050-9246"
+            ],
+            "is_oa": false,
+            "is_in_doaj": false,
+            "is_core": false,
+            "listed_in": [],
+            "host_organization": null,
+            "host_organization_name": null,
+            "host_organization_lineage": [],
+            "host_organization_lineage_names": [],
+            "type": "journal"
+          },
+          "license": null,
+          "license_id": null,
+          "version": "publishedVersion",
+          "is_accepted": true,
+          "is_published": true,
+          "raw_source_name": "International Journal of Emerging Trends in Computer Science and Information Technology",
+          "raw_type": "journal-article"
+        },
+        {
+          "id": "pmh:oai:ojs2.ijetcsit.org:article/401",
+          "doi": null,
+          "is_oa": false,
+          "landing_page_url": "https://ijetcsit.org/index.php/ijetcsit/article/view/401",
+          "pdf_url": null,
+          "source": {
+            "id": "https://openalex.org/S5407047514",
+            "display_name": "International Journal of Emerging Trends in Computer Science and Information Technology",
+            "issn_l": "3050-9238",
+            "issn": [
+              "3050-9238",
+              "3050-9246"
+            ],
+            "is_oa": false,
+            "is_in_doaj": false,
+            "is_core": false,
+            "listed_in": [],
+            "host_organization": null,
+            "host_organization_name": null,
+            "host_organization_lineage": [],
+            "host_organization_lineage_names": [],
+            "type": "journal"
+          },
+          "license": null,
+          "license_id": null,
+          "version": "publishedVersion",
+          "is_accepted": true,
+          "is_published": true,
+          "raw_source_name": "3050-9238",
+          "raw_type": "info:eu-repo/semantics/article"
+        }
+      ],
+      "best_oa_location": {
+        "id": "doi:10.63282/3050-9246.ijetcsit-v6i4p103",
+        "doi": "https://doi.org/10.63282/3050-9246.ijetcsit-v6i4p103",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.63282/3050-9246.ijetcsit-v6i4p103",
+        "pdf_url": "https://ijetcsit.org/index.php/ijetcsit/article/download/401/352",
+        "source": {
+          "id": "https://openalex.org/S5407047514",
+          "display_name": "International Journal of Emerging Trends in Computer Science and Information Technology",
+          "issn_l": "3050-9238",
+          "issn": [
+            "3050-9238",
+            "3050-9246"
+          ],
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "listed_in": [],
+          "host_organization": null,
+          "host_organization_name": null,
+          "host_organization_lineage": [],
+          "host_organization_lineage_names": [],
+          "type": "journal"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "International Journal of Emerging Trends in Computer Science and Information Technology",
+        "raw_type": "journal-article"
+      },
+      "sustainable_development_goals": [
+        {
+          "display_name": "Industry, innovation and infrastructure",
+          "id": "https://metadata.un.org/sdg/9",
+          "score": 0.7207000255584717
+        }
+      ],
+      "study_designs": [],
+      "awards": [],
+      "funders": [],
+      "has_content": {
+        "grobid_xml": true,
+        "pdf": true
+      },
+      "content_urls": {
+        "pdf": "https://content.openalex.org/works/W4415695170.pdf",
+        "grobid_xml": "https://content.openalex.org/works/W4415695170.grobid-xml"
+      },
+      "referenced_works_count": 21,
+      "referenced_works": [
+        "https://openalex.org/W848033213",
+        "https://openalex.org/W1544087054",
+        "https://openalex.org/W2000920251",
+        "https://openalex.org/W2009130475",
+        "https://openalex.org/W2021258763",
+        "https://openalex.org/W2071543701",
+        "https://openalex.org/W2100967097",
+        "https://openalex.org/W2107557955",
+        "https://openalex.org/W2110713969",
+        "https://openalex.org/W2156978841",
+        "https://openalex.org/W2313245634",
+        "https://openalex.org/W2319428271",
+        "https://openalex.org/W2404550413",
+        "https://openalex.org/W2494017318",
+        "https://openalex.org/W2561109496",
+        "https://openalex.org/W2744543204",
+        "https://openalex.org/W2762749508",
+        "https://openalex.org/W2766680303",
+        "https://openalex.org/W2958487776",
+        "https://openalex.org/W2966580058",
+        "https://openalex.org/W4293391258"
+      ],
+      "related_works": [
+        "https://openalex.org/W4416691282",
+        "https://openalex.org/W7204957331",
+        "https://openalex.org/W7116074420",
+        "https://openalex.org/W7167807059",
+        "https://openalex.org/W7161139200",
+        "https://openalex.org/W7155167771",
+        "https://openalex.org/W1518112359",
+        "https://openalex.org/W7129474055",
+        "https://openalex.org/W7134070806",
+        "https://openalex.org/W7221502098"
+      ],
+      "abstract_inverted_index": {
+        "Modern": [
+          0
+        ],
+        "cloud": [
+          1,
+          145,
+          199
+        ],
+        "computing": [
+          2
+        ],
+        "infrastructures": [
+          3
+        ],
+        "are": [
+          4,
+          185
+        ],
+        "based": [
+          5,
+          111
+        ],
+        "on": [
+          6,
+          112
+        ],
+        "distributed": [
+          7,
+          58,
+          211
+        ],
+        "systems": [
+          8,
+          59
+        ],
+        "and": [
+          9,
+          22,
+          24,
+          41,
+          66,
+          86,
+          106,
+          136,
+          155,
+          183,
+          198
+        ],
+        "the": [
+          10,
+          57,
+          92,
+          113,
+          152,
+          158
+        ],
+        "need": [
+          11
+        ],
+        "for": [
+          12,
+          55,
+          193,
+          209
+        ],
+        "such": [
+          13,
+          130
+        ],
+        "monitoring": [
+          14,
+          40,
+          60,
+          76,
+          96,
+          207
+        ],
+        "solutions": [
+          15
+        ],
+        "is": [
+          16,
+          120,
+          148,
+          176
+        ],
+        "essential": [
+          17
+        ],
+        "to": [
+          18,
+          75,
+          124,
+          150,
+          163,
+          171,
+          202
+        ],
+        "keep": [
+          19
+        ],
+        "them": [
+          20
+        ],
+        "reliable": [
+          21
+        ],
+        "available,": [
+          23
+        ],
+        "in": [
+          25,
+          122,
+          143
+        ],
+        "full": [
+          26
+        ],
+        "use": [
+          27,
+          114
+        ],
+        "of": [
+          28,
+          33,
+          95,
+          115
+        ],
+        "their": [
+          29
+        ],
+        "performance.": [
+          30
+        ],
+        "The": [
+          31
+        ],
+        "growth": [
+          32
+        ],
+        "operations": [
+          34
+        ],
+        "then": [
+          35
+        ],
+        "becomes": [
+          36
+        ],
+        "unscalable": [
+          37
+        ],
+        "using": [
+          38,
+          187
+        ],
+        "manual": [
+          39
+        ],
+        "requires": [
+          42
+        ],
+        "an": [
+          43,
+          204
+        ],
+        "automation": [
+          44,
+          97
+        ],
+        "driven": [
+          45,
+          102
+        ],
+        "approach.": [
+          46
+        ],
+        "In": [
+          47
+        ],
+        "this": [
+          48
+        ],
+        "paper,": [
+          49
+        ],
+        "we": [
+          50
+        ],
+        "provide": [
+          51,
+          71
+        ],
+        "a": [
+          52,
+          72,
+          116,
+          144
+        ],
+        "comprehensive": [
+          53
+        ],
+        "framework": [
+          54,
+          154,
+          159
+        ],
+        "automating": [
+          56
+        ],
+        "with": [
+          61,
+          83
+        ],
+        "Amazon": [
+          62
+        ],
+        "Cloud": [
+          63
+        ],
+        "Watch,": [
+          64
+        ],
+        "OpsGenie": [
+          65
+        ],
+        "Grafana.": [
+          67
+        ],
+        "These": [
+          68
+        ],
+        "tools": [
+          69
+        ],
+        "collectively": [
+          70
+        ],
+        "holistic": [
+          73
+        ],
+        "view": [
+          74
+        ],
+        "by": [
+          77,
+          98
+        ],
+        "bringing": [
+          78
+        ],
+        "real": [
+          79
+        ],
+        "time": [
+          80
+        ],
+        "telemetry": [
+          81
+        ],
+        "together": [
+          82
+        ],
+        "intelligent": [
+          84
+        ],
+        "alerting": [
+          85
+        ],
+        "advanced": [
+          87
+        ],
+        "visualization.": [
+          88
+        ],
+        "Our": [
+          89
+        ],
+        "paper": [
+          90
+        ],
+        "elaborates": [
+          91
+        ],
+        "architectural": [
+          93
+        ],
+        "aspect": [
+          94
+        ],
+        "data": [
+          99
+        ],
+        "collection,": [
+          100
+        ],
+        "event": [
+          101
+        ],
+        "notification,": [
+          103
+        ],
+        "anomaly": [
+          104
+        ],
+        "detection,": [
+          105
+        ],
+        "dashboarding": [
+          107
+        ],
+        "strategies.": [
+          108
+        ],
+        "A": [
+          109
+        ],
+        "methodology": [
+          110
+        ],
+        "mathematical": [
+          117
+        ],
+        "modeling": [
+          118
+        ],
+        "approach": [
+          119
+        ],
+        "introduced": [
+          121
+        ],
+        "order": [
+          123
+        ],
+        "formalize": [
+          125
+        ],
+        "key": [
+          126
+        ],
+        "performance": [
+          127
+        ],
+        "indicators": [
+          128
+        ],
+        "(KPIs)": [
+          129
+        ],
+        "as": [
+          131,
+          166,
+          168
+        ],
+        "latency": [
+          132
+        ],
+        "(L),": [
+          133
+        ],
+        "throughput": [
+          134
+        ],
+        "(T)": [
+          135
+        ],
+        "system": [
+          137,
+          181,
+          194
+        ],
+        "availability": [
+          138
+        ],
+        "(A).": [
+          139
+        ],
+        "Thorough": [
+          140
+        ],
+        "empirical": [
+          141
+        ],
+        "analysis": [
+          142
+        ],
+        "native": [
+          146
+        ],
+        "environment": [
+          147
+        ],
+        "used": [
+          149
+        ],
+        "evaluate": [
+          151
+        ],
+        "proposed": [
+          153
+        ],
+        "shows": [
+          156
+        ],
+        "how": [
+          157
+        ],
+        "decreases": [
+          160
+        ],
+        "Mean": [
+          161,
+          169
+        ],
+        "Time": [
+          162,
+          170
+        ],
+        "Detect": [
+          164
+        ],
+        "(MTTD)": [
+          165
+        ],
+        "well": [
+          167
+        ],
+        "Resolve": [
+          172
+        ],
+        "(MTTR)": [
+          173
+        ],
+        "incidents.": [
+          174
+        ],
+        "It": [
+          175
+        ],
+        "shown": [
+          177
+        ],
+        "that": [
+          178
+        ],
+        "operational": [
+          179
+        ],
+        "efficiency,": [
+          180
+        ],
+        "resilience": [
+          182
+        ],
+        "downtime": [
+          184
+        ],
+        "minimized": [
+          186
+        ],
+        "automation.": [
+          188
+        ],
+        "This": [
+          189
+        ],
+        "research": [
+          190
+        ],
+        "provides": [
+          191
+        ],
+        "insights": [
+          192
+        ],
+        "architects,": [
+          195
+        ],
+        "DevOps": [
+          196
+        ],
+        "engineers,": [
+          197
+        ],
+        "practitioners": [
+          200
+        ],
+        "seeking": [
+          201
+        ],
+        "implement": [
+          203
+        ],
+        "intelligent,": [
+          205
+        ],
+        "automated": [
+          206
+        ],
+        "strategy": [
+          208
+        ],
+        "large-scale": [
+          210
+        ],
+        "applications": [
+          212
+        ]
+      },
+      "counts_by_year": [
+        {
+          "year": 2025,
+          "cited_by_count": 1
+        }
+      ],
+      "updated_date": "2026-11-12T12:28:57.059296",
+      "created_date": "2025-10-30T00:00:00"
+    },
+    {
+      "id": "https://openalex.org/W4403074380",
+      "doi": "https://doi.org/10.5120/ijca2024923873",
+      "title": "Implementing an effective Infrastructure Monitoring Solution with Prometheus and Grafana",
+      "display_name": "Implementing an effective Infrastructure Monitoring Solution with Prometheus and Grafana",
+      "relevance_score": 38.443363,
+      "publication_year": 2024,
+      "publication_date": "2024-09-26",
+      "ids": {
+        "openalex": "https://openalex.org/W4403074380",
+        "doi": "https://doi.org/10.5120/ijca2024923873"
+      },
+      "language": "en",
+      "primary_location": {
+        "id": "doi:10.5120/ijca2024923873",
+        "doi": "https://doi.org/10.5120/ijca2024923873",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.5120/ijca2024923873",
+        "pdf_url": "https://doi.org/10.5120/ijca2024923873",
+        "source": {
+          "id": "https://openalex.org/S4210206007",
+          "display_name": "International Journal of Computer Applications",
+          "issn_l": "0975-8887",
+          "issn": [
+            "0975-8887"
+          ],
+          "is_oa": true,
+          "is_in_doaj": false,
+          "is_core": true,
+          "listed_in": [
+            "anvur-scientific",
+            "cwts-core"
+          ],
+          "host_organization": "https://openalex.org/P4322545532",
+          "host_organization_name": "Foundation of Computer Science",
+          "host_organization_lineage": [
+            "https://openalex.org/P4322545532"
+          ],
+          "host_organization_lineage_names": [
+            "Foundation of Computer Science"
+          ],
+          "type": "journal"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "International Journal of Computer Applications",
+        "raw_type": "journal-article"
+      },
+      "parent_works": [],
+      "lineage": [
+        "https://openalex.org/W4403074380"
+      ],
+      "child_works_count": 0,
+      "type": "article",
+      "is_traditional": true,
+      "indexed_in": [
+        "crossref"
+      ],
+      "open_access": {
+        "is_oa": true,
+        "oa_status": "diamond",
+        "oa_url": "https://doi.org/10.5120/ijca2024923873",
+        "any_repository_has_fulltext": false
+      },
+      "authorships": [
+        {
+          "author_position": "first",
+          "author": {
+            "id": "https://openalex.org/A5152881282",
+            "display_name": "Pragathi B.C.",
+            "orcid": null,
+            "observed_orcids": []
+          },
+          "institutions": [],
+          "countries": [],
+          "is_corresponding": false,
+          "raw_author_name": "Pragathi B.C.",
+          "raw_affiliation_strings": [],
+          "raw_orcid": null,
+          "affiliations": []
+        },
+        {
+          "author_position": "middle",
+          "author": {
+            "id": "https://openalex.org/A5107712175",
+            "display_name": "Hrithik Maddirala",
+            "orcid": "https://orcid.org/0009-0009-8382-9538",
+            "observed_orcids": [
+              "https://orcid.org/0009-0009-8382-9538"
+            ]
+          },
+          "institutions": [],
+          "countries": [],
+          "is_corresponding": false,
+          "raw_author_name": "Hrithik Maddirala",
+          "raw_affiliation_strings": [],
+          "raw_orcid": null,
+          "affiliations": []
+        },
+        {
+          "author_position": "last",
+          "author": {
+            "id": "https://openalex.org/A5038209474",
+            "display_name": "M Sneha",
+            "orcid": "https://orcid.org/0009-0000-0121-3153",
+            "observed_orcids": [
+              "https://orcid.org/0009-0000-0121-3153"
+            ]
+          },
+          "institutions": [],
+          "countries": [],
+          "is_corresponding": false,
+          "raw_author_name": "Sneha M.",
+          "raw_affiliation_strings": [],
+          "raw_orcid": null,
+          "affiliations": []
+        }
+      ],
+      "institutions": [],
+      "countries_distinct_count": 0,
+      "institutions_distinct_count": 0,
+      "corresponding_author_ids": [],
+      "corresponding_institution_ids": [],
+      "apc_list": null,
+      "apc_paid": null,
+      "fwci": 1.6581,
+      "is_authors_truncated": false,
+      "has_fulltext": true,
+      "cited_by_count": 13,
+      "citation_normalized_percentile": {
+        "value": 0.82879535,
+        "is_in_top_1_percent": false,
+        "is_in_top_10_percent": false
+      },
+      "cited_by_percentile_year": {
+        "min": 88,
+        "max": 99
+      },
+      "biblio": {
+        "volume": "186",
+        "issue": "38",
+        "first_page": "7",
+        "last_page": "15"
+      },
+      "is_retracted": false,
+      "is_paratext": false,
+      "is_xpac": false,
+      "primary_topic": {
+        "id": "https://openalex.org/T12127",
+        "display_name": "Software System Performance and Reliability",
+        "score": 0.9907000064849854,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1705",
+          "display_name": "Computer Networks and Communications"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      "topics": [
+        {
+          "id": "https://openalex.org/T12127",
+          "display_name": "Software System Performance and Reliability",
+          "score": 0.9907000064849854,
+          "subfield": {
+            "id": "https://openalex.org/subfields/1705",
+            "display_name": "Computer Networks and Communications"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/17",
+            "display_name": "Computer Science"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T10101",
+          "display_name": "Cloud Computing and Resource Management",
+          "score": 0.009200000204145908,
+          "subfield": {
+            "id": "https://openalex.org/subfields/1710",
+            "display_name": "Information Systems"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/17",
+            "display_name": "Computer Science"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T12203",
+          "display_name": "Mobile Agent-Based Network Management",
+          "score": 0.0,
+          "subfield": {
+            "id": "https://openalex.org/subfields/1705",
+            "display_name": "Computer Networks and Communications"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/17",
+            "display_name": "Computer Science"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        }
+      ],
+      "keywords": [
+        {
+          "id": "https://openalex.org/keywords/infrastructure-monitoring",
+          "display_name": "infrastructure monitoring",
+          "score": 0.9629999995231628
+        },
+        {
+          "id": "https://openalex.org/keywords/prometheus",
+          "display_name": "Prometheus",
+          "score": 0.949999988079071
+        },
+        {
+          "id": "https://openalex.org/keywords/grafana",
+          "display_name": "Grafana",
+          "score": 1.0
+        },
+        {
+          "id": "https://openalex.org/keywords/kubernetes",
+          "display_name": "Kubernetes",
+          "score": 0.7940000295639038
+        },
+        {
+          "id": "https://openalex.org/keywords/monitoring-dashboard",
+          "display_name": "monitoring dashboard",
+          "score": 0.7739999890327454
+        },
+        {
+          "id": "https://openalex.org/keywords/system-resource-utilization",
+          "display_name": "system resource utilization",
+          "score": 0.7110000252723694
+        },
+        {
+          "id": "https://openalex.org/keywords/anomaly-detection",
+          "display_name": "anomaly detection",
+          "score": 0.9279999732971191
+        },
+        {
+          "id": "https://openalex.org/keywords/resource-allocation",
+          "display_name": "resource allocation",
+          "score": 0.6759999990463257
+        }
+      ],
+      "concepts": [
+        {
+          "id": "https://openalex.org/C41008148",
+          "wikidata": "https://www.wikidata.org/wiki/Q21198",
+          "display_name": "Computer science",
+          "level": 0,
+          "score": 0.8986122608184814
+        },
+        {
+          "id": "https://openalex.org/C2522767166",
+          "wikidata": "https://www.wikidata.org/wiki/Q2374463",
+          "display_name": "Data science",
+          "level": 1,
+          "score": 0.4139152765274048
+        }
+      ],
+      "mesh": [],
+      "locations_count": 1,
+      "locations": [
+        {
+          "id": "doi:10.5120/ijca2024923873",
+          "doi": "https://doi.org/10.5120/ijca2024923873",
+          "is_oa": true,
+          "landing_page_url": "https://doi.org/10.5120/ijca2024923873",
+          "pdf_url": "https://doi.org/10.5120/ijca2024923873",
+          "source": {
+            "id": "https://openalex.org/S4210206007",
+            "display_name": "International Journal of Computer Applications",
+            "issn_l": "0975-8887",
+            "issn": [
+              "0975-8887"
+            ],
+            "is_oa": true,
+            "is_in_doaj": false,
+            "is_core": true,
+            "listed_in": [
+              "anvur-scientific",
+              "cwts-core"
+            ],
+            "host_organization": "https://openalex.org/P4322545532",
+            "host_organization_name": "Foundation of Computer Science",
+            "host_organization_lineage": [
+              "https://openalex.org/P4322545532"
+            ],
+            "host_organization_lineage_names": [
+              "Foundation of Computer Science"
+            ],
+            "type": "journal"
+          },
+          "license": null,
+          "license_id": null,
+          "version": "publishedVersion",
+          "is_accepted": true,
+          "is_published": true,
+          "raw_source_name": "International Journal of Computer Applications",
+          "raw_type": "journal-article"
+        }
+      ],
+      "best_oa_location": {
+        "id": "doi:10.5120/ijca2024923873",
+        "doi": "https://doi.org/10.5120/ijca2024923873",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.5120/ijca2024923873",
+        "pdf_url": "https://doi.org/10.5120/ijca2024923873",
+        "source": {
+          "id": "https://openalex.org/S4210206007",
+          "display_name": "International Journal of Computer Applications",
+          "issn_l": "0975-8887",
+          "issn": [
+            "0975-8887"
+          ],
+          "is_oa": true,
+          "is_in_doaj": false,
+          "is_core": true,
+          "listed_in": [
+            "anvur-scientific",
+            "cwts-core"
+          ],
+          "host_organization": "https://openalex.org/P4322545532",
+          "host_organization_name": "Foundation of Computer Science",
+          "host_organization_lineage": [
+            "https://openalex.org/P4322545532"
+          ],
+          "host_organization_lineage_names": [
+            "Foundation of Computer Science"
+          ],
+          "type": "journal"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "International Journal of Computer Applications",
+        "raw_type": "journal-article"
+      },
+      "sustainable_development_goals": [
+        {
+          "display_name": "Industry, innovation and infrastructure",
+          "id": "https://metadata.un.org/sdg/9",
+          "score": 0.7207000255584717
+        }
+      ],
+      "study_designs": [],
+      "awards": [],
+      "funders": [],
+      "has_content": {
+        "grobid_xml": true,
+        "pdf": true
+      },
+      "content_urls": {
+        "pdf": "https://content.openalex.org/works/W4403074380.pdf",
+        "grobid_xml": "https://content.openalex.org/works/W4403074380.grobid-xml"
+      },
+      "referenced_works_count": 14,
+      "referenced_works": [
+        "https://openalex.org/W2072302815",
+        "https://openalex.org/W3016092102",
+        "https://openalex.org/W3109960695",
+        "https://openalex.org/W3157425484",
+        "https://openalex.org/W4207057835",
+        "https://openalex.org/W4281657149",
+        "https://openalex.org/W4388483449",
+        "https://openalex.org/W4388937596",
+        "https://openalex.org/W4389933737",
+        "https://openalex.org/W4390224741",
+        "https://openalex.org/W4391331388",
+        "https://openalex.org/W4392944181",
+        "https://openalex.org/W4392981990",
+        "https://openalex.org/W4396673875"
+      ],
+      "related_works": [
+        "https://openalex.org/W4399495766",
+        "https://openalex.org/W7048732001",
+        "https://openalex.org/W7214233465",
+        "https://openalex.org/W7112001873",
+        "https://openalex.org/W6948846916",
+        "https://openalex.org/W4411204267",
+        "https://openalex.org/W7201460473",
+        "https://openalex.org/W6893240970",
+        "https://openalex.org/W4412135720",
+        "https://openalex.org/W7167807059"
+      ],
+      "abstract_inverted_index": {
+        "This": [
+          0
+        ],
+        "paper": [
+          1
+        ],
+        "investigates": [
+          2
+        ],
+        "the": [
+          3,
+          21,
+          32,
+          36,
+          44,
+          57,
+          82,
+          97,
+          114,
+          146,
+          149,
+          161
+        ],
+        "implementation": [
+          4
+        ],
+        "of": [
+          5,
+          29,
+          38,
+          84,
+          118,
+          148,
+          163
+        ],
+        "a": [
+          6,
+          17,
+          50,
+          62
+        ],
+        "robust": [
+          7
+        ],
+        "monitoring": [
+          8,
+          40,
+          59,
+          88,
+          98,
+          150
+        ],
+        "solution": [
+          9,
+          151
+        ],
+        "using": [
+          10
+        ],
+        "Prometheus,": [
+          11,
+          54
+        ],
+        "Grafana,": [
+          12
+        ],
+        "and": [
+          13,
+          26,
+          42,
+          71,
+          91,
+          110,
+          138,
+          159
+        ],
+        "Node": [
+          14
+        ],
+        "Exporter": [
+          15,
+          94
+        ],
+        "in": [
+          16,
+          152
+        ],
+        "Kubernetes": [
+          18,
+          30,
+          69,
+          129,
+          164
+        ],
+        "environment.Motivated": [
+          19
+        ],
+        "by": [
+          20,
+          76,
+          100
+        ],
+        "need": [
+          22
+        ],
+        "for": [
+          23,
+          87
+        ],
+        "real-time": [
+          24
+        ],
+        "insights": [
+          25,
+          126
+        ],
+        "proactive": [
+          27,
+          139
+        ],
+        "management": [
+          28
+        ],
+        "clusters,": [
+          31
+        ],
+        "study": [
+          33,
+          141
+        ],
+        "delves": [
+          34
+        ],
+        "into": [
+          35,
+          127
+        ],
+        "cause": [
+          37
+        ],
+        "infrastructure": [
+          39,
+          154
+        ],
+        "challenges": [
+          41
+        ],
+        "explores": [
+          43
+        ],
+        "methodology": [
+          45
+        ],
+        "employed": [
+          46
+        ],
+        "to": [
+          47,
+          65,
+          123
+        ],
+        "address": [
+          48
+        ],
+        "them.Through": [
+          49
+        ],
+        "meticulous": [
+          51
+        ],
+        "deployment": [
+          52
+        ],
+        "process,": [
+          53
+        ],
+        "functioning": [
+          55
+        ],
+        "as": [
+          56
+        ],
+        "central": [
+          58
+        ],
+        "component,": [
+          60
+        ],
+        "adopts": [
+          61
+        ],
+        "pull-based": [
+          63
+        ],
+        "approach": [
+          64
+        ],
+        "collect": [
+          66
+        ],
+        "metrics": [
+          67
+        ],
+        "from": [
+          68
+        ],
+        "nodes": [
+          70
+        ],
+        "pods.Meanwhile,": [
+          72
+        ],
+        "Grafana": [
+          73
+        ],
+        "complements": [
+          74
+        ],
+        "Prometheus": [
+          75
+        ],
+        "offering": [
+          77
+        ],
+        "powerful": [
+          78
+        ],
+        "visualization": [
+          79
+        ],
+        "capabilities,": [
+          80
+        ],
+        "facilitating": [
+          81,
+          131
+        ],
+        "creation": [
+          83
+        ],
+        "dynamic": [
+          85
+        ],
+        "dashboards": [
+          86
+        ],
+        "system": [
+          89,
+          99,
+          103
+        ],
+        "performance": [
+          90
+        ],
+        "resource": [
+          92,
+          136
+        ],
+        "utilization.Node": [
+          93
+        ],
+        "further": [
+          95
+        ],
+        "enhances": [
+          96
+        ],
+        "providing": [
+          101
+        ],
+        "detailed": [
+          102
+        ],
+        "metrics,": [
+          104
+        ],
+        "including": [
+          105
+        ],
+        "CPU": [
+          106
+        ],
+        "usage,": [
+          107
+        ],
+        "memory": [
+          108
+        ],
+        "utilization,": [
+          109
+        ],
+        "disk": [
+          111
+        ],
+        "I/O,": [
+          112
+        ],
+        "at": [
+          113
+        ],
+        "node": [
+          115
+        ],
+        "level.The": [
+          116
+        ],
+        "integration": [
+          117
+        ],
+        "these": [
+          119
+        ],
+        "tools": [
+          120
+        ],
+        "enables": [
+          121
+        ],
+        "organizations": [
+          122
+        ],
+        "gain": [
+          124
+        ],
+        "comprehensive": [
+          125
+        ],
+        "their": [
+          128
+        ],
+        "infrastructure,": [
+          130
+        ],
+        "timely": [
+          132
+        ],
+        "anomaly": [
+          133
+        ],
+        "detection,": [
+          134
+        ],
+        "efficient": [
+          135
+        ],
+        "allocation,": [
+          137
+        ],
+        "management.The": [
+          140
+        ],
+        "presents": [
+          142
+        ],
+        "compelling": [
+          143
+        ],
+        "results": [
+          144
+        ],
+        "demonstrating": [
+          145
+        ],
+        "effectiveness": [
+          147
+        ],
+        "improving": [
+          153
+        ],
+        "visibility,": [
+          155
+        ],
+        "enhancing": [
+          156
+        ],
+        "operational": [
+          157
+        ],
+        "efficiency,": [
+          158
+        ],
+        "ensuring": [
+          160
+        ],
+        "reliability": [
+          162
+        ],
+        "deployments.": [
+          165
+        ]
+      },
+      "counts_by_year": [
+        {
+          "year": 2026,
+          "cited_by_count": 8
+        },
+        {
+          "year": 2025,
+          "cited_by_count": 4
+        },
+        {
+          "year": 2024,
+          "cited_by_count": 1
+        }
+      ],
+      "updated_date": "2026-11-10T11:39:43.021295",
+      "created_date": "2024-10-03T00:00:00"
+    },
+    {
+      "id": "https://openalex.org/W7205006396",
+      "doi": "https://doi.org/10.56472/25832646/jeta-v6i3p112",
+      "title": "Performance Analytics with Grafana and Prometheus for Edge Cloud Architectures",
+      "display_name": "Performance Analytics with Grafana and Prometheus for Edge Cloud Architectures",
+      "relevance_score": 36.750896,
+      "publication_year": 2026,
+      "publication_date": "2026-01-01",
+      "ids": {
+        "openalex": "https://openalex.org/W7205006396",
+        "doi": "https://doi.org/10.56472/25832646/jeta-v6i3p112"
+      },
+      "language": "en",
+      "primary_location": {
+        "id": "doi:10.56472/25832646/jeta-v6i3p112",
+        "doi": "https://doi.org/10.56472/25832646/jeta-v6i3p112",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.56472/25832646/jeta-v6i3p112",
+        "pdf_url": "https://www.espjeta.org/Volume6-Issue3/JETA-V6I3P112.pdf",
+        "source": {
+          "id": "https://openalex.org/S4387282162",
+          "display_name": "ESP Journal of Engineering & Technology Advancements",
+          "issn_l": "2583-2646",
+          "issn": [
+            "2583-2646"
+          ],
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "listed_in": [],
+          "host_organization": null,
+          "host_organization_name": null,
+          "host_organization_lineage": [],
+          "host_organization_lineage_names": [],
+          "type": "journal"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "ESP Journal of Engineering &amp; Technology Advancements",
+        "raw_type": "journal-article"
+      },
+      "parent_works": [],
+      "lineage": [
+        "https://openalex.org/W7205006396"
+      ],
+      "child_works_count": 0,
+      "type": "article",
+      "is_traditional": true,
+      "indexed_in": [
+        "crossref"
+      ],
+      "open_access": {
+        "is_oa": true,
+        "oa_status": "bronze",
+        "oa_url": "https://www.espjeta.org/Volume6-Issue3/JETA-V6I3P112.pdf",
+        "any_repository_has_fulltext": false
+      },
+      "authorships": [
+        {
+          "author_position": "first",
+          "author": {
+            "id": "https://openalex.org/A5119237338",
+            "display_name": "Veeresh Nunavath",
+            "orcid": null,
+            "observed_orcids": []
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I128409426",
+              "display_name": "University of Southern Indiana",
+              "ror": "https://ror.org/006bmx089",
+              "country_code": "US",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I128409426"
+              ]
+            }
+          ],
+          "countries": [
+            "US"
+          ],
+          "is_corresponding": true,
+          "raw_author_name": "Veeresh Nunavath",
+          "raw_affiliation_strings": [
+            "University of Southern Indiana & Indiana"
+          ],
+          "raw_orcid": null,
+          "affiliations": [
+            {
+              "raw_affiliation_string": "University of Southern Indiana & Indiana",
+              "institution_ids": [
+                "https://openalex.org/I128409426"
+              ]
+            }
+          ]
+        }
+      ],
+      "institutions": [],
+      "countries_distinct_count": 1,
+      "institutions_distinct_count": 1,
+      "corresponding_author_ids": [
+        "https://openalex.org/A5119237338"
+      ],
+      "corresponding_institution_ids": [
+        "https://openalex.org/I128409426"
+      ],
+      "apc_list": null,
+      "apc_paid": null,
+      "fwci": 0.0,
+      "is_authors_truncated": false,
+      "has_fulltext": true,
+      "cited_by_count": 0,
+      "citation_normalized_percentile": {
+        "value": 0.0,
+        "is_in_top_1_percent": false,
+        "is_in_top_10_percent": false
+      },
+      "cited_by_percentile_year": null,
+      "biblio": {
+        "volume": "6",
+        "issue": "3",
+        "first_page": null,
+        "last_page": null
+      },
+      "is_retracted": false,
+      "is_paratext": false,
+      "is_xpac": false,
+      "primary_topic": {
+        "id": "https://openalex.org/T10273",
+        "display_name": "IoT and Edge/Fog Computing",
+        "score": 0.6753000020980835,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1705",
+          "display_name": "Computer Networks and Communications"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      "topics": [
+        {
+          "id": "https://openalex.org/T10273",
+          "display_name": "IoT and Edge/Fog Computing",
+          "score": 0.6753000020980835,
+          "subfield": {
+            "id": "https://openalex.org/subfields/1705",
+            "display_name": "Computer Networks and Communications"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/17",
+            "display_name": "Computer Science"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T12127",
+          "display_name": "Software System Performance and Reliability",
+          "score": 0.29319998621940613,
+          "subfield": {
+            "id": "https://openalex.org/subfields/1705",
+            "display_name": "Computer Networks and Communications"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/17",
+            "display_name": "Computer Science"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T10101",
+          "display_name": "Cloud Computing and Resource Management",
+          "score": 0.019899999722838402,
+          "subfield": {
+            "id": "https://openalex.org/subfields/1710",
+            "display_name": "Information Systems"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/17",
+            "display_name": "Computer Science"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        }
+      ],
+      "keywords": [
+        {
+          "id": "https://openalex.org/keywords/edge-computing",
+          "display_name": "edge computing",
+          "score": 0.7620000243186951
+        },
+        {
+          "id": "https://openalex.org/keywords/performance-analytics",
+          "display_name": "performance analytics",
+          "score": 0.7730000019073486
+        },
+        {
+          "id": "https://openalex.org/keywords/performance-monitoring",
+          "display_name": "performance monitoring",
+          "score": 0.9539999961853027
+        },
+        {
+          "id": "https://openalex.org/keywords/grafana",
+          "display_name": "Grafana",
+          "score": 0.9649999737739563
+        },
+        {
+          "id": "https://openalex.org/keywords/prometheus",
+          "display_name": "Prometheus",
+          "score": 0.9990000128746033
+        },
+        {
+          "id": "https://openalex.org/keywords/real-time-monitoring",
+          "display_name": "real-time monitoring",
+          "score": 0.7509999871253967
+        },
+        {
+          "id": "https://openalex.org/keywords/device-heterogeneity",
+          "display_name": "heterogeneous devices",
+          "score": 0.6460000276565552
+        },
+        {
+          "id": "https://openalex.org/keywords/latency-sensitive-applications",
+          "display_name": "delay-sensitive applications",
+          "score": 0.7480000257492065
+        },
+        {
+          "id": "https://openalex.org/keywords/smart-cities",
+          "display_name": "smart cities",
+          "score": 0.5529999732971191
+        },
+        {
+          "id": "https://openalex.org/keywords/industrial-automation",
+          "display_name": "industrial automation",
+          "score": 0.9319999814033508
+        }
+      ],
+      "concepts": [
+        {
+          "id": "https://openalex.org/C41008148",
+          "wikidata": "https://www.wikidata.org/wiki/Q21198",
+          "display_name": "Computer science",
+          "level": 0,
+          "score": 0.707099974155426
+        },
+        {
+          "id": "https://openalex.org/C79974875",
+          "wikidata": "https://www.wikidata.org/wiki/Q483639",
+          "display_name": "Cloud computing",
+          "level": 2,
+          "score": 0.6428999900817871
+        },
+        {
+          "id": "https://openalex.org/C79158427",
+          "wikidata": "https://www.wikidata.org/wiki/Q485396",
+          "display_name": "Analytics",
+          "level": 2,
+          "score": 0.520799994468689
+        },
+        {
+          "id": "https://openalex.org/C162307627",
+          "wikidata": "https://www.wikidata.org/wiki/Q204833",
+          "display_name": "Enhanced Data Rates for GSM Evolution",
+          "level": 2,
+          "score": 0.42649999260902405
+        },
+        {
+          "id": "https://openalex.org/C175801342",
+          "wikidata": "https://www.wikidata.org/wiki/Q1988917",
+          "display_name": "Data analysis",
+          "level": 2,
+          "score": 0.35269999504089355
+        },
+        {
+          "id": "https://openalex.org/C26517878",
+          "wikidata": "https://www.wikidata.org/wiki/Q228039",
+          "display_name": "Key (lock)",
+          "level": 2,
+          "score": 0.2980000078678131
+        },
+        {
+          "id": "https://openalex.org/C123657996",
+          "wikidata": "https://www.wikidata.org/wiki/Q12271",
+          "display_name": "Architecture",
+          "level": 2,
+          "score": 0.2953000068664551
+        },
+        {
+          "id": "https://openalex.org/C2522767166",
+          "wikidata": "https://www.wikidata.org/wiki/Q2374463",
+          "display_name": "Data science",
+          "level": 1,
+          "score": 0.29019999504089355
+        },
+        {
+          "id": "https://openalex.org/C36464697",
+          "wikidata": "https://www.wikidata.org/wiki/Q451553",
+          "display_name": "Visualization",
+          "level": 2,
+          "score": 0.2831000089645386
+        },
+        {
+          "id": "https://openalex.org/C138236772",
+          "wikidata": "https://www.wikidata.org/wiki/Q25098575",
+          "display_name": "Edge device",
+          "level": 3,
+          "score": 0.2793000042438507
+        },
+        {
+          "id": "https://openalex.org/C115903868",
+          "wikidata": "https://www.wikidata.org/wiki/Q80993",
+          "display_name": "Software engineering",
+          "level": 1,
+          "score": 0.26350000500679016
+        },
+        {
+          "id": "https://openalex.org/C77088390",
+          "wikidata": "https://www.wikidata.org/wiki/Q8513",
+          "display_name": "Database",
+          "level": 1,
+          "score": 0.25999999046325684
+        },
+        {
+          "id": "https://openalex.org/C172367668",
+          "wikidata": "https://www.wikidata.org/wiki/Q6504956",
+          "display_name": "Data visualization",
+          "level": 3,
+          "score": 0.25440001487731934
+        },
+        {
+          "id": "https://openalex.org/C98025372",
+          "wikidata": "https://www.wikidata.org/wiki/Q477538",
+          "display_name": "Systems architecture",
+          "level": 3,
+          "score": 0.2526000142097473
+        },
+        {
+          "id": "https://openalex.org/C120314980",
+          "wikidata": "https://www.wikidata.org/wiki/Q180634",
+          "display_name": "Distributed computing",
+          "level": 1,
+          "score": 0.2502000033855438
+        }
+      ],
+      "mesh": [],
+      "locations_count": 1,
+      "locations": [
+        {
+          "id": "doi:10.56472/25832646/jeta-v6i3p112",
+          "doi": "https://doi.org/10.56472/25832646/jeta-v6i3p112",
+          "is_oa": true,
+          "landing_page_url": "https://doi.org/10.56472/25832646/jeta-v6i3p112",
+          "pdf_url": "https://www.espjeta.org/Volume6-Issue3/JETA-V6I3P112.pdf",
+          "source": {
+            "id": "https://openalex.org/S4387282162",
+            "display_name": "ESP Journal of Engineering & Technology Advancements",
+            "issn_l": "2583-2646",
+            "issn": [
+              "2583-2646"
+            ],
+            "is_oa": false,
+            "is_in_doaj": false,
+            "is_core": false,
+            "listed_in": [],
+            "host_organization": null,
+            "host_organization_name": null,
+            "host_organization_lineage": [],
+            "host_organization_lineage_names": [],
+            "type": "journal"
+          },
+          "license": null,
+          "license_id": null,
+          "version": "publishedVersion",
+          "is_accepted": true,
+          "is_published": true,
+          "raw_source_name": "ESP Journal of Engineering &amp; Technology Advancements",
+          "raw_type": "journal-article"
+        }
+      ],
+      "best_oa_location": {
+        "id": "doi:10.56472/25832646/jeta-v6i3p112",
+        "doi": "https://doi.org/10.56472/25832646/jeta-v6i3p112",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.56472/25832646/jeta-v6i3p112",
+        "pdf_url": "https://www.espjeta.org/Volume6-Issue3/JETA-V6I3P112.pdf",
+        "source": {
+          "id": "https://openalex.org/S4387282162",
+          "display_name": "ESP Journal of Engineering & Technology Advancements",
+          "issn_l": "2583-2646",
+          "issn": [
+            "2583-2646"
+          ],
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "listed_in": [],
+          "host_organization": null,
+          "host_organization_name": null,
+          "host_organization_lineage": [],
+          "host_organization_lineage_names": [],
+          "type": "journal"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "ESP Journal of Engineering &amp; Technology Advancements",
+        "raw_type": "journal-article"
+      },
+      "sustainable_development_goals": [
+        {
+          "display_name": "Industry, innovation and infrastructure",
+          "id": "https://metadata.un.org/sdg/9",
+          "score": 0.651199996471405
+        }
+      ],
+      "study_designs": [],
+      "awards": [],
+      "funders": [],
+      "has_content": {
+        "grobid_xml": true,
+        "pdf": true
+      },
+      "content_urls": {
+        "pdf": "https://content.openalex.org/works/W7205006396.pdf",
+        "grobid_xml": "https://content.openalex.org/works/W7205006396.grobid-xml"
+      },
+      "referenced_works_count": 28,
+      "referenced_works": [
+        "https://openalex.org/W2262390119",
+        "https://openalex.org/W2416799949",
+        "https://openalex.org/W2439511445",
+        "https://openalex.org/W2511425482",
+        "https://openalex.org/W2568772110",
+        "https://openalex.org/W2596636257",
+        "https://openalex.org/W2745279497",
+        "https://openalex.org/W2745755793",
+        "https://openalex.org/W2751335236",
+        "https://openalex.org/W2754063989",
+        "https://openalex.org/W2766722289",
+        "https://openalex.org/W2768475350",
+        "https://openalex.org/W2906410941",
+        "https://openalex.org/W2908847860",
+        "https://openalex.org/W3100386461",
+        "https://openalex.org/W3110512320",
+        "https://openalex.org/W3200553924",
+        "https://openalex.org/W4281491031",
+        "https://openalex.org/W4306895315",
+        "https://openalex.org/W4328007770",
+        "https://openalex.org/W4381744943",
+        "https://openalex.org/W4388483449",
+        "https://openalex.org/W4394598578",
+        "https://openalex.org/W4405429415",
+        "https://openalex.org/W4405965505",
+        "https://openalex.org/W4408188742",
+        "https://openalex.org/W4411554133",
+        "https://openalex.org/W4412957868"
+      ],
+      "related_works": [
+        "https://openalex.org/W7039534368",
+        "https://openalex.org/W3203734998",
+        "https://openalex.org/W4392431303",
+        "https://openalex.org/W3082707263",
+        "https://openalex.org/W4225709723",
+        "https://openalex.org/W2901222904",
+        "https://openalex.org/W4390189502",
+        "https://openalex.org/W7162298692",
+        "https://openalex.org/W4385840131",
+        "https://openalex.org/W4292970741"
+      ],
+      "abstract_inverted_index": {
+        "Edge": [
+          0
+        ],
+        "clouds": [
+          1
+        ],
+        "are": [
+          2
+        ],
+        "gaining": [
+          3
+        ],
+        "momentum": [
+          4
+        ],
+        "as": [
+          5
+        ],
+        "a": [
+          6,
+          34
+        ],
+        "way": [
+          7
+        ],
+        "to": [
+          8,
+          47
+        ],
+        "enable": [
+          9
+        ],
+        "resource-constrained,": [
+          10
+        ],
+        "latency-sensitive": [
+          11
+        ],
+        "applications": [
+          12
+        ],
+        "in": [
+          13,
+          59
+        ],
+        "smart": [
+          14
+        ],
+        "cities,": [
+          15
+        ],
+        "industrial": [
+          16
+        ],
+        "automation,": [
+          17
+        ],
+        "health": [
+          18
+        ],
+        "care,": [
+          19
+        ],
+        "and": [
+          20,
+          30,
+          54
+        ],
+        "autonomous": [
+          21
+        ],
+        "vehicles.": [
+          22
+        ],
+        "With": [
+          23
+        ],
+        "workloads": [
+          24
+        ],
+        "being": [
+          25
+        ],
+        "shared": [
+          26
+        ],
+        "among": [
+          27
+        ],
+        "heterogeneous": [
+          28
+        ],
+        "devices": [
+          29
+        ],
+        "networks,": [
+          31
+        ],
+        "it": [
+          32
+        ],
+        "presents": [
+          33
+        ],
+        "complex": [
+          35
+        ],
+        "performance": [
+          36
+        ],
+        "monitoring/analysis": [
+          37
+        ],
+        "problem.": [
+          38
+        ],
+        "Conventional": [
+          39
+        ],
+        "centralized": [
+          40
+        ],
+        "monitoring": [
+          41
+        ],
+        "systems": [
+          42
+        ],
+        "may": [
+          43
+        ],
+        "not": [
+          44
+        ],
+        "be": [
+          45
+        ],
+        "able": [
+          46
+        ],
+        "provide": [
+          48
+        ],
+        "real-time": [
+          49
+        ],
+        "insights": [
+          50
+        ],
+        "at": [
+          51
+        ],
+        "the": [
+          52
+        ],
+        "level": [
+          53
+        ],
+        "pace": [
+          55
+        ],
+        "that": [
+          56
+        ],
+        "is": [
+          57
+        ],
+        "needed": [
+          58
+        ],
+        "edge": [
+          60
+        ],
+        "environments.": [
+          61
+        ]
+      },
+      "counts_by_year": [],
+      "updated_date": "2026-11-16T12:05:36.265796",
+      "created_date": "2026-09-02T00:00:00"
+    },
+    {
+      "id": "https://openalex.org/W3121951544",
+      "doi": null,
+      "title": "Automated ICT system health monitoring using Grafana",
+      "display_name": "Automated ICT system health monitoring using Grafana",
+      "relevance_score": 36.72787,
+      "publication_year": 2020,
+      "publication_date": "2020-01-01",
+      "ids": {
+        "openalex": "https://openalex.org/W3121951544",
+        "mag": "3121951544"
+      },
+      "language": "en",
+      "primary_location": {
+        "id": "pmh:oai:www.theseus.fi:10024/348544",
+        "doi": null,
+        "is_oa": true,
+        "landing_page_url": "http://www.theseus.fi/handle/10024/348544",
+        "pdf_url": "http://www.theseus.fi/bitstream/10024/348544/2/Thesis_Fadhil_Sharif.pdf",
+        "source": {
+          "id": "https://openalex.org/S4306400928",
+          "display_name": "Theseus (Ammattikorkeakoulujen)",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "listed_in": [],
+          "host_organization": null,
+          "host_organization_name": null,
+          "host_organization_lineage": [],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "submittedVersion",
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": "",
+        "raw_type": "fi=Ylempi AMK-opinnäytetyö|sv=Högre YH-examensarbete|en=Master's thesis|"
+      },
+      "parent_works": [],
+      "lineage": [
+        "https://openalex.org/W3121951544"
+      ],
+      "child_works_count": 0,
+      "type": "dissertation",
+      "is_traditional": true,
+      "indexed_in": [],
+      "open_access": {
+        "is_oa": true,
+        "oa_status": "green",
+        "oa_url": "http://www.theseus.fi/bitstream/10024/348544/2/Thesis_Fadhil_Sharif.pdf",
+        "any_repository_has_fulltext": true
+      },
+      "authorships": [
+        {
+          "author_position": "first",
+          "author": {
+            "id": "https://openalex.org/A5038165919",
+            "display_name": "Sharif Fadhil",
+            "orcid": null,
+            "observed_orcids": []
+          },
+          "institutions": [],
+          "countries": [],
+          "is_corresponding": true,
+          "raw_author_name": "Sharif Fadhil",
+          "raw_affiliation_strings": [],
+          "raw_orcid": null,
+          "affiliations": []
+        }
+      ],
+      "institutions": [],
+      "countries_distinct_count": 0,
+      "institutions_distinct_count": 0,
+      "corresponding_author_ids": [
+        "https://openalex.org/A5038165919"
+      ],
+      "corresponding_institution_ids": [],
+      "apc_list": null,
+      "apc_paid": null,
+      "fwci": null,
+      "is_authors_truncated": false,
+      "has_fulltext": true,
+      "cited_by_count": 1,
+      "citation_normalized_percentile": null,
+      "cited_by_percentile_year": null,
+      "biblio": {
+        "volume": null,
+        "issue": null,
+        "first_page": null,
+        "last_page": null
+      },
+      "is_retracted": false,
+      "is_paratext": false,
+      "is_xpac": false,
+      "primary_topic": {
+        "id": "https://openalex.org/T12127",
+        "display_name": "Software System Performance and Reliability",
+        "score": 0.9994999766349792,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1705",
+          "display_name": "Computer Networks and Communications"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      "topics": [
+        {
+          "id": "https://openalex.org/T12127",
+          "display_name": "Software System Performance and Reliability",
+          "score": 0.9994999766349792,
+          "subfield": {
+            "id": "https://openalex.org/subfields/1705",
+            "display_name": "Computer Networks and Communications"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/17",
+            "display_name": "Computer Science"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T10101",
+          "display_name": "Cloud Computing and Resource Management",
+          "score": 0.00039999998989515007,
+          "subfield": {
+            "id": "https://openalex.org/subfields/1710",
+            "display_name": "Information Systems"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/17",
+            "display_name": "Computer Science"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T12203",
+          "display_name": "Mobile Agent-Based Network Management",
+          "score": 9.999999747378752e-05,
+          "subfield": {
+            "id": "https://openalex.org/subfields/1705",
+            "display_name": "Computer Networks and Communications"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/17",
+            "display_name": "Computer Science"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        }
+      ],
+      "keywords": [
+        {
+          "id": "https://openalex.org/keywords/grafana",
+          "display_name": "Grafana",
+          "score": 0.9810000061988831
+        },
+        {
+          "id": "https://openalex.org/keywords/ansible",
+          "display_name": "Ansible",
+          "score": 0.8180000185966492
+        },
+        {
+          "id": "https://openalex.org/keywords/ansible-playbooks",
+          "display_name": "Ansible playbooks",
+          "score": 0.906000018119812
+        },
+        {
+          "id": "https://openalex.org/keywords/server-monitoring",
+          "display_name": "server monitoring",
+          "score": 0.6859999895095825
+        },
+        {
+          "id": "https://openalex.org/keywords/system-logging",
+          "display_name": "system logging",
+          "score": 0.6269999742507935
+        },
+        {
+          "id": "https://openalex.org/keywords/cpu-utilization",
+          "display_name": "CPU utilization",
+          "score": 0.49900001287460327
+        },
+        {
+          "id": "https://openalex.org/keywords/memory-usage",
+          "display_name": "memory usage",
+          "score": 0.9169999957084656
+        },
+        {
+          "id": "https://openalex.org/keywords/network-connections",
+          "display_name": "network connections",
+          "score": 0.9629999995231628
+        },
+        {
+          "id": "https://openalex.org/keywords/configuration-management",
+          "display_name": "configuration management",
+          "score": 0.5590000152587891
+        },
+        {
+          "id": "https://openalex.org/keywords/fault-detection",
+          "display_name": "fault detection",
+          "score": 0.49900001287460327
+        }
+      ],
+      "concepts": [
+        {
+          "id": "https://openalex.org/C67363961",
+          "wikidata": "https://www.wikidata.org/wiki/Q5268834",
+          "display_name": "Information and Communications Technology",
+          "level": 2,
+          "score": 0.6112743020057678
+        },
+        {
+          "id": "https://openalex.org/C41008148",
+          "wikidata": "https://www.wikidata.org/wiki/Q21198",
+          "display_name": "Computer science",
+          "level": 0,
+          "score": 0.3916301727294922
+        },
+        {
+          "id": "https://openalex.org/C127413603",
+          "wikidata": "https://www.wikidata.org/wiki/Q11023",
+          "display_name": "Engineering",
+          "level": 0,
+          "score": 0.35225576162338257
+        },
+        {
+          "id": "https://openalex.org/C2522767166",
+          "wikidata": "https://www.wikidata.org/wiki/Q2374463",
+          "display_name": "Data science",
+          "level": 1,
+          "score": 0.32697558403015137
+        },
+        {
+          "id": "https://openalex.org/C201995342",
+          "wikidata": "https://www.wikidata.org/wiki/Q682496",
+          "display_name": "Systems engineering",
+          "level": 1,
+          "score": 0.3224409818649292
+        },
+        {
+          "id": "https://openalex.org/C136764020",
+          "wikidata": "https://www.wikidata.org/wiki/Q466",
+          "display_name": "World Wide Web",
+          "level": 1,
+          "score": 0.13891223073005676
+        }
+      ],
+      "mesh": [],
+      "locations_count": 2,
+      "locations": [
+        {
+          "id": "pmh:oai:www.theseus.fi:10024/348544",
+          "doi": null,
+          "is_oa": true,
+          "landing_page_url": "http://www.theseus.fi/handle/10024/348544",
+          "pdf_url": "http://www.theseus.fi/bitstream/10024/348544/2/Thesis_Fadhil_Sharif.pdf",
+          "source": {
+            "id": "https://openalex.org/S4306400928",
+            "display_name": "Theseus (Ammattikorkeakoulujen)",
+            "issn_l": null,
+            "issn": null,
+            "is_oa": false,
+            "is_in_doaj": false,
+            "is_core": false,
+            "listed_in": [],
+            "host_organization": null,
+            "host_organization_name": null,
+            "host_organization_lineage": [],
+            "host_organization_lineage_names": [],
+            "type": "repository"
+          },
+          "license": null,
+          "license_id": null,
+          "version": "submittedVersion",
+          "is_accepted": false,
+          "is_published": false,
+          "raw_source_name": "",
+          "raw_type": "fi=Ylempi AMK-opinnäytetyö|sv=Högre YH-examensarbete|en=Master's thesis|"
+        },
+        {
+          "id": "mag:3121951544",
+          "doi": null,
+          "is_oa": false,
+          "landing_page_url": "https://www.theseus.fi/handle/10024/348544",
+          "pdf_url": null,
+          "source": null,
+          "license": null,
+          "license_id": null,
+          "version": null,
+          "is_accepted": false,
+          "is_published": false,
+          "raw_source_name": null,
+          "raw_type": null
+        }
+      ],
+      "best_oa_location": {
+        "id": "pmh:oai:www.theseus.fi:10024/348544",
+        "doi": null,
+        "is_oa": true,
+        "landing_page_url": "http://www.theseus.fi/handle/10024/348544",
+        "pdf_url": "http://www.theseus.fi/bitstream/10024/348544/2/Thesis_Fadhil_Sharif.pdf",
+        "source": {
+          "id": "https://openalex.org/S4306400928",
+          "display_name": "Theseus (Ammattikorkeakoulujen)",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "listed_in": [],
+          "host_organization": null,
+          "host_organization_name": null,
+          "host_organization_lineage": [],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "submittedVersion",
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": "",
+        "raw_type": "fi=Ylempi AMK-opinnäytetyö|sv=Högre YH-examensarbete|en=Master's thesis|"
+      },
+      "sustainable_development_goals": [],
+      "study_designs": [],
+      "awards": [],
+      "funders": [],
+      "has_content": {
+        "grobid_xml": true,
+        "pdf": true
+      },
+      "content_urls": {
+        "pdf": "https://content.openalex.org/works/W3121951544.pdf",
+        "grobid_xml": "https://content.openalex.org/works/W3121951544.grobid-xml"
+      },
+      "referenced_works_count": 0,
+      "referenced_works": [],
+      "related_works": [
+        "https://openalex.org/W7046175690",
+        "https://openalex.org/W7220767987",
+        "https://openalex.org/W7024478580",
+        "https://openalex.org/W6991638035",
+        "https://openalex.org/W7128485673",
+        "https://openalex.org/W2894104172",
+        "https://openalex.org/W4405134212",
+        "https://openalex.org/W7172524720",
+        "https://openalex.org/W7113157143",
+        "https://openalex.org/W7128930396"
+      ],
+      "abstract_inverted_index": {
+        "Futures": [
+          0
+        ],
+        "Platform": [
+          1
+        ],
+        "is": [
+          2,
+          33,
+          54
+        ],
+        "a": [
+          3,
+          11,
+          35
+        ],
+        "consultation": [
+          4
+        ],
+        "company": [
+          5
+        ],
+        "which": [
+          6
+        ],
+        "provides": [
+          7
+        ],
+        "foresights": [
+          8
+        ],
+        "solutions": [
+          9,
+          18
+        ],
+        "and": [
+          10,
+          26,
+          81,
+          99,
+          122,
+          142,
+          153,
+          157,
+          221
+        ],
+        "tool": [
+          12
+        ],
+        "to": [
+          13,
+          20,
+          37,
+          91,
+          139,
+          155,
+          181,
+          194,
+          209,
+          233
+        ],
+        "visualize": [
+          14
+        ],
+        "all": [
+          15
+        ],
+        "different": [
+          16,
+          167
+        ],
+        "possible": [
+          17
+        ],
+        "related": [
+          19
+        ],
+        "foresight.": [
+          21
+        ],
+        "\\nAs": [
+          22
+        ],
+        "the": [
+          23,
+          39,
+          42,
+          50,
+          57,
+          60,
+          66,
+          87,
+          93,
+          120,
+          130,
+          163,
+          169,
+          182,
+          190,
+          214,
+          217,
+          226,
+          235
+        ],
+        "technology": [
+          24
+        ],
+        "evolve": [
+          25
+        ],
+        "ICT": [
+          27
+        ],
+        "developments": [
+          28
+        ],
+        "becomes": [
+          29
+        ],
+        "more": [
+          30,
+          48
+        ],
+        "complex,": [
+          31
+        ],
+        "there": [
+          32
+        ],
+        "been": [
+          34,
+          90,
+          151,
+          179
+        ],
+        "need": [
+          36,
+          94
+        ],
+        "understand": [
+          38
+        ],
+        "behaviour": [
+          40
+        ],
+        "of": [
+          41,
+          52,
+          68,
+          95,
+          160,
+          162,
+          171,
+          192,
+          206,
+          216
+        ],
+        "system": [
+          43,
+          98,
+          109
+        ],
+        "architecture.": [
+          44
+        ],
+        "This": [
+          45
+        ],
+        "matter": [
+          46
+        ],
+        "focuses": [
+          47
+        ],
+        "on": [
+          49,
+          56,
+          102,
+          119,
+          129
+        ],
+        "logging": [
+          51,
+          69
+        ],
+        "what": [
+          53
+        ],
+        "happening": [
+          55
+        ],
+        "background": [
+          58,
+          121
+        ],
+        "during": [
+          59,
+          225
+        ],
+        "time": [
+          61,
+          103
+        ],
+        "applications": [
+          62
+        ],
+        "are": [
+          63
+        ],
+        "actively": [
+          64
+        ],
+        "running,": [
+          65
+        ],
+        "process": [
+          67
+        ],
+        "includes": [
+          70
+        ],
+        "several": [
+          71
+        ],
+        "services": [
+          72,
+          144
+        ],
+        "components": [
+          73,
+          208
+        ],
+        "like": [
+          74
+        ],
+        "CPU,": [
+          75
+        ],
+        "usage,": [
+          76
+        ],
+        "Network": [
+          77
+        ],
+        "connections,": [
+          78
+        ],
+        "Memory": [
+          79
+        ],
+        "consumptions": [
+          80
+        ],
+        "so": [
+          82
+        ],
+        "on.": [
+          83
+        ],
+        "\\nIn": [
+          84
+        ],
+        "this": [
+          85,
+          176,
+          186
+        ],
+        "project": [
+          86,
+          227
+        ],
+        "focus": [
+          88
+        ],
+        "has": [
+          89,
+          150,
+          178
+        ],
+        "address": [
+          92
+        ],
+        "implementing": [
+          96
+        ],
+        "monitoring": [
+          97,
+          204
+        ],
+        "also": [
+          100,
+          189
+        ],
+        "eradicating": [
+          101
+        ],
+        "problems": [
+          104
+        ],
+        "that": [
+          105
+        ],
+        "may": [
+          106
+        ],
+        "occurs": [
+          107
+        ],
+        "after": [
+          108
+        ],
+        "faults.": [
+          110,
+          148
+        ],
+        "Several": [
+          111
+        ],
+        "times": [
+          112
+        ],
+        "these": [
+          113
+        ],
+        "issues": [
+          114
+        ],
+        "go": [
+          115
+        ],
+        "un-noticed": [
+          116
+        ],
+        "keep": [
+          117
+        ],
+        "running": [
+          118
+        ],
+        "they": [
+          123
+        ],
+        "only": [
+          124
+        ],
+        "emerged": [
+          125
+        ],
+        "as": [
+          126
+        ],
+        "visible": [
+          127
+        ],
+        "errors": [
+          128
+        ],
+        "user": [
+          131
+        ],
+        "interface": [
+          132
+        ],
+        "once": [
+          133
+        ],
+        "reached": [
+          134
+        ],
+        "certain": [
+          135
+        ],
+        "thresholds.": [
+          136
+        ],
+        "Project": [
+          137
+        ],
+        "aimed": [
+          138
+        ],
+        "provide": [
+          140
+        ],
+        "stable": [
+          141
+        ],
+        "reliable": [
+          143
+        ],
+        "without": [
+          145
+        ],
+        "having": [
+          146
+        ],
+        "noticed": [
+          147
+        ],
+        "\\nAnsible": [
+          149
+        ],
+        "developed": [
+          152,
+          232
+        ],
+        "design": [
+          154
+        ],
+        "achieve": [
+          156,
+          234
+        ],
+        "aid": [
+          158
+        ],
+        "configurations": [
+          159,
+          198
+        ],
+        "most": [
+          161
+        ],
+        "automation": [
+          164
+        ],
+        "processes": [
+          165
+        ],
+        "for": [
+          166
+        ],
+        "systems": [
+          168
+        ],
+        "idea": [
+          170
+        ],
+        "using": [
+          172
+        ],
+        "ansible": [
+          173
+        ],
+        "playbook": [
+          174
+        ],
+        "in": [
+          175,
+          185,
+          199
+        ],
+        "implementation": [
+          177,
+          228
+        ],
+        "due": [
+          180
+        ],
+        "advantages": [
+          183
+        ],
+        "explained": [
+          184
+        ],
+        "report": [
+          187
+        ],
+        "but": [
+          188
+        ],
+        "ability": [
+          191
+        ],
+        "Ansible": [
+          193,
+          229
+        ],
+        "manage": [
+          195
+        ],
+        "multiple": [
+          196
+        ],
+        "server": [
+          197
+        ],
+        "one": [
+          200
+        ],
+        "configuration": [
+          201
+        ],
+        "file.": [
+          202
+        ],
+        "\\nThe": [
+          203
+        ],
+        "baseline": [
+          205
+        ],
+        "server’s": [
+          207
+        ],
+        "be": [
+          210
+        ],
+        "logged/monitored": [
+          211
+        ],
+        "were": [
+          212,
+          231
+        ],
+        "developed,": [
+          213
+        ],
+        "method": [
+          215
+        ],
+        "installation": [
+          218
+        ],
+        "was": [
+          219
+        ],
+        "investigated": [
+          220
+        ],
+        "researched": [
+          222
+        ],
+        "then": [
+          223
+        ],
+        "finally": [
+          224
+        ],
+        "scripts": [
+          230
+        ],
+        "project’s": [
+          236
+        ],
+        "goal.": [
+          237
+        ]
+      },
+      "counts_by_year": [
+        {
+          "year": 2024,
+          "cited_by_count": 1
+        }
+      ],
+      "updated_date": "2026-08-21T09:56:20.448147",
+      "created_date": "2021-02-01T00:00:00"
+    },
+    {
+      "id": "https://openalex.org/W4290803358",
+      "doi": "https://doi.org/10.1007/978-1-4842-8309-7",
+      "title": "Getting Started with Grafana: Real-Time Dashboards for IT and Business Operations",
+      "display_name": "Getting Started with Grafana: Real-Time Dashboards for IT and Business Operations",
+      "relevance_score": 36.32922,
+      "publication_year": 2022,
+      "publication_date": "2022-01-01",
+      "ids": {
+        "openalex": "https://openalex.org/W4290803358",
+        "doi": "https://doi.org/10.1007/978-1-4842-8309-7"
+      },
+      "language": "en",
+      "primary_location": {
+        "id": "doi:10.1007/978-1-4842-8309-7",
+        "doi": "https://doi.org/10.1007/978-1-4842-8309-7",
+        "is_oa": false,
+        "landing_page_url": "https://doi.org/10.1007/978-1-4842-8309-7",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4306462844",
+          "display_name": "Apress eBooks",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "listed_in": [],
+          "host_organization": null,
+          "host_organization_name": null,
+          "host_organization_lineage": [],
+          "host_organization_lineage_names": [],
+          "type": "ebook platform"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": null,
+        "raw_type": "book"
+      },
+      "parent_works": [],
+      "lineage": [
+        "https://openalex.org/W4290803358"
+      ],
+      "child_works_count": 14,
+      "type": "book",
+      "is_traditional": true,
+      "indexed_in": [
+        "crossref"
+      ],
+      "open_access": {
+        "is_oa": false,
+        "oa_status": "closed",
+        "oa_url": null,
+        "any_repository_has_fulltext": false
+      },
+      "authorships": [
+        {
+          "author_position": "first",
+          "author": {
+            "id": "https://openalex.org/A5073112577",
+            "display_name": "Ronald McCollam",
+            "orcid": null,
+            "observed_orcids": []
+          },
+          "institutions": [],
+          "countries": [],
+          "is_corresponding": true,
+          "raw_author_name": "Ronald McCollam",
+          "raw_affiliation_strings": [
+            "Somerville, USA"
+          ],
+          "raw_orcid": null,
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Somerville, USA",
+              "institution_ids": []
+            }
+          ]
+        }
+      ],
+      "institutions": [],
+      "countries_distinct_count": 0,
+      "institutions_distinct_count": 0,
+      "corresponding_author_ids": [
+        "https://openalex.org/A5073112577"
+      ],
+      "corresponding_institution_ids": [],
+      "apc_list": null,
+      "apc_paid": null,
+      "fwci": 1.7643,
+      "is_authors_truncated": false,
+      "has_fulltext": true,
+      "cited_by_count": 5,
+      "citation_normalized_percentile": {
+        "value": 0.83524904,
+        "is_in_top_1_percent": false,
+        "is_in_top_10_percent": false
+      },
+      "cited_by_percentile_year": {
+        "min": 88,
+        "max": 96
+      },
+      "biblio": {
+        "volume": null,
+        "issue": null,
+        "first_page": null,
+        "last_page": null
+      },
+      "is_retracted": false,
+      "is_paratext": false,
+      "is_xpac": false,
+      "primary_topic": {
+        "id": "https://openalex.org/T10799",
+        "display_name": "Data Visualization and Analytics",
+        "score": 0.5990999937057495,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1704",
+          "display_name": "Computer Graphics and Computer-Aided Design"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      "topics": [
+        {
+          "id": "https://openalex.org/T10799",
+          "display_name": "Data Visualization and Analytics",
+          "score": 0.5990999937057495,
+          "subfield": {
+            "id": "https://openalex.org/subfields/1704",
+            "display_name": "Computer Graphics and Computer-Aided Design"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/17",
+            "display_name": "Computer Science"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T12127",
+          "display_name": "Software System Performance and Reliability",
+          "score": 0.21559999883174896,
+          "subfield": {
+            "id": "https://openalex.org/subfields/1705",
+            "display_name": "Computer Networks and Communications"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/17",
+            "display_name": "Computer Science"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T11891",
+          "display_name": "Big Data and Business Intelligence",
+          "score": 0.0551999993622303,
+          "subfield": {
+            "id": "https://openalex.org/subfields/1404",
+            "display_name": "Management Information Systems"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/14",
+            "display_name": "Business, Management and Accounting"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/2",
+            "display_name": "Social Sciences"
+          }
+        }
+      ],
+      "keywords": [
+        {
+          "id": "https://openalex.org/keywords/grafana",
+          "display_name": "Grafana",
+          "score": 1.0
+        },
+        {
+          "id": "https://openalex.org/keywords/real-time-dashboard",
+          "display_name": "real-time dashboard",
+          "score": 0.9390000104904175
+        },
+        {
+          "id": "https://openalex.org/keywords/data-visualization",
+          "display_name": "data visualization",
+          "score": 0.9120000004768372
+        },
+        {
+          "id": "https://openalex.org/keywords/alert-nunavut",
+          "display_name": "alerts",
+          "score": 0.7459999918937683
+        }
+      ],
+      "concepts": [
+        {
+          "id": "https://openalex.org/C95457728",
+          "wikidata": "https://www.wikidata.org/wiki/Q309",
+          "display_name": "History",
+          "level": 0,
+          "score": 0.3102668523788452
+        }
+      ],
+      "mesh": [],
+      "locations_count": 1,
+      "locations": [
+        {
+          "id": "doi:10.1007/978-1-4842-8309-7",
+          "doi": "https://doi.org/10.1007/978-1-4842-8309-7",
+          "is_oa": false,
+          "landing_page_url": "https://doi.org/10.1007/978-1-4842-8309-7",
+          "pdf_url": null,
+          "source": {
+            "id": "https://openalex.org/S4306462844",
+            "display_name": "Apress eBooks",
+            "issn_l": null,
+            "issn": null,
+            "is_oa": false,
+            "is_in_doaj": false,
+            "is_core": false,
+            "listed_in": [],
+            "host_organization": null,
+            "host_organization_name": null,
+            "host_organization_lineage": [],
+            "host_organization_lineage_names": [],
+            "type": "ebook platform"
+          },
+          "license": null,
+          "license_id": null,
+          "version": "publishedVersion",
+          "is_accepted": true,
+          "is_published": true,
+          "raw_source_name": null,
+          "raw_type": "book"
+        }
+      ],
+      "best_oa_location": null,
+      "sustainable_development_goals": [],
+      "study_designs": [],
+      "awards": [],
+      "funders": [],
+      "has_content": {
+        "grobid_xml": false,
+        "pdf": false
+      },
+      "content_urls": null,
+      "referenced_works_count": 0,
+      "referenced_works": [],
+      "related_works": [
+        "https://openalex.org/W6968661824",
+        "https://openalex.org/W4290803582",
+        "https://openalex.org/W6949061998",
+        "https://openalex.org/W4205853425",
+        "https://openalex.org/W4399145842",
+        "https://openalex.org/W4290803414",
+        "https://openalex.org/W4321597194",
+        "https://openalex.org/W4290803284",
+        "https://openalex.org/W4290803340",
+        "https://openalex.org/W3091177729"
+      ],
+      "abstract_inverted_index": {
+        "​This": [
+          0
+        ],
+        "book": [
+          1
+        ],
+        "teaches": [
+          2
+        ],
+        "you": [
+          3
+        ],
+        "how": [
+          4
+        ],
+        "to": [
+          5,
+          14
+        ],
+        "begin": [
+          6
+        ],
+        "working": [
+          7
+        ],
+        "with": [
+          8
+        ],
+        "the": [
+          9
+        ],
+        "Grafana": [
+          10
+        ],
+        "data": [
+          11
+        ],
+        "visualization": [
+          12
+        ],
+        "platform": [
+          13
+        ],
+        "create": [
+          15
+        ],
+        "real-time": [
+          16
+        ],
+        "dashboards": [
+          17
+        ],
+        "and": [
+          18
+        ],
+        "alerts.": [
+          19
+        ]
+      },
+      "counts_by_year": [
+        {
+          "year": 2026,
+          "cited_by_count": 2
+        },
+        {
+          "year": 2025,
+          "cited_by_count": 2
+        },
+        {
+          "year": 2017,
+          "cited_by_count": 1
+        }
+      ],
+      "updated_date": "2026-11-14T11:04:58.165337",
+      "created_date": "2022-08-12T00:00:00"
+    }
+  ],
+  "group_by": []
+}

@@ -1,0 +1,3882 @@
+{
+  "meta": {
+    "notice": "No API key, so this request shares one free daily budget ($0.10) with everyone on your network's IP address. Get a free key with its own $1/day at https://openalex.org/settings/api and add api_key=YOUR_KEY to your requests. An AI agent can get one for its user in one call: POST https://api.openalex.org/api-keys with {\"email\": \"<your user's email>\"}; we email them a link, and the key works once they click it. Docs for agents: https://help.openalex.org/llms.txt",
+    "count": 28463,
+    "db_response_time_ms": 73,
+    "page": 1,
+    "per_page": 5,
+    "groups_count": null,
+    "x_query": {
+      "oql": "get works with (PACKER ENGINEER) in the title, abstract, or full text",
+      "x_new_oql": "get works with (PACKER ENGINEER) in the title, abstract, or full text",
+      "oqo": {
+        "get_rows": "works",
+        "filter_rows": [
+          {
+            "column_id": "fulltext.search",
+            "value": "PACKER ENGINEER",
+            "operator": "has"
+          }
+        ]
+      },
+      "url": "/works?filter=fulltext.search:PACKER ENGINEER&per_page=5",
+      "order": "best matches first",
+      "order_default": true
+    },
+    "cost_usd": 0.001
+  },
+  "results": [
+    {
+      "id": "https://openalex.org/W1980541078",
+      "doi": "https://doi.org/10.2118/76711-ms",
+      "title": "Resolving the Completion Engineer's Dilemma: Permanent or Retrievable Packer?",
+      "display_name": "Resolving the Completion Engineer's Dilemma: Permanent or Retrievable Packer?",
+      "relevance_score": 76.05218,
+      "publication_year": 2002,
+      "publication_date": "2002-05-01",
+      "ids": {
+        "openalex": "https://openalex.org/W1980541078",
+        "doi": "https://doi.org/10.2118/76711-ms",
+        "mag": "1980541078"
+      },
+      "language": "en",
+      "primary_location": {
+        "id": "doi:10.2118/76711-ms",
+        "doi": "https://doi.org/10.2118/76711-ms",
+        "is_oa": false,
+        "landing_page_url": "https://doi.org/10.2118/76711-ms",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4306530718",
+          "display_name": "SPE Western Regional Meeting",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "listed_in": [],
+          "host_organization": null,
+          "host_organization_name": null,
+          "host_organization_lineage": [],
+          "host_organization_lineage_names": [],
+          "type": "conference"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "SPE Western Regional/AAPG Pacific Section Joint Meeting",
+        "raw_type": "proceedings-article"
+      },
+      "parent_works": [],
+      "lineage": [
+        "https://openalex.org/W1980541078"
+      ],
+      "child_works_count": 0,
+      "type": "conference-paper",
+      "is_traditional": true,
+      "indexed_in": [
+        "crossref"
+      ],
+      "open_access": {
+        "is_oa": false,
+        "oa_status": "closed",
+        "oa_url": null,
+        "any_repository_has_fulltext": false
+      },
+      "authorships": [
+        {
+          "author_position": "first",
+          "author": {
+            "id": "https://openalex.org/A5055115826",
+            "display_name": "M. T. Triolo",
+            "orcid": null,
+            "observed_orcids": []
+          },
+          "institutions": [],
+          "countries": [],
+          "is_corresponding": false,
+          "raw_author_name": "M. T. Triolo",
+          "raw_affiliation_strings": [
+            "BP"
+          ],
+          "raw_orcid": null,
+          "affiliations": [
+            {
+              "raw_affiliation_string": "BP",
+              "institution_ids": []
+            }
+          ]
+        },
+        {
+          "author_position": "middle",
+          "author": {
+            "id": "https://openalex.org/A5037865680",
+            "display_name": "L. F. Anderson",
+            "orcid": null,
+            "observed_orcids": []
+          },
+          "institutions": [],
+          "countries": [],
+          "is_corresponding": false,
+          "raw_author_name": "L. F. Anderson",
+          "raw_affiliation_strings": [
+            "Baker Oil Tools"
+          ],
+          "raw_orcid": null,
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Baker Oil Tools",
+              "institution_ids": []
+            }
+          ]
+        },
+        {
+          "author_position": "last",
+          "author": {
+            "id": null,
+            "display_name": "M. V. Smith",
+            "orcid": null,
+            "observed_orcids": []
+          },
+          "institutions": [],
+          "countries": [],
+          "is_corresponding": false,
+          "raw_author_name": "M. V. Smith",
+          "raw_affiliation_strings": [
+            "Baker Oil Tools"
+          ],
+          "raw_orcid": null,
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Baker Oil Tools",
+              "institution_ids": []
+            }
+          ]
+        }
+      ],
+      "institutions": [],
+      "countries_distinct_count": 0,
+      "institutions_distinct_count": 0,
+      "corresponding_author_ids": [],
+      "corresponding_institution_ids": [],
+      "apc_list": null,
+      "apc_paid": null,
+      "fwci": 1.0515,
+      "is_authors_truncated": false,
+      "has_fulltext": false,
+      "cited_by_count": 11,
+      "citation_normalized_percentile": {
+        "value": 0.62323707,
+        "is_in_top_1_percent": false,
+        "is_in_top_10_percent": false
+      },
+      "cited_by_percentile_year": {
+        "min": 88,
+        "max": 95
+      },
+      "biblio": {
+        "volume": null,
+        "issue": null,
+        "first_page": null,
+        "last_page": null
+      },
+      "is_retracted": false,
+      "is_paratext": false,
+      "is_xpac": false,
+      "primary_topic": {
+        "id": "https://openalex.org/T10892",
+        "display_name": "Drilling and Well Engineering",
+        "score": 0.9437999725341797,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2103",
+          "display_name": "Fuel Technology"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/21",
+          "display_name": "Energy"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      "topics": [
+        {
+          "id": "https://openalex.org/T10892",
+          "display_name": "Drilling and Well Engineering",
+          "score": 0.9437999725341797,
+          "subfield": {
+            "id": "https://openalex.org/subfields/2103",
+            "display_name": "Fuel Technology"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/21",
+            "display_name": "Energy"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T13925",
+          "display_name": "Offshore Engineering and Technologies",
+          "score": 0.03220000118017197,
+          "subfield": {
+            "id": "https://openalex.org/subfields/2212",
+            "display_name": "Ocean Engineering"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/22",
+            "display_name": "Engineering"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T13050",
+          "display_name": "Oil and Gas Production Techniques",
+          "score": 0.020400000736117363,
+          "subfield": {
+            "id": "https://openalex.org/subfields/2103",
+            "display_name": "Fuel Technology"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/21",
+            "display_name": "Energy"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        }
+      ],
+      "keywords": [
+        {
+          "id": "https://openalex.org/keywords/well-completion",
+          "display_name": "well completion",
+          "score": 0.5600000023841858
+        },
+        {
+          "id": "https://openalex.org/keywords/cutting-technology",
+          "display_name": "cutting technology",
+          "score": 0.46799999475479126
+        }
+      ],
+      "concepts": [
+        {
+          "id": "https://openalex.org/C2778496695",
+          "wikidata": "https://www.wikidata.org/wiki/Q254128",
+          "display_name": "Dilemma",
+          "level": 2,
+          "score": 0.7713921070098877
+        },
+        {
+          "id": "https://openalex.org/C41008148",
+          "wikidata": "https://www.wikidata.org/wiki/Q21198",
+          "display_name": "Computer science",
+          "level": 0,
+          "score": 0.5821213126182556
+        },
+        {
+          "id": "https://openalex.org/C2779538338",
+          "wikidata": "https://www.wikidata.org/wiki/Q2990590",
+          "display_name": "Completion (oil and gas wells)",
+          "level": 2,
+          "score": 0.5592728853225708
+        },
+        {
+          "id": "https://openalex.org/C75291252",
+          "wikidata": "https://www.wikidata.org/wiki/Q1315756",
+          "display_name": "TRACE (psycholinguistics)",
+          "level": 2,
+          "score": 0.5328104496002197
+        },
+        {
+          "id": "https://openalex.org/C28719098",
+          "wikidata": "https://www.wikidata.org/wiki/Q44946",
+          "display_name": "Point (geometry)",
+          "level": 2,
+          "score": 0.45491743087768555
+        },
+        {
+          "id": "https://openalex.org/C184356942",
+          "wikidata": "https://www.wikidata.org/wiki/Q830382",
+          "display_name": "Best practice",
+          "level": 2,
+          "score": 0.45130854845046997
+        },
+        {
+          "id": "https://openalex.org/C127413603",
+          "wikidata": "https://www.wikidata.org/wiki/Q11023",
+          "display_name": "Engineering",
+          "level": 0,
+          "score": 0.4255714416503906
+        },
+        {
+          "id": "https://openalex.org/C107053488",
+          "wikidata": "https://www.wikidata.org/wiki/Q2674423",
+          "display_name": "Construction engineering",
+          "level": 1,
+          "score": 0.3469061255455017
+        },
+        {
+          "id": "https://openalex.org/C78762247",
+          "wikidata": "https://www.wikidata.org/wiki/Q1273174",
+          "display_name": "Petroleum engineering",
+          "level": 1,
+          "score": 0.10933101177215576
+        },
+        {
+          "id": "https://openalex.org/C187736073",
+          "wikidata": "https://www.wikidata.org/wiki/Q2920921",
+          "display_name": "Management",
+          "level": 1,
+          "score": 0.07787010073661804
+        },
+        {
+          "id": "https://openalex.org/C2524010",
+          "wikidata": "https://www.wikidata.org/wiki/Q8087",
+          "display_name": "Geometry",
+          "level": 1,
+          "score": 0.0
+        },
+        {
+          "id": "https://openalex.org/C138885662",
+          "wikidata": "https://www.wikidata.org/wiki/Q5891",
+          "display_name": "Philosophy",
+          "level": 0,
+          "score": 0.0
+        },
+        {
+          "id": "https://openalex.org/C162324750",
+          "wikidata": "https://www.wikidata.org/wiki/Q8134",
+          "display_name": "Economics",
+          "level": 0,
+          "score": 0.0
+        },
+        {
+          "id": "https://openalex.org/C33923547",
+          "wikidata": "https://www.wikidata.org/wiki/Q395",
+          "display_name": "Mathematics",
+          "level": 0,
+          "score": 0.0
+        },
+        {
+          "id": "https://openalex.org/C41895202",
+          "wikidata": "https://www.wikidata.org/wiki/Q8162",
+          "display_name": "Linguistics",
+          "level": 1,
+          "score": 0.0
+        },
+        {
+          "id": "https://openalex.org/C111472728",
+          "wikidata": "https://www.wikidata.org/wiki/Q9471",
+          "display_name": "Epistemology",
+          "level": 1,
+          "score": 0.0
+        }
+      ],
+      "mesh": [],
+      "locations_count": 2,
+      "locations": [
+        {
+          "id": "doi:10.2118/76711-ms",
+          "doi": "https://doi.org/10.2118/76711-ms",
+          "is_oa": false,
+          "landing_page_url": "https://doi.org/10.2118/76711-ms",
+          "pdf_url": null,
+          "source": {
+            "id": "https://openalex.org/S4306530718",
+            "display_name": "SPE Western Regional Meeting",
+            "issn_l": null,
+            "issn": null,
+            "is_oa": false,
+            "is_in_doaj": false,
+            "is_core": false,
+            "listed_in": [],
+            "host_organization": null,
+            "host_organization_name": null,
+            "host_organization_lineage": [],
+            "host_organization_lineage_names": [],
+            "type": "conference"
+          },
+          "license": null,
+          "license_id": null,
+          "version": "publishedVersion",
+          "is_accepted": true,
+          "is_published": true,
+          "raw_source_name": "SPE Western Regional/AAPG Pacific Section Joint Meeting",
+          "raw_type": "proceedings-article"
+        },
+        {
+          "id": "doi:10.2523/76711-ms",
+          "doi": "https://doi.org/10.2523/76711-ms",
+          "is_oa": false,
+          "landing_page_url": "https://doi.org/10.2523/76711-ms",
+          "pdf_url": null,
+          "source": {
+            "id": "https://openalex.org/S4306530718",
+            "display_name": "SPE Western Regional Meeting",
+            "issn_l": null,
+            "issn": null,
+            "is_oa": false,
+            "is_in_doaj": false,
+            "is_core": false,
+            "listed_in": [],
+            "host_organization": null,
+            "host_organization_name": null,
+            "host_organization_lineage": [],
+            "host_organization_lineage_names": [],
+            "type": "conference"
+          },
+          "license": null,
+          "license_id": null,
+          "version": "publishedVersion",
+          "is_accepted": true,
+          "is_published": true,
+          "raw_source_name": "Proceedings of SPE Western Regional/AAPG Pacific Section Joint Meeting",
+          "raw_type": "proceedings-article"
+        }
+      ],
+      "best_oa_location": null,
+      "sustainable_development_goals": [
+        {
+          "id": "https://metadata.un.org/sdg/9",
+          "score": 0.5378999710083008,
+          "display_name": "Industry, innovation and infrastructure"
+        }
+      ],
+      "study_designs": [],
+      "awards": [],
+      "funders": [],
+      "has_content": {
+        "grobid_xml": false,
+        "pdf": false
+      },
+      "content_urls": null,
+      "referenced_works_count": 5,
+      "referenced_works": [
+        "https://openalex.org/W170189173",
+        "https://openalex.org/W622324598",
+        "https://openalex.org/W629479456",
+        "https://openalex.org/W2015202209",
+        "https://openalex.org/W4234391715"
+      ],
+      "related_works": [
+        "https://openalex.org/W1976710839",
+        "https://openalex.org/W3214162937",
+        "https://openalex.org/W2079949445",
+        "https://openalex.org/W57318106",
+        "https://openalex.org/W2091782793",
+        "https://openalex.org/W2027649062",
+        "https://openalex.org/W2995770313",
+        "https://openalex.org/W2608519287",
+        "https://openalex.org/W2587865840",
+        "https://openalex.org/W2335399711"
+      ],
+      "abstract_inverted_index": {
+        "Abstract": [
+          0
+        ],
+        "Traditionally,": [
+          1
+        ],
+        "completion": [
+          2
+        ],
+        "engineers": [
+          3
+        ],
+        "have": [
+          4
+        ],
+        "faced": [
+          5
+        ],
+        "a": [
+          6,
+          13,
+          50
+        ],
+        "dilemma": [
+          7
+        ],
+        "when": [
+          8
+        ],
+        "deciding": [
+          9
+        ],
+        "whether": [
+          10
+        ],
+        "to": [
+          11,
+          23,
+          86,
+          125
+        ],
+        "run": [
+          12,
+          89
+        ],
+        "large": [
+          14,
+          64
+        ],
+        "bore,": [
+          15,
+          65
+        ],
+        "hydraulic": [
+          16
+        ],
+        "set,": [
+          17
+        ],
+        "permanent,": [
+          18
+        ],
+        "or": [
+          19
+        ],
+        "retrievable": [
+          20,
+          62
+        ],
+        "packer.": [
+          21,
+          42
+        ],
+        "Thanks": [
+          22
+        ],
+        "advances": [
+          24
+        ],
+        "in": [
+          25,
+          97
+        ],
+        "cutting": [
+          26
+        ],
+        "technology,": [
+          27
+        ],
+        "this": [
+          28,
+          106
+        ],
+        "decision": [
+          29
+        ],
+        "is": [
+          30,
+          39
+        ],
+        "no": [
+          31
+        ],
+        "longer": [
+          32
+        ],
+        "an": [
+          33
+        ],
+        "either/or": [
+          34
+        ],
+        "proposition.": [
+          35
+        ],
+        "The": [
+          36,
+          74
+        ],
+        "innovative": [
+          37
+        ],
+        "alternative": [
+          38
+        ],
+        "the": [
+          40,
+          47,
+          55,
+          78,
+          81,
+          87,
+          93,
+          98,
+          109,
+          129
+        ],
+        "removable": [
+          41,
+          51,
+          95,
+          130
+        ],
+        "This": [
+          43
+        ],
+        "paper": [
+          44,
+          75,
+          110
+        ],
+        "will": [
+          45,
+          76,
+          111
+        ],
+        "address": [
+          46,
+          112
+        ],
+        "development": [
+          48,
+          79
+        ],
+        "of": [
+          49,
+          58,
+          80,
+          92,
+          105,
+          128
+        ],
+        "packer": [
+          52,
+          96,
+          131
+        ],
+        "that": [
+          53,
+          120
+        ],
+        "combines": [
+          54
+        ],
+        "best": [
+          56
+        ],
+        "features": [
+          57
+        ],
+        "both": [
+          59
+        ],
+        "permanent": [
+          60
+        ],
+        "and": [
+          61,
+          70,
+          90,
+          117
+        ],
+        "packers:": [
+          63
+        ],
+        "high": [
+          66
+        ],
+        "performance,": [
+          67
+        ],
+        "simple": [
+          68
+        ],
+        "design,": [
+          69
+        ],
+        "flexible": [
+          71
+        ],
+        "retrieving": [
+          72
+        ],
+        "options.": [
+          73
+        ],
+        "trace": [
+          77
+        ],
+        "technique": [
+          82
+        ],
+        "from": [
+          83
+        ],
+        "stack-up": [
+          84
+        ],
+        "testing": [
+          85
+        ],
+        "maiden": [
+          88
+        ],
+        "retrieval": [
+          91
+        ],
+        "first": [
+          94
+        ],
+        "Milne": [
+          99
+        ],
+        "Point": [
+          100
+        ],
+        "field,": [
+          101
+        ],
+        "Alaska.": [
+          102
+        ],
+        "Through": [
+          103
+        ],
+        "analysis": [
+          104
+        ],
+        "case": [
+          107
+        ],
+        "history,": [
+          108
+        ],
+        "challenges": [
+          113
+        ],
+        "faced,": [
+          114
+        ],
+        "problems": [
+          115
+        ],
+        "solved": [
+          116
+        ],
+        "lessons": [
+          118
+        ],
+        "learned": [
+          119
+        ],
+        "are": [
+          121
+        ],
+        "now": [
+          122
+        ],
+        "being": [
+          123
+        ],
+        "applied": [
+          124
+        ],
+        "future": [
+          126
+        ],
+        "enhancements": [
+          127
+        ],
+        "technique.": [
+          132
+        ]
+      },
+      "counts_by_year": [
+        {
+          "year": 2021,
+          "cited_by_count": 2
+        },
+        {
+          "year": 2020,
+          "cited_by_count": 1
+        },
+        {
+          "year": 2019,
+          "cited_by_count": 1
+        },
+        {
+          "year": 2012,
+          "cited_by_count": 1
+        }
+      ],
+      "updated_date": "2026-11-14T11:04:58.165337",
+      "created_date": "2016-06-24T00:00:00"
+    },
+    {
+      "id": "https://openalex.org/W1593905678",
+      "doi": null,
+      "title": "Compend of mechanical refrigeration : a comprehensive digest of applied energetics and thermodynamics for the practical use of ice manufacturers, cold storage men, contractors, engineers, brewers, packers, and others interested in the application of refrigeration",
+      "display_name": "Compend of mechanical refrigeration : a comprehensive digest of applied energetics and thermodynamics for the practical use of ice manufacturers, cold storage men, contractors, engineers, brewers, packers, and others interested in the application of refrigeration",
+      "relevance_score": 36.09043,
+      "publication_year": 1899,
+      "publication_date": "1899-01-01",
+      "ids": {
+        "openalex": "https://openalex.org/W1593905678",
+        "mag": "1593905678"
+      },
+      "language": "en",
+      "primary_location": {
+        "id": "mag:1593905678",
+        "doi": null,
+        "is_oa": false,
+        "landing_page_url": "http://ci.nii.ac.jp/ncid/BA72844679",
+        "pdf_url": null,
+        "source": null,
+        "license": null,
+        "license_id": null,
+        "version": null,
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": null,
+        "raw_type": null
+      },
+      "parent_works": [],
+      "lineage": [
+        "https://openalex.org/W1593905678"
+      ],
+      "child_works_count": 0,
+      "type": "book",
+      "is_traditional": true,
+      "indexed_in": [],
+      "open_access": {
+        "is_oa": false,
+        "oa_status": "closed",
+        "oa_url": null,
+        "any_repository_has_fulltext": false
+      },
+      "authorships": [
+        {
+          "author_position": "first",
+          "author": {
+            "id": "https://openalex.org/A5005203582",
+            "display_name": "John Ewald Siebel",
+            "orcid": null,
+            "observed_orcids": []
+          },
+          "institutions": [],
+          "countries": [],
+          "is_corresponding": true,
+          "raw_author_name": "John Ewald Siebel",
+          "raw_affiliation_strings": [],
+          "raw_orcid": null,
+          "affiliations": []
+        }
+      ],
+      "institutions": [],
+      "countries_distinct_count": 0,
+      "institutions_distinct_count": 0,
+      "corresponding_author_ids": [
+        "https://openalex.org/A5005203582"
+      ],
+      "corresponding_institution_ids": [],
+      "apc_list": null,
+      "apc_paid": null,
+      "fwci": null,
+      "is_authors_truncated": false,
+      "has_fulltext": false,
+      "cited_by_count": 0,
+      "citation_normalized_percentile": {
+        "value": 0.0,
+        "is_in_top_1_percent": false,
+        "is_in_top_10_percent": false
+      },
+      "cited_by_percentile_year": null,
+      "biblio": {
+        "volume": null,
+        "issue": null,
+        "first_page": null,
+        "last_page": null
+      },
+      "is_retracted": false,
+      "is_paratext": false,
+      "is_xpac": false,
+      "primary_topic": {
+        "id": "https://openalex.org/T11529",
+        "display_name": "Refrigeration and Air Conditioning Technologies",
+        "score": 1.0,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2210",
+          "display_name": "Mechanical Engineering"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/22",
+          "display_name": "Engineering"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      "topics": [
+        {
+          "id": "https://openalex.org/T11529",
+          "display_name": "Refrigeration and Air Conditioning Technologies",
+          "score": 1.0,
+          "subfield": {
+            "id": "https://openalex.org/subfields/2210",
+            "display_name": "Mechanical Engineering"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/22",
+            "display_name": "Engineering"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T14479",
+          "display_name": "Freezing and Crystallization Processes",
+          "score": 9.999999747378752e-05,
+          "subfield": {
+            "id": "https://openalex.org/subfields/1506",
+            "display_name": "Filtration and Separation"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/15",
+            "display_name": "Chemical Engineering"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T12139",
+          "display_name": "Advanced Thermodynamic Systems and Engines",
+          "score": 0.0,
+          "subfield": {
+            "id": "https://openalex.org/subfields/2210",
+            "display_name": "Mechanical Engineering"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/22",
+            "display_name": "Engineering"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        }
+      ],
+      "keywords": [
+        {
+          "id": "https://openalex.org/keywords/mechanical-refrigeration",
+          "display_name": "mechanical refrigeration",
+          "score": 0.9739999771118164
+        },
+        {
+          "id": "https://openalex.org/keywords/ice-making",
+          "display_name": "ice production",
+          "score": 0.7620000243186951
+        },
+        {
+          "id": "https://openalex.org/keywords/cold-storage",
+          "display_name": "cold storage",
+          "score": 0.9929999709129333
+        },
+        {
+          "id": "https://openalex.org/keywords/refrigeration-engineering",
+          "display_name": "refrigeration engineering",
+          "score": 0.7450000047683716
+        },
+        {
+          "id": "https://openalex.org/keywords/thermodynamics",
+          "display_name": "thermodynamics",
+          "score": 0.8450000286102295
+        },
+        {
+          "id": "https://openalex.org/keywords/brewery",
+          "display_name": "brewery",
+          "score": 0.5260000228881836
+        },
+        {
+          "id": "https://openalex.org/keywords/food-packaging",
+          "display_name": "food packaging",
+          "score": 0.7260000109672546
+        }
+      ],
+      "concepts": [
+        {
+          "id": "https://openalex.org/C69907114",
+          "wikidata": "https://www.wikidata.org/wiki/Q747713",
+          "display_name": "Refrigeration",
+          "level": 2,
+          "score": 0.8379193544387817
+        },
+        {
+          "id": "https://openalex.org/C97514900",
+          "wikidata": "https://www.wikidata.org/wiki/Q719597",
+          "display_name": "Energetics",
+          "level": 2,
+          "score": 0.570824384689331
+        },
+        {
+          "id": "https://openalex.org/C97355855",
+          "wikidata": "https://www.wikidata.org/wiki/Q11473",
+          "display_name": "Thermodynamics",
+          "level": 1,
+          "score": 0.4473527669906616
+        },
+        {
+          "id": "https://openalex.org/C127413603",
+          "wikidata": "https://www.wikidata.org/wiki/Q11023",
+          "display_name": "Engineering",
+          "level": 0,
+          "score": 0.42279112339019775
+        },
+        {
+          "id": "https://openalex.org/C78519656",
+          "wikidata": "https://www.wikidata.org/wiki/Q101333",
+          "display_name": "Mechanical engineering",
+          "level": 1,
+          "score": 0.3694790303707123
+        },
+        {
+          "id": "https://openalex.org/C121332964",
+          "wikidata": "https://www.wikidata.org/wiki/Q413",
+          "display_name": "Physics",
+          "level": 0,
+          "score": 0.16607028245925903
+        }
+      ],
+      "mesh": [],
+      "locations_count": 1,
+      "locations": [
+        {
+          "id": "mag:1593905678",
+          "doi": null,
+          "is_oa": false,
+          "landing_page_url": "http://ci.nii.ac.jp/ncid/BA72844679",
+          "pdf_url": null,
+          "source": null,
+          "license": null,
+          "license_id": null,
+          "version": null,
+          "is_accepted": false,
+          "is_published": false,
+          "raw_source_name": null,
+          "raw_type": null
+        }
+      ],
+      "best_oa_location": null,
+      "sustainable_development_goals": [],
+      "study_designs": [],
+      "awards": [],
+      "funders": [],
+      "has_content": {
+        "grobid_xml": false,
+        "pdf": false
+      },
+      "content_urls": null,
+      "referenced_works_count": 0,
+      "referenced_works": [],
+      "related_works": [
+        "https://openalex.org/W1601106022",
+        "https://openalex.org/W6990107596",
+        "https://openalex.org/W7018095641",
+        "https://openalex.org/W7027511608",
+        "https://openalex.org/W590298605",
+        "https://openalex.org/W1552818515",
+        "https://openalex.org/W1851421831",
+        "https://openalex.org/W416014088",
+        "https://openalex.org/W3143446104",
+        "https://openalex.org/W638304282"
+      ],
+      "abstract_inverted_index": null,
+      "counts_by_year": [],
+      "updated_date": "2026-10-25T09:29:13.331239",
+      "created_date": "2016-06-24T00:00:00"
+    },
+    {
+      "id": "https://openalex.org/W2028308332",
+      "doi": "https://doi.org/10.2118/80945-ms",
+      "title": "Ratings Standardization for Production Packers",
+      "display_name": "Ratings Standardization for Production Packers",
+      "relevance_score": 36.005295,
+      "publication_year": 2003,
+      "publication_date": "2003-03-01",
+      "ids": {
+        "openalex": "https://openalex.org/W2028308332",
+        "doi": "https://doi.org/10.2118/80945-ms",
+        "mag": "2028308332"
+      },
+      "language": "en",
+      "primary_location": {
+        "id": "doi:10.2118/80945-ms",
+        "doi": "https://doi.org/10.2118/80945-ms",
+        "is_oa": false,
+        "landing_page_url": "https://doi.org/10.2118/80945-ms",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4306530702",
+          "display_name": "SPE Production Operations Symposium",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "listed_in": [],
+          "host_organization": null,
+          "host_organization_name": null,
+          "host_organization_lineage": [],
+          "host_organization_lineage_names": [],
+          "type": "conference"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "SPE Production and Operations Symposium",
+        "raw_type": "proceedings-article"
+      },
+      "parent_works": [],
+      "lineage": [
+        "https://openalex.org/W2028308332"
+      ],
+      "child_works_count": 0,
+      "type": "conference-paper",
+      "is_traditional": true,
+      "indexed_in": [
+        "crossref"
+      ],
+      "open_access": {
+        "is_oa": false,
+        "oa_status": "closed",
+        "oa_url": null,
+        "any_repository_has_fulltext": false
+      },
+      "authorships": [
+        {
+          "author_position": "first",
+          "author": {
+            "id": null,
+            "display_name": "John Fothergill",
+            "orcid": null,
+            "observed_orcids": []
+          },
+          "institutions": [],
+          "countries": [],
+          "is_corresponding": true,
+          "raw_author_name": "John Fothergill",
+          "raw_affiliation_strings": [
+            "Baker Oil Tools"
+          ],
+          "raw_orcid": null,
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Baker Oil Tools",
+              "institution_ids": []
+            }
+          ]
+        }
+      ],
+      "institutions": [],
+      "countries_distinct_count": 0,
+      "institutions_distinct_count": 0,
+      "corresponding_author_ids": [],
+      "corresponding_institution_ids": [],
+      "apc_list": null,
+      "apc_paid": null,
+      "fwci": 1.1024,
+      "is_authors_truncated": false,
+      "has_fulltext": false,
+      "cited_by_count": 13,
+      "citation_normalized_percentile": {
+        "value": 0.65789474,
+        "is_in_top_1_percent": false,
+        "is_in_top_10_percent": false
+      },
+      "cited_by_percentile_year": {
+        "min": 87,
+        "max": 95
+      },
+      "biblio": {
+        "volume": null,
+        "issue": null,
+        "first_page": null,
+        "last_page": null
+      },
+      "is_retracted": false,
+      "is_paratext": false,
+      "is_xpac": false,
+      "primary_topic": {
+        "id": "https://openalex.org/T10892",
+        "display_name": "Drilling and Well Engineering",
+        "score": 0.9491999745368958,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2103",
+          "display_name": "Fuel Technology"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/21",
+          "display_name": "Energy"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      "topics": [
+        {
+          "id": "https://openalex.org/T10892",
+          "display_name": "Drilling and Well Engineering",
+          "score": 0.9491999745368958,
+          "subfield": {
+            "id": "https://openalex.org/subfields/2103",
+            "display_name": "Fuel Technology"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/21",
+            "display_name": "Energy"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T13050",
+          "display_name": "Oil and Gas Production Techniques",
+          "score": 0.027000000700354576,
+          "subfield": {
+            "id": "https://openalex.org/subfields/2103",
+            "display_name": "Fuel Technology"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/21",
+            "display_name": "Energy"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T13925",
+          "display_name": "Offshore Engineering and Technologies",
+          "score": 0.01489999983459711,
+          "subfield": {
+            "id": "https://openalex.org/subfields/2212",
+            "display_name": "Ocean Engineering"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/22",
+            "display_name": "Engineering"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        }
+      ],
+      "keywords": [
+        {
+          "id": "https://openalex.org/keywords/production-packer",
+          "display_name": "production packer",
+          "score": 0.972000002861023
+        },
+        {
+          "id": "https://openalex.org/keywords/design-validation",
+          "display_name": "design validation",
+          "score": 0.7799999713897705
+        },
+        {
+          "id": "https://openalex.org/keywords/product-choice",
+          "display_name": "product selection",
+          "score": 0.6200000047683716
+        }
+      ],
+      "concepts": [
+        {
+          "id": "https://openalex.org/C188087704",
+          "wikidata": "https://www.wikidata.org/wiki/Q369577",
+          "display_name": "Standardization",
+          "level": 2,
+          "score": 0.9215054512023926
+        },
+        {
+          "id": "https://openalex.org/C90673727",
+          "wikidata": "https://www.wikidata.org/wiki/Q901718",
+          "display_name": "Product (mathematics)",
+          "level": 2,
+          "score": 0.6334576606750488
+        },
+        {
+          "id": "https://openalex.org/C2779530757",
+          "wikidata": "https://www.wikidata.org/wiki/Q1207505",
+          "display_name": "Quality (philosophy)",
+          "level": 2,
+          "score": 0.6306949257850647
+        },
+        {
+          "id": "https://openalex.org/C98045186",
+          "wikidata": "https://www.wikidata.org/wiki/Q205663",
+          "display_name": "Process (computing)",
+          "level": 2,
+          "score": 0.6100726127624512
+        },
+        {
+          "id": "https://openalex.org/C41008148",
+          "wikidata": "https://www.wikidata.org/wiki/Q21198",
+          "display_name": "Computer science",
+          "level": 0,
+          "score": 0.5922594666481018
+        },
+        {
+          "id": "https://openalex.org/C2778348673",
+          "wikidata": "https://www.wikidata.org/wiki/Q739302",
+          "display_name": "Production (economics)",
+          "level": 2,
+          "score": 0.5772970914840698
+        },
+        {
+          "id": "https://openalex.org/C2780522230",
+          "wikidata": "https://www.wikidata.org/wiki/Q1140419",
+          "display_name": "Ambiguity",
+          "level": 2,
+          "score": 0.5562107563018799
+        },
+        {
+          "id": "https://openalex.org/C177264268",
+          "wikidata": "https://www.wikidata.org/wiki/Q1514741",
+          "display_name": "Set (abstract data type)",
+          "level": 2,
+          "score": 0.5372917652130127
+        },
+        {
+          "id": "https://openalex.org/C165064840",
+          "wikidata": "https://www.wikidata.org/wiki/Q1321061",
+          "display_name": "Matching (statistics)",
+          "level": 2,
+          "score": 0.5158674120903015
+        },
+        {
+          "id": "https://openalex.org/C81917197",
+          "wikidata": "https://www.wikidata.org/wiki/Q628760",
+          "display_name": "Selection (genetic algorithm)",
+          "level": 2,
+          "score": 0.48880264163017273
+        },
+        {
+          "id": "https://openalex.org/C112930515",
+          "wikidata": "https://www.wikidata.org/wiki/Q4389547",
+          "display_name": "Risk analysis (engineering)",
+          "level": 1,
+          "score": 0.4834895730018616
+        },
+        {
+          "id": "https://openalex.org/C19351080",
+          "wikidata": "https://www.wikidata.org/wiki/Q1395034",
+          "display_name": "New product development",
+          "level": 2,
+          "score": 0.4113501012325287
+        },
+        {
+          "id": "https://openalex.org/C195094911",
+          "wikidata": "https://www.wikidata.org/wiki/Q14167904",
+          "display_name": "Process management",
+          "level": 1,
+          "score": 0.37519752979278564
+        },
+        {
+          "id": "https://openalex.org/C110354214",
+          "wikidata": "https://www.wikidata.org/wiki/Q6314146",
+          "display_name": "Engineering management",
+          "level": 1,
+          "score": 0.3231983780860901
+        },
+        {
+          "id": "https://openalex.org/C127413603",
+          "wikidata": "https://www.wikidata.org/wiki/Q11023",
+          "display_name": "Engineering",
+          "level": 0,
+          "score": 0.30245184898376465
+        },
+        {
+          "id": "https://openalex.org/C144133560",
+          "wikidata": "https://www.wikidata.org/wiki/Q4830453",
+          "display_name": "Business",
+          "level": 0,
+          "score": 0.14054012298583984
+        },
+        {
+          "id": "https://openalex.org/C162853370",
+          "wikidata": "https://www.wikidata.org/wiki/Q39809",
+          "display_name": "Marketing",
+          "level": 1,
+          "score": 0.12233701348304749
+        },
+        {
+          "id": "https://openalex.org/C154945302",
+          "wikidata": "https://www.wikidata.org/wiki/Q11660",
+          "display_name": "Artificial intelligence",
+          "level": 1,
+          "score": 0.08207893371582031
+        },
+        {
+          "id": "https://openalex.org/C162324750",
+          "wikidata": "https://www.wikidata.org/wiki/Q8134",
+          "display_name": "Economics",
+          "level": 0,
+          "score": 0.0
+        },
+        {
+          "id": "https://openalex.org/C111919701",
+          "wikidata": "https://www.wikidata.org/wiki/Q9135",
+          "display_name": "Operating system",
+          "level": 1,
+          "score": 0.0
+        },
+        {
+          "id": "https://openalex.org/C33923547",
+          "wikidata": "https://www.wikidata.org/wiki/Q395",
+          "display_name": "Mathematics",
+          "level": 0,
+          "score": 0.0
+        },
+        {
+          "id": "https://openalex.org/C199360897",
+          "wikidata": "https://www.wikidata.org/wiki/Q9143",
+          "display_name": "Programming language",
+          "level": 1,
+          "score": 0.0
+        },
+        {
+          "id": "https://openalex.org/C105795698",
+          "wikidata": "https://www.wikidata.org/wiki/Q12483",
+          "display_name": "Statistics",
+          "level": 1,
+          "score": 0.0
+        },
+        {
+          "id": "https://openalex.org/C111472728",
+          "wikidata": "https://www.wikidata.org/wiki/Q9471",
+          "display_name": "Epistemology",
+          "level": 1,
+          "score": 0.0
+        },
+        {
+          "id": "https://openalex.org/C139719470",
+          "wikidata": "https://www.wikidata.org/wiki/Q39680",
+          "display_name": "Macroeconomics",
+          "level": 1,
+          "score": 0.0
+        },
+        {
+          "id": "https://openalex.org/C138885662",
+          "wikidata": "https://www.wikidata.org/wiki/Q5891",
+          "display_name": "Philosophy",
+          "level": 0,
+          "score": 0.0
+        },
+        {
+          "id": "https://openalex.org/C2524010",
+          "wikidata": "https://www.wikidata.org/wiki/Q8087",
+          "display_name": "Geometry",
+          "level": 1,
+          "score": 0.0
+        }
+      ],
+      "mesh": [],
+      "locations_count": 2,
+      "locations": [
+        {
+          "id": "doi:10.2118/80945-ms",
+          "doi": "https://doi.org/10.2118/80945-ms",
+          "is_oa": false,
+          "landing_page_url": "https://doi.org/10.2118/80945-ms",
+          "pdf_url": null,
+          "source": {
+            "id": "https://openalex.org/S4306530702",
+            "display_name": "SPE Production Operations Symposium",
+            "issn_l": null,
+            "issn": null,
+            "is_oa": false,
+            "is_in_doaj": false,
+            "is_core": false,
+            "listed_in": [],
+            "host_organization": null,
+            "host_organization_name": null,
+            "host_organization_lineage": [],
+            "host_organization_lineage_names": [],
+            "type": "conference"
+          },
+          "license": null,
+          "license_id": null,
+          "version": "publishedVersion",
+          "is_accepted": true,
+          "is_published": true,
+          "raw_source_name": "SPE Production and Operations Symposium",
+          "raw_type": "proceedings-article"
+        },
+        {
+          "id": "doi:10.2523/80945-ms",
+          "doi": "https://doi.org/10.2523/80945-ms",
+          "is_oa": false,
+          "landing_page_url": "https://doi.org/10.2523/80945-ms",
+          "pdf_url": null,
+          "source": {
+            "id": "https://openalex.org/S4306530702",
+            "display_name": "SPE Production Operations Symposium",
+            "issn_l": null,
+            "issn": null,
+            "is_oa": false,
+            "is_in_doaj": false,
+            "is_core": false,
+            "listed_in": [],
+            "host_organization": null,
+            "host_organization_name": null,
+            "host_organization_lineage": [],
+            "host_organization_lineage_names": [],
+            "type": "conference"
+          },
+          "license": null,
+          "license_id": null,
+          "version": "publishedVersion",
+          "is_accepted": true,
+          "is_published": true,
+          "raw_source_name": "Proceedings of SPE Production and Operations Symposium",
+          "raw_type": "proceedings-article"
+        }
+      ],
+      "best_oa_location": null,
+      "sustainable_development_goals": [
+        {
+          "id": "https://metadata.un.org/sdg/9",
+          "score": 0.4943999946117401,
+          "display_name": "Industry, innovation and infrastructure"
+        }
+      ],
+      "study_designs": [],
+      "awards": [],
+      "funders": [],
+      "has_content": {
+        "grobid_xml": false,
+        "pdf": false
+      },
+      "content_urls": null,
+      "referenced_works_count": 5,
+      "referenced_works": [
+        "https://openalex.org/W170189173",
+        "https://openalex.org/W1966477061",
+        "https://openalex.org/W2035121486",
+        "https://openalex.org/W2053218502",
+        "https://openalex.org/W2080934554"
+      ],
+      "related_works": [
+        "https://openalex.org/W7160062555",
+        "https://openalex.org/W1964038152",
+        "https://openalex.org/W2386620866",
+        "https://openalex.org/W4246464591",
+        "https://openalex.org/W2079949445",
+        "https://openalex.org/W2994977657",
+        "https://openalex.org/W4388566489",
+        "https://openalex.org/W2091782793",
+        "https://openalex.org/W2071105769",
+        "https://openalex.org/W2002495964"
+      ],
+      "abstract_inverted_index": {
+        "Abstract": [
+          0
+        ],
+        "Longstanding": [
+          1
+        ],
+        "ambiguity": [
+          2
+        ],
+        "surrounding": [
+          3
+        ],
+        "performance": [
+          4,
+          57,
+          88
+        ],
+        "ratings": [
+          5
+        ],
+        "for": [
+          6,
+          139
+        ],
+        "production": [
+          7
+        ],
+        "packers": [
+          8
+        ],
+        "continues": [
+          9
+        ],
+        "to": [
+          10,
+          148
+        ],
+        "be": [
+          11
+        ],
+        "a": [
+          12,
+          40,
+          49,
+          82
+        ],
+        "topic": [
+          13
+        ],
+        "of": [
+          14,
+          52,
+          55,
+          73,
+          85,
+          92,
+          146
+        ],
+        "concern,": [
+          15
+        ],
+        "as": [
+          16,
+          98,
+          100,
+          132,
+          134
+        ],
+        "increasingly": [
+          17
+        ],
+        "demanding": [
+          18
+        ],
+        "completion": [
+          19,
+          80
+        ],
+        "environments": [
+          20
+        ],
+        "drive": [
+          21
+        ],
+        "more": [
+          22
+        ],
+        "critical": [
+          23
+        ],
+        "product": [
+          24,
+          141,
+          147
+        ],
+        "selection": [
+          25,
+          42
+        ],
+        "processes.": [
+          26
+        ],
+        "Inconsistencies": [
+          27
+        ],
+        "in": [
+          28,
+          105,
+          113
+        ],
+        "manufacturer": [
+          29
+        ],
+        "testing": [
+          30,
+          94
+        ],
+        "methodologies": [
+          31
+        ],
+        "and": [
+          32,
+          70,
+          120,
+          128,
+          143
+        ],
+        "design": [
+          33,
+          121
+        ],
+        "validation": [
+          34,
+          122
+        ],
+        "procedures": [
+          35,
+          95
+        ],
+        "have": [
+          36,
+          63
+        ],
+        "previously": [
+          37
+        ],
+        "not": [
+          38,
+          46
+        ],
+        "supported": [
+          39
+        ],
+        "quality": [
+          41,
+          118
+        ],
+        "process.": [
+          43,
+          108
+        ],
+        "Completion": [
+          44,
+          126
+        ],
+        "engineers,": [
+          45
+        ],
+        "equipped": [
+          47
+        ],
+        "with": [
+          48
+        ],
+        "thorough": [
+          50
+        ],
+        "understanding": [
+          51,
+          84
+        ],
+        "the": [
+          53,
+          67,
+          74,
+          79,
+          101,
+          106
+        ],
+        "nuances": [
+          54
+        ],
+        "packer": [
+          56,
+          87
+        ],
+        "characteristics": [
+          58
+        ],
+        "under": [
+          59
+        ],
+        "various": [
+          60
+        ],
+        "load": [
+          61
+        ],
+        "conditions,": [
+          62
+        ],
+        "been": [
+          64
+        ],
+        "dependent": [
+          65
+        ],
+        "upon": [
+          66
+        ],
+        "technical": [
+          68
+        ],
+        "expertise": [
+          69
+        ],
+        "good": [
+          71
+        ],
+        "faith": [
+          72
+        ],
+        "manufacturer.": [
+          75
+        ],
+        "This": [
+          76
+        ],
+        "paper": [
+          77
+        ],
+        "gives": [
+          78
+        ],
+        "engineer": [
+          81
+        ],
+        "working": [
+          83
+        ],
+        "applied": [
+          86
+        ],
+        "ratings.": [
+          89
+        ],
+        "The": [
+          90
+        ],
+        "evolution": [
+          91
+        ],
+        "qualifying": [
+          93
+        ],
+        "is": [
+          96,
+          124
+        ],
+        "discussed,": [
+          97
+        ],
+        "well": [
+          99,
+          133
+        ],
+        "most": [
+          102
+        ],
+        "recent": [
+          103
+        ],
+        "advancements": [
+          104
+        ],
+        "standardization": [
+          107,
+          110
+        ],
+        "Ratings": [
+          109
+        ],
+        "set": [
+          111
+        ],
+        "forth": [
+          112
+        ],
+        "ISO": [
+          114
+        ],
+        "14310,": [
+          115
+        ],
+        "establishing": [
+          116
+        ],
+        "both": [
+          117
+        ],
+        "control": [
+          119
+        ],
+        "grades,": [
+          123
+        ],
+        "described.": [
+          125
+        ],
+        "engineers": [
+          127
+        ],
+        "other": [
+          129
+        ],
+        "decision": [
+          130
+        ],
+        "makers,": [
+          131
+        ],
+        "salesmen": [
+          135
+        ],
+        "need": [
+          136
+        ],
+        "this": [
+          137
+        ],
+        "information": [
+          138
+        ],
+        "informed": [
+          140
+        ],
+        "comparisons": [
+          142
+        ],
+        "proper": [
+          144
+        ],
+        "matching": [
+          145
+        ],
+        "application.": [
+          149
+        ]
+      },
+      "counts_by_year": [
+        {
+          "year": 2024,
+          "cited_by_count": 1
+        },
+        {
+          "year": 2023,
+          "cited_by_count": 1
+        },
+        {
+          "year": 2021,
+          "cited_by_count": 1
+        },
+        {
+          "year": 2020,
+          "cited_by_count": 2
+        },
+        {
+          "year": 2019,
+          "cited_by_count": 2
+        },
+        {
+          "year": 2017,
+          "cited_by_count": 1
+        }
+      ],
+      "updated_date": "2026-11-07T11:25:07.637180",
+      "created_date": "2016-06-24T00:00:00"
+    },
+    {
+      "id": "https://openalex.org/W1971763886",
+      "doi": "https://doi.org/10.2118/142367-ms",
+      "title": "Stage Isolation Failure of Non-packer Reasons in Openhole Horizontal Completion",
+      "display_name": "Stage Isolation Failure of Non-packer Reasons in Openhole Horizontal Completion",
+      "relevance_score": 33.616047,
+      "publication_year": 2011,
+      "publication_date": "2011-03-27",
+      "ids": {
+        "openalex": "https://openalex.org/W1971763886",
+        "doi": "https://doi.org/10.2118/142367-ms",
+        "mag": "1971763886"
+      },
+      "language": "en",
+      "primary_location": {
+        "id": "doi:10.2118/142367-ms",
+        "doi": "https://doi.org/10.2118/142367-ms",
+        "is_oa": false,
+        "landing_page_url": "https://doi.org/10.2118/142367-ms",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4306530702",
+          "display_name": "SPE Production Operations Symposium",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "listed_in": [],
+          "host_organization": null,
+          "host_organization_name": null,
+          "host_organization_lineage": [],
+          "host_organization_lineage_names": [],
+          "type": "conference"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "SPE Production and Operations Symposium",
+        "raw_type": "proceedings-article"
+      },
+      "parent_works": [],
+      "lineage": [
+        "https://openalex.org/W1971763886"
+      ],
+      "child_works_count": 0,
+      "type": "conference-paper",
+      "is_traditional": true,
+      "indexed_in": [
+        "crossref"
+      ],
+      "open_access": {
+        "is_oa": false,
+        "oa_status": "closed",
+        "oa_url": null,
+        "any_repository_has_fulltext": false
+      },
+      "authorships": [
+        {
+          "author_position": "first",
+          "author": {
+            "id": "https://openalex.org/A5026656121",
+            "display_name": "Desheng Zhou",
+            "orcid": null,
+            "observed_orcids": []
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I181903023",
+              "display_name": "Xi'an Shiyou University",
+              "ror": "https://ror.org/040c7js64",
+              "country_code": "CN",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I181903023"
+              ]
+            }
+          ],
+          "countries": [
+            "CN"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "Desheng Zhou",
+          "raw_affiliation_strings": [
+            "Xian Petroleum University"
+          ],
+          "raw_orcid": null,
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Xian Petroleum University",
+              "institution_ids": [
+                "https://openalex.org/I181903023"
+              ]
+            }
+          ]
+        },
+        {
+          "author_position": "last",
+          "author": {
+            "id": "https://openalex.org/A5109941278",
+            "display_name": "Hong Yuan",
+            "orcid": null,
+            "observed_orcids": []
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I4210156362",
+              "display_name": "Institut für Höhere Studien - Institute for Advanced Studies (IHS)",
+              "ror": "https://ror.org/05ag62t55",
+              "country_code": "AT",
+              "type": "nonprofit",
+              "lineage": [
+                "https://openalex.org/I4210156362"
+              ]
+            }
+          ],
+          "countries": [
+            "AT"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "Hong Yuan",
+          "raw_affiliation_strings": [
+            "IHS",
+            "IHS INC"
+          ],
+          "raw_orcid": null,
+          "affiliations": [
+            {
+              "raw_affiliation_string": "IHS",
+              "institution_ids": [
+                "https://openalex.org/I4210156362"
+              ]
+            },
+            {
+              "raw_affiliation_string": "IHS INC",
+              "institution_ids": []
+            }
+          ]
+        }
+      ],
+      "institutions": [],
+      "countries_distinct_count": 2,
+      "institutions_distinct_count": 2,
+      "corresponding_author_ids": [],
+      "corresponding_institution_ids": [],
+      "apc_list": null,
+      "apc_paid": null,
+      "fwci": 0.4645,
+      "is_authors_truncated": false,
+      "has_fulltext": false,
+      "cited_by_count": 3,
+      "citation_normalized_percentile": {
+        "value": 0.49562895,
+        "is_in_top_1_percent": false,
+        "is_in_top_10_percent": false
+      },
+      "cited_by_percentile_year": {
+        "min": 88,
+        "max": 93
+      },
+      "biblio": {
+        "volume": null,
+        "issue": null,
+        "first_page": null,
+        "last_page": null
+      },
+      "is_retracted": false,
+      "is_paratext": false,
+      "is_xpac": false,
+      "primary_topic": {
+        "id": "https://openalex.org/T10635",
+        "display_name": "Hydraulic Fracturing and Reservoir Analysis",
+        "score": 0.9984999895095825,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2103",
+          "display_name": "Fuel Technology"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/21",
+          "display_name": "Energy"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      "topics": [
+        {
+          "id": "https://openalex.org/T10635",
+          "display_name": "Hydraulic Fracturing and Reservoir Analysis",
+          "score": 0.9984999895095825,
+          "subfield": {
+            "id": "https://openalex.org/subfields/2103",
+            "display_name": "Fuel Technology"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/21",
+            "display_name": "Energy"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T10892",
+          "display_name": "Drilling and Well Engineering",
+          "score": 0.000699999975040555,
+          "subfield": {
+            "id": "https://openalex.org/subfields/2103",
+            "display_name": "Fuel Technology"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/21",
+            "display_name": "Energy"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T10399",
+          "display_name": "Hydrocarbon exploration and reservoir analysis",
+          "score": 9.999999747378752e-05,
+          "subfield": {
+            "id": "https://openalex.org/subfields/1907",
+            "display_name": "Geology"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/19",
+            "display_name": "Earth and Planetary Sciences"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        }
+      ],
+      "keywords": [
+        {
+          "id": "https://openalex.org/keywords/multistage-hydraulic-fracturing",
+          "display_name": "multistage hydraulic fracturing",
+          "score": 0.9409999847412109
+        },
+        {
+          "id": "https://openalex.org/keywords/packers",
+          "display_name": "packers",
+          "score": 0.6970000267028809
+        },
+        {
+          "id": "https://openalex.org/keywords/low-permeability-reservoirs",
+          "display_name": "low-permeability reservoirs",
+          "score": 0.9200000166893005
+        },
+        {
+          "id": "https://openalex.org/keywords/wellbore-deformation",
+          "display_name": "wellbore deformation",
+          "score": 0.7749999761581421
+        }
+      ],
+      "concepts": [
+        {
+          "id": "https://openalex.org/C9677107",
+          "wikidata": "https://www.wikidata.org/wiki/Q502102",
+          "display_name": "Wellbore",
+          "level": 2,
+          "score": 0.8500286936759949
+        },
+        {
+          "id": "https://openalex.org/C78762247",
+          "wikidata": "https://www.wikidata.org/wiki/Q1273174",
+          "display_name": "Petroleum engineering",
+          "level": 1,
+          "score": 0.6485574245452881
+        },
+        {
+          "id": "https://openalex.org/C2779538338",
+          "wikidata": "https://www.wikidata.org/wiki/Q2990590",
+          "display_name": "Completion (oil and gas wells)",
+          "level": 2,
+          "score": 0.6432369351387024
+        },
+        {
+          "id": "https://openalex.org/C127313418",
+          "wikidata": "https://www.wikidata.org/wiki/Q1069",
+          "display_name": "Geology",
+          "level": 0,
+          "score": 0.559641420841217
+        },
+        {
+          "id": "https://openalex.org/C187320778",
+          "wikidata": "https://www.wikidata.org/wiki/Q1349130",
+          "display_name": "Geotechnical engineering",
+          "level": 1,
+          "score": 0.41456297039985657
+        }
+      ],
+      "mesh": [],
+      "locations_count": 1,
+      "locations": [
+        {
+          "id": "doi:10.2118/142367-ms",
+          "doi": "https://doi.org/10.2118/142367-ms",
+          "is_oa": false,
+          "landing_page_url": "https://doi.org/10.2118/142367-ms",
+          "pdf_url": null,
+          "source": {
+            "id": "https://openalex.org/S4306530702",
+            "display_name": "SPE Production Operations Symposium",
+            "issn_l": null,
+            "issn": null,
+            "is_oa": false,
+            "is_in_doaj": false,
+            "is_core": false,
+            "listed_in": [],
+            "host_organization": null,
+            "host_organization_name": null,
+            "host_organization_lineage": [],
+            "host_organization_lineage_names": [],
+            "type": "conference"
+          },
+          "license": null,
+          "license_id": null,
+          "version": "publishedVersion",
+          "is_accepted": true,
+          "is_published": true,
+          "raw_source_name": "SPE Production and Operations Symposium",
+          "raw_type": "proceedings-article"
+        }
+      ],
+      "best_oa_location": null,
+      "sustainable_development_goals": [],
+      "study_designs": [],
+      "awards": [],
+      "funders": [
+        {
+          "id": "https://openalex.org/F4320321001",
+          "display_name": "National Natural Science Foundation of China",
+          "ror": "https://ror.org/01h0zpd94"
+        }
+      ],
+      "has_content": {
+        "grobid_xml": false,
+        "pdf": false
+      },
+      "content_urls": null,
+      "referenced_works_count": 2,
+      "referenced_works": [
+        "https://openalex.org/W2004790261",
+        "https://openalex.org/W2069731836"
+      ],
+      "related_works": [
+        "https://openalex.org/W2085134048",
+        "https://openalex.org/W1994962224",
+        "https://openalex.org/W4297916309",
+        "https://openalex.org/W2329095339",
+        "https://openalex.org/W4248189423",
+        "https://openalex.org/W7155722683",
+        "https://openalex.org/W2355194159",
+        "https://openalex.org/W2978391370",
+        "https://openalex.org/W7131637613",
+        "https://openalex.org/W3096804007"
+      ],
+      "abstract_inverted_index": {
+        "Abstract": [
+          0
+        ],
+        "Multistage": [
+          1
+        ],
+        "fracturing": [
+          2,
+          79,
+          158
+        ],
+        "in": [
+          3,
+          11,
+          61,
+          106,
+          159,
+          167
+        ],
+        "openhole": [
+          4,
+          52,
+          144,
+          160,
+          175
+        ],
+        "horizontal": [
+          5,
+          19,
+          26,
+          136,
+          145,
+          161,
+          176
+        ],
+        "completion": [
+          6,
+          20
+        ],
+        "is": [
+          7,
+          48,
+          55,
+          164
+        ],
+        "an": [
+          8,
+          174
+        ],
+        "economic": [
+          9
+        ],
+        "technology": [
+          10
+        ],
+        "the": [
+          12,
+          23,
+          41,
+          59,
+          62,
+          67,
+          72,
+          102,
+          132,
+          153
+        ],
+        "production": [
+          13
+        ],
+        "of": [
+          14,
+          25,
+          71
+        ],
+        "low": [
+          15
+        ],
+        "permeability": [
+          16
+        ],
+        "reservoirs.": [
+          17
+        ],
+        "Openhole": [
+          18
+        ],
+        "requires": [
+          21
+        ],
+        "sealing": [
+          22,
+          42
+        ],
+        "surface": [
+          24
+        ],
+        "wellbore": [
+          27,
+          113,
+          115,
+          118,
+          137,
+          146
+        ],
+        "rock": [
+          28,
+          77
+        ],
+        "directly": [
+          29
+        ],
+        "to": [
+          30,
+          39,
+          108,
+          120,
+          155
+        ],
+        "create": [
+          31,
+          40
+        ],
+        "stages": [
+          32
+        ],
+        "for": [
+          33,
+          58,
+          95,
+          173
+        ],
+        "fracturing.": [
+          34,
+          53
+        ],
+        "Packers": [
+          35
+        ],
+        "are": [
+          36,
+          112
+        ],
+        "usually": [
+          37
+        ],
+        "used": [
+          38
+        ],
+        "stages.": [
+          43
+        ],
+        "However,": [
+          44
+        ],
+        "stage": [
+          45,
+          89
+        ],
+        "isolation": [
+          46,
+          73,
+          90,
+          104,
+          134
+        ],
+        "failure": [
+          47,
+          60,
+          74,
+          93
+        ],
+        "not": [
+          49
+        ],
+        "uncommon": [
+          50
+        ],
+        "during": [
+          51
+        ],
+        "Packer": [
+          54
+        ],
+        "commonly": [
+          56
+        ],
+        "blamed": [
+          57
+        ],
+        "industry.": [
+          63
+        ],
+        "The": [
+          64,
+          85
+        ],
+        "paper": [
+          65,
+          86,
+          154
+        ],
+        "studies": [
+          66
+        ],
+        "other": [
+          68
+        ],
+        "(non-packer)": [
+          69
+        ],
+        "reasons": [
+          70
+        ],
+        "based": [
+          75
+        ],
+        "on": [
+          76
+        ],
+        "mechanics,": [
+          78
+        ],
+        "theory,": [
+          80
+        ],
+        "and": [
+          81,
+          123,
+          126,
+          140,
+          171
+        ],
+        "finite": [
+          82
+        ],
+        "element": [
+          83
+        ],
+        "analysis.": [
+          84
+        ],
+        "presents": [
+          87
+        ],
+        "that": [
+          88
+        ],
+        "may": [
+          91,
+          100,
+          151
+        ],
+        "be": [
+          92,
+          148
+        ],
+        "even": [
+          94
+        ],
+        "perfect": [
+          96
+        ],
+        "packers.": [
+          97
+        ],
+        "Four": [
+          98
+        ],
+        "sources": [
+          99
+        ],
+        "yield": [
+          101
+        ],
+        "multistage": [
+          103,
+          157
+        ],
+        "failures": [
+          105
+        ],
+        "addition": [
+          107
+        ],
+        "packer": [
+          109,
+          168
+        ],
+        "itself.": [
+          110
+        ],
+        "They": [
+          111
+        ],
+        "wavy,": [
+          114
+        ],
+        "diameter": [
+          116
+        ],
+        "change,": [
+          117
+        ],
+        "deformation": [
+          119,
+          141
+        ],
+        "oval": [
+          121
+        ],
+        "shape,": [
+          122
+        ],
+        "axial": [
+          124
+        ],
+        "fracture": [
+          125,
+          127
+        ],
+        "initializing": [
+          128
+        ],
+        "location.": [
+          129
+        ],
+        "To": [
+          130
+        ],
+        "avoid": [
+          131
+        ],
+        "non-packer": [
+          133
+        ],
+        "failure,": [
+          135
+        ],
+        "survey,": [
+          138
+        ],
+        "stress": [
+          139
+        ],
+        "around": [
+          142
+        ],
+        "a": [
+          143
+        ],
+        "should": [
+          147
+        ],
+        "analyzed.": [
+          149
+        ],
+        "Engineers": [
+          150
+        ],
+        "use": [
+          152
+        ],
+        "improve": [
+          156
+        ],
+        "completion.": [
+          162,
+          177
+        ],
+        "It": [
+          163
+        ],
+        "also": [
+          165
+        ],
+        "useful": [
+          166
+        ],
+        "selecting,": [
+          169
+        ],
+        "setting,": [
+          170
+        ],
+        "designing": [
+          172
+        ]
+      },
+      "counts_by_year": [
+        {
+          "year": 2020,
+          "cited_by_count": 1
+        },
+        {
+          "year": 2019,
+          "cited_by_count": 1
+        },
+        {
+          "year": 2012,
+          "cited_by_count": 1
+        }
+      ],
+      "updated_date": "2026-10-29T09:56:32.521200",
+      "created_date": "2016-06-24T00:00:00"
+    },
+    {
+      "id": "https://openalex.org/W2025191343",
+      "doi": "https://doi.org/10.1080/10426914.2011.647999",
+      "title": "Design and Manufacture of Swell Packers: Influence of Material Behavior",
+      "display_name": "Design and Manufacture of Swell Packers: Influence of Material Behavior",
+      "relevance_score": 31.673002,
+      "publication_year": 2012,
+      "publication_date": "2012-05-24",
+      "ids": {
+        "openalex": "https://openalex.org/W2025191343",
+        "doi": "https://doi.org/10.1080/10426914.2011.647999",
+        "mag": "2025191343"
+      },
+      "language": "en",
+      "primary_location": {
+        "id": "doi:10.1080/10426914.2011.647999",
+        "doi": "https://doi.org/10.1080/10426914.2011.647999",
+        "is_oa": false,
+        "landing_page_url": "https://doi.org/10.1080/10426914.2011.647999",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S166620827",
+          "display_name": "Materials and Manufacturing Processes",
+          "issn_l": "1042-6914",
+          "issn": [
+            "1042-6914",
+            "1532-2475"
+          ],
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": true,
+          "listed_in": [
+            "anvur-scientific",
+            "cwts-core",
+            "dongbi-c",
+            "jufo-1",
+            "norway-1",
+            "poland-100",
+            "russia-white-list-1"
+          ],
+          "host_organization": "https://openalex.org/P4310320547",
+          "host_organization_name": "Taylor & Francis",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310320547",
+            "https://openalex.org/P4310320449"
+          ],
+          "host_organization_lineage_names": [
+            "Taylor & Francis",
+            "Informa"
+          ],
+          "type": "journal"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Materials and Manufacturing Processes",
+        "raw_type": "journal-article"
+      },
+      "parent_works": [],
+      "lineage": [
+        "https://openalex.org/W2025191343"
+      ],
+      "child_works_count": 0,
+      "type": "article",
+      "is_traditional": true,
+      "indexed_in": [
+        "crossref"
+      ],
+      "open_access": {
+        "is_oa": false,
+        "oa_status": "closed",
+        "oa_url": null,
+        "any_repository_has_fulltext": false
+      },
+      "authorships": [
+        {
+          "author_position": "first",
+          "author": {
+            "id": "https://openalex.org/A5046401643",
+            "display_name": "Sayyad Zahid Qamar",
+            "orcid": "https://orcid.org/0000-0001-8276-2671",
+            "observed_orcids": [
+              "https://orcid.org/0000-0001-8276-2671"
+            ]
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I47818738",
+              "display_name": "Sultan Qaboos University",
+              "ror": "https://ror.org/04wq8zb47",
+              "country_code": "OM",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I47818738"
+              ]
+            }
+          ],
+          "countries": [
+            "OM"
+          ],
+          "is_corresponding": true,
+          "raw_author_name": "S. Z. Qamar",
+          "raw_affiliation_strings": [
+            "Department of Mechanical and Industrial Engineering, College of Engineering, Sultan Qaboos University, Sultanate of Oman"
+          ],
+          "raw_orcid": null,
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Department of Mechanical and Industrial Engineering, College of Engineering, Sultan Qaboos University, Sultanate of Oman",
+              "institution_ids": [
+                "https://openalex.org/I47818738"
+              ]
+            }
+          ]
+        },
+        {
+          "author_position": "middle",
+          "author": {
+            "id": "https://openalex.org/A5111825082",
+            "display_name": "Tasneem Pervez",
+            "orcid": "https://orcid.org/0000-0002-4610-3561",
+            "observed_orcids": [
+              "https://orcid.org/0000-0002-4610-3561"
+            ]
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I47818738",
+              "display_name": "Sultan Qaboos University",
+              "ror": "https://ror.org/04wq8zb47",
+              "country_code": "OM",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I47818738"
+              ]
+            }
+          ],
+          "countries": [
+            "OM"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "T. Pervez",
+          "raw_affiliation_strings": [
+            "Department of Mechanical and Industrial Engineering, College of Engineering, Sultan Qaboos University, Sultanate of Oman"
+          ],
+          "raw_orcid": null,
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Department of Mechanical and Industrial Engineering, College of Engineering, Sultan Qaboos University, Sultanate of Oman",
+              "institution_ids": [
+                "https://openalex.org/I47818738"
+              ]
+            }
+          ]
+        },
+        {
+          "author_position": "middle",
+          "author": {
+            "id": "https://openalex.org/A5000786856",
+            "display_name": "Maaz Akhtar",
+            "orcid": "https://orcid.org/0000-0002-5061-8090",
+            "observed_orcids": [
+              "https://orcid.org/0000-0002-5061-8090"
+            ]
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I47818738",
+              "display_name": "Sultan Qaboos University",
+              "ror": "https://ror.org/04wq8zb47",
+              "country_code": "OM",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I47818738"
+              ]
+            }
+          ],
+          "countries": [
+            "OM"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "M. Akhtar",
+          "raw_affiliation_strings": [
+            "Department of Mechanical and Industrial Engineering, College of Engineering, Sultan Qaboos University, Sultanate of Oman"
+          ],
+          "raw_orcid": null,
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Department of Mechanical and Industrial Engineering, College of Engineering, Sultan Qaboos University, Sultanate of Oman",
+              "institution_ids": [
+                "https://openalex.org/I47818738"
+              ]
+            }
+          ]
+        },
+        {
+          "author_position": "last",
+          "author": {
+            "id": "https://openalex.org/A5015113119",
+            "display_name": "Moosa S. M. Al-Kharusi",
+            "orcid": null,
+            "observed_orcids": []
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I47818738",
+              "display_name": "Sultan Qaboos University",
+              "ror": "https://ror.org/04wq8zb47",
+              "country_code": "OM",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I47818738"
+              ]
+            }
+          ],
+          "countries": [
+            "OM"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "M. S. M. Al-Kharusi",
+          "raw_affiliation_strings": [
+            "Department of Mechanical and Industrial Engineering, College of Engineering, Sultan Qaboos University, Sultanate of Oman"
+          ],
+          "raw_orcid": null,
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Department of Mechanical and Industrial Engineering, College of Engineering, Sultan Qaboos University, Sultanate of Oman",
+              "institution_ids": [
+                "https://openalex.org/I47818738"
+              ]
+            }
+          ]
+        }
+      ],
+      "institutions": [],
+      "countries_distinct_count": 1,
+      "institutions_distinct_count": 1,
+      "corresponding_author_ids": [
+        "https://openalex.org/A5046401643"
+      ],
+      "corresponding_institution_ids": [
+        "https://openalex.org/I47818738"
+      ],
+      "apc_list": null,
+      "apc_paid": null,
+      "fwci": 1.3798,
+      "is_authors_truncated": false,
+      "has_fulltext": false,
+      "cited_by_count": 42,
+      "citation_normalized_percentile": {
+        "value": 0.81297005,
+        "is_in_top_1_percent": false,
+        "is_in_top_10_percent": false
+      },
+      "cited_by_percentile_year": {
+        "min": 88,
+        "max": 99
+      },
+      "biblio": {
+        "volume": "27",
+        "issue": "7",
+        "first_page": "721",
+        "last_page": "726"
+      },
+      "is_retracted": false,
+      "is_paratext": false,
+      "is_xpac": false,
+      "primary_topic": {
+        "id": "https://openalex.org/T10892",
+        "display_name": "Drilling and Well Engineering",
+        "score": 0.9951000213623047,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2103",
+          "display_name": "Fuel Technology"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/21",
+          "display_name": "Energy"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      "topics": [
+        {
+          "id": "https://openalex.org/T10892",
+          "display_name": "Drilling and Well Engineering",
+          "score": 0.9951000213623047,
+          "subfield": {
+            "id": "https://openalex.org/subfields/2103",
+            "display_name": "Fuel Technology"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/21",
+            "display_name": "Energy"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T13925",
+          "display_name": "Offshore Engineering and Technologies",
+          "score": 0.0003000000142492354,
+          "subfield": {
+            "id": "https://openalex.org/subfields/2212",
+            "display_name": "Ocean Engineering"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/22",
+            "display_name": "Engineering"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T10399",
+          "display_name": "Hydrocarbon exploration and reservoir analysis",
+          "score": 0.0003000000142492354,
+          "subfield": {
+            "id": "https://openalex.org/subfields/1907",
+            "display_name": "Geology"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/19",
+            "display_name": "Earth and Planetary Sciences"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        }
+      ],
+      "keywords": [
+        {
+          "id": "https://openalex.org/keywords/swell-packers",
+          "display_name": "swell packers",
+          "score": 0.8569999933242798
+        },
+        {
+          "id": "https://openalex.org/keywords/zonal-isolation",
+          "display_name": "zonal isolation",
+          "score": 0.7480000257492065
+        },
+        {
+          "id": "https://openalex.org/keywords/elastomer-hardness",
+          "display_name": "elastomer hardness",
+          "score": 0.5479999780654907
+        },
+        {
+          "id": "https://openalex.org/keywords/well-completion",
+          "display_name": "well completion",
+          "score": 0.4180000126361847
+        }
+      ],
+      "concepts": [
+        {
+          "id": "https://openalex.org/C2778540859",
+          "wikidata": "https://www.wikidata.org/wiki/Q152234",
+          "display_name": "Swelling",
+          "level": 2,
+          "score": 0.8838077783584595
+        },
+        {
+          "id": "https://openalex.org/C192562407",
+          "wikidata": "https://www.wikidata.org/wiki/Q228736",
+          "display_name": "Materials science",
+          "level": 0,
+          "score": 0.615967333316803
+        },
+        {
+          "id": "https://openalex.org/C38052585",
+          "wikidata": "https://www.wikidata.org/wiki/Q252266",
+          "display_name": "Elastomer",
+          "level": 2,
+          "score": 0.6137259006500244
+        },
+        {
+          "id": "https://openalex.org/C78762247",
+          "wikidata": "https://www.wikidata.org/wiki/Q1273174",
+          "display_name": "Petroleum engineering",
+          "level": 1,
+          "score": 0.5473133325576782
+        },
+        {
+          "id": "https://openalex.org/C108628306",
+          "wikidata": "https://www.wikidata.org/wiki/Q185411",
+          "display_name": "Swell",
+          "level": 2,
+          "score": 0.5084249377250671
+        },
+        {
+          "id": "https://openalex.org/C548895740",
+          "wikidata": "https://www.wikidata.org/wiki/Q22656",
+          "display_name": "Petroleum",
+          "level": 2,
+          "score": 0.4967496991157532
+        },
+        {
+          "id": "https://openalex.org/C523993062",
+          "wikidata": "https://www.wikidata.org/wiki/Q45190",
+          "display_name": "Cement",
+          "level": 2,
+          "score": 0.4893741011619568
+        },
+        {
+          "id": "https://openalex.org/C176933379",
+          "wikidata": "https://www.wikidata.org/wiki/Q131877",
+          "display_name": "Natural rubber",
+          "level": 2,
+          "score": 0.4862467050552368
+        },
+        {
+          "id": "https://openalex.org/C51179264",
+          "wikidata": "https://www.wikidata.org/wiki/Q188631",
+          "display_name": "Vulcanization",
+          "level": 3,
+          "score": 0.4766836166381836
+        },
+        {
+          "id": "https://openalex.org/C2777755289",
+          "wikidata": "https://www.wikidata.org/wiki/Q162919",
+          "display_name": "Seal (emblem)",
+          "level": 2,
+          "score": 0.4310384690761566
+        },
+        {
+          "id": "https://openalex.org/C159985019",
+          "wikidata": "https://www.wikidata.org/wiki/Q181790",
+          "display_name": "Composite material",
+          "level": 1,
+          "score": 0.42508867383003235
+        },
+        {
+          "id": "https://openalex.org/C187320778",
+          "wikidata": "https://www.wikidata.org/wiki/Q1349130",
+          "display_name": "Geotechnical engineering",
+          "level": 1,
+          "score": 0.3232448995113373
+        },
+        {
+          "id": "https://openalex.org/C127313418",
+          "wikidata": "https://www.wikidata.org/wiki/Q1069",
+          "display_name": "Geology",
+          "level": 0,
+          "score": 0.14154735207557678
+        },
+        {
+          "id": "https://openalex.org/C111368507",
+          "wikidata": "https://www.wikidata.org/wiki/Q43518",
+          "display_name": "Oceanography",
+          "level": 1,
+          "score": 0.0
+        },
+        {
+          "id": "https://openalex.org/C142362112",
+          "wikidata": "https://www.wikidata.org/wiki/Q735",
+          "display_name": "Art",
+          "level": 0,
+          "score": 0.0
+        },
+        {
+          "id": "https://openalex.org/C151730666",
+          "wikidata": "https://www.wikidata.org/wiki/Q7205",
+          "display_name": "Paleontology",
+          "level": 1,
+          "score": 0.0
+        },
+        {
+          "id": "https://openalex.org/C153349607",
+          "wikidata": "https://www.wikidata.org/wiki/Q36649",
+          "display_name": "Visual arts",
+          "level": 1,
+          "score": 0.0
+        }
+      ],
+      "mesh": [],
+      "locations_count": 1,
+      "locations": [
+        {
+          "id": "doi:10.1080/10426914.2011.647999",
+          "doi": "https://doi.org/10.1080/10426914.2011.647999",
+          "is_oa": false,
+          "landing_page_url": "https://doi.org/10.1080/10426914.2011.647999",
+          "pdf_url": null,
+          "source": {
+            "id": "https://openalex.org/S166620827",
+            "display_name": "Materials and Manufacturing Processes",
+            "issn_l": "1042-6914",
+            "issn": [
+              "1042-6914",
+              "1532-2475"
+            ],
+            "is_oa": false,
+            "is_in_doaj": false,
+            "is_core": true,
+            "listed_in": [
+              "anvur-scientific",
+              "cwts-core",
+              "dongbi-c",
+              "jufo-1",
+              "norway-1",
+              "poland-100",
+              "russia-white-list-1"
+            ],
+            "host_organization": "https://openalex.org/P4310320547",
+            "host_organization_name": "Taylor & Francis",
+            "host_organization_lineage": [
+              "https://openalex.org/P4310320547",
+              "https://openalex.org/P4310320449"
+            ],
+            "host_organization_lineage_names": [
+              "Taylor & Francis",
+              "Informa"
+            ],
+            "type": "journal"
+          },
+          "license": null,
+          "license_id": null,
+          "version": "publishedVersion",
+          "is_accepted": true,
+          "is_published": true,
+          "raw_source_name": "Materials and Manufacturing Processes",
+          "raw_type": "journal-article"
+        }
+      ],
+      "best_oa_location": null,
+      "sustainable_development_goals": [],
+      "study_designs": [],
+      "awards": [],
+      "funders": [],
+      "has_content": {
+        "grobid_xml": false,
+        "pdf": false
+      },
+      "content_urls": null,
+      "referenced_works_count": 16,
+      "referenced_works": [
+        "https://openalex.org/W1979056873",
+        "https://openalex.org/W1981518618",
+        "https://openalex.org/W1984646384",
+        "https://openalex.org/W1996988104",
+        "https://openalex.org/W1999649947",
+        "https://openalex.org/W2030682504",
+        "https://openalex.org/W2036518469",
+        "https://openalex.org/W2049955211",
+        "https://openalex.org/W2061484955",
+        "https://openalex.org/W2092614546",
+        "https://openalex.org/W2124197404",
+        "https://openalex.org/W2145581835",
+        "https://openalex.org/W2169105987",
+        "https://openalex.org/W2319441944",
+        "https://openalex.org/W2499657746",
+        "https://openalex.org/W4233743561"
+      ],
+      "related_works": [
+        "https://openalex.org/W7096633682",
+        "https://openalex.org/W4388610361",
+        "https://openalex.org/W3198246802",
+        "https://openalex.org/W3208011966",
+        "https://openalex.org/W2081344716",
+        "https://openalex.org/W2014817055",
+        "https://openalex.org/W2319441944",
+        "https://openalex.org/W2521271033",
+        "https://openalex.org/W2031163961",
+        "https://openalex.org/W3210834108"
+      ],
+      "abstract_inverted_index": {
+        "In": [
+          0
+        ],
+        "all": [
+          1
+        ],
+        "well": [
+          2
+        ],
+        "completions": [
+          3
+        ],
+        "(oil": [
+          4
+        ],
+        "and": [
+          5,
+          67,
+          92,
+          115,
+          150,
+          155,
+          167,
+          172,
+          181
+        ],
+        "gas": [
+          6
+        ],
+        "fields),": [
+          7
+        ],
+        "effective": [
+          8
+        ],
+        "cement": [
+          9,
+          18,
+          49
+        ],
+        "job": [
+          10
+        ],
+        "is": [
+          11,
+          119
+        ],
+        "necessary": [
+          12
+        ],
+        "for": [
+          13
+        ],
+        "zonal": [
+          14,
+          90
+        ],
+        "isolation.": [
+          15
+        ],
+        "Failure": [
+          16
+        ],
+        "of": [
+          17,
+          21,
+          74,
+          85,
+          100,
+          105,
+          128,
+          136,
+          139,
+          147,
+          174
+        ],
+        "annulus": [
+          19
+        ],
+        "because": [
+          20
+        ],
+        "large": [
+          22
+        ],
+        "stresses": [
+          23
+        ],
+        "has": [
+          24
+        ],
+        "been": [
+          25
+        ],
+        "reported": [
+          26
+        ],
+        "in": [
+          27,
+          33,
+          82,
+          95,
+          163
+        ],
+        "various": [
+          28
+        ],
+        "studies,": [
+          29
+        ],
+        "requiring": [
+          30
+        ],
+        "huge": [
+          31
+        ],
+        "costs": [
+          32
+        ],
+        "remedial": [
+          34
+        ],
+        "intervention.": [
+          35
+        ],
+        "Swellable": [
+          36
+        ],
+        "packers": [
+          37,
+          52,
+          78
+        ],
+        "have": [
+          38
+        ],
+        "emerged": [
+          39
+        ],
+        "as": [
+          40,
+          89
+        ],
+        "a": [
+          41,
+          71,
+          83,
+          137,
+          148,
+          186
+        ],
+        "new": [
+          42
+        ],
+        "manufacturing": [
+          43
+        ],
+        "equipment/technique": [
+          44
+        ],
+        "able": [
+          45
+        ],
+        "to": [
+          46,
+          69,
+          142,
+          193
+        ],
+        "replace": [
+          47
+        ],
+        "conventional": [
+          48,
+          106
+        ],
+        "completion.": [
+          50
+        ],
+        "These": [
+          51
+        ],
+        "are": [
+          53,
+          79
+        ],
+        "custom-manufactured": [
+          54
+        ],
+        "by": [
+          55
+        ],
+        "vulcanizing": [
+          56
+        ],
+        "specially": [
+          57
+        ],
+        "developed": [
+          58
+        ],
+        "swelling": [
+          59,
+          129,
+          145,
+          180,
+          184
+        ],
+        "elastomer": [
+          60,
+          175
+        ],
+        "elements": [
+          61
+        ],
+        "onto": [
+          62
+        ],
+        "petroleum": [
+          63,
+          86,
+          166
+        ],
+        "pipes.": [
+          64
+        ],
+        "Especially": [
+          65
+        ],
+        "designed": [
+          66,
+          162
+        ],
+        "manufactured": [
+          68
+        ],
+        "suit": [
+          70
+        ],
+        "particular": [
+          72
+        ],
+        "set": [
+          73
+        ],
+        "downhole": [
+          75
+        ],
+        "conditions,": [
+          76
+        ],
+        "swell": [
+          77
+        ],
+        "being": [
+          80
+        ],
+        "used": [
+          81
+        ],
+        "variety": [
+          84
+        ],
+        "applications": [
+          87
+        ],
+        "such": [
+          88
+        ],
+        "isolation": [
+          91
+        ],
+        "water": [
+          93
+        ],
+        "shutoff": [
+          94
+        ],
+        "fractured": [
+          96
+        ],
+        "reservoirs,": [
+          97
+        ],
+        "slimming": [
+          98
+        ],
+        "down": [
+          99
+        ],
+        "oil": [
+          101
+        ],
+        "wells": [
+          102
+        ],
+        "through": [
+          103
+        ],
+        "replacement": [
+          104
+        ],
+        "cementing,": [
+          107
+        ],
+        "sand": [
+          108
+        ],
+        "screening,": [
+          109
+        ],
+        "reservoir": [
+          110
+        ],
+        "compartmentalization,": [
+          111
+        ],
+        "etc.": [
+          112
+        ],
+        "Performance": [
+          113
+        ],
+        "analysis": [
+          114
+        ],
+        "seal": [
+          116
+        ],
+        "design": [
+          117
+        ],
+        "improvement": [
+          118
+        ],
+        "not": [
+          120
+        ],
+        "possible": [
+          121
+        ],
+        "without": [
+          122,
+          156
+        ],
+        "reliable": [
+          123
+        ],
+        "information": [
+          124
+        ],
+        "about": [
+          125
+        ],
+        "material": [
+          126
+        ],
+        "response": [
+          127
+        ],
+        "elastomers.": [
+          130
+        ],
+        "This": [
+          131
+        ],
+        "article": [
+          132
+        ],
+        "summarizes": [
+          133
+        ],
+        "the": [
+          134,
+          144
+        ],
+        "results": [
+          135
+        ],
+        "series": [
+          138
+        ],
+        "tests": [
+          140
+        ],
+        "performed": [
+          141
+        ],
+        "determine": [
+          143
+        ],
+        "behavior": [
+          146
+        ],
+        "water-swelling": [
+          149
+        ],
+        "an": [
+          151
+        ],
+        "oil-swelling": [
+          152
+        ],
+        "elastomer,": [
+          153
+        ],
+        "with": [
+          154,
+          165
+        ],
+        "acid": [
+          157
+        ],
+        "induction.": [
+          158
+        ],
+        "Experimental": [
+          159
+        ],
+        "setup": [
+          160
+        ],
+        "was": [
+          161
+        ],
+        "consultation": [
+          164
+        ],
+        "rubber": [
+          168
+        ],
+        "engineers.": [
+          169
+        ],
+        "Volume,": [
+          170
+        ],
+        "thickness,": [
+          171
+        ],
+        "hardness": [
+          173
+        ],
+        "samples": [
+          176
+        ],
+        "were": [
+          177,
+          191
+        ],
+        "measured": [
+          178
+        ],
+        "before": [
+          179
+        ],
+        "periodically": [
+          182
+        ],
+        "after": [
+          183
+        ],
+        "over": [
+          185
+        ],
+        "one-month": [
+          187
+        ],
+        "period.": [
+          188
+        ],
+        "Test": [
+          189
+        ],
+        "conditions": [
+          190
+        ],
+        "chosen": [
+          192
+        ],
+        "replicate": [
+          194
+        ],
+        "actual": [
+          195
+        ],
+        "oilfield": [
+          196
+        ],
+        "conditions.": [
+          197
+        ]
+      },
+      "counts_by_year": [
+        {
+          "year": 2026,
+          "cited_by_count": 3
+        },
+        {
+          "year": 2025,
+          "cited_by_count": 3
+        },
+        {
+          "year": 2024,
+          "cited_by_count": 2
+        },
+        {
+          "year": 2023,
+          "cited_by_count": 1
+        },
+        {
+          "year": 2022,
+          "cited_by_count": 2
+        },
+        {
+          "year": 2021,
+          "cited_by_count": 11
+        },
+        {
+          "year": 2020,
+          "cited_by_count": 3
+        },
+        {
+          "year": 2019,
+          "cited_by_count": 1
+        },
+        {
+          "year": 2018,
+          "cited_by_count": 8
+        },
+        {
+          "year": 2017,
+          "cited_by_count": 3
+        },
+        {
+          "year": 2015,
+          "cited_by_count": 2
+        },
+        {
+          "year": 2013,
+          "cited_by_count": 1
+        },
+        {
+          "year": 2012,
+          "cited_by_count": 2
+        }
+      ],
+      "updated_date": "2026-11-14T11:04:58.165337",
+      "created_date": "2016-06-24T00:00:00"
+    }
+  ],
+  "group_by": []
+}

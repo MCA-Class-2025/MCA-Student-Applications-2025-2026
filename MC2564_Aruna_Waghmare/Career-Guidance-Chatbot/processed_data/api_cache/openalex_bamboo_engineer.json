@@ -1,0 +1,5424 @@
+{
+  "meta": {
+    "notice": "No API key, so this request shares one free daily budget ($0.10) with everyone on your network's IP address. Get a free key with its own $1/day at https://openalex.org/settings/api and add api_key=YOUR_KEY to your requests. An AI agent can get one for its user in one call: POST https://api.openalex.org/api-keys with {\"email\": \"<your user's email>\"}; we email them a link, and the key works once they click it. Docs for agents: https://help.openalex.org/llms.txt",
+    "count": 35000,
+    "db_response_time_ms": 169,
+    "page": 1,
+    "per_page": 5,
+    "groups_count": null,
+    "x_query": {
+      "oql": "get works with (BAMBOO ENGINEER) in the title, abstract, or full text",
+      "x_new_oql": "get works with (BAMBOO ENGINEER) in the title, abstract, or full text",
+      "oqo": {
+        "get_rows": "works",
+        "filter_rows": [
+          {
+            "column_id": "fulltext.search",
+            "value": "BAMBOO ENGINEER",
+            "operator": "has"
+          }
+        ]
+      },
+      "url": "/works?filter=fulltext.search:BAMBOO ENGINEER&per_page=5",
+      "order": "best matches first",
+      "order_default": true
+    },
+    "cost_usd": 0.001
+  },
+  "results": [
+    {
+      "id": "https://openalex.org/W4319993107",
+      "doi": "https://doi.org/10.1007/978-981-19-9327-5",
+      "title": "Multifaceted Bamboo: Engineered Products and Other Applications",
+      "display_name": "Multifaceted Bamboo: Engineered Products and Other Applications",
+      "relevance_score": 136.15344,
+      "publication_year": 2023,
+      "publication_date": "2023-01-01",
+      "ids": {
+        "openalex": "https://openalex.org/W4319993107",
+        "doi": "https://doi.org/10.1007/978-981-19-9327-5"
+      },
+      "language": "en",
+      "primary_location": {
+        "id": "doi:10.1007/978-981-19-9327-5",
+        "doi": "https://doi.org/10.1007/978-981-19-9327-5",
+        "is_oa": false,
+        "landing_page_url": "https://doi.org/10.1007/978-981-19-9327-5",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4306463937",
+          "display_name": "Springer eBooks",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "listed_in": [],
+          "host_organization": "https://openalex.org/P4310319965",
+          "host_organization_name": "Springer Nature",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310319965"
+          ],
+          "host_organization_lineage_names": [
+            "Springer Nature"
+          ],
+          "type": "ebook platform"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": null,
+        "raw_type": "book"
+      },
+      "parent_works": [],
+      "lineage": [
+        "https://openalex.org/W4319993107"
+      ],
+      "child_works_count": 16,
+      "type": "book",
+      "is_traditional": true,
+      "indexed_in": [
+        "crossref"
+      ],
+      "open_access": {
+        "is_oa": false,
+        "oa_status": "closed",
+        "oa_url": null,
+        "any_repository_has_fulltext": false
+      },
+      "authorships": [
+        {
+          "author_position": "first",
+          "author": {
+            "id": "https://openalex.org/A5083562395",
+            "display_name": "Paridah Md Tahir",
+            "orcid": "https://orcid.org/0000-0002-2961-6031",
+            "observed_orcids": [
+              "https://orcid.org/0000-0002-2961-6031"
+            ]
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I130343225",
+              "display_name": "Universiti Putra Malaysia",
+              "ror": "https://ror.org/02e91jd64",
+              "country_code": "MY",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I130343225"
+              ]
+            }
+          ],
+          "countries": [
+            "MY"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "Paridah Md Tahir",
+          "raw_affiliation_strings": [
+            "Institute of Tropical Forestry and Forest Product (INTROP), Universiti Putra Malaysia, Serdang, Malaysia"
+          ],
+          "raw_orcid": null,
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Institute of Tropical Forestry and Forest Product (INTROP), Universiti Putra Malaysia, Serdang, Malaysia",
+              "institution_ids": [
+                "https://openalex.org/I130343225"
+              ]
+            }
+          ]
+        },
+        {
+          "author_position": "middle",
+          "author": {
+            "id": "https://openalex.org/A5028685974",
+            "display_name": "Seng Hua Lee",
+            "orcid": "https://orcid.org/0000-0001-6369-9902",
+            "observed_orcids": [
+              "https://orcid.org/0000-0001-6369-9902"
+            ]
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I4210138650",
+              "display_name": "Universiti Teknologi MARA System",
+              "ror": "https://ror.org/030847t23",
+              "country_code": "MY",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I4210138650",
+                "https://openalex.org/I82724352"
+              ]
+            },
+            {
+              "id": "https://openalex.org/I82724352",
+              "display_name": "Universiti Teknologi MARA",
+              "ror": "https://ror.org/05n8tts92",
+              "country_code": "MY",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I82724352"
+              ]
+            }
+          ],
+          "countries": [
+            "MY"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "Seng Hua Lee",
+          "raw_affiliation_strings": [
+            "Department of Wood Industry, Faculty of Applied Sciences, Universiti Teknologi MARA (UiTM) Cawangan Pahang Kampus Jengka, Jengka, Malaysia"
+          ],
+          "raw_orcid": null,
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Department of Wood Industry, Faculty of Applied Sciences, Universiti Teknologi MARA (UiTM) Cawangan Pahang Kampus Jengka, Jengka, Malaysia",
+              "institution_ids": [
+                "https://openalex.org/I4210138650",
+                "https://openalex.org/I82724352"
+              ]
+            }
+          ]
+        },
+        {
+          "author_position": "middle",
+          "author": {
+            "id": "https://openalex.org/A5037109229",
+            "display_name": "Syeed SaifulAzry Osman Al Edrus",
+            "orcid": "https://orcid.org/0000-0003-1093-0968",
+            "observed_orcids": [
+              "https://orcid.org/0000-0003-1093-0968"
+            ]
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I130343225",
+              "display_name": "Universiti Putra Malaysia",
+              "ror": "https://ror.org/02e91jd64",
+              "country_code": "MY",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I130343225"
+              ]
+            }
+          ],
+          "countries": [
+            "MY"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "Syeed SaifulAzry Osman Al-Edrus",
+          "raw_affiliation_strings": [
+            "Institute of Tropical Forestry and Forest Product (INTROP), Universiti Putra Malaysia, Serdang, Malaysia"
+          ],
+          "raw_orcid": null,
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Institute of Tropical Forestry and Forest Product (INTROP), Universiti Putra Malaysia, Serdang, Malaysia",
+              "institution_ids": [
+                "https://openalex.org/I130343225"
+              ]
+            }
+          ]
+        },
+        {
+          "author_position": "last",
+          "author": {
+            "id": "https://openalex.org/A5101848619",
+            "display_name": "Mohd Khairun Anwar Uyup",
+            "orcid": "https://orcid.org/0000-0002-3787-9907",
+            "observed_orcids": [
+              "https://orcid.org/0000-0002-3787-9907"
+            ]
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I1292896151",
+              "display_name": "Forest Research Institute Malaysia",
+              "ror": "https://ror.org/01mfdfm52",
+              "country_code": "MY",
+              "type": "government",
+              "lineage": [
+                "https://openalex.org/I1292896151",
+                "https://openalex.org/I2800327333"
+              ]
+            }
+          ],
+          "countries": [
+            "MY"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "Mohd Khairun Anwar Uyup",
+          "raw_affiliation_strings": [
+            "Forest Product Division, Forest Research Institute Malaysia, Kuala Lumpur, Malaysia"
+          ],
+          "raw_orcid": null,
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Forest Product Division, Forest Research Institute Malaysia, Kuala Lumpur, Malaysia",
+              "institution_ids": [
+                "https://openalex.org/I1292896151"
+              ]
+            }
+          ]
+        }
+      ],
+      "institutions": [],
+      "countries_distinct_count": 1,
+      "institutions_distinct_count": 4,
+      "corresponding_author_ids": [],
+      "corresponding_institution_ids": [],
+      "apc_list": null,
+      "apc_paid": null,
+      "fwci": 3.9945,
+      "is_authors_truncated": false,
+      "has_fulltext": true,
+      "cited_by_count": 12,
+      "citation_normalized_percentile": {
+        "value": 0.93149883,
+        "is_in_top_1_percent": false,
+        "is_in_top_10_percent": true
+      },
+      "cited_by_percentile_year": {
+        "min": 88,
+        "max": 98
+      },
+      "biblio": {
+        "volume": null,
+        "issue": null,
+        "first_page": null,
+        "last_page": null
+      },
+      "is_retracted": false,
+      "is_paratext": false,
+      "is_xpac": false,
+      "primary_topic": {
+        "id": "https://openalex.org/T12665",
+        "display_name": "Bamboo properties and applications",
+        "score": 1.0,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1110",
+          "display_name": "Plant Science"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/11",
+          "display_name": "Agricultural and Biological Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/1",
+          "display_name": "Life Sciences"
+        }
+      },
+      "topics": [
+        {
+          "id": "https://openalex.org/T12665",
+          "display_name": "Bamboo properties and applications",
+          "score": 1.0,
+          "subfield": {
+            "id": "https://openalex.org/subfields/1110",
+            "display_name": "Plant Science"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/11",
+            "display_name": "Agricultural and Biological Sciences"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/1",
+            "display_name": "Life Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T10513",
+          "display_name": "Natural Fiber Reinforced Composites",
+          "score": 0.0,
+          "subfield": {
+            "id": "https://openalex.org/subfields/2507",
+            "display_name": "Polymers and Plastics"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/25",
+            "display_name": "Materials Science"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T10484",
+          "display_name": "Wood Treatment and Properties",
+          "score": 0.0,
+          "subfield": {
+            "id": "https://openalex.org/subfields/2215",
+            "display_name": "Building and Construction"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/22",
+            "display_name": "Engineering"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        }
+      ],
+      "keywords": [
+        {
+          "id": "https://openalex.org/keywords/bamboo",
+          "display_name": "bamboo",
+          "score": 0.9599999785423279
+        },
+        {
+          "id": "https://openalex.org/keywords/bamboo-slips",
+          "display_name": "bamboo slips",
+          "score": 0.9900000095367432
+        },
+        {
+          "id": "https://openalex.org/keywords/bamboo-species",
+          "display_name": "bamboo species",
+          "score": 0.593999981880188
+        },
+        {
+          "id": "https://openalex.org/keywords/bamboo-applications",
+          "display_name": "bamboo applications",
+          "score": 0.8980000019073486
+        }
+      ],
+      "concepts": [
+        {
+          "id": "https://openalex.org/C2778704284",
+          "wikidata": "https://www.wikidata.org/wiki/Q670887",
+          "display_name": "Bamboo",
+          "level": 2,
+          "score": 0.7312572598457336
+        },
+        {
+          "id": "https://openalex.org/C86803240",
+          "wikidata": "https://www.wikidata.org/wiki/Q420",
+          "display_name": "Biology",
+          "level": 0,
+          "score": 0.23967140913009644
+        },
+        {
+          "id": "https://openalex.org/C18903297",
+          "wikidata": "https://www.wikidata.org/wiki/Q7150",
+          "display_name": "Ecology",
+          "level": 1,
+          "score": 0.10728821158409119
+        }
+      ],
+      "mesh": [],
+      "locations_count": 1,
+      "locations": [
+        {
+          "id": "doi:10.1007/978-981-19-9327-5",
+          "doi": "https://doi.org/10.1007/978-981-19-9327-5",
+          "is_oa": false,
+          "landing_page_url": "https://doi.org/10.1007/978-981-19-9327-5",
+          "pdf_url": null,
+          "source": {
+            "id": "https://openalex.org/S4306463937",
+            "display_name": "Springer eBooks",
+            "issn_l": null,
+            "issn": null,
+            "is_oa": false,
+            "is_in_doaj": false,
+            "is_core": false,
+            "listed_in": [],
+            "host_organization": "https://openalex.org/P4310319965",
+            "host_organization_name": "Springer Nature",
+            "host_organization_lineage": [
+              "https://openalex.org/P4310319965"
+            ],
+            "host_organization_lineage_names": [
+              "Springer Nature"
+            ],
+            "type": "ebook platform"
+          },
+          "license": null,
+          "license_id": null,
+          "version": "publishedVersion",
+          "is_accepted": true,
+          "is_published": true,
+          "raw_source_name": null,
+          "raw_type": "book"
+        }
+      ],
+      "best_oa_location": null,
+      "sustainable_development_goals": [],
+      "study_designs": [],
+      "awards": [],
+      "funders": [],
+      "has_content": {
+        "pdf": false,
+        "grobid_xml": false
+      },
+      "content_urls": null,
+      "referenced_works_count": 0,
+      "referenced_works": [],
+      "related_works": [
+        "https://openalex.org/W2274263680",
+        "https://openalex.org/W4319993158",
+        "https://openalex.org/W4317910238",
+        "https://openalex.org/W2597393122",
+        "https://openalex.org/W4225905109",
+        "https://openalex.org/W4225571535",
+        "https://openalex.org/W1440810164",
+        "https://openalex.org/W2505656074",
+        "https://openalex.org/W4242230721",
+        "https://openalex.org/W2946661439"
+      ],
+      "abstract_inverted_index": null,
+      "counts_by_year": [
+        {
+          "year": 2026,
+          "cited_by_count": 2
+        },
+        {
+          "year": 2025,
+          "cited_by_count": 5
+        },
+        {
+          "year": 2024,
+          "cited_by_count": 4
+        },
+        {
+          "year": 2023,
+          "cited_by_count": 1
+        }
+      ],
+      "updated_date": "2026-11-14T11:04:58.165337",
+      "created_date": "2023-02-11T00:00:00"
+    },
+    {
+      "id": "https://openalex.org/W3125040700",
+      "doi": "https://doi.org/10.3390/ma14030486",
+      "title": "Pertechnetate/Perrhenate Surface Complexation on Bamboo Engineered Biochar",
+      "display_name": "Pertechnetate/Perrhenate Surface Complexation on Bamboo Engineered Biochar",
+      "relevance_score": 133.5202,
+      "publication_year": 2021,
+      "publication_date": "2021-01-20",
+      "ids": {
+        "openalex": "https://openalex.org/W3125040700",
+        "doi": "https://doi.org/10.3390/ma14030486",
+        "mag": "3125040700",
+        "pmid": "https://pubmed.ncbi.nlm.nih.gov/33498548",
+        "pmcid": "https://www.ncbi.nlm.nih.gov/pmc/articles/7864208"
+      },
+      "language": "en",
+      "primary_location": {
+        "id": "doi:10.3390/ma14030486",
+        "doi": "https://doi.org/10.3390/ma14030486",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.3390/ma14030486",
+        "pdf_url": "https://www.mdpi.com/1996-1944/14/3/486/pdf?version=1611666422",
+        "source": {
+          "id": "https://openalex.org/S18714766",
+          "display_name": "Materials",
+          "issn_l": "1996-1944",
+          "issn": [
+            "1996-1944"
+          ],
+          "is_oa": true,
+          "is_in_doaj": false,
+          "is_core": true,
+          "listed_in": [
+            "anvur-scientific",
+            "cwts-core",
+            "poland-140",
+            "russia-white-list-1",
+            "vabb-shw"
+          ],
+          "host_organization": "https://openalex.org/P4310310987",
+          "host_organization_name": "Multidisciplinary Digital Publishing Institute",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310310987"
+          ],
+          "host_organization_lineage_names": [
+            "Multidisciplinary Digital Publishing Institute"
+          ],
+          "type": "journal"
+        },
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Materials",
+        "raw_type": "journal-article"
+      },
+      "parent_works": [],
+      "lineage": [
+        "https://openalex.org/W3125040700"
+      ],
+      "child_works_count": 0,
+      "type": "article",
+      "is_traditional": true,
+      "indexed_in": [
+        "crossref",
+        "pubmed"
+      ],
+      "open_access": {
+        "is_oa": true,
+        "oa_status": "gold",
+        "oa_url": "https://www.mdpi.com/1996-1944/14/3/486/pdf?version=1611666422",
+        "any_repository_has_fulltext": true
+      },
+      "authorships": [
+        {
+          "author_position": "first",
+          "author": {
+            "id": "https://openalex.org/A5078427495",
+            "display_name": "Martin Daňo",
+            "orcid": "https://orcid.org/0000-0001-9636-0032",
+            "observed_orcids": [
+              "https://orcid.org/0000-0001-9636-0032"
+            ]
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I44504214",
+              "display_name": "Czech Technical University in Prague",
+              "ror": "https://ror.org/03kqpb082",
+              "country_code": "CZ",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I44504214"
+              ]
+            }
+          ],
+          "countries": [
+            "CZ"
+          ],
+          "is_corresponding": true,
+          "raw_author_name": "Martin Daňo",
+          "raw_affiliation_strings": [
+            "Department of Nuclear Chemistry, Faculty of Nuclear Sciences and Physical Engineering, Czech Technical University in Prague, Břehová 7, 115 19 Prague, Czech Republic"
+          ],
+          "raw_orcid": "https://orcid.org/0000-0001-9636-0032",
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Department of Nuclear Chemistry, Faculty of Nuclear Sciences and Physical Engineering, Czech Technical University in Prague, Břehová 7, 115 19 Prague, Czech Republic",
+              "institution_ids": [
+                "https://openalex.org/I44504214"
+              ]
+            }
+          ]
+        },
+        {
+          "author_position": "middle",
+          "author": {
+            "id": "https://openalex.org/A5014689875",
+            "display_name": "Eva Víglašová",
+            "orcid": "https://orcid.org/0000-0001-5928-443X",
+            "observed_orcids": [
+              "https://orcid.org/0000-0001-5928-443X"
+            ]
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I44504214",
+              "display_name": "Czech Technical University in Prague",
+              "ror": "https://ror.org/03kqpb082",
+              "country_code": "CZ",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I44504214"
+              ]
+            },
+            {
+              "id": "https://openalex.org/I74788687",
+              "display_name": "Comenius University Bratislava",
+              "ror": "https://ror.org/0587ef340",
+              "country_code": "SK",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I74788687"
+              ]
+            }
+          ],
+          "countries": [
+            "CZ",
+            "SK"
+          ],
+          "is_corresponding": true,
+          "raw_author_name": "Eva Viglašová",
+          "raw_affiliation_strings": [
+            "Department of Nuclear Chemistry, Faculty of Natural Sciences, Comenius University in Bratislava, Mlynska Dolina, Ilkovičova 6, 842 15 Bratislava, Slovakia",
+            "Department of Nuclear Chemistry, Faculty of Nuclear Sciences and Physical Engineering, Czech Technical University in Prague, Břehová 7, 115 19 Prague, Czech Republic"
+          ],
+          "raw_orcid": "https://orcid.org/0000-0001-5928-443X",
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Department of Nuclear Chemistry, Faculty of Natural Sciences, Comenius University in Bratislava, Mlynska Dolina, Ilkovičova 6, 842 15 Bratislava, Slovakia",
+              "institution_ids": [
+                "https://openalex.org/I74788687"
+              ]
+            },
+            {
+              "raw_affiliation_string": "Department of Nuclear Chemistry, Faculty of Nuclear Sciences and Physical Engineering, Czech Technical University in Prague, Břehová 7, 115 19 Prague, Czech Republic",
+              "institution_ids": [
+                "https://openalex.org/I44504214"
+              ]
+            }
+          ]
+        },
+        {
+          "author_position": "middle",
+          "author": {
+            "id": "https://openalex.org/A5072941463",
+            "display_name": "K. Štamberg",
+            "orcid": null,
+            "observed_orcids": []
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I44504214",
+              "display_name": "Czech Technical University in Prague",
+              "ror": "https://ror.org/03kqpb082",
+              "country_code": "CZ",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I44504214"
+              ]
+            }
+          ],
+          "countries": [
+            "CZ"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "Karel Štamberg",
+          "raw_affiliation_strings": [
+            "Department of Nuclear Chemistry, Faculty of Nuclear Sciences and Physical Engineering, Czech Technical University in Prague, Břehová 7, 115 19 Prague, Czech Republic"
+          ],
+          "raw_orcid": null,
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Department of Nuclear Chemistry, Faculty of Nuclear Sciences and Physical Engineering, Czech Technical University in Prague, Břehová 7, 115 19 Prague, Czech Republic",
+              "institution_ids": [
+                "https://openalex.org/I44504214"
+              ]
+            }
+          ]
+        },
+        {
+          "author_position": "middle",
+          "author": {
+            "id": "https://openalex.org/A5082742254",
+            "display_name": "Michal Galamboš",
+            "orcid": "https://orcid.org/0000-0002-4687-8375",
+            "observed_orcids": [
+              "https://orcid.org/0000-0002-4687-8375"
+            ]
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I74788687",
+              "display_name": "Comenius University Bratislava",
+              "ror": "https://ror.org/0587ef340",
+              "country_code": "SK",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I74788687"
+              ]
+            }
+          ],
+          "countries": [
+            "SK"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "Michal Galamboš",
+          "raw_affiliation_strings": [
+            "Department of Nuclear Chemistry, Faculty of Natural Sciences, Comenius University in Bratislava, Mlynska Dolina, Ilkovičova 6, 842 15 Bratislava, Slovakia"
+          ],
+          "raw_orcid": "https://orcid.org/0000-0002-4687-8375",
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Department of Nuclear Chemistry, Faculty of Natural Sciences, Comenius University in Bratislava, Mlynska Dolina, Ilkovičova 6, 842 15 Bratislava, Slovakia",
+              "institution_ids": [
+                "https://openalex.org/I74788687"
+              ]
+            }
+          ]
+        },
+        {
+          "author_position": "last",
+          "author": {
+            "id": "https://openalex.org/A5013938913",
+            "display_name": "Dušan Galanda",
+            "orcid": "https://orcid.org/0000-0002-1618-9894",
+            "observed_orcids": [
+              "https://orcid.org/0000-0002-1618-9894"
+            ]
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I74788687",
+              "display_name": "Comenius University Bratislava",
+              "ror": "https://ror.org/0587ef340",
+              "country_code": "SK",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I74788687"
+              ]
+            }
+          ],
+          "countries": [
+            "SK"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "Dušan Galanda",
+          "raw_affiliation_strings": [
+            "Department of Nuclear Chemistry, Faculty of Natural Sciences, Comenius University in Bratislava, Mlynska Dolina, Ilkovičova 6, 842 15 Bratislava, Slovakia"
+          ],
+          "raw_orcid": null,
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Department of Nuclear Chemistry, Faculty of Natural Sciences, Comenius University in Bratislava, Mlynska Dolina, Ilkovičova 6, 842 15 Bratislava, Slovakia",
+              "institution_ids": [
+                "https://openalex.org/I74788687"
+              ]
+            }
+          ]
+        }
+      ],
+      "institutions": [],
+      "countries_distinct_count": 2,
+      "institutions_distinct_count": 2,
+      "corresponding_author_ids": [
+        "https://openalex.org/A5014689875",
+        "https://openalex.org/A5078427495"
+      ],
+      "corresponding_institution_ids": [
+        "https://openalex.org/I44504214",
+        "https://openalex.org/I74788687"
+      ],
+      "apc_list": {
+        "value": 2000,
+        "currency": "CHF",
+        "value_usd": 2160
+      },
+      "apc_paid": {
+        "value": 2000,
+        "currency": "CHF",
+        "value_usd": 2160
+      },
+      "fwci": 1.3395,
+      "is_authors_truncated": false,
+      "has_fulltext": true,
+      "cited_by_count": 19,
+      "citation_normalized_percentile": {
+        "value": 0.78005419,
+        "is_in_top_1_percent": false,
+        "is_in_top_10_percent": false
+      },
+      "cited_by_percentile_year": {
+        "min": 92,
+        "max": 98
+      },
+      "biblio": {
+        "volume": "14",
+        "issue": "3",
+        "first_page": "486",
+        "last_page": "486"
+      },
+      "is_retracted": false,
+      "is_paratext": false,
+      "is_xpac": false,
+      "primary_topic": {
+        "id": "https://openalex.org/T10973",
+        "display_name": "Radioactive element chemistry and processing",
+        "score": 0.5454000234603882,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1604",
+          "display_name": "Inorganic Chemistry"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/16",
+          "display_name": "Chemistry"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      "topics": [
+        {
+          "id": "https://openalex.org/T10973",
+          "display_name": "Radioactive element chemistry and processing",
+          "score": 0.5454000234603882,
+          "subfield": {
+            "id": "https://openalex.org/subfields/1604",
+            "display_name": "Inorganic Chemistry"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/16",
+            "display_name": "Chemistry"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T10016",
+          "display_name": "Adsorption and biosorption for pollutant removal",
+          "score": 0.32010000944137573,
+          "subfield": {
+            "id": "https://openalex.org/subfields/2312",
+            "display_name": "Water Science and Technology"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/23",
+            "display_name": "Environmental Science"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T12524",
+          "display_name": "Chemical Synthesis and Characterization",
+          "score": 0.06880000233650208,
+          "subfield": {
+            "id": "https://openalex.org/subfields/2311",
+            "display_name": "Waste Management and Disposal"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/23",
+            "display_name": "Environmental Science"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        }
+      ],
+      "keywords": [
+        {
+          "id": "https://openalex.org/keywords/surface-complexation-model",
+          "display_name": "surface complexation modeling",
+          "score": 0.699999988079071
+        },
+        {
+          "id": "https://openalex.org/keywords/biochar",
+          "display_name": "biochar",
+          "score": 0.6790000200271606
+        },
+        {
+          "id": "https://openalex.org/keywords/bamboo",
+          "display_name": "bamboo",
+          "score": 0.4819999933242798
+        },
+        {
+          "id": "https://openalex.org/keywords/perrhenate",
+          "display_name": "perrhenate",
+          "score": 0.9599999785423279
+        },
+        {
+          "id": "https://openalex.org/keywords/radionuclide-sorption",
+          "display_name": "radionuclide sorption",
+          "score": 0.8420000076293945
+        },
+        {
+          "id": "https://openalex.org/keywords/freundlich-isotherm",
+          "display_name": "Freundlich isotherm",
+          "score": 0.7300000190734863
+        },
+        {
+          "id": "https://openalex.org/keywords/potentiometric-titration",
+          "display_name": "potentiometric titration",
+          "score": 0.8180000185966492
+        },
+        {
+          "id": "https://openalex.org/keywords/chemical-equilibrium-model",
+          "display_name": "chemical equilibrium model",
+          "score": 0.8029999732971191
+        },
+        {
+          "id": "https://openalex.org/keywords/ion-exchange-model",
+          "display_name": "ion-exchange model",
+          "score": 0.9810000061988831
+        },
+        {
+          "id": "https://openalex.org/keywords/complementary-error-function",
+          "display_name": "complementary error function",
+          "score": 0.6819999814033508
+        },
+        {
+          "id": "https://openalex.org/keywords/dynamic-sorption",
+          "display_name": "dynamic sorption",
+          "score": 0.6159999966621399
+        },
+        {
+          "id": "https://openalex.org/keywords/ph-effect",
+          "display_name": "pH effect",
+          "score": 0.5450000166893005
+        }
+      ],
+      "concepts": [
+        {
+          "id": "https://openalex.org/C58445606",
+          "wikidata": "https://www.wikidata.org/wiki/Q898533",
+          "display_name": "Sorption",
+          "level": 3,
+          "score": 0.8810316324234009
+        },
+        {
+          "id": "https://openalex.org/C56085101",
+          "wikidata": "https://www.wikidata.org/wiki/Q905495",
+          "display_name": "Biochar",
+          "level": 3,
+          "score": 0.7263518571853638
+        },
+        {
+          "id": "https://openalex.org/C86381522",
+          "wikidata": "https://www.wikidata.org/wiki/Q2752988",
+          "display_name": "Microporous material",
+          "level": 2,
+          "score": 0.681185245513916
+        },
+        {
+          "id": "https://openalex.org/C124614425",
+          "wikidata": "https://www.wikidata.org/wiki/Q1813495",
+          "display_name": "Potentiometric titration",
+          "level": 3,
+          "score": 0.5951676964759827
+        },
+        {
+          "id": "https://openalex.org/C117760992",
+          "wikidata": "https://www.wikidata.org/wiki/Q389137",
+          "display_name": "Ion exchange",
+          "level": 3,
+          "score": 0.5931713581085205
+        },
+        {
+          "id": "https://openalex.org/C185592680",
+          "wikidata": "https://www.wikidata.org/wiki/Q2329",
+          "display_name": "Chemistry",
+          "level": 0,
+          "score": 0.5368784666061401
+        },
+        {
+          "id": "https://openalex.org/C112825004",
+          "wikidata": "https://www.wikidata.org/wiki/Q1924292",
+          "display_name": "Freundlich equation",
+          "level": 3,
+          "score": 0.4713033139705658
+        },
+        {
+          "id": "https://openalex.org/C184866935",
+          "wikidata": "https://www.wikidata.org/wiki/Q191010",
+          "display_name": "Titration",
+          "level": 2,
+          "score": 0.43507274985313416
+        },
+        {
+          "id": "https://openalex.org/C150394285",
+          "wikidata": "https://www.wikidata.org/wiki/Q180254",
+          "display_name": "Adsorption",
+          "level": 2,
+          "score": 0.4185769259929657
+        },
+        {
+          "id": "https://openalex.org/C42360764",
+          "wikidata": "https://www.wikidata.org/wiki/Q83588",
+          "display_name": "Chemical engineering",
+          "level": 1,
+          "score": 0.33358699083328247
+        },
+        {
+          "id": "https://openalex.org/C179104552",
+          "wikidata": "https://www.wikidata.org/wiki/Q11165",
+          "display_name": "Inorganic chemistry",
+          "level": 1,
+          "score": 0.3003841042518616
+        },
+        {
+          "id": "https://openalex.org/C145148216",
+          "wikidata": "https://www.wikidata.org/wiki/Q36496",
+          "display_name": "Ion",
+          "level": 2,
+          "score": 0.1951368749141693
+        },
+        {
+          "id": "https://openalex.org/C178790620",
+          "wikidata": "https://www.wikidata.org/wiki/Q11351",
+          "display_name": "Organic chemistry",
+          "level": 1,
+          "score": 0.1365058422088623
+        },
+        {
+          "id": "https://openalex.org/C127413603",
+          "wikidata": "https://www.wikidata.org/wiki/Q11023",
+          "display_name": "Engineering",
+          "level": 0,
+          "score": 0.0
+        },
+        {
+          "id": "https://openalex.org/C36759035",
+          "wikidata": "https://www.wikidata.org/wiki/Q176848",
+          "display_name": "Pyrolysis",
+          "level": 2,
+          "score": 0.0
+        }
+      ],
+      "mesh": [],
+      "locations_count": 4,
+      "locations": [
+        {
+          "id": "doi:10.3390/ma14030486",
+          "doi": "https://doi.org/10.3390/ma14030486",
+          "is_oa": true,
+          "landing_page_url": "https://doi.org/10.3390/ma14030486",
+          "pdf_url": "https://www.mdpi.com/1996-1944/14/3/486/pdf?version=1611666422",
+          "source": {
+            "id": "https://openalex.org/S18714766",
+            "display_name": "Materials",
+            "issn_l": "1996-1944",
+            "issn": [
+              "1996-1944"
+            ],
+            "is_oa": true,
+            "is_in_doaj": false,
+            "is_core": true,
+            "listed_in": [
+              "anvur-scientific",
+              "cwts-core",
+              "poland-140",
+              "russia-white-list-1",
+              "vabb-shw"
+            ],
+            "host_organization": "https://openalex.org/P4310310987",
+            "host_organization_name": "Multidisciplinary Digital Publishing Institute",
+            "host_organization_lineage": [
+              "https://openalex.org/P4310310987"
+            ],
+            "host_organization_lineage_names": [
+              "Multidisciplinary Digital Publishing Institute"
+            ],
+            "type": "journal"
+          },
+          "license": "cc-by",
+          "license_id": "https://openalex.org/licenses/cc-by",
+          "version": "publishedVersion",
+          "is_accepted": true,
+          "is_published": true,
+          "raw_source_name": "Materials",
+          "raw_type": "journal-article"
+        },
+        {
+          "id": "pmh:oai:europepmc.org:6770820",
+          "doi": null,
+          "is_oa": true,
+          "landing_page_url": "http://europepmc.org/pmc/articles/PMC7864208",
+          "pdf_url": null,
+          "source": {
+            "id": "https://openalex.org/S4306400806",
+            "display_name": "Europe PMC (PubMed Central)",
+            "issn_l": null,
+            "issn": null,
+            "is_oa": false,
+            "is_in_doaj": false,
+            "is_core": false,
+            "listed_in": [],
+            "host_organization": "https://openalex.org/I1303153112",
+            "host_organization_name": "European Bioinformatics Institute",
+            "host_organization_lineage": [
+              "https://openalex.org/I1303153112"
+            ],
+            "host_organization_lineage_names": [],
+            "type": "repository"
+          },
+          "license": "other-oa",
+          "license_id": "https://openalex.org/licenses/other-oa",
+          "version": "publishedVersion",
+          "is_accepted": true,
+          "is_published": true,
+          "raw_source_name": "",
+          "raw_type": "Text"
+        },
+        {
+          "id": "pmid:33498548",
+          "doi": null,
+          "is_oa": false,
+          "landing_page_url": "https://pubmed.ncbi.nlm.nih.gov/33498548",
+          "pdf_url": null,
+          "source": {
+            "id": "https://openalex.org/S4306525036",
+            "display_name": "PubMed",
+            "issn_l": null,
+            "issn": null,
+            "is_oa": false,
+            "is_in_doaj": false,
+            "is_core": false,
+            "listed_in": [],
+            "host_organization": "https://openalex.org/I1299303238",
+            "host_organization_name": "National Institutes of Health",
+            "host_organization_lineage": [
+              "https://openalex.org/I1299303238"
+            ],
+            "host_organization_lineage_names": [],
+            "type": "repository"
+          },
+          "license": null,
+          "license_id": null,
+          "version": "publishedVersion",
+          "is_accepted": true,
+          "is_published": true,
+          "raw_source_name": "Materials (Basel, Switzerland)",
+          "raw_type": "Journal Article"
+        },
+        {
+          "id": "pmh:oai:pubmedcentral.nih.gov:7864208",
+          "doi": null,
+          "is_oa": true,
+          "landing_page_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7864208/",
+          "pdf_url": null,
+          "source": {
+            "id": "https://openalex.org/S2764455111",
+            "display_name": "PubMed Central",
+            "issn_l": null,
+            "issn": null,
+            "is_oa": true,
+            "is_in_doaj": false,
+            "is_core": false,
+            "listed_in": [],
+            "host_organization": "https://openalex.org/I1299303238",
+            "host_organization_name": "National Institutes of Health",
+            "host_organization_lineage": [
+              "https://openalex.org/I1299303238"
+            ],
+            "host_organization_lineage_names": [],
+            "type": "repository"
+          },
+          "license": "cc-by",
+          "license_id": "https://openalex.org/licenses/cc-by",
+          "version": "publishedVersion",
+          "is_accepted": true,
+          "is_published": true,
+          "raw_source_name": "Materials (Basel)",
+          "raw_type": "Text"
+        }
+      ],
+      "best_oa_location": {
+        "id": "doi:10.3390/ma14030486",
+        "doi": "https://doi.org/10.3390/ma14030486",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.3390/ma14030486",
+        "pdf_url": "https://www.mdpi.com/1996-1944/14/3/486/pdf?version=1611666422",
+        "source": {
+          "id": "https://openalex.org/S18714766",
+          "display_name": "Materials",
+          "issn_l": "1996-1944",
+          "issn": [
+            "1996-1944"
+          ],
+          "is_oa": true,
+          "is_in_doaj": false,
+          "is_core": true,
+          "listed_in": [
+            "anvur-scientific",
+            "cwts-core",
+            "poland-140",
+            "russia-white-list-1",
+            "vabb-shw"
+          ],
+          "host_organization": "https://openalex.org/P4310310987",
+          "host_organization_name": "Multidisciplinary Digital Publishing Institute",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310310987"
+          ],
+          "host_organization_lineage_names": [
+            "Multidisciplinary Digital Publishing Institute"
+          ],
+          "type": "journal"
+        },
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Materials",
+        "raw_type": "journal-article"
+      },
+      "sustainable_development_goals": [],
+      "study_designs": [],
+      "awards": [
+        {
+          "id": "https://openalex.org/G1100543480",
+          "display_name": null,
+          "funder_award_id": "CZ.02.1.01 /0.0/0.0/16_019/0000728",
+          "funder_id": "https://openalex.org/F4320321005",
+          "funder_display_name": "Ministerstvo Školství, Mládeže a Tělovýchovy"
+        },
+        {
+          "id": "https://openalex.org/G618061311",
+          "display_name": "Právna úprava nakladania s vyhoretým jadrovým palivom",
+          "funder_award_id": "APVV-18-0534",
+          "funder_id": "https://openalex.org/F4320323251",
+          "funder_display_name": "Agentúra na Podporu Výskumu a Vývoja"
+        }
+      ],
+      "funders": [
+        {
+          "id": "https://openalex.org/F4320321005",
+          "display_name": "Ministerstvo Školství, Mládeže a Tělovýchovy",
+          "ror": "https://ror.org/037n8p820"
+        },
+        {
+          "id": "https://openalex.org/F4320323251",
+          "display_name": "Agentúra na Podporu Výskumu a Vývoja",
+          "ror": "https://ror.org/037nx0e70"
+        }
+      ],
+      "has_content": {
+        "pdf": true,
+        "grobid_xml": true
+      },
+      "content_urls": {
+        "pdf": "https://content.openalex.org/works/W3125040700.pdf",
+        "grobid_xml": "https://content.openalex.org/works/W3125040700.grobid-xml"
+      },
+      "referenced_works_count": 35,
+      "referenced_works": [
+        "https://openalex.org/W129679902",
+        "https://openalex.org/W655002164",
+        "https://openalex.org/W2002666968",
+        "https://openalex.org/W2003867566",
+        "https://openalex.org/W2013591070",
+        "https://openalex.org/W2025515113",
+        "https://openalex.org/W2077106134",
+        "https://openalex.org/W2082025112",
+        "https://openalex.org/W2150283767",
+        "https://openalex.org/W2256613245",
+        "https://openalex.org/W2344335281",
+        "https://openalex.org/W2513727744",
+        "https://openalex.org/W2523620998",
+        "https://openalex.org/W2583977218",
+        "https://openalex.org/W2591809079",
+        "https://openalex.org/W2602116008",
+        "https://openalex.org/W2602485145",
+        "https://openalex.org/W2617385510",
+        "https://openalex.org/W2619076184",
+        "https://openalex.org/W2760932648",
+        "https://openalex.org/W2774218184",
+        "https://openalex.org/W2884152953",
+        "https://openalex.org/W2891198461",
+        "https://openalex.org/W2896863742",
+        "https://openalex.org/W2900610744",
+        "https://openalex.org/W2971240612",
+        "https://openalex.org/W2986677452",
+        "https://openalex.org/W2990250159",
+        "https://openalex.org/W3001821602",
+        "https://openalex.org/W3005582432",
+        "https://openalex.org/W3014927076",
+        "https://openalex.org/W3042101077",
+        "https://openalex.org/W3046019837",
+        "https://openalex.org/W4231539297",
+        "https://openalex.org/W4236079268"
+      ],
+      "related_works": [
+        "https://openalex.org/W3042101077",
+        "https://openalex.org/W2900366178",
+        "https://openalex.org/W2513727744",
+        "https://openalex.org/W2333510962",
+        "https://openalex.org/W2747284531",
+        "https://openalex.org/W2582374323",
+        "https://openalex.org/W1981549681",
+        "https://openalex.org/W2971258683",
+        "https://openalex.org/W2381903834",
+        "https://openalex.org/W1967479335"
+      ],
+      "abstract_inverted_index": {
+        "The": [
+          0,
+          33,
+          124
+        ],
+        "work": [
+          1
+        ],
+        "deals": [
+          2
+        ],
+        "with": [
+          3
+        ],
+        "the": [
+          4,
+          18,
+          72,
+          85,
+          118
+        ],
+        "evaluation": [
+          5,
+          15
+        ],
+        "of": [
+          6,
+          17,
+          20,
+          43,
+          50,
+          76,
+          79,
+          87,
+          114,
+          128
+        ],
+        "biochar": [
+          7,
+          46,
+          80
+        ],
+        "samples": [
+          8,
+          47,
+          81
+        ],
+        "prepared": [
+          9,
+          21
+        ],
+        "from": [
+          10
+        ],
+        "Phyllostachys": [
+          11
+        ],
+        "Viridiglaucescens": [
+          12
+        ],
+        "bamboo.": [
+          13
+        ],
+        "This": [
+          14
+        ],
+        "consists": [
+          16
+        ],
+        "characterization": [
+          19
+        ],
+        "materials’": [
+          22
+        ],
+        "structural": [
+          23
+        ],
+        "properties,": [
+          24
+        ],
+        "batch": [
+          25,
+          34
+        ],
+        "and": [
+          26,
+          30,
+          54,
+          98,
+          121
+        ],
+        "dynamic": [
+          27,
+          125
+        ],
+        "sorption": [
+          28,
+          41,
+          129
+        ],
+        "experiments,": [
+          29
+        ],
+        "potentiometric": [
+          31
+        ],
+        "titrations.": [
+          32
+        ],
+        "technique": [
+          35
+        ],
+        "was": [
+          36,
+          66,
+          82
+        ],
+        "focused": [
+          37
+        ],
+        "on": [
+          38,
+          45,
+          84,
+          137
+        ],
+        "obtaining": [
+          39
+        ],
+        "basic": [
+          40
+        ],
+        "data": [
+          42,
+          127
+        ],
+        "99mTcO4−": [
+          44
+        ],
+        "including": [
+          48
+        ],
+        "influence": [
+          49
+        ],
+        "pH,": [
+          51
+        ],
+        "contact": [
+          52
+        ],
+        "time,": [
+          53
+        ],
+        "Freundlich": [
+          55
+        ],
+        "isotherm.": [
+          56
+        ],
+        "ReO4−,": [
+          57
+        ],
+        "which": [
+          58
+        ],
+        "has": [
+          59
+        ],
+        "very": [
+          60
+        ],
+        "similar": [
+          61
+        ],
+        "chemical": [
+          62
+        ],
+        "properties": [
+          63
+        ],
+        "to": [
+          64
+        ],
+        "99mTcO4−,": [
+          65
+        ],
+        "used": [
+          67
+        ],
+        "as": [
+          68
+        ],
+        "a": [
+          69,
+          134
+        ],
+        "carrier": [
+          70
+        ],
+        "in": [
+          71
+        ],
+        "experiments.": [
+          73
+        ],
+        "Theoretical": [
+          74
+        ],
+        "modeling": [
+          75
+        ],
+        "titration": [
+          77
+        ],
+        "curves": [
+          78,
+          130
+        ],
+        "based": [
+          83,
+          136
+        ],
+        "application": [
+          86
+        ],
+        "surface": [
+          88,
+          115
+        ],
+        "complexation": [
+          89
+        ],
+        "models,": [
+          90
+        ],
+        "namely,": [
+          91,
+          117
+        ],
+        "so": [
+          92
+        ],
+        "called": [
+          93
+        ],
+        "Chemical": [
+          94
+        ],
+        "Equilibrium": [
+          95
+        ],
+        "Model": [
+          96,
+          101
+        ],
+        "(CEM)": [
+          97
+        ],
+        "Ion": [
+          99
+        ],
+        "Exchange": [
+          100
+        ],
+        "(IExM).": [
+          102
+        ],
+        "In": [
+          103
+        ],
+        "this": [
+          104
+        ],
+        "case": [
+          105
+        ],
+        "it": [
+          106
+        ],
+        "is": [
+          107
+        ],
+        "assumed": [
+          108
+        ],
+        "that": [
+          109
+        ],
+        "there": [
+          110
+        ],
+        "are": [
+          111
+        ],
+        "two": [
+          112
+        ],
+        "types": [
+          113
+        ],
+        "groups,": [
+          116
+        ],
+        "so-called": [
+          119
+        ],
+        "layer": [
+          120
+        ],
+        "edge": [
+          122
+        ],
+        "sites.": [
+          123
+        ],
+        "experimental": [
+          126
+        ],
+        "were": [
+          131
+        ],
+        "fitted": [
+          132
+        ],
+        "by": [
+          133
+        ],
+        "model": [
+          135
+        ],
+        "complementary": [
+          138
+        ],
+        "error": [
+          139
+        ],
+        "function": [
+          140
+        ],
+        "erfc(x).": [
+          141
+        ]
+      },
+      "counts_by_year": [
+        {
+          "year": 2025,
+          "cited_by_count": 2
+        },
+        {
+          "year": 2024,
+          "cited_by_count": 5
+        },
+        {
+          "year": 2023,
+          "cited_by_count": 3
+        },
+        {
+          "year": 2022,
+          "cited_by_count": 7
+        },
+        {
+          "year": 2021,
+          "cited_by_count": 2
+        }
+      ],
+      "updated_date": "2026-11-13T13:42:25.865203",
+      "created_date": "2021-02-01T00:00:00"
+    },
+    {
+      "id": "https://openalex.org/W2072053221",
+      "doi": "https://doi.org/10.1016/j.conbuildmat.2015.01.077",
+      "title": "Engineered bamboo for structural applications",
+      "display_name": "Engineered bamboo for structural applications",
+      "relevance_score": 114.941025,
+      "publication_year": 2015,
+      "publication_date": "2015-02-23",
+      "ids": {
+        "openalex": "https://openalex.org/W2072053221",
+        "doi": "https://doi.org/10.1016/j.conbuildmat.2015.01.077",
+        "mag": "2072053221"
+      },
+      "language": "en",
+      "primary_location": {
+        "id": "doi:10.1016/j.conbuildmat.2015.01.077",
+        "doi": "https://doi.org/10.1016/j.conbuildmat.2015.01.077",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.1016/j.conbuildmat.2015.01.077",
+        "pdf_url": "https://www.sciencedirect.com/science/article/pii/S0950061815001117/pdf",
+        "source": {
+          "id": "https://openalex.org/S29980478",
+          "display_name": "Construction and Building Materials",
+          "issn_l": "0950-0618",
+          "issn": [
+            "0950-0618",
+            "1879-0526"
+          ],
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": true,
+          "listed_in": [
+            "anvur-class-a",
+            "anvur-scientific",
+            "cwts-core",
+            "dongbi-b",
+            "jufo-1",
+            "ki-jl-1",
+            "norway-2",
+            "poland-140",
+            "russia-white-list-1",
+            "vabb-shw"
+          ],
+          "host_organization": "https://openalex.org/P4310320990",
+          "host_organization_name": "Elsevier BV",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310320990"
+          ],
+          "host_organization_lineage_names": [
+            "Elsevier BV"
+          ],
+          "type": "journal"
+        },
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Construction and Building Materials",
+        "raw_type": "journal-article"
+      },
+      "parent_works": [],
+      "lineage": [
+        "https://openalex.org/W2072053221"
+      ],
+      "child_works_count": 0,
+      "type": "article",
+      "is_traditional": true,
+      "indexed_in": [
+        "crossref"
+      ],
+      "open_access": {
+        "is_oa": true,
+        "oa_status": "hybrid",
+        "oa_url": "https://www.sciencedirect.com/science/article/pii/S0950061815001117/pdf",
+        "any_repository_has_fulltext": true
+      },
+      "authorships": [
+        {
+          "author_position": "first",
+          "author": {
+            "id": "https://openalex.org/A5067870675",
+            "display_name": "Bhavna Sharma",
+            "orcid": "https://orcid.org/0000-0003-0516-6125",
+            "observed_orcids": [
+              "https://orcid.org/0000-0003-0516-6125"
+            ]
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I241749",
+              "display_name": "University of Cambridge",
+              "ror": "https://ror.org/013meh722",
+              "country_code": "GB",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I241749"
+              ]
+            }
+          ],
+          "countries": [
+            "GB"
+          ],
+          "is_corresponding": true,
+          "raw_author_name": "Bhavna Sharma",
+          "raw_affiliation_strings": [
+            "Department of Architecture, University of Cambridge, Cambridge, UK"
+          ],
+          "raw_orcid": null,
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Department of Architecture, University of Cambridge, Cambridge, UK",
+              "institution_ids": [
+                "https://openalex.org/I241749"
+              ]
+            }
+          ]
+        },
+        {
+          "author_position": "middle",
+          "author": {
+            "id": "https://openalex.org/A5086334725",
+            "display_name": "Ana Gatóo",
+            "orcid": "https://orcid.org/0000-0001-6700-2156",
+            "observed_orcids": [
+              "https://orcid.org/0000-0001-6700-2156"
+            ]
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I241749",
+              "display_name": "University of Cambridge",
+              "ror": "https://ror.org/013meh722",
+              "country_code": "GB",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I241749"
+              ]
+            }
+          ],
+          "countries": [
+            "GB"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "Ana Gatóo",
+          "raw_affiliation_strings": [
+            "Department of Architecture, University of Cambridge, Cambridge, UK"
+          ],
+          "raw_orcid": null,
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Department of Architecture, University of Cambridge, Cambridge, UK",
+              "institution_ids": [
+                "https://openalex.org/I241749"
+              ]
+            }
+          ]
+        },
+        {
+          "author_position": "middle",
+          "author": {
+            "id": "https://openalex.org/A5083575690",
+            "display_name": "Maximilian Bock",
+            "orcid": null,
+            "observed_orcids": []
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I241749",
+              "display_name": "University of Cambridge",
+              "ror": "https://ror.org/013meh722",
+              "country_code": "GB",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I241749"
+              ]
+            }
+          ],
+          "countries": [
+            "GB"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "Maximilian Bock",
+          "raw_affiliation_strings": [
+            "Department of Architecture, University of Cambridge, Cambridge, UK"
+          ],
+          "raw_orcid": null,
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Department of Architecture, University of Cambridge, Cambridge, UK",
+              "institution_ids": [
+                "https://openalex.org/I241749"
+              ]
+            }
+          ]
+        },
+        {
+          "author_position": "last",
+          "author": {
+            "id": "https://openalex.org/A5032082592",
+            "display_name": "Michael H. Ramage",
+            "orcid": "https://orcid.org/0000-0003-2967-7683",
+            "observed_orcids": [
+              "https://orcid.org/0000-0003-2967-7683"
+            ]
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I241749",
+              "display_name": "University of Cambridge",
+              "ror": "https://ror.org/013meh722",
+              "country_code": "GB",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I241749"
+              ]
+            }
+          ],
+          "countries": [
+            "GB"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "Michael Ramage",
+          "raw_affiliation_strings": [
+            "Department of Architecture, University of Cambridge, Cambridge, UK"
+          ],
+          "raw_orcid": null,
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Department of Architecture, University of Cambridge, Cambridge, UK",
+              "institution_ids": [
+                "https://openalex.org/I241749"
+              ]
+            }
+          ]
+        }
+      ],
+      "institutions": [],
+      "countries_distinct_count": 1,
+      "institutions_distinct_count": 1,
+      "corresponding_author_ids": [
+        "https://openalex.org/A5067870675"
+      ],
+      "corresponding_institution_ids": [
+        "https://openalex.org/I241749"
+      ],
+      "apc_list": {
+        "value": 4540,
+        "currency": "USD",
+        "value_usd": 4540
+      },
+      "apc_paid": {
+        "value": 2436,
+        "currency": "EUR",
+        "value_usd": 2627
+      },
+      "fwci": 28.0495,
+      "is_authors_truncated": false,
+      "has_fulltext": true,
+      "cited_by_count": 717,
+      "citation_normalized_percentile": {
+        "value": 0.99865316,
+        "is_in_top_1_percent": true,
+        "is_in_top_10_percent": true
+      },
+      "cited_by_percentile_year": {
+        "min": 97,
+        "max": 100
+      },
+      "biblio": {
+        "volume": "81",
+        "issue": null,
+        "first_page": "66",
+        "last_page": "73"
+      },
+      "is_retracted": false,
+      "is_paratext": false,
+      "is_xpac": false,
+      "primary_topic": {
+        "id": "https://openalex.org/T12665",
+        "display_name": "Bamboo properties and applications",
+        "score": 1.0,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1110",
+          "display_name": "Plant Science"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/11",
+          "display_name": "Agricultural and Biological Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/1",
+          "display_name": "Life Sciences"
+        }
+      },
+      "topics": [
+        {
+          "id": "https://openalex.org/T12665",
+          "display_name": "Bamboo properties and applications",
+          "score": 1.0,
+          "subfield": {
+            "id": "https://openalex.org/subfields/1110",
+            "display_name": "Plant Science"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/11",
+            "display_name": "Agricultural and Biological Sciences"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/1",
+            "display_name": "Life Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T10513",
+          "display_name": "Natural Fiber Reinforced Composites",
+          "score": 0.0,
+          "subfield": {
+            "id": "https://openalex.org/subfields/2507",
+            "display_name": "Polymers and Plastics"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/25",
+            "display_name": "Materials Science"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T10484",
+          "display_name": "Wood Treatment and Properties",
+          "score": 0.0,
+          "subfield": {
+            "id": "https://openalex.org/subfields/2215",
+            "display_name": "Building and Construction"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/22",
+            "display_name": "Engineering"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        }
+      ],
+      "keywords": [
+        {
+          "id": "https://openalex.org/keywords/engineered-bamboo",
+          "display_name": "engineered bamboo",
+          "score": 0.9980000257492065
+        },
+        {
+          "id": "https://openalex.org/keywords/bamboo-scrimber",
+          "display_name": "bamboo scrimber",
+          "score": 0.8679999709129333
+        },
+        {
+          "id": "https://openalex.org/keywords/mechanical-properties",
+          "display_name": "mechanical properties",
+          "score": 0.7319999933242798
+        },
+        {
+          "id": "https://openalex.org/keywords/structural-design",
+          "display_name": "structural design",
+          "score": 0.6029999852180481
+        },
+        {
+          "id": "https://openalex.org/keywords/renewable-building-materials",
+          "display_name": "renewable building materials",
+          "score": 0.6570000052452087
+        },
+        {
+          "id": "https://openalex.org/keywords/bamboo-culm",
+          "display_name": "bamboo culm",
+          "score": 0.5799999833106995
+        },
+        {
+          "id": "https://openalex.org/keywords/material-property-variation",
+          "display_name": "material property variation",
+          "score": 0.36000001430511475
+        }
+      ],
+      "concepts": [
+        {
+          "id": "https://openalex.org/C2778704284",
+          "wikidata": "https://www.wikidata.org/wiki/Q670887",
+          "display_name": "Bamboo",
+          "level": 2,
+          "score": 0.9739007353782654
+        },
+        {
+          "id": "https://openalex.org/C206139338",
+          "wikidata": "https://www.wikidata.org/wiki/Q192355",
+          "display_name": "Raw material",
+          "level": 2,
+          "score": 0.6336356401443481
+        },
+        {
+          "id": "https://openalex.org/C2993522384",
+          "wikidata": "https://www.wikidata.org/wiki/Q3405827",
+          "display_name": "Natural materials",
+          "level": 2,
+          "score": 0.4851997196674347
+        },
+        {
+          "id": "https://openalex.org/C192562407",
+          "wikidata": "https://www.wikidata.org/wiki/Q228736",
+          "display_name": "Materials science",
+          "level": 0,
+          "score": 0.41701504588127136
+        },
+        {
+          "id": "https://openalex.org/C504595227",
+          "wikidata": "https://www.wikidata.org/wiki/Q1317763",
+          "display_name": "Engineered wood",
+          "level": 2,
+          "score": 0.41293051838874817
+        },
+        {
+          "id": "https://openalex.org/C528095902",
+          "wikidata": "https://www.wikidata.org/wiki/Q2283886",
+          "display_name": "Pulp and paper industry",
+          "level": 1,
+          "score": 0.3680644631385803
+        },
+        {
+          "id": "https://openalex.org/C159985019",
+          "wikidata": "https://www.wikidata.org/wiki/Q181790",
+          "display_name": "Composite material",
+          "level": 1,
+          "score": 0.28175556659698486
+        },
+        {
+          "id": "https://openalex.org/C127413603",
+          "wikidata": "https://www.wikidata.org/wiki/Q11023",
+          "display_name": "Engineering",
+          "level": 0,
+          "score": 0.2397174835205078
+        },
+        {
+          "id": "https://openalex.org/C126348684",
+          "wikidata": "https://www.wikidata.org/wiki/Q3456979",
+          "display_name": "Polymer science",
+          "level": 1,
+          "score": 0.09953966736793518
+        },
+        {
+          "id": "https://openalex.org/C178790620",
+          "wikidata": "https://www.wikidata.org/wiki/Q11351",
+          "display_name": "Organic chemistry",
+          "level": 1,
+          "score": 0.0
+        },
+        {
+          "id": "https://openalex.org/C185592680",
+          "wikidata": "https://www.wikidata.org/wiki/Q2329",
+          "display_name": "Chemistry",
+          "level": 0,
+          "score": 0.0
+        }
+      ],
+      "mesh": [],
+      "locations_count": 2,
+      "locations": [
+        {
+          "id": "doi:10.1016/j.conbuildmat.2015.01.077",
+          "doi": "https://doi.org/10.1016/j.conbuildmat.2015.01.077",
+          "is_oa": true,
+          "landing_page_url": "https://doi.org/10.1016/j.conbuildmat.2015.01.077",
+          "pdf_url": "https://www.sciencedirect.com/science/article/pii/S0950061815001117/pdf",
+          "source": {
+            "id": "https://openalex.org/S29980478",
+            "display_name": "Construction and Building Materials",
+            "issn_l": "0950-0618",
+            "issn": [
+              "0950-0618",
+              "1879-0526"
+            ],
+            "is_oa": false,
+            "is_in_doaj": false,
+            "is_core": true,
+            "listed_in": [
+              "anvur-class-a",
+              "anvur-scientific",
+              "cwts-core",
+              "dongbi-b",
+              "jufo-1",
+              "ki-jl-1",
+              "norway-2",
+              "poland-140",
+              "russia-white-list-1",
+              "vabb-shw"
+            ],
+            "host_organization": "https://openalex.org/P4310320990",
+            "host_organization_name": "Elsevier BV",
+            "host_organization_lineage": [
+              "https://openalex.org/P4310320990"
+            ],
+            "host_organization_lineage_names": [
+              "Elsevier BV"
+            ],
+            "type": "journal"
+          },
+          "license": "cc-by",
+          "license_id": "https://openalex.org/licenses/cc-by",
+          "version": "publishedVersion",
+          "is_accepted": true,
+          "is_published": true,
+          "raw_source_name": "Construction and Building Materials",
+          "raw_type": "journal-article"
+        },
+        {
+          "id": "pmh:oai:www.repository.cam.ac.uk:1810/247518",
+          "doi": null,
+          "is_oa": true,
+          "landing_page_url": "https://www.repository.cam.ac.uk/handle/1810/247518",
+          "pdf_url": "https://www.repository.cam.ac.uk/bitstreams/63a99e56-43fe-461b-a1e1-d5f617e83ebb/download",
+          "source": {
+            "id": "https://openalex.org/S4306401777",
+            "display_name": "Apollo (University of Cambridge)",
+            "issn_l": null,
+            "issn": null,
+            "is_oa": false,
+            "is_in_doaj": false,
+            "is_core": false,
+            "listed_in": [],
+            "host_organization": "https://openalex.org/I241749",
+            "host_organization_name": "University of Cambridge",
+            "host_organization_lineage": [
+              "https://openalex.org/I241749"
+            ],
+            "host_organization_lineage_names": [],
+            "type": "repository"
+          },
+          "license": "cc-by",
+          "license_id": "https://openalex.org/licenses/cc-by",
+          "version": "submittedVersion",
+          "is_accepted": false,
+          "is_published": false,
+          "raw_source_name": null,
+          "raw_type": "Article"
+        }
+      ],
+      "best_oa_location": {
+        "id": "doi:10.1016/j.conbuildmat.2015.01.077",
+        "doi": "https://doi.org/10.1016/j.conbuildmat.2015.01.077",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.1016/j.conbuildmat.2015.01.077",
+        "pdf_url": "https://www.sciencedirect.com/science/article/pii/S0950061815001117/pdf",
+        "source": {
+          "id": "https://openalex.org/S29980478",
+          "display_name": "Construction and Building Materials",
+          "issn_l": "0950-0618",
+          "issn": [
+            "0950-0618",
+            "1879-0526"
+          ],
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": true,
+          "listed_in": [
+            "anvur-class-a",
+            "anvur-scientific",
+            "cwts-core",
+            "dongbi-b",
+            "jufo-1",
+            "ki-jl-1",
+            "norway-2",
+            "poland-140",
+            "russia-white-list-1",
+            "vabb-shw"
+          ],
+          "host_organization": "https://openalex.org/P4310320990",
+          "host_organization_name": "Elsevier BV",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310320990"
+          ],
+          "host_organization_lineage_names": [
+            "Elsevier BV"
+          ],
+          "type": "journal"
+        },
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Construction and Building Materials",
+        "raw_type": "journal-article"
+      },
+      "sustainable_development_goals": [],
+      "study_designs": [],
+      "awards": [
+        {
+          "id": "https://openalex.org/G7995580478",
+          "display_name": "G8-2012 Structural Bamboo Products",
+          "funder_award_id": "EP/K023403/1",
+          "funder_id": "https://openalex.org/F4320334627",
+          "funder_display_name": "Engineering and Physical Sciences Research Council"
+        }
+      ],
+      "funders": [
+        {
+          "id": "https://openalex.org/F4320309369",
+          "display_name": "Massachusetts Institute of Technology",
+          "ror": "https://ror.org/042nb2s44"
+        },
+        {
+          "id": "https://openalex.org/F4320320273",
+          "display_name": "University of Cambridge",
+          "ror": "https://ror.org/013meh722"
+        },
+        {
+          "id": "https://openalex.org/F4320323180",
+          "display_name": "University of British Columbia",
+          "ror": "https://ror.org/03rmrcq20"
+        },
+        {
+          "id": "https://openalex.org/F4320334627",
+          "display_name": "Engineering and Physical Sciences Research Council",
+          "ror": "https://ror.org/0439y7842"
+        }
+      ],
+      "has_content": {
+        "pdf": true,
+        "grobid_xml": true
+      },
+      "content_urls": {
+        "pdf": "https://content.openalex.org/works/W2072053221.pdf",
+        "grobid_xml": "https://content.openalex.org/works/W2072053221.grobid-xml"
+      },
+      "referenced_works_count": 29,
+      "referenced_works": [
+        "https://openalex.org/W330575342",
+        "https://openalex.org/W1598059363",
+        "https://openalex.org/W1968414512",
+        "https://openalex.org/W1968667431",
+        "https://openalex.org/W1979031146",
+        "https://openalex.org/W1979306258",
+        "https://openalex.org/W1988746314",
+        "https://openalex.org/W1993490717",
+        "https://openalex.org/W1994036379",
+        "https://openalex.org/W1996401809",
+        "https://openalex.org/W2003692373",
+        "https://openalex.org/W2009566743",
+        "https://openalex.org/W2025517775",
+        "https://openalex.org/W2026699537",
+        "https://openalex.org/W2049224014",
+        "https://openalex.org/W2051281552",
+        "https://openalex.org/W2052822110",
+        "https://openalex.org/W2084323778",
+        "https://openalex.org/W2103486627",
+        "https://openalex.org/W2113433875",
+        "https://openalex.org/W2129134863",
+        "https://openalex.org/W2142522311",
+        "https://openalex.org/W2150553040",
+        "https://openalex.org/W2329944350",
+        "https://openalex.org/W2499572606",
+        "https://openalex.org/W2794392446",
+        "https://openalex.org/W3010529582",
+        "https://openalex.org/W4285719527",
+        "https://openalex.org/W4402310298"
+      ],
+      "related_works": [
+        "https://openalex.org/W2103486627",
+        "https://openalex.org/W3013939027",
+        "https://openalex.org/W4411903459",
+        "https://openalex.org/W4409545132",
+        "https://openalex.org/W2099087242",
+        "https://openalex.org/W1994644800",
+        "https://openalex.org/W2232457971",
+        "https://openalex.org/W2530847703",
+        "https://openalex.org/W3112318948"
+      ],
+      "abstract_inverted_index": {
+        "Bamboo": [
+          0
+        ],
+        "is": [
+          1,
+          83,
+          132
+        ],
+        "a": [
+          2,
+          23,
+          117
+        ],
+        "rapidly": [
+          3
+        ],
+        "renewable": [
+          4
+        ],
+        "material": [
+          5,
+          35
+        ],
+        "that": [
+          6,
+          85,
+          91,
+          97
+        ],
+        "has": [
+          7
+        ],
+        "many": [
+          8
+        ],
+        "applications": [
+          9
+        ],
+        "in": [
+          10,
+          39,
+          107,
+          128
+        ],
+        "construction.": [
+          11
+        ],
+        "Engineered": [
+          12
+        ],
+        "bamboo": [
+          13,
+          20,
+          66,
+          70,
+          87,
+          124
+        ],
+        "products": [
+          14,
+          32,
+          64,
+          88
+        ],
+        "result": [
+          15
+        ],
+        "from": [
+          16
+        ],
+        "processing": [
+          17
+        ],
+        "the": [
+          18,
+          34,
+          48,
+          55
+        ],
+        "raw": [
+          19
+        ],
+        "culm": [
+          21
+        ],
+        "into": [
+          22
+        ],
+        "laminated": [
+          24,
+          69
+        ],
+        "composite,": [
+          25
+        ],
+        "similar": [
+          26
+        ],
+        "to": [
+          27,
+          36,
+          76,
+          94,
+          105,
+          116
+        ],
+        "glue-laminated": [
+          28
+        ],
+        "timber": [
+          29,
+          77,
+          80,
+          99
+        ],
+        "products.": [
+          30,
+          81,
+          102
+        ],
+        "These": [
+          31
+        ],
+        "allow": [
+          33
+        ],
+        "be": [
+          37
+        ],
+        "used": [
+          38
+        ],
+        "standardised": [
+          40
+        ],
+        "sections": [
+          41
+        ],
+        "and": [
+          42,
+          68,
+          73,
+          78,
+          100,
+          125
+        ],
+        "have": [
+          43,
+          89
+        ],
+        "less": [
+          44
+        ],
+        "inherent": [
+          45
+        ],
+        "variability": [
+          46
+        ],
+        "than": [
+          47
+        ],
+        "natural": [
+          49
+        ],
+        "material.": [
+          50
+        ],
+        "The": [
+          51,
+          113
+        ],
+        "present": [
+          52
+        ],
+        "work": [
+          53
+        ],
+        "investigates": [
+          54
+        ],
+        "mechanical": [
+          56
+        ],
+        "properties": [
+          57,
+          90
+        ],
+        "of": [
+          58,
+          61,
+          98,
+          120
+        ],
+        "two": [
+          59
+        ],
+        "types": [
+          60
+        ],
+        "commercially": [
+          62
+        ],
+        "available": [
+          63
+        ],
+        "–": [
+          65,
+          72
+        ],
+        "scrimber": [
+          67
+        ],
+        "sheets": [
+          71
+        ],
+        "compares": [
+          74
+        ],
+        "these": [
+          75
+        ],
+        "engineered": [
+          79,
+          86,
+          123
+        ],
+        "It": [
+          82
+        ],
+        "shown": [
+          84
+        ],
+        "are": [
+          92,
+          110
+        ],
+        "comparable": [
+          93
+        ],
+        "or": [
+          95
+        ],
+        "surpass": [
+          96
+        ],
+        "timber-based": [
+          101
+        ],
+        "Potential": [
+          103
+        ],
+        "limitations": [
+          104
+        ],
+        "use": [
+          106
+        ],
+        "structural": [
+          108
+        ],
+        "design": [
+          109
+        ],
+        "also": [
+          111
+        ],
+        "discussed.": [
+          112
+        ],
+        "study": [
+          114
+        ],
+        "contributes": [
+          115
+        ],
+        "growing": [
+          118
+        ],
+        "body": [
+          119
+        ],
+        "research": [
+          121
+        ],
+        "on": [
+          122
+        ],
+        "presents": [
+          126
+        ],
+        "areas": [
+          127
+        ],
+        "which": [
+          129
+        ],
+        "further": [
+          130
+        ],
+        "investigation": [
+          131
+        ],
+        "needed.": [
+          133
+        ]
+      },
+      "counts_by_year": [
+        {
+          "year": 2026,
+          "cited_by_count": 81
+        },
+        {
+          "year": 2025,
+          "cited_by_count": 72
+        },
+        {
+          "year": 2024,
+          "cited_by_count": 82
+        },
+        {
+          "year": 2023,
+          "cited_by_count": 94
+        },
+        {
+          "year": 2022,
+          "cited_by_count": 82
+        },
+        {
+          "year": 2021,
+          "cited_by_count": 85
+        },
+        {
+          "year": 2020,
+          "cited_by_count": 86
+        },
+        {
+          "year": 2019,
+          "cited_by_count": 55
+        },
+        {
+          "year": 2018,
+          "cited_by_count": 32
+        },
+        {
+          "year": 2017,
+          "cited_by_count": 25
+        },
+        {
+          "year": 2016,
+          "cited_by_count": 19
+        },
+        {
+          "year": 2015,
+          "cited_by_count": 4
+        }
+      ],
+      "updated_date": "2026-11-15T12:55:33.944570",
+      "created_date": "2016-06-24T00:00:00"
+    },
+    {
+      "id": "https://openalex.org/W2103486627",
+      "doi": "https://doi.org/10.1680/coma.14.00020",
+      "title": "Engineered bamboo: state of the art",
+      "display_name": "Engineered bamboo: state of the art",
+      "relevance_score": 106.09912,
+      "publication_year": 2014,
+      "publication_date": "2014-10-13",
+      "ids": {
+        "openalex": "https://openalex.org/W2103486627",
+        "doi": "https://doi.org/10.1680/coma.14.00020",
+        "mag": "2103486627"
+      },
+      "language": "en",
+      "primary_location": {
+        "id": "doi:10.1680/coma.14.00020",
+        "doi": "https://doi.org/10.1680/coma.14.00020",
+        "is_oa": false,
+        "landing_page_url": "https://doi.org/10.1680/coma.14.00020",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4210195936",
+          "display_name": "Proceedings of the Institution of Civil Engineers - Construction Materials",
+          "issn_l": "1747-650X",
+          "issn": [
+            "1747-650X",
+            "1747-6518"
+          ],
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": true,
+          "listed_in": [
+            "cwts-core",
+            "dongbi-d",
+            "jufo-1",
+            "norway-1",
+            "poland-40",
+            "russia-white-list-2"
+          ],
+          "host_organization": "https://openalex.org/P4322764898",
+          "host_organization_name": "Thomas Telford Ltd.",
+          "host_organization_lineage": [
+            "https://openalex.org/P4322764898"
+          ],
+          "host_organization_lineage_names": [
+            "Thomas Telford Ltd."
+          ],
+          "type": "journal"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Proceedings of the Institution of Civil Engineers - Construction Materials",
+        "raw_type": "journal-article"
+      },
+      "parent_works": [],
+      "lineage": [
+        "https://openalex.org/W2103486627"
+      ],
+      "child_works_count": 0,
+      "type": "article",
+      "is_traditional": true,
+      "indexed_in": [
+        "crossref"
+      ],
+      "open_access": {
+        "is_oa": false,
+        "oa_status": "closed",
+        "oa_url": null,
+        "any_repository_has_fulltext": false
+      },
+      "authorships": [
+        {
+          "author_position": "first",
+          "author": {
+            "id": "https://openalex.org/A5067870675",
+            "display_name": "Bhavna Sharma",
+            "orcid": "https://orcid.org/0000-0003-0516-6125",
+            "observed_orcids": [
+              "https://orcid.org/0000-0003-0516-6125"
+            ]
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I241749",
+              "display_name": "University of Cambridge",
+              "ror": "https://ror.org/013meh722",
+              "country_code": "GB",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I241749"
+              ]
+            }
+          ],
+          "countries": [
+            "GB"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "Bhavna Sharma",
+          "raw_affiliation_strings": [
+            "Research Associate, Department of Architecture, University of Cambridge, Cambridge, UK"
+          ],
+          "raw_orcid": null,
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Research Associate, Department of Architecture, University of Cambridge, Cambridge, UK",
+              "institution_ids": [
+                "https://openalex.org/I241749"
+              ]
+            }
+          ]
+        },
+        {
+          "author_position": "middle",
+          "author": {
+            "id": "https://openalex.org/A5086334725",
+            "display_name": "Ana Gatóo",
+            "orcid": "https://orcid.org/0000-0001-6700-2156",
+            "observed_orcids": [
+              "https://orcid.org/0000-0001-6700-2156"
+            ]
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I241749",
+              "display_name": "University of Cambridge",
+              "ror": "https://ror.org/013meh722",
+              "country_code": "GB",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I241749"
+              ]
+            }
+          ],
+          "countries": [
+            "GB"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "Ana Gatoo",
+          "raw_affiliation_strings": [
+            "Research Assistant, Department of Architecture, University of Cambridge, Cambridge, UK"
+          ],
+          "raw_orcid": null,
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Research Assistant, Department of Architecture, University of Cambridge, Cambridge, UK",
+              "institution_ids": [
+                "https://openalex.org/I241749"
+              ]
+            }
+          ]
+        },
+        {
+          "author_position": "middle",
+          "author": {
+            "id": "https://openalex.org/A5083575690",
+            "display_name": "Maximilian Bock",
+            "orcid": null,
+            "observed_orcids": []
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I241749",
+              "display_name": "University of Cambridge",
+              "ror": "https://ror.org/013meh722",
+              "country_code": "GB",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I241749"
+              ]
+            }
+          ],
+          "countries": [
+            "GB"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "Maximilian Bock",
+          "raw_affiliation_strings": [
+            "Research Associate, Department of Architecture, University of Cambridge, Cambridge, UK"
+          ],
+          "raw_orcid": null,
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Research Associate, Department of Architecture, University of Cambridge, Cambridge, UK",
+              "institution_ids": [
+                "https://openalex.org/I241749"
+              ]
+            }
+          ]
+        },
+        {
+          "author_position": "middle",
+          "author": {
+            "id": "https://openalex.org/A5041178777",
+            "display_name": "Helen Mulligan",
+            "orcid": null,
+            "observed_orcids": []
+          },
+          "institutions": [],
+          "countries": [],
+          "is_corresponding": false,
+          "raw_author_name": "Helen Mulligan",
+          "raw_affiliation_strings": [
+            "Director, Cambridge Architectural Research Ltd, Cambridge, UK"
+          ],
+          "raw_orcid": null,
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Director, Cambridge Architectural Research Ltd, Cambridge, UK",
+              "institution_ids": []
+            }
+          ]
+        },
+        {
+          "author_position": "last",
+          "author": {
+            "id": "https://openalex.org/A5032082592",
+            "display_name": "Michael H. Ramage",
+            "orcid": "https://orcid.org/0000-0003-2967-7683",
+            "observed_orcids": [
+              "https://orcid.org/0000-0003-2967-7683"
+            ]
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I241749",
+              "display_name": "University of Cambridge",
+              "ror": "https://ror.org/013meh722",
+              "country_code": "GB",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I241749"
+              ]
+            }
+          ],
+          "countries": [
+            "GB"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "Michael Ramage",
+          "raw_affiliation_strings": [
+            "Senior Lecturer, Department of Architecture, University of Cambridge, Cambridge, UK"
+          ],
+          "raw_orcid": null,
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Senior Lecturer, Department of Architecture, University of Cambridge, Cambridge, UK",
+              "institution_ids": [
+                "https://openalex.org/I241749"
+              ]
+            }
+          ]
+        }
+      ],
+      "institutions": [],
+      "countries_distinct_count": 1,
+      "institutions_distinct_count": 1,
+      "corresponding_author_ids": [],
+      "corresponding_institution_ids": [],
+      "apc_list": null,
+      "apc_paid": null,
+      "fwci": 8.5728,
+      "is_authors_truncated": false,
+      "has_fulltext": false,
+      "cited_by_count": 225,
+      "citation_normalized_percentile": {
+        "value": 0.97748888,
+        "is_in_top_1_percent": false,
+        "is_in_top_10_percent": true
+      },
+      "cited_by_percentile_year": {
+        "min": 98,
+        "max": 100
+      },
+      "biblio": {
+        "volume": "168",
+        "issue": "2",
+        "first_page": "57",
+        "last_page": "67"
+      },
+      "is_retracted": false,
+      "is_paratext": false,
+      "is_xpac": false,
+      "primary_topic": {
+        "id": "https://openalex.org/T12665",
+        "display_name": "Bamboo properties and applications",
+        "score": 1.0,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1110",
+          "display_name": "Plant Science"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/11",
+          "display_name": "Agricultural and Biological Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/1",
+          "display_name": "Life Sciences"
+        }
+      },
+      "topics": [
+        {
+          "id": "https://openalex.org/T12665",
+          "display_name": "Bamboo properties and applications",
+          "score": 1.0,
+          "subfield": {
+            "id": "https://openalex.org/subfields/1110",
+            "display_name": "Plant Science"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/11",
+            "display_name": "Agricultural and Biological Sciences"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/1",
+            "display_name": "Life Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T10513",
+          "display_name": "Natural Fiber Reinforced Composites",
+          "score": 0.0,
+          "subfield": {
+            "id": "https://openalex.org/subfields/2507",
+            "display_name": "Polymers and Plastics"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/25",
+            "display_name": "Materials Science"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T10484",
+          "display_name": "Wood Treatment and Properties",
+          "score": 0.0,
+          "subfield": {
+            "id": "https://openalex.org/subfields/2215",
+            "display_name": "Building and Construction"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/22",
+            "display_name": "Engineering"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        }
+      ],
+      "keywords": [
+        {
+          "id": "https://openalex.org/keywords/engineered-bamboo",
+          "display_name": "engineered bamboo",
+          "score": 0.9990000128746033
+        },
+        {
+          "id": "https://openalex.org/keywords/bamboo-scrimber",
+          "display_name": "bamboo scrimber",
+          "score": 0.8989999890327454
+        },
+        {
+          "id": "https://openalex.org/keywords/laminated-bamboo",
+          "display_name": "laminated bamboo",
+          "score": 0.9940000176429749
+        },
+        {
+          "id": "https://openalex.org/keywords/structural-timber",
+          "display_name": "structural timber",
+          "score": 0.4650000035762787
+        },
+        {
+          "id": "https://openalex.org/keywords/laminated-veneer-lumber",
+          "display_name": "laminated veneer lumber",
+          "score": 0.9959999918937683
+        },
+        {
+          "id": "https://openalex.org/keywords/material-property-variation",
+          "display_name": "material property variation",
+          "score": 0.6380000114440918
+        },
+        {
+          "id": "https://openalex.org/keywords/standardization",
+          "display_name": "standardization",
+          "score": 0.4690000116825104
+        },
+        {
+          "id": "https://openalex.org/keywords/mechanical-properties",
+          "display_name": "mechanical properties",
+          "score": 0.5389999747276306
+        }
+      ],
+      "concepts": [
+        {
+          "id": "https://openalex.org/C2778704284",
+          "wikidata": "https://www.wikidata.org/wiki/Q670887",
+          "display_name": "Bamboo",
+          "level": 2,
+          "score": 0.9588331580162048
+        },
+        {
+          "id": "https://openalex.org/C128056066",
+          "wikidata": "https://www.wikidata.org/wiki/Q5791381",
+          "display_name": "Laminated veneer lumber",
+          "level": 3,
+          "score": 0.7987720966339111
+        },
+        {
+          "id": "https://openalex.org/C2993522384",
+          "wikidata": "https://www.wikidata.org/wiki/Q3405827",
+          "display_name": "Natural materials",
+          "level": 2,
+          "score": 0.5117230415344238
+        },
+        {
+          "id": "https://openalex.org/C200070095",
+          "wikidata": "https://www.wikidata.org/wiki/Q1297687",
+          "display_name": "Structural material",
+          "level": 2,
+          "score": 0.4639309048652649
+        },
+        {
+          "id": "https://openalex.org/C192562407",
+          "wikidata": "https://www.wikidata.org/wiki/Q228736",
+          "display_name": "Materials science",
+          "level": 0,
+          "score": 0.44808661937713623
+        },
+        {
+          "id": "https://openalex.org/C2779225514",
+          "wikidata": "https://www.wikidata.org/wiki/Q1686140",
+          "display_name": "Veneer",
+          "level": 2,
+          "score": 0.44238734245300293
+        },
+        {
+          "id": "https://openalex.org/C107053488",
+          "wikidata": "https://www.wikidata.org/wiki/Q2674423",
+          "display_name": "Construction engineering",
+          "level": 1,
+          "score": 0.40686774253845215
+        },
+        {
+          "id": "https://openalex.org/C159985019",
+          "wikidata": "https://www.wikidata.org/wiki/Q181790",
+          "display_name": "Composite material",
+          "level": 1,
+          "score": 0.3713240623474121
+        },
+        {
+          "id": "https://openalex.org/C127413603",
+          "wikidata": "https://www.wikidata.org/wiki/Q11023",
+          "display_name": "Engineering",
+          "level": 0,
+          "score": 0.27252984046936035
+        },
+        {
+          "id": "https://openalex.org/C126348684",
+          "wikidata": "https://www.wikidata.org/wiki/Q3456979",
+          "display_name": "Polymer science",
+          "level": 1,
+          "score": 0.11626332998275757
+        }
+      ],
+      "mesh": [],
+      "locations_count": 1,
+      "locations": [
+        {
+          "id": "doi:10.1680/coma.14.00020",
+          "doi": "https://doi.org/10.1680/coma.14.00020",
+          "is_oa": false,
+          "landing_page_url": "https://doi.org/10.1680/coma.14.00020",
+          "pdf_url": null,
+          "source": {
+            "id": "https://openalex.org/S4210195936",
+            "display_name": "Proceedings of the Institution of Civil Engineers - Construction Materials",
+            "issn_l": "1747-650X",
+            "issn": [
+              "1747-650X",
+              "1747-6518"
+            ],
+            "is_oa": false,
+            "is_in_doaj": false,
+            "is_core": true,
+            "listed_in": [
+              "cwts-core",
+              "dongbi-d",
+              "jufo-1",
+              "norway-1",
+              "poland-40",
+              "russia-white-list-2"
+            ],
+            "host_organization": "https://openalex.org/P4322764898",
+            "host_organization_name": "Thomas Telford Ltd.",
+            "host_organization_lineage": [
+              "https://openalex.org/P4322764898"
+            ],
+            "host_organization_lineage_names": [
+              "Thomas Telford Ltd."
+            ],
+            "type": "journal"
+          },
+          "license": null,
+          "license_id": null,
+          "version": "publishedVersion",
+          "is_accepted": true,
+          "is_published": true,
+          "raw_source_name": "Proceedings of the Institution of Civil Engineers - Construction Materials",
+          "raw_type": "journal-article"
+        }
+      ],
+      "best_oa_location": null,
+      "sustainable_development_goals": [],
+      "study_designs": [],
+      "awards": [
+        {
+          "id": "https://openalex.org/G7995580478",
+          "display_name": "G8-2012 Structural Bamboo Products",
+          "funder_award_id": "EP/K023403/1",
+          "funder_id": "https://openalex.org/F4320334627",
+          "funder_display_name": "Engineering and Physical Sciences Research Council"
+        }
+      ],
+      "funders": [
+        {
+          "id": "https://openalex.org/F4320334627",
+          "display_name": "Engineering and Physical Sciences Research Council",
+          "ror": "https://ror.org/0439y7842"
+        }
+      ],
+      "has_content": {
+        "pdf": false,
+        "grobid_xml": false
+      },
+      "content_urls": null,
+      "referenced_works_count": 41,
+      "referenced_works": [
+        "https://openalex.org/W199279560",
+        "https://openalex.org/W266105785",
+        "https://openalex.org/W330575342",
+        "https://openalex.org/W964215447",
+        "https://openalex.org/W1598059363",
+        "https://openalex.org/W1604216763",
+        "https://openalex.org/W1963740898",
+        "https://openalex.org/W1964009969",
+        "https://openalex.org/W1968667431",
+        "https://openalex.org/W1969640051",
+        "https://openalex.org/W1979031146",
+        "https://openalex.org/W1986593878",
+        "https://openalex.org/W1990454320",
+        "https://openalex.org/W1996401809",
+        "https://openalex.org/W2003692373",
+        "https://openalex.org/W2009566743",
+        "https://openalex.org/W2020521594",
+        "https://openalex.org/W2025517775",
+        "https://openalex.org/W2049224014",
+        "https://openalex.org/W2051281552",
+        "https://openalex.org/W2052822110",
+        "https://openalex.org/W2071345549",
+        "https://openalex.org/W2081879083",
+        "https://openalex.org/W2082911981",
+        "https://openalex.org/W2084323778",
+        "https://openalex.org/W2102349460",
+        "https://openalex.org/W2113433875",
+        "https://openalex.org/W2115142319",
+        "https://openalex.org/W2129134863",
+        "https://openalex.org/W2142522311",
+        "https://openalex.org/W2160006626",
+        "https://openalex.org/W2165351475",
+        "https://openalex.org/W2181922650",
+        "https://openalex.org/W2484814901",
+        "https://openalex.org/W2499572606",
+        "https://openalex.org/W2773714316",
+        "https://openalex.org/W2965087112",
+        "https://openalex.org/W3004731158",
+        "https://openalex.org/W4213346215",
+        "https://openalex.org/W4252280335",
+        "https://openalex.org/W4285719527"
+      ],
+      "related_works": [
+        "https://openalex.org/W2072053221",
+        "https://openalex.org/W3013939027",
+        "https://openalex.org/W2232457971",
+        "https://openalex.org/W4409545132",
+        "https://openalex.org/W4411903459",
+        "https://openalex.org/W4416705670",
+        "https://openalex.org/W1994644800",
+        "https://openalex.org/W4381429173",
+        "https://openalex.org/W2979625046"
+      ],
+      "abstract_inverted_index": {
+        "Bamboo": [
+          0
+        ],
+        "is": [
+          1,
+          7,
+          25,
+          54,
+          87,
+          113
+        ],
+        "a": [
+          2,
+          108
+        ],
+        "rapidly": [
+          3
+        ],
+        "renewable": [
+          4
+        ],
+        "material": [
+          5,
+          52
+        ],
+        "that": [
+          6
+        ],
+        "available": [
+          8
+        ],
+        "globally": [
+          9
+        ],
+        "and": [
+          10,
+          34,
+          37,
+          53,
+          56,
+          94,
+          126,
+          136,
+          145
+        ],
+        "comparable": [
+          11
+        ],
+        "in": [
+          12,
+          23,
+          31
+        ],
+        "strength": [
+          13
+        ],
+        "to": [
+          14,
+          45,
+          68,
+          77,
+          92,
+          98,
+          140
+        ],
+        "modern": [
+          15
+        ],
+        "structural": [
+          16,
+          70,
+          99,
+          134
+        ],
+        "materials.": [
+          17
+        ],
+        "The": [
+          18,
+          129
+        ],
+        "widespread": [
+          19
+        ],
+        "use": [
+          20,
+          97
+        ],
+        "of": [
+          21,
+          40,
+          49,
+          82,
+          105,
+          110,
+          121
+        ],
+        "bamboo": [
+          22,
+          43,
+          86,
+          124
+        ],
+        "construction": [
+          24
+        ],
+        "limited": [
+          26,
+          76
+        ],
+        "by": [
+          27
+        ],
+        "the": [
+          28,
+          38,
+          47,
+          50,
+          62,
+          72,
+          90,
+          103,
+          106,
+          116,
+          142
+        ],
+        "inherent": [
+          29
+        ],
+        "variability": [
+          30,
+          48
+        ],
+        "its": [
+          32,
+          96
+        ],
+        "geometric": [
+          33
+        ],
+        "mechanical": [
+          35,
+          65
+        ],
+        "properties,": [
+          36
+        ],
+        "lack": [
+          39
+        ],
+        "standardisation.": [
+          41
+        ],
+        "Engineered": [
+          42
+        ],
+        "aims": [
+          44
+        ],
+        "reduce": [
+          46
+        ],
+        "natural": [
+          51
+        ],
+        "processed": [
+          55
+        ],
+        "manufactured": [
+          57
+        ],
+        "into": [
+          58
+        ],
+        "laminated": [
+          59,
+          127,
+          137
+        ],
+        "composites.": [
+          60
+        ],
+        "Although": [
+          61
+        ],
+        "composites": [
+          63
+        ],
+        "have": [
+          64
+        ],
+        "properties": [
+          66
+        ],
+        "similar": [
+          67
+        ],
+        "other": [
+          69
+        ],
+        "materials,": [
+          71
+        ],
+        "products": [
+          73
+        ],
+        "are": [
+          74,
+          131
+        ],
+        "currently": [
+          75
+        ],
+        "architectural": [
+          78
+        ],
+        "applications.": [
+          79,
+          100
+        ],
+        "A": [
+          80
+        ],
+        "field": [
+          81
+        ],
+        "research": [
+          83,
+          112
+        ],
+        "on": [
+          84,
+          118
+        ],
+        "engineering": [
+          85
+        ],
+        "emerging": [
+          88
+        ],
+        "with": [
+          89,
+          115,
+          133
+        ],
+        "aim": [
+          91
+        ],
+        "demonstrate": [
+          93,
+          141
+        ],
+        "expand": [
+          95
+        ],
+        "To": [
+          101
+        ],
+        "summarise": [
+          102
+        ],
+        "state": [
+          104
+        ],
+        "art,": [
+          107
+        ],
+        "review": [
+          109
+        ],
+        "published": [
+          111
+        ],
+        "presented": [
+          114
+        ],
+        "focus": [
+          117
+        ],
+        "two": [
+          119
+        ],
+        "types": [
+          120
+        ],
+        "engineered": [
+          122
+        ],
+        "bamboo:": [
+          123
+        ],
+        "scrimber": [
+          125
+        ],
+        "bamboo.": [
+          128
+        ],
+        "materials": [
+          130
+        ],
+        "compared": [
+          132
+        ],
+        "timber": [
+          135
+        ],
+        "veneer": [
+          138
+        ],
+        "lumber": [
+          139
+        ],
+        "potential": [
+          143
+        ],
+        "applications": [
+          144
+        ],
+        "practical": [
+          146
+        ],
+        "use.": [
+          147
+        ]
+      },
+      "counts_by_year": [
+        {
+          "year": 2026,
+          "cited_by_count": 18
+        },
+        {
+          "year": 2025,
+          "cited_by_count": 22
+        },
+        {
+          "year": 2024,
+          "cited_by_count": 25
+        },
+        {
+          "year": 2023,
+          "cited_by_count": 35
+        },
+        {
+          "year": 2022,
+          "cited_by_count": 25
+        },
+        {
+          "year": 2021,
+          "cited_by_count": 24
+        },
+        {
+          "year": 2020,
+          "cited_by_count": 19
+        },
+        {
+          "year": 2019,
+          "cited_by_count": 24
+        },
+        {
+          "year": 2018,
+          "cited_by_count": 9
+        },
+        {
+          "year": 2017,
+          "cited_by_count": 9
+        },
+        {
+          "year": 2016,
+          "cited_by_count": 8
+        },
+        {
+          "year": 2015,
+          "cited_by_count": 7
+        }
+      ],
+      "updated_date": "2026-11-15T12:55:33.944570",
+      "created_date": "2016-06-24T00:00:00"
+    },
+    {
+      "id": "https://openalex.org/W2194011519",
+      "doi": "https://doi.org/10.15376/biores.11.1.1141-1161",
+      "title": "Nomenclature for Engineered Bamboo",
+      "display_name": "Nomenclature for Engineered Bamboo",
+      "relevance_score": 103.1952,
+      "publication_year": 2015,
+      "publication_date": "2015-12-09",
+      "ids": {
+        "openalex": "https://openalex.org/W2194011519",
+        "doi": "https://doi.org/10.15376/biores.11.1.1141-1161",
+        "mag": "2194011519"
+      },
+      "language": "en",
+      "primary_location": {
+        "id": "doi:10.15376/biores.11.1.1141-1161",
+        "doi": "https://doi.org/10.15376/biores.11.1.1141-1161",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.15376/biores.11.1.1141-1161",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S74630304",
+          "display_name": "BioResources",
+          "issn_l": "1930-2126",
+          "issn": [
+            "1930-2126"
+          ],
+          "is_oa": true,
+          "is_in_doaj": true,
+          "is_core": true,
+          "listed_in": [
+            "cwts-core",
+            "doaj",
+            "dongbi-d",
+            "jufo-1",
+            "norway-1",
+            "poland-100",
+            "russia-white-list-1"
+          ],
+          "host_organization": "https://openalex.org/P4310315895",
+          "host_organization_name": "North Carolina State University",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310315895"
+          ],
+          "host_organization_lineage_names": [
+            "North Carolina State University"
+          ],
+          "type": "journal"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "BioResources",
+        "raw_type": "journal-article"
+      },
+      "parent_works": [],
+      "lineage": [
+        "https://openalex.org/W2194011519"
+      ],
+      "child_works_count": 0,
+      "type": "article",
+      "is_traditional": true,
+      "indexed_in": [
+        "crossref",
+        "datacite",
+        "doaj"
+      ],
+      "open_access": {
+        "is_oa": true,
+        "oa_status": "gold",
+        "oa_url": "https://doi.org/10.15376/biores.11.1.1141-1161",
+        "any_repository_has_fulltext": true
+      },
+      "authorships": [
+        {
+          "author_position": "first",
+          "author": {
+            "id": "https://openalex.org/A5005611324",
+            "display_name": "Xianmiao Liu",
+            "orcid": null,
+            "observed_orcids": []
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I1336964347",
+              "display_name": "International Bamboo and Rattan Organization",
+              "ror": "https://ror.org/02h5sfg65",
+              "country_code": "CN",
+              "type": "government",
+              "lineage": [
+                "https://openalex.org/I1336964347"
+              ]
+            },
+            {
+              "id": "https://openalex.org/I4405260908",
+              "display_name": "International Center for Bamboo and Rattan",
+              "ror": "https://ror.org/04fa47g91",
+              "country_code": "CN",
+              "type": "facility",
+              "lineage": [
+                "https://openalex.org/I4405260908"
+              ]
+            }
+          ],
+          "countries": [
+            "CN"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "Xianmiao Liu",
+          "raw_affiliation_strings": [
+            "International Centre for Bamboo and Rattan"
+          ],
+          "raw_orcid": null,
+          "affiliations": [
+            {
+              "raw_affiliation_string": "International Centre for Bamboo and Rattan",
+              "institution_ids": [
+                "https://openalex.org/I1336964347",
+                "https://openalex.org/I4405260908"
+              ]
+            }
+          ]
+        },
+        {
+          "author_position": "middle",
+          "author": {
+            "id": "https://openalex.org/A5110266141",
+            "display_name": "Gregory D. Smith",
+            "orcid": "https://orcid.org/0009-0001-5101-6075",
+            "observed_orcids": [
+              "https://orcid.org/0009-0001-5101-6075"
+            ]
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I141945490",
+              "display_name": "University of British Columbia",
+              "ror": "https://ror.org/03rmrcq20",
+              "country_code": "CA",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I141945490"
+              ]
+            }
+          ],
+          "countries": [
+            "CA"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "Gregory D. Smith",
+          "raw_affiliation_strings": [
+            "University of British Columbia"
+          ],
+          "raw_orcid": null,
+          "affiliations": [
+            {
+              "raw_affiliation_string": "University of British Columbia",
+              "institution_ids": [
+                "https://openalex.org/I141945490"
+              ]
+            }
+          ]
+        },
+        {
+          "author_position": "middle",
+          "author": {
+            "id": "https://openalex.org/A5102019224",
+            "display_name": "Zehui Jiang",
+            "orcid": "https://orcid.org/0000-0002-3635-0235",
+            "observed_orcids": [
+              "https://orcid.org/0000-0002-3635-0235"
+            ]
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I1336964347",
+              "display_name": "International Bamboo and Rattan Organization",
+              "ror": "https://ror.org/02h5sfg65",
+              "country_code": "CN",
+              "type": "government",
+              "lineage": [
+                "https://openalex.org/I1336964347"
+              ]
+            },
+            {
+              "id": "https://openalex.org/I4405260908",
+              "display_name": "International Center for Bamboo and Rattan",
+              "ror": "https://ror.org/04fa47g91",
+              "country_code": "CN",
+              "type": "facility",
+              "lineage": [
+                "https://openalex.org/I4405260908"
+              ]
+            }
+          ],
+          "countries": [
+            "CN"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "Zehui Jiang",
+          "raw_affiliation_strings": [
+            "International Centre for Bamboo and Rattan"
+          ],
+          "raw_orcid": null,
+          "affiliations": [
+            {
+              "raw_affiliation_string": "International Centre for Bamboo and Rattan",
+              "institution_ids": [
+                "https://openalex.org/I1336964347",
+                "https://openalex.org/I4405260908"
+              ]
+            }
+          ]
+        },
+        {
+          "author_position": "middle",
+          "author": {
+            "id": "https://openalex.org/A5083575690",
+            "display_name": "Maximilian Bock",
+            "orcid": null,
+            "observed_orcids": []
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I241749",
+              "display_name": "University of Cambridge",
+              "ror": "https://ror.org/013meh722",
+              "country_code": "GB",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I241749"
+              ]
+            }
+          ],
+          "countries": [
+            "GB"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "Maximilian C. D. Bock",
+          "raw_affiliation_strings": [
+            "University of Cambridge"
+          ],
+          "raw_orcid": null,
+          "affiliations": [
+            {
+              "raw_affiliation_string": "University of Cambridge",
+              "institution_ids": [
+                "https://openalex.org/I241749"
+              ]
+            }
+          ]
+        },
+        {
+          "author_position": "middle",
+          "author": {
+            "id": "https://openalex.org/A5084088819",
+            "display_name": "Felix Boeck",
+            "orcid": null,
+            "observed_orcids": []
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I141945490",
+              "display_name": "University of British Columbia",
+              "ror": "https://ror.org/03rmrcq20",
+              "country_code": "CA",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I141945490"
+              ]
+            }
+          ],
+          "countries": [
+            "CA"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "Felix Boeck",
+          "raw_affiliation_strings": [
+            "University of British Columbia"
+          ],
+          "raw_orcid": null,
+          "affiliations": [
+            {
+              "raw_affiliation_string": "University of British Columbia",
+              "institution_ids": [
+                "https://openalex.org/I141945490"
+              ]
+            }
+          ]
+        },
+        {
+          "author_position": "middle",
+          "author": {
+            "id": "https://openalex.org/A5046009660",
+            "display_name": "Oliver B. Frith",
+            "orcid": null,
+            "observed_orcids": []
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I241749",
+              "display_name": "University of Cambridge",
+              "ror": "https://ror.org/013meh722",
+              "country_code": "GB",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I241749"
+              ]
+            }
+          ],
+          "countries": [
+            "GB"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "Oliver Frith",
+          "raw_affiliation_strings": [
+            "Cambridge Architectural Research"
+          ],
+          "raw_orcid": null,
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Cambridge Architectural Research",
+              "institution_ids": [
+                "https://openalex.org/I241749"
+              ]
+            }
+          ]
+        },
+        {
+          "author_position": "middle",
+          "author": {
+            "id": "https://openalex.org/A5086334725",
+            "display_name": "Ana Gatóo",
+            "orcid": "https://orcid.org/0000-0001-6700-2156",
+            "observed_orcids": [
+              "https://orcid.org/0000-0001-6700-2156"
+            ]
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I241749",
+              "display_name": "University of Cambridge",
+              "ror": "https://ror.org/013meh722",
+              "country_code": "GB",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I241749"
+              ]
+            }
+          ],
+          "countries": [
+            "GB"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "Ana Gatóo",
+          "raw_affiliation_strings": [
+            "University of Cambridge"
+          ],
+          "raw_orcid": null,
+          "affiliations": [
+            {
+              "raw_affiliation_string": "University of Cambridge",
+              "institution_ids": [
+                "https://openalex.org/I241749"
+              ]
+            }
+          ]
+        },
+        {
+          "author_position": "middle",
+          "author": {
+            "id": "https://openalex.org/A5100727416",
+            "display_name": "Kewei Liu",
+            "orcid": "https://orcid.org/0000-0003-3035-3053",
+            "observed_orcids": [
+              "https://orcid.org/0000-0003-3035-3053"
+            ]
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I1336964347",
+              "display_name": "International Bamboo and Rattan Organization",
+              "ror": "https://ror.org/02h5sfg65",
+              "country_code": "CN",
+              "type": "government",
+              "lineage": [
+                "https://openalex.org/I1336964347"
+              ]
+            },
+            {
+              "id": "https://openalex.org/I4405260908",
+              "display_name": "International Center for Bamboo and Rattan",
+              "ror": "https://ror.org/04fa47g91",
+              "country_code": "CN",
+              "type": "facility",
+              "lineage": [
+                "https://openalex.org/I4405260908"
+              ]
+            }
+          ],
+          "countries": [
+            "CN"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "Kewei Liu",
+          "raw_affiliation_strings": [
+            "International Centre for Bamboo and Rattan"
+          ],
+          "raw_orcid": null,
+          "affiliations": [
+            {
+              "raw_affiliation_string": "International Centre for Bamboo and Rattan",
+              "institution_ids": [
+                "https://openalex.org/I1336964347",
+                "https://openalex.org/I4405260908"
+              ]
+            }
+          ]
+        },
+        {
+          "author_position": "middle",
+          "author": {
+            "id": "https://openalex.org/A5041178777",
+            "display_name": "Helen Mulligan",
+            "orcid": null,
+            "observed_orcids": []
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I241749",
+              "display_name": "University of Cambridge",
+              "ror": "https://ror.org/013meh722",
+              "country_code": "GB",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I241749"
+              ]
+            }
+          ],
+          "countries": [
+            "GB"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "Helen Mulligan",
+          "raw_affiliation_strings": [
+            "Cambridge Architectural Research"
+          ],
+          "raw_orcid": null,
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Cambridge Architectural Research",
+              "institution_ids": [
+                "https://openalex.org/I241749"
+              ]
+            }
+          ]
+        },
+        {
+          "author_position": "middle",
+          "author": {
+            "id": "https://openalex.org/A5073293481",
+            "display_name": "Kate Elizabeth Semple",
+            "orcid": "https://orcid.org/0000-0001-8265-8364",
+            "observed_orcids": [
+              "https://orcid.org/0000-0001-8265-8364"
+            ]
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I141945490",
+              "display_name": "University of British Columbia",
+              "ror": "https://ror.org/03rmrcq20",
+              "country_code": "CA",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I141945490"
+              ]
+            }
+          ],
+          "countries": [
+            "CA"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "Kate E. Semple",
+          "raw_affiliation_strings": [
+            "University of British Columbia"
+          ],
+          "raw_orcid": null,
+          "affiliations": [
+            {
+              "raw_affiliation_string": "University of British Columbia",
+              "institution_ids": [
+                "https://openalex.org/I141945490"
+              ]
+            }
+          ]
+        },
+        {
+          "author_position": "middle",
+          "author": {
+            "id": "https://openalex.org/A5067870675",
+            "display_name": "Bhavna Sharma",
+            "orcid": "https://orcid.org/0000-0003-0516-6125",
+            "observed_orcids": [
+              "https://orcid.org/0000-0003-0516-6125"
+            ]
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I241749",
+              "display_name": "University of Cambridge",
+              "ror": "https://ror.org/013meh722",
+              "country_code": "GB",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I241749"
+              ]
+            }
+          ],
+          "countries": [
+            "GB"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "Bhavna Sharma",
+          "raw_affiliation_strings": [
+            "University of Cambridge"
+          ],
+          "raw_orcid": null,
+          "affiliations": [
+            {
+              "raw_affiliation_string": "University of Cambridge",
+              "institution_ids": [
+                "https://openalex.org/I241749"
+              ]
+            }
+          ]
+        },
+        {
+          "author_position": "last",
+          "author": {
+            "id": "https://openalex.org/A5032082592",
+            "display_name": "Michael H. Ramage",
+            "orcid": "https://orcid.org/0000-0003-2967-7683",
+            "observed_orcids": [
+              "https://orcid.org/0000-0003-2967-7683"
+            ]
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I241749",
+              "display_name": "University of Cambridge",
+              "ror": "https://ror.org/013meh722",
+              "country_code": "GB",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I241749"
+              ]
+            }
+          ],
+          "countries": [
+            "GB"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "Michael Ramage",
+          "raw_affiliation_strings": [
+            "University of Cambridge"
+          ],
+          "raw_orcid": null,
+          "affiliations": [
+            {
+              "raw_affiliation_string": "University of Cambridge",
+              "institution_ids": [
+                "https://openalex.org/I241749"
+              ]
+            }
+          ]
+        }
+      ],
+      "institutions": [],
+      "countries_distinct_count": 3,
+      "institutions_distinct_count": 4,
+      "corresponding_author_ids": [],
+      "corresponding_institution_ids": [],
+      "apc_list": {
+        "value": 1452,
+        "currency": "USD",
+        "value_usd": 1452
+      },
+      "apc_paid": {
+        "value": 1452,
+        "currency": "USD",
+        "value_usd": 1452
+      },
+      "fwci": 3.8945,
+      "is_authors_truncated": false,
+      "has_fulltext": true,
+      "cited_by_count": 72,
+      "citation_normalized_percentile": {
+        "value": 0.92206147,
+        "is_in_top_1_percent": false,
+        "is_in_top_10_percent": true
+      },
+      "cited_by_percentile_year": {
+        "min": 88,
+        "max": 99
+      },
+      "biblio": {
+        "volume": "11",
+        "issue": "1",
+        "first_page": "1141",
+        "last_page": "1161"
+      },
+      "is_retracted": false,
+      "is_paratext": false,
+      "is_xpac": false,
+      "primary_topic": {
+        "id": "https://openalex.org/T12665",
+        "display_name": "Bamboo properties and applications",
+        "score": 1.0,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1110",
+          "display_name": "Plant Science"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/11",
+          "display_name": "Agricultural and Biological Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/1",
+          "display_name": "Life Sciences"
+        }
+      },
+      "topics": [
+        {
+          "id": "https://openalex.org/T12665",
+          "display_name": "Bamboo properties and applications",
+          "score": 1.0,
+          "subfield": {
+            "id": "https://openalex.org/subfields/1110",
+            "display_name": "Plant Science"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/11",
+            "display_name": "Agricultural and Biological Sciences"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/1",
+            "display_name": "Life Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T12881",
+          "display_name": "linguistics and terminology studies",
+          "score": 0.0,
+          "subfield": {
+            "id": "https://openalex.org/subfields/1203",
+            "display_name": "Language and Linguistics"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/12",
+            "display_name": "Arts and Humanities"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/2",
+            "display_name": "Social Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T10513",
+          "display_name": "Natural Fiber Reinforced Composites",
+          "score": 0.0,
+          "subfield": {
+            "id": "https://openalex.org/subfields/2507",
+            "display_name": "Polymers and Plastics"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/25",
+            "display_name": "Materials Science"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        }
+      ],
+      "keywords": [
+        {
+          "id": "https://openalex.org/keywords/engineered-bamboo",
+          "display_name": "engineered bamboo",
+          "score": 1.0
+        },
+        {
+          "id": "https://openalex.org/keywords/nomenclature",
+          "display_name": "nomenclature",
+          "score": 0.7960000038146973
+        },
+        {
+          "id": "https://openalex.org/keywords/terminology",
+          "display_name": "terminology",
+          "score": 0.7620000243186951
+        },
+        {
+          "id": "https://openalex.org/keywords/bamboo-building-materials",
+          "display_name": "bamboo building materials",
+          "score": 0.8420000076293945
+        },
+        {
+          "id": "https://openalex.org/keywords/product-standardization",
+          "display_name": "product standardization",
+          "score": 0.625
+        },
+        {
+          "id": "https://openalex.org/keywords/harmonized-system-codes",
+          "display_name": "Harmonized System codes",
+          "score": 0.765999972820282
+        },
+        {
+          "id": "https://openalex.org/keywords/bamboo-processing",
+          "display_name": "bamboo processing",
+          "score": 0.49300000071525574
+        },
+        {
+          "id": "https://openalex.org/keywords/bamboo-products",
+          "display_name": "bamboo products",
+          "score": 0.6000000238418579
+        }
+      ],
+      "concepts": [
+        {
+          "id": "https://openalex.org/C547195049",
+          "wikidata": "https://www.wikidata.org/wiki/Q1725664",
+          "display_name": "Terminology",
+          "level": 2,
+          "score": 0.8791069984436035
+        },
+        {
+          "id": "https://openalex.org/C2778704284",
+          "wikidata": "https://www.wikidata.org/wiki/Q670887",
+          "display_name": "Bamboo",
+          "level": 2,
+          "score": 0.8529565334320068
+        },
+        {
+          "id": "https://openalex.org/C188087704",
+          "wikidata": "https://www.wikidata.org/wiki/Q369577",
+          "display_name": "Standardization",
+          "level": 2,
+          "score": 0.7835135459899902
+        },
+        {
+          "id": "https://openalex.org/C514705636",
+          "wikidata": "https://www.wikidata.org/wiki/Q863247",
+          "display_name": "Nomenclature",
+          "level": 3,
+          "score": 0.6056127548217773
+        },
+        {
+          "id": "https://openalex.org/C2780522230",
+          "wikidata": "https://www.wikidata.org/wiki/Q1140419",
+          "display_name": "Ambiguity",
+          "level": 2,
+          "score": 0.5701464414596558
+        },
+        {
+          "id": "https://openalex.org/C41008148",
+          "wikidata": "https://www.wikidata.org/wiki/Q21198",
+          "display_name": "Computer science",
+          "level": 0,
+          "score": 0.5226097702980042
+        },
+        {
+          "id": "https://openalex.org/C90673727",
+          "wikidata": "https://www.wikidata.org/wiki/Q901718",
+          "display_name": "Product (mathematics)",
+          "level": 2,
+          "score": 0.5049863457679749
+        },
+        {
+          "id": "https://openalex.org/C177264268",
+          "wikidata": "https://www.wikidata.org/wiki/Q1514741",
+          "display_name": "Set (abstract data type)",
+          "level": 2,
+          "score": 0.5046759843826294
+        },
+        {
+          "id": "https://openalex.org/C2781316041",
+          "wikidata": "https://www.wikidata.org/wiki/Q1230584",
+          "display_name": "Diversity (politics)",
+          "level": 2,
+          "score": 0.47847673296928406
+        },
+        {
+          "id": "https://openalex.org/C107053488",
+          "wikidata": "https://www.wikidata.org/wiki/Q2674423",
+          "display_name": "Construction engineering",
+          "level": 1,
+          "score": 0.43188929557800293
+        },
+        {
+          "id": "https://openalex.org/C170154142",
+          "wikidata": "https://www.wikidata.org/wiki/Q150737",
+          "display_name": "Architectural engineering",
+          "level": 1,
+          "score": 0.4296179413795471
+        },
+        {
+          "id": "https://openalex.org/C112930515",
+          "wikidata": "https://www.wikidata.org/wiki/Q4389547",
+          "display_name": "Risk analysis (engineering)",
+          "level": 1,
+          "score": 0.3344901204109192
+        },
+        {
+          "id": "https://openalex.org/C127413603",
+          "wikidata": "https://www.wikidata.org/wiki/Q11023",
+          "display_name": "Engineering",
+          "level": 0,
+          "score": 0.3042592406272888
+        },
+        {
+          "id": "https://openalex.org/C144133560",
+          "wikidata": "https://www.wikidata.org/wiki/Q4830453",
+          "display_name": "Business",
+          "level": 0,
+          "score": 0.25294265151023865
+        },
+        {
+          "id": "https://openalex.org/C17744445",
+          "wikidata": "https://www.wikidata.org/wiki/Q36442",
+          "display_name": "Political science",
+          "level": 0,
+          "score": 0.1196429431438446
+        },
+        {
+          "id": "https://openalex.org/C33923547",
+          "wikidata": "https://www.wikidata.org/wiki/Q395",
+          "display_name": "Mathematics",
+          "level": 0,
+          "score": 0.09863397479057312
+        },
+        {
+          "id": "https://openalex.org/C86803240",
+          "wikidata": "https://www.wikidata.org/wiki/Q420",
+          "display_name": "Biology",
+          "level": 0,
+          "score": 0.09508535265922546
+        },
+        {
+          "id": "https://openalex.org/C58642233",
+          "wikidata": "https://www.wikidata.org/wiki/Q8269924",
+          "display_name": "Taxonomy (biology)",
+          "level": 2,
+          "score": 0.09115096926689148
+        },
+        {
+          "id": "https://openalex.org/C18903297",
+          "wikidata": "https://www.wikidata.org/wiki/Q7150",
+          "display_name": "Ecology",
+          "level": 1,
+          "score": 0.08602014183998108
+        },
+        {
+          "id": "https://openalex.org/C41895202",
+          "wikidata": "https://www.wikidata.org/wiki/Q8162",
+          "display_name": "Linguistics",
+          "level": 1,
+          "score": 0.0804767906665802
+        },
+        {
+          "id": "https://openalex.org/C199539241",
+          "wikidata": "https://www.wikidata.org/wiki/Q7748",
+          "display_name": "Law",
+          "level": 1,
+          "score": 0.0
+        },
+        {
+          "id": "https://openalex.org/C111919701",
+          "wikidata": "https://www.wikidata.org/wiki/Q9135",
+          "display_name": "Operating system",
+          "level": 1,
+          "score": 0.0
+        },
+        {
+          "id": "https://openalex.org/C2524010",
+          "wikidata": "https://www.wikidata.org/wiki/Q8087",
+          "display_name": "Geometry",
+          "level": 1,
+          "score": 0.0
+        },
+        {
+          "id": "https://openalex.org/C199360897",
+          "wikidata": "https://www.wikidata.org/wiki/Q9143",
+          "display_name": "Programming language",
+          "level": 1,
+          "score": 0.0
+        },
+        {
+          "id": "https://openalex.org/C138885662",
+          "wikidata": "https://www.wikidata.org/wiki/Q5891",
+          "display_name": "Philosophy",
+          "level": 0,
+          "score": 0.0
+        }
+      ],
+      "mesh": [],
+      "locations_count": 5,
+      "locations": [
+        {
+          "id": "doi:10.15376/biores.11.1.1141-1161",
+          "doi": "https://doi.org/10.15376/biores.11.1.1141-1161",
+          "is_oa": true,
+          "landing_page_url": "https://doi.org/10.15376/biores.11.1.1141-1161",
+          "pdf_url": null,
+          "source": {
+            "id": "https://openalex.org/S74630304",
+            "display_name": "BioResources",
+            "issn_l": "1930-2126",
+            "issn": [
+              "1930-2126"
+            ],
+            "is_oa": true,
+            "is_in_doaj": true,
+            "is_core": true,
+            "listed_in": [
+              "cwts-core",
+              "doaj",
+              "dongbi-d",
+              "jufo-1",
+              "norway-1",
+              "poland-100",
+              "russia-white-list-1"
+            ],
+            "host_organization": "https://openalex.org/P4310315895",
+            "host_organization_name": "North Carolina State University",
+            "host_organization_lineage": [
+              "https://openalex.org/P4310315895"
+            ],
+            "host_organization_lineage_names": [
+              "North Carolina State University"
+            ],
+            "type": "journal"
+          },
+          "license": null,
+          "license_id": null,
+          "version": "publishedVersion",
+          "is_accepted": true,
+          "is_published": true,
+          "raw_source_name": "BioResources",
+          "raw_type": "journal-article"
+        },
+        {
+          "id": "pmh:oai:www.repository.cam.ac.uk:1810/292680",
+          "doi": null,
+          "is_oa": true,
+          "landing_page_url": "https://www.repository.cam.ac.uk/handle/1810/292680",
+          "pdf_url": "https://www.repository.cam.ac.uk/bitstreams/7ed6bbb8-ad74-4985-a81d-f39f05f16142/download",
+          "source": {
+            "id": "https://openalex.org/S4306401777",
+            "display_name": "Apollo (University of Cambridge)",
+            "issn_l": null,
+            "issn": null,
+            "is_oa": false,
+            "is_in_doaj": false,
+            "is_core": false,
+            "listed_in": [],
+            "host_organization": "https://openalex.org/I241749",
+            "host_organization_name": "University of Cambridge",
+            "host_organization_lineage": [
+              "https://openalex.org/I241749"
+            ],
+            "host_organization_lineage_names": [],
+            "type": "repository"
+          },
+          "license": null,
+          "license_id": null,
+          "version": "submittedVersion",
+          "is_accepted": false,
+          "is_published": false,
+          "raw_source_name": null,
+          "raw_type": "Article"
+        },
+        {
+          "id": "pmh:oai:doaj.org/article:425b825e370f47f982772acab7c61b4c",
+          "doi": null,
+          "is_oa": false,
+          "landing_page_url": "https://doaj.org/article/425b825e370f47f982772acab7c61b4c",
+          "pdf_url": null,
+          "source": {
+            "id": "https://openalex.org/S4306401280",
+            "display_name": "DOAJ (DOAJ: Directory of Open Access Journals)",
+            "issn_l": null,
+            "issn": null,
+            "is_oa": false,
+            "is_in_doaj": false,
+            "is_core": false,
+            "listed_in": [],
+            "host_organization": null,
+            "host_organization_name": null,
+            "host_organization_lineage": [],
+            "host_organization_lineage_names": [],
+            "type": "repository"
+          },
+          "license": null,
+          "license_id": null,
+          "version": "submittedVersion",
+          "is_accepted": false,
+          "is_published": false,
+          "raw_source_name": "BioResources, Vol 11, Iss 1, Pp 1141-1161 (2015)",
+          "raw_type": "article"
+        },
+        {
+          "id": "pmh:oai:generic.eprints.org:731326",
+          "doi": null,
+          "is_oa": false,
+          "landing_page_url": "http://publications.eng.cam.ac.uk/731326/",
+          "pdf_url": null,
+          "source": {
+            "id": "https://openalex.org/S4406922847",
+            "display_name": "Cambridge University Engineering Department Publications Database",
+            "issn_l": null,
+            "issn": null,
+            "is_oa": false,
+            "is_in_doaj": false,
+            "is_core": false,
+            "listed_in": [],
+            "host_organization": null,
+            "host_organization_name": null,
+            "host_organization_lineage": [],
+            "host_organization_lineage_names": [],
+            "type": "repository"
+          },
+          "license": null,
+          "license_id": null,
+          "version": "submittedVersion",
+          "is_accepted": false,
+          "is_published": false,
+          "raw_source_name": "",
+          "raw_type": "Article"
+        },
+        {
+          "id": "doi:10.17863/cam.39833",
+          "doi": "https://doi.org/10.17863/cam.39833",
+          "is_oa": true,
+          "landing_page_url": "https://doi.org/10.17863/cam.39833",
+          "pdf_url": null,
+          "source": {
+            "id": "https://openalex.org/S7407050737",
+            "display_name": "Apollo",
+            "issn_l": null,
+            "issn": null,
+            "is_oa": false,
+            "is_in_doaj": false,
+            "is_core": false,
+            "listed_in": [],
+            "host_organization": null,
+            "host_organization_name": null,
+            "host_organization_lineage": [],
+            "host_organization_lineage_names": [],
+            "type": "repository"
+          },
+          "license": null,
+          "license_id": null,
+          "version": null,
+          "is_accepted": false,
+          "is_published": false,
+          "raw_source_name": null,
+          "raw_type": "JournalArticle"
+        }
+      ],
+      "best_oa_location": {
+        "id": "doi:10.15376/biores.11.1.1141-1161",
+        "doi": "https://doi.org/10.15376/biores.11.1.1141-1161",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.15376/biores.11.1.1141-1161",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S74630304",
+          "display_name": "BioResources",
+          "issn_l": "1930-2126",
+          "issn": [
+            "1930-2126"
+          ],
+          "is_oa": true,
+          "is_in_doaj": true,
+          "is_core": true,
+          "listed_in": [
+            "cwts-core",
+            "doaj",
+            "dongbi-d",
+            "jufo-1",
+            "norway-1",
+            "poland-100",
+            "russia-white-list-1"
+          ],
+          "host_organization": "https://openalex.org/P4310315895",
+          "host_organization_name": "North Carolina State University",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310315895"
+          ],
+          "host_organization_lineage_names": [
+            "North Carolina State University"
+          ],
+          "type": "journal"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "BioResources",
+        "raw_type": "journal-article"
+      },
+      "sustainable_development_goals": [],
+      "study_designs": [],
+      "awards": [
+        {
+          "id": "https://openalex.org/G7995580478",
+          "display_name": "G8-2012 Structural Bamboo Products",
+          "funder_award_id": "EP/K023403/1",
+          "funder_id": "https://openalex.org/F4320334627",
+          "funder_display_name": "Engineering and Physical Sciences Research Council"
+        }
+      ],
+      "funders": [
+        {
+          "id": "https://openalex.org/F4320309369",
+          "display_name": "Massachusetts Institute of Technology",
+          "ror": "https://ror.org/042nb2s44"
+        },
+        {
+          "id": "https://openalex.org/F4320320273",
+          "display_name": "University of Cambridge",
+          "ror": "https://ror.org/013meh722"
+        },
+        {
+          "id": "https://openalex.org/F4320334593",
+          "display_name": "Natural Sciences and Engineering Research Council of Canada",
+          "ror": "https://ror.org/01h531d29"
+        },
+        {
+          "id": "https://openalex.org/F4320334627",
+          "display_name": "Engineering and Physical Sciences Research Council",
+          "ror": "https://ror.org/0439y7842"
+        },
+        {
+          "id": "https://openalex.org/F4320336416",
+          "display_name": "International Centre for Bamboo and Rattan",
+          "ror": "https://ror.org/02h5sfg65"
+        }
+      ],
+      "has_content": {
+        "pdf": true,
+        "grobid_xml": true
+      },
+      "content_urls": {
+        "pdf": "https://content.openalex.org/works/W2194011519.pdf",
+        "grobid_xml": "https://content.openalex.org/works/W2194011519.grobid-xml"
+      },
+      "referenced_works_count": 12,
+      "referenced_works": [
+        "https://openalex.org/W1968414512",
+        "https://openalex.org/W1969640051",
+        "https://openalex.org/W1970092892",
+        "https://openalex.org/W1974412409",
+        "https://openalex.org/W1979055076",
+        "https://openalex.org/W1993568034",
+        "https://openalex.org/W2035364867",
+        "https://openalex.org/W2042062939",
+        "https://openalex.org/W2060084406",
+        "https://openalex.org/W2102349460",
+        "https://openalex.org/W2317087904",
+        "https://openalex.org/W2489243364"
+      ],
+      "related_works": [
+        "https://openalex.org/W2392630653",
+        "https://openalex.org/W1968414512",
+        "https://openalex.org/W2072053221",
+        "https://openalex.org/W3209501561",
+        "https://openalex.org/W2103486627",
+        "https://openalex.org/W4411903459",
+        "https://openalex.org/W2374853871",
+        "https://openalex.org/W4415881260",
+        "https://openalex.org/W2009494289"
+      ],
+      "abstract_inverted_index": {
+        "In": [
+          0,
+          91
+        ],
+        "recent": [
+          1
+        ],
+        "years,": [
+          2
+        ],
+        "there": [
+          3
+        ],
+        "has": [
+          4
+        ],
+        "been": [
+          5
+        ],
+        "a": [
+          6,
+          56,
+          104,
+          127
+        ],
+        "rapid": [
+          7
+        ],
+        "rise": [
+          8
+        ],
+        "in": [
+          9,
+          132,
+          153
+        ],
+        "the": [
+          10,
+          18,
+          32,
+          40,
+          42,
+          66,
+          169,
+          188
+        ],
+        "development": [
+          11
+        ],
+        "of": [
+          12,
+          35,
+          45,
+          58,
+          65,
+          129,
+          161,
+          172,
+          187
+        ],
+        "engineered": [
+          13,
+          142,
+          162
+        ],
+        "bamboo": [
+          14,
+          36,
+          47,
+          82,
+          143,
+          163
+        ],
+        "materials,": [
+          15
+        ],
+        "which": [
+          16,
+          102
+        ],
+        "have": [
+          17
+        ],
+        "potential": [
+          19
+        ],
+        "to": [
+          20,
+          27,
+          79,
+          106,
+          121
+        ],
+        "play": [
+          21
+        ],
+        "an": [
+          22
+        ],
+        "important": [
+          23
+        ],
+        "role": [
+          24
+        ],
+        "as": [
+          25,
+          63
+        ],
+        "alternatives": [
+          26
+        ],
+        "conventional": [
+          28
+        ],
+        "building": [
+          29,
+          164
+        ],
+        "materials.": [
+          30
+        ],
+        "Despite": [
+          31
+        ],
+        "growing": [
+          33
+        ],
+        "diversity": [
+          34
+        ],
+        "products": [
+          37,
+          48,
+          86,
+          144
+        ],
+        "available": [
+          38
+        ],
+        "on": [
+          39,
+          69
+        ],
+        "market,": [
+          41
+        ],
+        "international": [
+          43
+        ],
+        "standardization": [
+          44
+        ],
+        "both": [
+          46
+        ],
+        "and": [
+          49,
+          55,
+          89,
+          99,
+          109,
+          113,
+          137,
+          145,
+          155,
+          180,
+          194
+        ],
+        "their": [
+          50,
+          146
+        ],
+        "constituent": [
+          51,
+          147
+        ],
+        "elements": [
+          52
+        ],
+        "is": [
+          53,
+          61,
+          76
+        ],
+        "limited,": [
+          54
+        ],
+        "lack": [
+          57
+        ],
+        "universal": [
+          59
+        ],
+        "nomenclature": [
+          60
+        ],
+        "recognized": [
+          62
+        ],
+        "one": [
+          64
+        ],
+        "main": [
+          67,
+          189
+        ],
+        "constraints": [
+          68
+        ],
+        "developing": [
+          70
+        ],
+        "standards.": [
+          71
+        ],
+        "Similar": [
+          72
+        ],
+        "or": [
+          73,
+          85
+        ],
+        "identical": [
+          74
+        ],
+        "terminology": [
+          75,
+          182
+        ],
+        "used": [
+          77
+        ],
+        "interchangeably": [
+          78
+        ],
+        "describe": [
+          80,
+          136
+        ],
+        "different": [
+          81
+        ],
+        "elements,": [
+          83,
+          148,
+          191
+        ],
+        "processes,": [
+          84
+        ],
+        "across": [
+          87
+        ],
+        "sectors": [
+          88
+        ],
+        "continents.": [
+          90
+        ],
+        "some": [
+          92
+        ],
+        "cases,": [
+          93
+        ],
+        "translated": [
+          94
+        ],
+        "colloquial": [
+          95
+        ],
+        "names": [
+          96
+        ],
+        "are": [
+          97,
+          166
+        ],
+        "misleading": [
+          98
+        ],
+        "scientifically": [
+          100
+        ],
+        "inaccurate,": [
+          101
+        ],
+        "forms": [
+          103
+        ],
+        "barrier": [
+          105
+        ],
+        "global": [
+          107
+        ],
+        "collaboration": [
+          108
+        ],
+        "research,": [
+          110
+        ],
+        "creates": [
+          111
+        ],
+        "ambiguity,": [
+          112
+        ],
+        "potentially": [
+          114
+        ],
+        "limits": [
+          115
+        ],
+        "trade.": [
+          116
+        ],
+        "The": [
+          117
+        ],
+        "present": [
+          118
+        ],
+        "work": [
+          119
+        ],
+        "aims": [
+          120
+        ],
+        "address": [
+          122
+        ],
+        "this": [
+          123
+        ],
+        "gap": [
+          124
+        ],
+        "by": [
+          125,
+          150
+        ],
+        "proposing": [
+          126
+        ],
+        "set": [
+          128
+        ],
+        "appropriate": [
+          130
+        ],
+        "terms": [
+          131,
+          152
+        ],
+        "English": [
+          133
+        ],
+        "that": [
+          134
+        ],
+        "accurately": [
+          135
+        ],
+        "differentiate": [
+          138
+        ],
+        "between": [
+          139
+        ],
+        "currently": [
+          140
+        ],
+        "produced": [
+          141
+        ],
+        "accompanied": [
+          149
+        ],
+        "parallel": [
+          151
+        ],
+        "Chinese": [
+          154
+        ],
+        "Spanish.": [
+          156
+        ],
+        "From": [
+          157
+        ],
+        "these,": [
+          158
+        ],
+        "new": [
+          159
+        ],
+        "categories": [
+          160
+        ],
+        "materials": [
+          165
+        ],
+        "proposed": [
+          167
+        ],
+        "for": [
+          168
+        ],
+        "Harmonized": [
+          170
+        ],
+        "System": [
+          171
+        ],
+        "product": [
+          173
+        ],
+        "codes.": [
+          174
+        ],
+        "This": [
+          175
+        ],
+        "paper": [
+          176
+        ],
+        "highlights": [
+          177
+        ],
+        "current": [
+          178
+        ],
+        "ambiguities": [
+          179
+        ],
+        "provides": [
+          181
+        ],
+        "together": [
+          183
+        ],
+        "with": [
+          184
+        ],
+        "clear": [
+          185
+        ],
+        "definitions": [
+          186
+        ],
+        "primary": [
+          190
+        ],
+        "processing": [
+          192
+        ],
+        "steps,": [
+          193
+        ],
+        "products.": [
+          195
+        ]
+      },
+      "counts_by_year": [
+        {
+          "year": 2026,
+          "cited_by_count": 5
+        },
+        {
+          "year": 2025,
+          "cited_by_count": 10
+        },
+        {
+          "year": 2024,
+          "cited_by_count": 5
+        },
+        {
+          "year": 2023,
+          "cited_by_count": 12
+        },
+        {
+          "year": 2022,
+          "cited_by_count": 5
+        },
+        {
+          "year": 2021,
+          "cited_by_count": 9
+        },
+        {
+          "year": 2020,
+          "cited_by_count": 10
+        },
+        {
+          "year": 2019,
+          "cited_by_count": 5
+        },
+        {
+          "year": 2018,
+          "cited_by_count": 8
+        },
+        {
+          "year": 2017,
+          "cited_by_count": 1
+        },
+        {
+          "year": 2016,
+          "cited_by_count": 1
+        },
+        {
+          "year": 2015,
+          "cited_by_count": 1
+        }
+      ],
+      "updated_date": "2026-11-14T11:04:58.165337",
+      "created_date": "2016-06-24T00:00:00"
+    }
+  ],
+  "group_by": []
+}

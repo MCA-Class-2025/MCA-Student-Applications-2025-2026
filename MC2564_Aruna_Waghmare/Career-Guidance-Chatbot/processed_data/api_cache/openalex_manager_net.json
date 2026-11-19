@@ -1,0 +1,1973 @@
+{
+  "meta": {
+    "notice": "No API key, so this request shares one free daily budget ($0.10) with everyone on your network's IP address. Get a free key with its own $1/day at https://openalex.org/settings/api and add api_key=YOUR_KEY to your requests. An AI agent can get one for its user in one call: POST https://api.openalex.org/api-keys with {\"email\": \"<your user's email>\"}; we email them a link, and the key works once they click it. Docs for agents: https://help.openalex.org/llms.txt",
+    "count": 687672,
+    "db_response_time_ms": 292,
+    "page": 1,
+    "per_page": 5,
+    "groups_count": null,
+    "x_query": {
+      "oql": "get works with (MANAGER NET) in the title, abstract, or full text",
+      "x_new_oql": "get works with (MANAGER NET) in the title, abstract, or full text",
+      "oqo": {
+        "get_rows": "works",
+        "filter_rows": [
+          {
+            "column_id": "fulltext.search",
+            "value": "MANAGER NET",
+            "operator": "has"
+          }
+        ]
+      },
+      "url": "/works?filter=fulltext.search:MANAGER NET&per_page=5",
+      "order": "best matches first",
+      "order_default": true
+    },
+    "cost_usd": 0.001
+  },
+  "results": [
+    {
+      "id": "https://openalex.org/W2420663348",
+      "doi": null,
+      "title": "Top managers net 7% salary hikes.",
+      "display_name": "Top managers net 7% salary hikes.",
+      "relevance_score": 107.07184,
+      "publication_year": 1992,
+      "publication_date": "1992-10-12",
+      "ids": {
+        "openalex": "https://openalex.org/W2420663348",
+        "mag": "2420663348",
+        "pmid": "https://pubmed.ncbi.nlm.nih.gov/10121627"
+      },
+      "language": "en",
+      "primary_location": {
+        "id": "pmid:10121627",
+        "doi": null,
+        "is_oa": false,
+        "landing_page_url": "https://pubmed.ncbi.nlm.nih.gov/10121627",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4306525036",
+          "display_name": "PubMed",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "listed_in": [],
+          "host_organization": "https://openalex.org/I1299303238",
+          "host_organization_name": "National Institutes of Health",
+          "host_organization_lineage": [
+            "https://openalex.org/I1299303238"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Modern healthcare",
+        "raw_type": "News"
+      },
+      "parent_works": [],
+      "lineage": [
+        "https://openalex.org/W2420663348"
+      ],
+      "child_works_count": 0,
+      "type": "other",
+      "is_traditional": false,
+      "indexed_in": [
+        "pubmed"
+      ],
+      "open_access": {
+        "is_oa": false,
+        "oa_status": "closed",
+        "oa_url": null,
+        "any_repository_has_fulltext": false
+      },
+      "authorships": [
+        {
+          "author_position": "first",
+          "author": {
+            "id": null,
+            "display_name": "M Wagner",
+            "orcid": null,
+            "observed_orcids": []
+          },
+          "institutions": [],
+          "countries": [],
+          "is_corresponding": true,
+          "raw_author_name": "M Wagner",
+          "raw_affiliation_strings": [],
+          "raw_orcid": null,
+          "affiliations": []
+        }
+      ],
+      "institutions": [],
+      "countries_distinct_count": 0,
+      "institutions_distinct_count": 0,
+      "corresponding_author_ids": [],
+      "corresponding_institution_ids": [],
+      "apc_list": null,
+      "apc_paid": null,
+      "fwci": null,
+      "is_authors_truncated": false,
+      "has_fulltext": false,
+      "cited_by_count": 0,
+      "citation_normalized_percentile": null,
+      "cited_by_percentile_year": null,
+      "biblio": {
+        "volume": "22",
+        "issue": "41",
+        "first_page": "20",
+        "last_page": "20"
+      },
+      "is_retracted": false,
+      "is_paratext": false,
+      "is_xpac": false,
+      "primary_topic": {
+        "id": "https://openalex.org/T10208",
+        "display_name": "Labor market dynamics and wage inequality",
+        "score": 0.34130001068115234,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2002",
+          "display_name": "Economics and Econometrics"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/20",
+          "display_name": "Economics, Econometrics and Finance"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      "topics": [
+        {
+          "id": "https://openalex.org/T10208",
+          "display_name": "Labor market dynamics and wage inequality",
+          "score": 0.34130001068115234,
+          "subfield": {
+            "id": "https://openalex.org/subfields/2002",
+            "display_name": "Economics and Econometrics"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/20",
+            "display_name": "Economics, Econometrics and Finance"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/2",
+            "display_name": "Social Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T13896",
+          "display_name": "Health Services Management and Policy",
+          "score": 0.20909999310970306,
+          "subfield": {
+            "id": "https://openalex.org/subfields/3600",
+            "display_name": "General Health Professions"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/36",
+            "display_name": "Health Professions"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/4",
+            "display_name": "Health Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T12847",
+          "display_name": "Healthcare Systems and Challenges",
+          "score": 0.1793999969959259,
+          "subfield": {
+            "id": "https://openalex.org/subfields/3600",
+            "display_name": "General Health Professions"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/36",
+            "display_name": "Health Professions"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/4",
+            "display_name": "Health Sciences"
+          }
+        }
+      ],
+      "keywords": [
+        {
+          "id": "https://openalex.org/keywords/executive-compensation",
+          "display_name": "executive compensation",
+          "score": 0.8690000176429749
+        },
+        {
+          "id": "https://openalex.org/keywords/wage-increases",
+          "display_name": "wage growth",
+          "score": 0.7580000162124634
+        },
+        {
+          "id": "https://openalex.org/keywords/top-managers",
+          "display_name": "top managers",
+          "score": 0.8379999995231628
+        }
+      ],
+      "concepts": [
+        {
+          "id": "https://openalex.org/C2780090960",
+          "wikidata": "https://www.wikidata.org/wiki/Q194489",
+          "display_name": "Salary",
+          "level": 2,
+          "score": 0.8876601457595825
+        },
+        {
+          "id": "https://openalex.org/C144133560",
+          "wikidata": "https://www.wikidata.org/wiki/Q4830453",
+          "display_name": "Business",
+          "level": 0,
+          "score": 0.6240662336349487
+        },
+        {
+          "id": "https://openalex.org/C14166107",
+          "wikidata": "https://www.wikidata.org/wiki/Q253829",
+          "display_name": "Net (polyhedron)",
+          "level": 2,
+          "score": 0.49126309156417847
+        },
+        {
+          "id": "https://openalex.org/C162324750",
+          "wikidata": "https://www.wikidata.org/wiki/Q8134",
+          "display_name": "Economics",
+          "level": 0,
+          "score": 0.22547242045402527
+        },
+        {
+          "id": "https://openalex.org/C33923547",
+          "wikidata": "https://www.wikidata.org/wiki/Q395",
+          "display_name": "Mathematics",
+          "level": 0,
+          "score": 0.13429322838783264
+        },
+        {
+          "id": "https://openalex.org/C34447519",
+          "wikidata": "https://www.wikidata.org/wiki/Q179522",
+          "display_name": "Market economy",
+          "level": 1,
+          "score": 0.0
+        },
+        {
+          "id": "https://openalex.org/C2524010",
+          "wikidata": "https://www.wikidata.org/wiki/Q8087",
+          "display_name": "Geometry",
+          "level": 1,
+          "score": 0.0
+        }
+      ],
+      "mesh": [
+        {
+          "descriptor_ui": "D003625",
+          "descriptor_name": "Data Collection",
+          "qualifier_ui": null,
+          "qualifier_name": null,
+          "is_major_topic": false
+        },
+        {
+          "descriptor_ui": "D005260",
+          "descriptor_name": "Female",
+          "qualifier_ui": null,
+          "qualifier_name": null,
+          "is_major_topic": false
+        },
+        {
+          "descriptor_ui": "D006740",
+          "descriptor_name": "Hospital Administrators",
+          "qualifier_ui": "Q000191",
+          "qualifier_name": "economics",
+          "is_major_topic": true
+        },
+        {
+          "descriptor_ui": "D006801",
+          "descriptor_name": "Humans",
+          "qualifier_ui": null,
+          "qualifier_name": null,
+          "is_major_topic": false
+        },
+        {
+          "descriptor_ui": "D008297",
+          "descriptor_name": "Male",
+          "qualifier_ui": null,
+          "qualifier_name": null,
+          "is_major_topic": false
+        },
+        {
+          "descriptor_ui": "D012456",
+          "descriptor_name": "Salaries and Fringe Benefits",
+          "qualifier_ui": "Q000706",
+          "qualifier_name": "statistics & numerical data",
+          "is_major_topic": true
+        },
+        {
+          "descriptor_ui": "D014481",
+          "descriptor_name": "United States",
+          "qualifier_ui": null,
+          "qualifier_name": null,
+          "is_major_topic": false
+        },
+        {
+          "descriptor_ui": "D016507",
+          "descriptor_name": "Cardiology Service, Hospital",
+          "qualifier_ui": "Q000458",
+          "qualifier_name": "organization & administration",
+          "is_major_topic": true
+        }
+      ],
+      "locations_count": 2,
+      "locations": [
+        {
+          "id": "pmid:10121627",
+          "doi": null,
+          "is_oa": false,
+          "landing_page_url": "https://pubmed.ncbi.nlm.nih.gov/10121627",
+          "pdf_url": null,
+          "source": {
+            "id": "https://openalex.org/S4306525036",
+            "display_name": "PubMed",
+            "issn_l": null,
+            "issn": null,
+            "is_oa": false,
+            "is_in_doaj": false,
+            "is_core": false,
+            "listed_in": [],
+            "host_organization": "https://openalex.org/I1299303238",
+            "host_organization_name": "National Institutes of Health",
+            "host_organization_lineage": [
+              "https://openalex.org/I1299303238"
+            ],
+            "host_organization_lineage_names": [],
+            "type": "repository"
+          },
+          "license": null,
+          "license_id": null,
+          "version": "publishedVersion",
+          "is_accepted": true,
+          "is_published": true,
+          "raw_source_name": "Modern healthcare",
+          "raw_type": "News"
+        },
+        {
+          "id": "mag:2420663348",
+          "doi": null,
+          "is_oa": false,
+          "landing_page_url": "https://pubmed.ncbi.nlm.nih.gov/10121627",
+          "pdf_url": null,
+          "source": {
+            "id": "https://openalex.org/S4306525036",
+            "display_name": "PubMed",
+            "issn_l": null,
+            "issn": null,
+            "is_oa": false,
+            "is_in_doaj": false,
+            "is_core": false,
+            "listed_in": [],
+            "host_organization": "https://openalex.org/I1299303238",
+            "host_organization_name": "National Institutes of Health",
+            "host_organization_lineage": [
+              "https://openalex.org/I1299303238"
+            ],
+            "host_organization_lineage_names": [],
+            "type": "repository"
+          },
+          "license": null,
+          "license_id": null,
+          "version": "submittedVersion",
+          "is_accepted": false,
+          "is_published": false,
+          "raw_source_name": "PubMed",
+          "raw_type": null
+        }
+      ],
+      "best_oa_location": null,
+      "sustainable_development_goals": [],
+      "study_designs": [],
+      "awards": [],
+      "funders": [],
+      "has_content": {
+        "pdf": false,
+        "grobid_xml": false
+      },
+      "content_urls": null,
+      "referenced_works_count": 0,
+      "referenced_works": [],
+      "related_works": [
+        "https://openalex.org/W2441594771",
+        "https://openalex.org/W4300471680",
+        "https://openalex.org/W2429121375",
+        "https://openalex.org/W3003928175",
+        "https://openalex.org/W2501069652",
+        "https://openalex.org/W1522626974",
+        "https://openalex.org/W1804131923",
+        "https://openalex.org/W7006474825",
+        "https://openalex.org/W2019823060",
+        "https://openalex.org/W4233857671"
+      ],
+      "abstract_inverted_index": null,
+      "counts_by_year": [],
+      "updated_date": "2026-10-31T12:09:11.096373",
+      "created_date": "2016-06-24T00:00:00"
+    },
+    {
+      "id": "https://openalex.org/W4388513731",
+      "doi": "https://doi.org/10.59604/1046-2309.1100",
+      "title": "LOCAL GOVERNMENT MANAGERS NET REVENUE CRITERIA WHEN CONTEMPLATING A 'BUY AMERICAN' POLICY",
+      "display_name": "LOCAL GOVERNMENT MANAGERS NET REVENUE CRITERIA WHEN CONTEMPLATING A 'BUY AMERICAN' POLICY",
+      "relevance_score": 86.30956,
+      "publication_year": 2023,
+      "publication_date": "2023-11-07",
+      "ids": {
+        "openalex": "https://openalex.org/W4388513731",
+        "doi": "https://doi.org/10.59604/1046-2309.1100"
+      },
+      "language": "en",
+      "primary_location": {
+        "id": "doi:10.59604/1046-2309.1100",
+        "doi": "https://doi.org/10.59604/1046-2309.1100",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.59604/1046-2309.1100",
+        "pdf_url": "https://collected.jcu.edu/cgi/viewcontent.cgi?article=1100&context=jep",
+        "source": {
+          "id": "https://openalex.org/S4387289497",
+          "display_name": "The Journal of Economics and Politics",
+          "issn_l": "1046-2309",
+          "issn": [
+            "1046-2309"
+          ],
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "listed_in": [],
+          "host_organization": null,
+          "host_organization_name": null,
+          "host_organization_lineage": [],
+          "host_organization_lineage_names": [],
+          "type": "journal"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "The Journal of Economics and Politics",
+        "raw_type": "journal-article"
+      },
+      "parent_works": [],
+      "lineage": [
+        "https://openalex.org/W4388513731"
+      ],
+      "child_works_count": 0,
+      "type": "article",
+      "is_traditional": true,
+      "indexed_in": [
+        "crossref"
+      ],
+      "open_access": {
+        "is_oa": true,
+        "oa_status": "bronze",
+        "oa_url": "https://collected.jcu.edu/cgi/viewcontent.cgi?article=1100&context=jep",
+        "any_repository_has_fulltext": false
+      },
+      "authorships": [
+        {
+          "author_position": "first",
+          "author": {
+            "id": "https://openalex.org/A5071964933",
+            "display_name": "Henry G. Rennie",
+            "orcid": null,
+            "observed_orcids": []
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I85384741",
+              "display_name": "Heidelberg University",
+              "ror": "https://ror.org/04rcqnp59",
+              "country_code": "US",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I85384741"
+              ]
+            }
+          ],
+          "countries": [
+            "US"
+          ],
+          "is_corresponding": true,
+          "raw_author_name": "Henry G. Rennie",
+          "raw_affiliation_strings": [
+            "Heidelberg College"
+          ],
+          "raw_orcid": null,
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Heidelberg College",
+              "institution_ids": [
+                "https://openalex.org/I85384741"
+              ]
+            }
+          ]
+        }
+      ],
+      "institutions": [],
+      "countries_distinct_count": 1,
+      "institutions_distinct_count": 1,
+      "corresponding_author_ids": [
+        "https://openalex.org/A5071964933"
+      ],
+      "corresponding_institution_ids": [
+        "https://openalex.org/I85384741"
+      ],
+      "apc_list": null,
+      "apc_paid": null,
+      "fwci": 0.0,
+      "is_authors_truncated": false,
+      "has_fulltext": true,
+      "cited_by_count": 0,
+      "citation_normalized_percentile": {
+        "value": 0.0,
+        "is_in_top_1_percent": false,
+        "is_in_top_10_percent": false
+      },
+      "cited_by_percentile_year": null,
+      "biblio": {
+        "volume": "8",
+        "issue": "1",
+        "first_page": null,
+        "last_page": null
+      },
+      "is_retracted": false,
+      "is_paratext": false,
+      "is_xpac": false,
+      "primary_topic": {
+        "id": "https://openalex.org/T12779",
+        "display_name": "Public Procurement and Policy",
+        "score": 0.9320999979972839,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1408",
+          "display_name": "Strategy and Management"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/14",
+          "display_name": "Business, Management and Accounting"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      "topics": [
+        {
+          "id": "https://openalex.org/T12779",
+          "display_name": "Public Procurement and Policy",
+          "score": 0.9320999979972839,
+          "subfield": {
+            "id": "https://openalex.org/subfields/1408",
+            "display_name": "Strategy and Management"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/14",
+            "display_name": "Business, Management and Accounting"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/2",
+            "display_name": "Social Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T11461",
+          "display_name": "Local Government Finance and Decentralization",
+          "score": 0.03629999980330467,
+          "subfield": {
+            "id": "https://openalex.org/subfields/3320",
+            "display_name": "Political Science and International Relations"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/33",
+            "display_name": "Social Sciences"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/2",
+            "display_name": "Social Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T11182",
+          "display_name": "Auction Theory and Applications",
+          "score": 0.005900000222027302,
+          "subfield": {
+            "id": "https://openalex.org/subfields/1803",
+            "display_name": "Management Science and Operations Research"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/18",
+            "display_name": "Decision Sciences"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/2",
+            "display_name": "Social Sciences"
+          }
+        }
+      ],
+      "keywords": [
+        {
+          "id": "https://openalex.org/keywords/buy-american-policy",
+          "display_name": "Buy American policy",
+          "score": 0.8379999995231628
+        },
+        {
+          "id": "https://openalex.org/keywords/local-government-managers",
+          "display_name": "local government managers",
+          "score": 0.8939999938011169
+        },
+        {
+          "id": "https://openalex.org/keywords/municipal-procurement",
+          "display_name": "municipal procurement",
+          "score": 0.39899998903274536
+        }
+      ],
+      "concepts": [
+        {
+          "id": "https://openalex.org/C195487862",
+          "wikidata": "https://www.wikidata.org/wiki/Q850210",
+          "display_name": "Revenue",
+          "level": 2,
+          "score": 0.7183631062507629
+        },
+        {
+          "id": "https://openalex.org/C144133560",
+          "wikidata": "https://www.wikidata.org/wiki/Q4830453",
+          "display_name": "Business",
+          "level": 0,
+          "score": 0.6824342012405396
+        },
+        {
+          "id": "https://openalex.org/C2778137410",
+          "wikidata": "https://www.wikidata.org/wiki/Q2732820",
+          "display_name": "Government (linguistics)",
+          "level": 2,
+          "score": 0.5732797384262085
+        },
+        {
+          "id": "https://openalex.org/C193991484",
+          "wikidata": "https://www.wikidata.org/wiki/Q2509483",
+          "display_name": "Government revenue",
+          "level": 3,
+          "score": 0.46647199988365173
+        },
+        {
+          "id": "https://openalex.org/C2778719706",
+          "wikidata": "https://www.wikidata.org/wiki/Q6501447",
+          "display_name": "Local government",
+          "level": 2,
+          "score": 0.4506792724132538
+        },
+        {
+          "id": "https://openalex.org/C2781386248",
+          "wikidata": "https://www.wikidata.org/wiki/Q11898700",
+          "display_name": "Revenue management",
+          "level": 3,
+          "score": 0.44438862800598145
+        },
+        {
+          "id": "https://openalex.org/C14166107",
+          "wikidata": "https://www.wikidata.org/wiki/Q253829",
+          "display_name": "Net (polyhedron)",
+          "level": 2,
+          "score": 0.41942059993743896
+        },
+        {
+          "id": "https://openalex.org/C10138342",
+          "wikidata": "https://www.wikidata.org/wiki/Q43015",
+          "display_name": "Finance",
+          "level": 1,
+          "score": 0.33208131790161133
+        },
+        {
+          "id": "https://openalex.org/C3116431",
+          "wikidata": "https://www.wikidata.org/wiki/Q31728",
+          "display_name": "Public administration",
+          "level": 1,
+          "score": 0.24551862478256226
+        },
+        {
+          "id": "https://openalex.org/C17744445",
+          "wikidata": "https://www.wikidata.org/wiki/Q36442",
+          "display_name": "Political science",
+          "level": 0,
+          "score": 0.08704796433448792
+        },
+        {
+          "id": "https://openalex.org/C41895202",
+          "wikidata": "https://www.wikidata.org/wiki/Q8162",
+          "display_name": "Linguistics",
+          "level": 1,
+          "score": 0.0
+        },
+        {
+          "id": "https://openalex.org/C138885662",
+          "wikidata": "https://www.wikidata.org/wiki/Q5891",
+          "display_name": "Philosophy",
+          "level": 0,
+          "score": 0.0
+        },
+        {
+          "id": "https://openalex.org/C2524010",
+          "wikidata": "https://www.wikidata.org/wiki/Q8087",
+          "display_name": "Geometry",
+          "level": 1,
+          "score": 0.0
+        },
+        {
+          "id": "https://openalex.org/C33923547",
+          "wikidata": "https://www.wikidata.org/wiki/Q395",
+          "display_name": "Mathematics",
+          "level": 0,
+          "score": 0.0
+        }
+      ],
+      "mesh": [],
+      "locations_count": 2,
+      "locations": [
+        {
+          "id": "doi:10.59604/1046-2309.1100",
+          "doi": "https://doi.org/10.59604/1046-2309.1100",
+          "is_oa": true,
+          "landing_page_url": "https://doi.org/10.59604/1046-2309.1100",
+          "pdf_url": "https://collected.jcu.edu/cgi/viewcontent.cgi?article=1100&context=jep",
+          "source": {
+            "id": "https://openalex.org/S4387289497",
+            "display_name": "The Journal of Economics and Politics",
+            "issn_l": "1046-2309",
+            "issn": [
+              "1046-2309"
+            ],
+            "is_oa": false,
+            "is_in_doaj": false,
+            "is_core": false,
+            "listed_in": [],
+            "host_organization": null,
+            "host_organization_name": null,
+            "host_organization_lineage": [],
+            "host_organization_lineage_names": [],
+            "type": "journal"
+          },
+          "license": null,
+          "license_id": null,
+          "version": "publishedVersion",
+          "is_accepted": true,
+          "is_published": true,
+          "raw_source_name": "The Journal of Economics and Politics",
+          "raw_type": "journal-article"
+        },
+        {
+          "id": "pmh:oai:collected.jcu.edu:jep-1100",
+          "doi": null,
+          "is_oa": false,
+          "landing_page_url": "https://collected.jcu.edu/jep/vol8/iss1/6",
+          "pdf_url": null,
+          "source": {
+            "id": "https://openalex.org/S4377196564",
+            "display_name": "Carroll Collected  (John Carroll University)",
+            "issn_l": null,
+            "issn": null,
+            "is_oa": false,
+            "is_in_doaj": false,
+            "is_core": false,
+            "listed_in": [],
+            "host_organization": "https://openalex.org/I183716014",
+            "host_organization_name": "John Carroll University",
+            "host_organization_lineage": [
+              "https://openalex.org/I183716014"
+            ],
+            "host_organization_lineage_names": [],
+            "type": "repository"
+          },
+          "license": null,
+          "license_id": null,
+          "version": "submittedVersion",
+          "is_accepted": false,
+          "is_published": false,
+          "raw_source_name": "The Journal of Economics and Politics",
+          "raw_type": "text"
+        }
+      ],
+      "best_oa_location": {
+        "id": "doi:10.59604/1046-2309.1100",
+        "doi": "https://doi.org/10.59604/1046-2309.1100",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.59604/1046-2309.1100",
+        "pdf_url": "https://collected.jcu.edu/cgi/viewcontent.cgi?article=1100&context=jep",
+        "source": {
+          "id": "https://openalex.org/S4387289497",
+          "display_name": "The Journal of Economics and Politics",
+          "issn_l": "1046-2309",
+          "issn": [
+            "1046-2309"
+          ],
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "listed_in": [],
+          "host_organization": null,
+          "host_organization_name": null,
+          "host_organization_lineage": [],
+          "host_organization_lineage_names": [],
+          "type": "journal"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "The Journal of Economics and Politics",
+        "raw_type": "journal-article"
+      },
+      "sustainable_development_goals": [],
+      "study_designs": [],
+      "awards": [],
+      "funders": [],
+      "has_content": {
+        "pdf": true,
+        "grobid_xml": true
+      },
+      "content_urls": {
+        "pdf": "https://content.openalex.org/works/W4388513731.pdf",
+        "grobid_xml": "https://content.openalex.org/works/W4388513731.grobid-xml"
+      },
+      "referenced_works_count": 1,
+      "referenced_works": [
+        "https://openalex.org/W4298859129"
+      ],
+      "related_works": [
+        "https://openalex.org/W228849904",
+        "https://openalex.org/W576777089",
+        "https://openalex.org/W2068318850",
+        "https://openalex.org/W1988918443",
+        "https://openalex.org/W3139449743",
+        "https://openalex.org/W4249685902",
+        "https://openalex.org/W2018361725",
+        "https://openalex.org/W2335502487",
+        "https://openalex.org/W4244711339"
+      ],
+      "abstract_inverted_index": null,
+      "counts_by_year": [],
+      "updated_date": "2026-11-14T11:04:58.165337",
+      "created_date": "2023-11-09T00:00:00"
+    },
+    {
+      "id": "https://openalex.org/W114800657",
+      "doi": "https://doi.org/10.1007/978-3-319-04735-5_6",
+      "title": "An Extended Contract Net Protocol with Direct Negotiation of Managers",
+      "display_name": "An Extended Contract Net Protocol with Direct Negotiation of Managers",
+      "relevance_score": 63.46836,
+      "publication_year": 2014,
+      "publication_date": "2014-01-01",
+      "ids": {
+        "openalex": "https://openalex.org/W114800657",
+        "doi": "https://doi.org/10.1007/978-3-319-04735-5_6",
+        "mag": "114800657"
+      },
+      "language": "en",
+      "primary_location": {
+        "id": "doi:10.1007/978-3-319-04735-5_6",
+        "doi": "https://doi.org/10.1007/978-3-319-04735-5_6",
+        "is_oa": false,
+        "landing_page_url": "https://doi.org/10.1007/978-3-319-04735-5_6",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S2764461748",
+          "display_name": "Studies in computational intelligence",
+          "issn_l": "1860-949X",
+          "issn": [
+            "1860-949X",
+            "1860-9503"
+          ],
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": true,
+          "listed_in": [
+            "cwts-core",
+            "jufo-1",
+            "norway-1"
+          ],
+          "host_organization": "https://openalex.org/P4310319965",
+          "host_organization_name": "Springer Nature",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310319965"
+          ],
+          "host_organization_lineage_names": [
+            "Springer Nature"
+          ],
+          "type": "book series"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Studies in Computational Intelligence",
+        "raw_type": "book-chapter"
+      },
+      "parent_works": [
+        {
+          "id": "https://openalex.org/W2592464673",
+          "display_name": "Service Orientation in Holonic and Multi-Agent Manufacturing and Robotics",
+          "relationship": "volume"
+        }
+      ],
+      "lineage": [
+        "https://openalex.org/W114800657",
+        "https://openalex.org/W2592464673"
+      ],
+      "child_works_count": 0,
+      "type": "book-chapter",
+      "is_traditional": true,
+      "indexed_in": [
+        "crossref"
+      ],
+      "open_access": {
+        "is_oa": false,
+        "oa_status": "closed",
+        "oa_url": null,
+        "any_repository_has_fulltext": false
+      },
+      "authorships": [
+        {
+          "author_position": "first",
+          "author": {
+            "id": "https://openalex.org/A5024328196",
+            "display_name": "Doru Adrian Panescu",
+            "orcid": null,
+            "observed_orcids": []
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I4210108695",
+              "display_name": "Gheorghe Asachi Technical University of Iași",
+              "ror": "https://ror.org/014zxnz40",
+              "country_code": "RO",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I4210108695"
+              ]
+            }
+          ],
+          "countries": [
+            "RO"
+          ],
+          "is_corresponding": true,
+          "raw_author_name": "Doru Panescu",
+          "raw_affiliation_strings": [
+            "Department of Automatic Control and Applied Informatics, “Gheorghe Asachi” Technical University of Iasi, Iasi, Romania"
+          ],
+          "raw_orcid": null,
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Department of Automatic Control and Applied Informatics, “Gheorghe Asachi” Technical University of Iasi, Iasi, Romania",
+              "institution_ids": [
+                "https://openalex.org/I4210108695"
+              ]
+            }
+          ]
+        },
+        {
+          "author_position": "last",
+          "author": {
+            "id": "https://openalex.org/A5021649946",
+            "display_name": "Carlos M. Pascal",
+            "orcid": "https://orcid.org/0000-0002-2685-0105",
+            "observed_orcids": [
+              "https://orcid.org/0000-0002-2685-0105"
+            ]
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I4210108695",
+              "display_name": "Gheorghe Asachi Technical University of Iași",
+              "ror": "https://ror.org/014zxnz40",
+              "country_code": "RO",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I4210108695"
+              ]
+            }
+          ],
+          "countries": [
+            "RO"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "Carlos Pascal",
+          "raw_affiliation_strings": [
+            "Department of Automatic Control and Applied Informatics, “Gheorghe Asachi” Technical University of Iasi, Iasi, Romania"
+          ],
+          "raw_orcid": null,
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Department of Automatic Control and Applied Informatics, “Gheorghe Asachi” Technical University of Iasi, Iasi, Romania",
+              "institution_ids": [
+                "https://openalex.org/I4210108695"
+              ]
+            }
+          ]
+        }
+      ],
+      "institutions": [],
+      "countries_distinct_count": 1,
+      "institutions_distinct_count": 1,
+      "corresponding_author_ids": [
+        "https://openalex.org/A5024328196"
+      ],
+      "corresponding_institution_ids": [
+        "https://openalex.org/I4210108695"
+      ],
+      "apc_list": null,
+      "apc_paid": null,
+      "fwci": 2.1609,
+      "is_authors_truncated": false,
+      "has_fulltext": false,
+      "cited_by_count": 9,
+      "citation_normalized_percentile": {
+        "value": 0.85326733,
+        "is_in_top_1_percent": false,
+        "is_in_top_10_percent": false
+      },
+      "cited_by_percentile_year": {
+        "min": 87,
+        "max": 97
+      },
+      "biblio": {
+        "volume": null,
+        "issue": null,
+        "first_page": "81",
+        "last_page": "95"
+      },
+      "is_retracted": false,
+      "is_paratext": false,
+      "is_xpac": false,
+      "primary_topic": {
+        "id": "https://openalex.org/T10456",
+        "display_name": "Multi-Agent Systems and Negotiation",
+        "score": 0.9990000128746033,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1702",
+          "display_name": "Artificial Intelligence"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      "topics": [
+        {
+          "id": "https://openalex.org/T10456",
+          "display_name": "Multi-Agent Systems and Negotiation",
+          "score": 0.9990000128746033,
+          "subfield": {
+            "id": "https://openalex.org/subfields/1702",
+            "display_name": "Artificial Intelligence"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/17",
+            "display_name": "Computer Science"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T11741",
+          "display_name": "Flexible and Reconfigurable Manufacturing Systems",
+          "score": 0.00019999999494757503,
+          "subfield": {
+            "id": "https://openalex.org/subfields/2209",
+            "display_name": "Industrial and Manufacturing Engineering"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/22",
+            "display_name": "Engineering"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T10551",
+          "display_name": "Scheduling and Optimization Algorithms",
+          "score": 9.999999747378752e-05,
+          "subfield": {
+            "id": "https://openalex.org/subfields/2209",
+            "display_name": "Industrial and Manufacturing Engineering"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/22",
+            "display_name": "Engineering"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        }
+      ],
+      "keywords": [
+        {
+          "id": "https://openalex.org/keywords/contract-net-protocol",
+          "display_name": "contract net protocol",
+          "score": 0.9639999866485596
+        },
+        {
+          "id": "https://openalex.org/keywords/multi-agent-systems",
+          "display_name": "multi-agent systems",
+          "score": 0.8069999814033508
+        },
+        {
+          "id": "https://openalex.org/keywords/agent-coordination",
+          "display_name": "agent coordination",
+          "score": 0.625
+        },
+        {
+          "id": "https://openalex.org/keywords/direct-negotiation",
+          "display_name": "direct negotiation",
+          "score": 0.7929999828338623
+        },
+        {
+          "id": "https://openalex.org/keywords/managers",
+          "display_name": "managers",
+          "score": 0.7429999709129333
+        },
+        {
+          "id": "https://openalex.org/keywords/resource-allocation",
+          "display_name": "resource allocation",
+          "score": 0.984000027179718
+        },
+        {
+          "id": "https://openalex.org/keywords/distributed-systems",
+          "display_name": "distributed systems",
+          "score": 0.921999990940094
+        },
+        {
+          "id": "https://openalex.org/keywords/petri-nets",
+          "display_name": "Petri nets",
+          "score": 0.8500000238418579
+        }
+      ],
+      "concepts": [
+        {
+          "id": "https://openalex.org/C183756365",
+          "wikidata": "https://www.wikidata.org/wiki/Q1129064",
+          "display_name": "Contract Net Protocol",
+          "level": 3,
+          "score": 0.9506398439407349
+        },
+        {
+          "id": "https://openalex.org/C199776023",
+          "wikidata": "https://www.wikidata.org/wiki/Q202875",
+          "display_name": "Negotiation",
+          "level": 2,
+          "score": 0.8750276565551758
+        },
+        {
+          "id": "https://openalex.org/C38677869",
+          "wikidata": "https://www.wikidata.org/wiki/Q724168",
+          "display_name": "Petri net",
+          "level": 2,
+          "score": 0.8453950881958008
+        },
+        {
+          "id": "https://openalex.org/C14166107",
+          "wikidata": "https://www.wikidata.org/wiki/Q253829",
+          "display_name": "Net (polyhedron)",
+          "level": 2,
+          "score": 0.7323409914970398
+        },
+        {
+          "id": "https://openalex.org/C2780385302",
+          "wikidata": "https://www.wikidata.org/wiki/Q367158",
+          "display_name": "Protocol (science)",
+          "level": 3,
+          "score": 0.6499249935150146
+        },
+        {
+          "id": "https://openalex.org/C41008148",
+          "wikidata": "https://www.wikidata.org/wiki/Q21198",
+          "display_name": "Computer science",
+          "level": 0,
+          "score": 0.623842716217041
+        },
+        {
+          "id": "https://openalex.org/C77618280",
+          "wikidata": "https://www.wikidata.org/wiki/Q1155772",
+          "display_name": "Scheme (mathematics)",
+          "level": 2,
+          "score": 0.5987640619277954
+        },
+        {
+          "id": "https://openalex.org/C120314980",
+          "wikidata": "https://www.wikidata.org/wiki/Q180634",
+          "display_name": "Distributed computing",
+          "level": 1,
+          "score": 0.516349196434021
+        },
+        {
+          "id": "https://openalex.org/C72434380",
+          "wikidata": "https://www.wikidata.org/wiki/Q230930",
+          "display_name": "State space",
+          "level": 2,
+          "score": 0.4900623559951782
+        },
+        {
+          "id": "https://openalex.org/C48103436",
+          "wikidata": "https://www.wikidata.org/wiki/Q599031",
+          "display_name": "State (computer science)",
+          "level": 2,
+          "score": 0.4620055556297302
+        },
+        {
+          "id": "https://openalex.org/C41550386",
+          "wikidata": "https://www.wikidata.org/wiki/Q529909",
+          "display_name": "Multi-agent system",
+          "level": 2,
+          "score": 0.3283165693283081
+        },
+        {
+          "id": "https://openalex.org/C154945302",
+          "wikidata": "https://www.wikidata.org/wiki/Q11660",
+          "display_name": "Artificial intelligence",
+          "level": 1,
+          "score": 0.18569716811180115
+        },
+        {
+          "id": "https://openalex.org/C11413529",
+          "wikidata": "https://www.wikidata.org/wiki/Q8366",
+          "display_name": "Algorithm",
+          "level": 1,
+          "score": 0.08895677328109741
+        },
+        {
+          "id": "https://openalex.org/C33923547",
+          "wikidata": "https://www.wikidata.org/wiki/Q395",
+          "display_name": "Mathematics",
+          "level": 0,
+          "score": 0.07654348015785217
+        },
+        {
+          "id": "https://openalex.org/C134306372",
+          "wikidata": "https://www.wikidata.org/wiki/Q7754",
+          "display_name": "Mathematical analysis",
+          "level": 1,
+          "score": 0.0
+        },
+        {
+          "id": "https://openalex.org/C105795698",
+          "wikidata": "https://www.wikidata.org/wiki/Q12483",
+          "display_name": "Statistics",
+          "level": 1,
+          "score": 0.0
+        },
+        {
+          "id": "https://openalex.org/C17744445",
+          "wikidata": "https://www.wikidata.org/wiki/Q36442",
+          "display_name": "Political science",
+          "level": 0,
+          "score": 0.0
+        },
+        {
+          "id": "https://openalex.org/C204787440",
+          "wikidata": "https://www.wikidata.org/wiki/Q188504",
+          "display_name": "Alternative medicine",
+          "level": 2,
+          "score": 0.0
+        },
+        {
+          "id": "https://openalex.org/C71924100",
+          "wikidata": "https://www.wikidata.org/wiki/Q11190",
+          "display_name": "Medicine",
+          "level": 0,
+          "score": 0.0
+        },
+        {
+          "id": "https://openalex.org/C2524010",
+          "wikidata": "https://www.wikidata.org/wiki/Q8087",
+          "display_name": "Geometry",
+          "level": 1,
+          "score": 0.0
+        },
+        {
+          "id": "https://openalex.org/C142724271",
+          "wikidata": "https://www.wikidata.org/wiki/Q7208",
+          "display_name": "Pathology",
+          "level": 1,
+          "score": 0.0
+        },
+        {
+          "id": "https://openalex.org/C199539241",
+          "wikidata": "https://www.wikidata.org/wiki/Q7748",
+          "display_name": "Law",
+          "level": 1,
+          "score": 0.0
+        }
+      ],
+      "mesh": [],
+      "locations_count": 1,
+      "locations": [
+        {
+          "id": "doi:10.1007/978-3-319-04735-5_6",
+          "doi": "https://doi.org/10.1007/978-3-319-04735-5_6",
+          "is_oa": false,
+          "landing_page_url": "https://doi.org/10.1007/978-3-319-04735-5_6",
+          "pdf_url": null,
+          "source": {
+            "id": "https://openalex.org/S2764461748",
+            "display_name": "Studies in computational intelligence",
+            "issn_l": "1860-949X",
+            "issn": [
+              "1860-949X",
+              "1860-9503"
+            ],
+            "is_oa": false,
+            "is_in_doaj": false,
+            "is_core": true,
+            "listed_in": [
+              "cwts-core",
+              "jufo-1",
+              "norway-1"
+            ],
+            "host_organization": "https://openalex.org/P4310319965",
+            "host_organization_name": "Springer Nature",
+            "host_organization_lineage": [
+              "https://openalex.org/P4310319965"
+            ],
+            "host_organization_lineage_names": [
+              "Springer Nature"
+            ],
+            "type": "book series"
+          },
+          "license": null,
+          "license_id": null,
+          "version": "publishedVersion",
+          "is_accepted": true,
+          "is_published": true,
+          "raw_source_name": "Studies in Computational Intelligence",
+          "raw_type": "book-chapter"
+        }
+      ],
+      "best_oa_location": null,
+      "sustainable_development_goals": [],
+      "study_designs": [],
+      "awards": [],
+      "funders": [],
+      "has_content": {
+        "pdf": false,
+        "grobid_xml": false
+      },
+      "content_urls": null,
+      "referenced_works_count": 19,
+      "referenced_works": [
+        "https://openalex.org/W62202315",
+        "https://openalex.org/W1536740542",
+        "https://openalex.org/W1568573127",
+        "https://openalex.org/W1583931153",
+        "https://openalex.org/W1646547851",
+        "https://openalex.org/W1759712729",
+        "https://openalex.org/W1964053887",
+        "https://openalex.org/W1967964591",
+        "https://openalex.org/W2015064136",
+        "https://openalex.org/W2039820567",
+        "https://openalex.org/W2056379789",
+        "https://openalex.org/W2077433170",
+        "https://openalex.org/W2093270314",
+        "https://openalex.org/W2151408086",
+        "https://openalex.org/W2158985603",
+        "https://openalex.org/W2569364308",
+        "https://openalex.org/W3048214708",
+        "https://openalex.org/W4249484115",
+        "https://openalex.org/W4285719527"
+      ],
+      "related_works": [
+        "https://openalex.org/W2065185157",
+        "https://openalex.org/W2063663749",
+        "https://openalex.org/W1995801264",
+        "https://openalex.org/W2133170438",
+        "https://openalex.org/W2138386458",
+        "https://openalex.org/W2014550543",
+        "https://openalex.org/W2327126397",
+        "https://openalex.org/W2094168644",
+        "https://openalex.org/W7096250463",
+        "https://openalex.org/W2542742296"
+      ],
+      "abstract_inverted_index": null,
+      "counts_by_year": [
+        {
+          "year": 2022,
+          "cited_by_count": 1
+        },
+        {
+          "year": 2021,
+          "cited_by_count": 1
+        },
+        {
+          "year": 2018,
+          "cited_by_count": 3
+        },
+        {
+          "year": 2017,
+          "cited_by_count": 2
+        },
+        {
+          "year": 2016,
+          "cited_by_count": 1
+        },
+        {
+          "year": 2015,
+          "cited_by_count": 1
+        }
+      ],
+      "updated_date": "2026-11-14T11:04:58.165337",
+      "created_date": "2016-06-24T00:00:00"
+    },
+    {
+      "id": "https://openalex.org/W4254872206",
+      "doi": "https://doi.org/10.4016/46634.01",
+      "title": "Net Support Manager",
+      "display_name": "Net Support Manager",
+      "relevance_score": 62.791977,
+      "publication_year": 2012,
+      "publication_date": "2012-03-29",
+      "ids": {
+        "openalex": "https://openalex.org/W4254872206",
+        "doi": "https://doi.org/10.4016/46634.01"
+      },
+      "language": "en",
+      "primary_location": {
+        "id": "doi:10.4016/46634.01",
+        "doi": "https://doi.org/10.4016/46634.01",
+        "is_oa": false,
+        "landing_page_url": "http://doi.org/10.4016/46634.01",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4363604086",
+          "display_name": "SciVee",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "listed_in": [],
+          "host_organization": null,
+          "host_organization_name": null,
+          "host_organization_lineage": [],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "SciVee",
+        "raw_type": "dataset"
+      },
+      "parent_works": [],
+      "lineage": [
+        "https://openalex.org/W4254872206"
+      ],
+      "child_works_count": 0,
+      "type": "dataset",
+      "is_traditional": false,
+      "indexed_in": [
+        "crossref"
+      ],
+      "open_access": {
+        "is_oa": false,
+        "oa_status": "closed",
+        "oa_url": null,
+        "any_repository_has_fulltext": false
+      },
+      "authorships": [],
+      "institutions": [],
+      "countries_distinct_count": 0,
+      "institutions_distinct_count": 0,
+      "corresponding_author_ids": [],
+      "corresponding_institution_ids": [],
+      "apc_list": null,
+      "apc_paid": null,
+      "fwci": null,
+      "is_authors_truncated": false,
+      "has_fulltext": false,
+      "cited_by_count": 0,
+      "citation_normalized_percentile": null,
+      "cited_by_percentile_year": null,
+      "biblio": {
+        "volume": null,
+        "issue": null,
+        "first_page": null,
+        "last_page": null
+      },
+      "is_retracted": false,
+      "is_paratext": false,
+      "is_xpac": false,
+      "primary_topic": null,
+      "topics": [],
+      "keywords": [
+        {
+          "id": "https://openalex.org/keywords/network-management",
+          "display_name": "network management",
+          "score": 0.6150000095367432
+        }
+      ],
+      "concepts": [
+        {
+          "id": "https://openalex.org/C14166107",
+          "wikidata": "https://www.wikidata.org/wiki/Q253829",
+          "display_name": "Net (polyhedron)",
+          "level": 2,
+          "score": 0.6707299947738647
+        },
+        {
+          "id": "https://openalex.org/C41008148",
+          "wikidata": "https://www.wikidata.org/wiki/Q21198",
+          "display_name": "Computer science",
+          "level": 0,
+          "score": 0.4098425507545471
+        },
+        {
+          "id": "https://openalex.org/C144133560",
+          "wikidata": "https://www.wikidata.org/wiki/Q4830453",
+          "display_name": "Business",
+          "level": 0,
+          "score": 0.39991486072540283
+        },
+        {
+          "id": "https://openalex.org/C111919701",
+          "wikidata": "https://www.wikidata.org/wiki/Q9135",
+          "display_name": "Operating system",
+          "level": 1,
+          "score": 0.3307259678840637
+        },
+        {
+          "id": "https://openalex.org/C33923547",
+          "wikidata": "https://www.wikidata.org/wiki/Q395",
+          "display_name": "Mathematics",
+          "level": 0,
+          "score": 0.18067631125450134
+        },
+        {
+          "id": "https://openalex.org/C2524010",
+          "wikidata": "https://www.wikidata.org/wiki/Q8087",
+          "display_name": "Geometry",
+          "level": 1,
+          "score": 0.0
+        }
+      ],
+      "mesh": [],
+      "locations_count": 1,
+      "locations": [
+        {
+          "id": "doi:10.4016/46634.01",
+          "doi": "https://doi.org/10.4016/46634.01",
+          "is_oa": false,
+          "landing_page_url": "http://doi.org/10.4016/46634.01",
+          "pdf_url": null,
+          "source": {
+            "id": "https://openalex.org/S4363604086",
+            "display_name": "SciVee",
+            "issn_l": null,
+            "issn": null,
+            "is_oa": false,
+            "is_in_doaj": false,
+            "is_core": false,
+            "listed_in": [],
+            "host_organization": null,
+            "host_organization_name": null,
+            "host_organization_lineage": [],
+            "host_organization_lineage_names": [],
+            "type": "repository"
+          },
+          "license": null,
+          "license_id": null,
+          "version": "publishedVersion",
+          "is_accepted": true,
+          "is_published": true,
+          "raw_source_name": "SciVee",
+          "raw_type": "dataset"
+        }
+      ],
+      "best_oa_location": null,
+      "sustainable_development_goals": [],
+      "study_designs": [],
+      "awards": [],
+      "funders": [],
+      "has_content": {
+        "pdf": false,
+        "grobid_xml": false
+      },
+      "content_urls": null,
+      "referenced_works_count": 0,
+      "referenced_works": [],
+      "related_works": [
+        "https://openalex.org/W4240021717",
+        "https://openalex.org/W4229722189",
+        "https://openalex.org/W4246205748",
+        "https://openalex.org/W4239946898",
+        "https://openalex.org/W433768277"
+      ],
+      "abstract_inverted_index": null,
+      "counts_by_year": [],
+      "updated_date": "2026-11-14T11:04:58.165337",
+      "created_date": "2022-05-12T00:00:00"
+    },
+    {
+      "id": "https://openalex.org/W38501340",
+      "doi": null,
+      "title": "Insecticide Treated Net Projects: A Handbook for Managers.",
+      "display_name": "Insecticide Treated Net Projects: A Handbook for Managers.",
+      "relevance_score": 61.68707,
+      "publication_year": 1999,
+      "publication_date": "1999-01-01",
+      "ids": {
+        "openalex": "https://openalex.org/W38501340",
+        "mag": "38501340"
+      },
+      "language": "en",
+      "primary_location": {
+        "id": "pmh:oai:pure.atira.dk:openaire_cris_publications/2d8ab84e-419f-43ef-bd73-75b1a643cc01",
+        "doi": null,
+        "is_oa": false,
+        "landing_page_url": "https://research.manchester.ac.uk/en/publications/2d8ab84e-419f-43ef-bd73-75b1a643cc01",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4306400662",
+          "display_name": "Research Explorer (The University of Manchester)",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "listed_in": [],
+          "host_organization": "https://openalex.org/I28407311",
+          "host_organization_name": "University of Manchester",
+          "host_organization_lineage": [
+            "https://openalex.org/I28407311"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "submittedVersion",
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": "Reed, CE, Chavasse, C & Attawell, K 1999, Insecticide Treated Net Projects: A Handbook for Managers. London School of Hygiene & Tropical Medicine.",
+        "raw_type": "info:eu-repo/semantics/book"
+      },
+      "parent_works": [],
+      "lineage": [
+        "https://openalex.org/W38501340"
+      ],
+      "child_works_count": 0,
+      "type": "book",
+      "is_traditional": true,
+      "indexed_in": [],
+      "open_access": {
+        "is_oa": false,
+        "oa_status": "closed",
+        "oa_url": null,
+        "any_repository_has_fulltext": false
+      },
+      "authorships": [
+        {
+          "author_position": "first",
+          "author": {
+            "id": "https://openalex.org/A5047315081",
+            "display_name": "C. B. M. Reed",
+            "orcid": null,
+            "observed_orcids": []
+          },
+          "institutions": [],
+          "countries": [],
+          "is_corresponding": false,
+          "raw_author_name": "C. B. M. Reed",
+          "raw_affiliation_strings": [],
+          "raw_orcid": null,
+          "affiliations": []
+        },
+        {
+          "author_position": "middle",
+          "author": {
+            "id": "https://openalex.org/A5008629620",
+            "display_name": "C Chavasse",
+            "orcid": null,
+            "observed_orcids": []
+          },
+          "institutions": [],
+          "countries": [],
+          "is_corresponding": false,
+          "raw_author_name": "C Chavasse",
+          "raw_affiliation_strings": [],
+          "raw_orcid": null,
+          "affiliations": []
+        },
+        {
+          "author_position": "last",
+          "author": {
+            "id": "https://openalex.org/A5007961680",
+            "display_name": "K Attawell",
+            "orcid": null,
+            "observed_orcids": []
+          },
+          "institutions": [],
+          "countries": [],
+          "is_corresponding": false,
+          "raw_author_name": "K Attawell",
+          "raw_affiliation_strings": [],
+          "raw_orcid": null,
+          "affiliations": []
+        }
+      ],
+      "institutions": [],
+      "countries_distinct_count": 0,
+      "institutions_distinct_count": 0,
+      "corresponding_author_ids": [],
+      "corresponding_institution_ids": [],
+      "apc_list": null,
+      "apc_paid": null,
+      "fwci": 17.1955,
+      "is_authors_truncated": false,
+      "has_fulltext": false,
+      "cited_by_count": 49,
+      "citation_normalized_percentile": {
+        "value": 0.99089727,
+        "is_in_top_1_percent": true,
+        "is_in_top_10_percent": true
+      },
+      "cited_by_percentile_year": {
+        "min": 88,
+        "max": 93
+      },
+      "biblio": {
+        "volume": null,
+        "issue": null,
+        "first_page": null,
+        "last_page": null
+      },
+      "is_retracted": false,
+      "is_paratext": false,
+      "is_xpac": false,
+      "primary_topic": {
+        "id": "https://openalex.org/T10091",
+        "display_name": "Malaria Research and Control",
+        "score": 0.9193999767303467,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2739",
+          "display_name": "Public Health, Environmental and Occupational Health"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/27",
+          "display_name": "Medicine"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/4",
+          "display_name": "Health Sciences"
+        }
+      },
+      "topics": [
+        {
+          "id": "https://openalex.org/T10091",
+          "display_name": "Malaria Research and Control",
+          "score": 0.9193999767303467,
+          "subfield": {
+            "id": "https://openalex.org/subfields/2739",
+            "display_name": "Public Health, Environmental and Occupational Health"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/27",
+            "display_name": "Medicine"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/4",
+            "display_name": "Health Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T14053",
+          "display_name": "Dengue and Mosquito Control Research",
+          "score": 0.019099999219179153,
+          "subfield": {
+            "id": "https://openalex.org/subfields/2739",
+            "display_name": "Public Health, Environmental and Occupational Health"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/27",
+            "display_name": "Medicine"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/4",
+            "display_name": "Health Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T11065",
+          "display_name": "Insect Pest Control Strategies",
+          "score": 0.010400000028312206,
+          "subfield": {
+            "id": "https://openalex.org/subfields/1110",
+            "display_name": "Plant Science"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/11",
+            "display_name": "Agricultural and Biological Sciences"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/1",
+            "display_name": "Life Sciences"
+          }
+        }
+      ],
+      "keywords": [
+        {
+          "id": "https://openalex.org/keywords/insecticide-treated-nets",
+          "display_name": "insecticide-treated nets",
+          "score": 0.996999979019165
+        },
+        {
+          "id": "https://openalex.org/keywords/malaria-control",
+          "display_name": "malaria control",
+          "score": 0.6790000200271606
+        },
+        {
+          "id": "https://openalex.org/keywords/project-management",
+          "display_name": "project management",
+          "score": 0.8659999966621399
+        },
+        {
+          "id": "https://openalex.org/keywords/vector-control",
+          "display_name": "vector control",
+          "score": 0.5429999828338623
+        },
+        {
+          "id": "https://openalex.org/keywords/project-planning",
+          "display_name": "project planning",
+          "score": 0.3889999985694885
+        }
+      ],
+      "concepts": [
+        {
+          "id": "https://openalex.org/C144133560",
+          "wikidata": "https://www.wikidata.org/wiki/Q4830453",
+          "display_name": "Business",
+          "level": 0,
+          "score": 0.4602228105068207
+        },
+        {
+          "id": "https://openalex.org/C127413603",
+          "wikidata": "https://www.wikidata.org/wiki/Q11023",
+          "display_name": "Engineering",
+          "level": 0,
+          "score": 0.3392127752304077
+        }
+      ],
+      "mesh": [],
+      "locations_count": 2,
+      "locations": [
+        {
+          "id": "pmh:oai:pure.atira.dk:openaire_cris_publications/2d8ab84e-419f-43ef-bd73-75b1a643cc01",
+          "doi": null,
+          "is_oa": false,
+          "landing_page_url": "https://research.manchester.ac.uk/en/publications/2d8ab84e-419f-43ef-bd73-75b1a643cc01",
+          "pdf_url": null,
+          "source": {
+            "id": "https://openalex.org/S4306400662",
+            "display_name": "Research Explorer (The University of Manchester)",
+            "issn_l": null,
+            "issn": null,
+            "is_oa": false,
+            "is_in_doaj": false,
+            "is_core": false,
+            "listed_in": [],
+            "host_organization": "https://openalex.org/I28407311",
+            "host_organization_name": "University of Manchester",
+            "host_organization_lineage": [
+              "https://openalex.org/I28407311"
+            ],
+            "host_organization_lineage_names": [],
+            "type": "repository"
+          },
+          "license": null,
+          "license_id": null,
+          "version": "submittedVersion",
+          "is_accepted": false,
+          "is_published": false,
+          "raw_source_name": "Reed, CE, Chavasse, C & Attawell, K 1999, Insecticide Treated Net Projects: A Handbook for Managers. London School of Hygiene & Tropical Medicine.",
+          "raw_type": "info:eu-repo/semantics/book"
+        },
+        {
+          "id": "mag:38501340",
+          "doi": null,
+          "is_oa": false,
+          "landing_page_url": "https://www.escholar.manchester.ac.uk/uk-ac-man-scw:4d108",
+          "pdf_url": null,
+          "source": null,
+          "license": null,
+          "license_id": null,
+          "version": null,
+          "is_accepted": false,
+          "is_published": false,
+          "raw_source_name": null,
+          "raw_type": null
+        }
+      ],
+      "best_oa_location": null,
+      "sustainable_development_goals": [],
+      "study_designs": [],
+      "awards": [],
+      "funders": [],
+      "has_content": {
+        "pdf": false,
+        "grobid_xml": false
+      },
+      "content_urls": null,
+      "referenced_works_count": 0,
+      "referenced_works": [],
+      "related_works": [
+        "https://openalex.org/W2525313911",
+        "https://openalex.org/W2263433206",
+        "https://openalex.org/W2473975651",
+        "https://openalex.org/W2034786639",
+        "https://openalex.org/W6894235758",
+        "https://openalex.org/W98901458",
+        "https://openalex.org/W6950770603",
+        "https://openalex.org/W6950453136",
+        "https://openalex.org/W7099777697",
+        "https://openalex.org/W6931637533"
+      ],
+      "abstract_inverted_index": null,
+      "counts_by_year": [
+        {
+          "year": 2016,
+          "cited_by_count": 1
+        },
+        {
+          "year": 2012,
+          "cited_by_count": 1
+        }
+      ],
+      "updated_date": "2026-11-12T12:28:57.059296",
+      "created_date": "2016-06-24T00:00:00"
+    }
+  ],
+  "group_by": []
+}

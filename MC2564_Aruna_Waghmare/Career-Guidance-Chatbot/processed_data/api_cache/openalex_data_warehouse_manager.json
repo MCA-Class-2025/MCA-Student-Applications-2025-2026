@@ -1,0 +1,3555 @@
+{
+  "meta": {
+    "notice": "No API key, so this request shares one free daily budget ($0.10) with everyone on your network's IP address. Get a free key with its own $1/day at https://openalex.org/settings/api and add api_key=YOUR_KEY to your requests. An AI agent can get one for its user in one call: POST https://api.openalex.org/api-keys with {\"email\": \"<your user's email>\"}; we email them a link, and the key works once they click it. Docs for agents: https://help.openalex.org/llms.txt",
+    "count": 131585,
+    "db_response_time_ms": 812,
+    "page": 1,
+    "per_page": 5,
+    "groups_count": null,
+    "x_query": {
+      "oql": "get works with (DATA WAREHOUSE MANAGER) in the title, abstract, or full text",
+      "x_new_oql": "get works with (DATA WAREHOUSE MANAGER) in the title, abstract, or full text",
+      "oqo": {
+        "get_rows": "works",
+        "filter_rows": [
+          {
+            "column_id": "fulltext.search",
+            "value": "DATA WAREHOUSE MANAGER",
+            "operator": "has"
+          }
+        ]
+      },
+      "url": "/works?filter=fulltext.search:DATA WAREHOUSE MANAGER&per_page=5",
+      "order": "best matches first",
+      "order_default": true
+    },
+    "cost_usd": 0.001
+  },
+  "results": [
+    {
+      "id": "https://openalex.org/W7120667626",
+      "doi": null,
+      "title": "Design and construction of a mobile data warehouse manager.",
+      "display_name": "Design and construction of a mobile data warehouse manager.",
+      "relevance_score": 151.22318,
+      "publication_year": 2003,
+      "publication_date": "2003-02-25",
+      "ids": {
+        "openalex": "https://openalex.org/W7120667626"
+      },
+      "language": "pt",
+      "primary_location": {
+        "id": "pmh:oai:dspace.sti.ufcg.edu.br:riufcg/11656",
+        "doi": null,
+        "is_oa": true,
+        "landing_page_url": "https://dspace.sti.ufcg.edu.br/handle/riufcg/11656",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4306402641",
+          "display_name": "LA Referencia (Red Federada de Repositorios Institucionales de Publicaciones Científicas)",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "listed_in": [],
+          "host_organization": "https://openalex.org/I4383465926",
+          "host_organization_name": "LA Referencia",
+          "host_organization_lineage": [
+            "https://openalex.org/I4383465926"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": "other-oa",
+        "license_id": "https://openalex.org/licenses/other-oa",
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "instacron:UFCG",
+        "raw_type": "info:eu-repo/semantics/masterThesis"
+      },
+      "parent_works": [],
+      "lineage": [
+        "https://openalex.org/W7120667626"
+      ],
+      "child_works_count": 0,
+      "type": "dissertation",
+      "is_traditional": true,
+      "indexed_in": [],
+      "open_access": {
+        "is_oa": true,
+        "oa_status": "green",
+        "oa_url": "https://dspace.sti.ufcg.edu.br/handle/riufcg/11656",
+        "any_repository_has_fulltext": true
+      },
+      "authorships": [
+        {
+          "author_position": "first",
+          "author": {
+            "id": "https://openalex.org/A5009665130",
+            "display_name": "Plácido Marinho Dias",
+            "orcid": null,
+            "observed_orcids": []
+          },
+          "institutions": [],
+          "countries": [],
+          "is_corresponding": true,
+          "raw_author_name": "DIAS, Plácido Marinho.",
+          "raw_affiliation_strings": [],
+          "raw_orcid": null,
+          "affiliations": []
+        }
+      ],
+      "institutions": [],
+      "countries_distinct_count": 0,
+      "institutions_distinct_count": 0,
+      "corresponding_author_ids": [
+        "https://openalex.org/A5009665130"
+      ],
+      "corresponding_institution_ids": [],
+      "apc_list": null,
+      "apc_paid": null,
+      "fwci": null,
+      "is_authors_truncated": false,
+      "has_fulltext": false,
+      "cited_by_count": 0,
+      "citation_normalized_percentile": null,
+      "cited_by_percentile_year": null,
+      "biblio": {
+        "volume": null,
+        "issue": null,
+        "first_page": null,
+        "last_page": null
+      },
+      "is_retracted": false,
+      "is_paratext": false,
+      "is_xpac": false,
+      "primary_topic": {
+        "id": "https://openalex.org/T10317",
+        "display_name": "Advanced Database Systems and Queries",
+        "score": 0.6675000190734863,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1710",
+          "display_name": "Information Systems"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      "topics": [
+        {
+          "id": "https://openalex.org/T10317",
+          "display_name": "Advanced Database Systems and Queries",
+          "score": 0.6675000190734863,
+          "subfield": {
+            "id": "https://openalex.org/subfields/1710",
+            "display_name": "Information Systems"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/17",
+            "display_name": "Computer Science"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T11891",
+          "display_name": "Big Data and Business Intelligence",
+          "score": 0.2856000065803528,
+          "subfield": {
+            "id": "https://openalex.org/subfields/1404",
+            "display_name": "Management Information Systems"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/14",
+            "display_name": "Business, Management and Accounting"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/2",
+            "display_name": "Social Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T12799",
+          "display_name": "Mobile and Web Applications",
+          "score": 0.0035000001080334187,
+          "subfield": {
+            "id": "https://openalex.org/subfields/1710",
+            "display_name": "Information Systems"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/17",
+            "display_name": "Computer Science"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        }
+      ],
+      "keywords": [
+        {
+          "id": "https://openalex.org/keywords/data-warehouse-management",
+          "display_name": "data warehouse management",
+          "score": 0.7089999914169312
+        },
+        {
+          "id": "https://openalex.org/keywords/mobile-devices",
+          "display_name": "mobile devices",
+          "score": 0.46299999952316284
+        },
+        {
+          "id": "https://openalex.org/keywords/low-bandwidth-networks",
+          "display_name": "low-bandwidth networks",
+          "score": 0.6710000038146973
+        },
+        {
+          "id": "https://openalex.org/keywords/mobile-platforms",
+          "display_name": "mobile platforms",
+          "score": 0.39100000262260437
+        },
+        {
+          "id": "https://openalex.org/keywords/data-warehouse-maintenance",
+          "display_name": "data warehouse maintenance",
+          "score": 0.414000004529953
+        },
+        {
+          "id": "https://openalex.org/keywords/wireless-communication",
+          "display_name": "wireless communication",
+          "score": 0.3490000069141388
+        }
+      ],
+      "concepts": [
+        {
+          "id": "https://openalex.org/C135572916",
+          "wikidata": "https://www.wikidata.org/wiki/Q193351",
+          "display_name": "Data warehouse",
+          "level": 2,
+          "score": 0.6003000140190125
+        },
+        {
+          "id": "https://openalex.org/C41008148",
+          "wikidata": "https://www.wikidata.org/wiki/Q21198",
+          "display_name": "Computer science",
+          "level": 0,
+          "score": 0.5715000033378601
+        },
+        {
+          "id": "https://openalex.org/C201932085",
+          "wikidata": "https://www.wikidata.org/wiki/Q642514",
+          "display_name": "Online analytical processing",
+          "level": 3,
+          "score": 0.5558000206947327
+        },
+        {
+          "id": "https://openalex.org/C186967261",
+          "wikidata": "https://www.wikidata.org/wiki/Q5082128",
+          "display_name": "Mobile device",
+          "level": 2,
+          "score": 0.5221999883651733
+        },
+        {
+          "id": "https://openalex.org/C2777904410",
+          "wikidata": "https://www.wikidata.org/wiki/Q7397",
+          "display_name": "Software",
+          "level": 2,
+          "score": 0.5102999806404114
+        },
+        {
+          "id": "https://openalex.org/C2779343474",
+          "wikidata": "https://www.wikidata.org/wiki/Q3109175",
+          "display_name": "Context (archaeology)",
+          "level": 2,
+          "score": 0.4138999879360199
+        },
+        {
+          "id": "https://openalex.org/C15708023",
+          "wikidata": "https://www.wikidata.org/wiki/Q80083",
+          "display_name": "Humanities",
+          "level": 1,
+          "score": 0.40290001034736633
+        },
+        {
+          "id": "https://openalex.org/C9652623",
+          "wikidata": "https://www.wikidata.org/wiki/Q190109",
+          "display_name": "Field (mathematics)",
+          "level": 2,
+          "score": 0.374099999666214
+        },
+        {
+          "id": "https://openalex.org/C18762648",
+          "wikidata": "https://www.wikidata.org/wiki/Q42213",
+          "display_name": "Work (physics)",
+          "level": 2,
+          "score": 0.3447999954223633
+        },
+        {
+          "id": "https://openalex.org/C36464697",
+          "wikidata": "https://www.wikidata.org/wiki/Q451553",
+          "display_name": "Visualization",
+          "level": 2,
+          "score": 0.3310999870300293
+        },
+        {
+          "id": "https://openalex.org/C127413603",
+          "wikidata": "https://www.wikidata.org/wiki/Q11023",
+          "display_name": "Engineering",
+          "level": 0,
+          "score": 0.3228999972343445
+        },
+        {
+          "id": "https://openalex.org/C529173508",
+          "wikidata": "https://www.wikidata.org/wiki/Q638608",
+          "display_name": "Software development",
+          "level": 3,
+          "score": 0.3199000060558319
+        },
+        {
+          "id": "https://openalex.org/C98045186",
+          "wikidata": "https://www.wikidata.org/wiki/Q205663",
+          "display_name": "Process (computing)",
+          "level": 2,
+          "score": 0.3073999881744385
+        },
+        {
+          "id": "https://openalex.org/C144543869",
+          "wikidata": "https://www.wikidata.org/wiki/Q2738570",
+          "display_name": "Mobile computing",
+          "level": 2,
+          "score": 0.3066999912261963
+        },
+        {
+          "id": "https://openalex.org/C145644426",
+          "wikidata": "https://www.wikidata.org/wiki/Q169411",
+          "display_name": "Unified Modeling Language",
+          "level": 3,
+          "score": 0.30230000615119934
+        },
+        {
+          "id": "https://openalex.org/C180198813",
+          "wikidata": "https://www.wikidata.org/wiki/Q121182",
+          "display_name": "Information system",
+          "level": 2,
+          "score": 0.2964000105857849
+        },
+        {
+          "id": "https://openalex.org/C121017731",
+          "wikidata": "https://www.wikidata.org/wiki/Q11661",
+          "display_name": "Information technology",
+          "level": 2,
+          "score": 0.29319998621940613
+        },
+        {
+          "id": "https://openalex.org/C133462117",
+          "wikidata": "https://www.wikidata.org/wiki/Q4929239",
+          "display_name": "Data collection",
+          "level": 2,
+          "score": 0.29280000925064087
+        },
+        {
+          "id": "https://openalex.org/C5655090",
+          "wikidata": "https://www.wikidata.org/wiki/Q192588",
+          "display_name": "Relational database",
+          "level": 2,
+          "score": 0.2849000096321106
+        },
+        {
+          "id": "https://openalex.org/C177264268",
+          "wikidata": "https://www.wikidata.org/wiki/Q1514741",
+          "display_name": "Set (abstract data type)",
+          "level": 2,
+          "score": 0.2718000113964081
+        },
+        {
+          "id": "https://openalex.org/C2983609787",
+          "wikidata": "https://www.wikidata.org/wiki/Q10534782",
+          "display_name": "Software implementation",
+          "level": 3,
+          "score": 0.26750001311302185
+        }
+      ],
+      "mesh": [],
+      "locations_count": 2,
+      "locations": [
+        {
+          "id": "pmh:oai:dspace.sti.ufcg.edu.br:riufcg/11656",
+          "doi": null,
+          "is_oa": true,
+          "landing_page_url": "https://dspace.sti.ufcg.edu.br/handle/riufcg/11656",
+          "pdf_url": null,
+          "source": {
+            "id": "https://openalex.org/S4306402641",
+            "display_name": "LA Referencia (Red Federada de Repositorios Institucionales de Publicaciones Científicas)",
+            "issn_l": null,
+            "issn": null,
+            "is_oa": false,
+            "is_in_doaj": false,
+            "is_core": false,
+            "listed_in": [],
+            "host_organization": "https://openalex.org/I4383465926",
+            "host_organization_name": "LA Referencia",
+            "host_organization_lineage": [
+              "https://openalex.org/I4383465926"
+            ],
+            "host_organization_lineage_names": [],
+            "type": "repository"
+          },
+          "license": "other-oa",
+          "license_id": "https://openalex.org/licenses/other-oa",
+          "version": "publishedVersion",
+          "is_accepted": true,
+          "is_published": true,
+          "raw_source_name": "instacron:UFCG",
+          "raw_type": "info:eu-repo/semantics/masterThesis"
+        },
+        {
+          "id": "pmh:oai:localhost:riufcg/11656",
+          "doi": null,
+          "is_oa": true,
+          "landing_page_url": "http://dspace.sti.ufcg.edu.br:8080/jspui/handle/riufcg/11656",
+          "pdf_url": null,
+          "source": {
+            "id": "https://openalex.org/S4306402641",
+            "display_name": "LA Referencia (Red Federada de Repositorios Institucionales de Publicaciones Científicas)",
+            "issn_l": null,
+            "issn": null,
+            "is_oa": false,
+            "is_in_doaj": false,
+            "is_core": false,
+            "listed_in": [],
+            "host_organization": "https://openalex.org/I4383465926",
+            "host_organization_name": "LA Referencia",
+            "host_organization_lineage": [
+              "https://openalex.org/I4383465926"
+            ],
+            "host_organization_lineage_names": [],
+            "type": "repository"
+          },
+          "license": "other-oa",
+          "license_id": "https://openalex.org/licenses/other-oa",
+          "version": "publishedVersion",
+          "is_accepted": true,
+          "is_published": true,
+          "raw_source_name": "instacron:UCB",
+          "raw_type": "info:eu-repo/semantics/masterThesis"
+        }
+      ],
+      "best_oa_location": {
+        "id": "pmh:oai:dspace.sti.ufcg.edu.br:riufcg/11656",
+        "doi": null,
+        "is_oa": true,
+        "landing_page_url": "https://dspace.sti.ufcg.edu.br/handle/riufcg/11656",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4306402641",
+          "display_name": "LA Referencia (Red Federada de Repositorios Institucionales de Publicaciones Científicas)",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "listed_in": [],
+          "host_organization": "https://openalex.org/I4383465926",
+          "host_organization_name": "LA Referencia",
+          "host_organization_lineage": [
+            "https://openalex.org/I4383465926"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": "other-oa",
+        "license_id": "https://openalex.org/licenses/other-oa",
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "instacron:UFCG",
+        "raw_type": "info:eu-repo/semantics/masterThesis"
+      },
+      "sustainable_development_goals": [
+        {
+          "score": 0.5378999710083008,
+          "display_name": "Industry, innovation and infrastructure",
+          "id": "https://metadata.un.org/sdg/9"
+        }
+      ],
+      "study_designs": [],
+      "awards": [],
+      "funders": [],
+      "has_content": {
+        "pdf": false,
+        "grobid_xml": false
+      },
+      "content_urls": null,
+      "referenced_works_count": 0,
+      "referenced_works": [],
+      "related_works": [
+        "https://openalex.org/W2146116990",
+        "https://openalex.org/W2584613961",
+        "https://openalex.org/W7027775831",
+        "https://openalex.org/W7096319447",
+        "https://openalex.org/W2360191899",
+        "https://openalex.org/W2268378738",
+        "https://openalex.org/W2486855724",
+        "https://openalex.org/W1503550327",
+        "https://openalex.org/W1974119456"
+      ],
+      "abstract_inverted_index": {
+        "O": [
+          0
+        ],
+        "surgimento": [
+          1
+        ],
+        "e": [
+          2,
+          13,
+          18,
+          54,
+          154
+        ],
+        "a": [
+          3,
+          49,
+          55,
+          99,
+          127,
+          135,
+          141
+        ],
+        "constante": [
+          4
+        ],
+        "popularização": [
+          5
+        ],
+        "de": [
+          6,
+          23,
+          25,
+          36,
+          39,
+          51,
+          69,
+          79,
+          86,
+          96,
+          118,
+          120,
+          130,
+          137,
+          139,
+          143,
+          146,
+          148,
+          161
+        ],
+        "dispositivos": [
+          7
+        ],
+        "portáteis,": [
+          8
+        ],
+        "tais": [
+          9
+        ],
+        "como": [
+          10,
+          124
+        ],
+        "notebooks,": [
+          11
+        ],
+        "laptops": [
+          12
+        ],
+        "personal": [
+          14
+        ],
+        "digital": [
+          15
+        ],
+        "assistants": [
+          16
+        ],
+        "(PDAs),": [
+          17
+        ],
+        "os": [
+          19
+        ],
+        "avanços": [
+          20
+        ],
+        "da": [
+          21,
+          157
+        ],
+        "tecnologia": [
+          22,
+          102
+        ],
+        "rede": [
+          24,
+          136
+        ],
+        "comunicação": [
+          26,
+          138
+        ],
+        "sem": [
+          27,
+          133
+        ],
+        "fio": [
+          28
+        ],
+        "têm": [
+          29
+        ],
+        "motivado": [
+          30
+        ],
+        "pesquisas": [
+          31
+        ],
+        "em": [
+          32,
+          77,
+          83,
+          111
+        ],
+        "uma": [
+          33
+        ],
+        "nova": [
+          34
+        ],
+        "classe": [
+          35
+        ],
+        "aplicações": [
+          37,
+          61
+        ],
+        "chamadas": [
+          38
+        ],
+        "móveis": [
+          40,
+          85
+        ],
+        "ou": [
+          41,
+          110
+        ],
+        "nômades,": [
+          42
+        ],
+        "permitindo": [
+          43
+        ],
+        "que": [
+          44,
+          122
+        ],
+        "usuários": [
+          45
+        ],
+        "possam": [
+          46
+        ],
+        "ter": [
+          47
+        ],
+        "acesso": [
+          48
+        ],
+        "informações": [
+          50
+        ],
+        "qualquer": [
+          52,
+          56
+        ],
+        "lugar": [
+          53
+        ],
+        "momento.": [
+          57
+        ],
+        "Dentre": [
+          58
+        ],
+        "essas": [
+          59
+        ],
+        "novas": [
+          60
+        ],
+        "destacamos": [
+          62
+        ],
+        "Data": [
+          63
+        ],
+        "Warehouse": [
+          64
+        ],
+        "Móvel": [
+          65
+        ],
+        "(DWM).": [
+          66
+        ],
+        "Construir": [
+          67
+        ],
+        "sistemas": [
+          68
+        ],
+        "DWM": [
+          70
+        ],
+        "significa": [
+          71
+        ],
+        "transpor": [
+          72
+        ],
+        "inúmeros": [
+          73
+        ],
+        "desafios,": [
+          74
+        ],
+        "como:": [
+          75
+        ],
+        "disponibilidade": [
+          76
+        ],
+        "redes": [
+          78
+        ],
+        "baixa": [
+          80
+        ],
+        "capacidade,": [
+          81
+        ],
+        "funcionamento": [
+          82
+        ],
+        "plataformas": [
+          84,
+          152
+        ],
+        "pequeno": [
+          87
+        ],
+        "porte,": [
+          88
+        ],
+        "ao": [
+          89
+        ],
+        "mesmo": [
+          90
+        ],
+        "tempo": [
+          91
+        ],
+        "garantindo": [
+          92
+        ],
+        "o": [
+          93,
+          155
+        ],
+        "alto": [
+          94
+        ],
+        "desempenho": [
+          95
+        ],
+        "consultas": [
+          97
+        ],
+        "OLAP": [
+          98
+        ],
+        "DW.": [
+          100
+        ],
+        "Como": [
+          101
+        ],
+        "nascente,": [
+          103
+        ],
+        "há": [
+          104
+        ],
+        "diversos": [
+          105
+        ],
+        "problemas": [
+          106
+        ],
+        "não": [
+          107
+        ],
+        "satisfatoriamente": [
+          108
+        ],
+        "resolvidos,": [
+          109
+        ],
+        "aberto.": [
+          112
+        ],
+        "Esta": [
+          113
+        ],
+        "dissertação": [
+          114
+        ],
+        "propõe": [
+          115
+        ],
+        "um": [
+          116
+        ],
+        "software": [
+          117
+        ],
+        "gerenciamento": [
+          119
+        ],
+        "DWMs,": [
+          121
+        ],
+        "tem": [
+          123
+        ],
+        "principais": [
+          125
+        ],
+        "objetivos:": [
+          126
+        ],
+        "atualização": [
+          128
+        ],
+        "simultânea": [
+          129
+        ],
+        "vários": [
+          131
+        ],
+        "DWMs": [
+          132,
+          149
+        ],
+        "onerar": [
+          134
+        ],
+        "dados,": [
+          140
+        ],
+        "alocação": [
+          142
+        ],
+        "diversas": [
+          144
+        ],
+        "tarefas": [
+          145
+        ],
+        "manutenção": [
+          147
+        ],
+        "fora": [
+          150
+        ],
+        "das": [
+          151
+        ],
+        "móveis,": [
+          153
+        ],
+        "imperativo": [
+          156
+        ],
+        "eficiência": [
+          158
+        ],
+        "dos": [
+          159
+        ],
+        "algoritmos": [
+          160
+        ],
+        "atualização.": [
+          162
+        ]
+      },
+      "counts_by_year": [],
+      "updated_date": "2026-11-14T11:04:58.165337",
+      "created_date": "2026-01-10T00:00:00"
+    },
+    {
+      "id": "https://openalex.org/W2188699555",
+      "doi": null,
+      "title": "Information Integrity: THE NEXT FRONTIER FOR DATA WAREHOUSE MANAGERS",
+      "display_name": "Information Integrity: THE NEXT FRONTIER FOR DATA WAREHOUSE MANAGERS",
+      "relevance_score": 144.17033,
+      "publication_year": 2007,
+      "publication_date": "2007-01-01",
+      "ids": {
+        "openalex": "https://openalex.org/W2188699555",
+        "mag": "2188699555"
+      },
+      "language": "en",
+      "primary_location": {
+        "id": "mag:2188699555",
+        "doi": null,
+        "is_oa": false,
+        "landing_page_url": "https://www.infogix.com/docs/WhitePaper_DataWarehouse3.pdf",
+        "pdf_url": null,
+        "source": null,
+        "license": null,
+        "license_id": null,
+        "version": null,
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": null,
+        "raw_type": null
+      },
+      "parent_works": [],
+      "lineage": [
+        "https://openalex.org/W2188699555"
+      ],
+      "child_works_count": 0,
+      "type": "article",
+      "is_traditional": true,
+      "indexed_in": [],
+      "open_access": {
+        "is_oa": false,
+        "oa_status": "closed",
+        "oa_url": null,
+        "any_repository_has_fulltext": false
+      },
+      "authorships": [
+        {
+          "author_position": "first",
+          "author": {
+            "id": "https://openalex.org/A5073157618",
+            "display_name": "Angsuman Dutta",
+            "orcid": null,
+            "observed_orcids": []
+          },
+          "institutions": [],
+          "countries": [],
+          "is_corresponding": false,
+          "raw_author_name": "Angsuman Dutta",
+          "raw_affiliation_strings": [],
+          "raw_orcid": null,
+          "affiliations": []
+        },
+        {
+          "author_position": "last",
+          "author": {
+            "id": "https://openalex.org/A5020957698",
+            "display_name": "Stephen Linsley",
+            "orcid": null,
+            "observed_orcids": []
+          },
+          "institutions": [],
+          "countries": [],
+          "is_corresponding": false,
+          "raw_author_name": "Stephen Linsley",
+          "raw_affiliation_strings": [],
+          "raw_orcid": null,
+          "affiliations": []
+        }
+      ],
+      "institutions": [],
+      "countries_distinct_count": 0,
+      "institutions_distinct_count": 0,
+      "corresponding_author_ids": [],
+      "corresponding_institution_ids": [],
+      "apc_list": null,
+      "apc_paid": null,
+      "fwci": 0.0,
+      "is_authors_truncated": false,
+      "has_fulltext": false,
+      "cited_by_count": 0,
+      "citation_normalized_percentile": {
+        "value": 0.0,
+        "is_in_top_1_percent": false,
+        "is_in_top_10_percent": false
+      },
+      "cited_by_percentile_year": null,
+      "biblio": {
+        "volume": null,
+        "issue": null,
+        "first_page": null,
+        "last_page": null
+      },
+      "is_retracted": false,
+      "is_paratext": false,
+      "is_xpac": false,
+      "primary_topic": {
+        "id": "https://openalex.org/T11719",
+        "display_name": "Data Quality and Management",
+        "score": 0.7279999852180481,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1710",
+          "display_name": "Information Systems"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      "topics": [
+        {
+          "id": "https://openalex.org/T11719",
+          "display_name": "Data Quality and Management",
+          "score": 0.7279999852180481,
+          "subfield": {
+            "id": "https://openalex.org/subfields/1710",
+            "display_name": "Information Systems"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/17",
+            "display_name": "Computer Science"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T11891",
+          "display_name": "Big Data and Business Intelligence",
+          "score": 0.26930001378059387,
+          "subfield": {
+            "id": "https://openalex.org/subfields/1404",
+            "display_name": "Management Information Systems"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/14",
+            "display_name": "Business, Management and Accounting"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/2",
+            "display_name": "Social Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T14222",
+          "display_name": "Knowledge Management and Technology",
+          "score": 0.0010000000474974513,
+          "subfield": {
+            "id": "https://openalex.org/subfields/1802",
+            "display_name": "Information Systems and Management"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/18",
+            "display_name": "Decision Sciences"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/2",
+            "display_name": "Social Sciences"
+          }
+        }
+      ],
+      "keywords": [
+        {
+          "id": "https://openalex.org/keywords/information-integrity",
+          "display_name": "information integrity",
+          "score": 0.9190000295639038
+        },
+        {
+          "id": "https://openalex.org/keywords/data-warehouse-management",
+          "display_name": "data warehouse management",
+          "score": 0.8600000143051147
+        },
+        {
+          "id": "https://openalex.org/keywords/data-quality",
+          "display_name": "data quality",
+          "score": 0.9549999833106995
+        },
+        {
+          "id": "https://openalex.org/keywords/data-accuracy",
+          "display_name": "data accuracy",
+          "score": 0.7540000081062317
+        },
+        {
+          "id": "https://openalex.org/keywords/data-completeness",
+          "display_name": "data completeness",
+          "score": 0.7590000033378601
+        },
+        {
+          "id": "https://openalex.org/keywords/data-consistency",
+          "display_name": "data consistency",
+          "score": 0.8880000114440918
+        },
+        {
+          "id": "https://openalex.org/keywords/sox-compliance",
+          "display_name": "SOX compliance",
+          "score": 0.7200000286102295
+        },
+        {
+          "id": "https://openalex.org/keywords/regulatory-compliance",
+          "display_name": "regulatory compliance",
+          "score": 0.8450000286102295
+        },
+        {
+          "id": "https://openalex.org/keywords/business-intelligence",
+          "display_name": "business intelligence",
+          "score": 0.9620000123977661
+        },
+        {
+          "id": "https://openalex.org/keywords/performance-management",
+          "display_name": "performance management",
+          "score": 0.781000018119812
+        },
+        {
+          "id": "https://openalex.org/keywords/operational-excellence",
+          "display_name": "operational excellence",
+          "score": 0.597000002861023
+        }
+      ],
+      "concepts": [
+        {
+          "id": "https://openalex.org/C135572916",
+          "wikidata": "https://www.wikidata.org/wiki/Q193351",
+          "display_name": "Data warehouse",
+          "level": 2,
+          "score": 0.7825965881347656
+        },
+        {
+          "id": "https://openalex.org/C144133560",
+          "wikidata": "https://www.wikidata.org/wiki/Q4830453",
+          "display_name": "Business",
+          "level": 0,
+          "score": 0.5300502777099609
+        },
+        {
+          "id": "https://openalex.org/C2778597612",
+          "wikidata": "https://www.wikidata.org/wiki/Q7097786",
+          "display_name": "Operational excellence",
+          "level": 2,
+          "score": 0.48920130729675293
+        },
+        {
+          "id": "https://openalex.org/C50416739",
+          "wikidata": "https://www.wikidata.org/wiki/Q181623",
+          "display_name": "Warehouse",
+          "level": 2,
+          "score": 0.4697464108467102
+        },
+        {
+          "id": "https://openalex.org/C2767350",
+          "wikidata": "https://www.wikidata.org/wiki/Q6662173",
+          "display_name": "Business intelligence",
+          "level": 2,
+          "score": 0.46038106083869934
+        },
+        {
+          "id": "https://openalex.org/C33762810",
+          "wikidata": "https://www.wikidata.org/wiki/Q461671",
+          "display_name": "Data integrity",
+          "level": 2,
+          "score": 0.448416143655777
+        },
+        {
+          "id": "https://openalex.org/C41008148",
+          "wikidata": "https://www.wikidata.org/wiki/Q21198",
+          "display_name": "Computer science",
+          "level": 0,
+          "score": 0.44577881693840027
+        },
+        {
+          "id": "https://openalex.org/C112930515",
+          "wikidata": "https://www.wikidata.org/wiki/Q4389547",
+          "display_name": "Risk analysis (engineering)",
+          "level": 1,
+          "score": 0.4403926432132721
+        },
+        {
+          "id": "https://openalex.org/C195094911",
+          "wikidata": "https://www.wikidata.org/wiki/Q14167904",
+          "display_name": "Process management",
+          "level": 1,
+          "score": 0.3481874465942383
+        },
+        {
+          "id": "https://openalex.org/C2522767166",
+          "wikidata": "https://www.wikidata.org/wiki/Q2374463",
+          "display_name": "Data science",
+          "level": 1,
+          "score": 0.34649336338043213
+        },
+        {
+          "id": "https://openalex.org/C56739046",
+          "wikidata": "https://www.wikidata.org/wiki/Q192060",
+          "display_name": "Knowledge management",
+          "level": 1,
+          "score": 0.32783788442611694
+        },
+        {
+          "id": "https://openalex.org/C77088390",
+          "wikidata": "https://www.wikidata.org/wiki/Q8513",
+          "display_name": "Database",
+          "level": 1,
+          "score": 0.32082900404930115
+        },
+        {
+          "id": "https://openalex.org/C162853370",
+          "wikidata": "https://www.wikidata.org/wiki/Q39809",
+          "display_name": "Marketing",
+          "level": 1,
+          "score": 0.19609227776527405
+        }
+      ],
+      "mesh": [],
+      "locations_count": 1,
+      "locations": [
+        {
+          "id": "mag:2188699555",
+          "doi": null,
+          "is_oa": false,
+          "landing_page_url": "https://www.infogix.com/docs/WhitePaper_DataWarehouse3.pdf",
+          "pdf_url": null,
+          "source": null,
+          "license": null,
+          "license_id": null,
+          "version": null,
+          "is_accepted": false,
+          "is_published": false,
+          "raw_source_name": null,
+          "raw_type": null
+        }
+      ],
+      "best_oa_location": null,
+      "sustainable_development_goals": [],
+      "study_designs": [],
+      "awards": [],
+      "funders": [],
+      "has_content": {
+        "pdf": false,
+        "grobid_xml": false
+      },
+      "content_urls": null,
+      "referenced_works_count": 0,
+      "referenced_works": [],
+      "related_works": [
+        "https://openalex.org/W2394015331",
+        "https://openalex.org/W2186115571",
+        "https://openalex.org/W1532214787",
+        "https://openalex.org/W4386546180",
+        "https://openalex.org/W1956792990",
+        "https://openalex.org/W2254506487",
+        "https://openalex.org/W3187018542",
+        "https://openalex.org/W2201117160",
+        "https://openalex.org/W7213952282",
+        "https://openalex.org/W7046137409"
+      ],
+      "abstract_inverted_index": {
+        "Despite": [
+          0
+        ],
+        "millions": [
+          1
+        ],
+        "of": [
+          2,
+          5,
+          37,
+          53,
+          63,
+          75,
+          84,
+          98,
+          124,
+          132,
+          165
+        ],
+        "dollars": [
+          3
+        ],
+        "worth": [
+          4
+        ],
+        "investments,": [
+          6
+        ],
+        "information": [
+          7,
+          100,
+          134
+        ],
+        "within": [
+          8
+        ],
+        "the": [
+          9,
+          54,
+          59,
+          70,
+          99,
+          144,
+          156
+        ],
+        "data": [
+          10
+        ],
+        "warehouse": [
+          11
+        ],
+        "continues": [
+          12
+        ],
+        "to": [
+          13,
+          58,
+          119,
+          136,
+          147,
+          160
+        ],
+        "be": [
+          14,
+          117
+        ],
+        "inaccurate,": [
+          15
+        ],
+        "incomplete,": [
+          16
+        ],
+        "and": [
+          17,
+          31,
+          35,
+          61,
+          78,
+          80,
+          86,
+          92,
+          111,
+          122,
+          127,
+          139,
+          155
+        ],
+        "often": [
+          18,
+          108
+        ],
+        "inconsistent": [
+          19
+        ],
+        "with": [
+          20
+        ],
+        "its": [
+          21
+        ],
+        "sources.": [
+          22
+        ],
+        "As": [
+          23
+        ],
+        "a": [
+          24
+        ],
+        "result,": [
+          25
+        ],
+        "Data": [
+          26,
+          44,
+          64,
+          103,
+          145
+        ],
+        "Warehouses": [
+          27
+        ],
+        "experience": [
+          28
+        ],
+        "low": [
+          29
+        ],
+        "confidence": [
+          30
+        ],
+        "acceptance": [
+          32
+        ],
+        "by": [
+          33
+        ],
+        "users": [
+          34
+        ],
+        "consumers": [
+          36
+        ],
+        "downstream": [
+          38
+        ],
+        "reports.": [
+          39
+        ],
+        "Additionally,": [
+          40
+        ],
+        "in": [
+          41,
+          69,
+          101
+        ],
+        "many": [
+          42,
+          52
+        ],
+        "cases": [
+          43
+        ],
+        "Warehouse": [
+          45,
+          65,
+          104,
+          146
+        ],
+        "projects": [
+          46,
+          105
+        ],
+        "have": [
+          47,
+          120
+        ],
+        "failed.": [
+          48
+        ],
+        "Organizations": [
+          49
+        ],
+        "today": [
+          50,
+          106
+        ],
+        "face": [
+          51
+        ],
+        "following": [
+          55
+        ],
+        "challenges": [
+          56
+        ],
+        "related": [
+          57
+        ],
+        "management": [
+          60
+        ],
+        "control": [
+          62
+        ],
+        "information:": [
+          66
+        ],
+        "accelerating": [
+          67
+        ],
+        "changes": [
+          68
+        ],
+        "business": [
+          71,
+          149
+        ],
+        "environment,": [
+          72
+        ],
+        "increasing": [
+          73
+        ],
+        "complexity": [
+          74
+        ],
+        "source": [
+          76
+        ],
+        "systems": [
+          77
+        ],
+        "technology,": [
+          79
+        ],
+        "an": [
+          81,
+          129
+        ],
+        "expanding": [
+          82
+        ],
+        "array": [
+          83
+        ],
+        "regulations": [
+          85
+        ],
+        "compliance": [
+          87,
+          153
+        ],
+        "requirements": [
+          88
+        ],
+        "such": [
+          89
+        ],
+        "as": [
+          90
+        ],
+        "SOX": [
+          91
+        ],
+        "numerous": [
+          93
+        ],
+        "industry-specific": [
+          94
+        ],
+        "regulations.": [
+          95
+        ],
+        "The": [
+          96
+        ],
+        "integrity": [
+          97
+        ],
+        "most": [
+          102
+        ],
+        "is": [
+          107
+        ],
+        "unclear,": [
+          109
+        ],
+        "ill-defined,": [
+          110
+        ],
+        "at": [
+          112,
+          162
+        ],
+        "best": [
+          113
+        ],
+        "suspect.": [
+          114
+        ],
+        "It": [
+          115
+        ],
+        "will": [
+          116
+        ],
+        "necessary": [
+          118
+        ],
+        "definitions": [
+          121
+        ],
+        "standards": [
+          123
+        ],
+        "Information": [
+          125,
+          141
+        ],
+        "Integrity": [
+          126,
+          142
+        ],
+        "deploy": [
+          128
+        ],
+        "effective": [
+          130
+        ],
+        "system": [
+          131
+        ],
+        "automated": [
+          133
+        ],
+        "controls": [
+          135
+        ],
+        "monitor,": [
+          137
+        ],
+        "measure,": [
+          138
+        ],
+        "maintain": [
+          140
+        ],
+        "throughout": [
+          143
+        ],
+        "meet": [
+          148
+        ],
+        "intelligence,": [
+          150
+        ],
+        "performance": [
+          151
+        ],
+        "management,": [
+          152
+        ],
+        "needs,": [
+          154
+        ],
+        "increasingly": [
+          157
+        ],
+        "high": [
+          158
+        ],
+        "demand": [
+          159
+        ],
+        "execute": [
+          161
+        ],
+        "unprecedented": [
+          163
+        ],
+        "levels": [
+          164
+        ],
+        "operational": [
+          166
+        ],
+        "excellence.": [
+          167
+        ]
+      },
+      "counts_by_year": [],
+      "updated_date": "2025-11-06T04:12:42.849631",
+      "created_date": "2016-06-24T00:00:00"
+    },
+    {
+      "id": "https://openalex.org/W1549717312",
+      "doi": null,
+      "title": "WATCHMAN: A Data Warehouse Intelligent Cache Manager",
+      "display_name": "WATCHMAN: A Data Warehouse Intelligent Cache Manager",
+      "relevance_score": 114.54088,
+      "publication_year": 1996,
+      "publication_date": "1996-09-03",
+      "ids": {
+        "openalex": "https://openalex.org/W1549717312",
+        "mag": "1549717312"
+      },
+      "language": "en",
+      "primary_location": {
+        "id": "mag:1549717312",
+        "doi": null,
+        "is_oa": false,
+        "landing_page_url": "http://lass.cs.umass.edu/~shenoy/courses/spring00/791u/papers/watchman.pdf",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4306421142",
+          "display_name": "Very Large Data Bases",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "listed_in": [],
+          "host_organization": null,
+          "host_organization_name": null,
+          "host_organization_lineage": [],
+          "host_organization_lineage_names": [],
+          "type": "conference"
+        },
+        "license": null,
+        "license_id": null,
+        "version": null,
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": "Very Large Data Bases",
+        "raw_type": null
+      },
+      "parent_works": [],
+      "lineage": [
+        "https://openalex.org/W1549717312"
+      ],
+      "child_works_count": 0,
+      "type": "article",
+      "is_traditional": true,
+      "indexed_in": [],
+      "open_access": {
+        "is_oa": false,
+        "oa_status": "closed",
+        "oa_url": null,
+        "any_repository_has_fulltext": false
+      },
+      "authorships": [
+        {
+          "author_position": "first",
+          "author": {
+            "id": "https://openalex.org/A5031838897",
+            "display_name": "Peter Scheuermann",
+            "orcid": null,
+            "observed_orcids": []
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I111979921",
+              "display_name": "Northwestern University",
+              "ror": "https://ror.org/000e0be47",
+              "country_code": "US",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I111979921"
+              ]
+            }
+          ],
+          "countries": [
+            "US"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "Peter Scheuermann",
+          "raw_affiliation_strings": [
+            "Northwestern Univ., Evanston, IL (United States)"
+          ],
+          "raw_orcid": null,
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Northwestern Univ., Evanston, IL (United States)",
+              "institution_ids": [
+                "https://openalex.org/I111979921"
+              ]
+            }
+          ]
+        },
+        {
+          "author_position": "middle",
+          "author": {
+            "id": "https://openalex.org/A5077087855",
+            "display_name": "Junho Shim",
+            "orcid": "https://orcid.org/0000-0003-4315-4117",
+            "observed_orcids": [
+              "https://orcid.org/0000-0003-4315-4117"
+            ]
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I111979921",
+              "display_name": "Northwestern University",
+              "ror": "https://ror.org/000e0be47",
+              "country_code": "US",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I111979921"
+              ]
+            }
+          ],
+          "countries": [
+            "US"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "Junho Shim",
+          "raw_affiliation_strings": [
+            "Northwestern University****"
+          ],
+          "raw_orcid": "https://orcid.org/0000-0003-4315-4117",
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Northwestern University****",
+              "institution_ids": [
+                "https://openalex.org/I111979921"
+              ]
+            }
+          ]
+        },
+        {
+          "author_position": "last",
+          "author": {
+            "id": "https://openalex.org/A5000607653",
+            "display_name": "Radek Vingralek",
+            "orcid": null,
+            "observed_orcids": []
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I111979921",
+              "display_name": "Northwestern University",
+              "ror": "https://ror.org/000e0be47",
+              "country_code": "US",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I111979921"
+              ]
+            }
+          ],
+          "countries": [
+            "US"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "Radek Vingralek",
+          "raw_affiliation_strings": [
+            "Northwestern University****"
+          ],
+          "raw_orcid": null,
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Northwestern University****",
+              "institution_ids": [
+                "https://openalex.org/I111979921"
+              ]
+            }
+          ]
+        }
+      ],
+      "institutions": [],
+      "countries_distinct_count": 1,
+      "institutions_distinct_count": 1,
+      "corresponding_author_ids": [],
+      "corresponding_institution_ids": [
+        "https://openalex.org/I111979921"
+      ],
+      "apc_list": null,
+      "apc_paid": null,
+      "fwci": 11.0485,
+      "is_authors_truncated": false,
+      "has_fulltext": false,
+      "cited_by_count": 125,
+      "citation_normalized_percentile": {
+        "value": 0.98140321,
+        "is_in_top_1_percent": false,
+        "is_in_top_10_percent": true
+      },
+      "cited_by_percentile_year": {
+        "min": 88,
+        "max": 98
+      },
+      "biblio": {
+        "volume": null,
+        "issue": null,
+        "first_page": "51",
+        "last_page": "62"
+      },
+      "is_retracted": false,
+      "is_paratext": false,
+      "is_xpac": false,
+      "primary_topic": {
+        "id": "https://openalex.org/T10317",
+        "display_name": "Advanced Database Systems and Queries",
+        "score": 0.986299991607666,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1710",
+          "display_name": "Information Systems"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      "topics": [
+        {
+          "id": "https://openalex.org/T10317",
+          "display_name": "Advanced Database Systems and Queries",
+          "score": 0.986299991607666,
+          "subfield": {
+            "id": "https://openalex.org/subfields/1710",
+            "display_name": "Information Systems"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/17",
+            "display_name": "Computer Science"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T11891",
+          "display_name": "Big Data and Business Intelligence",
+          "score": 0.003100000089034438,
+          "subfield": {
+            "id": "https://openalex.org/subfields/1404",
+            "display_name": "Management Information Systems"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/14",
+            "display_name": "Business, Management and Accounting"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/2",
+            "display_name": "Social Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T11478",
+          "display_name": "Caching and Content Delivery",
+          "score": 0.0010000000474974513,
+          "subfield": {
+            "id": "https://openalex.org/subfields/1705",
+            "display_name": "Computer Networks and Communications"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/17",
+            "display_name": "Computer Science"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        }
+      ],
+      "keywords": [
+        {
+          "id": "https://openalex.org/keywords/data-warehouse",
+          "display_name": "data warehouse",
+          "score": 0.8069999814033508
+        },
+        {
+          "id": "https://openalex.org/keywords/query-result-caching",
+          "display_name": "query result caching",
+          "score": 0.8109999895095825
+        },
+        {
+          "id": "https://openalex.org/keywords/cache-replacement-policy",
+          "display_name": "cache replacement policy",
+          "score": 0.890999972820282
+        },
+        {
+          "id": "https://openalex.org/keywords/query-time",
+          "display_name": "query response time",
+          "score": 0.6909999847412109
+        },
+        {
+          "id": "https://openalex.org/keywords/decision-support-system",
+          "display_name": "decision support system",
+          "score": 0.8690000176429749
+        },
+        {
+          "id": "https://openalex.org/keywords/tpc-ds",
+          "display_name": "TPC-DS",
+          "score": 0.7239999771118164
+        }
+      ],
+      "concepts": [
+        {
+          "id": "https://openalex.org/C41008148",
+          "wikidata": "https://www.wikidata.org/wiki/Q21198",
+          "display_name": "Computer science",
+          "level": 0,
+          "score": 0.8983731269836426
+        },
+        {
+          "id": "https://openalex.org/C115537543",
+          "wikidata": "https://www.wikidata.org/wiki/Q165596",
+          "display_name": "Cache",
+          "level": 2,
+          "score": 0.7955321669578552
+        },
+        {
+          "id": "https://openalex.org/C135572916",
+          "wikidata": "https://www.wikidata.org/wiki/Q193351",
+          "display_name": "Data warehouse",
+          "level": 2,
+          "score": 0.6577073931694031
+        },
+        {
+          "id": "https://openalex.org/C157692150",
+          "wikidata": "https://www.wikidata.org/wiki/Q2919848",
+          "display_name": "Query optimization",
+          "level": 2,
+          "score": 0.6352986693382263
+        },
+        {
+          "id": "https://openalex.org/C38556500",
+          "wikidata": "https://www.wikidata.org/wiki/Q13404475",
+          "display_name": "Cache algorithms",
+          "level": 4,
+          "score": 0.5858984589576721
+        },
+        {
+          "id": "https://openalex.org/C77088390",
+          "wikidata": "https://www.wikidata.org/wiki/Q8513",
+          "display_name": "Database",
+          "level": 1,
+          "score": 0.5243589878082275
+        },
+        {
+          "id": "https://openalex.org/C164120249",
+          "wikidata": "https://www.wikidata.org/wiki/Q995982",
+          "display_name": "Web search query",
+          "level": 3,
+          "score": 0.5068476796150208
+        },
+        {
+          "id": "https://openalex.org/C192939062",
+          "wikidata": "https://www.wikidata.org/wiki/Q104840822",
+          "display_name": "Sargable",
+          "level": 4,
+          "score": 0.4731762707233429
+        },
+        {
+          "id": "https://openalex.org/C25536678",
+          "wikidata": "https://www.wikidata.org/wiki/Q5015977",
+          "display_name": "Cache invalidation",
+          "level": 5,
+          "score": 0.45862218737602234
+        },
+        {
+          "id": "https://openalex.org/C118689300",
+          "wikidata": "https://www.wikidata.org/wiki/Q7978614",
+          "display_name": "Web query classification",
+          "level": 4,
+          "score": 0.4553450047969818
+        },
+        {
+          "id": "https://openalex.org/C99016210",
+          "wikidata": "https://www.wikidata.org/wiki/Q5488129",
+          "display_name": "Query expansion",
+          "level": 2,
+          "score": 0.4453417658805847
+        },
+        {
+          "id": "https://openalex.org/C192028432",
+          "wikidata": "https://www.wikidata.org/wiki/Q845739",
+          "display_name": "Query language",
+          "level": 2,
+          "score": 0.43110954761505127
+        },
+        {
+          "id": "https://openalex.org/C189783530",
+          "wikidata": "https://www.wikidata.org/wiki/Q352090",
+          "display_name": "CPU cache",
+          "level": 3,
+          "score": 0.3725433349609375
+        },
+        {
+          "id": "https://openalex.org/C124101348",
+          "wikidata": "https://www.wikidata.org/wiki/Q172491",
+          "display_name": "Data mining",
+          "level": 1,
+          "score": 0.32641151547431946
+        },
+        {
+          "id": "https://openalex.org/C23123220",
+          "wikidata": "https://www.wikidata.org/wiki/Q816826",
+          "display_name": "Information retrieval",
+          "level": 1,
+          "score": 0.31107810139656067
+        },
+        {
+          "id": "https://openalex.org/C111919701",
+          "wikidata": "https://www.wikidata.org/wiki/Q9135",
+          "display_name": "Operating system",
+          "level": 1,
+          "score": 0.27020084857940674
+        },
+        {
+          "id": "https://openalex.org/C97854310",
+          "wikidata": "https://www.wikidata.org/wiki/Q19541",
+          "display_name": "Search engine",
+          "level": 2,
+          "score": 0.1563825011253357
+        }
+      ],
+      "mesh": [],
+      "locations_count": 7,
+      "locations": [
+        {
+          "id": "mag:1549717312",
+          "doi": null,
+          "is_oa": false,
+          "landing_page_url": "http://lass.cs.umass.edu/~shenoy/courses/spring00/791u/papers/watchman.pdf",
+          "pdf_url": null,
+          "source": {
+            "id": "https://openalex.org/S4306421142",
+            "display_name": "Very Large Data Bases",
+            "issn_l": null,
+            "issn": null,
+            "is_oa": false,
+            "is_in_doaj": false,
+            "is_core": false,
+            "listed_in": [],
+            "host_organization": null,
+            "host_organization_name": null,
+            "host_organization_lineage": [],
+            "host_organization_lineage_names": [],
+            "type": "conference"
+          },
+          "license": null,
+          "license_id": null,
+          "version": null,
+          "is_accepted": false,
+          "is_published": false,
+          "raw_source_name": "Very Large Data Bases",
+          "raw_type": null
+        },
+        {
+          "id": "pmh:oai:CiteSeerX.psu:10.1.1.133.5342",
+          "doi": null,
+          "is_oa": false,
+          "landing_page_url": "http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.133.5342",
+          "pdf_url": null,
+          "source": null,
+          "license": null,
+          "license_id": null,
+          "version": "submittedVersion",
+          "is_accepted": false,
+          "is_published": false,
+          "raw_source_name": "http://ntrs.nasa.gov/archive/nasa/casi.ntrs.nasa.gov/19980002734_1997124796.pdf",
+          "raw_type": "text"
+        },
+        {
+          "id": "pmh:oai:CiteSeerX.psu:10.1.1.40.7573",
+          "doi": null,
+          "is_oa": false,
+          "landing_page_url": "http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.40.7573",
+          "pdf_url": null,
+          "source": null,
+          "license": null,
+          "license_id": null,
+          "version": "submittedVersion",
+          "is_accepted": false,
+          "is_published": false,
+          "raw_source_name": "http://140.115.82.191/old/warehouse/Article_2.PS",
+          "raw_type": "text"
+        },
+        {
+          "id": "pmh:oai:CiteSeerX.psu:10.1.1.45.2115",
+          "doi": null,
+          "is_oa": false,
+          "landing_page_url": "http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.45.2115",
+          "pdf_url": null,
+          "source": null,
+          "license": null,
+          "license_id": null,
+          "version": "submittedVersion",
+          "is_accepted": false,
+          "is_published": false,
+          "raw_source_name": "ftp://ftp.informatik.uni-trier.de/pub/Users-DBIS/ley/vldb/ScheuermannSV96/Article.PS",
+          "raw_type": "text"
+        },
+        {
+          "id": "pmh:oai:CiteSeerX.psu:10.1.1.51.7062",
+          "doi": null,
+          "is_oa": false,
+          "landing_page_url": "http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.51.7062",
+          "pdf_url": null,
+          "source": null,
+          "license": null,
+          "license_id": null,
+          "version": "submittedVersion",
+          "is_accepted": false,
+          "is_published": false,
+          "raw_source_name": "http://www.eecs.nwu.edu/~shimjh/./publication/vldb96.ps",
+          "raw_type": "text"
+        },
+        {
+          "id": "pmh:oai:CiteSeerX.psu:10.1.1.56.3578",
+          "doi": null,
+          "is_oa": false,
+          "landing_page_url": "http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.56.3578",
+          "pdf_url": null,
+          "source": null,
+          "license": null,
+          "license_id": null,
+          "version": "submittedVersion",
+          "is_accepted": false,
+          "is_published": false,
+          "raw_source_name": "http://www.ece.nwu.edu/~peters/vldbpaper.96final.ps",
+          "raw_type": "text"
+        },
+        {
+          "id": "pmh:oai:CiteSeerX.psu:10.1.1.66.9615",
+          "doi": null,
+          "is_oa": false,
+          "landing_page_url": "http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.66.9615",
+          "pdf_url": null,
+          "source": null,
+          "license": null,
+          "license_id": null,
+          "version": "submittedVersion",
+          "is_accepted": false,
+          "is_published": false,
+          "raw_source_name": "http://www.vldb.org/conf/1996/P051.PDF",
+          "raw_type": "text"
+        }
+      ],
+      "best_oa_location": null,
+      "sustainable_development_goals": [],
+      "study_designs": [],
+      "awards": [],
+      "funders": [],
+      "has_content": {
+        "pdf": false,
+        "grobid_xml": false
+      },
+      "content_urls": null,
+      "referenced_works_count": 26,
+      "referenced_works": [
+        "https://openalex.org/W10495479",
+        "https://openalex.org/W182759574",
+        "https://openalex.org/W1487184349",
+        "https://openalex.org/W1488870204",
+        "https://openalex.org/W1506761546",
+        "https://openalex.org/W1520815598",
+        "https://openalex.org/W1586923923",
+        "https://openalex.org/W1835416193",
+        "https://openalex.org/W1975577269",
+        "https://openalex.org/W1995999642",
+        "https://openalex.org/W1998601425",
+        "https://openalex.org/W2010413210",
+        "https://openalex.org/W2011039300",
+        "https://openalex.org/W2034042992",
+        "https://openalex.org/W2044236594",
+        "https://openalex.org/W2050902871",
+        "https://openalex.org/W2054308357",
+        "https://openalex.org/W2079383460",
+        "https://openalex.org/W2086681205",
+        "https://openalex.org/W2132777729",
+        "https://openalex.org/W2133683962",
+        "https://openalex.org/W2143401113",
+        "https://openalex.org/W2152197409",
+        "https://openalex.org/W2163772659",
+        "https://openalex.org/W2164219265",
+        "https://openalex.org/W2918864124"
+      ],
+      "related_works": [
+        "https://openalex.org/W1963741421",
+        "https://openalex.org/W7100583067",
+        "https://openalex.org/W4411967765",
+        "https://openalex.org/W2139533448",
+        "https://openalex.org/W2031808555",
+        "https://openalex.org/W4242401629",
+        "https://openalex.org/W1946262574",
+        "https://openalex.org/W2063724904",
+        "https://openalex.org/W4210444150"
+      ],
+      "abstract_inverted_index": {
+        "Data": [
+          0
+        ],
+        "warehouses": [
+          1,
+          40
+        ],
+        "store": [
+          2
+        ],
+        "large": [
+          3
+        ],
+        "volumes": [
+          4
+        ],
+        "of": [
+          5,
+          71,
+          124,
+          127,
+          138
+        ],
+        "data": [
+          6,
+          39,
+          89
+        ],
+        "which": [
+          7,
+          83,
+          142
+        ],
+        "are": [
+          8,
+          41
+        ],
+        "used": [
+          9
+        ],
+        "frequently": [
+          10
+        ],
+        "by": [
+          11,
+          51,
+          55,
+          79
+        ],
+        "decision": [
+          12,
+          29
+        ],
+        "support": [
+          13,
+          30
+        ],
+        "applications.": [
+          14
+        ],
+        "Such": [
+          15
+        ],
+        "applications": [
+          16,
+          31
+        ],
+        "involve": [
+          17
+        ],
+        "complex": [
+          18
+        ],
+        "queries.": [
+          19
+        ],
+        "Query": [
+          20
+        ],
+        "performance": [
+          21,
+          50
+        ],
+        "in": [
+          22,
+          57
+        ],
+        "such": [
+          23
+        ],
+        "an": [
+          24,
+          72
+        ],
+        "environment": [
+          25
+        ],
+        "is": [
+          26,
+          84
+        ],
+        "critical": [
+          27
+        ],
+        "because": [
+          28
+        ],
+        "often": [
+          32
+        ],
+        "require": [
+          33
+        ],
+        "interactive": [
+          34
+        ],
+        "query": [
+          35,
+          49,
+          60,
+          111
+        ],
+        "response": [
+          36,
+          112
+        ],
+        "time.": [
+          37
+        ],
+        "Because": [
+          38
+        ],
+        "updated": [
+          42
+        ],
+        "infrequently,": [
+          43
+        ],
+        "it": [
+          44
+        ],
+        "becomes": [
+          45
+        ],
+        "possible": [
+          46
+        ],
+        "to": [
+          47,
+          59
+        ],
+        "improve": [
+          48
+        ],
+        "caching": [
+          52
+        ],
+        "sets": [
+          53,
+          77,
+          123
+        ],
+        "retrieved": [
+          54,
+          78,
+          122
+        ],
+        "queries": [
+          56,
+          80,
+          125
+        ],
+        "addition": [
+          58
+        ],
+        "execution": [
+          61
+        ],
+        "plans.": [
+          62
+        ],
+        "In": [
+          63
+        ],
+        "this": [
+          64
+        ],
+        "paper": [
+          65
+        ],
+        "we": [
+          66
+        ],
+        "report": [
+          67
+        ],
+        "on": [
+          68
+        ],
+        "the": [
+          69
+        ],
+        "design": [
+          70
+        ],
+        "intelligent": [
+          73
+        ],
+        "cache": [
+          74,
+          93,
+          101,
+          105,
+          116,
+          131
+        ],
+        "manager": [
+          75,
+          94
+        ],
+        "for": [
+          76,
+          88,
+          100,
+          104
+        ],
+        "called": [
+          81
+        ],
+        "WATCHMAN,": [
+          82
+        ],
+        "particularly": [
+          85
+        ],
+        "well": [
+          86
+        ],
+        "suited": [
+          87
+        ],
+        "warehousing": [
+          90
+        ],
+        "environment.": [
+          91
+        ],
+        "Our": [
+          92
+        ],
+        "employs": [
+          95
+        ],
+        "two": [
+          96
+        ],
+        "novel,": [
+          97
+        ],
+        "complementary": [
+          98
+        ],
+        "algorithms": [
+          99,
+          135
+        ],
+        "replacement": [
+          102,
+          117,
+          132
+        ],
+        "and": [
+          103,
+          114,
+          133
+        ],
+        "admission.": [
+          106
+        ],
+        "WATCHMAN": [
+          107
+        ],
+        "aims": [
+          108
+        ],
+        "at": [
+          109
+        ],
+        "minimizing": [
+          110
+        ],
+        "time": [
+          113
+        ],
+        "its": [
+          115
+        ],
+        "policy": [
+          118
+        ],
+        "swaps": [
+          119
+        ],
+        "out": [
+          120
+        ],
+        "entire": [
+          121
+        ],
+        "instead": [
+          126
+        ],
+        "individual": [
+          128
+        ],
+        "pages.": [
+          129
+        ],
+        "The": [
+          130
+        ],
+        "admission": [
+          134
+        ],
+        "make": [
+          136
+        ],
+        "use": [
+          137
+        ],
+        "a": [
+          139
+        ],
+        "profit": [
+          140
+        ],
+        "metric,": [
+          141
+        ],
+        "considers": [
+          143
+        ],
+        "fo...": [
+          144
+        ]
+      },
+      "counts_by_year": [
+        {
+          "year": 2021,
+          "cited_by_count": 3
+        },
+        {
+          "year": 2020,
+          "cited_by_count": 1
+        },
+        {
+          "year": 2019,
+          "cited_by_count": 1
+        },
+        {
+          "year": 2017,
+          "cited_by_count": 3
+        },
+        {
+          "year": 2016,
+          "cited_by_count": 3
+        },
+        {
+          "year": 2015,
+          "cited_by_count": 3
+        },
+        {
+          "year": 2014,
+          "cited_by_count": 5
+        },
+        {
+          "year": 2013,
+          "cited_by_count": 4
+        },
+        {
+          "year": 2012,
+          "cited_by_count": 5
+        }
+      ],
+      "updated_date": "2026-11-15T12:55:33.944570",
+      "created_date": "2016-06-24T00:00:00"
+    },
+    {
+      "id": "https://openalex.org/W2462952502",
+      "doi": null,
+      "title": "Data Warehousing Advice for Managers",
+      "display_name": "Data Warehousing Advice for Managers",
+      "relevance_score": 92.54415,
+      "publication_year": 1999,
+      "publication_date": "1999-01-18",
+      "ids": {
+        "openalex": "https://openalex.org/W2462952502",
+        "mag": "2462952502"
+      },
+      "language": "en",
+      "primary_location": {
+        "id": "pmh:oai:aleph.bib-bvb.de:BVB01-028506382",
+        "doi": null,
+        "is_oa": false,
+        "landing_page_url": "http://search.ebscohost.com/login.aspx?direct=true&amp;scope=site&amp;db=nlebk&amp;db=nlabk&amp;AN=1908",
+        "pdf_url": null,
+        "source": null,
+        "license": null,
+        "license_id": null,
+        "version": "submittedVersion",
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": "",
+        "raw_type": "software, multimedia"
+      },
+      "parent_works": [],
+      "lineage": [
+        "https://openalex.org/W2462952502"
+      ],
+      "child_works_count": 0,
+      "type": "other",
+      "is_traditional": false,
+      "indexed_in": [],
+      "open_access": {
+        "is_oa": false,
+        "oa_status": "closed",
+        "oa_url": null,
+        "any_repository_has_fulltext": false
+      },
+      "authorships": [
+        {
+          "author_position": "first",
+          "author": {
+            "id": "https://openalex.org/A5071302070",
+            "display_name": "Patricia L. Ferdinandi",
+            "orcid": null,
+            "observed_orcids": []
+          },
+          "institutions": [],
+          "countries": [],
+          "is_corresponding": true,
+          "raw_author_name": "Patricia L. Ferdinandi",
+          "raw_affiliation_strings": [],
+          "raw_orcid": null,
+          "affiliations": []
+        }
+      ],
+      "institutions": [],
+      "countries_distinct_count": 0,
+      "institutions_distinct_count": 0,
+      "corresponding_author_ids": [
+        "https://openalex.org/A5071302070"
+      ],
+      "corresponding_institution_ids": [],
+      "apc_list": null,
+      "apc_paid": null,
+      "fwci": null,
+      "is_authors_truncated": false,
+      "has_fulltext": false,
+      "cited_by_count": 3,
+      "citation_normalized_percentile": null,
+      "cited_by_percentile_year": null,
+      "biblio": {
+        "volume": null,
+        "issue": null,
+        "first_page": null,
+        "last_page": null
+      },
+      "is_retracted": false,
+      "is_paratext": false,
+      "is_xpac": false,
+      "primary_topic": {
+        "id": "https://openalex.org/T11891",
+        "display_name": "Big Data and Business Intelligence",
+        "score": 0.9994999766349792,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1404",
+          "display_name": "Management Information Systems"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/14",
+          "display_name": "Business, Management and Accounting"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      "topics": [
+        {
+          "id": "https://openalex.org/T11891",
+          "display_name": "Big Data and Business Intelligence",
+          "score": 0.9994999766349792,
+          "subfield": {
+            "id": "https://openalex.org/subfields/1404",
+            "display_name": "Management Information Systems"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/14",
+            "display_name": "Business, Management and Accounting"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/2",
+            "display_name": "Social Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T11572",
+          "display_name": "Information Technology Governance and Strategy",
+          "score": 9.999999747378752e-05,
+          "subfield": {
+            "id": "https://openalex.org/subfields/1404",
+            "display_name": "Management Information Systems"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/14",
+            "display_name": "Business, Management and Accounting"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/2",
+            "display_name": "Social Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T14222",
+          "display_name": "Knowledge Management and Technology",
+          "score": 9.999999747378752e-05,
+          "subfield": {
+            "id": "https://openalex.org/subfields/1802",
+            "display_name": "Information Systems and Management"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/18",
+            "display_name": "Decision Sciences"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/2",
+            "display_name": "Social Sciences"
+          }
+        }
+      ],
+      "keywords": [
+        {
+          "id": "https://openalex.org/keywords/data-warehousing",
+          "display_name": "data warehousing",
+          "score": 1.0
+        },
+        {
+          "id": "https://openalex.org/keywords/managerial-decision-making",
+          "display_name": "management decision-making",
+          "score": 0.8270000219345093
+        },
+        {
+          "id": "https://openalex.org/keywords/data-storage-systems",
+          "display_name": "data storage systems",
+          "score": 0.6520000100135803
+        },
+        {
+          "id": "https://openalex.org/keywords/business-intelligence",
+          "display_name": "business intelligence",
+          "score": 0.7710000276565552
+        },
+        {
+          "id": "https://openalex.org/keywords/management-decision-support",
+          "display_name": "management decision support",
+          "score": 0.4009999930858612
+        },
+        {
+          "id": "https://openalex.org/keywords/competitive-advantage",
+          "display_name": "competitive advantage",
+          "score": 0.6259999871253967
+        }
+      ],
+      "concepts": [
+        {
+          "id": "https://openalex.org/C109168655",
+          "wikidata": "https://www.wikidata.org/wiki/Q242988",
+          "display_name": "Liberian dollar",
+          "level": 2,
+          "score": 0.7889267206192017
+        },
+        {
+          "id": "https://openalex.org/C2779955035",
+          "wikidata": "https://www.wikidata.org/wiki/Q4686785",
+          "display_name": "Advice (programming)",
+          "level": 2,
+          "score": 0.7430440187454224
+        },
+        {
+          "id": "https://openalex.org/C135572916",
+          "wikidata": "https://www.wikidata.org/wiki/Q193351",
+          "display_name": "Data warehouse",
+          "level": 2,
+          "score": 0.7104639410972595
+        },
+        {
+          "id": "https://openalex.org/C182306322",
+          "wikidata": "https://www.wikidata.org/wiki/Q1779371",
+          "display_name": "Order (exchange)",
+          "level": 2,
+          "score": 0.631198525428772
+        },
+        {
+          "id": "https://openalex.org/C98045186",
+          "wikidata": "https://www.wikidata.org/wiki/Q205663",
+          "display_name": "Process (computing)",
+          "level": 2,
+          "score": 0.5404565930366516
+        },
+        {
+          "id": "https://openalex.org/C41008148",
+          "wikidata": "https://www.wikidata.org/wiki/Q21198",
+          "display_name": "Computer science",
+          "level": 0,
+          "score": 0.4485010504722595
+        },
+        {
+          "id": "https://openalex.org/C144133560",
+          "wikidata": "https://www.wikidata.org/wiki/Q4830453",
+          "display_name": "Business",
+          "level": 0,
+          "score": 0.38679829239845276
+        },
+        {
+          "id": "https://openalex.org/C2522767166",
+          "wikidata": "https://www.wikidata.org/wiki/Q2374463",
+          "display_name": "Data science",
+          "level": 1,
+          "score": 0.35804545879364014
+        },
+        {
+          "id": "https://openalex.org/C162853370",
+          "wikidata": "https://www.wikidata.org/wiki/Q39809",
+          "display_name": "Marketing",
+          "level": 1,
+          "score": 0.35704368352890015
+        },
+        {
+          "id": "https://openalex.org/C77088390",
+          "wikidata": "https://www.wikidata.org/wiki/Q8513",
+          "display_name": "Database",
+          "level": 1,
+          "score": 0.22318869829177856
+        },
+        {
+          "id": "https://openalex.org/C10138342",
+          "wikidata": "https://www.wikidata.org/wiki/Q43015",
+          "display_name": "Finance",
+          "level": 1,
+          "score": 0.11968183517456055
+        },
+        {
+          "id": "https://openalex.org/C111919701",
+          "wikidata": "https://www.wikidata.org/wiki/Q9135",
+          "display_name": "Operating system",
+          "level": 1,
+          "score": 0.0
+        },
+        {
+          "id": "https://openalex.org/C199360897",
+          "wikidata": "https://www.wikidata.org/wiki/Q9143",
+          "display_name": "Programming language",
+          "level": 1,
+          "score": 0.0
+        }
+      ],
+      "mesh": [],
+      "locations_count": 2,
+      "locations": [
+        {
+          "id": "pmh:oai:aleph.bib-bvb.de:BVB01-028506382",
+          "doi": null,
+          "is_oa": false,
+          "landing_page_url": "http://search.ebscohost.com/login.aspx?direct=true&amp;scope=site&amp;db=nlebk&amp;db=nlabk&amp;AN=1908",
+          "pdf_url": null,
+          "source": null,
+          "license": null,
+          "license_id": null,
+          "version": "submittedVersion",
+          "is_accepted": false,
+          "is_published": false,
+          "raw_source_name": "",
+          "raw_type": "software, multimedia"
+        },
+        {
+          "id": "mag:2462952502",
+          "doi": null,
+          "is_oa": false,
+          "landing_page_url": "https://openlibrary.org/books/OL368142M/Data_warehousing_advice_for_managers",
+          "pdf_url": null,
+          "source": null,
+          "license": null,
+          "license_id": null,
+          "version": null,
+          "is_accepted": false,
+          "is_published": false,
+          "raw_source_name": null,
+          "raw_type": null
+        }
+      ],
+      "best_oa_location": null,
+      "sustainable_development_goals": [],
+      "study_designs": [],
+      "awards": [],
+      "funders": [],
+      "has_content": {
+        "pdf": false,
+        "grobid_xml": false
+      },
+      "content_urls": null,
+      "referenced_works_count": 10,
+      "referenced_works": [
+        "https://openalex.org/W39411530",
+        "https://openalex.org/W60791092",
+        "https://openalex.org/W110916833",
+        "https://openalex.org/W1480113763",
+        "https://openalex.org/W1516443426",
+        "https://openalex.org/W1522500515",
+        "https://openalex.org/W1523856491",
+        "https://openalex.org/W1590226943",
+        "https://openalex.org/W2121057544",
+        "https://openalex.org/W2983995785"
+      ],
+      "related_works": [
+        "https://openalex.org/W2039906925",
+        "https://openalex.org/W2477655623",
+        "https://openalex.org/W2582852210",
+        "https://openalex.org/W1481313366",
+        "https://openalex.org/W110916833",
+        "https://openalex.org/W7011366548",
+        "https://openalex.org/W1602817200",
+        "https://openalex.org/W2779250582",
+        "https://openalex.org/W1608169785"
+      ],
+      "abstract_inverted_index": {
+        "From": [
+          0
+        ],
+        "the": [
+          1,
+          4,
+          45,
+          63
+        ],
+        "Publisher:\r\nHere": [
+          2
+        ],
+        "is": [
+          3,
+          13
+        ],
+        "only": [
+          5
+        ],
+        "book": [
+          6,
+          30
+        ],
+        "about": [
+          7
+        ],
+        "data": [
+          8,
+          57
+        ],
+        "warehousing": [
+          9
+        ],
+        "for": [
+          10,
+          32,
+          62
+        ],
+        "managers.": [
+          11
+        ],
+        "It": [
+          12,
+          34
+        ],
+        "not": [
+          14
+        ],
+        "a": [
+          15,
+          20,
+          55
+        ],
+        "technical": [
+          16
+        ],
+        "guide": [
+          17
+        ],
+        "to": [
+          18,
+          72
+        ],
+        "building": [
+          19
+        ],
+        "complicated": [
+          21
+        ],
+        "information": [
+          22
+        ],
+        "system.": [
+          23
+        ],
+        "But": [
+          24
+        ],
+        "it": [
+          25
+        ],
+        "does": [
+          26,
+          31
+        ],
+        "something": [
+          27
+        ],
+        "no": [
+          28
+        ],
+        "other": [
+          29
+        ],
+        "you:": [
+          33
+        ],
+        "leads": [
+          35
+        ],
+        "you,": [
+          36
+        ],
+        "choice": [
+          37,
+          39
+        ],
+        "by": [
+          38,
+          42
+        ],
+        "and": [
+          40,
+          74
+        ],
+        "dollar": [
+          41
+        ],
+        "dollar,": [
+          43
+        ],
+        "through": [
+          44
+        ],
+        "all-important": [
+          46
+        ],
+        "decision": [
+          47
+        ],
+        "making": [
+          48
+        ],
+        "process": [
+          49
+        ],
+        "that": [
+          50
+        ],
+        "ultimately": [
+          51
+        ],
+        "rewards": [
+          52
+        ],
+        "you": [
+          53
+        ],
+        "with": [
+          54
+        ],
+        "powerful": [
+          56
+        ],
+        "storage": [
+          58
+        ],
+        "system,": [
+          59
+        ],
+        "organized": [
+          60
+        ],
+        "specifically": [
+          61
+        ],
+        "kinds": [
+          64
+        ],
+        "of": [
+          65
+        ],
+        "analysis": [
+          66
+        ],
+        "your": [
+          67
+        ],
+        "business": [
+          68
+        ],
+        "requires": [
+          69
+        ],
+        "in": [
+          70
+        ],
+        "order": [
+          71
+        ],
+        "compete": [
+          73
+        ],
+        "grow.": [
+          75
+        ]
+      },
+      "counts_by_year": [
+        {
+          "year": 2015,
+          "cited_by_count": 1
+        }
+      ],
+      "updated_date": "2026-11-14T11:04:58.165337",
+      "created_date": "2016-07-22T00:00:00"
+    },
+    {
+      "id": "https://openalex.org/W2477655623",
+      "doi": null,
+      "title": "A Manager's Guide to Data Warehousing",
+      "display_name": "A Manager's Guide to Data Warehousing",
+      "relevance_score": 89.87192,
+      "publication_year": 2009,
+      "publication_date": "2009-05-26",
+      "ids": {
+        "openalex": "https://openalex.org/W2477655623",
+        "mag": "2477655623"
+      },
+      "language": "en",
+      "primary_location": {
+        "id": "pmh:oai:aleph.bib-bvb.de:BVB01-028502166",
+        "doi": null,
+        "is_oa": false,
+        "landing_page_url": "http://search.ebscohost.com/login.aspx?direct=true&amp;scope=site&amp;db=nlebk&amp;db=nlabk&amp;AN=279164",
+        "pdf_url": null,
+        "source": null,
+        "license": null,
+        "license_id": null,
+        "version": "submittedVersion",
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": "",
+        "raw_type": "software, multimedia"
+      },
+      "parent_works": [],
+      "lineage": [
+        "https://openalex.org/W2477655623"
+      ],
+      "child_works_count": 0,
+      "type": "other",
+      "is_traditional": false,
+      "indexed_in": [],
+      "open_access": {
+        "is_oa": false,
+        "oa_status": "closed",
+        "oa_url": null,
+        "any_repository_has_fulltext": false
+      },
+      "authorships": [
+        {
+          "author_position": "first",
+          "author": {
+            "id": "https://openalex.org/A5018299930",
+            "display_name": "Laura L. Reeves",
+            "orcid": null,
+            "observed_orcids": []
+          },
+          "institutions": [],
+          "countries": [],
+          "is_corresponding": true,
+          "raw_author_name": "Laura L. Reeves",
+          "raw_affiliation_strings": [],
+          "raw_orcid": null,
+          "affiliations": []
+        }
+      ],
+      "institutions": [],
+      "countries_distinct_count": 0,
+      "institutions_distinct_count": 0,
+      "corresponding_author_ids": [
+        "https://openalex.org/A5018299930"
+      ],
+      "corresponding_institution_ids": [],
+      "apc_list": null,
+      "apc_paid": null,
+      "fwci": null,
+      "is_authors_truncated": false,
+      "has_fulltext": false,
+      "cited_by_count": 11,
+      "citation_normalized_percentile": null,
+      "cited_by_percentile_year": null,
+      "biblio": {
+        "volume": null,
+        "issue": null,
+        "first_page": null,
+        "last_page": null
+      },
+      "is_retracted": false,
+      "is_paratext": false,
+      "is_xpac": false,
+      "primary_topic": {
+        "id": "https://openalex.org/T11891",
+        "display_name": "Big Data and Business Intelligence",
+        "score": 0.9994999766349792,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1404",
+          "display_name": "Management Information Systems"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/14",
+          "display_name": "Business, Management and Accounting"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      "topics": [
+        {
+          "id": "https://openalex.org/T11891",
+          "display_name": "Big Data and Business Intelligence",
+          "score": 0.9994999766349792,
+          "subfield": {
+            "id": "https://openalex.org/subfields/1404",
+            "display_name": "Management Information Systems"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/14",
+            "display_name": "Business, Management and Accounting"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/2",
+            "display_name": "Social Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T14222",
+          "display_name": "Knowledge Management and Technology",
+          "score": 9.999999747378752e-05,
+          "subfield": {
+            "id": "https://openalex.org/subfields/1802",
+            "display_name": "Information Systems and Management"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/18",
+            "display_name": "Decision Sciences"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/2",
+            "display_name": "Social Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T11572",
+          "display_name": "Information Technology Governance and Strategy",
+          "score": 9.999999747378752e-05,
+          "subfield": {
+            "id": "https://openalex.org/subfields/1404",
+            "display_name": "Management Information Systems"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/14",
+            "display_name": "Business, Management and Accounting"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/2",
+            "display_name": "Social Sciences"
+          }
+        }
+      ],
+      "keywords": [
+        {
+          "id": "https://openalex.org/keywords/data-warehousing",
+          "display_name": "data warehousing",
+          "score": 0.9990000128746033
+        },
+        {
+          "id": "https://openalex.org/keywords/business-intelligence",
+          "display_name": "business intelligence",
+          "score": 0.7829999923706055
+        },
+        {
+          "id": "https://openalex.org/keywords/data-management",
+          "display_name": "data management",
+          "score": 0.7549999952316284
+        },
+        {
+          "id": "https://openalex.org/keywords/decision-support",
+          "display_name": "decision support",
+          "score": 0.41100001335144043
+        },
+        {
+          "id": "https://openalex.org/keywords/data-integration",
+          "display_name": "data integration",
+          "score": 0.4699999988079071
+        }
+      ],
+      "concepts": [
+        {
+          "id": "https://openalex.org/C135572916",
+          "wikidata": "https://www.wikidata.org/wiki/Q193351",
+          "display_name": "Data warehouse",
+          "level": 2,
+          "score": 0.5285861492156982
+        },
+        {
+          "id": "https://openalex.org/C144133560",
+          "wikidata": "https://www.wikidata.org/wiki/Q4830453",
+          "display_name": "Business",
+          "level": 0,
+          "score": 0.4761255383491516
+        },
+        {
+          "id": "https://openalex.org/C41008148",
+          "wikidata": "https://www.wikidata.org/wiki/Q21198",
+          "display_name": "Computer science",
+          "level": 0,
+          "score": 0.3767796754837036
+        },
+        {
+          "id": "https://openalex.org/C77088390",
+          "wikidata": "https://www.wikidata.org/wiki/Q8513",
+          "display_name": "Database",
+          "level": 1,
+          "score": 0.33525073528289795
+        }
+      ],
+      "mesh": [],
+      "locations_count": 3,
+      "locations": [
+        {
+          "id": "pmh:oai:aleph.bib-bvb.de:BVB01-028502166",
+          "doi": null,
+          "is_oa": false,
+          "landing_page_url": "http://search.ebscohost.com/login.aspx?direct=true&amp;scope=site&amp;db=nlebk&amp;db=nlabk&amp;AN=279164",
+          "pdf_url": null,
+          "source": null,
+          "license": null,
+          "license_id": null,
+          "version": "submittedVersion",
+          "is_accepted": false,
+          "is_published": false,
+          "raw_source_name": "",
+          "raw_type": "software, multimedia"
+        },
+        {
+          "id": "pmh:oai:cds.cern.ch:1254203",
+          "doi": null,
+          "is_oa": false,
+          "landing_page_url": "http://cds.cern.ch/record/1254203",
+          "pdf_url": null,
+          "source": {
+            "id": "https://openalex.org/S4306402195",
+            "display_name": "CERN Document Server (European Organization for Nuclear Research)",
+            "issn_l": null,
+            "issn": null,
+            "is_oa": false,
+            "is_in_doaj": false,
+            "is_core": false,
+            "listed_in": [],
+            "host_organization": "https://openalex.org/I67311998",
+            "host_organization_name": "European Organization for Nuclear Research",
+            "host_organization_lineage": [
+              "https://openalex.org/I67311998"
+            ],
+            "host_organization_lineage_names": [],
+            "type": "repository"
+          },
+          "license": null,
+          "license_id": null,
+          "version": "submittedVersion",
+          "is_accepted": false,
+          "is_published": false,
+          "raw_source_name": "",
+          "raw_type": null
+        },
+        {
+          "id": "mag:2477655623",
+          "doi": null,
+          "is_oa": false,
+          "landing_page_url": "https://www.amazon.com/Managers-Guide-Data-Warehousing/dp/0470176385",
+          "pdf_url": null,
+          "source": null,
+          "license": null,
+          "license_id": null,
+          "version": null,
+          "is_accepted": false,
+          "is_published": false,
+          "raw_source_name": null,
+          "raw_type": null
+        }
+      ],
+      "best_oa_location": null,
+      "sustainable_development_goals": [],
+      "study_designs": [],
+      "awards": [],
+      "funders": [],
+      "has_content": {
+        "pdf": false,
+        "grobid_xml": false
+      },
+      "content_urls": null,
+      "referenced_works_count": 0,
+      "referenced_works": [],
+      "related_works": [
+        "https://openalex.org/W7011366548",
+        "https://openalex.org/W2970171026",
+        "https://openalex.org/W3107724914",
+        "https://openalex.org/W3186985555",
+        "https://openalex.org/W3108458353",
+        "https://openalex.org/W7054181807",
+        "https://openalex.org/W7009208700",
+        "https://openalex.org/W3022983300",
+        "https://openalex.org/W29390303",
+        "https://openalex.org/W2486070764"
+      ],
+      "abstract_inverted_index": null,
+      "counts_by_year": [
+        {
+          "year": 2022,
+          "cited_by_count": 1
+        },
+        {
+          "year": 2020,
+          "cited_by_count": 2
+        },
+        {
+          "year": 2018,
+          "cited_by_count": 1
+        },
+        {
+          "year": 2017,
+          "cited_by_count": 1
+        },
+        {
+          "year": 2016,
+          "cited_by_count": 1
+        },
+        {
+          "year": 2015,
+          "cited_by_count": 3
+        },
+        {
+          "year": 2013,
+          "cited_by_count": 1
+        },
+        {
+          "year": 2012,
+          "cited_by_count": 1
+        }
+      ],
+      "updated_date": "2026-09-04T10:56:28.161419",
+      "created_date": "2016-08-23T00:00:00"
+    }
+  ],
+  "group_by": []
+}

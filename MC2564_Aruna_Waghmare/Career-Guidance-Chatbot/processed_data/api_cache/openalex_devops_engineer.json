@@ -1,0 +1,6609 @@
+{
+  "meta": {
+    "notice": "No API key, so this request shares one free daily budget ($0.10) with everyone on your network's IP address. Get a free key with its own $1/day at https://openalex.org/settings/api and add api_key=YOUR_KEY to your requests. An AI agent can get one for its user in one call: POST https://api.openalex.org/api-keys with {\"email\": \"<your user's email>\"}; we email them a link, and the key works once they click it. Docs for agents: https://help.openalex.org/llms.txt",
+    "count": 12252,
+    "db_response_time_ms": 194,
+    "page": 1,
+    "per_page": 5,
+    "groups_count": null,
+    "x_query": {
+      "oql": "get works with (DEVOPS ENGINEER) in the title, abstract, or full text",
+      "x_new_oql": "get works with (DEVOPS ENGINEER) in the title, abstract, or full text",
+      "oqo": {
+        "get_rows": "works",
+        "filter_rows": [
+          {
+            "column_id": "fulltext.search",
+            "value": "DEVOPS ENGINEER",
+            "operator": "has"
+          }
+        ]
+      },
+      "url": "/works?filter=fulltext.search:DEVOPS ENGINEER&per_page=5",
+      "order": "best matches first",
+      "order_default": true
+    },
+    "cost_usd": 0.001
+  },
+  "results": [
+    {
+      "id": "https://openalex.org/W2502393165",
+      "doi": "https://doi.org/10.1145/2896941.2896957",
+      "title": "Who needs release and devops engineers, and why?",
+      "display_name": "Who needs release and devops engineers, and why?",
+      "relevance_score": 181.45236,
+      "publication_year": 2016,
+      "publication_date": "2016-05-14",
+      "ids": {
+        "openalex": "https://openalex.org/W2502393165",
+        "doi": "https://doi.org/10.1145/2896941.2896957",
+        "mag": "2502393165"
+      },
+      "language": "en",
+      "primary_location": {
+        "id": "doi:10.1145/2896941.2896957",
+        "doi": "https://doi.org/10.1145/2896941.2896957",
+        "is_oa": false,
+        "landing_page_url": "https://doi.org/10.1145/2896941.2896957",
+        "pdf_url": null,
+        "source": null,
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Proceedings of the International Workshop on Continuous Software Evolution and Delivery",
+        "raw_type": "proceedings-article"
+      },
+      "parent_works": [],
+      "lineage": [
+        "https://openalex.org/W2502393165"
+      ],
+      "child_works_count": 0,
+      "type": "conference-paper",
+      "is_traditional": true,
+      "indexed_in": [
+        "crossref"
+      ],
+      "open_access": {
+        "is_oa": false,
+        "oa_status": "closed",
+        "oa_url": null,
+        "any_repository_has_fulltext": false
+      },
+      "authorships": [
+        {
+          "author_position": "first",
+          "author": {
+            "id": "https://openalex.org/A5023514511",
+            "display_name": "Noureddine Kerzazi",
+            "orcid": null,
+            "observed_orcids": []
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I126477371",
+              "display_name": "Mohammed V University",
+              "ror": "https://ror.org/00r8w8f84",
+              "country_code": "MA",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I126477371"
+              ]
+            }
+          ],
+          "countries": [
+            "MA"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "Noureddine Kerzazi",
+          "raw_affiliation_strings": [
+            "ENSIAS, Mohammed V University in Rabat"
+          ],
+          "raw_orcid": null,
+          "affiliations": [
+            {
+              "raw_affiliation_string": "ENSIAS, Mohammed V University in Rabat",
+              "institution_ids": [
+                "https://openalex.org/I126477371"
+              ]
+            }
+          ]
+        },
+        {
+          "author_position": "last",
+          "author": {
+            "id": "https://openalex.org/A5058164381",
+            "display_name": "Bram Adams",
+            "orcid": "https://orcid.org/0000-0001-7213-4006",
+            "observed_orcids": [
+              "https://orcid.org/0000-0001-7213-4006"
+            ]
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I45683168",
+              "display_name": "Polytechnique Montréal",
+              "ror": "https://ror.org/05f8d4e86",
+              "country_code": "CA",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I45683168"
+              ]
+            }
+          ],
+          "countries": [
+            "CA"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "Bram Adams",
+          "raw_affiliation_strings": [
+            "MCIS, Polytechnique Montreal"
+          ],
+          "raw_orcid": null,
+          "affiliations": [
+            {
+              "raw_affiliation_string": "MCIS, Polytechnique Montreal",
+              "institution_ids": [
+                "https://openalex.org/I45683168"
+              ]
+            }
+          ]
+        }
+      ],
+      "institutions": [],
+      "countries_distinct_count": 2,
+      "institutions_distinct_count": 2,
+      "corresponding_author_ids": [],
+      "corresponding_institution_ids": [],
+      "apc_list": null,
+      "apc_paid": null,
+      "fwci": 2.4077,
+      "is_authors_truncated": false,
+      "has_fulltext": false,
+      "cited_by_count": 34,
+      "citation_normalized_percentile": {
+        "value": 0.9054225,
+        "is_in_top_1_percent": false,
+        "is_in_top_10_percent": true
+      },
+      "cited_by_percentile_year": {
+        "min": 88,
+        "max": 98
+      },
+      "biblio": {
+        "volume": null,
+        "issue": null,
+        "first_page": "77",
+        "last_page": "83"
+      },
+      "is_retracted": false,
+      "is_paratext": false,
+      "is_xpac": false,
+      "primary_topic": {
+        "id": "https://openalex.org/T10430",
+        "display_name": "Software Engineering Techniques and Practices",
+        "score": 0.9990000128746033,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1710",
+          "display_name": "Information Systems"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      "topics": [
+        {
+          "id": "https://openalex.org/T10430",
+          "display_name": "Software Engineering Techniques and Practices",
+          "score": 0.9990000128746033,
+          "subfield": {
+            "id": "https://openalex.org/subfields/1710",
+            "display_name": "Information Systems"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/17",
+            "display_name": "Computer Science"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T13034",
+          "display_name": "Information Systems Education and Curriculum Development",
+          "score": 0.0003000000142492354,
+          "subfield": {
+            "id": "https://openalex.org/subfields/1710",
+            "display_name": "Information Systems"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/17",
+            "display_name": "Computer Science"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T10260",
+          "display_name": "Software Engineering Research",
+          "score": 0.0003000000142492354,
+          "subfield": {
+            "id": "https://openalex.org/subfields/1710",
+            "display_name": "Information Systems"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/17",
+            "display_name": "Computer Science"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        }
+      ],
+      "keywords": [
+        {
+          "id": "https://openalex.org/keywords/continuous-delivery",
+          "display_name": "continuous delivery",
+          "score": 0.9380000233650208
+        },
+        {
+          "id": "https://openalex.org/keywords/job-advertisements",
+          "display_name": "job advertisements",
+          "score": 0.7269999980926514
+        },
+        {
+          "id": "https://openalex.org/keywords/automation",
+          "display_name": "automation",
+          "score": 0.5910000205039978
+        },
+        {
+          "id": "https://openalex.org/keywords/cross-national-comparison",
+          "display_name": "cross-national comparison",
+          "score": 0.6959999799728394
+        }
+      ],
+      "concepts": [
+        {
+          "id": "https://openalex.org/C9903902",
+          "wikidata": "https://www.wikidata.org/wiki/Q3025536",
+          "display_name": "DevOps",
+          "level": 3,
+          "score": 0.9971911907196045
+        },
+        {
+          "id": "https://openalex.org/C41008148",
+          "wikidata": "https://www.wikidata.org/wiki/Q21198",
+          "display_name": "Computer science",
+          "level": 0,
+          "score": 0.5641003251075745
+        },
+        {
+          "id": "https://openalex.org/C115901376",
+          "wikidata": "https://www.wikidata.org/wiki/Q184199",
+          "display_name": "Automation",
+          "level": 2,
+          "score": 0.4701770842075348
+        },
+        {
+          "id": "https://openalex.org/C120936955",
+          "wikidata": "https://www.wikidata.org/wiki/Q2155640",
+          "display_name": "Empirical research",
+          "level": 2,
+          "score": 0.416866660118103
+        },
+        {
+          "id": "https://openalex.org/C195094911",
+          "wikidata": "https://www.wikidata.org/wiki/Q14167904",
+          "display_name": "Process management",
+          "level": 1,
+          "score": 0.3492310047149658
+        },
+        {
+          "id": "https://openalex.org/C2522767166",
+          "wikidata": "https://www.wikidata.org/wiki/Q2374463",
+          "display_name": "Data science",
+          "level": 1,
+          "score": 0.34368348121643066
+        },
+        {
+          "id": "https://openalex.org/C110354214",
+          "wikidata": "https://www.wikidata.org/wiki/Q6314146",
+          "display_name": "Engineering management",
+          "level": 1,
+          "score": 0.3413723409175873
+        },
+        {
+          "id": "https://openalex.org/C127413603",
+          "wikidata": "https://www.wikidata.org/wiki/Q11023",
+          "display_name": "Engineering",
+          "level": 0,
+          "score": 0.30318835377693176
+        },
+        {
+          "id": "https://openalex.org/C115903868",
+          "wikidata": "https://www.wikidata.org/wiki/Q80993",
+          "display_name": "Software engineering",
+          "level": 1,
+          "score": 0.2948639690876007
+        },
+        {
+          "id": "https://openalex.org/C105339364",
+          "wikidata": "https://www.wikidata.org/wiki/Q2297740",
+          "display_name": "Software deployment",
+          "level": 2,
+          "score": 0.09598463773727417
+        },
+        {
+          "id": "https://openalex.org/C111472728",
+          "wikidata": "https://www.wikidata.org/wiki/Q9471",
+          "display_name": "Epistemology",
+          "level": 1,
+          "score": 0.0
+        },
+        {
+          "id": "https://openalex.org/C78519656",
+          "wikidata": "https://www.wikidata.org/wiki/Q101333",
+          "display_name": "Mechanical engineering",
+          "level": 1,
+          "score": 0.0
+        },
+        {
+          "id": "https://openalex.org/C138885662",
+          "wikidata": "https://www.wikidata.org/wiki/Q5891",
+          "display_name": "Philosophy",
+          "level": 0,
+          "score": 0.0
+        }
+      ],
+      "mesh": [],
+      "locations_count": 2,
+      "locations": [
+        {
+          "id": "doi:10.1145/2896941.2896957",
+          "doi": "https://doi.org/10.1145/2896941.2896957",
+          "is_oa": false,
+          "landing_page_url": "https://doi.org/10.1145/2896941.2896957",
+          "pdf_url": null,
+          "source": null,
+          "license": null,
+          "license_id": null,
+          "version": "publishedVersion",
+          "is_accepted": true,
+          "is_published": true,
+          "raw_source_name": "Proceedings of the International Workshop on Continuous Software Evolution and Delivery",
+          "raw_type": "proceedings-article"
+        },
+        {
+          "id": "pmh:oai:publications.polymtl.ca:35903",
+          "doi": null,
+          "is_oa": false,
+          "landing_page_url": "https://publications.polymtl.ca/35903/",
+          "pdf_url": null,
+          "source": {
+            "id": "https://openalex.org/S4306401013",
+            "display_name": "PolyPublie (École Polytechnique de Montréal)",
+            "issn_l": null,
+            "issn": null,
+            "is_oa": false,
+            "is_in_doaj": false,
+            "is_core": false,
+            "listed_in": [],
+            "host_organization": "https://openalex.org/I45683168",
+            "host_organization_name": "Polytechnique Montréal",
+            "host_organization_lineage": [
+              "https://openalex.org/I45683168"
+            ],
+            "host_organization_lineage_names": [],
+            "type": "repository"
+          },
+          "license": null,
+          "license_id": null,
+          "version": "submittedVersion",
+          "is_accepted": false,
+          "is_published": false,
+          "raw_source_name": "Kerzazi, N., & Adams, B. (2016, May). Who needs release and DevOps engineers, and why? [Paper]. 1st International Workshop on Continuous Software Evolution and Delivery (CSED 2016), Austin, TX, United states.",
+          "raw_type": "http://purl.org/coar/resource_type/c_5794"
+        }
+      ],
+      "best_oa_location": null,
+      "sustainable_development_goals": [
+        {
+          "score": 0.6452000141143799,
+          "id": "https://metadata.un.org/sdg/8",
+          "display_name": "Decent work and economic growth"
+        }
+      ],
+      "study_designs": [],
+      "awards": [],
+      "funders": [],
+      "has_content": {
+        "pdf": false,
+        "grobid_xml": false
+      },
+      "content_urls": null,
+      "referenced_works_count": 10,
+      "referenced_works": [
+        "https://openalex.org/W1423289960",
+        "https://openalex.org/W1983565008",
+        "https://openalex.org/W1993978434",
+        "https://openalex.org/W2038544212",
+        "https://openalex.org/W2129004150",
+        "https://openalex.org/W2267596186",
+        "https://openalex.org/W2408634597",
+        "https://openalex.org/W2524597696",
+        "https://openalex.org/W2552556465",
+        "https://openalex.org/W4251651498"
+      ],
+      "related_works": [
+        "https://openalex.org/W7222148410",
+        "https://openalex.org/W2916864134",
+        "https://openalex.org/W3096688843",
+        "https://openalex.org/W2583193377",
+        "https://openalex.org/W7169771776",
+        "https://openalex.org/W2914879178",
+        "https://openalex.org/W7166552001",
+        "https://openalex.org/W2952650760",
+        "https://openalex.org/W7009402479",
+        "https://openalex.org/W2408634597"
+      ],
+      "abstract_inverted_index": {
+        "The": [
+          0
+        ],
+        "recent": [
+          1
+        ],
+        "surge": [
+          2
+        ],
+        "in": [
+          3,
+          5,
+          122
+        ],
+        "interest": [
+          4
+        ],
+        "continuous": [
+          6,
+          29
+        ],
+        "delivery": [
+          7
+        ],
+        "has": [
+          8,
+          161
+        ],
+        "opened": [
+          9
+        ],
+        "up": [
+          10
+        ],
+        "the": [
+          11,
+          41,
+          56,
+          93,
+          112,
+          117,
+          129,
+          134,
+          138
+        ],
+        "job": [
+          12,
+          87,
+          123
+        ],
+        "market": [
+          13
+        ],
+        "for": [
+          14,
+          53
+        ],
+        "release": [
+          15,
+          46,
+          97,
+          130
+        ],
+        "and": [
+          16,
+          26,
+          33,
+          47,
+          71,
+          91,
+          98,
+          102,
+          127,
+          140
+        ],
+        "DevOps": [
+          17,
+          48,
+          99,
+          139
+        ],
+        "engineers.": [
+          18
+        ],
+        "However,": [
+          19
+        ],
+        "despite": [
+          20
+        ],
+        "an": [
+          21,
+          82
+        ],
+        "increasing": [
+          22
+        ],
+        "number": [
+          23
+        ],
+        "of": [
+          24,
+          85,
+          96,
+          137,
+          153
+        ],
+        "conferences": [
+          25
+        ],
+        "publications": [
+          27
+        ],
+        "on": [
+          28
+        ],
+        "delivery,": [
+          30
+        ],
+        "smaller": [
+          31
+        ],
+        "companies": [
+          32
+        ],
+        "start-ups": [
+          34
+        ],
+        "still": [
+          35
+        ],
+        "have": [
+          36,
+          149
+        ],
+        "a": [
+          37,
+          150
+        ],
+        "hard": [
+          38
+        ],
+        "time": [
+          39
+        ],
+        "determining": [
+          40
+        ],
+        "core": [
+          42
+        ],
+        "tasks": [
+          43,
+          95
+        ],
+        "their": [
+          44,
+          77,
+          156
+        ],
+        "future": [
+          45
+        ],
+        "engineers": [
+          49
+        ],
+        "should": [
+          50,
+          74
+        ],
+        "be": [
+          51
+        ],
+        "responsible": [
+          52
+        ],
+        "(and": [
+          54
+        ],
+        "what": [
+          55,
+          68
+        ],
+        "differences": [
+          57
+        ],
+        "between": [
+          58,
+          155
+        ],
+        "those": [
+          59
+        ],
+        "two": [
+          60
+        ],
+        "roles": [
+          61
+        ],
+        "are),": [
+          62
+        ],
+        "while": [
+          63
+        ],
+        "universities": [
+          64
+        ],
+        "are": [
+          65
+        ],
+        "not": [
+          66
+        ],
+        "sure": [
+          67
+        ],
+        "essential": [
+          69
+        ],
+        "techniques": [
+          70
+        ],
+        "skills": [
+          72
+        ],
+        "they": [
+          73
+        ],
+        "teach": [
+          75
+        ],
+        "to": [
+          76,
+          89
+        ],
+        "students.": [
+          78
+        ],
+        "This": [
+          79
+        ],
+        "paper": [
+          80
+        ],
+        "performs": [
+          81
+        ],
+        "empirical": [
+          83
+        ],
+        "analysis": [
+          84,
+          107
+        ],
+        "online": [
+          86
+        ],
+        "postings": [
+          88
+        ],
+        "determine": [
+          90
+        ],
+        "compare": [
+          92
+        ],
+        "main": [
+          94
+        ],
+        "engineers,": [
+          100
+        ],
+        "globally": [
+          101
+        ],
+        "across": [
+          103,
+          116
+        ],
+        "countries.": [
+          104
+        ],
+        "Our": [
+          105
+        ],
+        "qualitative": [
+          106
+        ],
+        "shows": [
+          108
+        ],
+        "that": [
+          109,
+          128
+        ],
+        "automation": [
+          110
+        ],
+        "is": [
+          111
+        ],
+        "most": [
+          113
+        ],
+        "important": [
+          114
+        ],
+        "activity": [
+          115
+        ],
+        "three": [
+          118
+        ],
+        "roles,": [
+          119
+        ],
+        "as": [
+          120
+        ],
+        "articulated": [
+          121
+        ],
+        "posting": [
+          124
+        ],
+        "description": [
+          125
+        ],
+        "data,": [
+          126
+        ],
+        "engineer": [
+          131,
+          144
+        ],
+        "role": [
+          132
+        ],
+        "combines": [
+          133
+        ],
+        "top": [
+          135
+        ],
+        "activities": [
+          136
+        ],
+        "more": [
+          141
+        ],
+        "traditional": [
+          142
+        ],
+        "build": [
+          143
+        ],
+        "roles.": [
+          145
+        ],
+        "Finally,": [
+          146
+        ],
+        "different": [
+          147
+        ],
+        "countries": [
+          148
+        ],
+        "moderate": [
+          151
+        ],
+        "degree": [
+          152
+        ],
+        "similarity": [
+          154
+        ],
+        "ads,": [
+          157
+        ],
+        "although": [
+          158
+        ],
+        "each": [
+          159
+        ],
+        "country": [
+          160
+        ],
+        "its": [
+          162
+        ],
+        "specific": [
+          163
+        ],
+        "focus.": [
+          164
+        ]
+      },
+      "counts_by_year": [
+        {
+          "year": 2026,
+          "cited_by_count": 1
+        },
+        {
+          "year": 2025,
+          "cited_by_count": 2
+        },
+        {
+          "year": 2024,
+          "cited_by_count": 4
+        },
+        {
+          "year": 2023,
+          "cited_by_count": 4
+        },
+        {
+          "year": 2022,
+          "cited_by_count": 3
+        },
+        {
+          "year": 2021,
+          "cited_by_count": 6
+        },
+        {
+          "year": 2020,
+          "cited_by_count": 4
+        },
+        {
+          "year": 2019,
+          "cited_by_count": 5
+        },
+        {
+          "year": 2018,
+          "cited_by_count": 3
+        },
+        {
+          "year": 2017,
+          "cited_by_count": 1
+        },
+        {
+          "year": 2016,
+          "cited_by_count": 1
+        }
+      ],
+      "updated_date": "2026-11-07T11:25:07.637180",
+      "created_date": "2016-08-23T00:00:00"
+    },
+    {
+      "id": "https://openalex.org/W4226160653",
+      "doi": "https://doi.org/10.5281/zenodo.6210721",
+      "title": "Professional-Cloud-DevOps-Engineer Latest Braindumps - Professional-Cloud-DevOps-Engineer Reliable Mock4solutions",
+      "display_name": "Professional-Cloud-DevOps-Engineer Latest Braindumps - Professional-Cloud-DevOps-Engineer Reliable Mock4solutions",
+      "relevance_score": 175.05696,
+      "publication_year": 2022,
+      "publication_date": "2022-02-21",
+      "ids": {
+        "openalex": "https://openalex.org/W4226160653",
+        "doi": "https://doi.org/10.5281/zenodo.6210721"
+      },
+      "language": "en",
+      "primary_location": {
+        "id": "pmh:oai:zenodo.org:6210721",
+        "doi": "https://doi.org/10.5281/zenodo.6210721",
+        "is_oa": true,
+        "landing_page_url": "https://zenodo.org/record/6210721",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4306400562",
+          "display_name": "Zenodo (CERN European Organization for Nuclear Research)",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": true,
+          "is_in_doaj": false,
+          "is_core": false,
+          "listed_in": [],
+          "host_organization": "https://openalex.org/I67311998",
+          "host_organization_name": "European Organization for Nuclear Research",
+          "host_organization_lineage": [
+            "https://openalex.org/I67311998"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "version": "submittedVersion",
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": "",
+        "raw_type": "info:eu-repo/semantics/article"
+      },
+      "parent_works": [],
+      "lineage": [
+        "https://openalex.org/W4226160653"
+      ],
+      "child_works_count": 0,
+      "type": "article",
+      "is_traditional": true,
+      "indexed_in": [],
+      "open_access": {
+        "is_oa": true,
+        "oa_status": "green",
+        "oa_url": "https://zenodo.org/record/6210721",
+        "any_repository_has_fulltext": true
+      },
+      "authorships": [
+        {
+          "author_position": "first",
+          "author": {
+            "id": null,
+            "display_name": "Wesley",
+            "orcid": null,
+            "observed_orcids": []
+          },
+          "institutions": [],
+          "countries": [],
+          "is_corresponding": true,
+          "raw_author_name": "Wesley",
+          "raw_affiliation_strings": [],
+          "raw_orcid": null,
+          "affiliations": []
+        }
+      ],
+      "institutions": [],
+      "countries_distinct_count": 0,
+      "institutions_distinct_count": 0,
+      "corresponding_author_ids": [],
+      "corresponding_institution_ids": [],
+      "apc_list": null,
+      "apc_paid": null,
+      "fwci": 0.0,
+      "is_authors_truncated": false,
+      "has_fulltext": false,
+      "cited_by_count": 0,
+      "citation_normalized_percentile": {
+        "value": 0.0,
+        "is_in_top_1_percent": false,
+        "is_in_top_10_percent": false
+      },
+      "cited_by_percentile_year": null,
+      "biblio": {
+        "volume": null,
+        "issue": null,
+        "first_page": null,
+        "last_page": null
+      },
+      "is_retracted": false,
+      "is_paratext": false,
+      "is_xpac": false,
+      "primary_topic": {
+        "id": "https://openalex.org/T10101",
+        "display_name": "Cloud Computing and Resource Management",
+        "score": 0.9032999873161316,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1710",
+          "display_name": "Information Systems"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      "topics": [
+        {
+          "id": "https://openalex.org/T10101",
+          "display_name": "Cloud Computing and Resource Management",
+          "score": 0.9032999873161316,
+          "subfield": {
+            "id": "https://openalex.org/subfields/1710",
+            "display_name": "Information Systems"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/17",
+            "display_name": "Computer Science"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T13034",
+          "display_name": "Information Systems Education and Curriculum Development",
+          "score": 0.02979999966919422,
+          "subfield": {
+            "id": "https://openalex.org/subfields/1710",
+            "display_name": "Information Systems"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/17",
+            "display_name": "Computer Science"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T10430",
+          "display_name": "Software Engineering Techniques and Practices",
+          "score": 0.022099999710917473,
+          "subfield": {
+            "id": "https://openalex.org/subfields/1710",
+            "display_name": "Information Systems"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/17",
+            "display_name": "Computer Science"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        }
+      ],
+      "keywords": [
+        {
+          "id": "https://openalex.org/keywords/exam-dumps",
+          "display_name": "exam dumps",
+          "score": 0.8999999761581421
+        },
+        {
+          "id": "https://openalex.org/keywords/practice-tests",
+          "display_name": "practice tests",
+          "score": 0.621999979019165
+        },
+        {
+          "id": "https://openalex.org/keywords/certification-exam-preparation",
+          "display_name": "certification exam preparation",
+          "score": 0.7910000085830688
+        },
+        {
+          "id": "https://openalex.org/keywords/google-cloud-platform",
+          "display_name": "Google Cloud Platform",
+          "score": 0.6449999809265137
+        }
+      ],
+      "concepts": [
+        {
+          "id": "https://openalex.org/C9903902",
+          "wikidata": "https://www.wikidata.org/wiki/Q3025536",
+          "display_name": "DevOps",
+          "level": 3,
+          "score": 0.9880837202072144
+        },
+        {
+          "id": "https://openalex.org/C79974875",
+          "wikidata": "https://www.wikidata.org/wiki/Q483639",
+          "display_name": "Cloud computing",
+          "level": 2,
+          "score": 0.8054299354553223
+        },
+        {
+          "id": "https://openalex.org/C115903868",
+          "wikidata": "https://www.wikidata.org/wiki/Q80993",
+          "display_name": "Software engineering",
+          "level": 1,
+          "score": 0.456453800201416
+        },
+        {
+          "id": "https://openalex.org/C110354214",
+          "wikidata": "https://www.wikidata.org/wiki/Q6314146",
+          "display_name": "Engineering management",
+          "level": 1,
+          "score": 0.4504358768463135
+        },
+        {
+          "id": "https://openalex.org/C41008148",
+          "wikidata": "https://www.wikidata.org/wiki/Q21198",
+          "display_name": "Computer science",
+          "level": 0,
+          "score": 0.4454089105129242
+        },
+        {
+          "id": "https://openalex.org/C127413603",
+          "wikidata": "https://www.wikidata.org/wiki/Q11023",
+          "display_name": "Engineering",
+          "level": 0,
+          "score": 0.4386546313762665
+        },
+        {
+          "id": "https://openalex.org/C201995342",
+          "wikidata": "https://www.wikidata.org/wiki/Q682496",
+          "display_name": "Systems engineering",
+          "level": 1,
+          "score": 0.3400704860687256
+        },
+        {
+          "id": "https://openalex.org/C111919701",
+          "wikidata": "https://www.wikidata.org/wiki/Q9135",
+          "display_name": "Operating system",
+          "level": 1,
+          "score": 0.10482877492904663
+        }
+      ],
+      "mesh": [],
+      "locations_count": 1,
+      "locations": [
+        {
+          "id": "pmh:oai:zenodo.org:6210721",
+          "doi": "https://doi.org/10.5281/zenodo.6210721",
+          "is_oa": true,
+          "landing_page_url": "https://zenodo.org/record/6210721",
+          "pdf_url": null,
+          "source": {
+            "id": "https://openalex.org/S4306400562",
+            "display_name": "Zenodo (CERN European Organization for Nuclear Research)",
+            "issn_l": null,
+            "issn": null,
+            "is_oa": true,
+            "is_in_doaj": false,
+            "is_core": false,
+            "listed_in": [],
+            "host_organization": "https://openalex.org/I67311998",
+            "host_organization_name": "European Organization for Nuclear Research",
+            "host_organization_lineage": [
+              "https://openalex.org/I67311998"
+            ],
+            "host_organization_lineage_names": [],
+            "type": "repository"
+          },
+          "license": "cc-by",
+          "license_id": "https://openalex.org/licenses/cc-by",
+          "version": "submittedVersion",
+          "is_accepted": false,
+          "is_published": false,
+          "raw_source_name": "",
+          "raw_type": "info:eu-repo/semantics/article"
+        }
+      ],
+      "best_oa_location": {
+        "id": "pmh:oai:zenodo.org:6210721",
+        "doi": "https://doi.org/10.5281/zenodo.6210721",
+        "is_oa": true,
+        "landing_page_url": "https://zenodo.org/record/6210721",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4306400562",
+          "display_name": "Zenodo (CERN European Organization for Nuclear Research)",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": true,
+          "is_in_doaj": false,
+          "is_core": false,
+          "listed_in": [],
+          "host_organization": "https://openalex.org/I67311998",
+          "host_organization_name": "European Organization for Nuclear Research",
+          "host_organization_lineage": [
+            "https://openalex.org/I67311998"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "version": "submittedVersion",
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": "",
+        "raw_type": "info:eu-repo/semantics/article"
+      },
+      "sustainable_development_goals": [],
+      "study_designs": [],
+      "awards": [],
+      "funders": [],
+      "has_content": {
+        "pdf": false,
+        "grobid_xml": false
+      },
+      "content_urls": null,
+      "referenced_works_count": 0,
+      "referenced_works": [],
+      "related_works": [
+        "https://openalex.org/W4221039072",
+        "https://openalex.org/W4220896274",
+        "https://openalex.org/W7130644120",
+        "https://openalex.org/W4225730542",
+        "https://openalex.org/W4221086012",
+        "https://openalex.org/W4221023097",
+        "https://openalex.org/W4225826212",
+        "https://openalex.org/W4220722237",
+        "https://openalex.org/W4220871627",
+        "https://openalex.org/W4220994493"
+      ],
+      "abstract_inverted_index": {
+        "Mock4solutions": [
+          0,
+          78,
+          170,
+          201
+        ],
+        "Professional-Cloud-DevOps-Engineer": [
+          1,
+          4,
+          79,
+          121,
+          144,
+          153,
+          157,
+          171,
+          218,
+          220,
+          243,
+          249,
+          264,
+          278,
+          286,
+          325,
+          335,
+          354,
+          365,
+          409,
+          420,
+          473
+        ],
+        "Exam": [
+          2,
+          154,
+          244,
+          366,
+          421,
+          424
+        ],
+        "Dumps\\n\\nThe": [
+          3
+        ],
+        "exam": [
+          5,
+          68,
+          80,
+          122,
+          145,
+          186,
+          190,
+          221,
+          250,
+          326,
+          336,
+          398,
+          444
+        ],
+        "is": [
+          6,
+          128,
+          191,
+          222,
+          238,
+          267,
+          289,
+          309,
+          341
+        ],
+        "one": [
+          7
+        ],
+        "of": [
+          8,
+          35,
+          43,
+          90,
+          119,
+          163,
+          441,
+          464
+        ],
+        "the": [
+          9,
+          21,
+          55,
+          61,
+          75,
+          95,
+          116,
+          120,
+          133,
+          142,
+          161,
+          164,
+          168,
+          174,
+          189,
+          211,
+          217,
+          228,
+          241,
+          261,
+          273,
+          276,
+          296,
+          300,
+          305,
+          316,
+          334,
+          353,
+          360,
+          369,
+          397,
+          400,
+          415,
+          430,
+          433,
+          443,
+          454,
+          465,
+          471,
+          481
+        ],
+        "hardest": [
+          10
+        ],
+        "exams": [
+          11,
+          19
+        ],
+        "you": [
+          12,
+          54,
+          57,
+          64,
+          72,
+          124,
+          213,
+          255,
+          448
+        ],
+        "can": [
+          13,
+          38,
+          65,
+          113,
+          140,
+          159,
+          196
+        ],
+        "take.": [
+          14
+        ],
+        "Using": [
+          15
+        ],
+        "dumps": [
+          16,
+          81,
+          96,
+          165,
+          327
+        ],
+        "and": [
+          17,
+          30,
+          45,
+          100,
+          108,
+          148,
+          177,
+          231,
+          303,
+          330,
+          386,
+          452,
+          468
+        ],
+        "practice": [
+          18,
+          67,
+          185,
+          265,
+          272,
+          410
+        ],
+        "are": [
+          20,
+          28,
+          82,
+          104,
+          328,
+          368,
+          384
+        ],
+        "best": [
+          22,
+          234
+        ],
+        "ways": [
+          23
+        ],
+        "to": [
+          24,
+          49,
+          59,
+          70,
+          106,
+          131,
+          215,
+          236,
+          239,
+          271,
+          318,
+          345,
+          358,
+          380,
+          395,
+          414
+        ],
+        "pass.": [
+          25
+        ],
+        "The": [
+          26,
+          233,
+          263,
+          364
+        ],
+        "questions": [
+          27,
+          274,
+          431
+        ],
+        "updated": [
+          29,
+          248,
+          324
+        ],
+        "contain": [
+          31,
+          109,
+          247
+        ],
+        "a": [
+          32,
+          88,
+          204,
+          223,
+          257,
+          268,
+          342,
+          407,
+          438,
+          461
+        ],
+        "high": [
+          33,
+          258
+        ],
+        "percentage": [
+          34
+        ],
+        "accuracy.": [
+          36
+        ],
+        "You": [
+          37,
+          92,
+          112,
+          139
+        ],
+        "access": [
+          39,
+          48
+        ],
+        "them": [
+          40
+        ],
+        "any": [
+          41,
+          338
+        ],
+        "time": [
+          42
+        ],
+        "day": [
+          44
+        ],
+        "have": [
+          46,
+          375,
+          426,
+          437
+        ],
+        "full": [
+          47
+        ],
+        "them.": [
+          50
+        ],
+        "They": [
+          51,
+          103,
+          182,
+          246,
+          374
+        ],
+        "will": [
+          52,
+          93,
+          253
+        ],
+        "give": [
+          53
+        ],
+        "information": [
+          56,
+          212
+        ],
+        "need": [
+          58,
+          125,
+          130,
+          214,
+          317,
+          357
+        ],
+        "pass": [
+          60,
+          216,
+          333,
+          396
+        ],
+        "exam.": [
+          62,
+          262,
+          297,
+          474
+        ],
+        "Besides,": [
+          63
+        ],
+        "get": [
+          66,
+          256,
+          460
+        ],
+        "simulations": [
+          69
+        ],
+        "help": [
+          71,
+          254
+        ],
+        "prepare": [
+          73,
+          237
+        ],
+        "for": [
+          74,
+          193,
+          293,
+          295,
+          406,
+          429,
+          450
+        ],
+        "real": [
+          76
+        ],
+        "exam.\\n\\nThe": [
+          77,
+          219
+        ],
+        "written": [
+          83
+        ],
+        "by": [
+          84,
+          166,
+          378,
+          445
+        ],
+        "IT": [
+          85
+        ],
+        "professionals": [
+          86,
+          379
+        ],
+        "with": [
+          87
+        ],
+        "lot": [
+          89
+        ],
+        "experience.": [
+          91
+        ],
+        "find": [
+          94
+        ],
+        "in": [
+          97,
+          399,
+          470,
+          480
+        ],
+        "PDF": [
+          98,
+          117,
+          283
+        ],
+        "format": [
+          99
+        ],
+        "VCE": [
+          101
+        ],
+        "format.": [
+          102
+        ],
+        "easy": [
+          105
+        ],
+        "install": [
+          107
+        ],
+        "accurate": [
+          110
+        ],
+        "information.": [
+          111
+        ],
+        "also": [
+          114,
+          183
+        ],
+        "download": [
+          115,
+          141
+        ],
+        "demos": [
+          118
+        ],
+        "if": [
+          123
+        ],
+        "it.": [
+          126
+        ],
+        "There": [
+          127
+        ],
+        "no": [
+          129
+        ],
+        "purchase": [
+          132
+        ],
+        "complete": [
+          134
+        ],
+        "study": [
+          135,
+          287,
+          321,
+          372,
+          390,
+          449
+        ],
+        "guide": [
+          136,
+          288
+        ],
+        "right": [
+          137,
+          229,
+          416
+        ],
+        "now.": [
+          138
+        ],
+        "free": [
+          143
+        ],
+        "demo": [
+          146
+        ],
+        "today": [
+          147
+        ],
+        "start": [
+          149,
+          346
+        ],
+        "studying.\\n\\nGet": [
+          150
+        ],
+        "Success": [
+          151
+        ],
+        "In": [
+          152
+        ],
+        "With": [
+          155,
+          388
+        ],
+        "Google": [
+          156,
+          434,
+          472
+        ],
+        "Dumps\\n\\nYou": [
+          158
+        ],
+        "check": [
+          160
+        ],
+        "quality": [
+          162
+        ],
+        "downloading": [
+          167
+        ],
+        "demo.": [
+          169
+        ],
+        "braindumps": [
+          172
+        ],
+        "cover": [
+          173
+        ],
+        "whole": [
+          175
+        ],
+        "syllabus": [
+          176,
+          302
+        ],
+        "make": [
+          178
+        ],
+        "basic": [
+          179
+        ],
+        "concepts": [
+          180
+        ],
+        "clear.": [
+          181
+        ],
+        "include": [
+          184
+        ],
+        "simulations.": [
+          187
+        ],
+        "While": [
+          188
+        ],
+        "designed": [
+          192
+        ],
+        "beginners,": [
+          194
+        ],
+        "it": [
+          195,
+          451
+        ],
+        "be": [
+          197,
+          393,
+          477
+        ],
+        "quite": [
+          198
+        ],
+        "challenging.": [
+          199
+        ],
+        "Fortunately,": [
+          200
+        ],
+        "has": [
+          202
+        ],
+        "developed": [
+          203
+        ],
+        "test": [
+          205,
+          266
+        ],
+        "preparation": [
+          206
+        ],
+        "product": [
+          207
+        ],
+        "that": [
+          208,
+          382,
+          447
+        ],
+        "contains": [
+          209
+        ],
+        "all": [
+          210,
+          304
+        ],
+        "tough": [
+          224
+        ],
+        "challenge.": [
+          225
+        ],
+        "It": [
+          226,
+          298,
+          314,
+          340
+        ],
+        "requires": [
+          227
+        ],
+        "knowledge": [
+          230
+        ],
+        "skills.": [
+          232
+        ],
+        "way": [
+          235,
+          270
+        ],
+        "use": [
+          240,
+          319
+        ],
+        "Mo4solutions": [
+          242
+        ],
+        "Dumps.": [
+          245
+        ],
+        "questions,": [
+          251
+        ],
+        "which": [
+          252
+        ],
+        "score": [
+          259
+        ],
+        "on": [
+          260,
+          432
+        ],
+        "great": [
+          269,
+          343
+        ],
+        "before": [
+          275
+        ],
+        "exam.\\n\\nGoogle": [
+          277
+        ],
+        "Downloadable,": [
+          279
+        ],
+        "Printable": [
+          280
+        ],
+        "Exams": [
+          281
+        ],
+        "(in": [
+          282
+        ],
+        "format)\\n\\nA": [
+          284
+        ],
+        "good": [
+          285
+        ],
+        "an": [
+          290,
+          418
+        ],
+        "invaluable": [
+          291
+        ],
+        "tool": [
+          292
+        ],
+        "preparing": [
+          294
+        ],
+        "covers": [
+          299
+        ],
+        "entire": [
+          301
+        ],
+        "relevant": [
+          306
+        ],
+        "domains.": [
+          307
+        ],
+        "This": [
+          308
+        ],
+        "why": [
+          310
+        ],
+        "it's": [
+          311
+        ],
+        "so": [
+          312
+        ],
+        "useful.": [
+          313
+        ],
+        "eliminates": [
+          315
+        ],
+        "other": [
+          320
+        ],
+        "materials.": [
+          322
+        ],
+        "Its": [
+          323
+        ],
+        "approved": [
+          329
+        ],
+        "authentic.": [
+          331
+        ],
+        "You'll": [
+          332,
+          436
+        ],
+        "without": [
+          337
+        ],
+        "difficulty.": [
+          339
+        ],
+        "place": [
+          344
+        ],
+        "your": [
+          347
+        ],
+        "preparation.\\n\\nIf": [
+          348
+        ],
+        "you're": [
+          349,
+          404
+        ],
+        "thinking": [
+          350
+        ],
+        "about": [
+          351,
+          362
+        ],
+        "taking": [
+          352
+        ],
+        "exam,": [
+          355
+        ],
+        "you'll": [
+          356,
+          392,
+          459,
+          476
+        ],
+        "learn": [
+          359
+        ],
+        "most": [
+          361,
+          370
+        ],
+        "security.": [
+          363
+        ],
+        "Dumps": [
+          367,
+          425
+        ],
+        "effective": [
+          371
+        ],
+        "aid.": [
+          373
+        ],
+        "been": [
+          376
+        ],
+        "tested": [
+          377
+        ],
+        "ensure": [
+          381
+        ],
+        "they": [
+          383
+        ],
+        "up-to-date": [
+          385
+        ],
+        "accurate.": [
+          387
+        ],
+        "these": [
+          389
+        ],
+        "guides,": [
+          391
+        ],
+        "able": [
+          394
+        ],
+        "first": [
+          401
+        ],
+        "attempt.": [
+          402
+        ],
+        "If": [
+          403
+        ],
+        "looking": [
+          405
+        ],
+        "comprehensive": [
+          408
+        ],
+        "test,": [
+          411
+        ],
+        "you've": [
+          412
+        ],
+        "come": [
+          413
+        ],
+        "place.\\n\\nGet": [
+          417
+        ],
+        "Absolutely": [
+          419
+        ],
+        "Demo": [
+          422
+        ],
+        "2022!\\n\\nProfessional-Cloud-DevOps-Engineer": [
+          423
+        ],
+        "verified": [
+          427
+        ],
+        "answers": [
+          428
+        ],
+        "certification.": [
+          435
+        ],
+        "better": [
+          439,
+          462
+        ],
+        "chance": [
+          440
+        ],
+        "passing": [
+          442
+        ],
+        "ensuring": [
+          446
+        ],
+        "understand": [
+          453
+        ],
+        "content.": [
+          455
+        ],
+        "By": [
+          456
+        ],
+        "doing": [
+          457
+        ],
+        "this,": [
+          458
+        ],
+        "understanding": [
+          463
+        ],
+        "important": [
+          466
+        ],
+        "topics": [
+          467
+        ],
+        "issues": [
+          469
+        ],
+        "So,": [
+          475
+        ],
+        "more": [
+          478
+        ],
+        "confident": [
+          479
+        ],
+        "end.": [
+          482
+        ]
+      },
+      "counts_by_year": [],
+      "updated_date": "2026-10-12T09:40:04.860316",
+      "created_date": "2025-10-10T00:00:00"
+    },
+    {
+      "id": "https://openalex.org/W4220767068",
+      "doi": "https://doi.org/10.5281/zenodo.6188951",
+      "title": "Professional-Cloud-DevOps-Engineer Exam Dumps - Professional-Cloud-DevOps-Engineer Exam Questions",
+      "display_name": "Professional-Cloud-DevOps-Engineer Exam Dumps - Professional-Cloud-DevOps-Engineer Exam Questions",
+      "relevance_score": 173.35965,
+      "publication_year": 2022,
+      "publication_date": "2022-02-20",
+      "ids": {
+        "openalex": "https://openalex.org/W4220767068",
+        "doi": "https://doi.org/10.5281/zenodo.6188951"
+      },
+      "language": "en",
+      "primary_location": {
+        "id": "pmh:oai:zenodo.org:6188951",
+        "doi": "https://doi.org/10.5281/zenodo.6188951",
+        "is_oa": true,
+        "landing_page_url": "https://zenodo.org/record/6188951",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4306400562",
+          "display_name": "Zenodo (CERN European Organization for Nuclear Research)",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": true,
+          "is_in_doaj": false,
+          "is_core": false,
+          "listed_in": [],
+          "host_organization": "https://openalex.org/I67311998",
+          "host_organization_name": "European Organization for Nuclear Research",
+          "host_organization_lineage": [
+            "https://openalex.org/I67311998"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "version": "submittedVersion",
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": "",
+        "raw_type": "info:eu-repo/semantics/article"
+      },
+      "parent_works": [],
+      "lineage": [
+        "https://openalex.org/W4220767068"
+      ],
+      "child_works_count": 0,
+      "type": "article",
+      "is_traditional": true,
+      "indexed_in": [],
+      "open_access": {
+        "is_oa": true,
+        "oa_status": "green",
+        "oa_url": "https://zenodo.org/record/6188951",
+        "any_repository_has_fulltext": true
+      },
+      "authorships": [
+        {
+          "author_position": "first",
+          "author": {
+            "id": "https://openalex.org/A5066135111",
+            "display_name": "Johan Johan",
+            "orcid": "https://orcid.org/0000-0002-8484-1119",
+            "observed_orcids": [
+              "https://orcid.org/0000-0002-8484-1119",
+              "https://orcid.org/0009-0007-5669-2359"
+            ]
+          },
+          "institutions": [],
+          "countries": [],
+          "is_corresponding": true,
+          "raw_author_name": "Johan",
+          "raw_affiliation_strings": [],
+          "raw_orcid": null,
+          "affiliations": []
+        }
+      ],
+      "institutions": [],
+      "countries_distinct_count": 0,
+      "institutions_distinct_count": 0,
+      "corresponding_author_ids": [
+        "https://openalex.org/A5066135111"
+      ],
+      "corresponding_institution_ids": [],
+      "apc_list": null,
+      "apc_paid": null,
+      "fwci": 0.0,
+      "is_authors_truncated": false,
+      "has_fulltext": false,
+      "cited_by_count": 0,
+      "citation_normalized_percentile": {
+        "value": 0.0,
+        "is_in_top_1_percent": false,
+        "is_in_top_10_percent": false
+      },
+      "cited_by_percentile_year": null,
+      "biblio": {
+        "volume": null,
+        "issue": null,
+        "first_page": null,
+        "last_page": null
+      },
+      "is_retracted": false,
+      "is_paratext": false,
+      "is_xpac": false,
+      "primary_topic": {
+        "id": "https://openalex.org/T10101",
+        "display_name": "Cloud Computing and Resource Management",
+        "score": 0.8910999894142151,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1710",
+          "display_name": "Information Systems"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      "topics": [
+        {
+          "id": "https://openalex.org/T10101",
+          "display_name": "Cloud Computing and Resource Management",
+          "score": 0.8910999894142151,
+          "subfield": {
+            "id": "https://openalex.org/subfields/1710",
+            "display_name": "Information Systems"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/17",
+            "display_name": "Computer Science"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T10430",
+          "display_name": "Software Engineering Techniques and Practices",
+          "score": 0.03480000048875809,
+          "subfield": {
+            "id": "https://openalex.org/subfields/1710",
+            "display_name": "Information Systems"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/17",
+            "display_name": "Computer Science"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T12127",
+          "display_name": "Software System Performance and Reliability",
+          "score": 0.027699999511241913,
+          "subfield": {
+            "id": "https://openalex.org/subfields/1705",
+            "display_name": "Computer Networks and Communications"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/17",
+            "display_name": "Computer Science"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        }
+      ],
+      "keywords": [
+        {
+          "id": "https://openalex.org/keywords/test-preparation",
+          "display_name": "exam preparation",
+          "score": 0.5590000152587891
+        },
+        {
+          "id": "https://openalex.org/keywords/practice-tests",
+          "display_name": "practice tests",
+          "score": 0.8410000205039978
+        },
+        {
+          "id": "https://openalex.org/keywords/certification-exam-dumps",
+          "display_name": "certification exam dumps",
+          "score": 0.7310000061988831
+        },
+        {
+          "id": "https://openalex.org/keywords/practice-exam-software",
+          "display_name": "practice test software",
+          "score": 0.5009999871253967
+        },
+        {
+          "id": "https://openalex.org/keywords/exam-syllabus-updates",
+          "display_name": "exam syllabus updates",
+          "score": 0.6930000185966492
+        },
+        {
+          "id": "https://openalex.org/keywords/exam-retake-policy",
+          "display_name": "exam retake policy",
+          "score": 0.3880000114440918
+        }
+      ],
+      "concepts": [
+        {
+          "id": "https://openalex.org/C9903902",
+          "wikidata": "https://www.wikidata.org/wiki/Q3025536",
+          "display_name": "DevOps",
+          "level": 3,
+          "score": 0.9846540689468384
+        },
+        {
+          "id": "https://openalex.org/C79974875",
+          "wikidata": "https://www.wikidata.org/wiki/Q483639",
+          "display_name": "Cloud computing",
+          "level": 2,
+          "score": 0.81089186668396
+        },
+        {
+          "id": "https://openalex.org/C110354214",
+          "wikidata": "https://www.wikidata.org/wiki/Q6314146",
+          "display_name": "Engineering management",
+          "level": 1,
+          "score": 0.4965539574623108
+        },
+        {
+          "id": "https://openalex.org/C127413603",
+          "wikidata": "https://www.wikidata.org/wiki/Q11023",
+          "display_name": "Engineering",
+          "level": 0,
+          "score": 0.43221527338027954
+        },
+        {
+          "id": "https://openalex.org/C41008148",
+          "wikidata": "https://www.wikidata.org/wiki/Q21198",
+          "display_name": "Computer science",
+          "level": 0,
+          "score": 0.4284428656101227
+        },
+        {
+          "id": "https://openalex.org/C115903868",
+          "wikidata": "https://www.wikidata.org/wiki/Q80993",
+          "display_name": "Software engineering",
+          "level": 1,
+          "score": 0.3648109436035156
+        },
+        {
+          "id": "https://openalex.org/C111919701",
+          "wikidata": "https://www.wikidata.org/wiki/Q9135",
+          "display_name": "Operating system",
+          "level": 1,
+          "score": 0.08085763454437256
+        }
+      ],
+      "mesh": [],
+      "locations_count": 1,
+      "locations": [
+        {
+          "id": "pmh:oai:zenodo.org:6188951",
+          "doi": "https://doi.org/10.5281/zenodo.6188951",
+          "is_oa": true,
+          "landing_page_url": "https://zenodo.org/record/6188951",
+          "pdf_url": null,
+          "source": {
+            "id": "https://openalex.org/S4306400562",
+            "display_name": "Zenodo (CERN European Organization for Nuclear Research)",
+            "issn_l": null,
+            "issn": null,
+            "is_oa": true,
+            "is_in_doaj": false,
+            "is_core": false,
+            "listed_in": [],
+            "host_organization": "https://openalex.org/I67311998",
+            "host_organization_name": "European Organization for Nuclear Research",
+            "host_organization_lineage": [
+              "https://openalex.org/I67311998"
+            ],
+            "host_organization_lineage_names": [],
+            "type": "repository"
+          },
+          "license": "cc-by",
+          "license_id": "https://openalex.org/licenses/cc-by",
+          "version": "submittedVersion",
+          "is_accepted": false,
+          "is_published": false,
+          "raw_source_name": "",
+          "raw_type": "info:eu-repo/semantics/article"
+        }
+      ],
+      "best_oa_location": {
+        "id": "pmh:oai:zenodo.org:6188951",
+        "doi": "https://doi.org/10.5281/zenodo.6188951",
+        "is_oa": true,
+        "landing_page_url": "https://zenodo.org/record/6188951",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4306400562",
+          "display_name": "Zenodo (CERN European Organization for Nuclear Research)",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": true,
+          "is_in_doaj": false,
+          "is_core": false,
+          "listed_in": [],
+          "host_organization": "https://openalex.org/I67311998",
+          "host_organization_name": "European Organization for Nuclear Research",
+          "host_organization_lineage": [
+            "https://openalex.org/I67311998"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "version": "submittedVersion",
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": "",
+        "raw_type": "info:eu-repo/semantics/article"
+      },
+      "sustainable_development_goals": [],
+      "study_designs": [],
+      "awards": [],
+      "funders": [],
+      "has_content": {
+        "pdf": false,
+        "grobid_xml": false
+      },
+      "content_urls": null,
+      "referenced_works_count": 0,
+      "referenced_works": [],
+      "related_works": [
+        "https://openalex.org/W4220767650",
+        "https://openalex.org/W4221002438",
+        "https://openalex.org/W4220994493",
+        "https://openalex.org/W4220722237",
+        "https://openalex.org/W4225826212",
+        "https://openalex.org/W4220727530",
+        "https://openalex.org/W4221086012",
+        "https://openalex.org/W4220871627",
+        "https://openalex.org/W4225730542",
+        "https://openalex.org/W4220842286"
+      ],
+      "abstract_inverted_index": {
+        "Pass": [
+          0
+        ],
+        "Professional-Cloud-DevOps-Engineer": [
+          1,
+          29,
+          169,
+          207,
+          290,
+          317,
+          387
+        ],
+        "Exam": [
+          2,
+          97,
+          244
+        ],
+        "With": [
+          3
+        ],
+        "Updated": [
+          4,
+          243
+        ],
+        "Study": [
+          5
+        ],
+        "Guide": [
+          6
+        ],
+        "and": [
+          7,
+          48,
+          108,
+          138,
+          151,
+          154,
+          283,
+          403
+        ],
+        "Latest": [
+          8
+        ],
+        "Practice": [
+          9,
+          319
+        ],
+        "Questions\\n\\nIt": [
+          10
+        ],
+        "is": [
+          11,
+          22,
+          32,
+          41,
+          69,
+          114,
+          219,
+          413,
+          418,
+          421
+        ],
+        "a": [
+          12,
+          18,
+          141,
+          250,
+          325,
+          382,
+          414,
+          438
+        ],
+        "proven": [
+          13
+        ],
+        "fact": [
+          14
+        ],
+        "that": [
+          15,
+          122,
+          235,
+          353
+        ],
+        "studying": [
+          16
+        ],
+        "from": [
+          17,
+          119
+        ],
+        "good": [
+          19,
+          161,
+          439
+        ],
+        "study": [
+          20,
+          50,
+          78,
+          208,
+          274,
+          277,
+          308,
+          452
+        ],
+        "guide": [
+          21,
+          79,
+          209
+        ],
+        "an": [
+          23,
+          46
+        ],
+        "important": [
+          24,
+          70
+        ],
+        "part": [
+          25
+        ],
+        "of": [
+          26,
+          63,
+          76,
+          102,
+          116,
+          299,
+          324,
+          437
+        ],
+        "passing": [
+          27,
+          446
+        ],
+        "the": [
+          28,
+          38,
+          66,
+          73,
+          77,
+          86,
+          105,
+          109,
+          120,
+          128,
+          135,
+          164,
+          182,
+          192,
+          203,
+          215,
+          255,
+          262,
+          288,
+          297,
+          300,
+          307,
+          315,
+          331,
+          341,
+          366,
+          386,
+          393,
+          405,
+          408,
+          427,
+          435,
+          447,
+          450
+        ],
+        "exam.": [
+          30,
+          111,
+          184,
+          194,
+          335,
+          358,
+          368,
+          409
+        ],
+        "It": [
+          31,
+          68,
+          148,
+          195,
+          336
+        ],
+        "vital": [
+          33
+        ],
+        "to": [
+          34,
+          71,
+          146,
+          202,
+          232,
+          253,
+          268,
+          273,
+          305,
+          310,
+          328,
+          340,
+          349,
+          365,
+          372,
+          423
+        ],
+        "prepare": [
+          35,
+          126,
+          180,
+          213,
+          259,
+          329,
+          338,
+          424
+        ],
+        "well": [
+          36
+        ],
+        "for": [
+          37,
+          127,
+          144,
+          181,
+          214,
+          261,
+          330,
+          385
+        ],
+        "test,": [
+          39,
+          448
+        ],
+        "which": [
+          40,
+          156,
+          218,
+          417
+        ],
+        "why": [
+          42,
+          419
+        ],
+        "you": [
+          43,
+          84,
+          125,
+          140,
+          159,
+          179,
+          190,
+          199,
+          212,
+          260,
+          266,
+          271,
+          313,
+          339,
+          391,
+          401
+        ],
+        "should": [
+          44,
+          279,
+          284,
+          321
+        ],
+        "use": [
+          45,
+          72,
+          323,
+          449
+        ],
+        "updated": [
+          47,
+          152,
+          286
+        ],
+        "accurate": [
+          49
+        ],
+        "guide.": [
+          51
+        ],
+        "These": [
+          52
+        ],
+        "exam": [
+          53,
+          87,
+          121,
+          230,
+          257,
+          343,
+          388,
+          430
+        ],
+        "prep": [
+          54
+        ],
+        "guides": [
+          55
+        ],
+        "are": [
+          56
+        ],
+        "created": [
+          57
+        ],
+        "by": [
+          58
+        ],
+        "experts": [
+          59
+        ],
+        "who": [
+          60
+        ],
+        "have": [
+          61
+        ],
+        "years": [
+          62
+        ],
+        "experience": [
+          64
+        ],
+        "in": [
+          65,
+          95
+        ],
+        "industry.": [
+          67
+        ],
+        "latest": [
+          74,
+          289
+        ],
+        "version": [
+          75
+        ],
+        "as": [
+          80
+        ],
+        "it": [
+          81,
+          225,
+          420
+        ],
+        "will": [
+          82,
+          123,
+          133,
+          157,
+          196,
+          258,
+          295,
+          337,
+          362,
+          389,
+          399
+        ],
+        "help": [
+          83,
+          124,
+          158,
+          178,
+          189,
+          198,
+          211,
+          390,
+          400,
+          436
+        ],
+        "pass": [
+          85,
+          254,
+          314
+        ],
+        "easily.\\n\\nProfessional-Cloud-DevOps-Engineer": [
+          88
+        ],
+        "Dumps": [
+          89,
+          170,
+          245
+        ],
+        "-": [
+          90
+        ],
+        "Learn": [
+          91
+        ],
+        "&": [
+          92
+        ],
+        "Earn": [
+          93
+        ],
+        "Success": [
+          94
+        ],
+        "Cisco": [
+          96
+        ],
+        "Instantly\\n\\nThe": [
+          98
+        ],
+        "Google": [
+          99,
+          216,
+          256,
+          294,
+          332,
+          334,
+          411,
+          428
+        ],
+        "Certsleads": [
+          100,
+          113
+        ],
+        "consists": [
+          101
+        ],
+        "two": [
+          103
+        ],
+        "parts:": [
+          104
+        ],
+        "preparation": [
+          106
+        ],
+        "material": [
+          107,
+          278,
+          309
+        ],
+        "practice": [
+          110,
+          131,
+          175,
+          186,
+          251,
+          326,
+          360,
+          383,
+          397,
+          440
+        ],
+        "The": [
+          112,
+          130,
+          206,
+          276,
+          359,
+          396,
+          410
+        ],
+        "comprised": [
+          115
+        ],
+        "actual": [
+          117,
+          136,
+          229
+        ],
+        "questions": [
+          118,
+          153,
+          352,
+          376,
+          406
+        ],
+        "test.": [
+          129,
+          441
+        ],
+        "tests": [
+          132,
+          176,
+          187,
+          361
+        ],
+        "simulate": [
+          134,
+          191
+        ],
+        "test": [
+          137,
+          204,
+          252,
+          327,
+          384,
+          398
+        ],
+        "give": [
+          139
+        ],
+        "real": [
+          142,
+          183,
+          193,
+          263,
+          367
+        ],
+        "feel": [
+          143
+        ],
+        "what": [
+          145,
+          375
+        ],
+        "expect.": [
+          147
+        ],
+        "contains": [
+          149
+        ],
+        "new": [
+          150
+        ],
+        "answers,": [
+          155
+        ],
+        "get": [
+          160,
+          200,
+          392
+        ],
+        "marks": [
+          162
+        ],
+        "on": [
+          163,
+          356,
+          379,
+          407
+        ],
+        "certification": [
+          165,
+          429
+        ],
+        "test.\\n\\nFeature": [
+          166
+        ],
+        "That": [
+          167
+        ],
+        "Makes": [
+          168
+        ],
+        "Best": [
+          171
+        ],
+        "For": [
+          172,
+          292
+        ],
+        "%vendor": [
+          173
+        ],
+        "Exam\\n\\nTaking": [
+          174
+        ],
+        "can": [
+          177,
+          188,
+          210,
+          223,
+          431
+        ],
+        "Using": [
+          185
+        ],
+        "also": [
+          197
+        ],
+        "used": [
+          201
+        ],
+        "environment.": [
+          205
+        ],
+        "exam,": [
+          217,
+          416
+        ],
+        "more": [
+          220
+        ],
+        "difficult.": [
+          221
+        ],
+        "You": [
+          222
+        ],
+        "try": [
+          224
+        ],
+        "out": [
+          226,
+          374
+        ],
+        "before": [
+          227
+        ],
+        "your": [
+          228,
+          357,
+          380
+        ],
+        "date": [
+          231
+        ],
+        "be": [
+          233,
+          269,
+          281,
+          285,
+          347,
+          363,
+          370,
+          432
+        ],
+        "sure": [
+          234,
+          312
+        ],
+        "you'll": [
+          236,
+          303,
+          346
+        ],
+        "do": [
+          237
+        ],
+        "well.\\n\\nDownload": [
+          238
+        ],
+        "Free": [
+          239
+        ],
+        "Demo": [
+          240
+        ],
+        "with": [
+          241,
+          287,
+          434
+        ],
+        "Real": [
+          242
+        ],
+        "Questions": [
+          246
+        ],
+        "Answer": [
+          247
+        ],
+        ":": [
+          248
+        ],
+        "http://www.certsleads.com/google/professional-cloud-devops-engineer-exam-questions\\n\\nGetting": [
+          249
+        ],
+        "thing.": [
+          264
+        ],
+        "If": [
+          265,
+          442
+        ],
+        "want": [
+          267
+        ],
+        "successful,": [
+          270
+        ],
+        "need": [
+          272,
+          304
+        ],
+        "well.": [
+          275,
+          425
+        ],
+        "not": [
+          280
+        ],
+        "outdated": [
+          282
+        ],
+        "exams.": [
+          291
+        ],
+        "example,": [
+          293
+        ],
+        "change": [
+          296
+        ],
+        "syllabus": [
+          298
+        ],
+        "certification,": [
+          301
+        ],
+        "so": [
+          302,
+          345
+        ],
+        "update": [
+          306
+        ],
+        "make": [
+          311,
+          322
+        ],
+        "test.\\n\\nGoogle": [
+          316
+        ],
+        "Web-based": [
+          318
+        ],
+        "Software\\n\\nYou": [
+          320
+        ],
+        "Professional": [
+          333
+        ],
+        "exact": [
+          342
+        ],
+        "day,": [
+          344
+        ],
+        "able": [
+          348,
+          371
+        ],
+        "answer": [
+          350
+        ],
+        "any": [
+          351
+        ],
+        "may": [
+          354
+        ],
+        "arise": [
+          355
+        ],
+        "similar": [
+          364
+        ],
+        "You'll": [
+          369
+        ],
+        "find": [
+          373
+        ],
+        "come": [
+          377
+        ],
+        "up": [
+          378
+        ],
+        "test.\\n\\nTaking": [
+          381
+        ],
+        "desired": [
+          394
+        ],
+        "result.": [
+          395
+        ],
+        "understand": [
+          402
+        ],
+        "remember": [
+          404
+        ],
+        "examination": [
+          412
+        ],
+        "challenging": [
+          415
+        ],
+        "imperative": [
+          422
+        ],
+        "Luckily,": [
+          426
+        ],
+        "passed": [
+          433
+        ],
+        "you're": [
+          443
+        ],
+        "serious": [
+          444
+        ],
+        "about": [
+          445
+        ],
+        "right": [
+          451
+        ],
+        "materials.\\n\\n": [
+          453
+        ]
+      },
+      "counts_by_year": [],
+      "updated_date": "2026-10-13T10:08:12.033832",
+      "created_date": "2025-10-10T00:00:00"
+    },
+    {
+      "id": "https://openalex.org/W4221086012",
+      "doi": "https://doi.org/10.5281/zenodo.5878288",
+      "title": "Latest Professional-Cloud-DevOps-Engineer Exam PDF questions with Professional-Cloud-DevOps-Engineer PDF Dumps",
+      "display_name": "Latest Professional-Cloud-DevOps-Engineer Exam PDF questions with Professional-Cloud-DevOps-Engineer PDF Dumps",
+      "relevance_score": 170.02809,
+      "publication_year": 2022,
+      "publication_date": "2022-01-19",
+      "ids": {
+        "openalex": "https://openalex.org/W4221086012",
+        "doi": "https://doi.org/10.5281/zenodo.5878288"
+      },
+      "language": "en",
+      "primary_location": {
+        "id": "pmh:oai:zenodo.org:5878288",
+        "doi": "https://doi.org/10.5281/zenodo.5878288",
+        "is_oa": true,
+        "landing_page_url": "https://zenodo.org/record/5878288",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4306400562",
+          "display_name": "Zenodo (CERN European Organization for Nuclear Research)",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": true,
+          "is_in_doaj": false,
+          "is_core": false,
+          "listed_in": [],
+          "host_organization": "https://openalex.org/I67311998",
+          "host_organization_name": "European Organization for Nuclear Research",
+          "host_organization_lineage": [
+            "https://openalex.org/I67311998"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "version": "submittedVersion",
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": "",
+        "raw_type": "info:eu-repo/semantics/article"
+      },
+      "parent_works": [],
+      "lineage": [
+        "https://openalex.org/W4221086012"
+      ],
+      "child_works_count": 0,
+      "type": "article",
+      "is_traditional": true,
+      "indexed_in": [],
+      "open_access": {
+        "is_oa": true,
+        "oa_status": "green",
+        "oa_url": "https://zenodo.org/record/5878288",
+        "any_repository_has_fulltext": true
+      },
+      "authorships": [
+        {
+          "author_position": "first",
+          "author": {
+            "id": null,
+            "display_name": "Professional-Cloud-DevOps-Engineer Exam PDF",
+            "orcid": null,
+            "observed_orcids": []
+          },
+          "institutions": [],
+          "countries": [],
+          "is_corresponding": true,
+          "raw_author_name": "Professional-Cloud-DevOps-Engineer Exam PDF",
+          "raw_affiliation_strings": [],
+          "raw_orcid": null,
+          "affiliations": []
+        }
+      ],
+      "institutions": [],
+      "countries_distinct_count": 0,
+      "institutions_distinct_count": 0,
+      "corresponding_author_ids": [],
+      "corresponding_institution_ids": [],
+      "apc_list": null,
+      "apc_paid": null,
+      "fwci": 0.0,
+      "is_authors_truncated": false,
+      "has_fulltext": false,
+      "cited_by_count": 0,
+      "citation_normalized_percentile": {
+        "value": 0.0,
+        "is_in_top_1_percent": false,
+        "is_in_top_10_percent": false
+      },
+      "cited_by_percentile_year": null,
+      "biblio": {
+        "volume": null,
+        "issue": null,
+        "first_page": null,
+        "last_page": null
+      },
+      "is_retracted": false,
+      "is_paratext": false,
+      "is_xpac": false,
+      "primary_topic": {
+        "id": "https://openalex.org/T10101",
+        "display_name": "Cloud Computing and Resource Management",
+        "score": 0.9707000255584717,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1710",
+          "display_name": "Information Systems"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      "topics": [
+        {
+          "id": "https://openalex.org/T10101",
+          "display_name": "Cloud Computing and Resource Management",
+          "score": 0.9707000255584717,
+          "subfield": {
+            "id": "https://openalex.org/subfields/1710",
+            "display_name": "Information Systems"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/17",
+            "display_name": "Computer Science"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T13034",
+          "display_name": "Information Systems Education and Curriculum Development",
+          "score": 0.008200000040233135,
+          "subfield": {
+            "id": "https://openalex.org/subfields/1710",
+            "display_name": "Information Systems"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/17",
+            "display_name": "Computer Science"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T12127",
+          "display_name": "Software System Performance and Reliability",
+          "score": 0.007600000128149986,
+          "subfield": {
+            "id": "https://openalex.org/subfields/1705",
+            "display_name": "Computer Networks and Communications"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/17",
+            "display_name": "Computer Science"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        }
+      ],
+      "keywords": [
+        {
+          "id": "https://openalex.org/keywords/exam-dumps",
+          "display_name": "exam dumps",
+          "score": 0.6420000195503235
+        },
+        {
+          "id": "https://openalex.org/keywords/certification-exam-preparation",
+          "display_name": "certification exam preparation",
+          "score": 0.9459999799728394
+        },
+        {
+          "id": "https://openalex.org/keywords/cloud-infrastructure-management",
+          "display_name": "cloud infrastructure management",
+          "score": 0.46399998664855957
+        },
+        {
+          "id": "https://openalex.org/keywords/continuous-delivery",
+          "display_name": "continuous delivery",
+          "score": 0.3400000035762787
+        },
+        {
+          "id": "https://openalex.org/keywords/containerization",
+          "display_name": "containerization",
+          "score": 0.39500001072883606
+        },
+        {
+          "id": "https://openalex.org/keywords/kubernetes",
+          "display_name": "Kubernetes",
+          "score": 0.3569999933242798
+        },
+        {
+          "id": "https://openalex.org/keywords/jenkins",
+          "display_name": "Jenkins",
+          "score": 0.4490000009536743
+        },
+        {
+          "id": "https://openalex.org/keywords/terraform",
+          "display_name": "Terraform",
+          "score": 0.531000018119812
+        },
+        {
+          "id": "https://openalex.org/keywords/infrastructure-as-code",
+          "display_name": "infrastructure as code",
+          "score": 0.5090000033378601
+        },
+        {
+          "id": "https://openalex.org/keywords/devops-tools",
+          "display_name": "DevOps tools",
+          "score": 0.36399999260902405
+        },
+        {
+          "id": "https://openalex.org/keywords/security-and-compliance",
+          "display_name": "security and compliance",
+          "score": 0.34599998593330383
+        },
+        {
+          "id": "https://openalex.org/keywords/cost-optimization",
+          "display_name": "cost optimization",
+          "score": 0.30300000309944153
+        },
+        {
+          "id": "https://openalex.org/keywords/security-hardening",
+          "display_name": "security hardening",
+          "score": 0.3319999873638153
+        },
+        {
+          "id": "https://openalex.org/keywords/disaster-recovery",
+          "display_name": "disaster recovery",
+          "score": 0.43299999833106995
+        },
+        {
+          "id": "https://openalex.org/keywords/disaster-recovery-testing",
+          "display_name": "disaster recovery testing",
+          "score": 0.33000001311302185
+        }
+      ],
+      "concepts": [
+        {
+          "id": "https://openalex.org/C9903902",
+          "wikidata": "https://www.wikidata.org/wiki/Q3025536",
+          "display_name": "DevOps",
+          "level": 3,
+          "score": 0.9846303462982178
+        },
+        {
+          "id": "https://openalex.org/C79974875",
+          "wikidata": "https://www.wikidata.org/wiki/Q483639",
+          "display_name": "Cloud computing",
+          "level": 2,
+          "score": 0.7796198129653931
+        },
+        {
+          "id": "https://openalex.org/C110354214",
+          "wikidata": "https://www.wikidata.org/wiki/Q6314146",
+          "display_name": "Engineering management",
+          "level": 1,
+          "score": 0.4338746666908264
+        },
+        {
+          "id": "https://openalex.org/C51067260",
+          "wikidata": "https://www.wikidata.org/wiki/Q828812",
+          "display_name": "Professional development",
+          "level": 2,
+          "score": 0.41450071334838867
+        },
+        {
+          "id": "https://openalex.org/C127413603",
+          "wikidata": "https://www.wikidata.org/wiki/Q11023",
+          "display_name": "Engineering",
+          "level": 0,
+          "score": 0.413099080324173
+        },
+        {
+          "id": "https://openalex.org/C41008148",
+          "wikidata": "https://www.wikidata.org/wiki/Q21198",
+          "display_name": "Computer science",
+          "level": 0,
+          "score": 0.3920961022377014
+        },
+        {
+          "id": "https://openalex.org/C509550671",
+          "wikidata": "https://www.wikidata.org/wiki/Q126945",
+          "display_name": "Medical education",
+          "level": 1,
+          "score": 0.21514615416526794
+        },
+        {
+          "id": "https://openalex.org/C71924100",
+          "wikidata": "https://www.wikidata.org/wiki/Q11190",
+          "display_name": "Medicine",
+          "level": 0,
+          "score": 0.14176908135414124
+        },
+        {
+          "id": "https://openalex.org/C111919701",
+          "wikidata": "https://www.wikidata.org/wiki/Q9135",
+          "display_name": "Operating system",
+          "level": 1,
+          "score": 0.0729956328868866
+        }
+      ],
+      "mesh": [],
+      "locations_count": 1,
+      "locations": [
+        {
+          "id": "pmh:oai:zenodo.org:5878288",
+          "doi": "https://doi.org/10.5281/zenodo.5878288",
+          "is_oa": true,
+          "landing_page_url": "https://zenodo.org/record/5878288",
+          "pdf_url": null,
+          "source": {
+            "id": "https://openalex.org/S4306400562",
+            "display_name": "Zenodo (CERN European Organization for Nuclear Research)",
+            "issn_l": null,
+            "issn": null,
+            "is_oa": true,
+            "is_in_doaj": false,
+            "is_core": false,
+            "listed_in": [],
+            "host_organization": "https://openalex.org/I67311998",
+            "host_organization_name": "European Organization for Nuclear Research",
+            "host_organization_lineage": [
+              "https://openalex.org/I67311998"
+            ],
+            "host_organization_lineage_names": [],
+            "type": "repository"
+          },
+          "license": "cc-by",
+          "license_id": "https://openalex.org/licenses/cc-by",
+          "version": "submittedVersion",
+          "is_accepted": false,
+          "is_published": false,
+          "raw_source_name": "",
+          "raw_type": "info:eu-repo/semantics/article"
+        }
+      ],
+      "best_oa_location": {
+        "id": "pmh:oai:zenodo.org:5878288",
+        "doi": "https://doi.org/10.5281/zenodo.5878288",
+        "is_oa": true,
+        "landing_page_url": "https://zenodo.org/record/5878288",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4306400562",
+          "display_name": "Zenodo (CERN European Organization for Nuclear Research)",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": true,
+          "is_in_doaj": false,
+          "is_core": false,
+          "listed_in": [],
+          "host_organization": "https://openalex.org/I67311998",
+          "host_organization_name": "European Organization for Nuclear Research",
+          "host_organization_lineage": [
+            "https://openalex.org/I67311998"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "version": "submittedVersion",
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": "",
+        "raw_type": "info:eu-repo/semantics/article"
+      },
+      "sustainable_development_goals": [],
+      "study_designs": [],
+      "awards": [],
+      "funders": [],
+      "has_content": {
+        "pdf": false,
+        "grobid_xml": false
+      },
+      "content_urls": null,
+      "referenced_works_count": 0,
+      "referenced_works": [],
+      "related_works": [
+        "https://openalex.org/W4226337863",
+        "https://openalex.org/W4220722237",
+        "https://openalex.org/W4226496300",
+        "https://openalex.org/W4225826212",
+        "https://openalex.org/W4225730542",
+        "https://openalex.org/W4220871627",
+        "https://openalex.org/W4220994493",
+        "https://openalex.org/W4220727530",
+        "https://openalex.org/W4221023097",
+        "https://openalex.org/W4220682149"
+      ],
+      "abstract_inverted_index": {
+        "Bored": [
+          0
+        ],
+        "of": [
+          1,
+          185,
+          290,
+          414
+        ],
+        "Day-to-day": [
+          2
+        ],
+        "Grind?": [
+          3
+        ],
+        "Take": [
+          4
+        ],
+        "Google": [
+          5,
+          13,
+          16,
+          46,
+          95,
+          151,
+          161,
+          195,
+          245,
+          251,
+          268,
+          334,
+          371,
+          387,
+          392,
+          452,
+          477,
+          487,
+          492,
+          497,
+          506,
+          516
+        ],
+        "Professional-Cloud-DevOps-Engineer": [
+          6,
+          80,
+          84,
+          110,
+          152,
+          162,
+          179,
+          196,
+          212,
+          232,
+          246,
+          252,
+          269,
+          280,
+          304,
+          319,
+          335,
+          345,
+          372,
+          388,
+          405,
+          409,
+          416,
+          433,
+          453,
+          461,
+          472,
+          488,
+          493,
+          498,
+          502,
+          507,
+          512,
+          524,
+          527,
+          531,
+          537
+        ],
+        "Exam": [
+          7,
+          153,
+          373,
+          499,
+          503,
+          521,
+          533
+        ],
+        "Dumps": [
+          8,
+          154,
+          495,
+          500,
+          538
+        ],
+        "PDF\\n\\nWhen": [
+          9
+        ],
+        "you": [
+          10,
+          40,
+          65,
+          71,
+          90,
+          102,
+          118,
+          133,
+          202,
+          284,
+          297,
+          309,
+          329,
+          362,
+          367,
+          421
+        ],
+        "are": [
+          11,
+          72,
+          298,
+          322
+        ],
+        "a": [
+          12,
+          73,
+          156,
+          171,
+          237
+        ],
+        "Cloud": [
+          14,
+          18,
+          97,
+          126,
+          225,
+          377,
+          394,
+          479,
+          518
+        ],
+        "Certified": [
+          15
+        ],
+        "Professional": [
+          17,
+          96,
+          125,
+          224,
+          376,
+          393,
+          478,
+          517
+        ],
+        "DevOps": [
+          19,
+          98,
+          127,
+          226,
+          378,
+          395,
+          480,
+          519
+        ],
+        "Engineer": [
+          20,
+          99,
+          128,
+          227,
+          379,
+          396,
+          481,
+          520
+        ],
+        "exam": [
+          21,
+          47,
+          81,
+          100,
+          111,
+          180,
+          214,
+          228,
+          233,
+          270,
+          281,
+          305,
+          337,
+          346,
+          406,
+          417,
+          462,
+          473
+        ],
+        "student": [
+          22
+        ],
+        "who": [
+          23,
+          54,
+          76
+        ],
+        "is": [
+          24,
+          86,
+          166,
+          216,
+          260,
+          382,
+          412
+        ],
+        "finding": [
+          25
+        ],
+        "bored": [
+          26,
+          66
+        ],
+        "in": [
+          27
+        ],
+        "repeating": [
+          28
+        ],
+        "the": [
+          29,
+          35,
+          45,
+          68,
+          79,
+          106,
+          150,
+          160,
+          178,
+          190,
+          194,
+          208,
+          211,
+          220,
+          244,
+          265,
+          274,
+          288,
+          291,
+          294,
+          302,
+          323,
+          333,
+          354,
+          386,
+          403,
+          424,
+          440,
+          446,
+          451,
+          460
+        ],
+        "same": [
+          30
+        ],
+        "job": [
+          31
+        ],
+        "as": [
+          32,
+          317
+        ],
+        "normally": [
+          33
+        ],
+        "than": [
+          34
+        ],
+        "time": [
+          36
+        ],
+        "has": [
+          37,
+          436
+        ],
+        "come": [
+          38
+        ],
+        "for": [
+          39,
+          52,
+          78,
+          219,
+          243
+        ],
+        "personally": [
+          41
+        ],
+        "to": [
+          42,
+          58,
+          88,
+          103,
+          119,
+          120,
+          134,
+          147,
+          173,
+          192,
+          207,
+          217,
+          263,
+          278,
+          300,
+          312,
+          330,
+          331,
+          369,
+          401,
+          426,
+          428
+        ],
+        "go": [
+          43
+        ],
+        "through": [
+          44,
+          177
+        ],
+        "dumps": [
+          48,
+          82,
+          112,
+          164,
+          229,
+          234,
+          283,
+          306,
+          320,
+          348,
+          463,
+          474,
+          489
+        ],
+        "pdf": [
+          49,
+          113,
+          130,
+          163,
+          181,
+          213,
+          282,
+          307,
+          321,
+          347,
+          355,
+          418,
+          490
+        ],
+        "questions.": [
+          50,
+          198
+        ],
+        "Imagine": [
+          51
+        ],
+        "those": [
+          53,
+          61
+        ],
+        "wake": [
+          55
+        ],
+        "up": [
+          56,
+          277,
+          427
+        ],
+        "just": [
+          57
+        ],
+        "repeat": [
+          59
+        ],
+        "all": [
+          60,
+          67,
+          184,
+          187
+        ],
+        "tasks": [
+          62
+        ],
+        "which": [
+          63
+        ],
+        "make": [
+          64
+        ],
+        "time.": [
+          69
+        ],
+        "And": [
+          70
+        ],
+        "challenge": [
+          74
+        ],
+        "seeker": [
+          75
+        ],
+        "appears": [
+          77
+        ],
+        "job.": [
+          83
+        ],
+        "test": [
+          85,
+          129,
+          359,
+          398,
+          411
+        ],
+        "here": [
+          87,
+          259,
+          299
+        ],
+        "comfort": [
+          89
+        ],
+        "within": [
+          91,
+          240
+        ],
+        "your": [
+          92,
+          122,
+          136,
+          186,
+          241,
+          340,
+          457,
+          485
+        ],
+        "rcertification": [
+          93
+        ],
+        "profession.": [
+          94
+        ],
+        "enables": [
+          101
+        ],
+        "resolve": [
+          104
+        ],
+        "probably": [
+          105
+        ],
+        "most": [
+          107,
+          266
+        ],
+        "difficult": [
+          108
+        ],
+        "tasks.\\n\\nThe": [
+          109
+        ],
+        "questions": [
+          114,
+          165,
+          182,
+          215,
+          338,
+          419
+        ],
+        "will": [
+          115,
+          203,
+          235,
+          285,
+          399,
+          422,
+          464
+        ],
+        "also": [
+          116,
+          131,
+          350,
+          383,
+          444
+        ],
+        "allow": [
+          117,
+          328
+        ],
+        "upgrade": [
+          121,
+          135
+        ],
+        "marketplace": [
+          123
+        ],
+        "credibility.": [
+          124
+        ],
+        "assists": [
+          132
+        ],
+        "ability": [
+          137
+        ],
+        "set.\\n\\n\\n\\tGet": [
+          138
+        ],
+        "25%": [
+          139
+        ],
+        "Discount": [
+          140
+        ],
+        "Use": [
+          141
+        ],
+        "Coupan": [
+          142
+        ],
+        "Code": [
+          143
+        ],
+        "\"SAVE25\"\\n\\n\\nThe": [
+          144
+        ],
+        "best": [
+          145
+        ],
+        "Way": [
+          146
+        ],
+        "get": [
+          148,
+          301,
+          313,
+          445,
+          470
+        ],
+        "Through": [
+          149
+        ],
+        "Questions\\n\\nCreating": [
+          155
+        ],
+        "determination": [
+          157
+        ],
+        "about": [
+          158
+        ],
+        "getting": [
+          159
+        ],
+        "simple": [
+          167
+        ],
+        "but": [
+          168
+        ],
+        "it": [
+          169,
+          365
+        ],
+        "requires": [
+          170,
+          183
+        ],
+        "lot": [
+          172
+        ],
+        "achieve": [
+          174
+        ],
+        "it.": [
+          175
+        ],
+        "Going": [
+          176
+        ],
+        "possible": [
+          188
+        ],
+        "with": [
+          189
+        ],
+        "self-confidence": [
+          191
+        ],
+        "pass": [
+          193,
+          332
+        ],
+        "new": [
+          197,
+          336
+        ],
+        "further": [
+          199
+        ],
+        "step": [
+          200
+        ],
+        "that": [
+          201,
+          261,
+          296,
+          326
+        ],
+        "must": [
+          204,
+          286
+        ],
+        "do": [
+          205
+        ],
+        "relating": [
+          206
+        ],
+        "preparation": [
+          209,
+          242
+        ],
+        "from": [
+          210,
+          315
+        ],
+        "appear": [
+          218
+        ],
+        "valid": [
+          221,
+          250,
+          256
+        ],
+        "and": [
+          222,
+          249,
+          276,
+          361,
+          475
+        ],
+        "latest": [
+          223
+        ],
+        "pdf.": [
+          230
+        ],
+        "These": [
+          231
+        ],
+        "play": [
+          236
+        ],
+        "crucial": [
+          238
+        ],
+        "role": [
+          239
+        ],
+        "questions.\\n\\nGet": [
+          247
+        ],
+        "newest": [
+          248,
+          275,
+          303,
+          415
+        ],
+        "Questions": [
+          253,
+          374,
+          504,
+          509,
+          513
+        ],
+        "PDF": [
+          254,
+          494,
+          508
+        ],
+        "Dumps\\n\\nA": [
+          255
+        ],
+        "question": [
+          257
+        ],
+        "arouse": [
+          258
+        ],
+        "where": [
+          262
+        ],
+        "locate": [
+          264
+        ],
+        "recent": [
+          267
+        ],
+        "dumps?": [
+          271
+        ],
+        "To": [
+          272
+        ],
+        "have": [
+          273,
+          423
+        ],
+        "dated": [
+          279
+        ],
+        "take": [
+          287
+        ],
+        "advantage": [
+          289
+        ],
+        "internet.": [
+          292
+        ],
+        "Considering": [
+          293
+        ],
+        "fact": [
+          295
+        ],
+        "then": [
+          308
+        ],
+        "definitely": [
+          310
+        ],
+        "need": [
+          311
+        ],
+        "them": [
+          314
+        ],
+        "us,": [
+          316
+        ],
+        "our": [
+          318,
+          471
+        ],
+        "top-notch": [
+          324
+        ],
+        "solution": [
+          325
+        ],
+        "could": [
+          327
+        ],
+        "at": [
+          339
+        ],
+        "pretty": [
+          341
+        ],
+        "first": [
+          342
+        ],
+        "try.": [
+          343
+        ],
+        "Our": [
+          344
+        ],
+        "may": [
+          349,
+          443
+        ],
+        "be": [
+          351,
+          466
+        ],
+        "obtained": [
+          352
+        ],
+        "inside": [
+          353,
+          459
+        ],
+        "format": [
+          356
+        ],
+        "&": [
+          357
+        ],
+        "practice": [
+          358,
+          389,
+          397,
+          410
+        ],
+        "software": [
+          360
+        ],
+        "can": [
+          363
+        ],
+        "access": [
+          364,
+          425
+        ],
+        "wherever": [
+          366
+        ],
+        "want": [
+          368
+        ],
+        "access.\\n\\nCertsquestions": [
+          370
+        ],
+        "PDF\\n\\nCertsquestions": [
+          375
+        ],
+        "training": [
+          380
+        ],
+        "material": [
+          381,
+          435
+        ],
+        "equipped": [
+          384,
+          413
+        ],
+        "using": [
+          385
+        ],
+        "test.": [
+          390
+        ],
+        "This": [
+          391,
+          408,
+          432
+        ],
+        "support": [
+          400
+        ],
+        "understand": [
+          402
+        ],
+        "real": [
+          404
+        ],
+        "scenario.": [
+          407
+        ],
+        "mean": [
+          420,
+          456
+        ],
+        "date": [
+          429
+        ],
+        "study": [
+          430,
+          434
+        ],
+        "material.": [
+          431
+        ],
+        "been": [
+          437
+        ],
+        "verified": [
+          438
+        ],
+        "by": [
+          439
+        ],
+        "Industry": [
+          441
+        ],
+        "experts.\\n\\nYou": [
+          442
+        ],
+        "100%": [
+          447
+        ],
+        "passing": [
+          448
+        ],
+        "guarantee": [
+          449
+        ],
+        "on": [
+          450,
+          484
+        ],
+        "Certsquestions": [
+          454
+        ],
+        "braindumps": [
+          455
+        ],
+        "investment": [
+          458
+        ],
+        "not": [
+          465
+        ],
+        "wasted.": [
+          467
+        ],
+        "In": [
+          468
+        ],
+        "short": [
+          469
+        ],
+        "write": [
+          476
+        ],
+        "certified": [
+          482
+        ],
+        "professional": [
+          483
+        ],
+        "resume.\\n\\nTags:": [
+          486
+        ],
+        "|": [
+          491,
+          496,
+          501,
+          505,
+          510,
+          515,
+          523,
+          526,
+          530
+        ],
+        "Verified": [
+          511
+        ],
+        "Answers": [
+          514
+        ],
+        "Certification": [
+          522
+        ],
+        "Braindumps": [
+          525
+        ],
+        "Pratice": [
+          528
+        ],
+        "Test": [
+          529
+        ],
+        "Practice": [
+          532
+        ],
+        "Questions\\n\\nRefer": [
+          534
+        ],
+        "Link": [
+          535
+        ],
+        "On": [
+          536
+        ],
+        "PDF:": [
+          539
+        ],
+        "https://sites.google.com/view/guaranteed-achievement-with-up/home": [
+          540
+        ]
+      },
+      "counts_by_year": [],
+      "updated_date": "2026-10-12T09:40:04.860316",
+      "created_date": "2025-10-10T00:00:00"
+    },
+    {
+      "id": "https://openalex.org/W4220728655",
+      "doi": "https://doi.org/10.5281/zenodo.6075353",
+      "title": "Amazon AWS-Certified-DevOps-Engineer-Professional Dumps - Accurate AWS-Certified-DevOps-Engineer-Professional Exam Questions",
+      "display_name": "Amazon AWS-Certified-DevOps-Engineer-Professional Dumps - Accurate AWS-Certified-DevOps-Engineer-Professional Exam Questions",
+      "relevance_score": 165.12773,
+      "publication_year": 2022,
+      "publication_date": "2022-02-14",
+      "ids": {
+        "openalex": "https://openalex.org/W4220728655",
+        "doi": "https://doi.org/10.5281/zenodo.6075353"
+      },
+      "language": "en",
+      "primary_location": {
+        "id": "pmh:oai:zenodo.org:6075353",
+        "doi": "https://doi.org/10.5281/zenodo.6075353",
+        "is_oa": true,
+        "landing_page_url": "https://zenodo.org/record/6075353",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4306400562",
+          "display_name": "Zenodo (CERN European Organization for Nuclear Research)",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": true,
+          "is_in_doaj": false,
+          "is_core": false,
+          "listed_in": [],
+          "host_organization": "https://openalex.org/I67311998",
+          "host_organization_name": "European Organization for Nuclear Research",
+          "host_organization_lineage": [
+            "https://openalex.org/I67311998"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "version": "submittedVersion",
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": "",
+        "raw_type": "info:eu-repo/semantics/article"
+      },
+      "parent_works": [],
+      "lineage": [
+        "https://openalex.org/W4220728655"
+      ],
+      "child_works_count": 0,
+      "type": "article",
+      "is_traditional": true,
+      "indexed_in": [],
+      "open_access": {
+        "is_oa": true,
+        "oa_status": "green",
+        "oa_url": "https://zenodo.org/record/6075353",
+        "any_repository_has_fulltext": true
+      },
+      "authorships": [
+        {
+          "author_position": "first",
+          "author": {
+            "id": null,
+            "display_name": "evanclarkson",
+            "orcid": null,
+            "observed_orcids": []
+          },
+          "institutions": [],
+          "countries": [],
+          "is_corresponding": true,
+          "raw_author_name": "evanclarkson",
+          "raw_affiliation_strings": [],
+          "raw_orcid": null,
+          "affiliations": []
+        }
+      ],
+      "institutions": [],
+      "countries_distinct_count": 0,
+      "institutions_distinct_count": 0,
+      "corresponding_author_ids": [],
+      "corresponding_institution_ids": [],
+      "apc_list": null,
+      "apc_paid": null,
+      "fwci": 0.0,
+      "is_authors_truncated": false,
+      "has_fulltext": false,
+      "cited_by_count": 0,
+      "citation_normalized_percentile": {
+        "value": 0.0,
+        "is_in_top_1_percent": false,
+        "is_in_top_10_percent": false
+      },
+      "cited_by_percentile_year": null,
+      "biblio": {
+        "volume": null,
+        "issue": null,
+        "first_page": null,
+        "last_page": null
+      },
+      "is_retracted": false,
+      "is_paratext": false,
+      "is_xpac": false,
+      "primary_topic": {
+        "id": "https://openalex.org/T10101",
+        "display_name": "Cloud Computing and Resource Management",
+        "score": 0.9672999978065491,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1710",
+          "display_name": "Information Systems"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      "topics": [
+        {
+          "id": "https://openalex.org/T10101",
+          "display_name": "Cloud Computing and Resource Management",
+          "score": 0.9672999978065491,
+          "subfield": {
+            "id": "https://openalex.org/subfields/1710",
+            "display_name": "Information Systems"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/17",
+            "display_name": "Computer Science"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T13034",
+          "display_name": "Information Systems Education and Curriculum Development",
+          "score": 0.014499999582767487,
+          "subfield": {
+            "id": "https://openalex.org/subfields/1710",
+            "display_name": "Information Systems"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/17",
+            "display_name": "Computer Science"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T12127",
+          "display_name": "Software System Performance and Reliability",
+          "score": 0.00279999990016222,
+          "subfield": {
+            "id": "https://openalex.org/subfields/1705",
+            "display_name": "Computer Networks and Communications"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/17",
+            "display_name": "Computer Science"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        }
+      ],
+      "keywords": [
+        {
+          "id": "https://openalex.org/keywords/exam-dumps",
+          "display_name": "exam dumps",
+          "score": 0.7070000171661377
+        },
+        {
+          "id": "https://openalex.org/keywords/certification-exam-preparation",
+          "display_name": "certification exam preparation",
+          "score": 0.8389999866485596
+        },
+        {
+          "id": "https://openalex.org/keywords/practice-questions",
+          "display_name": "practice questions",
+          "score": 0.6669999957084656
+        },
+        {
+          "id": "https://openalex.org/keywords/practice-exam-software",
+          "display_name": "practice test software",
+          "score": 0.574999988079071
+        }
+      ],
+      "concepts": [
+        {
+          "id": "https://openalex.org/C46304622",
+          "wikidata": "https://www.wikidata.org/wiki/Q374814",
+          "display_name": "Certification",
+          "level": 2,
+          "score": 0.8823496699333191
+        },
+        {
+          "id": "https://openalex.org/C9903902",
+          "wikidata": "https://www.wikidata.org/wiki/Q3025536",
+          "display_name": "DevOps",
+          "level": 3,
+          "score": 0.874722421169281
+        },
+        {
+          "id": "https://openalex.org/C127413603",
+          "wikidata": "https://www.wikidata.org/wiki/Q11023",
+          "display_name": "Engineering",
+          "level": 0,
+          "score": 0.49786877632141113
+        },
+        {
+          "id": "https://openalex.org/C145434228",
+          "wikidata": "https://www.wikidata.org/wiki/Q16023913",
+          "display_name": "Professional certification (computer technology)",
+          "level": 3,
+          "score": 0.4626171886920929
+        },
+        {
+          "id": "https://openalex.org/C535291247",
+          "wikidata": "https://www.wikidata.org/wiki/Q177567",
+          "display_name": "Amazon rainforest",
+          "level": 2,
+          "score": 0.45911213755607605
+        },
+        {
+          "id": "https://openalex.org/C110354214",
+          "wikidata": "https://www.wikidata.org/wiki/Q6314146",
+          "display_name": "Engineering management",
+          "level": 1,
+          "score": 0.42714375257492065
+        },
+        {
+          "id": "https://openalex.org/C117671659",
+          "wikidata": "https://www.wikidata.org/wiki/Q11049265",
+          "display_name": "Manufacturing engineering",
+          "level": 1,
+          "score": 0.37684595584869385
+        },
+        {
+          "id": "https://openalex.org/C115903868",
+          "wikidata": "https://www.wikidata.org/wiki/Q80993",
+          "display_name": "Software engineering",
+          "level": 1,
+          "score": 0.20034447312355042
+        },
+        {
+          "id": "https://openalex.org/C187736073",
+          "wikidata": "https://www.wikidata.org/wiki/Q2920921",
+          "display_name": "Management",
+          "level": 1,
+          "score": 0.19583037495613098
+        },
+        {
+          "id": "https://openalex.org/C105339364",
+          "wikidata": "https://www.wikidata.org/wiki/Q2297740",
+          "display_name": "Software deployment",
+          "level": 2,
+          "score": 0.0
+        },
+        {
+          "id": "https://openalex.org/C86803240",
+          "wikidata": "https://www.wikidata.org/wiki/Q420",
+          "display_name": "Biology",
+          "level": 0,
+          "score": 0.0
+        },
+        {
+          "id": "https://openalex.org/C162324750",
+          "wikidata": "https://www.wikidata.org/wiki/Q8134",
+          "display_name": "Economics",
+          "level": 0,
+          "score": 0.0
+        },
+        {
+          "id": "https://openalex.org/C18903297",
+          "wikidata": "https://www.wikidata.org/wiki/Q7150",
+          "display_name": "Ecology",
+          "level": 1,
+          "score": 0.0
+        }
+      ],
+      "mesh": [],
+      "locations_count": 1,
+      "locations": [
+        {
+          "id": "pmh:oai:zenodo.org:6075353",
+          "doi": "https://doi.org/10.5281/zenodo.6075353",
+          "is_oa": true,
+          "landing_page_url": "https://zenodo.org/record/6075353",
+          "pdf_url": null,
+          "source": {
+            "id": "https://openalex.org/S4306400562",
+            "display_name": "Zenodo (CERN European Organization for Nuclear Research)",
+            "issn_l": null,
+            "issn": null,
+            "is_oa": true,
+            "is_in_doaj": false,
+            "is_core": false,
+            "listed_in": [],
+            "host_organization": "https://openalex.org/I67311998",
+            "host_organization_name": "European Organization for Nuclear Research",
+            "host_organization_lineage": [
+              "https://openalex.org/I67311998"
+            ],
+            "host_organization_lineage_names": [],
+            "type": "repository"
+          },
+          "license": "cc-by",
+          "license_id": "https://openalex.org/licenses/cc-by",
+          "version": "submittedVersion",
+          "is_accepted": false,
+          "is_published": false,
+          "raw_source_name": "",
+          "raw_type": "info:eu-repo/semantics/article"
+        }
+      ],
+      "best_oa_location": {
+        "id": "pmh:oai:zenodo.org:6075353",
+        "doi": "https://doi.org/10.5281/zenodo.6075353",
+        "is_oa": true,
+        "landing_page_url": "https://zenodo.org/record/6075353",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4306400562",
+          "display_name": "Zenodo (CERN European Organization for Nuclear Research)",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": true,
+          "is_in_doaj": false,
+          "is_core": false,
+          "listed_in": [],
+          "host_organization": "https://openalex.org/I67311998",
+          "host_organization_name": "European Organization for Nuclear Research",
+          "host_organization_lineage": [
+            "https://openalex.org/I67311998"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "version": "submittedVersion",
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": "",
+        "raw_type": "info:eu-repo/semantics/article"
+      },
+      "sustainable_development_goals": [],
+      "study_designs": [],
+      "awards": [],
+      "funders": [],
+      "has_content": {
+        "pdf": false,
+        "grobid_xml": false
+      },
+      "content_urls": null,
+      "referenced_works_count": 0,
+      "referenced_works": [],
+      "related_works": [
+        "https://openalex.org/W4220817938",
+        "https://openalex.org/W4221104320",
+        "https://openalex.org/W4220730135",
+        "https://openalex.org/W4226098667",
+        "https://openalex.org/W4221137373",
+        "https://openalex.org/W4221116370",
+        "https://openalex.org/W4226034195",
+        "https://openalex.org/W4221136110",
+        "https://openalex.org/W4221067086",
+        "https://openalex.org/W4226021963"
+      ],
+      "abstract_inverted_index": {
+        "ExamsSpy": [
+          0,
+          123,
+          176,
+          195,
+          205,
+          263,
+          615,
+          626,
+          706,
+          719,
+          747,
+          790
+        ],
+        "offer": [
+          1
+        ],
+        "reliable": [
+          2,
+          210
+        ],
+        "Amazon": [
+          3,
+          22,
+          131,
+          177,
+          196,
+          211,
+          233,
+          245,
+          257,
+          264,
+          283,
+          298,
+          317,
+          362,
+          388,
+          435,
+          534,
+          565,
+          609,
+          627,
+          687,
+          720,
+          774,
+          784,
+          805
+        ],
+        "AWS-Certified-DevOps-Engineer-Professional": [
+          4,
+          9,
+          13,
+          17,
+          23,
+          102,
+          132,
+          152,
+          178,
+          186,
+          197,
+          212,
+          234,
+          246,
+          258,
+          265,
+          284,
+          299,
+          318,
+          335,
+          363,
+          389,
+          426,
+          436,
+          441,
+          452,
+          461,
+          506,
+          522,
+          535,
+          537,
+          566,
+          588,
+          610,
+          628,
+          637,
+          659,
+          675,
+          688,
+          704,
+          721,
+          729,
+          775,
+          785,
+          806,
+          812
+        ],
+        "dumps": [
+          5,
+          14,
+          133,
+          180,
+          213,
+          235,
+          266,
+          285,
+          538,
+          629,
+          639,
+          661,
+          690,
+          722,
+          787
+        ],
+        "with": [
+          6,
+          128,
+          160,
+          346,
+          358,
+          444,
+          625
+        ],
+        "100%": [
+          7,
+          184
+        ],
+        "actual": [
+          8,
+          300
+        ],
+        "exam": [
+          10,
+          56,
+          159,
+          276,
+          342,
+          480,
+          660
+        ],
+        "questions.": [
+          11
+        ],
+        "Try": [
+          12
+        ],
+        "demo": [
+          15,
+          640,
+          662
+        ],
+        "today.\\n\\nClear": [
+          16
+        ],
+        "Exam": [
+          18,
+          187,
+          813
+        ],
+        "With": [
+          19
+        ],
+        "World": [
+          20
+        ],
+        "Best": [
+          21
+        ],
+        "Dumps\\n\\nPeople": [
+          24
+        ],
+        "Want": [
+          25
+        ],
+        "to": [
+          26,
+          38,
+          49,
+          57,
+          97,
+          114,
+          140,
+          218,
+          243,
+          280,
+          352,
+          374,
+          397,
+          403,
+          414,
+          424,
+          447,
+          623,
+          656,
+          668,
+          781
+        ],
+        "keep": [
+          27,
+          39,
+          572
+        ],
+        "their": [
+          28,
+          129
+        ],
+        "future": [
+          29
+        ],
+        "safe": [
+          30
+        ],
+        "and": [
+          31,
+          33,
+          59,
+          173,
+          209,
+          238,
+          302,
+          321,
+          327,
+          402,
+          464,
+          509,
+          601,
+          684,
+          743,
+          749,
+          768,
+          808
+        ],
+        "secure": [
+          32
+        ],
+        "for": [
+          34,
+          72,
+          138,
+          199,
+          254,
+          271,
+          333,
+          450,
+          545,
+          576,
+          586,
+          691,
+          759
+        ],
+        "that": [
+          35,
+          134,
+          214,
+          231,
+          250,
+          277,
+          292,
+          369,
+          412,
+          421,
+          494,
+          581,
+          647
+        ],
+        "one": [
+          36,
+          86,
+          147,
+          268,
+          293,
+          330,
+          413,
+          582,
+          605,
+          680,
+          712
+        ],
+        "needs": [
+          37,
+          48
+        ],
+        "on": [
+          40,
+          116,
+          309,
+          488,
+          514
+        ],
+        "progressing.": [
+          41
+        ],
+        "A": [
+          42
+        ],
+        "person": [
+          43,
+          69
+        ],
+        "having": [
+          44
+        ],
+        "an": [
+          45
+        ],
+        "IT": [
+          46
+        ],
+        "career": [
+          47
+        ],
+        "get": [
+          50,
+          219,
+          714
+        ],
+        "through": [
+          51,
+          169,
+          220
+        ],
+        "the": [
+          52,
+          73,
+          82,
+          151,
+          161,
+          170,
+          200,
+          203,
+          221,
+          239,
+          255,
+          272,
+          289,
+          334,
+          377,
+          386,
+          399,
+          407,
+          416,
+          451,
+          460,
+          470,
+          473,
+          476,
+          489,
+          492,
+          499,
+          505,
+          515,
+          521,
+          540,
+          546,
+          556,
+          564,
+          574,
+          587,
+          644,
+          658,
+          666,
+          674,
+          686,
+          693,
+          710,
+          718,
+          728,
+          783,
+          803
+        ],
+        "AWS": [
+          53,
+          74,
+          103,
+          153,
+          222,
+          273,
+          336,
+          427,
+          453,
+          477,
+          500,
+          523,
+          547,
+          589,
+          694,
+          730
+        ],
+        "Certified": [
+          54,
+          75,
+          104,
+          154,
+          223,
+          274,
+          337,
+          428,
+          454,
+          478,
+          501,
+          524,
+          548,
+          590,
+          695,
+          731
+        ],
+        "Developer": [
+          55,
+          76,
+          224,
+          275,
+          479,
+          502,
+          549,
+          696
+        ],
+        "prosper": [
+          58
+        ],
+        "grow": [
+          60
+        ],
+        "further.": [
+          61
+        ],
+        "But": [
+          62,
+          756
+        ],
+        "this": [
+          63,
+          111,
+          120,
+          483,
+          552,
+          603,
+          745
+        ],
+        "is": [
+          64,
+          112,
+          241,
+          252,
+          269,
+          278,
+          287,
+          367,
+          371,
+          379,
+          410,
+          597,
+          619,
+          654,
+          707,
+          778
+        ],
+        "only": [
+          65
+        ],
+        "possible": [
+          66,
+          560
+        ],
+        "if": [
+          67,
+          725
+        ],
+        "a": [
+          68,
+          617,
+          635,
+          670,
+          741,
+          795
+        ],
+        "prepares": [
+          70
+        ],
+        "well": [
+          71,
+          585
+        ],
+        "exam.": [
+          77,
+          109,
+          225,
+          503,
+          595
+        ],
+        "Now": [
+          78
+        ],
+        "when": [
+          79
+        ],
+        "we": [
+          80
+        ],
+        "find": [
+          81
+        ],
+        "learning": [
+          83,
+          544
+        ],
+        "material": [
+          84,
+          357
+        ],
+        "online,": [
+          85
+        ],
+        "will": [
+          87,
+          94,
+          395,
+          484,
+          496,
+          571,
+          713,
+          750,
+          762
+        ],
+        "come": [
+          88
+        ],
+        "across": [
+          89
+        ],
+        "many": [
+          90
+        ],
+        "materials": [
+          91
+        ],
+        "but": [
+          92,
+          373,
+          723
+        ],
+        "who": [
+          93
+        ],
+        "not": [
+          95,
+          382,
+          751
+        ],
+        "guarantee": [
+          96
+        ],
+        "provide": [
+          98
+        ],
+        "accurate": [
+          99
+        ],
+        "results": [
+          100
+        ],
+        "in": [
+          101,
+          288,
+          551,
+          558,
+          744
+        ],
+        "DevOps": [
+          105,
+          155,
+          338,
+          429,
+          455,
+          525,
+          591,
+          732
+        ],
+        "Engineer": [
+          106,
+          156,
+          339,
+          430,
+          456,
+          526,
+          592,
+          733
+        ],
+        "-": [
+          107,
+          157,
+          190,
+          340,
+          431,
+          457,
+          527,
+          593,
+          734,
+          815
+        ],
+        "Professional": [
+          108,
+          158,
+          341,
+          432,
+          528,
+          594,
+          735
+        ],
+        "So": [
+          110,
+          799
+        ],
+        "risky": [
+          113
+        ],
+        "rely": [
+          115
+        ],
+        "such": [
+          117
+        ],
+        "material.": [
+          118
+        ],
+        "In": [
+          119,
+          699,
+          703
+        ],
+        "difficult": [
+          121
+        ],
+        "situation,": [
+          122
+        ],
+        "has": [
+          124,
+          206,
+          648
+        ],
+        "made": [
+          125,
+          207,
+          230
+        ],
+        "promising": [
+          126
+        ],
+        "commitments": [
+          127
+        ],
+        "best": [
+          130
+        ],
+        "can": [
+          135,
+          148,
+          215,
+          294,
+          305,
+          331,
+          422,
+          518,
+          583,
+          606,
+          681
+        ],
+        "be": [
+          136,
+          244,
+          306,
+          404
+        ],
+        "helpful": [
+          137
+        ],
+        "everyone": [
+          139
+        ],
+        "go": [
+          141,
+          624
+        ],
+        "through.": [
+          142
+        ],
+        "By": [
+          143,
+          194
+        ],
+        "just": [
+          144
+        ],
+        "working": [
+          145
+        ],
+        "hard,": [
+          146
+        ],
+        "easily": [
+          149,
+          216,
+          682
+        ],
+        "clear": [
+          150,
+          425
+        ],
+        "help": [
+          162,
+          217,
+          396,
+          423
+        ],
+        "of": [
+          163,
+          202,
+          418,
+          491,
+          543,
+          598,
+          673,
+          797
+        ],
+        "ExamsSpy.": [
+          164,
+          652
+        ],
+        "Many": [
+          165
+        ],
+        "professionals": [
+          166,
+          471
+        ],
+        "had": [
+          167
+        ],
+        "gone": [
+          168
+        ],
+        "same": [
+          171
+        ],
+        "situation": [
+          172,
+          746
+        ],
+        "by": [
+          174,
+          469,
+          651,
+          789
+        ],
+        "using": [
+          175
+        ],
+        "practice": [
+          179,
+          319,
+          390
+        ],
+        "they": [
+          181,
+          344,
+          632,
+          634,
+          738,
+          792
+        ],
+        "got": [
+          182
+        ],
+        "success.\\n\\nTry": [
+          183
+        ],
+        "Free": [
+          185,
+          531,
+          810
+        ],
+        "Questions": [
+          188,
+          260,
+          814
+        ],
+        "Demo": [
+          189,
+          612
+        ],
+        "http://www.examsspy.com/real-aws-certified-devops-engineer-professional-exam-questions\\n\\nEssential": [
+          191
+        ],
+        "Aspects": [
+          192
+        ],
+        "Offered": [
+          193,
+          772
+        ],
+        "Dumps\\n\\nNow": [
+          198,
+          776
+        ],
+        "convenience": [
+          201
+        ],
+        "candidate,": [
+          204
+        ],
+        "easy": [
+          208,
+          279,
+          290,
+          326,
+          780
+        ],
+        "There": [
+          226
+        ],
+        "are": [
+          227,
+          232,
+          345,
+          466,
+          511,
+          793
+        ],
+        "two": [
+          228,
+          760
+        ],
+        "formats": [
+          229
+        ],
+        "pdf": [
+          236,
+          286,
+          304,
+          323,
+          689
+        ],
+        "way": [
+          237,
+          604,
+          679
+        ],
+        "other": [
+          240
+        ],
+        "known": [
+          242
+        ],
+        "practiced": [
+          247
+        ],
+        "test": [
+          248,
+          391,
+          638
+        ],
+        "software": [
+          249,
+          392
+        ],
+        "combining": [
+          251
+        ],
+        "beneficial": [
+          253,
+          655
+        ],
+        "candidates.\\n\\nAuthentic": [
+          256
+        ],
+        "Dumps": [
+          259,
+          437,
+          611
+        ],
+        "&": [
+          261
+        ],
+        "Answers\\n\\nSelecting": [
+          262
+        ],
+        "means": [
+          267
+        ],
+        "preparing": [
+          270,
+          716
+        ],
+        "prepare.": [
+          281
+        ],
+        "The": [
+          282,
+          297
+        ],
+        "format": [
+          291
+        ],
+        "download": [
+          295
+        ],
+        "anywhere.": [
+          296
+        ],
+        "questions": [
+          301,
+          320,
+          463,
+          508,
+          676,
+          786
+        ],
+        "answers": [
+          303,
+          322,
+          446,
+          465,
+          510
+        ],
+        "downloaded": [
+          307
+        ],
+        "either": [
+          308
+        ],
+        "PC,": [
+          310
+        ],
+        "smartphone,": [
+          311
+        ],
+        "laptop,": [
+          312
+        ],
+        "or": [
+          313,
+          356,
+          381,
+          630
+        ],
+        "even": [
+          314
+        ],
+        "MacBook.": [
+          315
+        ],
+        "This": [
+          316,
+          394,
+          409,
+          596,
+          678
+        ],
+        "helps": [
+          324,
+          555
+        ],
+        "studies": [
+          325
+        ],
+        "comfortable.": [
+          328
+        ],
+        "And": [
+          329
+        ],
+        "prepare": [
+          332,
+          448,
+          584
+        ],
+        "wherever": [
+          343
+        ],
+        "right": [
+          347,
+          804
+        ],
+        "answers.": [
+          348
+        ],
+        "They": [
+          349
+        ],
+        "don’t": [
+          350
+        ],
+        "need": [
+          351
+        ],
+        "carry": [
+          353
+        ],
+        "long": [
+          354
+        ],
+        "notes": [
+          355
+        ],
+        "them.\\n\\nPrepare": [
+          359
+        ],
+        "Using": [
+          360
+        ],
+        "Online": [
+          361
+        ],
+        "Practice": [
+          364
+        ],
+        "Test": [
+          365
+        ],
+        "Engine\\n\\nIt": [
+          366
+        ],
+        "good": [
+          368,
+          671
+        ],
+        "knew": [
+          370
+        ],
+        "learning,": [
+          372
+        ],
+        "check": [
+          375
+        ],
+        "whether": [
+          376,
+          622
+        ],
+        "preparation": [
+          378
+        ],
+        "proper": [
+          380
+        ],
+        "end": [
+          383
+        ],
+        "should": [
+          384
+        ],
+        "use": [
+          385
+        ],
+        "online": [
+          387
+        ],
+        "engine.": [
+          393
+        ],
+        "build": [
+          398
+        ],
+        "confidence": [
+          400
+        ],
+        "level": [
+          401
+        ],
+        "sure": [
+          405,
+          708
+        ],
+        "about": [
+          406,
+          577,
+          709,
+          754
+        ],
+        "preparation.": [
+          408
+        ],
+        "important": [
+          411
+        ],
+        "understand": [
+          415,
+          683,
+          748
+        ],
+        "importance": [
+          417,
+          542
+        ],
+        "both": [
+          419
+        ],
+        "modes": [
+          420
+        ],
+        "exam.\\n\\nUse": [
+          433
+        ],
+        "Authentic": [
+          434
+        ],
+        "Answers": [
+          438
+        ],
+        "To": [
+          439,
+          613
+        ],
+        "Prepare": [
+          440
+        ],
+        "Exam\\n\\nExamsSpy": [
+          442
+        ],
+        "comes": [
+          443
+        ],
+        "precise": [
+          445
+        ],
+        "you": [
+          449,
+          486,
+          495,
+          517,
+          664
+        ],
+        "Professional.": [
+          458
+        ],
+        "All": [
+          459
+        ],
+        "real": [
+          462,
+          507
+        ],
+        "meticulously": [
+          467
+        ],
+        "selected": [
+          468
+        ],
+        "from": [
+          472,
+          568,
+          717
+        ],
+        "syllabus": [
+          474
+        ],
+        "covering": [
+          475
+        ],
+        "subjects.": [
+          481
+        ],
+        "So,": [
+          482
+        ],
+        "let": [
+          485
+        ],
+        "concentrate": [
+          487
+        ],
+        "core": [
+          490
+        ],
+        "subject": [
+          493
+        ],
+        "face": [
+          497
+        ],
+        "during": [
+          498
+        ],
+        "Since": [
+          504
+        ],
+        "prepared": [
+          512
+        ],
+        "based": [
+          513
+        ],
+        "syllabus,": [
+          516
+        ],
+        "successfully": [
+          519
+        ],
+        "complete": [
+          520
+        ],
+        "exam.\\n\\n90": [
+          529
+        ],
+        "Days": [
+          530
+        ],
+        "Update": [
+          532
+        ],
+        "On": [
+          533,
+          773
+        ],
+        "Dumps\\n\\nExamsSpy": [
+          536
+        ],
+        "know": [
+          539
+        ],
+        "exact": [
+          541
+        ],
+        "exam,": [
+          550,
+          736
+        ],
+        "case": [
+          553
+        ],
+        "it": [
+          554,
+          570,
+          758,
+          777
+        ],
+        "candidate": [
+          557,
+          575,
+          618
+        ],
+        "every": [
+          559
+        ],
+        "way.": [
+          561
+        ],
+        "After": [
+          562
+        ],
+        "purchasing": [
+          563
+        ],
+        "braindumps": [
+          567,
+          807
+        ],
+        "ExamsSpy,": [
+          569
+        ],
+        "updating": [
+          573
+        ],
+        "90": [
+          578
+        ],
+        "days": [
+          579
+        ],
+        "so": [
+          580,
+          737
+        ],
+        "no": [
+          599
+        ],
+        "charge": [
+          600
+        ],
+        "jn": [
+          602
+        ],
+        "stay": [
+          607
+        ],
+        "updated.\\n\\nFree": [
+          608
+        ],
+        "Understand": [
+          614
+        ],
+        "Material\\n\\nIf": [
+          616
+        ],
+        "still": [
+          620,
+          724
+        ],
+        "confused": [
+          621
+        ],
+        "not,": [
+          631
+        ],
+        "may": [
+          633,
+          739
+        ],
+        "free": [
+          636
+        ],
+        "which": [
+          641
+        ],
+        "explains": [
+          642
+        ],
+        "all": [
+          643
+        ],
+        "essential": [
+          645
+        ],
+        "features": [
+          646
+        ],
+        "been": [
+          649
+        ],
+        "offered": [
+          650,
+          788
+        ],
+        "It": [
+          653
+        ],
+        "run": [
+          657
+        ],
+        "before": [
+          663
+        ],
+        "place": [
+          665
+        ],
+        "order": [
+          667
+        ],
+        "have": [
+          669
+        ],
+        "understanding": [
+          672
+        ],
+        "dumps.": [
+          677
+        ],
+        "purchase": [
+          685,
+          782
+        ],
+        "clearing": [
+          692
+        ],
+        "exam.\\n\\nRefund": [
+          697
+        ],
+        "Policy": [
+          698
+        ],
+        "Case": [
+          700
+        ],
+        "Of": [
+          701
+        ],
+        "Failure": [
+          702
+        ],
+        "Exam\\n\\nAlthough": [
+          705
+        ],
+        "result": [
+          711
+        ],
+        "after": [
+          715
+        ],
+        "anyone": [
+          726
+        ],
+        "fails": [
+          727
+        ],
+        "claim": [
+          740
+        ],
+        "refund": [
+          742
+        ],
+        "ask": [
+          752
+        ],
+        "anything": [
+          753
+        ],
+        "it.": [
+          755
+        ],
+        "studying": [
+          757
+        ],
+        "weeks": [
+          761
+        ],
+        "surely": [
+          763
+        ],
+        "help!": [
+          764
+        ],
+        "Just": [
+          765
+        ],
+        "don't": [
+          766
+        ],
+        "worry": [
+          767
+        ],
+        "work": [
+          769
+        ],
+        "hard.\\n\\n20%": [
+          770
+        ],
+        "Discount": [
+          771
+        ],
+        "very": [
+          779
+        ],
+        "because": [
+          791
+        ],
+        "offering": [
+          794
+        ],
+        "discount": [
+          796
+        ],
+        "20%.": [
+          798
+        ],
+        "hurry": [
+          800
+        ],
+        "up!": [
+          801
+        ],
+        "Get": [
+          802
+        ],
+        "prosper!\\n\\n100%": [
+          809
+        ],
+        "Updated": [
+          811
+        ],
+        "http://www.examsspy.com/real-aws-certified-devops-engineer-professional-exam-questions": [
+          816
+        ]
+      },
+      "counts_by_year": [],
+      "updated_date": "2026-10-12T09:40:04.860316",
+      "created_date": "2025-10-10T00:00:00"
+    }
+  ],
+  "group_by": []
+}

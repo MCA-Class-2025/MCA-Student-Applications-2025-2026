@@ -1,0 +1,2295 @@
+{
+  "meta": {
+    "notice": "No API key, so this request shares one free daily budget ($0.10) with everyone on your network's IP address. Get a free key with its own $1/day at https://openalex.org/settings/api and add api_key=YOUR_KEY to your requests. An AI agent can get one for its user in one call: POST https://api.openalex.org/api-keys with {\"email\": \"<your user's email>\"}; we email them a link, and the key works once they click it. Docs for agents: https://help.openalex.org/llms.txt",
+    "count": 347554,
+    "db_response_time_ms": 717,
+    "page": 1,
+    "per_page": 5,
+    "groups_count": null,
+    "x_query": {
+      "oql": "get works with (Computer Systems Analyst) in the title, abstract, or full text",
+      "x_new_oql": "get works with (Computer Systems Analyst) in the title, abstract, or full text",
+      "oqo": {
+        "get_rows": "works",
+        "filter_rows": [
+          {
+            "column_id": "fulltext.search",
+            "value": "Computer Systems Analyst",
+            "operator": "has"
+          }
+        ]
+      },
+      "url": "/works?filter=fulltext.search:Computer Systems Analyst&per_page=5",
+      "order": "best matches first",
+      "order_default": true
+    },
+    "cost_usd": 0.001
+  },
+  "results": [
+    {
+      "id": "https://openalex.org/W2914313711",
+      "doi": null,
+      "title": "Computer Systems Analyst",
+      "display_name": "Computer Systems Analyst",
+      "relevance_score": 171.12755,
+      "publication_year": 1999,
+      "publication_date": "1999-10-01",
+      "ids": {
+        "openalex": "https://openalex.org/W2914313711",
+        "mag": "2914313711"
+      },
+      "language": "en",
+      "primary_location": {
+        "id": "mag:2914313711",
+        "doi": null,
+        "is_oa": false,
+        "landing_page_url": "http://dl.acm.org/citation.cfm?id=519475",
+        "pdf_url": null,
+        "source": null,
+        "license": null,
+        "license_id": null,
+        "version": null,
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": null,
+        "raw_type": null
+      },
+      "parent_works": [],
+      "lineage": [
+        "https://openalex.org/W2914313711"
+      ],
+      "child_works_count": 0,
+      "type": "book",
+      "is_traditional": true,
+      "indexed_in": [],
+      "open_access": {
+        "is_oa": false,
+        "oa_status": "closed",
+        "oa_url": null,
+        "any_repository_has_fulltext": false
+      },
+      "authorships": [
+        {
+          "author_position": "first",
+          "author": {
+            "id": "https://openalex.org/A5066652492",
+            "display_name": "Jack Rudman",
+            "orcid": null,
+            "observed_orcids": []
+          },
+          "institutions": [],
+          "countries": [],
+          "is_corresponding": true,
+          "raw_author_name": "Jack Rudman",
+          "raw_affiliation_strings": [],
+          "raw_orcid": null,
+          "affiliations": []
+        }
+      ],
+      "institutions": [],
+      "countries_distinct_count": 0,
+      "institutions_distinct_count": 0,
+      "corresponding_author_ids": [
+        "https://openalex.org/A5066652492"
+      ],
+      "corresponding_institution_ids": [],
+      "apc_list": null,
+      "apc_paid": null,
+      "fwci": 0.302,
+      "is_authors_truncated": false,
+      "has_fulltext": false,
+      "cited_by_count": 6,
+      "citation_normalized_percentile": {
+        "value": 0.70804598,
+        "is_in_top_1_percent": false,
+        "is_in_top_10_percent": false
+      },
+      "cited_by_percentile_year": {
+        "min": 88,
+        "max": 93
+      },
+      "biblio": {
+        "volume": null,
+        "issue": null,
+        "first_page": null,
+        "last_page": null
+      },
+      "is_retracted": false,
+      "is_paratext": false,
+      "is_xpac": false,
+      "primary_topic": {
+        "id": "https://openalex.org/T13034",
+        "display_name": "Information Systems Education and Curriculum Development",
+        "score": 0.8446999788284302,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1710",
+          "display_name": "Information Systems"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      "topics": [
+        {
+          "id": "https://openalex.org/T13034",
+          "display_name": "Information Systems Education and Curriculum Development",
+          "score": 0.8446999788284302,
+          "subfield": {
+            "id": "https://openalex.org/subfields/1710",
+            "display_name": "Information Systems"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/17",
+            "display_name": "Computer Science"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T11734",
+          "display_name": "Decision Support System Applications",
+          "score": 0.0706000030040741,
+          "subfield": {
+            "id": "https://openalex.org/subfields/1404",
+            "display_name": "Management Information Systems"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/14",
+            "display_name": "Business, Management and Accounting"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/2",
+            "display_name": "Social Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T13681",
+          "display_name": "Engineering and Information Technology",
+          "score": 0.014600000344216824,
+          "subfield": {
+            "id": "https://openalex.org/subfields/1712",
+            "display_name": "Software"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/17",
+            "display_name": "Computer Science"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        }
+      ],
+      "keywords": [
+        {
+          "id": "https://openalex.org/keywords/systems-analysis",
+          "display_name": "systems analysis",
+          "score": 0.8019999861717224
+        },
+        {
+          "id": "https://openalex.org/keywords/computer-systems",
+          "display_name": "computer systems",
+          "score": 0.5040000081062317
+        },
+        {
+          "id": "https://openalex.org/keywords/information-systems",
+          "display_name": "information systems",
+          "score": 0.6579999923706055
+        }
+      ],
+      "concepts": [
+        {
+          "id": "https://openalex.org/C41008148",
+          "wikidata": "https://www.wikidata.org/wiki/Q21198",
+          "display_name": "Computer science",
+          "level": 0,
+          "score": 0.5736697912216187
+        }
+      ],
+      "mesh": [],
+      "locations_count": 1,
+      "locations": [
+        {
+          "id": "mag:2914313711",
+          "doi": null,
+          "is_oa": false,
+          "landing_page_url": "http://dl.acm.org/citation.cfm?id=519475",
+          "pdf_url": null,
+          "source": null,
+          "license": null,
+          "license_id": null,
+          "version": null,
+          "is_accepted": false,
+          "is_published": false,
+          "raw_source_name": null,
+          "raw_type": null
+        }
+      ],
+      "best_oa_location": null,
+      "sustainable_development_goals": [],
+      "study_designs": [],
+      "awards": [],
+      "funders": [],
+      "has_content": {
+        "pdf": false,
+        "grobid_xml": false
+      },
+      "content_urls": null,
+      "referenced_works_count": 0,
+      "referenced_works": [],
+      "related_works": [
+        "https://openalex.org/W4400199042",
+        "https://openalex.org/W580829157",
+        "https://openalex.org/W1580099875",
+        "https://openalex.org/W1537847659",
+        "https://openalex.org/W4244617328",
+        "https://openalex.org/W2110681630",
+        "https://openalex.org/W3128530304",
+        "https://openalex.org/W7098973557",
+        "https://openalex.org/W54513750",
+        "https://openalex.org/W3151956382"
+      ],
+      "abstract_inverted_index": null,
+      "counts_by_year": [
+        {
+          "year": 2014,
+          "cited_by_count": 1
+        }
+      ],
+      "updated_date": "2025-11-06T04:12:42.849631",
+      "created_date": "2019-02-21T00:00:00"
+    },
+    {
+      "id": "https://openalex.org/W1991415002",
+      "doi": "https://doi.org/10.1080/01969728508927778",
+      "title": "COMPUTER SYSTEMS ANALYST'S VIEW OF THE BUSINESS ORGANIZATIO",
+      "display_name": "COMPUTER SYSTEMS ANALYST'S VIEW OF THE BUSINESS ORGANIZATIO",
+      "relevance_score": 154.12236,
+      "publication_year": 1985,
+      "publication_date": "1985-01-01",
+      "ids": {
+        "openalex": "https://openalex.org/W1991415002",
+        "doi": "https://doi.org/10.1080/01969728508927778",
+        "mag": "1991415002"
+      },
+      "language": "en",
+      "primary_location": {
+        "id": "doi:10.1080/01969728508927778",
+        "doi": "https://doi.org/10.1080/01969728508927778",
+        "is_oa": false,
+        "landing_page_url": "https://doi.org/10.1080/01969728508927778",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S117436046",
+          "display_name": "Cybernetics & Systems",
+          "issn_l": "0196-9722",
+          "issn": [
+            "0196-9722",
+            "1087-6553"
+          ],
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": true,
+          "listed_in": [
+            "anvur-scientific",
+            "ccf-c",
+            "cwts-core",
+            "dongbi-c",
+            "jufo-1",
+            "norway-1",
+            "poland-40",
+            "russia-white-list-2",
+            "vabb-shw"
+          ],
+          "host_organization": "https://openalex.org/P4310320547",
+          "host_organization_name": "Taylor & Francis",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310320547",
+            "https://openalex.org/P4310320449"
+          ],
+          "host_organization_lineage_names": [
+            "Taylor & Francis",
+            "Informa"
+          ],
+          "type": "journal"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Cybernetics and Systems",
+        "raw_type": "journal-article"
+      },
+      "parent_works": [],
+      "lineage": [
+        "https://openalex.org/W1991415002"
+      ],
+      "child_works_count": 0,
+      "type": "article",
+      "is_traditional": true,
+      "indexed_in": [
+        "crossref"
+      ],
+      "open_access": {
+        "is_oa": false,
+        "oa_status": "closed",
+        "oa_url": null,
+        "any_repository_has_fulltext": false
+      },
+      "authorships": [
+        {
+          "author_position": "first",
+          "author": {
+            "id": "https://openalex.org/A5025466374",
+            "display_name": "Edward N. Baylin",
+            "orcid": null,
+            "observed_orcids": []
+          },
+          "institutions": [],
+          "countries": [],
+          "is_corresponding": true,
+          "raw_author_name": "EDWARD N. BAYLIN",
+          "raw_affiliation_strings": [],
+          "raw_orcid": null,
+          "affiliations": []
+        }
+      ],
+      "institutions": [],
+      "countries_distinct_count": 0,
+      "institutions_distinct_count": 0,
+      "corresponding_author_ids": [
+        "https://openalex.org/A5025466374"
+      ],
+      "corresponding_institution_ids": [],
+      "apc_list": null,
+      "apc_paid": null,
+      "fwci": 0.0,
+      "is_authors_truncated": false,
+      "has_fulltext": false,
+      "cited_by_count": 0,
+      "citation_normalized_percentile": {
+        "value": 0.0,
+        "is_in_top_1_percent": false,
+        "is_in_top_10_percent": false
+      },
+      "cited_by_percentile_year": null,
+      "biblio": {
+        "volume": "16",
+        "issue": "4",
+        "first_page": "305",
+        "last_page": "323"
+      },
+      "is_retracted": false,
+      "is_paratext": false,
+      "is_xpac": false,
+      "primary_topic": {
+        "id": "https://openalex.org/T11810",
+        "display_name": "Complex Systems and Decision Making",
+        "score": 0.288100004196167,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1803",
+          "display_name": "Management Science and Operations Research"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/18",
+          "display_name": "Decision Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      "topics": [
+        {
+          "id": "https://openalex.org/T11810",
+          "display_name": "Complex Systems and Decision Making",
+          "score": 0.288100004196167,
+          "subfield": {
+            "id": "https://openalex.org/subfields/1803",
+            "display_name": "Management Science and Operations Research"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/18",
+            "display_name": "Decision Sciences"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/2",
+            "display_name": "Social Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T12000",
+          "display_name": "Systems Engineering Methodologies and Applications",
+          "score": 0.22349999845027924,
+          "subfield": {
+            "id": "https://openalex.org/subfields/2207",
+            "display_name": "Control and Systems Engineering"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/22",
+            "display_name": "Engineering"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T11024",
+          "display_name": "Information Systems Theories and Implementation",
+          "score": 0.1860000044107437,
+          "subfield": {
+            "id": "https://openalex.org/subfields/1404",
+            "display_name": "Management Information Systems"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/14",
+            "display_name": "Business, Management and Accounting"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/2",
+            "display_name": "Social Sciences"
+          }
+        }
+      ],
+      "keywords": [
+        {
+          "id": "https://openalex.org/keywords/information-systems-analysis",
+          "display_name": "information system analysis",
+          "score": 0.5920000076293945
+        },
+        {
+          "id": "https://openalex.org/keywords/organizational-structure",
+          "display_name": "organizational structure",
+          "score": 0.4490000009536743
+        }
+      ],
+      "concepts": [
+        {
+          "id": "https://openalex.org/C104054115",
+          "wikidata": "https://www.wikidata.org/wiki/Q216828",
+          "display_name": "Cohesion (chemistry)",
+          "level": 2,
+          "score": 0.8526065945625305
+        },
+        {
+          "id": "https://openalex.org/C41008148",
+          "wikidata": "https://www.wikidata.org/wiki/Q21198",
+          "display_name": "Computer science",
+          "level": 0,
+          "score": 0.7766634225845337
+        },
+        {
+          "id": "https://openalex.org/C31170391",
+          "wikidata": "https://www.wikidata.org/wiki/Q188619",
+          "display_name": "Hierarchy",
+          "level": 2,
+          "score": 0.7192967534065247
+        },
+        {
+          "id": "https://openalex.org/C80444323",
+          "wikidata": "https://www.wikidata.org/wiki/Q2878974",
+          "display_name": "Theoretical computer science",
+          "level": 1,
+          "score": 0.4028625786304474
+        },
+        {
+          "id": "https://openalex.org/C115903868",
+          "wikidata": "https://www.wikidata.org/wiki/Q80993",
+          "display_name": "Software engineering",
+          "level": 1,
+          "score": 0.38648346066474915
+        },
+        {
+          "id": "https://openalex.org/C56739046",
+          "wikidata": "https://www.wikidata.org/wiki/Q192060",
+          "display_name": "Knowledge management",
+          "level": 1,
+          "score": 0.357649028301239
+        },
+        {
+          "id": "https://openalex.org/C178790620",
+          "wikidata": "https://www.wikidata.org/wiki/Q11351",
+          "display_name": "Organic chemistry",
+          "level": 1,
+          "score": 0.0
+        },
+        {
+          "id": "https://openalex.org/C34447519",
+          "wikidata": "https://www.wikidata.org/wiki/Q179522",
+          "display_name": "Market economy",
+          "level": 1,
+          "score": 0.0
+        },
+        {
+          "id": "https://openalex.org/C162324750",
+          "wikidata": "https://www.wikidata.org/wiki/Q8134",
+          "display_name": "Economics",
+          "level": 0,
+          "score": 0.0
+        },
+        {
+          "id": "https://openalex.org/C185592680",
+          "wikidata": "https://www.wikidata.org/wiki/Q2329",
+          "display_name": "Chemistry",
+          "level": 0,
+          "score": 0.0
+        }
+      ],
+      "mesh": [],
+      "locations_count": 1,
+      "locations": [
+        {
+          "id": "doi:10.1080/01969728508927778",
+          "doi": "https://doi.org/10.1080/01969728508927778",
+          "is_oa": false,
+          "landing_page_url": "https://doi.org/10.1080/01969728508927778",
+          "pdf_url": null,
+          "source": {
+            "id": "https://openalex.org/S117436046",
+            "display_name": "Cybernetics & Systems",
+            "issn_l": "0196-9722",
+            "issn": [
+              "0196-9722",
+              "1087-6553"
+            ],
+            "is_oa": false,
+            "is_in_doaj": false,
+            "is_core": true,
+            "listed_in": [
+              "anvur-scientific",
+              "ccf-c",
+              "cwts-core",
+              "dongbi-c",
+              "jufo-1",
+              "norway-1",
+              "poland-40",
+              "russia-white-list-2",
+              "vabb-shw"
+            ],
+            "host_organization": "https://openalex.org/P4310320547",
+            "host_organization_name": "Taylor & Francis",
+            "host_organization_lineage": [
+              "https://openalex.org/P4310320547",
+              "https://openalex.org/P4310320449"
+            ],
+            "host_organization_lineage_names": [
+              "Taylor & Francis",
+              "Informa"
+            ],
+            "type": "journal"
+          },
+          "license": null,
+          "license_id": null,
+          "version": "publishedVersion",
+          "is_accepted": true,
+          "is_published": true,
+          "raw_source_name": "Cybernetics and Systems",
+          "raw_type": "journal-article"
+        }
+      ],
+      "best_oa_location": null,
+      "sustainable_development_goals": [],
+      "study_designs": [],
+      "awards": [],
+      "funders": [],
+      "has_content": {
+        "pdf": false,
+        "grobid_xml": false
+      },
+      "content_urls": null,
+      "referenced_works_count": 0,
+      "referenced_works": [],
+      "related_works": [
+        "https://openalex.org/W2026397537",
+        "https://openalex.org/W1034051118",
+        "https://openalex.org/W148843597",
+        "https://openalex.org/W2199508118",
+        "https://openalex.org/W2152252369",
+        "https://openalex.org/W7002046220",
+        "https://openalex.org/W1739805347",
+        "https://openalex.org/W4206228297",
+        "https://openalex.org/W2055652750",
+        "https://openalex.org/W2737345609"
+      ],
+      "abstract_inverted_index": {
+        "The": [
+          0,
+          96
+        ],
+        "cohesion": [
+          1,
+          38,
+          80
+        ],
+        "methods": [
+          2,
+          4,
+          81
+        ],
+        "(conceptual": [
+          3
+        ],
+        "of": [
+          5,
+          19,
+          25,
+          55,
+          67,
+          74,
+          88,
+          93,
+          119
+        ],
+        "identifying": [
+          6
+        ],
+        "subsystems),": [
+          7
+        ],
+        "developed": [
+          8
+        ],
+        "for": [
+          9
+        ],
+        "analyzing": [
+          10
+        ],
+        "computer": [
+          11,
+          69,
+          108
+        ],
+        "information": [
+          12
+        ],
+        "systems,": [
+          13
+        ],
+        "are": [
+          14,
+          29,
+          42,
+          99
+        ],
+        "applied": [
+          15
+        ],
+        "lo": [
+          16
+        ],
+        "the": [
+          17,
+          20,
+          26,
+          36,
+          51,
+          61,
+          65,
+          68,
+          75,
+          86,
+          91,
+          106,
+          113,
+          116,
+          120
+        ],
+        "analysis": [
+          18
+        ],
+        "business": [
+          21,
+          27
+        ],
+        "organization.": [
+          22
+        ],
+        "Two": [
+          23
+        ],
+        "views": [
+          24,
+          98,
+          118
+        ],
+        "organization": [
+          28,
+          52
+        ],
+        "given": [
+          30
+        ],
+        "in": [
+          31,
+          44,
+          90
+        ],
+        "this": [
+          32,
+          45
+        ],
+        "article.": [
+          33
+        ],
+        "In": [
+          34,
+          60
+        ],
+        "one,": [
+          35
+        ],
+        "functional": [
+          37
+        ],
+        "method,": [
+          39
+        ],
+        "whose": [
+          40
+        ],
+        "principles": [
+          41
+        ],
+        "explained": [
+          43
+        ],
+        "article,": [
+          46
+        ],
+        "is": [
+          47,
+          82
+        ],
+        "used": [
+          48
+        ],
+        "to": [
+          49,
+          102,
+          111
+        ],
+        "analyze": [
+          50
+        ],
+        "into": [
+          53
+        ],
+        "levels": [
+          54
+        ],
+        "subsystems": [
+          56
+        ],
+        "nested": [
+          57,
+          94
+        ],
+        "within": [
+          58
+        ],
+        "subsystems.": [
+          59,
+          95
+        ],
+        "other": [
+          62
+        ],
+        "view,": [
+          63
+        ],
+        "called": [
+          64
+        ],
+        "view": [
+          66
+        ],
+        "systems": [
+          70
+        ],
+        "analyst,": [
+          71
+        ],
+        "a": [
+          72
+        ],
+        "combination": [
+          73
+        ],
+        "logical,": [
+          76
+        ],
+        "functional,": [
+          77
+        ],
+        "and": [
+          78
+        ],
+        "procedural": [
+          79
+        ],
+        "used,": [
+          83
+        ],
+        "depending": [
+          84
+        ],
+        "upon": [
+          85
+        ],
+        "level": [
+          87
+        ],
+        "subsystem": [
+          89,
+          122
+        ],
+        "hierarchy": [
+          92
+        ],
+        "two": [
+          97,
+          117
+        ],
+        "then": [
+          100
+        ],
+        "cross-referenced": [
+          101
+        ],
+        "one": [
+          103
+        ],
+        "another,": [
+          104
+        ],
+        "since": [
+          105
+        ],
+        "good": [
+          107
+        ],
+        "analyst": [
+          109
+        ],
+        "has": [
+          110
+        ],
+        "see": [
+          112
+        ],
+        "relationships": [
+          114
+        ],
+        "between": [
+          115
+        ],
+        "organization's": [
+          121
+        ],
+        "hierarchy.": [
+          123
+        ]
+      },
+      "counts_by_year": [],
+      "updated_date": "2026-11-14T11:04:58.165337",
+      "created_date": "2016-06-24T00:00:00"
+    },
+    {
+      "id": "https://openalex.org/W587678678",
+      "doi": null,
+      "title": "Computer systems analysts : problems of education, selection, and training",
+      "display_name": "Computer systems analysts : problems of education, selection, and training",
+      "relevance_score": 133.85074,
+      "publication_year": 1967,
+      "publication_date": "1967-01-01",
+      "ids": {
+        "openalex": "https://openalex.org/W587678678",
+        "mag": "587678678"
+      },
+      "language": "en",
+      "primary_location": {
+        "id": "mag:587678678",
+        "doi": null,
+        "is_oa": false,
+        "landing_page_url": "http://ci.nii.ac.jp/ncid/BA80312970",
+        "pdf_url": null,
+        "source": null,
+        "license": null,
+        "license_id": null,
+        "version": null,
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": null,
+        "raw_type": null
+      },
+      "parent_works": [],
+      "lineage": [
+        "https://openalex.org/W587678678"
+      ],
+      "child_works_count": 0,
+      "type": "book",
+      "is_traditional": true,
+      "indexed_in": [],
+      "open_access": {
+        "is_oa": false,
+        "oa_status": "closed",
+        "oa_url": null,
+        "any_repository_has_fulltext": false
+      },
+      "authorships": [
+        {
+          "author_position": "first",
+          "author": {
+            "id": "https://openalex.org/A5089446113",
+            "display_name": "Frank Greenwood",
+            "orcid": null,
+            "observed_orcids": []
+          },
+          "institutions": [],
+          "countries": [],
+          "is_corresponding": false,
+          "raw_author_name": "Frank Greenwood",
+          "raw_affiliation_strings": [],
+          "raw_orcid": null,
+          "affiliations": []
+        },
+        {
+          "author_position": "last",
+          "author": {
+            "id": "https://openalex.org/A5017629372",
+            "display_name": "Erwin M. Danziger",
+            "orcid": null,
+            "observed_orcids": []
+          },
+          "institutions": [],
+          "countries": [],
+          "is_corresponding": false,
+          "raw_author_name": "Erwin M. Danziger",
+          "raw_affiliation_strings": [],
+          "raw_orcid": null,
+          "affiliations": []
+        }
+      ],
+      "institutions": [],
+      "countries_distinct_count": 0,
+      "institutions_distinct_count": 0,
+      "corresponding_author_ids": [],
+      "corresponding_institution_ids": [],
+      "apc_list": null,
+      "apc_paid": null,
+      "fwci": 0.0,
+      "is_authors_truncated": false,
+      "has_fulltext": false,
+      "cited_by_count": 3,
+      "citation_normalized_percentile": {
+        "value": 0.0,
+        "is_in_top_1_percent": false,
+        "is_in_top_10_percent": false
+      },
+      "cited_by_percentile_year": null,
+      "biblio": {
+        "volume": null,
+        "issue": null,
+        "first_page": null,
+        "last_page": null
+      },
+      "is_retracted": false,
+      "is_paratext": false,
+      "is_xpac": false,
+      "primary_topic": {
+        "id": "https://openalex.org/T13034",
+        "display_name": "Information Systems Education and Curriculum Development",
+        "score": 0.9911999702453613,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1710",
+          "display_name": "Information Systems"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      "topics": [
+        {
+          "id": "https://openalex.org/T13034",
+          "display_name": "Information Systems Education and Curriculum Development",
+          "score": 0.9911999702453613,
+          "subfield": {
+            "id": "https://openalex.org/subfields/1710",
+            "display_name": "Information Systems"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/17",
+            "display_name": "Computer Science"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T14508",
+          "display_name": "Vocational Education and Training",
+          "score": 0.004000000189989805,
+          "subfield": {
+            "id": "https://openalex.org/subfields/3304",
+            "display_name": "Education"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/33",
+            "display_name": "Social Sciences"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/2",
+            "display_name": "Social Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T11779",
+          "display_name": "Higher Education and Employability",
+          "score": 0.0006000000284984708,
+          "subfield": {
+            "id": "https://openalex.org/subfields/3304",
+            "display_name": "Education"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/33",
+            "display_name": "Social Sciences"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/2",
+            "display_name": "Social Sciences"
+          }
+        }
+      ],
+      "keywords": [
+        {
+          "id": "https://openalex.org/keywords/systems-analysis-education",
+          "display_name": "systems analysis education",
+          "score": 0.6200000047683716
+        },
+        {
+          "id": "https://openalex.org/keywords/personnel-selection",
+          "display_name": "personnel selection",
+          "score": 0.8659999966621399
+        },
+        {
+          "id": "https://openalex.org/keywords/professional-training",
+          "display_name": "professional training",
+          "score": 0.8259999752044678
+        },
+        {
+          "id": "https://openalex.org/keywords/it-professionals",
+          "display_name": "IT professionals",
+          "score": 0.34599998593330383
+        }
+      ],
+      "concepts": [
+        {
+          "id": "https://openalex.org/C2777211547",
+          "wikidata": "https://www.wikidata.org/wiki/Q17141490",
+          "display_name": "Training (meteorology)",
+          "level": 2,
+          "score": 0.7652580738067627
+        },
+        {
+          "id": "https://openalex.org/C81917197",
+          "wikidata": "https://www.wikidata.org/wiki/Q628760",
+          "display_name": "Selection (genetic algorithm)",
+          "level": 2,
+          "score": 0.7056413888931274
+        },
+        {
+          "id": "https://openalex.org/C41008148",
+          "wikidata": "https://www.wikidata.org/wiki/Q21198",
+          "display_name": "Computer science",
+          "level": 0,
+          "score": 0.6099564433097839
+        },
+        {
+          "id": "https://openalex.org/C145420912",
+          "wikidata": "https://www.wikidata.org/wiki/Q853077",
+          "display_name": "Mathematics education",
+          "level": 1,
+          "score": 0.41374292969703674
+        },
+        {
+          "id": "https://openalex.org/C154945302",
+          "wikidata": "https://www.wikidata.org/wiki/Q11660",
+          "display_name": "Artificial intelligence",
+          "level": 1,
+          "score": 0.3123936057090759
+        },
+        {
+          "id": "https://openalex.org/C15744967",
+          "wikidata": "https://www.wikidata.org/wiki/Q9418",
+          "display_name": "Psychology",
+          "level": 0,
+          "score": 0.24633485078811646
+        },
+        {
+          "id": "https://openalex.org/C205649164",
+          "wikidata": "https://www.wikidata.org/wiki/Q1071",
+          "display_name": "Geography",
+          "level": 0,
+          "score": 0.132070392370224
+        },
+        {
+          "id": "https://openalex.org/C153294291",
+          "wikidata": "https://www.wikidata.org/wiki/Q25261",
+          "display_name": "Meteorology",
+          "level": 1,
+          "score": 0.0
+        }
+      ],
+      "mesh": [],
+      "locations_count": 1,
+      "locations": [
+        {
+          "id": "mag:587678678",
+          "doi": null,
+          "is_oa": false,
+          "landing_page_url": "http://ci.nii.ac.jp/ncid/BA80312970",
+          "pdf_url": null,
+          "source": null,
+          "license": null,
+          "license_id": null,
+          "version": null,
+          "is_accepted": false,
+          "is_published": false,
+          "raw_source_name": null,
+          "raw_type": null
+        }
+      ],
+      "best_oa_location": null,
+      "sustainable_development_goals": [
+        {
+          "id": "https://metadata.un.org/sdg/4",
+          "display_name": "Quality education",
+          "score": 0.9235000014305115
+        }
+      ],
+      "study_designs": [],
+      "awards": [],
+      "funders": [],
+      "has_content": {
+        "pdf": false,
+        "grobid_xml": false
+      },
+      "content_urls": null,
+      "referenced_works_count": 0,
+      "referenced_works": [],
+      "related_works": [
+        "https://openalex.org/W4411672946",
+        "https://openalex.org/W4233679470",
+        "https://openalex.org/W2914313711",
+        "https://openalex.org/W2024746985",
+        "https://openalex.org/W231851278",
+        "https://openalex.org/W324629316",
+        "https://openalex.org/W1516498897",
+        "https://openalex.org/W163998643",
+        "https://openalex.org/W2135009790",
+        "https://openalex.org/W4400199042"
+      ],
+      "abstract_inverted_index": null,
+      "counts_by_year": [],
+      "updated_date": "2026-10-26T11:51:55.731654",
+      "created_date": "2016-06-24T00:00:00"
+    },
+    {
+      "id": "https://openalex.org/W2036330514",
+      "doi": "https://doi.org/10.1145/800282.811088",
+      "title": "Role of the business college in the education and training of computer systems analysts for public sector jobs",
+      "display_name": "Role of the business college in the education and training of computer systems analysts for public sector jobs",
+      "relevance_score": 127.4385,
+      "publication_year": 1976,
+      "publication_date": "1976-01-01",
+      "ids": {
+        "openalex": "https://openalex.org/W2036330514",
+        "doi": "https://doi.org/10.1145/800282.811088",
+        "mag": "2036330514"
+      },
+      "language": "en",
+      "primary_location": {
+        "id": "doi:10.1145/800282.811088",
+        "doi": "https://doi.org/10.1145/800282.811088",
+        "is_oa": false,
+        "landing_page_url": "https://doi.org/10.1145/800282.811088",
+        "pdf_url": null,
+        "source": null,
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Proceedings of the fourteenth annual computer personnel research conference on -",
+        "raw_type": "proceedings-article"
+      },
+      "parent_works": [],
+      "lineage": [
+        "https://openalex.org/W2036330514"
+      ],
+      "child_works_count": 0,
+      "type": "conference-paper",
+      "is_traditional": true,
+      "indexed_in": [
+        "crossref"
+      ],
+      "open_access": {
+        "is_oa": false,
+        "oa_status": "closed",
+        "oa_url": null,
+        "any_repository_has_fulltext": false
+      },
+      "authorships": [
+        {
+          "author_position": "first",
+          "author": {
+            "id": "https://openalex.org/A5041521132",
+            "display_name": "Fred G. Harold",
+            "orcid": null,
+            "observed_orcids": []
+          },
+          "institutions": [],
+          "countries": [],
+          "is_corresponding": true,
+          "raw_author_name": "Fred G. Harold",
+          "raw_affiliation_strings": [
+            ""
+          ],
+          "raw_orcid": null,
+          "affiliations": [
+            {
+              "raw_affiliation_string": "",
+              "institution_ids": []
+            }
+          ]
+        }
+      ],
+      "institutions": [],
+      "countries_distinct_count": 0,
+      "institutions_distinct_count": 0,
+      "corresponding_author_ids": [
+        "https://openalex.org/A5041521132"
+      ],
+      "corresponding_institution_ids": [],
+      "apc_list": null,
+      "apc_paid": null,
+      "fwci": 0.0,
+      "is_authors_truncated": false,
+      "has_fulltext": false,
+      "cited_by_count": 0,
+      "citation_normalized_percentile": {
+        "value": 0.0,
+        "is_in_top_1_percent": false,
+        "is_in_top_10_percent": false
+      },
+      "cited_by_percentile_year": null,
+      "biblio": {
+        "volume": null,
+        "issue": null,
+        "first_page": "167",
+        "last_page": "178"
+      },
+      "is_retracted": false,
+      "is_paratext": false,
+      "is_xpac": false,
+      "primary_topic": {
+        "id": "https://openalex.org/T13034",
+        "display_name": "Information Systems Education and Curriculum Development",
+        "score": 1.0,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1710",
+          "display_name": "Information Systems"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      "topics": [
+        {
+          "id": "https://openalex.org/T13034",
+          "display_name": "Information Systems Education and Curriculum Development",
+          "score": 1.0,
+          "subfield": {
+            "id": "https://openalex.org/subfields/1710",
+            "display_name": "Information Systems"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/17",
+            "display_name": "Computer Science"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T12671",
+          "display_name": "Management and Marketing Education",
+          "score": 0.0,
+          "subfield": {
+            "id": "https://openalex.org/subfields/3304",
+            "display_name": "Education"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/33",
+            "display_name": "Social Sciences"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/2",
+            "display_name": "Social Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T11734",
+          "display_name": "Decision Support System Applications",
+          "score": 0.0,
+          "subfield": {
+            "id": "https://openalex.org/subfields/1404",
+            "display_name": "Management Information Systems"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/14",
+            "display_name": "Business, Management and Accounting"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/2",
+            "display_name": "Social Sciences"
+          }
+        }
+      ],
+      "keywords": [
+        {
+          "id": "https://openalex.org/keywords/business-schools",
+          "display_name": "business schools",
+          "score": 0.6660000085830688
+        },
+        {
+          "id": "https://openalex.org/keywords/systems-analysts",
+          "display_name": "systems analysts",
+          "score": 0.546999990940094
+        },
+        {
+          "id": "https://openalex.org/keywords/public-sector-employment",
+          "display_name": "public sector employees",
+          "score": 0.7739999890327454
+        },
+        {
+          "id": "https://openalex.org/keywords/automated-data-processing",
+          "display_name": "automated data processing",
+          "score": 0.6800000071525574
+        },
+        {
+          "id": "https://openalex.org/keywords/curriculum-evaluation",
+          "display_name": "curriculum evaluation",
+          "score": 0.531000018119812
+        },
+        {
+          "id": "https://openalex.org/keywords/systems-analysis-education",
+          "display_name": "systems analysis education",
+          "score": 0.5519999861717224
+        },
+        {
+          "id": "https://openalex.org/keywords/public-sector-information-systems",
+          "display_name": "government information systems",
+          "score": 0.5559999942779541
+        },
+        {
+          "id": "https://openalex.org/keywords/business-applications",
+          "display_name": "business applications",
+          "score": 0.8659999966621399
+        }
+      ],
+      "concepts": [
+        {
+          "id": "https://openalex.org/C41008148",
+          "wikidata": "https://www.wikidata.org/wiki/Q21198",
+          "display_name": "Computer science",
+          "level": 0,
+          "score": 0.7838264107704163
+        },
+        {
+          "id": "https://openalex.org/C2778012447",
+          "wikidata": "https://www.wikidata.org/wiki/Q1034415",
+          "display_name": "Scope (computer science)",
+          "level": 2,
+          "score": 0.6350637674331665
+        },
+        {
+          "id": "https://openalex.org/C88006597",
+          "wikidata": "https://www.wikidata.org/wiki/Q690117",
+          "display_name": "Disk formatting",
+          "level": 2,
+          "score": 0.5978894829750061
+        },
+        {
+          "id": "https://openalex.org/C170858558",
+          "wikidata": "https://www.wikidata.org/wiki/Q1394144",
+          "display_name": "Automatic summarization",
+          "level": 2,
+          "score": 0.49464747309684753
+        },
+        {
+          "id": "https://openalex.org/C2779343474",
+          "wikidata": "https://www.wikidata.org/wiki/Q3109175",
+          "display_name": "Context (archaeology)",
+          "level": 2,
+          "score": 0.4920329749584198
+        },
+        {
+          "id": "https://openalex.org/C180198813",
+          "wikidata": "https://www.wikidata.org/wiki/Q121182",
+          "display_name": "Information system",
+          "level": 2,
+          "score": 0.4722950756549835
+        },
+        {
+          "id": "https://openalex.org/C2778137410",
+          "wikidata": "https://www.wikidata.org/wiki/Q2732820",
+          "display_name": "Government (linguistics)",
+          "level": 2,
+          "score": 0.4619491696357727
+        },
+        {
+          "id": "https://openalex.org/C56739046",
+          "wikidata": "https://www.wikidata.org/wiki/Q192060",
+          "display_name": "Knowledge management",
+          "level": 1,
+          "score": 0.43265578150749207
+        },
+        {
+          "id": "https://openalex.org/C115903868",
+          "wikidata": "https://www.wikidata.org/wiki/Q80993",
+          "display_name": "Software engineering",
+          "level": 1,
+          "score": 0.3926967978477478
+        },
+        {
+          "id": "https://openalex.org/C2522767166",
+          "wikidata": "https://www.wikidata.org/wiki/Q2374463",
+          "display_name": "Data science",
+          "level": 1,
+          "score": 0.3709307610988617
+        },
+        {
+          "id": "https://openalex.org/C23123220",
+          "wikidata": "https://www.wikidata.org/wiki/Q816826",
+          "display_name": "Information retrieval",
+          "level": 1,
+          "score": 0.1505516767501831
+        },
+        {
+          "id": "https://openalex.org/C127413603",
+          "wikidata": "https://www.wikidata.org/wiki/Q11023",
+          "display_name": "Engineering",
+          "level": 0,
+          "score": 0.10507714748382568
+        },
+        {
+          "id": "https://openalex.org/C138885662",
+          "wikidata": "https://www.wikidata.org/wiki/Q5891",
+          "display_name": "Philosophy",
+          "level": 0,
+          "score": 0.0
+        },
+        {
+          "id": "https://openalex.org/C199360897",
+          "wikidata": "https://www.wikidata.org/wiki/Q9143",
+          "display_name": "Programming language",
+          "level": 1,
+          "score": 0.0
+        },
+        {
+          "id": "https://openalex.org/C119599485",
+          "wikidata": "https://www.wikidata.org/wiki/Q43035",
+          "display_name": "Electrical engineering",
+          "level": 1,
+          "score": 0.0
+        },
+        {
+          "id": "https://openalex.org/C41895202",
+          "wikidata": "https://www.wikidata.org/wiki/Q8162",
+          "display_name": "Linguistics",
+          "level": 1,
+          "score": 0.0
+        },
+        {
+          "id": "https://openalex.org/C111919701",
+          "wikidata": "https://www.wikidata.org/wiki/Q9135",
+          "display_name": "Operating system",
+          "level": 1,
+          "score": 0.0
+        },
+        {
+          "id": "https://openalex.org/C86803240",
+          "wikidata": "https://www.wikidata.org/wiki/Q420",
+          "display_name": "Biology",
+          "level": 0,
+          "score": 0.0
+        },
+        {
+          "id": "https://openalex.org/C151730666",
+          "wikidata": "https://www.wikidata.org/wiki/Q7205",
+          "display_name": "Paleontology",
+          "level": 1,
+          "score": 0.0
+        }
+      ],
+      "mesh": [],
+      "locations_count": 1,
+      "locations": [
+        {
+          "id": "doi:10.1145/800282.811088",
+          "doi": "https://doi.org/10.1145/800282.811088",
+          "is_oa": false,
+          "landing_page_url": "https://doi.org/10.1145/800282.811088",
+          "pdf_url": null,
+          "source": null,
+          "license": null,
+          "license_id": null,
+          "version": "publishedVersion",
+          "is_accepted": true,
+          "is_published": true,
+          "raw_source_name": "Proceedings of the fourteenth annual computer personnel research conference on -",
+          "raw_type": "proceedings-article"
+        }
+      ],
+      "best_oa_location": null,
+      "sustainable_development_goals": [
+        {
+          "id": "https://metadata.un.org/sdg/4",
+          "display_name": "Quality education",
+          "score": 0.6164000034332275
+        }
+      ],
+      "study_designs": [],
+      "awards": [],
+      "funders": [],
+      "has_content": {
+        "pdf": false,
+        "grobid_xml": false
+      },
+      "content_urls": null,
+      "referenced_works_count": 0,
+      "referenced_works": [],
+      "related_works": [
+        "https://openalex.org/W4239516171",
+        "https://openalex.org/W2029959299",
+        "https://openalex.org/W7587015",
+        "https://openalex.org/W4411769677",
+        "https://openalex.org/W1596609799",
+        "https://openalex.org/W1988126142",
+        "https://openalex.org/W2067094053",
+        "https://openalex.org/W7031048812",
+        "https://openalex.org/W2490376976",
+        "https://openalex.org/W618507640"
+      ],
+      "abstract_inverted_index": {
+        "This": [
+          0,
+          61
+        ],
+        "project": [
+          1
+        ],
+        "was": [
+          2
+        ],
+        "undertaken": [
+          3
+        ],
+        "in": [
+          4,
+          13,
+          20,
+          32,
+          46,
+          68,
+          98,
+          124,
+          129
+        ],
+        "an": [
+          5
+        ],
+        "attempt": [
+          6
+        ],
+        "to": [
+          7,
+          58,
+          92,
+          108
+        ],
+        "determine": [
+          8
+        ],
+        "whether": [
+          9
+        ],
+        "the": [
+          10,
+          39,
+          44,
+          48,
+          81,
+          84,
+          109,
+          137,
+          144
+        ],
+        "present": [
+          11
+        ],
+        "curriculum": [
+          12
+        ],
+        "those": [
+          14,
+          65,
+          134
+        ],
+        "business": [
+          15,
+          125
+        ],
+        "schools": [
+          16
+        ],
+        "which": [
+          17,
+          47
+        ],
+        "offer": [
+          18
+        ],
+        "courses": [
+          19
+        ],
+        "computer-based": [
+          21,
+          94
+        ],
+        "systems": [
+          22,
+          36,
+          95,
+          112
+        ],
+        "concepts": [
+          23
+        ],
+        "can": [
+          24
+        ],
+        "provide": [
+          25
+        ],
+        "educational": [
+          26
+        ],
+        "preparation": [
+          27
+        ],
+        "appropriate": [
+          28
+        ],
+        "for": [
+          29,
+          114
+        ],
+        "government": [
+          30
+        ],
+        "careers": [
+          31
+        ],
+        "automatic": [
+          33
+        ],
+        "data": [
+          34,
+          141
+        ],
+        "processing": [
+          35
+        ],
+        "development.": [
+          37
+        ],
+        "For": [
+          38
+        ],
+        "purposes": [
+          40
+        ],
+        "of": [
+          41,
+          83,
+          111,
+          139,
+          148,
+          161
+        ],
+        "this": [
+          42
+        ],
+        "paper,": [
+          43
+        ],
+        "context": [
+          45
+        ],
+        "term": [
+          49
+        ],
+        "“systems": [
+          50,
+          77
+        ],
+        "analyst”": [
+          51
+        ],
+        "will": [
+          52,
+          55
+        ],
+        "be": [
+          53,
+          56
+        ],
+        "used": [
+          54
+        ],
+        "restricted": [
+          57
+        ],
+        "computer-related": [
+          59
+        ],
+        "tasks.": [
+          60
+        ],
+        "does": [
+          62
+        ],
+        "not": [
+          63
+        ],
+        "eliminate": [
+          64
+        ],
+        "individuals": [
+          66
+        ],
+        "engaged": [
+          67
+        ],
+        "what": [
+          69,
+          115
+        ],
+        "is": [
+          70,
+          105
+        ],
+        "variously": [
+          71
+        ],
+        "called": [
+          72
+        ],
+        "“applications": [
+          73
+        ],
+        "analysis”,": [
+          74,
+          76
+        ],
+        "“information": [
+          75
+        ],
+        "coordination”,": [
+          78
+        ],
+        "etc.": [
+          79
+        ],
+        "from": [
+          80
+        ],
+        "scope": [
+          82
+        ],
+        "study,": [
+          85
+        ],
+        "so": [
+          86
+        ],
+        "long": [
+          87
+        ],
+        "as": [
+          88,
+          119
+        ],
+        "their": [
+          89
+        ],
+        "work": [
+          90
+        ],
+        "leads": [
+          91
+        ],
+        "a": [
+          93,
+          158
+        ],
+        "proposal": [
+          96
+        ],
+        "(and,": [
+          97
+        ],
+        "most": [
+          99
+        ],
+        "instances,": [
+          100
+        ],
+        "eventual": [
+          101
+        ],
+        "implementation).": [
+          102
+        ],
+        "The": [
+          103
+        ],
+        "study": [
+          104
+        ],
+        "further": [
+          106
+        ],
+        "limited": [
+          107
+        ],
+        "functions": [
+          110
+        ],
+        "development": [
+          113
+        ],
+        "are": [
+          116,
+          133
+        ],
+        "generally": [
+          117
+        ],
+        "classified": [
+          118
+        ],
+        "“business”": [
+          120
+        ],
+        "applications—whether": [
+          121
+        ],
+        "they": [
+          122
+        ],
+        "occur": [
+          123
+        ],
+        "per": [
+          126
+        ],
+        "se": [
+          127
+        ],
+        "or": [
+          128
+        ],
+        "government.": [
+          130
+        ],
+        "Business": [
+          131
+        ],
+        "applications": [
+          132
+        ],
+        "characterized": [
+          135
+        ],
+        "by": [
+          136
+        ],
+        "manipulation": [
+          138
+        ],
+        "large": [
+          140
+        ],
+        "volumes": [
+          142
+        ],
+        "and": [
+          143,
+          155
+        ],
+        "traditional": [
+          145
+        ],
+        "file-handling": [
+          146
+        ],
+        "processes": [
+          147
+        ],
+        "creation,": [
+          149
+        ],
+        "maintenance,": [
+          150
+        ],
+        "retrieval,": [
+          151
+        ],
+        "formatting,": [
+          152
+        ],
+        "reporting,": [
+          153
+        ],
+        "summarization,": [
+          154
+        ],
+        "sorting—with": [
+          156
+        ],
+        "only": [
+          157
+        ],
+        "minimal": [
+          159
+        ],
+        "amount": [
+          160
+        ],
+        "complex": [
+          162
+        ],
+        "mathematical": [
+          163
+        ],
+        "computation.": [
+          164
+        ]
+      },
+      "counts_by_year": [],
+      "updated_date": "2026-07-29T14:22:42.915294",
+      "created_date": "2016-06-24T00:00:00"
+    },
+    {
+      "id": "https://openalex.org/W4240248830",
+      "doi": "https://doi.org/10.1093/ref:odnb/106934",
+      "title": "Martin, James Thomas (1933–2013), computer systems analyst, author, and philanthropist",
+      "display_name": "Martin, James Thomas (1933–2013), computer systems analyst, author, and philanthropist",
+      "relevance_score": 115.669785,
+      "publication_year": 2017,
+      "publication_date": "2017-01-01",
+      "ids": {
+        "openalex": "https://openalex.org/W4240248830",
+        "doi": "https://doi.org/10.1093/ref:odnb/106934"
+      },
+      "language": "en",
+      "primary_location": {
+        "id": "doi:10.1093/ref:odnb/106934",
+        "doi": "https://doi.org/10.1093/ref:odnb/106934",
+        "is_oa": false,
+        "landing_page_url": "https://doi.org/10.1093/ref:odnb/106934",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4306463708",
+          "display_name": "Oxford University Press eBooks",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "listed_in": [],
+          "host_organization": "https://openalex.org/P4310311648",
+          "host_organization_name": "Oxford University Press",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310311648",
+            "https://openalex.org/P4310311647"
+          ],
+          "host_organization_lineage_names": [
+            "Oxford University Press",
+            "University of Oxford"
+          ],
+          "type": "ebook platform"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Oxford Dictionary of National Biography",
+        "raw_type": "reference-entry"
+      },
+      "parent_works": [],
+      "lineage": [
+        "https://openalex.org/W4240248830"
+      ],
+      "child_works_count": 0,
+      "type": "reference-entry",
+      "is_traditional": false,
+      "indexed_in": [
+        "crossref"
+      ],
+      "open_access": {
+        "is_oa": false,
+        "oa_status": "closed",
+        "oa_url": null,
+        "any_repository_has_fulltext": false
+      },
+      "authorships": [
+        {
+          "author_position": "first",
+          "author": {
+            "id": "https://openalex.org/A5057073133",
+            "display_name": "Martin Campbell‐Kelly",
+            "orcid": null,
+            "observed_orcids": []
+          },
+          "institutions": [],
+          "countries": [],
+          "is_corresponding": true,
+          "raw_author_name": "Martin Campbell-Kelly",
+          "raw_affiliation_strings": [],
+          "raw_orcid": null,
+          "affiliations": []
+        }
+      ],
+      "institutions": [],
+      "countries_distinct_count": 0,
+      "institutions_distinct_count": 0,
+      "corresponding_author_ids": [
+        "https://openalex.org/A5057073133"
+      ],
+      "corresponding_institution_ids": [],
+      "apc_list": null,
+      "apc_paid": null,
+      "fwci": null,
+      "is_authors_truncated": false,
+      "has_fulltext": false,
+      "cited_by_count": 0,
+      "citation_normalized_percentile": null,
+      "cited_by_percentile_year": null,
+      "biblio": {
+        "volume": null,
+        "issue": null,
+        "first_page": null,
+        "last_page": null
+      },
+      "is_retracted": false,
+      "is_paratext": false,
+      "is_xpac": false,
+      "primary_topic": {
+        "id": "https://openalex.org/T13495",
+        "display_name": "Biographical and Historical Analysis",
+        "score": 0.7445999979972839,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1202",
+          "display_name": "History"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/12",
+          "display_name": "Arts and Humanities"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      "topics": [
+        {
+          "id": "https://openalex.org/T13495",
+          "display_name": "Biographical and Historical Analysis",
+          "score": 0.7445999979972839,
+          "subfield": {
+            "id": "https://openalex.org/subfields/1202",
+            "display_name": "History"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/12",
+            "display_name": "Arts and Humanities"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/2",
+            "display_name": "Social Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T12797",
+          "display_name": "History of Computing Technologies",
+          "score": 0.24879999458789825,
+          "subfield": {
+            "id": "https://openalex.org/subfields/1706",
+            "display_name": "Computer Science Applications"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/17",
+            "display_name": "Computer Science"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T14475",
+          "display_name": "History of Science and Medicine",
+          "score": 0.001500000013038516,
+          "subfield": {
+            "id": "https://openalex.org/subfields/1207",
+            "display_name": "History and Philosophy of Science"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/12",
+            "display_name": "Arts and Humanities"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/2",
+            "display_name": "Social Sciences"
+          }
+        }
+      ],
+      "keywords": [
+        {
+          "id": "https://openalex.org/keywords/systems-analysis",
+          "display_name": "systems analysis",
+          "score": 0.5080000162124634
+        },
+        {
+          "id": "https://openalex.org/keywords/information-systems",
+          "display_name": "information systems",
+          "score": 0.43799999356269836
+        },
+        {
+          "id": "https://openalex.org/keywords/business-computing",
+          "display_name": "business computing",
+          "score": 0.3199999928474426
+        },
+        {
+          "id": "https://openalex.org/keywords/philanthropy",
+          "display_name": "philanthropy",
+          "score": 0.7070000171661377
+        }
+      ],
+      "concepts": [
+        {
+          "id": "https://openalex.org/C41008148",
+          "wikidata": "https://www.wikidata.org/wiki/Q21198",
+          "display_name": "Computer science",
+          "level": 0,
+          "score": 0.31218424439430237
+        }
+      ],
+      "mesh": [],
+      "locations_count": 1,
+      "locations": [
+        {
+          "id": "doi:10.1093/ref:odnb/106934",
+          "doi": "https://doi.org/10.1093/ref:odnb/106934",
+          "is_oa": false,
+          "landing_page_url": "https://doi.org/10.1093/ref:odnb/106934",
+          "pdf_url": null,
+          "source": {
+            "id": "https://openalex.org/S4306463708",
+            "display_name": "Oxford University Press eBooks",
+            "issn_l": null,
+            "issn": null,
+            "is_oa": false,
+            "is_in_doaj": false,
+            "is_core": false,
+            "listed_in": [],
+            "host_organization": "https://openalex.org/P4310311648",
+            "host_organization_name": "Oxford University Press",
+            "host_organization_lineage": [
+              "https://openalex.org/P4310311648",
+              "https://openalex.org/P4310311647"
+            ],
+            "host_organization_lineage_names": [
+              "Oxford University Press",
+              "University of Oxford"
+            ],
+            "type": "ebook platform"
+          },
+          "license": null,
+          "license_id": null,
+          "version": "publishedVersion",
+          "is_accepted": true,
+          "is_published": true,
+          "raw_source_name": "Oxford Dictionary of National Biography",
+          "raw_type": "reference-entry"
+        }
+      ],
+      "best_oa_location": null,
+      "sustainable_development_goals": [],
+      "study_designs": [],
+      "awards": [],
+      "funders": [],
+      "has_content": {
+        "pdf": false,
+        "grobid_xml": false
+      },
+      "content_urls": null,
+      "referenced_works_count": 0,
+      "referenced_works": [],
+      "related_works": [
+        "https://openalex.org/W4246904133",
+        "https://openalex.org/W4238238832",
+        "https://openalex.org/W4251988308",
+        "https://openalex.org/W4247166526",
+        "https://openalex.org/W4239053085",
+        "https://openalex.org/W4239573327",
+        "https://openalex.org/W4248774183",
+        "https://openalex.org/W4248158143",
+        "https://openalex.org/W4413713046",
+        "https://openalex.org/W4238472383"
+      ],
+      "abstract_inverted_index": null,
+      "counts_by_year": [],
+      "updated_date": "2026-11-05T12:25:35.769452",
+      "created_date": "2022-05-12T00:00:00"
+    }
+  ],
+  "group_by": []
+}

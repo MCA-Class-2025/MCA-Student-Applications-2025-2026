@@ -1,0 +1,5373 @@
+{
+  "meta": {
+    "notice": "No API key, so this request shares one free daily budget ($0.10) with everyone on your network's IP address. Get a free key with its own $1/day at https://openalex.org/settings/api and add api_key=YOUR_KEY to your requests. An AI agent can get one for its user in one call: POST https://api.openalex.org/api-keys with {\"email\": \"<your user's email>\"}; we email them a link, and the key works once they click it. Docs for agents: https://help.openalex.org/llms.txt",
+    "count": 114184,
+    "db_response_time_ms": 135,
+    "page": 1,
+    "per_page": 5,
+    "groups_count": null,
+    "x_query": {
+      "oql": "get works with (MACHINE LEARNING ARCHITECT) in the title, abstract, or full text",
+      "x_new_oql": "get works with (MACHINE LEARNING ARCHITECT) in the title, abstract, or full text",
+      "oqo": {
+        "get_rows": "works",
+        "filter_rows": [
+          {
+            "column_id": "fulltext.search",
+            "value": "MACHINE LEARNING ARCHITECT",
+            "operator": "has"
+          }
+        ]
+      },
+      "url": "/works?filter=fulltext.search:MACHINE LEARNING ARCHITECT&per_page=5",
+      "order": "best matches first",
+      "order_default": true
+    },
+    "cost_usd": 0.001
+  },
+  "results": [
+    {
+      "id": "https://openalex.org/W4387773219",
+      "doi": "https://doi.org/10.1038/s41467-023-42415-y",
+      "title": "Machine learning-enabled constrained multi-objective design of architected materials",
+      "display_name": "Machine learning-enabled constrained multi-objective design of architected materials",
+      "relevance_score": 95.129425,
+      "publication_year": 2023,
+      "publication_date": "2023-10-19",
+      "ids": {
+        "openalex": "https://openalex.org/W4387773219",
+        "doi": "https://doi.org/10.1038/s41467-023-42415-y",
+        "pmid": "https://pubmed.ncbi.nlm.nih.gov/37857648",
+        "pmcid": "https://www.ncbi.nlm.nih.gov/pmc/articles/10587057"
+      },
+      "language": "en",
+      "primary_location": {
+        "id": "doi:10.1038/s41467-023-42415-y",
+        "doi": "https://doi.org/10.1038/s41467-023-42415-y",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.1038/s41467-023-42415-y",
+        "pdf_url": "https://www.nature.com/articles/s41467-023-42415-y.pdf",
+        "source": {
+          "id": "https://openalex.org/S64187185",
+          "display_name": "Nature Communications",
+          "issn_l": "2041-1723",
+          "issn": [
+            "2041-1723"
+          ],
+          "is_oa": true,
+          "is_in_doaj": true,
+          "is_core": true,
+          "listed_in": [
+            "anvur-class-a",
+            "anvur-scientific",
+            "cwts-core",
+            "doaj",
+            "dongbi-a",
+            "doyens",
+            "jufo-3",
+            "ki-jl-3",
+            "medline",
+            "norway-2",
+            "oarl",
+            "poland-200",
+            "russia-white-list-1",
+            "vabb-shw"
+          ],
+          "host_organization": "https://openalex.org/P4310319908",
+          "host_organization_name": "Nature Portfolio",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310319908",
+            "https://openalex.org/P4310319965"
+          ],
+          "host_organization_lineage_names": [
+            "Nature Portfolio",
+            "Springer Nature"
+          ],
+          "type": "journal"
+        },
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Nature Communications",
+        "raw_type": "journal-article"
+      },
+      "parent_works": [],
+      "lineage": [
+        "https://openalex.org/W4387773219"
+      ],
+      "child_works_count": 0,
+      "type": "article",
+      "is_traditional": true,
+      "indexed_in": [
+        "crossref",
+        "doaj",
+        "pubmed"
+      ],
+      "open_access": {
+        "is_oa": true,
+        "oa_status": "gold",
+        "oa_url": "https://www.nature.com/articles/s41467-023-42415-y.pdf",
+        "any_repository_has_fulltext": true
+      },
+      "authorships": [
+        {
+          "author_position": "first",
+          "author": {
+            "id": "https://openalex.org/A5046723172",
+            "display_name": "Bo Peng",
+            "orcid": "https://orcid.org/0000-0003-0416-9076",
+            "observed_orcids": [
+              "https://orcid.org/0000-0003-0416-9076",
+              "https://orcid.org/0009-0000-3560-6211"
+            ]
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I4391768272",
+              "display_name": "State Key Laboratory of Tribology",
+              "ror": "https://ror.org/03h33sq24",
+              "country_code": "CN",
+              "type": "facility",
+              "lineage": [
+                "https://openalex.org/I4391768272",
+                "https://openalex.org/I99065089"
+              ]
+            },
+            {
+              "id": "https://openalex.org/I99065089",
+              "display_name": "Tsinghua University",
+              "ror": "https://ror.org/03cve4549",
+              "country_code": "CN",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I99065089"
+              ]
+            }
+          ],
+          "countries": [
+            "CN"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "Bo Peng",
+          "raw_affiliation_strings": [
+            "Department of Mechanical Engineering, Tsinghua University, Beijing, China",
+            "State Key Laboratory of Tribology in Advanced Equipment, Tsinghua University, Beijing, China"
+          ],
+          "raw_orcid": "https://orcid.org/0000-0003-0416-9076",
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Department of Mechanical Engineering, Tsinghua University, Beijing, China",
+              "institution_ids": [
+                "https://openalex.org/I99065089"
+              ]
+            },
+            {
+              "raw_affiliation_string": "State Key Laboratory of Tribology in Advanced Equipment, Tsinghua University, Beijing, China",
+              "institution_ids": [
+                "https://openalex.org/I4391768272",
+                "https://openalex.org/I99065089"
+              ]
+            }
+          ]
+        },
+        {
+          "author_position": "middle",
+          "author": {
+            "id": "https://openalex.org/A5020554327",
+            "display_name": "Ye Wei",
+            "orcid": "https://orcid.org/0000-0003-1965-2298",
+            "observed_orcids": [
+              "https://orcid.org/0000-0003-1965-2298"
+            ]
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I99065089",
+              "display_name": "Tsinghua University",
+              "ror": "https://ror.org/03cve4549",
+              "country_code": "CN",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I99065089"
+              ]
+            }
+          ],
+          "countries": [
+            "CN"
+          ],
+          "is_corresponding": true,
+          "raw_author_name": "Ye Wei",
+          "raw_affiliation_strings": [
+            "Institute for Interdisciplinary Information Science, Tsinghua University, Beijing, China. ye.wei@rwth-aachen.de",
+            "Institute for Interdisciplinary Information Science, Tsinghua University, Beijing, China"
+          ],
+          "raw_orcid": "https://orcid.org/0000-0003-1965-2298",
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Institute for Interdisciplinary Information Science, Tsinghua University, Beijing, China. ye.wei@rwth-aachen.de",
+              "institution_ids": [
+                "https://openalex.org/I99065089"
+              ]
+            },
+            {
+              "raw_affiliation_string": "Institute for Interdisciplinary Information Science, Tsinghua University, Beijing, China",
+              "institution_ids": [
+                "https://openalex.org/I99065089"
+              ]
+            }
+          ]
+        },
+        {
+          "author_position": "middle",
+          "author": {
+            "id": "https://openalex.org/A5028579233",
+            "display_name": "Yu Qin",
+            "orcid": "https://orcid.org/0000-0003-2128-9731",
+            "observed_orcids": [
+              "https://orcid.org/0000-0003-2128-9731"
+            ]
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I20231570",
+              "display_name": "Peking University",
+              "ror": "https://ror.org/02v51f717",
+              "country_code": "CN",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I20231570"
+              ]
+            }
+          ],
+          "countries": [
+            "CN"
+          ],
+          "is_corresponding": true,
+          "raw_author_name": "Yu Qin",
+          "raw_affiliation_strings": [
+            "Department of Materials Science and Engineering, Peking University, Beijing, China. qinyu95@126.com",
+            "Department of Materials Science and Engineering, Peking University, Beijing, China"
+          ],
+          "raw_orcid": "https://orcid.org/0000-0003-2128-9731",
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Department of Materials Science and Engineering, Peking University, Beijing, China. qinyu95@126.com",
+              "institution_ids": [
+                "https://openalex.org/I20231570"
+              ]
+            },
+            {
+              "raw_affiliation_string": "Department of Materials Science and Engineering, Peking University, Beijing, China",
+              "institution_ids": [
+                "https://openalex.org/I20231570"
+              ]
+            }
+          ]
+        },
+        {
+          "author_position": "middle",
+          "author": {
+            "id": "https://openalex.org/A5066905264",
+            "display_name": "Jiabao Dai",
+            "orcid": "https://orcid.org/0009-0006-6091-4113",
+            "observed_orcids": [
+              "https://orcid.org/0009-0006-6091-4113"
+            ]
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I4391768272",
+              "display_name": "State Key Laboratory of Tribology",
+              "ror": "https://ror.org/03h33sq24",
+              "country_code": "CN",
+              "type": "facility",
+              "lineage": [
+                "https://openalex.org/I4391768272",
+                "https://openalex.org/I99065089"
+              ]
+            },
+            {
+              "id": "https://openalex.org/I99065089",
+              "display_name": "Tsinghua University",
+              "ror": "https://ror.org/03cve4549",
+              "country_code": "CN",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I99065089"
+              ]
+            }
+          ],
+          "countries": [
+            "CN"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "Jiabao Dai",
+          "raw_affiliation_strings": [
+            "Department of Mechanical Engineering, Tsinghua University, Beijing, China",
+            "State Key Laboratory of Tribology in Advanced Equipment, Tsinghua University, Beijing, China"
+          ],
+          "raw_orcid": null,
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Department of Mechanical Engineering, Tsinghua University, Beijing, China",
+              "institution_ids": [
+                "https://openalex.org/I99065089"
+              ]
+            },
+            {
+              "raw_affiliation_string": "State Key Laboratory of Tribology in Advanced Equipment, Tsinghua University, Beijing, China",
+              "institution_ids": [
+                "https://openalex.org/I4391768272",
+                "https://openalex.org/I99065089"
+              ]
+            }
+          ]
+        },
+        {
+          "author_position": "middle",
+          "author": {
+            "id": "https://openalex.org/A5100387857",
+            "display_name": "Yue Li",
+            "orcid": "https://orcid.org/0000-0003-3377-6676",
+            "observed_orcids": [
+              "https://orcid.org/0000-0003-3377-6676",
+              "https://orcid.org/0000-0002-1134-4859"
+            ]
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I4210106926",
+              "display_name": "Max-Planck-Institut für Nachhaltige Materialien",
+              "ror": "https://ror.org/01ngpvg12",
+              "country_code": "DE",
+              "type": "facility",
+              "lineage": [
+                "https://openalex.org/I149899117",
+                "https://openalex.org/I4210106926"
+              ]
+            }
+          ],
+          "countries": [
+            "DE"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "Yue Li",
+          "raw_affiliation_strings": [
+            "Max-Planck-Institut für Eisenforschung, Düsseldorf, Germany"
+          ],
+          "raw_orcid": "https://orcid.org/0000-0003-3377-6676",
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Max-Planck-Institut für Eisenforschung, Düsseldorf, Germany",
+              "institution_ids": [
+                "https://openalex.org/I4210106926"
+              ]
+            }
+          ]
+        },
+        {
+          "author_position": "middle",
+          "author": {
+            "id": "https://openalex.org/A5058854184",
+            "display_name": "Aobo Liu",
+            "orcid": "https://orcid.org/0000-0001-8912-8729",
+            "observed_orcids": [
+              "https://orcid.org/0000-0001-8912-8729"
+            ]
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I4391768272",
+              "display_name": "State Key Laboratory of Tribology",
+              "ror": "https://ror.org/03h33sq24",
+              "country_code": "CN",
+              "type": "facility",
+              "lineage": [
+                "https://openalex.org/I4391768272",
+                "https://openalex.org/I99065089"
+              ]
+            },
+            {
+              "id": "https://openalex.org/I99065089",
+              "display_name": "Tsinghua University",
+              "ror": "https://ror.org/03cve4549",
+              "country_code": "CN",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I99065089"
+              ]
+            }
+          ],
+          "countries": [
+            "CN"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "Aobo Liu",
+          "raw_affiliation_strings": [
+            "Department of Mechanical Engineering, Tsinghua University, Beijing, China",
+            "State Key Laboratory of Tribology in Advanced Equipment, Tsinghua University, Beijing, China"
+          ],
+          "raw_orcid": null,
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Department of Mechanical Engineering, Tsinghua University, Beijing, China",
+              "institution_ids": [
+                "https://openalex.org/I99065089"
+              ]
+            },
+            {
+              "raw_affiliation_string": "State Key Laboratory of Tribology in Advanced Equipment, Tsinghua University, Beijing, China",
+              "institution_ids": [
+                "https://openalex.org/I4391768272",
+                "https://openalex.org/I99065089"
+              ]
+            }
+          ]
+        },
+        {
+          "author_position": "middle",
+          "author": {
+            "id": "https://openalex.org/A5020574783",
+            "display_name": "Yun Tian",
+            "orcid": "https://orcid.org/0000-0003-2310-6054",
+            "observed_orcids": [
+              "https://orcid.org/0000-0003-2310-6054"
+            ]
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I4210141942",
+              "display_name": "Peking University Third Hospital",
+              "ror": "https://ror.org/04wwqze12",
+              "country_code": "CN",
+              "type": "healthcare",
+              "lineage": [
+                "https://openalex.org/I4210141942"
+              ]
+            }
+          ],
+          "countries": [
+            "CN"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "Yun Tian",
+          "raw_affiliation_strings": [
+            "Department of Orthopaedics, Peking University Third Hospital, Beijing, China"
+          ],
+          "raw_orcid": null,
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Department of Orthopaedics, Peking University Third Hospital, Beijing, China",
+              "institution_ids": [
+                "https://openalex.org/I4210141942"
+              ]
+            }
+          ]
+        },
+        {
+          "author_position": "middle",
+          "author": {
+            "id": "https://openalex.org/A5002105523",
+            "display_name": "Liuliu Han",
+            "orcid": "https://orcid.org/0000-0002-2332-2868",
+            "observed_orcids": [
+              "https://orcid.org/0000-0002-2332-2868"
+            ]
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I4210106926",
+              "display_name": "Max-Planck-Institut für Nachhaltige Materialien",
+              "ror": "https://ror.org/01ngpvg12",
+              "country_code": "DE",
+              "type": "facility",
+              "lineage": [
+                "https://openalex.org/I149899117",
+                "https://openalex.org/I4210106926"
+              ]
+            }
+          ],
+          "countries": [
+            "DE"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "Liuliu Han",
+          "raw_affiliation_strings": [
+            "Max-Planck-Institut für Eisenforschung, Düsseldorf, Germany"
+          ],
+          "raw_orcid": "https://orcid.org/0000-0002-2332-2868",
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Max-Planck-Institut für Eisenforschung, Düsseldorf, Germany",
+              "institution_ids": [
+                "https://openalex.org/I4210106926"
+              ]
+            }
+          ]
+        },
+        {
+          "author_position": "middle",
+          "author": {
+            "id": "https://openalex.org/A5100343282",
+            "display_name": "Yufeng Zheng",
+            "orcid": "https://orcid.org/0000-0002-7402-9979",
+            "observed_orcids": [
+              "https://orcid.org/0000-0002-7402-9979"
+            ]
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I20231570",
+              "display_name": "Peking University",
+              "ror": "https://ror.org/02v51f717",
+              "country_code": "CN",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I20231570"
+              ]
+            }
+          ],
+          "countries": [
+            "CN"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "Yufeng Zheng",
+          "raw_affiliation_strings": [
+            "Department of Materials Science and Engineering, Peking University, Beijing, China"
+          ],
+          "raw_orcid": "https://orcid.org/0000-0002-7402-9979",
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Department of Materials Science and Engineering, Peking University, Beijing, China",
+              "institution_ids": [
+                "https://openalex.org/I20231570"
+              ]
+            }
+          ]
+        },
+        {
+          "author_position": "last",
+          "author": {
+            "id": "https://openalex.org/A5058141326",
+            "display_name": "Peng Wen",
+            "orcid": "https://orcid.org/0000-0002-5656-1988",
+            "observed_orcids": [
+              "https://orcid.org/0000-0002-5656-1988"
+            ]
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I4391768272",
+              "display_name": "State Key Laboratory of Tribology",
+              "ror": "https://ror.org/03h33sq24",
+              "country_code": "CN",
+              "type": "facility",
+              "lineage": [
+                "https://openalex.org/I4391768272",
+                "https://openalex.org/I99065089"
+              ]
+            },
+            {
+              "id": "https://openalex.org/I99065089",
+              "display_name": "Tsinghua University",
+              "ror": "https://ror.org/03cve4549",
+              "country_code": "CN",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I99065089"
+              ]
+            }
+          ],
+          "countries": [
+            "CN"
+          ],
+          "is_corresponding": true,
+          "raw_author_name": "Peng Wen",
+          "raw_affiliation_strings": [
+            "Department of Mechanical Engineering, Tsinghua University, Beijing, China. wenpeng@tsinghua.edu.cn",
+            "State Key Laboratory of Tribology in Advanced Equipment, Tsinghua University, Beijing, China. wenpeng@tsinghua.edu.cn",
+            "Department of Mechanical Engineering, Tsinghua University, Beijing, China"
+          ],
+          "raw_orcid": "https://orcid.org/0000-0002-5656-1988",
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Department of Mechanical Engineering, Tsinghua University, Beijing, China. wenpeng@tsinghua.edu.cn",
+              "institution_ids": [
+                "https://openalex.org/I99065089"
+              ]
+            },
+            {
+              "raw_affiliation_string": "State Key Laboratory of Tribology in Advanced Equipment, Tsinghua University, Beijing, China. wenpeng@tsinghua.edu.cn",
+              "institution_ids": [
+                "https://openalex.org/I4391768272",
+                "https://openalex.org/I99065089"
+              ]
+            },
+            {
+              "raw_affiliation_string": "Department of Mechanical Engineering, Tsinghua University, Beijing, China",
+              "institution_ids": [
+                "https://openalex.org/I99065089"
+              ]
+            }
+          ]
+        }
+      ],
+      "institutions": [],
+      "countries_distinct_count": 2,
+      "institutions_distinct_count": 5,
+      "corresponding_author_ids": [
+        "https://openalex.org/A5020554327",
+        "https://openalex.org/A5028579233",
+        "https://openalex.org/A5058141326"
+      ],
+      "corresponding_institution_ids": [
+        "https://openalex.org/I20231570",
+        "https://openalex.org/I4391768272",
+        "https://openalex.org/I99065089"
+      ],
+      "apc_list": {
+        "value": 6290,
+        "currency": "USD",
+        "value_usd": 6290
+      },
+      "apc_paid": {
+        "value": 6290,
+        "currency": "USD",
+        "value_usd": 6290
+      },
+      "fwci": 13.2662,
+      "is_authors_truncated": false,
+      "has_fulltext": true,
+      "cited_by_count": 198,
+      "citation_normalized_percentile": {
+        "value": 0.9973003,
+        "is_in_top_1_percent": true,
+        "is_in_top_10_percent": true
+      },
+      "cited_by_percentile_year": {
+        "min": 93,
+        "max": 100
+      },
+      "biblio": {
+        "volume": "14",
+        "issue": "1",
+        "first_page": "6630",
+        "last_page": "6630"
+      },
+      "is_retracted": false,
+      "is_paratext": false,
+      "is_xpac": false,
+      "primary_topic": {
+        "id": "https://openalex.org/T11948",
+        "display_name": "Machine Learning in Materials Science",
+        "score": 0.9365000128746033,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2505",
+          "display_name": "Materials Chemistry"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/25",
+          "display_name": "Materials Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      "topics": [
+        {
+          "id": "https://openalex.org/T11948",
+          "display_name": "Machine Learning in Materials Science",
+          "score": 0.9365000128746033,
+          "subfield": {
+            "id": "https://openalex.org/subfields/2505",
+            "display_name": "Materials Chemistry"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/25",
+            "display_name": "Materials Science"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T10707",
+          "display_name": "Cellular and Composite Structures",
+          "score": 0.02710000053048134,
+          "subfield": {
+            "id": "https://openalex.org/subfields/2210",
+            "display_name": "Mechanical Engineering"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/22",
+            "display_name": "Engineering"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T11115",
+          "display_name": "Topology Optimization in Engineering",
+          "score": 0.014299999922513962,
+          "subfield": {
+            "id": "https://openalex.org/subfields/2205",
+            "display_name": "Civil and Structural Engineering"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/22",
+            "display_name": "Engineering"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        }
+      ],
+      "keywords": [
+        {
+          "id": "https://openalex.org/keywords/architected-materials",
+          "display_name": "architected materials",
+          "score": 0.9990000128746033
+        },
+        {
+          "id": "https://openalex.org/keywords/multi-objective-optimization",
+          "display_name": "multi-objective optimization",
+          "score": 0.843999981880188
+        },
+        {
+          "id": "https://openalex.org/keywords/3d-printing",
+          "display_name": "3D printing",
+          "score": 0.7799999713897705
+        },
+        {
+          "id": "https://openalex.org/keywords/neural-network",
+          "display_name": "artificial neural networks",
+          "score": 0.6620000004768372
+        },
+        {
+          "id": "https://openalex.org/keywords/finite-element-analysis",
+          "display_name": "finite element analysis",
+          "score": 0.8299999833106995
+        },
+        {
+          "id": "https://openalex.org/keywords/orthopedic-implants",
+          "display_name": "orthopedic implants",
+          "score": 0.8759999871253967
+        },
+        {
+          "id": "https://openalex.org/keywords/bone-defect-reconstruction",
+          "display_name": "bone defect repair",
+          "score": 0.6740000247955322
+        },
+        {
+          "id": "https://openalex.org/keywords/elastic-modulus",
+          "display_name": "elastic modulus",
+          "score": 0.6660000085830688
+        },
+        {
+          "id": "https://openalex.org/keywords/load-carrying-capacity",
+          "display_name": "bearing capacity",
+          "score": 0.8029999732971191
+        }
+      ],
+      "concepts": [
+        {
+          "id": "https://openalex.org/C179428855",
+          "wikidata": "https://www.wikidata.org/wiki/Q1069216",
+          "display_name": "Microscale chemistry",
+          "level": 2,
+          "score": 0.6964783072471619
+        },
+        {
+          "id": "https://openalex.org/C41008148",
+          "wikidata": "https://www.wikidata.org/wiki/Q21198",
+          "display_name": "Computer science",
+          "level": 0,
+          "score": 0.6885800957679749
+        },
+        {
+          "id": "https://openalex.org/C135628077",
+          "wikidata": "https://www.wikidata.org/wiki/Q220184",
+          "display_name": "Finite element method",
+          "level": 2,
+          "score": 0.5848867297172546
+        },
+        {
+          "id": "https://openalex.org/C2993075670",
+          "wikidata": "https://www.wikidata.org/wiki/Q2313934",
+          "display_name": "Load bearing",
+          "level": 2,
+          "score": 0.4857971668243408
+        },
+        {
+          "id": "https://openalex.org/C50644808",
+          "wikidata": "https://www.wikidata.org/wiki/Q192776",
+          "display_name": "Artificial neural network",
+          "level": 2,
+          "score": 0.48455944657325745
+        },
+        {
+          "id": "https://openalex.org/C189950617",
+          "wikidata": "https://www.wikidata.org/wiki/Q937228",
+          "display_name": "Property (philosophy)",
+          "level": 2,
+          "score": 0.42280811071395874
+        },
+        {
+          "id": "https://openalex.org/C139807058",
+          "wikidata": "https://www.wikidata.org/wiki/Q352374",
+          "display_name": "Adaptation (eye)",
+          "level": 2,
+          "score": 0.41860291361808777
+        },
+        {
+          "id": "https://openalex.org/C154945302",
+          "wikidata": "https://www.wikidata.org/wiki/Q11660",
+          "display_name": "Artificial intelligence",
+          "level": 1,
+          "score": 0.3523254096508026
+        },
+        {
+          "id": "https://openalex.org/C192562407",
+          "wikidata": "https://www.wikidata.org/wiki/Q228736",
+          "display_name": "Materials science",
+          "level": 0,
+          "score": 0.304829478263855
+        },
+        {
+          "id": "https://openalex.org/C66938386",
+          "wikidata": "https://www.wikidata.org/wiki/Q633538",
+          "display_name": "Structural engineering",
+          "level": 1,
+          "score": 0.18046095967292786
+        },
+        {
+          "id": "https://openalex.org/C127413603",
+          "wikidata": "https://www.wikidata.org/wiki/Q11023",
+          "display_name": "Engineering",
+          "level": 0,
+          "score": 0.1339748203754425
+        },
+        {
+          "id": "https://openalex.org/C159985019",
+          "wikidata": "https://www.wikidata.org/wiki/Q181790",
+          "display_name": "Composite material",
+          "level": 1,
+          "score": 0.10809513926506042
+        },
+        {
+          "id": "https://openalex.org/C111472728",
+          "wikidata": "https://www.wikidata.org/wiki/Q9471",
+          "display_name": "Epistemology",
+          "level": 1,
+          "score": 0.0
+        },
+        {
+          "id": "https://openalex.org/C138885662",
+          "wikidata": "https://www.wikidata.org/wiki/Q5891",
+          "display_name": "Philosophy",
+          "level": 0,
+          "score": 0.0
+        },
+        {
+          "id": "https://openalex.org/C120665830",
+          "wikidata": "https://www.wikidata.org/wiki/Q14620",
+          "display_name": "Optics",
+          "level": 1,
+          "score": 0.0
+        },
+        {
+          "id": "https://openalex.org/C121332964",
+          "wikidata": "https://www.wikidata.org/wiki/Q413",
+          "display_name": "Physics",
+          "level": 0,
+          "score": 0.0
+        },
+        {
+          "id": "https://openalex.org/C33923547",
+          "wikidata": "https://www.wikidata.org/wiki/Q395",
+          "display_name": "Mathematics",
+          "level": 0,
+          "score": 0.0
+        },
+        {
+          "id": "https://openalex.org/C145420912",
+          "wikidata": "https://www.wikidata.org/wiki/Q853077",
+          "display_name": "Mathematics education",
+          "level": 1,
+          "score": 0.0
+        }
+      ],
+      "mesh": [],
+      "locations_count": 6,
+      "locations": [
+        {
+          "id": "doi:10.1038/s41467-023-42415-y",
+          "doi": "https://doi.org/10.1038/s41467-023-42415-y",
+          "is_oa": true,
+          "landing_page_url": "https://doi.org/10.1038/s41467-023-42415-y",
+          "pdf_url": "https://www.nature.com/articles/s41467-023-42415-y.pdf",
+          "source": {
+            "id": "https://openalex.org/S64187185",
+            "display_name": "Nature Communications",
+            "issn_l": "2041-1723",
+            "issn": [
+              "2041-1723"
+            ],
+            "is_oa": true,
+            "is_in_doaj": true,
+            "is_core": true,
+            "listed_in": [
+              "anvur-class-a",
+              "anvur-scientific",
+              "cwts-core",
+              "doaj",
+              "dongbi-a",
+              "doyens",
+              "jufo-3",
+              "ki-jl-3",
+              "medline",
+              "norway-2",
+              "oarl",
+              "poland-200",
+              "russia-white-list-1",
+              "vabb-shw"
+            ],
+            "host_organization": "https://openalex.org/P4310319908",
+            "host_organization_name": "Nature Portfolio",
+            "host_organization_lineage": [
+              "https://openalex.org/P4310319908",
+              "https://openalex.org/P4310319965"
+            ],
+            "host_organization_lineage_names": [
+              "Nature Portfolio",
+              "Springer Nature"
+            ],
+            "type": "journal"
+          },
+          "license": "cc-by",
+          "license_id": "https://openalex.org/licenses/cc-by",
+          "version": "publishedVersion",
+          "is_accepted": true,
+          "is_published": true,
+          "raw_source_name": "Nature Communications",
+          "raw_type": "journal-article"
+        },
+        {
+          "id": "doi:10.21203/rs.3.rs-2082876/v1",
+          "doi": "https://doi.org/10.21203/rs.3.rs-2082876/v1",
+          "is_oa": true,
+          "landing_page_url": "https://doi.org/10.21203/rs.3.rs-2082876/v1",
+          "pdf_url": "https://www.researchsquare.com/article/rs-2082876/latest.pdf",
+          "source": {
+            "id": "https://openalex.org/S4306525896",
+            "display_name": "Research Square",
+            "issn_l": null,
+            "issn": null,
+            "is_oa": false,
+            "is_in_doaj": false,
+            "is_core": false,
+            "listed_in": [],
+            "host_organization": null,
+            "host_organization_name": null,
+            "host_organization_lineage": [],
+            "host_organization_lineage_names": [],
+            "type": "repository"
+          },
+          "license": "cc-by",
+          "license_id": "https://openalex.org/licenses/cc-by",
+          "version": "submittedVersion",
+          "is_accepted": false,
+          "is_published": false,
+          "raw_source_name": "Research Square",
+          "raw_type": "posted-content"
+        },
+        {
+          "id": "pmh:oai:pubmedcentral.nih.gov:10587057",
+          "doi": null,
+          "is_oa": true,
+          "landing_page_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/10587057",
+          "pdf_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10587057/pdf/41467_2023_Article_42415.pdf",
+          "source": {
+            "id": "https://openalex.org/S2764455111",
+            "display_name": "PubMed Central",
+            "issn_l": null,
+            "issn": null,
+            "is_oa": true,
+            "is_in_doaj": false,
+            "is_core": false,
+            "listed_in": [],
+            "host_organization": "https://openalex.org/I1299303238",
+            "host_organization_name": "National Institutes of Health",
+            "host_organization_lineage": [
+              "https://openalex.org/I1299303238"
+            ],
+            "host_organization_lineage_names": [],
+            "type": "repository"
+          },
+          "license": "cc-by",
+          "license_id": "https://openalex.org/licenses/cc-by",
+          "version": "publishedVersion",
+          "is_accepted": true,
+          "is_published": true,
+          "raw_source_name": "Nat Commun",
+          "raw_type": "Text"
+        },
+        {
+          "id": "pmid:37857648",
+          "doi": null,
+          "is_oa": false,
+          "landing_page_url": "https://pubmed.ncbi.nlm.nih.gov/37857648",
+          "pdf_url": null,
+          "source": {
+            "id": "https://openalex.org/S4306525036",
+            "display_name": "PubMed",
+            "issn_l": null,
+            "issn": null,
+            "is_oa": false,
+            "is_in_doaj": false,
+            "is_core": false,
+            "listed_in": [],
+            "host_organization": "https://openalex.org/I1299303238",
+            "host_organization_name": "National Institutes of Health",
+            "host_organization_lineage": [
+              "https://openalex.org/I1299303238"
+            ],
+            "host_organization_lineage_names": [],
+            "type": "repository"
+          },
+          "license": null,
+          "license_id": null,
+          "version": "publishedVersion",
+          "is_accepted": true,
+          "is_published": true,
+          "raw_source_name": "Nature communications",
+          "raw_type": "Journal Article"
+        },
+        {
+          "id": "pmh:oai:RePEc:nat:natcom:v:14:y:2023:i:1:d:10.1038_s41467-023-42415-y",
+          "doi": null,
+          "is_oa": false,
+          "landing_page_url": "https://www.nature.com/articles/s41467-023-42415-y",
+          "pdf_url": null,
+          "source": {
+            "id": "https://openalex.org/S4306401271",
+            "display_name": "RePEc: Research Papers in Economics",
+            "issn_l": null,
+            "issn": null,
+            "is_oa": false,
+            "is_in_doaj": false,
+            "is_core": false,
+            "listed_in": [],
+            "host_organization": "https://openalex.org/I77793887",
+            "host_organization_name": "Federal Reserve Bank of St. Louis",
+            "host_organization_lineage": [
+              "https://openalex.org/I77793887"
+            ],
+            "host_organization_lineage_names": [],
+            "type": "repository"
+          },
+          "license": null,
+          "license_id": null,
+          "version": "submittedVersion",
+          "is_accepted": false,
+          "is_published": false,
+          "raw_source_name": null,
+          "raw_type": "article"
+        },
+        {
+          "id": "pmh:oai:doaj.org/article:325d2539a52947b886fb6353a83f2801",
+          "doi": null,
+          "is_oa": true,
+          "landing_page_url": "https://doaj.org/article/325d2539a52947b886fb6353a83f2801",
+          "pdf_url": null,
+          "source": {
+            "id": "https://openalex.org/S4306401280",
+            "display_name": "DOAJ (DOAJ: Directory of Open Access Journals)",
+            "issn_l": null,
+            "issn": null,
+            "is_oa": false,
+            "is_in_doaj": false,
+            "is_core": false,
+            "listed_in": [],
+            "host_organization": null,
+            "host_organization_name": null,
+            "host_organization_lineage": [],
+            "host_organization_lineage_names": [],
+            "type": "repository"
+          },
+          "license": "cc-by-sa",
+          "license_id": "https://openalex.org/licenses/cc-by-sa",
+          "version": "submittedVersion",
+          "is_accepted": false,
+          "is_published": false,
+          "raw_source_name": "Nature Communications, Vol 14, Iss 1, Pp 1-12 (2023)",
+          "raw_type": "article"
+        }
+      ],
+      "best_oa_location": {
+        "id": "doi:10.1038/s41467-023-42415-y",
+        "doi": "https://doi.org/10.1038/s41467-023-42415-y",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.1038/s41467-023-42415-y",
+        "pdf_url": "https://www.nature.com/articles/s41467-023-42415-y.pdf",
+        "source": {
+          "id": "https://openalex.org/S64187185",
+          "display_name": "Nature Communications",
+          "issn_l": "2041-1723",
+          "issn": [
+            "2041-1723"
+          ],
+          "is_oa": true,
+          "is_in_doaj": true,
+          "is_core": true,
+          "listed_in": [
+            "anvur-class-a",
+            "anvur-scientific",
+            "cwts-core",
+            "doaj",
+            "dongbi-a",
+            "doyens",
+            "jufo-3",
+            "ki-jl-3",
+            "medline",
+            "norway-2",
+            "oarl",
+            "poland-200",
+            "russia-white-list-1",
+            "vabb-shw"
+          ],
+          "host_organization": "https://openalex.org/P4310319908",
+          "host_organization_name": "Nature Portfolio",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310319908",
+            "https://openalex.org/P4310319965"
+          ],
+          "host_organization_lineage_names": [
+            "Nature Portfolio",
+            "Springer Nature"
+          ],
+          "type": "journal"
+        },
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Nature Communications",
+        "raw_type": "journal-article"
+      },
+      "sustainable_development_goals": [],
+      "study_designs": [],
+      "awards": [
+        {
+          "id": "https://openalex.org/G1077619977",
+          "display_name": null,
+          "funder_award_id": "2018YFE0104200",
+          "funder_id": "https://openalex.org/F4320335777",
+          "funder_display_name": "National Key Research and Development Program of China"
+        },
+        {
+          "id": "https://openalex.org/G2367139564",
+          "display_name": null,
+          "funder_award_id": "82172065",
+          "funder_id": "https://openalex.org/F4320321001",
+          "funder_display_name": "National Natural Science Foundation of China"
+        },
+        {
+          "id": "https://openalex.org/G682844579",
+          "display_name": null,
+          "funder_award_id": "51875310",
+          "funder_id": "https://openalex.org/F4320321001",
+          "funder_display_name": "National Natural Science Foundation of China"
+        },
+        {
+          "id": "https://openalex.org/G74588336",
+          "display_name": null,
+          "funder_award_id": "52175274",
+          "funder_id": "https://openalex.org/F4320321001",
+          "funder_display_name": "National Natural Science Foundation of China"
+        }
+      ],
+      "funders": [
+        {
+          "id": "https://openalex.org/F4320321001",
+          "display_name": "National Natural Science Foundation of China",
+          "ror": "https://ror.org/01h0zpd94"
+        },
+        {
+          "id": "https://openalex.org/F4320322392",
+          "display_name": "Tsinghua University",
+          "ror": "https://ror.org/03cve4549"
+        },
+        {
+          "id": "https://openalex.org/F4320335777",
+          "display_name": "National Key Research and Development Program of China",
+          "ror": null
+        }
+      ],
+      "has_content": {
+        "grobid_xml": true,
+        "pdf": true
+      },
+      "content_urls": {
+        "pdf": "https://content.openalex.org/works/W4387773219.pdf",
+        "grobid_xml": "https://content.openalex.org/works/W4387773219.grobid-xml"
+      },
+      "referenced_works_count": 67,
+      "referenced_works": [
+        "https://openalex.org/W1833149396",
+        "https://openalex.org/W1935174685",
+        "https://openalex.org/W1982897289",
+        "https://openalex.org/W1992865536",
+        "https://openalex.org/W2001828121",
+        "https://openalex.org/W2008277897",
+        "https://openalex.org/W2012077032",
+        "https://openalex.org/W2014593372",
+        "https://openalex.org/W2017150999",
+        "https://openalex.org/W2017545194",
+        "https://openalex.org/W2030749064",
+        "https://openalex.org/W2030977129",
+        "https://openalex.org/W2050117885",
+        "https://openalex.org/W2068261191",
+        "https://openalex.org/W2069988724",
+        "https://openalex.org/W2073865103",
+        "https://openalex.org/W2077098498",
+        "https://openalex.org/W2085227243",
+        "https://openalex.org/W2093985021",
+        "https://openalex.org/W2097584792",
+        "https://openalex.org/W2113465369",
+        "https://openalex.org/W2124195334",
+        "https://openalex.org/W2128478059",
+        "https://openalex.org/W2137019934",
+        "https://openalex.org/W2137549260",
+        "https://openalex.org/W2145738152",
+        "https://openalex.org/W2145913921",
+        "https://openalex.org/W2150916874",
+        "https://openalex.org/W2156192573",
+        "https://openalex.org/W2157855412",
+        "https://openalex.org/W2163605009",
+        "https://openalex.org/W2205474199",
+        "https://openalex.org/W2230487954",
+        "https://openalex.org/W2265329769",
+        "https://openalex.org/W2271840356",
+        "https://openalex.org/W2308484484",
+        "https://openalex.org/W2508135389",
+        "https://openalex.org/W2627046073",
+        "https://openalex.org/W2742835787",
+        "https://openalex.org/W2769326203",
+        "https://openalex.org/W2782634521",
+        "https://openalex.org/W2819724056",
+        "https://openalex.org/W2883583109",
+        "https://openalex.org/W2886881512",
+        "https://openalex.org/W2910837103",
+        "https://openalex.org/W2913745806",
+        "https://openalex.org/W2973183603",
+        "https://openalex.org/W2988465594",
+        "https://openalex.org/W3001130564",
+        "https://openalex.org/W3004731597",
+        "https://openalex.org/W3012409098",
+        "https://openalex.org/W3017663840",
+        "https://openalex.org/W3018572435",
+        "https://openalex.org/W3025104221",
+        "https://openalex.org/W3080155620",
+        "https://openalex.org/W3140854437",
+        "https://openalex.org/W3177216517",
+        "https://openalex.org/W4206942771",
+        "https://openalex.org/W4211173219",
+        "https://openalex.org/W4283161827",
+        "https://openalex.org/W4302425308",
+        "https://openalex.org/W4308917878",
+        "https://openalex.org/W4317831330",
+        "https://openalex.org/W4319321467",
+        "https://openalex.org/W4391505881",
+        "https://openalex.org/W6600924350",
+        "https://openalex.org/W6894189866"
+      ],
+      "related_works": [
+        "https://openalex.org/W4413065798",
+        "https://openalex.org/W6906766734",
+        "https://openalex.org/W4393304354",
+        "https://openalex.org/W3092584515",
+        "https://openalex.org/W4378384209",
+        "https://openalex.org/W7077070406",
+        "https://openalex.org/W6990199229",
+        "https://openalex.org/W2883482411",
+        "https://openalex.org/W3018572435"
+      ],
+      "abstract_inverted_index": {
+        "Architected": [
+          0
+        ],
+        "materials": [
+          1,
+          29,
+          54,
+          154
+        ],
+        "that": [
+          2
+        ],
+        "consist": [
+          3
+        ],
+        "of": [
+          4,
+          17,
+          27,
+          51,
+          62,
+          152
+        ],
+        "multiple": [
+          5
+        ],
+        "subelements": [
+          6
+        ],
+        "arranged": [
+          7
+        ],
+        "in": [
+          8
+        ],
+        "particular": [
+          9
+        ],
+        "orders": [
+          10
+        ],
+        "can": [
+          11
+        ],
+        "demonstrate": [
+          12
+        ],
+        "a": [
+          13,
+          43,
+          56,
+          93,
+          120,
+          143
+        ],
+        "much": [
+          14
+        ],
+        "broader": [
+          15
+        ],
+        "range": [
+          16
+        ],
+        "properties": [
+          18
+        ],
+        "than": [
+          19,
+          135
+        ],
+        "their": [
+          20
+        ],
+        "constituent": [
+          21
+        ],
+        "materials.": [
+          22
+        ],
+        "However,": [
+          23
+        ],
+        "the": [
+          24,
+          47,
+          63,
+          103,
+          107,
+          115,
+          136,
+          147
+        ],
+        "rational": [
+          25
+        ],
+        "design": [
+          26,
+          151
+        ],
+        "these": [
+          28
+        ],
+        "generally": [
+          30
+        ],
+        "relies": [
+          31
+        ],
+        "on": [
+          32
+        ],
+        "experts'": [
+          33
+        ],
+        "prior": [
+          34
+        ],
+        "knowledge": [
+          35,
+          104
+        ],
+        "and": [
+          36,
+          68,
+          97,
+          149,
+          159
+        ],
+        "requires": [
+          37
+        ],
+        "painstaking": [
+          38
+        ],
+        "effort.": [
+          39
+        ],
+        "Here,": [
+          40
+        ],
+        "we": [
+          41,
+          73,
+          110
+        ],
+        "present": [
+          42
+        ],
+        "data-efficient": [
+          44,
+          144
+        ],
+        "method": [
+          45,
+          66,
+          76,
+          87,
+          141
+        ],
+        "for": [
+          46,
+          146
+        ],
+        "high-dimensional": [
+          48
+        ],
+        "multi-property": [
+          49
+        ],
+        "optimization": [
+          50
+        ],
+        "3D-printed": [
+          52
+        ],
+        "architected": [
+          53,
+          153
+        ],
+        "utilizing": [
+          55
+        ],
+        "machine": [
+          57
+        ],
+        "learning": [
+          58
+        ],
+        "(ML)": [
+          59
+        ],
+        "cycle": [
+          60
+        ],
+        "consisting": [
+          61
+        ],
+        "finite": [
+          64
+        ],
+        "element": [
+          65
+        ],
+        "(FEM)": [
+          67
+        ],
+        "3D": [
+          69
+        ],
+        "neural": [
+          70,
+          108
+        ],
+        "networks.": [
+          71
+        ],
+        "Specifically,": [
+          72
+        ],
+        "apply": [
+          74
+        ],
+        "our": [
+          75,
+          85,
+          140
+        ],
+        "to": [
+          77,
+          82,
+          118
+        ],
+        "orthopedic": [
+          78
+        ],
+        "implant": [
+          79
+        ],
+        "design.": [
+          80,
+          138
+        ],
+        "Compared": [
+          81
+        ],
+        "uniform": [
+          83,
+          137
+        ],
+        "designs,": [
+          84
+        ],
+        "experience-free": [
+          86
+        ],
+        "designs": [
+          88
+        ],
+        "microscale": [
+          89
+        ],
+        "heterogeneous": [
+          90
+        ],
+        "architectures": [
+          91
+        ],
+        "with": [
+          92,
+          155
+        ],
+        "biocompatible": [
+          94
+        ],
+        "elastic": [
+          95
+        ],
+        "modulus": [
+          96
+        ],
+        "higher": [
+          98,
+          131
+        ],
+        "strength.": [
+          99
+        ],
+        "Furthermore,": [
+          100
+        ],
+        "inspired": [
+          101
+        ],
+        "by": [
+          102
+        ],
+        "learned": [
+          105
+        ],
+        "from": [
+          106
+        ],
+        "networks,": [
+          109
+        ],
+        "develop": [
+          111
+        ],
+        "machine-human": [
+          112
+        ],
+        "synergy,": [
+          113
+        ],
+        "adapting": [
+          114
+        ],
+        "ML-designed": [
+          116
+        ],
+        "architecture": [
+          117
+        ],
+        "fix": [
+          119
+        ],
+        "macroscale,": [
+          121
+        ],
+        "irregularly": [
+          122
+        ],
+        "shaped": [
+          123
+        ],
+        "animal": [
+          124
+        ],
+        "bone": [
+          125
+        ],
+        "defect.": [
+          126
+        ],
+        "Such": [
+          127
+        ],
+        "adaptation": [
+          128
+        ],
+        "exhibits": [
+          129
+        ],
+        "20%": [
+          130
+        ],
+        "experimental": [
+          132
+        ],
+        "load-bearing": [
+          133
+        ],
+        "capacity": [
+          134
+        ],
+        "Thus,": [
+          139
+        ],
+        "provides": [
+          142
+        ],
+        "paradigm": [
+          145
+        ],
+        "fast": [
+          148
+        ],
+        "intelligent": [
+          150
+        ],
+        "tailored": [
+          156
+        ],
+        "mechanical,": [
+          157
+        ],
+        "physical,": [
+          158
+        ],
+        "chemical": [
+          160
+        ],
+        "properties.": [
+          161
+        ]
+      },
+      "counts_by_year": [
+        {
+          "year": 2026,
+          "cited_by_count": 89
+        },
+        {
+          "year": 2025,
+          "cited_by_count": 79
+        },
+        {
+          "year": 2024,
+          "cited_by_count": 28
+        },
+        {
+          "year": 2023,
+          "cited_by_count": 2
+        }
+      ],
+      "updated_date": "2026-11-14T11:04:58.165337",
+      "created_date": "2023-10-20T00:00:00"
+    },
+    {
+      "id": "https://openalex.org/W3015781627",
+      "doi": "https://doi.org/10.1061/(asce)me.1943-5479.0000774",
+      "title": "Architecting Smart City Digital Twins: Combined Semantic Model and Machine Learning Approach",
+      "display_name": "Architecting Smart City Digital Twins: Combined Semantic Model and Machine Learning Approach",
+      "relevance_score": 93.830444,
+      "publication_year": 2020,
+      "publication_date": "2020-04-08",
+      "ids": {
+        "openalex": "https://openalex.org/W3015781627",
+        "doi": "https://doi.org/10.1061/(asce)me.1943-5479.0000774",
+        "mag": "3015781627"
+      },
+      "language": "en",
+      "primary_location": {
+        "id": "doi:10.1061/(asce)me.1943-5479.0000774",
+        "doi": "https://doi.org/10.1061/(asce)me.1943-5479.0000774",
+        "is_oa": false,
+        "landing_page_url": "https://doi.org/10.1061/(asce)me.1943-5479.0000774",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S144495243",
+          "display_name": "Journal of Management in Engineering",
+          "issn_l": "0742-597X",
+          "issn": [
+            "0742-597X",
+            "1943-5479",
+            "9742-597X"
+          ],
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": true,
+          "listed_in": [
+            "abdc-a",
+            "cwts-core",
+            "dongbi-a",
+            "fnege-3",
+            "jufo-1",
+            "norway-2",
+            "poland-100",
+            "russia-white-list-1",
+            "vabb-shw"
+          ],
+          "host_organization": "https://openalex.org/P4310315747",
+          "host_organization_name": "American Society of Civil Engineers",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310315747"
+          ],
+          "host_organization_lineage_names": [
+            "American Society of Civil Engineers"
+          ],
+          "type": "journal"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Journal of Management in Engineering",
+        "raw_type": "journal-article"
+      },
+      "parent_works": [],
+      "lineage": [
+        "https://openalex.org/W3015781627"
+      ],
+      "child_works_count": 0,
+      "type": "article",
+      "is_traditional": true,
+      "indexed_in": [
+        "crossref"
+      ],
+      "open_access": {
+        "is_oa": false,
+        "oa_status": "closed",
+        "oa_url": null,
+        "any_repository_has_fulltext": false
+      },
+      "authorships": [
+        {
+          "author_position": "first",
+          "author": {
+            "id": "https://openalex.org/A5024395821",
+            "display_name": "Mark A. Austin",
+            "orcid": "https://orcid.org/0000-0001-8259-4794",
+            "observed_orcids": [
+              "https://orcid.org/0000-0001-8259-4794"
+            ]
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I66946132",
+              "display_name": "University of Maryland, College Park",
+              "ror": "https://ror.org/047s2c258",
+              "country_code": "US",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I66946132"
+              ]
+            }
+          ],
+          "countries": [
+            "US"
+          ],
+          "is_corresponding": true,
+          "raw_author_name": "Mark Austin",
+          "raw_affiliation_strings": [
+            "Associate Professor, Dept. of Civil and Environmental Engineering, and Institute for Systems Research, Univ. of Maryland, College Park, MD 20742 (corresponding author). ORCID: ",
+            "Associate Professor, Dept. of Civil and Environmental Engineering, and Institute for Systems Research, Univ. of Maryland, College Park, MD 20742. ORCID: https://orcid.org/0000-0001-8259-4794"
+          ],
+          "raw_orcid": "https://orcid.org/0000-0001-8259-4794",
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Associate Professor, Dept. of Civil and Environmental Engineering, and Institute for Systems Research, Univ. of Maryland, College Park, MD 20742 (corresponding author). ORCID: ",
+              "institution_ids": [
+                "https://openalex.org/I66946132"
+              ]
+            },
+            {
+              "raw_affiliation_string": "Associate Professor, Dept. of Civil and Environmental Engineering, and Institute for Systems Research, Univ. of Maryland, College Park, MD 20742. ORCID: https://orcid.org/0000-0001-8259-4794",
+              "institution_ids": [
+                "https://openalex.org/I66946132"
+              ]
+            }
+          ]
+        },
+        {
+          "author_position": "middle",
+          "author": {
+            "id": "https://openalex.org/A5034911670",
+            "display_name": "Parastoo Delgoshaei",
+            "orcid": null,
+            "observed_orcids": []
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I4210151571",
+              "display_name": "Engineering Laboratory",
+              "ror": "https://ror.org/03v61g875",
+              "country_code": "US",
+              "type": "government",
+              "lineage": [
+                "https://openalex.org/I1321296531",
+                "https://openalex.org/I1343035065",
+                "https://openalex.org/I4210151571"
+              ]
+            }
+          ],
+          "countries": [
+            "US"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "Parastoo Delgoshaei",
+          "raw_affiliation_strings": [
+            "Research Engineer, Mechanical Systems and Control Group, Engineering Laboratory, National Institute of Technology, 100 Bureau Dr., Stop 8631, Gaithersburg, MD 20899"
+          ],
+          "raw_orcid": null,
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Research Engineer, Mechanical Systems and Control Group, Engineering Laboratory, National Institute of Technology, 100 Bureau Dr., Stop 8631, Gaithersburg, MD 20899",
+              "institution_ids": [
+                "https://openalex.org/I4210151571"
+              ]
+            }
+          ]
+        },
+        {
+          "author_position": "middle",
+          "author": {
+            "id": "https://openalex.org/A5110575414",
+            "display_name": "Maria Coelho",
+            "orcid": "https://orcid.org/0000-0003-0087-6494",
+            "observed_orcids": [
+              "https://orcid.org/0000-0003-0087-6494"
+            ]
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I66946132",
+              "display_name": "University of Maryland, College Park",
+              "ror": "https://ror.org/047s2c258",
+              "country_code": "US",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I66946132"
+              ]
+            }
+          ],
+          "countries": [
+            "US"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "Maria Coelho",
+          "raw_affiliation_strings": [
+            "Graduate Student, Ph.D. Program in Civil Systems, Dept. of Civil and Environmental Engineering, Univ. of Maryland, College Park, MD 20742"
+          ],
+          "raw_orcid": null,
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Graduate Student, Ph.D. Program in Civil Systems, Dept. of Civil and Environmental Engineering, Univ. of Maryland, College Park, MD 20742",
+              "institution_ids": [
+                "https://openalex.org/I66946132"
+              ]
+            }
+          ]
+        },
+        {
+          "author_position": "last",
+          "author": {
+            "id": "https://openalex.org/A5078201969",
+            "display_name": "Mohammad Heidarinejad",
+            "orcid": "https://orcid.org/0000-0002-3064-825X",
+            "observed_orcids": [
+              "https://orcid.org/0000-0002-3064-825X"
+            ]
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I180949307",
+              "display_name": "Illinois Institute of Technology",
+              "ror": "https://ror.org/037t3ry66",
+              "country_code": "US",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I180949307"
+              ]
+            }
+          ],
+          "countries": [
+            "US"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "Mohammad Heidarinejad",
+          "raw_affiliation_strings": [
+            "Assistant Professor, Dept. of Civil, Architectural, and Environmental Engineering, Alumni Memorial Hall, Room 204, Illinois Institute of Technology, 3201 South Dearborn St., Chicago, IL 60616. ORCID: ",
+            "Assistant Professor, Dept. of Civil, Architectural, and Environmental Engineering, Alumni Memorial Hall, Room 204, Illinois Institute of Technology, 3201 South Dearborn St., Chicago, IL 60616. ORCID: https://orcid.org/0000-0002-3064-825X"
+          ],
+          "raw_orcid": "https://orcid.org/0000-0002-3064-825X",
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Assistant Professor, Dept. of Civil, Architectural, and Environmental Engineering, Alumni Memorial Hall, Room 204, Illinois Institute of Technology, 3201 South Dearborn St., Chicago, IL 60616. ORCID: ",
+              "institution_ids": [
+                "https://openalex.org/I180949307"
+              ]
+            },
+            {
+              "raw_affiliation_string": "Assistant Professor, Dept. of Civil, Architectural, and Environmental Engineering, Alumni Memorial Hall, Room 204, Illinois Institute of Technology, 3201 South Dearborn St., Chicago, IL 60616. ORCID: https://orcid.org/0000-0002-3064-825X",
+              "institution_ids": [
+                "https://openalex.org/I180949307"
+              ]
+            }
+          ]
+        }
+      ],
+      "institutions": [],
+      "countries_distinct_count": 1,
+      "institutions_distinct_count": 3,
+      "corresponding_author_ids": [
+        "https://openalex.org/A5024395821"
+      ],
+      "corresponding_institution_ids": [
+        "https://openalex.org/I66946132"
+      ],
+      "apc_list": null,
+      "apc_paid": null,
+      "fwci": 26.9702,
+      "is_authors_truncated": false,
+      "has_fulltext": false,
+      "cited_by_count": 191,
+      "citation_normalized_percentile": {
+        "value": 0.99668632,
+        "is_in_top_1_percent": true,
+        "is_in_top_10_percent": true
+      },
+      "cited_by_percentile_year": {
+        "min": 98,
+        "max": 100
+      },
+      "biblio": {
+        "volume": "36",
+        "issue": "4",
+        "first_page": null,
+        "last_page": null
+      },
+      "is_retracted": false,
+      "is_paratext": false,
+      "is_xpac": false,
+      "primary_topic": {
+        "id": "https://openalex.org/T11479",
+        "display_name": "Smart Cities and Technologies",
+        "score": 0.9291999936103821,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3322",
+          "display_name": "Urban Studies"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/33",
+          "display_name": "Social Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      "topics": [
+        {
+          "id": "https://openalex.org/T11479",
+          "display_name": "Smart Cities and Technologies",
+          "score": 0.9291999936103821,
+          "subfield": {
+            "id": "https://openalex.org/subfields/3322",
+            "display_name": "Urban Studies"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/33",
+            "display_name": "Social Sciences"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/2",
+            "display_name": "Social Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T10763",
+          "display_name": "Digital Transformation in Industry",
+          "score": 0.019300000742077827,
+          "subfield": {
+            "id": "https://openalex.org/subfields/2209",
+            "display_name": "Industrial and Manufacturing Engineering"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/22",
+            "display_name": "Engineering"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T12698",
+          "display_name": "3D Modeling in Geospatial Applications",
+          "score": 0.01899999938905239,
+          "subfield": {
+            "id": "https://openalex.org/subfields/2215",
+            "display_name": "Building and Construction"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/22",
+            "display_name": "Engineering"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        }
+      ],
+      "keywords": [
+        {
+          "id": "https://openalex.org/keywords/digital-twin-architecture",
+          "display_name": "digital twin architecture",
+          "score": 0.9789999723434448
+        },
+        {
+          "id": "https://openalex.org/keywords/semantic-knowledge-representation",
+          "display_name": "semantic knowledge representation",
+          "score": 0.9879999756813049
+        },
+        {
+          "id": "https://openalex.org/keywords/semantic-reasoning",
+          "display_name": "semantic reasoning",
+          "score": 0.9190000295639038
+        },
+        {
+          "id": "https://openalex.org/keywords/machine-learning",
+          "display_name": "machine learning",
+          "score": 0.7829999923706055
+        },
+        {
+          "id": "https://openalex.org/keywords/event-recognition",
+          "display_name": "event recognition",
+          "score": 0.6200000047683716
+        },
+        {
+          "id": "https://openalex.org/keywords/automated-decision-making",
+          "display_name": "automated decision-making",
+          "score": 0.9959999918937683
+        },
+        {
+          "id": "https://openalex.org/keywords/urban-sensing",
+          "display_name": "urban sensing",
+          "score": 0.75
+        }
+      ],
+      "concepts": [
+        {
+          "id": "https://openalex.org/C2777103469",
+          "wikidata": "https://www.wikidata.org/wiki/Q1231558",
+          "display_name": "Smart city",
+          "level": 3,
+          "score": 0.7128490805625916
+        },
+        {
+          "id": "https://openalex.org/C41008148",
+          "wikidata": "https://www.wikidata.org/wiki/Q21198",
+          "display_name": "Computer science",
+          "level": 0,
+          "score": 0.6731868386268616
+        },
+        {
+          "id": "https://openalex.org/C2522767166",
+          "wikidata": "https://www.wikidata.org/wiki/Q2374463",
+          "display_name": "Data science",
+          "level": 1,
+          "score": 0.5208109617233276
+        },
+        {
+          "id": "https://openalex.org/C158739034",
+          "wikidata": "https://www.wikidata.org/wiki/Q1907114",
+          "display_name": "Metropolitan area",
+          "level": 2,
+          "score": 0.4997222423553467
+        },
+        {
+          "id": "https://openalex.org/C116834253",
+          "wikidata": "https://www.wikidata.org/wiki/Q2039217",
+          "display_name": "Identification (biology)",
+          "level": 2,
+          "score": 0.49727943539619446
+        },
+        {
+          "id": "https://openalex.org/C36503486",
+          "wikidata": "https://www.wikidata.org/wiki/Q11235244",
+          "display_name": "Domain (mathematical analysis)",
+          "level": 2,
+          "score": 0.4639083743095398
+        },
+        {
+          "id": "https://openalex.org/C123657996",
+          "wikidata": "https://www.wikidata.org/wiki/Q12271",
+          "display_name": "Architecture",
+          "level": 2,
+          "score": 0.46195200085639954
+        },
+        {
+          "id": "https://openalex.org/C2778023277",
+          "wikidata": "https://www.wikidata.org/wiki/Q321703",
+          "display_name": "Premise",
+          "level": 2,
+          "score": 0.44314923882484436
+        },
+        {
+          "id": "https://openalex.org/C154945302",
+          "wikidata": "https://www.wikidata.org/wiki/Q11660",
+          "display_name": "Artificial intelligence",
+          "level": 1,
+          "score": 0.4366809129714966
+        },
+        {
+          "id": "https://openalex.org/C171018156",
+          "wikidata": "https://www.wikidata.org/wiki/Q7370306",
+          "display_name": "Rotation formalisms in three dimensions",
+          "level": 2,
+          "score": 0.4211946725845337
+        },
+        {
+          "id": "https://openalex.org/C119857082",
+          "wikidata": "https://www.wikidata.org/wiki/Q2539",
+          "display_name": "Machine learning",
+          "level": 1,
+          "score": 0.36839526891708374
+        },
+        {
+          "id": "https://openalex.org/C115903868",
+          "wikidata": "https://www.wikidata.org/wiki/Q80993",
+          "display_name": "Software engineering",
+          "level": 1,
+          "score": 0.3345847725868225
+        },
+        {
+          "id": "https://openalex.org/C107457646",
+          "wikidata": "https://www.wikidata.org/wiki/Q207434",
+          "display_name": "Human–computer interaction",
+          "level": 1,
+          "score": 0.331665575504303
+        },
+        {
+          "id": "https://openalex.org/C136764020",
+          "wikidata": "https://www.wikidata.org/wiki/Q466",
+          "display_name": "World Wide Web",
+          "level": 1,
+          "score": 0.18576261401176453
+        },
+        {
+          "id": "https://openalex.org/C59822182",
+          "wikidata": "https://www.wikidata.org/wiki/Q441",
+          "display_name": "Botany",
+          "level": 1,
+          "score": 0.0
+        },
+        {
+          "id": "https://openalex.org/C81860439",
+          "wikidata": "https://www.wikidata.org/wiki/Q251212",
+          "display_name": "Internet of Things",
+          "level": 2,
+          "score": 0.0
+        },
+        {
+          "id": "https://openalex.org/C153349607",
+          "wikidata": "https://www.wikidata.org/wiki/Q36649",
+          "display_name": "Visual arts",
+          "level": 1,
+          "score": 0.0
+        },
+        {
+          "id": "https://openalex.org/C134306372",
+          "wikidata": "https://www.wikidata.org/wiki/Q7754",
+          "display_name": "Mathematical analysis",
+          "level": 1,
+          "score": 0.0
+        },
+        {
+          "id": "https://openalex.org/C142724271",
+          "wikidata": "https://www.wikidata.org/wiki/Q7208",
+          "display_name": "Pathology",
+          "level": 1,
+          "score": 0.0
+        },
+        {
+          "id": "https://openalex.org/C41895202",
+          "wikidata": "https://www.wikidata.org/wiki/Q8162",
+          "display_name": "Linguistics",
+          "level": 1,
+          "score": 0.0
+        },
+        {
+          "id": "https://openalex.org/C142362112",
+          "wikidata": "https://www.wikidata.org/wiki/Q735",
+          "display_name": "Art",
+          "level": 0,
+          "score": 0.0
+        },
+        {
+          "id": "https://openalex.org/C71924100",
+          "wikidata": "https://www.wikidata.org/wiki/Q11190",
+          "display_name": "Medicine",
+          "level": 0,
+          "score": 0.0
+        },
+        {
+          "id": "https://openalex.org/C2524010",
+          "wikidata": "https://www.wikidata.org/wiki/Q8087",
+          "display_name": "Geometry",
+          "level": 1,
+          "score": 0.0
+        },
+        {
+          "id": "https://openalex.org/C138885662",
+          "wikidata": "https://www.wikidata.org/wiki/Q5891",
+          "display_name": "Philosophy",
+          "level": 0,
+          "score": 0.0
+        },
+        {
+          "id": "https://openalex.org/C86803240",
+          "wikidata": "https://www.wikidata.org/wiki/Q420",
+          "display_name": "Biology",
+          "level": 0,
+          "score": 0.0
+        },
+        {
+          "id": "https://openalex.org/C33923547",
+          "wikidata": "https://www.wikidata.org/wiki/Q395",
+          "display_name": "Mathematics",
+          "level": 0,
+          "score": 0.0
+        }
+      ],
+      "mesh": [],
+      "locations_count": 1,
+      "locations": [
+        {
+          "id": "doi:10.1061/(asce)me.1943-5479.0000774",
+          "doi": "https://doi.org/10.1061/(asce)me.1943-5479.0000774",
+          "is_oa": false,
+          "landing_page_url": "https://doi.org/10.1061/(asce)me.1943-5479.0000774",
+          "pdf_url": null,
+          "source": {
+            "id": "https://openalex.org/S144495243",
+            "display_name": "Journal of Management in Engineering",
+            "issn_l": "0742-597X",
+            "issn": [
+              "0742-597X",
+              "1943-5479",
+              "9742-597X"
+            ],
+            "is_oa": false,
+            "is_in_doaj": false,
+            "is_core": true,
+            "listed_in": [
+              "abdc-a",
+              "cwts-core",
+              "dongbi-a",
+              "fnege-3",
+              "jufo-1",
+              "norway-2",
+              "poland-100",
+              "russia-white-list-1",
+              "vabb-shw"
+            ],
+            "host_organization": "https://openalex.org/P4310315747",
+            "host_organization_name": "American Society of Civil Engineers",
+            "host_organization_lineage": [
+              "https://openalex.org/P4310315747"
+            ],
+            "host_organization_lineage_names": [
+              "American Society of Civil Engineers"
+            ],
+            "type": "journal"
+          },
+          "license": null,
+          "license_id": null,
+          "version": "publishedVersion",
+          "is_accepted": true,
+          "is_published": true,
+          "raw_source_name": "Journal of Management in Engineering",
+          "raw_type": "journal-article"
+        }
+      ],
+      "best_oa_location": null,
+      "sustainable_development_goals": [
+        {
+          "display_name": "Industry, innovation and infrastructure",
+          "id": "https://metadata.un.org/sdg/9",
+          "score": 1.0
+        },
+        {
+          "display_name": "Sustainable cities and communities",
+          "id": "https://metadata.un.org/sdg/11",
+          "score": 1.0
+        }
+      ],
+      "study_designs": [],
+      "awards": [],
+      "funders": [],
+      "has_content": {
+        "grobid_xml": false,
+        "pdf": false
+      },
+      "content_urls": null,
+      "referenced_works_count": 30,
+      "referenced_works": [
+        "https://openalex.org/W121488817",
+        "https://openalex.org/W410731208",
+        "https://openalex.org/W1486059898",
+        "https://openalex.org/W1570448133",
+        "https://openalex.org/W1802346448",
+        "https://openalex.org/W1995866157",
+        "https://openalex.org/W2019560540",
+        "https://openalex.org/W2029608738",
+        "https://openalex.org/W2046074714",
+        "https://openalex.org/W2055189099",
+        "https://openalex.org/W2055716918",
+        "https://openalex.org/W2113188272",
+        "https://openalex.org/W2131340142",
+        "https://openalex.org/W2140695747",
+        "https://openalex.org/W2148585873",
+        "https://openalex.org/W2269916694",
+        "https://openalex.org/W2519255385",
+        "https://openalex.org/W2581964379",
+        "https://openalex.org/W2597150627",
+        "https://openalex.org/W2606468963",
+        "https://openalex.org/W2755214325",
+        "https://openalex.org/W2787688993",
+        "https://openalex.org/W2907217701",
+        "https://openalex.org/W2912056372",
+        "https://openalex.org/W2946293351",
+        "https://openalex.org/W2947438877",
+        "https://openalex.org/W2950965125",
+        "https://openalex.org/W2963224980",
+        "https://openalex.org/W4239696231",
+        "https://openalex.org/W4245356230"
+      ],
+      "related_works": [
+        "https://openalex.org/W4390758468",
+        "https://openalex.org/W4407236652",
+        "https://openalex.org/W4285737948",
+        "https://openalex.org/W4362685592",
+        "https://openalex.org/W4379469898",
+        "https://openalex.org/W7214106050",
+        "https://openalex.org/W4387375767",
+        "https://openalex.org/W7216014647",
+        "https://openalex.org/W6885027036",
+        "https://openalex.org/W7052635610"
+      ],
+      "abstract_inverted_index": {
+        "This": [
+          0,
+          47
+        ],
+        "work": [
+          1
+        ],
+        "was": [
+          2
+        ],
+        "motivated": [
+          3
+        ],
+        "by": [
+          4,
+          15,
+          80
+        ],
+        "the": [
+          5,
+          26,
+          56,
+          93,
+          112,
+          130
+        ],
+        "premise": [
+          6
+        ],
+        "that": [
+          7,
+          71
+        ],
+        "next-generation": [
+          8
+        ],
+        "smart": [
+          9,
+          42,
+          59,
+          64
+        ],
+        "city": [
+          10,
+          43,
+          60,
+          65
+        ],
+        "systems": [
+          11
+        ],
+        "will": [
+          12
+        ],
+        "be": [
+          13
+        ],
+        "enabled": [
+          14
+        ],
+        "widespread": [
+          16
+        ],
+        "adoption": [
+          17
+        ],
+        "of": [
+          18,
+          58,
+          97,
+          100,
+          111,
+          123
+        ],
+        "sensing": [
+          19
+        ],
+        "and": [
+          20,
+          36,
+          51,
+          55,
+          76,
+          89,
+          95,
+          102,
+          107
+        ],
+        "communication": [
+          21
+        ],
+        "technologies": [
+          22
+        ],
+        "deeply": [
+          23
+        ],
+        "embedded": [
+          24
+        ],
+        "within": [
+          25
+        ],
+        "physical": [
+          27
+        ],
+        "urban": [
+          28
+        ],
+        "domain.": [
+          29
+        ],
+        "These": [
+          30
+        ],
+        "technological": [
+          31
+        ],
+        "advances": [
+          32
+        ],
+        "(e.g.,": [
+          33
+        ],
+        "sensing,": [
+          34
+        ],
+        "processing,": [
+          35
+        ],
+        "data": [
+          37
+        ],
+        "transmission)": [
+          38
+        ],
+        "are": [
+          39,
+          115
+        ],
+        "what": [
+          40
+        ],
+        "makes": [
+          41
+        ],
+        "digital": [
+          44,
+          61,
+          66
+        ],
+        "twins": [
+          45
+        ],
+        "possible.": [
+          46
+        ],
+        "paper": [
+          48
+        ],
+        "explores": [
+          49
+        ],
+        "approaches": [
+          50
+        ],
+        "challenges": [
+          52
+        ],
+        "in": [
+          53,
+          92,
+          126,
+          129
+        ],
+        "architecting": [
+          54
+        ],
+        "operation": [
+          57
+        ],
+        "twins.": [
+          62
+        ],
+        "A": [
+          63
+        ],
+        "twin": [
+          67
+        ],
+        "architecture": [
+          68,
+          114
+        ],
+        "is": [
+          69
+        ],
+        "proposed": [
+          70,
+          113
+        ],
+        "supports": [
+          72
+        ],
+        "semantic": [
+          73,
+          106
+        ],
+        "knowledge": [
+          74
+        ],
+        "representation": [
+          75
+        ],
+        "reasoning,": [
+          77
+        ],
+        "working": [
+          78
+        ],
+        "side": [
+          79,
+          81
+        ],
+        "with": [
+          82
+        ],
+        "machine": [
+          83,
+          108
+        ],
+        "learning": [
+          84,
+          109
+        ],
+        "formalisms,": [
+          85
+        ],
+        "to": [
+          86
+        ],
+        "provide": [
+          87
+        ],
+        "complementary": [
+          88
+        ],
+        "supportive": [
+          90
+        ],
+        "roles": [
+          91
+        ],
+        "collection": [
+          94
+        ],
+        "processing": [
+          96
+        ],
+        "data,": [
+          98
+        ],
+        "identification": [
+          99
+        ],
+        "events,": [
+          101
+        ],
+        "automated": [
+          103
+        ],
+        "decision-making.": [
+          104
+        ],
+        "The": [
+          105
+        ],
+        "sides": [
+          110
+        ],
+        "exercised": [
+          116
+        ],
+        "on": [
+          117
+        ],
+        "a": [
+          118
+        ],
+        "problem": [
+          119
+        ],
+        "involving": [
+          120
+        ],
+        "simplified": [
+          121
+        ],
+        "analysis": [
+          122
+        ],
+        "energy": [
+          124
+        ],
+        "usage": [
+          125
+        ],
+        "buildings": [
+          127
+        ],
+        "located": [
+          128
+        ],
+        "Chicago": [
+          131
+        ],
+        "Metropolitan": [
+          132
+        ],
+        "Area.": [
+          133
+        ]
+      },
+      "counts_by_year": [
+        {
+          "year": 2026,
+          "cited_by_count": 8
+        },
+        {
+          "year": 2025,
+          "cited_by_count": 38
+        },
+        {
+          "year": 2024,
+          "cited_by_count": 42
+        },
+        {
+          "year": 2023,
+          "cited_by_count": 38
+        },
+        {
+          "year": 2022,
+          "cited_by_count": 37
+        },
+        {
+          "year": 2021,
+          "cited_by_count": 22
+        },
+        {
+          "year": 2020,
+          "cited_by_count": 6
+        }
+      ],
+      "updated_date": "2026-11-10T11:39:43.021295",
+      "created_date": "2020-04-17T00:00:00"
+    },
+    {
+      "id": "https://openalex.org/W4401720889",
+      "doi": "https://doi.org/10.1109/icsa-c63560.2024.00057",
+      "title": "Architecting Machine Learning Systems: Which Parts are the Architect's Pain?",
+      "display_name": "Architecting Machine Learning Systems: Which Parts are the Architect's Pain?",
+      "relevance_score": 86.96666,
+      "publication_year": 2024,
+      "publication_date": "2024-06-04",
+      "ids": {
+        "openalex": "https://openalex.org/W4401720889",
+        "doi": "https://doi.org/10.1109/icsa-c63560.2024.00057"
+      },
+      "language": "en",
+      "primary_location": {
+        "id": "doi:10.1109/icsa-c63560.2024.00057",
+        "doi": "https://doi.org/10.1109/icsa-c63560.2024.00057",
+        "is_oa": false,
+        "landing_page_url": "http://dx.doi.org/10.1109/icsa-c63560.2024.00057",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S7407087788",
+          "display_name": "IEEE International Conference on Software Architecture Companion (ICSA-C)",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "listed_in": [],
+          "host_organization": "https://openalex.org/P4310319808",
+          "host_organization_name": "Institute of Electrical and Electronics Engineers",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310319808"
+          ],
+          "host_organization_lineage_names": [
+            "Institute of Electrical and Electronics Engineers"
+          ],
+          "type": "conference"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "2024 IEEE 21st International Conference on Software Architecture Companion (ICSA-C)",
+        "raw_type": "proceedings-article"
+      },
+      "parent_works": [],
+      "lineage": [
+        "https://openalex.org/W4401720889"
+      ],
+      "child_works_count": 0,
+      "type": "conference-paper",
+      "is_traditional": true,
+      "indexed_in": [
+        "crossref"
+      ],
+      "open_access": {
+        "is_oa": false,
+        "oa_status": "closed",
+        "oa_url": null,
+        "any_repository_has_fulltext": false
+      },
+      "authorships": [
+        {
+          "author_position": "first",
+          "author": {
+            "id": "https://openalex.org/A5014745697",
+            "display_name": "Sune Chung Jepsen",
+            "orcid": "https://orcid.org/0000-0001-6369-5768",
+            "observed_orcids": [
+              "https://orcid.org/0000-0001-6369-5768"
+            ]
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I177969490",
+              "display_name": "University of Southern Denmark",
+              "ror": "https://ror.org/03yrrjy16",
+              "country_code": "DK",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I177969490"
+              ]
+            }
+          ],
+          "countries": [
+            "DK"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "Sune Chung Jepsen",
+          "raw_affiliation_strings": [
+            "University of Southern Denmark, SDU Software Engineering,Odense,Denmark"
+          ],
+          "raw_orcid": null,
+          "affiliations": [
+            {
+              "raw_affiliation_string": "University of Southern Denmark, SDU Software Engineering,Odense,Denmark",
+              "institution_ids": [
+                "https://openalex.org/I177969490"
+              ]
+            }
+          ]
+        },
+        {
+          "author_position": "middle",
+          "author": {
+            "id": "https://openalex.org/A5016702921",
+            "display_name": "Anna Olgaard Nielsen",
+            "orcid": null,
+            "observed_orcids": []
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I177969490",
+              "display_name": "University of Southern Denmark",
+              "ror": "https://ror.org/03yrrjy16",
+              "country_code": "DK",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I177969490"
+              ]
+            }
+          ],
+          "countries": [
+            "DK"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "Anna Ølgaard Nielsen",
+          "raw_affiliation_strings": [
+            "University of Southern Denmark, SDU Software Engineering,Odense,Denmark"
+          ],
+          "raw_orcid": null,
+          "affiliations": [
+            {
+              "raw_affiliation_string": "University of Southern Denmark, SDU Software Engineering,Odense,Denmark",
+              "institution_ids": [
+                "https://openalex.org/I177969490"
+              ]
+            }
+          ]
+        },
+        {
+          "author_position": "last",
+          "author": {
+            "id": "https://openalex.org/A5034655219",
+            "display_name": "Mikkel Baun Kjærgaard",
+            "orcid": "https://orcid.org/0000-0001-5124-744X",
+            "observed_orcids": [
+              "https://orcid.org/0000-0001-5124-744X"
+            ]
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I177969490",
+              "display_name": "University of Southern Denmark",
+              "ror": "https://ror.org/03yrrjy16",
+              "country_code": "DK",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I177969490"
+              ]
+            }
+          ],
+          "countries": [
+            "DK"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "Mikkel Baun Kjærgaard",
+          "raw_affiliation_strings": [
+            "University of Southern Denmark, SDU Software Engineering,Odense,Denmark"
+          ],
+          "raw_orcid": null,
+          "affiliations": [
+            {
+              "raw_affiliation_string": "University of Southern Denmark, SDU Software Engineering,Odense,Denmark",
+              "institution_ids": [
+                "https://openalex.org/I177969490"
+              ]
+            }
+          ]
+        }
+      ],
+      "institutions": [],
+      "countries_distinct_count": 1,
+      "institutions_distinct_count": 1,
+      "corresponding_author_ids": [],
+      "corresponding_institution_ids": [
+        "https://openalex.org/I177969490"
+      ],
+      "apc_list": null,
+      "apc_paid": null,
+      "fwci": 0.2322,
+      "is_authors_truncated": false,
+      "has_fulltext": false,
+      "cited_by_count": 1,
+      "citation_normalized_percentile": {
+        "value": 0.37846442,
+        "is_in_top_1_percent": false,
+        "is_in_top_10_percent": false
+      },
+      "cited_by_percentile_year": {
+        "min": 89,
+        "max": 93
+      },
+      "biblio": {
+        "volume": null,
+        "issue": null,
+        "first_page": "303",
+        "last_page": "306"
+      },
+      "is_retracted": false,
+      "is_paratext": false,
+      "is_xpac": false,
+      "primary_topic": {
+        "id": "https://openalex.org/T10639",
+        "display_name": "Advanced Software Engineering Methodologies",
+        "score": 0.6122999787330627,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1712",
+          "display_name": "Software"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      "topics": [
+        {
+          "id": "https://openalex.org/T10639",
+          "display_name": "Advanced Software Engineering Methodologies",
+          "score": 0.6122999787330627,
+          "subfield": {
+            "id": "https://openalex.org/subfields/1712",
+            "display_name": "Software"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/17",
+            "display_name": "Computer Science"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T10430",
+          "display_name": "Software Engineering Techniques and Practices",
+          "score": 0.10830000042915344,
+          "subfield": {
+            "id": "https://openalex.org/subfields/1710",
+            "display_name": "Information Systems"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/17",
+            "display_name": "Computer Science"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T12127",
+          "display_name": "Software System Performance and Reliability",
+          "score": 0.10100000351667404,
+          "subfield": {
+            "id": "https://openalex.org/subfields/1705",
+            "display_name": "Computer Networks and Communications"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/17",
+            "display_name": "Computer Science"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        }
+      ],
+      "keywords": [
+        {
+          "id": "https://openalex.org/keywords/software-architecture",
+          "display_name": "software architecture",
+          "score": 0.7070000171661377
+        },
+        {
+          "id": "https://openalex.org/keywords/machine-learning-pipelines",
+          "display_name": "machine learning pipelines",
+          "score": 0.8140000104904175
+        },
+        {
+          "id": "https://openalex.org/keywords/real-time-sensor-data-processing",
+          "display_name": "real-time sensor data processing",
+          "score": 0.8790000081062317
+        },
+        {
+          "id": "https://openalex.org/keywords/data-distribution",
+          "display_name": "data distribution",
+          "score": 0.7080000042915344
+        },
+        {
+          "id": "https://openalex.org/keywords/data-preprocessing",
+          "display_name": "data preprocessing",
+          "score": 0.9879999756813049
+        },
+        {
+          "id": "https://openalex.org/keywords/computational-cost",
+          "display_name": "computational cost",
+          "score": 0.8180000185966492
+        },
+        {
+          "id": "https://openalex.org/keywords/classification",
+          "display_name": "classification",
+          "score": 0.5450000166893005
+        },
+        {
+          "id": "https://openalex.org/keywords/machine-learning-framework",
+          "display_name": "machine learning framework",
+          "score": 0.671999990940094
+        }
+      ],
+      "concepts": [
+        {
+          "id": "https://openalex.org/C41008148",
+          "wikidata": "https://www.wikidata.org/wiki/Q21198",
+          "display_name": "Computer science",
+          "level": 0,
+          "score": 0.5425740480422974
+        },
+        {
+          "id": "https://openalex.org/C154945302",
+          "wikidata": "https://www.wikidata.org/wiki/Q11660",
+          "display_name": "Artificial intelligence",
+          "level": 1,
+          "score": 0.3590533137321472
+        },
+        {
+          "id": "https://openalex.org/C127413603",
+          "wikidata": "https://www.wikidata.org/wiki/Q11023",
+          "display_name": "Engineering",
+          "level": 0,
+          "score": 0.32047581672668457
+        }
+      ],
+      "mesh": [],
+      "locations_count": 2,
+      "locations": [
+        {
+          "id": "doi:10.1109/icsa-c63560.2024.00057",
+          "doi": "https://doi.org/10.1109/icsa-c63560.2024.00057",
+          "is_oa": false,
+          "landing_page_url": "http://dx.doi.org/10.1109/icsa-c63560.2024.00057",
+          "pdf_url": null,
+          "source": {
+            "id": "https://openalex.org/S7407087788",
+            "display_name": "IEEE International Conference on Software Architecture Companion (ICSA-C)",
+            "issn_l": null,
+            "issn": null,
+            "is_oa": false,
+            "is_in_doaj": false,
+            "is_core": false,
+            "listed_in": [],
+            "host_organization": "https://openalex.org/P4310319808",
+            "host_organization_name": "Institute of Electrical and Electronics Engineers",
+            "host_organization_lineage": [
+              "https://openalex.org/P4310319808"
+            ],
+            "host_organization_lineage_names": [
+              "Institute of Electrical and Electronics Engineers"
+            ],
+            "type": "conference"
+          },
+          "license": null,
+          "license_id": null,
+          "version": "publishedVersion",
+          "is_accepted": true,
+          "is_published": true,
+          "raw_source_name": "2024 IEEE 21st International Conference on Software Architecture Companion (ICSA-C)",
+          "raw_type": "proceedings-article"
+        },
+        {
+          "id": "pmh:oai:sdu.dk:openaire_cris_publications/2a7732a3-91c7-4568-b7bb-3f1f26984423",
+          "doi": null,
+          "is_oa": false,
+          "landing_page_url": "https://portal.findresearcher.sdu.dk/da/publications/2a7732a3-91c7-4568-b7bb-3f1f26984423",
+          "pdf_url": null,
+          "source": {
+            "id": "https://openalex.org/S4306400423",
+            "display_name": "University of Southern Denmark Research Portal (University of Southern Denmark)",
+            "issn_l": null,
+            "issn": null,
+            "is_oa": false,
+            "is_in_doaj": false,
+            "is_core": false,
+            "listed_in": [],
+            "host_organization": "https://openalex.org/I177969490",
+            "host_organization_name": "University of Southern Denmark",
+            "host_organization_lineage": [
+              "https://openalex.org/I177969490"
+            ],
+            "host_organization_lineage_names": [],
+            "type": "repository"
+          },
+          "license": null,
+          "license_id": null,
+          "version": "publishedVersion",
+          "is_accepted": true,
+          "is_published": true,
+          "raw_source_name": "Jepsen, S C, Nielsen, A Ø & Kjærgaard, M B 2024, Architecting Machine Learning Systems : Which Parts are the Architect's Pain? in 2024 IEEE 21st International Conference on Software Architecture Companion (ICSA-C). IEEE, IEEE International Conference on Software Architecture Companion, pp. 303-306, 21st IEEE International Conference on Software Architecture Companion, ICSA-C 2024, Hyderabad, India, 04/06/2024. https://doi.org/10.1109/ICSA-C63560.2024.00057",
+          "raw_type": "info:eu-repo/semantics/conferenceObject"
+        }
+      ],
+      "best_oa_location": null,
+      "sustainable_development_goals": [],
+      "study_designs": [],
+      "awards": [],
+      "funders": [],
+      "has_content": {
+        "grobid_xml": false,
+        "pdf": false
+      },
+      "content_urls": null,
+      "referenced_works_count": 3,
+      "referenced_works": [
+        "https://openalex.org/W1800478330",
+        "https://openalex.org/W2780624097",
+        "https://openalex.org/W2944264045"
+      ],
+      "related_works": [
+        "https://openalex.org/W4387541921",
+        "https://openalex.org/W6944364450",
+        "https://openalex.org/W6960050144",
+        "https://openalex.org/W3165314907",
+        "https://openalex.org/W3139263381",
+        "https://openalex.org/W6950185777",
+        "https://openalex.org/W3213581317",
+        "https://openalex.org/W6912733724",
+        "https://openalex.org/W4286331441",
+        "https://openalex.org/W7214995016"
+      ],
+      "abstract_inverted_index": {
+        "Designing": [
+          0
+        ],
+        "machine": [
+          1,
+          20,
+          34,
+          119
+        ],
+        "learning": [
+          2,
+          21,
+          35,
+          74
+        ],
+        "applications": [
+          3
+        ],
+        "can": [
+          4
+        ],
+        "be": [
+          5
+        ],
+        "challenging,": [
+          6
+        ],
+        "especially": [
+          7
+        ],
+        "software": [
+          8,
+          39,
+          68,
+          112
+        ],
+        "architectures": [
+          9,
+          40,
+          69
+        ],
+        "for": [
+          10,
+          111
+        ],
+        "handling": [
+          11
+        ],
+        "real-time": [
+          12
+        ],
+        "sensor": [
+          13
+        ],
+        "data": [
+          14,
+          90
+        ],
+        "processed": [
+          15
+        ],
+        "by": [
+          16
+        ],
+        "compute-": [
+          17
+        ],
+        "and": [
+          18,
+          41,
+          44,
+          62,
+          70,
+          75,
+          92,
+          105
+        ],
+        "software-intensive": [
+          19
+        ],
+        "applications.": [
+          22
+        ],
+        "This": [
+          23
+        ],
+        "paper": [
+          24
+        ],
+        "answers": [
+          25
+        ],
+        "the": [
+          26,
+          45,
+          52,
+          73,
+          79,
+          82
+        ],
+        "two": [
+          27
+        ],
+        "research": [
+          28
+        ],
+        "questions:": [
+          29
+        ],
+        "“Which": [
+          30,
+          49
+        ],
+        "parts": [
+          31,
+          50,
+          96
+        ],
+        "of": [
+          32,
+          48,
+          78
+        ],
+        "a": [
+          33
+        ],
+        "pipeline": [
+          36
+        ],
+        "do": [
+          37,
+          51
+        ],
+        "novel": [
+          38,
+          67
+        ],
+        "framework": [
+          42
+        ],
+        "optimize?”": [
+          43
+        ],
+        "associated": [
+          46
+        ],
+        "question": [
+          47
+        ],
+        "architect": [
+          53,
+          83
+        ],
+        "then": [
+          54
+        ],
+        "need": [
+          55
+        ],
+        "to": [
+          56,
+          87,
+          99,
+          114
+        ],
+        "focus": [
+          57,
+          88
+        ],
+        "on?”.": [
+          58
+        ],
+        "The": [
+          59
+        ],
+        "presented": [
+          60
+        ],
+        "experiences": [
+          61
+        ],
+        "experimental": [
+          63
+        ],
+        "results": [
+          64,
+          108
+        ],
+        "suggest": [
+          65
+        ],
+        "that": [
+          66
+        ],
+        "frameworks": [
+          71
+        ],
+        "optimize": [
+          72
+        ],
+        "classification": [
+          76
+        ],
+        "part": [
+          77
+        ],
+        "pipelines.": [
+          80
+        ],
+        "Therefore,": [
+          81
+        ],
+        "in": [
+          84
+        ],
+        "particular": [
+          85
+        ],
+        "needs": [
+          86
+        ],
+        "on": [
+          89
+        ],
+        "distribution": [
+          91
+        ],
+        "preprocessing": [
+          93
+        ],
+        "as": [
+          94
+        ],
+        "these": [
+          95
+        ],
+        "were": [
+          97
+        ],
+        "observed": [
+          98
+        ],
+        "have": [
+          100
+        ],
+        "an": [
+          101
+        ],
+        "overlooked": [
+          102
+        ],
+        "computational": [
+          103
+        ],
+        "cost": [
+          104
+        ],
+        "complexity.": [
+          106
+        ],
+        "These": [
+          107
+        ],
+        "are": [
+          109
+        ],
+        "important": [
+          110
+        ],
+        "architects": [
+          113
+        ],
+        "become": [
+          115
+        ],
+        "better": [
+          116
+        ],
+        "at": [
+          117
+        ],
+        "architecting": [
+          118
+        ],
+        "learning-based": [
+          120
+        ],
+        "systems.": [
+          121
+        ]
+      },
+      "counts_by_year": [
+        {
+          "year": 2025,
+          "cited_by_count": 1
+        }
+      ],
+      "updated_date": "2026-11-14T11:04:58.165337",
+      "created_date": "2024-08-22T00:00:00"
+    },
+    {
+      "id": "https://openalex.org/W2988278124",
+      "doi": null,
+      "title": "On the Impact of Machine Learning: Architecture without Architects?",
+      "display_name": "On the Impact of Machine Learning: Architecture without Architects?",
+      "relevance_score": 80.67794,
+      "publication_year": 2019,
+      "publication_date": "2019-01-01",
+      "ids": {
+        "openalex": "https://openalex.org/W2988278124",
+        "mag": "2988278124"
+      },
+      "language": "en",
+      "primary_location": {
+        "id": "mag:2988278124",
+        "doi": null,
+        "is_oa": false,
+        "landing_page_url": "http://papers.cumincad.org/data/works/att/cf2019_020.pdf",
+        "pdf_url": null,
+        "source": null,
+        "license": null,
+        "license_id": null,
+        "version": null,
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": null,
+        "raw_type": null
+      },
+      "parent_works": [],
+      "lineage": [
+        "https://openalex.org/W2988278124"
+      ],
+      "child_works_count": 0,
+      "type": "article",
+      "is_traditional": true,
+      "indexed_in": [],
+      "open_access": {
+        "is_oa": false,
+        "oa_status": "closed",
+        "oa_url": null,
+        "any_repository_has_fulltext": false
+      },
+      "authorships": [
+        {
+          "author_position": "first",
+          "author": {
+            "id": "https://openalex.org/A5046013336",
+            "display_name": "Catarina Belém",
+            "orcid": "https://orcid.org/0000-0001-5781-3131",
+            "observed_orcids": [
+              "https://orcid.org/0000-0001-5781-3131"
+            ]
+          },
+          "institutions": [],
+          "countries": [],
+          "is_corresponding": false,
+          "raw_author_name": "Catarina Belém",
+          "raw_affiliation_strings": [],
+          "raw_orcid": "https://orcid.org/0000-0001-5781-3131",
+          "affiliations": []
+        },
+        {
+          "author_position": "middle",
+          "author": {
+            "id": "https://openalex.org/A5031738594",
+            "display_name": "Luís Santos",
+            "orcid": "https://orcid.org/0000-0002-2664-4301",
+            "observed_orcids": [
+              "https://orcid.org/0000-0002-2664-4301"
+            ]
+          },
+          "institutions": [],
+          "countries": [],
+          "is_corresponding": false,
+          "raw_author_name": "Luís Santos",
+          "raw_affiliation_strings": [],
+          "raw_orcid": "https://orcid.org/0000-0002-2664-4301",
+          "affiliations": []
+        },
+        {
+          "author_position": "last",
+          "author": {
+            "id": "https://openalex.org/A5017534275",
+            "display_name": "António Leitão",
+            "orcid": "https://orcid.org/0000-0001-7216-4934",
+            "observed_orcids": [
+              "https://orcid.org/0000-0001-7216-4934"
+            ]
+          },
+          "institutions": [],
+          "countries": [],
+          "is_corresponding": false,
+          "raw_author_name": "António Leitão",
+          "raw_affiliation_strings": [],
+          "raw_orcid": "https://orcid.org/0000-0001-7216-4934",
+          "affiliations": []
+        }
+      ],
+      "institutions": [],
+      "countries_distinct_count": 0,
+      "institutions_distinct_count": 0,
+      "corresponding_author_ids": [],
+      "corresponding_institution_ids": [],
+      "apc_list": null,
+      "apc_paid": null,
+      "fwci": 27.5154,
+      "is_authors_truncated": false,
+      "has_fulltext": false,
+      "cited_by_count": 19,
+      "citation_normalized_percentile": {
+        "value": 0.99194876,
+        "is_in_top_1_percent": true,
+        "is_in_top_10_percent": true
+      },
+      "cited_by_percentile_year": {
+        "min": 88,
+        "max": 98
+      },
+      "biblio": {
+        "volume": null,
+        "issue": null,
+        "first_page": null,
+        "last_page": null
+      },
+      "is_retracted": false,
+      "is_paratext": false,
+      "is_xpac": false,
+      "primary_topic": {
+        "id": "https://openalex.org/T13518",
+        "display_name": "Architecture and Computational Design",
+        "score": 0.9994999766349792,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2216",
+          "display_name": "Architecture"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/22",
+          "display_name": "Engineering"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      "topics": [
+        {
+          "id": "https://openalex.org/T13518",
+          "display_name": "Architecture and Computational Design",
+          "score": 0.9994999766349792,
+          "subfield": {
+            "id": "https://openalex.org/subfields/2216",
+            "display_name": "Architecture"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/22",
+            "display_name": "Engineering"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T13904",
+          "display_name": "Artificial Intelligence Applications",
+          "score": 9.999999747378752e-05,
+          "subfield": {
+            "id": "https://openalex.org/subfields/1702",
+            "display_name": "Artificial Intelligence"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/17",
+            "display_name": "Computer Science"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T12188",
+          "display_name": "Architecture, Modernity, and Design",
+          "score": 0.0,
+          "subfield": {
+            "id": "https://openalex.org/subfields/2216",
+            "display_name": "Architecture"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/22",
+            "display_name": "Engineering"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        }
+      ],
+      "keywords": [
+        {
+          "id": "https://openalex.org/keywords/machine-learning-in-architecture",
+          "display_name": "machine learning in architecture",
+          "score": 0.9290000200271606
+        },
+        {
+          "id": "https://openalex.org/keywords/architectural-practice",
+          "display_name": "architectural practice",
+          "score": 0.7509999871253967
+        },
+        {
+          "id": "https://openalex.org/keywords/building-design",
+          "display_name": "building design",
+          "score": 0.9020000100135803
+        },
+        {
+          "id": "https://openalex.org/keywords/computational-design",
+          "display_name": "computational design",
+          "score": 0.574999988079071
+        },
+        {
+          "id": "https://openalex.org/keywords/design-optimization",
+          "display_name": "design optimization",
+          "score": 0.4449999928474426
+        },
+        {
+          "id": "https://openalex.org/keywords/algorithmic-design",
+          "display_name": "algorithmic design",
+          "score": 0.6240000128746033
+        },
+        {
+          "id": "https://openalex.org/keywords/architectural-modeling",
+          "display_name": "architectural modeling",
+          "score": 0.8140000104904175
+        }
+      ],
+      "concepts": [
+        {
+          "id": "https://openalex.org/C123657996",
+          "wikidata": "https://www.wikidata.org/wiki/Q12271",
+          "display_name": "Architecture",
+          "level": 2,
+          "score": 0.7111619710922241
+        },
+        {
+          "id": "https://openalex.org/C90734943",
+          "wikidata": "https://www.wikidata.org/wiki/Q17008777",
+          "display_name": "Conceptualization",
+          "level": 2,
+          "score": 0.625558078289032
+        },
+        {
+          "id": "https://openalex.org/C2779304628",
+          "wikidata": "https://www.wikidata.org/wiki/Q3503480",
+          "display_name": "Face (sociological concept)",
+          "level": 2,
+          "score": 0.6211724877357483
+        },
+        {
+          "id": "https://openalex.org/C2778757428",
+          "wikidata": "https://www.wikidata.org/wiki/Q1250464",
+          "display_name": "Realm",
+          "level": 2,
+          "score": 0.6175668835639954
+        },
+        {
+          "id": "https://openalex.org/C41008148",
+          "wikidata": "https://www.wikidata.org/wiki/Q21198",
+          "display_name": "Computer science",
+          "level": 0,
+          "score": 0.5822799801826477
+        },
+        {
+          "id": "https://openalex.org/C9652623",
+          "wikidata": "https://www.wikidata.org/wiki/Q190109",
+          "display_name": "Field (mathematics)",
+          "level": 2,
+          "score": 0.5806636810302734
+        },
+        {
+          "id": "https://openalex.org/C154945302",
+          "wikidata": "https://www.wikidata.org/wiki/Q11660",
+          "display_name": "Artificial intelligence",
+          "level": 1,
+          "score": 0.4647566080093384
+        },
+        {
+          "id": "https://openalex.org/C115903868",
+          "wikidata": "https://www.wikidata.org/wiki/Q80993",
+          "display_name": "Software engineering",
+          "level": 1,
+          "score": 0.45268288254737854
+        },
+        {
+          "id": "https://openalex.org/C28719098",
+          "wikidata": "https://www.wikidata.org/wiki/Q44946",
+          "display_name": "Point (geometry)",
+          "level": 2,
+          "score": 0.42934757471084595
+        },
+        {
+          "id": "https://openalex.org/C182306322",
+          "wikidata": "https://www.wikidata.org/wiki/Q1779371",
+          "display_name": "Order (exchange)",
+          "level": 2,
+          "score": 0.41589123010635376
+        },
+        {
+          "id": "https://openalex.org/C2522767166",
+          "wikidata": "https://www.wikidata.org/wiki/Q2374463",
+          "display_name": "Data science",
+          "level": 1,
+          "score": 0.37682443857192993
+        },
+        {
+          "id": "https://openalex.org/C119857082",
+          "wikidata": "https://www.wikidata.org/wiki/Q2539",
+          "display_name": "Machine learning",
+          "level": 1,
+          "score": 0.34118303656578064
+        },
+        {
+          "id": "https://openalex.org/C170154142",
+          "wikidata": "https://www.wikidata.org/wiki/Q150737",
+          "display_name": "Architectural engineering",
+          "level": 1,
+          "score": 0.3276166319847107
+        },
+        {
+          "id": "https://openalex.org/C127413603",
+          "wikidata": "https://www.wikidata.org/wiki/Q11023",
+          "display_name": "Engineering",
+          "level": 0,
+          "score": 0.26819828152656555
+        },
+        {
+          "id": "https://openalex.org/C144024400",
+          "wikidata": "https://www.wikidata.org/wiki/Q21201",
+          "display_name": "Sociology",
+          "level": 0,
+          "score": 0.1388624906539917
+        },
+        {
+          "id": "https://openalex.org/C33923547",
+          "wikidata": "https://www.wikidata.org/wiki/Q395",
+          "display_name": "Mathematics",
+          "level": 0,
+          "score": 0.1111527681350708
+        },
+        {
+          "id": "https://openalex.org/C36289849",
+          "wikidata": "https://www.wikidata.org/wiki/Q34749",
+          "display_name": "Social science",
+          "level": 1,
+          "score": 0.07925543189048767
+        },
+        {
+          "id": "https://openalex.org/C10138342",
+          "wikidata": "https://www.wikidata.org/wiki/Q43015",
+          "display_name": "Finance",
+          "level": 1,
+          "score": 0.0
+        },
+        {
+          "id": "https://openalex.org/C199539241",
+          "wikidata": "https://www.wikidata.org/wiki/Q7748",
+          "display_name": "Law",
+          "level": 1,
+          "score": 0.0
+        },
+        {
+          "id": "https://openalex.org/C17744445",
+          "wikidata": "https://www.wikidata.org/wiki/Q36442",
+          "display_name": "Political science",
+          "level": 0,
+          "score": 0.0
+        },
+        {
+          "id": "https://openalex.org/C153349607",
+          "wikidata": "https://www.wikidata.org/wiki/Q36649",
+          "display_name": "Visual arts",
+          "level": 1,
+          "score": 0.0
+        },
+        {
+          "id": "https://openalex.org/C162324750",
+          "wikidata": "https://www.wikidata.org/wiki/Q8134",
+          "display_name": "Economics",
+          "level": 0,
+          "score": 0.0
+        },
+        {
+          "id": "https://openalex.org/C142362112",
+          "wikidata": "https://www.wikidata.org/wiki/Q735",
+          "display_name": "Art",
+          "level": 0,
+          "score": 0.0
+        },
+        {
+          "id": "https://openalex.org/C2524010",
+          "wikidata": "https://www.wikidata.org/wiki/Q8087",
+          "display_name": "Geometry",
+          "level": 1,
+          "score": 0.0
+        },
+        {
+          "id": "https://openalex.org/C202444582",
+          "wikidata": "https://www.wikidata.org/wiki/Q837863",
+          "display_name": "Pure mathematics",
+          "level": 1,
+          "score": 0.0
+        }
+      ],
+      "mesh": [],
+      "locations_count": 1,
+      "locations": [
+        {
+          "id": "mag:2988278124",
+          "doi": null,
+          "is_oa": false,
+          "landing_page_url": "http://papers.cumincad.org/data/works/att/cf2019_020.pdf",
+          "pdf_url": null,
+          "source": null,
+          "license": null,
+          "license_id": null,
+          "version": null,
+          "is_accepted": false,
+          "is_published": false,
+          "raw_source_name": null,
+          "raw_type": null
+        }
+      ],
+      "best_oa_location": null,
+      "sustainable_development_goals": [],
+      "study_designs": [],
+      "awards": [],
+      "funders": [],
+      "has_content": {
+        "grobid_xml": false,
+        "pdf": false
+      },
+      "content_urls": null,
+      "referenced_works_count": 64,
+      "referenced_works": [
+        "https://openalex.org/W160318044",
+        "https://openalex.org/W265896103",
+        "https://openalex.org/W1491137673",
+        "https://openalex.org/W1492583075",
+        "https://openalex.org/W1520622896",
+        "https://openalex.org/W1554944419",
+        "https://openalex.org/W1690919088",
+        "https://openalex.org/W1924619199",
+        "https://openalex.org/W1958077162",
+        "https://openalex.org/W1977371710",
+        "https://openalex.org/W2001771035",
+        "https://openalex.org/W2005422315",
+        "https://openalex.org/W2026750231",
+        "https://openalex.org/W2094934653",
+        "https://openalex.org/W2099471712",
+        "https://openalex.org/W2100664567",
+        "https://openalex.org/W2118020653",
+        "https://openalex.org/W2124951716",
+        "https://openalex.org/W2131846894",
+        "https://openalex.org/W2134331998",
+        "https://openalex.org/W2143861926",
+        "https://openalex.org/W2143903708",
+        "https://openalex.org/W2145124323",
+        "https://openalex.org/W2149684865",
+        "https://openalex.org/W2150394223",
+        "https://openalex.org/W2151554678",
+        "https://openalex.org/W2151750630",
+        "https://openalex.org/W2155028447",
+        "https://openalex.org/W2162737890",
+        "https://openalex.org/W2163915185",
+        "https://openalex.org/W2169393322",
+        "https://openalex.org/W2170653751",
+        "https://openalex.org/W2213488271",
+        "https://openalex.org/W2257979135",
+        "https://openalex.org/W2274071363",
+        "https://openalex.org/W2344328033",
+        "https://openalex.org/W2349436533",
+        "https://openalex.org/W2405756170",
+        "https://openalex.org/W2419109832",
+        "https://openalex.org/W2493343568",
+        "https://openalex.org/W2505665596",
+        "https://openalex.org/W2550471858",
+        "https://openalex.org/W2564591810",
+        "https://openalex.org/W2600531987",
+        "https://openalex.org/W2753108589",
+        "https://openalex.org/W2754625923",
+        "https://openalex.org/W2776144515",
+        "https://openalex.org/W2785439365",
+        "https://openalex.org/W2806718802",
+        "https://openalex.org/W2808243444",
+        "https://openalex.org/W2894318677",
+        "https://openalex.org/W2903406275",
+        "https://openalex.org/W2952434594",
+        "https://openalex.org/W2962750014",
+        "https://openalex.org/W2963470893",
+        "https://openalex.org/W2964240296",
+        "https://openalex.org/W2999077185",
+        "https://openalex.org/W3005996645",
+        "https://openalex.org/W3046265414",
+        "https://openalex.org/W3089193409",
+        "https://openalex.org/W3094976709",
+        "https://openalex.org/W3107347192",
+        "https://openalex.org/W3150708171",
+        "https://openalex.org/W4212863985"
+      ],
+      "related_works": [
+        "https://openalex.org/W2808243444",
+        "https://openalex.org/W4409690318",
+        "https://openalex.org/W4280642897",
+        "https://openalex.org/W3137637074",
+        "https://openalex.org/W4408338217",
+        "https://openalex.org/W4293138566",
+        "https://openalex.org/W4412916327",
+        "https://openalex.org/W4408927225",
+        "https://openalex.org/W4393435515",
+        "https://openalex.org/W4386175080"
+      ],
+      "abstract_inverted_index": {
+        "Architecture": [
+          0
+        ],
+        "has": [
+          1
+        ],
+        "always": [
+          2
+        ],
+        "followed": [
+          3
+        ],
+        "and": [
+          4,
+          62,
+          78,
+          93,
+          127,
+          145
+        ],
+        "adopted": [
+          5
+        ],
+        "technological": [
+          6
+        ],
+        "breakthroughs": [
+          7,
+          33
+        ],
+        "of": [
+          8,
+          22,
+          27,
+          34,
+          76,
+          84,
+          109,
+          114,
+          137,
+          143,
+          151
+        ],
+        "other": [
+          9,
+          82
+        ],
+        "areas.": [
+          10
+        ],
+        "As": [
+          11
+        ],
+        "a": [
+          12
+        ],
+        "case": [
+          13
+        ],
+        "in": [
+          14,
+          16,
+          63,
+          81,
+          111,
+          123
+        ],
+        "point,": [
+          15
+        ],
+        "the": [
+          17,
+          20,
+          25,
+          31,
+          59,
+          74,
+          112,
+          131,
+          148,
+          152
+        ],
+        "last": [
+          18
+        ],
+        "decades,": [
+          19
+        ],
+        "field": [
+          21
+        ],
+        "computation": [
+          23
+        ],
+        "changed": [
+          24
+        ],
+        "face": [
+          26,
+          150
+        ],
+        "architectural": [
+          28,
+          60,
+          153
+        ],
+        "practice.": [
+          29
+        ],
+        "Considering": [
+          30
+        ],
+        "recent": [
+          32
+        ],
+        "Machine": [
+          35
+        ],
+        "Learning": [
+          36
+        ],
+        "(ML),": [
+          37
+        ],
+        "it": [
+          38,
+          48,
+          69
+        ],
+        "is": [
+          39,
+          49,
+          70
+        ],
+        "expectable": [
+          40
+        ],
+        "to": [
+          41,
+          65,
+          72
+        ],
+        "see": [
+          42
+        ],
+        "architecture": [
+          43
+        ],
+        "adopting": [
+          44
+        ],
+        "ML-based": [
+          45
+        ],
+        "approaches.": [
+          46
+        ],
+        "However,": [
+          47
+        ],
+        "not": [
+          50
+        ],
+        "yet": [
+          51
+        ],
+        "clear": [
+          52
+        ],
+        "how": [
+          53
+        ],
+        "much": [
+          54
+        ],
+        "this": [
+          55,
+          67,
+          104
+        ],
+        "adoption": [
+          56
+        ],
+        "will": [
+          57
+        ],
+        "change": [
+          58,
+          68
+        ],
+        "practice": [
+          61
+        ],
+        "order": [
+          64
+        ],
+        "forecast": [
+          66,
+          106
+        ],
+        "necessary": [
+          71
+        ],
+        "understand": [
+          73
+        ],
+        "foundations": [
+          75
+        ],
+        "ML": [
+          77,
+          91,
+          110,
+          121
+        ],
+        "its": [
+          79
+        ],
+        "impact": [
+          80
+        ],
+        "fields": [
+          83
+        ],
+        "human": [
+          85
+        ],
+        "activity.": [
+          86
+        ],
+        "This": [
+          87
+        ],
+        "paper": [
+          88,
+          105
+        ],
+        "discusses": [
+          89
+        ],
+        "important": [
+          90
+        ],
+        "techniques": [
+          92
+        ],
+        "areas": [
+          94
+        ],
+        "where": [
+          95
+        ],
+        "they": [
+          96
+        ],
+        "were": [
+          97
+        ],
+        "successfully": [
+          98
+        ],
+        "applied.": [
+          99
+        ],
+        "Based": [
+          100
+        ],
+        "on": [
+          101,
+          147
+        ],
+        "those": [
+          102
+        ],
+        "examples,": [
+          103
+        ],
+        "hypothetical": [
+          107
+        ],
+        "uses": [
+          108
+        ],
+        "realm": [
+          113
+        ],
+        "building": [
+          115
+        ],
+        "design.": [
+          116
+        ],
+        "In": [
+          117,
+          130
+        ],
+        "particular,": [
+          118
+        ],
+        "we": [
+          119,
+          133
+        ],
+        "examine": [
+          120
+        ],
+        "approaches": [
+          122
+        ],
+        "conceptualization,": [
+          124
+        ],
+        "algorithmization,": [
+          125
+        ],
+        "modeling,": [
+          126
+        ],
+        "optimization": [
+          128
+        ],
+        "tasks.": [
+          129
+        ],
+        "end,": [
+          132
+        ],
+        "conjecture": [
+          134
+        ],
+        "potential": [
+          135
+        ],
+        "applications": [
+          136
+        ],
+        "such": [
+          138
+        ],
+        "approaches,": [
+          139
+        ],
+        "suggest": [
+          140
+        ],
+        "future": [
+          141,
+          149
+        ],
+        "lines": [
+          142
+        ],
+        "research,": [
+          144
+        ],
+        "speculate": [
+          146
+        ],
+        "profession.": [
+          154
+        ]
+      },
+      "counts_by_year": [
+        {
+          "year": 2024,
+          "cited_by_count": 2
+        },
+        {
+          "year": 2023,
+          "cited_by_count": 5
+        },
+        {
+          "year": 2022,
+          "cited_by_count": 5
+        },
+        {
+          "year": 2021,
+          "cited_by_count": 3
+        },
+        {
+          "year": 2020,
+          "cited_by_count": 3
+        },
+        {
+          "year": 2019,
+          "cited_by_count": 1
+        }
+      ],
+      "updated_date": "2026-11-04T10:54:05.112534",
+      "created_date": "2019-11-22T00:00:00"
+    },
+    {
+      "id": "https://openalex.org/W7154646007",
+      "doi": "https://doi.org/10.1117/12.3090176",
+      "title": "Machine learning for design of multifunctional architected metamaterials",
+      "display_name": "Machine learning for design of multifunctional architected metamaterials",
+      "relevance_score": 78.49241,
+      "publication_year": 2026,
+      "publication_date": "2026-04-16",
+      "ids": {
+        "openalex": "https://openalex.org/W7154646007",
+        "doi": "https://doi.org/10.1117/12.3090176"
+      },
+      "language": "en",
+      "primary_location": {
+        "id": "doi:10.1117/12.3090176",
+        "doi": "https://doi.org/10.1117/12.3090176",
+        "is_oa": false,
+        "landing_page_url": "https://doi.org/10.1117/12.3090176",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S7407114157",
+          "display_name": "SPIE Multifunctional Materials and Structures",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "listed_in": [],
+          "host_organization": "https://openalex.org/P4310315543",
+          "host_organization_name": "SPIE",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310315543"
+          ],
+          "host_organization_lineage_names": [
+            "SPIE"
+          ],
+          "type": "conference"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Multifunctional Materials and Structures II",
+        "raw_type": "proceedings-article"
+      },
+      "parent_works": [],
+      "lineage": [
+        "https://openalex.org/W7154646007"
+      ],
+      "child_works_count": 0,
+      "type": "conference-paper",
+      "is_traditional": true,
+      "indexed_in": [
+        "crossref"
+      ],
+      "open_access": {
+        "is_oa": false,
+        "oa_status": "closed",
+        "oa_url": null,
+        "any_repository_has_fulltext": false
+      },
+      "authorships": [
+        {
+          "author_position": "first",
+          "author": {
+            "id": "https://openalex.org/A5108162536",
+            "display_name": "Peter Hawes",
+            "orcid": "https://orcid.org/0009-0006-0909-2097",
+            "observed_orcids": [
+              "https://orcid.org/0009-0006-0909-2097"
+            ]
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I43439940",
+              "display_name": "University of Southampton",
+              "ror": "https://ror.org/01ryk1543",
+              "country_code": "GB",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I43439940"
+              ]
+            }
+          ],
+          "countries": [
+            "GB"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "Peter Hawes",
+          "raw_affiliation_strings": [
+            "Univ. of Southampton (United Kingdom)"
+          ],
+          "raw_orcid": null,
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Univ. of Southampton (United Kingdom)",
+              "institution_ids": [
+                "https://openalex.org/I43439940"
+              ]
+            }
+          ]
+        },
+        {
+          "author_position": "last",
+          "author": {
+            "id": "https://openalex.org/A5029762999",
+            "display_name": "Michele Meo",
+            "orcid": "https://orcid.org/0000-0003-1633-8930",
+            "observed_orcids": [
+              "https://orcid.org/0000-0003-1633-8930"
+            ]
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I43439940",
+              "display_name": "University of Southampton",
+              "ror": "https://ror.org/01ryk1543",
+              "country_code": "GB",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I43439940"
+              ]
+            }
+          ],
+          "countries": [
+            "GB"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "Michele Meo",
+          "raw_affiliation_strings": [
+            "Univ. of Southampton (United Kingdom)"
+          ],
+          "raw_orcid": null,
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Univ. of Southampton (United Kingdom)",
+              "institution_ids": [
+                "https://openalex.org/I43439940"
+              ]
+            }
+          ]
+        }
+      ],
+      "institutions": [],
+      "countries_distinct_count": 1,
+      "institutions_distinct_count": 1,
+      "corresponding_author_ids": [],
+      "corresponding_institution_ids": [
+        "https://openalex.org/I43439940"
+      ],
+      "apc_list": null,
+      "apc_paid": null,
+      "fwci": 0.0,
+      "is_authors_truncated": false,
+      "has_fulltext": false,
+      "cited_by_count": 0,
+      "citation_normalized_percentile": {
+        "value": 0.0,
+        "is_in_top_1_percent": false,
+        "is_in_top_10_percent": false
+      },
+      "cited_by_percentile_year": null,
+      "biblio": {
+        "volume": null,
+        "issue": null,
+        "first_page": "3",
+        "last_page": "3"
+      },
+      "is_retracted": false,
+      "is_paratext": false,
+      "is_xpac": false,
+      "primary_topic": {
+        "id": "https://openalex.org/T10707",
+        "display_name": "Cellular and Composite Structures",
+        "score": 0.9067000150680542,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2210",
+          "display_name": "Mechanical Engineering"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/22",
+          "display_name": "Engineering"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      "topics": [
+        {
+          "id": "https://openalex.org/T10707",
+          "display_name": "Cellular and Composite Structures",
+          "score": 0.9067000150680542,
+          "subfield": {
+            "id": "https://openalex.org/subfields/2210",
+            "display_name": "Mechanical Engineering"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/22",
+            "display_name": "Engineering"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T10822",
+          "display_name": "Acoustic Wave Phenomena Research",
+          "score": 0.04360000044107437,
+          "subfield": {
+            "id": "https://openalex.org/subfields/3102",
+            "display_name": "Acoustics and Ultrasonics"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/31",
+            "display_name": "Physics and Astronomy"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T11948",
+          "display_name": "Machine Learning in Materials Science",
+          "score": 0.018400000408291817,
+          "subfield": {
+            "id": "https://openalex.org/subfields/2505",
+            "display_name": "Materials Chemistry"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/25",
+            "display_name": "Materials Science"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        }
+      ],
+      "keywords": [
+        {
+          "id": "https://openalex.org/keywords/architected-metamaterials",
+          "display_name": "architected metamaterials",
+          "score": 0.9950000047683716
+        },
+        {
+          "id": "https://openalex.org/keywords/lattice-structures",
+          "display_name": "lattice structures",
+          "score": 0.8199999928474426
+        },
+        {
+          "id": "https://openalex.org/keywords/acoustic-resonators",
+          "display_name": "acoustic resonators",
+          "score": 0.6489999890327454
+        },
+        {
+          "id": "https://openalex.org/keywords/sound-absorption",
+          "display_name": "sound absorption",
+          "score": 0.7459999918937683
+        },
+        {
+          "id": "https://openalex.org/keywords/specific-stiffness",
+          "display_name": "specific stiffness",
+          "score": 0.7710000276565552
+        },
+        {
+          "id": "https://openalex.org/keywords/specific-strength",
+          "display_name": "specific strength",
+          "score": 0.9890000224113464
+        },
+        {
+          "id": "https://openalex.org/keywords/multi-objective-genetic-algorithm",
+          "display_name": "multi-objective genetic algorithm",
+          "score": 0.7170000076293945
+        },
+        {
+          "id": "https://openalex.org/keywords/pareto-front",
+          "display_name": "Pareto front",
+          "score": 0.968999981880188
+        },
+        {
+          "id": "https://openalex.org/keywords/neural-network-surrogate-model",
+          "display_name": "neural network surrogate model",
+          "score": 0.6589999794960022
+        },
+        {
+          "id": "https://openalex.org/keywords/polymer-lattices",
+          "display_name": "polymer lattices",
+          "score": 0.8199999928474426
+        },
+        {
+          "id": "https://openalex.org/keywords/lightweight-structures",
+          "display_name": "lightweight structures",
+          "score": 0.4309999942779541
+        },
+        {
+          "id": "https://openalex.org/keywords/acoustic-impedance",
+          "display_name": "acoustic impedance",
+          "score": 0.42399999499320984
+        }
+      ],
+      "concepts": [
+        {
+          "id": "https://openalex.org/C41008148",
+          "wikidata": "https://www.wikidata.org/wiki/Q21198",
+          "display_name": "Computer science",
+          "level": 0,
+          "score": 0.5121999979019165
+        },
+        {
+          "id": "https://openalex.org/C154945302",
+          "wikidata": "https://www.wikidata.org/wiki/Q11660",
+          "display_name": "Artificial intelligence",
+          "level": 1,
+          "score": 0.45100000500679016
+        },
+        {
+          "id": "https://openalex.org/C119857082",
+          "wikidata": "https://www.wikidata.org/wiki/Q2539",
+          "display_name": "Machine learning",
+          "level": 1,
+          "score": 0.3555999994277954
+        },
+        {
+          "id": "https://openalex.org/C127413603",
+          "wikidata": "https://www.wikidata.org/wiki/Q11023",
+          "display_name": "Engineering",
+          "level": 0,
+          "score": 0.3224000036716461
+        },
+        {
+          "id": "https://openalex.org/C34413123",
+          "wikidata": "https://www.wikidata.org/wiki/Q170978",
+          "display_name": "Robotics",
+          "level": 3,
+          "score": 0.2939000129699707
+        },
+        {
+          "id": "https://openalex.org/C110367647",
+          "wikidata": "https://www.wikidata.org/wiki/Q497166",
+          "display_name": "Metamaterial",
+          "level": 2,
+          "score": 0.2913999855518341
+        },
+        {
+          "id": "https://openalex.org/C90509273",
+          "wikidata": "https://www.wikidata.org/wiki/Q11012",
+          "display_name": "Robot",
+          "level": 2,
+          "score": 0.2768999934196472
+        },
+        {
+          "id": "https://openalex.org/C199639397",
+          "wikidata": "https://www.wikidata.org/wiki/Q1788588",
+          "display_name": "Engineering drawing",
+          "level": 1,
+          "score": 0.2757999897003174
+        },
+        {
+          "id": "https://openalex.org/C99498987",
+          "wikidata": "https://www.wikidata.org/wiki/Q2210247",
+          "display_name": "Noise (video)",
+          "level": 3,
+          "score": 0.2653000056743622
+        },
+        {
+          "id": "https://openalex.org/C2776401178",
+          "wikidata": "https://www.wikidata.org/wiki/Q12050496",
+          "display_name": "Feature (linguistics)",
+          "level": 2,
+          "score": 0.24400000274181366
+        }
+      ],
+      "mesh": [],
+      "locations_count": 1,
+      "locations": [
+        {
+          "id": "doi:10.1117/12.3090176",
+          "doi": "https://doi.org/10.1117/12.3090176",
+          "is_oa": false,
+          "landing_page_url": "https://doi.org/10.1117/12.3090176",
+          "pdf_url": null,
+          "source": {
+            "id": "https://openalex.org/S7407114157",
+            "display_name": "SPIE Multifunctional Materials and Structures",
+            "issn_l": null,
+            "issn": null,
+            "is_oa": false,
+            "is_in_doaj": false,
+            "is_core": false,
+            "listed_in": [],
+            "host_organization": "https://openalex.org/P4310315543",
+            "host_organization_name": "SPIE",
+            "host_organization_lineage": [
+              "https://openalex.org/P4310315543"
+            ],
+            "host_organization_lineage_names": [
+              "SPIE"
+            ],
+            "type": "conference"
+          },
+          "license": null,
+          "license_id": null,
+          "version": "publishedVersion",
+          "is_accepted": true,
+          "is_published": true,
+          "raw_source_name": "Multifunctional Materials and Structures II",
+          "raw_type": "proceedings-article"
+        }
+      ],
+      "best_oa_location": null,
+      "sustainable_development_goals": [],
+      "study_designs": [],
+      "awards": [],
+      "funders": [],
+      "has_content": {
+        "grobid_xml": false,
+        "pdf": false
+      },
+      "content_urls": null,
+      "referenced_works_count": 16,
+      "referenced_works": [
+        "https://openalex.org/W1977961319",
+        "https://openalex.org/W1994022327",
+        "https://openalex.org/W2016337011",
+        "https://openalex.org/W2029826026",
+        "https://openalex.org/W2061898769",
+        "https://openalex.org/W2140792632",
+        "https://openalex.org/W2805419917",
+        "https://openalex.org/W2979827124",
+        "https://openalex.org/W3042526233",
+        "https://openalex.org/W3214446093",
+        "https://openalex.org/W4237136411",
+        "https://openalex.org/W4282575875",
+        "https://openalex.org/W4317478280",
+        "https://openalex.org/W4320001447",
+        "https://openalex.org/W4367553620",
+        "https://openalex.org/W4408302940"
+      ],
+      "related_works": [
+        "https://openalex.org/W7159643016",
+        "https://openalex.org/W4403342593",
+        "https://openalex.org/W4389273330",
+        "https://openalex.org/W3134452041",
+        "https://openalex.org/W7117324133",
+        "https://openalex.org/W4405405125",
+        "https://openalex.org/W4417505696",
+        "https://openalex.org/W3009950940",
+        "https://openalex.org/W4295708823",
+        "https://openalex.org/W4391046341"
+      ],
+      "abstract_inverted_index": {
+        "This": [
+          0
+        ],
+        "study": [
+          1
+        ],
+        "proposes": [
+          2
+        ],
+        "a": [
+          3,
+          82,
+          97,
+          116
+        ],
+        "machine": [
+          4
+        ],
+        "learning": [
+          5
+        ],
+        "based": [
+          6
+        ],
+        "approach": [
+          7
+        ],
+        "for": [
+          8,
+          15,
+          62
+        ],
+        "design": [
+          9
+        ],
+        "of": [
+          10,
+          34,
+          38,
+          40,
+          58,
+          65,
+          68,
+          81,
+          90,
+          100,
+          118,
+          122,
+          150,
+          162
+        ],
+        "multifunctional": [
+          11
+        ],
+        "architected": [
+          12
+        ],
+        "metamaterials,": [
+          13
+        ],
+        "tuned": [
+          14
+        ],
+        "maximum": [
+          16
+        ],
+        "stiffness,": [
+          17
+        ],
+        "strength,": [
+          18
+        ],
+        "lightness": [
+          19
+        ],
+        "and": [
+          20,
+          55,
+          92,
+          110,
+          129,
+          191
+        ],
+        "low": [
+          21
+        ],
+        "frequency": [
+          22
+        ],
+        "sound": [
+          23,
+          180
+        ],
+        "absorption.": [
+          24
+        ],
+        "Neural": [
+          25
+        ],
+        "networks": [
+          26,
+          60
+        ],
+        "were": [
+          27,
+          74,
+          104
+        ],
+        "trained": [
+          28,
+          72
+        ],
+        "to": [
+          29,
+          76,
+          189,
+          194
+        ],
+        "predict": [
+          30
+        ],
+        "the": [
+          31,
+          56,
+          59,
+          78,
+          87,
+          134,
+          141,
+          163,
+          169,
+          173
+        ],
+        "structural": [
+          32,
+          120
+        ],
+        "performance": [
+          33
+        ],
+        "lattice": [
+          35
+        ],
+        "structures": [
+          36
+        ],
+        "consisting": [
+          37
+        ],
+        "labyrinths": [
+          39
+        ],
+        "acoustic": [
+          41,
+          108
+        ],
+        "resonator": [
+          42
+        ],
+        "channels.": [
+          43
+        ],
+        "The": [
+          44,
+          71,
+          94,
+          113,
+          176
+        ],
+        "predictions": [
+          45
+        ],
+        "showed": [
+          46,
+          165
+        ],
+        "regression": [
+          47
+        ],
+        "exceeding": [
+          48
+        ],
+        "99.9%": [
+          49
+        ],
+        "when": [
+          50
+        ],
+        "compared": [
+          51
+        ],
+        "against": [
+          52
+        ],
+        "known": [
+          53
+        ],
+        "values": [
+          54,
+          171
+        ],
+        "speed": [
+          57
+        ],
+        "allowed": [
+          61
+        ],
+        "rapid": [
+          63
+        ],
+        "generation": [
+          64
+        ],
+        "large": [
+          66
+        ],
+        "populations": [
+          67
+        ],
+        "fitness": [
+          69
+        ],
+        "values.": [
+          70
+        ],
+        "models": [
+          73
+        ],
+        "used": [
+          75
+        ],
+        "form": [
+          77
+        ],
+        "objective": [
+          79
+        ],
+        "function": [
+          80
+        ],
+        "multiobjective": [
+          83
+        ],
+        "genetic": [
+          84
+        ],
+        "algorithm,": [
+          85
+        ],
+        "simulating": [
+          86
+        ],
+        "natural": [
+          88
+        ],
+        "process": [
+          89
+        ],
+        "variation": [
+          91
+        ],
+        "selection.": [
+          93
+        ],
+        "solver": [
+          95
+        ],
+        "output": [
+          96
+        ],
+        "Pareto": [
+          98
+        ],
+        "front": [
+          99
+        ],
+        "optimal": [
+          101
+        ],
+        "solutions": [
+          102,
+          114,
+          135,
+          164
+        ],
+        "that": [
+          103,
+          182
+        ],
+        "validated": [
+          105
+        ],
+        "experimentally": [
+          106
+        ],
+        "under": [
+          107
+        ],
+        "impedance": [
+          109
+        ],
+        "electromechanical": [
+          111
+        ],
+        "testing.": [
+          112
+        ],
+        "provided": [
+          115
+        ],
+        "range": [
+          117
+        ],
+        "relative": [
+          119
+        ],
+        "properties": [
+          121
+        ],
+        "polymer": [
+          123
+        ],
+        "lattices": [
+          124
+        ],
+        "between": [
+          125
+        ],
+        "897.41-2111.77MPa": [
+          126
+        ],
+        "specific": [
+          127,
+          131
+        ],
+        "stiffness": [
+          128,
+          138
+        ],
+        "20.73-42.76MPa": [
+          130
+        ],
+        "strength.": [
+          132
+        ],
+        "Of": [
+          133
+        ],
+        "61.1%": [
+          136
+        ],
+        "offered": [
+          137
+        ],
+        "greater": [
+          139,
+          166
+        ],
+        "than": [
+          140,
+          168
+        ],
+        "largest": [
+          142
+        ],
+        "value": [
+          143
+        ],
+        "found": [
+          144
+        ],
+        "in": [
+          145,
+          172
+        ],
+        "an": [
+          146
+        ],
+        "equivalent": [
+          147
+        ],
+        "exhaustive": [
+          148,
+          174
+        ],
+        "search": [
+          149
+        ],
+        "4248": [
+          151
+        ],
+        "potential": [
+          152
+        ],
+        "designs,": [
+          153
+        ],
+        "while": [
+          154
+        ],
+        "also": [
+          155
+        ],
+        "simultaneously": [
+          156
+        ],
+        "considering": [
+          157
+        ],
+        "absorption": [
+          158,
+          181
+        ],
+        "performance.": [
+          159
+        ],
+        "One": [
+          160
+        ],
+        "third": [
+          161
+        ],
+        "strength": [
+          167
+        ],
+        "strongest": [
+          170
+        ],
+        "search.": [
+          175
+        ],
+        "designs": [
+          177
+        ],
+        "achieved": [
+          178
+        ],
+        "90%": [
+          179
+        ],
+        "can": [
+          183
+        ],
+        "be": [
+          184
+        ],
+        "targeted": [
+          185
+        ],
+        "at": [
+          186,
+          196
+        ],
+        "frequencies": [
+          187
+        ],
+        "down": [
+          188,
+          193
+        ],
+        "351.74Hz": [
+          190
+        ],
+        "80%": [
+          192
+        ],
+        "232.55Hz": [
+          195
+        ],
+        "material": [
+          197
+        ],
+        "thicknesses": [
+          198
+        ],
+        "below": [
+          199
+        ],
+        "20.5mm.": [
+          200
+        ]
+      },
+      "counts_by_year": [],
+      "updated_date": "2026-11-16T12:05:36.265796",
+      "created_date": "2026-04-17T00:00:00"
+    }
+  ],
+  "group_by": []
+}

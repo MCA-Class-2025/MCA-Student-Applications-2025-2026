@@ -1,0 +1,5049 @@
+{
+  "meta": {
+    "notice": "No API key, so this request shares one free daily budget ($0.10) with everyone on your network's IP address. Get a free key with its own $1/day at https://openalex.org/settings/api and add api_key=YOUR_KEY to your requests. An AI agent can get one for its user in one call: POST https://api.openalex.org/api-keys with {\"email\": \"<your user's email>\"}; we email them a link, and the key works once they click it. Docs for agents: https://help.openalex.org/llms.txt",
+    "count": 96574,
+    "db_response_time_ms": 189,
+    "page": 1,
+    "per_page": 5,
+    "groups_count": null,
+    "x_query": {
+      "oql": "get works with (Confluence Engineer) in the title, abstract, or full text",
+      "x_new_oql": "get works with (Confluence Engineer) in the title, abstract, or full text",
+      "oqo": {
+        "get_rows": "works",
+        "filter_rows": [
+          {
+            "column_id": "fulltext.search",
+            "value": "Confluence Engineer",
+            "operator": "has"
+          }
+        ]
+      },
+      "url": "/works?filter=fulltext.search:Confluence Engineer&per_page=5",
+      "order": "best matches first",
+      "order_default": true
+    },
+    "cost_usd": 0.001
+  },
+  "results": [
+    {
+      "id": "https://openalex.org/W3207694156",
+      "doi": "https://doi.org/10.1089/ten.tea.2021.0132",
+      "title": "Impact of Cell Seeding Density and Cell Confluence on Human Tissue Engineered Skeletal Muscle",
+      "display_name": "Impact of Cell Seeding Density and Cell Confluence on Human Tissue Engineered Skeletal Muscle",
+      "relevance_score": 58.36722,
+      "publication_year": 2021,
+      "publication_date": "2021-10-15",
+      "ids": {
+        "openalex": "https://openalex.org/W3207694156",
+        "doi": "https://doi.org/10.1089/ten.tea.2021.0132",
+        "mag": "3207694156",
+        "pmid": "https://pubmed.ncbi.nlm.nih.gov/34652973",
+        "pmcid": "https://www.ncbi.nlm.nih.gov/pmc/articles/9131361"
+      },
+      "language": "en",
+      "primary_location": {
+        "id": "doi:10.1089/ten.tea.2021.0132",
+        "doi": "https://doi.org/10.1089/ten.tea.2021.0132",
+        "is_oa": false,
+        "landing_page_url": "https://doi.org/10.1089/ten.tea.2021.0132",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S19081469",
+          "display_name": "Tissue Engineering Part A",
+          "issn_l": "1937-3341",
+          "issn": [
+            "1937-3341",
+            "1937-335X"
+          ],
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": true,
+          "listed_in": [
+            "cwts-core",
+            "dongbi-c",
+            "doyens",
+            "jufo-1",
+            "ki-jl-1",
+            "medline",
+            "norway-1",
+            "poland-140",
+            "russia-white-list-1"
+          ],
+          "host_organization": "https://openalex.org/P4310320443",
+          "host_organization_name": "Mary Ann Liebert, Inc.",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310320443",
+            "https://openalex.org/P4310320017"
+          ],
+          "host_organization_lineage_names": [
+            "Mary Ann Liebert, Inc.",
+            "SAGE Publishing"
+          ],
+          "type": "journal"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Tissue Engineering Part A",
+        "raw_type": "journal-article"
+      },
+      "parent_works": [],
+      "lineage": [
+        "https://openalex.org/W3207694156"
+      ],
+      "child_works_count": 0,
+      "type": "article",
+      "is_traditional": true,
+      "indexed_in": [
+        "crossref",
+        "pubmed"
+      ],
+      "open_access": {
+        "is_oa": true,
+        "oa_status": "green",
+        "oa_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9131361/",
+        "any_repository_has_fulltext": true
+      },
+      "authorships": [
+        {
+          "author_position": "first",
+          "author": {
+            "id": "https://openalex.org/A5066500177",
+            "display_name": "Olga M. Wroblewski",
+            "orcid": "https://orcid.org/0000-0002-4219-6043",
+            "observed_orcids": [
+              "https://orcid.org/0000-0002-4219-6043"
+            ]
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I27837315",
+              "display_name": "University of Michigan",
+              "ror": "https://ror.org/00jmfr291",
+              "country_code": "US",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I27837315"
+              ]
+            }
+          ],
+          "countries": [
+            "US"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "Olga M. Wroblewski",
+          "raw_affiliation_strings": [
+            "Department of Biomedical Engineering, University of Michigan, Ann Arbor, Michigan, USA"
+          ],
+          "raw_orcid": "https://orcid.org/0000-0002-4219-6043",
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Department of Biomedical Engineering, University of Michigan, Ann Arbor, Michigan, USA",
+              "institution_ids": [
+                "https://openalex.org/I27837315"
+              ]
+            }
+          ]
+        },
+        {
+          "author_position": "middle",
+          "author": {
+            "id": "https://openalex.org/A5002331904",
+            "display_name": "Matthew H. Nguyen",
+            "orcid": "https://orcid.org/0000-0002-4846-2058",
+            "observed_orcids": [
+              "https://orcid.org/0000-0002-4846-2058"
+            ]
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I27837315",
+              "display_name": "University of Michigan",
+              "ror": "https://ror.org/00jmfr291",
+              "country_code": "US",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I27837315"
+              ]
+            }
+          ],
+          "countries": [
+            "US"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "Matthew H. Nguyen",
+          "raw_affiliation_strings": [
+            "Department of Molecular and Integrative Physiology, University of Michigan, Ann Arbor, Michigan, USA"
+          ],
+          "raw_orcid": null,
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Department of Molecular and Integrative Physiology, University of Michigan, Ann Arbor, Michigan, USA",
+              "institution_ids": [
+                "https://openalex.org/I27837315"
+              ]
+            }
+          ]
+        },
+        {
+          "author_position": "middle",
+          "author": {
+            "id": "https://openalex.org/A5082898289",
+            "display_name": "Paul Stephen Cederna",
+            "orcid": "https://orcid.org/0000-0002-6756-7197",
+            "observed_orcids": [
+              "https://orcid.org/0000-0002-6756-7197"
+            ]
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I27837315",
+              "display_name": "University of Michigan",
+              "ror": "https://ror.org/00jmfr291",
+              "country_code": "US",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I27837315"
+              ]
+            }
+          ],
+          "countries": [
+            "US"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "Paul S. Cederna",
+          "raw_affiliation_strings": [
+            "Department of Plastic Surgery, University of Michigan, Ann Arbor, Michigan, USA"
+          ],
+          "raw_orcid": null,
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Department of Plastic Surgery, University of Michigan, Ann Arbor, Michigan, USA",
+              "institution_ids": [
+                "https://openalex.org/I27837315"
+              ]
+            }
+          ]
+        },
+        {
+          "author_position": "last",
+          "author": {
+            "id": "https://openalex.org/A5102895842",
+            "display_name": "Lisa M. Larkin",
+            "orcid": "https://orcid.org/0000-0003-0538-1060",
+            "observed_orcids": [
+              "https://orcid.org/0000-0003-0538-1060"
+            ]
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I27837315",
+              "display_name": "University of Michigan",
+              "ror": "https://ror.org/00jmfr291",
+              "country_code": "US",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I27837315"
+              ]
+            }
+          ],
+          "countries": [
+            "US"
+          ],
+          "is_corresponding": true,
+          "raw_author_name": "Lisa M. Larkin",
+          "raw_affiliation_strings": [
+            "Department of Biomedical Engineering, University of Michigan, Ann Arbor, Michigan, USA",
+            "Department of Molecular and Integrative Physiology, University of Michigan, Ann Arbor, Michigan, USA"
+          ],
+          "raw_orcid": null,
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Department of Biomedical Engineering, University of Michigan, Ann Arbor, Michigan, USA",
+              "institution_ids": [
+                "https://openalex.org/I27837315"
+              ]
+            },
+            {
+              "raw_affiliation_string": "Department of Molecular and Integrative Physiology, University of Michigan, Ann Arbor, Michigan, USA",
+              "institution_ids": [
+                "https://openalex.org/I27837315"
+              ]
+            }
+          ]
+        }
+      ],
+      "institutions": [],
+      "countries_distinct_count": 1,
+      "institutions_distinct_count": 1,
+      "corresponding_author_ids": [
+        "https://openalex.org/A5102895842"
+      ],
+      "corresponding_institution_ids": [
+        "https://openalex.org/I27837315"
+      ],
+      "apc_list": null,
+      "apc_paid": null,
+      "fwci": 1.1262,
+      "is_authors_truncated": false,
+      "has_fulltext": false,
+      "cited_by_count": 13,
+      "citation_normalized_percentile": {
+        "value": 0.73992216,
+        "is_in_top_1_percent": false,
+        "is_in_top_10_percent": false
+      },
+      "cited_by_percentile_year": {
+        "min": 93,
+        "max": 98
+      },
+      "biblio": {
+        "volume": "28",
+        "issue": "9-10",
+        "first_page": "420",
+        "last_page": "432"
+      },
+      "is_retracted": false,
+      "is_paratext": false,
+      "is_xpac": false,
+      "primary_topic": {
+        "id": "https://openalex.org/T12264",
+        "display_name": "Tissue Engineering and Regenerative Medicine",
+        "score": 0.7890999913215637,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2746",
+          "display_name": "Surgery"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/27",
+          "display_name": "Medicine"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/4",
+          "display_name": "Health Sciences"
+        }
+      },
+      "topics": [
+        {
+          "id": "https://openalex.org/T12264",
+          "display_name": "Tissue Engineering and Regenerative Medicine",
+          "score": 0.7890999913215637,
+          "subfield": {
+            "id": "https://openalex.org/subfields/2746",
+            "display_name": "Surgery"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/27",
+            "display_name": "Medicine"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/4",
+            "display_name": "Health Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T10441",
+          "display_name": "Muscle Physiology and Disorders",
+          "score": 0.18700000643730164,
+          "subfield": {
+            "id": "https://openalex.org/subfields/1312",
+            "display_name": "Molecular Biology"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/13",
+            "display_name": "Biochemistry, Genetics and Molecular Biology"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/1",
+            "display_name": "Life Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T10059",
+          "display_name": "Bone Tissue Engineering Materials",
+          "score": 0.003100000089034438,
+          "subfield": {
+            "id": "https://openalex.org/subfields/2204",
+            "display_name": "Biomedical Engineering"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/22",
+            "display_name": "Engineering"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        }
+      ],
+      "keywords": [
+        {
+          "id": "https://openalex.org/keywords/cell-seeding-density",
+          "display_name": "cell seeding density",
+          "score": 0.9520000219345093
+        },
+        {
+          "id": "https://openalex.org/keywords/cell-confluency",
+          "display_name": "cell confluence",
+          "score": 0.9190000295639038
+        },
+        {
+          "id": "https://openalex.org/keywords/satellite-cells",
+          "display_name": "satellite cells",
+          "score": 0.6650000214576721
+        },
+        {
+          "id": "https://openalex.org/keywords/myotube-formation",
+          "display_name": "myotube formation",
+          "score": 0.5830000042915344
+        },
+        {
+          "id": "https://openalex.org/keywords/muscle-hypertrophy",
+          "display_name": "muscle hypertrophy",
+          "score": 0.8199999928474426
+        },
+        {
+          "id": "https://openalex.org/keywords/contractile-force",
+          "display_name": "contractile force",
+          "score": 0.7210000157356262
+        },
+        {
+          "id": "https://openalex.org/keywords/tetanic-force",
+          "display_name": "tetanic force",
+          "score": 0.7559999823570251
+        },
+        {
+          "id": "https://openalex.org/keywords/volumetric-muscle-loss",
+          "display_name": "volumetric muscle loss",
+          "score": 0.8379999995231628
+        },
+        {
+          "id": "https://openalex.org/keywords/muscle-maturation",
+          "display_name": "muscle maturation",
+          "score": 0.5519999861717224
+        },
+        {
+          "id": "https://openalex.org/keywords/muscle-structure-and-function",
+          "display_name": "muscle structure and function",
+          "score": 0.3930000066757202
+        },
+        {
+          "id": "https://openalex.org/keywords/cell-proliferation",
+          "display_name": "cell proliferation",
+          "score": 0.3720000088214874
+        }
+      ],
+      "concepts": [
+        {
+          "id": "https://openalex.org/C36248471",
+          "wikidata": "https://www.wikidata.org/wiki/Q7445669",
+          "display_name": "Seeding",
+          "level": 2,
+          "score": 0.7137010097503662
+        },
+        {
+          "id": "https://openalex.org/C77906462",
+          "wikidata": "https://www.wikidata.org/wiki/Q1140902",
+          "display_name": "Confluence",
+          "level": 2,
+          "score": 0.6443365812301636
+        },
+        {
+          "id": "https://openalex.org/C2779959927",
+          "wikidata": "https://www.wikidata.org/wiki/Q1048687",
+          "display_name": "Skeletal muscle",
+          "level": 2,
+          "score": 0.5946052670478821
+        },
+        {
+          "id": "https://openalex.org/C49892992",
+          "wikidata": "https://www.wikidata.org/wiki/Q1540285",
+          "display_name": "Tissue engineering",
+          "level": 2,
+          "score": 0.5596931576728821
+        },
+        {
+          "id": "https://openalex.org/C1491633281",
+          "wikidata": "https://www.wikidata.org/wiki/Q7868",
+          "display_name": "Cell",
+          "level": 2,
+          "score": 0.5408241748809814
+        },
+        {
+          "id": "https://openalex.org/C95444343",
+          "wikidata": "https://www.wikidata.org/wiki/Q7141",
+          "display_name": "Cell biology",
+          "level": 1,
+          "score": 0.4541151523590088
+        },
+        {
+          "id": "https://openalex.org/C136229726",
+          "wikidata": "https://www.wikidata.org/wiki/Q327092",
+          "display_name": "Biomedical engineering",
+          "level": 1,
+          "score": 0.4126376509666443
+        },
+        {
+          "id": "https://openalex.org/C185592680",
+          "wikidata": "https://www.wikidata.org/wiki/Q2329",
+          "display_name": "Chemistry",
+          "level": 0,
+          "score": 0.33428314328193665
+        },
+        {
+          "id": "https://openalex.org/C86803240",
+          "wikidata": "https://www.wikidata.org/wiki/Q420",
+          "display_name": "Biology",
+          "level": 0,
+          "score": 0.3001384735107422
+        },
+        {
+          "id": "https://openalex.org/C105702510",
+          "wikidata": "https://www.wikidata.org/wiki/Q514",
+          "display_name": "Anatomy",
+          "level": 1,
+          "score": 0.27646178007125854
+        },
+        {
+          "id": "https://openalex.org/C71924100",
+          "wikidata": "https://www.wikidata.org/wiki/Q11190",
+          "display_name": "Medicine",
+          "level": 0,
+          "score": 0.24012282490730286
+        },
+        {
+          "id": "https://openalex.org/C41008148",
+          "wikidata": "https://www.wikidata.org/wiki/Q21198",
+          "display_name": "Computer science",
+          "level": 0,
+          "score": 0.20903825759887695
+        },
+        {
+          "id": "https://openalex.org/C55493867",
+          "wikidata": "https://www.wikidata.org/wiki/Q7094",
+          "display_name": "Biochemistry",
+          "level": 1,
+          "score": 0.08434021472930908
+        },
+        {
+          "id": "https://openalex.org/C199360897",
+          "wikidata": "https://www.wikidata.org/wiki/Q9143",
+          "display_name": "Programming language",
+          "level": 1,
+          "score": 0.0
+        },
+        {
+          "id": "https://openalex.org/C6557445",
+          "wikidata": "https://www.wikidata.org/wiki/Q173113",
+          "display_name": "Agronomy",
+          "level": 1,
+          "score": 0.0
+        }
+      ],
+      "mesh": [
+        {
+          "descriptor_ui": "D000818",
+          "descriptor_name": "Animals",
+          "qualifier_ui": null,
+          "qualifier_name": null,
+          "is_major_topic": false
+        },
+        {
+          "descriptor_ui": "D002452",
+          "descriptor_name": "Cell Count",
+          "qualifier_ui": null,
+          "qualifier_name": null,
+          "is_major_topic": false
+        },
+        {
+          "descriptor_ui": "D006801",
+          "descriptor_name": "Humans",
+          "qualifier_ui": null,
+          "qualifier_name": null,
+          "is_major_topic": false
+        },
+        {
+          "descriptor_ui": "D009119",
+          "descriptor_name": "Muscle Contraction",
+          "qualifier_ui": null,
+          "qualifier_name": null,
+          "is_major_topic": false
+        },
+        {
+          "descriptor_ui": "D018482",
+          "descriptor_name": "Muscle, Skeletal",
+          "qualifier_ui": "Q000502",
+          "qualifier_name": "physiology",
+          "is_major_topic": true
+        },
+        {
+          "descriptor_ui": "D018485",
+          "descriptor_name": "Muscle Fibers, Skeletal",
+          "qualifier_ui": null,
+          "qualifier_name": null,
+          "is_major_topic": false
+        },
+        {
+          "descriptor_ui": "D023822",
+          "descriptor_name": "Tissue Engineering",
+          "qualifier_ui": "Q000379",
+          "qualifier_name": "methods",
+          "is_major_topic": false
+        },
+        {
+          "descriptor_ui": "D024510",
+          "descriptor_name": "Muscle Development",
+          "qualifier_ui": null,
+          "qualifier_name": null,
+          "is_major_topic": true
+        }
+      ],
+      "locations_count": 3,
+      "locations": [
+        {
+          "id": "doi:10.1089/ten.tea.2021.0132",
+          "doi": "https://doi.org/10.1089/ten.tea.2021.0132",
+          "is_oa": false,
+          "landing_page_url": "https://doi.org/10.1089/ten.tea.2021.0132",
+          "pdf_url": null,
+          "source": {
+            "id": "https://openalex.org/S19081469",
+            "display_name": "Tissue Engineering Part A",
+            "issn_l": "1937-3341",
+            "issn": [
+              "1937-3341",
+              "1937-335X"
+            ],
+            "is_oa": false,
+            "is_in_doaj": false,
+            "is_core": true,
+            "listed_in": [
+              "cwts-core",
+              "dongbi-c",
+              "doyens",
+              "jufo-1",
+              "ki-jl-1",
+              "medline",
+              "norway-1",
+              "poland-140",
+              "russia-white-list-1"
+            ],
+            "host_organization": "https://openalex.org/P4310320443",
+            "host_organization_name": "Mary Ann Liebert, Inc.",
+            "host_organization_lineage": [
+              "https://openalex.org/P4310320443",
+              "https://openalex.org/P4310320017"
+            ],
+            "host_organization_lineage_names": [
+              "Mary Ann Liebert, Inc.",
+              "SAGE Publishing"
+            ],
+            "type": "journal"
+          },
+          "license": null,
+          "license_id": null,
+          "version": "publishedVersion",
+          "is_accepted": true,
+          "is_published": true,
+          "raw_source_name": "Tissue Engineering Part A",
+          "raw_type": "journal-article"
+        },
+        {
+          "id": "pmid:34652973",
+          "doi": null,
+          "is_oa": false,
+          "landing_page_url": "https://pubmed.ncbi.nlm.nih.gov/34652973",
+          "pdf_url": null,
+          "source": {
+            "id": "https://openalex.org/S4306525036",
+            "display_name": "PubMed",
+            "issn_l": null,
+            "issn": null,
+            "is_oa": false,
+            "is_in_doaj": false,
+            "is_core": false,
+            "listed_in": [],
+            "host_organization": "https://openalex.org/I1299303238",
+            "host_organization_name": "National Institutes of Health",
+            "host_organization_lineage": [
+              "https://openalex.org/I1299303238"
+            ],
+            "host_organization_lineage_names": [],
+            "type": "repository"
+          },
+          "license": null,
+          "license_id": null,
+          "version": "publishedVersion",
+          "is_accepted": true,
+          "is_published": true,
+          "raw_source_name": "Tissue engineering. Part A",
+          "raw_type": "Journal Article"
+        },
+        {
+          "id": "pmh:oai:pubmedcentral.nih.gov:9131361",
+          "doi": null,
+          "is_oa": true,
+          "landing_page_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9131361/",
+          "pdf_url": null,
+          "source": {
+            "id": "https://openalex.org/S2764455111",
+            "display_name": "PubMed Central",
+            "issn_l": null,
+            "issn": null,
+            "is_oa": true,
+            "is_in_doaj": false,
+            "is_core": false,
+            "listed_in": [],
+            "host_organization": "https://openalex.org/I1299303238",
+            "host_organization_name": "National Institutes of Health",
+            "host_organization_lineage": [
+              "https://openalex.org/I1299303238"
+            ],
+            "host_organization_lineage_names": [],
+            "type": "repository"
+          },
+          "license": null,
+          "license_id": null,
+          "version": "publishedVersion",
+          "is_accepted": true,
+          "is_published": true,
+          "raw_source_name": "Tissue Eng Part A",
+          "raw_type": "Text"
+        }
+      ],
+      "best_oa_location": {
+        "id": "pmh:oai:pubmedcentral.nih.gov:9131361",
+        "doi": null,
+        "is_oa": true,
+        "landing_page_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9131361/",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S2764455111",
+          "display_name": "PubMed Central",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": true,
+          "is_in_doaj": false,
+          "is_core": false,
+          "listed_in": [],
+          "host_organization": "https://openalex.org/I1299303238",
+          "host_organization_name": "National Institutes of Health",
+          "host_organization_lineage": [
+            "https://openalex.org/I1299303238"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Tissue Eng Part A",
+        "raw_type": "Text"
+      },
+      "sustainable_development_goals": [
+        {
+          "display_name": "Good health and well-being",
+          "score": 0.6240000128746033,
+          "id": "https://metadata.un.org/sdg/3"
+        }
+      ],
+      "study_designs": [],
+      "awards": [
+        {
+          "id": "https://openalex.org/G3786443319",
+          "display_name": "Utilization of Engineered Skeletal Muscle Units to Repair Volumetric Muscle",
+          "funder_award_id": "R01AR067744",
+          "funder_id": "https://openalex.org/F4320337362",
+          "funder_display_name": "National Institute of Arthritis and Musculoskeletal and Skin Diseases"
+        },
+        {
+          "id": "https://openalex.org/G9000860164",
+          "display_name": "Tissue Engineering and Regeneration",
+          "funder_award_id": "T32DE007057",
+          "funder_id": "https://openalex.org/F4320337365",
+          "funder_display_name": "National Institute of Dental and Craniofacial Research"
+        }
+      ],
+      "funders": [
+        {
+          "id": "https://openalex.org/F4320337362",
+          "display_name": "National Institute of Arthritis and Musculoskeletal and Skin Diseases",
+          "ror": "https://ror.org/006zn3t30"
+        },
+        {
+          "id": "https://openalex.org/F4320337365",
+          "display_name": "National Institute of Dental and Craniofacial Research",
+          "ror": "https://ror.org/004a2wv92"
+        }
+      ],
+      "has_content": {
+        "pdf": false,
+        "grobid_xml": false
+      },
+      "content_urls": null,
+      "referenced_works_count": 34,
+      "referenced_works": [
+        "https://openalex.org/W60570984",
+        "https://openalex.org/W1562372720",
+        "https://openalex.org/W1756269602",
+        "https://openalex.org/W1856771337",
+        "https://openalex.org/W1973772247",
+        "https://openalex.org/W1974517758",
+        "https://openalex.org/W1981141119",
+        "https://openalex.org/W1984310874",
+        "https://openalex.org/W1989791698",
+        "https://openalex.org/W1997176634",
+        "https://openalex.org/W2012502318",
+        "https://openalex.org/W2015692862",
+        "https://openalex.org/W2025957803",
+        "https://openalex.org/W2056244848",
+        "https://openalex.org/W2057046163",
+        "https://openalex.org/W2057072817",
+        "https://openalex.org/W2060065785",
+        "https://openalex.org/W2060829642",
+        "https://openalex.org/W2062867597",
+        "https://openalex.org/W2069016577",
+        "https://openalex.org/W2085014866",
+        "https://openalex.org/W2090448309",
+        "https://openalex.org/W2097304128",
+        "https://openalex.org/W2157880285",
+        "https://openalex.org/W2300733526",
+        "https://openalex.org/W2341057301",
+        "https://openalex.org/W2766969002",
+        "https://openalex.org/W2794005333",
+        "https://openalex.org/W2970823034",
+        "https://openalex.org/W2979221210",
+        "https://openalex.org/W2982816240",
+        "https://openalex.org/W3005297517",
+        "https://openalex.org/W3087240974",
+        "https://openalex.org/W3099792616"
+      ],
+      "related_works": [
+        "https://openalex.org/W2142043362",
+        "https://openalex.org/W1989791698",
+        "https://openalex.org/W1965597079",
+        "https://openalex.org/W3099792616",
+        "https://openalex.org/W1997524040",
+        "https://openalex.org/W4286836748",
+        "https://openalex.org/W4399671979",
+        "https://openalex.org/W1982771097",
+        "https://openalex.org/W2276151161",
+        "https://openalex.org/W2560771695"
+      ],
+      "abstract_inverted_index": {
+        "Tissue": [
+          0
+        ],
+        "engineering": [
+          1,
+          356
+        ],
+        "methodologies": [
+          2
+        ],
+        "have": [
+          3,
+          265
+        ],
+        "the": [
+          4,
+          12,
+          28,
+          41,
+          100,
+          107,
+          159,
+          166,
+          177,
+          198,
+          226,
+          235,
+          350,
+          385,
+          391,
+          404,
+          407
+        ],
+        "potential": [
+          5,
+          405
+        ],
+        "to": [
+          6,
+          98,
+          109,
+          188,
+          214,
+          234,
+          285,
+          287,
+          313,
+          331,
+          360,
+          396
+        ],
+        "treat": [
+          7
+        ],
+        "volumetric": [
+          8,
+          415
+        ],
+        "muscle": [
+          9,
+          17,
+          22,
+          34,
+          46,
+          59,
+          77,
+          84,
+          95,
+          121,
+          272,
+          293,
+          306,
+          354,
+          378,
+          392,
+          416
+        ],
+        "loss": [
+          10
+        ],
+        "via": [
+          11
+        ],
+        "growth": [
+          13
+        ],
+        "of": [
+          14,
+          31,
+          44,
+          56,
+          66,
+          102,
+          152,
+          161,
+          168,
+          200,
+          238,
+          352,
+          410
+        ],
+        "exogenous": [
+          15
+        ],
+        "skeletal": [
+          16,
+          33,
+          45,
+          58,
+          76,
+          83,
+          94,
+          114,
+          120,
+          271,
+          353,
+          377,
+          401
+        ],
+        "grafts": [
+          18,
+          35
+        ],
+        "from": [
+          19,
+          79,
+          358
+        ],
+        "small": [
+          20
+        ],
+        "autogenous": [
+          21
+        ],
+        "biopsies.": [
+          23
+        ],
+        "A": [
+          24
+        ],
+        "significant": [
+          25
+        ],
+        "obstacle": [
+          26
+        ],
+        "preventing": [
+          27
+        ],
+        "widespread": [
+          29
+        ],
+        "use": [
+          30
+        ],
+        "engineered": [
+          32,
+          69,
+          78,
+          113,
+          376,
+          399
+        ],
+        "in": [
+          36,
+          194,
+          292,
+          298
+        ],
+        "a": [
+          37,
+          64,
+          80,
+          148
+        ],
+        "clinical": [
+          38,
+          408
+        ],
+        "setting": [
+          39
+        ],
+        "is": [
+          40,
+          63
+        ],
+        "high": [
+          42
+        ],
+        "number": [
+          43
+        ],
+        "stem": [
+          47
+        ],
+        "cells,": [
+          48,
+          52
+        ],
+        "known": [
+          49
+        ],
+        "as": [
+          50,
+          156,
+          332,
+          334
+        ],
+        "satellite": [
+          51
+        ],
+        "required": [
+          53,
+          395
+        ],
+        "for": [
+          54,
+          72,
+          325,
+          406,
+          414
+        ],
+        "fabrication": [
+          55,
+          172,
+          327
+        ],
+        "human-sized": [
+          57
+        ],
+        "tissue.": [
+          60
+        ],
+        "Additionally,": [
+          61,
+          158
+        ],
+        "there": [
+          62
+        ],
+        "lack": [
+          65
+        ],
+        "work": [
+          67
+        ],
+        "adapting": [
+          68
+        ],
+        "constructs": [
+          70
+        ],
+        "created": [
+          71
+        ],
+        "animal": [
+          73,
+          359
+        ],
+        "models": [
+          74
+        ],
+        "into": [
+          75,
+          125
+        ],
+        "primary": [
+          81
+        ],
+        "human": [
+          82,
+          112,
+          119,
+          142,
+          169,
+          239,
+          361,
+          400
+        ],
+        "cell": [
+          85,
+          103,
+          130,
+          149,
+          162,
+          195,
+          229,
+          260,
+          310,
+          322,
+          362,
+          366,
+          387
+        ],
+        "source.": [
+          86
+        ],
+        "For": [
+          87
+        ],
+        "this": [
+          88
+        ],
+        "study,": [
+          89
+        ],
+        "we": [
+          90
+        ],
+        "used": [
+          91,
+          187
+        ],
+        "scaffold-free": [
+          92
+        ],
+        "tissue-engineered": [
+          93,
+          411
+        ],
+        "units": [
+          96
+        ],
+        "(SMUs)": [
+          97
+        ],
+        "determine": [
+          99
+        ],
+        "impact": [
+          101,
+          160,
+          268
+        ],
+        "seeding": [
+          104,
+          131,
+          150,
+          182,
+          230,
+          261,
+          323,
+          367
+        ],
+        "density": [
+          105,
+          151,
+          231,
+          324,
+          368
+        ],
+        "on": [
+          106,
+          165,
+          269
+        ],
+        "ability": [
+          108
+        ],
+        "fabricate": [
+          110,
+          397
+        ],
+        "functional": [
+          111
+        ],
+        "muscle.": [
+          115
+        ],
+        "Following": [
+          116,
+          140
+        ],
+        "established": [
+          117
+        ],
+        "protocols,": [
+          118
+        ],
+        "isolates": [
+          122
+        ],
+        "were": [
+          123
+        ],
+        "cultured": [
+          124
+        ],
+        "SMUs": [
+          126,
+          145,
+          203,
+          251,
+          299
+        ],
+        "at": [
+          127,
+          147,
+          175,
+          253,
+          280
+        ],
+        "five": [
+          128
+        ],
+        "different": [
+          129
+        ],
+        "densities:": [
+          132
+        ],
+        "1000,": [
+          133
+        ],
+        "2500,": [
+          134
+        ],
+        "5000,": [
+          135
+        ],
+        "10,000,": [
+          136
+        ],
+        "and": [
+          137,
+          179,
+          192,
+          211,
+          219,
+          283,
+          304,
+          343
+        ],
+        "25,000": [
+          138,
+          227
+        ],
+        "cells/cm2.": [
+          139
+        ],
+        "previous": [
+          141
+        ],
+        "SMU": [
+          143,
+          171,
+          216,
+          270,
+          326,
+          340
+        ],
+        "work,": [
+          144
+        ],
+        "prepared": [
+          146
+        ],
+        "10,000": [
+          153,
+          180
+        ],
+        "cells/cm2": [
+          154,
+          181,
+          228,
+          282,
+          336
+        ],
+        "served": [
+          155
+        ],
+        "controls.": [
+          157
+        ],
+        "monolayer": [
+          163
+        ],
+        "confluency": [
+          164,
+          289
+        ],
+        "outcome": [
+          167
+        ],
+        "cell-sourced": [
+          170,
+          240
+        ],
+        "was": [
+          173,
+          186,
+          232
+        ],
+        "investigated": [
+          174
+        ],
+        "both": [
+          176
+        ],
+        "1000": [
+          178,
+          281,
+          335
+        ],
+        "densities.": [
+          183,
+          255
+        ],
+        "Light": [
+          184
+        ],
+        "microscopy": [
+          185
+        ],
+        "examine": [
+          189,
+          215
+        ],
+        "myotube": [
+          190
+        ],
+        "formation": [
+          191,
+          199
+        ],
+        "hypertrophy": [
+          193
+        ],
+        "monolayers.": [
+          196
+        ],
+        "After": [
+          197
+        ],
+        "three-dimensional": [
+          201
+        ],
+        "constructs,": [
+          202
+        ],
+        "underwent": [
+          204
+        ],
+        "maximum": [
+          205,
+          246
+        ],
+        "tetanic": [
+          206,
+          247
+        ],
+        "isometric": [
+          207
+        ],
+        "force": [
+          208
+        ],
+        "production": [
+          209
+        ],
+        "measurements": [
+          210
+        ],
+        "immunohistochemical": [
+          212
+        ],
+        "staining": [
+          213
+        ],
+        "contractile": [
+          217,
+          236,
+          302,
+          382
+        ],
+        "function": [
+          218,
+          237
+        ],
+        "muscle-like": [
+          220,
+          341
+        ],
+        "structure,": [
+          221
+        ],
+        "respectively.": [
+          222
+        ],
+        "Results": [
+          223
+        ],
+        "indicate": [
+          224
+        ],
+        "that": [
+          225,
+          348
+        ],
+        "detrimental": [
+          233,
+          267
+        ],
+        "SMUs,": [
+          241
+        ],
+        "which": [
+          242
+        ],
+        "had": [
+          243
+        ],
+        "significantly": [
+          244,
+          371
+        ],
+        "lower": [
+          245,
+          254
+        ],
+        "forces": [
+          248,
+          303
+        ],
+        "compared": [
+          249,
+          308
+        ],
+        "with": [
+          250,
+          257,
+          300,
+          309
+        ],
+        "seeded": [
+          252,
+          279
+        ],
+        "Compared": [
+          256
+        ],
+        "control,": [
+          258
+        ],
+        "low": [
+          259,
+          333
+        ],
+        "densities": [
+          262
+        ],
+        "(1000–5000": [
+          263
+        ],
+        "cells/cm2)": [
+          264
+        ],
+        "no": [
+          266
+        ],
+        "growth,": [
+          273,
+          379
+        ],
+        "maturation,": [
+          274,
+          380
+        ],
+        "or": [
+          275,
+          317,
+          381
+        ],
+        "contractility.": [
+          276
+        ],
+        "Cell": [
+          277
+        ],
+        "cultures": [
+          278,
+          311
+        ],
+        "allowed": [
+          284
+        ],
+        "proliferate": [
+          286
+        ],
+        "90–100%": [
+          288
+        ],
+        "before": [
+          290
+        ],
+        "treatment": [
+          291
+        ],
+        "differentiation": [
+          294
+        ],
+        "media": [
+          295
+        ],
+        "(MDM)": [
+          296
+        ],
+        "resulted": [
+          297
+        ],
+        "greater": [
+          301
+        ],
+        "total": [
+          305
+        ],
+        "structure": [
+          307,
+          342
+        ],
+        "switched": [
+          312
+        ],
+        "MDM": [
+          314
+        ],
+        "when": [
+          315
+        ],
+        "underconfluent": [
+          316
+        ],
+        "overconfluent.": [
+          318
+        ],
+        "In": [
+          319
+        ],
+        "conclusion,": [
+          320
+        ],
+        "initial": [
+          321,
+          364,
+          386
+        ],
+        "can": [
+          328,
+          369
+        ],
+        "be": [
+          329,
+          370
+        ],
+        "decreased": [
+          330
+        ],
+        "without": [
+          337,
+          373
+        ],
+        "negatively": [
+          338,
+          374
+        ],
+        "impacting": [
+          339,
+          375
+        ],
+        "function.": [
+          344,
+          383
+        ],
+        "Our": [
+          345
+        ],
+        "research": [
+          346
+        ],
+        "suggests": [
+          347
+        ],
+        "during": [
+          349
+        ],
+        "translation": [
+          351
+        ],
+        "tissue": [
+          355
+        ],
+        "technologies": [
+          357
+        ],
+        "sources,": [
+          363
+        ],
+        "starting": [
+          365
+        ],
+        "lowered": [
+          372
+        ],
+        "Decreasing": [
+          384
+        ],
+        "density,": [
+          388
+        ],
+        "and,": [
+          389
+        ],
+        "thus,": [
+          390
+        ],
+        "biopsy": [
+          393
+        ],
+        "size": [
+          394
+        ],
+        "an": [
+          398
+        ],
+        "muscle,": [
+          402
+        ],
+        "increases": [
+          403
+        ],
+        "adoption": [
+          409
+        ],
+        "based": [
+          412
+        ],
+        "therapies": [
+          413
+        ],
+        "loss.": [
+          417
+        ]
+      },
+      "counts_by_year": [
+        {
+          "year": 2026,
+          "cited_by_count": 3
+        },
+        {
+          "year": 2025,
+          "cited_by_count": 5
+        },
+        {
+          "year": 2024,
+          "cited_by_count": 2
+        },
+        {
+          "year": 2023,
+          "cited_by_count": 3
+        }
+      ],
+      "updated_date": "2026-11-12T12:28:57.059296",
+      "created_date": "2021-10-25T00:00:00"
+    },
+    {
+      "id": "https://openalex.org/W3159958126",
+      "doi": null,
+      "title": "Project Confluence: Reflections on our approach to create emancipatory collaborations between engineers, scientists, and communities",
+      "display_name": "Project Confluence: Reflections on our approach to create emancipatory collaborations between engineers, scientists, and communities",
+      "relevance_score": 48.90594,
+      "publication_year": 2019,
+      "publication_date": "2019-12-01",
+      "ids": {
+        "openalex": "https://openalex.org/W3159958126",
+        "mag": "3159958126"
+      },
+      "language": "en",
+      "primary_location": {
+        "id": "mag:3159958126",
+        "doi": null,
+        "is_oa": false,
+        "landing_page_url": "http://ui.adsabs.harvard.edu/abs/2019AGUFMPA53A..02M/abstract",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4306501062",
+          "display_name": "AGU Fall Meeting Abstracts",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": true,
+          "listed_in": [
+            "cwts-core"
+          ],
+          "host_organization": null,
+          "host_organization_name": null,
+          "host_organization_lineage": [],
+          "host_organization_lineage_names": [],
+          "type": "journal"
+        },
+        "license": null,
+        "license_id": null,
+        "version": null,
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": "AGU Fall Meeting Abstracts",
+        "raw_type": null
+      },
+      "parent_works": [],
+      "lineage": [
+        "https://openalex.org/W3159958126"
+      ],
+      "child_works_count": 0,
+      "type": "conference-abstract",
+      "is_traditional": false,
+      "indexed_in": [],
+      "open_access": {
+        "is_oa": false,
+        "oa_status": "closed",
+        "oa_url": null,
+        "any_repository_has_fulltext": false
+      },
+      "authorships": [
+        {
+          "author_position": "first",
+          "author": {
+            "id": null,
+            "display_name": "J. Morales Guerrero",
+            "orcid": null,
+            "observed_orcids": []
+          },
+          "institutions": [],
+          "countries": [],
+          "is_corresponding": false,
+          "raw_author_name": "J. Morales Guerrero",
+          "raw_affiliation_strings": [],
+          "raw_orcid": null,
+          "affiliations": []
+        },
+        {
+          "author_position": "middle",
+          "author": {
+            "id": "https://openalex.org/A5058104790",
+            "display_name": "Anthony Levenda",
+            "orcid": "https://orcid.org/0000-0002-3325-8804",
+            "observed_orcids": [
+              "https://orcid.org/0000-0002-3325-8804"
+            ]
+          },
+          "institutions": [],
+          "countries": [],
+          "is_corresponding": false,
+          "raw_author_name": "Anthony Levenda",
+          "raw_affiliation_strings": [],
+          "raw_orcid": "https://orcid.org/0000-0002-3325-8804",
+          "affiliations": []
+        },
+        {
+          "author_position": "middle",
+          "author": {
+            "id": null,
+            "display_name": "Julien Boucher",
+            "orcid": "https://orcid.org/0009-0001-7394-8287",
+            "observed_orcids": [
+              "https://orcid.org/0009-0001-7394-8287"
+            ]
+          },
+          "institutions": [],
+          "countries": [],
+          "is_corresponding": false,
+          "raw_author_name": "Julien Boucher",
+          "raw_affiliation_strings": [],
+          "raw_orcid": "https://orcid.org/0009-0001-7394-8287",
+          "affiliations": []
+        },
+        {
+          "author_position": "last",
+          "author": {
+            "id": "https://openalex.org/A5000738876",
+            "display_name": "Darshan M. A. Karwat",
+            "orcid": "https://orcid.org/0000-0001-6990-7389",
+            "observed_orcids": [
+              "https://orcid.org/0000-0001-6990-7389"
+            ]
+          },
+          "institutions": [],
+          "countries": [],
+          "is_corresponding": false,
+          "raw_author_name": "Darshan M.A. Karwat",
+          "raw_affiliation_strings": [],
+          "raw_orcid": "https://orcid.org/0000-0001-6990-7389",
+          "affiliations": []
+        }
+      ],
+      "institutions": [],
+      "countries_distinct_count": 0,
+      "institutions_distinct_count": 0,
+      "corresponding_author_ids": [],
+      "corresponding_institution_ids": [],
+      "apc_list": null,
+      "apc_paid": null,
+      "fwci": null,
+      "is_authors_truncated": false,
+      "has_fulltext": false,
+      "cited_by_count": 0,
+      "citation_normalized_percentile": null,
+      "cited_by_percentile_year": null,
+      "biblio": {
+        "volume": "2019",
+        "issue": null,
+        "first_page": null,
+        "last_page": null
+      },
+      "is_retracted": false,
+      "is_paratext": false,
+      "is_xpac": false,
+      "primary_topic": {
+        "id": "https://openalex.org/T14218",
+        "display_name": "Engineering Education and Global Impact",
+        "score": 0.5493000149726868,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3303",
+          "display_name": "Development"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/33",
+          "display_name": "Social Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      "topics": [
+        {
+          "id": "https://openalex.org/T14218",
+          "display_name": "Engineering Education and Global Impact",
+          "score": 0.5493000149726868,
+          "subfield": {
+            "id": "https://openalex.org/subfields/3303",
+            "display_name": "Development"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/33",
+            "display_name": "Social Sciences"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/2",
+            "display_name": "Social Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T11806",
+          "display_name": "Service-Learning and Community Engagement",
+          "score": 0.18970000743865967,
+          "subfield": {
+            "id": "https://openalex.org/subfields/3304",
+            "display_name": "Education"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/33",
+            "display_name": "Social Sciences"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/2",
+            "display_name": "Social Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T12196",
+          "display_name": "Community Health and Development",
+          "score": 0.04270000010728836,
+          "subfield": {
+            "id": "https://openalex.org/subfields/2739",
+            "display_name": "Public Health, Environmental and Occupational Health"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/27",
+            "display_name": "Medicine"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/4",
+            "display_name": "Health Sciences"
+          }
+        }
+      ],
+      "keywords": [
+        {
+          "id": "https://openalex.org/keywords/community-engagement",
+          "display_name": "community participation",
+          "score": 0.5789999961853027
+        },
+        {
+          "id": "https://openalex.org/keywords/community-based-research",
+          "display_name": "community-based research",
+          "score": 0.4690000116825104
+        },
+        {
+          "id": "https://openalex.org/keywords/participatory-research",
+          "display_name": "participatory research",
+          "score": 0.4339999854564667
+        }
+      ],
+      "concepts": [
+        {
+          "id": "https://openalex.org/C77906462",
+          "wikidata": "https://www.wikidata.org/wiki/Q1140902",
+          "display_name": "Confluence",
+          "level": 2,
+          "score": 0.7994260787963867
+        },
+        {
+          "id": "https://openalex.org/C55587333",
+          "wikidata": "https://www.wikidata.org/wiki/Q1133029",
+          "display_name": "Engineering ethics",
+          "level": 1,
+          "score": 0.5197003483772278
+        },
+        {
+          "id": "https://openalex.org/C144024400",
+          "wikidata": "https://www.wikidata.org/wiki/Q21201",
+          "display_name": "Sociology",
+          "level": 0,
+          "score": 0.38140159845352173
+        },
+        {
+          "id": "https://openalex.org/C39549134",
+          "wikidata": "https://www.wikidata.org/wiki/Q133080",
+          "display_name": "Public relations",
+          "level": 1,
+          "score": 0.376755028963089
+        },
+        {
+          "id": "https://openalex.org/C127413603",
+          "wikidata": "https://www.wikidata.org/wiki/Q11023",
+          "display_name": "Engineering",
+          "level": 0,
+          "score": 0.3572661876678467
+        },
+        {
+          "id": "https://openalex.org/C17744445",
+          "wikidata": "https://www.wikidata.org/wiki/Q36442",
+          "display_name": "Political science",
+          "level": 0,
+          "score": 0.32469674944877625
+        },
+        {
+          "id": "https://openalex.org/C41008148",
+          "wikidata": "https://www.wikidata.org/wiki/Q21198",
+          "display_name": "Computer science",
+          "level": 0,
+          "score": 0.28617429733276367
+        },
+        {
+          "id": "https://openalex.org/C199360897",
+          "wikidata": "https://www.wikidata.org/wiki/Q9143",
+          "display_name": "Programming language",
+          "level": 1,
+          "score": 0.0
+        }
+      ],
+      "mesh": [],
+      "locations_count": 1,
+      "locations": [
+        {
+          "id": "mag:3159958126",
+          "doi": null,
+          "is_oa": false,
+          "landing_page_url": "http://ui.adsabs.harvard.edu/abs/2019AGUFMPA53A..02M/abstract",
+          "pdf_url": null,
+          "source": {
+            "id": "https://openalex.org/S4306501062",
+            "display_name": "AGU Fall Meeting Abstracts",
+            "issn_l": null,
+            "issn": null,
+            "is_oa": false,
+            "is_in_doaj": false,
+            "is_core": true,
+            "listed_in": [
+              "cwts-core"
+            ],
+            "host_organization": null,
+            "host_organization_name": null,
+            "host_organization_lineage": [],
+            "host_organization_lineage_names": [],
+            "type": "journal"
+          },
+          "license": null,
+          "license_id": null,
+          "version": null,
+          "is_accepted": false,
+          "is_published": false,
+          "raw_source_name": "AGU Fall Meeting Abstracts",
+          "raw_type": null
+        }
+      ],
+      "best_oa_location": null,
+      "sustainable_development_goals": [],
+      "study_designs": [],
+      "awards": [],
+      "funders": [],
+      "has_content": {
+        "pdf": false,
+        "grobid_xml": false
+      },
+      "content_urls": null,
+      "referenced_works_count": 0,
+      "referenced_works": [],
+      "related_works": [
+        "https://openalex.org/W3038902803",
+        "https://openalex.org/W2990975586",
+        "https://openalex.org/W3122218417",
+        "https://openalex.org/W3139829044",
+        "https://openalex.org/W3109561231",
+        "https://openalex.org/W3084436113",
+        "https://openalex.org/W2588081364",
+        "https://openalex.org/W3082990917",
+        "https://openalex.org/W3215508478",
+        "https://openalex.org/W2508437085"
+      ],
+      "abstract_inverted_index": null,
+      "counts_by_year": [],
+      "updated_date": "2026-09-29T14:09:16.559479",
+      "created_date": "2021-05-10T00:00:00"
+    },
+    {
+      "id": "https://openalex.org/W4214937459",
+      "doi": "https://doi.org/10.21079/11681/43441",
+      "title": "Wabash and Ohio River confluence hydraulic and sediment transport model investigation : a report for US Army Corps of Engineers, Louisville District",
+      "display_name": "Wabash and Ohio River confluence hydraulic and sediment transport model investigation : a report for US Army Corps of Engineers, Louisville District",
+      "relevance_score": 43.023052,
+      "publication_year": 2022,
+      "publication_date": "2022-03-02",
+      "ids": {
+        "openalex": "https://openalex.org/W4214937459",
+        "doi": "https://doi.org/10.21079/11681/43441"
+      },
+      "language": "en",
+      "primary_location": {
+        "id": "doi:10.21079/11681/43441",
+        "doi": "https://doi.org/10.21079/11681/43441",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.21079/11681/43441",
+        "pdf_url": "https://erdc-library.erdc.dren.mil/jspui/bitstream/11681/43441/1/ERDC-CHL%20TR-22-4.pdf",
+        "source": {
+          "id": "https://openalex.org/S4306402652",
+          "display_name": "US Army Corps of Engineers: Engineer Research and Development Center (Knowledge Core)",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "listed_in": [],
+          "host_organization": null,
+          "host_organization_name": null,
+          "host_organization_lineage": [],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": null,
+        "raw_type": "report"
+      },
+      "parent_works": [],
+      "lineage": [
+        "https://openalex.org/W4214937459"
+      ],
+      "child_works_count": 0,
+      "type": "report",
+      "is_traditional": false,
+      "indexed_in": [
+        "crossref"
+      ],
+      "open_access": {
+        "is_oa": true,
+        "oa_status": "green",
+        "oa_url": "https://erdc-library.erdc.dren.mil/jspui/bitstream/11681/43441/1/ERDC-CHL%20TR-22-4.pdf",
+        "any_repository_has_fulltext": true
+      },
+      "authorships": [
+        {
+          "author_position": "first",
+          "author": {
+            "id": "https://openalex.org/A5103155086",
+            "display_name": "Gary L. Bell",
+            "orcid": "https://orcid.org/0000-0003-3111-7984",
+            "observed_orcids": [
+              "https://orcid.org/0000-0003-3111-7984"
+            ]
+          },
+          "institutions": [],
+          "countries": [],
+          "is_corresponding": false,
+          "raw_author_name": "Gary Bell",
+          "raw_affiliation_strings": [],
+          "raw_orcid": null,
+          "affiliations": []
+        },
+        {
+          "author_position": "middle",
+          "author": {
+            "id": "https://openalex.org/A5113813463",
+            "display_name": "David D. Abraham",
+            "orcid": null,
+            "observed_orcids": []
+          },
+          "institutions": [],
+          "countries": [],
+          "is_corresponding": false,
+          "raw_author_name": "David Abraham",
+          "raw_affiliation_strings": [],
+          "raw_orcid": null,
+          "affiliations": []
+        },
+        {
+          "author_position": "middle",
+          "author": {
+            "id": "https://openalex.org/A5054692471",
+            "display_name": "Nathan D. Clifton",
+            "orcid": null,
+            "observed_orcids": []
+          },
+          "institutions": [],
+          "countries": [],
+          "is_corresponding": false,
+          "raw_author_name": "Nathan Clifton",
+          "raw_affiliation_strings": [],
+          "raw_orcid": null,
+          "affiliations": []
+        },
+        {
+          "author_position": "last",
+          "author": {
+            "id": "https://openalex.org/A5061587742",
+            "display_name": "Lamkin Kenneth",
+            "orcid": null,
+            "observed_orcids": []
+          },
+          "institutions": [],
+          "countries": [],
+          "is_corresponding": false,
+          "raw_author_name": "Lamkin Kenneth",
+          "raw_affiliation_strings": [],
+          "raw_orcid": null,
+          "affiliations": []
+        }
+      ],
+      "institutions": [],
+      "countries_distinct_count": 0,
+      "institutions_distinct_count": 0,
+      "corresponding_author_ids": [],
+      "corresponding_institution_ids": [],
+      "apc_list": null,
+      "apc_paid": null,
+      "fwci": null,
+      "is_authors_truncated": false,
+      "has_fulltext": true,
+      "cited_by_count": 1,
+      "citation_normalized_percentile": null,
+      "cited_by_percentile_year": null,
+      "biblio": {
+        "volume": null,
+        "issue": null,
+        "first_page": null,
+        "last_page": null
+      },
+      "is_retracted": false,
+      "is_paratext": false,
+      "is_xpac": false,
+      "primary_topic": {
+        "id": "https://openalex.org/T10577",
+        "display_name": "Hydrology and Sediment Transport Processes",
+        "score": 0.9707000255584717,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1904",
+          "display_name": "Earth-Surface Processes"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/19",
+          "display_name": "Earth and Planetary Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      "topics": [
+        {
+          "id": "https://openalex.org/T10577",
+          "display_name": "Hydrology and Sediment Transport Processes",
+          "score": 0.9707000255584717,
+          "subfield": {
+            "id": "https://openalex.org/subfields/1904",
+            "display_name": "Earth-Surface Processes"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/19",
+            "display_name": "Earth and Planetary Sciences"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T13785",
+          "display_name": "Aquatic and Environmental Studies",
+          "score": 0.017999999225139618,
+          "subfield": {
+            "id": "https://openalex.org/subfields/1904",
+            "display_name": "Earth-Surface Processes"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/19",
+            "display_name": "Earth and Planetary Sciences"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T12022",
+          "display_name": "Hydraulic flow and structures",
+          "score": 0.005400000140070915,
+          "subfield": {
+            "id": "https://openalex.org/subfields/2205",
+            "display_name": "Civil and Structural Engineering"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/22",
+            "display_name": "Engineering"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        }
+      ],
+      "keywords": [
+        {
+          "id": "https://openalex.org/keywords/wabash-river",
+          "display_name": "Wabash River",
+          "score": 0.9639999866485596
+        },
+        {
+          "id": "https://openalex.org/keywords/river-avulsion",
+          "display_name": "river avulsion",
+          "score": 0.8220000267028809
+        },
+        {
+          "id": "https://openalex.org/keywords/channel-shoaling",
+          "display_name": "channel shoaling",
+          "score": 0.7419999837875366
+        },
+        {
+          "id": "https://openalex.org/keywords/sediment-transport",
+          "display_name": "sediment transport",
+          "score": 0.6549999713897705
+        },
+        {
+          "id": "https://openalex.org/keywords/dredging",
+          "display_name": "dredging",
+          "score": 0.6909999847412109
+        },
+        {
+          "id": "https://openalex.org/keywords/two-dimensional-hydrodynamic-model",
+          "display_name": "two-dimensional hydrodynamic model",
+          "score": 0.6819999814033508
+        },
+        {
+          "id": "https://openalex.org/keywords/submerged-dike",
+          "display_name": "submerged dike",
+          "score": 0.9909999966621399
+        },
+        {
+          "id": "https://openalex.org/keywords/channel-depth",
+          "display_name": "channel depth",
+          "score": 0.33000001311302185
+        },
+        {
+          "id": "https://openalex.org/keywords/suspended-sediment-concentration",
+          "display_name": "suspended sediment concentration",
+          "score": 0.7310000061988831
+        }
+      ],
+      "concepts": [
+        {
+          "id": "https://openalex.org/C2781279111",
+          "wikidata": "https://www.wikidata.org/wiki/Q852170",
+          "display_name": "Dredging",
+          "level": 2,
+          "score": 0.7735763788223267
+        },
+        {
+          "id": "https://openalex.org/C65589250",
+          "wikidata": "https://www.wikidata.org/wiki/Q7445303",
+          "display_name": "Sediment transport",
+          "level": 3,
+          "score": 0.7453770041465759
+        },
+        {
+          "id": "https://openalex.org/C83893233",
+          "wikidata": "https://www.wikidata.org/wiki/Q662806",
+          "display_name": "Dike",
+          "level": 2,
+          "score": 0.7408040165901184
+        },
+        {
+          "id": "https://openalex.org/C76886044",
+          "wikidata": "https://www.wikidata.org/wiki/Q2883300",
+          "display_name": "Hydrology (agriculture)",
+          "level": 2,
+          "score": 0.6642887592315674
+        },
+        {
+          "id": "https://openalex.org/C2816523",
+          "wikidata": "https://www.wikidata.org/wiki/Q180184",
+          "display_name": "Sediment",
+          "level": 2,
+          "score": 0.6564348340034485
+        },
+        {
+          "id": "https://openalex.org/C127313418",
+          "wikidata": "https://www.wikidata.org/wiki/Q1069",
+          "display_name": "Geology",
+          "level": 0,
+          "score": 0.637069582939148
+        },
+        {
+          "id": "https://openalex.org/C127162648",
+          "wikidata": "https://www.wikidata.org/wiki/Q16858953",
+          "display_name": "Channel (broadcasting)",
+          "level": 2,
+          "score": 0.5527302026748657
+        },
+        {
+          "id": "https://openalex.org/C83877588",
+          "wikidata": "https://www.wikidata.org/wiki/Q28337",
+          "display_name": "Shoal",
+          "level": 2,
+          "score": 0.46430614590644836
+        },
+        {
+          "id": "https://openalex.org/C174943157",
+          "wikidata": "https://www.wikidata.org/wiki/Q810826",
+          "display_name": "Bathymetry",
+          "level": 2,
+          "score": 0.46382227540016174
+        },
+        {
+          "id": "https://openalex.org/C169961344",
+          "wikidata": "https://www.wikidata.org/wiki/Q177784",
+          "display_name": "Hydraulics",
+          "level": 2,
+          "score": 0.43817001581192017
+        },
+        {
+          "id": "https://openalex.org/C77906462",
+          "wikidata": "https://www.wikidata.org/wiki/Q1140902",
+          "display_name": "Confluence",
+          "level": 2,
+          "score": 0.423137903213501
+        },
+        {
+          "id": "https://openalex.org/C114793014",
+          "wikidata": "https://www.wikidata.org/wiki/Q52109",
+          "display_name": "Geomorphology",
+          "level": 1,
+          "score": 0.37075677514076233
+        },
+        {
+          "id": "https://openalex.org/C187320778",
+          "wikidata": "https://www.wikidata.org/wiki/Q1349130",
+          "display_name": "Geotechnical engineering",
+          "level": 1,
+          "score": 0.31577369570732117
+        },
+        {
+          "id": "https://openalex.org/C111368507",
+          "wikidata": "https://www.wikidata.org/wiki/Q43518",
+          "display_name": "Oceanography",
+          "level": 1,
+          "score": 0.20378348231315613
+        },
+        {
+          "id": "https://openalex.org/C127413603",
+          "wikidata": "https://www.wikidata.org/wiki/Q11023",
+          "display_name": "Engineering",
+          "level": 0,
+          "score": 0.10433846712112427
+        },
+        {
+          "id": "https://openalex.org/C17409809",
+          "wikidata": "https://www.wikidata.org/wiki/Q161764",
+          "display_name": "Geochemistry",
+          "level": 1,
+          "score": 0.07552391290664673
+        },
+        {
+          "id": "https://openalex.org/C119599485",
+          "wikidata": "https://www.wikidata.org/wiki/Q43035",
+          "display_name": "Electrical engineering",
+          "level": 1,
+          "score": 0.0
+        },
+        {
+          "id": "https://openalex.org/C146978453",
+          "wikidata": "https://www.wikidata.org/wiki/Q3798668",
+          "display_name": "Aerospace engineering",
+          "level": 1,
+          "score": 0.0
+        },
+        {
+          "id": "https://openalex.org/C199360897",
+          "wikidata": "https://www.wikidata.org/wiki/Q9143",
+          "display_name": "Programming language",
+          "level": 1,
+          "score": 0.0
+        },
+        {
+          "id": "https://openalex.org/C41008148",
+          "wikidata": "https://www.wikidata.org/wiki/Q21198",
+          "display_name": "Computer science",
+          "level": 0,
+          "score": 0.0
+        }
+      ],
+      "mesh": [],
+      "locations_count": 3,
+      "locations": [
+        {
+          "id": "doi:10.21079/11681/43441",
+          "doi": "https://doi.org/10.21079/11681/43441",
+          "is_oa": true,
+          "landing_page_url": "https://doi.org/10.21079/11681/43441",
+          "pdf_url": "https://erdc-library.erdc.dren.mil/jspui/bitstream/11681/43441/1/ERDC-CHL%20TR-22-4.pdf",
+          "source": {
+            "id": "https://openalex.org/S4306402652",
+            "display_name": "US Army Corps of Engineers: Engineer Research and Development Center (Knowledge Core)",
+            "issn_l": null,
+            "issn": null,
+            "is_oa": false,
+            "is_in_doaj": false,
+            "is_core": false,
+            "listed_in": [],
+            "host_organization": null,
+            "host_organization_name": null,
+            "host_organization_lineage": [],
+            "host_organization_lineage_names": [],
+            "type": "repository"
+          },
+          "license": null,
+          "license_id": null,
+          "version": "publishedVersion",
+          "is_accepted": true,
+          "is_published": true,
+          "raw_source_name": null,
+          "raw_type": "report"
+        },
+        {
+          "id": "pmh:oai:erdc-library.erdc.dren.mil:11681/43441",
+          "doi": null,
+          "is_oa": false,
+          "landing_page_url": "https://hdl.handle.net/11681/43441",
+          "pdf_url": null,
+          "source": {
+            "id": "https://openalex.org/S4306402652",
+            "display_name": "US Army Corps of Engineers: Engineer Research and Development Center (Knowledge Core)",
+            "issn_l": null,
+            "issn": null,
+            "is_oa": false,
+            "is_in_doaj": false,
+            "is_core": false,
+            "listed_in": [],
+            "host_organization": null,
+            "host_organization_name": null,
+            "host_organization_lineage": [],
+            "host_organization_lineage_names": [],
+            "type": "repository"
+          },
+          "license": null,
+          "license_id": null,
+          "version": "submittedVersion",
+          "is_accepted": false,
+          "is_published": false,
+          "raw_source_name": "This Digital Resource was created in Microsoft Word and Adobe Acrobat",
+          "raw_type": "Report"
+        },
+        {
+          "id": "pmh:oai:henry.baw.de:20.500.11970/116622",
+          "doi": null,
+          "is_oa": false,
+          "landing_page_url": "https://hdl.handle.net/20.500.11970/116622",
+          "pdf_url": null,
+          "source": {
+            "id": "https://openalex.org/S4306402631",
+            "display_name": "Hydraulic Engineering Repository (HENRY) (Bundesanstalt für Wasserbau)",
+            "issn_l": null,
+            "issn": null,
+            "is_oa": false,
+            "is_in_doaj": false,
+            "is_core": false,
+            "listed_in": [],
+            "host_organization": "https://openalex.org/I4210152653",
+            "host_organization_name": "Bundesanstalt für Wasserbau",
+            "host_organization_lineage": [
+              "https://openalex.org/I4210152653"
+            ],
+            "host_organization_lineage_names": [],
+            "type": "repository"
+          },
+          "license": null,
+          "license_id": null,
+          "version": "submittedVersion",
+          "is_accepted": false,
+          "is_published": false,
+          "raw_source_name": null,
+          "raw_type": "Report"
+        }
+      ],
+      "best_oa_location": {
+        "id": "doi:10.21079/11681/43441",
+        "doi": "https://doi.org/10.21079/11681/43441",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.21079/11681/43441",
+        "pdf_url": "https://erdc-library.erdc.dren.mil/jspui/bitstream/11681/43441/1/ERDC-CHL%20TR-22-4.pdf",
+        "source": {
+          "id": "https://openalex.org/S4306402652",
+          "display_name": "US Army Corps of Engineers: Engineer Research and Development Center (Knowledge Core)",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "listed_in": [],
+          "host_organization": null,
+          "host_organization_name": null,
+          "host_organization_lineage": [],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": null,
+        "raw_type": "report"
+      },
+      "sustainable_development_goals": [
+        {
+          "display_name": "Clean water and sanitation",
+          "score": 0.53329998254776,
+          "id": "https://metadata.un.org/sdg/6"
+        }
+      ],
+      "study_designs": [],
+      "awards": [],
+      "funders": [
+        {
+          "id": "https://openalex.org/F4320306078",
+          "display_name": "U.S. Department of Defense",
+          "ror": "https://ror.org/0447fe631"
+        },
+        {
+          "id": "https://openalex.org/F4320338258",
+          "display_name": "Engineer Research and Development Center",
+          "ror": "https://ror.org/027mhn368"
+        }
+      ],
+      "has_content": {
+        "pdf": true,
+        "grobid_xml": true
+      },
+      "content_urls": {
+        "pdf": "https://content.openalex.org/works/W4214937459.pdf",
+        "grobid_xml": "https://content.openalex.org/works/W4214937459.grobid-xml"
+      },
+      "referenced_works_count": 4,
+      "referenced_works": [
+        "https://openalex.org/W290295943",
+        "https://openalex.org/W363573704",
+        "https://openalex.org/W2004529964",
+        "https://openalex.org/W2911753000"
+      ],
+      "related_works": [
+        "https://openalex.org/W1823175627",
+        "https://openalex.org/W2123732761",
+        "https://openalex.org/W7127755379",
+        "https://openalex.org/W2140711655",
+        "https://openalex.org/W2566118601",
+        "https://openalex.org/W114017254",
+        "https://openalex.org/W2746999508",
+        "https://openalex.org/W4410410511",
+        "https://openalex.org/W6959888884",
+        "https://openalex.org/W2368226501"
+      ],
+      "abstract_inverted_index": {
+        "Avulsions": [
+          0
+        ],
+        "of": [
+          1,
+          28,
+          92,
+          156,
+          182
+        ],
+        "the": [
+          2,
+          13,
+          21,
+          29,
+          33,
+          116,
+          149,
+          169,
+          177,
+          180,
+          183
+        ],
+        "Wabash": [
+          3,
+          162
+        ],
+        "River": [
+          4,
+          15
+        ],
+        "in": [
+          5,
+          17,
+          20,
+          70,
+          75,
+          82
+        ],
+        "2008": [
+          6
+        ],
+        "through": [
+          7
+        ],
+        "2011": [
+          8
+        ],
+        "at": [
+          9
+        ],
+        "its": [
+          10
+        ],
+        "confluence": [
+          11
+        ],
+        "with": [
+          12,
+          131,
+          172
+        ],
+        "Ohio": [
+          14,
+          22
+        ],
+        "resulted": [
+          16
+        ],
+        "significant": [
+          18
+        ],
+        "shoaling": [
+          19
+        ],
+        "River.": [
+          23
+        ],
+        "This": [
+          24
+        ],
+        "caused": [
+          25
+        ],
+        "a": [
+          26,
+          142,
+          154,
+          173
+        ],
+        "re-alignment": [
+          27
+        ],
+        "navigation": [
+          30
+        ],
+        "channel": [
+          31,
+          196
+        ],
+        "and": [
+          32,
+          53,
+          79,
+          90,
+          102,
+          104,
+          110,
+          125,
+          164
+        ],
+        "need": [
+          34
+        ],
+        "for": [
+          35
+        ],
+        "frequent": [
+          36
+        ],
+        "dredging.": [
+          37
+        ],
+        "A": [
+          38
+        ],
+        "two-dimensional": [
+          39
+        ],
+        "numerical": [
+          40
+        ],
+        "hydrodynamic": [
+          41,
+          109
+        ],
+        "model,": [
+          42
+        ],
+        "Adaptive": [
+          43
+        ],
+        "Hydraulics": [
+          44
+        ],
+        "(AdH),": [
+          45
+        ],
+        "was": [
+          46,
+          68,
+          136
+        ],
+        "developed": [
+          47
+        ],
+        "to": [
+          48,
+          56,
+          61,
+          138,
+          179
+        ],
+        "simulate": [
+          49,
+          57
+        ],
+        "base": [
+          50
+        ],
+        "(existing)": [
+          51
+        ],
+        "conditions": [
+          52
+        ],
+        "then": [
+          54
+        ],
+        "altered": [
+          55
+        ],
+        "multiple": [
+          58
+        ],
+        "alternative": [
+          59,
+          146,
+          187
+        ],
+        "scenarios": [
+          60
+        ],
+        "address": [
+          62
+        ],
+        "these": [
+          63
+        ],
+        "sediment": [
+          64,
+          97,
+          100,
+          111,
+          123,
+          127
+        ],
+        "issues.": [
+          65
+        ],
+        "The": [
+          66,
+          107,
+          145,
+          185
+        ],
+        "study": [
+          67
+        ],
+        "conducted": [
+          69
+        ],
+        "two": [
+          71
+        ],
+        "phases,": [
+          72
+        ],
+        "Phase": [
+          73,
+          80
+        ],
+        "1": [
+          74
+        ],
+        "2013": [
+          76
+        ],
+        "–": [
+          77,
+          84
+        ],
+        "2015": [
+          78
+        ],
+        "2": [
+          81
+        ],
+        "2018": [
+          83
+        ],
+        "2020.": [
+          85
+        ],
+        "Field": [
+          86
+        ],
+        "data": [
+          87
+        ],
+        "were": [
+          88
+        ],
+        "collected": [
+          89
+        ],
+        "consisted": [
+          91
+        ],
+        "multi-beam": [
+          93
+        ],
+        "bathymetric": [
+          94
+        ],
+        "elevations,": [
+          95
+        ],
+        "bed": [
+          96,
+          122
+        ],
+        "samples,": [
+          98,
+          101
+        ],
+        "suspended": [
+          99,
+          126
+        ],
+        "discharge": [
+          103
+        ],
+        "velocity": [
+          105
+        ],
+        "measurements.": [
+          106
+        ],
+        "model": [
+          108
+        ],
+        "transport": [
+          112
+        ],
+        "computations": [
+          113
+        ],
+        "adequately": [
+          114
+        ],
+        "replicated": [
+          115
+        ],
+        "water": [
+          117
+        ],
+        "surface": [
+          118
+        ],
+        "slope,": [
+          119
+        ],
+        "flow": [
+          120
+        ],
+        "splits,": [
+          121
+        ],
+        "gradations,": [
+          124
+        ],
+        "concentrations": [
+          128
+        ],
+        "when": [
+          129
+        ],
+        "compared": [
+          130
+        ],
+        "field": [
+          132
+        ],
+        "data.": [
+          133
+        ],
+        "Thus,": [
+          134
+        ],
+        "it": [
+          135
+        ],
+        "shown": [
+          137
+        ],
+        "be": [
+          139
+        ],
+        "dependable": [
+          140
+        ],
+        "as": [
+          141
+        ],
+        "predictive": [
+          143
+        ],
+        "tool.": [
+          144
+        ],
+        "that": [
+          147
+        ],
+        "produced": [
+          148,
+          188
+        ],
+        "most": [
+          150
+        ],
+        "desirable": [
+          151
+        ],
+        "results": [
+          152
+        ],
+        "included": [
+          153
+        ],
+        "combination": [
+          155
+        ],
+        "three": [
+          157
+        ],
+        "level-crested": [
+          158
+        ],
+        "emergent": [
+          159
+        ],
+        "dikes": [
+          160,
+          167
+        ],
+        "on": [
+          161,
+          168
+        ],
+        "Island": [
+          163
+        ],
+        "four": [
+          165
+        ],
+        "submerged": [
+          166
+        ],
+        "Illinois": [
+          170
+        ],
+        "shore": [
+          171
+        ],
+        "level": [
+          174
+        ],
+        "crest": [
+          175
+        ],
+        "from": [
+          176
+        ],
+        "bank": [
+          178
+        ],
+        "tip": [
+          181
+        ],
+        "dike.": [
+          184
+        ],
+        "selected": [
+          186
+        ],
+        "an": [
+          189
+        ],
+        "improved": [
+          190
+        ],
+        "sailing": [
+          191
+        ],
+        "line": [
+          192
+        ],
+        "while": [
+          193
+        ],
+        "maintaining": [
+          194
+        ],
+        "authorized": [
+          195
+        ],
+        "depths.": [
+          197
+        ]
+      },
+      "counts_by_year": [
+        {
+          "year": 2022,
+          "cited_by_count": 1
+        }
+      ],
+      "updated_date": "2026-11-10T11:39:43.021295",
+      "created_date": "2022-03-05T00:00:00"
+    },
+    {
+      "id": "https://openalex.org/W1502223184",
+      "doi": "https://doi.org/10.1002/9781444303995.ch8",
+      "title": "Morphology and Facies Models of Channel Confluences",
+      "display_name": "Morphology and Facies Models of Channel Confluences",
+      "relevance_score": 32.928234,
+      "publication_year": 1993,
+      "publication_date": "1993-09-16",
+      "ids": {
+        "openalex": "https://openalex.org/W1502223184",
+        "doi": "https://doi.org/10.1002/9781444303995.ch8",
+        "mag": "1502223184"
+      },
+      "language": "en",
+      "primary_location": {
+        "id": "doi:10.1002/9781444303995.ch8",
+        "doi": "https://doi.org/10.1002/9781444303995.ch8",
+        "is_oa": false,
+        "landing_page_url": "https://doi.org/10.1002/9781444303995.ch8",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4306464293",
+          "display_name": "Wiley eBooks",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "listed_in": [],
+          "host_organization": "https://openalex.org/P4310320595",
+          "host_organization_name": "Wiley",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310320595"
+          ],
+          "host_organization_lineage_names": [
+            "Wiley"
+          ],
+          "type": "ebook platform"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Alluvial Sedimentation",
+        "raw_type": "other"
+      },
+      "parent_works": [
+        {
+          "id": "https://openalex.org/W4241044468",
+          "display_name": "Alluvial Sedimentation",
+          "relationship": "volume"
+        }
+      ],
+      "lineage": [
+        "https://openalex.org/W1502223184",
+        "https://openalex.org/W4241044468"
+      ],
+      "child_works_count": 0,
+      "type": "book-chapter",
+      "is_traditional": true,
+      "indexed_in": [
+        "crossref"
+      ],
+      "open_access": {
+        "is_oa": false,
+        "oa_status": "closed",
+        "oa_url": null,
+        "any_repository_has_fulltext": false
+      },
+      "authorships": [
+        {
+          "author_position": "first",
+          "author": {
+            "id": "https://openalex.org/A5013363915",
+            "display_name": "Charlie S. Bristow",
+            "orcid": "https://orcid.org/0000-0002-6275-4591",
+            "observed_orcids": [
+              "https://orcid.org/0000-0002-6275-4591"
+            ]
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I98259816",
+              "display_name": "Birkbeck, University of London",
+              "ror": "https://ror.org/02mb95055",
+              "country_code": "GB",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I124357947",
+                "https://openalex.org/I98259816"
+              ]
+            }
+          ],
+          "countries": [
+            "GB"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "C. S. Bristow",
+          "raw_affiliation_strings": [
+            "Department of Geology, Birkbeck College, University of London, Malet Street, London WC1E 7HX, UK"
+          ],
+          "raw_orcid": null,
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Department of Geology, Birkbeck College, University of London, Malet Street, London WC1E 7HX, UK",
+              "institution_ids": [
+                "https://openalex.org/I98259816"
+              ]
+            }
+          ]
+        },
+        {
+          "author_position": "middle",
+          "author": {
+            "id": "https://openalex.org/A5063274653",
+            "display_name": "Jim Best",
+            "orcid": "https://orcid.org/0000-0001-5314-6140",
+            "observed_orcids": [
+              "https://orcid.org/0000-0001-5314-6140"
+            ]
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I130828816",
+              "display_name": "University of Leeds",
+              "ror": "https://ror.org/024mrxd33",
+              "country_code": "GB",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I130828816"
+              ]
+            }
+          ],
+          "countries": [
+            "GB"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "J. L. Best",
+          "raw_affiliation_strings": [
+            " Department of Earth Sciences, University of Leeds, Leeds, LS2 9JT, UK"
+          ],
+          "raw_orcid": null,
+          "affiliations": [
+            {
+              "raw_affiliation_string": " Department of Earth Sciences, University of Leeds, Leeds, LS2 9JT, UK",
+              "institution_ids": [
+                "https://openalex.org/I130828816"
+              ]
+            }
+          ]
+        },
+        {
+          "author_position": "last",
+          "author": {
+            "id": "https://openalex.org/A5110430838",
+            "display_name": "André G. Roy",
+            "orcid": "https://orcid.org/0000-0001-9829-8965",
+            "observed_orcids": [
+              "https://orcid.org/0000-0001-9829-8965"
+            ]
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I70931966",
+              "display_name": "Université de Montréal",
+              "ror": "https://ror.org/0161xgx34",
+              "country_code": "CA",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I70931966"
+              ]
+            }
+          ],
+          "countries": [
+            "CA"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "A. G. Roy",
+          "raw_affiliation_strings": [
+            "Départment de Geographié, Université de Montréal, Quebec H3C 3J7, Canada",
+            "Départment de Geographié, Université de Montréal, Quebec H3C 3J7, Canada"
+          ],
+          "raw_orcid": null,
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Départment de Geographié, Université de Montréal, Quebec H3C 3J7, Canada",
+              "institution_ids": [
+                "https://openalex.org/I70931966"
+              ]
+            },
+            {
+              "raw_affiliation_string": "Départment de Geographié, Université de Montréal, Quebec H3C 3J7, Canada",
+              "institution_ids": [
+                "https://openalex.org/I70931966"
+              ]
+            }
+          ]
+        }
+      ],
+      "institutions": [],
+      "countries_distinct_count": 2,
+      "institutions_distinct_count": 3,
+      "corresponding_author_ids": [],
+      "corresponding_institution_ids": [],
+      "apc_list": null,
+      "apc_paid": null,
+      "fwci": 6.2185,
+      "is_authors_truncated": false,
+      "has_fulltext": false,
+      "cited_by_count": 71,
+      "citation_normalized_percentile": {
+        "value": 0.9765343,
+        "is_in_top_1_percent": false,
+        "is_in_top_10_percent": true
+      },
+      "cited_by_percentile_year": {
+        "min": 88,
+        "max": 98
+      },
+      "biblio": {
+        "volume": null,
+        "issue": null,
+        "first_page": "89",
+        "last_page": "100"
+      },
+      "is_retracted": false,
+      "is_paratext": false,
+      "is_xpac": false,
+      "primary_topic": {
+        "id": "https://openalex.org/T10577",
+        "display_name": "Hydrology and Sediment Transport Processes",
+        "score": 0.8345000147819519,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1904",
+          "display_name": "Earth-Surface Processes"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/19",
+          "display_name": "Earth and Planetary Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      "topics": [
+        {
+          "id": "https://openalex.org/T10577",
+          "display_name": "Hydrology and Sediment Transport Processes",
+          "score": 0.8345000147819519,
+          "subfield": {
+            "id": "https://openalex.org/subfields/1904",
+            "display_name": "Earth-Surface Processes"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/19",
+            "display_name": "Earth and Planetary Sciences"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T10965",
+          "display_name": "Geological formations and processes",
+          "score": 0.16459999978542328,
+          "subfield": {
+            "id": "https://openalex.org/subfields/1904",
+            "display_name": "Earth-Surface Processes"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/19",
+            "display_name": "Earth and Planetary Sciences"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T10647",
+          "display_name": "Coastal and Marine Dynamics",
+          "score": 9.999999747378752e-05,
+          "subfield": {
+            "id": "https://openalex.org/subfields/1904",
+            "display_name": "Earth-Surface Processes"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/19",
+            "display_name": "Earth and Planetary Sciences"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        }
+      ],
+      "keywords": [
+        {
+          "id": "https://openalex.org/keywords/channel-confluence",
+          "display_name": "channel confluence",
+          "score": 0.9990000128746033
+        },
+        {
+          "id": "https://openalex.org/keywords/confluence-angle",
+          "display_name": "confluence angle",
+          "score": 0.699999988079071
+        },
+        {
+          "id": "https://openalex.org/keywords/discharge-ratio",
+          "display_name": "discharge ratio",
+          "score": 0.9580000042915344
+        },
+        {
+          "id": "https://openalex.org/keywords/flow-separation",
+          "display_name": "flow separation",
+          "score": 0.703000009059906
+        },
+        {
+          "id": "https://openalex.org/keywords/sedimentary-facies",
+          "display_name": "sedimentary facies",
+          "score": 0.6909999847412109
+        },
+        {
+          "id": "https://openalex.org/keywords/bedforms",
+          "display_name": "bedforms",
+          "score": 0.859000027179718
+        },
+        {
+          "id": "https://openalex.org/keywords/braided-rivers",
+          "display_name": "braided rivers",
+          "score": 0.6909999847412109
+        },
+        {
+          "id": "https://openalex.org/keywords/channel-abandonment",
+          "display_name": "channel abandonment",
+          "score": 0.7239999771118164
+        },
+        {
+          "id": "https://openalex.org/keywords/brahmaputra-river",
+          "display_name": "Brahmaputra River",
+          "score": 0.871999979019165
+        },
+        {
+          "id": "https://openalex.org/keywords/flume-experiments",
+          "display_name": "flume experiments",
+          "score": 0.4620000123977661
+        }
+      ],
+      "concepts": [
+        {
+          "id": "https://openalex.org/C77906462",
+          "wikidata": "https://www.wikidata.org/wiki/Q1140902",
+          "display_name": "Confluence",
+          "level": 2,
+          "score": 0.9522736072540283
+        },
+        {
+          "id": "https://openalex.org/C146588470",
+          "wikidata": "https://www.wikidata.org/wiki/Q742139",
+          "display_name": "Facies",
+          "level": 3,
+          "score": 0.8231221437454224
+        },
+        {
+          "id": "https://openalex.org/C127313418",
+          "wikidata": "https://www.wikidata.org/wiki/Q1069",
+          "display_name": "Geology",
+          "level": 0,
+          "score": 0.7579611539840698
+        },
+        {
+          "id": "https://openalex.org/C126753816",
+          "wikidata": "https://www.wikidata.org/wiki/Q1994702",
+          "display_name": "Sedimentary depositional environment",
+          "level": 3,
+          "score": 0.6982727646827698
+        },
+        {
+          "id": "https://openalex.org/C127162648",
+          "wikidata": "https://www.wikidata.org/wiki/Q16858953",
+          "display_name": "Channel (broadcasting)",
+          "level": 2,
+          "score": 0.6862246990203857
+        },
+        {
+          "id": "https://openalex.org/C16828302",
+          "wikidata": "https://www.wikidata.org/wiki/Q159675",
+          "display_name": "Tributary",
+          "level": 2,
+          "score": 0.6518201231956482
+        },
+        {
+          "id": "https://openalex.org/C6494504",
+          "wikidata": "https://www.wikidata.org/wiki/Q82480",
+          "display_name": "Sedimentary rock",
+          "level": 2,
+          "score": 0.5457864999771118
+        },
+        {
+          "id": "https://openalex.org/C2778320725",
+          "wikidata": "https://www.wikidata.org/wiki/Q68530",
+          "display_name": "Flume",
+          "level": 3,
+          "score": 0.5389448404312134
+        },
+        {
+          "id": "https://openalex.org/C74532950",
+          "wikidata": "https://www.wikidata.org/wiki/Q4879253",
+          "display_name": "Bedform",
+          "level": 4,
+          "score": 0.5145770907402039
+        },
+        {
+          "id": "https://openalex.org/C114793014",
+          "wikidata": "https://www.wikidata.org/wiki/Q52109",
+          "display_name": "Geomorphology",
+          "level": 1,
+          "score": 0.4886325001716614
+        },
+        {
+          "id": "https://openalex.org/C64297162",
+          "wikidata": "https://www.wikidata.org/wiki/Q1987070",
+          "display_name": "Deposition (geology)",
+          "level": 3,
+          "score": 0.4708765745162964
+        },
+        {
+          "id": "https://openalex.org/C51889082",
+          "wikidata": "https://www.wikidata.org/wiki/Q5072521",
+          "display_name": "Channelized",
+          "level": 2,
+          "score": 0.44085875153541565
+        },
+        {
+          "id": "https://openalex.org/C134872888",
+          "wikidata": "https://www.wikidata.org/wiki/Q1982302",
+          "display_name": "Sedimentary structures",
+          "level": 4,
+          "score": 0.4366023540496826
+        },
+        {
+          "id": "https://openalex.org/C2816523",
+          "wikidata": "https://www.wikidata.org/wiki/Q180184",
+          "display_name": "Sediment",
+          "level": 2,
+          "score": 0.39396756887435913
+        },
+        {
+          "id": "https://openalex.org/C151730666",
+          "wikidata": "https://www.wikidata.org/wiki/Q7205",
+          "display_name": "Paleontology",
+          "level": 1,
+          "score": 0.3061535656452179
+        },
+        {
+          "id": "https://openalex.org/C65589250",
+          "wikidata": "https://www.wikidata.org/wiki/Q7445303",
+          "display_name": "Sediment transport",
+          "level": 3,
+          "score": 0.28631556034088135
+        },
+        {
+          "id": "https://openalex.org/C38349280",
+          "wikidata": "https://www.wikidata.org/wiki/Q1434290",
+          "display_name": "Flow (mathematics)",
+          "level": 2,
+          "score": 0.2712569832801819
+        },
+        {
+          "id": "https://openalex.org/C2524010",
+          "wikidata": "https://www.wikidata.org/wiki/Q8087",
+          "display_name": "Geometry",
+          "level": 1,
+          "score": 0.2641410827636719
+        },
+        {
+          "id": "https://openalex.org/C109007969",
+          "wikidata": "https://www.wikidata.org/wiki/Q749565",
+          "display_name": "Structural basin",
+          "level": 2,
+          "score": 0.1439363658428192
+        },
+        {
+          "id": "https://openalex.org/C205649164",
+          "wikidata": "https://www.wikidata.org/wiki/Q1071",
+          "display_name": "Geography",
+          "level": 0,
+          "score": 0.13102146983146667
+        },
+        {
+          "id": "https://openalex.org/C76155785",
+          "wikidata": "https://www.wikidata.org/wiki/Q418",
+          "display_name": "Telecommunications",
+          "level": 1,
+          "score": 0.0
+        },
+        {
+          "id": "https://openalex.org/C33923547",
+          "wikidata": "https://www.wikidata.org/wiki/Q395",
+          "display_name": "Mathematics",
+          "level": 0,
+          "score": 0.0
+        },
+        {
+          "id": "https://openalex.org/C58640448",
+          "wikidata": "https://www.wikidata.org/wiki/Q42515",
+          "display_name": "Cartography",
+          "level": 1,
+          "score": 0.0
+        },
+        {
+          "id": "https://openalex.org/C199360897",
+          "wikidata": "https://www.wikidata.org/wiki/Q9143",
+          "display_name": "Programming language",
+          "level": 1,
+          "score": 0.0
+        },
+        {
+          "id": "https://openalex.org/C119599485",
+          "wikidata": "https://www.wikidata.org/wiki/Q43035",
+          "display_name": "Electrical engineering",
+          "level": 1,
+          "score": 0.0
+        },
+        {
+          "id": "https://openalex.org/C41008148",
+          "wikidata": "https://www.wikidata.org/wiki/Q21198",
+          "display_name": "Computer science",
+          "level": 0,
+          "score": 0.0
+        },
+        {
+          "id": "https://openalex.org/C127413603",
+          "wikidata": "https://www.wikidata.org/wiki/Q11023",
+          "display_name": "Engineering",
+          "level": 0,
+          "score": 0.0
+        }
+      ],
+      "mesh": [],
+      "locations_count": 4,
+      "locations": [
+        {
+          "id": "doi:10.1002/9781444303995.ch8",
+          "doi": "https://doi.org/10.1002/9781444303995.ch8",
+          "is_oa": false,
+          "landing_page_url": "https://doi.org/10.1002/9781444303995.ch8",
+          "pdf_url": null,
+          "source": {
+            "id": "https://openalex.org/S4306464293",
+            "display_name": "Wiley eBooks",
+            "issn_l": null,
+            "issn": null,
+            "is_oa": false,
+            "is_in_doaj": false,
+            "is_core": false,
+            "listed_in": [],
+            "host_organization": "https://openalex.org/P4310320595",
+            "host_organization_name": "Wiley",
+            "host_organization_lineage": [
+              "https://openalex.org/P4310320595"
+            ],
+            "host_organization_lineage_names": [
+              "Wiley"
+            ],
+            "type": "ebook platform"
+          },
+          "license": null,
+          "license_id": null,
+          "version": "publishedVersion",
+          "is_accepted": true,
+          "is_published": true,
+          "raw_source_name": "Alluvial Sedimentation",
+          "raw_type": "other"
+        },
+        {
+          "id": "pmh:oai:eprints.bbk.ac.uk.oai2:28063",
+          "doi": null,
+          "is_oa": false,
+          "landing_page_url": "https://eprints.bbk.ac.uk/id/eprint/28063/",
+          "pdf_url": null,
+          "source": {
+            "id": "https://openalex.org/S4306400465",
+            "display_name": "BIROn (Birkbeck, University of London)",
+            "issn_l": null,
+            "issn": null,
+            "is_oa": false,
+            "is_in_doaj": false,
+            "is_core": false,
+            "listed_in": [],
+            "host_organization": "https://openalex.org/I98259816",
+            "host_organization_name": "Birkbeck, University of London",
+            "host_organization_lineage": [
+              "https://openalex.org/I98259816"
+            ],
+            "host_organization_lineage_names": [],
+            "type": "repository"
+          },
+          "license": null,
+          "license_id": null,
+          "version": "submittedVersion",
+          "is_accepted": false,
+          "is_published": false,
+          "raw_source_name": "",
+          "raw_type": "Book Section"
+        },
+        {
+          "id": "pmh:oai:eprints.ucl.ac.uk.OAI2:1365524",
+          "doi": null,
+          "is_oa": false,
+          "landing_page_url": "http://discovery.ucl.ac.uk/1365524/",
+          "pdf_url": null,
+          "source": {
+            "id": "https://openalex.org/S4306400024",
+            "display_name": "UCL Discovery (University College London)",
+            "issn_l": null,
+            "issn": null,
+            "is_oa": false,
+            "is_in_doaj": false,
+            "is_core": false,
+            "listed_in": [],
+            "host_organization": "https://openalex.org/I45129253",
+            "host_organization_name": "University College London",
+            "host_organization_lineage": [
+              "https://openalex.org/I45129253"
+            ],
+            "host_organization_lineage_names": [],
+            "type": "repository"
+          },
+          "license": null,
+          "license_id": null,
+          "version": "submittedVersion",
+          "is_accepted": false,
+          "is_published": false,
+          "raw_source_name": "Alluvial sedimentation pp. 91-100. (1993)",
+          "raw_type": "Article"
+        },
+        {
+          "id": "pmh:oai:eprints.ucl.ac.uk.OAI2:1499179",
+          "doi": null,
+          "is_oa": false,
+          "landing_page_url": "http://discovery.ucl.ac.uk/1499179/",
+          "pdf_url": null,
+          "source": {
+            "id": "https://openalex.org/S4306400024",
+            "display_name": "UCL Discovery (University College London)",
+            "issn_l": null,
+            "issn": null,
+            "is_oa": false,
+            "is_in_doaj": false,
+            "is_core": false,
+            "listed_in": [],
+            "host_organization": "https://openalex.org/I45129253",
+            "host_organization_name": "University College London",
+            "host_organization_lineage": [
+              "https://openalex.org/I45129253"
+            ],
+            "host_organization_lineage_names": [],
+            "type": "repository"
+          },
+          "license": null,
+          "license_id": null,
+          "version": "submittedVersion",
+          "is_accepted": false,
+          "is_published": false,
+          "raw_source_name": "In: Alluvial Sedimentation. (pp. 89-100). (2009)",
+          "raw_type": "Book chapter"
+        }
+      ],
+      "best_oa_location": null,
+      "sustainable_development_goals": [],
+      "study_designs": [],
+      "awards": [],
+      "funders": [],
+      "has_content": {
+        "pdf": false,
+        "grobid_xml": false
+      },
+      "content_urls": null,
+      "referenced_works_count": 0,
+      "referenced_works": [],
+      "related_works": [
+        "https://openalex.org/W2806158707",
+        "https://openalex.org/W1992210881",
+        "https://openalex.org/W1576432484",
+        "https://openalex.org/W2045410757",
+        "https://openalex.org/W4396759046",
+        "https://openalex.org/W4367300991",
+        "https://openalex.org/W1087084727",
+        "https://openalex.org/W6983569326",
+        "https://openalex.org/W2046642750",
+        "https://openalex.org/W1790953282"
+      ],
+      "abstract_inverted_index": {
+        "Channel": [
+          0
+        ],
+        "confluences": [
+          1,
+          27,
+          144
+        ],
+        "represent": [
+          2
+        ],
+        "points": [
+          3
+        ],
+        "of": [
+          4,
+          12,
+          25,
+          33,
+          49,
+          59,
+          88,
+          124,
+          151,
+          159,
+          167,
+          172,
+          184,
+          190,
+          194,
+          202
+        ],
+        "significant": [
+          5
+        ],
+        "change": [
+          6
+        ],
+        "within": [
+          7,
+          47
+        ],
+        "river": [
+          8
+        ],
+        "networks": [
+          9
+        ],
+        "that": [
+          10,
+          115
+        ],
+        "are": [
+          11,
+          28,
+          66,
+          105,
+          145
+        ],
+        "importance": [
+          13
+        ],
+        "to": [
+          14,
+          108
+        ],
+        "geomorphologists,": [
+          15
+        ],
+        "sedimentologists": [
+          16
+        ],
+        "and": [
+          17,
+          35,
+          52,
+          62,
+          79,
+          93,
+          126,
+          148,
+          170,
+          197
+        ],
+        "engineers.": [
+          18
+        ],
+        "At": [
+          19
+        ],
+        "scales": [
+          20
+        ],
+        "varying": [
+          21
+        ],
+        "over": [
+          22
+        ],
+        "four": [
+          23
+        ],
+        "orders": [
+          24
+        ],
+        "magnitude": [
+          26
+        ],
+        "characterized": [
+          29
+        ],
+        "by": [
+          30,
+          69,
+          120,
+          165,
+          175
+        ],
+        "distinct": [
+          31
+        ],
+        "areas": [
+          32,
+          48
+        ],
+        "scour": [
+          34,
+          196
+        ],
+        "deposition:": [
+          36
+        ],
+        "(i)": [
+          37
+        ],
+        "tributary": [
+          38
+        ],
+        "mouth-bars,": [
+          39
+        ],
+        "(ii)": [
+          40
+        ],
+        "a": [
+          41,
+          121
+        ],
+        "deep": [
+          42
+        ],
+        "confluence": [
+          43,
+          70,
+          89,
+          160,
+          174,
+          195
+        ],
+        "scour,": [
+          44
+        ],
+        "(iii)": [
+          45
+        ],
+        "bars": [
+          46
+        ],
+        "flow": [
+          50
+        ],
+        "separation": [
+          51
+        ],
+        "(iv)": [
+          53
+        ],
+        "post-confluence": [
+          54
+        ],
+        "mid-channel": [
+          55
+        ],
+        "bars.": [
+          56
+        ],
+        "The": [
+          57
+        ],
+        "morphology": [
+          58,
+          90
+        ],
+        "these": [
+          60,
+          104
+        ],
+        "elements": [
+          61
+        ],
+        "their": [
+          63,
+          149
+        ],
+        "depositional": [
+          64
+        ],
+        "facies": [
+          65,
+          111
+        ],
+        "controlled": [
+          67
+        ],
+        "predominantly": [
+          68
+        ],
+        "angle,": [
+          71
+        ],
+        "the": [
+          72,
+          76,
+          101,
+          173,
+          176,
+          185,
+          191,
+          200
+        ],
+        "discharge": [
+          73
+        ],
+        "ratio": [
+          74
+        ],
+        "between": [
+          75
+        ],
+        "two": [
+          77
+        ],
+        "channels": [
+          78
+        ],
+        "modifications": [
+          80
+        ],
+        "which": [
+          81,
+          113
+        ],
+        "occur": [
+          82
+        ],
+        "at": [
+          83,
+          130,
+          154,
+          199
+        ],
+        "low": [
+          84
+        ],
+        "stage.": [
+          85
+        ],
+        "A": [
+          86
+        ],
+        "review": [
+          87
+        ],
+        "from": [
+          91,
+          100
+        ],
+        "flume": [
+          92
+        ],
+        "field": [
+          94
+        ],
+        "studies": [
+          95
+        ],
+        "is": [
+          96,
+          133,
+          153,
+          205
+        ],
+        "presented": [
+          97
+        ],
+        "alongside": [
+          98
+        ],
+        "examples": [
+          99
+        ],
+        "Brahmaputra": [
+          102
+        ],
+        "River;": [
+          103
+        ],
+        "then": [
+          106
+        ],
+        "used": [
+          107
+        ],
+        "present": [
+          109
+        ],
+        "tentative": [
+          110
+        ],
+        "models": [
+          112
+        ],
+        "suggest": [
+          114
+        ],
+        "junctions": [
+          116,
+          132
+        ],
+        "may": [
+          117,
+          162
+        ],
+        "be": [
+          118,
+          163
+        ],
+        "represented": [
+          119
+        ],
+        "unique": [
+          122
+        ],
+        "assemblage": [
+          123
+        ],
+        "bedforms": [
+          125
+        ],
+        "sedimentary": [
+          127
+        ],
+        "structures.": [
+          128
+        ],
+        "Sedimentation": [
+          129
+        ],
+        "channel": [
+          131,
+          143,
+          169,
+          178,
+          203
+        ],
+        "particularly": [
+          134
+        ],
+        "important": [
+          135
+        ],
+        "in": [
+          136
+        ],
+        "multichannel": [
+          137
+        ],
+        "braided": [
+          138
+        ],
+        "or": [
+          139
+        ],
+        "anastomosed": [
+          140
+        ],
+        "rivers": [
+          141
+        ],
+        "where": [
+          142
+        ],
+        "most": [
+          146
+        ],
+        "abundant": [
+          147
+        ],
+        "likelihood": [
+          150
+        ],
+        "preservation": [
+          152,
+          158,
+          189
+        ],
+        "its": [
+          155
+        ],
+        "highest.": [
+          156
+        ],
+        "Complete": [
+          157
+        ],
+        "sediments": [
+          161
+        ],
+        "achieved": [
+          164
+        ],
+        "abandonment": [
+          166,
+          183
+        ],
+        "one": [
+          168
+        ],
+        "domination": [
+          171
+        ],
+        "other": [
+          177
+        ],
+        "or,": [
+          179
+        ],
+        "more": [
+          180,
+          206
+        ],
+        "rarely,": [
+          181
+        ],
+        "complete": [
+          182
+        ],
+        "entire": [
+          186
+        ],
+        "junction.": [
+          187
+        ],
+        "Partial": [
+          188
+        ],
+        "deeper": [
+          192
+        ],
+        "portions": [
+          193
+        ],
+        "fill": [
+          198
+        ],
+        "base": [
+          201
+        ],
+        "sandstones": [
+          204
+        ],
+        "likely.": [
+          207
+        ]
+      },
+      "counts_by_year": [
+        {
+          "year": 2025,
+          "cited_by_count": 2
+        },
+        {
+          "year": 2023,
+          "cited_by_count": 1
+        },
+        {
+          "year": 2022,
+          "cited_by_count": 2
+        },
+        {
+          "year": 2021,
+          "cited_by_count": 3
+        },
+        {
+          "year": 2019,
+          "cited_by_count": 1
+        },
+        {
+          "year": 2018,
+          "cited_by_count": 1
+        },
+        {
+          "year": 2017,
+          "cited_by_count": 6
+        },
+        {
+          "year": 2015,
+          "cited_by_count": 4
+        },
+        {
+          "year": 2014,
+          "cited_by_count": 1
+        },
+        {
+          "year": 2013,
+          "cited_by_count": 5
+        }
+      ],
+      "updated_date": "2026-11-14T11:04:58.165337",
+      "created_date": "2016-06-24T00:00:00"
+    },
+    {
+      "id": "https://openalex.org/W2985756846",
+      "doi": "https://doi.org/10.1353/pcg.2019.0013",
+      "title": "Encounters with Confluences",
+      "display_name": "Encounters with Confluences",
+      "relevance_score": 32.081955,
+      "publication_year": 2019,
+      "publication_date": "2019-01-01",
+      "ids": {
+        "openalex": "https://openalex.org/W2985756846",
+        "doi": "https://doi.org/10.1353/pcg.2019.0013",
+        "mag": "2985756846"
+      },
+      "language": "en",
+      "primary_location": {
+        "id": "doi:10.1353/pcg.2019.0013",
+        "doi": "https://doi.org/10.1353/pcg.2019.0013",
+        "is_oa": false,
+        "landing_page_url": "https://doi.org/10.1353/pcg.2019.0013",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S137711371",
+          "display_name": "Yearbook - Association of Pacific Coast Geographers",
+          "issn_l": "0066-9628",
+          "issn": [
+            "0066-9628",
+            "1551-3211"
+          ],
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "listed_in": [],
+          "host_organization": "https://openalex.org/P4310315682",
+          "host_organization_name": "University of Hawaii Press",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310315682"
+          ],
+          "host_organization_lineage_names": [
+            "University of Hawaii Press"
+          ],
+          "type": "journal"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Yearbook of the Association of Pacific Coast Geographers",
+        "raw_type": "journal-article"
+      },
+      "parent_works": [],
+      "lineage": [
+        "https://openalex.org/W2985756846"
+      ],
+      "child_works_count": 0,
+      "type": "article",
+      "is_traditional": true,
+      "indexed_in": [
+        "crossref"
+      ],
+      "open_access": {
+        "is_oa": false,
+        "oa_status": "closed",
+        "oa_url": null,
+        "any_repository_has_fulltext": false
+      },
+      "authorships": [
+        {
+          "author_position": "first",
+          "author": {
+            "id": "https://openalex.org/A5113480252",
+            "display_name": "Ray Sumner",
+            "orcid": null,
+            "observed_orcids": []
+          },
+          "institutions": [],
+          "countries": [],
+          "is_corresponding": true,
+          "raw_author_name": "Ray Sumner",
+          "raw_affiliation_strings": [],
+          "raw_orcid": null,
+          "affiliations": []
+        }
+      ],
+      "institutions": [],
+      "countries_distinct_count": 0,
+      "institutions_distinct_count": 0,
+      "corresponding_author_ids": [
+        "https://openalex.org/A5113480252"
+      ],
+      "corresponding_institution_ids": [],
+      "apc_list": null,
+      "apc_paid": null,
+      "fwci": 0.0,
+      "is_authors_truncated": false,
+      "has_fulltext": false,
+      "cited_by_count": 0,
+      "citation_normalized_percentile": {
+        "value": 0.0,
+        "is_in_top_1_percent": false,
+        "is_in_top_10_percent": false
+      },
+      "cited_by_percentile_year": null,
+      "biblio": {
+        "volume": "81",
+        "issue": "1",
+        "first_page": "90",
+        "last_page": "111"
+      },
+      "is_retracted": false,
+      "is_paratext": false,
+      "is_xpac": false,
+      "primary_topic": {
+        "id": "https://openalex.org/T12853",
+        "display_name": "Historical Geography and Geographical Thought",
+        "score": 0.33180001378059387,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3305",
+          "display_name": "Geography, Planning and Development"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/33",
+          "display_name": "Social Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      "topics": [
+        {
+          "id": "https://openalex.org/T12853",
+          "display_name": "Historical Geography and Geographical Thought",
+          "score": 0.33180001378059387,
+          "subfield": {
+            "id": "https://openalex.org/subfields/3305",
+            "display_name": "Geography, Planning and Development"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/33",
+            "display_name": "Social Sciences"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/2",
+            "display_name": "Social Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T12837",
+          "display_name": "American Environmental and Regional History",
+          "score": 0.18320000171661377,
+          "subfield": {
+            "id": "https://openalex.org/subfields/1202",
+            "display_name": "History"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/12",
+            "display_name": "Arts and Humanities"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/2",
+            "display_name": "Social Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T12670",
+          "display_name": "Urbanism, Landscape, and Tourism Studies",
+          "score": 0.14090000092983246,
+          "subfield": {
+            "id": "https://openalex.org/subfields/3316",
+            "display_name": "Cultural Studies"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/33",
+            "display_name": "Social Sciences"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/2",
+            "display_name": "Social Sciences"
+          }
+        }
+      ],
+      "keywords": [
+        {
+          "id": "https://openalex.org/keywords/river-confluence",
+          "display_name": "river confluence",
+          "score": 0.9950000047683716
+        },
+        {
+          "id": "https://openalex.org/keywords/urban-streams",
+          "display_name": "urban rivers",
+          "score": 0.7900000214576721
+        },
+        {
+          "id": "https://openalex.org/keywords/settlement-history",
+          "display_name": "settlement history",
+          "score": 0.7490000128746033
+        },
+        {
+          "id": "https://openalex.org/keywords/prehistoric-settlement",
+          "display_name": "prehistoric settlement",
+          "score": 0.7129999995231628
+        },
+        {
+          "id": "https://openalex.org/keywords/tourist-attractions",
+          "display_name": "tourist attractions",
+          "score": 0.8679999709129333
+        },
+        {
+          "id": "https://openalex.org/keywords/social-and-political-history",
+          "display_name": "social and political history",
+          "score": 0.5199999809265137
+        },
+        {
+          "id": "https://openalex.org/keywords/hydrology",
+          "display_name": "hydrology",
+          "score": 0.3840000033378601
+        },
+        {
+          "id": "https://openalex.org/keywords/geomorphology",
+          "display_name": "geomorphology",
+          "score": 0.8489999771118164
+        }
+      ],
+      "concepts": [
+        {
+          "id": "https://openalex.org/C2780565519",
+          "wikidata": "https://www.wikidata.org/wiki/Q1208937",
+          "display_name": "Multitude",
+          "level": 2,
+          "score": 0.7113891839981079
+        },
+        {
+          "id": "https://openalex.org/C204852536",
+          "wikidata": "https://www.wikidata.org/wiki/Q11756",
+          "display_name": "Prehistory",
+          "level": 2,
+          "score": 0.5815938711166382
+        },
+        {
+          "id": "https://openalex.org/C205649164",
+          "wikidata": "https://www.wikidata.org/wiki/Q1071",
+          "display_name": "Geography",
+          "level": 0,
+          "score": 0.5562171339988708
+        },
+        {
+          "id": "https://openalex.org/C16678853",
+          "wikidata": "https://www.wikidata.org/wiki/Q486972",
+          "display_name": "Human settlement",
+          "level": 2,
+          "score": 0.5260669589042664
+        },
+        {
+          "id": "https://openalex.org/C94625758",
+          "wikidata": "https://www.wikidata.org/wiki/Q7163",
+          "display_name": "Politics",
+          "level": 2,
+          "score": 0.4988436698913574
+        },
+        {
+          "id": "https://openalex.org/C2777063073",
+          "wikidata": "https://www.wikidata.org/wiki/Q1553237",
+          "display_name": "Settlement (finance)",
+          "level": 3,
+          "score": 0.4560127854347229
+        },
+        {
+          "id": "https://openalex.org/C18918823",
+          "wikidata": "https://www.wikidata.org/wiki/Q49389",
+          "display_name": "Tourism",
+          "level": 2,
+          "score": 0.4282534718513489
+        },
+        {
+          "id": "https://openalex.org/C26271046",
+          "wikidata": "https://www.wikidata.org/wiki/Q187097",
+          "display_name": "Economic geography",
+          "level": 1,
+          "score": 0.3997185230255127
+        },
+        {
+          "id": "https://openalex.org/C166957645",
+          "wikidata": "https://www.wikidata.org/wiki/Q23498",
+          "display_name": "Archaeology",
+          "level": 1,
+          "score": 0.3473377823829651
+        },
+        {
+          "id": "https://openalex.org/C2549261",
+          "wikidata": "https://www.wikidata.org/wiki/Q43455",
+          "display_name": "Ethnology",
+          "level": 1,
+          "score": 0.3222636878490448
+        },
+        {
+          "id": "https://openalex.org/C144024400",
+          "wikidata": "https://www.wikidata.org/wiki/Q21201",
+          "display_name": "Sociology",
+          "level": 0,
+          "score": 0.2999143600463867
+        },
+        {
+          "id": "https://openalex.org/C17744445",
+          "wikidata": "https://www.wikidata.org/wiki/Q36442",
+          "display_name": "Political science",
+          "level": 0,
+          "score": 0.22946709394454956
+        },
+        {
+          "id": "https://openalex.org/C144133560",
+          "wikidata": "https://www.wikidata.org/wiki/Q4830453",
+          "display_name": "Business",
+          "level": 0,
+          "score": 0.09337720274925232
+        },
+        {
+          "id": "https://openalex.org/C199539241",
+          "wikidata": "https://www.wikidata.org/wiki/Q7748",
+          "display_name": "Law",
+          "level": 1,
+          "score": 0.08906954526901245
+        },
+        {
+          "id": "https://openalex.org/C10138342",
+          "wikidata": "https://www.wikidata.org/wiki/Q43015",
+          "display_name": "Finance",
+          "level": 1,
+          "score": 0.0
+        },
+        {
+          "id": "https://openalex.org/C145097563",
+          "wikidata": "https://www.wikidata.org/wiki/Q1148747",
+          "display_name": "Payment",
+          "level": 2,
+          "score": 0.0
+        }
+      ],
+      "mesh": [],
+      "locations_count": 2,
+      "locations": [
+        {
+          "id": "doi:10.1353/pcg.2019.0013",
+          "doi": "https://doi.org/10.1353/pcg.2019.0013",
+          "is_oa": false,
+          "landing_page_url": "https://doi.org/10.1353/pcg.2019.0013",
+          "pdf_url": null,
+          "source": {
+            "id": "https://openalex.org/S137711371",
+            "display_name": "Yearbook - Association of Pacific Coast Geographers",
+            "issn_l": "0066-9628",
+            "issn": [
+              "0066-9628",
+              "1551-3211"
+            ],
+            "is_oa": false,
+            "is_in_doaj": false,
+            "is_core": false,
+            "listed_in": [],
+            "host_organization": "https://openalex.org/P4310315682",
+            "host_organization_name": "University of Hawaii Press",
+            "host_organization_lineage": [
+              "https://openalex.org/P4310315682"
+            ],
+            "host_organization_lineage_names": [
+              "University of Hawaii Press"
+            ],
+            "type": "journal"
+          },
+          "license": null,
+          "license_id": null,
+          "version": "publishedVersion",
+          "is_accepted": true,
+          "is_published": true,
+          "raw_source_name": "Yearbook of the Association of Pacific Coast Geographers",
+          "raw_type": "journal-article"
+        },
+        {
+          "id": "pmh:oai:muse.jhu.edu:/article/738537",
+          "doi": null,
+          "is_oa": false,
+          "landing_page_url": "https://muse.jhu.edu/article/738537",
+          "pdf_url": null,
+          "source": {
+            "id": "https://openalex.org/S4377196299",
+            "display_name": "Project Muse (Johns Hopkins University)",
+            "issn_l": null,
+            "issn": null,
+            "is_oa": false,
+            "is_in_doaj": false,
+            "is_core": false,
+            "listed_in": [],
+            "host_organization": "https://openalex.org/I145311948",
+            "host_organization_name": "Johns Hopkins University",
+            "host_organization_lineage": [
+              "https://openalex.org/I145311948"
+            ],
+            "host_organization_lineage_names": [],
+            "type": "repository"
+          },
+          "license": null,
+          "license_id": null,
+          "version": "submittedVersion",
+          "is_accepted": false,
+          "is_published": false,
+          "raw_source_name": "",
+          "raw_type": "text"
+        }
+      ],
+      "best_oa_location": null,
+      "sustainable_development_goals": [],
+      "study_designs": [],
+      "awards": [],
+      "funders": [],
+      "has_content": {
+        "pdf": false,
+        "grobid_xml": false
+      },
+      "content_urls": null,
+      "referenced_works_count": 18,
+      "referenced_works": [
+        "https://openalex.org/W636270161",
+        "https://openalex.org/W646629479",
+        "https://openalex.org/W654054343",
+        "https://openalex.org/W1529253181",
+        "https://openalex.org/W1571372363",
+        "https://openalex.org/W1623784356",
+        "https://openalex.org/W1906353939",
+        "https://openalex.org/W1970060183",
+        "https://openalex.org/W1998237186",
+        "https://openalex.org/W2011547584",
+        "https://openalex.org/W2039568258",
+        "https://openalex.org/W2089586963",
+        "https://openalex.org/W2126288656",
+        "https://openalex.org/W2147347890",
+        "https://openalex.org/W2308654983",
+        "https://openalex.org/W2518733172",
+        "https://openalex.org/W2519511510",
+        "https://openalex.org/W2614768948"
+      ],
+      "related_works": [
+        "https://openalex.org/W2560273812",
+        "https://openalex.org/W7045204031",
+        "https://openalex.org/W4405178646",
+        "https://openalex.org/W2991087372",
+        "https://openalex.org/W4282012947",
+        "https://openalex.org/W2954001680",
+        "https://openalex.org/W2274859073",
+        "https://openalex.org/W7024552627",
+        "https://openalex.org/W4409107605",
+        "https://openalex.org/W2083854683"
+      ],
+      "abstract_inverted_index": {
+        "This": [
+          0
+        ],
+        "study": [
+          1
+        ],
+        "examines": [
+          2,
+          75
+        ],
+        "a": [
+          3,
+          31,
+          76,
+          88
+        ],
+        "selection": [
+          4,
+          78
+        ],
+        "of": [
+          5,
+          13,
+          34,
+          47,
+          70,
+          83,
+          93,
+          98
+        ],
+        "river": [
+          6
+        ],
+        "confluences,": [
+          7,
+          72
+        ],
+        "places": [
+          8
+        ],
+        "that": [
+          9
+        ],
+        "are": [
+          10,
+          52,
+          63
+        ],
+        "frequently": [
+          11
+        ],
+        "locations": [
+          12
+        ],
+        "important": [
+          14,
+          58
+        ],
+        "physical": [
+          15
+        ],
+        "investigations": [
+          16
+        ],
+        "by": [
+          17
+        ],
+        "hydrologists,": [
+          18
+        ],
+        "geomorphologists,": [
+          19
+        ],
+        "biologists,": [
+          20
+        ],
+        "and": [
+          21,
+          38,
+          61,
+          85,
+          96
+        ],
+        "engineers,": [
+          22
+        ],
+        "among": [
+          23
+        ],
+        "others.": [
+          24
+        ],
+        "In": [
+          25
+        ],
+        "contrast,": [
+          26
+        ],
+        "confluences": [
+          27,
+          44
+        ],
+        "can": [
+          28
+        ],
+        "also": [
+          29
+        ],
+        "demonstrate": [
+          30
+        ],
+        "complex": [
+          32
+        ],
+        "interplay": [
+          33
+        ],
+        "historical,": [
+          35
+        ],
+        "economic,": [
+          36
+        ],
+        "social,": [
+          37
+        ],
+        "political": [
+          39
+        ],
+        "factors.": [
+          40
+        ],
+        "Many": [
+          41
+        ],
+        "urban": [
+          42
+        ],
+        "stream": [
+          43,
+          71
+        ],
+        "were": [
+          45
+        ],
+        "sites": [
+          46
+        ],
+        "prehistoric": [
+          48
+        ],
+        "human": [
+          49,
+          94
+        ],
+        "settlement;": [
+          50
+        ],
+        "others": [
+          51
+        ],
+        "more": [
+          53
+        ],
+        "recent": [
+          54
+        ],
+        "historic": [
+          55
+        ],
+        "sites,": [
+          56
+        ],
+        "or": [
+          57
+        ],
+        "shipping": [
+          59
+        ],
+        "facilities;": [
+          60
+        ],
+        "some": [
+          62
+        ],
+        "simply": [
+          64
+        ],
+        "tourist": [
+          65
+        ],
+        "attractions.": [
+          66
+        ],
+        "From": [
+          67
+        ],
+        "the": [
+          68,
+          80,
+          91
+        ],
+        "multitude": [
+          69
+        ],
+        "this": [
+          73
+        ],
+        "paper": [
+          74
+        ],
+        "small": [
+          77
+        ],
+        "from": [
+          79
+        ],
+        "United": [
+          81
+        ],
+        "States": [
+          82
+        ],
+        "America": [
+          84
+        ],
+        "Europe,": [
+          86
+        ],
+        "with": [
+          87
+        ],
+        "focus": [
+          89
+        ],
+        "on": [
+          90
+        ],
+        "multiplicity": [
+          92
+        ],
+        "associations": [
+          95
+        ],
+        "layers": [
+          97
+        ],
+        "meaning.": [
+          99
+        ]
+      },
+      "counts_by_year": [],
+      "updated_date": "2026-08-01T09:00:35.917206",
+      "created_date": "2019-11-22T00:00:00"
+    }
+  ],
+  "group_by": []
+}

@@ -1,0 +1,4491 @@
+{
+  "meta": {
+    "notice": "No API key, so this request shares one free daily budget ($0.10) with everyone on your network's IP address. Get a free key with its own $1/day at https://openalex.org/settings/api and add api_key=YOUR_KEY to your requests. An AI agent can get one for its user in one call: POST https://api.openalex.org/api-keys with {\"email\": \"<your user's email>\"}; we email them a link, and the key works once they click it. Docs for agents: https://help.openalex.org/llms.txt",
+    "count": 1403129,
+    "db_response_time_ms": 326,
+    "page": 1,
+    "per_page": 5,
+    "groups_count": null,
+    "x_query": {
+      "oql": "get works with (TECHNOLOGY SPECIALIST) in the title, abstract, or full text",
+      "x_new_oql": "get works with (TECHNOLOGY SPECIALIST) in the title, abstract, or full text",
+      "oqo": {
+        "get_rows": "works",
+        "filter_rows": [
+          {
+            "column_id": "fulltext.search",
+            "value": "TECHNOLOGY SPECIALIST",
+            "operator": "has"
+          }
+        ]
+      },
+      "url": "/works?filter=fulltext.search:TECHNOLOGY SPECIALIST&per_page=5",
+      "order": "best matches first",
+      "order_default": true
+    },
+    "cost_usd": 0.001
+  },
+  "results": [
+    {
+      "id": "https://openalex.org/W2071005152",
+      "doi": "https://doi.org/10.1136/bmj.h945",
+      "title": "Clinical technology specialists",
+      "display_name": "Clinical technology specialists",
+      "relevance_score": 133.9548,
+      "publication_year": 2015,
+      "publication_date": "2015-02-19",
+      "ids": {
+        "openalex": "https://openalex.org/W2071005152",
+        "doi": "https://doi.org/10.1136/bmj.h945",
+        "mag": "2071005152",
+        "pmid": "https://pubmed.ncbi.nlm.nih.gov/25697164"
+      },
+      "language": "en",
+      "primary_location": {
+        "id": "doi:10.1136/bmj.h945",
+        "doi": "https://doi.org/10.1136/bmj.h945",
+        "is_oa": false,
+        "landing_page_url": "https://doi.org/10.1136/bmj.h945",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4393917726",
+          "display_name": "BMJ",
+          "issn_l": "1756-1833",
+          "issn": [
+            "1756-1833"
+          ],
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": true,
+          "listed_in": [
+            "cwts-core",
+            "dongbi-a",
+            "doyens",
+            "jufo-2",
+            "ki-jl-3",
+            "medline",
+            "norway-2",
+            "poland-200",
+            "russia-white-list-1",
+            "vabb-shw"
+          ],
+          "host_organization": "https://openalex.org/P4310319945",
+          "host_organization_name": "BMJ",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310319945"
+          ],
+          "host_organization_lineage_names": [
+            "BMJ"
+          ],
+          "type": "journal"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "BMJ",
+        "raw_type": "journal-article"
+      },
+      "parent_works": [],
+      "lineage": [
+        "https://openalex.org/W2071005152"
+      ],
+      "child_works_count": 0,
+      "type": "editorial",
+      "is_traditional": true,
+      "indexed_in": [
+        "crossref",
+        "pubmed"
+      ],
+      "open_access": {
+        "is_oa": false,
+        "oa_status": "closed",
+        "oa_url": null,
+        "any_repository_has_fulltext": false
+      },
+      "authorships": [
+        {
+          "author_position": "first",
+          "author": {
+            "id": "https://openalex.org/A5004949920",
+            "display_name": "Dror Ben‐Zeev",
+            "orcid": "https://orcid.org/0000-0001-6597-2407",
+            "observed_orcids": [
+              "https://orcid.org/0000-0001-6597-2407"
+            ]
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I4210120259",
+              "display_name": "Dartmouth Psychiatric Research Center",
+              "ror": "https://ror.org/02td3ps96",
+              "country_code": "US",
+              "type": "facility",
+              "lineage": [
+                "https://openalex.org/I4210120259"
+              ]
+            }
+          ],
+          "countries": [
+            "US"
+          ],
+          "is_corresponding": true,
+          "raw_author_name": "D. Ben-Zeev",
+          "raw_affiliation_strings": [
+            "Dartmouth Psychiatric Research Center, Department of Psychiatry, Geisel School of Medicine at Dartmouth, Lebanon, NH 03766, USA Dror.Ben-Zeev@dartmouth.edu",
+            "Dartmouth Psychiatric Research Center, Department of Psychiatry, Geisel School of Medicine at Dartmouth, Lebanon, NH 03766, USA"
+          ],
+          "raw_orcid": null,
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Dartmouth Psychiatric Research Center, Department of Psychiatry, Geisel School of Medicine at Dartmouth, Lebanon, NH 03766, USA Dror.Ben-Zeev@dartmouth.edu",
+              "institution_ids": [
+                "https://openalex.org/I4210120259"
+              ]
+            },
+            {
+              "raw_affiliation_string": "Dartmouth Psychiatric Research Center, Department of Psychiatry, Geisel School of Medicine at Dartmouth, Lebanon, NH 03766, USA",
+              "institution_ids": [
+                "https://openalex.org/I4210120259"
+              ]
+            }
+          ]
+        },
+        {
+          "author_position": "middle",
+          "author": {
+            "id": "https://openalex.org/A5030439577",
+            "display_name": "Robert E. Drake",
+            "orcid": "https://orcid.org/0000-0002-5180-547X",
+            "observed_orcids": [
+              "https://orcid.org/0000-0002-5180-547X"
+            ]
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I4210120259",
+              "display_name": "Dartmouth Psychiatric Research Center",
+              "ror": "https://ror.org/02td3ps96",
+              "country_code": "US",
+              "type": "facility",
+              "lineage": [
+                "https://openalex.org/I4210120259"
+              ]
+            }
+          ],
+          "countries": [
+            "US"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "R. Drake",
+          "raw_affiliation_strings": [
+            "Dartmouth Psychiatric Research Center, Department of Psychiatry, Geisel School of Medicine at Dartmouth, Lebanon, NH 03766, USA"
+          ],
+          "raw_orcid": null,
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Dartmouth Psychiatric Research Center, Department of Psychiatry, Geisel School of Medicine at Dartmouth, Lebanon, NH 03766, USA",
+              "institution_ids": [
+                "https://openalex.org/I4210120259"
+              ]
+            }
+          ]
+        },
+        {
+          "author_position": "last",
+          "author": {
+            "id": "https://openalex.org/A5081922663",
+            "display_name": "Lisa A. Marsch",
+            "orcid": "https://orcid.org/0000-0001-6429-0965",
+            "observed_orcids": [
+              "https://orcid.org/0000-0001-6429-0965"
+            ]
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I4210120259",
+              "display_name": "Dartmouth Psychiatric Research Center",
+              "ror": "https://ror.org/02td3ps96",
+              "country_code": "US",
+              "type": "facility",
+              "lineage": [
+                "https://openalex.org/I4210120259"
+              ]
+            }
+          ],
+          "countries": [
+            "US"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "L. Marsch",
+          "raw_affiliation_strings": [
+            "Dartmouth Psychiatric Research Center, Department of Psychiatry, Geisel School of Medicine at Dartmouth, Lebanon, NH 03766, USA"
+          ],
+          "raw_orcid": null,
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Dartmouth Psychiatric Research Center, Department of Psychiatry, Geisel School of Medicine at Dartmouth, Lebanon, NH 03766, USA",
+              "institution_ids": [
+                "https://openalex.org/I4210120259"
+              ]
+            }
+          ]
+        }
+      ],
+      "institutions": [],
+      "countries_distinct_count": 1,
+      "institutions_distinct_count": 1,
+      "corresponding_author_ids": [
+        "https://openalex.org/A5004949920"
+      ],
+      "corresponding_institution_ids": [
+        "https://openalex.org/I4210120259"
+      ],
+      "apc_list": null,
+      "apc_paid": null,
+      "fwci": null,
+      "is_authors_truncated": false,
+      "has_fulltext": false,
+      "cited_by_count": 67,
+      "citation_normalized_percentile": null,
+      "cited_by_percentile_year": null,
+      "biblio": {
+        "volume": "350",
+        "issue": "feb19 15",
+        "first_page": "h945",
+        "last_page": "h945"
+      },
+      "is_retracted": false,
+      "is_paratext": false,
+      "is_xpac": false,
+      "primary_topic": {
+        "id": "https://openalex.org/T11446",
+        "display_name": "Mobile Health and mHealth Applications",
+        "score": 0.6279000043869019,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3600",
+          "display_name": "General Health Professions"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/36",
+          "display_name": "Health Professions"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/4",
+          "display_name": "Health Sciences"
+        }
+      },
+      "topics": [
+        {
+          "id": "https://openalex.org/T11446",
+          "display_name": "Mobile Health and mHealth Applications",
+          "score": 0.6279000043869019,
+          "subfield": {
+            "id": "https://openalex.org/subfields/3600",
+            "display_name": "General Health Professions"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/36",
+            "display_name": "Health Professions"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/4",
+            "display_name": "Health Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T14512",
+          "display_name": "Technology and Human Factors in Education and Health",
+          "score": 0.13459999859333038,
+          "subfield": {
+            "id": "https://openalex.org/subfields/2739",
+            "display_name": "Public Health, Environmental and Occupational Health"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/27",
+            "display_name": "Medicine"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/4",
+            "display_name": "Health Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T10350",
+          "display_name": "Electronic Health Records Systems",
+          "score": 0.11050000041723251,
+          "subfield": {
+            "id": "https://openalex.org/subfields/3605",
+            "display_name": "Health Information Management"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/36",
+            "display_name": "Health Professions"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/4",
+            "display_name": "Health Sciences"
+          }
+        }
+      ],
+      "keywords": [
+        {
+          "id": "https://openalex.org/keywords/mobile-health-apps",
+          "display_name": "mobile health apps",
+          "score": 0.7540000081062317
+        },
+        {
+          "id": "https://openalex.org/keywords/wearable-sensors",
+          "display_name": "wearable sensors",
+          "score": 0.984000027179718
+        },
+        {
+          "id": "https://openalex.org/keywords/quantified-self",
+          "display_name": "quantified self",
+          "score": 0.8059999942779541
+        },
+        {
+          "id": "https://openalex.org/keywords/telemedicine",
+          "display_name": "telemedicine",
+          "score": 0.9950000047683716
+        },
+        {
+          "id": "https://openalex.org/keywords/patient-engagement",
+          "display_name": "patient engagement",
+          "score": 0.4129999876022339
+        },
+        {
+          "id": "https://openalex.org/keywords/hitech-act",
+          "display_name": "HITECH Act",
+          "score": 0.8799999952316284
+        },
+        {
+          "id": "https://openalex.org/keywords/health-information-technology",
+          "display_name": "health information technology",
+          "score": 0.8389999866485596
+        }
+      ],
+      "concepts": [
+        {
+          "id": "https://openalex.org/C2522767166",
+          "wikidata": "https://www.wikidata.org/wiki/Q2374463",
+          "display_name": "Data science",
+          "level": 1,
+          "score": 0.5576738119125366
+        },
+        {
+          "id": "https://openalex.org/C41008148",
+          "wikidata": "https://www.wikidata.org/wiki/Q21198",
+          "display_name": "Computer science",
+          "level": 0,
+          "score": 0.5445551872253418
+        },
+        {
+          "id": "https://openalex.org/C136764020",
+          "wikidata": "https://www.wikidata.org/wiki/Q466",
+          "display_name": "World Wide Web",
+          "level": 1,
+          "score": 0.41323086619377136
+        },
+        {
+          "id": "https://openalex.org/C71924100",
+          "wikidata": "https://www.wikidata.org/wiki/Q11190",
+          "display_name": "Medicine",
+          "level": 0,
+          "score": 0.3404046893119812
+        }
+      ],
+      "mesh": [
+        {
+          "descriptor_ui": "D000078329",
+          "descriptor_name": "Workforce",
+          "qualifier_ui": null,
+          "qualifier_name": null,
+          "is_major_topic": false
+        },
+        {
+          "descriptor_ui": "D001291",
+          "descriptor_name": "Attitude of Health Personnel",
+          "qualifier_ui": null,
+          "qualifier_name": null,
+          "is_major_topic": false
+        },
+        {
+          "descriptor_ui": "D003659",
+          "descriptor_name": "Decision Making, Organizational",
+          "qualifier_ui": null,
+          "qualifier_name": null,
+          "is_major_topic": false
+        },
+        {
+          "descriptor_ui": "D004059",
+          "descriptor_name": "Diffusion of Innovation",
+          "qualifier_ui": null,
+          "qualifier_name": null,
+          "is_major_topic": false
+        },
+        {
+          "descriptor_ui": "D006801",
+          "descriptor_name": "Humans",
+          "qualifier_ui": null,
+          "qualifier_name": null,
+          "is_major_topic": false
+        },
+        {
+          "descriptor_ui": "D013038",
+          "descriptor_name": "Specialization",
+          "qualifier_ui": null,
+          "qualifier_name": null,
+          "is_major_topic": true
+        },
+        {
+          "descriptor_ui": "D013673",
+          "descriptor_name": "Technology Assessment, Biomedical",
+          "qualifier_ui": null,
+          "qualifier_name": null,
+          "is_major_topic": false
+        },
+        {
+          "descriptor_ui": "D014481",
+          "descriptor_name": "United States",
+          "qualifier_ui": null,
+          "qualifier_name": null,
+          "is_major_topic": false
+        },
+        {
+          "descriptor_ui": "D020811",
+          "descriptor_name": "Biomedical Technology",
+          "qualifier_ui": null,
+          "qualifier_name": null,
+          "is_major_topic": true
+        },
+        {
+          "descriptor_ui": "D058996",
+          "descriptor_name": "Quality Improvement",
+          "qualifier_ui": null,
+          "qualifier_name": null,
+          "is_major_topic": false
+        }
+      ],
+      "locations_count": 2,
+      "locations": [
+        {
+          "id": "doi:10.1136/bmj.h945",
+          "doi": "https://doi.org/10.1136/bmj.h945",
+          "is_oa": false,
+          "landing_page_url": "https://doi.org/10.1136/bmj.h945",
+          "pdf_url": null,
+          "source": {
+            "id": "https://openalex.org/S4393917726",
+            "display_name": "BMJ",
+            "issn_l": "1756-1833",
+            "issn": [
+              "1756-1833"
+            ],
+            "is_oa": false,
+            "is_in_doaj": false,
+            "is_core": true,
+            "listed_in": [
+              "cwts-core",
+              "dongbi-a",
+              "doyens",
+              "jufo-2",
+              "ki-jl-3",
+              "medline",
+              "norway-2",
+              "poland-200",
+              "russia-white-list-1",
+              "vabb-shw"
+            ],
+            "host_organization": "https://openalex.org/P4310319945",
+            "host_organization_name": "BMJ",
+            "host_organization_lineage": [
+              "https://openalex.org/P4310319945"
+            ],
+            "host_organization_lineage_names": [
+              "BMJ"
+            ],
+            "type": "journal"
+          },
+          "license": null,
+          "license_id": null,
+          "version": "publishedVersion",
+          "is_accepted": true,
+          "is_published": true,
+          "raw_source_name": "BMJ",
+          "raw_type": "journal-article"
+        },
+        {
+          "id": "pmid:25697164",
+          "doi": null,
+          "is_oa": false,
+          "landing_page_url": "https://pubmed.ncbi.nlm.nih.gov/25697164",
+          "pdf_url": null,
+          "source": {
+            "id": "https://openalex.org/S4306525036",
+            "display_name": "PubMed",
+            "issn_l": null,
+            "issn": null,
+            "is_oa": false,
+            "is_in_doaj": false,
+            "is_core": false,
+            "listed_in": [],
+            "host_organization": "https://openalex.org/I1299303238",
+            "host_organization_name": "National Institutes of Health",
+            "host_organization_lineage": [
+              "https://openalex.org/I1299303238"
+            ],
+            "host_organization_lineage_names": [],
+            "type": "repository"
+          },
+          "license": null,
+          "license_id": null,
+          "version": "publishedVersion",
+          "is_accepted": true,
+          "is_published": true,
+          "raw_source_name": "BMJ (Clinical research ed.)",
+          "raw_type": "Editorial"
+        }
+      ],
+      "best_oa_location": null,
+      "sustainable_development_goals": [
+        {
+          "display_name": "Good health and well-being",
+          "score": 0.9476000070571899,
+          "id": "https://metadata.un.org/sdg/3"
+        }
+      ],
+      "study_designs": [],
+      "awards": [
+        {
+          "id": "https://openalex.org/G9000921246",
+          "display_name": "Technology-based Treatments for Substance Use Disorders",
+          "funder_award_id": "P30DA029926",
+          "funder_id": "https://openalex.org/F4320337347",
+          "funder_display_name": "National Institute on Drug Abuse"
+        }
+      ],
+      "funders": [
+        {
+          "id": "https://openalex.org/F4320337347",
+          "display_name": "National Institute on Drug Abuse",
+          "ror": "https://ror.org/00fq5cm18"
+        }
+      ],
+      "has_content": {
+        "pdf": false,
+        "grobid_xml": false
+      },
+      "content_urls": null,
+      "referenced_works_count": 6,
+      "referenced_works": [
+        "https://openalex.org/W2054712596",
+        "https://openalex.org/W2056183152",
+        "https://openalex.org/W2067801379",
+        "https://openalex.org/W2081836669",
+        "https://openalex.org/W2112485413",
+        "https://openalex.org/W2145216788"
+      ],
+      "related_works": [
+        "https://openalex.org/W2563572321",
+        "https://openalex.org/W2946678473",
+        "https://openalex.org/W1731508510",
+        "https://openalex.org/W2587599618",
+        "https://openalex.org/W7095208233",
+        "https://openalex.org/W2232850791",
+        "https://openalex.org/W4210796347",
+        "https://openalex.org/W4303431229",
+        "https://openalex.org/W2990616624",
+        "https://openalex.org/W2505635537"
+      ],
+      "abstract_inverted_index": {
+        "Who": [
+          0
+        ],
+        "needs": [
+          1
+        ],
+        "them?": [
+          2
+        ],
+        "We": [
+          3
+        ],
+        "do\n\nWe": [
+          4
+        ],
+        "are": [
+          5,
+          24,
+          52,
+          86
+        ],
+        "in": [
+          6,
+          64,
+          75,
+          140
+        ],
+        "the": [
+          7,
+          36,
+          65,
+          71,
+          122,
+          125,
+          146
+        ],
+        "midst": [
+          8
+        ],
+        "of": [
+          9,
+          13,
+          42,
+          67,
+          73,
+          90,
+          152,
+          175
+        ],
+        "a": [
+          10,
+          172
+        ],
+        "rapid": [
+          11
+        ],
+        "proliferation": [
+          12
+        ],
+        "patient": [
+          14
+        ],
+        "facing": [
+          15
+        ],
+        "clinical": [
+          16,
+          68
+        ],
+        "technologies.": [
+          17
+        ],
+        "More": [
+          18
+        ],
+        "than": [
+          19
+        ],
+        "50 000": [
+          20
+        ],
+        "mobile": [
+          21,
+          33
+        ],
+        "health": [
+          22,
+          153,
+          169
+        ],
+        "applications": [
+          23,
+          85
+        ],
+        "available": [
+          25
+        ],
+        "for": [
+          26,
+          129
+        ],
+        "people": [
+          27,
+          101
+        ],
+        "to": [
+          28,
+          55,
+          60,
+          103,
+          111,
+          142,
+          156
+        ],
+        "download": [
+          29
+        ],
+        "directly": [
+          30
+        ],
+        "onto": [
+          31
+        ],
+        "their": [
+          32,
+          115,
+          176
+        ],
+        "devices,": [
+          34
+        ],
+        "and": [
+          35,
+          83,
+          94,
+          99,
+          118,
+          131,
+          144,
+          149,
+          166
+        ],
+        "number": [
+          37
+        ],
+        "grows": [
+          38
+        ],
+        "daily.": [
+          39
+        ],
+        "A": [
+          40
+        ],
+        "range": [
+          41
+        ],
+        "commercial": [
+          43
+        ],
+        "wearable": [
+          44
+        ],
+        "sensors": [
+          45
+        ],
+        "(such": [
+          46
+        ],
+        "as": [
+          47,
+          108,
+          171
+        ],
+        "wristbands,": [
+          48
+        ],
+        "patches,": [
+          49
+        ],
+        "chest": [
+          50
+        ],
+        "monitors)": [
+          51
+        ],
+        "also": [
+          53
+        ],
+        "appearing": [
+          54
+        ],
+        "promote": [
+          56,
+          143
+        ],
+        "healthy": [
+          57
+        ],
+        "lifestyles": [
+          58
+        ],
+        "or": [
+          59
+        ],
+        "monitor": [
+          61
+        ],
+        "medical": [
+          62,
+          116
+        ],
+        "conditions": [
+          63,
+          117
+        ],
+        "context": [
+          66
+        ],
+        "care,": [
+          69
+        ],
+        "strengthening": [
+          70
+        ],
+        "role": [
+          72
+        ],
+        "patients": [
+          74
+        ],
+        "quantified": [
+          76
+        ],
+        "self": [
+          77
+        ],
+        "tracking.1": [
+          78
+        ],
+        "2": [
+          79
+        ],
+        "Two": [
+          80
+        ],
+        "way": [
+          81
+        ],
+        "video": [
+          82
+        ],
+        "texting": [
+          84
+        ],
+        "making": [
+          87
+        ],
+        "different": [
+          88
+        ],
+        "forms": [
+          89
+        ],
+        "telemedicine": [
+          91
+        ],
+        "increasingly": [
+          92
+        ],
+        "accessible": [
+          93
+        ],
+        "popular.": [
+          95
+        ],
+        "Every": [
+          96
+        ],
+        "day": [
+          97
+        ],
+        "more": [
+          98,
+          100
+        ],
+        "look": [
+          102
+        ],
+        "internet": [
+          104
+        ],
+        "based": [
+          105
+        ],
+        "resources": [
+          106
+        ],
+        "such": [
+          107
+        ],
+        "chat": [
+          109
+        ],
+        "forums": [
+          110
+        ],
+        "help": [
+          112
+        ],
+        "them": [
+          113
+        ],
+        "understand": [
+          114
+        ],
+        "explore": [
+          119
+        ],
+        "treatment": [
+          120
+        ],
+        "options.\n\nIn": [
+          121
+        ],
+        "United": [
+          123
+        ],
+        "States,": [
+          124
+        ],
+        "Health": [
+          126,
+          133
+        ],
+        "Information": [
+          127
+        ],
+        "Technology": [
+          128
+        ],
+        "Economic": [
+          130
+        ],
+        "Clinical": [
+          132
+        ],
+        "(HITECH)": [
+          134
+        ],
+        "Act": [
+          135
+        ],
+        "was": [
+          136
+        ],
+        "signed": [
+          137
+        ],
+        "into": [
+          138
+        ],
+        "law": [
+          139
+        ],
+        "2009": [
+          141
+        ],
+        "incentivize": [
+          145
+        ],
+        "broad": [
+          147
+        ],
+        "adoption": [
+          148
+        ],
+        "meaningful": [
+          150
+        ],
+        "use": [
+          151
+        ],
+        "information": [
+          154,
+          170
+        ],
+        "technology": [
+          155
+        ],
+        "improve": [
+          157
+        ],
+        "healthcare.3": [
+          158
+        ],
+        "Apple": [
+          159
+        ],
+        "recently": [
+          160
+        ],
+        "began": [
+          161
+        ],
+        "offering": [
+          162
+        ],
+        "software": [
+          163
+        ],
+        "that": [
+          164
+        ],
+        "culls": [
+          165
+        ],
+        "centralizes": [
+          167
+        ],
+        "users’": [
+          168
+        ],
+        "standard": [
+          173
+        ],
+        "feature": [
+          174
+        ],
+        "new": [
+          177
+        ],
+        "operating": [
+          178
+        ],
+        "system": [
+          179
+        ],
+        "…": [
+          180
+        ]
+      },
+      "counts_by_year": [
+        {
+          "year": 2026,
+          "cited_by_count": 4
+        },
+        {
+          "year": 2025,
+          "cited_by_count": 11
+        },
+        {
+          "year": 2024,
+          "cited_by_count": 8
+        },
+        {
+          "year": 2023,
+          "cited_by_count": 5
+        },
+        {
+          "year": 2022,
+          "cited_by_count": 7
+        },
+        {
+          "year": 2021,
+          "cited_by_count": 5
+        },
+        {
+          "year": 2020,
+          "cited_by_count": 7
+        },
+        {
+          "year": 2019,
+          "cited_by_count": 5
+        },
+        {
+          "year": 2018,
+          "cited_by_count": 6
+        },
+        {
+          "year": 2017,
+          "cited_by_count": 3
+        },
+        {
+          "year": 2016,
+          "cited_by_count": 5
+        },
+        {
+          "year": 2015,
+          "cited_by_count": 1
+        }
+      ],
+      "updated_date": "2026-11-13T13:42:25.865203",
+      "created_date": "2016-06-24T00:00:00"
+    },
+    {
+      "id": "https://openalex.org/W4378191967",
+      "doi": "https://doi.org/10.4324/9781003350729-22",
+      "title": "The Information Technology Specialist",
+      "display_name": "The Information Technology Specialist",
+      "relevance_score": 125.36795,
+      "publication_year": 2023,
+      "publication_date": "2023-05-25",
+      "ids": {
+        "openalex": "https://openalex.org/W4378191967",
+        "doi": "https://doi.org/10.4324/9781003350729-22"
+      },
+      "language": "en",
+      "primary_location": {
+        "id": "doi:10.4324/9781003350729-22",
+        "doi": "https://doi.org/10.4324/9781003350729-22",
+        "is_oa": false,
+        "landing_page_url": "https://doi.org/10.4324/9781003350729-22",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4306463075",
+          "display_name": "CRC Press eBooks",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "listed_in": [],
+          "host_organization": "https://openalex.org/P4310320584",
+          "host_organization_name": "CRC Press",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310320584",
+            "https://openalex.org/P4310320547",
+            "https://openalex.org/P4310320449"
+          ],
+          "host_organization_lineage_names": [
+            "CRC Press",
+            "Taylor & Francis",
+            "Informa"
+          ],
+          "type": "ebook platform"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "The Distributed Functions of Emergency Management and Homeland Security",
+        "raw_type": "book-chapter"
+      },
+      "parent_works": [
+        {
+          "id": "https://openalex.org/W4378192619",
+          "display_name": "The Distributed Functions of Emergency Management and Homeland Security: An Assessment of Professions Involved in Response to Disasters and Terrorist Attacks",
+          "relationship": "volume"
+        }
+      ],
+      "lineage": [
+        "https://openalex.org/W4378191967",
+        "https://openalex.org/W4378192619"
+      ],
+      "child_works_count": 0,
+      "type": "book-chapter",
+      "is_traditional": true,
+      "indexed_in": [
+        "crossref"
+      ],
+      "open_access": {
+        "is_oa": false,
+        "oa_status": "closed",
+        "oa_url": null,
+        "any_repository_has_fulltext": false
+      },
+      "authorships": [
+        {
+          "author_position": "first",
+          "author": {
+            "id": null,
+            "display_name": "Jackson Roberts",
+            "orcid": null,
+            "observed_orcids": []
+          },
+          "institutions": [],
+          "countries": [],
+          "is_corresponding": false,
+          "raw_author_name": "Jackson Roberts",
+          "raw_affiliation_strings": [],
+          "raw_orcid": null,
+          "affiliations": []
+        },
+        {
+          "author_position": "last",
+          "author": {
+            "id": "https://openalex.org/A5037075006",
+            "display_name": "David A. McEntire",
+            "orcid": "https://orcid.org/0000-0002-7575-0469",
+            "observed_orcids": [
+              "https://orcid.org/0000-0002-7575-0469"
+            ]
+          },
+          "institutions": [],
+          "countries": [],
+          "is_corresponding": false,
+          "raw_author_name": "David A. McEntire",
+          "raw_affiliation_strings": [],
+          "raw_orcid": null,
+          "affiliations": []
+        }
+      ],
+      "institutions": [],
+      "countries_distinct_count": 0,
+      "institutions_distinct_count": 0,
+      "corresponding_author_ids": [],
+      "corresponding_institution_ids": [],
+      "apc_list": null,
+      "apc_paid": null,
+      "fwci": 0.0,
+      "is_authors_truncated": false,
+      "has_fulltext": false,
+      "cited_by_count": 0,
+      "citation_normalized_percentile": {
+        "value": 0.0,
+        "is_in_top_1_percent": false,
+        "is_in_top_10_percent": false
+      },
+      "cited_by_percentile_year": null,
+      "biblio": {
+        "volume": null,
+        "issue": null,
+        "first_page": "394",
+        "last_page": "406"
+      },
+      "is_retracted": false,
+      "is_paratext": false,
+      "is_xpac": false,
+      "primary_topic": {
+        "id": "https://openalex.org/T13034",
+        "display_name": "Information Systems Education and Curriculum Development",
+        "score": 0.44780001044273376,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1710",
+          "display_name": "Information Systems"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      "topics": [
+        {
+          "id": "https://openalex.org/T13034",
+          "display_name": "Information Systems Education and Curriculum Development",
+          "score": 0.44780001044273376,
+          "subfield": {
+            "id": "https://openalex.org/subfields/1710",
+            "display_name": "Information Systems"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/17",
+            "display_name": "Computer Science"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T10734",
+          "display_name": "Information and Cyber Security",
+          "score": 0.20669999718666077,
+          "subfield": {
+            "id": "https://openalex.org/subfields/1710",
+            "display_name": "Information Systems"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/17",
+            "display_name": "Computer Science"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T10747",
+          "display_name": "Disaster Management and Resilience",
+          "score": 0.1979999989271164,
+          "subfield": {
+            "id": "https://openalex.org/subfields/3312",
+            "display_name": "Sociology and Political Science"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/33",
+            "display_name": "Social Sciences"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/2",
+            "display_name": "Social Sciences"
+          }
+        }
+      ],
+      "keywords": [
+        {
+          "id": "https://openalex.org/keywords/it-professionals",
+          "display_name": "IT professionals",
+          "score": 0.9919999837875366
+        },
+        {
+          "id": "https://openalex.org/keywords/terrorism",
+          "display_name": "terrorism",
+          "score": 0.7749999761581421
+        },
+        {
+          "id": "https://openalex.org/keywords/disasters",
+          "display_name": "disasters",
+          "score": 0.8989999890327454
+        },
+        {
+          "id": "https://openalex.org/keywords/crisis-response",
+          "display_name": "crisis response",
+          "score": 0.4740000069141388
+        },
+        {
+          "id": "https://openalex.org/keywords/emergency-preparedness",
+          "display_name": "disaster preparedness",
+          "score": 0.6850000023841858
+        }
+      ],
+      "concepts": [
+        {
+          "id": "https://openalex.org/C144133560",
+          "wikidata": "https://www.wikidata.org/wiki/Q4830453",
+          "display_name": "Business",
+          "level": 0,
+          "score": 0.3303595781326294
+        }
+      ],
+      "mesh": [],
+      "locations_count": 1,
+      "locations": [
+        {
+          "id": "doi:10.4324/9781003350729-22",
+          "doi": "https://doi.org/10.4324/9781003350729-22",
+          "is_oa": false,
+          "landing_page_url": "https://doi.org/10.4324/9781003350729-22",
+          "pdf_url": null,
+          "source": {
+            "id": "https://openalex.org/S4306463075",
+            "display_name": "CRC Press eBooks",
+            "issn_l": null,
+            "issn": null,
+            "is_oa": false,
+            "is_in_doaj": false,
+            "is_core": false,
+            "listed_in": [],
+            "host_organization": "https://openalex.org/P4310320584",
+            "host_organization_name": "CRC Press",
+            "host_organization_lineage": [
+              "https://openalex.org/P4310320584",
+              "https://openalex.org/P4310320547",
+              "https://openalex.org/P4310320449"
+            ],
+            "host_organization_lineage_names": [
+              "CRC Press",
+              "Taylor & Francis",
+              "Informa"
+            ],
+            "type": "ebook platform"
+          },
+          "license": null,
+          "license_id": null,
+          "version": "publishedVersion",
+          "is_accepted": true,
+          "is_published": true,
+          "raw_source_name": "The Distributed Functions of Emergency Management and Homeland Security",
+          "raw_type": "book-chapter"
+        }
+      ],
+      "best_oa_location": null,
+      "sustainable_development_goals": [],
+      "study_designs": [],
+      "awards": [],
+      "funders": [],
+      "has_content": {
+        "pdf": false,
+        "grobid_xml": false
+      },
+      "content_urls": null,
+      "referenced_works_count": 0,
+      "referenced_works": [],
+      "related_works": [
+        "https://openalex.org/W7068966706",
+        "https://openalex.org/W2062267971",
+        "https://openalex.org/W3005298202",
+        "https://openalex.org/W2142208409",
+        "https://openalex.org/W18336452",
+        "https://openalex.org/W7138976429",
+        "https://openalex.org/W2295176216",
+        "https://openalex.org/W969896332",
+        "https://openalex.org/W4247056927",
+        "https://openalex.org/W2965540478"
+      ],
+      "abstract_inverted_index": {
+        "This": [
+          0
+        ],
+        "chapter": [
+          1
+        ],
+        "provides": [
+          2
+        ],
+        "accurate": [
+          3
+        ],
+        "and": [
+          4,
+          23,
+          25,
+          41,
+          61,
+          95,
+          119,
+          123
+        ],
+        "educational": [
+          5
+        ],
+        "information": [
+          6,
+          11,
+          46,
+          82,
+          109
+        ],
+        "on": [
+          7
+        ],
+        "five": [
+          8
+        ],
+        "perspectives": [
+          9
+        ],
+        "regarding": [
+          10
+        ],
+        "technology": [
+          12,
+          47,
+          83,
+          110
+        ],
+        "specialists.": [
+          13
+        ],
+        "It": [
+          14,
+          103
+        ],
+        "discusses": [
+          15
+        ],
+        "the": [
+          16,
+          35,
+          90,
+          97,
+          132
+        ],
+        "relation": [
+          17
+        ],
+        "of": [
+          18,
+          117
+        ],
+        "IT": [
+          19,
+          54
+        ],
+        "specialists": [
+          20
+        ],
+        "to": [
+          21,
+          34,
+          88,
+          100,
+          112,
+          130
+        ],
+        "terrorism": [
+          22
+        ],
+        "disasters": [
+          24,
+          122
+        ],
+        "identify": [
+          26
+        ],
+        "how": [
+          27
+        ],
+        "these": [
+          28,
+          39
+        ],
+        "individuals": [
+          29
+        ],
+        "went": [
+          30
+        ],
+        "from": [
+          31
+        ],
+        "support": [
+          32
+        ],
+        "positions": [
+          33
+        ],
+        "front": [
+          36
+        ],
+        "line": [
+          37
+        ],
+        "in": [
+          38,
+          128
+        ],
+        "disruptive": [
+          40
+        ],
+        "even": [
+          42
+        ],
+        "dangerous": [
+          43
+        ],
+        "events.": [
+          44
+        ],
+        "An": [
+          45
+        ],
+        "specialist,": [
+          48,
+          55
+        ],
+        "more": [
+          49
+        ],
+        "commonly": [
+          50
+        ],
+        "known": [
+          51
+        ],
+        "as": [
+          52
+        ],
+        "an": [
+          53,
+          65,
+          81,
+          108
+        ],
+        "is": [
+          56,
+          67,
+          72,
+          77,
+          104
+        ],
+        "defined": [
+          57
+        ],
+        "differently": [
+          58
+        ],
+        "within": [
+          59
+        ],
+        "government": [
+          60
+        ],
+        "private": [
+          62
+        ],
+        "organizations.": [
+          63
+        ],
+        "Whenever": [
+          64
+        ],
+        "error": [
+          66
+        ],
+        "found": [
+          68
+        ],
+        "or": [
+          69
+        ],
+        "a": [
+          70,
+          115
+        ],
+        "notification": [
+          71
+        ],
+        "given": [
+          73
+        ],
+        "that": [
+          74,
+          125
+        ],
+        "indicates": [
+          75
+        ],
+        "something": [
+          76
+        ],
+        "not": [
+          78
+        ],
+        "working": [
+          79
+        ],
+        "properly,": [
+          80
+        ],
+        "specialist": [
+          84,
+          111
+        ],
+        "must": [
+          85
+        ],
+        "be": [
+          86
+        ],
+        "contacted": [
+          87
+        ],
+        "report": [
+          89
+        ],
+        "problem,": [
+          91
+        ],
+        "shut": [
+          92
+        ],
+        "it": [
+          93
+        ],
+        "down,": [
+          94
+        ],
+        "take": [
+          96
+        ],
+        "necessary": [
+          98
+        ],
+        "steps": [
+          99
+        ],
+        "correct": [
+          101
+        ],
+        "it.": [
+          102
+        ],
+        "consequently": [
+          105
+        ],
+        "critical": [
+          106
+        ],
+        "for": [
+          107,
+          114
+        ],
+        "prepare": [
+          113
+        ],
+        "variety": [
+          116
+        ],
+        "diverse": [
+          118
+        ],
+        "creative": [
+          120
+        ],
+        "potential": [
+          121
+        ],
+        "problems": [
+          124
+        ],
+        "could": [
+          126
+        ],
+        "arise": [
+          127
+        ],
+        "order": [
+          129
+        ],
+        "mitigate": [
+          131
+        ],
+        "issues.": [
+          133
+        ]
+      },
+      "counts_by_year": [],
+      "updated_date": "2026-11-14T11:04:58.165337",
+      "created_date": "2023-05-26T00:00:00"
+    },
+    {
+      "id": "https://openalex.org/W1968531582",
+      "doi": "https://doi.org/10.1080/15391523.2006.10782470",
+      "title": "Instructional Technology Specialists and Curriculum Work",
+      "display_name": "Instructional Technology Specialists and Curriculum Work",
+      "relevance_score": 118.99115,
+      "publication_year": 2006,
+      "publication_date": "2006-09-01",
+      "ids": {
+        "openalex": "https://openalex.org/W1968531582",
+        "doi": "https://doi.org/10.1080/15391523.2006.10782470",
+        "mag": "1968531582"
+      },
+      "language": "en",
+      "primary_location": {
+        "id": "doi:10.1080/15391523.2006.10782470",
+        "doi": "https://doi.org/10.1080/15391523.2006.10782470",
+        "is_oa": false,
+        "landing_page_url": "https://doi.org/10.1080/15391523.2006.10782470",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4210183620",
+          "display_name": "Journal of Research on Technology in Education",
+          "issn_l": "1539-1523",
+          "issn": [
+            "1539-1523",
+            "1945-0818"
+          ],
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": true,
+          "listed_in": [
+            "anvur-class-a",
+            "anvur-scientific",
+            "cwts-core",
+            "erih-plus",
+            "jufo-1",
+            "norway-1",
+            "poland-140",
+            "russia-white-list-1"
+          ],
+          "host_organization": "https://openalex.org/P4310320547",
+          "host_organization_name": "Taylor & Francis",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310320547",
+            "https://openalex.org/P4310320449"
+          ],
+          "host_organization_lineage_names": [
+            "Taylor & Francis",
+            "Informa"
+          ],
+          "type": "journal"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Journal of Research on Technology in Education",
+        "raw_type": "journal-article"
+      },
+      "parent_works": [],
+      "lineage": [
+        "https://openalex.org/W1968531582"
+      ],
+      "child_works_count": 0,
+      "type": "article",
+      "is_traditional": true,
+      "indexed_in": [
+        "crossref"
+      ],
+      "open_access": {
+        "is_oa": false,
+        "oa_status": "closed",
+        "oa_url": null,
+        "any_repository_has_fulltext": false
+      },
+      "authorships": [
+        {
+          "author_position": "first",
+          "author": {
+            "id": "https://openalex.org/A5005507417",
+            "display_name": "Leigh T. Ausband",
+            "orcid": null,
+            "observed_orcids": []
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I102149020",
+              "display_name": "University of North Carolina at Charlotte",
+              "ror": "https://ror.org/04dawnj30",
+              "country_code": "US",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I102149020"
+              ]
+            },
+            {
+              "id": "https://openalex.org/I4210164054",
+              "display_name": "International Society for Technology in Education",
+              "ror": "https://ror.org/05g4yrw83",
+              "country_code": "US",
+              "type": "nonprofit",
+              "lineage": [
+                "https://openalex.org/I4210164054"
+              ]
+            }
+          ],
+          "countries": [
+            "US"
+          ],
+          "is_corresponding": true,
+          "raw_author_name": "Leigh T. Ausband",
+          "raw_affiliation_strings": [
+            "University of North Carolina at Charlotte",
+            "International Society for Technology in Education"
+          ],
+          "raw_orcid": null,
+          "affiliations": [
+            {
+              "raw_affiliation_string": "University of North Carolina at Charlotte",
+              "institution_ids": [
+                "https://openalex.org/I102149020"
+              ]
+            },
+            {
+              "raw_affiliation_string": "International Society for Technology in Education",
+              "institution_ids": [
+                "https://openalex.org/I4210164054"
+              ]
+            }
+          ]
+        }
+      ],
+      "institutions": [],
+      "countries_distinct_count": 1,
+      "institutions_distinct_count": 2,
+      "corresponding_author_ids": [
+        "https://openalex.org/A5005507417"
+      ],
+      "corresponding_institution_ids": [
+        "https://openalex.org/I102149020",
+        "https://openalex.org/I4210164054"
+      ],
+      "apc_list": null,
+      "apc_paid": null,
+      "fwci": 1.4176,
+      "is_authors_truncated": false,
+      "has_fulltext": false,
+      "cited_by_count": 13,
+      "citation_normalized_percentile": {
+        "value": 0.86231903,
+        "is_in_top_1_percent": false,
+        "is_in_top_10_percent": false
+      },
+      "cited_by_percentile_year": {
+        "min": 88,
+        "max": 97
+      },
+      "biblio": {
+        "volume": "39",
+        "issue": "1",
+        "first_page": "1",
+        "last_page": "21"
+      },
+      "is_retracted": false,
+      "is_paratext": false,
+      "is_xpac": false,
+      "primary_topic": {
+        "id": "https://openalex.org/T14060",
+        "display_name": "Education and Communication Studies",
+        "score": 0.46880000829696655,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3304",
+          "display_name": "Education"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/33",
+          "display_name": "Social Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      "topics": [
+        {
+          "id": "https://openalex.org/T14060",
+          "display_name": "Education and Communication Studies",
+          "score": 0.46880000829696655,
+          "subfield": {
+            "id": "https://openalex.org/subfields/3304",
+            "display_name": "Education"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/33",
+            "display_name": "Social Sciences"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/2",
+            "display_name": "Social Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T13299",
+          "display_name": "Educational Leadership and Administration",
+          "score": 0.18230000138282776,
+          "subfield": {
+            "id": "https://openalex.org/subfields/3304",
+            "display_name": "Education"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/33",
+            "display_name": "Social Sciences"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/2",
+            "display_name": "Social Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T10008",
+          "display_name": "Teacher Education and Leadership Studies",
+          "score": 0.09510000050067902,
+          "subfield": {
+            "id": "https://openalex.org/subfields/3304",
+            "display_name": "Education"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/33",
+            "display_name": "Social Sciences"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/2",
+            "display_name": "Social Sciences"
+          }
+        }
+      ],
+      "keywords": [
+        {
+          "id": "https://openalex.org/keywords/curriculum-work",
+          "display_name": "curriculum work",
+          "score": 0.8320000171661377
+        },
+        {
+          "id": "https://openalex.org/keywords/job-responsibilities",
+          "display_name": "job responsibilities",
+          "score": 0.7870000004768372
+        }
+      ],
+      "concepts": [
+        {
+          "id": "https://openalex.org/C47177190",
+          "wikidata": "https://www.wikidata.org/wiki/Q207137",
+          "display_name": "Curriculum",
+          "level": 2,
+          "score": 0.8515362739562988
+        },
+        {
+          "id": "https://openalex.org/C18762648",
+          "wikidata": "https://www.wikidata.org/wiki/Q42213",
+          "display_name": "Work (physics)",
+          "level": 2,
+          "score": 0.6889153718948364
+        },
+        {
+          "id": "https://openalex.org/C56995899",
+          "wikidata": "https://www.wikidata.org/wiki/Q1126687",
+          "display_name": "Focus group",
+          "level": 2,
+          "score": 0.6811969876289368
+        },
+        {
+          "id": "https://openalex.org/C2985530498",
+          "wikidata": "https://www.wikidata.org/wiki/Q1068473",
+          "display_name": "Instructional technology",
+          "level": 3,
+          "score": 0.5968290567398071
+        },
+        {
+          "id": "https://openalex.org/C509550671",
+          "wikidata": "https://www.wikidata.org/wiki/Q126945",
+          "display_name": "Medical education",
+          "level": 1,
+          "score": 0.517180323600769
+        },
+        {
+          "id": "https://openalex.org/C2779011557",
+          "wikidata": "https://www.wikidata.org/wiki/Q16911265",
+          "display_name": "Curriculum development",
+          "level": 3,
+          "score": 0.47666671872138977
+        },
+        {
+          "id": "https://openalex.org/C26760741",
+          "wikidata": "https://www.wikidata.org/wiki/Q160402",
+          "display_name": "Perception",
+          "level": 2,
+          "score": 0.43330997228622437
+        },
+        {
+          "id": "https://openalex.org/C19417346",
+          "wikidata": "https://www.wikidata.org/wiki/Q7922",
+          "display_name": "Pedagogy",
+          "level": 1,
+          "score": 0.4273150563240051
+        },
+        {
+          "id": "https://openalex.org/C15744967",
+          "wikidata": "https://www.wikidata.org/wiki/Q9418",
+          "display_name": "Psychology",
+          "level": 0,
+          "score": 0.35955893993377686
+        },
+        {
+          "id": "https://openalex.org/C16443162",
+          "wikidata": "https://www.wikidata.org/wiki/Q1068473",
+          "display_name": "Educational technology",
+          "level": 2,
+          "score": 0.35398173332214355
+        },
+        {
+          "id": "https://openalex.org/C144024400",
+          "wikidata": "https://www.wikidata.org/wiki/Q21201",
+          "display_name": "Sociology",
+          "level": 0,
+          "score": 0.27474379539489746
+        },
+        {
+          "id": "https://openalex.org/C71924100",
+          "wikidata": "https://www.wikidata.org/wiki/Q11190",
+          "display_name": "Medicine",
+          "level": 0,
+          "score": 0.17928528785705566
+        },
+        {
+          "id": "https://openalex.org/C127413603",
+          "wikidata": "https://www.wikidata.org/wiki/Q11023",
+          "display_name": "Engineering",
+          "level": 0,
+          "score": 0.14028102159500122
+        },
+        {
+          "id": "https://openalex.org/C19165224",
+          "wikidata": "https://www.wikidata.org/wiki/Q23404",
+          "display_name": "Anthropology",
+          "level": 1,
+          "score": 0.0
+        },
+        {
+          "id": "https://openalex.org/C78519656",
+          "wikidata": "https://www.wikidata.org/wiki/Q101333",
+          "display_name": "Mechanical engineering",
+          "level": 1,
+          "score": 0.0
+        },
+        {
+          "id": "https://openalex.org/C169760540",
+          "wikidata": "https://www.wikidata.org/wiki/Q207011",
+          "display_name": "Neuroscience",
+          "level": 1,
+          "score": 0.0
+        }
+      ],
+      "mesh": [],
+      "locations_count": 1,
+      "locations": [
+        {
+          "id": "doi:10.1080/15391523.2006.10782470",
+          "doi": "https://doi.org/10.1080/15391523.2006.10782470",
+          "is_oa": false,
+          "landing_page_url": "https://doi.org/10.1080/15391523.2006.10782470",
+          "pdf_url": null,
+          "source": {
+            "id": "https://openalex.org/S4210183620",
+            "display_name": "Journal of Research on Technology in Education",
+            "issn_l": "1539-1523",
+            "issn": [
+              "1539-1523",
+              "1945-0818"
+            ],
+            "is_oa": false,
+            "is_in_doaj": false,
+            "is_core": true,
+            "listed_in": [
+              "anvur-class-a",
+              "anvur-scientific",
+              "cwts-core",
+              "erih-plus",
+              "jufo-1",
+              "norway-1",
+              "poland-140",
+              "russia-white-list-1"
+            ],
+            "host_organization": "https://openalex.org/P4310320547",
+            "host_organization_name": "Taylor & Francis",
+            "host_organization_lineage": [
+              "https://openalex.org/P4310320547",
+              "https://openalex.org/P4310320449"
+            ],
+            "host_organization_lineage_names": [
+              "Taylor & Francis",
+              "Informa"
+            ],
+            "type": "journal"
+          },
+          "license": null,
+          "license_id": null,
+          "version": "publishedVersion",
+          "is_accepted": true,
+          "is_published": true,
+          "raw_source_name": "Journal of Research on Technology in Education",
+          "raw_type": "journal-article"
+        }
+      ],
+      "best_oa_location": null,
+      "sustainable_development_goals": [
+        {
+          "display_name": "Quality education",
+          "score": 0.9235000014305115,
+          "id": "https://metadata.un.org/sdg/4"
+        }
+      ],
+      "study_designs": [],
+      "awards": [],
+      "funders": [],
+      "has_content": {
+        "pdf": false,
+        "grobid_xml": false
+      },
+      "content_urls": null,
+      "referenced_works_count": 27,
+      "referenced_works": [
+        "https://openalex.org/W20318747",
+        "https://openalex.org/W79229537",
+        "https://openalex.org/W137529221",
+        "https://openalex.org/W150122439",
+        "https://openalex.org/W239687069",
+        "https://openalex.org/W249625491",
+        "https://openalex.org/W283755629",
+        "https://openalex.org/W285098548",
+        "https://openalex.org/W294564347",
+        "https://openalex.org/W638777559",
+        "https://openalex.org/W825660400",
+        "https://openalex.org/W1503772858",
+        "https://openalex.org/W1520413097",
+        "https://openalex.org/W1553286440",
+        "https://openalex.org/W2064468954",
+        "https://openalex.org/W2149702642",
+        "https://openalex.org/W2208156366",
+        "https://openalex.org/W2317395887",
+        "https://openalex.org/W2390008750",
+        "https://openalex.org/W2591732102",
+        "https://openalex.org/W2782878764",
+        "https://openalex.org/W2796652810",
+        "https://openalex.org/W2890819207",
+        "https://openalex.org/W2905927022",
+        "https://openalex.org/W3214833809",
+        "https://openalex.org/W4247759054",
+        "https://openalex.org/W4250408024"
+      ],
+      "related_works": [
+        "https://openalex.org/W175812347",
+        "https://openalex.org/W7215247637",
+        "https://openalex.org/W241458641",
+        "https://openalex.org/W1591249860",
+        "https://openalex.org/W2066824516",
+        "https://openalex.org/W7064995781",
+        "https://openalex.org/W2964635950",
+        "https://openalex.org/W134667075",
+        "https://openalex.org/W2340993644"
+      ],
+      "abstract_inverted_index": {
+        "This": [
+          0
+        ],
+        "case": [
+          1
+        ],
+        "study": [
+          2
+        ],
+        "investigated": [
+          3
+        ],
+        "the": [
+          4,
+          18,
+          20,
+          85
+        ],
+        "job": [
+          5,
+          25
+        ],
+        "responsibilities": [
+          6,
+          26
+        ],
+        "of": [
+          7,
+          47,
+          74
+        ],
+        "district-level": [
+          8
+        ],
+        "instructional": [
+          9,
+          60,
+          110
+        ],
+        "technology": [
+          10,
+          61,
+          64,
+          111
+        ],
+        "specialists": [
+          11,
+          21,
+          65,
+          112
+        ],
+        "that": [
+          12
+        ],
+        "related": [
+          13
+        ],
+        "to": [
+          14,
+          30,
+          58,
+          68,
+          88,
+          91,
+          108
+        ],
+        "curriculum": [
+          15,
+          31,
+          48,
+          75,
+          114
+        ],
+        "work": [
+          16,
+          94
+        ],
+        "and": [
+          17,
+          27,
+          41,
+          50,
+          79,
+          103
+        ],
+        "perceptions": [
+          19
+        ],
+        "had": [
+          22
+        ],
+        "concerning": [
+          23
+        ],
+        "their": [
+          24,
+          28,
+          93
+        ],
+        "relationship": [
+          29
+        ],
+        "work.": [
+          32,
+          62,
+          76
+        ],
+        "Data": [
+          33
+        ],
+        "were": [
+          34,
+          66
+        ],
+        "collected": [
+          35
+        ],
+        "through": [
+          36
+        ],
+        "document": [
+          37
+        ],
+        "analysis,": [
+          38
+        ],
+        "shadowing,": [
+          39
+        ],
+        "interviews,": [
+          40
+        ],
+        "a": [
+          42,
+          104
+        ],
+        "focus": [
+          43,
+          80
+        ],
+        "group.": [
+          44
+        ],
+        "A": [
+          45
+        ],
+        "framework": [
+          46
+        ],
+        "themes": [
+          49
+        ],
+        "categories": [
+          51
+        ],
+        "was": [
+          52,
+          55
+        ],
+        "created,": [
+          53
+        ],
+        "which": [
+          54
+        ],
+        "then": [
+          56
+        ],
+        "used": [
+          57
+        ],
+        "define": [
+          59
+        ],
+        "Instructional": [
+          63
+        ],
+        "found": [
+          67
+        ],
+        "be": [
+          69,
+          89
+        ],
+        "engaged": [
+          70
+        ],
+        "in": [
+          71
+        ],
+        "many": [
+          72
+        ],
+        "aspects": [
+          73
+        ],
+        "The": [
+          77
+        ],
+        "individual": [
+          78
+        ],
+        "group": [
+          81
+        ],
+        "interviews": [
+          82
+        ],
+        "revealed": [
+          83
+        ],
+        "factors": [
+          84
+        ],
+        "participants": [
+          86
+        ],
+        "considered": [
+          87
+        ],
+        "barriers": [
+          90,
+          102
+        ],
+        "getting": [
+          92
+        ],
+        "done.": [
+          95
+        ],
+        "Recommendations": [
+          96
+        ],
+        "are": [
+          97
+        ],
+        "provided": [
+          98
+        ],
+        "for": [
+          99
+        ],
+        "overcoming": [
+          100
+        ],
+        "these": [
+          101
+        ],
+        "call": [
+          105
+        ],
+        "is": [
+          106
+        ],
+        "made": [
+          107
+        ],
+        "reconceptualize": [
+          109
+        ],
+        "as": [
+          113
+        ],
+        "workers.": [
+          115
+        ]
+      },
+      "counts_by_year": [
+        {
+          "year": 2026,
+          "cited_by_count": 1
+        },
+        {
+          "year": 2021,
+          "cited_by_count": 2
+        },
+        {
+          "year": 2020,
+          "cited_by_count": 1
+        },
+        {
+          "year": 2019,
+          "cited_by_count": 1
+        },
+        {
+          "year": 2018,
+          "cited_by_count": 3
+        },
+        {
+          "year": 2017,
+          "cited_by_count": 1
+        },
+        {
+          "year": 2015,
+          "cited_by_count": 2
+        },
+        {
+          "year": 2012,
+          "cited_by_count": 1
+        }
+      ],
+      "updated_date": "2026-11-14T11:04:58.165337",
+      "created_date": "2016-06-24T00:00:00"
+    },
+    {
+      "id": "https://openalex.org/W2995739213",
+      "doi": "https://doi.org/10.55056/ceur-ws.org/vol-2433/paper34.pdf",
+      "title": "Implementation of cloud service models in training of future information technology specialists",
+      "display_name": "Implementation of cloud service models in training of future information technology specialists",
+      "relevance_score": 117.80461,
+      "publication_year": 2019,
+      "publication_date": "2019-03-21",
+      "ids": {
+        "openalex": "https://openalex.org/W2995739213",
+        "doi": "https://doi.org/10.55056/ceur-ws.org/vol-2433/paper34.pdf",
+        "mag": "2995739213"
+      },
+      "language": "en",
+      "primary_location": {
+        "id": "doi:10.55056/ceur-ws.org/vol-2433/paper34.pdf",
+        "doi": "https://doi.org/10.55056/ceur-ws.org/vol-2433/paper34.pdf",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.55056/ceur-ws.org/vol-2433/paper34.pdf",
+        "pdf_url": "https://doi.org/10.55056/ceur-ws.org/vol-2433/paper34.pdf",
+        "source": {
+          "id": "https://openalex.org/S7407088024",
+          "display_name": "Workshop on Cloud Technologies in Education (CTE)",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "listed_in": [],
+          "host_organization": null,
+          "host_organization_name": null,
+          "host_organization_lineage": [],
+          "host_organization_lineage_names": [],
+          "type": "conference"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "CEUR Workshop Proceedings, Vol-2433: Proceedings of the 6th Workshop on Cloud Technologies in Education (CTE 2018)",
+        "raw_type": "proceedings-article"
+      },
+      "parent_works": [],
+      "lineage": [
+        "https://openalex.org/W2995739213"
+      ],
+      "child_works_count": 0,
+      "type": "conference-paper",
+      "is_traditional": true,
+      "indexed_in": [
+        "crossref",
+        "doaj"
+      ],
+      "open_access": {
+        "is_oa": true,
+        "oa_status": "bronze",
+        "oa_url": "https://doi.org/10.55056/ceur-ws.org/vol-2433/paper34.pdf",
+        "any_repository_has_fulltext": false
+      },
+      "authorships": [
+        {
+          "author_position": "first",
+          "author": {
+            "id": "https://openalex.org/A5021768432",
+            "display_name": "Оксана Миколаївна Маркова",
+            "orcid": "https://orcid.org/0000-0002-5236-6640",
+            "observed_orcids": [
+              "https://orcid.org/0000-0002-5236-6640"
+            ]
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I1304898440",
+              "display_name": "Kryvyi Rih National University",
+              "ror": "https://ror.org/02md2kv66",
+              "country_code": "UA",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I1304898440"
+              ]
+            }
+          ],
+          "countries": [
+            "UA"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "Oksana M. Markova",
+          "raw_affiliation_strings": [
+            "Kryvyi Rih National University , 11, Vitalii Matusevуch Str. , Kryvyi Rih , 50027 , Ukraine",
+            "Kryvyi Rih National University"
+          ],
+          "raw_orcid": "https://orcid.org/0000-0002-5236-6640",
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Kryvyi Rih National University , 11, Vitalii Matusevуch Str. , Kryvyi Rih , 50027 , Ukraine",
+              "institution_ids": [
+                "https://openalex.org/I1304898440"
+              ]
+            },
+            {
+              "raw_affiliation_string": "Kryvyi Rih National University",
+              "institution_ids": [
+                "https://openalex.org/I1304898440"
+              ]
+            }
+          ]
+        },
+        {
+          "author_position": "middle",
+          "author": {
+            "id": "https://openalex.org/A5086547751",
+            "display_name": "Serhiy O. Semerikov",
+            "orcid": "https://orcid.org/0000-0003-0789-0272",
+            "observed_orcids": [
+              "https://orcid.org/0000-0003-0789-0272"
+            ]
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I4210108589",
+              "display_name": "Kryvyi Rih State Pedagogical University",
+              "ror": "https://ror.org/01wx1q736",
+              "country_code": "UA",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I4210108589"
+              ]
+            }
+          ],
+          "countries": [
+            "UA"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "Serhiy O. Semerikov",
+          "raw_affiliation_strings": [
+            "Institute of Information Technologies and Learning Tools of NAES of Ukraine , 9 , M. Berlynskoho Str. , Kyiv , 04060 , Ukraine",
+            "Kryvyi Rih State Pedagogical University , 54, Gagarina Ave. , Kryvyi Rih , 50086 , Ukraine",
+            "Kryvyi Rih State Pedagogical University"
+          ],
+          "raw_orcid": "https://orcid.org/0000-0003-0789-0272",
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Institute of Information Technologies and Learning Tools of NAES of Ukraine , 9 , M. Berlynskoho Str. , Kyiv , 04060 , Ukraine",
+              "institution_ids": []
+            },
+            {
+              "raw_affiliation_string": "Kryvyi Rih State Pedagogical University , 54, Gagarina Ave. , Kryvyi Rih , 50086 , Ukraine",
+              "institution_ids": [
+                "https://openalex.org/I4210108589"
+              ]
+            },
+            {
+              "raw_affiliation_string": "Kryvyi Rih State Pedagogical University",
+              "institution_ids": [
+                "https://openalex.org/I4210108589"
+              ]
+            }
+          ]
+        },
+        {
+          "author_position": "middle",
+          "author": {
+            "id": "https://openalex.org/A5060080918",
+            "display_name": "Андрій Миколайович Стрюк",
+            "orcid": "https://orcid.org/0000-0001-9240-1976",
+            "observed_orcids": [
+              "https://orcid.org/0000-0001-9240-1976"
+            ]
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I1304898440",
+              "display_name": "Kryvyi Rih National University",
+              "ror": "https://ror.org/02md2kv66",
+              "country_code": "UA",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I1304898440"
+              ]
+            }
+          ],
+          "countries": [
+            "UA"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "Andrii M. Striuk",
+          "raw_affiliation_strings": [
+            "Kryvyi Rih National University , 11, Vitalii Matusevуch Str. , Kryvyi Rih , 50027 , Ukraine",
+            "Kryvyi Rih National University"
+          ],
+          "raw_orcid": "https://orcid.org/0000-0001-9240-1976",
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Kryvyi Rih National University , 11, Vitalii Matusevуch Str. , Kryvyi Rih , 50027 , Ukraine",
+              "institution_ids": [
+                "https://openalex.org/I1304898440"
+              ]
+            },
+            {
+              "raw_affiliation_string": "Kryvyi Rih National University",
+              "institution_ids": [
+                "https://openalex.org/I1304898440"
+              ]
+            }
+          ]
+        },
+        {
+          "author_position": "middle",
+          "author": {
+            "id": "https://openalex.org/A5077994351",
+            "display_name": "Hаnnа M. Shalatska",
+            "orcid": "https://orcid.org/0000-0002-1231-8847",
+            "observed_orcids": [
+              "https://orcid.org/0000-0002-1231-8847"
+            ]
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I1304898440",
+              "display_name": "Kryvyi Rih National University",
+              "ror": "https://ror.org/02md2kv66",
+              "country_code": "UA",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I1304898440"
+              ]
+            }
+          ],
+          "countries": [
+            "UA"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "Hanna M. Shalatska",
+          "raw_affiliation_strings": [
+            "Kryvyi Rih National University , 11, Vitalii Matusevуch Str. , Kryvyi Rih , 50027 , Ukraine",
+            "Kryvyi Rih National University"
+          ],
+          "raw_orcid": "https://orcid.org/0000-0002-1231-8847",
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Kryvyi Rih National University , 11, Vitalii Matusevуch Str. , Kryvyi Rih , 50027 , Ukraine",
+              "institution_ids": [
+                "https://openalex.org/I1304898440"
+              ]
+            },
+            {
+              "raw_affiliation_string": "Kryvyi Rih National University",
+              "institution_ids": [
+                "https://openalex.org/I1304898440"
+              ]
+            }
+          ]
+        },
+        {
+          "author_position": "middle",
+          "author": {
+            "id": "https://openalex.org/A5057900785",
+            "display_name": "Pavlo P. Nechypurenko",
+            "orcid": "https://orcid.org/0000-0001-5397-6523",
+            "observed_orcids": [
+              "https://orcid.org/0000-0001-5397-6523"
+            ]
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I4210108589",
+              "display_name": "Kryvyi Rih State Pedagogical University",
+              "ror": "https://ror.org/01wx1q736",
+              "country_code": "UA",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I4210108589"
+              ]
+            }
+          ],
+          "countries": [
+            "UA"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "Pavlo P. Nechypurenko",
+          "raw_affiliation_strings": [
+            "Kryvyi Rih State Pedagogical University , 54, Gagarina Ave. , Kryvyi Rih , 50086 , Ukraine",
+            "Kryvyi Rih State Pedagogical University"
+          ],
+          "raw_orcid": "https://orcid.org/0000-0001-5397-6523",
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Kryvyi Rih State Pedagogical University , 54, Gagarina Ave. , Kryvyi Rih , 50086 , Ukraine",
+              "institution_ids": [
+                "https://openalex.org/I4210108589"
+              ]
+            },
+            {
+              "raw_affiliation_string": "Kryvyi Rih State Pedagogical University",
+              "institution_ids": [
+                "https://openalex.org/I4210108589"
+              ]
+            }
+          ]
+        },
+        {
+          "author_position": "last",
+          "author": {
+            "id": "https://openalex.org/A5089828861",
+            "display_name": "V.V. Tron",
+            "orcid": "https://orcid.org/0000-0002-6149-5794",
+            "observed_orcids": [
+              "https://orcid.org/0000-0002-6149-5794"
+            ]
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I1304898440",
+              "display_name": "Kryvyi Rih National University",
+              "ror": "https://ror.org/02md2kv66",
+              "country_code": "UA",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I1304898440"
+              ]
+            }
+          ],
+          "countries": [
+            "UA"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "Vitaliy V. Tron",
+          "raw_affiliation_strings": [
+            "Kryvyi Rih National University , 11, Vitalii Matusevуch Str. , Kryvyi Rih , 50027 , Ukraine",
+            "Kryvyi Rih National University"
+          ],
+          "raw_orcid": "https://orcid.org/0000-0002-6149-5794",
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Kryvyi Rih National University , 11, Vitalii Matusevуch Str. , Kryvyi Rih , 50027 , Ukraine",
+              "institution_ids": [
+                "https://openalex.org/I1304898440"
+              ]
+            },
+            {
+              "raw_affiliation_string": "Kryvyi Rih National University",
+              "institution_ids": [
+                "https://openalex.org/I1304898440"
+              ]
+            }
+          ]
+        }
+      ],
+      "institutions": [],
+      "countries_distinct_count": 1,
+      "institutions_distinct_count": 2,
+      "corresponding_author_ids": [],
+      "corresponding_institution_ids": [],
+      "apc_list": null,
+      "apc_paid": null,
+      "fwci": 89.4753,
+      "is_authors_truncated": false,
+      "has_fulltext": true,
+      "cited_by_count": 106,
+      "citation_normalized_percentile": {
+        "value": 0.9998965,
+        "is_in_top_1_percent": true,
+        "is_in_top_10_percent": true
+      },
+      "cited_by_percentile_year": {
+        "min": 88,
+        "max": 100
+      },
+      "biblio": {
+        "volume": "6",
+        "issue": null,
+        "first_page": "499",
+        "last_page": "515"
+      },
+      "is_retracted": false,
+      "is_paratext": false,
+      "is_xpac": false,
+      "primary_topic": {
+        "id": "https://openalex.org/T13016",
+        "display_name": "Innovative Educational Technologies",
+        "score": 1.0,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3304",
+          "display_name": "Education"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/33",
+          "display_name": "Social Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      "topics": [
+        {
+          "id": "https://openalex.org/T13016",
+          "display_name": "Innovative Educational Technologies",
+          "score": 1.0,
+          "subfield": {
+            "id": "https://openalex.org/subfields/3304",
+            "display_name": "Education"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/33",
+            "display_name": "Social Sciences"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/2",
+            "display_name": "Social Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T14519",
+          "display_name": "Innovations in Education and Learning Technologies",
+          "score": 0.0,
+          "subfield": {
+            "id": "https://openalex.org/subfields/3304",
+            "display_name": "Education"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/33",
+            "display_name": "Social Sciences"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/2",
+            "display_name": "Social Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T10101",
+          "display_name": "Cloud Computing and Resource Management",
+          "score": 0.0,
+          "subfield": {
+            "id": "https://openalex.org/subfields/1710",
+            "display_name": "Information Systems"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/17",
+            "display_name": "Computer Science"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        }
+      ],
+      "keywords": [
+        {
+          "id": "https://openalex.org/keywords/cloud-computing-in-education",
+          "display_name": "cloud computing in education",
+          "score": 0.7889999747276306
+        },
+        {
+          "id": "https://openalex.org/keywords/cloud-service-models",
+          "display_name": "cloud service models",
+          "score": 0.921999990940094
+        },
+        {
+          "id": "https://openalex.org/keywords/software-as-a-service",
+          "display_name": "software as a service",
+          "score": 0.828000009059906
+        },
+        {
+          "id": "https://openalex.org/keywords/paas",
+          "display_name": "PaaS",
+          "score": 1.0
+        },
+        {
+          "id": "https://openalex.org/keywords/iaa",
+          "display_name": "IAA",
+          "score": 1.0
+        },
+        {
+          "id": "https://openalex.org/keywords/cloud-oriented-learning-environment",
+          "display_name": "cloud-oriented learning environment",
+          "score": 0.7929999828338623
+        },
+        {
+          "id": "https://openalex.org/keywords/blended-learning",
+          "display_name": "blended learning",
+          "score": 0.9390000104904175
+        },
+        {
+          "id": "https://openalex.org/keywords/software-engineering-education",
+          "display_name": "software engineering education",
+          "score": 0.9459999799728394
+        },
+        {
+          "id": "https://openalex.org/keywords/computer-engineering-education",
+          "display_name": "computer engineering education",
+          "score": 0.9160000085830688
+        },
+        {
+          "id": "https://openalex.org/keywords/computer-science-education",
+          "display_name": "computer science education",
+          "score": 0.8159999847412109
+        },
+        {
+          "id": "https://openalex.org/keywords/parallel-programming",
+          "display_name": "parallel programming",
+          "score": 0.6100000143051147
+        },
+        {
+          "id": "https://openalex.org/keywords/research-skills",
+          "display_name": "research skills",
+          "score": 0.7739999890327454
+        }
+      ],
+      "concepts": [
+        {
+          "id": "https://openalex.org/C79974875",
+          "wikidata": "https://www.wikidata.org/wiki/Q483639",
+          "display_name": "Cloud computing",
+          "level": 2,
+          "score": 0.9280855059623718
+        },
+        {
+          "id": "https://openalex.org/C41008148",
+          "wikidata": "https://www.wikidata.org/wiki/Q21198",
+          "display_name": "Computer science",
+          "level": 0,
+          "score": 0.603834867477417
+        },
+        {
+          "id": "https://openalex.org/C175133352",
+          "wikidata": "https://www.wikidata.org/wiki/Q1254596",
+          "display_name": "Software as a service",
+          "level": 4,
+          "score": 0.5648163557052612
+        },
+        {
+          "id": "https://openalex.org/C121017731",
+          "wikidata": "https://www.wikidata.org/wiki/Q11661",
+          "display_name": "Information technology",
+          "level": 2,
+          "score": 0.5551370978355408
+        },
+        {
+          "id": "https://openalex.org/C2778712577",
+          "wikidata": "https://www.wikidata.org/wiki/Q3505966",
+          "display_name": "Retraining",
+          "level": 2,
+          "score": 0.5548949241638184
+        },
+        {
+          "id": "https://openalex.org/C110354214",
+          "wikidata": "https://www.wikidata.org/wiki/Q6314146",
+          "display_name": "Engineering management",
+          "level": 1,
+          "score": 0.4255896210670471
+        },
+        {
+          "id": "https://openalex.org/C207267971",
+          "wikidata": "https://www.wikidata.org/wiki/Q120208",
+          "display_name": "Emerging technologies",
+          "level": 2,
+          "score": 0.4107387363910675
+        },
+        {
+          "id": "https://openalex.org/C56739046",
+          "wikidata": "https://www.wikidata.org/wiki/Q192060",
+          "display_name": "Knowledge management",
+          "level": 1,
+          "score": 0.3811703026294708
+        },
+        {
+          "id": "https://openalex.org/C2777904410",
+          "wikidata": "https://www.wikidata.org/wiki/Q7397",
+          "display_name": "Software",
+          "level": 2,
+          "score": 0.3690485656261444
+        },
+        {
+          "id": "https://openalex.org/C127413603",
+          "wikidata": "https://www.wikidata.org/wiki/Q11023",
+          "display_name": "Engineering",
+          "level": 0,
+          "score": 0.26037919521331787
+        },
+        {
+          "id": "https://openalex.org/C529173508",
+          "wikidata": "https://www.wikidata.org/wiki/Q638608",
+          "display_name": "Software development",
+          "level": 3,
+          "score": 0.2212422490119934
+        },
+        {
+          "id": "https://openalex.org/C154945302",
+          "wikidata": "https://www.wikidata.org/wiki/Q11660",
+          "display_name": "Artificial intelligence",
+          "level": 1,
+          "score": 0.13159090280532837
+        },
+        {
+          "id": "https://openalex.org/C144133560",
+          "wikidata": "https://www.wikidata.org/wiki/Q4830453",
+          "display_name": "Business",
+          "level": 0,
+          "score": 0.08727601170539856
+        },
+        {
+          "id": "https://openalex.org/C155202549",
+          "wikidata": "https://www.wikidata.org/wiki/Q178803",
+          "display_name": "International trade",
+          "level": 1,
+          "score": 0.0
+        },
+        {
+          "id": "https://openalex.org/C199360897",
+          "wikidata": "https://www.wikidata.org/wiki/Q9143",
+          "display_name": "Programming language",
+          "level": 1,
+          "score": 0.0
+        },
+        {
+          "id": "https://openalex.org/C111919701",
+          "wikidata": "https://www.wikidata.org/wiki/Q9135",
+          "display_name": "Operating system",
+          "level": 1,
+          "score": 0.0
+        }
+      ],
+      "mesh": [],
+      "locations_count": 4,
+      "locations": [
+        {
+          "id": "doi:10.55056/ceur-ws.org/vol-2433/paper34.pdf",
+          "doi": "https://doi.org/10.55056/ceur-ws.org/vol-2433/paper34.pdf",
+          "is_oa": true,
+          "landing_page_url": "https://doi.org/10.55056/ceur-ws.org/vol-2433/paper34.pdf",
+          "pdf_url": "https://doi.org/10.55056/ceur-ws.org/vol-2433/paper34.pdf",
+          "source": {
+            "id": "https://openalex.org/S7407088024",
+            "display_name": "Workshop on Cloud Technologies in Education (CTE)",
+            "issn_l": null,
+            "issn": null,
+            "is_oa": false,
+            "is_in_doaj": false,
+            "is_core": false,
+            "listed_in": [],
+            "host_organization": null,
+            "host_organization_name": null,
+            "host_organization_lineage": [],
+            "host_organization_lineage_names": [],
+            "type": "conference"
+          },
+          "license": null,
+          "license_id": null,
+          "version": "publishedVersion",
+          "is_accepted": true,
+          "is_published": true,
+          "raw_source_name": "CEUR Workshop Proceedings, Vol-2433: Proceedings of the 6th Workshop on Cloud Technologies in Education (CTE 2018)",
+          "raw_type": "proceedings-article"
+        },
+        {
+          "id": "doi:10.55056/cte.409",
+          "doi": "https://doi.org/10.55056/cte.409",
+          "is_oa": true,
+          "landing_page_url": "https://doi.org/10.55056/cte.409",
+          "pdf_url": "https://acnsci.org/journal/index.php/cte/article/download/409/417",
+          "source": {
+            "id": "https://openalex.org/S4387282930",
+            "display_name": "CTE Workshop Proceedings",
+            "issn_l": "2833-5473",
+            "issn": [
+              "2833-5473"
+            ],
+            "is_oa": true,
+            "is_in_doaj": true,
+            "is_core": false,
+            "listed_in": [
+              "doaj",
+              "erih-plus",
+              "norway-1"
+            ],
+            "host_organization": "https://openalex.org/P4366728417",
+            "host_organization_name": "Academy of Cognitive and Natural Sciences",
+            "host_organization_lineage": [
+              "https://openalex.org/P4366728417"
+            ],
+            "host_organization_lineage_names": [
+              "Academy of Cognitive and Natural Sciences"
+            ],
+            "type": "journal"
+          },
+          "license": "cc-by",
+          "license_id": "https://openalex.org/licenses/cc-by",
+          "version": "publishedVersion",
+          "is_accepted": true,
+          "is_published": true,
+          "raw_source_name": "CTE Workshop Proceedings",
+          "raw_type": "journal-article"
+        },
+        {
+          "id": "pmh:oai:lib.iitta.gov.ua:717031",
+          "doi": null,
+          "is_oa": false,
+          "landing_page_url": "http://lib.iitta.gov.ua/717031/1/paper34.pdf",
+          "pdf_url": "http://lib.iitta.gov.ua/717031/1/paper34.pdf",
+          "source": {
+            "id": "https://openalex.org/S4306400896",
+            "display_name": "Digital Library NAES of Ukraine (National Academy of Educational Sciences of Ukraine)",
+            "issn_l": null,
+            "issn": null,
+            "is_oa": false,
+            "is_in_doaj": false,
+            "is_core": false,
+            "listed_in": [],
+            "host_organization": "https://openalex.org/I4210158089",
+            "host_organization_name": "National Academy of Educational Sciences of Ukraine",
+            "host_organization_lineage": [
+              "https://openalex.org/I4210158089"
+            ],
+            "host_organization_lineage_names": [],
+            "type": "repository"
+          },
+          "license": null,
+          "license_id": null,
+          "version": "acceptedVersion",
+          "is_accepted": true,
+          "is_published": false,
+          "raw_source_name": "",
+          "raw_type": "Article"
+        },
+        {
+          "id": "pmh:oai:doaj.org/article:c98575edd03442da8e47dbd0facd6e94",
+          "doi": null,
+          "is_oa": false,
+          "landing_page_url": "https://doaj.org/article/c98575edd03442da8e47dbd0facd6e94",
+          "pdf_url": null,
+          "source": {
+            "id": "https://openalex.org/S4306401280",
+            "display_name": "DOAJ (DOAJ: Directory of Open Access Journals)",
+            "issn_l": null,
+            "issn": null,
+            "is_oa": false,
+            "is_in_doaj": false,
+            "is_core": false,
+            "listed_in": [],
+            "host_organization": null,
+            "host_organization_name": null,
+            "host_organization_lineage": [],
+            "host_organization_lineage_names": [],
+            "type": "repository"
+          },
+          "license": null,
+          "license_id": null,
+          "version": "submittedVersion",
+          "is_accepted": false,
+          "is_published": false,
+          "raw_source_name": "CTE Workshop Proceedings, Vol 6 (2019)",
+          "raw_type": "article"
+        }
+      ],
+      "best_oa_location": {
+        "id": "doi:10.55056/ceur-ws.org/vol-2433/paper34.pdf",
+        "doi": "https://doi.org/10.55056/ceur-ws.org/vol-2433/paper34.pdf",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.55056/ceur-ws.org/vol-2433/paper34.pdf",
+        "pdf_url": "https://doi.org/10.55056/ceur-ws.org/vol-2433/paper34.pdf",
+        "source": {
+          "id": "https://openalex.org/S7407088024",
+          "display_name": "Workshop on Cloud Technologies in Education (CTE)",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "listed_in": [],
+          "host_organization": null,
+          "host_organization_name": null,
+          "host_organization_lineage": [],
+          "host_organization_lineage_names": [],
+          "type": "conference"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "CEUR Workshop Proceedings, Vol-2433: Proceedings of the 6th Workshop on Cloud Technologies in Education (CTE 2018)",
+        "raw_type": "proceedings-article"
+      },
+      "sustainable_development_goals": [
+        {
+          "display_name": "Quality education",
+          "score": 0.9235000014305115,
+          "id": "https://metadata.un.org/sdg/4"
+        },
+        {
+          "display_name": "Industry, innovation and infrastructure",
+          "score": 0.4943999946117401,
+          "id": "https://metadata.un.org/sdg/9"
+        }
+      ],
+      "study_designs": [],
+      "awards": [],
+      "funders": [],
+      "has_content": {
+        "pdf": true,
+        "grobid_xml": true
+      },
+      "content_urls": {
+        "pdf": "https://content.openalex.org/works/W2995739213.pdf",
+        "grobid_xml": "https://content.openalex.org/works/W2995739213.grobid-xml"
+      },
+      "referenced_works_count": 19,
+      "referenced_works": [
+        "https://openalex.org/W2401407485",
+        "https://openalex.org/W2617010979",
+        "https://openalex.org/W2810013249",
+        "https://openalex.org/W2810061333",
+        "https://openalex.org/W2811382930",
+        "https://openalex.org/W2886989704",
+        "https://openalex.org/W2888327878",
+        "https://openalex.org/W2951600790",
+        "https://openalex.org/W2962689331",
+        "https://openalex.org/W2963457973",
+        "https://openalex.org/W3101973978",
+        "https://openalex.org/W3127781199",
+        "https://openalex.org/W3129145527",
+        "https://openalex.org/W4289097264",
+        "https://openalex.org/W4289097332",
+        "https://openalex.org/W4289777534",
+        "https://openalex.org/W4293791437",
+        "https://openalex.org/W4294113432",
+        "https://openalex.org/W4294113583"
+      ],
+      "related_works": [
+        "https://openalex.org/W3091519314",
+        "https://openalex.org/W2883196680",
+        "https://openalex.org/W4294557569",
+        "https://openalex.org/W1640163539",
+        "https://openalex.org/W2410376541",
+        "https://openalex.org/W3195232485",
+        "https://openalex.org/W4285786969",
+        "https://openalex.org/W2939857344",
+        "https://openalex.org/W4293791465"
+      ],
+      "abstract_inverted_index": {
+        "Leading": [
+          0
+        ],
+        "research": [
+          1,
+          26,
+          168,
+          206
+        ],
+        "directions": [
+          2
+        ],
+        "are": [
+          3,
+          85,
+          115,
+          144,
+          162
+        ],
+        "defined": [
+          4
+        ],
+        "on": [
+          5,
+          14,
+          118
+        ],
+        "the": [
+          6,
+          11,
+          15,
+          46,
+          68,
+          90,
+          94,
+          98,
+          119,
+          147,
+          156,
+          164,
+          185,
+          191,
+          205
+        ],
+        "basis": [
+          7,
+          157
+        ],
+        "of": [
+          8,
+          10,
+          17,
+          24,
+          32,
+          39,
+          45,
+          48,
+          57,
+          66,
+          70,
+          76,
+          92,
+          97,
+          100,
+          109,
+          121,
+          133,
+          139,
+          149,
+          158,
+          166,
+          187,
+          196,
+          208
+        ],
+        "self-analysis": [
+          9
+        ],
+        "study": [
+          12
+        ],
+        "results": [
+          13
+        ],
+        "use": [
+          16,
+          88
+        ],
+        "cloud": [
+          18,
+          52,
+          55,
+          81,
+          135,
+          159,
+          188,
+          215
+        ],
+        "technologies": [
+          19,
+          29,
+          56,
+          136,
+          189
+        ],
+        "in": [
+          20,
+          30,
+          50,
+          89,
+          112,
+          137,
+          179,
+          184,
+          190
+        ],
+        "training": [
+          21,
+          108,
+          138,
+          193
+        ],
+        "by": [
+          22,
+          213
+        ],
+        "employees": [
+          23
+        ],
+        "joint": [
+          25
+        ],
+        "laboratory": [
+          27
+        ],
+        "“Сloud": [
+          28
+        ],
+        "education”": [
+          31
+        ],
+        "Kryvyi": [
+          33
+        ],
+        "Rih": [
+          34
+        ],
+        "National": [
+          35
+        ],
+        "University": [
+          36
+        ],
+        "and": [
+          37,
+          42,
+          104,
+          106,
+          126,
+          194
+        ],
+        "Institute": [
+          38
+        ],
+        "Information": [
+          40
+        ],
+        "Technology": [
+          41
+        ],
+        "Learning": [
+          43
+        ],
+        "Aids": [
+          44
+        ],
+        "NAES": [
+          47
+        ],
+        "Ukraine": [
+          49
+        ],
+        "2009-2018:": [
+          51
+        ],
+        "learning": [
+          53,
+          61,
+          174
+        ],
+        "technologies,": [
+          54
+        ],
+        "blended": [
+          58
+        ],
+        "learning,": [
+          59
+        ],
+        "cloud-oriented": [
+          60,
+          63,
+          173
+        ],
+        "environments,": [
+          62
+        ],
+        "methodological": [
+          64
+        ],
+        "systems": [
+          65
+        ],
+        "training,": [
+          67
+        ],
+        "provision": [
+          69
+        ],
+        "cloud-based": [
+          71
+        ],
+        "educational": [
+          72
+        ],
+        "services.": [
+          73
+        ],
+        "The": [
+          74,
+          129
+        ],
+        "ways": [
+          75
+        ],
+        "implementation": [
+          77
+        ],
+        "SaaS,": [
+          78
+        ],
+        "PaaS,": [
+          79
+        ],
+        "IaaS": [
+          80
+        ],
+        "services": [
+          82
+        ],
+        "models": [
+          83
+        ],
+        "which": [
+          84
+        ],
+        "appropriate": [
+          86
+        ],
+        "to": [
+          87
+        ],
+        "process": [
+          91
+        ],
+        "studying": [
+          93
+        ],
+        "academic": [
+          95
+        ],
+        "disciplines": [
+          96
+        ],
+        "cycles": [
+          99
+        ],
+        "mathematical,": [
+          101
+        ],
+        "natural": [
+          102
+        ],
+        "science": [
+          103,
+          125
+        ],
+        "professional": [
+          105,
+          192
+        ],
+        "practical": [
+          107
+        ],
+        "future": [
+          110,
+          140,
+          177,
+          209
+        ],
+        "specialists": [
+          111,
+          143,
+          178,
+          212
+        ],
+        "information": [
+          113,
+          141,
+          197
+        ],
+        "technology": [
+          114,
+          142,
+          198
+        ],
+        "shown,": [
+          116
+        ],
+        "based": [
+          117
+        ],
+        "example": [
+          120
+        ],
+        "software": [
+          122,
+          210
+        ],
+        "engineering,": [
+          123,
+          181
+        ],
+        "computer": [
+          124,
+          127,
+          180
+        ],
+        "engineering.": [
+          128
+        ],
+        "most": [
+          130
+        ],
+        "significant": [
+          131
+        ],
+        "advantages": [
+          132
+        ],
+        "using": [
+          134,
+          150,
+          214
+        ],
+        "definite,": [
+          145
+        ],
+        "namely,": [
+          146
+        ],
+        "possibility": [
+          148
+        ],
+        "modern": [
+          151
+        ],
+        "parallel": [
+          152
+        ],
+        "programming": [
+          153
+        ],
+        "tools": [
+          154
+        ],
+        "as": [
+          155
+        ],
+        "technologies.": [
+          160,
+          216
+        ],
+        "Conclusions": [
+          161
+        ],
+        "drawn;": [
+          163
+        ],
+        "direction": [
+          165
+        ],
+        "further": [
+          167
+        ],
+        "is": [
+          169
+        ],
+        "indicated:": [
+          170
+        ],
+        "designing": [
+          171
+        ],
+        "a": [
+          172,
+          201
+        ],
+        "environment": [
+          175
+        ],
+        "for": [
+          176,
+          203
+        ],
+        "identifying": [
+          182
+        ],
+        "trends": [
+          183
+        ],
+        "development": [
+          186
+        ],
+        "retraining": [
+          195
+        ],
+        "specialists,": [
+          199
+        ],
+        "developing": [
+          200
+        ],
+        "methodology": [
+          202
+        ],
+        "building": [
+          204
+        ],
+        "competencies": [
+          207
+        ],
+        "engineering": [
+          211
+        ]
+      },
+      "counts_by_year": [
+        {
+          "year": 2026,
+          "cited_by_count": 2
+        },
+        {
+          "year": 2025,
+          "cited_by_count": 4
+        },
+        {
+          "year": 2024,
+          "cited_by_count": 6
+        },
+        {
+          "year": 2023,
+          "cited_by_count": 9
+        },
+        {
+          "year": 2022,
+          "cited_by_count": 10
+        },
+        {
+          "year": 2021,
+          "cited_by_count": 35
+        },
+        {
+          "year": 2020,
+          "cited_by_count": 29
+        },
+        {
+          "year": 2019,
+          "cited_by_count": 10
+        },
+        {
+          "year": 2018,
+          "cited_by_count": 1
+        }
+      ],
+      "updated_date": "2026-11-14T11:04:58.165337",
+      "created_date": "2019-12-26T00:00:00"
+    },
+    {
+      "id": "https://openalex.org/W3199530207",
+      "doi": "https://doi.org/10.4324/9781003233688-17",
+      "title": "Assistive Technology Specialist",
+      "display_name": "Assistive Technology Specialist",
+      "relevance_score": 116.35181,
+      "publication_year": 2021,
+      "publication_date": "2021-09-03",
+      "ids": {
+        "openalex": "https://openalex.org/W3199530207",
+        "doi": "https://doi.org/10.4324/9781003233688-17",
+        "mag": "3199530207"
+      },
+      "language": "en",
+      "primary_location": {
+        "id": "doi:10.4324/9781003233688-17",
+        "doi": "https://doi.org/10.4324/9781003233688-17",
+        "is_oa": false,
+        "landing_page_url": "https://doi.org/10.4324/9781003233688-17",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4306463855",
+          "display_name": "Routledge eBooks",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "listed_in": [],
+          "host_organization": "https://openalex.org/P4310319847",
+          "host_organization_name": "Routledge",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310319847",
+            "https://openalex.org/P4310320547",
+            "https://openalex.org/P4310320449"
+          ],
+          "host_organization_lineage_names": [
+            "Routledge",
+            "Taylor & Francis",
+            "Informa"
+          ],
+          "type": "ebook platform"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Collaboration",
+        "raw_type": "book-chapter"
+      },
+      "parent_works": [
+        {
+          "id": "https://openalex.org/W4205359105",
+          "display_name": "Collaboration: A Multidisciplinary Approach to Educating Students With Disabilities",
+          "relationship": "volume"
+        }
+      ],
+      "lineage": [
+        "https://openalex.org/W3199530207",
+        "https://openalex.org/W4205359105"
+      ],
+      "child_works_count": 0,
+      "type": "book-chapter",
+      "is_traditional": true,
+      "indexed_in": [
+        "crossref"
+      ],
+      "open_access": {
+        "is_oa": false,
+        "oa_status": "closed",
+        "oa_url": null,
+        "any_repository_has_fulltext": false
+      },
+      "authorships": [
+        {
+          "author_position": "first",
+          "author": {
+            "id": "https://openalex.org/A5080992515",
+            "display_name": "Carrie Anna Courtad",
+            "orcid": null,
+            "observed_orcids": []
+          },
+          "institutions": [],
+          "countries": [],
+          "is_corresponding": true,
+          "raw_author_name": "Carrie Anna Courtad",
+          "raw_affiliation_strings": [],
+          "raw_orcid": null,
+          "affiliations": []
+        }
+      ],
+      "institutions": [],
+      "countries_distinct_count": 0,
+      "institutions_distinct_count": 0,
+      "corresponding_author_ids": [
+        "https://openalex.org/A5080992515"
+      ],
+      "corresponding_institution_ids": [],
+      "apc_list": null,
+      "apc_paid": null,
+      "fwci": 0.0,
+      "is_authors_truncated": false,
+      "has_fulltext": false,
+      "cited_by_count": 0,
+      "citation_normalized_percentile": {
+        "value": 0.0,
+        "is_in_top_1_percent": false,
+        "is_in_top_10_percent": false
+      },
+      "cited_by_percentile_year": null,
+      "biblio": {
+        "volume": null,
+        "issue": null,
+        "first_page": "183",
+        "last_page": "192"
+      },
+      "is_retracted": false,
+      "is_paratext": false,
+      "is_xpac": false,
+      "primary_topic": {
+        "id": "https://openalex.org/T12207",
+        "display_name": "Assistive Technology in Communication and Mobility",
+        "score": 0.989300012588501,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3609",
+          "display_name": "Occupational Therapy"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/36",
+          "display_name": "Health Professions"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/4",
+          "display_name": "Health Sciences"
+        }
+      },
+      "topics": [
+        {
+          "id": "https://openalex.org/T12207",
+          "display_name": "Assistive Technology in Communication and Mobility",
+          "score": 0.989300012588501,
+          "subfield": {
+            "id": "https://openalex.org/subfields/3609",
+            "display_name": "Occupational Therapy"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/36",
+            "display_name": "Health Professions"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/4",
+            "display_name": "Health Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T11514",
+          "display_name": "Disability Education and Employment",
+          "score": 0.005200000014156103,
+          "subfield": {
+            "id": "https://openalex.org/subfields/3304",
+            "display_name": "Education"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/33",
+            "display_name": "Social Sciences"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/2",
+            "display_name": "Social Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T13131",
+          "display_name": "Collaborative Teaching and Inclusion",
+          "score": 0.002400000113993883,
+          "subfield": {
+            "id": "https://openalex.org/subfields/3304",
+            "display_name": "Education"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/33",
+            "display_name": "Social Sciences"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/2",
+            "display_name": "Social Sciences"
+          }
+        }
+      ],
+      "keywords": [
+        {
+          "id": "https://openalex.org/keywords/assistive-technology",
+          "display_name": "assistive technology",
+          "score": 0.9750000238418579
+        },
+        {
+          "id": "https://openalex.org/keywords/students-with-disabilities",
+          "display_name": "students with disabilities",
+          "score": 0.8640000224113464
+        },
+        {
+          "id": "https://openalex.org/keywords/teacher-education",
+          "display_name": "teacher professional development",
+          "score": 0.6019999980926514
+        },
+        {
+          "id": "https://openalex.org/keywords/parental-involvement",
+          "display_name": "parental involvement",
+          "score": 0.8769999742507935
+        },
+        {
+          "id": "https://openalex.org/keywords/device-selection",
+          "display_name": "device selection",
+          "score": 0.7409999966621399
+        },
+        {
+          "id": "https://openalex.org/keywords/text-to-speech",
+          "display_name": "text-to-speech",
+          "score": 0.7170000076293945
+        }
+      ],
+      "concepts": [
+        {
+          "id": "https://openalex.org/C41008148",
+          "wikidata": "https://www.wikidata.org/wiki/Q21198",
+          "display_name": "Computer science",
+          "level": 0,
+          "score": 0.3676178753376007
+        }
+      ],
+      "mesh": [],
+      "locations_count": 1,
+      "locations": [
+        {
+          "id": "doi:10.4324/9781003233688-17",
+          "doi": "https://doi.org/10.4324/9781003233688-17",
+          "is_oa": false,
+          "landing_page_url": "https://doi.org/10.4324/9781003233688-17",
+          "pdf_url": null,
+          "source": {
+            "id": "https://openalex.org/S4306463855",
+            "display_name": "Routledge eBooks",
+            "issn_l": null,
+            "issn": null,
+            "is_oa": false,
+            "is_in_doaj": false,
+            "is_core": false,
+            "listed_in": [],
+            "host_organization": "https://openalex.org/P4310319847",
+            "host_organization_name": "Routledge",
+            "host_organization_lineage": [
+              "https://openalex.org/P4310319847",
+              "https://openalex.org/P4310320547",
+              "https://openalex.org/P4310320449"
+            ],
+            "host_organization_lineage_names": [
+              "Routledge",
+              "Taylor & Francis",
+              "Informa"
+            ],
+            "type": "ebook platform"
+          },
+          "license": null,
+          "license_id": null,
+          "version": "publishedVersion",
+          "is_accepted": true,
+          "is_published": true,
+          "raw_source_name": "Collaboration",
+          "raw_type": "book-chapter"
+        }
+      ],
+      "best_oa_location": null,
+      "sustainable_development_goals": [
+        {
+          "display_name": "Quality education",
+          "score": 0.8278999924659729,
+          "id": "https://metadata.un.org/sdg/4"
+        }
+      ],
+      "study_designs": [],
+      "awards": [],
+      "funders": [],
+      "has_content": {
+        "pdf": false,
+        "grobid_xml": false
+      },
+      "content_urls": null,
+      "referenced_works_count": 0,
+      "referenced_works": [],
+      "related_works": [
+        "https://openalex.org/W2604237602",
+        "https://openalex.org/W4414196414",
+        "https://openalex.org/W2145547440",
+        "https://openalex.org/W4400950767",
+        "https://openalex.org/W2506129753",
+        "https://openalex.org/W2342146653",
+        "https://openalex.org/W7098567945",
+        "https://openalex.org/W2433999723",
+        "https://openalex.org/W3107130569",
+        "https://openalex.org/W2796719384"
+      ],
+      "abstract_inverted_index": {
+        "The": [
+          0,
+          35,
+          53
+        ],
+        "Technology-Related": [
+          1
+        ],
+        "Assistance": [
+          2
+        ],
+        "for": [
+          3,
+          30,
+          89
+        ],
+        "Individuals": [
+          4
+        ],
+        "with": [
+          5,
+          33,
+          41,
+          81
+        ],
+        "Disabilities": [
+          6
+        ],
+        "Act": [
+          7
+        ],
+        "of": [
+          8,
+          26,
+          79,
+          105,
+          144
+        ],
+        "1988": [
+          9
+        ],
+        "was": [
+          10
+        ],
+        "the": [
+          11,
+          24,
+          43,
+          61,
+          65,
+          74,
+          103,
+          109,
+          113,
+          121,
+          126,
+          141
+        ],
+        "first": [
+          12
+        ],
+        "time": [
+          13
+        ],
+        "a": [
+          14
+        ],
+        "federal": [
+          15
+        ],
+        "act": [
+          16
+        ],
+        "defined": [
+          17
+        ],
+        "assistive": [
+          18,
+          27
+        ],
+        "technology": [
+          19,
+          28
+        ],
+        "and": [
+          20,
+          22,
+          48
+        ],
+        "services": [
+          21,
+          88
+        ],
+        "promoted": [
+          23
+        ],
+        "use": [
+          25,
+          112
+        ],
+        "(AT)": [
+          29
+        ],
+        "all": [
+          31
+        ],
+        "people": [
+          32
+        ],
+        "disabilities.": [
+          34
+        ],
+        "AT": [
+          36,
+          54,
+          90,
+          114
+        ],
+        "specialist": [
+          37,
+          55
+        ],
+        "should": [
+          38
+        ],
+        "maintain": [
+          39
+        ],
+        "contact": [
+          40
+        ],
+        "both": [
+          42
+        ],
+        "student's": [
+          44
+        ],
+        "general": [
+          45,
+          75
+        ],
+        "education": [
+          46,
+          76
+        ],
+        "teacher": [
+          47,
+          63
+        ],
+        "his": [
+          49
+        ],
+        "or": [
+          50,
+          93
+        ],
+        "her": [
+          51
+        ],
+        "parents.": [
+          52
+        ],
+        "would": [
+          56
+        ],
+        "also": [
+          57
+        ],
+        "provide": [
+          58
+        ],
+        "training": [
+          59
+        ],
+        "to": [
+          60,
+          84,
+          95,
+          129
+        ],
+        "classroom": [
+          62
+        ],
+        "on": [
+          64,
+          125
+        ],
+        "selected": [
+          66
+        ],
+        "device": [
+          67,
+          106,
+          115
+        ],
+        "so": [
+          68
+        ],
+        "it": [
+          69
+        ],
+        "may": [
+          70
+        ],
+        "be": [
+          71,
+          85,
+          130
+        ],
+        "integrated": [
+          72
+        ],
+        "into": [
+          73
+        ],
+        "classroom.": [
+          77
+        ],
+        "Parents": [
+          78
+        ],
+        "students": [
+          80
+        ],
+        "disabilities": [
+          82
+        ],
+        "need": [
+          83
+        ],
+        "included": [
+          86,
+          139
+        ],
+        "when": [
+          87,
+          101
+        ],
+        "are": [
+          91,
+          137
+        ],
+        "considered": [
+          92
+        ],
+        "delivered": [
+          94
+        ],
+        "their": [
+          96
+        ],
+        "child.": [
+          97
+        ],
+        "An": [
+          98
+        ],
+        "important": [
+          99
+        ],
+        "factor": [
+          100
+        ],
+        "considering": [
+          102
+        ],
+        "choice": [
+          104
+        ],
+        "is": [
+          107
+        ],
+        "how": [
+          108
+        ],
+        "student": [
+          110
+        ],
+        "will": [
+          111
+        ],
+        "at": [
+          116
+        ],
+        "home.": [
+          117
+        ],
+        "Text": [
+          118
+        ],
+        "readers": [
+          119
+        ],
+        "allow": [
+          120
+        ],
+        "text": [
+          122
+        ],
+        "that": [
+          123,
+          136
+        ],
+        "appears": [
+          124
+        ],
+        "computer": [
+          127
+        ],
+        "screen": [
+          128
+        ],
+        "read": [
+          131
+        ],
+        "aloud": [
+          132
+        ],
+        "using": [
+          133
+        ],
+        "computer-generated": [
+          134
+        ],
+        "voices": [
+          135
+        ],
+        "already": [
+          138
+        ],
+        "in": [
+          140
+        ],
+        "operating": [
+          142
+        ],
+        "system": [
+          143
+        ],
+        "most": [
+          145
+        ],
+        "computers.": [
+          146
+        ]
+      },
+      "counts_by_year": [],
+      "updated_date": "2026-11-14T11:04:58.165337",
+      "created_date": "2021-09-27T00:00:00"
+    }
+  ],
+  "group_by": []
+}

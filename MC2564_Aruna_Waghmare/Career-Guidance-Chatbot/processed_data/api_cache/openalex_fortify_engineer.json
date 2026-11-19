@@ -1,0 +1,4388 @@
+{
+  "meta": {
+    "notice": "No API key, so this request shares one free daily budget ($0.10) with everyone on your network's IP address. Get a free key with its own $1/day at https://openalex.org/settings/api and add api_key=YOUR_KEY to your requests. An AI agent can get one for its user in one call: POST https://api.openalex.org/api-keys with {\"email\": \"<your user's email>\"}; we email them a link, and the key works once they click it. Docs for agents: https://help.openalex.org/llms.txt",
+    "count": 39412,
+    "db_response_time_ms": 55,
+    "page": 1,
+    "per_page": 5,
+    "groups_count": null,
+    "x_query": {
+      "oql": "get works with (FORTIFY ENGINEER) in the title, abstract, or full text",
+      "x_new_oql": "get works with (FORTIFY ENGINEER) in the title, abstract, or full text",
+      "oqo": {
+        "get_rows": "works",
+        "filter_rows": [
+          {
+            "column_id": "fulltext.search",
+            "value": "FORTIFY ENGINEER",
+            "operator": "has"
+          }
+        ]
+      },
+      "url": "/works?filter=fulltext.search:FORTIFY ENGINEER&per_page=5",
+      "order": "best matches first",
+      "order_default": true
+    },
+    "cost_usd": 0.001
+  },
+  "results": [
+    {
+      "id": "https://openalex.org/W4366285817",
+      "doi": "https://doi.org/10.1016/j.envres.2023.115934",
+      "title": "Plant nanobionics: Fortifying food security via engineered plant productivity",
+      "display_name": "Plant nanobionics: Fortifying food security via engineered plant productivity",
+      "relevance_score": 61.045013,
+      "publication_year": 2023,
+      "publication_date": "2023-04-18",
+      "ids": {
+        "openalex": "https://openalex.org/W4366285817",
+        "doi": "https://doi.org/10.1016/j.envres.2023.115934",
+        "pmid": "https://pubmed.ncbi.nlm.nih.gov/37080274"
+      },
+      "language": "en",
+      "primary_location": {
+        "id": "doi:10.1016/j.envres.2023.115934",
+        "doi": "https://doi.org/10.1016/j.envres.2023.115934",
+        "is_oa": false,
+        "landing_page_url": "https://doi.org/10.1016/j.envres.2023.115934",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S173943867",
+          "display_name": "Environmental Research",
+          "issn_l": "0013-9351",
+          "issn": [
+            "0013-9351",
+            "1096-0953"
+          ],
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": true,
+          "listed_in": [
+            "anvur-scientific",
+            "cwts-core",
+            "dongbi-b",
+            "doyens",
+            "jufo-2",
+            "ki-jl-2",
+            "medline",
+            "norway-2",
+            "poland-100",
+            "russia-white-list-1",
+            "vabb-shw"
+          ],
+          "host_organization": "https://openalex.org/P4310320990",
+          "host_organization_name": "Elsevier BV",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310320990"
+          ],
+          "host_organization_lineage_names": [
+            "Elsevier BV"
+          ],
+          "type": "journal"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Environmental Research",
+        "raw_type": "journal-article"
+      },
+      "parent_works": [],
+      "lineage": [
+        "https://openalex.org/W4366285817"
+      ],
+      "child_works_count": 0,
+      "type": "review",
+      "is_traditional": true,
+      "indexed_in": [
+        "crossref",
+        "pubmed"
+      ],
+      "open_access": {
+        "is_oa": false,
+        "oa_status": "closed",
+        "oa_url": null,
+        "any_repository_has_fulltext": false
+      },
+      "authorships": [
+        {
+          "author_position": "first",
+          "author": {
+            "id": "https://openalex.org/A5053693280",
+            "display_name": "Meththika Suharshini Vithanage",
+            "orcid": "https://orcid.org/0000-0003-2923-4065",
+            "observed_orcids": [
+              "https://orcid.org/0000-0003-2923-4065"
+            ]
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I172828483",
+              "display_name": "University of Sri Jayewardenepura",
+              "ror": "https://ror.org/02rm76t37",
+              "country_code": "LK",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I172828483"
+              ]
+            },
+            {
+              "id": "https://openalex.org/I177877127",
+              "display_name": "The University of Western Australia",
+              "ror": "https://ror.org/047272k79",
+              "country_code": "AU",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I177877127"
+              ]
+            },
+            {
+              "id": "https://openalex.org/I5847235",
+              "display_name": "University of Petroleum and Energy Studies",
+              "ror": "https://ror.org/04q2jes40",
+              "country_code": "IN",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I5847235"
+              ]
+            }
+          ],
+          "countries": [
+            "AU",
+            "IN",
+            "LK"
+          ],
+          "is_corresponding": true,
+          "raw_author_name": "Meththika Vithanage",
+          "raw_affiliation_strings": [
+            "Ecosphere Resilience Research Centre, Faculty of Applied Sciences, University of Sri Jayewardenepura, Nugegoda, 10250, Sri Lanka; The UWA Institute of Agriculture, The University of Western Australia, Perth, WA, 6009, Australia; Sustainability Cluster, University of Petroleum and Energy Studies, Dehradun, India. Electronic address: meththika@sjp.ac.lk",
+            "Ecosphere Resilience Research Centre, Faculty of Applied Sciences, University of Sri Jayewardenepura, Nugegoda, 10250, Sri Lanka",
+            "Sustainability Cluster, University of Petroleum and Energy Studies, Dehradun, India",
+            "The UWA Institute of Agriculture, The University of Western Australia, Perth, WA, 6009, Australia"
+          ],
+          "raw_orcid": "https://orcid.org/0000-0003-2923-4065",
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Ecosphere Resilience Research Centre, Faculty of Applied Sciences, University of Sri Jayewardenepura, Nugegoda, 10250, Sri Lanka; The UWA Institute of Agriculture, The University of Western Australia, Perth, WA, 6009, Australia; Sustainability Cluster, University of Petroleum and Energy Studies, Dehradun, India. Electronic address: meththika@sjp.ac.lk",
+              "institution_ids": [
+                "https://openalex.org/I172828483",
+                "https://openalex.org/I177877127",
+                "https://openalex.org/I5847235"
+              ]
+            },
+            {
+              "raw_affiliation_string": "Ecosphere Resilience Research Centre, Faculty of Applied Sciences, University of Sri Jayewardenepura, Nugegoda, 10250, Sri Lanka",
+              "institution_ids": [
+                "https://openalex.org/I172828483"
+              ]
+            },
+            {
+              "raw_affiliation_string": "Sustainability Cluster, University of Petroleum and Energy Studies, Dehradun, India",
+              "institution_ids": [
+                "https://openalex.org/I5847235"
+              ]
+            },
+            {
+              "raw_affiliation_string": "The UWA Institute of Agriculture, The University of Western Australia, Perth, WA, 6009, Australia",
+              "institution_ids": [
+                "https://openalex.org/I177877127"
+              ]
+            }
+          ]
+        },
+        {
+          "author_position": "middle",
+          "author": {
+            "id": "https://openalex.org/A5003076737",
+            "display_name": "Xiaokai Zhang",
+            "orcid": "https://orcid.org/0000-0002-2537-7678",
+            "observed_orcids": [
+              "https://orcid.org/0000-0002-2537-7678"
+            ]
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I111599522",
+              "display_name": "Jiangnan University",
+              "ror": "https://ror.org/04mkzax54",
+              "country_code": "CN",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I111599522"
+              ]
+            }
+          ],
+          "countries": [
+            "CN"
+          ],
+          "is_corresponding": true,
+          "raw_author_name": "Xiaokai Zhang",
+          "raw_affiliation_strings": [
+            "Institute of Environmental Processes and Pollution Control, School of Environmental and Civil Engineering, Jiangnan University, Wuxi, 214122, China. Electronic address: xiaokai.zhang@jiangnan.edu.cn",
+            "Institute of Environmental Processes and Pollution Control, School of Environmental and Civil Engineering, Jiangnan University, Wuxi, 214122, China"
+          ],
+          "raw_orcid": "https://orcid.org/0000-0002-2537-7678",
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Institute of Environmental Processes and Pollution Control, School of Environmental and Civil Engineering, Jiangnan University, Wuxi, 214122, China. Electronic address: xiaokai.zhang@jiangnan.edu.cn",
+              "institution_ids": [
+                "https://openalex.org/I111599522"
+              ]
+            },
+            {
+              "raw_affiliation_string": "Institute of Environmental Processes and Pollution Control, School of Environmental and Civil Engineering, Jiangnan University, Wuxi, 214122, China",
+              "institution_ids": [
+                "https://openalex.org/I111599522"
+              ]
+            }
+          ]
+        },
+        {
+          "author_position": "middle",
+          "author": {
+            "id": "https://openalex.org/A5026518569",
+            "display_name": "Viraj Gunarathne",
+            "orcid": "https://orcid.org/0000-0001-5690-7697",
+            "observed_orcids": [
+              "https://orcid.org/0000-0001-5690-7697"
+            ]
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I172828483",
+              "display_name": "University of Sri Jayewardenepura",
+              "ror": "https://ror.org/02rm76t37",
+              "country_code": "LK",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I172828483"
+              ]
+            }
+          ],
+          "countries": [
+            "LK"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "Viraj Gunarathne",
+          "raw_affiliation_strings": [
+            "Ecosphere Resilience Research Centre, Faculty of Applied Sciences, University of Sri Jayewardenepura, Nugegoda, 10250, Sri Lanka"
+          ],
+          "raw_orcid": "https://orcid.org/0000-0001-5690-7697",
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Ecosphere Resilience Research Centre, Faculty of Applied Sciences, University of Sri Jayewardenepura, Nugegoda, 10250, Sri Lanka",
+              "institution_ids": [
+                "https://openalex.org/I172828483"
+              ]
+            }
+          ]
+        },
+        {
+          "author_position": "middle",
+          "author": {
+            "id": "https://openalex.org/A5090679937",
+            "display_name": "Yi Song Zhu",
+            "orcid": "https://orcid.org/0000-0002-6482-0257",
+            "observed_orcids": [
+              "https://orcid.org/0000-0002-6482-0257"
+            ]
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I111599522",
+              "display_name": "Jiangnan University",
+              "ror": "https://ror.org/04mkzax54",
+              "country_code": "CN",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I111599522"
+              ]
+            }
+          ],
+          "countries": [
+            "CN"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "Yi Zhu",
+          "raw_affiliation_strings": [
+            "Institute of Environmental Processes and Pollution Control, School of Environmental and Civil Engineering, Jiangnan University, Wuxi, 214122, China"
+          ],
+          "raw_orcid": null,
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Institute of Environmental Processes and Pollution Control, School of Environmental and Civil Engineering, Jiangnan University, Wuxi, 214122, China",
+              "institution_ids": [
+                "https://openalex.org/I111599522"
+              ]
+            }
+          ]
+        },
+        {
+          "author_position": "middle",
+          "author": {
+            "id": "https://openalex.org/A5076700216",
+            "display_name": "Lasantha Herath",
+            "orcid": "https://orcid.org/0000-0002-2782-5198",
+            "observed_orcids": [
+              "https://orcid.org/0000-0002-2782-5198"
+            ]
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I4210155182",
+              "display_name": "Sri Lanka Institute of Nanotechnology",
+              "ror": "https://ror.org/05bnbgj20",
+              "country_code": "LK",
+              "type": "facility",
+              "lineage": [
+                "https://openalex.org/I4210155182"
+              ]
+            }
+          ],
+          "countries": [
+            "LK"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "Lasantha Herath",
+          "raw_affiliation_strings": [
+            "Sri Lanka Institute of Nano Technology, Pitipana, Homagama, Sri Lanka"
+          ],
+          "raw_orcid": null,
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Sri Lanka Institute of Nano Technology, Pitipana, Homagama, Sri Lanka",
+              "institution_ids": [
+                "https://openalex.org/I4210155182"
+              ]
+            }
+          ]
+        },
+        {
+          "author_position": "middle",
+          "author": {
+            "id": "https://openalex.org/A5067594234",
+            "display_name": "Kanchana Peiris",
+            "orcid": null,
+            "observed_orcids": []
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I172828483",
+              "display_name": "University of Sri Jayewardenepura",
+              "ror": "https://ror.org/02rm76t37",
+              "country_code": "LK",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I172828483"
+              ]
+            }
+          ],
+          "countries": [
+            "LK"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "Kanchana Peiris",
+          "raw_affiliation_strings": [
+            "Ecosphere Resilience Research Centre, Faculty of Applied Sciences, University of Sri Jayewardenepura, Nugegoda, 10250, Sri Lanka"
+          ],
+          "raw_orcid": null,
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Ecosphere Resilience Research Centre, Faculty of Applied Sciences, University of Sri Jayewardenepura, Nugegoda, 10250, Sri Lanka",
+              "institution_ids": [
+                "https://openalex.org/I172828483"
+              ]
+            }
+          ]
+        },
+        {
+          "author_position": "middle",
+          "author": {
+            "id": "https://openalex.org/A5047155103",
+            "display_name": "Zakaria M. Solaiman",
+            "orcid": "https://orcid.org/0000-0001-7014-7532",
+            "observed_orcids": [
+              "https://orcid.org/0000-0001-7014-7532"
+            ]
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I177877127",
+              "display_name": "The University of Western Australia",
+              "ror": "https://ror.org/047272k79",
+              "country_code": "AU",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I177877127"
+              ]
+            }
+          ],
+          "countries": [
+            "AU"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "Zakaria M. Solaiman",
+          "raw_affiliation_strings": [
+            "The UWA Institute of Agriculture, The University of Western Australia, Perth, WA, 6009, Australia; UWA School of Agriculture and Environment, The Uniersity of Western Australia, Perth, WA 6009, Australia",
+            "The UWA Institute of Agriculture, The University of Western Australia, Perth, WA, 6009, Australia",
+            "UWA School of Agriculture and Environment, The Uniersity of Western Australia, Perth, WA 6009, Australia"
+          ],
+          "raw_orcid": null,
+          "affiliations": [
+            {
+              "raw_affiliation_string": "The UWA Institute of Agriculture, The University of Western Australia, Perth, WA, 6009, Australia; UWA School of Agriculture and Environment, The Uniersity of Western Australia, Perth, WA 6009, Australia",
+              "institution_ids": [
+                "https://openalex.org/I177877127"
+              ]
+            },
+            {
+              "raw_affiliation_string": "The UWA Institute of Agriculture, The University of Western Australia, Perth, WA, 6009, Australia",
+              "institution_ids": [
+                "https://openalex.org/I177877127"
+              ]
+            },
+            {
+              "raw_affiliation_string": "UWA School of Agriculture and Environment, The Uniersity of Western Australia, Perth, WA 6009, Australia",
+              "institution_ids": [
+                "https://openalex.org/I177877127"
+              ]
+            }
+          ]
+        },
+        {
+          "author_position": "middle",
+          "author": {
+            "id": "https://openalex.org/A5007065483",
+            "display_name": "Nanthi Sirangie Bolan",
+            "orcid": "https://orcid.org/0000-0003-2056-1692",
+            "observed_orcids": [
+              "https://orcid.org/0000-0003-2056-1692"
+            ]
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I177877127",
+              "display_name": "The University of Western Australia",
+              "ror": "https://ror.org/047272k79",
+              "country_code": "AU",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I177877127"
+              ]
+            }
+          ],
+          "countries": [
+            "AU"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "Nanthi Bolan",
+          "raw_affiliation_strings": [
+            "The UWA Institute of Agriculture, The University of Western Australia, Perth, WA, 6009, Australia; UWA School of Agriculture and Environment, The Uniersity of Western Australia, Perth, WA 6009, Australia",
+            "The UWA Institute of Agriculture, The University of Western Australia, Perth, WA, 6009, Australia",
+            "UWA School of Agriculture and Environment, The Uniersity of Western Australia, Perth, WA 6009, Australia"
+          ],
+          "raw_orcid": "https://orcid.org/0000-0003-2056-1692",
+          "affiliations": [
+            {
+              "raw_affiliation_string": "The UWA Institute of Agriculture, The University of Western Australia, Perth, WA, 6009, Australia; UWA School of Agriculture and Environment, The Uniersity of Western Australia, Perth, WA 6009, Australia",
+              "institution_ids": [
+                "https://openalex.org/I177877127"
+              ]
+            },
+            {
+              "raw_affiliation_string": "The UWA Institute of Agriculture, The University of Western Australia, Perth, WA, 6009, Australia",
+              "institution_ids": [
+                "https://openalex.org/I177877127"
+              ]
+            },
+            {
+              "raw_affiliation_string": "UWA School of Agriculture and Environment, The Uniersity of Western Australia, Perth, WA 6009, Australia",
+              "institution_ids": [
+                "https://openalex.org/I177877127"
+              ]
+            }
+          ]
+        },
+        {
+          "author_position": "last",
+          "author": {
+            "id": "https://openalex.org/A5082109205",
+            "display_name": "Kadambot H. M. Siddique",
+            "orcid": "https://orcid.org/0000-0001-6097-4235",
+            "observed_orcids": [
+              "https://orcid.org/0000-0001-6097-4235",
+              "https://orcid.org/0000-0001-7947-1910"
+            ]
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I177877127",
+              "display_name": "The University of Western Australia",
+              "ror": "https://ror.org/047272k79",
+              "country_code": "AU",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I177877127"
+              ]
+            }
+          ],
+          "countries": [
+            "AU"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "Kadambot H.M. Siddique",
+          "raw_affiliation_strings": [
+            "The UWA Institute of Agriculture, The University of Western Australia, Perth, WA, 6009, Australia; UWA School of Agriculture and Environment, The Uniersity of Western Australia, Perth, WA 6009, Australia",
+            "The UWA Institute of Agriculture, The University of Western Australia, Perth, WA, 6009, Australia",
+            "UWA School of Agriculture and Environment, The Uniersity of Western Australia, Perth, WA 6009, Australia"
+          ],
+          "raw_orcid": "https://orcid.org/0000-0001-6097-4235",
+          "affiliations": [
+            {
+              "raw_affiliation_string": "The UWA Institute of Agriculture, The University of Western Australia, Perth, WA, 6009, Australia; UWA School of Agriculture and Environment, The Uniersity of Western Australia, Perth, WA 6009, Australia",
+              "institution_ids": [
+                "https://openalex.org/I177877127"
+              ]
+            },
+            {
+              "raw_affiliation_string": "The UWA Institute of Agriculture, The University of Western Australia, Perth, WA, 6009, Australia",
+              "institution_ids": [
+                "https://openalex.org/I177877127"
+              ]
+            },
+            {
+              "raw_affiliation_string": "UWA School of Agriculture and Environment, The Uniersity of Western Australia, Perth, WA 6009, Australia",
+              "institution_ids": [
+                "https://openalex.org/I177877127"
+              ]
+            }
+          ]
+        }
+      ],
+      "institutions": [],
+      "countries_distinct_count": 4,
+      "institutions_distinct_count": 5,
+      "corresponding_author_ids": [
+        "https://openalex.org/A5003076737",
+        "https://openalex.org/A5053693280"
+      ],
+      "corresponding_institution_ids": [
+        "https://openalex.org/I111599522",
+        "https://openalex.org/I172828483",
+        "https://openalex.org/I177877127",
+        "https://openalex.org/I5847235"
+      ],
+      "apc_list": {
+        "value": 3550,
+        "currency": "USD",
+        "value_usd": 3550
+      },
+      "apc_paid": null,
+      "fwci": 0.2897,
+      "is_authors_truncated": false,
+      "has_fulltext": false,
+      "cited_by_count": 20,
+      "citation_normalized_percentile": {
+        "value": 0.25,
+        "is_in_top_1_percent": false,
+        "is_in_top_10_percent": false
+      },
+      "cited_by_percentile_year": {
+        "min": 93,
+        "max": 99
+      },
+      "biblio": {
+        "volume": "229",
+        "issue": null,
+        "first_page": "115934",
+        "last_page": "115934"
+      },
+      "is_retracted": false,
+      "is_paratext": false,
+      "is_xpac": false,
+      "primary_topic": {
+        "id": "https://openalex.org/T10079",
+        "display_name": "Nanoparticles: synthesis and applications",
+        "score": 0.7764000296592712,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2505",
+          "display_name": "Materials Chemistry"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/25",
+          "display_name": "Materials Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      "topics": [
+        {
+          "id": "https://openalex.org/T10079",
+          "display_name": "Nanoparticles: synthesis and applications",
+          "score": 0.7764000296592712,
+          "subfield": {
+            "id": "https://openalex.org/subfields/2505",
+            "display_name": "Materials Chemistry"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/25",
+            "display_name": "Materials Science"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T12642",
+          "display_name": "Polymer-Based Agricultural Enhancements",
+          "score": 0.21140000224113464,
+          "subfield": {
+            "id": "https://openalex.org/subfields/1102",
+            "display_name": "Agronomy and Crop Science"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/11",
+            "display_name": "Agricultural and Biological Sciences"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/1",
+            "display_name": "Life Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T11418",
+          "display_name": "Plant Micronutrient Interactions and Effects",
+          "score": 0.0034000000450760126,
+          "subfield": {
+            "id": "https://openalex.org/subfields/1110",
+            "display_name": "Plant Science"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/11",
+            "display_name": "Agricultural and Biological Sciences"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/1",
+            "display_name": "Life Sciences"
+          }
+        }
+      ],
+      "keywords": [
+        {
+          "id": "https://openalex.org/keywords/nanomaterials-in-agriculture",
+          "display_name": "nanomaterials in agriculture",
+          "score": 0.8939999938011169
+        },
+        {
+          "id": "https://openalex.org/keywords/crop-yield-improvement",
+          "display_name": "crop yield improvement",
+          "score": 0.8489999771118164
+        },
+        {
+          "id": "https://openalex.org/keywords/food-security",
+          "display_name": "food security",
+          "score": 0.9240000247955322
+        },
+        {
+          "id": "https://openalex.org/keywords/seed-germination",
+          "display_name": "seed germination",
+          "score": 0.7990000247955322
+        },
+        {
+          "id": "https://openalex.org/keywords/photosynthesis-enhancement",
+          "display_name": "photosynthesis enhancement",
+          "score": 0.9020000100135803
+        },
+        {
+          "id": "https://openalex.org/keywords/nanomaterial-toxicity",
+          "display_name": "nanomaterial toxicity",
+          "score": 0.8429999947547913
+        },
+        {
+          "id": "https://openalex.org/keywords/nanomaterial-synthesis",
+          "display_name": "nanomaterial synthesis",
+          "score": 0.800000011920929
+        },
+        {
+          "id": "https://openalex.org/keywords/hunger-and-malnutrition",
+          "display_name": "hunger and malnutrition",
+          "score": 0.6169999837875366
+        },
+        {
+          "id": "https://openalex.org/keywords/environmental-risk-of-nanomaterials",
+          "display_name": "environmental risk of nanomaterials",
+          "score": 0.8679999709129333
+        }
+      ],
+      "concepts": [
+        {
+          "id": "https://openalex.org/C549605437",
+          "wikidata": "https://www.wikidata.org/wiki/Q1229911",
+          "display_name": "Food security",
+          "level": 3,
+          "score": 0.7604283094406128
+        },
+        {
+          "id": "https://openalex.org/C204983608",
+          "wikidata": "https://www.wikidata.org/wiki/Q2111958",
+          "display_name": "Productivity",
+          "level": 2,
+          "score": 0.6211957931518555
+        },
+        {
+          "id": "https://openalex.org/C118518473",
+          "wikidata": "https://www.wikidata.org/wiki/Q11451",
+          "display_name": "Agriculture",
+          "level": 2,
+          "score": 0.6161717176437378
+        },
+        {
+          "id": "https://openalex.org/C2993120057",
+          "wikidata": "https://www.wikidata.org/wiki/Q3816336",
+          "display_name": "Crop productivity",
+          "level": 3,
+          "score": 0.6015176773071289
+        },
+        {
+          "id": "https://openalex.org/C126343540",
+          "wikidata": "https://www.wikidata.org/wiki/Q889514",
+          "display_name": "Crop yield",
+          "level": 2,
+          "score": 0.577098548412323
+        },
+        {
+          "id": "https://openalex.org/C128383755",
+          "wikidata": "https://www.wikidata.org/wiki/Q3816336",
+          "display_name": "Agricultural productivity",
+          "level": 3,
+          "score": 0.5272661447525024
+        },
+        {
+          "id": "https://openalex.org/C150903083",
+          "wikidata": "https://www.wikidata.org/wiki/Q7108",
+          "display_name": "Biotechnology",
+          "level": 1,
+          "score": 0.5194354057312012
+        },
+        {
+          "id": "https://openalex.org/C207581243",
+          "wikidata": "https://www.wikidata.org/wiki/Q2746959",
+          "display_name": "Agrochemical",
+          "level": 3,
+          "score": 0.4871332347393036
+        },
+        {
+          "id": "https://openalex.org/C137580998",
+          "wikidata": "https://www.wikidata.org/wiki/Q235352",
+          "display_name": "Crop",
+          "level": 2,
+          "score": 0.47289907932281494
+        },
+        {
+          "id": "https://openalex.org/C112939947",
+          "wikidata": "https://www.wikidata.org/wiki/Q186050",
+          "display_name": "Green Revolution",
+          "level": 3,
+          "score": 0.4420589804649353
+        },
+        {
+          "id": "https://openalex.org/C543383583",
+          "wikidata": "https://www.wikidata.org/wiki/Q11188",
+          "display_name": "World population",
+          "level": 3,
+          "score": 0.42786380648612976
+        },
+        {
+          "id": "https://openalex.org/C144133560",
+          "wikidata": "https://www.wikidata.org/wiki/Q4830453",
+          "display_name": "Business",
+          "level": 0,
+          "score": 0.4069669246673584
+        },
+        {
+          "id": "https://openalex.org/C88463610",
+          "wikidata": "https://www.wikidata.org/wiki/Q194118",
+          "display_name": "Agricultural engineering",
+          "level": 1,
+          "score": 0.3765944838523865
+        },
+        {
+          "id": "https://openalex.org/C175605778",
+          "wikidata": "https://www.wikidata.org/wiki/Q3299701",
+          "display_name": "Natural resource economics",
+          "level": 1,
+          "score": 0.3697599172592163
+        },
+        {
+          "id": "https://openalex.org/C112930515",
+          "wikidata": "https://www.wikidata.org/wiki/Q4389547",
+          "display_name": "Risk analysis (engineering)",
+          "level": 1,
+          "score": 0.34302812814712524
+        },
+        {
+          "id": "https://openalex.org/C39432304",
+          "wikidata": "https://www.wikidata.org/wiki/Q188847",
+          "display_name": "Environmental science",
+          "level": 0,
+          "score": 0.3385739326477051
+        },
+        {
+          "id": "https://openalex.org/C83864248",
+          "wikidata": "https://www.wikidata.org/wiki/Q177323",
+          "display_name": "Developing country",
+          "level": 2,
+          "score": 0.3320963382720947
+        },
+        {
+          "id": "https://openalex.org/C127413603",
+          "wikidata": "https://www.wikidata.org/wiki/Q11023",
+          "display_name": "Engineering",
+          "level": 0,
+          "score": 0.2804418206214905
+        },
+        {
+          "id": "https://openalex.org/C86803240",
+          "wikidata": "https://www.wikidata.org/wiki/Q420",
+          "display_name": "Biology",
+          "level": 0,
+          "score": 0.22526097297668457
+        },
+        {
+          "id": "https://openalex.org/C6557445",
+          "wikidata": "https://www.wikidata.org/wiki/Q173113",
+          "display_name": "Agronomy",
+          "level": 1,
+          "score": 0.20237869024276733
+        },
+        {
+          "id": "https://openalex.org/C18903297",
+          "wikidata": "https://www.wikidata.org/wiki/Q7150",
+          "display_name": "Ecology",
+          "level": 1,
+          "score": 0.11855781078338623
+        },
+        {
+          "id": "https://openalex.org/C50522688",
+          "wikidata": "https://www.wikidata.org/wiki/Q189833",
+          "display_name": "Economic growth",
+          "level": 1,
+          "score": 0.09772148728370667
+        },
+        {
+          "id": "https://openalex.org/C162324750",
+          "wikidata": "https://www.wikidata.org/wiki/Q8134",
+          "display_name": "Economics",
+          "level": 0,
+          "score": 0.08455422520637512
+        }
+      ],
+      "mesh": [
+        {
+          "descriptor_ui": "D000069600",
+          "descriptor_name": "Plant Breeding",
+          "qualifier_ui": null,
+          "qualifier_name": null,
+          "is_major_topic": true
+        },
+        {
+          "descriptor_ui": "D000082302",
+          "descriptor_name": "Food Security",
+          "qualifier_ui": null,
+          "qualifier_name": null,
+          "is_major_topic": false
+        },
+        {
+          "descriptor_ui": "D000383",
+          "descriptor_name": "Agriculture",
+          "qualifier_ui": null,
+          "qualifier_name": null,
+          "is_major_topic": false
+        },
+        {
+          "descriptor_ui": "D006801",
+          "descriptor_name": "Humans",
+          "qualifier_ui": null,
+          "qualifier_name": null,
+          "is_major_topic": false
+        },
+        {
+          "descriptor_ui": "D018556",
+          "descriptor_name": "Crops, Agricultural",
+          "qualifier_ui": null,
+          "qualifier_name": null,
+          "is_major_topic": true
+        },
+        {
+          "descriptor_ui": "D036103",
+          "descriptor_name": "Nanotechnology",
+          "qualifier_ui": null,
+          "qualifier_name": null,
+          "is_major_topic": false
+        }
+      ],
+      "locations_count": 3,
+      "locations": [
+        {
+          "id": "doi:10.1016/j.envres.2023.115934",
+          "doi": "https://doi.org/10.1016/j.envres.2023.115934",
+          "is_oa": false,
+          "landing_page_url": "https://doi.org/10.1016/j.envres.2023.115934",
+          "pdf_url": null,
+          "source": {
+            "id": "https://openalex.org/S173943867",
+            "display_name": "Environmental Research",
+            "issn_l": "0013-9351",
+            "issn": [
+              "0013-9351",
+              "1096-0953"
+            ],
+            "is_oa": false,
+            "is_in_doaj": false,
+            "is_core": true,
+            "listed_in": [
+              "anvur-scientific",
+              "cwts-core",
+              "dongbi-b",
+              "doyens",
+              "jufo-2",
+              "ki-jl-2",
+              "medline",
+              "norway-2",
+              "poland-100",
+              "russia-white-list-1",
+              "vabb-shw"
+            ],
+            "host_organization": "https://openalex.org/P4310320990",
+            "host_organization_name": "Elsevier BV",
+            "host_organization_lineage": [
+              "https://openalex.org/P4310320990"
+            ],
+            "host_organization_lineage_names": [
+              "Elsevier BV"
+            ],
+            "type": "journal"
+          },
+          "license": null,
+          "license_id": null,
+          "version": "publishedVersion",
+          "is_accepted": true,
+          "is_published": true,
+          "raw_source_name": "Environmental Research",
+          "raw_type": "journal-article"
+        },
+        {
+          "id": "pmid:37080274",
+          "doi": null,
+          "is_oa": false,
+          "landing_page_url": "https://pubmed.ncbi.nlm.nih.gov/37080274",
+          "pdf_url": null,
+          "source": {
+            "id": "https://openalex.org/S4306525036",
+            "display_name": "PubMed",
+            "issn_l": null,
+            "issn": null,
+            "is_oa": false,
+            "is_in_doaj": false,
+            "is_core": false,
+            "listed_in": [],
+            "host_organization": "https://openalex.org/I1299303238",
+            "host_organization_name": "National Institutes of Health",
+            "host_organization_lineage": [
+              "https://openalex.org/I1299303238"
+            ],
+            "host_organization_lineage_names": [],
+            "type": "repository"
+          },
+          "license": null,
+          "license_id": null,
+          "version": "publishedVersion",
+          "is_accepted": true,
+          "is_published": true,
+          "raw_source_name": "Environmental research",
+          "raw_type": "Review"
+        },
+        {
+          "id": "pmh:oai:pure.atira.dk:publications/4d4b138f-756c-4782-a2b6-c461e7a1c6a4",
+          "doi": null,
+          "is_oa": false,
+          "landing_page_url": "https://www.scopus.com/pages/publications/85153486697",
+          "pdf_url": null,
+          "source": {
+            "id": "https://openalex.org/S4306402492",
+            "display_name": "UWA Profiles and Research Repository (UWA)",
+            "issn_l": null,
+            "issn": null,
+            "is_oa": false,
+            "is_in_doaj": false,
+            "is_core": false,
+            "listed_in": [],
+            "host_organization": "https://openalex.org/I177877127",
+            "host_organization_name": "The University of Western Australia",
+            "host_organization_lineage": [
+              "https://openalex.org/I177877127"
+            ],
+            "host_organization_lineage_names": [],
+            "type": "repository"
+          },
+          "license": null,
+          "license_id": null,
+          "version": "submittedVersion",
+          "is_accepted": false,
+          "is_published": false,
+          "raw_source_name": "Vithanage, M, Zhang, X, Gunarathne, V, Zhu, Y, Herath, L, Peiris, K, Solaiman, Z, Bolan, N & Siddique, K H M 2023, 'Plant nanobionics: Fortifying food security via engineered plant productivity', Environmental Research, vol. 229, 115934. https://doi.org/10.1016/j.envres.2023.115934",
+          "raw_type": "info:eu-repo/semantics/article"
+        }
+      ],
+      "best_oa_location": null,
+      "sustainable_development_goals": [
+        {
+          "id": "https://metadata.un.org/sdg/2",
+          "score": 1.0,
+          "display_name": "Zero hunger"
+        }
+      ],
+      "study_designs": [],
+      "awards": [
+        {
+          "id": "https://openalex.org/G3817111573",
+          "display_name": null,
+          "funder_award_id": "42107245",
+          "funder_id": "https://openalex.org/F4320321001",
+          "funder_display_name": "National Natural Science Foundation of China"
+        }
+      ],
+      "funders": [
+        {
+          "id": "https://openalex.org/F4320321001",
+          "display_name": "National Natural Science Foundation of China",
+          "ror": "https://ror.org/01h0zpd94"
+        }
+      ],
+      "has_content": {
+        "grobid_xml": false,
+        "pdf": false
+      },
+      "content_urls": null,
+      "referenced_works_count": 232,
+      "referenced_works": [
+        "https://openalex.org/W6223428",
+        "https://openalex.org/W27295584",
+        "https://openalex.org/W132803672",
+        "https://openalex.org/W310311395",
+        "https://openalex.org/W577475367",
+        "https://openalex.org/W956883941",
+        "https://openalex.org/W1223643235",
+        "https://openalex.org/W1553463080",
+        "https://openalex.org/W1570767905",
+        "https://openalex.org/W1608004313",
+        "https://openalex.org/W1882953103",
+        "https://openalex.org/W1900707771",
+        "https://openalex.org/W1947103654",
+        "https://openalex.org/W1951770649",
+        "https://openalex.org/W1963497039",
+        "https://openalex.org/W1972981018",
+        "https://openalex.org/W1978347760",
+        "https://openalex.org/W1979462376",
+        "https://openalex.org/W1981224158",
+        "https://openalex.org/W1981399011",
+        "https://openalex.org/W1981905443",
+        "https://openalex.org/W1982564131",
+        "https://openalex.org/W1983902287",
+        "https://openalex.org/W1996601343",
+        "https://openalex.org/W1997352793",
+        "https://openalex.org/W1997569017",
+        "https://openalex.org/W1998686312",
+        "https://openalex.org/W1999829995",
+        "https://openalex.org/W2005036462",
+        "https://openalex.org/W2005188014",
+        "https://openalex.org/W2005944401",
+        "https://openalex.org/W2008342279",
+        "https://openalex.org/W2009412866",
+        "https://openalex.org/W2012305142",
+        "https://openalex.org/W2013999789",
+        "https://openalex.org/W2018347457",
+        "https://openalex.org/W2022032287",
+        "https://openalex.org/W2024777609",
+        "https://openalex.org/W2028201857",
+        "https://openalex.org/W2029795722",
+        "https://openalex.org/W2030390023",
+        "https://openalex.org/W2031369417",
+        "https://openalex.org/W2033896109",
+        "https://openalex.org/W2035712160",
+        "https://openalex.org/W2038433164",
+        "https://openalex.org/W2042483895",
+        "https://openalex.org/W2043836141",
+        "https://openalex.org/W2052930556",
+        "https://openalex.org/W2053729487",
+        "https://openalex.org/W2054628347",
+        "https://openalex.org/W2062863791",
+        "https://openalex.org/W2065440165",
+        "https://openalex.org/W2065604898",
+        "https://openalex.org/W2073309035",
+        "https://openalex.org/W2073597745",
+        "https://openalex.org/W2073622741",
+        "https://openalex.org/W2076111104",
+        "https://openalex.org/W2078473087",
+        "https://openalex.org/W2082136869",
+        "https://openalex.org/W2083746569",
+        "https://openalex.org/W2087563200",
+        "https://openalex.org/W2087985880",
+        "https://openalex.org/W2089543428",
+        "https://openalex.org/W2091560605",
+        "https://openalex.org/W2094930983",
+        "https://openalex.org/W2098183534",
+        "https://openalex.org/W2098212378",
+        "https://openalex.org/W2100304177",
+        "https://openalex.org/W2103135989",
+        "https://openalex.org/W2108581465",
+        "https://openalex.org/W2112014428",
+        "https://openalex.org/W2114087314",
+        "https://openalex.org/W2117225984",
+        "https://openalex.org/W2121621337",
+        "https://openalex.org/W2123066269",
+        "https://openalex.org/W2123894710",
+        "https://openalex.org/W2128755520",
+        "https://openalex.org/W2137168276",
+        "https://openalex.org/W2138183388",
+        "https://openalex.org/W2138202414",
+        "https://openalex.org/W2138414244",
+        "https://openalex.org/W2141594771",
+        "https://openalex.org/W2144271715",
+        "https://openalex.org/W2146453274",
+        "https://openalex.org/W2151659443",
+        "https://openalex.org/W2163089944",
+        "https://openalex.org/W2166983163",
+        "https://openalex.org/W2169039196",
+        "https://openalex.org/W2169621514",
+        "https://openalex.org/W2200355053",
+        "https://openalex.org/W2248637138",
+        "https://openalex.org/W2259918362",
+        "https://openalex.org/W2292042600",
+        "https://openalex.org/W2301378766",
+        "https://openalex.org/W2314918539",
+        "https://openalex.org/W2315856286",
+        "https://openalex.org/W2329901222",
+        "https://openalex.org/W2340862080",
+        "https://openalex.org/W2409870681",
+        "https://openalex.org/W2427671983",
+        "https://openalex.org/W2481586490",
+        "https://openalex.org/W2484096024",
+        "https://openalex.org/W2490945423",
+        "https://openalex.org/W2499865239",
+        "https://openalex.org/W2509839944",
+        "https://openalex.org/W2526559357",
+        "https://openalex.org/W2540081824",
+        "https://openalex.org/W2556416228",
+        "https://openalex.org/W2557066331",
+        "https://openalex.org/W2566198511",
+        "https://openalex.org/W2582594309",
+        "https://openalex.org/W2589947047",
+        "https://openalex.org/W2604394105",
+        "https://openalex.org/W2616967369",
+        "https://openalex.org/W2620604155",
+        "https://openalex.org/W2749676200",
+        "https://openalex.org/W2750865013",
+        "https://openalex.org/W2754421109",
+        "https://openalex.org/W2765154889",
+        "https://openalex.org/W2766225343",
+        "https://openalex.org/W2766493279",
+        "https://openalex.org/W2773860182",
+        "https://openalex.org/W2775279314",
+        "https://openalex.org/W2775303399",
+        "https://openalex.org/W2778535203",
+        "https://openalex.org/W2791847544",
+        "https://openalex.org/W2792097840",
+        "https://openalex.org/W2793607887",
+        "https://openalex.org/W2802063824",
+        "https://openalex.org/W2807544866",
+        "https://openalex.org/W2883503725",
+        "https://openalex.org/W2885574342",
+        "https://openalex.org/W2886207929",
+        "https://openalex.org/W2887469256",
+        "https://openalex.org/W2889377815",
+        "https://openalex.org/W2890914068",
+        "https://openalex.org/W2892078007",
+        "https://openalex.org/W2895916133",
+        "https://openalex.org/W2899170901",
+        "https://openalex.org/W2904084259",
+        "https://openalex.org/W2904172380",
+        "https://openalex.org/W2906241345",
+        "https://openalex.org/W2912598574",
+        "https://openalex.org/W2912810703",
+        "https://openalex.org/W2914005171",
+        "https://openalex.org/W2921253923",
+        "https://openalex.org/W2921549445",
+        "https://openalex.org/W2941906304",
+        "https://openalex.org/W2945390520",
+        "https://openalex.org/W2948089988",
+        "https://openalex.org/W2948436989",
+        "https://openalex.org/W2955547313",
+        "https://openalex.org/W2956502322",
+        "https://openalex.org/W2962798701",
+        "https://openalex.org/W2972956159",
+        "https://openalex.org/W2973451381",
+        "https://openalex.org/W2976863546",
+        "https://openalex.org/W2980754662",
+        "https://openalex.org/W2982488912",
+        "https://openalex.org/W2987769197",
+        "https://openalex.org/W2991241211",
+        "https://openalex.org/W2991802485",
+        "https://openalex.org/W2993306661",
+        "https://openalex.org/W2996421580",
+        "https://openalex.org/W2997910963",
+        "https://openalex.org/W2998939424",
+        "https://openalex.org/W3001424501",
+        "https://openalex.org/W3003707765",
+        "https://openalex.org/W3006610170",
+        "https://openalex.org/W3006613146",
+        "https://openalex.org/W3007027804",
+        "https://openalex.org/W3008807809",
+        "https://openalex.org/W3011208414",
+        "https://openalex.org/W3017902078",
+        "https://openalex.org/W3018066822",
+        "https://openalex.org/W3021773454",
+        "https://openalex.org/W3028066735",
+        "https://openalex.org/W3033188432",
+        "https://openalex.org/W3033908063",
+        "https://openalex.org/W3034235961",
+        "https://openalex.org/W3036907105",
+        "https://openalex.org/W3046379644",
+        "https://openalex.org/W3048642358",
+        "https://openalex.org/W3049756309",
+        "https://openalex.org/W3089181662",
+        "https://openalex.org/W3093700015",
+        "https://openalex.org/W3093724111",
+        "https://openalex.org/W3103912312",
+        "https://openalex.org/W3108609864",
+        "https://openalex.org/W3125479595",
+        "https://openalex.org/W3128038747",
+        "https://openalex.org/W3129157612",
+        "https://openalex.org/W3131162365",
+        "https://openalex.org/W3131735448",
+        "https://openalex.org/W3139463902",
+        "https://openalex.org/W3139516263",
+        "https://openalex.org/W3156358992",
+        "https://openalex.org/W3157447342",
+        "https://openalex.org/W3166611253",
+        "https://openalex.org/W3171404686",
+        "https://openalex.org/W3172885511",
+        "https://openalex.org/W3175538376",
+        "https://openalex.org/W3186346359",
+        "https://openalex.org/W3197789576",
+        "https://openalex.org/W3200326870",
+        "https://openalex.org/W3207967097",
+        "https://openalex.org/W3209207224",
+        "https://openalex.org/W3217131747",
+        "https://openalex.org/W3217500521",
+        "https://openalex.org/W4200045613",
+        "https://openalex.org/W4205740102",
+        "https://openalex.org/W4206041747",
+        "https://openalex.org/W4210288657",
+        "https://openalex.org/W4210939824",
+        "https://openalex.org/W4210978455",
+        "https://openalex.org/W4212852103",
+        "https://openalex.org/W4220656457",
+        "https://openalex.org/W4221087568",
+        "https://openalex.org/W4226253682",
+        "https://openalex.org/W4232927932",
+        "https://openalex.org/W4234810288",
+        "https://openalex.org/W4241108596",
+        "https://openalex.org/W4243778346",
+        "https://openalex.org/W4245597307",
+        "https://openalex.org/W4245917570",
+        "https://openalex.org/W4250015292",
+        "https://openalex.org/W4250326382",
+        "https://openalex.org/W4281675821",
+        "https://openalex.org/W4285309625",
+        "https://openalex.org/W4309568546",
+        "https://openalex.org/W4315865548",
+        "https://openalex.org/W6713904029"
+      ],
+      "related_works": [
+        "https://openalex.org/W4393383364",
+        "https://openalex.org/W4400594117",
+        "https://openalex.org/W7223045840",
+        "https://openalex.org/W2787379354",
+        "https://openalex.org/W4415777783",
+        "https://openalex.org/W4393993686",
+        "https://openalex.org/W4390780466",
+        "https://openalex.org/W4411710324",
+        "https://openalex.org/W4224068894",
+        "https://openalex.org/W6911648556"
+      ],
+      "abstract_inverted_index": null,
+      "counts_by_year": [
+        {
+          "year": 2026,
+          "cited_by_count": 4
+        },
+        {
+          "year": 2025,
+          "cited_by_count": 10
+        },
+        {
+          "year": 2024,
+          "cited_by_count": 4
+        },
+        {
+          "year": 2023,
+          "cited_by_count": 2
+        }
+      ],
+      "updated_date": "2026-11-04T10:54:05.112534",
+      "created_date": "2023-04-20T00:00:00"
+    },
+    {
+      "id": "https://openalex.org/W4408505856",
+      "doi": "https://doi.org/10.1016/j.apsusc.2025.162996",
+      "title": "Surface-engineered and AgNPs-fortified dental archwires: Structural and microbiological assessments",
+      "display_name": "Surface-engineered and AgNPs-fortified dental archwires: Structural and microbiological assessments",
+      "relevance_score": 57.1373,
+      "publication_year": 2025,
+      "publication_date": "2025-03-16",
+      "ids": {
+        "openalex": "https://openalex.org/W4408505856",
+        "doi": "https://doi.org/10.1016/j.apsusc.2025.162996"
+      },
+      "language": "en",
+      "primary_location": {
+        "id": "doi:10.1016/j.apsusc.2025.162996",
+        "doi": "https://doi.org/10.1016/j.apsusc.2025.162996",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.1016/j.apsusc.2025.162996",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S42323631",
+          "display_name": "Applied Surface Science",
+          "issn_l": "0169-4332",
+          "issn": [
+            "0169-4332",
+            "1873-5584"
+          ],
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": true,
+          "listed_in": [
+            "anvur-scientific",
+            "cwts-core",
+            "dongbi-a",
+            "jufo-2",
+            "ki-jl-1",
+            "norway-1",
+            "poland-140",
+            "russia-white-list-1",
+            "vabb-shw"
+          ],
+          "host_organization": "https://openalex.org/P4310320990",
+          "host_organization_name": "Elsevier BV",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310320990"
+          ],
+          "host_organization_lineage_names": [
+            "Elsevier BV"
+          ],
+          "type": "journal"
+        },
+        "license": "cc-by-nc",
+        "license_id": "https://openalex.org/licenses/cc-by-nc",
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Applied Surface Science",
+        "raw_type": "journal-article"
+      },
+      "parent_works": [],
+      "lineage": [
+        "https://openalex.org/W4408505856"
+      ],
+      "child_works_count": 0,
+      "type": "article",
+      "is_traditional": true,
+      "indexed_in": [
+        "crossref"
+      ],
+      "open_access": {
+        "is_oa": true,
+        "oa_status": "hybrid",
+        "oa_url": "https://doi.org/10.1016/j.apsusc.2025.162996",
+        "any_repository_has_fulltext": false
+      },
+      "authorships": [
+        {
+          "author_position": "first",
+          "author": {
+            "id": "https://openalex.org/A5014295220",
+            "display_name": "Alaa Adawy",
+            "orcid": "https://orcid.org/0000-0001-5517-6693",
+            "observed_orcids": [
+              "https://orcid.org/0000-0001-5517-6693"
+            ]
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I165339363",
+              "display_name": "Universidad de Oviedo",
+              "ror": "https://ror.org/006gksa02",
+              "country_code": "ES",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I165339363"
+              ]
+            }
+          ],
+          "countries": [
+            "ES"
+          ],
+          "is_corresponding": true,
+          "raw_author_name": "Alaa Adawy",
+          "raw_affiliation_strings": [
+            "Department of Physics, Faculty of Science, University of Oviedo, 33007 Oviedo, Spain",
+            "Unit of Electron Microscopy and Microprobe, Institute for Scientific and Technological Resources (SCTs), University of Oviedo, 33006, Oviedo, Spain"
+          ],
+          "raw_orcid": null,
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Department of Physics, Faculty of Science, University of Oviedo, 33007 Oviedo, Spain",
+              "institution_ids": [
+                "https://openalex.org/I165339363"
+              ]
+            },
+            {
+              "raw_affiliation_string": "Unit of Electron Microscopy and Microprobe, Institute for Scientific and Technological Resources (SCTs), University of Oviedo, 33006, Oviedo, Spain",
+              "institution_ids": [
+                "https://openalex.org/I165339363"
+              ]
+            }
+          ]
+        },
+        {
+          "author_position": "middle",
+          "author": {
+            "id": "https://openalex.org/A5038855725",
+            "display_name": "Mario Mauvezín Quevedo",
+            "orcid": "https://orcid.org/0000-0002-4915-1841",
+            "observed_orcids": [
+              "https://orcid.org/0000-0002-4915-1841"
+            ]
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I165339363",
+              "display_name": "Universidad de Oviedo",
+              "ror": "https://ror.org/006gksa02",
+              "country_code": "ES",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I165339363"
+              ]
+            }
+          ],
+          "countries": [
+            "ES"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "Mario Mauvezín-Quevedo",
+          "raw_affiliation_strings": [
+            "Department of Integrated Adult Dentistry, School of Dentistry, University of Oviedo 33006 Oviedo, Spain"
+          ],
+          "raw_orcid": null,
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Department of Integrated Adult Dentistry, School of Dentistry, University of Oviedo 33006 Oviedo, Spain",
+              "institution_ids": [
+                "https://openalex.org/I165339363"
+              ]
+            }
+          ]
+        },
+        {
+          "author_position": "middle",
+          "author": {
+            "id": null,
+            "display_name": "Maria T. Andrés",
+            "orcid": null,
+            "observed_orcids": []
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I165339363",
+              "display_name": "Universidad de Oviedo",
+              "ror": "https://ror.org/006gksa02",
+              "country_code": "ES",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I165339363"
+              ]
+            }
+          ],
+          "countries": [
+            "ES"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "Maria T. Andrés",
+          "raw_affiliation_strings": [
+            "Laboratory of Oral Microbiology (LMO), School of Dentistry (CLUO), University of Oviedo 33006 Oviedo, Spain"
+          ],
+          "raw_orcid": null,
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Laboratory of Oral Microbiology (LMO), School of Dentistry (CLUO), University of Oviedo 33006 Oviedo, Spain",
+              "institution_ids": [
+                "https://openalex.org/I165339363"
+              ]
+            }
+          ]
+        },
+        {
+          "author_position": "middle",
+          "author": {
+            "id": "https://openalex.org/A5116650552",
+            "display_name": "Rafael Mendoza-Mernoño",
+            "orcid": null,
+            "observed_orcids": []
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I165339363",
+              "display_name": "Universidad de Oviedo",
+              "ror": "https://ror.org/006gksa02",
+              "country_code": "ES",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I165339363"
+              ]
+            }
+          ],
+          "countries": [
+            "ES"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "Rafael Mendoza-Mernoño",
+          "raw_affiliation_strings": [
+            "Department of Physical and Analytical Chemistry, University of Oviedo 33006 Oviedo, Spain"
+          ],
+          "raw_orcid": null,
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Department of Physical and Analytical Chemistry, University of Oviedo 33006 Oviedo, Spain",
+              "institution_ids": [
+                "https://openalex.org/I165339363"
+              ]
+            }
+          ]
+        },
+        {
+          "author_position": "last",
+          "author": {
+            "id": "https://openalex.org/A5078629723",
+            "display_name": "Félix de Carlos Villafranca",
+            "orcid": "https://orcid.org/0000-0001-8704-9015",
+            "observed_orcids": [
+              "https://orcid.org/0000-0001-8704-9015"
+            ]
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I165339363",
+              "display_name": "Universidad de Oviedo",
+              "ror": "https://ror.org/006gksa02",
+              "country_code": "ES",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I165339363"
+              ]
+            }
+          ],
+          "countries": [
+            "ES"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "Felix de Carlos Villafranca",
+          "raw_affiliation_strings": [
+            "Department of Surgery and Medical-Surgical Specialties, Area of Orthodontics, Faculty of Medicine, University of Oviedo 33006 Oviedo, Spain"
+          ],
+          "raw_orcid": null,
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Department of Surgery and Medical-Surgical Specialties, Area of Orthodontics, Faculty of Medicine, University of Oviedo 33006 Oviedo, Spain",
+              "institution_ids": [
+                "https://openalex.org/I165339363"
+              ]
+            }
+          ]
+        }
+      ],
+      "institutions": [],
+      "countries_distinct_count": 1,
+      "institutions_distinct_count": 1,
+      "corresponding_author_ids": [
+        "https://openalex.org/A5014295220"
+      ],
+      "corresponding_institution_ids": [
+        "https://openalex.org/I165339363"
+      ],
+      "apc_list": {
+        "value": 3930,
+        "currency": "USD",
+        "value_usd": 3930
+      },
+      "apc_paid": {
+        "value": 3930,
+        "currency": "USD",
+        "value_usd": 3930
+      },
+      "fwci": 2.6891,
+      "is_authors_truncated": false,
+      "has_fulltext": false,
+      "cited_by_count": 3,
+      "citation_normalized_percentile": {
+        "value": 0.8626672,
+        "is_in_top_1_percent": false,
+        "is_in_top_10_percent": false
+      },
+      "cited_by_percentile_year": {
+        "min": 96,
+        "max": 97
+      },
+      "biblio": {
+        "volume": "697",
+        "issue": null,
+        "first_page": "162996",
+        "last_page": "162996"
+      },
+      "is_retracted": false,
+      "is_paratext": false,
+      "is_xpac": false,
+      "primary_topic": {
+        "id": "https://openalex.org/T10356",
+        "display_name": "Orthodontics and Dentofacial Orthopedics",
+        "score": 0.6333000063896179,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3505",
+          "display_name": "Orthodontics"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/35",
+          "display_name": "Dentistry"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/4",
+          "display_name": "Health Sciences"
+        }
+      },
+      "topics": [
+        {
+          "id": "https://openalex.org/T10356",
+          "display_name": "Orthodontics and Dentofacial Orthopedics",
+          "score": 0.6333000063896179,
+          "subfield": {
+            "id": "https://openalex.org/subfields/3505",
+            "display_name": "Orthodontics"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/35",
+            "display_name": "Dentistry"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/4",
+            "display_name": "Health Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T10113",
+          "display_name": "Dental materials and restorations",
+          "score": 0.10819999873638153,
+          "subfield": {
+            "id": "https://openalex.org/subfields/3500",
+            "display_name": "General Dentistry"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/35",
+            "display_name": "Dentistry"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/4",
+            "display_name": "Health Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T10079",
+          "display_name": "Nanoparticles: synthesis and applications",
+          "score": 0.05909999832510948,
+          "subfield": {
+            "id": "https://openalex.org/subfields/2505",
+            "display_name": "Materials Chemistry"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/25",
+            "display_name": "Materials Science"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        }
+      ],
+      "keywords": [
+        {
+          "id": "https://openalex.org/keywords/orthodontic-archwires",
+          "display_name": "orthodontic archwires",
+          "score": 0.9679999947547913
+        },
+        {
+          "id": "https://openalex.org/keywords/silver-nanoparticles",
+          "display_name": "silver nanoparticles",
+          "score": 0.9919999837875366
+        },
+        {
+          "id": "https://openalex.org/keywords/hydrothermal-etching",
+          "display_name": "hydrothermal etching",
+          "score": 0.9129999876022339
+        },
+        {
+          "id": "https://openalex.org/keywords/surface-engineering",
+          "display_name": "surface engineering",
+          "score": 0.5580000281333923
+        },
+        {
+          "id": "https://openalex.org/keywords/antibacterial-coatings",
+          "display_name": "antibacterial coatings",
+          "score": 0.7179999947547913
+        },
+        {
+          "id": "https://openalex.org/keywords/antifungal-activity",
+          "display_name": "antifungal activity",
+          "score": 0.9089999794960022
+        },
+        {
+          "id": "https://openalex.org/keywords/stainless-steel",
+          "display_name": "stainless steel",
+          "score": 0.5519999861717224
+        },
+        {
+          "id": "https://openalex.org/keywords/beta-titanium-alloys",
+          "display_name": "beta titanium alloys",
+          "score": 0.8700000047683716
+        },
+        {
+          "id": "https://openalex.org/keywords/nickel-titanium-alloys",
+          "display_name": "NiTi",
+          "score": 0.9929999709129333
+        },
+        {
+          "id": "https://openalex.org/keywords/niobium-titanium-alloys",
+          "display_name": "titanium-niobium alloys",
+          "score": 0.9980000257492065
+        },
+        {
+          "id": "https://openalex.org/keywords/cytocompatibility",
+          "display_name": "cytocompatibility",
+          "score": 0.8090000152587891
+        },
+        {
+          "id": "https://openalex.org/keywords/dental-plaque",
+          "display_name": "dental plaque",
+          "score": 0.6169999837875366
+        }
+      ],
+      "concepts": [
+        {
+          "id": "https://openalex.org/C192562407",
+          "wikidata": "https://www.wikidata.org/wiki/Q228736",
+          "display_name": "Materials science",
+          "level": 0,
+          "score": 0.46321019530296326
+        },
+        {
+          "id": "https://openalex.org/C171250308",
+          "wikidata": "https://www.wikidata.org/wiki/Q11468",
+          "display_name": "Nanotechnology",
+          "level": 1,
+          "score": 0.4380970001220703
+        },
+        {
+          "id": "https://openalex.org/C2776799497",
+          "wikidata": "https://www.wikidata.org/wiki/Q484298",
+          "display_name": "Surface (topology)",
+          "level": 2,
+          "score": 0.41796523332595825
+        },
+        {
+          "id": "https://openalex.org/C159985019",
+          "wikidata": "https://www.wikidata.org/wiki/Q181790",
+          "display_name": "Composite material",
+          "level": 1,
+          "score": 0.35520637035369873
+        },
+        {
+          "id": "https://openalex.org/C191897082",
+          "wikidata": "https://www.wikidata.org/wiki/Q11467",
+          "display_name": "Metallurgy",
+          "level": 1,
+          "score": 0.3392217755317688
+        },
+        {
+          "id": "https://openalex.org/C199343813",
+          "wikidata": "https://www.wikidata.org/wiki/Q12128",
+          "display_name": "Dentistry",
+          "level": 1,
+          "score": 0.3380248546600342
+        },
+        {
+          "id": "https://openalex.org/C185592680",
+          "wikidata": "https://www.wikidata.org/wiki/Q2329",
+          "display_name": "Chemistry",
+          "level": 0,
+          "score": 0.3316902816295624
+        },
+        {
+          "id": "https://openalex.org/C71924100",
+          "wikidata": "https://www.wikidata.org/wiki/Q11190",
+          "display_name": "Medicine",
+          "level": 0,
+          "score": 0.13739609718322754
+        },
+        {
+          "id": "https://openalex.org/C33923547",
+          "wikidata": "https://www.wikidata.org/wiki/Q395",
+          "display_name": "Mathematics",
+          "level": 0,
+          "score": 0.1303563416004181
+        },
+        {
+          "id": "https://openalex.org/C2524010",
+          "wikidata": "https://www.wikidata.org/wiki/Q8087",
+          "display_name": "Geometry",
+          "level": 1,
+          "score": 0.0
+        }
+      ],
+      "mesh": [],
+      "locations_count": 1,
+      "locations": [
+        {
+          "id": "doi:10.1016/j.apsusc.2025.162996",
+          "doi": "https://doi.org/10.1016/j.apsusc.2025.162996",
+          "is_oa": true,
+          "landing_page_url": "https://doi.org/10.1016/j.apsusc.2025.162996",
+          "pdf_url": null,
+          "source": {
+            "id": "https://openalex.org/S42323631",
+            "display_name": "Applied Surface Science",
+            "issn_l": "0169-4332",
+            "issn": [
+              "0169-4332",
+              "1873-5584"
+            ],
+            "is_oa": false,
+            "is_in_doaj": false,
+            "is_core": true,
+            "listed_in": [
+              "anvur-scientific",
+              "cwts-core",
+              "dongbi-a",
+              "jufo-2",
+              "ki-jl-1",
+              "norway-1",
+              "poland-140",
+              "russia-white-list-1",
+              "vabb-shw"
+            ],
+            "host_organization": "https://openalex.org/P4310320990",
+            "host_organization_name": "Elsevier BV",
+            "host_organization_lineage": [
+              "https://openalex.org/P4310320990"
+            ],
+            "host_organization_lineage_names": [
+              "Elsevier BV"
+            ],
+            "type": "journal"
+          },
+          "license": "cc-by-nc",
+          "license_id": "https://openalex.org/licenses/cc-by-nc",
+          "version": "publishedVersion",
+          "is_accepted": true,
+          "is_published": true,
+          "raw_source_name": "Applied Surface Science",
+          "raw_type": "journal-article"
+        }
+      ],
+      "best_oa_location": {
+        "id": "doi:10.1016/j.apsusc.2025.162996",
+        "doi": "https://doi.org/10.1016/j.apsusc.2025.162996",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.1016/j.apsusc.2025.162996",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S42323631",
+          "display_name": "Applied Surface Science",
+          "issn_l": "0169-4332",
+          "issn": [
+            "0169-4332",
+            "1873-5584"
+          ],
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": true,
+          "listed_in": [
+            "anvur-scientific",
+            "cwts-core",
+            "dongbi-a",
+            "jufo-2",
+            "ki-jl-1",
+            "norway-1",
+            "poland-140",
+            "russia-white-list-1",
+            "vabb-shw"
+          ],
+          "host_organization": "https://openalex.org/P4310320990",
+          "host_organization_name": "Elsevier BV",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310320990"
+          ],
+          "host_organization_lineage_names": [
+            "Elsevier BV"
+          ],
+          "type": "journal"
+        },
+        "license": "cc-by-nc",
+        "license_id": "https://openalex.org/licenses/cc-by-nc",
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Applied Surface Science",
+        "raw_type": "journal-article"
+      },
+      "sustainable_development_goals": [
+        {
+          "id": "https://metadata.un.org/sdg/3",
+          "score": 0.9391000270843506,
+          "display_name": "Good health and well-being"
+        }
+      ],
+      "study_designs": [],
+      "awards": [
+        {
+          "id": "https://openalex.org/G1882090794",
+          "display_name": null,
+          "funder_award_id": "PTA2021-020817-I",
+          "funder_id": "https://openalex.org/F4320322930",
+          "funder_display_name": "Ministerio de Ciencia e Innovación"
+        },
+        {
+          "id": "https://openalex.org/G669476352",
+          "display_name": null,
+          "funder_award_id": "RYC2022-038426-I",
+          "funder_id": "https://openalex.org/F4320322930",
+          "funder_display_name": "Ministerio de Ciencia e Innovación"
+        },
+        {
+          "id": "https://openalex.org/G7495815668",
+          "display_name": null,
+          "funder_award_id": "MCI-21-PID2020-113558RB-C41",
+          "funder_id": "https://openalex.org/F4320322930",
+          "funder_display_name": "Ministerio de Ciencia e Innovación"
+        }
+      ],
+      "funders": [
+        {
+          "id": "https://openalex.org/F4320322930",
+          "display_name": "Ministerio de Ciencia e Innovación",
+          "ror": null
+        }
+      ],
+      "has_content": {
+        "grobid_xml": false,
+        "pdf": false
+      },
+      "content_urls": null,
+      "referenced_works_count": 108,
+      "referenced_works": [
+        "https://openalex.org/W37882478",
+        "https://openalex.org/W181560802",
+        "https://openalex.org/W201490583",
+        "https://openalex.org/W208006937",
+        "https://openalex.org/W317515020",
+        "https://openalex.org/W1254570856",
+        "https://openalex.org/W1758228283",
+        "https://openalex.org/W1943135838",
+        "https://openalex.org/W1970691910",
+        "https://openalex.org/W1977117500",
+        "https://openalex.org/W1989571679",
+        "https://openalex.org/W1992378251",
+        "https://openalex.org/W1995660976",
+        "https://openalex.org/W2001576176",
+        "https://openalex.org/W2005007729",
+        "https://openalex.org/W2010124974",
+        "https://openalex.org/W2018068010",
+        "https://openalex.org/W2024210777",
+        "https://openalex.org/W2025549002",
+        "https://openalex.org/W2026208505",
+        "https://openalex.org/W2033074192",
+        "https://openalex.org/W2044991390",
+        "https://openalex.org/W2059017071",
+        "https://openalex.org/W2059671527",
+        "https://openalex.org/W2061073363",
+        "https://openalex.org/W2062396163",
+        "https://openalex.org/W2066079726",
+        "https://openalex.org/W2066279962",
+        "https://openalex.org/W2090264280",
+        "https://openalex.org/W2094152726",
+        "https://openalex.org/W2096142282",
+        "https://openalex.org/W2098370164",
+        "https://openalex.org/W2102659434",
+        "https://openalex.org/W2108562757",
+        "https://openalex.org/W2109140846",
+        "https://openalex.org/W2111535446",
+        "https://openalex.org/W2115373206",
+        "https://openalex.org/W2123782047",
+        "https://openalex.org/W2123796159",
+        "https://openalex.org/W2124816443",
+        "https://openalex.org/W2129718017",
+        "https://openalex.org/W2138548959",
+        "https://openalex.org/W2144104682",
+        "https://openalex.org/W2146482929",
+        "https://openalex.org/W2146818200",
+        "https://openalex.org/W2147819711",
+        "https://openalex.org/W2148260760",
+        "https://openalex.org/W2150819459",
+        "https://openalex.org/W2153412008",
+        "https://openalex.org/W2153817301",
+        "https://openalex.org/W2155055141",
+        "https://openalex.org/W2159905059",
+        "https://openalex.org/W2164081605",
+        "https://openalex.org/W2167465858",
+        "https://openalex.org/W2169049747",
+        "https://openalex.org/W2218743118",
+        "https://openalex.org/W2263375075",
+        "https://openalex.org/W2271304982",
+        "https://openalex.org/W2291848556",
+        "https://openalex.org/W2331632399",
+        "https://openalex.org/W2335239154",
+        "https://openalex.org/W2411825092",
+        "https://openalex.org/W2422844074",
+        "https://openalex.org/W2470544381",
+        "https://openalex.org/W2546609322",
+        "https://openalex.org/W2551792162",
+        "https://openalex.org/W2564402974",
+        "https://openalex.org/W2587113457",
+        "https://openalex.org/W2730009635",
+        "https://openalex.org/W2733033009",
+        "https://openalex.org/W2743453819",
+        "https://openalex.org/W2765766942",
+        "https://openalex.org/W2804339616",
+        "https://openalex.org/W2903262697",
+        "https://openalex.org/W2922075738",
+        "https://openalex.org/W2949226726",
+        "https://openalex.org/W2972438394",
+        "https://openalex.org/W3000600801",
+        "https://openalex.org/W3004027969",
+        "https://openalex.org/W3016463754",
+        "https://openalex.org/W3036071852",
+        "https://openalex.org/W3047948339",
+        "https://openalex.org/W3135014708",
+        "https://openalex.org/W3135392709",
+        "https://openalex.org/W3136062357",
+        "https://openalex.org/W3156832006",
+        "https://openalex.org/W3158023125",
+        "https://openalex.org/W3170515631",
+        "https://openalex.org/W3191591643",
+        "https://openalex.org/W3202253300",
+        "https://openalex.org/W3208740868",
+        "https://openalex.org/W4206738628",
+        "https://openalex.org/W4211229950",
+        "https://openalex.org/W4221002916",
+        "https://openalex.org/W4221077624",
+        "https://openalex.org/W4255363162",
+        "https://openalex.org/W4285072442",
+        "https://openalex.org/W4296619348",
+        "https://openalex.org/W4322761047",
+        "https://openalex.org/W4324093690",
+        "https://openalex.org/W4327800623",
+        "https://openalex.org/W4365445827",
+        "https://openalex.org/W4382933177",
+        "https://openalex.org/W4385408763",
+        "https://openalex.org/W4385662907",
+        "https://openalex.org/W4388268621",
+        "https://openalex.org/W4401049285",
+        "https://openalex.org/W6922616924"
+      ],
+      "related_works": [
+        "https://openalex.org/W3097303644",
+        "https://openalex.org/W7166708707",
+        "https://openalex.org/W4412007490",
+        "https://openalex.org/W4404058974",
+        "https://openalex.org/W4407591740",
+        "https://openalex.org/W3200029069",
+        "https://openalex.org/W3159326356",
+        "https://openalex.org/W7166521440",
+        "https://openalex.org/W3045387817",
+        "https://openalex.org/W3130145261"
+      ],
+      "abstract_inverted_index": {
+        "•": [
+          0,
+          11,
+          20,
+          30
+        ],
+        "Fixed": [
+          1
+        ],
+        "orthodontic": [
+          2,
+          45,
+          124,
+          143
+        ],
+        "archwires": [
+          3,
+          16,
+          155,
+          280
+        ],
+        "affect": [
+          4
+        ],
+        "oral": [
+          5,
+          54,
+          64
+        ],
+        "hygiene": [
+          6
+        ],
+        "leading": [
+          7
+        ],
+        "to": [
+          8,
+          115,
+          159,
+          304
+        ],
+        "microbial": [
+          9
+        ],
+        "infections.": [
+          10
+        ],
+        "We": [
+          12
+        ],
+        "enriched": [
+          13
+        ],
+        "hydrothermally": [
+          14
+        ],
+        "etched": [
+          15
+        ],
+        "with": [
+          17,
+          43,
+          49,
+          183,
+          220
+        ],
+        "silver": [
+          18,
+          256,
+          266
+        ],
+        "nanoparticles.": [
+          19
+        ],
+        "The": [
+          21,
+          31,
+          192
+        ],
+        "resultant": [
+          22
+        ],
+        "surfaces": [
+          23
+        ],
+        "possess": [
+          24
+        ],
+        "better": [
+          25
+        ],
+        "antibacterial": [
+          26
+        ],
+        "and": [
+          27,
+          71,
+          80,
+          89,
+          139,
+          167,
+          190,
+          198,
+          200,
+          208,
+          210,
+          216,
+          233,
+          272,
+          278
+        ],
+        "antifungal": [
+          28
+        ],
+        "properties.": [
+          29
+        ],
+        "cytocompatibility": [
+          32,
+          306
+        ],
+        "of": [
+          33,
+          35,
+          74,
+          87,
+          111,
+          120,
+          134,
+          141,
+          236,
+          239,
+          245,
+          265,
+          275,
+          290,
+          292,
+          311
+        ],
+        "most": [
+          34,
+          244,
+          291
+        ],
+        "the": [
+          36,
+          63,
+          109,
+          117,
+          132,
+          136,
+          142,
+          229,
+          234,
+          246,
+          254,
+          263,
+          270,
+          276,
+          287,
+          293,
+          312
+        ],
+        "archwire": [
+          37
+        ],
+        "types": [
+          38,
+          238
+        ],
+        "was": [
+          39,
+          195
+        ],
+        "not": [
+          40
+        ],
+        "compromised.": [
+          41
+        ],
+        "Treatment": [
+          42
+        ],
+        "fixed": [
+          44
+        ],
+        "appliances": [
+          46,
+          57
+        ],
+        "is": [
+          47,
+          261
+        ],
+        "associated": [
+          48
+        ],
+        "increased": [
+          50
+        ],
+        "difficulty": [
+          51
+        ],
+        "in": [
+          52,
+          59,
+          62,
+          69,
+          78,
+          127,
+          146,
+          262,
+          296
+        ],
+        "maintaining": [
+          53
+        ],
+        "hygiene.": [
+          55
+        ],
+        "Orthodontic": [
+          56
+        ],
+        "result": [
+          58
+        ],
+        "specific": [
+          60
+        ],
+        "changes": [
+          61
+        ],
+        "environment,": [
+          65
+        ],
+        "including": [
+          66
+        ],
+        "a": [
+          67,
+          85
+        ],
+        "reduction": [
+          68
+        ],
+        "pH": [
+          70
+        ],
+        "an": [
+          72,
+          176
+        ],
+        "elevation": [
+          73
+        ],
+        "cariogenic": [
+          75,
+          90
+        ],
+        "flora": [
+          76
+        ],
+        "levels": [
+          77
+        ],
+        "saliva": [
+          79
+        ],
+        "biofilm.": [
+          81
+        ],
+        "This": [
+          82,
+          92,
+          226
+        ],
+        "also": [
+          83
+        ],
+        "entails": [
+          84
+        ],
+        "risk": [
+          86
+        ],
+        "gingival": [
+          88
+        ],
+        "lesions.": [
+          91
+        ],
+        "tendency": [
+          93
+        ],
+        "can": [
+          94
+        ],
+        "be": [
+          95
+        ],
+        "favored": [
+          96
+        ],
+        "or": [
+          97,
+          113
+        ],
+        "hindered": [
+          98
+        ],
+        "by": [
+          99
+        ],
+        "using": [
+          100,
+          175,
+          203
+        ],
+        "different": [
+          101
+        ],
+        "materials.": [
+          102
+        ],
+        "Recently,": [
+          103
+        ],
+        "considerable": [
+          104
+        ],
+        "interest": [
+          105
+        ],
+        "has": [
+          106
+        ],
+        "grown": [
+          107
+        ],
+        "considering": [
+          108
+        ],
+        "usage": [
+          110
+        ],
+        "ions": [
+          112
+        ],
+        "nanoparticles": [
+          114,
+          267
+        ],
+        "increase": [
+          116
+        ],
+        "antimicrobial": [
+          118,
+          299
+        ],
+        "affinity": [
+          119,
+          274
+        ],
+        "biomaterials": [
+          121
+        ],
+        "used": [
+          122,
+          145,
+          153
+        ],
+        "for": [
+          123,
+          307
+        ],
+        "appliances.": [
+          125
+        ],
+        "Therefore,": [
+          126
+        ],
+        "this": [
+          128
+        ],
+        "study": [
+          129
+        ],
+        "we": [
+          130
+        ],
+        "explored": [
+          131
+        ],
+        "possibilities": [
+          133
+        ],
+        "improving": [
+          135,
+          297
+        ],
+        "surface": [
+          137,
+          288
+        ],
+        "characteristics": [
+          138
+        ],
+        "biofunctionality": [
+          140
+        ],
+        "materials": [
+          144
+        ],
+        "clinical": [
+          147
+        ],
+        "dental": [
+          148
+        ],
+        "practice.": [
+          149
+        ],
+        "Hereby,": [
+          150
+        ],
+        "seven": [
+          151
+        ],
+        "commonly": [
+          152
+        ],
+        "commercial": [
+          154
+        ],
+        ",": [
+          156
+        ],
+        "belonging": [
+          157
+        ],
+        "compositionally": [
+          158
+        ],
+        "four": [
+          160
+        ],
+        "alloys:": [
+          161
+        ],
+        "stainless-steel,": [
+          162
+        ],
+        "β-titanium": [
+          163
+        ],
+        "alloy,": [
+          164,
+          166
+        ],
+        "nickel-titanium": [
+          165
+        ],
+        "titanium-niobium": [
+          168
+        ],
+        "alloy": [
+          169
+        ],
+        "were": [
+          170,
+          187,
+          281
+        ],
+        "surface-treated,": [
+          171
+        ],
+        "through": [
+          172
+        ],
+        "hydrothermal": [
+          173
+        ],
+        "etching": [
+          174,
+          231
+        ],
+        "aqueous": [
+          177
+        ],
+        "phosphate": [
+          178,
+          241
+        ],
+        "solution,": [
+          179
+        ],
+        "before": [
+          180
+        ],
+        "being": [
+          181
+        ],
+        "coated": [
+          182
+        ],
+        "silver.": [
+          184
+        ],
+        "All": [
+          185
+        ],
+        "samples": [
+          186
+        ],
+        "analyzed": [
+          188
+        ],
+        "structurally": [
+          189
+        ],
+        "microbiologically.": [
+          191
+        ],
+        "structural": [
+          193
+        ],
+        "assessment": [
+          194,
+          227
+        ],
+        "performed": [
+          196
+        ],
+        "pre-": [
+          197
+        ],
+        "post-etching": [
+          199
+        ],
+        "post-silver": [
+          201
+        ],
+        "deposition": [
+          202
+        ],
+        "scanning": [
+          204,
+          211
+        ],
+        "electron": [
+          205,
+          213
+        ],
+        "microscopy": [
+          206,
+          214
+        ],
+        "(SEM)": [
+          207
+        ],
+        "high-resolution": [
+          209
+        ],
+        "transmission": [
+          212
+        ],
+        "(HRTEM": [
+          215
+        ],
+        "STEM),": [
+          217
+        ],
+        "all": [
+          218,
+          259
+        ],
+        "combined": [
+          219
+        ],
+        "energy": [
+          221
+        ],
+        "dispersive": [
+          222
+        ],
+        "X-ray": [
+          223
+        ],
+        "spectroscopy": [
+          224
+        ],
+        "(EDX).": [
+          225
+        ],
+        "confirmed": [
+          228
+        ],
+        "successful": [
+          230
+        ],
+        "process": [
+          232
+        ],
+        "growth": [
+          235
+        ],
+        "two": [
+          237
+        ],
+        "titanium": [
+          240
+        ],
+        "phases": [
+          242
+        ],
+        "on": [
+          243,
+          258
+        ],
+        "titanium-containing": [
+          247
+        ],
+        "alloys.": [
+          248
+        ],
+        "Furthermore,": [
+          249
+        ],
+        "microscopic": [
+          250
+        ],
+        "inspection": [
+          251
+        ],
+        "revealed": [
+          252
+        ],
+        "that": [
+          253
+        ],
+        "obtained": [
+          255
+        ],
+        "coating": [
+          257
+        ],
+        "alloys": [
+          260,
+          294
+        ],
+        "form": [
+          264
+        ],
+        "(AgNPs).": [
+          268
+        ],
+        "Microbiologically,": [
+          269
+        ],
+        "bacterial": [
+          271
+        ],
+        "fungal": [
+          273
+        ],
+        "blank": [
+          277
+        ],
+        "treated": [
+          279,
+          313
+        ],
+        "assessed,": [
+          282
+        ],
+        "besides": [
+          283
+        ],
+        "their": [
+          284,
+          298,
+          305
+        ],
+        "cytotoxicity.": [
+          285
+        ],
+        "Overall,": [
+          286
+        ],
+        "treatment": [
+          289
+        ],
+        "succeeded": [
+          295
+        ],
+        "effectiveness,": [
+          300
+        ],
+        "without": [
+          301
+        ],
+        "much": [
+          302
+        ],
+        "compromise": [
+          303
+        ],
+        "at": [
+          308
+        ],
+        "least": [
+          309
+        ],
+        "half": [
+          310
+        ],
+        "archwires.": [
+          314
+        ]
+      },
+      "counts_by_year": [
+        {
+          "year": 2026,
+          "cited_by_count": 3
+        }
+      ],
+      "updated_date": "2026-11-14T11:04:58.165337",
+      "created_date": "2025-03-17T00:00:00"
+    },
+    {
+      "id": "https://openalex.org/W4415785685",
+      "doi": "https://doi.org/10.3724/j.issn.1674-4969.20250126",
+      "title": "On Fortifying the Engineer Teams Building for Greater Contributions to the Development of New-Quality Productivity",
+      "display_name": "On Fortifying the Engineer Teams Building for Greater Contributions to the Development of New-Quality Productivity",
+      "relevance_score": 54.286476,
+      "publication_year": 2025,
+      "publication_date": "2025-10-01",
+      "ids": {
+        "openalex": "https://openalex.org/W4415785685",
+        "doi": "https://doi.org/10.3724/j.issn.1674-4969.20250126"
+      },
+      "language": "en",
+      "primary_location": {
+        "id": "doi:10.3724/j.issn.1674-4969.20250126",
+        "doi": "https://doi.org/10.3724/j.issn.1674-4969.20250126",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.3724/j.issn.1674-4969.20250126",
+        "pdf_url": "https://www.sciengine.com/doi/pdf/64620E22827447AC91257D6B281F97C2",
+        "source": {
+          "id": "https://openalex.org/S4210217246",
+          "display_name": "JOURNAL OF ENGINEERING STUDIES",
+          "issn_l": "1674-4969",
+          "issn": [
+            "1674-4969"
+          ],
+          "is_oa": true,
+          "is_in_doaj": true,
+          "is_core": false,
+          "listed_in": [
+            "doaj"
+          ],
+          "host_organization": "https://openalex.org/P4310319982",
+          "host_organization_name": "Science Press",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310319982"
+          ],
+          "host_organization_lineage_names": [
+            "Science Press"
+          ],
+          "type": "journal"
+        },
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Journal of Engineering Studies",
+        "raw_type": "journal-article"
+      },
+      "parent_works": [],
+      "lineage": [
+        "https://openalex.org/W4415785685"
+      ],
+      "child_works_count": 0,
+      "type": "article",
+      "is_traditional": true,
+      "indexed_in": [
+        "crossref"
+      ],
+      "open_access": {
+        "is_oa": true,
+        "oa_status": "diamond",
+        "oa_url": "https://www.sciengine.com/doi/pdf/64620E22827447AC91257D6B281F97C2",
+        "any_repository_has_fulltext": false
+      },
+      "authorships": [
+        {
+          "author_position": "first",
+          "author": {
+            "id": "https://openalex.org/A5058388737",
+            "display_name": "Zhuang Fu",
+            "orcid": "https://orcid.org/0000-0001-8825-4029",
+            "observed_orcids": [
+              "https://orcid.org/0000-0001-8825-4029"
+            ]
+          },
+          "institutions": [],
+          "countries": [],
+          "is_corresponding": true,
+          "raw_author_name": "Zhihuan FU",
+          "raw_affiliation_strings": [],
+          "raw_orcid": null,
+          "affiliations": []
+        }
+      ],
+      "institutions": [],
+      "countries_distinct_count": 0,
+      "institutions_distinct_count": 0,
+      "corresponding_author_ids": [
+        "https://openalex.org/A5058388737"
+      ],
+      "corresponding_institution_ids": [],
+      "apc_list": null,
+      "apc_paid": null,
+      "fwci": 0.0,
+      "is_authors_truncated": false,
+      "has_fulltext": true,
+      "cited_by_count": 0,
+      "citation_normalized_percentile": {
+        "value": 0.0,
+        "is_in_top_1_percent": false,
+        "is_in_top_10_percent": false
+      },
+      "cited_by_percentile_year": null,
+      "biblio": {
+        "volume": "17",
+        "issue": "5",
+        "first_page": "537",
+        "last_page": "543"
+      },
+      "is_retracted": false,
+      "is_paratext": false,
+      "is_xpac": false,
+      "primary_topic": {
+        "id": "https://openalex.org/T12124",
+        "display_name": "Engineering Education and Curriculum Development",
+        "score": 0.5835000276565552,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3304",
+          "display_name": "Education"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/33",
+          "display_name": "Social Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      "topics": [
+        {
+          "id": "https://openalex.org/T12124",
+          "display_name": "Engineering Education and Curriculum Development",
+          "score": 0.5835000276565552,
+          "subfield": {
+            "id": "https://openalex.org/subfields/3304",
+            "display_name": "Education"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/33",
+            "display_name": "Social Sciences"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/2",
+            "display_name": "Social Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T14185",
+          "display_name": "Research, Science, and Academia",
+          "score": 0.31029999256134033,
+          "subfield": {
+            "id": "https://openalex.org/subfields/1405",
+            "display_name": "Management of Technology and Innovation"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/14",
+            "display_name": "Business, Management and Accounting"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/2",
+            "display_name": "Social Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T14218",
+          "display_name": "Engineering Education and Global Impact",
+          "score": 0.02800000086426735,
+          "subfield": {
+            "id": "https://openalex.org/subfields/3303",
+            "display_name": "Development"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/33",
+            "display_name": "Social Sciences"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/2",
+            "display_name": "Social Sciences"
+          }
+        }
+      ],
+      "keywords": [
+        {
+          "id": "https://openalex.org/keywords/engineering-education",
+          "display_name": "engineering education",
+          "score": 0.6869999766349792
+        },
+        {
+          "id": "https://openalex.org/keywords/continuing-education",
+          "display_name": "continuing education",
+          "score": 0.7200000286102295
+        },
+        {
+          "id": "https://openalex.org/keywords/international-recognition-of-qualifications",
+          "display_name": "international recognition of qualifications",
+          "score": 0.7940000295639038
+        },
+        {
+          "id": "https://openalex.org/keywords/technology-transfer",
+          "display_name": "technology transfer",
+          "score": 0.382999986410141
+        }
+      ],
+      "concepts": [
+        {
+          "id": "https://openalex.org/C204983608",
+          "wikidata": "https://www.wikidata.org/wiki/Q2111958",
+          "display_name": "Productivity",
+          "level": 2,
+          "score": 0.7445999979972839
+        },
+        {
+          "id": "https://openalex.org/C144133560",
+          "wikidata": "https://www.wikidata.org/wiki/Q4830453",
+          "display_name": "Business",
+          "level": 0,
+          "score": 0.4595000147819519
+        },
+        {
+          "id": "https://openalex.org/C127413603",
+          "wikidata": "https://www.wikidata.org/wiki/Q11023",
+          "display_name": "Engineering",
+          "level": 0,
+          "score": 0.4392000138759613
+        },
+        {
+          "id": "https://openalex.org/C110354214",
+          "wikidata": "https://www.wikidata.org/wiki/Q6314146",
+          "display_name": "Engineering management",
+          "level": 1,
+          "score": 0.35920000076293945
+        },
+        {
+          "id": "https://openalex.org/C40700",
+          "wikidata": "https://www.wikidata.org/wiki/Q1411783",
+          "display_name": "Industrial organization",
+          "level": 1,
+          "score": 0.3109999895095825
+        },
+        {
+          "id": "https://openalex.org/C2776542497",
+          "wikidata": "https://www.wikidata.org/wiki/Q5266672",
+          "display_name": "Development (topology)",
+          "level": 2,
+          "score": 0.310699999332428
+        },
+        {
+          "id": "https://openalex.org/C107053488",
+          "wikidata": "https://www.wikidata.org/wiki/Q2674423",
+          "display_name": "Construction engineering",
+          "level": 1,
+          "score": 0.30169999599456787
+        },
+        {
+          "id": "https://openalex.org/C2778348673",
+          "wikidata": "https://www.wikidata.org/wiki/Q739302",
+          "display_name": "Production (economics)",
+          "level": 2,
+          "score": 0.28369998931884766
+        },
+        {
+          "id": "https://openalex.org/C117671659",
+          "wikidata": "https://www.wikidata.org/wiki/Q11049265",
+          "display_name": "Manufacturing engineering",
+          "level": 1,
+          "score": 0.2662000060081482
+        },
+        {
+          "id": "https://openalex.org/C162324750",
+          "wikidata": "https://www.wikidata.org/wiki/Q8134",
+          "display_name": "Economics",
+          "level": 0,
+          "score": 0.26460000872612
+        }
+      ],
+      "mesh": [],
+      "locations_count": 1,
+      "locations": [
+        {
+          "id": "doi:10.3724/j.issn.1674-4969.20250126",
+          "doi": "https://doi.org/10.3724/j.issn.1674-4969.20250126",
+          "is_oa": true,
+          "landing_page_url": "https://doi.org/10.3724/j.issn.1674-4969.20250126",
+          "pdf_url": "https://www.sciengine.com/doi/pdf/64620E22827447AC91257D6B281F97C2",
+          "source": {
+            "id": "https://openalex.org/S4210217246",
+            "display_name": "JOURNAL OF ENGINEERING STUDIES",
+            "issn_l": "1674-4969",
+            "issn": [
+              "1674-4969"
+            ],
+            "is_oa": true,
+            "is_in_doaj": true,
+            "is_core": false,
+            "listed_in": [
+              "doaj"
+            ],
+            "host_organization": "https://openalex.org/P4310319982",
+            "host_organization_name": "Science Press",
+            "host_organization_lineage": [
+              "https://openalex.org/P4310319982"
+            ],
+            "host_organization_lineage_names": [
+              "Science Press"
+            ],
+            "type": "journal"
+          },
+          "license": "cc-by",
+          "license_id": "https://openalex.org/licenses/cc-by",
+          "version": "publishedVersion",
+          "is_accepted": true,
+          "is_published": true,
+          "raw_source_name": "Journal of Engineering Studies",
+          "raw_type": "journal-article"
+        }
+      ],
+      "best_oa_location": {
+        "id": "doi:10.3724/j.issn.1674-4969.20250126",
+        "doi": "https://doi.org/10.3724/j.issn.1674-4969.20250126",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.3724/j.issn.1674-4969.20250126",
+        "pdf_url": "https://www.sciengine.com/doi/pdf/64620E22827447AC91257D6B281F97C2",
+        "source": {
+          "id": "https://openalex.org/S4210217246",
+          "display_name": "JOURNAL OF ENGINEERING STUDIES",
+          "issn_l": "1674-4969",
+          "issn": [
+            "1674-4969"
+          ],
+          "is_oa": true,
+          "is_in_doaj": true,
+          "is_core": false,
+          "listed_in": [
+            "doaj"
+          ],
+          "host_organization": "https://openalex.org/P4310319982",
+          "host_organization_name": "Science Press",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310319982"
+          ],
+          "host_organization_lineage_names": [
+            "Science Press"
+          ],
+          "type": "journal"
+        },
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Journal of Engineering Studies",
+        "raw_type": "journal-article"
+      },
+      "sustainable_development_goals": [
+        {
+          "id": "https://metadata.un.org/sdg/9",
+          "score": 0.7207000255584717,
+          "display_name": "Industry, innovation and infrastructure"
+        }
+      ],
+      "study_designs": [],
+      "awards": [],
+      "funders": [],
+      "has_content": {
+        "grobid_xml": true,
+        "pdf": true
+      },
+      "content_urls": {
+        "pdf": "https://content.openalex.org/works/W4415785685.pdf",
+        "grobid_xml": "https://content.openalex.org/works/W4415785685.grobid-xml"
+      },
+      "referenced_works_count": 0,
+      "referenced_works": [],
+      "related_works": [
+        "https://openalex.org/W7169840244",
+        "https://openalex.org/W4414542473",
+        "https://openalex.org/W4402202880",
+        "https://openalex.org/W4415785629",
+        "https://openalex.org/W4400693829",
+        "https://openalex.org/W2381068433",
+        "https://openalex.org/W2352854473",
+        "https://openalex.org/W564897646",
+        "https://openalex.org/W4412812070",
+        "https://openalex.org/W2351172730"
+      ],
+      "abstract_inverted_index": {
+        "在加快发展新质生产力、建设世界科技强国的时代背景下，工程师作为连接科学发现与产业应用的关键力量，发挥着不可替代的“桥梁”与“转化”作用。本文阐述了我国工程师队伍在推动科技创新和经济社会发展中的重大贡献，分析了当前队伍建设中存在的突出问题：工程师群体现状底数不清、社会认知度不高、职能定位模糊、职称与职业资格制度不完善且缺乏国际互认、工程教育存在“工科理科化”倾向以及继续教育体系不健全等。针对这些问题，文章提出应从国家战略高度加强工程师队伍建设，建议开展工程师群体理论研究与现状调研，厘清科学家、工程师与工匠的职能边界，改革工程师制度以实现国际接轨，优化工程教育和健全继续教育体系。尤为重要的是，应明确提出并大力弘扬“新时代工程师精神”，将其纳入国家科技强国精神谱系，增强工程师的职业认同感、荣誉感与使命感，激励广大工程师为实现社会主义现代化和突破关键核心技术作出更大贡献。": [
+          0
+        ]
+      },
+      "counts_by_year": [],
+      "updated_date": "2026-11-13T13:42:25.865203",
+      "created_date": "2025-11-03T00:00:00"
+    },
+    {
+      "id": "https://openalex.org/W4409114149",
+      "doi": "https://doi.org/10.4995/fortmed2025.2025.20226",
+      "title": "Military Engineers and Cadastral Officials: Two Ways of Mapping Fortified Spaces in the Eighteenth Century in Spain",
+      "display_name": "Military Engineers and Cadastral Officials: Two Ways of Mapping Fortified Spaces in the Eighteenth Century in Spain",
+      "relevance_score": 49.768154,
+      "publication_year": 2025,
+      "publication_date": "2025-04-03",
+      "ids": {
+        "openalex": "https://openalex.org/W4409114149",
+        "doi": "https://doi.org/10.4995/fortmed2025.2025.20226"
+      },
+      "language": "en",
+      "primary_location": {
+        "id": "doi:10.4995/fortmed2025.2025.20226",
+        "doi": "https://doi.org/10.4995/fortmed2025.2025.20226",
+        "is_oa": false,
+        "landing_page_url": "https://doi.org/10.4995/fortmed2025.2025.20226",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S7407088666",
+          "display_name": "International Conference on Fortifications of the Mediterranean Coast (FORTMED)",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "listed_in": [],
+          "host_organization": "https://openalex.org/P4310321228",
+          "host_organization_name": "Technical University of Valencia",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310321228"
+          ],
+          "host_organization_lineage_names": [
+            "Technical University of Valencia"
+          ],
+          "type": "conference"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "PROCEEDINGS of the International Conference on Fortifications of the Mediterranean Coast FORTMED 2025. Vol. 18",
+        "raw_type": "proceedings-article"
+      },
+      "parent_works": [],
+      "lineage": [
+        "https://openalex.org/W4409114149"
+      ],
+      "child_works_count": 0,
+      "type": "conference-paper",
+      "is_traditional": true,
+      "indexed_in": [
+        "crossref"
+      ],
+      "open_access": {
+        "is_oa": true,
+        "oa_status": "green",
+        "oa_url": "https://hdl.handle.net/10486/770680",
+        "any_repository_has_fulltext": true
+      },
+      "authorships": [
+        {
+          "author_position": "first",
+          "author": {
+            "id": "https://openalex.org/A5124686939",
+            "display_name": "Concepción Camarero Bullón",
+            "orcid": null,
+            "observed_orcids": []
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I63634437",
+              "display_name": "Universidad Autónoma de Madrid",
+              "ror": "https://ror.org/01cby8j38",
+              "country_code": "ES",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I63634437"
+              ]
+            }
+          ],
+          "countries": [
+            "ES"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "Concepción Camarero-Bullón",
+          "raw_affiliation_strings": [
+            "Universidad Autónoma de Madrid, Madrid"
+          ],
+          "raw_orcid": null,
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Universidad Autónoma de Madrid, Madrid",
+              "institution_ids": [
+                "https://openalex.org/I63634437"
+              ]
+            }
+          ]
+        },
+        {
+          "author_position": "middle",
+          "author": {
+            "id": "https://openalex.org/A5035709223",
+            "display_name": "Ana Luna San Eugenio",
+            "orcid": "https://orcid.org/0000-0002-1799-8407",
+            "observed_orcids": [
+              "https://orcid.org/0000-0002-1799-8407"
+            ]
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I63634437",
+              "display_name": "Universidad Autónoma de Madrid",
+              "ror": "https://ror.org/01cby8j38",
+              "country_code": "ES",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I63634437"
+              ]
+            }
+          ],
+          "countries": [
+            "ES"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "Ana Luna San Eugenio",
+          "raw_affiliation_strings": [
+            "Universidad Autónoma de Madrid, Madrid"
+          ],
+          "raw_orcid": null,
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Universidad Autónoma de Madrid, Madrid",
+              "institution_ids": [
+                "https://openalex.org/I63634437"
+              ]
+            }
+          ]
+        },
+        {
+          "author_position": "last",
+          "author": {
+            "id": "https://openalex.org/A5048783941",
+            "display_name": "Ángel Ignacio Aguilar Cuesta",
+            "orcid": "https://orcid.org/0000-0003-3240-0810",
+            "observed_orcids": [
+              "https://orcid.org/0000-0003-3240-0810"
+            ]
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I63634437",
+              "display_name": "Universidad Autónoma de Madrid",
+              "ror": "https://ror.org/01cby8j38",
+              "country_code": "ES",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I63634437"
+              ]
+            }
+          ],
+          "countries": [
+            "ES"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "Ángel Ignacio Aguilar-Cuesta",
+          "raw_affiliation_strings": [
+            "Universidad Autónoma de Madrid, Madrid"
+          ],
+          "raw_orcid": null,
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Universidad Autónoma de Madrid, Madrid",
+              "institution_ids": [
+                "https://openalex.org/I63634437"
+              ]
+            }
+          ]
+        }
+      ],
+      "institutions": [],
+      "countries_distinct_count": 1,
+      "institutions_distinct_count": 1,
+      "corresponding_author_ids": [],
+      "corresponding_institution_ids": [
+        "https://openalex.org/I63634437"
+      ],
+      "apc_list": null,
+      "apc_paid": null,
+      "fwci": 0.0,
+      "is_authors_truncated": false,
+      "has_fulltext": false,
+      "cited_by_count": 0,
+      "citation_normalized_percentile": {
+        "value": 0.0,
+        "is_in_top_1_percent": false,
+        "is_in_top_10_percent": false
+      },
+      "cited_by_percentile_year": null,
+      "biblio": {
+        "volume": null,
+        "issue": null,
+        "first_page": null,
+        "last_page": null
+      },
+      "is_retracted": false,
+      "is_paratext": false,
+      "is_xpac": false,
+      "primary_topic": {
+        "id": "https://openalex.org/T13854",
+        "display_name": "Historical Geography and Cartography",
+        "score": 0.9970999956130981,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3305",
+          "display_name": "Geography, Planning and Development"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/33",
+          "display_name": "Social Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      "topics": [
+        {
+          "id": "https://openalex.org/T13854",
+          "display_name": "Historical Geography and Cartography",
+          "score": 0.9970999956130981,
+          "subfield": {
+            "id": "https://openalex.org/subfields/3305",
+            "display_name": "Geography, Planning and Development"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/33",
+            "display_name": "Social Sciences"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/2",
+            "display_name": "Social Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T12641",
+          "display_name": "Historical and socio-economic studies of Spain and related regions",
+          "score": 0.0010000000474974513,
+          "subfield": {
+            "id": "https://openalex.org/subfields/2002",
+            "display_name": "Economics and Econometrics"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/20",
+            "display_name": "Economics, Econometrics and Finance"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/2",
+            "display_name": "Social Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T14191",
+          "display_name": "Historical Art and Architecture Studies",
+          "score": 0.00039999998989515007,
+          "subfield": {
+            "id": "https://openalex.org/subfields/1213",
+            "display_name": "Visual Arts and Performing Arts"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/12",
+            "display_name": "Arts and Humanities"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/2",
+            "display_name": "Social Sciences"
+          }
+        }
+      ],
+      "keywords": [
+        {
+          "id": "https://openalex.org/keywords/military-engineers",
+          "display_name": "military engineers",
+          "score": 0.8600000143051147
+        },
+        {
+          "id": "https://openalex.org/keywords/cartography",
+          "display_name": "cartography",
+          "score": 0.6539999842643738
+        },
+        {
+          "id": "https://openalex.org/keywords/crown-of-castile",
+          "display_name": "Crown of Castile",
+          "score": 0.9810000061988831
+        },
+        {
+          "id": "https://openalex.org/keywords/18th-century-cartography",
+          "display_name": "18th-century cartography",
+          "score": 0.8809999823570251
+        }
+      ],
+      "concepts": [
+        {
+          "id": "https://openalex.org/C134207755",
+          "wikidata": "https://www.wikidata.org/wiki/Q191072",
+          "display_name": "Cadastre",
+          "level": 2,
+          "score": 0.9688725471496582
+        },
+        {
+          "id": "https://openalex.org/C170154142",
+          "wikidata": "https://www.wikidata.org/wiki/Q150737",
+          "display_name": "Architectural engineering",
+          "level": 1,
+          "score": 0.39630499482154846
+        },
+        {
+          "id": "https://openalex.org/C91375879",
+          "wikidata": "https://www.wikidata.org/wiki/Q15473274",
+          "display_name": "Environmental planning",
+          "level": 1,
+          "score": 0.394680917263031
+        },
+        {
+          "id": "https://openalex.org/C17744445",
+          "wikidata": "https://www.wikidata.org/wiki/Q36442",
+          "display_name": "Political science",
+          "level": 0,
+          "score": 0.35776209831237793
+        },
+        {
+          "id": "https://openalex.org/C127413603",
+          "wikidata": "https://www.wikidata.org/wiki/Q11023",
+          "display_name": "Engineering",
+          "level": 0,
+          "score": 0.3544767200946808
+        },
+        {
+          "id": "https://openalex.org/C147176958",
+          "wikidata": "https://www.wikidata.org/wiki/Q77590",
+          "display_name": "Civil engineering",
+          "level": 1,
+          "score": 0.35169193148612976
+        },
+        {
+          "id": "https://openalex.org/C144133560",
+          "wikidata": "https://www.wikidata.org/wiki/Q4830453",
+          "display_name": "Business",
+          "level": 0,
+          "score": 0.3508949875831604
+        },
+        {
+          "id": "https://openalex.org/C205649164",
+          "wikidata": "https://www.wikidata.org/wiki/Q1071",
+          "display_name": "Geography",
+          "level": 0,
+          "score": 0.3167303800582886
+        },
+        {
+          "id": "https://openalex.org/C58640448",
+          "wikidata": "https://www.wikidata.org/wiki/Q42515",
+          "display_name": "Cartography",
+          "level": 1,
+          "score": 0.17827913165092468
+        }
+      ],
+      "mesh": [],
+      "locations_count": 2,
+      "locations": [
+        {
+          "id": "doi:10.4995/fortmed2025.2025.20226",
+          "doi": "https://doi.org/10.4995/fortmed2025.2025.20226",
+          "is_oa": false,
+          "landing_page_url": "https://doi.org/10.4995/fortmed2025.2025.20226",
+          "pdf_url": null,
+          "source": {
+            "id": "https://openalex.org/S7407088666",
+            "display_name": "International Conference on Fortifications of the Mediterranean Coast (FORTMED)",
+            "issn_l": null,
+            "issn": null,
+            "is_oa": false,
+            "is_in_doaj": false,
+            "is_core": false,
+            "listed_in": [],
+            "host_organization": "https://openalex.org/P4310321228",
+            "host_organization_name": "Technical University of Valencia",
+            "host_organization_lineage": [
+              "https://openalex.org/P4310321228"
+            ],
+            "host_organization_lineage_names": [
+              "Technical University of Valencia"
+            ],
+            "type": "conference"
+          },
+          "license": null,
+          "license_id": null,
+          "version": "publishedVersion",
+          "is_accepted": true,
+          "is_published": true,
+          "raw_source_name": "PROCEEDINGS of the International Conference on Fortifications of the Mediterranean Coast FORTMED 2025. Vol. 18",
+          "raw_type": "proceedings-article"
+        },
+        {
+          "id": "pmh:oai:repositorio.uam.es:10486/770680",
+          "doi": null,
+          "is_oa": true,
+          "landing_page_url": "https://hdl.handle.net/10486/770680",
+          "pdf_url": null,
+          "source": {
+            "id": "https://openalex.org/S4306400964",
+            "display_name": "Biblos-e Archivo (Universidad Autónoma de Madrid)",
+            "issn_l": null,
+            "issn": null,
+            "is_oa": false,
+            "is_in_doaj": false,
+            "is_core": false,
+            "listed_in": [],
+            "host_organization": "https://openalex.org/I63634437",
+            "host_organization_name": "Universidad Autónoma de Madrid",
+            "host_organization_lineage": [
+              "https://openalex.org/I63634437"
+            ],
+            "host_organization_lineage_names": [],
+            "type": "repository"
+          },
+          "license": "public-domain",
+          "license_id": "https://openalex.org/licenses/public-domain",
+          "version": "submittedVersion",
+          "is_accepted": false,
+          "is_published": false,
+          "raw_source_name": null,
+          "raw_type": "conference paper"
+        }
+      ],
+      "best_oa_location": {
+        "id": "pmh:oai:repositorio.uam.es:10486/770680",
+        "doi": null,
+        "is_oa": true,
+        "landing_page_url": "https://hdl.handle.net/10486/770680",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4306400964",
+          "display_name": "Biblos-e Archivo (Universidad Autónoma de Madrid)",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "listed_in": [],
+          "host_organization": "https://openalex.org/I63634437",
+          "host_organization_name": "Universidad Autónoma de Madrid",
+          "host_organization_lineage": [
+            "https://openalex.org/I63634437"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": "public-domain",
+        "license_id": "https://openalex.org/licenses/public-domain",
+        "version": "submittedVersion",
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": null,
+        "raw_type": "conference paper"
+      },
+      "sustainable_development_goals": [],
+      "study_designs": [],
+      "awards": [],
+      "funders": [],
+      "has_content": {
+        "grobid_xml": false,
+        "pdf": false
+      },
+      "content_urls": null,
+      "referenced_works_count": 0,
+      "referenced_works": [],
+      "related_works": [
+        "https://openalex.org/W2469344040",
+        "https://openalex.org/W1866671066",
+        "https://openalex.org/W7220228100",
+        "https://openalex.org/W2803704275",
+        "https://openalex.org/W4366252988",
+        "https://openalex.org/W4391454212",
+        "https://openalex.org/W4293178411",
+        "https://openalex.org/W2799994926",
+        "https://openalex.org/W1515424776",
+        "https://openalex.org/W4312137544"
+      ],
+      "abstract_inverted_index": {
+        "In": [
+          0
+        ],
+        "Spain": [
+          1
+        ],
+        "of": [
+          2,
+          7,
+          16,
+          32,
+          36,
+          48,
+          51,
+          74
+        ],
+        "the": [
+          3,
+          5,
+          27,
+          38,
+          42,
+          46,
+          49,
+          54,
+          77
+        ],
+        "1700s,": [
+          4
+        ],
+        "century": [
+          6
+        ],
+        "reforms,": [
+          8
+        ],
+        "cartography": [
+          9
+        ],
+        "proved": [
+          10
+        ],
+        "to": [
+          11,
+          59
+        ],
+        "be": [
+          12
+        ],
+        "a": [
+          13,
+          70
+        ],
+        "key": [
+          14
+        ],
+        "means": [
+          15
+        ],
+        "learning": [
+          17
+        ],
+        "about,": [
+          18
+        ],
+        "managing,": [
+          19
+        ],
+        "improving": [
+          20
+        ],
+        "and": [
+          21,
+          30,
+          41
+        ],
+        "defending": [
+          22
+        ],
+        "territories.": [
+          23
+        ],
+        "This": [
+          24
+        ],
+        "paper": [
+          25
+        ],
+        "examines": [
+          26
+        ],
+        "mapmaking": [
+          28
+        ],
+        "methods": [
+          29
+        ],
+        "results": [
+          31
+        ],
+        "two": [
+          33
+        ],
+        "different": [
+          34
+        ],
+        "groups": [
+          35
+        ],
+        "professionals:": [
+          37
+        ],
+        "military": [
+          39
+        ],
+        "engineers": [
+          40
+        ],
+        "officials": [
+          43
+        ],
+        "who": [
+          44
+        ],
+        "surveyed": [
+          45
+        ],
+        "territories": [
+          47
+        ],
+        "Crown": [
+          50
+        ],
+        "Castile": [
+          52
+        ],
+        "for": [
+          53
+        ],
+        "Ensenada": [
+          55
+        ],
+        "Cadastre": [
+          56
+        ],
+        "from": [
+          57
+        ],
+        "1749": [
+          58
+        ],
+        "1756.": [
+          60
+        ],
+        "The": [
+          61
+        ],
+        "first": [
+          62
+        ],
+        "group": [
+          63,
+          79
+        ],
+        "created": [
+          64
+        ],
+        "technical": [
+          65
+        ],
+        "maps": [
+          66,
+          82
+        ],
+        "in": [
+          67
+        ],
+        "accordance": [
+          68
+        ],
+        "with": [
+          69
+        ],
+        "highly": [
+          71
+        ],
+        "regulated": [
+          72
+        ],
+        "way": [
+          73
+        ],
+        "working,": [
+          75
+        ],
+        "while": [
+          76
+        ],
+        "second": [
+          78
+        ],
+        "produced": [
+          80
+        ],
+        "non-technical": [
+          81
+        ],
+        "which": [
+          83
+        ],
+        "have": [
+          84
+        ],
+        "sometimes": [
+          85
+        ],
+        "been": [
+          86
+        ],
+        "termed": [
+          87
+        ],
+        "‘popular’.": [
+          88
+        ]
+      },
+      "counts_by_year": [],
+      "updated_date": "2026-11-14T11:04:58.165337",
+      "created_date": "2025-04-03T00:00:00"
+    },
+    {
+      "id": "https://openalex.org/W4417315577",
+      "doi": "https://doi.org/10.23940/ijpe.25.12.p3.697704",
+      "title": "Fortifying Fake Review Detection using Feature Engineered Revised Star Rating and Explainable AI",
+      "display_name": "Fortifying Fake Review Detection using Feature Engineered Revised Star Rating and Explainable AI",
+      "relevance_score": 49.39246,
+      "publication_year": 2025,
+      "publication_date": "2025-01-01",
+      "ids": {
+        "openalex": "https://openalex.org/W4417315577",
+        "doi": "https://doi.org/10.23940/ijpe.25.12.p3.697704"
+      },
+      "language": "en",
+      "primary_location": {
+        "id": "doi:10.23940/ijpe.25.12.p3.697704",
+        "doi": "https://doi.org/10.23940/ijpe.25.12.p3.697704",
+        "is_oa": false,
+        "landing_page_url": "https://doi.org/10.23940/ijpe.25.12.p3.697704",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S2764685988",
+          "display_name": "International Journal of Performability Engineering",
+          "issn_l": "0973-1318",
+          "issn": [
+            "0973-1318"
+          ],
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": true,
+          "listed_in": [
+            "anvur-scientific",
+            "cwts-core",
+            "jufo-1",
+            "norway-1",
+            "poland-40",
+            "russia-white-list-3"
+          ],
+          "host_organization": "https://openalex.org/P4360969307",
+          "host_organization_name": "Totem Publisher",
+          "host_organization_lineage": [
+            "https://openalex.org/P4360969307"
+          ],
+          "host_organization_lineage_names": [
+            "Totem Publisher"
+          ],
+          "type": "journal"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "International Journal of Performability Engineering",
+        "raw_type": "journal-article"
+      },
+      "parent_works": [],
+      "lineage": [
+        "https://openalex.org/W4417315577"
+      ],
+      "child_works_count": 0,
+      "type": "article",
+      "is_traditional": true,
+      "indexed_in": [
+        "crossref"
+      ],
+      "open_access": {
+        "is_oa": false,
+        "oa_status": "closed",
+        "oa_url": null,
+        "any_repository_has_fulltext": false
+      },
+      "authorships": [
+        {
+          "author_position": "first",
+          "author": {
+            "id": null,
+            "display_name": "Chatterjee Ram",
+            "orcid": null,
+            "observed_orcids": []
+          },
+          "institutions": [],
+          "countries": [],
+          "is_corresponding": false,
+          "raw_author_name": "Chatterjee Ram",
+          "raw_affiliation_strings": [],
+          "raw_orcid": null,
+          "affiliations": []
+        },
+        {
+          "author_position": "middle",
+          "author": {
+            "id": "https://openalex.org/A5012218633",
+            "display_name": "Pandey Mrinal",
+            "orcid": null,
+            "observed_orcids": []
+          },
+          "institutions": [],
+          "countries": [],
+          "is_corresponding": false,
+          "raw_author_name": "Pandey Mrinal",
+          "raw_affiliation_strings": [],
+          "raw_orcid": null,
+          "affiliations": []
+        },
+        {
+          "author_position": "middle",
+          "author": {
+            "id": "https://openalex.org/A5042875105",
+            "display_name": "K Thakur Hardeo",
+            "orcid": null,
+            "observed_orcids": []
+          },
+          "institutions": [],
+          "countries": [],
+          "is_corresponding": false,
+          "raw_author_name": "Kumar Thakur Hardeo",
+          "raw_affiliation_strings": [],
+          "raw_orcid": null,
+          "affiliations": []
+        },
+        {
+          "author_position": "last",
+          "author": {
+            "id": null,
+            "display_name": "Gupta Anand",
+            "orcid": null,
+            "observed_orcids": []
+          },
+          "institutions": [],
+          "countries": [],
+          "is_corresponding": false,
+          "raw_author_name": "Gupta Anand",
+          "raw_affiliation_strings": [],
+          "raw_orcid": null,
+          "affiliations": []
+        }
+      ],
+      "institutions": [],
+      "countries_distinct_count": 0,
+      "institutions_distinct_count": 0,
+      "corresponding_author_ids": [],
+      "corresponding_institution_ids": [],
+      "apc_list": null,
+      "apc_paid": null,
+      "fwci": 0.0,
+      "is_authors_truncated": false,
+      "has_fulltext": false,
+      "cited_by_count": 0,
+      "citation_normalized_percentile": {
+        "value": 0.0,
+        "is_in_top_1_percent": false,
+        "is_in_top_10_percent": false
+      },
+      "cited_by_percentile_year": null,
+      "biblio": {
+        "volume": "21",
+        "issue": "12",
+        "first_page": "697",
+        "last_page": "697"
+      },
+      "is_retracted": false,
+      "is_paratext": false,
+      "is_xpac": false,
+      "primary_topic": {
+        "id": "https://openalex.org/T11644",
+        "display_name": "Spam and Phishing Detection",
+        "score": 0.9282000064849854,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1710",
+          "display_name": "Information Systems"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      "topics": [
+        {
+          "id": "https://openalex.org/T11644",
+          "display_name": "Spam and Phishing Detection",
+          "score": 0.9282000064849854,
+          "subfield": {
+            "id": "https://openalex.org/subfields/1710",
+            "display_name": "Information Systems"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/17",
+            "display_name": "Computer Science"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T11147",
+          "display_name": "Misinformation and Its Impacts",
+          "score": 0.046300001442432404,
+          "subfield": {
+            "id": "https://openalex.org/subfields/3312",
+            "display_name": "Sociology and Political Science"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/33",
+            "display_name": "Social Sciences"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/2",
+            "display_name": "Social Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T10664",
+          "display_name": "Sentiment Analysis and Opinion Mining",
+          "score": 0.007000000216066837,
+          "subfield": {
+            "id": "https://openalex.org/subfields/1702",
+            "display_name": "Artificial Intelligence"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/17",
+            "display_name": "Computer Science"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        }
+      ],
+      "keywords": [
+        {
+          "id": "https://openalex.org/keywords/fake-review-detection",
+          "display_name": "fake review detection",
+          "score": 0.9980000257492065
+        },
+        {
+          "id": "https://openalex.org/keywords/star-ratings",
+          "display_name": "star ratings",
+          "score": 0.6230000257492065
+        },
+        {
+          "id": "https://openalex.org/keywords/feature-engineering",
+          "display_name": "feature engineering",
+          "score": 0.953000009059906
+        },
+        {
+          "id": "https://openalex.org/keywords/explainable-ai",
+          "display_name": "explainable AI",
+          "score": 0.9440000057220459
+        },
+        {
+          "id": "https://openalex.org/keywords/online-reviews",
+          "display_name": "online reviews",
+          "score": 0.4880000054836273
+        },
+        {
+          "id": "https://openalex.org/keywords/text-classification",
+          "display_name": "text classification",
+          "score": 0.3720000088214874
+        }
+      ],
+      "concepts": [
+        {
+          "id": "https://openalex.org/C154945302",
+          "wikidata": "https://www.wikidata.org/wiki/Q11660",
+          "display_name": "Artificial intelligence",
+          "level": 1,
+          "score": 0.682699978351593
+        },
+        {
+          "id": "https://openalex.org/C41008148",
+          "wikidata": "https://www.wikidata.org/wiki/Q21198",
+          "display_name": "Computer science",
+          "level": 0,
+          "score": 0.6791999936103821
+        },
+        {
+          "id": "https://openalex.org/C2780897414",
+          "wikidata": "https://www.wikidata.org/wiki/Q7600592",
+          "display_name": "Star (game theory)",
+          "level": 2,
+          "score": 0.6754000186920166
+        },
+        {
+          "id": "https://openalex.org/C2776401178",
+          "wikidata": "https://www.wikidata.org/wiki/Q12050496",
+          "display_name": "Feature (linguistics)",
+          "level": 2,
+          "score": 0.6179999709129333
+        },
+        {
+          "id": "https://openalex.org/C153180895",
+          "wikidata": "https://www.wikidata.org/wiki/Q7148389",
+          "display_name": "Pattern recognition (psychology)",
+          "level": 2,
+          "score": 0.4332999885082245
+        },
+        {
+          "id": "https://openalex.org/C2778827112",
+          "wikidata": "https://www.wikidata.org/wiki/Q22245680",
+          "display_name": "Feature engineering",
+          "level": 3,
+          "score": 0.3109000027179718
+        },
+        {
+          "id": "https://openalex.org/C52622490",
+          "wikidata": "https://www.wikidata.org/wiki/Q1026626",
+          "display_name": "Feature extraction",
+          "level": 2,
+          "score": 0.30709999799728394
+        },
+        {
+          "id": "https://openalex.org/C204321447",
+          "wikidata": "https://www.wikidata.org/wiki/Q30642",
+          "display_name": "Natural language processing",
+          "level": 1,
+          "score": 0.2865999937057495
+        },
+        {
+          "id": "https://openalex.org/C119857082",
+          "wikidata": "https://www.wikidata.org/wiki/Q2539",
+          "display_name": "Machine learning",
+          "level": 1,
+          "score": 0.2547000050544739
+        },
+        {
+          "id": "https://openalex.org/C31972630",
+          "wikidata": "https://www.wikidata.org/wiki/Q844240",
+          "display_name": "Computer vision",
+          "level": 1,
+          "score": 0.21930000185966492
+        }
+      ],
+      "mesh": [],
+      "locations_count": 1,
+      "locations": [
+        {
+          "id": "doi:10.23940/ijpe.25.12.p3.697704",
+          "doi": "https://doi.org/10.23940/ijpe.25.12.p3.697704",
+          "is_oa": false,
+          "landing_page_url": "https://doi.org/10.23940/ijpe.25.12.p3.697704",
+          "pdf_url": null,
+          "source": {
+            "id": "https://openalex.org/S2764685988",
+            "display_name": "International Journal of Performability Engineering",
+            "issn_l": "0973-1318",
+            "issn": [
+              "0973-1318"
+            ],
+            "is_oa": false,
+            "is_in_doaj": false,
+            "is_core": true,
+            "listed_in": [
+              "anvur-scientific",
+              "cwts-core",
+              "jufo-1",
+              "norway-1",
+              "poland-40",
+              "russia-white-list-3"
+            ],
+            "host_organization": "https://openalex.org/P4360969307",
+            "host_organization_name": "Totem Publisher",
+            "host_organization_lineage": [
+              "https://openalex.org/P4360969307"
+            ],
+            "host_organization_lineage_names": [
+              "Totem Publisher"
+            ],
+            "type": "journal"
+          },
+          "license": null,
+          "license_id": null,
+          "version": "publishedVersion",
+          "is_accepted": true,
+          "is_published": true,
+          "raw_source_name": "International Journal of Performability Engineering",
+          "raw_type": "journal-article"
+        }
+      ],
+      "best_oa_location": null,
+      "sustainable_development_goals": [],
+      "study_designs": [],
+      "awards": [],
+      "funders": [],
+      "has_content": {
+        "grobid_xml": false,
+        "pdf": false
+      },
+      "content_urls": null,
+      "referenced_works_count": 0,
+      "referenced_works": [],
+      "related_works": [
+        "https://openalex.org/W7165194376",
+        "https://openalex.org/W7206212860",
+        "https://openalex.org/W4405824844",
+        "https://openalex.org/W2940831064",
+        "https://openalex.org/W7160716159",
+        "https://openalex.org/W7165665487",
+        "https://openalex.org/W3007242570",
+        "https://openalex.org/W2954534352",
+        "https://openalex.org/W7167085611",
+        "https://openalex.org/W2991628744"
+      ],
+      "abstract_inverted_index": null,
+      "counts_by_year": [],
+      "updated_date": "2026-09-29T14:09:16.559479",
+      "created_date": "2025-12-15T00:00:00"
+    }
+  ],
+  "group_by": []
+}

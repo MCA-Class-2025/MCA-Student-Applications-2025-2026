@@ -1,0 +1,4113 @@
+{
+  "meta": {
+    "notice": "No API key, so this request shares one free daily budget ($0.10) with everyone on your network's IP address. Get a free key with its own $1/day at https://openalex.org/settings/api and add api_key=YOUR_KEY to your requests. An AI agent can get one for its user in one call: POST https://api.openalex.org/api-keys with {\"email\": \"<your user's email>\"}; we email them a link, and the key works once they click it. Docs for agents: https://help.openalex.org/llms.txt",
+    "count": 30928,
+    "db_response_time_ms": 130,
+    "page": 1,
+    "per_page": 5,
+    "groups_count": null,
+    "x_query": {
+      "oql": "get works with (UI USER INTERFACE DESIGNER) in the title, abstract, or full text",
+      "x_new_oql": "get works with (UI USER INTERFACE DESIGNER) in the title, abstract, or full text",
+      "oqo": {
+        "get_rows": "works",
+        "filter_rows": [
+          {
+            "column_id": "fulltext.search",
+            "value": "UI (USER INTERFACE) DESIGNER",
+            "operator": "has"
+          }
+        ]
+      },
+      "url": "/works?filter=fulltext.search:UI %28USER INTERFACE%29 DESIGNER&per_page=5",
+      "order": "best matches first",
+      "order_default": true
+    },
+    "cost_usd": 0.001
+  },
+  "results": [
+    {
+      "id": "https://openalex.org/W2571732743",
+      "doi": "https://doi.org/10.1145/3012709.3012727",
+      "title": "The S3D-UI designer: creating user interface prototypes for 3D displays",
+      "display_name": "The S3D-UI designer: creating user interface prototypes for 3D displays",
+      "relevance_score": 81.72014,
+      "publication_year": 2016,
+      "publication_date": "2016-12-12",
+      "ids": {
+        "openalex": "https://openalex.org/W2571732743",
+        "doi": "https://doi.org/10.1145/3012709.3012727",
+        "mag": "2571732743"
+      },
+      "language": "en",
+      "primary_location": {
+        "id": "doi:10.1145/3012709.3012727",
+        "doi": "https://doi.org/10.1145/3012709.3012727",
+        "is_oa": false,
+        "landing_page_url": "https://doi.org/10.1145/3012709.3012727",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S7407085902",
+          "display_name": "International Conference on Mobile and Ubiquitous Multimedia (MUM)",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "listed_in": [],
+          "host_organization": "https://openalex.org/P4310319798",
+          "host_organization_name": "Association for Computing Machinery",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310319798"
+          ],
+          "host_organization_lineage_names": [
+            "Association for Computing Machinery"
+          ],
+          "type": "conference"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Proceedings of the 15th International Conference on Mobile and Ubiquitous Multimedia",
+        "raw_type": "proceedings-article"
+      },
+      "parent_works": [],
+      "lineage": [
+        "https://openalex.org/W2571732743"
+      ],
+      "child_works_count": 0,
+      "type": "conference-paper",
+      "is_traditional": true,
+      "indexed_in": [
+        "crossref"
+      ],
+      "open_access": {
+        "is_oa": false,
+        "oa_status": "closed",
+        "oa_url": null,
+        "any_repository_has_fulltext": false
+      },
+      "authorships": [
+        {
+          "author_position": "first",
+          "author": {
+            "id": "https://openalex.org/A5062164193",
+            "display_name": "Nora Broy",
+            "orcid": null,
+            "observed_orcids": []
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I1283382300",
+              "display_name": "BMW (Germany)",
+              "ror": "https://ror.org/05vs9tj88",
+              "country_code": "DE",
+              "type": "company",
+              "lineage": [
+                "https://openalex.org/I1283382300",
+                "https://openalex.org/I4210156768"
+              ]
+            },
+            {
+              "id": "https://openalex.org/I4210156768",
+              "display_name": "BMW Group (Germany)",
+              "ror": "https://ror.org/044kkbh92",
+              "country_code": "DE",
+              "type": "company",
+              "lineage": [
+                "https://openalex.org/I4210156768"
+              ]
+            },
+            {
+              "id": "https://openalex.org/I8204097",
+              "display_name": "Ludwig-Maximilians-Universität München",
+              "ror": "https://ror.org/05591te55",
+              "country_code": "DE",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I8204097"
+              ]
+            }
+          ],
+          "countries": [
+            "DE"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "Nora Broy",
+          "raw_affiliation_strings": [
+            "LMU Munich, Munich, Germany and BMW Group, Munich, Germany"
+          ],
+          "raw_orcid": null,
+          "affiliations": [
+            {
+              "raw_affiliation_string": "LMU Munich, Munich, Germany and BMW Group, Munich, Germany",
+              "institution_ids": [
+                "https://openalex.org/I1283382300",
+                "https://openalex.org/I4210156768",
+                "https://openalex.org/I8204097"
+              ]
+            }
+          ]
+        },
+        {
+          "author_position": "middle",
+          "author": {
+            "id": "https://openalex.org/A5063707098",
+            "display_name": "Verena Lindner",
+            "orcid": null,
+            "observed_orcids": []
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I8204097",
+              "display_name": "Ludwig-Maximilians-Universität München",
+              "ror": "https://ror.org/05591te55",
+              "country_code": "DE",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I8204097"
+              ]
+            }
+          ],
+          "countries": [
+            "DE"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "Verena Lindner",
+          "raw_affiliation_strings": [
+            "LMU Munich, Munich, Germany"
+          ],
+          "raw_orcid": null,
+          "affiliations": [
+            {
+              "raw_affiliation_string": "LMU Munich, Munich, Germany",
+              "institution_ids": [
+                "https://openalex.org/I8204097"
+              ]
+            }
+          ]
+        },
+        {
+          "author_position": "last",
+          "author": {
+            "id": "https://openalex.org/A5054117094",
+            "display_name": "Florian Alt",
+            "orcid": "https://orcid.org/0000-0001-8354-2195",
+            "observed_orcids": [
+              "https://orcid.org/0000-0001-8354-2195"
+            ]
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I8204097",
+              "display_name": "Ludwig-Maximilians-Universität München",
+              "ror": "https://ror.org/05591te55",
+              "country_code": "DE",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I8204097"
+              ]
+            }
+          ],
+          "countries": [
+            "DE"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "Florian Alt",
+          "raw_affiliation_strings": [
+            "LMU Munich, Munich, Germany"
+          ],
+          "raw_orcid": null,
+          "affiliations": [
+            {
+              "raw_affiliation_string": "LMU Munich, Munich, Germany",
+              "institution_ids": [
+                "https://openalex.org/I8204097"
+              ]
+            }
+          ]
+        }
+      ],
+      "institutions": [],
+      "countries_distinct_count": 1,
+      "institutions_distinct_count": 3,
+      "corresponding_author_ids": [],
+      "corresponding_institution_ids": [],
+      "apc_list": null,
+      "apc_paid": null,
+      "fwci": 0.6401,
+      "is_authors_truncated": false,
+      "has_fulltext": false,
+      "cited_by_count": 6,
+      "citation_normalized_percentile": {
+        "value": 0.60248877,
+        "is_in_top_1_percent": false,
+        "is_in_top_10_percent": false
+      },
+      "cited_by_percentile_year": {
+        "min": 88,
+        "max": 95
+      },
+      "biblio": {
+        "volume": null,
+        "issue": null,
+        "first_page": "49",
+        "last_page": "55"
+      },
+      "is_retracted": false,
+      "is_paratext": false,
+      "is_xpac": false,
+      "primary_topic": {
+        "id": "https://openalex.org/T10789",
+        "display_name": "Interactive and Immersive Displays",
+        "score": 0.8931000232696533,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1709",
+          "display_name": "Human-Computer Interaction"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      "topics": [
+        {
+          "id": "https://openalex.org/T10789",
+          "display_name": "Interactive and Immersive Displays",
+          "score": 0.8931000232696533,
+          "subfield": {
+            "id": "https://openalex.org/subfields/1709",
+            "display_name": "Human-Computer Interaction"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/17",
+            "display_name": "Computer Science"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T10470",
+          "display_name": "Usability and User Interface Design",
+          "score": 0.050599999725818634,
+          "subfield": {
+            "id": "https://openalex.org/subfields/1709",
+            "display_name": "Human-Computer Interaction"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/17",
+            "display_name": "Computer Science"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T10799",
+          "display_name": "Data Visualization and Analytics",
+          "score": 0.025699999183416367,
+          "subfield": {
+            "id": "https://openalex.org/subfields/1704",
+            "display_name": "Computer Graphics and Computer-Aided Design"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/17",
+            "display_name": "Computer Science"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        }
+      ],
+      "keywords": [
+        {
+          "id": "https://openalex.org/keywords/stereoscopic-display",
+          "display_name": "stereoscopic display",
+          "score": 0.9369999766349792
+        },
+        {
+          "id": "https://openalex.org/keywords/3d-user-interfaces",
+          "display_name": "3D user interfaces",
+          "score": 0.9639999866485596
+        },
+        {
+          "id": "https://openalex.org/keywords/non-expert-users",
+          "display_name": "non-expert users",
+          "score": 0.7480000257492065
+        },
+        {
+          "id": "https://openalex.org/keywords/usability-evaluation",
+          "display_name": "usability evaluation",
+          "score": 0.703000009059906
+        },
+        {
+          "id": "https://openalex.org/keywords/3d-rendering",
+          "display_name": "3D rendering",
+          "score": 0.6019999980926514
+        },
+        {
+          "id": "https://openalex.org/keywords/user-interface-design-tools",
+          "display_name": "user interface design tools",
+          "score": 0.4869999885559082
+        }
+      ],
+      "concepts": [
+        {
+          "id": "https://openalex.org/C41008148",
+          "wikidata": "https://www.wikidata.org/wiki/Q21198",
+          "display_name": "Computer science",
+          "level": 0,
+          "score": 0.7912113666534424
+        },
+        {
+          "id": "https://openalex.org/C2779231336",
+          "wikidata": "https://www.wikidata.org/wiki/Q7534724",
+          "display_name": "Sketch",
+          "level": 2,
+          "score": 0.7834323644638062
+        },
+        {
+          "id": "https://openalex.org/C126057942",
+          "wikidata": "https://www.wikidata.org/wiki/Q35158",
+          "display_name": "Stereoscopy",
+          "level": 2,
+          "score": 0.7240316867828369
+        },
+        {
+          "id": "https://openalex.org/C107457646",
+          "wikidata": "https://www.wikidata.org/wiki/Q207434",
+          "display_name": "Human–computer interaction",
+          "level": 1,
+          "score": 0.5942659378051758
+        },
+        {
+          "id": "https://openalex.org/C49774154",
+          "wikidata": "https://www.wikidata.org/wiki/Q131765",
+          "display_name": "Multimedia",
+          "level": 1,
+          "score": 0.5085564851760864
+        },
+        {
+          "id": "https://openalex.org/C121684516",
+          "wikidata": "https://www.wikidata.org/wiki/Q7600677",
+          "display_name": "Computer graphics (images)",
+          "level": 1,
+          "score": 0.4452993869781494
+        },
+        {
+          "id": "https://openalex.org/C2780395129",
+          "wikidata": "https://www.wikidata.org/wiki/Q1128971",
+          "display_name": "Rapid prototyping",
+          "level": 2,
+          "score": 0.43182939291000366
+        },
+        {
+          "id": "https://openalex.org/C154945302",
+          "wikidata": "https://www.wikidata.org/wiki/Q11660",
+          "display_name": "Artificial intelligence",
+          "level": 1,
+          "score": 0.14703091979026794
+        },
+        {
+          "id": "https://openalex.org/C127413603",
+          "wikidata": "https://www.wikidata.org/wiki/Q11023",
+          "display_name": "Engineering",
+          "level": 0,
+          "score": 0.10551798343658447
+        },
+        {
+          "id": "https://openalex.org/C78519656",
+          "wikidata": "https://www.wikidata.org/wiki/Q101333",
+          "display_name": "Mechanical engineering",
+          "level": 1,
+          "score": 0.0
+        },
+        {
+          "id": "https://openalex.org/C11413529",
+          "wikidata": "https://www.wikidata.org/wiki/Q8366",
+          "display_name": "Algorithm",
+          "level": 1,
+          "score": 0.0
+        }
+      ],
+      "mesh": [],
+      "locations_count": 1,
+      "locations": [
+        {
+          "id": "doi:10.1145/3012709.3012727",
+          "doi": "https://doi.org/10.1145/3012709.3012727",
+          "is_oa": false,
+          "landing_page_url": "https://doi.org/10.1145/3012709.3012727",
+          "pdf_url": null,
+          "source": {
+            "id": "https://openalex.org/S7407085902",
+            "display_name": "International Conference on Mobile and Ubiquitous Multimedia (MUM)",
+            "issn_l": null,
+            "issn": null,
+            "is_oa": false,
+            "is_in_doaj": false,
+            "is_core": false,
+            "listed_in": [],
+            "host_organization": "https://openalex.org/P4310319798",
+            "host_organization_name": "Association for Computing Machinery",
+            "host_organization_lineage": [
+              "https://openalex.org/P4310319798"
+            ],
+            "host_organization_lineage_names": [
+              "Association for Computing Machinery"
+            ],
+            "type": "conference"
+          },
+          "license": null,
+          "license_id": null,
+          "version": "publishedVersion",
+          "is_accepted": true,
+          "is_published": true,
+          "raw_source_name": "Proceedings of the 15th International Conference on Mobile and Ubiquitous Multimedia",
+          "raw_type": "proceedings-article"
+        }
+      ],
+      "best_oa_location": null,
+      "sustainable_development_goals": [],
+      "study_designs": [],
+      "awards": [],
+      "funders": [],
+      "has_content": {
+        "pdf": false,
+        "grobid_xml": false
+      },
+      "content_urls": null,
+      "referenced_works_count": 21,
+      "referenced_works": [
+        "https://openalex.org/W1506703365",
+        "https://openalex.org/W1593250421",
+        "https://openalex.org/W1834211864",
+        "https://openalex.org/W1926950781",
+        "https://openalex.org/W1993733042",
+        "https://openalex.org/W2002768443",
+        "https://openalex.org/W2018938123",
+        "https://openalex.org/W2020879429",
+        "https://openalex.org/W2030390645",
+        "https://openalex.org/W2032276364",
+        "https://openalex.org/W2032765388",
+        "https://openalex.org/W2043657629",
+        "https://openalex.org/W2071112597",
+        "https://openalex.org/W2077961681",
+        "https://openalex.org/W2095299022",
+        "https://openalex.org/W2097720650",
+        "https://openalex.org/W2119035727",
+        "https://openalex.org/W2140574023",
+        "https://openalex.org/W2145247429",
+        "https://openalex.org/W2153052098",
+        "https://openalex.org/W2155142479"
+      ],
+      "related_works": [
+        "https://openalex.org/W2032276364",
+        "https://openalex.org/W7099978550",
+        "https://openalex.org/W1926950781",
+        "https://openalex.org/W2059705080",
+        "https://openalex.org/W2031303150",
+        "https://openalex.org/W7097680996",
+        "https://openalex.org/W2739975910",
+        "https://openalex.org/W2182877631",
+        "https://openalex.org/W2182796308",
+        "https://openalex.org/W1989711916"
+      ],
+      "abstract_inverted_index": {
+        "In": [
+          0,
+          92
+        ],
+        "this": [
+          1
+        ],
+        "paper,": [
+          2
+        ],
+        "we": [
+          3,
+          99
+        ],
+        "present": [
+          4,
+          100,
+          136
+        ],
+        "the": [
+          5,
+          66,
+          69,
+          125,
+          128
+        ],
+        "S3D-UI": [
+          6
+        ],
+        "Designer": [
+          7
+        ],
+        "---": [
+          8
+        ],
+        "a": [
+          9,
+          58,
+          101,
+          111,
+          119,
+          133
+        ],
+        "tool": [
+          10,
+          102,
+          129
+        ],
+        "to": [
+          11,
+          94,
+          106
+        ],
+        "create": [
+          12
+        ],
+        "prototypes": [
+          13
+        ],
+        "for": [
+          14,
+          65
+        ],
+        "3D": [
+          15,
+          90,
+          96,
+          120
+        ],
+        "displays.": [
+          16
+        ],
+        "Stereoscopic": [
+          17
+        ],
+        "(S3D)": [
+          18
+        ],
+        "displays": [
+          19,
+          30
+        ],
+        "are": [
+          20
+        ],
+        "quickly": [
+          21,
+          107
+        ],
+        "becoming": [
+          22
+        ],
+        "popular": [
+          23
+        ],
+        "beyond": [
+          24
+        ],
+        "cinemas": [
+          25
+        ],
+        "and": [
+          26,
+          41,
+          54,
+          87,
+          108,
+          114,
+          135
+        ],
+        "home": [
+          27
+        ],
+        "entertainments.": [
+          28
+        ],
+        "S3D": [
+          29,
+          112
+        ],
+        "can": [
+          31,
+          52
+        ],
+        "today": [
+          32
+        ],
+        "already": [
+          33
+        ],
+        "be": [
+          34,
+          85
+        ],
+        "found": [
+          35
+        ],
+        "in": [
+          36,
+          57,
+          89
+        ],
+        "mobile": [
+          37
+        ],
+        "phones,": [
+          38
+        ],
+        "public": [
+          39
+        ],
+        "displays,": [
+          40
+        ],
+        "car": [
+          42
+        ],
+        "dashboards.": [
+          43
+        ],
+        "A": [
+          44
+        ],
+        "benefit": [
+          45
+        ],
+        "of": [
+          46,
+          127,
+          132
+        ],
+        "such": [
+          47
+        ],
+        "UIs": [
+          48,
+          74
+        ],
+        "is": [
+          49,
+          75
+        ],
+        "that": [
+          50,
+          60
+        ],
+        "they": [
+          51
+        ],
+        "group": [
+          53
+        ],
+        "structure": [
+          55
+        ],
+        "information": [
+          56
+        ],
+        "way": [
+          59
+        ],
+        "makes": [
+          61
+        ],
+        "them": [
+          62
+        ],
+        "easily": [
+          63,
+          84,
+          109
+        ],
+        "perceivable": [
+          64
+        ],
+        "user.": [
+          67
+        ],
+        "At": [
+          68
+        ],
+        "same": [
+          70
+        ],
+        "time,": [
+          71
+        ],
+        "prototyping": [
+          72
+        ],
+        "these": [
+          73
+        ],
+        "challenging,": [
+          76
+        ],
+        "as": [
+          77
+        ],
+        "with": [
+          78,
+          140
+        ],
+        "traditional": [
+          79
+        ],
+        "techniques,": [
+          80
+        ],
+        "UI": [
+          81,
+          113
+        ],
+        "elements": [
+          82
+        ],
+        "cannot": [
+          83
+        ],
+        "rendered": [
+          86
+        ],
+        "positioned": [
+          88
+        ],
+        "space.": [
+          91
+        ],
+        "contrast": [
+          93
+        ],
+        "professional": [
+          95
+        ],
+        "authoring": [
+          97
+        ],
+        "tools,": [
+          98
+        ],
+        "targeted": [
+          103
+        ],
+        "towards": [
+          104
+        ],
+        "non-experts": [
+          105
+        ],
+        "sketch": [
+          110
+        ],
+        "instantly": [
+          115
+        ],
+        "render": [
+          116
+        ],
+        "it": [
+          117
+        ],
+        "on": [
+          118,
+          124
+        ],
+        "display.": [
+          121
+        ],
+        "We": [
+          122
+        ],
+        "report": [
+          123
+        ],
+        "design": [
+          126
+        ],
+        "by": [
+          130
+        ],
+        "means": [
+          131
+        ],
+        "workshop": [
+          134
+        ],
+        "an": [
+          137
+        ],
+        "evaluation": [
+          138
+        ],
+        "study": [
+          139
+        ],
+        "26": [
+          141
+        ],
+        "participants": [
+          142
+        ],
+        "assessing": [
+          143
+        ],
+        "its": [
+          144
+        ],
+        "usabilty.": [
+          145
+        ]
+      },
+      "counts_by_year": [
+        {
+          "year": 2022,
+          "cited_by_count": 1
+        },
+        {
+          "year": 2020,
+          "cited_by_count": 2
+        },
+        {
+          "year": 2019,
+          "cited_by_count": 2
+        },
+        {
+          "year": 2017,
+          "cited_by_count": 1
+        }
+      ],
+      "updated_date": "2026-11-14T11:04:58.165337",
+      "created_date": "2017-01-26T00:00:00"
+    },
+    {
+      "id": "https://openalex.org/W4405707036",
+      "doi": "https://doi.org/10.1007/978-3-031-77566-6_5",
+      "title": "Exploring How the Intersection of Machine Learning with Variable Fonts Empowers UI/UX Designers to Create Intelligent and Personalized User Interfaces",
+      "display_name": "Exploring How the Intersection of Machine Learning with Variable Fonts Empowers UI/UX Designers to Create Intelligent and Personalized User Interfaces",
+      "relevance_score": 69.00944,
+      "publication_year": 2024,
+      "publication_date": "2024-12-23",
+      "ids": {
+        "openalex": "https://openalex.org/W4405707036",
+        "doi": "https://doi.org/10.1007/978-3-031-77566-6_5"
+      },
+      "language": "en",
+      "primary_location": {
+        "id": "doi:10.1007/978-3-031-77566-6_5",
+        "doi": "https://doi.org/10.1007/978-3-031-77566-6_5",
+        "is_oa": false,
+        "landing_page_url": "https://doi.org/10.1007/978-3-031-77566-6_5",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4210211810",
+          "display_name": "Springer series in design and innovation",
+          "issn_l": "2661-8184",
+          "issn": [
+            "2661-8184",
+            "2661-8192"
+          ],
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "listed_in": [
+            "norway-1"
+          ],
+          "host_organization": "https://openalex.org/P4310319972",
+          "host_organization_name": "Springer International Publishing",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310319972",
+            "https://openalex.org/P4310319965"
+          ],
+          "host_organization_lineage_names": [
+            "Springer International Publishing",
+            "Springer Nature"
+          ],
+          "type": "book series"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Springer Series in Design and Innovation",
+        "raw_type": "book-chapter"
+      },
+      "parent_works": [
+        {
+          "id": "https://openalex.org/W4405707112",
+          "display_name": "Advances in Design and Digital Communication V: Proceedings of the 8th International Conference on Design and Digital Communication, Digicom 2024, November 7–9, 2024, Barcelos, Portugal",
+          "relationship": "volume"
+        }
+      ],
+      "lineage": [
+        "https://openalex.org/W4405707036",
+        "https://openalex.org/W4405707112"
+      ],
+      "child_works_count": 0,
+      "type": "conference-paper",
+      "is_traditional": true,
+      "indexed_in": [
+        "crossref"
+      ],
+      "open_access": {
+        "is_oa": false,
+        "oa_status": "closed",
+        "oa_url": null,
+        "any_repository_has_fulltext": false
+      },
+      "authorships": [
+        {
+          "author_position": "first",
+          "author": {
+            "id": "https://openalex.org/A5115612740",
+            "display_name": "Kushtrim Hamzaj",
+            "orcid": "https://orcid.org/0009-0004-5702-0157",
+            "observed_orcids": [
+              "https://orcid.org/0009-0004-5702-0157"
+            ]
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I51441396",
+              "display_name": "Bauhaus-Universität Weimar",
+              "ror": "https://ror.org/033bb5z47",
+              "country_code": "DE",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I51441396"
+              ]
+            }
+          ],
+          "countries": [
+            "DE"
+          ],
+          "is_corresponding": true,
+          "raw_author_name": "Kushtrim Hamzaj",
+          "raw_affiliation_strings": [
+            "Bauhaus University, Geschwister-Scholl-Straße 8/15, 99423, Weimar, Germany"
+          ],
+          "raw_orcid": "https://orcid.org/0009-0004-5702-0157",
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Bauhaus University, Geschwister-Scholl-Straße 8/15, 99423, Weimar, Germany",
+              "institution_ids": [
+                "https://openalex.org/I51441396"
+              ]
+            }
+          ]
+        }
+      ],
+      "institutions": [],
+      "countries_distinct_count": 1,
+      "institutions_distinct_count": 1,
+      "corresponding_author_ids": [
+        "https://openalex.org/A5115612740"
+      ],
+      "corresponding_institution_ids": [
+        "https://openalex.org/I51441396"
+      ],
+      "apc_list": null,
+      "apc_paid": null,
+      "fwci": 0.3897,
+      "is_authors_truncated": false,
+      "has_fulltext": false,
+      "cited_by_count": 2,
+      "citation_normalized_percentile": {
+        "value": 0.50133571,
+        "is_in_top_1_percent": false,
+        "is_in_top_10_percent": false
+      },
+      "cited_by_percentile_year": {
+        "min": 92,
+        "max": 95
+      },
+      "biblio": {
+        "volume": null,
+        "issue": null,
+        "first_page": "55",
+        "last_page": "68"
+      },
+      "is_retracted": false,
+      "is_paratext": false,
+      "is_xpac": false,
+      "primary_topic": {
+        "id": "https://openalex.org/T10470",
+        "display_name": "Usability and User Interface Design",
+        "score": 0.5346999764442444,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1709",
+          "display_name": "Human-Computer Interaction"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      "topics": [
+        {
+          "id": "https://openalex.org/T10470",
+          "display_name": "Usability and User Interface Design",
+          "score": 0.5346999764442444,
+          "subfield": {
+            "id": "https://openalex.org/subfields/1709",
+            "display_name": "Human-Computer Interaction"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/17",
+            "display_name": "Computer Science"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T13757",
+          "display_name": "Graphic Design and Typography",
+          "score": 0.2502000033855438,
+          "subfield": {
+            "id": "https://openalex.org/subfields/1213",
+            "display_name": "Visual Arts and Performing Arts"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/12",
+            "display_name": "Arts and Humanities"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/2",
+            "display_name": "Social Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T10803",
+          "display_name": "Innovative Human-Technology Interaction",
+          "score": 0.11020000278949738,
+          "subfield": {
+            "id": "https://openalex.org/subfields/1709",
+            "display_name": "Human-Computer Interaction"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/17",
+            "display_name": "Computer Science"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        }
+      ],
+      "keywords": [
+        {
+          "id": "https://openalex.org/keywords/variable-fonts",
+          "display_name": "variable fonts",
+          "score": 0.9929999709129333
+        },
+        {
+          "id": "https://openalex.org/keywords/machine-learning",
+          "display_name": "machine learning",
+          "score": 0.890999972820282
+        },
+        {
+          "id": "https://openalex.org/keywords/ui-ux-design",
+          "display_name": "UI/UX design",
+          "score": 0.890999972820282
+        },
+        {
+          "id": "https://openalex.org/keywords/user-interface-personalization",
+          "display_name": "personalized interfaces",
+          "score": 0.8920000195503235
+        },
+        {
+          "id": "https://openalex.org/keywords/responsive-web-design",
+          "display_name": "responsive web design",
+          "score": 0.7269999980926514
+        },
+        {
+          "id": "https://openalex.org/keywords/adaptive-layout",
+          "display_name": "adaptive layout",
+          "score": 0.6470000147819519
+        },
+        {
+          "id": "https://openalex.org/keywords/context-aware-design",
+          "display_name": "context-sensitive design",
+          "score": 0.5580000281333923
+        },
+        {
+          "id": "https://openalex.org/keywords/conversation",
+          "display_name": "conversation",
+          "score": 0.625
+        },
+        {
+          "id": "https://openalex.org/keywords/user-behavior",
+          "display_name": "user behavior",
+          "score": 0.6269999742507935
+        }
+      ],
+      "concepts": [
+        {
+          "id": "https://openalex.org/C64543145",
+          "wikidata": "https://www.wikidata.org/wiki/Q162942",
+          "display_name": "Intersection (aeronautics)",
+          "level": 2,
+          "score": 0.7989037036895752
+        },
+        {
+          "id": "https://openalex.org/C107457646",
+          "wikidata": "https://www.wikidata.org/wiki/Q207434",
+          "display_name": "Human–computer interaction",
+          "level": 1,
+          "score": 0.7176807522773743
+        },
+        {
+          "id": "https://openalex.org/C41008148",
+          "wikidata": "https://www.wikidata.org/wiki/Q21198",
+          "display_name": "Computer science",
+          "level": 0,
+          "score": 0.595180332660675
+        },
+        {
+          "id": "https://openalex.org/C49774154",
+          "wikidata": "https://www.wikidata.org/wiki/Q131765",
+          "display_name": "Multimedia",
+          "level": 1,
+          "score": 0.3343869149684906
+        },
+        {
+          "id": "https://openalex.org/C136764020",
+          "wikidata": "https://www.wikidata.org/wiki/Q466",
+          "display_name": "World Wide Web",
+          "level": 1,
+          "score": 0.321471244096756
+        },
+        {
+          "id": "https://openalex.org/C127413603",
+          "wikidata": "https://www.wikidata.org/wiki/Q11023",
+          "display_name": "Engineering",
+          "level": 0,
+          "score": 0.22088390588760376
+        },
+        {
+          "id": "https://openalex.org/C22212356",
+          "wikidata": "https://www.wikidata.org/wiki/Q775325",
+          "display_name": "Transport engineering",
+          "level": 1,
+          "score": 0.04063999652862549
+        }
+      ],
+      "mesh": [],
+      "locations_count": 1,
+      "locations": [
+        {
+          "id": "doi:10.1007/978-3-031-77566-6_5",
+          "doi": "https://doi.org/10.1007/978-3-031-77566-6_5",
+          "is_oa": false,
+          "landing_page_url": "https://doi.org/10.1007/978-3-031-77566-6_5",
+          "pdf_url": null,
+          "source": {
+            "id": "https://openalex.org/S4210211810",
+            "display_name": "Springer series in design and innovation",
+            "issn_l": "2661-8184",
+            "issn": [
+              "2661-8184",
+              "2661-8192"
+            ],
+            "is_oa": false,
+            "is_in_doaj": false,
+            "is_core": false,
+            "listed_in": [
+              "norway-1"
+            ],
+            "host_organization": "https://openalex.org/P4310319972",
+            "host_organization_name": "Springer International Publishing",
+            "host_organization_lineage": [
+              "https://openalex.org/P4310319972",
+              "https://openalex.org/P4310319965"
+            ],
+            "host_organization_lineage_names": [
+              "Springer International Publishing",
+              "Springer Nature"
+            ],
+            "type": "book series"
+          },
+          "license": null,
+          "license_id": null,
+          "version": "publishedVersion",
+          "is_accepted": true,
+          "is_published": true,
+          "raw_source_name": "Springer Series in Design and Innovation",
+          "raw_type": "book-chapter"
+        }
+      ],
+      "best_oa_location": null,
+      "sustainable_development_goals": [],
+      "study_designs": [],
+      "awards": [],
+      "funders": [],
+      "has_content": {
+        "pdf": false,
+        "grobid_xml": false
+      },
+      "content_urls": null,
+      "referenced_works_count": 14,
+      "referenced_works": [
+        "https://openalex.org/W2039451899",
+        "https://openalex.org/W2104610597",
+        "https://openalex.org/W2122532446",
+        "https://openalex.org/W2338455823",
+        "https://openalex.org/W2797243353",
+        "https://openalex.org/W2920032640",
+        "https://openalex.org/W3041305978",
+        "https://openalex.org/W3210107659",
+        "https://openalex.org/W4213213313",
+        "https://openalex.org/W4247879900",
+        "https://openalex.org/W4366549521",
+        "https://openalex.org/W6990133109",
+        "https://openalex.org/W7033771570",
+        "https://openalex.org/W7100136010"
+      ],
+      "related_works": [
+        "https://openalex.org/W7167332612",
+        "https://openalex.org/W3041305978",
+        "https://openalex.org/W7044326282",
+        "https://openalex.org/W4312177236",
+        "https://openalex.org/W1532174904",
+        "https://openalex.org/W7222938654",
+        "https://openalex.org/W4320921575",
+        "https://openalex.org/W7141199035",
+        "https://openalex.org/W2078596257",
+        "https://openalex.org/W7149439432"
+      ],
+      "abstract_inverted_index": null,
+      "counts_by_year": [
+        {
+          "year": 2025,
+          "cited_by_count": 2
+        }
+      ],
+      "updated_date": "2026-11-16T12:05:36.265796",
+      "created_date": "2024-12-23T00:00:00"
+    },
+    {
+      "id": "https://openalex.org/W3127725488",
+      "doi": "https://doi.org/10.1145/3411764.3445762",
+      "title": "VINS: Visual Search for Mobile User Interface Design",
+      "display_name": "VINS: Visual Search for Mobile User Interface Design",
+      "relevance_score": 39.572975,
+      "publication_year": 2021,
+      "publication_date": "2021-05-06",
+      "ids": {
+        "openalex": "https://openalex.org/W3127725488",
+        "doi": "https://doi.org/10.1145/3411764.3445762",
+        "mag": "3127725488"
+      },
+      "language": "en",
+      "primary_location": {
+        "id": "doi:10.1145/3411764.3445762",
+        "doi": "https://doi.org/10.1145/3411764.3445762",
+        "is_oa": false,
+        "landing_page_url": "https://doi.org/10.1145/3411764.3445762",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4363607743",
+          "display_name": "CHI Conference on Human Factors in Computing Systems",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "listed_in": [],
+          "host_organization": "https://openalex.org/P4310319798",
+          "host_organization_name": "Association for Computing Machinery",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310319798"
+          ],
+          "host_organization_lineage_names": [
+            "Association for Computing Machinery"
+          ],
+          "type": "conference"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems",
+        "raw_type": "proceedings-article"
+      },
+      "parent_works": [],
+      "lineage": [
+        "https://openalex.org/W3127725488"
+      ],
+      "child_works_count": 0,
+      "type": "conference-paper",
+      "is_traditional": true,
+      "indexed_in": [
+        "arxiv",
+        "crossref",
+        "datacite"
+      ],
+      "open_access": {
+        "is_oa": true,
+        "oa_status": "green",
+        "oa_url": "https://arxiv.org/pdf/2102.05216",
+        "any_repository_has_fulltext": true
+      },
+      "authorships": [
+        {
+          "author_position": "first",
+          "author": {
+            "id": "https://openalex.org/A5010962560",
+            "display_name": "Sara Bunian",
+            "orcid": null,
+            "observed_orcids": []
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I12912129",
+              "display_name": "Northeastern University",
+              "ror": "https://ror.org/04t5xt781",
+              "country_code": "US",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I12912129"
+              ]
+            }
+          ],
+          "countries": [
+            "US"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "Sara Bunian",
+          "raw_affiliation_strings": [
+            "Department of Electrical and Computer Engineering, Northeastern University, United States"
+          ],
+          "raw_orcid": null,
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Department of Electrical and Computer Engineering, Northeastern University, United States",
+              "institution_ids": [
+                "https://openalex.org/I12912129"
+              ]
+            }
+          ]
+        },
+        {
+          "author_position": "middle",
+          "author": {
+            "id": "https://openalex.org/A5100399972",
+            "display_name": "Kai Li",
+            "orcid": "https://orcid.org/0000-0003-1560-0853",
+            "observed_orcids": [
+              "https://orcid.org/0000-0003-1560-0853"
+            ]
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I12912129",
+              "display_name": "Northeastern University",
+              "ror": "https://ror.org/04t5xt781",
+              "country_code": "US",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I12912129"
+              ]
+            }
+          ],
+          "countries": [
+            "US"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "Kai Li",
+          "raw_affiliation_strings": [
+            "Department of Electrical and Computer Engineering, Northeastern University, United States"
+          ],
+          "raw_orcid": null,
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Department of Electrical and Computer Engineering, Northeastern University, United States",
+              "institution_ids": [
+                "https://openalex.org/I12912129"
+              ]
+            }
+          ]
+        },
+        {
+          "author_position": "middle",
+          "author": {
+            "id": "https://openalex.org/A5025420882",
+            "display_name": "Chaima Jemmali",
+            "orcid": null,
+            "observed_orcids": []
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I12912129",
+              "display_name": "Northeastern University",
+              "ror": "https://ror.org/04t5xt781",
+              "country_code": "US",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I12912129"
+              ]
+            }
+          ],
+          "countries": [
+            "US"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "Chaima Jemmali",
+          "raw_affiliation_strings": [
+            "Khoury College of Computer Science Northeastern University, United States"
+          ],
+          "raw_orcid": null,
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Khoury College of Computer Science Northeastern University, United States",
+              "institution_ids": [
+                "https://openalex.org/I12912129"
+              ]
+            }
+          ]
+        },
+        {
+          "author_position": "middle",
+          "author": {
+            "id": "https://openalex.org/A5054944358",
+            "display_name": "Casper Harteveld",
+            "orcid": "https://orcid.org/0000-0002-8164-0303",
+            "observed_orcids": [
+              "https://orcid.org/0000-0002-8164-0303"
+            ]
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I12912129",
+              "display_name": "Northeastern University",
+              "ror": "https://ror.org/04t5xt781",
+              "country_code": "US",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I12912129"
+              ]
+            }
+          ],
+          "countries": [
+            "US"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "Casper Harteveld",
+          "raw_affiliation_strings": [
+            "CAMD Northeastern University, United States"
+          ],
+          "raw_orcid": null,
+          "affiliations": [
+            {
+              "raw_affiliation_string": "CAMD Northeastern University, United States",
+              "institution_ids": [
+                "https://openalex.org/I12912129"
+              ]
+            }
+          ]
+        },
+        {
+          "author_position": "middle",
+          "author": {
+            "id": "https://openalex.org/A5005819096",
+            "display_name": "Yun Fu",
+            "orcid": "https://orcid.org/0000-0002-5098-2853",
+            "observed_orcids": [
+              "https://orcid.org/0000-0002-5098-2853",
+              "https://orcid.org/0000-0002-8588-5084"
+            ]
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I12912129",
+              "display_name": "Northeastern University",
+              "ror": "https://ror.org/04t5xt781",
+              "country_code": "US",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I12912129"
+              ]
+            }
+          ],
+          "countries": [
+            "US"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "Yun Fu",
+          "raw_affiliation_strings": [
+            "Department of Electrical and Computer Engineering, Northeastern University, United States"
+          ],
+          "raw_orcid": null,
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Department of Electrical and Computer Engineering, Northeastern University, United States",
+              "institution_ids": [
+                "https://openalex.org/I12912129"
+              ]
+            }
+          ]
+        },
+        {
+          "author_position": "last",
+          "author": {
+            "id": "https://openalex.org/A5087676774",
+            "display_name": "Magy Seif El‐Nasr",
+            "orcid": "https://orcid.org/0000-0002-7808-1686",
+            "observed_orcids": [
+              "https://orcid.org/0000-0002-7808-1686"
+            ]
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I185103710",
+              "display_name": "University of California, Santa Cruz",
+              "ror": "https://ror.org/03s65by71",
+              "country_code": "US",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I185103710"
+              ]
+            }
+          ],
+          "countries": [
+            "US"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "Magy Seif Seif El-Nasr",
+          "raw_affiliation_strings": [
+            "Computational Media, University of California at Santa Cruz, United States"
+          ],
+          "raw_orcid": null,
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Computational Media, University of California at Santa Cruz, United States",
+              "institution_ids": [
+                "https://openalex.org/I185103710"
+              ]
+            }
+          ]
+        }
+      ],
+      "institutions": [],
+      "countries_distinct_count": 1,
+      "institutions_distinct_count": 2,
+      "corresponding_author_ids": [],
+      "corresponding_institution_ids": [],
+      "apc_list": null,
+      "apc_paid": null,
+      "fwci": 13.0933,
+      "is_authors_truncated": false,
+      "has_fulltext": true,
+      "cited_by_count": 139,
+      "citation_normalized_percentile": {
+        "value": 0.99295296,
+        "is_in_top_1_percent": true,
+        "is_in_top_10_percent": true
+      },
+      "cited_by_percentile_year": {
+        "min": 95,
+        "max": 100
+      },
+      "biblio": {
+        "volume": null,
+        "issue": null,
+        "first_page": "1",
+        "last_page": "14"
+      },
+      "is_retracted": false,
+      "is_paratext": false,
+      "is_xpac": false,
+      "primary_topic": {
+        "id": "https://openalex.org/T10286",
+        "display_name": "Information Retrieval and Search Behavior",
+        "score": 0.4733999967575073,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1710",
+          "display_name": "Information Systems"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      "topics": [
+        {
+          "id": "https://openalex.org/T10286",
+          "display_name": "Information Retrieval and Search Behavior",
+          "score": 0.4733999967575073,
+          "subfield": {
+            "id": "https://openalex.org/subfields/1710",
+            "display_name": "Information Systems"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/17",
+            "display_name": "Computer Science"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T10470",
+          "display_name": "Usability and User Interface Design",
+          "score": 0.3361999988555908,
+          "subfield": {
+            "id": "https://openalex.org/subfields/1709",
+            "display_name": "Human-Computer Interaction"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/17",
+            "display_name": "Computer Science"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T10627",
+          "display_name": "Advanced Image and Video Retrieval Techniques",
+          "score": 0.0406000018119812,
+          "subfield": {
+            "id": "https://openalex.org/subfields/1707",
+            "display_name": "Computer Vision and Pattern Recognition"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/17",
+            "display_name": "Computer Science"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        }
+      ],
+      "keywords": [
+        {
+          "id": "https://openalex.org/keywords/visual-search",
+          "display_name": "visual search",
+          "score": 0.9789999723434448
+        },
+        {
+          "id": "https://openalex.org/keywords/mobile-user-interface-design",
+          "display_name": "mobile interface design",
+          "score": 0.9900000095367432
+        },
+        {
+          "id": "https://openalex.org/keywords/image-retrieval",
+          "display_name": "image retrieval",
+          "score": 0.6959999799728394
+        },
+        {
+          "id": "https://openalex.org/keywords/object-detection",
+          "display_name": "object detection",
+          "score": 0.7570000290870667
+        },
+        {
+          "id": "https://openalex.org/keywords/wireframes",
+          "display_name": "wireframes",
+          "score": 0.5879999995231628
+        }
+      ],
+      "concepts": [
+        {
+          "id": "https://openalex.org/C41008148",
+          "wikidata": "https://www.wikidata.org/wiki/Q21198",
+          "display_name": "Computer science",
+          "level": 0,
+          "score": 0.8402612805366516
+        },
+        {
+          "id": "https://openalex.org/C113843644",
+          "wikidata": "https://www.wikidata.org/wiki/Q901882",
+          "display_name": "Interface (matter)",
+          "level": 4,
+          "score": 0.6094079613685608
+        },
+        {
+          "id": "https://openalex.org/C2779343474",
+          "wikidata": "https://www.wikidata.org/wiki/Q3109175",
+          "display_name": "Context (archaeology)",
+          "level": 2,
+          "score": 0.5420331954956055
+        },
+        {
+          "id": "https://openalex.org/C23123220",
+          "wikidata": "https://www.wikidata.org/wiki/Q816826",
+          "display_name": "Information retrieval",
+          "level": 1,
+          "score": 0.5318790078163147
+        },
+        {
+          "id": "https://openalex.org/C107457646",
+          "wikidata": "https://www.wikidata.org/wiki/Q207434",
+          "display_name": "Human–computer interaction",
+          "level": 1,
+          "score": 0.5174787044525146
+        },
+        {
+          "id": "https://openalex.org/C2776459999",
+          "wikidata": "https://www.wikidata.org/wiki/Q2119376",
+          "display_name": "Fidelity",
+          "level": 2,
+          "score": 0.5173560976982117
+        },
+        {
+          "id": "https://openalex.org/C98045186",
+          "wikidata": "https://www.wikidata.org/wiki/Q205663",
+          "display_name": "Process (computing)",
+          "level": 2,
+          "score": 0.4909237027168274
+        },
+        {
+          "id": "https://openalex.org/C31170391",
+          "wikidata": "https://www.wikidata.org/wiki/Q188619",
+          "display_name": "Hierarchy",
+          "level": 2,
+          "score": 0.4900111258029938
+        },
+        {
+          "id": "https://openalex.org/C89505385",
+          "wikidata": "https://www.wikidata.org/wiki/Q47146",
+          "display_name": "User interface",
+          "level": 2,
+          "score": 0.4807991087436676
+        },
+        {
+          "id": "https://openalex.org/C2781238097",
+          "wikidata": "https://www.wikidata.org/wiki/Q175026",
+          "display_name": "Object (grammar)",
+          "level": 2,
+          "score": 0.4621966481208801
+        },
+        {
+          "id": "https://openalex.org/C186967261",
+          "wikidata": "https://www.wikidata.org/wiki/Q5082128",
+          "display_name": "Mobile device",
+          "level": 2,
+          "score": 0.429351806640625
+        },
+        {
+          "id": "https://openalex.org/C149229913",
+          "wikidata": "https://www.wikidata.org/wiki/Q135707",
+          "display_name": "User interface design",
+          "level": 3,
+          "score": 0.4149101972579956
+        },
+        {
+          "id": "https://openalex.org/C201025465",
+          "wikidata": "https://www.wikidata.org/wiki/Q11248500",
+          "display_name": "User experience design",
+          "level": 2,
+          "score": 0.29618746042251587
+        },
+        {
+          "id": "https://openalex.org/C154945302",
+          "wikidata": "https://www.wikidata.org/wiki/Q11660",
+          "display_name": "Artificial intelligence",
+          "level": 1,
+          "score": 0.226809561252594
+        },
+        {
+          "id": "https://openalex.org/C136764020",
+          "wikidata": "https://www.wikidata.org/wiki/Q466",
+          "display_name": "World Wide Web",
+          "level": 1,
+          "score": 0.21295469999313354
+        },
+        {
+          "id": "https://openalex.org/C199360897",
+          "wikidata": "https://www.wikidata.org/wiki/Q9143",
+          "display_name": "Programming language",
+          "level": 1,
+          "score": 0.07426846027374268
+        },
+        {
+          "id": "https://openalex.org/C34447519",
+          "wikidata": "https://www.wikidata.org/wiki/Q179522",
+          "display_name": "Market economy",
+          "level": 1,
+          "score": 0.0
+        },
+        {
+          "id": "https://openalex.org/C151730666",
+          "wikidata": "https://www.wikidata.org/wiki/Q7205",
+          "display_name": "Paleontology",
+          "level": 1,
+          "score": 0.0
+        },
+        {
+          "id": "https://openalex.org/C173608175",
+          "wikidata": "https://www.wikidata.org/wiki/Q232661",
+          "display_name": "Parallel computing",
+          "level": 1,
+          "score": 0.0
+        },
+        {
+          "id": "https://openalex.org/C129307140",
+          "wikidata": "https://www.wikidata.org/wiki/Q6795880",
+          "display_name": "Maximum bubble pressure method",
+          "level": 3,
+          "score": 0.0
+        },
+        {
+          "id": "https://openalex.org/C86803240",
+          "wikidata": "https://www.wikidata.org/wiki/Q420",
+          "display_name": "Biology",
+          "level": 0,
+          "score": 0.0
+        },
+        {
+          "id": "https://openalex.org/C162324750",
+          "wikidata": "https://www.wikidata.org/wiki/Q8134",
+          "display_name": "Economics",
+          "level": 0,
+          "score": 0.0
+        },
+        {
+          "id": "https://openalex.org/C157915830",
+          "wikidata": "https://www.wikidata.org/wiki/Q2928001",
+          "display_name": "Bubble",
+          "level": 2,
+          "score": 0.0
+        },
+        {
+          "id": "https://openalex.org/C76155785",
+          "wikidata": "https://www.wikidata.org/wiki/Q418",
+          "display_name": "Telecommunications",
+          "level": 1,
+          "score": 0.0
+        }
+      ],
+      "mesh": [],
+      "locations_count": 4,
+      "locations": [
+        {
+          "id": "doi:10.1145/3411764.3445762",
+          "doi": "https://doi.org/10.1145/3411764.3445762",
+          "is_oa": false,
+          "landing_page_url": "https://doi.org/10.1145/3411764.3445762",
+          "pdf_url": null,
+          "source": {
+            "id": "https://openalex.org/S4363607743",
+            "display_name": "CHI Conference on Human Factors in Computing Systems",
+            "issn_l": null,
+            "issn": null,
+            "is_oa": false,
+            "is_in_doaj": false,
+            "is_core": false,
+            "listed_in": [],
+            "host_organization": "https://openalex.org/P4310319798",
+            "host_organization_name": "Association for Computing Machinery",
+            "host_organization_lineage": [
+              "https://openalex.org/P4310319798"
+            ],
+            "host_organization_lineage_names": [
+              "Association for Computing Machinery"
+            ],
+            "type": "conference"
+          },
+          "license": null,
+          "license_id": null,
+          "version": "publishedVersion",
+          "is_accepted": true,
+          "is_published": true,
+          "raw_source_name": "Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems",
+          "raw_type": "proceedings-article"
+        },
+        {
+          "id": "pmh:oai:arXiv.org:2102.05216",
+          "doi": null,
+          "is_oa": true,
+          "landing_page_url": "http://arxiv.org/abs/2102.05216",
+          "pdf_url": "https://arxiv.org/pdf/2102.05216",
+          "source": {
+            "id": "https://openalex.org/S4306400194",
+            "display_name": "arXiv (Cornell University)",
+            "issn_l": "2331-8422",
+            "issn": [
+              "2331-8422"
+            ],
+            "is_oa": true,
+            "is_in_doaj": false,
+            "is_core": false,
+            "listed_in": [],
+            "host_organization": "https://openalex.org/I205783295",
+            "host_organization_name": "Cornell University",
+            "host_organization_lineage": [
+              "https://openalex.org/I205783295"
+            ],
+            "host_organization_lineage_names": [],
+            "type": "repository"
+          },
+          "license": null,
+          "license_id": null,
+          "version": "submittedVersion",
+          "is_accepted": false,
+          "is_published": false,
+          "raw_source_name": null,
+          "raw_type": "text"
+        },
+        {
+          "id": "mag:3127725488",
+          "doi": null,
+          "is_oa": true,
+          "landing_page_url": "https://arxiv.org/pdf/2102.05216.pdf",
+          "pdf_url": null,
+          "source": {
+            "id": "https://openalex.org/S4306400194",
+            "display_name": "arXiv (Cornell University)",
+            "issn_l": "2331-8422",
+            "issn": [
+              "2331-8422"
+            ],
+            "is_oa": true,
+            "is_in_doaj": false,
+            "is_core": false,
+            "listed_in": [],
+            "host_organization": "https://openalex.org/I205783295",
+            "host_organization_name": "Cornell University",
+            "host_organization_lineage": [
+              "https://openalex.org/I205783295"
+            ],
+            "host_organization_lineage_names": [],
+            "type": "repository"
+          },
+          "license": null,
+          "license_id": null,
+          "version": "submittedVersion",
+          "is_accepted": false,
+          "is_published": false,
+          "raw_source_name": "arXiv (Cornell University)",
+          "raw_type": null
+        },
+        {
+          "id": "doi:10.48550/arxiv.2102.05216",
+          "doi": "https://doi.org/10.48550/arxiv.2102.05216",
+          "is_oa": true,
+          "landing_page_url": "https://doi.org/10.48550/arxiv.2102.05216",
+          "pdf_url": null,
+          "source": {
+            "id": "https://openalex.org/S4306400194",
+            "display_name": "arXiv (Cornell University)",
+            "issn_l": "2331-8422",
+            "issn": [
+              "2331-8422"
+            ],
+            "is_oa": true,
+            "is_in_doaj": false,
+            "is_core": false,
+            "listed_in": [],
+            "host_organization": "https://openalex.org/I205783295",
+            "host_organization_name": "Cornell University",
+            "host_organization_lineage": [
+              "https://openalex.org/I205783295"
+            ],
+            "host_organization_lineage_names": [],
+            "type": "repository"
+          },
+          "license": null,
+          "license_id": null,
+          "version": null,
+          "is_accepted": false,
+          "is_published": false,
+          "raw_source_name": null,
+          "raw_type": "Preprint"
+        }
+      ],
+      "best_oa_location": {
+        "id": "pmh:oai:arXiv.org:2102.05216",
+        "doi": null,
+        "is_oa": true,
+        "landing_page_url": "http://arxiv.org/abs/2102.05216",
+        "pdf_url": "https://arxiv.org/pdf/2102.05216",
+        "source": {
+          "id": "https://openalex.org/S4306400194",
+          "display_name": "arXiv (Cornell University)",
+          "issn_l": "2331-8422",
+          "issn": [
+            "2331-8422"
+          ],
+          "is_oa": true,
+          "is_in_doaj": false,
+          "is_core": false,
+          "listed_in": [],
+          "host_organization": "https://openalex.org/I205783295",
+          "host_organization_name": "Cornell University",
+          "host_organization_lineage": [
+            "https://openalex.org/I205783295"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "submittedVersion",
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": null,
+        "raw_type": "text"
+      },
+      "sustainable_development_goals": [],
+      "study_designs": [],
+      "awards": [],
+      "funders": [],
+      "has_content": {
+        "pdf": true,
+        "grobid_xml": true
+      },
+      "content_urls": {
+        "pdf": "https://content.openalex.org/works/W3127725488.pdf",
+        "grobid_xml": "https://content.openalex.org/works/W3127725488.grobid-xml"
+      },
+      "referenced_works_count": 54,
+      "referenced_works": [
+        "https://openalex.org/W1507778037",
+        "https://openalex.org/W1571082009",
+        "https://openalex.org/W1963984265",
+        "https://openalex.org/W1981219830",
+        "https://openalex.org/W1982483860",
+        "https://openalex.org/W2005661126",
+        "https://openalex.org/W2007644286",
+        "https://openalex.org/W2021354639",
+        "https://openalex.org/W2027731328",
+        "https://openalex.org/W2030073376",
+        "https://openalex.org/W2031489346",
+        "https://openalex.org/W2036737501",
+        "https://openalex.org/W2055500610",
+        "https://openalex.org/W2066114190",
+        "https://openalex.org/W2070965924",
+        "https://openalex.org/W2075597533",
+        "https://openalex.org/W2075779758",
+        "https://openalex.org/W2079676200",
+        "https://openalex.org/W2099332139",
+        "https://openalex.org/W2102605133",
+        "https://openalex.org/W2111139269",
+        "https://openalex.org/W2126135370",
+        "https://openalex.org/W2131210874",
+        "https://openalex.org/W2139374478",
+        "https://openalex.org/W2141125339",
+        "https://openalex.org/W2145023731",
+        "https://openalex.org/W2154583606",
+        "https://openalex.org/W2161969291",
+        "https://openalex.org/W2162514427",
+        "https://openalex.org/W2168356304",
+        "https://openalex.org/W2183671248",
+        "https://openalex.org/W2193145675",
+        "https://openalex.org/W2241093273",
+        "https://openalex.org/W2270878873",
+        "https://openalex.org/W2533771361",
+        "https://openalex.org/W2605991684",
+        "https://openalex.org/W2611775752",
+        "https://openalex.org/W2612445135",
+        "https://openalex.org/W2765874585",
+        "https://openalex.org/W2785557022",
+        "https://openalex.org/W2795649955",
+        "https://openalex.org/W2809912499",
+        "https://openalex.org/W2829302659",
+        "https://openalex.org/W2883419767",
+        "https://openalex.org/W2884367402",
+        "https://openalex.org/W2897966957",
+        "https://openalex.org/W2916904544",
+        "https://openalex.org/W2942422815",
+        "https://openalex.org/W2947411064",
+        "https://openalex.org/W2952489094",
+        "https://openalex.org/W2962724148",
+        "https://openalex.org/W2982527808",
+        "https://openalex.org/W2997245201",
+        "https://openalex.org/W3106250896"
+      ],
+      "related_works": [
+        "https://openalex.org/W4410062577",
+        "https://openalex.org/W3036505300",
+        "https://openalex.org/W4406975815",
+        "https://openalex.org/W4292952812",
+        "https://openalex.org/W2803658519",
+        "https://openalex.org/W7097837670",
+        "https://openalex.org/W4224032022",
+        "https://openalex.org/W4404182948",
+        "https://openalex.org/W7106686323",
+        "https://openalex.org/W7123339557"
+      ],
+      "abstract_inverted_index": {
+        "Searching": [
+          0
+        ],
+        "for": [
+          1,
+          138
+        ],
+        "relative": [
+          2
+        ],
+        "mobile": [
+          3
+        ],
+        "user": [
+          4
+        ],
+        "interface": [
+          5,
+          11,
+          74
+        ],
+        "(UI)": [
+          6
+        ],
+        "design": [
+          7,
+          18,
+          23,
+          69
+        ],
+        "examples": [
+          8,
+          24
+        ],
+        "can": [
+          9
+        ],
+        "aid": [
+          10
+        ],
+        "designers": [
+          12,
+          75
+        ],
+        "in": [
+          13,
+          145
+        ],
+        "gaining": [
+          14
+        ],
+        "inspiration": [
+          15
+        ],
+        "and": [
+          16,
+          37,
+          44,
+          65,
+          105,
+          126,
+          142
+        ],
+        "comparing": [
+          17
+        ],
+        "alternatives.": [
+          19
+        ],
+        "However,": [
+          20
+        ],
+        "finding": [
+          21,
+          81
+        ],
+        "such": [
+          22
+        ],
+        "is": [
+          25
+        ],
+        "challenging,": [
+          26
+        ],
+        "especially": [
+          27
+        ],
+        "as": [
+          28,
+          58
+        ],
+        "current": [
+          29
+        ],
+        "search": [
+          30,
+          54
+        ],
+        "systems": [
+          31
+        ],
+        "rely": [
+          32
+        ],
+        "on": [
+          33
+        ],
+        "only": [
+          34
+        ],
+        "text-based": [
+          35
+        ],
+        "queries": [
+          36
+        ],
+        "do": [
+          38
+        ],
+        "not": [
+          39
+        ],
+        "consider": [
+          40
+        ],
+        "the": [
+          41,
+          96,
+          102,
+          123,
+          139
+        ],
+        "UI": [
+          42,
+          61,
+          88,
+          103,
+          124,
+          140,
+          148
+        ],
+        "structure": [
+          43
+        ],
+        "content": [
+          45
+        ],
+        "into": [
+          46
+        ],
+        "account.": [
+          47
+        ],
+        "This": [
+          48
+        ],
+        "paper": [
+          49
+        ],
+        "introduces": [
+          50
+        ],
+        "VINS,": [
+          51
+        ],
+        "a": [
+          52,
+          60,
+          86,
+          132
+        ],
+        "visual": [
+          53
+        ],
+        "framework,": [
+          55
+        ],
+        "that": [
+          56,
+          90,
+          121
+        ],
+        "takes": [
+          57
+        ],
+        "input": [
+          59
+        ],
+        "image": [
+          62,
+          118
+        ],
+        "(wireframe,": [
+          63
+        ],
+        "high-fidelity)": [
+          64
+        ],
+        "retrieves": [
+          66
+        ],
+        "visually": [
+          67
+        ],
+        "similar": [
+          68,
+          147
+        ],
+        "examples.": [
+          70
+        ],
+        "We": [
+          71,
+          83
+        ],
+        "first": [
+          72
+        ],
+        "survey": [
+          73
+        ],
+        "to": [
+          76
+        ],
+        "better": [
+          77
+        ],
+        "understand": [
+          78
+        ],
+        "their": [
+          79,
+          106
+        ],
+        "example": [
+          80
+        ],
+        "process.": [
+          82
+        ],
+        "then": [
+          84
+        ],
+        "develop": [
+          85
+        ],
+        "large-scale": [
+          87
+        ],
+        "dataset": [
+          89
+        ],
+        "provides": [
+          91
+        ],
+        "an": [
+          92,
+          115
+        ],
+        "accurate": [
+          93
+        ],
+        "specification": [
+          94
+        ],
+        "of": [
+          95,
+          136
+        ],
+        "interface’s": [
+          97
+        ],
+        "view": [
+          98
+        ],
+        "hierarchy": [
+          99
+        ],
+        "(i.e.,": [
+          100
+        ],
+        "all": [
+          101
+        ],
+        "components": [
+          104
+        ],
+        "specific": [
+          107
+        ],
+        "location).": [
+          108
+        ],
+        "By": [
+          109
+        ],
+        "utilizing": [
+          110
+        ],
+        "this": [
+          111
+        ],
+        "dataset,": [
+          112
+        ],
+        "we": [
+          113
+        ],
+        "propose": [
+          114
+        ],
+        "object-detection": [
+          116
+        ],
+        "based": [
+          117
+        ],
+        "retrieval": [
+          119
+        ],
+        "framework": [
+          120,
+          130
+        ],
+        "models": [
+          122
+        ],
+        "context": [
+          125
+        ],
+        "hierarchical": [
+          127
+        ],
+        "structure.": [
+          128
+        ],
+        "The": [
+          129
+        ],
+        "achieves": [
+          131
+        ],
+        "mean": [
+          133
+        ],
+        "Average": [
+          134
+        ],
+        "Precision": [
+          135
+        ],
+        "76.39%": [
+          137
+        ],
+        "detection": [
+          141
+        ],
+        "high": [
+          143
+        ],
+        "performance": [
+          144
+        ],
+        "querying": [
+          146
+        ],
+        "designs.": [
+          149
+        ]
+      },
+      "counts_by_year": [
+        {
+          "year": 2026,
+          "cited_by_count": 29
+        },
+        {
+          "year": 2025,
+          "cited_by_count": 32
+        },
+        {
+          "year": 2024,
+          "cited_by_count": 37
+        },
+        {
+          "year": 2023,
+          "cited_by_count": 19
+        },
+        {
+          "year": 2022,
+          "cited_by_count": 19
+        },
+        {
+          "year": 2021,
+          "cited_by_count": 3
+        }
+      ],
+      "updated_date": "2026-11-14T11:04:58.165337",
+      "created_date": "2021-02-15T00:00:00"
+    },
+    {
+      "id": "https://openalex.org/W2313561491",
+      "doi": "https://doi.org/10.5120/ijais12-450229",
+      "title": "Java UI Designer",
+      "display_name": "Java UI Designer",
+      "relevance_score": 38.261974,
+      "publication_year": 2012,
+      "publication_date": "2012-04-10",
+      "ids": {
+        "openalex": "https://openalex.org/W2313561491",
+        "doi": "https://doi.org/10.5120/ijais12-450229",
+        "mag": "2313561491"
+      },
+      "language": "en",
+      "primary_location": {
+        "id": "doi:10.5120/ijais12-450229",
+        "doi": "https://doi.org/10.5120/ijais12-450229",
+        "is_oa": true,
+        "landing_page_url": "http://doi.org/10.5120/ijais12-450229",
+        "pdf_url": "https://doi.org/10.5120/ijais12-450229",
+        "source": {
+          "id": "https://openalex.org/S2764855025",
+          "display_name": "International Journal of Applied Information Systems",
+          "issn_l": "2249-085X",
+          "issn": [
+            "2249-085X",
+            "2249-0868"
+          ],
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": true,
+          "listed_in": [
+            "cwts-core"
+          ],
+          "host_organization": "https://openalex.org/P4322545532",
+          "host_organization_name": "Foundation of Computer Science",
+          "host_organization_lineage": [
+            "https://openalex.org/P4322545532"
+          ],
+          "host_organization_lineage_names": [
+            "Foundation of Computer Science"
+          ],
+          "type": "journal"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "International Journal of Applied Information Systems",
+        "raw_type": "journal-article"
+      },
+      "parent_works": [],
+      "lineage": [
+        "https://openalex.org/W2313561491"
+      ],
+      "child_works_count": 0,
+      "type": "article",
+      "is_traditional": true,
+      "indexed_in": [
+        "crossref"
+      ],
+      "open_access": {
+        "is_oa": true,
+        "oa_status": "bronze",
+        "oa_url": "https://doi.org/10.5120/ijais12-450229",
+        "any_repository_has_fulltext": false
+      },
+      "authorships": [
+        {
+          "author_position": "first",
+          "author": {
+            "id": "https://openalex.org/A5070183130",
+            "display_name": "Rohit P.Soni",
+            "orcid": null,
+            "observed_orcids": []
+          },
+          "institutions": [],
+          "countries": [],
+          "is_corresponding": false,
+          "raw_author_name": "Rohit P.Soni",
+          "raw_affiliation_strings": [
+            "Dept Of Info Technology, Smt. Kashibai Navle College Of Engineering, Vadgaon Bk, Pune-41"
+          ],
+          "raw_orcid": null,
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Dept Of Info Technology, Smt. Kashibai Navle College Of Engineering, Vadgaon Bk, Pune-41",
+              "institution_ids": []
+            }
+          ]
+        },
+        {
+          "author_position": "middle",
+          "author": {
+            "id": "https://openalex.org/A5047393847",
+            "display_name": "Sfurti S. Dapake",
+            "orcid": null,
+            "observed_orcids": []
+          },
+          "institutions": [],
+          "countries": [],
+          "is_corresponding": false,
+          "raw_author_name": "Sfurti S. Dapake",
+          "raw_affiliation_strings": [
+            "Dept Of Info Technology, Smt. Kashibai Navle College Of Engineering, Vadgaon Bk, Pune-41"
+          ],
+          "raw_orcid": null,
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Dept Of Info Technology, Smt. Kashibai Navle College Of Engineering, Vadgaon Bk, Pune-41",
+              "institution_ids": []
+            }
+          ]
+        },
+        {
+          "author_position": "middle",
+          "author": {
+            "id": "https://openalex.org/A5002000424",
+            "display_name": "Vatsal N. Pawar",
+            "orcid": null,
+            "observed_orcids": []
+          },
+          "institutions": [],
+          "countries": [],
+          "is_corresponding": false,
+          "raw_author_name": "Vatsal N. Pawar",
+          "raw_affiliation_strings": [
+            "Dept Of Info Technology, Smt. Kashibai Navle College Of Engineering, Vadgaon Bk, Pune-41"
+          ],
+          "raw_orcid": null,
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Dept Of Info Technology, Smt. Kashibai Navle College Of Engineering, Vadgaon Bk, Pune-41",
+              "institution_ids": []
+            }
+          ]
+        },
+        {
+          "author_position": "last",
+          "author": {
+            "id": "https://openalex.org/A5007096800",
+            "display_name": "Shreyas V. Sonawane",
+            "orcid": null,
+            "observed_orcids": []
+          },
+          "institutions": [],
+          "countries": [],
+          "is_corresponding": false,
+          "raw_author_name": "Shreyas V. Sonawane",
+          "raw_affiliation_strings": [
+            "Dept Of Info Technology, Smt. Kashibai Navle College Of Engineering, Vadgaon Bk, Pune-41"
+          ],
+          "raw_orcid": null,
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Dept Of Info Technology, Smt. Kashibai Navle College Of Engineering, Vadgaon Bk, Pune-41",
+              "institution_ids": []
+            }
+          ]
+        }
+      ],
+      "institutions": [],
+      "countries_distinct_count": 0,
+      "institutions_distinct_count": 0,
+      "corresponding_author_ids": [],
+      "corresponding_institution_ids": [],
+      "apc_list": null,
+      "apc_paid": null,
+      "fwci": 0.4613,
+      "is_authors_truncated": false,
+      "has_fulltext": true,
+      "cited_by_count": 1,
+      "citation_normalized_percentile": {
+        "value": 0.68463519,
+        "is_in_top_1_percent": false,
+        "is_in_top_10_percent": false
+      },
+      "cited_by_percentile_year": {
+        "min": 88,
+        "max": 93
+      },
+      "biblio": {
+        "volume": "1",
+        "issue": "8",
+        "first_page": "30",
+        "last_page": "35"
+      },
+      "is_retracted": false,
+      "is_paratext": false,
+      "is_xpac": false,
+      "primary_topic": {
+        "id": "https://openalex.org/T10470",
+        "display_name": "Usability and User Interface Design",
+        "score": 0.6338000297546387,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1709",
+          "display_name": "Human-Computer Interaction"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      "topics": [
+        {
+          "id": "https://openalex.org/T10470",
+          "display_name": "Usability and User Interface Design",
+          "score": 0.6338000297546387,
+          "subfield": {
+            "id": "https://openalex.org/subfields/1709",
+            "display_name": "Human-Computer Interaction"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/17",
+            "display_name": "Computer Science"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T10430",
+          "display_name": "Software Engineering Techniques and Practices",
+          "score": 0.10760000348091125,
+          "subfield": {
+            "id": "https://openalex.org/subfields/1710",
+            "display_name": "Information Systems"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/17",
+            "display_name": "Computer Science"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T13681",
+          "display_name": "Engineering and Information Technology",
+          "score": 0.08070000261068344,
+          "subfield": {
+            "id": "https://openalex.org/subfields/1712",
+            "display_name": "Software"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/17",
+            "display_name": "Computer Science"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        }
+      ],
+      "keywords": [
+        {
+          "id": "https://openalex.org/keywords/swing",
+          "display_name": "swing",
+          "score": 0.6340000033378601
+        },
+        {
+          "id": "https://openalex.org/keywords/rapid-application-development",
+          "display_name": "rapid application development",
+          "score": 0.9200000166893005
+        },
+        {
+          "id": "https://openalex.org/keywords/database-connectivity",
+          "display_name": "database connectivity",
+          "score": 0.9279999732971191
+        },
+        {
+          "id": "https://openalex.org/keywords/visual-assistance",
+          "display_name": "visual assistance",
+          "score": 0.5400000214576721
+        }
+      ],
+      "concepts": [
+        {
+          "id": "https://openalex.org/C41008148",
+          "wikidata": "https://www.wikidata.org/wiki/Q21198",
+          "display_name": "Computer science",
+          "level": 0,
+          "score": 0.926063060760498
+        },
+        {
+          "id": "https://openalex.org/C548217200",
+          "wikidata": "https://www.wikidata.org/wiki/Q251",
+          "display_name": "Java",
+          "level": 2,
+          "score": 0.7663413286209106
+        },
+        {
+          "id": "https://openalex.org/C199360897",
+          "wikidata": "https://www.wikidata.org/wiki/Q9143",
+          "display_name": "Programming language",
+          "level": 1,
+          "score": 0.5751702189445496
+        },
+        {
+          "id": "https://openalex.org/C115903868",
+          "wikidata": "https://www.wikidata.org/wiki/Q80993",
+          "display_name": "Software engineering",
+          "level": 1,
+          "score": 0.4947618842124939
+        },
+        {
+          "id": "https://openalex.org/C107457646",
+          "wikidata": "https://www.wikidata.org/wiki/Q207434",
+          "display_name": "Human–computer interaction",
+          "level": 1,
+          "score": 0.335508793592453
+        }
+      ],
+      "mesh": [],
+      "locations_count": 2,
+      "locations": [
+        {
+          "id": "doi:10.5120/ijais12-450229",
+          "doi": "https://doi.org/10.5120/ijais12-450229",
+          "is_oa": true,
+          "landing_page_url": "http://doi.org/10.5120/ijais12-450229",
+          "pdf_url": "https://doi.org/10.5120/ijais12-450229",
+          "source": {
+            "id": "https://openalex.org/S2764855025",
+            "display_name": "International Journal of Applied Information Systems",
+            "issn_l": "2249-085X",
+            "issn": [
+              "2249-085X",
+              "2249-0868"
+            ],
+            "is_oa": false,
+            "is_in_doaj": false,
+            "is_core": true,
+            "listed_in": [
+              "cwts-core"
+            ],
+            "host_organization": "https://openalex.org/P4322545532",
+            "host_organization_name": "Foundation of Computer Science",
+            "host_organization_lineage": [
+              "https://openalex.org/P4322545532"
+            ],
+            "host_organization_lineage_names": [
+              "Foundation of Computer Science"
+            ],
+            "type": "journal"
+          },
+          "license": null,
+          "license_id": null,
+          "version": "publishedVersion",
+          "is_accepted": true,
+          "is_published": true,
+          "raw_source_name": "International Journal of Applied Information Systems",
+          "raw_type": "journal-article"
+        },
+        {
+          "id": "pmh:oai:CiteSeerX.psu:10.1.1.402.65",
+          "doi": null,
+          "is_oa": false,
+          "landing_page_url": "http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.402.65",
+          "pdf_url": null,
+          "source": null,
+          "license": null,
+          "license_id": null,
+          "version": "submittedVersion",
+          "is_accepted": false,
+          "is_published": false,
+          "raw_source_name": "http://research.ijais.org/volume1/number8/ijais12-450229.pdf",
+          "raw_type": "text"
+        }
+      ],
+      "best_oa_location": {
+        "id": "doi:10.5120/ijais12-450229",
+        "doi": "https://doi.org/10.5120/ijais12-450229",
+        "is_oa": true,
+        "landing_page_url": "http://doi.org/10.5120/ijais12-450229",
+        "pdf_url": "https://doi.org/10.5120/ijais12-450229",
+        "source": {
+          "id": "https://openalex.org/S2764855025",
+          "display_name": "International Journal of Applied Information Systems",
+          "issn_l": "2249-085X",
+          "issn": [
+            "2249-085X",
+            "2249-0868"
+          ],
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": true,
+          "listed_in": [
+            "cwts-core"
+          ],
+          "host_organization": "https://openalex.org/P4322545532",
+          "host_organization_name": "Foundation of Computer Science",
+          "host_organization_lineage": [
+            "https://openalex.org/P4322545532"
+          ],
+          "host_organization_lineage_names": [
+            "Foundation of Computer Science"
+          ],
+          "type": "journal"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "International Journal of Applied Information Systems",
+        "raw_type": "journal-article"
+      },
+      "sustainable_development_goals": [],
+      "study_designs": [],
+      "awards": [],
+      "funders": [],
+      "has_content": {
+        "pdf": true,
+        "grobid_xml": true
+      },
+      "content_urls": {
+        "pdf": "https://content.openalex.org/works/W2313561491.pdf",
+        "grobid_xml": "https://content.openalex.org/works/W2313561491.grobid-xml"
+      },
+      "referenced_works_count": 0,
+      "referenced_works": [],
+      "related_works": [
+        "https://openalex.org/W384502973",
+        "https://openalex.org/W3217232852",
+        "https://openalex.org/W2377531961",
+        "https://openalex.org/W2151885604",
+        "https://openalex.org/W2350204746",
+        "https://openalex.org/W2357535500",
+        "https://openalex.org/W4237540020",
+        "https://openalex.org/W2022719522",
+        "https://openalex.org/W2114751599"
+      ],
+      "abstract_inverted_index": {
+        "In": [
+          0
+        ],
+        "this": [
+          1,
+          116
+        ],
+        "paper": [
+          2
+        ],
+        "we": [
+          3,
+          118
+        ],
+        "discuss": [
+          4,
+          119
+        ],
+        "suitability": [
+          5
+        ],
+        "of": [
+          6,
+          42
+        ],
+        "using": [
+          7
+        ],
+        "a": [
+          8,
+          40,
+          70
+        ],
+        "java": [
+          9,
+          15,
+          62,
+          110,
+          139
+        ],
+        "UI": [
+          10,
+          25,
+          49,
+          75,
+          114,
+          123
+        ],
+        "designer,": [
+          11
+        ],
+        "for": [
+          12,
+          23,
+          97
+        ],
+        "overcoming": [
+          13
+        ],
+        "the": [
+          14,
+          102,
+          121
+        ],
+        "User": [
+          16
+        ],
+        "Interface": [
+          17
+        ],
+        "Designing": [
+          18
+        ],
+        "Problem.The": [
+          19
+        ],
+        "current": [
+          20
+        ],
+        "available": [
+          21,
+          60
+        ],
+        "softwares": [
+          22,
+          32
+        ],
+        "Java": [
+          24,
+          122
+        ],
+        "design": [
+          26
+        ],
+        "are": [
+          27,
+          33,
+          105
+        ],
+        "complex": [
+          28
+        ],
+        "in": [
+          29,
+          36,
+          61,
+          80,
+          109,
+          113
+        ],
+        "nature.Moreover": [
+          30
+        ],
+        "these": [
+          31
+        ],
+        "also": [
+          34
+        ],
+        "heavy": [
+          35
+        ],
+        "nature": [
+          37
+        ],
+        "viz.they": [
+          38
+        ],
+        "consume": [
+          39
+        ],
+        "lot": [
+          41
+        ],
+        "system": [
+          43
+        ],
+        "resources": [
+          44
+        ],
+        "and": [
+          45,
+          63,
+          134
+        ],
+        "thereby": [
+          46
+        ],
+        "run": [
+          47
+        ],
+        "slower.Java": [
+          48
+        ],
+        "Designer": [
+          50,
+          76,
+          124
+        ],
+        "is": [
+          51,
+          77,
+          89,
+          95
+        ],
+        "an": [
+          52
+        ],
+        "environment": [
+          53
+        ],
+        "where": [
+          54
+        ],
+        "one": [
+          55
+        ],
+        "can": [
+          56,
+          64,
+          85
+        ],
+        "use": [
+          57
+        ],
+        "any": [
+          58
+        ],
+        "component": [
+          59
+        ],
+        "easily": [
+          65
+        ],
+        "put": [
+          66
+        ],
+        "it": [
+          67,
+          88
+        ],
+        "on": [
+          68
+        ],
+        "to": [
+          69,
+          106
+        ],
+        "frame": [
+          71
+        ],
+        "by": [
+          72
+        ],
+        "simple": [
+          73
+        ],
+        "drag-n-drop.Java": [
+          74
+        ],
+        "developed": [
+          78,
+          108
+        ],
+        "purely": [
+          79
+        ],
+        "swings": [
+          81
+        ],
+        "or": [
+          82
+        ],
+        "rather": [
+          83
+        ],
+        "you": [
+          84
+        ],
+        "say": [
+          86
+        ],
+        "that": [
+          87
+        ],
+        "as": [
+          90,
+          93
+        ],
+        "light": [
+          91
+        ],
+        "weight": [
+          92
+        ],
+        "swings.It": [
+          94
+        ],
+        "beneficial": [
+          96
+        ],
+        "rapid": [
+          98
+        ],
+        "application": [
+          99,
+          140
+        ],
+        "development": [
+          100,
+          141
+        ],
+        "viz.": [
+          101
+        ],
+        "applications": [
+          103
+        ],
+        "which": [
+          104,
+          126,
+          136
+        ],
+        "be": [
+          107
+        ],
+        "save": [
+          111
+        ],
+        "time": [
+          112
+        ],
+        "making.In": [
+          115
+        ],
+        "paper,": [
+          117
+        ],
+        "about": [
+          120
+        ],
+        "application,": [
+          125
+        ],
+        "provides": [
+          127
+        ],
+        "us": [
+          128
+        ],
+        "with": [
+          129
+        ],
+        "database": [
+          130
+        ],
+        "connectivity,": [
+          131
+        ],
+        "visual": [
+          132
+        ],
+        "assistance": [
+          133
+        ],
+        "templates": [
+          135
+        ],
+        "boost": [
+          137
+        ],
+        "up": [
+          138
+        ],
+        "process.": [
+          142
+        ]
+      },
+      "counts_by_year": [
+        {
+          "year": 2014,
+          "cited_by_count": 1
+        }
+      ],
+      "updated_date": "2026-11-14T11:04:58.165337",
+      "created_date": "2016-06-24T00:00:00"
+    },
+    {
+      "id": "https://openalex.org/W4250246632",
+      "doi": "https://doi.org/10.1201/9781315734224-3",
+      "title": "Prototyping a User Interface (UI) Design",
+      "display_name": "Prototyping a User Interface (UI) Design",
+      "relevance_score": 37.738777,
+      "publication_year": 2017,
+      "publication_date": "2017-04-07",
+      "ids": {
+        "openalex": "https://openalex.org/W4250246632",
+        "doi": "https://doi.org/10.1201/9781315734224-3"
+      },
+      "language": "en",
+      "primary_location": {
+        "id": "doi:10.1201/9781315734224-3",
+        "doi": "https://doi.org/10.1201/9781315734224-3",
+        "is_oa": false,
+        "landing_page_url": "https://doi.org/10.1201/9781315734224-3",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4306462788",
+          "display_name": "A K Peters/CRC Press eBooks",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "listed_in": [],
+          "host_organization": "https://openalex.org/P4310320449",
+          "host_organization_name": "Informa",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310320449"
+          ],
+          "host_organization_lineage_names": [
+            "Informa"
+          ],
+          "type": "ebook platform"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Digital Design in Action",
+        "raw_type": "book-chapter"
+      },
+      "parent_works": [
+        {
+          "id": "https://openalex.org/W4241234441",
+          "display_name": "Digital Design in Action: Creative Solutions for Designers",
+          "relationship": "volume"
+        }
+      ],
+      "lineage": [
+        "https://openalex.org/W4250246632",
+        "https://openalex.org/W4241234441"
+      ],
+      "child_works_count": 0,
+      "type": "book-chapter",
+      "is_traditional": true,
+      "indexed_in": [
+        "crossref"
+      ],
+      "open_access": {
+        "is_oa": false,
+        "oa_status": "closed",
+        "oa_url": null,
+        "any_repository_has_fulltext": false
+      },
+      "authorships": [
+        {
+          "author_position": "first",
+          "author": {
+            "id": null,
+            "display_name": "Chris Jackson",
+            "orcid": null,
+            "observed_orcids": []
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I155173764",
+              "display_name": "Rochester Institute of Technology",
+              "ror": "https://ror.org/00v4yb702",
+              "country_code": "US",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I155173764"
+              ]
+            }
+          ],
+          "countries": [
+            "US"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "Chris Jackson",
+          "raw_affiliation_strings": [
+            "Computer Graphics Designer; Professor, Rochester Institute of Technology, NY, USA"
+          ],
+          "raw_orcid": null,
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Computer Graphics Designer; Professor, Rochester Institute of Technology, NY, USA",
+              "institution_ids": [
+                "https://openalex.org/I155173764"
+              ]
+            }
+          ]
+        },
+        {
+          "author_position": "last",
+          "author": {
+            "id": null,
+            "display_name": "Nancy Ciolek",
+            "orcid": null,
+            "observed_orcids": []
+          },
+          "institutions": [],
+          "countries": [],
+          "is_corresponding": false,
+          "raw_author_name": "Nancy Ciolek",
+          "raw_affiliation_strings": [],
+          "raw_orcid": null,
+          "affiliations": []
+        }
+      ],
+      "institutions": [],
+      "countries_distinct_count": 1,
+      "institutions_distinct_count": 1,
+      "corresponding_author_ids": [],
+      "corresponding_institution_ids": [],
+      "apc_list": null,
+      "apc_paid": null,
+      "fwci": 0.0,
+      "is_authors_truncated": false,
+      "has_fulltext": false,
+      "cited_by_count": 1,
+      "citation_normalized_percentile": {
+        "value": 0.0,
+        "is_in_top_1_percent": false,
+        "is_in_top_10_percent": false
+      },
+      "cited_by_percentile_year": {
+        "min": 88,
+        "max": 93
+      },
+      "biblio": {
+        "volume": null,
+        "issue": null,
+        "first_page": "45",
+        "last_page": "74"
+      },
+      "is_retracted": false,
+      "is_paratext": false,
+      "is_xpac": false,
+      "primary_topic": {
+        "id": "https://openalex.org/T10470",
+        "display_name": "Usability and User Interface Design",
+        "score": 0.9663000106811523,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1709",
+          "display_name": "Human-Computer Interaction"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      "topics": [
+        {
+          "id": "https://openalex.org/T10470",
+          "display_name": "Usability and User Interface Design",
+          "score": 0.9663000106811523,
+          "subfield": {
+            "id": "https://openalex.org/subfields/1709",
+            "display_name": "Human-Computer Interaction"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/17",
+            "display_name": "Computer Science"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T10803",
+          "display_name": "Innovative Human-Technology Interaction",
+          "score": 0.027499999850988388,
+          "subfield": {
+            "id": "https://openalex.org/subfields/1709",
+            "display_name": "Human-Computer Interaction"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/17",
+            "display_name": "Computer Science"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T14254",
+          "display_name": "Digital Media and Visual Art",
+          "score": 0.0035000001080334187,
+          "subfield": {
+            "id": "https://openalex.org/subfields/1704",
+            "display_name": "Computer Graphics and Computer-Aided Design"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/17",
+            "display_name": "Computer Science"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        }
+      ],
+      "keywords": [
+        {
+          "id": "https://openalex.org/keywords/user-interface-design",
+          "display_name": "user interface design",
+          "score": 0.9869999885559082
+        },
+        {
+          "id": "https://openalex.org/keywords/prototyping",
+          "display_name": "prototype development",
+          "score": 0.7919999957084656
+        },
+        {
+          "id": "https://openalex.org/keywords/visual-design",
+          "display_name": "visual design",
+          "score": 0.7639999985694885
+        },
+        {
+          "id": "https://openalex.org/keywords/interaction-design",
+          "display_name": "interaction design",
+          "score": 0.7179999947547913
+        },
+        {
+          "id": "https://openalex.org/keywords/gestalt-principles",
+          "display_name": "Gestalt principles",
+          "score": 0.9129999876022339
+        },
+        {
+          "id": "https://openalex.org/keywords/wireframes",
+          "display_name": "wireframes",
+          "score": 0.8190000057220459
+        },
+        {
+          "id": "https://openalex.org/keywords/box-model",
+          "display_name": "box model",
+          "score": 0.703000009059906
+        },
+        {
+          "id": "https://openalex.org/keywords/user-testing",
+          "display_name": "user testing",
+          "score": 0.7889999747276306
+        },
+        {
+          "id": "https://openalex.org/keywords/emotional-design",
+          "display_name": "emotional design",
+          "score": 0.9639999866485596
+        },
+        {
+          "id": "https://openalex.org/keywords/persuasive-design",
+          "display_name": "persuasive design",
+          "score": 1.0
+        },
+        {
+          "id": "https://openalex.org/keywords/service-design",
+          "display_name": "service design",
+          "score": 0.9580000042915344
+        },
+        {
+          "id": "https://openalex.org/keywords/human-computer-interaction",
+          "display_name": "human-computer interaction",
+          "score": 0.8330000042915344
+        }
+      ],
+      "concepts": [
+        {
+          "id": "https://openalex.org/C107457646",
+          "wikidata": "https://www.wikidata.org/wiki/Q207434",
+          "display_name": "Human–computer interaction",
+          "level": 1,
+          "score": 0.5555251836776733
+        },
+        {
+          "id": "https://openalex.org/C41008148",
+          "wikidata": "https://www.wikidata.org/wiki/Q21198",
+          "display_name": "Computer science",
+          "level": 0,
+          "score": 0.5340778827667236
+        },
+        {
+          "id": "https://openalex.org/C113843644",
+          "wikidata": "https://www.wikidata.org/wiki/Q901882",
+          "display_name": "Interface (matter)",
+          "level": 4,
+          "score": 0.4903736114501953
+        },
+        {
+          "id": "https://openalex.org/C139366241",
+          "wikidata": "https://www.wikidata.org/wiki/Q135707",
+          "display_name": "Interface design",
+          "level": 2,
+          "score": 0.4814974069595337
+        },
+        {
+          "id": "https://openalex.org/C89505385",
+          "wikidata": "https://www.wikidata.org/wiki/Q47146",
+          "display_name": "User interface",
+          "level": 2,
+          "score": 0.4291721284389496
+        },
+        {
+          "id": "https://openalex.org/C111919701",
+          "wikidata": "https://www.wikidata.org/wiki/Q9135",
+          "display_name": "Operating system",
+          "level": 1,
+          "score": 0.23985254764556885
+        },
+        {
+          "id": "https://openalex.org/C129307140",
+          "wikidata": "https://www.wikidata.org/wiki/Q6795880",
+          "display_name": "Maximum bubble pressure method",
+          "level": 3,
+          "score": 0.0
+        },
+        {
+          "id": "https://openalex.org/C157915830",
+          "wikidata": "https://www.wikidata.org/wiki/Q2928001",
+          "display_name": "Bubble",
+          "level": 2,
+          "score": 0.0
+        }
+      ],
+      "mesh": [],
+      "locations_count": 1,
+      "locations": [
+        {
+          "id": "doi:10.1201/9781315734224-3",
+          "doi": "https://doi.org/10.1201/9781315734224-3",
+          "is_oa": false,
+          "landing_page_url": "https://doi.org/10.1201/9781315734224-3",
+          "pdf_url": null,
+          "source": {
+            "id": "https://openalex.org/S4306462788",
+            "display_name": "A K Peters/CRC Press eBooks",
+            "issn_l": null,
+            "issn": null,
+            "is_oa": false,
+            "is_in_doaj": false,
+            "is_core": false,
+            "listed_in": [],
+            "host_organization": "https://openalex.org/P4310320449",
+            "host_organization_name": "Informa",
+            "host_organization_lineage": [
+              "https://openalex.org/P4310320449"
+            ],
+            "host_organization_lineage_names": [
+              "Informa"
+            ],
+            "type": "ebook platform"
+          },
+          "license": null,
+          "license_id": null,
+          "version": "publishedVersion",
+          "is_accepted": true,
+          "is_published": true,
+          "raw_source_name": "Digital Design in Action",
+          "raw_type": "book-chapter"
+        }
+      ],
+      "best_oa_location": null,
+      "sustainable_development_goals": [],
+      "study_designs": [],
+      "awards": [],
+      "funders": [],
+      "has_content": {
+        "pdf": false,
+        "grobid_xml": false
+      },
+      "content_urls": null,
+      "referenced_works_count": 0,
+      "referenced_works": [],
+      "related_works": [
+        "https://openalex.org/W648144038",
+        "https://openalex.org/W4234888272",
+        "https://openalex.org/W1540650132",
+        "https://openalex.org/W4233403825",
+        "https://openalex.org/W3005748183",
+        "https://openalex.org/W4396798384",
+        "https://openalex.org/W2907241455",
+        "https://openalex.org/W2093077691",
+        "https://openalex.org/W1982551950",
+        "https://openalex.org/W3144248541"
+      ],
+      "abstract_inverted_index": {
+        "Visual": [
+          0
+        ],
+        "designers": [
+          1
+        ],
+        "are": [
+          2,
+          53,
+          86,
+          108
+        ],
+        "an": [
+          3,
+          10
+        ],
+        "integral": [
+          4
+        ],
+        "part": [
+          5
+        ],
+        "of": [
+          6,
+          34,
+          45,
+          62,
+          89,
+          106,
+          112,
+          117,
+          138
+        ],
+        "a": [
+          7,
+          13,
+          32,
+          43,
+          122
+        ],
+        "team": [
+          8
+        ],
+        "developing": [
+          9
+        ],
+        "application.": [
+          11
+        ],
+        "Designing": [
+          12
+        ],
+        "successful": [
+          14
+        ],
+        "interface": [
+          15,
+          73
+        ],
+        "requires": [
+          16
+        ],
+        "understanding": [
+          17
+        ],
+        "visual": [
+          18,
+          104,
+          118,
+          136
+        ],
+        "design": [
+          19,
+          51,
+          90
+        ],
+        "and": [
+          20,
+          50,
+          60,
+          65,
+          100,
+          120,
+          144
+        ],
+        "interaction": [
+          21,
+          127
+        ],
+        "principles": [
+          22,
+          52,
+          105
+        ],
+        "as": [
+          23
+        ],
+        "related": [
+          24
+        ],
+        "to": [
+          25,
+          41,
+          93,
+          125
+        ],
+        "the": [
+          26,
+          37,
+          58,
+          78,
+          109
+        ],
+        "user.": [
+          27,
+          38
+        ],
+        "User": [
+          28
+        ],
+        "Interface": [
+          29
+        ],
+        "(UI)": [
+          30
+        ],
+        "is": [
+          31
+        ],
+        "form": [
+          33
+        ],
+        "communication": [
+          35
+        ],
+        "with": [
+          36
+        ],
+        "From": [
+          39
+        ],
+        "sketch": [
+          40
+        ],
+        "prototype,": [
+          42
+        ],
+        "combination": [
+          44
+        ],
+        "technical": [
+          46
+        ],
+        "workflow,": [
+          47
+        ],
+        "user": [
+          48,
+          72,
+          83
+        ],
+        "testing,": [
+          49
+        ],
+        "integrated.": [
+          54
+        ],
+        "Knowing": [
+          55
+        ],
+        "one's": [
+          56
+        ],
+        "user,": [
+          57
+        ],
+        "content,": [
+          59
+        ],
+        "method": [
+          61,
+          133
+        ],
+        "digital": [
+          63
+        ],
+        "delivery": [
+          64
+        ],
+        "devices": [
+          66
+        ],
+        "will": [
+          67
+        ],
+        "aid": [
+          68
+        ],
+        "in": [
+          69,
+          115
+        ],
+        "creating": [
+          70
+        ],
+        "effective": [
+          71,
+          82
+        ],
+        "prototypes.": [
+          74
+        ],
+        "This": [
+          75
+        ],
+        "chapter": [
+          76
+        ],
+        "reviews": [
+          77
+        ],
+        "process": [
+          79
+        ],
+        "for": [
+          80,
+          135
+        ],
+        "designing": [
+          81
+        ],
+        "interfaces.": [
+          84
+        ],
+        "There": [
+          85
+        ],
+        "three": [
+          87
+        ],
+        "types": [
+          88
+        ],
+        "that": [
+          91
+        ],
+        "relate": [
+          92
+        ],
+        "UI": [
+          94
+        ],
+        "design:": [
+          95
+        ],
+        "emotional": [
+          96
+        ],
+        "design;": [
+          97,
+          99
+        ],
+        "persuasive": [
+          98
+        ],
+        "service": [
+          101
+        ],
+        "design.": [
+          102,
+          128
+        ],
+        "The": [
+          103,
+          129
+        ],
+        "Gestalt": [
+          107
+        ],
+        "fundamental": [
+          110
+        ],
+        "rules": [
+          111
+        ],
+        "human": [
+          113
+        ],
+        "psychology": [
+          114
+        ],
+        "terms": [
+          116
+        ],
+        "perception": [
+          119
+        ],
+        "have": [
+          121
+        ],
+        "direct": [
+          123
+        ],
+        "relationship": [
+          124
+        ],
+        "human-computer": [
+          126
+        ],
+        "box": [
+          130
+        ],
+        "model": [
+          131
+        ],
+        "wireframe": [
+          132
+        ],
+        "allows": [
+          134
+        ],
+        "organization": [
+          137
+        ],
+        "elements,": [
+          139
+        ],
+        "typographic": [
+          140
+        ],
+        "hierarchy,": [
+          141
+        ],
+        "navigation": [
+          142
+        ],
+        "location,": [
+          143
+        ],
+        "content": [
+          145
+        ],
+        "placement.": [
+          146
+        ]
+      },
+      "counts_by_year": [
+        {
+          "year": 2022,
+          "cited_by_count": 1
+        }
+      ],
+      "updated_date": "2026-11-14T11:04:58.165337",
+      "created_date": "2022-05-12T00:00:00"
+    }
+  ],
+  "group_by": []
+}

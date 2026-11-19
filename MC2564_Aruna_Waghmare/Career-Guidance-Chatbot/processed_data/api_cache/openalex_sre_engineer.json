@@ -1,0 +1,3017 @@
+{
+  "meta": {
+    "notice": "No API key, so this request shares one free daily budget ($0.10) with everyone on your network's IP address. Get a free key with its own $1/day at https://openalex.org/settings/api and add api_key=YOUR_KEY to your requests. An AI agent can get one for its user in one call: POST https://api.openalex.org/api-keys with {\"email\": \"<your user's email>\"}; we email them a link, and the key works once they click it. Docs for agents: https://help.openalex.org/llms.txt",
+    "count": 11994,
+    "db_response_time_ms": 101,
+    "page": 1,
+    "per_page": 5,
+    "groups_count": null,
+    "x_query": {
+      "oql": "get works with (SRE Engineer) in the title, abstract, or full text",
+      "x_new_oql": "get works with (SRE Engineer) in the title, abstract, or full text",
+      "oqo": {
+        "get_rows": "works",
+        "filter_rows": [
+          {
+            "column_id": "fulltext.search",
+            "value": "SRE Engineer",
+            "operator": "has"
+          }
+        ]
+      },
+      "url": "/works?filter=fulltext.search:SRE Engineer&per_page=5",
+      "order": "best matches first",
+      "order_default": true
+    },
+    "cost_usd": 0.001
+  },
+  "results": [
+    {
+      "id": "https://openalex.org/W2902708500",
+      "doi": null,
+      "title": "SREs + Software Engineers: Making It Work",
+      "display_name": "SREs + Software Engineers: Making It Work",
+      "relevance_score": 80.502686,
+      "publication_year": 2016,
+      "publication_date": "2016-01-01",
+      "ids": {
+        "openalex": "https://openalex.org/W2902708500",
+        "mag": "2902708500"
+      },
+      "language": "en",
+      "primary_location": {
+        "id": "mag:2902708500",
+        "doi": null,
+        "is_oa": false,
+        "landing_page_url": "https://www.usenix.org/conference/srecon16/program/presentation/schiff",
+        "pdf_url": null,
+        "source": null,
+        "license": null,
+        "license_id": null,
+        "version": null,
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": null,
+        "raw_type": null
+      },
+      "parent_works": [],
+      "lineage": [
+        "https://openalex.org/W2902708500"
+      ],
+      "child_works_count": 0,
+      "type": "article",
+      "is_traditional": true,
+      "indexed_in": [],
+      "open_access": {
+        "is_oa": false,
+        "oa_status": "closed",
+        "oa_url": null,
+        "any_repository_has_fulltext": false
+      },
+      "authorships": [
+        {
+          "author_position": "first",
+          "author": {
+            "id": "https://openalex.org/A5025662814",
+            "display_name": "Nina Schiff",
+            "orcid": null,
+            "observed_orcids": []
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I4210111288",
+              "display_name": "Meta (United Kingdom)",
+              "ror": "https://ror.org/020ye1821",
+              "country_code": "GB",
+              "type": "company",
+              "lineage": [
+                "https://openalex.org/I4210111288",
+                "https://openalex.org/I4210114444"
+              ]
+            },
+            {
+              "id": "https://openalex.org/I4210114444",
+              "display_name": "Meta (United States)",
+              "ror": "https://ror.org/01zbnvs85",
+              "country_code": "US",
+              "type": "company",
+              "lineage": [
+                "https://openalex.org/I4210114444"
+              ]
+            }
+          ],
+          "countries": [
+            "GB",
+            "US"
+          ],
+          "is_corresponding": true,
+          "raw_author_name": "Nina Schiff",
+          "raw_affiliation_strings": [
+            "Facebook"
+          ],
+          "raw_orcid": null,
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Facebook",
+              "institution_ids": [
+                "https://openalex.org/I4210111288",
+                "https://openalex.org/I4210114444"
+              ]
+            }
+          ]
+        }
+      ],
+      "institutions": [],
+      "countries_distinct_count": 2,
+      "institutions_distinct_count": 2,
+      "corresponding_author_ids": [
+        "https://openalex.org/A5025662814"
+      ],
+      "corresponding_institution_ids": [
+        "https://openalex.org/I4210111288",
+        "https://openalex.org/I4210114444"
+      ],
+      "apc_list": null,
+      "apc_paid": null,
+      "fwci": 0.0,
+      "is_authors_truncated": false,
+      "has_fulltext": false,
+      "cited_by_count": 0,
+      "citation_normalized_percentile": {
+        "value": 0.0,
+        "is_in_top_1_percent": false,
+        "is_in_top_10_percent": false
+      },
+      "cited_by_percentile_year": null,
+      "biblio": {
+        "volume": null,
+        "issue": null,
+        "first_page": null,
+        "last_page": null
+      },
+      "is_retracted": false,
+      "is_paratext": false,
+      "is_xpac": false,
+      "primary_topic": {
+        "id": "https://openalex.org/T10430",
+        "display_name": "Software Engineering Techniques and Practices",
+        "score": 0.9872999787330627,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1710",
+          "display_name": "Information Systems"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      "topics": [
+        {
+          "id": "https://openalex.org/T10430",
+          "display_name": "Software Engineering Techniques and Practices",
+          "score": 0.9872999787330627,
+          "subfield": {
+            "id": "https://openalex.org/subfields/1710",
+            "display_name": "Information Systems"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/17",
+            "display_name": "Computer Science"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T12127",
+          "display_name": "Software System Performance and Reliability",
+          "score": 0.008999999612569809,
+          "subfield": {
+            "id": "https://openalex.org/subfields/1705",
+            "display_name": "Computer Networks and Communications"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/17",
+            "display_name": "Computer Science"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T10639",
+          "display_name": "Advanced Software Engineering Methodologies",
+          "score": 0.00039999998989515007,
+          "subfield": {
+            "id": "https://openalex.org/subfields/1712",
+            "display_name": "Software"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/17",
+            "display_name": "Computer Science"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        }
+      ],
+      "keywords": [
+        {
+          "id": "https://openalex.org/keywords/site-reliability-engineering",
+          "display_name": "site reliability engineering",
+          "score": 0.75
+        },
+        {
+          "id": "https://openalex.org/keywords/software-engineering",
+          "display_name": "software engineering",
+          "score": 0.7590000033378601
+        },
+        {
+          "id": "https://openalex.org/keywords/devops",
+          "display_name": "DevOps",
+          "score": 0.6809999942779541
+        }
+      ],
+      "concepts": [
+        {
+          "id": "https://openalex.org/C18762648",
+          "wikidata": "https://www.wikidata.org/wiki/Q42213",
+          "display_name": "Work (physics)",
+          "level": 2,
+          "score": 0.6326671838760376
+        },
+        {
+          "id": "https://openalex.org/C2777904410",
+          "wikidata": "https://www.wikidata.org/wiki/Q7397",
+          "display_name": "Software",
+          "level": 2,
+          "score": 0.49752405285835266
+        },
+        {
+          "id": "https://openalex.org/C41008148",
+          "wikidata": "https://www.wikidata.org/wiki/Q21198",
+          "display_name": "Computer science",
+          "level": 0,
+          "score": 0.41394883394241333
+        },
+        {
+          "id": "https://openalex.org/C115903868",
+          "wikidata": "https://www.wikidata.org/wiki/Q80993",
+          "display_name": "Software engineering",
+          "level": 1,
+          "score": 0.38299858570098877
+        },
+        {
+          "id": "https://openalex.org/C127413603",
+          "wikidata": "https://www.wikidata.org/wiki/Q11023",
+          "display_name": "Engineering",
+          "level": 0,
+          "score": 0.3710516095161438
+        },
+        {
+          "id": "https://openalex.org/C107053488",
+          "wikidata": "https://www.wikidata.org/wiki/Q2674423",
+          "display_name": "Construction engineering",
+          "level": 1,
+          "score": 0.3429068922996521
+        },
+        {
+          "id": "https://openalex.org/C78519656",
+          "wikidata": "https://www.wikidata.org/wiki/Q101333",
+          "display_name": "Mechanical engineering",
+          "level": 1,
+          "score": 0.1462712585926056
+        },
+        {
+          "id": "https://openalex.org/C199360897",
+          "wikidata": "https://www.wikidata.org/wiki/Q9143",
+          "display_name": "Programming language",
+          "level": 1,
+          "score": 0.0
+        }
+      ],
+      "mesh": [],
+      "locations_count": 1,
+      "locations": [
+        {
+          "id": "mag:2902708500",
+          "doi": null,
+          "is_oa": false,
+          "landing_page_url": "https://www.usenix.org/conference/srecon16/program/presentation/schiff",
+          "pdf_url": null,
+          "source": null,
+          "license": null,
+          "license_id": null,
+          "version": null,
+          "is_accepted": false,
+          "is_published": false,
+          "raw_source_name": null,
+          "raw_type": null
+        }
+      ],
+      "best_oa_location": null,
+      "sustainable_development_goals": [],
+      "study_designs": [],
+      "awards": [],
+      "funders": [],
+      "has_content": {
+        "grobid_xml": false,
+        "pdf": false
+      },
+      "content_urls": null,
+      "referenced_works_count": 0,
+      "referenced_works": [],
+      "related_works": [
+        "https://openalex.org/W3106716993",
+        "https://openalex.org/W6941382341",
+        "https://openalex.org/W2964622635",
+        "https://openalex.org/W2903069264",
+        "https://openalex.org/W2339919245",
+        "https://openalex.org/W2964619518",
+        "https://openalex.org/W1582008295",
+        "https://openalex.org/W2902616273",
+        "https://openalex.org/W2912536193",
+        "https://openalex.org/W2903512394"
+      ],
+      "abstract_inverted_index": null,
+      "counts_by_year": [],
+      "updated_date": "2026-10-01T08:54:57.152042",
+      "created_date": "2018-12-11T00:00:00"
+    },
+    {
+      "id": "https://openalex.org/W2339919245",
+      "doi": null,
+      "title": "Being an On-Call Engineer: A Google SRE Perspective",
+      "display_name": "Being an On-Call Engineer: A Google SRE Perspective",
+      "relevance_score": 76.8614,
+      "publication_year": 2015,
+      "publication_date": "2015-01-01",
+      "ids": {
+        "openalex": "https://openalex.org/W2339919245",
+        "mag": "2339919245"
+      },
+      "language": "en",
+      "primary_location": {
+        "id": "mag:2339919245",
+        "doi": null,
+        "is_oa": false,
+        "landing_page_url": "https://ai.google/research/pubs/pub44813",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4306518845",
+          "display_name": ";login:: the magazine of USENIX & SAGE",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "listed_in": [],
+          "host_organization": null,
+          "host_organization_name": null,
+          "host_organization_lineage": [],
+          "host_organization_lineage_names": [],
+          "type": "journal"
+        },
+        "license": null,
+        "license_id": null,
+        "version": null,
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": "login Usenix Mag.",
+        "raw_type": null
+      },
+      "parent_works": [],
+      "lineage": [
+        "https://openalex.org/W2339919245"
+      ],
+      "child_works_count": 0,
+      "type": "article",
+      "is_traditional": true,
+      "indexed_in": [],
+      "open_access": {
+        "is_oa": false,
+        "oa_status": "closed",
+        "oa_url": null,
+        "any_repository_has_fulltext": false
+      },
+      "authorships": [
+        {
+          "author_position": "first",
+          "author": {
+            "id": "https://openalex.org/A5022500776",
+            "display_name": "Andrea Spadaccini",
+            "orcid": null,
+            "observed_orcids": []
+          },
+          "institutions": [],
+          "countries": [],
+          "is_corresponding": false,
+          "raw_author_name": "Andrea Spadaccini",
+          "raw_affiliation_strings": [],
+          "raw_orcid": null,
+          "affiliations": []
+        },
+        {
+          "author_position": "last",
+          "author": {
+            "id": "https://openalex.org/A5065273320",
+            "display_name": "Kavita Guliani",
+            "orcid": null,
+            "observed_orcids": []
+          },
+          "institutions": [],
+          "countries": [],
+          "is_corresponding": false,
+          "raw_author_name": "Kavita Guliani",
+          "raw_affiliation_strings": [],
+          "raw_orcid": null,
+          "affiliations": []
+        }
+      ],
+      "institutions": [],
+      "countries_distinct_count": 0,
+      "institutions_distinct_count": 0,
+      "corresponding_author_ids": [],
+      "corresponding_institution_ids": [],
+      "apc_list": null,
+      "apc_paid": null,
+      "fwci": 0.0,
+      "is_authors_truncated": false,
+      "has_fulltext": false,
+      "cited_by_count": 0,
+      "citation_normalized_percentile": {
+        "value": 0.0,
+        "is_in_top_1_percent": false,
+        "is_in_top_10_percent": false
+      },
+      "cited_by_percentile_year": null,
+      "biblio": {
+        "volume": "40",
+        "issue": null,
+        "first_page": null,
+        "last_page": null
+      },
+      "is_retracted": false,
+      "is_paratext": false,
+      "is_xpac": false,
+      "primary_topic": {
+        "id": "https://openalex.org/T12127",
+        "display_name": "Software System Performance and Reliability",
+        "score": 0.9717000126838684,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1705",
+          "display_name": "Computer Networks and Communications"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      "topics": [
+        {
+          "id": "https://openalex.org/T12127",
+          "display_name": "Software System Performance and Reliability",
+          "score": 0.9717000126838684,
+          "subfield": {
+            "id": "https://openalex.org/subfields/1705",
+            "display_name": "Computer Networks and Communications"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/17",
+            "display_name": "Computer Science"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T10430",
+          "display_name": "Software Engineering Techniques and Practices",
+          "score": 0.019099999219179153,
+          "subfield": {
+            "id": "https://openalex.org/subfields/1710",
+            "display_name": "Information Systems"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/17",
+            "display_name": "Computer Science"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T10101",
+          "display_name": "Cloud Computing and Resource Management",
+          "score": 0.003100000089034438,
+          "subfield": {
+            "id": "https://openalex.org/subfields/1710",
+            "display_name": "Information Systems"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/17",
+            "display_name": "Computer Science"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        }
+      ],
+      "keywords": [
+        {
+          "id": "https://openalex.org/keywords/on-call-duty",
+          "display_name": "on-call duty",
+          "score": 0.7409999966621399
+        },
+        {
+          "id": "https://openalex.org/keywords/site-reliability-engineering",
+          "display_name": "site reliability engineering",
+          "score": 0.9399999976158142
+        },
+        {
+          "id": "https://openalex.org/keywords/google",
+          "display_name": "Google",
+          "score": 0.6850000023841858
+        },
+        {
+          "id": "https://openalex.org/keywords/system-reliability",
+          "display_name": "system reliability",
+          "score": 0.49900001287460327
+        },
+        {
+          "id": "https://openalex.org/keywords/incident-response",
+          "display_name": "incident response",
+          "score": 0.5019999742507935
+        }
+      ],
+      "concepts": [
+        {
+          "id": "https://openalex.org/C12713177",
+          "wikidata": "https://www.wikidata.org/wiki/Q1900281",
+          "display_name": "Perspective (graphical)",
+          "level": 2,
+          "score": 0.7001573443412781
+        },
+        {
+          "id": "https://openalex.org/C108827166",
+          "wikidata": "https://www.wikidata.org/wiki/Q175975",
+          "display_name": "Internet privacy",
+          "level": 1,
+          "score": 0.389644980430603
+        },
+        {
+          "id": "https://openalex.org/C41008148",
+          "wikidata": "https://www.wikidata.org/wiki/Q21198",
+          "display_name": "Computer science",
+          "level": 0,
+          "score": 0.3841492831707001
+        },
+        {
+          "id": "https://openalex.org/C154945302",
+          "wikidata": "https://www.wikidata.org/wiki/Q11660",
+          "display_name": "Artificial intelligence",
+          "level": 1,
+          "score": 0.16142719984054565
+        }
+      ],
+      "mesh": [],
+      "locations_count": 1,
+      "locations": [
+        {
+          "id": "mag:2339919245",
+          "doi": null,
+          "is_oa": false,
+          "landing_page_url": "https://ai.google/research/pubs/pub44813",
+          "pdf_url": null,
+          "source": {
+            "id": "https://openalex.org/S4306518845",
+            "display_name": ";login:: the magazine of USENIX & SAGE",
+            "issn_l": null,
+            "issn": null,
+            "is_oa": false,
+            "is_in_doaj": false,
+            "is_core": false,
+            "listed_in": [],
+            "host_organization": null,
+            "host_organization_name": null,
+            "host_organization_lineage": [],
+            "host_organization_lineage_names": [],
+            "type": "journal"
+          },
+          "license": null,
+          "license_id": null,
+          "version": null,
+          "is_accepted": false,
+          "is_published": false,
+          "raw_source_name": "login Usenix Mag.",
+          "raw_type": null
+        }
+      ],
+      "best_oa_location": null,
+      "sustainable_development_goals": [],
+      "study_designs": [],
+      "awards": [],
+      "funders": [],
+      "has_content": {
+        "grobid_xml": false,
+        "pdf": false
+      },
+      "content_urls": null,
+      "referenced_works_count": 0,
+      "referenced_works": [],
+      "related_works": [
+        "https://openalex.org/W2964622635",
+        "https://openalex.org/W3214833282",
+        "https://openalex.org/W7056772628",
+        "https://openalex.org/W3106716993",
+        "https://openalex.org/W2900535231",
+        "https://openalex.org/W2901625794",
+        "https://openalex.org/W2912397880",
+        "https://openalex.org/W2901565746",
+        "https://openalex.org/W3164307194"
+      ],
+      "abstract_inverted_index": null,
+      "counts_by_year": [],
+      "updated_date": "2026-11-14T11:04:58.165337",
+      "created_date": "2016-06-24T00:00:00"
+    },
+    {
+      "id": "https://openalex.org/W1582008295",
+      "doi": "https://doi.org/10.1109/issre.1996.558877",
+      "title": "How Can Software Reliability Engineering (SRE) Help System Engineers and SofWare Architects?",
+      "display_name": "How Can Software Reliability Engineering (SRE) Help System Engineers and SofWare Architects?",
+      "relevance_score": 69.47403,
+      "publication_year": 1996,
+      "publication_date": "1996-01-01",
+      "ids": {
+        "openalex": "https://openalex.org/W1582008295",
+        "doi": "https://doi.org/10.1109/issre.1996.558877",
+        "mag": "1582008295"
+      },
+      "language": "en",
+      "primary_location": {
+        "id": "doi:10.1109/issre.1996.558877",
+        "doi": "https://doi.org/10.1109/issre.1996.558877",
+        "is_oa": false,
+        "landing_page_url": "https://doi.org/10.1109/issre.1996.558877",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4210220341",
+          "display_name": "Proceedings/Proceedings - International Symposium on Software Reliability Engineering",
+          "issn_l": "1071-9458",
+          "issn": [
+            "1071-9458",
+            "2332-6549"
+          ],
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": true,
+          "listed_in": [
+            "cwts-core",
+            "jufo-1",
+            "norway-1"
+          ],
+          "host_organization": "https://openalex.org/P4310319808",
+          "host_organization_name": "Institute of Electrical and Electronics Engineers",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310319808"
+          ],
+          "host_organization_lineage_names": [
+            "Institute of Electrical and Electronics Engineers"
+          ],
+          "type": "conference"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Proceedings of ISSRE '96: 7th International Symposium on Software Reliability Engineering",
+        "raw_type": "proceedings-article"
+      },
+      "parent_works": [],
+      "lineage": [
+        "https://openalex.org/W1582008295"
+      ],
+      "child_works_count": 0,
+      "type": "conference-paper",
+      "is_traditional": true,
+      "indexed_in": [
+        "crossref"
+      ],
+      "open_access": {
+        "is_oa": false,
+        "oa_status": "closed",
+        "oa_url": null,
+        "any_repository_has_fulltext": false
+      },
+      "authorships": [
+        {
+          "author_position": "first",
+          "author": {
+            "id": "https://openalex.org/A5077119634",
+            "display_name": "William W. Everett",
+            "orcid": null,
+            "observed_orcids": []
+          },
+          "institutions": [],
+          "countries": [],
+          "is_corresponding": false,
+          "raw_author_name": "W.W. Everett",
+          "raw_affiliation_strings": [
+            "Software Process & Reliability Engineering 4212 Rancho Centro NW Albuquerque, NM 87120"
+          ],
+          "raw_orcid": null,
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Software Process & Reliability Engineering 4212 Rancho Centro NW Albuquerque, NM 87120",
+              "institution_ids": []
+            }
+          ]
+        },
+        {
+          "author_position": "middle",
+          "author": {
+            "id": "https://openalex.org/A5024273834",
+            "display_name": "John D. Muss",
+            "orcid": null,
+            "observed_orcids": []
+          },
+          "institutions": [],
+          "countries": [],
+          "is_corresponding": false,
+          "raw_author_name": "J.D. Muss",
+          "raw_affiliation_strings": [],
+          "raw_orcid": null,
+          "affiliations": []
+        },
+        {
+          "author_position": "middle",
+          "author": {
+            "id": "https://openalex.org/A5058410141",
+            "display_name": "Willa K. Ehrlich",
+            "orcid": null,
+            "observed_orcids": []
+          },
+          "institutions": [],
+          "countries": [],
+          "is_corresponding": false,
+          "raw_author_name": "W.K. Ehrlich",
+          "raw_affiliation_strings": [],
+          "raw_orcid": null,
+          "affiliations": []
+        },
+        {
+          "author_position": "middle",
+          "author": {
+            "id": "https://openalex.org/A5091616957",
+            "display_name": "Patrícia Kayser Vargas Mangan",
+            "orcid": "https://orcid.org/0000-0001-9929-8887",
+            "observed_orcids": [
+              "https://orcid.org/0000-0001-9929-8887"
+            ]
+          },
+          "institutions": [],
+          "countries": [],
+          "is_corresponding": false,
+          "raw_author_name": "P.K. Mangan",
+          "raw_affiliation_strings": [],
+          "raw_orcid": null,
+          "affiliations": []
+        },
+        {
+          "author_position": "middle",
+          "author": {
+            "id": "https://openalex.org/A5005444652",
+            "display_name": "J.D. Mum",
+            "orcid": null,
+            "observed_orcids": []
+          },
+          "institutions": [],
+          "countries": [],
+          "is_corresponding": false,
+          "raw_author_name": "J.D. Mum",
+          "raw_affiliation_strings": [],
+          "raw_orcid": null,
+          "affiliations": []
+        },
+        {
+          "author_position": "last",
+          "author": {
+            "id": "https://openalex.org/A5067249625",
+            "display_name": "Robert H Yacobellis",
+            "orcid": null,
+            "observed_orcids": []
+          },
+          "institutions": [],
+          "countries": [],
+          "is_corresponding": false,
+          "raw_author_name": "R.H. Yacobellis",
+          "raw_affiliation_strings": [],
+          "raw_orcid": null,
+          "affiliations": []
+        }
+      ],
+      "institutions": [],
+      "countries_distinct_count": 0,
+      "institutions_distinct_count": 0,
+      "corresponding_author_ids": [],
+      "corresponding_institution_ids": [],
+      "apc_list": null,
+      "apc_paid": null,
+      "fwci": 0.0,
+      "is_authors_truncated": false,
+      "has_fulltext": false,
+      "cited_by_count": 0,
+      "citation_normalized_percentile": {
+        "value": 0.0,
+        "is_in_top_1_percent": false,
+        "is_in_top_10_percent": false
+      },
+      "cited_by_percentile_year": null,
+      "biblio": {
+        "volume": null,
+        "issue": null,
+        "first_page": "285",
+        "last_page": "287"
+      },
+      "is_retracted": false,
+      "is_paratext": false,
+      "is_xpac": false,
+      "primary_topic": {
+        "id": "https://openalex.org/T12423",
+        "display_name": "Software Reliability and Analysis Research",
+        "score": 0.7749000191688538,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1712",
+          "display_name": "Software"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      "topics": [
+        {
+          "id": "https://openalex.org/T12423",
+          "display_name": "Software Reliability and Analysis Research",
+          "score": 0.7749000191688538,
+          "subfield": {
+            "id": "https://openalex.org/subfields/1712",
+            "display_name": "Software"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/17",
+            "display_name": "Computer Science"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T12127",
+          "display_name": "Software System Performance and Reliability",
+          "score": 0.11209999769926071,
+          "subfield": {
+            "id": "https://openalex.org/subfields/1705",
+            "display_name": "Computer Networks and Communications"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/17",
+            "display_name": "Computer Science"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T10772",
+          "display_name": "Distributed systems and fault tolerance",
+          "score": 0.04089999943971634,
+          "subfield": {
+            "id": "https://openalex.org/subfields/1705",
+            "display_name": "Computer Networks and Communications"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/17",
+            "display_name": "Computer Science"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        }
+      ],
+      "keywords": [
+        {
+          "id": "https://openalex.org/keywords/software-reliability-engineering",
+          "display_name": "software reliability engineering",
+          "score": 1.0
+        },
+        {
+          "id": "https://openalex.org/keywords/systems-engineering",
+          "display_name": "systems engineering",
+          "score": 0.9070000052452087
+        },
+        {
+          "id": "https://openalex.org/keywords/software-architecture",
+          "display_name": "software architecture",
+          "score": 0.9990000128746033
+        },
+        {
+          "id": "https://openalex.org/keywords/software-development-lifecycle",
+          "display_name": "software development lifecycle",
+          "score": 0.8199999928474426
+        },
+        {
+          "id": "https://openalex.org/keywords/software-reliability",
+          "display_name": "software reliability",
+          "score": 0.5740000009536743
+        }
+      ],
+      "concepts": [
+        {
+          "id": "https://openalex.org/C115903868",
+          "wikidata": "https://www.wikidata.org/wiki/Q80993",
+          "display_name": "Software engineering",
+          "level": 1,
+          "score": 0.6602151393890381
+        },
+        {
+          "id": "https://openalex.org/C2779182362",
+          "wikidata": "https://www.wikidata.org/wiki/Q17126187",
+          "display_name": "Session (web analytics)",
+          "level": 2,
+          "score": 0.6207711696624756
+        },
+        {
+          "id": "https://openalex.org/C43214815",
+          "wikidata": "https://www.wikidata.org/wiki/Q7310987",
+          "display_name": "Reliability (semiconductor)",
+          "level": 3,
+          "score": 0.5422713160514832
+        },
+        {
+          "id": "https://openalex.org/C41008148",
+          "wikidata": "https://www.wikidata.org/wiki/Q21198",
+          "display_name": "Computer science",
+          "level": 0,
+          "score": 0.5391794443130493
+        },
+        {
+          "id": "https://openalex.org/C2777904410",
+          "wikidata": "https://www.wikidata.org/wiki/Q7397",
+          "display_name": "Software",
+          "level": 2,
+          "score": 0.5103597044944763
+        },
+        {
+          "id": "https://openalex.org/C120617098",
+          "wikidata": "https://www.wikidata.org/wiki/Q559486",
+          "display_name": "Systems development life cycle",
+          "level": 5,
+          "score": 0.48191335797309875
+        },
+        {
+          "id": "https://openalex.org/C18762648",
+          "wikidata": "https://www.wikidata.org/wiki/Q42213",
+          "display_name": "Work (physics)",
+          "level": 2,
+          "score": 0.4606812596321106
+        },
+        {
+          "id": "https://openalex.org/C117447612",
+          "wikidata": "https://www.wikidata.org/wiki/Q1412670",
+          "display_name": "Software quality",
+          "level": 4,
+          "score": 0.4305039048194885
+        },
+        {
+          "id": "https://openalex.org/C529173508",
+          "wikidata": "https://www.wikidata.org/wiki/Q638608",
+          "display_name": "Software development",
+          "level": 3,
+          "score": 0.42612919211387634
+        },
+        {
+          "id": "https://openalex.org/C149091818",
+          "wikidata": "https://www.wikidata.org/wiki/Q2429814",
+          "display_name": "Software system",
+          "level": 3,
+          "score": 0.41913196444511414
+        },
+        {
+          "id": "https://openalex.org/C182500959",
+          "wikidata": "https://www.wikidata.org/wiki/Q7551380",
+          "display_name": "Social software engineering",
+          "level": 5,
+          "score": 0.4187110662460327
+        },
+        {
+          "id": "https://openalex.org/C180152950",
+          "wikidata": "https://www.wikidata.org/wiki/Q2904257",
+          "display_name": "Software development process",
+          "level": 4,
+          "score": 0.3588407039642334
+        },
+        {
+          "id": "https://openalex.org/C127413603",
+          "wikidata": "https://www.wikidata.org/wiki/Q11023",
+          "display_name": "Engineering",
+          "level": 0,
+          "score": 0.34922513365745544
+        },
+        {
+          "id": "https://openalex.org/C186846655",
+          "wikidata": "https://www.wikidata.org/wiki/Q3398377",
+          "display_name": "Software construction",
+          "level": 4,
+          "score": 0.2994964122772217
+        },
+        {
+          "id": "https://openalex.org/C136764020",
+          "wikidata": "https://www.wikidata.org/wiki/Q466",
+          "display_name": "World Wide Web",
+          "level": 1,
+          "score": 0.1514483094215393
+        },
+        {
+          "id": "https://openalex.org/C111919701",
+          "wikidata": "https://www.wikidata.org/wiki/Q9135",
+          "display_name": "Operating system",
+          "level": 1,
+          "score": 0.0997132658958435
+        },
+        {
+          "id": "https://openalex.org/C78519656",
+          "wikidata": "https://www.wikidata.org/wiki/Q101333",
+          "display_name": "Mechanical engineering",
+          "level": 1,
+          "score": 0.06850016117095947
+        },
+        {
+          "id": "https://openalex.org/C163258240",
+          "wikidata": "https://www.wikidata.org/wiki/Q25342",
+          "display_name": "Power (physics)",
+          "level": 2,
+          "score": 0.0
+        },
+        {
+          "id": "https://openalex.org/C121332964",
+          "wikidata": "https://www.wikidata.org/wiki/Q413",
+          "display_name": "Physics",
+          "level": 0,
+          "score": 0.0
+        },
+        {
+          "id": "https://openalex.org/C62520636",
+          "wikidata": "https://www.wikidata.org/wiki/Q944",
+          "display_name": "Quantum mechanics",
+          "level": 1,
+          "score": 0.0
+        }
+      ],
+      "mesh": [],
+      "locations_count": 1,
+      "locations": [
+        {
+          "id": "doi:10.1109/issre.1996.558877",
+          "doi": "https://doi.org/10.1109/issre.1996.558877",
+          "is_oa": false,
+          "landing_page_url": "https://doi.org/10.1109/issre.1996.558877",
+          "pdf_url": null,
+          "source": {
+            "id": "https://openalex.org/S4210220341",
+            "display_name": "Proceedings/Proceedings - International Symposium on Software Reliability Engineering",
+            "issn_l": "1071-9458",
+            "issn": [
+              "1071-9458",
+              "2332-6549"
+            ],
+            "is_oa": false,
+            "is_in_doaj": false,
+            "is_core": true,
+            "listed_in": [
+              "cwts-core",
+              "jufo-1",
+              "norway-1"
+            ],
+            "host_organization": "https://openalex.org/P4310319808",
+            "host_organization_name": "Institute of Electrical and Electronics Engineers",
+            "host_organization_lineage": [
+              "https://openalex.org/P4310319808"
+            ],
+            "host_organization_lineage_names": [
+              "Institute of Electrical and Electronics Engineers"
+            ],
+            "type": "conference"
+          },
+          "license": null,
+          "license_id": null,
+          "version": "publishedVersion",
+          "is_accepted": true,
+          "is_published": true,
+          "raw_source_name": "Proceedings of ISSRE '96: 7th International Symposium on Software Reliability Engineering",
+          "raw_type": "proceedings-article"
+        }
+      ],
+      "best_oa_location": null,
+      "sustainable_development_goals": [],
+      "study_designs": [],
+      "awards": [],
+      "funders": [],
+      "has_content": {
+        "grobid_xml": false,
+        "pdf": false
+      },
+      "content_urls": null,
+      "referenced_works_count": 0,
+      "referenced_works": [],
+      "related_works": [
+        "https://openalex.org/W6941382341",
+        "https://openalex.org/W2902708500",
+        "https://openalex.org/W4236699897",
+        "https://openalex.org/W7100014362",
+        "https://openalex.org/W4411120677",
+        "https://openalex.org/W2137439603",
+        "https://openalex.org/W243283267",
+        "https://openalex.org/W3106716993",
+        "https://openalex.org/W1574504346",
+        "https://openalex.org/W276977333"
+      ],
+      "abstract_inverted_index": {
+        "This": [
+          0
+        ],
+        "panel": [
+          1,
+          19
+        ],
+        "session": [
+          2
+        ],
+        "will": [
+          3,
+          20
+        ],
+        "discuss": [
+          4,
+          21
+        ],
+        "how": [
+          5,
+          22
+        ],
+        "Systems": [
+          6,
+          47
+        ],
+        "Engineers": [
+          7
+        ],
+        "and": [
+          8,
+          42,
+          49,
+          54
+        ],
+        "Software": [
+          9,
+          50
+        ],
+        "Architects": [
+          10
+        ],
+        "can": [
+          11
+        ],
+        "benefit": [
+          12
+        ],
+        "porn": [
+          13
+        ],
+        "using": [
+          14
+        ],
+        "SRE.": [
+          15
+        ],
+        "Members": [
+          16
+        ],
+        "of": [
+          17
+        ],
+        "the": [
+          18,
+          33
+        ],
+        "their": [
+          23,
+          58
+        ],
+        "respective": [
+          24
+        ],
+        "organizations": [
+          25
+        ],
+        "use": [
+          26,
+          55
+        ],
+        "(or": [
+          27
+        ],
+        "anticipate": [
+          28
+        ],
+        "using)": [
+          29
+        ],
+        "SRE": [
+          30,
+          56
+        ],
+        "earlier": [
+          31
+        ],
+        "in": [
+          32,
+          46,
+          57
+        ],
+        "software": [
+          34
+        ],
+        "development": [
+          35
+        ],
+        "life-cycle.": [
+          36
+        ],
+        "The": [
+          37
+        ],
+        "intent": [
+          38
+        ],
+        "is": [
+          39
+        ],
+        "to": [
+          40,
+          52
+        ],
+        "stimulate": [
+          41
+        ],
+        "encourage": [
+          43
+        ],
+        "those": [
+          44
+        ],
+        "involved": [
+          45
+        ],
+        "Engineering": [
+          48
+        ],
+        "Architecture": [
+          51
+        ],
+        "adopt": [
+          53
+        ],
+        "work.": [
+          59
+        ]
+      },
+      "counts_by_year": [],
+      "updated_date": "2026-10-28T10:33:24.094632",
+      "created_date": "2016-06-24T00:00:00"
+    },
+    {
+      "id": "https://openalex.org/W4386447834",
+      "doi": "https://doi.org/10.5120/ijca2023923053",
+      "title": "Application Development Feasibility: DevOps or SRE?",
+      "display_name": "Application Development Feasibility: DevOps or SRE?",
+      "relevance_score": 40.94416,
+      "publication_year": 2023,
+      "publication_date": "2023-08-31",
+      "ids": {
+        "openalex": "https://openalex.org/W4386447834",
+        "doi": "https://doi.org/10.5120/ijca2023923053"
+      },
+      "language": "en",
+      "primary_location": {
+        "id": "doi:10.5120/ijca2023923053",
+        "doi": "https://doi.org/10.5120/ijca2023923053",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.5120/ijca2023923053",
+        "pdf_url": "https://doi.org/10.5120/ijca2023923053",
+        "source": {
+          "id": "https://openalex.org/S4210206007",
+          "display_name": "International Journal of Computer Applications",
+          "issn_l": "0975-8887",
+          "issn": [
+            "0975-8887"
+          ],
+          "is_oa": true,
+          "is_in_doaj": false,
+          "is_core": true,
+          "listed_in": [
+            "anvur-scientific",
+            "cwts-core"
+          ],
+          "host_organization": "https://openalex.org/P4322545532",
+          "host_organization_name": "Foundation of Computer Science",
+          "host_organization_lineage": [
+            "https://openalex.org/P4322545532"
+          ],
+          "host_organization_lineage_names": [
+            "Foundation of Computer Science"
+          ],
+          "type": "journal"
+        },
+        "license": "public-domain",
+        "license_id": "https://openalex.org/licenses/public-domain",
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "International Journal of Computer Applications",
+        "raw_type": "journal-article"
+      },
+      "parent_works": [],
+      "lineage": [
+        "https://openalex.org/W4386447834"
+      ],
+      "child_works_count": 0,
+      "type": "article",
+      "is_traditional": true,
+      "indexed_in": [
+        "crossref"
+      ],
+      "open_access": {
+        "is_oa": true,
+        "oa_status": "diamond",
+        "oa_url": "https://doi.org/10.5120/ijca2023923053",
+        "any_repository_has_fulltext": false
+      },
+      "authorships": [
+        {
+          "author_position": "first",
+          "author": {
+            "id": "https://openalex.org/A5110103295",
+            "display_name": "Olumide Bashiru Abiola",
+            "orcid": null,
+            "observed_orcids": []
+          },
+          "institutions": [],
+          "countries": [],
+          "is_corresponding": false,
+          "raw_author_name": "Olumide Bashiru Abiola",
+          "raw_affiliation_strings": [
+            "Beechnet Solutions Limited 2967 Dundas Street West, #724D, Toronto, Ontario M6P 1Z2, Canada"
+          ],
+          "raw_orcid": null,
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Beechnet Solutions Limited 2967 Dundas Street West, #724D, Toronto, Ontario M6P 1Z2, Canada",
+              "institution_ids": []
+            }
+          ]
+        },
+        {
+          "author_position": "last",
+          "author": {
+            "id": "https://openalex.org/A5087780199",
+            "display_name": "Olusola Gbenga Olufemi",
+            "orcid": null,
+            "observed_orcids": []
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I87552059",
+              "display_name": "Hood College",
+              "ror": "https://ror.org/04e6ngf61",
+              "country_code": "US",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I87552059"
+              ]
+            }
+          ],
+          "countries": [
+            "US"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "Olusola Gbenga Olufemi",
+          "raw_affiliation_strings": [
+            "Hood College 401 Rosemont Ave Frederick, MD, U.S"
+          ],
+          "raw_orcid": null,
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Hood College 401 Rosemont Ave Frederick, MD, U.S",
+              "institution_ids": [
+                "https://openalex.org/I87552059"
+              ]
+            }
+          ]
+        }
+      ],
+      "institutions": [],
+      "countries_distinct_count": 1,
+      "institutions_distinct_count": 1,
+      "corresponding_author_ids": [],
+      "corresponding_institution_ids": [],
+      "apc_list": null,
+      "apc_paid": null,
+      "fwci": 0.3581,
+      "is_authors_truncated": false,
+      "has_fulltext": true,
+      "cited_by_count": 2,
+      "citation_normalized_percentile": {
+        "value": 0.6159353,
+        "is_in_top_1_percent": false,
+        "is_in_top_10_percent": false
+      },
+      "cited_by_percentile_year": {
+        "min": 93,
+        "max": 95
+      },
+      "biblio": {
+        "volume": "185",
+        "issue": "30",
+        "first_page": "25",
+        "last_page": "29"
+      },
+      "is_retracted": false,
+      "is_paratext": false,
+      "is_xpac": false,
+      "primary_topic": {
+        "id": "https://openalex.org/T10430",
+        "display_name": "Software Engineering Techniques and Practices",
+        "score": 0.9916999936103821,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1710",
+          "display_name": "Information Systems"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      "topics": [
+        {
+          "id": "https://openalex.org/T10430",
+          "display_name": "Software Engineering Techniques and Practices",
+          "score": 0.9916999936103821,
+          "subfield": {
+            "id": "https://openalex.org/subfields/1710",
+            "display_name": "Information Systems"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/17",
+            "display_name": "Computer Science"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T12127",
+          "display_name": "Software System Performance and Reliability",
+          "score": 0.00800000037997961,
+          "subfield": {
+            "id": "https://openalex.org/subfields/1705",
+            "display_name": "Computer Networks and Communications"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/17",
+            "display_name": "Computer Science"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T10260",
+          "display_name": "Software Engineering Research",
+          "score": 0.0,
+          "subfield": {
+            "id": "https://openalex.org/subfields/1710",
+            "display_name": "Information Systems"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/17",
+            "display_name": "Computer Science"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        }
+      ],
+      "keywords": [
+        {
+          "id": "https://openalex.org/keywords/devops",
+          "display_name": "DevOps",
+          "score": 1.0
+        },
+        {
+          "id": "https://openalex.org/keywords/site-reliability-engineering",
+          "display_name": "site reliability engineering",
+          "score": 0.8970000147819519
+        },
+        {
+          "id": "https://openalex.org/keywords/development-operations",
+          "display_name": "development operations",
+          "score": 0.703000009059906
+        },
+        {
+          "id": "https://openalex.org/keywords/application-development",
+          "display_name": "application development",
+          "score": 0.6470000147819519
+        },
+        {
+          "id": "https://openalex.org/keywords/infrastructure-reliability",
+          "display_name": "infrastructure reliability",
+          "score": 0.5329999923706055
+        },
+        {
+          "id": "https://openalex.org/keywords/scalability",
+          "display_name": "scalability",
+          "score": 0.45899999141693115
+        }
+      ],
+      "concepts": [
+        {
+          "id": "https://openalex.org/C9903902",
+          "wikidata": "https://www.wikidata.org/wiki/Q3025536",
+          "display_name": "DevOps",
+          "level": 3,
+          "score": 0.9467307925224304
+        },
+        {
+          "id": "https://openalex.org/C41008148",
+          "wikidata": "https://www.wikidata.org/wiki/Q21198",
+          "display_name": "Computer science",
+          "level": 0,
+          "score": 0.8978054523468018
+        },
+        {
+          "id": "https://openalex.org/C115903868",
+          "wikidata": "https://www.wikidata.org/wiki/Q80993",
+          "display_name": "Software engineering",
+          "level": 1,
+          "score": 0.3192073702812195
+        },
+        {
+          "id": "https://openalex.org/C105339364",
+          "wikidata": "https://www.wikidata.org/wiki/Q2297740",
+          "display_name": "Software deployment",
+          "level": 2,
+          "score": 0.05648374557495117
+        }
+      ],
+      "mesh": [],
+      "locations_count": 1,
+      "locations": [
+        {
+          "id": "doi:10.5120/ijca2023923053",
+          "doi": "https://doi.org/10.5120/ijca2023923053",
+          "is_oa": true,
+          "landing_page_url": "https://doi.org/10.5120/ijca2023923053",
+          "pdf_url": "https://doi.org/10.5120/ijca2023923053",
+          "source": {
+            "id": "https://openalex.org/S4210206007",
+            "display_name": "International Journal of Computer Applications",
+            "issn_l": "0975-8887",
+            "issn": [
+              "0975-8887"
+            ],
+            "is_oa": true,
+            "is_in_doaj": false,
+            "is_core": true,
+            "listed_in": [
+              "anvur-scientific",
+              "cwts-core"
+            ],
+            "host_organization": "https://openalex.org/P4322545532",
+            "host_organization_name": "Foundation of Computer Science",
+            "host_organization_lineage": [
+              "https://openalex.org/P4322545532"
+            ],
+            "host_organization_lineage_names": [
+              "Foundation of Computer Science"
+            ],
+            "type": "journal"
+          },
+          "license": "public-domain",
+          "license_id": "https://openalex.org/licenses/public-domain",
+          "version": "publishedVersion",
+          "is_accepted": true,
+          "is_published": true,
+          "raw_source_name": "International Journal of Computer Applications",
+          "raw_type": "journal-article"
+        }
+      ],
+      "best_oa_location": {
+        "id": "doi:10.5120/ijca2023923053",
+        "doi": "https://doi.org/10.5120/ijca2023923053",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.5120/ijca2023923053",
+        "pdf_url": "https://doi.org/10.5120/ijca2023923053",
+        "source": {
+          "id": "https://openalex.org/S4210206007",
+          "display_name": "International Journal of Computer Applications",
+          "issn_l": "0975-8887",
+          "issn": [
+            "0975-8887"
+          ],
+          "is_oa": true,
+          "is_in_doaj": false,
+          "is_core": true,
+          "listed_in": [
+            "anvur-scientific",
+            "cwts-core"
+          ],
+          "host_organization": "https://openalex.org/P4322545532",
+          "host_organization_name": "Foundation of Computer Science",
+          "host_organization_lineage": [
+            "https://openalex.org/P4322545532"
+          ],
+          "host_organization_lineage_names": [
+            "Foundation of Computer Science"
+          ],
+          "type": "journal"
+        },
+        "license": "public-domain",
+        "license_id": "https://openalex.org/licenses/public-domain",
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "International Journal of Computer Applications",
+        "raw_type": "journal-article"
+      },
+      "sustainable_development_goals": [],
+      "study_designs": [],
+      "awards": [],
+      "funders": [],
+      "has_content": {
+        "grobid_xml": true,
+        "pdf": true
+      },
+      "content_urls": {
+        "pdf": "https://content.openalex.org/works/W4386447834.pdf",
+        "grobid_xml": "https://content.openalex.org/works/W4386447834.grobid-xml"
+      },
+      "referenced_works_count": 2,
+      "referenced_works": [
+        "https://openalex.org/W2986642681",
+        "https://openalex.org/W3091230146"
+      ],
+      "related_works": [
+        "https://openalex.org/W2802982668",
+        "https://openalex.org/W7131117915",
+        "https://openalex.org/W4408155365",
+        "https://openalex.org/W4313170093",
+        "https://openalex.org/W4414995258",
+        "https://openalex.org/W4296285587",
+        "https://openalex.org/W1582008295",
+        "https://openalex.org/W2902708500",
+        "https://openalex.org/W2914338170",
+        "https://openalex.org/W4247084100"
+      ],
+      "abstract_inverted_index": {
+        "DevOps": [
+          0,
+          23,
+          55,
+          81,
+          133,
+          170
+        ],
+        "Engineers": [
+          1
+        ],
+        "are": [
+          2,
+          12,
+          65,
+          136,
+          140
+        ],
+        "operation-focused": [
+          3
+        ],
+        "professionals": [
+          4
+        ],
+        "who": [
+          5
+        ],
+        "solve": [
+          6
+        ],
+        "development": [
+          7,
+          28,
+          106,
+          164,
+          183
+        ],
+        "pipeline": [
+          8
+        ],
+        "problems.In": [
+          9
+        ],
+        "contrast,": [
+          10
+        ],
+        "SREs": [
+          11
+        ],
+        "development-focused": [
+          13
+        ],
+        "engineers": [
+          14
+        ],
+        "that": [
+          15,
+          63,
+          68
+        ],
+        "resolve": [
+          16
+        ],
+        "operational,": [
+          17
+        ],
+        "scalability,": [
+          18
+        ],
+        "and": [
+          19,
+          37,
+          56,
+          134,
+          137,
+          147
+        ],
+        "reliability": [
+          20
+        ],
+        "problems.That": [
+          21
+        ],
+        "is,": [
+          22
+        ],
+        "primarily": [
+          24,
+          33
+        ],
+        "focuses": [
+          25
+        ],
+        "on": [
+          26
+        ],
+        "core": [
+          27,
+          40
+        ],
+        "activities": [
+          29
+        ],
+        "while": [
+          30,
+          86
+        ],
+        "SRE": [
+          31,
+          87,
+          135,
+          172
+        ],
+        "is": [
+          32,
+          59,
+          94
+        ],
+        "concerned": [
+          34
+        ],
+        "with": [
+          35,
+          178
+        ],
+        "implementing": [
+          36
+        ],
+        "maintaining": [
+          38
+        ],
+        "the": [
+          39,
+          52,
+          75,
+          117,
+          128,
+          179
+        ],
+        "infrastructure.Can": [
+          41
+        ],
+        "this": [
+          42,
+          156
+        ],
+        "be": [
+          43,
+          167
+        ],
+        "explained": [
+          44
+        ],
+        "better?Of": [
+          45
+        ],
+        "course,": [
+          46
+        ],
+        "it": [
+          47,
+          49,
+          58
+        ],
+        "can.When": [
+          48
+        ],
+        "comes": [
+          50
+        ],
+        "to": [
+          51,
+          61,
+          83,
+          99,
+          104,
+          111
+        ],
+        "distinction": [
+          53
+        ],
+        "between": [
+          54
+        ],
+        "SRE,": [
+          57
+        ],
+        "important": [
+          60
+        ],
+        "note": [
+          62
+        ],
+        "these": [
+          64
+        ],
+        "distinct": [
+          66
+        ],
+        "functions": [
+          67
+        ],
+        "have": [
+          69
+        ],
+        "evolved": [
+          70
+        ],
+        "through": [
+          71
+        ],
+        "various": [
+          72
+        ],
+        "phases": [
+          73
+        ],
+        "over": [
+          74
+        ],
+        "years.Each": [
+          76
+        ],
+        "has": [
+          77,
+          124
+        ],
+        "its": [
+          78
+        ],
+        "own": [
+          79
+        ],
+        "responsibilities,": [
+          80
+        ],
+        "refers": [
+          82
+        ],
+        "Development": [
+          84
+        ],
+        "Operations,": [
+          85
+        ],
+        "stands": [
+          88
+        ],
+        "for": [
+          89,
+          144
+        ],
+        "Site": [
+          90
+        ],
+        "Reliability": [
+          91
+        ],
+        "Engineering": [
+          92
+        ],
+        "[3].It": [
+          93
+        ],
+        "therefore": [
+          95
+        ],
+        "of": [
+          96,
+          161
+        ],
+        "utmost": [
+          97
+        ],
+        "importance": [
+          98
+        ],
+        "know": [
+          100
+        ],
+        "how": [
+          101,
+          162
+        ],
+        "each": [
+          102
+        ],
+        "contributes": [
+          103
+        ],
+        "software": [
+          105,
+          163
+        ],
+        "since": [
+          107
+        ],
+        "organizations": [
+          108
+        ],
+        "will": [
+          109
+        ],
+        "want": [
+          110
+        ],
+        "utilize": [
+          112
+        ],
+        "their": [
+          113
+        ],
+        "potential": [
+          114
+        ],
+        "in": [
+          115,
+          127,
+          176
+        ],
+        "deriving": [
+          116
+        ],
+        "maximum": [
+          118
+        ],
+        "value": [
+          119
+        ],
+        "during": [
+          120
+        ],
+        "application": [
+          121,
+          182
+        ],
+        "development.A": [
+          122
+        ],
+        "lot": [
+          123
+        ],
+        "been": [
+          125
+        ],
+        "discussed": [
+          126
+        ],
+        "public": [
+          129
+        ],
+        "domain": [
+          130
+        ],
+        "about": [
+          131
+        ],
+        "what": [
+          132,
+          138,
+          150
+        ],
+        "they": [
+          139,
+          151
+        ],
+        "not,": [
+          141
+        ],
+        "which": [
+          142
+        ],
+        "calls": [
+          143
+        ],
+        "thorough": [
+          145
+        ],
+        "exploration": [
+          146
+        ],
+        "research": [
+          148
+        ],
+        "into": [
+          149
+        ],
+        "truly": [
+          152
+        ],
+        "are.The": [
+          153
+        ],
+        "insight": [
+          154
+        ],
+        "from": [
+          155
+        ],
+        "work": [
+          157
+        ],
+        "should": [
+          158
+        ],
+        "streamline": [
+          159
+        ],
+        "knowledge": [
+          160
+        ],
+        "feasibility": [
+          165
+        ],
+        "can": [
+          166
+        ],
+        "enhanced": [
+          168
+        ],
+        "by": [
+          169
+        ],
+        "or": [
+          171,
+          174
+        ],
+        "practices": [
+          173
+        ],
+        "both,": [
+          175
+        ],
+        "line": [
+          177
+        ],
+        "frequently": [
+          180
+        ],
+        "changing": [
+          181
+        ],
+        "tooling.": [
+          184
+        ]
+      },
+      "counts_by_year": [
+        {
+          "year": 2025,
+          "cited_by_count": 2
+        }
+      ],
+      "updated_date": "2026-10-30T12:39:25.321706",
+      "created_date": "2023-09-06T00:00:00"
+    },
+    {
+      "id": "https://openalex.org/W3138905084",
+      "doi": "https://doi.org/10.1145/3277539.3283589",
+      "title": "Why SRE Documents Matter: How documentation enables SRE teams to manage new and existing services",
+      "display_name": "Why SRE Documents Matter: How documentation enables SRE teams to manage new and existing services",
+      "relevance_score": 40.411022,
+      "publication_year": 2018,
+      "publication_date": "2018-08-01",
+      "ids": {
+        "openalex": "https://openalex.org/W3138905084",
+        "doi": "https://doi.org/10.1145/3277539.3283589",
+        "mag": "3138905084"
+      },
+      "language": "en",
+      "primary_location": {
+        "id": "doi:10.1145/3277539.3283589",
+        "doi": "https://doi.org/10.1145/3277539.3283589",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.1145/3277539.3283589",
+        "pdf_url": "https://dl.acm.org/doi/pdf/10.1145/3277539.3283589",
+        "source": {
+          "id": "https://openalex.org/S45584542",
+          "display_name": "Queue",
+          "issn_l": "1542-7730",
+          "issn": [
+            "1542-7730",
+            "1542-7749"
+          ],
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": true,
+          "listed_in": [
+            "cwts-core",
+            "poland-20",
+            "russia-white-list-2",
+            "vabb-shw"
+          ],
+          "host_organization": "https://openalex.org/P4310319798",
+          "host_organization_name": "Association for Computing Machinery",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310319798"
+          ],
+          "host_organization_lineage_names": [
+            "Association for Computing Machinery"
+          ],
+          "type": "journal"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Queue",
+        "raw_type": "journal-article"
+      },
+      "parent_works": [],
+      "lineage": [
+        "https://openalex.org/W3138905084"
+      ],
+      "child_works_count": 0,
+      "type": "article",
+      "is_traditional": true,
+      "indexed_in": [
+        "crossref"
+      ],
+      "open_access": {
+        "is_oa": true,
+        "oa_status": "bronze",
+        "oa_url": "https://dl.acm.org/doi/pdf/10.1145/3277539.3283589",
+        "any_repository_has_fulltext": false
+      },
+      "authorships": [
+        {
+          "author_position": "first",
+          "author": {
+            "id": "https://openalex.org/A5113937352",
+            "display_name": "Shylaja Nukala",
+            "orcid": null,
+            "observed_orcids": []
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I1291425158",
+              "display_name": "Google (United States)",
+              "ror": "https://ror.org/00njsd438",
+              "country_code": "US",
+              "type": "company",
+              "lineage": [
+                "https://openalex.org/I1291425158",
+                "https://openalex.org/I4210128969"
+              ]
+            }
+          ],
+          "countries": [
+            "US"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "Shylaja Nukala",
+          "raw_affiliation_strings": [
+            "Google"
+          ],
+          "raw_orcid": null,
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Google",
+              "institution_ids": [
+                "https://openalex.org/I1291425158"
+              ]
+            }
+          ]
+        },
+        {
+          "author_position": "last",
+          "author": {
+            "id": "https://openalex.org/A5072445049",
+            "display_name": "Vivek Rau",
+            "orcid": null,
+            "observed_orcids": []
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I1291425158",
+              "display_name": "Google (United States)",
+              "ror": "https://ror.org/00njsd438",
+              "country_code": "US",
+              "type": "company",
+              "lineage": [
+                "https://openalex.org/I1291425158",
+                "https://openalex.org/I4210128969"
+              ]
+            }
+          ],
+          "countries": [
+            "US"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "Vivek Rau",
+          "raw_affiliation_strings": [
+            "Google"
+          ],
+          "raw_orcid": null,
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Google",
+              "institution_ids": [
+                "https://openalex.org/I1291425158"
+              ]
+            }
+          ]
+        }
+      ],
+      "institutions": [],
+      "countries_distinct_count": 1,
+      "institutions_distinct_count": 1,
+      "corresponding_author_ids": [],
+      "corresponding_institution_ids": [
+        "https://openalex.org/I1291425158"
+      ],
+      "apc_list": null,
+      "apc_paid": null,
+      "fwci": 0.1457,
+      "is_authors_truncated": false,
+      "has_fulltext": true,
+      "cited_by_count": 1,
+      "citation_normalized_percentile": {
+        "value": 0.52173621,
+        "is_in_top_1_percent": false,
+        "is_in_top_10_percent": false
+      },
+      "cited_by_percentile_year": {
+        "min": 87,
+        "max": 93
+      },
+      "biblio": {
+        "volume": "16",
+        "issue": "4",
+        "first_page": "66",
+        "last_page": "91"
+      },
+      "is_retracted": false,
+      "is_paratext": false,
+      "is_xpac": false,
+      "primary_topic": {
+        "id": "https://openalex.org/T12127",
+        "display_name": "Software System Performance and Reliability",
+        "score": 0.9761000275611877,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1705",
+          "display_name": "Computer Networks and Communications"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      "topics": [
+        {
+          "id": "https://openalex.org/T12127",
+          "display_name": "Software System Performance and Reliability",
+          "score": 0.9761000275611877,
+          "subfield": {
+            "id": "https://openalex.org/subfields/1705",
+            "display_name": "Computer Networks and Communications"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/17",
+            "display_name": "Computer Science"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T10430",
+          "display_name": "Software Engineering Techniques and Practices",
+          "score": 0.021900000050663948,
+          "subfield": {
+            "id": "https://openalex.org/subfields/1710",
+            "display_name": "Information Systems"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/17",
+            "display_name": "Computer Science"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T10772",
+          "display_name": "Distributed systems and fault tolerance",
+          "score": 0.000699999975040555,
+          "subfield": {
+            "id": "https://openalex.org/subfields/1705",
+            "display_name": "Computer Networks and Communications"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/17",
+            "display_name": "Computer Science"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        }
+      ],
+      "keywords": [
+        {
+          "id": "https://openalex.org/keywords/site-reliability-engineering",
+          "display_name": "site reliability engineering",
+          "score": 0.9990000128746033
+        },
+        {
+          "id": "https://openalex.org/keywords/large-scale-distributed-systems",
+          "display_name": "large-scale distributed systems",
+          "score": 0.8360000252723694
+        },
+        {
+          "id": "https://openalex.org/keywords/operational-reliability",
+          "display_name": "operational reliability",
+          "score": 0.6309999823570251
+        },
+        {
+          "id": "https://openalex.org/keywords/systems-engineering",
+          "display_name": "systems engineering",
+          "score": 0.42500001192092896
+        }
+      ],
+      "concepts": [
+        {
+          "id": "https://openalex.org/C56666940",
+          "wikidata": "https://www.wikidata.org/wiki/Q788790",
+          "display_name": "Documentation",
+          "level": 2,
+          "score": 0.6980082988739014
+        },
+        {
+          "id": "https://openalex.org/C41008148",
+          "wikidata": "https://www.wikidata.org/wiki/Q21198",
+          "display_name": "Computer science",
+          "level": 0,
+          "score": 0.6879375576972961
+        },
+        {
+          "id": "https://openalex.org/C2778491294",
+          "wikidata": "https://www.wikidata.org/wiki/Q1339824",
+          "display_name": "Mindset",
+          "level": 2,
+          "score": 0.6203911900520325
+        },
+        {
+          "id": "https://openalex.org/C14036430",
+          "wikidata": "https://www.wikidata.org/wiki/Q3736076",
+          "display_name": "Function (biology)",
+          "level": 2,
+          "score": 0.5684261322021484
+        },
+        {
+          "id": "https://openalex.org/C177264268",
+          "wikidata": "https://www.wikidata.org/wiki/Q1514741",
+          "display_name": "Set (abstract data type)",
+          "level": 2,
+          "score": 0.5126780271530151
+        },
+        {
+          "id": "https://openalex.org/C115903868",
+          "wikidata": "https://www.wikidata.org/wiki/Q80993",
+          "display_name": "Software engineering",
+          "level": 1,
+          "score": 0.5104562044143677
+        },
+        {
+          "id": "https://openalex.org/C2776505523",
+          "wikidata": "https://www.wikidata.org/wiki/Q4785468",
+          "display_name": "Plan (archaeology)",
+          "level": 2,
+          "score": 0.48526403307914734
+        },
+        {
+          "id": "https://openalex.org/C111226992",
+          "wikidata": "https://www.wikidata.org/wiki/Q626225",
+          "display_name": "Teamwork",
+          "level": 2,
+          "score": 0.42919689416885376
+        },
+        {
+          "id": "https://openalex.org/C18762648",
+          "wikidata": "https://www.wikidata.org/wiki/Q42213",
+          "display_name": "Work (physics)",
+          "level": 2,
+          "score": 0.42394959926605225
+        },
+        {
+          "id": "https://openalex.org/C64543145",
+          "wikidata": "https://www.wikidata.org/wiki/Q162942",
+          "display_name": "Intersection (aeronautics)",
+          "level": 2,
+          "score": 0.4223261773586273
+        },
+        {
+          "id": "https://openalex.org/C110354214",
+          "wikidata": "https://www.wikidata.org/wiki/Q6314146",
+          "display_name": "Engineering management",
+          "level": 1,
+          "score": 0.3381490707397461
+        },
+        {
+          "id": "https://openalex.org/C127413603",
+          "wikidata": "https://www.wikidata.org/wiki/Q11023",
+          "display_name": "Engineering",
+          "level": 0,
+          "score": 0.1628066897392273
+        },
+        {
+          "id": "https://openalex.org/C187736073",
+          "wikidata": "https://www.wikidata.org/wiki/Q2920921",
+          "display_name": "Management",
+          "level": 1,
+          "score": 0.08976796269416809
+        },
+        {
+          "id": "https://openalex.org/C154945302",
+          "wikidata": "https://www.wikidata.org/wiki/Q11660",
+          "display_name": "Artificial intelligence",
+          "level": 1,
+          "score": 0.07598450779914856
+        },
+        {
+          "id": "https://openalex.org/C111919701",
+          "wikidata": "https://www.wikidata.org/wiki/Q9135",
+          "display_name": "Operating system",
+          "level": 1,
+          "score": 0.0742235779762268
+        },
+        {
+          "id": "https://openalex.org/C146978453",
+          "wikidata": "https://www.wikidata.org/wiki/Q3798668",
+          "display_name": "Aerospace engineering",
+          "level": 1,
+          "score": 0.0
+        },
+        {
+          "id": "https://openalex.org/C95457728",
+          "wikidata": "https://www.wikidata.org/wiki/Q309",
+          "display_name": "History",
+          "level": 0,
+          "score": 0.0
+        },
+        {
+          "id": "https://openalex.org/C162324750",
+          "wikidata": "https://www.wikidata.org/wiki/Q8134",
+          "display_name": "Economics",
+          "level": 0,
+          "score": 0.0
+        },
+        {
+          "id": "https://openalex.org/C78519656",
+          "wikidata": "https://www.wikidata.org/wiki/Q101333",
+          "display_name": "Mechanical engineering",
+          "level": 1,
+          "score": 0.0
+        },
+        {
+          "id": "https://openalex.org/C86803240",
+          "wikidata": "https://www.wikidata.org/wiki/Q420",
+          "display_name": "Biology",
+          "level": 0,
+          "score": 0.0
+        },
+        {
+          "id": "https://openalex.org/C199360897",
+          "wikidata": "https://www.wikidata.org/wiki/Q9143",
+          "display_name": "Programming language",
+          "level": 1,
+          "score": 0.0
+        },
+        {
+          "id": "https://openalex.org/C78458016",
+          "wikidata": "https://www.wikidata.org/wiki/Q840400",
+          "display_name": "Evolutionary biology",
+          "level": 1,
+          "score": 0.0
+        },
+        {
+          "id": "https://openalex.org/C166957645",
+          "wikidata": "https://www.wikidata.org/wiki/Q23498",
+          "display_name": "Archaeology",
+          "level": 1,
+          "score": 0.0
+        }
+      ],
+      "mesh": [],
+      "locations_count": 1,
+      "locations": [
+        {
+          "id": "doi:10.1145/3277539.3283589",
+          "doi": "https://doi.org/10.1145/3277539.3283589",
+          "is_oa": true,
+          "landing_page_url": "https://doi.org/10.1145/3277539.3283589",
+          "pdf_url": "https://dl.acm.org/doi/pdf/10.1145/3277539.3283589",
+          "source": {
+            "id": "https://openalex.org/S45584542",
+            "display_name": "Queue",
+            "issn_l": "1542-7730",
+            "issn": [
+              "1542-7730",
+              "1542-7749"
+            ],
+            "is_oa": false,
+            "is_in_doaj": false,
+            "is_core": true,
+            "listed_in": [
+              "cwts-core",
+              "poland-20",
+              "russia-white-list-2",
+              "vabb-shw"
+            ],
+            "host_organization": "https://openalex.org/P4310319798",
+            "host_organization_name": "Association for Computing Machinery",
+            "host_organization_lineage": [
+              "https://openalex.org/P4310319798"
+            ],
+            "host_organization_lineage_names": [
+              "Association for Computing Machinery"
+            ],
+            "type": "journal"
+          },
+          "license": null,
+          "license_id": null,
+          "version": "publishedVersion",
+          "is_accepted": true,
+          "is_published": true,
+          "raw_source_name": "Queue",
+          "raw_type": "journal-article"
+        }
+      ],
+      "best_oa_location": {
+        "id": "doi:10.1145/3277539.3283589",
+        "doi": "https://doi.org/10.1145/3277539.3283589",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.1145/3277539.3283589",
+        "pdf_url": "https://dl.acm.org/doi/pdf/10.1145/3277539.3283589",
+        "source": {
+          "id": "https://openalex.org/S45584542",
+          "display_name": "Queue",
+          "issn_l": "1542-7730",
+          "issn": [
+            "1542-7730",
+            "1542-7749"
+          ],
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": true,
+          "listed_in": [
+            "cwts-core",
+            "poland-20",
+            "russia-white-list-2",
+            "vabb-shw"
+          ],
+          "host_organization": "https://openalex.org/P4310319798",
+          "host_organization_name": "Association for Computing Machinery",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310319798"
+          ],
+          "host_organization_lineage_names": [
+            "Association for Computing Machinery"
+          ],
+          "type": "journal"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Queue",
+        "raw_type": "journal-article"
+      },
+      "sustainable_development_goals": [],
+      "study_designs": [],
+      "awards": [],
+      "funders": [],
+      "has_content": {
+        "grobid_xml": true,
+        "pdf": true
+      },
+      "content_urls": {
+        "pdf": "https://content.openalex.org/works/W3138905084.pdf",
+        "grobid_xml": "https://content.openalex.org/works/W3138905084.grobid-xml"
+      },
+      "referenced_works_count": 1,
+      "referenced_works": [
+        "https://openalex.org/W2404462252"
+      ],
+      "related_works": [
+        "https://openalex.org/W6941382341",
+        "https://openalex.org/W7215659716",
+        "https://openalex.org/W2964622635",
+        "https://openalex.org/W4412721688",
+        "https://openalex.org/W4411120677",
+        "https://openalex.org/W4246778183",
+        "https://openalex.org/W243283267",
+        "https://openalex.org/W2395992838",
+        "https://openalex.org/W2902708500",
+        "https://openalex.org/W2901227242"
+      ],
+      "abstract_inverted_index": {
+        "SRE": [
+          0,
+          56,
+          67,
+          73
+        ],
+        "(site": [
+          1
+        ],
+        "reliability": [
+          2
+        ],
+        "engineering)": [
+          3
+        ],
+        "is": [
+          4,
+          99
+        ],
+        "a": [
+          5,
+          8,
+          11
+        ],
+        "job": [
+          6
+        ],
+        "function,": [
+          7
+        ],
+        "mindset,": [
+          9
+        ],
+        "and": [
+          10,
+          20,
+          32,
+          39,
+          45,
+          52,
+          95,
+          106
+        ],
+        "set": [
+          12
+        ],
+        "of": [
+          13,
+          29,
+          62,
+          88
+        ],
+        "engineering": [
+          14,
+          34
+        ],
+        "approaches": [
+          15
+        ],
+        "for": [
+          16,
+          105
+        ],
+        "making": [
+          17
+        ],
+        "web": [
+          18
+        ],
+        "products": [
+          19
+        ],
+        "services": [
+          21
+        ],
+        "run": [
+          22,
+          46
+        ],
+        "reliably.": [
+          23
+        ],
+        "SREs": [
+          24
+        ],
+        "operate": [
+          25
+        ],
+        "at": [
+          26
+        ],
+        "the": [
+          27,
+          86
+        ],
+        "intersection": [
+          28
+        ],
+        "software": [
+          30
+        ],
+        "development": [
+          31
+        ],
+        "systems": [
+          33,
+          49
+        ],
+        "to": [
+          35,
+          42,
+          77,
+          93,
+          103
+        ],
+        "solve": [
+          36
+        ],
+        "operational": [
+          37
+        ],
+        "problems": [
+          38
+        ],
+        "engineer": [
+          40
+        ],
+        "solutions": [
+          41
+        ],
+        "design,": [
+          43
+        ],
+        "build,": [
+          44
+        ],
+        "large-scale": [
+          47
+        ],
+        "distributed": [
+          48
+        ],
+        "scalably,": [
+          50
+        ],
+        "reliably,": [
+          51
+        ],
+        "efficiently.": [
+          53
+        ],
+        "A": [
+          54
+        ],
+        "mature": [
+          55
+        ],
+        "team": [
+          57,
+          74,
+          91,
+          113
+        ],
+        "likely": [
+          58
+        ],
+        "has": [
+          59
+        ],
+        "well-defined": [
+          60
+        ],
+        "bodies": [
+          61
+        ],
+        "documentation": [
+          63,
+          108
+        ],
+        "associated": [
+          64
+        ],
+        "with": [
+          65,
+          111
+        ],
+        "many": [
+          66
+        ],
+        "functions.": [
+          68
+        ],
+        "If": [
+          69
+        ],
+        "you": [
+          70,
+          84,
+          102
+        ],
+        "manage": [
+          71
+        ],
+        "an": [
+          72
+        ],
+        "or": [
+          75
+        ],
+        "intend": [
+          76
+        ],
+        "start": [
+          78
+        ],
+        "one,": [
+          79
+        ],
+        "this": [
+          80
+        ],
+        "article": [
+          81
+        ],
+        "will": [
+          82
+        ],
+        "help": [
+          83
+        ],
+        "understand": [
+          85
+        ],
+        "types": [
+          87
+        ],
+        "documents": [
+          89
+        ],
+        "your": [
+          90
+        ],
+        "needs": [
+          92
+        ],
+        "write": [
+          94
+        ],
+        "why": [
+          96
+        ],
+        "each": [
+          97
+        ],
+        "type": [
+          98
+        ],
+        "needed,": [
+          100
+        ],
+        "allowing": [
+          101
+        ],
+        "plan": [
+          104
+        ],
+        "prioritize": [
+          107
+        ],
+        "work": [
+          109
+        ],
+        "along": [
+          110
+        ],
+        "other": [
+          112
+        ],
+        "projects.": [
+          114
+        ]
+      },
+      "counts_by_year": [
+        {
+          "year": 2021,
+          "cited_by_count": 1
+        }
+      ],
+      "updated_date": "2026-11-15T12:55:33.944570",
+      "created_date": "2021-03-29T00:00:00"
+    }
+  ],
+  "group_by": []
+}

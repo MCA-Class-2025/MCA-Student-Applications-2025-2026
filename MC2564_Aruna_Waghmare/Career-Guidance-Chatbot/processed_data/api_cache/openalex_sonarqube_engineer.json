@@ -1,0 +1,5166 @@
+{
+  "meta": {
+    "notice": "No API key, so this request shares one free daily budget ($0.10) with everyone on your network's IP address. Get a free key with its own $1/day at https://openalex.org/settings/api and add api_key=YOUR_KEY to your requests. An AI agent can get one for its user in one call: POST https://api.openalex.org/api-keys with {\"email\": \"<your user's email>\"}; we email them a link, and the key works once they click it. Docs for agents: https://help.openalex.org/llms.txt",
+    "count": 1195,
+    "db_response_time_ms": 33,
+    "page": 1,
+    "per_page": 5,
+    "groups_count": null,
+    "x_query": {
+      "oql": "get works with (SonarQube Engineer) in the title, abstract, or full text",
+      "x_new_oql": "get works with (SonarQube Engineer) in the title, abstract, or full text",
+      "oqo": {
+        "get_rows": "works",
+        "filter_rows": [
+          {
+            "column_id": "fulltext.search",
+            "value": "SonarQube Engineer",
+            "operator": "has"
+          }
+        ]
+      },
+      "url": "/works?filter=fulltext.search:SonarQube Engineer&per_page=5",
+      "order": "best matches first",
+      "order_default": true
+    },
+    "cost_usd": 0.001
+  },
+  "results": [
+    {
+      "id": "https://openalex.org/W3118682726",
+      "doi": "https://doi.org/10.28933/ijnsr-2020-12-0605",
+      "title": "A SonarQube Static Analysis of the Spectral Workbench",
+      "display_name": "A SonarQube Static Analysis of the Spectral Workbench",
+      "relevance_score": 44.46138,
+      "publication_year": 2021,
+      "publication_date": "2021-01-01",
+      "ids": {
+        "openalex": "https://openalex.org/W3118682726",
+        "doi": "https://doi.org/10.28933/ijnsr-2020-12-0605",
+        "mag": "3118682726"
+      },
+      "language": "en",
+      "primary_location": {
+        "id": "doi:10.28933/ijnsr-2020-12-0605",
+        "doi": "https://doi.org/10.28933/ijnsr-2020-12-0605",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.28933/ijnsr-2020-12-0605",
+        "pdf_url": "https://escipub.com/Articles/IJNSR/IJNSR-2020-12-0605.pdf",
+        "source": {
+          "id": "https://openalex.org/S4210224126",
+          "display_name": "International Journal of Natural Science and Reviews",
+          "issn_l": "2576-5086",
+          "issn": [
+            "2576-5086"
+          ],
+          "is_oa": true,
+          "is_in_doaj": false,
+          "is_core": false,
+          "listed_in": [],
+          "host_organization": null,
+          "host_organization_name": null,
+          "host_organization_lineage": [],
+          "host_organization_lineage_names": [],
+          "type": "journal"
+        },
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "International Journal of Natural Science and Reviews",
+        "raw_type": "journal-article"
+      },
+      "parent_works": [],
+      "lineage": [
+        "https://openalex.org/W3118682726"
+      ],
+      "child_works_count": 0,
+      "type": "article",
+      "is_traditional": true,
+      "indexed_in": [
+        "crossref"
+      ],
+      "open_access": {
+        "is_oa": true,
+        "oa_status": "diamond",
+        "oa_url": "https://escipub.com/Articles/IJNSR/IJNSR-2020-12-0605.pdf",
+        "any_repository_has_fulltext": false
+      },
+      "authorships": [],
+      "institutions": [],
+      "countries_distinct_count": 0,
+      "institutions_distinct_count": 0,
+      "corresponding_author_ids": [],
+      "corresponding_institution_ids": [],
+      "apc_list": null,
+      "apc_paid": null,
+      "fwci": 0.3162,
+      "is_authors_truncated": false,
+      "has_fulltext": true,
+      "cited_by_count": 6,
+      "citation_normalized_percentile": {
+        "value": 0.6153776,
+        "is_in_top_1_percent": false,
+        "is_in_top_10_percent": false
+      },
+      "cited_by_percentile_year": {
+        "min": 88,
+        "max": 96
+      },
+      "biblio": {
+        "volume": null,
+        "issue": null,
+        "first_page": "16",
+        "last_page": "16"
+      },
+      "is_retracted": false,
+      "is_paratext": false,
+      "is_xpac": false,
+      "primary_topic": {
+        "id": "https://openalex.org/T10260",
+        "display_name": "Software Engineering Research",
+        "score": 0.9028000235557556,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1710",
+          "display_name": "Information Systems"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      "topics": [
+        {
+          "id": "https://openalex.org/T10260",
+          "display_name": "Software Engineering Research",
+          "score": 0.9028000235557556,
+          "subfield": {
+            "id": "https://openalex.org/subfields/1710",
+            "display_name": "Information Systems"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/17",
+            "display_name": "Computer Science"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T10743",
+          "display_name": "Software Testing and Debugging Techniques",
+          "score": 0.07169999927282333,
+          "subfield": {
+            "id": "https://openalex.org/subfields/1712",
+            "display_name": "Software"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/17",
+            "display_name": "Computer Science"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T10430",
+          "display_name": "Software Engineering Techniques and Practices",
+          "score": 0.011599999852478504,
+          "subfield": {
+            "id": "https://openalex.org/subfields/1710",
+            "display_name": "Information Systems"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/17",
+            "display_name": "Computer Science"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        }
+      ],
+      "keywords": [
+        {
+          "id": "https://openalex.org/keywords/sonarqube",
+          "display_name": "SonarQube",
+          "score": 0.9819999933242798
+        },
+        {
+          "id": "https://openalex.org/keywords/static-code-analysis",
+          "display_name": "static code analysis",
+          "score": 0.968999981880188
+        },
+        {
+          "id": "https://openalex.org/keywords/software-defect-detection",
+          "display_name": "software defect detection",
+          "score": 0.8309999704360962
+        },
+        {
+          "id": "https://openalex.org/keywords/open-source-software",
+          "display_name": "open source software",
+          "score": 0.7450000047683716
+        },
+        {
+          "id": "https://openalex.org/keywords/software-reliability",
+          "display_name": "software reliability",
+          "score": 0.7059999704360962
+        }
+      ],
+      "concepts": [
+        {
+          "id": "https://openalex.org/C2779145975",
+          "wikidata": "https://www.wikidata.org/wiki/Q347690",
+          "display_name": "Workbench",
+          "level": 3,
+          "score": 0.9700011014938354
+        },
+        {
+          "id": "https://openalex.org/C79581498",
+          "wikidata": "https://www.wikidata.org/wiki/Q1367530",
+          "display_name": "Suite",
+          "level": 2,
+          "score": 0.6983804702758789
+        },
+        {
+          "id": "https://openalex.org/C2777904410",
+          "wikidata": "https://www.wikidata.org/wiki/Q7397",
+          "display_name": "Software",
+          "level": 2,
+          "score": 0.674875020980835
+        },
+        {
+          "id": "https://openalex.org/C41008148",
+          "wikidata": "https://www.wikidata.org/wiki/Q21198",
+          "display_name": "Computer science",
+          "level": 0,
+          "score": 0.6465944647789001
+        },
+        {
+          "id": "https://openalex.org/C2983668108",
+          "wikidata": "https://www.wikidata.org/wiki/Q280453",
+          "display_name": "Spectral analysis",
+          "level": 3,
+          "score": 0.5581988096237183
+        },
+        {
+          "id": "https://openalex.org/C101780184",
+          "wikidata": "https://www.wikidata.org/wiki/Q840576",
+          "display_name": "Dissemination",
+          "level": 2,
+          "score": 0.5567926168441772
+        },
+        {
+          "id": "https://openalex.org/C43214815",
+          "wikidata": "https://www.wikidata.org/wiki/Q7310987",
+          "display_name": "Reliability (semiconductor)",
+          "level": 3,
+          "score": 0.5494807958602905
+        },
+        {
+          "id": "https://openalex.org/C2778736646",
+          "wikidata": "https://www.wikidata.org/wiki/Q1143070",
+          "display_name": "Software suite",
+          "level": 3,
+          "score": 0.4708009958267212
+        },
+        {
+          "id": "https://openalex.org/C124101348",
+          "wikidata": "https://www.wikidata.org/wiki/Q172491",
+          "display_name": "Data mining",
+          "level": 1,
+          "score": 0.31659042835235596
+        },
+        {
+          "id": "https://openalex.org/C111919701",
+          "wikidata": "https://www.wikidata.org/wiki/Q9135",
+          "display_name": "Operating system",
+          "level": 1,
+          "score": 0.2452770173549652
+        },
+        {
+          "id": "https://openalex.org/C121332964",
+          "wikidata": "https://www.wikidata.org/wiki/Q413",
+          "display_name": "Physics",
+          "level": 0,
+          "score": 0.08924078941345215
+        },
+        {
+          "id": "https://openalex.org/C36464697",
+          "wikidata": "https://www.wikidata.org/wiki/Q451553",
+          "display_name": "Visualization",
+          "level": 2,
+          "score": 0.08733764290809631
+        },
+        {
+          "id": "https://openalex.org/C76155785",
+          "wikidata": "https://www.wikidata.org/wiki/Q418",
+          "display_name": "Telecommunications",
+          "level": 1,
+          "score": 0.08422854542732239
+        },
+        {
+          "id": "https://openalex.org/C32891209",
+          "wikidata": "https://www.wikidata.org/wiki/Q483666",
+          "display_name": "Spectroscopy",
+          "level": 2,
+          "score": 0.06981971859931946
+        },
+        {
+          "id": "https://openalex.org/C205649164",
+          "wikidata": "https://www.wikidata.org/wiki/Q1071",
+          "display_name": "Geography",
+          "level": 0,
+          "score": 0.06535854935646057
+        },
+        {
+          "id": "https://openalex.org/C166957645",
+          "wikidata": "https://www.wikidata.org/wiki/Q23498",
+          "display_name": "Archaeology",
+          "level": 1,
+          "score": 0.0
+        },
+        {
+          "id": "https://openalex.org/C163258240",
+          "wikidata": "https://www.wikidata.org/wiki/Q25342",
+          "display_name": "Power (physics)",
+          "level": 2,
+          "score": 0.0
+        },
+        {
+          "id": "https://openalex.org/C62520636",
+          "wikidata": "https://www.wikidata.org/wiki/Q944",
+          "display_name": "Quantum mechanics",
+          "level": 1,
+          "score": 0.0
+        }
+      ],
+      "mesh": [],
+      "locations_count": 1,
+      "locations": [
+        {
+          "id": "doi:10.28933/ijnsr-2020-12-0605",
+          "doi": "https://doi.org/10.28933/ijnsr-2020-12-0605",
+          "is_oa": true,
+          "landing_page_url": "https://doi.org/10.28933/ijnsr-2020-12-0605",
+          "pdf_url": "https://escipub.com/Articles/IJNSR/IJNSR-2020-12-0605.pdf",
+          "source": {
+            "id": "https://openalex.org/S4210224126",
+            "display_name": "International Journal of Natural Science and Reviews",
+            "issn_l": "2576-5086",
+            "issn": [
+              "2576-5086"
+            ],
+            "is_oa": true,
+            "is_in_doaj": false,
+            "is_core": false,
+            "listed_in": [],
+            "host_organization": null,
+            "host_organization_name": null,
+            "host_organization_lineage": [],
+            "host_organization_lineage_names": [],
+            "type": "journal"
+          },
+          "license": "cc-by",
+          "license_id": "https://openalex.org/licenses/cc-by",
+          "version": "publishedVersion",
+          "is_accepted": true,
+          "is_published": true,
+          "raw_source_name": "International Journal of Natural Science and Reviews",
+          "raw_type": "journal-article"
+        }
+      ],
+      "best_oa_location": {
+        "id": "doi:10.28933/ijnsr-2020-12-0605",
+        "doi": "https://doi.org/10.28933/ijnsr-2020-12-0605",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.28933/ijnsr-2020-12-0605",
+        "pdf_url": "https://escipub.com/Articles/IJNSR/IJNSR-2020-12-0605.pdf",
+        "source": {
+          "id": "https://openalex.org/S4210224126",
+          "display_name": "International Journal of Natural Science and Reviews",
+          "issn_l": "2576-5086",
+          "issn": [
+            "2576-5086"
+          ],
+          "is_oa": true,
+          "is_in_doaj": false,
+          "is_core": false,
+          "listed_in": [],
+          "host_organization": null,
+          "host_organization_name": null,
+          "host_organization_lineage": [],
+          "host_organization_lineage_names": [],
+          "type": "journal"
+        },
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "International Journal of Natural Science and Reviews",
+        "raw_type": "journal-article"
+      },
+      "sustainable_development_goals": [],
+      "study_designs": [],
+      "awards": [],
+      "funders": [],
+      "has_content": {
+        "grobid_xml": true,
+        "pdf": true
+      },
+      "content_urls": {
+        "pdf": "https://content.openalex.org/works/W3118682726.pdf",
+        "grobid_xml": "https://content.openalex.org/works/W3118682726.grobid-xml"
+      },
+      "referenced_works_count": 6,
+      "referenced_works": [
+        "https://openalex.org/W2536936486",
+        "https://openalex.org/W2898213872",
+        "https://openalex.org/W2905328461",
+        "https://openalex.org/W4298110250",
+        "https://openalex.org/W6606604535",
+        "https://openalex.org/W6728370105"
+      ],
+      "related_works": [
+        "https://openalex.org/W6987271103",
+        "https://openalex.org/W7139149293",
+        "https://openalex.org/W6987813449",
+        "https://openalex.org/W2954469728",
+        "https://openalex.org/W6922733464",
+        "https://openalex.org/W7062210812",
+        "https://openalex.org/W2538990008",
+        "https://openalex.org/W2970017320",
+        "https://openalex.org/W6931844958",
+        "https://openalex.org/W2120981580"
+      ],
+      "abstract_inverted_index": {
+        "The": [
+          0
+        ],
+        "Spectral": [
+          1,
+          47,
+          74
+        ],
+        "Workbench": [
+          2,
+          48
+        ],
+        "is": [
+          3,
+          31,
+          39
+        ],
+        "an": [
+          4,
+          32
+        ],
+        "open-source,": [
+          5
+        ],
+        "community": [
+          6
+        ],
+        "driven": [
+          7
+        ],
+        "software": [
+          8,
+          43
+        ],
+        "suite": [
+          9
+        ],
+        "to": [
+          10,
+          41,
+          57
+        ],
+        "obtain": [
+          11
+        ],
+        "and": [
+          12,
+          26,
+          65,
+          86
+        ],
+        "disseminate": [
+          13
+        ],
+        "spectral": [
+          14,
+          24,
+          36,
+          96
+        ],
+        "data.": [
+          15,
+          37
+        ],
+        "It": [
+          16,
+          38
+        ],
+        "consists": [
+          17
+        ],
+        "of": [
+          18,
+          35,
+          72,
+          93
+        ],
+        "a": [
+          19,
+          27
+        ],
+        "client": [
+          20
+        ],
+        "application": [
+          21,
+          29
+        ],
+        "that": [
+          22,
+          30
+        ],
+        "collects": [
+          23
+        ],
+        "readings": [
+          25
+        ],
+        "server": [
+          28
+        ],
+        "online": [
+          33
+        ],
+        "database": [
+          34
+        ],
+        "difficult": [
+          40
+        ],
+        "detect": [
+          42
+        ],
+        "defects": [
+          44,
+          62
+        ],
+        "in": [
+          45,
+          83
+        ],
+        "the": [
+          46,
+          70,
+          73
+        ],
+        "application.": [
+          49
+        ],
+        "A": [
+          50
+        ],
+        "static": [
+          51
+        ],
+        "analysis": [
+          52
+        ],
+        "tool,": [
+          53
+        ],
+        "SonarQube,": [
+          54
+        ],
+        "was": [
+          55
+        ],
+        "selected": [
+          56
+        ],
+        "find": [
+          58
+        ],
+        "these": [
+          59
+        ],
+        "defects.": [
+          60
+        ],
+        "Numerous": [
+          61
+        ],
+        "were": [
+          63
+        ],
+        "detected": [
+          64
+        ],
+        "documented.": [
+          66
+        ],
+        "SonarQube": [
+          67
+        ],
+        "will": [
+          68,
+          89
+        ],
+        "increase": [
+          69
+        ],
+        "reliability": [
+          71
+        ],
+        "Workbench,": [
+          75
+        ],
+        "which": [
+          76,
+          88
+        ],
+        "provides": [
+          77
+        ],
+        "numerous": [
+          78
+        ],
+        "benefits": [
+          79
+        ],
+        "including": [
+          80
+        ],
+        "increased": [
+          81
+        ],
+        "confidence": [
+          82
+        ],
+        "its": [
+          84
+        ],
+        "data": [
+          85,
+          98
+        ],
+        "effectiveness": [
+          87
+        ],
+        "drive": [
+          90
+        ],
+        "additional": [
+          91
+        ],
+        "number": [
+          92
+        ],
+        "users": [
+          94
+        ],
+        "for": [
+          95
+        ],
+        "repository": [
+          97
+        ],
+        "collection.": [
+          99
+        ]
+      },
+      "counts_by_year": [
+        {
+          "year": 2026,
+          "cited_by_count": 1
+        },
+        {
+          "year": 2025,
+          "cited_by_count": 3
+        },
+        {
+          "year": 2024,
+          "cited_by_count": 1
+        },
+        {
+          "year": 2023,
+          "cited_by_count": 1
+        }
+      ],
+      "updated_date": "2026-11-04T10:54:05.112534",
+      "created_date": "2021-01-18T00:00:00"
+    },
+    {
+      "id": "https://openalex.org/W3138622308",
+      "doi": "https://doi.org/10.1109/tdsc.2022.3167316",
+      "title": "Sorald: Automatic Patch Suggestions for SonarQube Static Analysis Violations",
+      "display_name": "Sorald: Automatic Patch Suggestions for SonarQube Static Analysis Violations",
+      "relevance_score": 42.585155,
+      "publication_year": 2022,
+      "publication_date": "2022-04-13",
+      "ids": {
+        "openalex": "https://openalex.org/W3138622308",
+        "doi": "https://doi.org/10.1109/tdsc.2022.3167316",
+        "mag": "3138622308"
+      },
+      "language": "en",
+      "primary_location": {
+        "id": "doi:10.1109/tdsc.2022.3167316",
+        "doi": "https://doi.org/10.1109/tdsc.2022.3167316",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.1109/tdsc.2022.3167316",
+        "pdf_url": "https://ieeexplore.ieee.org/ielx7/8858/4358699/09756950.pdf",
+        "source": {
+          "id": "https://openalex.org/S133795288",
+          "display_name": "IEEE Transactions on Dependable and Secure Computing",
+          "issn_l": "1545-5971",
+          "issn": [
+            "1545-5971",
+            "1941-0018",
+            "2160-9209"
+          ],
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": true,
+          "listed_in": [
+            "anvur-scientific",
+            "ccf-a",
+            "cwts-core",
+            "dongbi-a",
+            "jufo-3",
+            "norway-2",
+            "poland-140",
+            "russia-white-list-1",
+            "vabb-shw"
+          ],
+          "host_organization": "https://openalex.org/P4310320439",
+          "host_organization_name": "IEEE Computer Society",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310320439",
+            "https://openalex.org/P4310319808"
+          ],
+          "host_organization_lineage_names": [
+            "IEEE Computer Society",
+            "Institute of Electrical and Electronics Engineers"
+          ],
+          "type": "journal"
+        },
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "IEEE Transactions on Dependable and Secure Computing",
+        "raw_type": "journal-article"
+      },
+      "parent_works": [],
+      "lineage": [
+        "https://openalex.org/W3138622308"
+      ],
+      "child_works_count": 0,
+      "type": "article",
+      "is_traditional": true,
+      "indexed_in": [
+        "arxiv",
+        "crossref",
+        "datacite"
+      ],
+      "open_access": {
+        "is_oa": true,
+        "oa_status": "hybrid",
+        "oa_url": "https://ieeexplore.ieee.org/ielx7/8858/4358699/09756950.pdf",
+        "any_repository_has_fulltext": true
+      },
+      "authorships": [
+        {
+          "author_position": "first",
+          "author": {
+            "id": "https://openalex.org/A5068350054",
+            "display_name": "Khashayar Etemadi",
+            "orcid": "https://orcid.org/0000-0003-2183-9633",
+            "observed_orcids": [
+              "https://orcid.org/0000-0003-2183-9633"
+            ]
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I86987016",
+              "display_name": "KTH Royal Institute of Technology",
+              "ror": "https://ror.org/026vcq606",
+              "country_code": "SE",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I86987016"
+              ]
+            }
+          ],
+          "countries": [
+            "SE"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "Khashayar Etemadi",
+          "raw_affiliation_strings": [
+            "KTH Royal Institute of Technology, Stockholm, Sweden",
+            "Theoretical Computer Science, KTH Royal Institute of Technology School of Computer Science and Communication, 156318 Stockholm, Stockholm, Sweden"
+          ],
+          "raw_orcid": "https://orcid.org/0000-0003-2183-9633",
+          "affiliations": [
+            {
+              "raw_affiliation_string": "KTH Royal Institute of Technology, Stockholm, Sweden",
+              "institution_ids": [
+                "https://openalex.org/I86987016"
+              ]
+            },
+            {
+              "raw_affiliation_string": "Theoretical Computer Science, KTH Royal Institute of Technology School of Computer Science and Communication, 156318 Stockholm, Stockholm, Sweden",
+              "institution_ids": [
+                "https://openalex.org/I86987016"
+              ]
+            }
+          ]
+        },
+        {
+          "author_position": "middle",
+          "author": {
+            "id": "https://openalex.org/A5073119321",
+            "display_name": "Nicolas Harrand",
+            "orcid": "https://orcid.org/0000-0002-2491-2771",
+            "observed_orcids": [
+              "https://orcid.org/0000-0002-2491-2771"
+            ]
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I86987016",
+              "display_name": "KTH Royal Institute of Technology",
+              "ror": "https://ror.org/026vcq606",
+              "country_code": "SE",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I86987016"
+              ]
+            }
+          ],
+          "countries": [
+            "SE"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "Nicolas Harrand",
+          "raw_affiliation_strings": [
+            "KTH Royal Institute of Technology, Stockholm, Sweden"
+          ],
+          "raw_orcid": "https://orcid.org/0000-0002-2491-2771",
+          "affiliations": [
+            {
+              "raw_affiliation_string": "KTH Royal Institute of Technology, Stockholm, Sweden",
+              "institution_ids": [
+                "https://openalex.org/I86987016"
+              ]
+            }
+          ]
+        },
+        {
+          "author_position": "middle",
+          "author": {
+            "id": null,
+            "display_name": "Simon Larsén",
+            "orcid": "https://orcid.org/0000-0002-8343-057X",
+            "observed_orcids": [
+              "https://orcid.org/0000-0002-8343-057X"
+            ]
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I86987016",
+              "display_name": "KTH Royal Institute of Technology",
+              "ror": "https://ror.org/026vcq606",
+              "country_code": "SE",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I86987016"
+              ]
+            }
+          ],
+          "countries": [
+            "SE"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "Simon Larsén",
+          "raw_affiliation_strings": [
+            "KTH Royal Institute of Technology, Stockholm, Sweden",
+            "Theoretical Computer Science, KTH EECS, 156318 Stockholm, Stockholm, Sweden"
+          ],
+          "raw_orcid": "https://orcid.org/0000-0002-8343-057X",
+          "affiliations": [
+            {
+              "raw_affiliation_string": "KTH Royal Institute of Technology, Stockholm, Sweden",
+              "institution_ids": [
+                "https://openalex.org/I86987016"
+              ]
+            },
+            {
+              "raw_affiliation_string": "Theoretical Computer Science, KTH EECS, 156318 Stockholm, Stockholm, Sweden",
+              "institution_ids": [
+                "https://openalex.org/I86987016"
+              ]
+            }
+          ]
+        },
+        {
+          "author_position": "middle",
+          "author": {
+            "id": "https://openalex.org/A5074591102",
+            "display_name": "Haris Adzemovic",
+            "orcid": "https://orcid.org/0000-0002-8080-1355",
+            "observed_orcids": [
+              "https://orcid.org/0000-0002-8080-1355"
+            ]
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I86987016",
+              "display_name": "KTH Royal Institute of Technology",
+              "ror": "https://ror.org/026vcq606",
+              "country_code": "SE",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I86987016"
+              ]
+            }
+          ],
+          "countries": [
+            "SE"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "Haris Adzemovic",
+          "raw_affiliation_strings": [
+            "KTH Royal Institute of Technology, Stockholm, Sweden",
+            "Theoretical Computer Science, KTH Royal Institute of Technology School of Computer Science and Communication, 156318 Stockholm, Stockholm, Sweden"
+          ],
+          "raw_orcid": "https://orcid.org/0000-0002-8080-1355",
+          "affiliations": [
+            {
+              "raw_affiliation_string": "KTH Royal Institute of Technology, Stockholm, Sweden",
+              "institution_ids": [
+                "https://openalex.org/I86987016"
+              ]
+            },
+            {
+              "raw_affiliation_string": "Theoretical Computer Science, KTH Royal Institute of Technology School of Computer Science and Communication, 156318 Stockholm, Stockholm, Sweden",
+              "institution_ids": [
+                "https://openalex.org/I86987016"
+              ]
+            }
+          ]
+        },
+        {
+          "author_position": "middle",
+          "author": {
+            "id": "https://openalex.org/A5060890223",
+            "display_name": "Henry Luong Phu",
+            "orcid": null,
+            "observed_orcids": []
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I86987016",
+              "display_name": "KTH Royal Institute of Technology",
+              "ror": "https://ror.org/026vcq606",
+              "country_code": "SE",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I86987016"
+              ]
+            }
+          ],
+          "countries": [
+            "SE"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "Henry Luong Phu",
+          "raw_affiliation_strings": [
+            "KTH Royal Institute of Technology, Stockholm, Sweden",
+            "Theoretical Computer Science, KTH Royal Institute of Technology School of Computer Science and Communication, 156318 Stockholm, Stockholm, Sweden"
+          ],
+          "raw_orcid": null,
+          "affiliations": [
+            {
+              "raw_affiliation_string": "KTH Royal Institute of Technology, Stockholm, Sweden",
+              "institution_ids": [
+                "https://openalex.org/I86987016"
+              ]
+            },
+            {
+              "raw_affiliation_string": "Theoretical Computer Science, KTH Royal Institute of Technology School of Computer Science and Communication, 156318 Stockholm, Stockholm, Sweden",
+              "institution_ids": [
+                "https://openalex.org/I86987016"
+              ]
+            }
+          ]
+        },
+        {
+          "author_position": "middle",
+          "author": {
+            "id": "https://openalex.org/A5101105757",
+            "display_name": "Ashutosh Verma",
+            "orcid": null,
+            "observed_orcids": []
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I162827531",
+              "display_name": "Indian Institute of Technology Bombay",
+              "ror": "https://ror.org/02qyf5152",
+              "country_code": "IN",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I162827531"
+              ]
+            }
+          ],
+          "countries": [
+            "IN"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "Ashutosh Verma",
+          "raw_affiliation_strings": [
+            "IIT Bombay, Mumbai, Maharashtra, India",
+            "Compute Science, IIT Bombay, 29491 Mumbai, Maharashtra, India"
+          ],
+          "raw_orcid": null,
+          "affiliations": [
+            {
+              "raw_affiliation_string": "IIT Bombay, Mumbai, Maharashtra, India",
+              "institution_ids": [
+                "https://openalex.org/I162827531"
+              ]
+            },
+            {
+              "raw_affiliation_string": "Compute Science, IIT Bombay, 29491 Mumbai, Maharashtra, India",
+              "institution_ids": [
+                "https://openalex.org/I162827531"
+              ]
+            }
+          ]
+        },
+        {
+          "author_position": "middle",
+          "author": {
+            "id": "https://openalex.org/A5014642852",
+            "display_name": "Fernanda Madeiral",
+            "orcid": "https://orcid.org/0000-0003-2048-7648",
+            "observed_orcids": [
+              "https://orcid.org/0000-0003-2048-7648"
+            ]
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I86987016",
+              "display_name": "KTH Royal Institute of Technology",
+              "ror": "https://ror.org/026vcq606",
+              "country_code": "SE",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I86987016"
+              ]
+            }
+          ],
+          "countries": [
+            "SE"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "Fernanda Madeiral",
+          "raw_affiliation_strings": [
+            "KTH Royal Institute of Technology, Stockholm, Sweden",
+            "Theoretical Computer Science, KTH Royal Institute of Technology School of Computer Science and Communication, 156318 Stockholm, Stockholm, Sweden"
+          ],
+          "raw_orcid": null,
+          "affiliations": [
+            {
+              "raw_affiliation_string": "KTH Royal Institute of Technology, Stockholm, Sweden",
+              "institution_ids": [
+                "https://openalex.org/I86987016"
+              ]
+            },
+            {
+              "raw_affiliation_string": "Theoretical Computer Science, KTH Royal Institute of Technology School of Computer Science and Communication, 156318 Stockholm, Stockholm, Sweden",
+              "institution_ids": [
+                "https://openalex.org/I86987016"
+              ]
+            }
+          ]
+        },
+        {
+          "author_position": "middle",
+          "author": {
+            "id": "https://openalex.org/A5001118103",
+            "display_name": "Douglas Wikström",
+            "orcid": "https://orcid.org/0000-0003-4157-1371",
+            "observed_orcids": [
+              "https://orcid.org/0000-0003-4157-1371"
+            ]
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I86987016",
+              "display_name": "KTH Royal Institute of Technology",
+              "ror": "https://ror.org/026vcq606",
+              "country_code": "SE",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I86987016"
+              ]
+            }
+          ],
+          "countries": [
+            "SE"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "Douglas Wikström",
+          "raw_affiliation_strings": [
+            "KTH Royal Institute of Technology, Stockholm, Sweden",
+            "Theoretical Computer Science, KTH Royal Institute of Technology School of Computer Science and Communication, 156318 Stockholm, Stockholm, Sweden"
+          ],
+          "raw_orcid": null,
+          "affiliations": [
+            {
+              "raw_affiliation_string": "KTH Royal Institute of Technology, Stockholm, Sweden",
+              "institution_ids": [
+                "https://openalex.org/I86987016"
+              ]
+            },
+            {
+              "raw_affiliation_string": "Theoretical Computer Science, KTH Royal Institute of Technology School of Computer Science and Communication, 156318 Stockholm, Stockholm, Sweden",
+              "institution_ids": [
+                "https://openalex.org/I86987016"
+              ]
+            }
+          ]
+        },
+        {
+          "author_position": "last",
+          "author": {
+            "id": "https://openalex.org/A5027206285",
+            "display_name": "Martin Monperrus",
+            "orcid": "https://orcid.org/0000-0003-3505-3383",
+            "observed_orcids": [
+              "https://orcid.org/0000-0003-3505-3383"
+            ]
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I86987016",
+              "display_name": "KTH Royal Institute of Technology",
+              "ror": "https://ror.org/026vcq606",
+              "country_code": "SE",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I86987016"
+              ]
+            }
+          ],
+          "countries": [
+            "SE"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "Martin Monperrus",
+          "raw_affiliation_strings": [
+            "KTH Royal Institute of Technology, Stockholm, Sweden",
+            "Theoretical Computer Science, KTH Royal Institute of Technology School of Computer Science and Communication, 156318 Stockholm, Stockholm, Sweden"
+          ],
+          "raw_orcid": "https://orcid.org/0000-0003-3505-3383",
+          "affiliations": [
+            {
+              "raw_affiliation_string": "KTH Royal Institute of Technology, Stockholm, Sweden",
+              "institution_ids": [
+                "https://openalex.org/I86987016"
+              ]
+            },
+            {
+              "raw_affiliation_string": "Theoretical Computer Science, KTH Royal Institute of Technology School of Computer Science and Communication, 156318 Stockholm, Stockholm, Sweden",
+              "institution_ids": [
+                "https://openalex.org/I86987016"
+              ]
+            }
+          ]
+        }
+      ],
+      "institutions": [],
+      "countries_distinct_count": 2,
+      "institutions_distinct_count": 2,
+      "corresponding_author_ids": [],
+      "corresponding_institution_ids": [],
+      "apc_list": {
+        "value": 2195,
+        "currency": "USD",
+        "value_usd": 2195
+      },
+      "apc_paid": {
+        "value": 1165,
+        "currency": "EUR",
+        "value_usd": 1256
+      },
+      "fwci": 4.328,
+      "is_authors_truncated": false,
+      "has_fulltext": true,
+      "cited_by_count": 33,
+      "citation_normalized_percentile": {
+        "value": 0.94213396,
+        "is_in_top_1_percent": false,
+        "is_in_top_10_percent": true
+      },
+      "cited_by_percentile_year": {
+        "min": 96,
+        "max": 99
+      },
+      "biblio": {
+        "volume": "20",
+        "issue": "4",
+        "first_page": "2794",
+        "last_page": "2810"
+      },
+      "is_retracted": false,
+      "is_paratext": false,
+      "is_xpac": false,
+      "primary_topic": {
+        "id": "https://openalex.org/T10260",
+        "display_name": "Software Engineering Research",
+        "score": 0.875,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1710",
+          "display_name": "Information Systems"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      "topics": [
+        {
+          "id": "https://openalex.org/T10260",
+          "display_name": "Software Engineering Research",
+          "score": 0.875,
+          "subfield": {
+            "id": "https://openalex.org/subfields/1710",
+            "display_name": "Information Systems"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/17",
+            "display_name": "Computer Science"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T10743",
+          "display_name": "Software Testing and Debugging Techniques",
+          "score": 0.11959999799728394,
+          "subfield": {
+            "id": "https://openalex.org/subfields/1712",
+            "display_name": "Software"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/17",
+            "display_name": "Computer Science"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T10126",
+          "display_name": "Logic, programming, and type systems",
+          "score": 0.003100000089034438,
+          "subfield": {
+            "id": "https://openalex.org/subfields/1712",
+            "display_name": "Software"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/17",
+            "display_name": "Computer Science"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        }
+      ],
+      "keywords": [
+        {
+          "id": "https://openalex.org/keywords/sonarqube",
+          "display_name": "SonarQube",
+          "score": 0.9390000104904175
+        },
+        {
+          "id": "https://openalex.org/keywords/java",
+          "display_name": "Java",
+          "score": 0.6359999775886536
+        },
+        {
+          "id": "https://openalex.org/keywords/code-quality",
+          "display_name": "code quality",
+          "score": 0.32499998807907104
+        }
+      ],
+      "concepts": [
+        {
+          "id": "https://openalex.org/C97686452",
+          "wikidata": "https://www.wikidata.org/wiki/Q7604153",
+          "display_name": "Static analysis",
+          "level": 2,
+          "score": 0.9151593446731567
+        },
+        {
+          "id": "https://openalex.org/C41008148",
+          "wikidata": "https://www.wikidata.org/wiki/Q21198",
+          "display_name": "Computer science",
+          "level": 0,
+          "score": 0.8373547792434692
+        },
+        {
+          "id": "https://openalex.org/C548217200",
+          "wikidata": "https://www.wikidata.org/wiki/Q251",
+          "display_name": "Java",
+          "level": 2,
+          "score": 0.7217650413513184
+        },
+        {
+          "id": "https://openalex.org/C137287247",
+          "wikidata": "https://www.wikidata.org/wiki/Q1329550",
+          "display_name": "Static program analysis",
+          "level": 4,
+          "score": 0.6733875870704651
+        },
+        {
+          "id": "https://openalex.org/C60048249",
+          "wikidata": "https://www.wikidata.org/wiki/Q37437",
+          "display_name": "Syntax",
+          "level": 2,
+          "score": 0.6591148376464844
+        },
+        {
+          "id": "https://openalex.org/C35390924",
+          "wikidata": "https://www.wikidata.org/wiki/Q661075",
+          "display_name": "Metaprogramming",
+          "level": 2,
+          "score": 0.5678355097770691
+        },
+        {
+          "id": "https://openalex.org/C199360897",
+          "wikidata": "https://www.wikidata.org/wiki/Q9143",
+          "display_name": "Programming language",
+          "level": 1,
+          "score": 0.5256715416908264
+        },
+        {
+          "id": "https://openalex.org/C58646249",
+          "wikidata": "https://www.wikidata.org/wiki/Q127380",
+          "display_name": "Abstract syntax tree",
+          "level": 3,
+          "score": 0.5084832906723022
+        },
+        {
+          "id": "https://openalex.org/C2776760102",
+          "wikidata": "https://www.wikidata.org/wiki/Q5139990",
+          "display_name": "Code (set theory)",
+          "level": 3,
+          "score": 0.5052781701087952
+        },
+        {
+          "id": "https://openalex.org/C115903868",
+          "wikidata": "https://www.wikidata.org/wiki/Q80993",
+          "display_name": "Software engineering",
+          "level": 1,
+          "score": 0.4824022054672241
+        },
+        {
+          "id": "https://openalex.org/C138268822",
+          "wikidata": "https://www.wikidata.org/wiki/Q1051925",
+          "display_name": "Resolution (logic)",
+          "level": 2,
+          "score": 0.4286287724971771
+        },
+        {
+          "id": "https://openalex.org/C154945302",
+          "wikidata": "https://www.wikidata.org/wiki/Q11660",
+          "display_name": "Artificial intelligence",
+          "level": 1,
+          "score": 0.16737717390060425
+        },
+        {
+          "id": "https://openalex.org/C2777904410",
+          "wikidata": "https://www.wikidata.org/wiki/Q7397",
+          "display_name": "Software",
+          "level": 2,
+          "score": 0.1327252984046936
+        },
+        {
+          "id": "https://openalex.org/C529173508",
+          "wikidata": "https://www.wikidata.org/wiki/Q638608",
+          "display_name": "Software development",
+          "level": 3,
+          "score": 0.07201719284057617
+        },
+        {
+          "id": "https://openalex.org/C177264268",
+          "wikidata": "https://www.wikidata.org/wiki/Q1514741",
+          "display_name": "Set (abstract data type)",
+          "level": 2,
+          "score": 0.0
+        }
+      ],
+      "mesh": [],
+      "locations_count": 3,
+      "locations": [
+        {
+          "id": "doi:10.1109/tdsc.2022.3167316",
+          "doi": "https://doi.org/10.1109/tdsc.2022.3167316",
+          "is_oa": true,
+          "landing_page_url": "https://doi.org/10.1109/tdsc.2022.3167316",
+          "pdf_url": "https://ieeexplore.ieee.org/ielx7/8858/4358699/09756950.pdf",
+          "source": {
+            "id": "https://openalex.org/S133795288",
+            "display_name": "IEEE Transactions on Dependable and Secure Computing",
+            "issn_l": "1545-5971",
+            "issn": [
+              "1545-5971",
+              "1941-0018",
+              "2160-9209"
+            ],
+            "is_oa": false,
+            "is_in_doaj": false,
+            "is_core": true,
+            "listed_in": [
+              "anvur-scientific",
+              "ccf-a",
+              "cwts-core",
+              "dongbi-a",
+              "jufo-3",
+              "norway-2",
+              "poland-140",
+              "russia-white-list-1",
+              "vabb-shw"
+            ],
+            "host_organization": "https://openalex.org/P4310320439",
+            "host_organization_name": "IEEE Computer Society",
+            "host_organization_lineage": [
+              "https://openalex.org/P4310320439",
+              "https://openalex.org/P4310319808"
+            ],
+            "host_organization_lineage_names": [
+              "IEEE Computer Society",
+              "Institute of Electrical and Electronics Engineers"
+            ],
+            "type": "journal"
+          },
+          "license": "cc-by",
+          "license_id": "https://openalex.org/licenses/cc-by",
+          "version": "publishedVersion",
+          "is_accepted": true,
+          "is_published": true,
+          "raw_source_name": "IEEE Transactions on Dependable and Secure Computing",
+          "raw_type": "journal-article"
+        },
+        {
+          "id": "pmh:oai:arXiv.org:2103.12033",
+          "doi": null,
+          "is_oa": true,
+          "landing_page_url": "http://arxiv.org/abs/2103.12033",
+          "pdf_url": "https://arxiv.org/pdf/2103.12033",
+          "source": {
+            "id": "https://openalex.org/S4306400194",
+            "display_name": "arXiv (Cornell University)",
+            "issn_l": "2331-8422",
+            "issn": [
+              "2331-8422"
+            ],
+            "is_oa": true,
+            "is_in_doaj": false,
+            "is_core": false,
+            "listed_in": [],
+            "host_organization": "https://openalex.org/I205783295",
+            "host_organization_name": "Cornell University",
+            "host_organization_lineage": [
+              "https://openalex.org/I205783295"
+            ],
+            "host_organization_lineage_names": [],
+            "type": "repository"
+          },
+          "license": "cc-by",
+          "license_id": "https://openalex.org/licenses/cc-by",
+          "version": "submittedVersion",
+          "is_accepted": false,
+          "is_published": false,
+          "raw_source_name": null,
+          "raw_type": "text"
+        },
+        {
+          "id": "doi:10.48550/arxiv.2103.12033",
+          "doi": "https://doi.org/10.48550/arxiv.2103.12033",
+          "is_oa": true,
+          "landing_page_url": "https://doi.org/10.48550/arxiv.2103.12033",
+          "pdf_url": null,
+          "source": {
+            "id": "https://openalex.org/S4306400194",
+            "display_name": "arXiv (Cornell University)",
+            "issn_l": "2331-8422",
+            "issn": [
+              "2331-8422"
+            ],
+            "is_oa": true,
+            "is_in_doaj": false,
+            "is_core": false,
+            "listed_in": [],
+            "host_organization": "https://openalex.org/I205783295",
+            "host_organization_name": "Cornell University",
+            "host_organization_lineage": [
+              "https://openalex.org/I205783295"
+            ],
+            "host_organization_lineage_names": [],
+            "type": "repository"
+          },
+          "license": "cc-by",
+          "license_id": "https://openalex.org/licenses/cc-by",
+          "version": null,
+          "is_accepted": false,
+          "is_published": false,
+          "raw_source_name": null,
+          "raw_type": "article-journal"
+        }
+      ],
+      "best_oa_location": {
+        "id": "doi:10.1109/tdsc.2022.3167316",
+        "doi": "https://doi.org/10.1109/tdsc.2022.3167316",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.1109/tdsc.2022.3167316",
+        "pdf_url": "https://ieeexplore.ieee.org/ielx7/8858/4358699/09756950.pdf",
+        "source": {
+          "id": "https://openalex.org/S133795288",
+          "display_name": "IEEE Transactions on Dependable and Secure Computing",
+          "issn_l": "1545-5971",
+          "issn": [
+            "1545-5971",
+            "1941-0018",
+            "2160-9209"
+          ],
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": true,
+          "listed_in": [
+            "anvur-scientific",
+            "ccf-a",
+            "cwts-core",
+            "dongbi-a",
+            "jufo-3",
+            "norway-2",
+            "poland-140",
+            "russia-white-list-1",
+            "vabb-shw"
+          ],
+          "host_organization": "https://openalex.org/P4310320439",
+          "host_organization_name": "IEEE Computer Society",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310320439",
+            "https://openalex.org/P4310319808"
+          ],
+          "host_organization_lineage_names": [
+            "IEEE Computer Society",
+            "Institute of Electrical and Electronics Engineers"
+          ],
+          "type": "journal"
+        },
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "IEEE Transactions on Dependable and Secure Computing",
+        "raw_type": "journal-article"
+      },
+      "sustainable_development_goals": [],
+      "study_designs": [],
+      "awards": [],
+      "funders": [
+        {
+          "id": "https://openalex.org/F4320320940",
+          "display_name": "Stiftelsen för Strategisk Forskning",
+          "ror": "https://ror.org/044wr7g58"
+        },
+        {
+          "id": "https://openalex.org/F4320322327",
+          "display_name": "Knut och Alice Wallenbergs Stiftelse",
+          "ror": "https://ror.org/004hzzk67"
+        },
+        {
+          "id": "https://openalex.org/F4320322509",
+          "display_name": "Kungliga Tekniska Högskolan",
+          "ror": "https://ror.org/026vcq606"
+        }
+      ],
+      "has_content": {
+        "grobid_xml": true,
+        "pdf": true
+      },
+      "content_urls": {
+        "pdf": "https://content.openalex.org/works/W3138622308.pdf",
+        "grobid_xml": "https://content.openalex.org/works/W3138622308.grobid-xml"
+      },
+      "referenced_works_count": 55,
+      "referenced_works": [
+        "https://openalex.org/W37801532",
+        "https://openalex.org/W777621473",
+        "https://openalex.org/W814172419",
+        "https://openalex.org/W1657354101",
+        "https://openalex.org/W1962482270",
+        "https://openalex.org/W1981108270",
+        "https://openalex.org/W2015187825",
+        "https://openalex.org/W2065489029",
+        "https://openalex.org/W2074937108",
+        "https://openalex.org/W2083882002",
+        "https://openalex.org/W2086464170",
+        "https://openalex.org/W2087527532",
+        "https://openalex.org/W2104220745",
+        "https://openalex.org/W2139092060",
+        "https://openalex.org/W2140403548",
+        "https://openalex.org/W2151320244",
+        "https://openalex.org/W2151792652",
+        "https://openalex.org/W2646484260",
+        "https://openalex.org/W2784876765",
+        "https://openalex.org/W2808438073",
+        "https://openalex.org/W2888223970",
+        "https://openalex.org/W2888448570",
+        "https://openalex.org/W2904214673",
+        "https://openalex.org/W2914161001",
+        "https://openalex.org/W2953543126",
+        "https://openalex.org/W2953828322",
+        "https://openalex.org/W2953998535",
+        "https://openalex.org/W2954469728",
+        "https://openalex.org/W2954611248",
+        "https://openalex.org/W2964210007",
+        "https://openalex.org/W2965720427",
+        "https://openalex.org/W2968109196",
+        "https://openalex.org/W2970665562",
+        "https://openalex.org/W2975950293",
+        "https://openalex.org/W2990184944",
+        "https://openalex.org/W2990685757",
+        "https://openalex.org/W2994516867",
+        "https://openalex.org/W3000216919",
+        "https://openalex.org/W3006613871",
+        "https://openalex.org/W3014370431",
+        "https://openalex.org/W3023843306",
+        "https://openalex.org/W3029993213",
+        "https://openalex.org/W3037099619",
+        "https://openalex.org/W3044057999",
+        "https://openalex.org/W3082780329",
+        "https://openalex.org/W3088837432",
+        "https://openalex.org/W3091308116",
+        "https://openalex.org/W3096675378",
+        "https://openalex.org/W3099538536",
+        "https://openalex.org/W3118001284",
+        "https://openalex.org/W3130935642",
+        "https://openalex.org/W3166979522",
+        "https://openalex.org/W4233410239",
+        "https://openalex.org/W4289977462",
+        "https://openalex.org/W6796235982"
+      ],
+      "related_works": [
+        "https://openalex.org/W6990128727",
+        "https://openalex.org/W3021638313",
+        "https://openalex.org/W3029993213",
+        "https://openalex.org/W2996563961",
+        "https://openalex.org/W4415088968",
+        "https://openalex.org/W4376606905",
+        "https://openalex.org/W3118001284",
+        "https://openalex.org/W7052700381",
+        "https://openalex.org/W2954469728",
+        "https://openalex.org/W3027681153"
+      ],
+      "abstract_inverted_index": {
+        "Previous": [
+          0
+        ],
+        "work": [
+          1
+        ],
+        "has": [
+          2
+        ],
+        "shown": [
+          3
+        ],
+        "that": [
+          4,
+          59,
+          72,
+          157
+        ],
+        "early": [
+          5
+        ],
+        "resolution": [
+          6
+        ],
+        "of": [
+          7,
+          82,
+          115,
+          121,
+          136,
+          147,
+          154,
+          174
+        ],
+        "issues": [
+          8,
+          25,
+          32,
+          55
+        ],
+        "detected": [
+          9
+        ],
+        "by": [
+          10,
+          180
+        ],
+        "static": [
+          11,
+          48,
+          88,
+          103,
+          126,
+          176,
+          183
+        ],
+        "code": [
+          12
+        ],
+        "analyzers": [
+          13,
+          49,
+          127
+        ],
+        "can": [
+          14
+        ],
+        "prevent": [
+          15
+        ],
+        "major": [
+          16
+        ],
+        "costs": [
+          17
+        ],
+        "later": [
+          18
+        ],
+        "on.": [
+          19
+        ],
+        "However,": [
+          20
+        ],
+        "developers": [
+          21
+        ],
+        "often": [
+          22,
+          50
+        ],
+        "ignore": [
+          23
+        ],
+        "such": [
+          24
+        ],
+        "for": [
+          26,
+          87,
+          128
+        ],
+        "two": [
+          27
+        ],
+        "main": [
+          28
+        ],
+        "reasons.": [
+          29
+        ],
+        "First,": [
+          30
+        ],
+        "many": [
+          31
+        ],
+        "should": [
+          33
+        ],
+        "be": [
+          34
+        ],
+        "interpreted": [
+          35
+        ],
+        "to": [
+          36,
+          41,
+          76,
+          105,
+          169
+        ],
+        "determine": [
+          37
+        ],
+        "if": [
+          38
+        ],
+        "they": [
+          39
+        ],
+        "correspond": [
+          40
+        ],
+        "actual": [
+          42
+        ],
+        "flaws": [
+          43
+        ],
+        "in": [
+          44,
+          56
+        ],
+        "the": [
+          45,
+          54,
+          78,
+          92,
+          95,
+          122,
+          145,
+          155,
+          159,
+          175,
+          181
+        ],
+        "program.": [
+          46
+        ],
+        "Second,": [
+          47
+        ],
+        "do": [
+          51
+        ],
+        "not": [
+          52
+        ],
+        "present": [
+          53,
+          67
+        ],
+        "a": [
+          57,
+          69,
+          134
+        ],
+        "way": [
+          58
+        ],
+        "is": [
+          60,
+          97,
+          167
+        ],
+        "actionable.": [
+          61
+        ],
+        "To": [
+          62
+        ],
+        "address": [
+          63
+        ],
+        "these": [
+          64
+        ],
+        "problems,": [
+          65
+        ],
+        "we": [
+          66
+        ],
+        "Sorald:": [
+          68
+        ],
+        "novel": [
+          70
+        ],
+        "system": [
+          71
+        ],
+        "uses": [
+          73
+        ],
+        "metaprogramming": [
+          74
+        ],
+        "templates": [
+          75
+        ],
+        "transform": [
+          77
+        ],
+        "abstract": [
+          79
+        ],
+        "syntax": [
+          80
+        ],
+        "trees": [
+          81
+        ],
+        "programs": [
+          83
+        ],
+        "and": [
+          84,
+          101,
+          107
+        ],
+        "suggests": [
+          85
+        ],
+        "fixes": [
+          86,
+          113,
+          151
+        ],
+        "analysis": [
+          89,
+          143,
+          177
+        ],
+        "warnings.": [
+          90
+        ],
+        "Thus,": [
+          91
+        ],
+        "burden": [
+          93
+        ],
+        "on": [
+          94,
+          133,
+          140
+        ],
+        "developer": [
+          96
+        ],
+        "reduced": [
+          98
+        ],
+        "from": [
+          99,
+          118
+        ],
+        "interpreting": [
+          100
+        ],
+        "fixing": [
+          102
+        ],
+        "issues,": [
+          104
+        ],
+        "inspecting": [
+          106
+        ],
+        "approving": [
+          108
+        ],
+        "full": [
+          109
+        ],
+        "fledged": [
+          110
+        ],
+        "solutions.": [
+          111
+        ],
+        "Sorald": [
+          112,
+          132,
+          148
+        ],
+        "violations": [
+          114,
+          156,
+          173
+        ],
+        "10": [
+          116
+        ],
+        "rules": [
+          117,
+          178
+        ],
+        "SonarJava,": [
+          119
+        ],
+        "one": [
+          120
+        ],
+        "most": [
+          123
+        ],
+        "widely": [
+          124
+        ],
+        "used": [
+          125
+        ],
+        "Java.": [
+          129
+        ],
+        "We": [
+          130
+        ],
+        "evaluate": [
+          131
+        ],
+        "dataset": [
+          135
+        ],
+        "161": [
+          137
+        ],
+        "popular": [
+          138
+        ],
+        "repositories": [
+          139
+        ],
+        "Github.": [
+          141
+        ],
+        "Our": [
+          142
+        ],
+        "shows": [
+          144
+        ],
+        "effectiveness": [
+          146
+        ],
+        "as": [
+          149
+        ],
+        "it": [
+          150,
+          166
+        ],
+        "65%": [
+          152
+        ],
+        "(852/1,307)": [
+          153
+        ],
+        "meets": [
+          158
+        ],
+        "repair": [
+          160
+        ],
+        "preconditions.": [
+          161
+        ],
+        "Overall,": [
+          162
+        ],
+        "our": [
+          163
+        ],
+        "experiments": [
+          164
+        ],
+        "show": [
+          165
+        ],
+        "possible": [
+          168
+        ],
+        "automatically": [
+          170
+        ],
+        "fix": [
+          171
+        ],
+        "notable": [
+          172
+        ],
+        "produced": [
+          179
+        ],
+        "state-of-the-art": [
+          182
+        ],
+        "analyzer": [
+          184
+        ],
+        "SonarJava.": [
+          185
+        ]
+      },
+      "counts_by_year": [
+        {
+          "year": 2026,
+          "cited_by_count": 8
+        },
+        {
+          "year": 2025,
+          "cited_by_count": 6
+        },
+        {
+          "year": 2024,
+          "cited_by_count": 10
+        },
+        {
+          "year": 2023,
+          "cited_by_count": 5
+        },
+        {
+          "year": 2022,
+          "cited_by_count": 4
+        }
+      ],
+      "updated_date": "2026-11-10T11:39:43.021295",
+      "created_date": "2021-03-29T00:00:00"
+    },
+    {
+      "id": "https://openalex.org/W7133720761",
+      "doi": "https://doi.org/10.1016/j.scico.2026.103470",
+      "title": "Understanding warnings generated by PMD and SonarQube, their rules and compliance to established coding standards",
+      "display_name": "Understanding warnings generated by PMD and SonarQube, their rules and compliance to established coding standards",
+      "relevance_score": 36.097694,
+      "publication_year": 2026,
+      "publication_date": "2026-03-05",
+      "ids": {
+        "openalex": "https://openalex.org/W7133720761",
+        "doi": "https://doi.org/10.1016/j.scico.2026.103470"
+      },
+      "language": "en",
+      "primary_location": {
+        "id": "doi:10.1016/j.scico.2026.103470",
+        "doi": "https://doi.org/10.1016/j.scico.2026.103470",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.1016/j.scico.2026.103470",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S21029587",
+          "display_name": "Science of Computer Programming",
+          "issn_l": "0167-6423",
+          "issn": [
+            "0167-6423",
+            "1872-7964"
+          ],
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": true,
+          "listed_in": [
+            "ccf-b",
+            "cwts-core",
+            "dongbi-c",
+            "jufo-2",
+            "norway-1",
+            "poland-40",
+            "russia-white-list-2"
+          ],
+          "host_organization": "https://openalex.org/P4310320990",
+          "host_organization_name": "Elsevier BV",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310320990"
+          ],
+          "host_organization_lineage_names": [
+            "Elsevier BV"
+          ],
+          "type": "journal"
+        },
+        "license": "cc-by-nc",
+        "license_id": "https://openalex.org/licenses/cc-by-nc",
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Science of Computer Programming",
+        "raw_type": "journal-article"
+      },
+      "parent_works": [],
+      "lineage": [
+        "https://openalex.org/W7133720761"
+      ],
+      "child_works_count": 0,
+      "type": "article",
+      "is_traditional": true,
+      "indexed_in": [
+        "arxiv",
+        "crossref",
+        "datacite"
+      ],
+      "open_access": {
+        "is_oa": true,
+        "oa_status": "hybrid",
+        "oa_url": "https://doi.org/10.1016/j.scico.2026.103470",
+        "any_repository_has_fulltext": true
+      },
+      "authorships": [
+        {
+          "author_position": "first",
+          "author": {
+            "id": "https://openalex.org/A5094350799",
+            "display_name": "Lakmal Deshapriya",
+            "orcid": "https://orcid.org/0009-0007-8870-2662",
+            "observed_orcids": [
+              "https://orcid.org/0009-0007-8870-2662"
+            ]
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I80281795",
+              "display_name": "University of Otago",
+              "ror": "https://ror.org/01jmxt844",
+              "country_code": "NZ",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I80281795"
+              ]
+            }
+          ],
+          "countries": [
+            "NZ"
+          ],
+          "is_corresponding": true,
+          "raw_author_name": "Lakmal Deshapriya",
+          "raw_affiliation_strings": [
+            "School of Computing, University of Otago, Dunedin, New Zealand"
+          ],
+          "raw_orcid": "https://orcid.org/0009-0007-8870-2662",
+          "affiliations": [
+            {
+              "raw_affiliation_string": "School of Computing, University of Otago, Dunedin, New Zealand",
+              "institution_ids": [
+                "https://openalex.org/I80281795"
+              ]
+            }
+          ]
+        },
+        {
+          "author_position": "middle",
+          "author": {
+            "id": "https://openalex.org/A5011391821",
+            "display_name": "Sherlock A. Licorish",
+            "orcid": "https://orcid.org/0000-0001-7318-2421",
+            "observed_orcids": [
+              "https://orcid.org/0000-0001-7318-2421"
+            ]
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I80281795",
+              "display_name": "University of Otago",
+              "ror": "https://ror.org/01jmxt844",
+              "country_code": "NZ",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I80281795"
+              ]
+            }
+          ],
+          "countries": [
+            "NZ"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "Sherlock A. Licorish",
+          "raw_affiliation_strings": [
+            "School of Computing, University of Otago, Dunedin, New Zealand"
+          ],
+          "raw_orcid": "https://orcid.org/0000-0001-7318-2421",
+          "affiliations": [
+            {
+              "raw_affiliation_string": "School of Computing, University of Otago, Dunedin, New Zealand",
+              "institution_ids": [
+                "https://openalex.org/I80281795"
+              ]
+            }
+          ]
+        },
+        {
+          "author_position": "last",
+          "author": {
+            "id": "https://openalex.org/A5050029919",
+            "display_name": "Brendon J. Woodford",
+            "orcid": "https://orcid.org/0000-0001-5202-9700",
+            "observed_orcids": [
+              "https://orcid.org/0000-0001-5202-9700"
+            ]
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I80281795",
+              "display_name": "University of Otago",
+              "ror": "https://ror.org/01jmxt844",
+              "country_code": "NZ",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I80281795"
+              ]
+            }
+          ],
+          "countries": [
+            "NZ"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "Brendon J. Woodford",
+          "raw_affiliation_strings": [
+            "School of Computing, University of Otago, Dunedin, New Zealand"
+          ],
+          "raw_orcid": "https://orcid.org/0000-0001-5202-9700",
+          "affiliations": [
+            {
+              "raw_affiliation_string": "School of Computing, University of Otago, Dunedin, New Zealand",
+              "institution_ids": [
+                "https://openalex.org/I80281795"
+              ]
+            }
+          ]
+        }
+      ],
+      "institutions": [],
+      "countries_distinct_count": 1,
+      "institutions_distinct_count": 1,
+      "corresponding_author_ids": [
+        "https://openalex.org/A5094350799"
+      ],
+      "corresponding_institution_ids": [
+        "https://openalex.org/I80281795"
+      ],
+      "apc_list": {
+        "value": 2600,
+        "currency": "USD",
+        "value_usd": 2600
+      },
+      "apc_paid": {
+        "value": 2600,
+        "currency": "USD",
+        "value_usd": 2600
+      },
+      "fwci": 10.7348,
+      "is_authors_truncated": false,
+      "has_fulltext": true,
+      "cited_by_count": 3,
+      "citation_normalized_percentile": {
+        "value": 0.97519748,
+        "is_in_top_1_percent": false,
+        "is_in_top_10_percent": true
+      },
+      "cited_by_percentile_year": {
+        "min": 96,
+        "max": 97
+      },
+      "biblio": {
+        "volume": "252",
+        "issue": null,
+        "first_page": "103470",
+        "last_page": "103470"
+      },
+      "is_retracted": false,
+      "is_paratext": false,
+      "is_xpac": false,
+      "primary_topic": {
+        "id": "https://openalex.org/T10260",
+        "display_name": "Software Engineering Research",
+        "score": 0.9980000257492065,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1710",
+          "display_name": "Information Systems"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      "topics": [
+        {
+          "id": "https://openalex.org/T10260",
+          "display_name": "Software Engineering Research",
+          "score": 0.9980000257492065,
+          "subfield": {
+            "id": "https://openalex.org/subfields/1710",
+            "display_name": "Information Systems"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/17",
+            "display_name": "Computer Science"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T10743",
+          "display_name": "Software Testing and Debugging Techniques",
+          "score": 0.0008999999845400453,
+          "subfield": {
+            "id": "https://openalex.org/subfields/1712",
+            "display_name": "Software"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/17",
+            "display_name": "Computer Science"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T10430",
+          "display_name": "Software Engineering Techniques and Practices",
+          "score": 0.0007999999797903001,
+          "subfield": {
+            "id": "https://openalex.org/subfields/1710",
+            "display_name": "Information Systems"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/17",
+            "display_name": "Computer Science"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        }
+      ],
+      "keywords": [
+        {
+          "id": "https://openalex.org/keywords/static-code-analysis",
+          "display_name": "static code analysis",
+          "score": 0.9929999709129333
+        },
+        {
+          "id": "https://openalex.org/keywords/false-positive-results",
+          "display_name": "false positives",
+          "score": 0.7689999938011169
+        },
+        {
+          "id": "https://openalex.org/keywords/pmd",
+          "display_name": "PMD",
+          "score": 0.878000020980835
+        },
+        {
+          "id": "https://openalex.org/keywords/sonarqube",
+          "display_name": "SonarQube",
+          "score": 1.0
+        },
+        {
+          "id": "https://openalex.org/keywords/apache-tomcat",
+          "display_name": "Apache Tomcat",
+          "score": 0.9819999933242798
+        },
+        {
+          "id": "https://openalex.org/keywords/coding-style",
+          "display_name": "code style",
+          "score": 0.3880000114440918
+        }
+      ],
+      "concepts": [
+        {
+          "id": "https://openalex.org/C41008148",
+          "wikidata": "https://www.wikidata.org/wiki/Q21198",
+          "display_name": "Computer science",
+          "level": 0,
+          "score": 0.8880000114440918
+        },
+        {
+          "id": "https://openalex.org/C179518139",
+          "wikidata": "https://www.wikidata.org/wiki/Q5140297",
+          "display_name": "Coding (social sciences)",
+          "level": 2,
+          "score": 0.757099986076355
+        },
+        {
+          "id": "https://openalex.org/C150292731",
+          "wikidata": "https://www.wikidata.org/wiki/Q1342704",
+          "display_name": "Code review",
+          "level": 5,
+          "score": 0.5612999796867371
+        },
+        {
+          "id": "https://openalex.org/C2776760102",
+          "wikidata": "https://www.wikidata.org/wiki/Q5139990",
+          "display_name": "Code (set theory)",
+          "level": 3,
+          "score": 0.5029000043869019
+        },
+        {
+          "id": "https://openalex.org/C43126263",
+          "wikidata": "https://www.wikidata.org/wiki/Q128751",
+          "display_name": "Source code",
+          "level": 2,
+          "score": 0.46549999713897705
+        },
+        {
+          "id": "https://openalex.org/C124101348",
+          "wikidata": "https://www.wikidata.org/wiki/Q172491",
+          "display_name": "Data mining",
+          "level": 1,
+          "score": 0.43549999594688416
+        },
+        {
+          "id": "https://openalex.org/C2777904410",
+          "wikidata": "https://www.wikidata.org/wiki/Q7397",
+          "display_name": "Software",
+          "level": 2,
+          "score": 0.42739999294281006
+        },
+        {
+          "id": "https://openalex.org/C119857082",
+          "wikidata": "https://www.wikidata.org/wiki/Q2539",
+          "display_name": "Machine learning",
+          "level": 1,
+          "score": 0.3912000060081482
+        },
+        {
+          "id": "https://openalex.org/C97686452",
+          "wikidata": "https://www.wikidata.org/wiki/Q7604153",
+          "display_name": "Static analysis",
+          "level": 2,
+          "score": 0.3797999918460846
+        },
+        {
+          "id": "https://openalex.org/C137287247",
+          "wikidata": "https://www.wikidata.org/wiki/Q1329550",
+          "display_name": "Static program analysis",
+          "level": 4,
+          "score": 0.3752000033855438
+        },
+        {
+          "id": "https://openalex.org/C51929080",
+          "wikidata": "https://www.wikidata.org/wiki/Q2425187",
+          "display_name": "Codebase",
+          "level": 3,
+          "score": 0.36559998989105225
+        },
+        {
+          "id": "https://openalex.org/C22680326",
+          "wikidata": "https://www.wikidata.org/wiki/Q7444867",
+          "display_name": "Secure coding",
+          "level": 5,
+          "score": 0.351500004529953
+        },
+        {
+          "id": "https://openalex.org/C199519371",
+          "wikidata": "https://www.wikidata.org/wiki/Q942695",
+          "display_name": "Source lines of code",
+          "level": 3,
+          "score": 0.32030001282691956
+        },
+        {
+          "id": "https://openalex.org/C154945302",
+          "wikidata": "https://www.wikidata.org/wiki/Q11660",
+          "display_name": "Artificial intelligence",
+          "level": 1,
+          "score": 0.29589998722076416
+        },
+        {
+          "id": "https://openalex.org/C204323151",
+          "wikidata": "https://www.wikidata.org/wiki/Q905424",
+          "display_name": "Range (aeronautics)",
+          "level": 2,
+          "score": 0.295199990272522
+        },
+        {
+          "id": "https://openalex.org/C2781460075",
+          "wikidata": "https://www.wikidata.org/wiki/Q1399332",
+          "display_name": "Compliance (psychology)",
+          "level": 2,
+          "score": 0.2759000062942505
+        },
+        {
+          "id": "https://openalex.org/C2778565505",
+          "wikidata": "https://www.wikidata.org/wiki/Q2207566",
+          "display_name": "Spec#",
+          "level": 2,
+          "score": 0.27149999141693115
+        },
+        {
+          "id": "https://openalex.org/C2522767166",
+          "wikidata": "https://www.wikidata.org/wiki/Q2374463",
+          "display_name": "Data science",
+          "level": 1,
+          "score": 0.26829999685287476
+        },
+        {
+          "id": "https://openalex.org/C115903868",
+          "wikidata": "https://www.wikidata.org/wiki/Q80993",
+          "display_name": "Software engineering",
+          "level": 1,
+          "score": 0.2529999911785126
+        }
+      ],
+      "mesh": [],
+      "locations_count": 3,
+      "locations": [
+        {
+          "id": "doi:10.1016/j.scico.2026.103470",
+          "doi": "https://doi.org/10.1016/j.scico.2026.103470",
+          "is_oa": true,
+          "landing_page_url": "https://doi.org/10.1016/j.scico.2026.103470",
+          "pdf_url": null,
+          "source": {
+            "id": "https://openalex.org/S21029587",
+            "display_name": "Science of Computer Programming",
+            "issn_l": "0167-6423",
+            "issn": [
+              "0167-6423",
+              "1872-7964"
+            ],
+            "is_oa": false,
+            "is_in_doaj": false,
+            "is_core": true,
+            "listed_in": [
+              "ccf-b",
+              "cwts-core",
+              "dongbi-c",
+              "jufo-2",
+              "norway-1",
+              "poland-40",
+              "russia-white-list-2"
+            ],
+            "host_organization": "https://openalex.org/P4310320990",
+            "host_organization_name": "Elsevier BV",
+            "host_organization_lineage": [
+              "https://openalex.org/P4310320990"
+            ],
+            "host_organization_lineage_names": [
+              "Elsevier BV"
+            ],
+            "type": "journal"
+          },
+          "license": "cc-by-nc",
+          "license_id": "https://openalex.org/licenses/cc-by-nc",
+          "version": "publishedVersion",
+          "is_accepted": true,
+          "is_published": true,
+          "raw_source_name": "Science of Computer Programming",
+          "raw_type": "journal-article"
+        },
+        {
+          "id": "pmh:oai:arXiv.org:2603.00821",
+          "doi": null,
+          "is_oa": true,
+          "landing_page_url": "http://arxiv.org/abs/2603.00821",
+          "pdf_url": "https://arxiv.org/pdf/2603.00821",
+          "source": {
+            "id": "https://openalex.org/S4306400194",
+            "display_name": "arXiv (Cornell University)",
+            "issn_l": "2331-8422",
+            "issn": [
+              "2331-8422"
+            ],
+            "is_oa": true,
+            "is_in_doaj": false,
+            "is_core": false,
+            "listed_in": [],
+            "host_organization": "https://openalex.org/I205783295",
+            "host_organization_name": "Cornell University",
+            "host_organization_lineage": [
+              "https://openalex.org/I205783295"
+            ],
+            "host_organization_lineage_names": [],
+            "type": "repository"
+          },
+          "license": "cc-by-nc-nd",
+          "license_id": "https://openalex.org/licenses/cc-by-nc-nd",
+          "version": "submittedVersion",
+          "is_accepted": false,
+          "is_published": false,
+          "raw_source_name": null,
+          "raw_type": "text"
+        },
+        {
+          "id": "doi:10.48550/arxiv.2603.00821",
+          "doi": "https://doi.org/10.48550/arxiv.2603.00821",
+          "is_oa": true,
+          "landing_page_url": "https://doi.org/10.48550/arxiv.2603.00821",
+          "pdf_url": null,
+          "source": {
+            "id": "https://openalex.org/S4306400194",
+            "display_name": "arXiv (Cornell University)",
+            "issn_l": "2331-8422",
+            "issn": [
+              "2331-8422"
+            ],
+            "is_oa": true,
+            "is_in_doaj": false,
+            "is_core": false,
+            "listed_in": [],
+            "host_organization": "https://openalex.org/I205783295",
+            "host_organization_name": "Cornell University",
+            "host_organization_lineage": [
+              "https://openalex.org/I205783295"
+            ],
+            "host_organization_lineage_names": [],
+            "type": "repository"
+          },
+          "license": "cc-by-nc-nd",
+          "license_id": "https://openalex.org/licenses/cc-by-nc-nd",
+          "version": null,
+          "is_accepted": false,
+          "is_published": false,
+          "raw_source_name": null,
+          "raw_type": "Preprint"
+        }
+      ],
+      "best_oa_location": {
+        "id": "doi:10.1016/j.scico.2026.103470",
+        "doi": "https://doi.org/10.1016/j.scico.2026.103470",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.1016/j.scico.2026.103470",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S21029587",
+          "display_name": "Science of Computer Programming",
+          "issn_l": "0167-6423",
+          "issn": [
+            "0167-6423",
+            "1872-7964"
+          ],
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": true,
+          "listed_in": [
+            "ccf-b",
+            "cwts-core",
+            "dongbi-c",
+            "jufo-2",
+            "norway-1",
+            "poland-40",
+            "russia-white-list-2"
+          ],
+          "host_organization": "https://openalex.org/P4310320990",
+          "host_organization_name": "Elsevier BV",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310320990"
+          ],
+          "host_organization_lineage_names": [
+            "Elsevier BV"
+          ],
+          "type": "journal"
+        },
+        "license": "cc-by-nc",
+        "license_id": "https://openalex.org/licenses/cc-by-nc",
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Science of Computer Programming",
+        "raw_type": "journal-article"
+      },
+      "sustainable_development_goals": [],
+      "study_designs": [],
+      "awards": [],
+      "funders": [
+        {
+          "id": "https://openalex.org/F4320310371",
+          "display_name": "University of Otago",
+          "ror": "https://ror.org/01jmxt844"
+        }
+      ],
+      "has_content": {
+        "grobid_xml": true,
+        "pdf": true
+      },
+      "content_urls": {
+        "pdf": "https://content.openalex.org/works/W7133720761.pdf",
+        "grobid_xml": "https://content.openalex.org/works/W7133720761.grobid-xml"
+      },
+      "referenced_works_count": 26,
+      "referenced_works": [
+        "https://openalex.org/W2025411198",
+        "https://openalex.org/W2053154970",
+        "https://openalex.org/W2075269190",
+        "https://openalex.org/W2087484885",
+        "https://openalex.org/W2096274199",
+        "https://openalex.org/W2120268999",
+        "https://openalex.org/W2164777277",
+        "https://openalex.org/W2791386202",
+        "https://openalex.org/W2964210007",
+        "https://openalex.org/W3040901374",
+        "https://openalex.org/W3159659358",
+        "https://openalex.org/W3193313841",
+        "https://openalex.org/W4200192508",
+        "https://openalex.org/W4220745595",
+        "https://openalex.org/W4283693443",
+        "https://openalex.org/W4285211649",
+        "https://openalex.org/W4285413858",
+        "https://openalex.org/W4295106697",
+        "https://openalex.org/W4310423035",
+        "https://openalex.org/W4313909309",
+        "https://openalex.org/W4323848238",
+        "https://openalex.org/W4394862968",
+        "https://openalex.org/W4399782414",
+        "https://openalex.org/W4400036927",
+        "https://openalex.org/W4407627994",
+        "https://openalex.org/W6922720241"
+      ],
+      "related_works": [
+        "https://openalex.org/W7221142913",
+        "https://openalex.org/W4285211649",
+        "https://openalex.org/W2735834919",
+        "https://openalex.org/W2624094989",
+        "https://openalex.org/W7223094822",
+        "https://openalex.org/W4388240263",
+        "https://openalex.org/W6889207702",
+        "https://openalex.org/W2909087604",
+        "https://openalex.org/W4416793216"
+      ],
+      "abstract_inverted_index": {
+        "Static": [
+          0
+        ],
+        "Code": [
+          1
+        ],
+        "Analysis": [
+          2
+        ],
+        "(SCA)": [
+          3
+        ],
+        "tools": [
+          4,
+          32,
+          130,
+          144,
+          216,
+          234
+        ],
+        "play": [
+          5
+        ],
+        "a": [
+          6,
+          184
+        ],
+        "vital": [
+          7
+        ],
+        "role": [
+          8
+        ],
+        "in": [
+          9,
+          33,
+          62,
+          72,
+          119,
+          124,
+          224
+        ],
+        "software": [
+          10
+        ],
+        "development,": [
+          11
+        ],
+        "reducing": [
+          12
+        ],
+        "the": [
+          13,
+          30,
+          34,
+          64,
+          92,
+          143,
+          158,
+          207,
+          221,
+          239
+        ],
+        "cost": [
+          14
+        ],
+        "and": [
+          15,
+          24,
+          60,
+          75,
+          101,
+          113,
+          122,
+          132,
+          168,
+          173,
+          217,
+          235
+        ],
+        "time": [
+          16
+        ],
+        "required": [
+          17
+        ],
+        "for": [
+          18,
+          29,
+          43,
+          166
+        ],
+        "code": [
+          19,
+          109,
+          120
+        ],
+        "reviews.": [
+          20
+        ],
+        "However,": [
+          21,
+          82
+        ],
+        "high": [
+          22
+        ],
+        "false-positive": [
+          23,
+          126,
+          139,
+          208
+        ],
+        "false-negative": [
+          25
+        ],
+        "rates": [
+          26
+        ],
+        "are": [
+          27,
+          55,
+          97,
+          161
+        ],
+        "reported": [
+          28
+        ],
+        "best": [
+          31
+        ],
+        "community.": [
+          35
+        ],
+        "Accordingly,": [
+          36
+        ],
+        "studies": [
+          37,
+          84
+        ],
+        "often": [
+          38
+        ],
+        "aim": [
+          39
+        ],
+        "to": [
+          40,
+          48,
+          57,
+          99,
+          104,
+          116,
+          156,
+          163,
+          193,
+          245
+        ],
+        "develop": [
+          41
+        ],
+        "datasets": [
+          42,
+          54,
+          89
+        ],
+        "learning": [
+          44,
+          243
+        ],
+        "SCA": [
+          45,
+          171,
+          186
+        ],
+        "warning": [
+          46
+        ],
+        "patterns": [
+          47
+        ],
+        "reduce": [
+          49,
+          206
+        ],
+        "false": [
+          50,
+          73
+        ],
+        "positive": [
+          51
+        ],
+        "results.": [
+          52
+        ],
+        "These": [
+          53
+        ],
+        "meant": [
+          56
+        ],
+        "possess": [
+          58
+        ],
+        "high-quality": [
+          59
+        ],
+        "high-volume": [
+          61
+        ],
+        "covering": [
+          63
+        ],
+        "full": [
+          65
+        ],
+        "range": [
+          66
+        ],
+        "of": [
+          67,
+          94,
+          241
+        ],
+        "faults/rules": [
+          68
+        ],
+        "that": [
+          69,
+          96,
+          160,
+          182,
+          201
+        ],
+        "typically": [
+          70
+        ],
+        "result": [
+          71
+        ],
+        "warnings": [
+          74,
+          127
+        ],
+        "be": [
+          76
+        ],
+        "compliant": [
+          77
+        ],
+        "with": [
+          78
+        ],
+        "established": [
+          79,
+          148,
+          174,
+          203,
+          218,
+          223,
+          236
+        ],
+        "coding": [
+          80,
+          105,
+          149
+        ],
+        "standards.": [
+          81,
+          106,
+          150,
+          175,
+          219
+        ],
+        "existing": [
+          83
+        ],
+        "have": [
+          85
+        ],
+        "not": [
+          86
+        ],
+        "utilised": [
+          87
+        ],
+        "such": [
+          88
+        ],
+        "or": [
+          90
+        ],
+        "identified": [
+          91
+        ],
+        "breadth": [
+          93
+        ],
+        "rules": [
+          95,
+          159,
+          172,
+          187,
+          200
+        ],
+        "prone": [
+          98,
+          162
+        ],
+        "false-positives": [
+          100
+        ],
+        "their": [
+          102
+        ],
+        "compliance": [
+          103
+        ],
+        "We": [
+          107
+        ],
+        "analysed": [
+          108
+        ],
+        "from": [
+          110,
+          128,
+          142,
+          191
+        ],
+        "Stack": [
+          111
+        ],
+        "Overflow": [
+          112
+        ],
+        "Apache": [
+          114
+        ],
+        "Tomcat": [
+          115
+        ],
+        "capture": [
+          117
+        ],
+        "variations": [
+          118
+        ],
+        "length": [
+          121
+        ],
+        "style": [
+          123
+        ],
+        "detecting": [
+          125
+        ],
+        "best-performing": [
+          129
+        ],
+        "PMD": [
+          131
+        ],
+        "SonarQube,": [
+          133
+        ],
+        "addressing": [
+          134
+        ],
+        "this": [
+          135,
+          225
+        ],
+        "gap.": [
+          136
+        ],
+        "In": [
+          137
+        ],
+        "deriving": [
+          138
+        ],
+        "warnings,": [
+          140
+        ],
+        "outcomes": [
+          141
+        ],
+        "were": [
+          145,
+          153
+        ],
+        "labelled": [
+          146
+        ],
+        "using": [
+          147
+        ],
+        "Deeper": [
+          151
+        ],
+        "analyses": [
+          152
+        ],
+        "then": [
+          154
+        ],
+        "conducted": [
+          155
+        ],
+        "identify": [
+          157
+        ],
+        "false-positives,": [
+          164,
+          189
+        ],
+        "reasons": [
+          165
+        ],
+        "these,": [
+          167
+        ],
+        "agreement/gaps": [
+          169
+        ],
+        "between": [
+          170,
+          215,
+          233
+        ],
+        "Among": [
+          176
+        ],
+        "our": [
+          177,
+          211
+        ],
+        "main": [
+          178
+        ],
+        "outcomes,": [
+          179
+        ],
+        "we": [
+          180,
+          227
+        ],
+        "observe": [
+          181
+        ],
+        "only": [
+          183
+        ],
+        "few": [
+          185
+        ],
+        "generate": [
+          188
+        ],
+        "ranging": [
+          190
+        ],
+        "4.64%": [
+          192
+        ],
+        "18.45%": [
+          194
+        ],
+        "across": [
+          195
+        ],
+        "four": [
+          196
+        ],
+        "datasets.": [
+          197,
+          248
+        ],
+        "Additionally,": [
+          198,
+          210
+        ],
+        "eliminating": [
+          199
+        ],
+        "contradict": [
+          202
+        ],
+        "standards": [
+          204
+        ],
+        "significantly": [
+          205
+        ],
+        "rate.": [
+          209
+        ],
+        "findings": [
+          212
+        ],
+        "reveal": [
+          213
+        ],
+        "discrepancies": [
+          214
+        ],
+        "Given": [
+          220
+        ],
+        "evidence": [
+          222
+        ],
+        "study,": [
+          226
+        ],
+        "recommend": [
+          228
+        ],
+        "further": [
+          229
+        ],
+        "investigations": [
+          230
+        ],
+        "into": [
+          231
+        ],
+        "gaps": [
+          232
+        ],
+        "standards,": [
+          237
+        ],
+        "including": [
+          238
+        ],
+        "use": [
+          240
+        ],
+        "machine": [
+          242
+        ],
+        "approaches": [
+          244
+        ],
+        "annotate": [
+          246
+        ],
+        "larger": [
+          247
+        ]
+      },
+      "counts_by_year": [
+        {
+          "year": 2026,
+          "cited_by_count": 3
+        }
+      ],
+      "updated_date": "2026-11-14T11:04:58.165337",
+      "created_date": "2026-03-06T00:00:00"
+    },
+    {
+      "id": "https://openalex.org/W4313563525",
+      "doi": "https://doi.org/10.1145/3551349.3559518",
+      "title": "ecoCode: a SonarQube Plugin to Remove Energy Smells from Android Projects",
+      "display_name": "ecoCode: a SonarQube Plugin to Remove Energy Smells from Android Projects",
+      "relevance_score": 33.353535,
+      "publication_year": 2022,
+      "publication_date": "2022-10-10",
+      "ids": {
+        "openalex": "https://openalex.org/W4313563525",
+        "doi": "https://doi.org/10.1145/3551349.3559518"
+      },
+      "language": "en",
+      "primary_location": {
+        "id": "doi:10.1145/3551349.3559518",
+        "doi": "https://doi.org/10.1145/3551349.3559518",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.1145/3551349.3559518",
+        "pdf_url": "https://dl.acm.org/doi/pdf/10.1145/3551349.3559518",
+        "source": {
+          "id": "https://openalex.org/S4363608212",
+          "display_name": "IEEE/ACM International Conference on Automated Software Engineering (ASE)",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "listed_in": [],
+          "host_organization": null,
+          "host_organization_name": null,
+          "host_organization_lineage": [],
+          "host_organization_lineage_names": [],
+          "type": "conference"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Proceedings of the 37th IEEE/ACM International Conference on Automated Software Engineering",
+        "raw_type": "proceedings-article"
+      },
+      "parent_works": [],
+      "lineage": [
+        "https://openalex.org/W4313563525"
+      ],
+      "child_works_count": 0,
+      "type": "conference-paper",
+      "is_traditional": true,
+      "indexed_in": [
+        "crossref"
+      ],
+      "open_access": {
+        "is_oa": true,
+        "oa_status": "bronze",
+        "oa_url": "https://dl.acm.org/doi/pdf/10.1145/3551349.3559518",
+        "any_repository_has_fulltext": true
+      },
+      "authorships": [
+        {
+          "author_position": "first",
+          "author": {
+            "id": "https://openalex.org/A5008164047",
+            "display_name": "Olivier Le Goaër",
+            "orcid": "https://orcid.org/0000-0001-5405-1688",
+            "observed_orcids": [
+              "https://orcid.org/0000-0001-5405-1688"
+            ]
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I4405261588",
+              "display_name": "Laboratoire Informatique de l'Université de Pau et des Pays de l'Adour",
+              "ror": "https://ror.org/05hwvf758",
+              "country_code": "FR",
+              "type": "facility",
+              "lineage": [
+                "https://openalex.org/I144889574",
+                "https://openalex.org/I4405261588"
+              ]
+            }
+          ],
+          "countries": [
+            "FR"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "Olivier Le Goaer",
+          "raw_affiliation_strings": [
+            "LIUPPA, University of Pau, France"
+          ],
+          "raw_orcid": "https://orcid.org/0000-0001-5405-1688",
+          "affiliations": [
+            {
+              "raw_affiliation_string": "LIUPPA, University of Pau, France",
+              "institution_ids": [
+                "https://openalex.org/I4405261588"
+              ]
+            }
+          ]
+        },
+        {
+          "author_position": "last",
+          "author": {
+            "id": "https://openalex.org/A5027731914",
+            "display_name": "Julien Hertout",
+            "orcid": null,
+            "observed_orcids": []
+          },
+          "institutions": [],
+          "countries": [],
+          "is_corresponding": false,
+          "raw_author_name": "Julien Hertout",
+          "raw_affiliation_strings": [
+            "Snapp', France"
+          ],
+          "raw_orcid": null,
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Snapp', France",
+              "institution_ids": []
+            }
+          ]
+        }
+      ],
+      "institutions": [],
+      "countries_distinct_count": 1,
+      "institutions_distinct_count": 1,
+      "corresponding_author_ids": [],
+      "corresponding_institution_ids": [],
+      "apc_list": null,
+      "apc_paid": null,
+      "fwci": 5.8342,
+      "is_authors_truncated": false,
+      "has_fulltext": true,
+      "cited_by_count": 23,
+      "citation_normalized_percentile": {
+        "value": 0.97669483,
+        "is_in_top_1_percent": false,
+        "is_in_top_10_percent": true
+      },
+      "cited_by_percentile_year": {
+        "min": 95,
+        "max": 99
+      },
+      "biblio": {
+        "volume": null,
+        "issue": null,
+        "first_page": "1",
+        "last_page": "4"
+      },
+      "is_retracted": false,
+      "is_paratext": false,
+      "is_xpac": false,
+      "primary_topic": {
+        "id": "https://openalex.org/T12238",
+        "display_name": "Green IT and Sustainability",
+        "score": 0.9726999998092651,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2208",
+          "display_name": "Electrical and Electronic Engineering"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/22",
+          "display_name": "Engineering"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      "topics": [
+        {
+          "id": "https://openalex.org/T12238",
+          "display_name": "Green IT and Sustainability",
+          "score": 0.9726999998092651,
+          "subfield": {
+            "id": "https://openalex.org/subfields/2208",
+            "display_name": "Electrical and Electronic Engineering"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/22",
+            "display_name": "Engineering"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T10260",
+          "display_name": "Software Engineering Research",
+          "score": 0.02280000038444996,
+          "subfield": {
+            "id": "https://openalex.org/subfields/1710",
+            "display_name": "Information Systems"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/17",
+            "display_name": "Computer Science"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T12799",
+          "display_name": "Mobile and Web Applications",
+          "score": 0.0035000001080334187,
+          "subfield": {
+            "id": "https://openalex.org/subfields/1710",
+            "display_name": "Information Systems"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/17",
+            "display_name": "Computer Science"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        }
+      ],
+      "keywords": [
+        {
+          "id": "https://openalex.org/keywords/android-application",
+          "display_name": "Android application",
+          "score": 0.5830000042915344
+        },
+        {
+          "id": "https://openalex.org/keywords/green-software",
+          "display_name": "green software",
+          "score": 0.6439999938011169
+        },
+        {
+          "id": "https://openalex.org/keywords/battery-life",
+          "display_name": "battery life",
+          "score": 0.675000011920929
+        },
+        {
+          "id": "https://openalex.org/keywords/energy-efficiency",
+          "display_name": "energy efficiency",
+          "score": 0.5550000071525574
+        }
+      ],
+      "concepts": [
+        {
+          "id": "https://openalex.org/C4924752",
+          "wikidata": "https://www.wikidata.org/wiki/Q184148",
+          "display_name": "Plug-in",
+          "level": 2,
+          "score": 0.9140487313270569
+        },
+        {
+          "id": "https://openalex.org/C557433098",
+          "wikidata": "https://www.wikidata.org/wiki/Q94",
+          "display_name": "Android (operating system)",
+          "level": 2,
+          "score": 0.8990342617034912
+        },
+        {
+          "id": "https://openalex.org/C41008148",
+          "wikidata": "https://www.wikidata.org/wiki/Q21198",
+          "display_name": "Computer science",
+          "level": 0,
+          "score": 0.7259422540664673
+        },
+        {
+          "id": "https://openalex.org/C548217200",
+          "wikidata": "https://www.wikidata.org/wiki/Q251",
+          "display_name": "Java",
+          "level": 2,
+          "score": 0.7194336652755737
+        },
+        {
+          "id": "https://openalex.org/C3017891749",
+          "wikidata": "https://www.wikidata.org/wiki/Q94",
+          "display_name": "Android application",
+          "level": 3,
+          "score": 0.5114811658859253
+        },
+        {
+          "id": "https://openalex.org/C2777904410",
+          "wikidata": "https://www.wikidata.org/wiki/Q7397",
+          "display_name": "Software",
+          "level": 2,
+          "score": 0.4843946099281311
+        },
+        {
+          "id": "https://openalex.org/C111919701",
+          "wikidata": "https://www.wikidata.org/wiki/Q9135",
+          "display_name": "Operating system",
+          "level": 1,
+          "score": 0.4817104935646057
+        },
+        {
+          "id": "https://openalex.org/C115903868",
+          "wikidata": "https://www.wikidata.org/wiki/Q80993",
+          "display_name": "Software engineering",
+          "level": 1,
+          "score": 0.43511494994163513
+        },
+        {
+          "id": "https://openalex.org/C136764020",
+          "wikidata": "https://www.wikidata.org/wiki/Q466",
+          "display_name": "World Wide Web",
+          "level": 1,
+          "score": 0.4287647008895874
+        },
+        {
+          "id": "https://openalex.org/C133237599",
+          "wikidata": "https://www.wikidata.org/wiki/Q2295111",
+          "display_name": "Code smell",
+          "level": 5,
+          "score": 0.4285542666912079
+        },
+        {
+          "id": "https://openalex.org/C38652104",
+          "wikidata": "https://www.wikidata.org/wiki/Q3510521",
+          "display_name": "Computer security",
+          "level": 1,
+          "score": 0.3581857681274414
+        },
+        {
+          "id": "https://openalex.org/C149635348",
+          "wikidata": "https://www.wikidata.org/wiki/Q193040",
+          "display_name": "Embedded system",
+          "level": 1,
+          "score": 0.32753029465675354
+        },
+        {
+          "id": "https://openalex.org/C529173508",
+          "wikidata": "https://www.wikidata.org/wiki/Q638608",
+          "display_name": "Software development",
+          "level": 3,
+          "score": 0.2849145531654358
+        },
+        {
+          "id": "https://openalex.org/C117447612",
+          "wikidata": "https://www.wikidata.org/wiki/Q1412670",
+          "display_name": "Software quality",
+          "level": 4,
+          "score": 0.17022600769996643
+        }
+      ],
+      "mesh": [],
+      "locations_count": 2,
+      "locations": [
+        {
+          "id": "doi:10.1145/3551349.3559518",
+          "doi": "https://doi.org/10.1145/3551349.3559518",
+          "is_oa": true,
+          "landing_page_url": "https://doi.org/10.1145/3551349.3559518",
+          "pdf_url": "https://dl.acm.org/doi/pdf/10.1145/3551349.3559518",
+          "source": {
+            "id": "https://openalex.org/S4363608212",
+            "display_name": "IEEE/ACM International Conference on Automated Software Engineering (ASE)",
+            "issn_l": null,
+            "issn": null,
+            "is_oa": false,
+            "is_in_doaj": false,
+            "is_core": false,
+            "listed_in": [],
+            "host_organization": null,
+            "host_organization_name": null,
+            "host_organization_lineage": [],
+            "host_organization_lineage_names": [],
+            "type": "conference"
+          },
+          "license": null,
+          "license_id": null,
+          "version": "publishedVersion",
+          "is_accepted": true,
+          "is_published": true,
+          "raw_source_name": "Proceedings of the 37th IEEE/ACM International Conference on Automated Software Engineering",
+          "raw_type": "proceedings-article"
+        },
+        {
+          "id": "pmh:oai:HAL:hal-03926637v1",
+          "doi": null,
+          "is_oa": true,
+          "landing_page_url": "https://hal.science/hal-03926637v1/document",
+          "pdf_url": "https://hal.science/hal-03926637/document",
+          "source": {
+            "id": "https://openalex.org/S4306402512",
+            "display_name": "HAL",
+            "issn_l": null,
+            "issn": null,
+            "is_oa": false,
+            "is_in_doaj": false,
+            "is_core": false,
+            "listed_in": [],
+            "host_organization": "https://openalex.org/I4405252976",
+            "host_organization_name": "Centre pour la Communication Scientifique Directe",
+            "host_organization_lineage": [
+              "https://openalex.org/I4405252976"
+            ],
+            "host_organization_lineage_names": [],
+            "type": "repository"
+          },
+          "license": "other-oa",
+          "license_id": "https://openalex.org/licenses/other-oa",
+          "version": "submittedVersion",
+          "is_accepted": false,
+          "is_published": false,
+          "raw_source_name": "https://conf.researchr.org/home/ase-2022",
+          "raw_type": "info:eu-repo/semantics/conferenceObject"
+        }
+      ],
+      "best_oa_location": {
+        "id": "doi:10.1145/3551349.3559518",
+        "doi": "https://doi.org/10.1145/3551349.3559518",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.1145/3551349.3559518",
+        "pdf_url": "https://dl.acm.org/doi/pdf/10.1145/3551349.3559518",
+        "source": {
+          "id": "https://openalex.org/S4363608212",
+          "display_name": "IEEE/ACM International Conference on Automated Software Engineering (ASE)",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "listed_in": [],
+          "host_organization": null,
+          "host_organization_name": null,
+          "host_organization_lineage": [],
+          "host_organization_lineage_names": [],
+          "type": "conference"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Proceedings of the 37th IEEE/ACM International Conference on Automated Software Engineering",
+        "raw_type": "proceedings-article"
+      },
+      "sustainable_development_goals": [
+        {
+          "display_name": "Climate action",
+          "score": 0.685699999332428,
+          "id": "https://metadata.un.org/sdg/13"
+        },
+        {
+          "display_name": "Responsible consumption and production",
+          "score": 0.5171999931335449,
+          "id": "https://metadata.un.org/sdg/12"
+        }
+      ],
+      "study_designs": [],
+      "awards": [],
+      "funders": [
+        {
+          "id": "https://openalex.org/F4320329936",
+          "display_name": "Université de Pau et des Pays de l'Adour",
+          "ror": "https://ror.org/01frn9647"
+        }
+      ],
+      "has_content": {
+        "grobid_xml": true,
+        "pdf": true
+      },
+      "content_urls": {
+        "pdf": "https://content.openalex.org/works/W4313563525.pdf",
+        "grobid_xml": "https://content.openalex.org/works/W4313563525.grobid-xml"
+      },
+      "referenced_works_count": 10,
+      "referenced_works": [
+        "https://openalex.org/W2487871493",
+        "https://openalex.org/W2509415277",
+        "https://openalex.org/W2583590634",
+        "https://openalex.org/W2888561585",
+        "https://openalex.org/W2898708716",
+        "https://openalex.org/W2963081059",
+        "https://openalex.org/W2991463935",
+        "https://openalex.org/W3086960748",
+        "https://openalex.org/W3122836216",
+        "https://openalex.org/W4226085831"
+      ],
+      "related_works": [
+        "https://openalex.org/W4226085831",
+        "https://openalex.org/W3122836216",
+        "https://openalex.org/W2955180443",
+        "https://openalex.org/W2583590634",
+        "https://openalex.org/W3090949127",
+        "https://openalex.org/W3203278914",
+        "https://openalex.org/W3117478060",
+        "https://openalex.org/W6997059053",
+        "https://openalex.org/W3011011469",
+        "https://openalex.org/W3111937151"
+      ],
+      "abstract_inverted_index": {
+        "To": [
+          0
+        ],
+        "face": [
+          1
+        ],
+        "the": [
+          2,
+          58
+        ],
+        "climate": [
+          3
+        ],
+        "change,": [
+          4
+        ],
+        "Android": [
+          5,
+          72
+        ],
+        "developers": [
+          6
+        ],
+        "urge": [
+          7
+        ],
+        "to": [
+          8,
+          15,
+          32,
+          55,
+          79
+        ],
+        "become": [
+          9
+        ],
+        "green": [
+          10,
+          81
+        ],
+        "software": [
+          11
+        ],
+        "developers.": [
+          12
+        ],
+        "But": [
+          13
+        ],
+        "how": [
+          14
+        ],
+        "ensure": [
+          16
+        ],
+        "carbon-efficient": [
+          17
+        ],
+        "mobile": [
+          18
+        ],
+        "apps": [
+          19
+        ],
+        "at": [
+          20
+        ],
+        "large?": [
+          21
+        ],
+        "In": [
+          22
+        ],
+        "this": [
+          23
+        ],
+        "paper,": [
+          24
+        ],
+        "we": [
+          25
+        ],
+        "introduce": [
+          26
+        ],
+        "ecoCode,": [
+          27
+        ],
+        "a": [
+          28,
+          47
+        ],
+        "SonarQube": [
+          29
+        ],
+        "plugin": [
+          30,
+          66
+        ],
+        "able": [
+          31
+        ],
+        "highlight": [
+          33
+        ],
+        "code": [
+          34,
+          52
+        ],
+        "structures": [
+          35
+        ],
+        "that": [
+          36
+        ],
+        "are": [
+          37
+        ],
+        "smelly": [
+          38
+        ],
+        "from": [
+          39
+        ],
+        "an": [
+          40
+        ],
+        "energy": [
+          41,
+          51
+        ],
+        "perspective.": [
+          42
+        ],
+        "It": [
+          43
+        ],
+        "is": [
+          44
+        ],
+        "based": [
+          45
+        ],
+        "on": [
+          46,
+          86
+        ],
+        "curated": [
+          48
+        ],
+        "list": [
+          49
+        ],
+        "of": [
+          50,
+          61,
+          69
+        ],
+        "smells": [
+          53
+        ],
+        "likely": [
+          54
+        ],
+        "impact": [
+          56
+        ],
+        "negatively": [
+          57
+        ],
+        "battery": [
+          59
+        ],
+        "lifespan": [
+          60
+        ],
+        "Android-powered": [
+          62
+        ],
+        "devices.": [
+          63
+        ],
+        "The": [
+          64
+        ],
+        "ecoCode": [
+          65
+        ],
+        "enables": [
+          67
+        ],
+        "analysis": [
+          68
+        ],
+        "any": [
+          70
+        ],
+        "native": [
+          71
+        ],
+        "project": [
+          73
+        ],
+        "written": [
+          74
+        ],
+        "in": [
+          75,
+          77
+        ],
+        "Java": [
+          76
+        ],
+        "order": [
+          78
+        ],
+        "enforce": [
+          80
+        ],
+        "code.": [
+          82
+        ],
+        "—": [
+          83
+        ],
+        "Demo": [
+          84
+        ],
+        "video": [
+          85
+        ],
+        "https://youtu.be/4XIYGyPEhXQ": [
+          87
+        ]
+      },
+      "counts_by_year": [
+        {
+          "year": 2026,
+          "cited_by_count": 8
+        },
+        {
+          "year": 2025,
+          "cited_by_count": 7
+        },
+        {
+          "year": 2024,
+          "cited_by_count": 5
+        },
+        {
+          "year": 2023,
+          "cited_by_count": 3
+        }
+      ],
+      "updated_date": "2026-11-14T11:04:58.165337",
+      "created_date": "2023-01-06T00:00:00"
+    },
+    {
+      "id": "https://openalex.org/W4281946368",
+      "doi": "https://doi.org/10.1016/j.softx.2022.101113",
+      "title": "analyzeR: A SonarQube plugin for analyzing object-oriented R Packages",
+      "display_name": "analyzeR: A SonarQube plugin for analyzing object-oriented R Packages",
+      "relevance_score": 32.70655,
+      "publication_year": 2022,
+      "publication_date": "2022-06-03",
+      "ids": {
+        "openalex": "https://openalex.org/W4281946368",
+        "doi": "https://doi.org/10.1016/j.softx.2022.101113"
+      },
+      "language": "en",
+      "primary_location": {
+        "id": "doi:10.1016/j.softx.2022.101113",
+        "doi": "https://doi.org/10.1016/j.softx.2022.101113",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.1016/j.softx.2022.101113",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S2506067282",
+          "display_name": "SoftwareX",
+          "issn_l": "2352-7110",
+          "issn": [
+            "2352-7110"
+          ],
+          "is_oa": true,
+          "is_in_doaj": true,
+          "is_core": true,
+          "listed_in": [
+            "cwts-core",
+            "doaj",
+            "dongbi-d",
+            "jufo-1",
+            "ki-jl-1",
+            "norway-1",
+            "poland-200",
+            "vabb-shw"
+          ],
+          "host_organization": "https://openalex.org/P4310320990",
+          "host_organization_name": "Elsevier BV",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310320990"
+          ],
+          "host_organization_lineage_names": [
+            "Elsevier BV"
+          ],
+          "type": "journal"
+        },
+        "license": "cc-by-nc-nd",
+        "license_id": "https://openalex.org/licenses/cc-by-nc-nd",
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "SoftwareX",
+        "raw_type": "journal-article"
+      },
+      "parent_works": [],
+      "lineage": [
+        "https://openalex.org/W4281946368"
+      ],
+      "child_works_count": 0,
+      "type": "software-paper",
+      "is_traditional": true,
+      "indexed_in": [
+        "crossref",
+        "doaj"
+      ],
+      "open_access": {
+        "is_oa": true,
+        "oa_status": "gold",
+        "oa_url": "https://doi.org/10.1016/j.softx.2022.101113",
+        "any_repository_has_fulltext": true
+      },
+      "authorships": [
+        {
+          "author_position": "first",
+          "author": {
+            "id": null,
+            "display_name": "Pranav Chandramouli",
+            "orcid": null,
+            "observed_orcids": []
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I32625721",
+              "display_name": "University of Saskatchewan",
+              "ror": "https://ror.org/010x8gc63",
+              "country_code": "CA",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I32625721"
+              ]
+            }
+          ],
+          "countries": [
+            "CA"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "Pranav Chandramouli",
+          "raw_affiliation_strings": [
+            "University of Saskatchewan, Department of Computer Science, 176 Thorvaldson Bldg, Saskatoon, Canada"
+          ],
+          "raw_orcid": null,
+          "affiliations": [
+            {
+              "raw_affiliation_string": "University of Saskatchewan, Department of Computer Science, 176 Thorvaldson Bldg, Saskatoon, Canada",
+              "institution_ids": [
+                "https://openalex.org/I32625721"
+              ]
+            }
+          ]
+        },
+        {
+          "author_position": "middle",
+          "author": {
+            "id": "https://openalex.org/A5022264168",
+            "display_name": "Zadia Codabux",
+            "orcid": "https://orcid.org/0000-0001-6715-3341",
+            "observed_orcids": [
+              "https://orcid.org/0000-0001-6715-3341"
+            ]
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I32625721",
+              "display_name": "University of Saskatchewan",
+              "ror": "https://ror.org/010x8gc63",
+              "country_code": "CA",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I32625721"
+              ]
+            }
+          ],
+          "countries": [
+            "CA"
+          ],
+          "is_corresponding": true,
+          "raw_author_name": "Zadia Codabux",
+          "raw_affiliation_strings": [
+            "University of Saskatchewan, Department of Computer Science, 176 Thorvaldson Bldg, Saskatoon, Canada"
+          ],
+          "raw_orcid": null,
+          "affiliations": [
+            {
+              "raw_affiliation_string": "University of Saskatchewan, Department of Computer Science, 176 Thorvaldson Bldg, Saskatoon, Canada",
+              "institution_ids": [
+                "https://openalex.org/I32625721"
+              ]
+            }
+          ]
+        },
+        {
+          "author_position": "last",
+          "author": {
+            "id": "https://openalex.org/A5001255062",
+            "display_name": "Melina C. Vidoni",
+            "orcid": "https://orcid.org/0000-0002-4099-1430",
+            "observed_orcids": [
+              "https://orcid.org/0000-0002-4099-1430"
+            ]
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I118347636",
+              "display_name": "Australian National University",
+              "ror": "https://ror.org/019wvm592",
+              "country_code": "AU",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I118347636"
+              ]
+            }
+          ],
+          "countries": [
+            "AU"
+          ],
+          "is_corresponding": true,
+          "raw_author_name": "Melina Vidoni",
+          "raw_affiliation_strings": [
+            "Australian National University, CECS School of Computing, 108 North Road, Canberra, Australia"
+          ],
+          "raw_orcid": "https://orcid.org/0000-0002-4099-1430",
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Australian National University, CECS School of Computing, 108 North Road, Canberra, Australia",
+              "institution_ids": [
+                "https://openalex.org/I118347636"
+              ]
+            }
+          ]
+        }
+      ],
+      "institutions": [],
+      "countries_distinct_count": 2,
+      "institutions_distinct_count": 2,
+      "corresponding_author_ids": [
+        "https://openalex.org/A5001255062",
+        "https://openalex.org/A5022264168"
+      ],
+      "corresponding_institution_ids": [
+        "https://openalex.org/I118347636",
+        "https://openalex.org/I32625721"
+      ],
+      "apc_list": {
+        "value": 600,
+        "currency": "USD",
+        "value_usd": 600
+      },
+      "apc_paid": {
+        "value": 600,
+        "currency": "USD",
+        "value_usd": 600
+      },
+      "fwci": null,
+      "is_authors_truncated": false,
+      "has_fulltext": true,
+      "cited_by_count": 4,
+      "citation_normalized_percentile": null,
+      "cited_by_percentile_year": null,
+      "biblio": {
+        "volume": "19",
+        "issue": null,
+        "first_page": "101113",
+        "last_page": "101113"
+      },
+      "is_retracted": false,
+      "is_paratext": false,
+      "is_xpac": false,
+      "primary_topic": {
+        "id": "https://openalex.org/T10260",
+        "display_name": "Software Engineering Research",
+        "score": 0.9907000064849854,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1710",
+          "display_name": "Information Systems"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      "topics": [
+        {
+          "id": "https://openalex.org/T10260",
+          "display_name": "Software Engineering Research",
+          "score": 0.9907000064849854,
+          "subfield": {
+            "id": "https://openalex.org/subfields/1710",
+            "display_name": "Information Systems"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/17",
+            "display_name": "Computer Science"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T10743",
+          "display_name": "Software Testing and Debugging Techniques",
+          "score": 0.0031999999191612005,
+          "subfield": {
+            "id": "https://openalex.org/subfields/1712",
+            "display_name": "Software"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/17",
+            "display_name": "Computer Science"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T13398",
+          "display_name": "Data Analysis with R",
+          "score": 0.0019000000320374966,
+          "subfield": {
+            "id": "https://openalex.org/subfields/2613",
+            "display_name": "Statistics and Probability"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/26",
+            "display_name": "Mathematics"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        }
+      ],
+      "keywords": [
+        {
+          "id": "https://openalex.org/keywords/analyzer",
+          "display_name": "analyzer",
+          "score": 0.8040000200271606
+        },
+        {
+          "id": "https://openalex.org/keywords/r-package",
+          "display_name": "R package",
+          "score": 0.7070000171661377
+        },
+        {
+          "id": "https://openalex.org/keywords/object-oriented-programming",
+          "display_name": "object-oriented programming",
+          "score": 0.9679999947547913
+        },
+        {
+          "id": "https://openalex.org/keywords/static-code-analysis",
+          "display_name": "static code analysis",
+          "score": 0.777999997138977
+        },
+        {
+          "id": "https://openalex.org/keywords/s3",
+          "display_name": "S3",
+          "score": 0.6119999885559082
+        },
+        {
+          "id": "https://openalex.org/keywords/s4",
+          "display_name": "S4",
+          "score": 0.996999979019165
+        },
+        {
+          "id": "https://openalex.org/keywords/r6",
+          "display_name": "R6",
+          "score": 0.9670000076293945
+        },
+        {
+          "id": "https://openalex.org/keywords/object-oriented-software-metrics",
+          "display_name": "object-oriented metrics",
+          "score": 0.9309999942779541
+        },
+        {
+          "id": "https://openalex.org/keywords/software-quality",
+          "display_name": "software quality",
+          "score": 0.6660000085830688
+        },
+        {
+          "id": "https://openalex.org/keywords/r-programming",
+          "display_name": "R programming language",
+          "score": 0.6980000138282776
+        }
+      ],
+      "concepts": [
+        {
+          "id": "https://openalex.org/C4924752",
+          "wikidata": "https://www.wikidata.org/wiki/Q184148",
+          "display_name": "Plug-in",
+          "level": 2,
+          "score": 0.8571561574935913
+        },
+        {
+          "id": "https://openalex.org/C41008148",
+          "wikidata": "https://www.wikidata.org/wiki/Q21198",
+          "display_name": "Computer science",
+          "level": 0,
+          "score": 0.8346039056777954
+        },
+        {
+          "id": "https://openalex.org/C199360897",
+          "wikidata": "https://www.wikidata.org/wiki/Q9143",
+          "display_name": "Programming language",
+          "level": 1,
+          "score": 0.7675700187683105
+        },
+        {
+          "id": "https://openalex.org/C170130773",
+          "wikidata": "https://www.wikidata.org/wiki/Q216378",
+          "display_name": "Usability",
+          "level": 2,
+          "score": 0.693202018737793
+        },
+        {
+          "id": "https://openalex.org/C73752529",
+          "wikidata": "https://www.wikidata.org/wiki/Q79872",
+          "display_name": "Object-oriented programming",
+          "level": 2,
+          "score": 0.637221097946167
+        },
+        {
+          "id": "https://openalex.org/C43126263",
+          "wikidata": "https://www.wikidata.org/wiki/Q128751",
+          "display_name": "Source code",
+          "level": 2,
+          "score": 0.5078223347663879
+        },
+        {
+          "id": "https://openalex.org/C113843644",
+          "wikidata": "https://www.wikidata.org/wiki/Q901882",
+          "display_name": "Interface (matter)",
+          "level": 4,
+          "score": 0.46620047092437744
+        },
+        {
+          "id": "https://openalex.org/C99613125",
+          "wikidata": "https://www.wikidata.org/wiki/Q165194",
+          "display_name": "Application programming interface",
+          "level": 2,
+          "score": 0.4426920413970947
+        },
+        {
+          "id": "https://openalex.org/C115903868",
+          "wikidata": "https://www.wikidata.org/wiki/Q80993",
+          "display_name": "Software engineering",
+          "level": 1,
+          "score": 0.43306878209114075
+        },
+        {
+          "id": "https://openalex.org/C37789001",
+          "wikidata": "https://www.wikidata.org/wiki/Q782543",
+          "display_name": "Graphical user interface",
+          "level": 2,
+          "score": 0.4115431606769562
+        },
+        {
+          "id": "https://openalex.org/C111919701",
+          "wikidata": "https://www.wikidata.org/wiki/Q9135",
+          "display_name": "Operating system",
+          "level": 1,
+          "score": 0.2904835343360901
+        },
+        {
+          "id": "https://openalex.org/C129307140",
+          "wikidata": "https://www.wikidata.org/wiki/Q6795880",
+          "display_name": "Maximum bubble pressure method",
+          "level": 3,
+          "score": 0.0
+        },
+        {
+          "id": "https://openalex.org/C157915830",
+          "wikidata": "https://www.wikidata.org/wiki/Q2928001",
+          "display_name": "Bubble",
+          "level": 2,
+          "score": 0.0
+        }
+      ],
+      "mesh": [],
+      "locations_count": 3,
+      "locations": [
+        {
+          "id": "doi:10.1016/j.softx.2022.101113",
+          "doi": "https://doi.org/10.1016/j.softx.2022.101113",
+          "is_oa": true,
+          "landing_page_url": "https://doi.org/10.1016/j.softx.2022.101113",
+          "pdf_url": null,
+          "source": {
+            "id": "https://openalex.org/S2506067282",
+            "display_name": "SoftwareX",
+            "issn_l": "2352-7110",
+            "issn": [
+              "2352-7110"
+            ],
+            "is_oa": true,
+            "is_in_doaj": true,
+            "is_core": true,
+            "listed_in": [
+              "cwts-core",
+              "doaj",
+              "dongbi-d",
+              "jufo-1",
+              "ki-jl-1",
+              "norway-1",
+              "poland-200",
+              "vabb-shw"
+            ],
+            "host_organization": "https://openalex.org/P4310320990",
+            "host_organization_name": "Elsevier BV",
+            "host_organization_lineage": [
+              "https://openalex.org/P4310320990"
+            ],
+            "host_organization_lineage_names": [
+              "Elsevier BV"
+            ],
+            "type": "journal"
+          },
+          "license": "cc-by-nc-nd",
+          "license_id": "https://openalex.org/licenses/cc-by-nc-nd",
+          "version": "publishedVersion",
+          "is_accepted": true,
+          "is_published": true,
+          "raw_source_name": "SoftwareX",
+          "raw_type": "journal-article"
+        },
+        {
+          "id": "pmh:oai:openresearch-repository.anu.edu.au:1885/316308",
+          "doi": null,
+          "is_oa": true,
+          "landing_page_url": "http://hdl.handle.net/1885/316308",
+          "pdf_url": "https://openresearch-repository.anu.edu.au/bitstreams/a21eaaa8-47eb-4d6f-a774-26a1af9551d5/download",
+          "source": {
+            "id": "https://openalex.org/S4306402539",
+            "display_name": "ANU Open Research (Australian National University)",
+            "issn_l": null,
+            "issn": null,
+            "is_oa": false,
+            "is_in_doaj": false,
+            "is_core": false,
+            "listed_in": [],
+            "host_organization": "https://openalex.org/I118347636",
+            "host_organization_name": "Australian National University",
+            "host_organization_lineage": [
+              "https://openalex.org/I118347636"
+            ],
+            "host_organization_lineage_names": [],
+            "type": "repository"
+          },
+          "license": "cc-by-nc-nd",
+          "license_id": "https://openalex.org/licenses/cc-by-nc-nd",
+          "version": "submittedVersion",
+          "is_accepted": false,
+          "is_published": false,
+          "raw_source_name": "SoftwareX",
+          "raw_type": "Journal article"
+        },
+        {
+          "id": "pmh:oai:doaj.org/article:58299d94cf054a969a40e9279e74ab69",
+          "doi": null,
+          "is_oa": true,
+          "landing_page_url": "https://doaj.org/article/58299d94cf054a969a40e9279e74ab69",
+          "pdf_url": null,
+          "source": {
+            "id": "https://openalex.org/S4306401280",
+            "display_name": "DOAJ (DOAJ: Directory of Open Access Journals)",
+            "issn_l": null,
+            "issn": null,
+            "is_oa": false,
+            "is_in_doaj": false,
+            "is_core": false,
+            "listed_in": [],
+            "host_organization": null,
+            "host_organization_name": null,
+            "host_organization_lineage": [],
+            "host_organization_lineage_names": [],
+            "type": "repository"
+          },
+          "license": "cc-by-sa",
+          "license_id": "https://openalex.org/licenses/cc-by-sa",
+          "version": "submittedVersion",
+          "is_accepted": false,
+          "is_published": false,
+          "raw_source_name": "SoftwareX, Vol 19, Iss , Pp 101113- (2022)",
+          "raw_type": "article"
+        }
+      ],
+      "best_oa_location": {
+        "id": "doi:10.1016/j.softx.2022.101113",
+        "doi": "https://doi.org/10.1016/j.softx.2022.101113",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.1016/j.softx.2022.101113",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S2506067282",
+          "display_name": "SoftwareX",
+          "issn_l": "2352-7110",
+          "issn": [
+            "2352-7110"
+          ],
+          "is_oa": true,
+          "is_in_doaj": true,
+          "is_core": true,
+          "listed_in": [
+            "cwts-core",
+            "doaj",
+            "dongbi-d",
+            "jufo-1",
+            "ki-jl-1",
+            "norway-1",
+            "poland-200",
+            "vabb-shw"
+          ],
+          "host_organization": "https://openalex.org/P4310320990",
+          "host_organization_name": "Elsevier BV",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310320990"
+          ],
+          "host_organization_lineage_names": [
+            "Elsevier BV"
+          ],
+          "type": "journal"
+        },
+        "license": "cc-by-nc-nd",
+        "license_id": "https://openalex.org/licenses/cc-by-nc-nd",
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "SoftwareX",
+        "raw_type": "journal-article"
+      },
+      "sustainable_development_goals": [],
+      "study_designs": [],
+      "awards": [
+        {
+          "id": "https://openalex.org/G7185932438",
+          "display_name": "Improving software quality by managing technical debt and uncovering security vulnerabilities",
+          "funder_award_id": "dgecr-2021-00283",
+          "funder_id": "https://openalex.org/F4320334593",
+          "funder_display_name": "Natural Sciences and Engineering Research Council of Canada"
+        },
+        {
+          "id": "https://openalex.org/G911736384",
+          "display_name": "Improving software quality by managing technical debt and uncovering security vulnerabilities",
+          "funder_award_id": "rgpin-2021-04232",
+          "funder_id": "https://openalex.org/F4320334593",
+          "funder_display_name": "Natural Sciences and Engineering Research Council of Canada"
+        }
+      ],
+      "funders": [
+        {
+          "id": "https://openalex.org/F4320310865",
+          "display_name": "University of Saskatchewan",
+          "ror": "https://ror.org/010x8gc63"
+        },
+        {
+          "id": "https://openalex.org/F4320334593",
+          "display_name": "Natural Sciences and Engineering Research Council of Canada",
+          "ror": "https://ror.org/01h531d29"
+        }
+      ],
+      "has_content": {
+        "grobid_xml": true,
+        "pdf": true
+      },
+      "content_urls": {
+        "pdf": "https://content.openalex.org/works/W4281946368.pdf",
+        "grobid_xml": "https://content.openalex.org/works/W4281946368.grobid-xml"
+      },
+      "referenced_works_count": 52,
+      "referenced_works": [
+        "https://openalex.org/W92461833",
+        "https://openalex.org/W1990456105",
+        "https://openalex.org/W2047794235",
+        "https://openalex.org/W2130602377",
+        "https://openalex.org/W2148906281",
+        "https://openalex.org/W2278163684",
+        "https://openalex.org/W2579161546",
+        "https://openalex.org/W2593618178",
+        "https://openalex.org/W2624649878",
+        "https://openalex.org/W2753343926",
+        "https://openalex.org/W2770230381",
+        "https://openalex.org/W2783073111",
+        "https://openalex.org/W2795566764",
+        "https://openalex.org/W2796070554",
+        "https://openalex.org/W2888448570",
+        "https://openalex.org/W2920975371",
+        "https://openalex.org/W2954469728",
+        "https://openalex.org/W2963024052",
+        "https://openalex.org/W2964836967",
+        "https://openalex.org/W2965526865",
+        "https://openalex.org/W2971454149",
+        "https://openalex.org/W2975537944",
+        "https://openalex.org/W2990184944",
+        "https://openalex.org/W2990488176",
+        "https://openalex.org/W2995304420",
+        "https://openalex.org/W3007484883",
+        "https://openalex.org/W3042814326",
+        "https://openalex.org/W3044057999",
+        "https://openalex.org/W3045486356",
+        "https://openalex.org/W3047821051",
+        "https://openalex.org/W3080612381",
+        "https://openalex.org/W3081664723",
+        "https://openalex.org/W3084309722",
+        "https://openalex.org/W3087070939",
+        "https://openalex.org/W3089318886",
+        "https://openalex.org/W3094426362",
+        "https://openalex.org/W3101949891",
+        "https://openalex.org/W3107239470",
+        "https://openalex.org/W3107289082",
+        "https://openalex.org/W3134455485",
+        "https://openalex.org/W3163474313",
+        "https://openalex.org/W3173971918",
+        "https://openalex.org/W3176085169",
+        "https://openalex.org/W3197326482",
+        "https://openalex.org/W3202496186",
+        "https://openalex.org/W4212770594",
+        "https://openalex.org/W4213259913",
+        "https://openalex.org/W4231276118",
+        "https://openalex.org/W4256548243",
+        "https://openalex.org/W4286531983",
+        "https://openalex.org/W4399522396",
+        "https://openalex.org/W6785474587"
+      ],
+      "related_works": [
+        "https://openalex.org/W6944335588",
+        "https://openalex.org/W7204240182",
+        "https://openalex.org/W4403520074",
+        "https://openalex.org/W4293080012",
+        "https://openalex.org/W7092542201",
+        "https://openalex.org/W2061025896",
+        "https://openalex.org/W3136062101",
+        "https://openalex.org/W7056510959",
+        "https://openalex.org/W7098156398",
+        "https://openalex.org/W4286531983"
+      ],
+      "abstract_inverted_index": {
+        "Automated": [
+          0
+        ],
+        "Static": [
+          1
+        ],
+        "Analysis": [
+          2
+        ],
+        "Tools": [
+          3
+        ],
+        "(ASATs)": [
+          4
+        ],
+        "analyze": [
+          5
+        ],
+        "source-code": [
+          6
+        ],
+        "to": [
+          7,
+          71
+        ],
+        "capture": [
+          8
+        ],
+        "defects": [
+          9
+        ],
+        "and": [
+          10,
+          36,
+          56,
+          58,
+          89
+        ],
+        "ensure": [
+          11
+        ],
+        "higher": [
+          12
+        ],
+        "quality.": [
+          13
+        ],
+        "SonarQube": [
+          14,
+          69
+        ],
+        "is": [
+          15,
+          27,
+          31
+        ],
+        "a": [
+          16
+        ],
+        "renown": [
+          17
+        ],
+        "ASAT": [
+          18
+        ],
+        "that": [
+          19
+        ],
+        "supports": [
+          20
+        ],
+        "mainstream": [
+          21
+        ],
+        "programming": [
+          22,
+          26,
+          38
+        ],
+        "languages.": [
+          23
+        ],
+        "However,": [
+          24
+        ],
+        "R": [
+          25,
+          30,
+          73
+        ],
+        "not": [
+          28
+        ],
+        "included.": [
+          29
+        ],
+        "an": [
+          32,
+          67,
+          101
+        ],
+        "increasingly": [
+          33
+        ],
+        "popular": [
+          34
+        ],
+        "multi-paradigm": [
+          35
+        ],
+        "package-based": [
+          37
+        ],
+        "environment": [
+          39
+        ],
+        "for": [
+          40,
+          97
+        ],
+        "scientific": [
+          41
+        ],
+        "programming.": [
+          42
+        ],
+        "Nevertheless,": [
+          43
+        ],
+        "R's": [
+          44
+        ],
+        "Object-Oriented": [
+          45
+        ],
+        "(OO)": [
+          46
+        ],
+        "functionalities": [
+          47
+        ],
+        "are": [
+          48
+        ],
+        "implemented": [
+          49
+        ],
+        "through": [
+          50
+        ],
+        "three": [
+          51
+        ],
+        "different": [
+          52
+        ],
+        "systems:": [
+          53
+        ],
+        "S3,": [
+          54
+        ],
+        "S4,": [
+          55
+        ],
+        "R6,": [
+          57
+        ],
+        "seldom": [
+          59
+        ],
+        "used": [
+          60
+        ],
+        "by": [
+          61
+        ],
+        "developers.": [
+          62
+        ],
+        "We": [
+          63
+        ],
+        "present": [
+          64
+        ],
+        "analyzeR": [
+          65
+        ],
+        ",": [
+          66
+        ],
+        "advanced": [
+          68
+        ],
+        "plugin": [
+          70
+        ],
+        "examine": [
+          72
+        ],
+        "packages": [
+          74
+        ],
+        "built": [
+          75
+        ],
+        "in": [
+          76
+        ],
+        "any": [
+          77
+        ],
+        "of": [
+          78,
+          103
+        ],
+        "the": [
+          79,
+          91
+        ],
+        "current": [
+          80
+        ],
+        "OO": [
+          81,
+          87
+        ],
+        "models.": [
+          82
+        ],
+        "It": [
+          83
+        ],
+        "implements": [
+          84
+        ],
+        "widely-used,": [
+          85
+        ],
+        "commonly-accepted": [
+          86
+        ],
+        "metrics": [
+          88
+        ],
+        "displays": [
+          90
+        ],
+        "results": [
+          92
+        ],
+        "using": [
+          93
+        ],
+        "SonarQube's": [
+          94
+        ],
+        "graphical": [
+          95
+        ],
+        "interface": [
+          96
+        ],
+        "increased": [
+          98
+        ],
+        "usability,": [
+          99
+        ],
+        "implementing": [
+          100
+        ],
+        "array": [
+          102
+        ],
+        "metrics.": [
+          104
+        ]
+      },
+      "counts_by_year": [
+        {
+          "year": 2025,
+          "cited_by_count": 3
+        },
+        {
+          "year": 2024,
+          "cited_by_count": 1
+        }
+      ],
+      "updated_date": "2026-11-10T11:39:43.021295",
+      "created_date": "2022-06-13T00:00:00"
+    }
+  ],
+  "group_by": []
+}

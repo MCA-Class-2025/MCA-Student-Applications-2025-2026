@@ -1,0 +1,3546 @@
+{
+  "meta": {
+    "notice": "No API key, so this request shares one free daily budget ($0.10) with everyone on your network's IP address. Get a free key with its own $1/day at https://openalex.org/settings/api and add api_key=YOUR_KEY to your requests. An AI agent can get one for its user in one call: POST https://api.openalex.org/api-keys with {\"email\": \"<your user's email>\"}; we email them a link, and the key works once they click it. Docs for agents: https://help.openalex.org/llms.txt",
+    "count": 150695,
+    "db_response_time_ms": 111,
+    "page": 1,
+    "per_page": 5,
+    "groups_count": null,
+    "x_query": {
+      "oql": "get works with (Python Developer) in the title, abstract, or full text",
+      "x_new_oql": "get works with (Python Developer) in the title, abstract, or full text",
+      "oqo": {
+        "get_rows": "works",
+        "filter_rows": [
+          {
+            "column_id": "fulltext.search",
+            "value": "Python Developer",
+            "operator": "has"
+          }
+        ]
+      },
+      "url": "/works?filter=fulltext.search:Python Developer&per_page=5",
+      "order": "best matches first",
+      "order_default": true
+    },
+    "cost_usd": 0.001
+  },
+  "results": [
+    {
+      "id": "https://openalex.org/W597470952",
+      "doi": null,
+      "title": "Matplotlib for Python Developers",
+      "display_name": "Matplotlib for Python Developers",
+      "relevance_score": 212.09361,
+      "publication_year": 2009,
+      "publication_date": "2009-01-01",
+      "ids": {
+        "openalex": "https://openalex.org/W597470952",
+        "mag": "597470952"
+      },
+      "language": "en",
+      "primary_location": {
+        "id": "pmh:oai:cds.cern.ch:1526898",
+        "doi": null,
+        "is_oa": false,
+        "landing_page_url": "http://cds.cern.ch/record/1526898",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4306402195",
+          "display_name": "CERN Document Server (European Organization for Nuclear Research)",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "listed_in": [],
+          "host_organization": "https://openalex.org/I67311998",
+          "host_organization_name": "European Organization for Nuclear Research",
+          "host_organization_lineage": [
+            "https://openalex.org/I67311998"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "submittedVersion",
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": "",
+        "raw_type": null
+      },
+      "parent_works": [],
+      "lineage": [
+        "https://openalex.org/W597470952"
+      ],
+      "child_works_count": 0,
+      "type": "article",
+      "is_traditional": true,
+      "indexed_in": [],
+      "open_access": {
+        "is_oa": false,
+        "oa_status": "closed",
+        "oa_url": null,
+        "any_repository_has_fulltext": false
+      },
+      "authorships": [
+        {
+          "author_position": "first",
+          "author": {
+            "id": "https://openalex.org/A5066983821",
+            "display_name": "Sandro Tosi",
+            "orcid": null,
+            "observed_orcids": []
+          },
+          "institutions": [],
+          "countries": [],
+          "is_corresponding": true,
+          "raw_author_name": "Sandro Tosi",
+          "raw_affiliation_strings": [],
+          "raw_orcid": null,
+          "affiliations": []
+        }
+      ],
+      "institutions": [],
+      "countries_distinct_count": 0,
+      "institutions_distinct_count": 0,
+      "corresponding_author_ids": [
+        "https://openalex.org/A5066983821"
+      ],
+      "corresponding_institution_ids": [],
+      "apc_list": null,
+      "apc_paid": null,
+      "fwci": 4.6292,
+      "is_authors_truncated": false,
+      "has_fulltext": false,
+      "cited_by_count": 75,
+      "citation_normalized_percentile": {
+        "value": 0.94071622,
+        "is_in_top_1_percent": false,
+        "is_in_top_10_percent": true
+      },
+      "cited_by_percentile_year": {
+        "min": 88,
+        "max": 99
+      },
+      "biblio": {
+        "volume": null,
+        "issue": null,
+        "first_page": null,
+        "last_page": null
+      },
+      "is_retracted": false,
+      "is_paratext": false,
+      "is_xpac": false,
+      "primary_topic": {
+        "id": "https://openalex.org/T13650",
+        "display_name": "Computational Physics and Python Applications",
+        "score": 0.9994999766349792,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1712",
+          "display_name": "Software"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      "topics": [
+        {
+          "id": "https://openalex.org/T13650",
+          "display_name": "Computational Physics and Python Applications",
+          "score": 0.9994999766349792,
+          "subfield": {
+            "id": "https://openalex.org/subfields/1712",
+            "display_name": "Software"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/17",
+            "display_name": "Computer Science"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T10799",
+          "display_name": "Data Visualization and Analytics",
+          "score": 0.0003000000142492354,
+          "subfield": {
+            "id": "https://openalex.org/subfields/1704",
+            "display_name": "Computer Graphics and Computer-Aided Design"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/17",
+            "display_name": "Computer Science"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T10481",
+          "display_name": "Computer Graphics and Visualization Techniques",
+          "score": 0.0,
+          "subfield": {
+            "id": "https://openalex.org/subfields/1704",
+            "display_name": "Computer Graphics and Computer-Aided Design"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/17",
+            "display_name": "Computer Science"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        }
+      ],
+      "keywords": [
+        {
+          "id": "https://openalex.org/keywords/matplotlib",
+          "display_name": "Matplotlib",
+          "score": 0.9990000128746033
+        },
+        {
+          "id": "https://openalex.org/keywords/python",
+          "display_name": "Python",
+          "score": 0.7440000176429749
+        },
+        {
+          "id": "https://openalex.org/keywords/data-visualization",
+          "display_name": "data visualization",
+          "score": 0.8569999933242798
+        },
+        {
+          "id": "https://openalex.org/keywords/scientific-plotting",
+          "display_name": "scientific plotting",
+          "score": 0.656000018119812
+        }
+      ],
+      "concepts": [
+        {
+          "id": "https://openalex.org/C519991488",
+          "wikidata": "https://www.wikidata.org/wiki/Q28865",
+          "display_name": "Python (programming language)",
+          "level": 2,
+          "score": 0.9417003989219666
+        },
+        {
+          "id": "https://openalex.org/C41008148",
+          "wikidata": "https://www.wikidata.org/wiki/Q21198",
+          "display_name": "Computer science",
+          "level": 0,
+          "score": 0.7466323375701904
+        },
+        {
+          "id": "https://openalex.org/C199360897",
+          "wikidata": "https://www.wikidata.org/wiki/Q9143",
+          "display_name": "Programming language",
+          "level": 1,
+          "score": 0.5907063484191895
+        },
+        {
+          "id": "https://openalex.org/C2776760102",
+          "wikidata": "https://www.wikidata.org/wiki/Q5139990",
+          "display_name": "Code (set theory)",
+          "level": 3,
+          "score": 0.42719462513923645
+        },
+        {
+          "id": "https://openalex.org/C136764020",
+          "wikidata": "https://www.wikidata.org/wiki/Q466",
+          "display_name": "World Wide Web",
+          "level": 1,
+          "score": 0.33456313610076904
+        },
+        {
+          "id": "https://openalex.org/C177264268",
+          "wikidata": "https://www.wikidata.org/wiki/Q1514741",
+          "display_name": "Set (abstract data type)",
+          "level": 2,
+          "score": 0.0
+        }
+      ],
+      "mesh": [],
+      "locations_count": 3,
+      "locations": [
+        {
+          "id": "pmh:oai:cds.cern.ch:1526898",
+          "doi": null,
+          "is_oa": false,
+          "landing_page_url": "http://cds.cern.ch/record/1526898",
+          "pdf_url": null,
+          "source": {
+            "id": "https://openalex.org/S4306402195",
+            "display_name": "CERN Document Server (European Organization for Nuclear Research)",
+            "issn_l": null,
+            "issn": null,
+            "is_oa": false,
+            "is_in_doaj": false,
+            "is_core": false,
+            "listed_in": [],
+            "host_organization": "https://openalex.org/I67311998",
+            "host_organization_name": "European Organization for Nuclear Research",
+            "host_organization_lineage": [
+              "https://openalex.org/I67311998"
+            ],
+            "host_organization_lineage_names": [],
+            "type": "repository"
+          },
+          "license": null,
+          "license_id": null,
+          "version": "submittedVersion",
+          "is_accepted": false,
+          "is_published": false,
+          "raw_source_name": "",
+          "raw_type": null
+        },
+        {
+          "id": "mag:2305971530",
+          "doi": null,
+          "is_oa": false,
+          "landing_page_url": "https://openlibrary.org/books/OL27073677M/Matplotlib_for_Python_developers",
+          "pdf_url": null,
+          "source": null,
+          "license": null,
+          "license_id": null,
+          "version": null,
+          "is_accepted": false,
+          "is_published": false,
+          "raw_source_name": null,
+          "raw_type": null
+        },
+        {
+          "id": "mag:597470952",
+          "doi": null,
+          "is_oa": false,
+          "landing_page_url": "https://ci.nii.ac.jp/ncid/BB03354215",
+          "pdf_url": null,
+          "source": {
+            "id": "https://openalex.org/S4306477403",
+            "display_name": "Packt Publishing eBooks",
+            "issn_l": null,
+            "issn": null,
+            "is_oa": false,
+            "is_in_doaj": false,
+            "is_core": false,
+            "listed_in": [],
+            "host_organization": null,
+            "host_organization_name": null,
+            "host_organization_lineage": [],
+            "host_organization_lineage_names": [],
+            "type": "ebook platform"
+          },
+          "license": null,
+          "license_id": null,
+          "version": null,
+          "is_accepted": false,
+          "is_published": false,
+          "raw_source_name": "Packt Publishing eBooks",
+          "raw_type": null
+        }
+      ],
+      "best_oa_location": null,
+      "sustainable_development_goals": [],
+      "study_designs": [],
+      "awards": [],
+      "funders": [],
+      "has_content": {
+        "pdf": false,
+        "grobid_xml": false
+      },
+      "content_urls": null,
+      "referenced_works_count": 0,
+      "referenced_works": [],
+      "related_works": [
+        "https://openalex.org/W7039459217",
+        "https://openalex.org/W2503218602",
+        "https://openalex.org/W2485707780",
+        "https://openalex.org/W2500953632",
+        "https://openalex.org/W2486153443",
+        "https://openalex.org/W2476680987",
+        "https://openalex.org/W2493904200",
+        "https://openalex.org/W2485859242",
+        "https://openalex.org/W7066670166"
+      ],
+      "abstract_inverted_index": {
+        "This": [
+          0,
+          81
+        ],
+        "is": [
+          1,
+          53,
+          83,
+          99
+        ],
+        "a": [
+          2,
+          7,
+          90
+        ],
+        "practical,": [
+          3
+        ],
+        "hands-on": [
+          4
+        ],
+        "book,": [
+          5
+        ],
+        "with": [
+          6,
+          45,
+          61,
+          71
+        ],
+        "lot": [
+          8
+        ],
+        "of": [
+          9,
+          28,
+          56,
+          93,
+          97
+        ],
+        "code": [
+          10,
+          17,
+          62,
+          74
+        ],
+        "and": [
+          11,
+          22,
+          40,
+          50,
+          66,
+          75
+        ],
+        "images.": [
+          12
+        ],
+        "It": [
+          13
+        ],
+        "presents": [
+          14
+        ],
+        "the": [
+          15,
+          57,
+          72,
+          79
+        ],
+        "real": [
+          16
+        ],
+        "that": [
+          18,
+          31,
+          48
+        ],
+        "generates": [
+          19
+        ],
+        "every": [
+          20,
+          25
+        ],
+        "image": [
+          21
+        ],
+        "describes": [
+          23
+        ],
+        "almost": [
+          24
+        ],
+        "single": [
+          26
+        ],
+        "line": [
+          27
+        ],
+        "it,": [
+          29
+        ],
+        "so": [
+          30,
+          47
+        ],
+        "you": [
+          32
+        ],
+        "know": [
+          33
+        ],
+        "exactly": [
+          34
+        ],
+        "what's": [
+          35
+        ],
+        "going": [
+          36
+        ],
+        "on.": [
+          37
+        ],
+        "Introductory,": [
+          38
+        ],
+        "descriptive,": [
+          39
+        ],
+        "theoretical": [
+          41
+        ],
+        "parts": [
+          42
+        ],
+        "are": [
+          43
+        ],
+        "mixed": [
+          44
+        ],
+        "examples,": [
+          46
+        ],
+        "reading": [
+          49
+        ],
+        "understanding": [
+          51
+        ],
+        "them": [
+          52
+        ],
+        "easy.": [
+          54
+        ],
+        "All": [
+          55
+        ],
+        "examples": [
+          58
+        ],
+        "build": [
+          59
+        ],
+        "gradually": [
+          60
+        ],
+        "snippets,": [
+          63
+        ],
+        "their": [
+          64
+        ],
+        "explanations,": [
+          65
+        ],
+        "plot": [
+          67
+        ],
+        "images": [
+          68
+        ],
+        "where": [
+          69
+        ],
+        "necessary": [
+          70
+        ],
+        "complete": [
+          73
+        ],
+        "output": [
+          76
+        ],
+        "presented": [
+          77
+        ],
+        "at": [
+          78,
+          112
+        ],
+        "end.": [
+          80
+        ],
+        "book": [
+          82
+        ],
+        "essentially": [
+          84
+        ],
+        "for": [
+          85
+        ],
+        "Python": [
+          86
+        ],
+        "developers": [
+          87
+        ],
+        "who": [
+          88
+        ],
+        "have": [
+          89
+        ],
+        "good": [
+          91
+        ],
+        "knowledge": [
+          92,
+          96
+        ],
+        "Python;": [
+          94
+        ],
+        "no": [
+          95,
+          110
+        ],
+        "Matplotlib": [
+          98,
+          108
+        ],
+        "required.": [
+          100
+        ],
+        "You": [
+          101
+        ],
+        "will": [
+          102
+        ],
+        "be": [
+          103
+        ],
+        "creating": [
+          104
+        ],
+        "2D": [
+          105
+        ],
+        "plots": [
+          106
+        ],
+        "using": [
+          107
+        ],
+        "in": [
+          109
+        ],
+        "time": [
+          111
+        ],
+        "all.": [
+          113
+        ]
+      },
+      "counts_by_year": [
+        {
+          "year": 2025,
+          "cited_by_count": 5
+        },
+        {
+          "year": 2024,
+          "cited_by_count": 11
+        },
+        {
+          "year": 2023,
+          "cited_by_count": 9
+        },
+        {
+          "year": 2022,
+          "cited_by_count": 8
+        },
+        {
+          "year": 2021,
+          "cited_by_count": 9
+        },
+        {
+          "year": 2020,
+          "cited_by_count": 8
+        },
+        {
+          "year": 2019,
+          "cited_by_count": 7
+        },
+        {
+          "year": 2018,
+          "cited_by_count": 2
+        },
+        {
+          "year": 2016,
+          "cited_by_count": 1
+        },
+        {
+          "year": 2015,
+          "cited_by_count": 4
+        },
+        {
+          "year": 2014,
+          "cited_by_count": 3
+        },
+        {
+          "year": 2013,
+          "cited_by_count": 1
+        },
+        {
+          "year": 2012,
+          "cited_by_count": 5
+        }
+      ],
+      "updated_date": "2026-11-14T11:04:58.165337",
+      "created_date": "2016-06-24T00:00:00"
+    },
+    {
+      "id": "https://openalex.org/W105087589",
+      "doi": null,
+      "title": "Python Developer's Handbook",
+      "display_name": "Python Developer's Handbook",
+      "relevance_score": 175.38774,
+      "publication_year": 2000,
+      "publication_date": "2000-12-22",
+      "ids": {
+        "openalex": "https://openalex.org/W105087589",
+        "mag": "105087589"
+      },
+      "language": "en",
+      "primary_location": {
+        "id": "pmh:oai:cds.cern.ch:1506647",
+        "doi": null,
+        "is_oa": false,
+        "landing_page_url": "http://cds.cern.ch/record/1506647",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4306400735",
+          "display_name": "International Linear Collider",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "listed_in": [],
+          "host_organization": null,
+          "host_organization_name": null,
+          "host_organization_lineage": [],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "submittedVersion",
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": "",
+        "raw_type": null
+      },
+      "parent_works": [],
+      "lineage": [
+        "https://openalex.org/W105087589"
+      ],
+      "child_works_count": 0,
+      "type": "article",
+      "is_traditional": true,
+      "indexed_in": [],
+      "open_access": {
+        "is_oa": false,
+        "oa_status": "closed",
+        "oa_url": null,
+        "any_repository_has_fulltext": false
+      },
+      "authorships": [
+        {
+          "author_position": "first",
+          "author": {
+            "id": "https://openalex.org/A5051463768",
+            "display_name": "Andre S. Lessa",
+            "orcid": null,
+            "observed_orcids": []
+          },
+          "institutions": [],
+          "countries": [],
+          "is_corresponding": true,
+          "raw_author_name": "Andre S. Lessa",
+          "raw_affiliation_strings": [],
+          "raw_orcid": null,
+          "affiliations": []
+        }
+      ],
+      "institutions": [],
+      "countries_distinct_count": 0,
+      "institutions_distinct_count": 0,
+      "corresponding_author_ids": [
+        "https://openalex.org/A5051463768"
+      ],
+      "corresponding_institution_ids": [],
+      "apc_list": null,
+      "apc_paid": null,
+      "fwci": 0.6442,
+      "is_authors_truncated": false,
+      "has_fulltext": false,
+      "cited_by_count": 3,
+      "citation_normalized_percentile": {
+        "value": 0.7493413,
+        "is_in_top_1_percent": false,
+        "is_in_top_10_percent": false
+      },
+      "cited_by_percentile_year": {
+        "min": 88,
+        "max": 93
+      },
+      "biblio": {
+        "volume": null,
+        "issue": null,
+        "first_page": null,
+        "last_page": null
+      },
+      "is_retracted": false,
+      "is_paratext": false,
+      "is_xpac": false,
+      "primary_topic": {
+        "id": "https://openalex.org/T13650",
+        "display_name": "Computational Physics and Python Applications",
+        "score": 0.9794999957084656,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1712",
+          "display_name": "Software"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      "topics": [
+        {
+          "id": "https://openalex.org/T13650",
+          "display_name": "Computational Physics and Python Applications",
+          "score": 0.9794999957084656,
+          "subfield": {
+            "id": "https://openalex.org/subfields/1712",
+            "display_name": "Software"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/17",
+            "display_name": "Computer Science"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T10126",
+          "display_name": "Logic, programming, and type systems",
+          "score": 0.013199999928474426,
+          "subfield": {
+            "id": "https://openalex.org/subfields/1712",
+            "display_name": "Software"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/17",
+            "display_name": "Computer Science"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T13681",
+          "display_name": "Engineering and Information Technology",
+          "score": 0.002099999925121665,
+          "subfield": {
+            "id": "https://openalex.org/subfields/1712",
+            "display_name": "Software"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/17",
+            "display_name": "Computer Science"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        }
+      ],
+      "keywords": [
+        {
+          "id": "https://openalex.org/keywords/python-programming",
+          "display_name": "Python programming",
+          "score": 0.9079999923706055
+        },
+        {
+          "id": "https://openalex.org/keywords/python-syntax",
+          "display_name": "Python syntax",
+          "score": 0.7889999747276306
+        },
+        {
+          "id": "https://openalex.org/keywords/network-programming",
+          "display_name": "network programming",
+          "score": 0.9959999918937683
+        },
+        {
+          "id": "https://openalex.org/keywords/gui-toolkit",
+          "display_name": "GUI toolkit",
+          "score": 0.968999981880188
+        },
+        {
+          "id": "https://openalex.org/keywords/web-development",
+          "display_name": "web development",
+          "score": 0.8450000286102295
+        },
+        {
+          "id": "https://openalex.org/keywords/object-oriented-programming",
+          "display_name": "object-oriented programming",
+          "score": 0.7990000247955322
+        },
+        {
+          "id": "https://openalex.org/keywords/interpreted-languages",
+          "display_name": "interpreted languages",
+          "score": 0.8690000176429749
+        }
+      ],
+      "concepts": [
+        {
+          "id": "https://openalex.org/C519991488",
+          "wikidata": "https://www.wikidata.org/wiki/Q28865",
+          "display_name": "Python (programming language)",
+          "level": 2,
+          "score": 0.9531953930854797
+        },
+        {
+          "id": "https://openalex.org/C199360897",
+          "wikidata": "https://www.wikidata.org/wiki/Q9143",
+          "display_name": "Programming language",
+          "level": 1,
+          "score": 0.8063566088676453
+        },
+        {
+          "id": "https://openalex.org/C41008148",
+          "wikidata": "https://www.wikidata.org/wiki/Q21198",
+          "display_name": "Computer science",
+          "level": 0,
+          "score": 0.7468798160552979
+        },
+        {
+          "id": "https://openalex.org/C60048249",
+          "wikidata": "https://www.wikidata.org/wiki/Q37437",
+          "display_name": "Syntax",
+          "level": 2,
+          "score": 0.45419082045555115
+        },
+        {
+          "id": "https://openalex.org/C41608201",
+          "wikidata": "https://www.wikidata.org/wiki/Q980509",
+          "display_name": "Embedding",
+          "level": 2,
+          "score": 0.42692649364471436
+        },
+        {
+          "id": "https://openalex.org/C136764020",
+          "wikidata": "https://www.wikidata.org/wiki/Q466",
+          "display_name": "World Wide Web",
+          "level": 1,
+          "score": 0.360387921333313
+        },
+        {
+          "id": "https://openalex.org/C115903868",
+          "wikidata": "https://www.wikidata.org/wiki/Q80993",
+          "display_name": "Software engineering",
+          "level": 1,
+          "score": 0.3484342396259308
+        },
+        {
+          "id": "https://openalex.org/C154945302",
+          "wikidata": "https://www.wikidata.org/wiki/Q11660",
+          "display_name": "Artificial intelligence",
+          "level": 1,
+          "score": 0.20992326736450195
+        }
+      ],
+      "mesh": [],
+      "locations_count": 2,
+      "locations": [
+        {
+          "id": "pmh:oai:cds.cern.ch:1506647",
+          "doi": null,
+          "is_oa": false,
+          "landing_page_url": "http://cds.cern.ch/record/1506647",
+          "pdf_url": null,
+          "source": {
+            "id": "https://openalex.org/S4306400735",
+            "display_name": "International Linear Collider",
+            "issn_l": null,
+            "issn": null,
+            "is_oa": false,
+            "is_in_doaj": false,
+            "is_core": false,
+            "listed_in": [],
+            "host_organization": null,
+            "host_organization_name": null,
+            "host_organization_lineage": [],
+            "host_organization_lineage_names": [],
+            "type": "repository"
+          },
+          "license": null,
+          "license_id": null,
+          "version": "submittedVersion",
+          "is_accepted": false,
+          "is_published": false,
+          "raw_source_name": "",
+          "raw_type": null
+        },
+        {
+          "id": "mag:105087589",
+          "doi": null,
+          "is_oa": false,
+          "landing_page_url": "https://dl.acm.org/citation.cfm?id=517332",
+          "pdf_url": null,
+          "source": null,
+          "license": null,
+          "license_id": null,
+          "version": null,
+          "is_accepted": false,
+          "is_published": false,
+          "raw_source_name": null,
+          "raw_type": null
+        }
+      ],
+      "best_oa_location": null,
+      "sustainable_development_goals": [],
+      "study_designs": [],
+      "awards": [],
+      "funders": [],
+      "has_content": {
+        "pdf": false,
+        "grobid_xml": false
+      },
+      "content_urls": null,
+      "referenced_works_count": 0,
+      "referenced_works": [],
+      "related_works": [
+        "https://openalex.org/W1512093858",
+        "https://openalex.org/W116469886",
+        "https://openalex.org/W2342341603",
+        "https://openalex.org/W2471547325",
+        "https://openalex.org/W2911579795",
+        "https://openalex.org/W4320719022",
+        "https://openalex.org/W2295267487",
+        "https://openalex.org/W7115175530",
+        "https://openalex.org/W3002275612",
+        "https://openalex.org/W6949016220"
+      ],
+      "abstract_inverted_index": {
+        "From": [
+          0
+        ],
+        "the": [
+          1,
+          23,
+          28
+        ],
+        "Publisher:\r\nThe": [
+          2
+        ],
+        "Python": [
+          3,
+          13,
+          51,
+          76
+        ],
+        "Developer's": [
+          4,
+          77
+        ],
+        "Handbook": [
+          5,
+          78
+        ],
+        "is": [
+          6,
+          52,
+          60,
+          79
+        ],
+        "designed": [
+          7
+        ],
+        "to": [
+          8,
+          12,
+          22,
+          64,
+          70,
+          84
+        ],
+        "expose": [
+          9
+        ],
+        "experienced": [
+          10,
+          91
+        ],
+        "developers": [
+          11
+        ],
+        "and": [
+          14,
+          25,
+          49,
+          62,
+          66,
+          72
+        ],
+        "its": [
+          15,
+          26
+        ],
+        "uses.": [
+          16
+        ],
+        "Beginning": [
+          17
+        ],
+        "with": [
+          18
+        ],
+        "a": [
+          19
+        ],
+        "brief": [
+          20
+        ],
+        "introduction": [
+          21,
+          83
+        ],
+        "language": [
+          24,
+          89
+        ],
+        "syntax,": [
+          27
+        ],
+        "book": [
+          29
+        ],
+        "moves": [
+          30
+        ],
+        "quickly": [
+          31
+        ],
+        "into": [
+          32
+        ],
+        "more": [
+          33
+        ],
+        "advanced": [
+          34
+        ],
+        "programming": [
+          35,
+          56,
+          88
+        ],
+        "topics,": [
+          36
+        ],
+        "including": [
+          37
+        ],
+        "embedding": [
+          38
+        ],
+        "Python,": [
+          39
+        ],
+        "network": [
+          40
+        ],
+        "programming,": [
+          41
+        ],
+        "GUI": [
+          42
+        ],
+        "toolkits,": [
+          43
+        ],
+        "JPython,": [
+          44
+        ],
+        "Web": [
+          45
+        ],
+        "development,": [
+          46
+        ],
+        "Python/C": [
+          47
+        ],
+        "API,": [
+          48
+        ],
+        "more.": [
+          50
+        ],
+        "an": [
+          53
+        ],
+        "interpreted,": [
+          54
+        ],
+        "object-oriented": [
+          55
+        ],
+        "language.": [
+          57
+        ],
+        "Its": [
+          58
+        ],
+        "syntax": [
+          59
+        ],
+        "simple": [
+          61
+        ],
+        "easy": [
+          63
+        ],
+        "learn,": [
+          65
+        ],
+        "it": [
+          67
+        ],
+        "encourages": [
+          68
+        ],
+        "programmers": [
+          69
+        ],
+        "write": [
+          71
+        ],
+        "think": [
+          73
+        ],
+        "clearly.": [
+          74
+        ],
+        "The": [
+          75
+        ],
+        "carefully": [
+          80
+        ],
+        "written,": [
+          81
+        ],
+        "well-organized": [
+          82
+        ],
+        "this": [
+          85
+        ],
+        "powerful,": [
+          86
+        ],
+        "fast-growing": [
+          87
+        ],
+        "for": [
+          90
+        ],
+        "developers.": [
+          92
+        ]
+      },
+      "counts_by_year": [
+        {
+          "year": 2015,
+          "cited_by_count": 1
+        }
+      ],
+      "updated_date": "2026-09-04T10:56:28.161419",
+      "created_date": "2016-06-24T00:00:00"
+    },
+    {
+      "id": "https://openalex.org/W2913081072",
+      "doi": null,
+      "title": "Spark for Python Developers",
+      "display_name": "Spark for Python Developers",
+      "relevance_score": 166.58536,
+      "publication_year": 2015,
+      "publication_date": "2015-12-24",
+      "ids": {
+        "openalex": "https://openalex.org/W2913081072",
+        "mag": "2913081072"
+      },
+      "language": "en",
+      "primary_location": {
+        "id": "mag:2913081072",
+        "doi": null,
+        "is_oa": false,
+        "landing_page_url": "https://dl.acm.org/citation.cfm?id=2988149",
+        "pdf_url": null,
+        "source": null,
+        "license": null,
+        "license_id": null,
+        "version": null,
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": null,
+        "raw_type": null
+      },
+      "parent_works": [],
+      "lineage": [
+        "https://openalex.org/W2913081072"
+      ],
+      "child_works_count": 0,
+      "type": "book",
+      "is_traditional": true,
+      "indexed_in": [],
+      "open_access": {
+        "is_oa": false,
+        "oa_status": "closed",
+        "oa_url": null,
+        "any_repository_has_fulltext": false
+      },
+      "authorships": [
+        {
+          "author_position": "first",
+          "author": {
+            "id": "https://openalex.org/A5010002365",
+            "display_name": "Amit Kumar Nandi",
+            "orcid": null,
+            "observed_orcids": []
+          },
+          "institutions": [],
+          "countries": [],
+          "is_corresponding": true,
+          "raw_author_name": "Amit Nandi",
+          "raw_affiliation_strings": [],
+          "raw_orcid": null,
+          "affiliations": []
+        }
+      ],
+      "institutions": [],
+      "countries_distinct_count": 0,
+      "institutions_distinct_count": 0,
+      "corresponding_author_ids": [
+        "https://openalex.org/A5010002365"
+      ],
+      "corresponding_institution_ids": [],
+      "apc_list": null,
+      "apc_paid": null,
+      "fwci": 0.5796,
+      "is_authors_truncated": false,
+      "has_fulltext": false,
+      "cited_by_count": 4,
+      "citation_normalized_percentile": {
+        "value": 0.79066986,
+        "is_in_top_1_percent": false,
+        "is_in_top_10_percent": false
+      },
+      "cited_by_percentile_year": {
+        "min": 88,
+        "max": 93
+      },
+      "biblio": {
+        "volume": null,
+        "issue": null,
+        "first_page": null,
+        "last_page": null
+      },
+      "is_retracted": false,
+      "is_paratext": false,
+      "is_xpac": false,
+      "primary_topic": {
+        "id": "https://openalex.org/T10101",
+        "display_name": "Cloud Computing and Resource Management",
+        "score": 0.5038999915122986,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1710",
+          "display_name": "Information Systems"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      "topics": [
+        {
+          "id": "https://openalex.org/T10101",
+          "display_name": "Cloud Computing and Resource Management",
+          "score": 0.5038999915122986,
+          "subfield": {
+            "id": "https://openalex.org/subfields/1710",
+            "display_name": "Information Systems"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/17",
+            "display_name": "Computer Science"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T14280",
+          "display_name": "Big Data Technologies and Applications",
+          "score": 0.38749998807907104,
+          "subfield": {
+            "id": "https://openalex.org/subfields/1802",
+            "display_name": "Information Systems and Management"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/18",
+            "display_name": "Decision Sciences"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/2",
+            "display_name": "Social Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T10317",
+          "display_name": "Advanced Database Systems and Queries",
+          "score": 0.021700000390410423,
+          "subfield": {
+            "id": "https://openalex.org/subfields/1710",
+            "display_name": "Information Systems"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/17",
+            "display_name": "Computer Science"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        }
+      ],
+      "keywords": [
+        {
+          "id": "https://openalex.org/keywords/apache-spark",
+          "display_name": "Apache Spark",
+          "score": 0.996999979019165
+        },
+        {
+          "id": "https://openalex.org/keywords/pyspark",
+          "display_name": "PySpark",
+          "score": 0.9869999885559082
+        },
+        {
+          "id": "https://openalex.org/keywords/spark-streaming",
+          "display_name": "Spark Streaming",
+          "score": 0.9129999876022339
+        },
+        {
+          "id": "https://openalex.org/keywords/real-time-data-processing",
+          "display_name": "real-time data processing",
+          "score": 0.765999972820282
+        },
+        {
+          "id": "https://openalex.org/keywords/cluster-computing",
+          "display_name": "cluster computing",
+          "score": 0.6320000290870667
+        },
+        {
+          "id": "https://openalex.org/keywords/machine-learning",
+          "display_name": "machine learning",
+          "score": 0.5289999842643738
+        },
+        {
+          "id": "https://openalex.org/keywords/spark-mllib",
+          "display_name": "Spark MLlib",
+          "score": 0.8410000205039978
+        },
+        {
+          "id": "https://openalex.org/keywords/data-visualization",
+          "display_name": "data visualization",
+          "score": 0.5910000205039978
+        },
+        {
+          "id": "https://openalex.org/keywords/web-application",
+          "display_name": "web application",
+          "score": 0.6079999804496765
+        },
+        {
+          "id": "https://openalex.org/keywords/trend-tracking",
+          "display_name": "trend tracking",
+          "score": 0.4880000054836273
+        },
+        {
+          "id": "https://openalex.org/keywords/data-pipelines",
+          "display_name": "data pipelines",
+          "score": 0.49799999594688416
+        },
+        {
+          "id": "https://openalex.org/keywords/blaze",
+          "display_name": "Blaze",
+          "score": 0.6819999814033508
+        }
+      ],
+      "concepts": [
+        {
+          "id": "https://openalex.org/C519991488",
+          "wikidata": "https://www.wikidata.org/wiki/Q28865",
+          "display_name": "Python (programming language)",
+          "level": 2,
+          "score": 0.905469536781311
+        },
+        {
+          "id": "https://openalex.org/C2781215313",
+          "wikidata": "https://www.wikidata.org/wiki/Q3493345",
+          "display_name": "SPARK (programming language)",
+          "level": 2,
+          "score": 0.7892215251922607
+        },
+        {
+          "id": "https://openalex.org/C41008148",
+          "wikidata": "https://www.wikidata.org/wiki/Q21198",
+          "display_name": "Computer science",
+          "level": 0,
+          "score": 0.7329557538032532
+        },
+        {
+          "id": "https://openalex.org/C111919701",
+          "wikidata": "https://www.wikidata.org/wiki/Q9135",
+          "display_name": "Operating system",
+          "level": 1,
+          "score": 0.5244919657707214
+        },
+        {
+          "id": "https://openalex.org/C75684735",
+          "wikidata": "https://www.wikidata.org/wiki/Q858810",
+          "display_name": "Big data",
+          "level": 2,
+          "score": 0.42814281582832336
+        },
+        {
+          "id": "https://openalex.org/C36464697",
+          "wikidata": "https://www.wikidata.org/wiki/Q451553",
+          "display_name": "Visualization",
+          "level": 2,
+          "score": 0.4228299856185913
+        },
+        {
+          "id": "https://openalex.org/C136764020",
+          "wikidata": "https://www.wikidata.org/wiki/Q466",
+          "display_name": "World Wide Web",
+          "level": 1,
+          "score": 0.3863053023815155
+        },
+        {
+          "id": "https://openalex.org/C77088390",
+          "wikidata": "https://www.wikidata.org/wiki/Q8513",
+          "display_name": "Database",
+          "level": 1,
+          "score": 0.3375711143016815
+        },
+        {
+          "id": "https://openalex.org/C154945302",
+          "wikidata": "https://www.wikidata.org/wiki/Q11660",
+          "display_name": "Artificial intelligence",
+          "level": 1,
+          "score": 0.19192466139793396
+        },
+        {
+          "id": "https://openalex.org/C199360897",
+          "wikidata": "https://www.wikidata.org/wiki/Q9143",
+          "display_name": "Programming language",
+          "level": 1,
+          "score": 0.16505959630012512
+        }
+      ],
+      "mesh": [],
+      "locations_count": 1,
+      "locations": [
+        {
+          "id": "mag:2913081072",
+          "doi": null,
+          "is_oa": false,
+          "landing_page_url": "https://dl.acm.org/citation.cfm?id=2988149",
+          "pdf_url": null,
+          "source": null,
+          "license": null,
+          "license_id": null,
+          "version": null,
+          "is_accepted": false,
+          "is_published": false,
+          "raw_source_name": null,
+          "raw_type": null
+        }
+      ],
+      "best_oa_location": null,
+      "sustainable_development_goals": [],
+      "study_designs": [],
+      "awards": [],
+      "funders": [],
+      "has_content": {
+        "pdf": false,
+        "grobid_xml": false
+      },
+      "content_urls": null,
+      "referenced_works_count": 0,
+      "referenced_works": [],
+      "related_works": [
+        "https://openalex.org/W4250044239",
+        "https://openalex.org/W6996732410",
+        "https://openalex.org/W2902302604",
+        "https://openalex.org/W7208166764",
+        "https://openalex.org/W2763264650",
+        "https://openalex.org/W600766655",
+        "https://openalex.org/W7133804485",
+        "https://openalex.org/W7020729845",
+        "https://openalex.org/W7134435226",
+        "https://openalex.org/W6982995907"
+      ],
+      "abstract_inverted_index": {
+        "Key": [
+          0
+        ],
+        "FeaturesSet": [
+          1
+        ],
+        "up": [
+          2,
+          61
+        ],
+        "real-time": [
+          3,
+          29,
+          222,
+          246,
+          300
+        ],
+        "streaming": [
+          4
+        ],
+        "and": [
+          5,
+          12,
+          49,
+          68,
+          109,
+          134,
+          152,
+          168,
+          173,
+          185,
+          194,
+          206,
+          223,
+          243,
+          254,
+          277,
+          294,
+          296,
+          422,
+          427,
+          461,
+          478
+        ],
+        "batch": [
+          6,
+          355
+        ],
+        "data": [
+          7,
+          24,
+          145,
+          163,
+          171,
+          192,
+          249,
+          258,
+          263,
+          271,
+          275,
+          398,
+          420
+        ],
+        "intensive": [
+          8,
+          250
+        ],
+        "infrastructure": [
+          9
+        ],
+        "using": [
+          10,
+          20,
+          25,
+          100,
+          182,
+          259,
+          264,
+          272,
+          381
+        ],
+        "Spark": [
+          11,
+          21,
+          26,
+          42,
+          85,
+          101,
+          240,
+          268,
+          457
+        ],
+        "PythonDeliver": [
+          13
+        ],
+        "insightful": [
+          14,
+          224
+        ],
+        "visualizations": [
+          15
+        ],
+        "in": [
+          16,
+          313,
+          360,
+          396,
+          448
+        ],
+        "a": [
+          17,
+          33,
+          78,
+          103,
+          221,
+          234,
+          245,
+          365,
+          456
+        ],
+        "web": [
+          18,
+          110
+        ],
+        "app": [
+          19,
+          99,
+          228
+        ],
+        "(PySpark)Inject": [
+          22
+        ],
+        "live": [
+          23
+        ],
+        "Streaming": [
+          27,
+          462
+        ],
+        "with": [
+          28,
+          84,
+          144,
+          160,
+          229,
+          270,
+          349,
+          464,
+          467,
+          475
+        ],
+        "eventsBook": [
+          30
+        ],
+        "DescriptionLooking": [
+          31
+        ],
+        "for": [
+          32,
+          73,
+          299,
+          367,
+          389
+        ],
+        "cluster": [
+          34,
+          52
+        ],
+        "computing": [
+          35,
+          53
+        ],
+        "system": [
+          36
+        ],
+        "that": [
+          37
+        ],
+        "provides": [
+          38
+        ],
+        "high-level": [
+          39
+        ],
+        "APIs?": [
+          40
+        ],
+        "Apache": [
+          41
+        ],
+        "is": [
+          43,
+          70,
+          336,
+          409,
+          434
+        ],
+        "your": [
+          44,
+          93,
+          155
+        ],
+        "answeran": [
+          45
+        ],
+        "open": [
+          46
+        ],
+        "source,": [
+          47
+        ],
+        "fast,": [
+          48
+        ],
+        "general": [
+          50
+        ],
+        "purpose": [
+          51
+        ],
+        "system.": [
+          54
+        ],
+        "Spark's": [
+          55
+        ],
+        "multi-stage": [
+          56
+        ],
+        "memory": [
+          57
+        ],
+        "primitives": [
+          58
+        ],
+        "provide": [
+          59
+        ],
+        "performance": [
+          60
+        ],
+        "to": [
+          62,
+          82,
+          124,
+          142,
+          175,
+          189,
+          199,
+          202,
+          442,
+          445
+        ],
+        "100": [
+          63
+        ],
+        "times": [
+          64
+        ],
+        "faster": [
+          65
+        ],
+        "than": [
+          66
+        ],
+        "Hadoop,": [
+          67
+        ],
+        "it": [
+          69,
+          298
+        ],
+        "also": [
+          71
+        ],
+        "well-suited": [
+          72
+        ],
+        "machine": [
+          74,
+          209,
+          265,
+          284,
+          291
+        ],
+        "learning": [
+          75,
+          210,
+          266,
+          285,
+          292
+        ],
+        "algorithms.Are": [
+          76
+        ],
+        "you": [
+          77,
+          96,
+          117,
+          217,
+          231
+        ],
+        "Python": [
+          79,
+          106,
+          127,
+          235,
+          433
+        ],
+        "developer": [
+          80
+        ],
+        "inclined": [
+          81
+        ],
+        "work": [
+          83
+        ],
+        "engine?": [
+          86
+        ],
+        "If": [
+          87
+        ],
+        "so,": [
+          88
+        ],
+        "this": [
+          89
+        ],
+        "book": [
+          90
+        ],
+        "will": [
+          91,
+          118,
+          137,
+          186,
+          218,
+          232
+        ],
+        "be": [
+          92,
+          443
+        ],
+        "companion": [
+          94
+        ],
+        "as": [
+          95,
+          102,
+          113,
+          148,
+          383,
+          416
+        ],
+        "create": [
+          97,
+          203
+        ],
+        "data-intensive": [
+          98,
+          227,
+          414
+        ],
+        "processing": [
+          104
+        ],
+        "engine,": [
+          105
+        ],
+        "visualization": [
+          107
+        ],
+        "libraries,": [
+          108
+        ],
+        "frameworks": [
+          111
+        ],
+        "such": [
+          112,
+          147
+        ],
+        "Flask.To": [
+          114
+        ],
+        "begin": [
+          115
+        ],
+        "with,": [
+          116
+        ],
+        "learn": [
+          119
+        ],
+        "the": [
+          120,
+          126,
+          161,
+          191,
+          208,
+          212,
+          215,
+          252,
+          279,
+          283,
+          290,
+          302,
+          308,
+          328,
+          342,
+          350,
+          384,
+          390,
+          397,
+          404
+        ],
+        "most": [
+          121
+        ],
+        "effective": [
+          122
+        ],
+        "way": [
+          123
+        ],
+        "install": [
+          125
+        ],
+        "development": [
+          128,
+          236
+        ],
+        "environment": [
+          129,
+          237
+        ],
+        "powered": [
+          130,
+          238,
+          337
+        ],
+        "by": [
+          131,
+          239,
+          338
+        ],
+        "Spark,": [
+          132
+        ],
+        "Blaze,": [
+          133,
+          242
+        ],
+        "Bookeh.": [
+          135
+        ],
+        "You": [
+          136
+        ],
+        "then": [
+          138,
+          347
+        ],
+        "find": [
+          139
+        ],
+        "out": [
+          140
+        ],
+        "how": [
+          141,
+          188,
+          201
+        ],
+        "connect": [
+          143
+        ],
+        "stores": [
+          146
+        ],
+        "MySQL,": [
+          149
+        ],
+        "MongoDB,": [
+          150
+        ],
+        "Cassandra,": [
+          151
+        ],
+        "Hadoop.You'll": [
+          153
+        ],
+        "expand": [
+          154
+        ],
+        "skills": [
+          156
+        ],
+        "throughout,": [
+          157
+        ],
+        "getting": [
+          158
+        ],
+        "familiarized": [
+          159
+        ],
+        "various": [
+          162
+        ],
+        "sources": [
+          164
+        ],
+        "(Github,": [
+          165
+        ],
+        "Twitter,": [
+          166
+        ],
+        "Meetup,": [
+          167
+        ],
+        "Blogs),": [
+          169
+        ],
+        "their": [
+          170
+        ],
+        "structures,": [
+          172
+        ],
+        "solutions": [
+          174
+        ],
+        "effectively": [
+          176
+        ],
+        "tackle": [
+          177
+        ],
+        "complexities.": [
+          178
+        ],
+        "You'll": [
+          179
+        ],
+        "explore": [
+          180
+        ],
+        "datasets": [
+          181,
+          205
+        ],
+        "iPython": [
+          183
+        ],
+        "Notebook": [
+          184
+        ],
+        "discover": [
+          187
+        ],
+        "optimize": [
+          190
+        ],
+        "models": [
+          193,
+          286,
+          295
+        ],
+        "pipeline.": [
+          195
+        ],
+        "Finally,": [
+          196
+        ],
+        "you'll": [
+          197
+        ],
+        "get": [
+          198
+        ],
+        "know": [
+          200
+        ],
+        "training": [
+          204,
+          274
+        ],
+        "train": [
+          207,
+          278
+        ],
+        "models.By": [
+          211
+        ],
+        "end": [
+          213
+        ],
+        "of": [
+          214,
+          311,
+          331,
+          344,
+          357,
+          403,
+          438,
+          453
+        ],
+        "book,": [
+          216
+        ],
+        "have": [
+          219
+        ],
+        "created": [
+          220
+        ],
+        "trend": [
+          225,
+          247
+        ],
+        "tracker": [
+          226,
+          248
+        ],
+        "Spark.What": [
+          230
+        ],
+        "learnCreate": [
+          233
+        ],
+        "(PySpark),": [
+          241
+        ],
+        "BookehBuild": [
+          244
+        ],
+        "appVisualize": [
+          251
+        ],
+        "trends": [
+          253
+        ],
+        "insights": [
+          255,
+          261
+        ],
+        "gained": [
+          256
+        ],
+        "from": [
+          257,
+          262,
+          469
+        ],
+        "BookehGenerate": [
+          260
+        ],
+        "through": [
+          267
+        ],
+        "MLLIBJuggle": [
+          269
+        ],
+        "BlazeCreate": [
+          273
+        ],
+        "sets": [
+          276
+        ],
+        "Machine": [
+          280
+        ],
+        "Learning": [
+          281
+        ],
+        "modelsTest": [
+          282
+        ],
+        "on": [
+          287,
+          320,
+          376,
+          394,
+          412
+        ],
+        "test": [
+          288
+        ],
+        "datasetsDeploy": [
+          289
+        ],
+        "algorithms": [
+          293
+        ],
+        "scale": [
+          297
+        ],
+        "eventsAbout": [
+          301
+        ],
+        "AuthorAmit": [
+          303
+        ],
+        "Nandi": [
+          304
+        ],
+        "studied": [
+          305
+        ],
+        "physics": [
+          306
+        ],
+        "at": [
+          307,
+          341
+        ],
+        "Free": [
+          309
+        ],
+        "University": [
+          310
+        ],
+        "Brussels": [
+          312
+        ],
+        "Belgium,": [
+          314
+        ],
+        "where": [
+          315
+        ],
+        "he": [
+          316,
+          440
+        ],
+        "did": [
+          317
+        ],
+        "his": [
+          318,
+          435
+        ],
+        "research": [
+          319
+        ],
+        "computer": [
+          321,
+          436,
+          450
+        ],
+        "generated": [
+          322,
+          325
+        ],
+        "holograms.": [
+          323
+        ],
+        "Computer": [
+          324
+        ],
+        "holograms": [
+          326
+        ],
+        "are": [
+          327
+        ],
+        "key": [
+          329
+        ],
+        "components": [
+          330
+        ],
+        "an": [
+          332,
+          417
+        ],
+        "optical": [
+          333
+        ],
+        "computer,": [
+          334
+        ],
+        "which": [
+          335,
+          369
+        ],
+        "photons": [
+          339
+        ],
+        "running": [
+          340
+        ],
+        "speed": [
+          343
+        ],
+        "light.": [
+          345
+        ],
+        "He": [
+          346,
+          372,
+          387,
+          408,
+          425
+        ],
+        "worked": [
+          348,
+          374
+        ],
+        "university": [
+          351
+        ],
+        "Cray": [
+          352
+        ],
+        "supercomputer,": [
+          353
+        ],
+        "sending": [
+          354
+        ],
+        "jobs": [
+          356
+        ],
+        "programs": [
+          358
+        ],
+        "written": [
+          359
+        ],
+        "Fortran.": [
+          361
+        ],
+        "This": [
+          362
+        ],
+        "gave": [
+          363
+        ],
+        "him": [
+          364
+        ],
+        "taste": [
+          366
+        ],
+        "computing,": [
+          368
+        ],
+        "kept": [
+          370
+        ],
+        "growing.": [
+          371
+        ],
+        "has": [
+          373
+        ],
+        "extensively": [
+          375
+        ],
+        "large": [
+          377
+        ],
+        "business": [
+          378
+        ],
+        "reengineering": [
+          379
+        ],
+        "initiatives,": [
+          380
+        ],
+        "SAP": [
+          382
+        ],
+        "main": [
+          385
+        ],
+        "enabler.": [
+          386
+        ],
+        "focused": [
+          388
+        ],
+        "last": [
+          391
+        ],
+        "15": [
+          392
+        ],
+        "years": [
+          393
+        ],
+        "start-ups": [
+          395
+        ],
+        "space,": [
+          399
+        ],
+        "pioneering": [
+          400
+        ],
+        "new": [
+          401
+        ],
+        "areas": [
+          402
+        ],
+        "information": [
+          405
+        ],
+        "technology": [
+          406
+        ],
+        "landscape.": [
+          407
+        ],
+        "currently": [
+          410
+        ],
+        "focusing": [
+          411
+        ],
+        "large-scale": [
+          413
+        ],
+        "applications": [
+          415
+        ],
+        "enterprise": [
+          418
+        ],
+        "architect,": [
+          419
+        ],
+        "engineer,": [
+          421
+        ],
+        "software": [
+          423
+        ],
+        "developer.": [
+          424
+        ],
+        "understands": [
+          426
+        ],
+        "speaks": [
+          428
+        ],
+        "seven": [
+          429,
+          449
+        ],
+        "human": [
+          430
+        ],
+        "languages.": [
+          431
+        ],
+        "Although": [
+          432
+        ],
+        "language": [
+          437
+        ],
+        "choice,": [
+          439
+        ],
+        "aims": [
+          441
+        ],
+        "able": [
+          444
+        ],
+        "write": [
+          446
+        ],
+        "fluently": [
+          447
+        ],
+        "languages": [
+          451
+        ],
+        "too.Table": [
+          452
+        ],
+        "ContentsSetting": [
+          454
+        ],
+        "Up": [
+          455
+        ],
+        "Virtual": [
+          458
+        ],
+        "EnvironmentBuilding": [
+          459
+        ],
+        "Batch": [
+          460
+        ],
+        "Apps": [
+          463
+        ],
+        "SparkJuggling": [
+          465
+        ],
+        "Data": [
+          466,
+          470,
+          474
+        ],
+        "SparkLearning": [
+          468
+        ],
+        "Using": [
+          471
+        ],
+        "SparkStreaming": [
+          472
+        ],
+        "Live": [
+          473
+        ],
+        "SparkVisualizing": [
+          476
+        ],
+        "Insights": [
+          477
+        ],
+        "Trends": [
+          479
+        ]
+      },
+      "counts_by_year": [
+        {
+          "year": 2025,
+          "cited_by_count": 1
+        },
+        {
+          "year": 2022,
+          "cited_by_count": 1
+        },
+        {
+          "year": 2018,
+          "cited_by_count": 1
+        },
+        {
+          "year": 2017,
+          "cited_by_count": 1
+        }
+      ],
+      "updated_date": "2026-11-14T11:04:58.165337",
+      "created_date": "2019-02-21T00:00:00"
+    },
+    {
+      "id": "https://openalex.org/W3107377457",
+      "doi": null,
+      "title": "Matplotlib for Python Developers",
+      "display_name": "Matplotlib for Python Developers",
+      "relevance_score": 165.9627,
+      "publication_year": 2018,
+      "publication_date": "2018-04-24",
+      "ids": {
+        "openalex": "https://openalex.org/W3107377457",
+        "mag": "3107377457"
+      },
+      "language": "en",
+      "primary_location": {
+        "id": "pmh:oai:aleph.bib-bvb.de:BVB01-030534219",
+        "doi": null,
+        "is_oa": false,
+        "landing_page_url": "http://proquest.tech.safaribooksonline.de/9781788625173",
+        "pdf_url": null,
+        "source": null,
+        "license": null,
+        "license_id": null,
+        "version": "submittedVersion",
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": "",
+        "raw_type": "software, multimedia"
+      },
+      "parent_works": [],
+      "lineage": [
+        "https://openalex.org/W3107377457"
+      ],
+      "child_works_count": 0,
+      "type": "other",
+      "is_traditional": false,
+      "indexed_in": [],
+      "open_access": {
+        "is_oa": false,
+        "oa_status": "closed",
+        "oa_url": null,
+        "any_repository_has_fulltext": false
+      },
+      "authorships": [
+        {
+          "author_position": "first",
+          "author": {
+            "id": "https://openalex.org/A5033750303",
+            "display_name": "Aldrin Kay‐Yuen Yim",
+            "orcid": "https://orcid.org/0000-0001-9562-2328",
+            "observed_orcids": [
+              "https://orcid.org/0000-0001-9562-2328"
+            ]
+          },
+          "institutions": [],
+          "countries": [],
+          "is_corresponding": false,
+          "raw_author_name": "Aldrin Yim",
+          "raw_affiliation_strings": [],
+          "raw_orcid": null,
+          "affiliations": []
+        },
+        {
+          "author_position": "middle",
+          "author": {
+            "id": null,
+            "display_name": "Claire Chung",
+            "orcid": "https://orcid.org/0000-0002-9947-7591",
+            "observed_orcids": [
+              "https://orcid.org/0000-0002-9947-7591"
+            ]
+          },
+          "institutions": [],
+          "countries": [],
+          "is_corresponding": false,
+          "raw_author_name": "Claire Chung",
+          "raw_affiliation_strings": [],
+          "raw_orcid": "https://orcid.org/0000-0002-9947-7591",
+          "affiliations": []
+        },
+        {
+          "author_position": "last",
+          "author": {
+            "id": "https://openalex.org/A5021290022",
+            "display_name": "Allen Chi-Shing Yu",
+            "orcid": "https://orcid.org/0000-0002-9568-8316",
+            "observed_orcids": [
+              "https://orcid.org/0000-0002-9568-8316"
+            ]
+          },
+          "institutions": [],
+          "countries": [],
+          "is_corresponding": false,
+          "raw_author_name": "Allen Chi Shing Yu",
+          "raw_affiliation_strings": [],
+          "raw_orcid": null,
+          "affiliations": []
+        }
+      ],
+      "institutions": [],
+      "countries_distinct_count": 0,
+      "institutions_distinct_count": 0,
+      "corresponding_author_ids": [],
+      "corresponding_institution_ids": [],
+      "apc_list": null,
+      "apc_paid": null,
+      "fwci": null,
+      "is_authors_truncated": false,
+      "has_fulltext": false,
+      "cited_by_count": 6,
+      "citation_normalized_percentile": null,
+      "cited_by_percentile_year": null,
+      "biblio": {
+        "volume": null,
+        "issue": null,
+        "first_page": null,
+        "last_page": null
+      },
+      "is_retracted": false,
+      "is_paratext": false,
+      "is_xpac": false,
+      "primary_topic": {
+        "id": "https://openalex.org/T13650",
+        "display_name": "Computational Physics and Python Applications",
+        "score": 0.9984999895095825,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1712",
+          "display_name": "Software"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      "topics": [
+        {
+          "id": "https://openalex.org/T13650",
+          "display_name": "Computational Physics and Python Applications",
+          "score": 0.9984999895095825,
+          "subfield": {
+            "id": "https://openalex.org/subfields/1712",
+            "display_name": "Software"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/17",
+            "display_name": "Computer Science"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T10799",
+          "display_name": "Data Visualization and Analytics",
+          "score": 0.0013000000035390258,
+          "subfield": {
+            "id": "https://openalex.org/subfields/1704",
+            "display_name": "Computer Graphics and Computer-Aided Design"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/17",
+            "display_name": "Computer Science"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T10481",
+          "display_name": "Computer Graphics and Visualization Techniques",
+          "score": 9.999999747378752e-05,
+          "subfield": {
+            "id": "https://openalex.org/subfields/1704",
+            "display_name": "Computer Graphics and Computer-Aided Design"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/17",
+            "display_name": "Computer Science"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        }
+      ],
+      "keywords": [
+        {
+          "id": "https://openalex.org/keywords/matplotlib",
+          "display_name": "Matplotlib",
+          "score": 0.9819999933242798
+        },
+        {
+          "id": "https://openalex.org/keywords/python",
+          "display_name": "Python",
+          "score": 0.7590000033378601
+        },
+        {
+          "id": "https://openalex.org/keywords/data-visualization",
+          "display_name": "data visualization",
+          "score": 0.8230000138282776
+        },
+        {
+          "id": "https://openalex.org/keywords/plotting-library",
+          "display_name": "plotting library",
+          "score": 0.6159999966621399
+        },
+        {
+          "id": "https://openalex.org/keywords/scientific-plotting",
+          "display_name": "scientific plotting",
+          "score": 0.5239999890327454
+        }
+      ],
+      "concepts": [
+        {
+          "id": "https://openalex.org/C519991488",
+          "wikidata": "https://www.wikidata.org/wiki/Q28865",
+          "display_name": "Python (programming language)",
+          "level": 2,
+          "score": 0.8180973529815674
+        },
+        {
+          "id": "https://openalex.org/C199360897",
+          "wikidata": "https://www.wikidata.org/wiki/Q9143",
+          "display_name": "Programming language",
+          "level": 1,
+          "score": 0.5498875379562378
+        },
+        {
+          "id": "https://openalex.org/C41008148",
+          "wikidata": "https://www.wikidata.org/wiki/Q21198",
+          "display_name": "Computer science",
+          "level": 0,
+          "score": 0.5432721972465515
+        },
+        {
+          "id": "https://openalex.org/C111919701",
+          "wikidata": "https://www.wikidata.org/wiki/Q9135",
+          "display_name": "Operating system",
+          "level": 1,
+          "score": 0.3467866778373718
+        },
+        {
+          "id": "https://openalex.org/C115903868",
+          "wikidata": "https://www.wikidata.org/wiki/Q80993",
+          "display_name": "Software engineering",
+          "level": 1,
+          "score": 0.3266094923019409
+        }
+      ],
+      "mesh": [],
+      "locations_count": 3,
+      "locations": [
+        {
+          "id": "pmh:oai:aleph.bib-bvb.de:BVB01-030534219",
+          "doi": null,
+          "is_oa": false,
+          "landing_page_url": "http://proquest.tech.safaribooksonline.de/9781788625173",
+          "pdf_url": null,
+          "source": null,
+          "license": null,
+          "license_id": null,
+          "version": "submittedVersion",
+          "is_accepted": false,
+          "is_published": false,
+          "raw_source_name": "",
+          "raw_type": "software, multimedia"
+        },
+        {
+          "id": "pmh:oai:cds.cern.ch:2629678",
+          "doi": null,
+          "is_oa": false,
+          "landing_page_url": "http://cds.cern.ch/record/2629678",
+          "pdf_url": null,
+          "source": {
+            "id": "https://openalex.org/S4306402195",
+            "display_name": "CERN Document Server (European Organization for Nuclear Research)",
+            "issn_l": null,
+            "issn": null,
+            "is_oa": false,
+            "is_in_doaj": false,
+            "is_core": false,
+            "listed_in": [],
+            "host_organization": "https://openalex.org/I67311998",
+            "host_organization_name": "European Organization for Nuclear Research",
+            "host_organization_lineage": [
+              "https://openalex.org/I67311998"
+            ],
+            "host_organization_lineage_names": [],
+            "type": "repository"
+          },
+          "license": null,
+          "license_id": null,
+          "version": "submittedVersion",
+          "is_accepted": false,
+          "is_published": false,
+          "raw_source_name": "",
+          "raw_type": null
+        },
+        {
+          "id": "mag:3107377457",
+          "doi": null,
+          "is_oa": false,
+          "landing_page_url": "https://openlibrary.org/books/OL26833606M/Matplotlib_for_Python_Developers_Effective_techniques_for_data_visualization_with_Python_2nd_Edition",
+          "pdf_url": null,
+          "source": null,
+          "license": null,
+          "license_id": null,
+          "version": null,
+          "is_accepted": false,
+          "is_published": false,
+          "raw_source_name": null,
+          "raw_type": null
+        }
+      ],
+      "best_oa_location": null,
+      "sustainable_development_goals": [],
+      "study_designs": [],
+      "awards": [],
+      "funders": [],
+      "has_content": {
+        "pdf": false,
+        "grobid_xml": false
+      },
+      "content_urls": null,
+      "referenced_works_count": 0,
+      "referenced_works": [],
+      "related_works": [
+        "https://openalex.org/W6922529770",
+        "https://openalex.org/W1630264553",
+        "https://openalex.org/W4289181506",
+        "https://openalex.org/W6904033495",
+        "https://openalex.org/W2011301426",
+        "https://openalex.org/W7070455823",
+        "https://openalex.org/W7011352796",
+        "https://openalex.org/W7057943110",
+        "https://openalex.org/W621684998",
+        "https://openalex.org/W2613438771"
+      ],
+      "abstract_inverted_index": null,
+      "counts_by_year": [
+        {
+          "year": 2025,
+          "cited_by_count": 1
+        },
+        {
+          "year": 2023,
+          "cited_by_count": 2
+        },
+        {
+          "year": 2022,
+          "cited_by_count": 2
+        },
+        {
+          "year": 2021,
+          "cited_by_count": 1
+        }
+      ],
+      "updated_date": "2026-11-04T10:54:05.112534",
+      "created_date": "2020-12-07T00:00:00"
+    },
+    {
+      "id": "https://openalex.org/W4404623978",
+      "doi": "https://doi.org/10.1007/979-8-8688-0929-3_1",
+      "title": "Introducing ChatGPT for Python Developers",
+      "display_name": "Introducing ChatGPT for Python Developers",
+      "relevance_score": 164.18483,
+      "publication_year": 2024,
+      "publication_date": "2024-11-22",
+      "ids": {
+        "openalex": "https://openalex.org/W4404623978",
+        "doi": "https://doi.org/10.1007/979-8-8688-0929-3_1"
+      },
+      "language": "en",
+      "primary_location": {
+        "id": "doi:10.1007/979-8-8688-0929-3_1",
+        "doi": "https://doi.org/10.1007/979-8-8688-0929-3_1",
+        "is_oa": false,
+        "landing_page_url": "https://doi.org/10.1007/979-8-8688-0929-3_1",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4306462844",
+          "display_name": "Apress eBooks",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "listed_in": [],
+          "host_organization": null,
+          "host_organization_name": null,
+          "host_organization_lineage": [],
+          "host_organization_lineage_names": [],
+          "type": "ebook platform"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Beginning ChatGPT for Python",
+        "raw_type": "book-chapter"
+      },
+      "parent_works": [
+        {
+          "id": "https://openalex.org/W4404623912",
+          "display_name": "Beginning ChatGPT for Python: Build Intelligent Applications with OpenAI APIs",
+          "relationship": "volume"
+        }
+      ],
+      "lineage": [
+        "https://openalex.org/W4404623978",
+        "https://openalex.org/W4404623912"
+      ],
+      "child_works_count": 0,
+      "type": "book-chapter",
+      "is_traditional": true,
+      "indexed_in": [
+        "crossref"
+      ],
+      "open_access": {
+        "is_oa": false,
+        "oa_status": "closed",
+        "oa_url": null,
+        "any_repository_has_fulltext": false
+      },
+      "authorships": [
+        {
+          "author_position": "first",
+          "author": {
+            "id": "https://openalex.org/A5119305029",
+            "display_name": "Lydia Evelyn",
+            "orcid": null,
+            "observed_orcids": []
+          },
+          "institutions": [],
+          "countries": [],
+          "is_corresponding": false,
+          "raw_author_name": "Lydia Evelyn",
+          "raw_affiliation_strings": [
+            "Catalonia, Huesca, Spain"
+          ],
+          "raw_orcid": null,
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Catalonia, Huesca, Spain",
+              "institution_ids": []
+            }
+          ]
+        },
+        {
+          "author_position": "last",
+          "author": {
+            "id": "https://openalex.org/A5103472612",
+            "display_name": "Bruce R. Hopkins",
+            "orcid": null,
+            "observed_orcids": []
+          },
+          "institutions": [],
+          "countries": [],
+          "is_corresponding": false,
+          "raw_author_name": "Bruce Hopkins",
+          "raw_affiliation_strings": [
+            "Orlando, FL, USA"
+          ],
+          "raw_orcid": null,
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Orlando, FL, USA",
+              "institution_ids": []
+            }
+          ]
+        }
+      ],
+      "institutions": [],
+      "countries_distinct_count": 0,
+      "institutions_distinct_count": 0,
+      "corresponding_author_ids": [],
+      "corresponding_institution_ids": [],
+      "apc_list": null,
+      "apc_paid": null,
+      "fwci": 2.0621,
+      "is_authors_truncated": false,
+      "has_fulltext": false,
+      "cited_by_count": 4,
+      "citation_normalized_percentile": {
+        "value": 0.86588577,
+        "is_in_top_1_percent": false,
+        "is_in_top_10_percent": false
+      },
+      "cited_by_percentile_year": {
+        "min": 91,
+        "max": 97
+      },
+      "biblio": {
+        "volume": null,
+        "issue": null,
+        "first_page": "1",
+        "last_page": "19"
+      },
+      "is_retracted": false,
+      "is_paratext": false,
+      "is_xpac": false,
+      "primary_topic": {
+        "id": "https://openalex.org/T13904",
+        "display_name": "Artificial Intelligence Applications",
+        "score": 0.7318999767303467,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1702",
+          "display_name": "Artificial Intelligence"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      "topics": [
+        {
+          "id": "https://openalex.org/T13904",
+          "display_name": "Artificial Intelligence Applications",
+          "score": 0.7318999767303467,
+          "subfield": {
+            "id": "https://openalex.org/subfields/1702",
+            "display_name": "Artificial Intelligence"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/17",
+            "display_name": "Computer Science"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T10028",
+          "display_name": "Topic Modeling",
+          "score": 0.15309999883174896,
+          "subfield": {
+            "id": "https://openalex.org/subfields/1702",
+            "display_name": "Artificial Intelligence"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/17",
+            "display_name": "Computer Science"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T10260",
+          "display_name": "Software Engineering Research",
+          "score": 0.05530000105500221,
+          "subfield": {
+            "id": "https://openalex.org/subfields/1710",
+            "display_name": "Information Systems"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/17",
+            "display_name": "Computer Science"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        }
+      ],
+      "keywords": [
+        {
+          "id": "https://openalex.org/keywords/chatgpt",
+          "display_name": "ChatGPT",
+          "score": 0.9990000128746033
+        },
+        {
+          "id": "https://openalex.org/keywords/large-language-models",
+          "display_name": "large language models",
+          "score": 0.906000018119812
+        },
+        {
+          "id": "https://openalex.org/keywords/python-programming",
+          "display_name": "Python programming",
+          "score": 0.6700000166893005
+        },
+        {
+          "id": "https://openalex.org/keywords/natural-language-processing",
+          "display_name": "natural language processing",
+          "score": 0.7289999723434448
+        },
+        {
+          "id": "https://openalex.org/keywords/machine-learning",
+          "display_name": "machine learning",
+          "score": 0.6819999814033508
+        },
+        {
+          "id": "https://openalex.org/keywords/deep-learning",
+          "display_name": "deep learning",
+          "score": 0.8949999809265137
+        }
+      ],
+      "concepts": [
+        {
+          "id": "https://openalex.org/C519991488",
+          "wikidata": "https://www.wikidata.org/wiki/Q28865",
+          "display_name": "Python (programming language)",
+          "level": 2,
+          "score": 0.8051948547363281
+        },
+        {
+          "id": "https://openalex.org/C199360897",
+          "wikidata": "https://www.wikidata.org/wiki/Q9143",
+          "display_name": "Programming language",
+          "level": 1,
+          "score": 0.6142860054969788
+        },
+        {
+          "id": "https://openalex.org/C41008148",
+          "wikidata": "https://www.wikidata.org/wiki/Q21198",
+          "display_name": "Computer science",
+          "level": 0,
+          "score": 0.586615800857544
+        },
+        {
+          "id": "https://openalex.org/C115903868",
+          "wikidata": "https://www.wikidata.org/wiki/Q80993",
+          "display_name": "Software engineering",
+          "level": 1,
+          "score": 0.33840543031692505
+        }
+      ],
+      "mesh": [],
+      "locations_count": 1,
+      "locations": [
+        {
+          "id": "doi:10.1007/979-8-8688-0929-3_1",
+          "doi": "https://doi.org/10.1007/979-8-8688-0929-3_1",
+          "is_oa": false,
+          "landing_page_url": "https://doi.org/10.1007/979-8-8688-0929-3_1",
+          "pdf_url": null,
+          "source": {
+            "id": "https://openalex.org/S4306462844",
+            "display_name": "Apress eBooks",
+            "issn_l": null,
+            "issn": null,
+            "is_oa": false,
+            "is_in_doaj": false,
+            "is_core": false,
+            "listed_in": [],
+            "host_organization": null,
+            "host_organization_name": null,
+            "host_organization_lineage": [],
+            "host_organization_lineage_names": [],
+            "type": "ebook platform"
+          },
+          "license": null,
+          "license_id": null,
+          "version": "publishedVersion",
+          "is_accepted": true,
+          "is_published": true,
+          "raw_source_name": "Beginning ChatGPT for Python",
+          "raw_type": "book-chapter"
+        }
+      ],
+      "best_oa_location": null,
+      "sustainable_development_goals": [],
+      "study_designs": [],
+      "awards": [],
+      "funders": [],
+      "has_content": {
+        "pdf": false,
+        "grobid_xml": false
+      },
+      "content_urls": null,
+      "referenced_works_count": 0,
+      "referenced_works": [],
+      "related_works": [
+        "https://openalex.org/W4408881071",
+        "https://openalex.org/W4404623912",
+        "https://openalex.org/W7126426313",
+        "https://openalex.org/W4405794348",
+        "https://openalex.org/W4403638464",
+        "https://openalex.org/W4392478098",
+        "https://openalex.org/W4389479902",
+        "https://openalex.org/W4403873334",
+        "https://openalex.org/W4388859702",
+        "https://openalex.org/W4233579817"
+      ],
+      "abstract_inverted_index": {
+        "First": [
+          0
+        ],
+        "of": [
+          1,
+          31
+        ],
+        "all,": [
+          2
+        ],
+        "this": [
+          3
+        ],
+        "book": [
+          4
+        ],
+        "is": [
+          5
+        ],
+        "for": [
+          6
+        ],
+        "Python": [
+          7
+        ],
+        "developers": [
+          8
+        ],
+        "who": [
+          9
+        ],
+        "don't": [
+          10
+        ],
+        "have": [
+          11,
+          29
+        ],
+        "any": [
+          12
+        ],
+        "training": [
+          13
+        ],
+        "or": [
+          14,
+          24
+        ],
+        "experience": [
+          15
+        ],
+        "in": [
+          16
+        ],
+        "artificial": [
+          17
+        ],
+        "intelligence,": [
+          18
+        ],
+        "natural": [
+          19
+        ],
+        "language": [
+          20
+        ],
+        "processing,": [
+          21
+        ],
+        "machine": [
+          22
+        ],
+        "learning,": [
+          23
+        ],
+        "deep": [
+          25
+        ],
+        "learning.": [
+          26
+        ],
+        "You": [
+          27
+        ],
+        "may": [
+          28
+        ],
+        "heard": [
+          30
+        ],
+        "the": [
+          32
+        ],
+        "term": [
+          33,
+          45
+        ],
+        "\"language": [
+          34
+        ],
+        "model,\"": [
+          35
+        ],
+        "but": [
+          36
+        ],
+        "I'm": [
+          37
+        ],
+        "going": [
+          38
+        ],
+        "to": [
+          39
+        ],
+        "assume": [
+          40
+        ],
+        "that": [
+          41,
+          46
+        ],
+        "it's": [
+          42
+        ],
+        "not": [
+          43
+        ],
+        "a": [
+          44
+        ],
+        "you": [
+          47
+        ],
+        "use": [
+          48
+        ],
+        "every": [
+          49
+        ],
+        "day.": [
+          50
+        ]
+      },
+      "counts_by_year": [
+        {
+          "year": 2026,
+          "cited_by_count": 1
+        },
+        {
+          "year": 2025,
+          "cited_by_count": 3
+        }
+      ],
+      "updated_date": "2026-11-15T12:55:33.944570",
+      "created_date": "2024-11-23T00:00:00"
+    }
+  ],
+  "group_by": []
+}

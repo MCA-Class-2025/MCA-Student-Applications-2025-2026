@@ -1,0 +1,4172 @@
+{
+  "meta": {
+    "notice": "No API key, so this request shares one free daily budget ($0.10) with everyone on your network's IP address. Get a free key with its own $1/day at https://openalex.org/settings/api and add api_key=YOUR_KEY to your requests. An AI agent can get one for its user in one call: POST https://api.openalex.org/api-keys with {\"email\": \"<your user's email>\"}; we email them a link, and the key works once they click it. Docs for agents: https://help.openalex.org/llms.txt",
+    "count": 11123,
+    "db_response_time_ms": 620,
+    "page": 1,
+    "per_page": 5,
+    "groups_count": null,
+    "x_query": {
+      "oql": "get works with (CONSUL ENGINEER) in the title, abstract, or full text",
+      "x_new_oql": "get works with (CONSUL ENGINEER) in the title, abstract, or full text",
+      "oqo": {
+        "get_rows": "works",
+        "filter_rows": [
+          {
+            "column_id": "fulltext.search",
+            "value": "CONSUL ENGINEER",
+            "operator": "has"
+          }
+        ]
+      },
+      "url": "/works?filter=fulltext.search:CONSUL ENGINEER&per_page=5",
+      "order": "best matches first",
+      "order_default": true
+    },
+    "cost_usd": 0.001
+  },
+  "results": [
+    {
+      "id": "https://openalex.org/W4393173572",
+      "doi": "https://doi.org/10.61097/12301604/pg33/2023/227-244",
+      "title": "Honorary Consul of Poland in Georgia – Józef Łaszkiewicz",
+      "display_name": "Honorary Consul of Poland in Georgia – Józef Łaszkiewicz",
+      "relevance_score": 31.810825,
+      "publication_year": 2023,
+      "publication_date": "2023-08-10",
+      "ids": {
+        "openalex": "https://openalex.org/W4393173572",
+        "doi": "https://doi.org/10.61097/12301604/pg33/2023/227-244"
+      },
+      "language": "en",
+      "primary_location": {
+        "id": "doi:10.61097/12301604/pg33/2023/227-244",
+        "doi": "https://doi.org/10.61097/12301604/pg33/2023/227-244",
+        "is_oa": false,
+        "landing_page_url": "https://doi.org/10.61097/12301604/pg33/2023/227-244",
+        "pdf_url": null,
+        "source": null,
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Pro Georgia",
+        "raw_type": "journal-article"
+      },
+      "parent_works": [],
+      "lineage": [
+        "https://openalex.org/W4393173572"
+      ],
+      "child_works_count": 0,
+      "type": "article",
+      "is_traditional": true,
+      "indexed_in": [
+        "crossref"
+      ],
+      "open_access": {
+        "is_oa": false,
+        "oa_status": "closed",
+        "oa_url": null,
+        "any_repository_has_fulltext": false
+      },
+      "authorships": [
+        {
+          "author_position": "first",
+          "author": {
+            "id": "https://openalex.org/A5011842717",
+            "display_name": "Maka Khutsishvili",
+            "orcid": "https://orcid.org/0000-0002-9175-7265",
+            "observed_orcids": [
+              "https://orcid.org/0000-0002-9175-7265"
+            ]
+          },
+          "institutions": [],
+          "countries": [],
+          "is_corresponding": true,
+          "raw_author_name": "Maka Khutsishvili",
+          "raw_affiliation_strings": [],
+          "raw_orcid": "https://orcid.org/0000-0002-9175-7265",
+          "affiliations": []
+        }
+      ],
+      "institutions": [],
+      "countries_distinct_count": 0,
+      "institutions_distinct_count": 0,
+      "corresponding_author_ids": [
+        "https://openalex.org/A5011842717"
+      ],
+      "corresponding_institution_ids": [],
+      "apc_list": null,
+      "apc_paid": null,
+      "fwci": 0.0,
+      "is_authors_truncated": false,
+      "has_fulltext": false,
+      "cited_by_count": 0,
+      "citation_normalized_percentile": {
+        "value": 0.0,
+        "is_in_top_1_percent": false,
+        "is_in_top_10_percent": false
+      },
+      "cited_by_percentile_year": null,
+      "biblio": {
+        "volume": "33",
+        "issue": "1",
+        "first_page": "227",
+        "last_page": "244"
+      },
+      "is_retracted": false,
+      "is_paratext": false,
+      "is_xpac": false,
+      "primary_topic": {
+        "id": "https://openalex.org/T12764",
+        "display_name": "Polish Historical and Cultural Studies",
+        "score": 0.6894999742507935,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3320",
+          "display_name": "Political Science and International Relations"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/33",
+          "display_name": "Social Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      "topics": [
+        {
+          "id": "https://openalex.org/T12764",
+          "display_name": "Polish Historical and Cultural Studies",
+          "score": 0.6894999742507935,
+          "subfield": {
+            "id": "https://openalex.org/subfields/3320",
+            "display_name": "Political Science and International Relations"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/33",
+            "display_name": "Social Sciences"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/2",
+            "display_name": "Social Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T11070",
+          "display_name": "Soviet and Russian History",
+          "score": 0.27219998836517334,
+          "subfield": {
+            "id": "https://openalex.org/subfields/3320",
+            "display_name": "Political Science and International Relations"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/33",
+            "display_name": "Social Sciences"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/2",
+            "display_name": "Social Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T14032",
+          "display_name": "History and International Relations",
+          "score": 0.01769999973475933,
+          "subfield": {
+            "id": "https://openalex.org/subfields/3320",
+            "display_name": "Political Science and International Relations"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/33",
+            "display_name": "Social Sciences"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/2",
+            "display_name": "Social Sciences"
+          }
+        }
+      ],
+      "keywords": [
+        {
+          "id": "https://openalex.org/keywords/diplomatic-archives",
+          "display_name": "diplomatic archives",
+          "score": 0.4429999887943268
+        }
+      ],
+      "concepts": [
+        {
+          "id": "https://openalex.org/C142362112",
+          "wikidata": "https://www.wikidata.org/wiki/Q735",
+          "display_name": "Art",
+          "level": 0,
+          "score": 0.42786940932273865
+        }
+      ],
+      "mesh": [],
+      "locations_count": 1,
+      "locations": [
+        {
+          "id": "doi:10.61097/12301604/pg33/2023/227-244",
+          "doi": "https://doi.org/10.61097/12301604/pg33/2023/227-244",
+          "is_oa": false,
+          "landing_page_url": "https://doi.org/10.61097/12301604/pg33/2023/227-244",
+          "pdf_url": null,
+          "source": null,
+          "license": null,
+          "license_id": null,
+          "version": "publishedVersion",
+          "is_accepted": true,
+          "is_published": true,
+          "raw_source_name": "Pro Georgia",
+          "raw_type": "journal-article"
+        }
+      ],
+      "best_oa_location": null,
+      "sustainable_development_goals": [
+        {
+          "id": "https://metadata.un.org/sdg/16",
+          "display_name": "Peace, justice, and strong institutions",
+          "score": 0.6207000017166138
+        }
+      ],
+      "study_designs": [],
+      "awards": [],
+      "funders": [],
+      "has_content": {
+        "pdf": false,
+        "grobid_xml": false
+      },
+      "content_urls": null,
+      "referenced_works_count": 0,
+      "referenced_works": [],
+      "related_works": [
+        "https://openalex.org/W4408299254",
+        "https://openalex.org/W7223459734",
+        "https://openalex.org/W2888261721",
+        "https://openalex.org/W3126643991",
+        "https://openalex.org/W2319652286",
+        "https://openalex.org/W3130047326",
+        "https://openalex.org/W1953093251",
+        "https://openalex.org/W3103517338",
+        "https://openalex.org/W3178111378"
+      ],
+      "abstract_inverted_index": {
+        "The": [
+          0,
+          20,
+          39,
+          70,
+          93
+        ],
+        "presented": [
+          1
+        ],
+        "article": [
+          2,
+          94
+        ],
+        "refers": [
+          3
+        ],
+        "to": [
+          4
+        ],
+        "the": [
+          5,
+          26,
+          31,
+          35,
+          44,
+          47,
+          57,
+          61,
+          66,
+          74,
+          90
+        ],
+        "Consul": [
+          6
+        ],
+        "of": [
+          7,
+          63,
+          65
+        ],
+        "Poland": [
+          8
+        ],
+        "in": [
+          9,
+          13,
+          54,
+          73,
+          89
+        ],
+        "Georgia,": [
+          10
+        ],
+        "Józef": [
+          11
+        ],
+        "Łaszkiewicz": [
+          12
+        ],
+        "1922-1923,": [
+          14
+        ],
+        "based": [
+          15
+        ],
+        "on": [
+          16
+        ],
+        "a": [
+          17,
+          96
+        ],
+        "four-volume": [
+          18
+        ],
+        "archive.": [
+          19
+        ],
+        "first": [
+          21
+        ],
+        "volume": [
+          22
+        ],
+        "contains": [
+          23
+        ],
+        "92": [
+          24
+        ],
+        "files,": [
+          25,
+          30
+        ],
+        "second": [
+          27
+        ],
+        "–": [
+          28,
+          33,
+          37
+        ],
+        "516": [
+          29
+        ],
+        "third": [
+          32
+        ],
+        "24,": [
+          34
+        ],
+        "fourth": [
+          36
+        ],
+        "89.": [
+          38
+        ],
+        "case": [
+          40,
+          75
+        ],
+        "was": [
+          41
+        ],
+        "brought": [
+          42
+        ],
+        "against": [
+          43
+        ],
+        "consul": [
+          45
+        ],
+        "and": [
+          46,
+          49
+        ],
+        "consulate,": [
+          48
+        ],
+        "all": [
+          50
+        ],
+        "persons": [
+          51
+        ],
+        "who": [
+          52
+        ],
+        "were": [
+          53
+        ],
+        "contact": [
+          55
+        ],
+        "with": [
+          56
+        ],
+        "Polish": [
+          58
+        ],
+        "Chancellery": [
+          59
+        ],
+        "became": [
+          60
+        ],
+        "object": [
+          62
+        ],
+        "interest": [
+          64
+        ],
+        "Transcaucasian": [
+          67
+        ],
+        "Extraordinary": [
+          68
+        ],
+        "Commission.": [
+          69
+        ],
+        "people": [
+          71,
+          87
+        ],
+        "involved": [
+          72
+        ],
+        "are": [
+          76
+        ],
+        "mainly": [
+          77
+        ],
+        "engineers,": [
+          78
+        ],
+        "military": [
+          79
+        ],
+        "personnel,": [
+          80
+        ],
+        "Consul’s": [
+          81
+        ],
+        "family": [
+          82
+        ],
+        "members,": [
+          83
+        ],
+        "as": [
+          84,
+          86
+        ],
+        "well": [
+          85
+        ],
+        "working": [
+          88
+        ],
+        "diplomatic": [
+          91
+        ],
+        "service.": [
+          92
+        ],
+        "presents": [
+          95
+        ],
+        "long": [
+          97
+        ],
+        "process": [
+          98
+        ],
+        "that": [
+          99
+        ],
+        "lasted": [
+          100
+        ],
+        "two": [
+          101
+        ],
+        "years.": [
+          102
+        ]
+      },
+      "counts_by_year": [],
+      "updated_date": "2026-11-14T11:04:58.165337",
+      "created_date": "2024-03-26T00:00:00"
+    },
+    {
+      "id": "https://openalex.org/W7160252589",
+      "doi": "https://doi.org/10.1007/978-3-032-09667-8_5",
+      "title": "Consuls in the Barbary States",
+      "display_name": "Consuls in the Barbary States",
+      "relevance_score": 28.386642,
+      "publication_year": 2026,
+      "publication_date": "2026-05-04",
+      "ids": {
+        "openalex": "https://openalex.org/W7160252589",
+        "doi": "https://doi.org/10.1007/978-3-032-09667-8_5"
+      },
+      "language": "en",
+      "primary_location": {
+        "id": "doi:10.1007/978-3-032-09667-8_5",
+        "doi": "https://doi.org/10.1007/978-3-032-09667-8_5",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.1007/978-3-032-09667-8_5",
+        "pdf_url": "https://link.springer.com/content/pdf/10.1007/978-3-032-09667-8_5.pdf",
+        "source": {
+          "id": "https://openalex.org/S4306463937",
+          "display_name": "Springer eBooks",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "listed_in": [],
+          "host_organization": "https://openalex.org/P4310319965",
+          "host_organization_name": "Springer Nature",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310319965"
+          ],
+          "host_organization_lineage_names": [
+            "Springer Nature"
+          ],
+          "type": "ebook platform"
+        },
+        "license": "cc-by-nc-nd",
+        "license_id": "https://openalex.org/licenses/cc-by-nc-nd",
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Swedish Slavery, Diplomacy, and Culture in the Early Modern Mediterranean",
+        "raw_type": "book-chapter"
+      },
+      "parent_works": [
+        {
+          "id": "https://openalex.org/W7160312419",
+          "display_name": "Swedish Slavery, Diplomacy, and Culture in the Early Modern Mediterranean",
+          "relationship": "volume"
+        }
+      ],
+      "lineage": [
+        "https://openalex.org/W7160252589",
+        "https://openalex.org/W7160312419"
+      ],
+      "child_works_count": 0,
+      "type": "book-chapter",
+      "is_traditional": true,
+      "indexed_in": [
+        "crossref"
+      ],
+      "open_access": {
+        "is_oa": true,
+        "oa_status": "hybrid",
+        "oa_url": "https://link.springer.com/content/pdf/10.1007/978-3-032-09667-8_5.pdf",
+        "any_repository_has_fulltext": false
+      },
+      "authorships": [
+        {
+          "author_position": "first",
+          "author": {
+            "id": "https://openalex.org/A5036917167",
+            "display_name": "Joachim Östlund",
+            "orcid": null,
+            "observed_orcids": []
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I187531555",
+              "display_name": "Lund University",
+              "ror": "https://ror.org/012a77v79",
+              "country_code": "SE",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I187531555"
+              ]
+            }
+          ],
+          "countries": [
+            "SE"
+          ],
+          "is_corresponding": true,
+          "raw_author_name": "Joachim Östlund",
+          "raw_affiliation_strings": [
+            "Department of History, Lund University, Lund, Skåne Län, Sweden"
+          ],
+          "raw_orcid": null,
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Department of History, Lund University, Lund, Skåne Län, Sweden",
+              "institution_ids": [
+                "https://openalex.org/I187531555"
+              ]
+            }
+          ]
+        }
+      ],
+      "institutions": [],
+      "countries_distinct_count": 1,
+      "institutions_distinct_count": 1,
+      "corresponding_author_ids": [
+        "https://openalex.org/A5036917167"
+      ],
+      "corresponding_institution_ids": [
+        "https://openalex.org/I187531555"
+      ],
+      "apc_list": null,
+      "apc_paid": null,
+      "fwci": 0.0,
+      "is_authors_truncated": false,
+      "has_fulltext": true,
+      "cited_by_count": 0,
+      "citation_normalized_percentile": {
+        "value": 0.0,
+        "is_in_top_1_percent": false,
+        "is_in_top_10_percent": false
+      },
+      "cited_by_percentile_year": null,
+      "biblio": {
+        "volume": null,
+        "issue": null,
+        "first_page": "187",
+        "last_page": "251"
+      },
+      "is_retracted": false,
+      "is_paratext": false,
+      "is_xpac": false,
+      "primary_topic": {
+        "id": "https://openalex.org/T13556",
+        "display_name": "Historical Influence and Diplomacy",
+        "score": 0.9990000128746033,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3320",
+          "display_name": "Political Science and International Relations"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/33",
+          "display_name": "Social Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      "topics": [
+        {
+          "id": "https://openalex.org/T13556",
+          "display_name": "Historical Influence and Diplomacy",
+          "score": 0.9990000128746033,
+          "subfield": {
+            "id": "https://openalex.org/subfields/3320",
+            "display_name": "Political Science and International Relations"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/33",
+            "display_name": "Social Sciences"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/2",
+            "display_name": "Social Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T12144",
+          "display_name": "Colonialism, slavery, and trade",
+          "score": 0.0003000000142492354,
+          "subfield": {
+            "id": "https://openalex.org/subfields/1202",
+            "display_name": "History"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/12",
+            "display_name": "Arts and Humanities"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/2",
+            "display_name": "Social Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T12999",
+          "display_name": "Medieval History and Crusades",
+          "score": 9.999999747378752e-05,
+          "subfield": {
+            "id": "https://openalex.org/subfields/1202",
+            "display_name": "History"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/12",
+            "display_name": "Arts and Humanities"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/2",
+            "display_name": "Social Sciences"
+          }
+        }
+      ],
+      "keywords": [
+        {
+          "id": "https://openalex.org/keywords/barbary-states",
+          "display_name": "Barbary States",
+          "score": 0.9890000224113464
+        },
+        {
+          "id": "https://openalex.org/keywords/consular-diplomacy",
+          "display_name": "consular diplomacy",
+          "score": 0.7110000252723694
+        },
+        {
+          "id": "https://openalex.org/keywords/slavery",
+          "display_name": "slavery",
+          "score": 0.48899999260902405
+        },
+        {
+          "id": "https://openalex.org/keywords/transatlantic-slave-trade",
+          "display_name": "transatlantic slave trade",
+          "score": 0.7739999890327454
+        },
+        {
+          "id": "https://openalex.org/keywords/captivity",
+          "display_name": "captivity",
+          "score": 0.3109999895095825
+        },
+        {
+          "id": "https://openalex.org/keywords/privateering",
+          "display_name": "privateering",
+          "score": 0.5049999952316284
+        },
+        {
+          "id": "https://openalex.org/keywords/sweden",
+          "display_name": "Sweden",
+          "score": 0.3310000002384186
+        },
+        {
+          "id": "https://openalex.org/keywords/17th-century",
+          "display_name": "17th century",
+          "score": 0.6690000295639038
+        },
+        {
+          "id": "https://openalex.org/keywords/18th-century",
+          "display_name": "18th century",
+          "score": 0.9760000109672546
+        }
+      ],
+      "concepts": [
+        {
+          "id": "https://openalex.org/C557252395",
+          "wikidata": "https://www.wikidata.org/wiki/Q1889",
+          "display_name": "Diplomacy",
+          "level": 3,
+          "score": 0.8234000205993652
+        },
+        {
+          "id": "https://openalex.org/C57481673",
+          "wikidata": "https://www.wikidata.org/wiki/Q1780322",
+          "display_name": "Commodification",
+          "level": 2,
+          "score": 0.6553999781608582
+        },
+        {
+          "id": "https://openalex.org/C48103436",
+          "wikidata": "https://www.wikidata.org/wiki/Q599031",
+          "display_name": "State (computer science)",
+          "level": 2,
+          "score": 0.5539000034332275
+        },
+        {
+          "id": "https://openalex.org/C2778061430",
+          "wikidata": "https://www.wikidata.org/wiki/Q188823",
+          "display_name": "Scholarship",
+          "level": 2,
+          "score": 0.5496000051498413
+        },
+        {
+          "id": "https://openalex.org/C17744445",
+          "wikidata": "https://www.wikidata.org/wiki/Q36442",
+          "display_name": "Political science",
+          "level": 0,
+          "score": 0.5205000042915344
+        },
+        {
+          "id": "https://openalex.org/C2780510313",
+          "wikidata": "https://www.wikidata.org/wiki/Q178706",
+          "display_name": "Institution",
+          "level": 2,
+          "score": 0.42750000953674316
+        },
+        {
+          "id": "https://openalex.org/C199539241",
+          "wikidata": "https://www.wikidata.org/wiki/Q7748",
+          "display_name": "Law",
+          "level": 1,
+          "score": 0.40299999713897705
+        },
+        {
+          "id": "https://openalex.org/C136264566",
+          "wikidata": "https://www.wikidata.org/wiki/Q159810",
+          "display_name": "Economy",
+          "level": 1,
+          "score": 0.31220000982284546
+        },
+        {
+          "id": "https://openalex.org/C95457728",
+          "wikidata": "https://www.wikidata.org/wiki/Q309",
+          "display_name": "History",
+          "level": 0,
+          "score": 0.3093999922275543
+        },
+        {
+          "id": "https://openalex.org/C144024400",
+          "wikidata": "https://www.wikidata.org/wiki/Q21201",
+          "display_name": "Sociology",
+          "level": 0,
+          "score": 0.28780001401901245
+        },
+        {
+          "id": "https://openalex.org/C2549261",
+          "wikidata": "https://www.wikidata.org/wiki/Q43455",
+          "display_name": "Ethnology",
+          "level": 1,
+          "score": 0.2678000032901764
+        },
+        {
+          "id": "https://openalex.org/C195244886",
+          "wikidata": "https://www.wikidata.org/wiki/Q41493",
+          "display_name": "Ancient history",
+          "level": 1,
+          "score": 0.2621999979019165
+        },
+        {
+          "id": "https://openalex.org/C62354387",
+          "wikidata": "https://www.wikidata.org/wiki/Q875399",
+          "display_name": "Boundary (topology)",
+          "level": 2,
+          "score": 0.258899986743927
+        },
+        {
+          "id": "https://openalex.org/C4646841",
+          "wikidata": "https://www.wikidata.org/wiki/Q13996",
+          "display_name": "Mediterranean climate",
+          "level": 2,
+          "score": 0.25619998574256897
+        }
+      ],
+      "mesh": [],
+      "locations_count": 1,
+      "locations": [
+        {
+          "id": "doi:10.1007/978-3-032-09667-8_5",
+          "doi": "https://doi.org/10.1007/978-3-032-09667-8_5",
+          "is_oa": true,
+          "landing_page_url": "https://doi.org/10.1007/978-3-032-09667-8_5",
+          "pdf_url": "https://link.springer.com/content/pdf/10.1007/978-3-032-09667-8_5.pdf",
+          "source": {
+            "id": "https://openalex.org/S4306463937",
+            "display_name": "Springer eBooks",
+            "issn_l": null,
+            "issn": null,
+            "is_oa": false,
+            "is_in_doaj": false,
+            "is_core": false,
+            "listed_in": [],
+            "host_organization": "https://openalex.org/P4310319965",
+            "host_organization_name": "Springer Nature",
+            "host_organization_lineage": [
+              "https://openalex.org/P4310319965"
+            ],
+            "host_organization_lineage_names": [
+              "Springer Nature"
+            ],
+            "type": "ebook platform"
+          },
+          "license": "cc-by-nc-nd",
+          "license_id": "https://openalex.org/licenses/cc-by-nc-nd",
+          "version": "publishedVersion",
+          "is_accepted": true,
+          "is_published": true,
+          "raw_source_name": "Swedish Slavery, Diplomacy, and Culture in the Early Modern Mediterranean",
+          "raw_type": "book-chapter"
+        }
+      ],
+      "best_oa_location": {
+        "id": "doi:10.1007/978-3-032-09667-8_5",
+        "doi": "https://doi.org/10.1007/978-3-032-09667-8_5",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.1007/978-3-032-09667-8_5",
+        "pdf_url": "https://link.springer.com/content/pdf/10.1007/978-3-032-09667-8_5.pdf",
+        "source": {
+          "id": "https://openalex.org/S4306463937",
+          "display_name": "Springer eBooks",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "listed_in": [],
+          "host_organization": "https://openalex.org/P4310319965",
+          "host_organization_name": "Springer Nature",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310319965"
+          ],
+          "host_organization_lineage_names": [
+            "Springer Nature"
+          ],
+          "type": "ebook platform"
+        },
+        "license": "cc-by-nc-nd",
+        "license_id": "https://openalex.org/licenses/cc-by-nc-nd",
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Swedish Slavery, Diplomacy, and Culture in the Early Modern Mediterranean",
+        "raw_type": "book-chapter"
+      },
+      "sustainable_development_goals": [
+        {
+          "id": "https://metadata.un.org/sdg/16",
+          "display_name": "Peace, justice, and strong institutions",
+          "score": 0.6601999998092651
+        }
+      ],
+      "study_designs": [],
+      "awards": [],
+      "funders": [],
+      "has_content": {
+        "pdf": true,
+        "grobid_xml": true
+      },
+      "content_urls": {
+        "pdf": "https://content.openalex.org/works/W7160252589.pdf",
+        "grobid_xml": "https://content.openalex.org/works/W7160252589.grobid-xml"
+      },
+      "referenced_works_count": 0,
+      "referenced_works": [],
+      "related_works": [
+        "https://openalex.org/W1489248536",
+        "https://openalex.org/W7160020984",
+        "https://openalex.org/W2088680056",
+        "https://openalex.org/W4383813977",
+        "https://openalex.org/W2591871194",
+        "https://openalex.org/W2543086051",
+        "https://openalex.org/W4396750075",
+        "https://openalex.org/W2593458000",
+        "https://openalex.org/W4405567820"
+      ],
+      "abstract_inverted_index": {
+        "This": [
+          0
+        ],
+        "chapter": [
+          1,
+          124
+        ],
+        "examines": [
+          2
+        ],
+        "the": [
+          3,
+          10,
+          14,
+          69,
+          80,
+          87,
+          102,
+          117,
+          160,
+          173
+        ],
+        "multifaceted": [
+          4
+        ],
+        "roles": [
+          5
+        ],
+        "of": [
+          6,
+          22,
+          31,
+          63,
+          68,
+          83,
+          148,
+          156,
+          162,
+          178
+        ],
+        "Swedish": [
+          7
+        ],
+        "consuls": [
+          8,
+          46
+        ],
+        "in": [
+          9,
+          60,
+          159,
+          172,
+          181
+        ],
+        "Barbary": [
+          11
+        ],
+        "States": [
+          12
+        ],
+        "during": [
+          13
+        ],
+        "seventeenth": [
+          15
+        ],
+        "and": [
+          16,
+          24,
+          40,
+          57,
+          65,
+          78,
+          97,
+          121,
+          145,
+          175,
+          184
+        ],
+        "eighteenth": [
+          17
+        ],
+        "centuries,": [
+          18
+        ],
+        "revealing": [
+          19
+        ],
+        "a": [
+          20,
+          136,
+          154
+        ],
+        "level": [
+          21
+        ],
+        "integration": [
+          23
+        ],
+        "local": [
+          25,
+          141
+        ],
+        "involvement": [
+          26
+        ],
+        "that": [
+          27,
+          115,
+          129
+        ],
+        "challenges": [
+          28
+        ],
+        "traditional": [
+          29
+        ],
+        "depictions": [
+          30
+        ],
+        "consular": [
+          32,
+          36,
+          133
+        ],
+        "neutrality.": [
+          33
+        ],
+        "Based": [
+          34
+        ],
+        "on": [
+          35
+        ],
+        "correspondence,": [
+          37
+        ],
+        "state": [
+          38
+        ],
+        "records,": [
+          39
+        ],
+        "commercial": [
+          41,
+          113,
+          143
+        ],
+        "documentation,": [
+          42
+        ],
+        "it": [
+          43
+        ],
+        "shows": [
+          44
+        ],
+        "how": [
+          45,
+          106,
+          165
+        ],
+        "acted": [
+          47
+        ],
+        "not": [
+          48,
+          98
+        ],
+        "only": [
+          49
+        ],
+        "as": [
+          50,
+          55,
+          135
+        ],
+        "diplomatic": [
+          51
+        ],
+        "agents": [
+          52
+        ],
+        "but": [
+          53
+        ],
+        "also": [
+          54,
+          151
+        ],
+        "merchants": [
+          56
+        ],
+        "brokers": [
+          58
+        ],
+        "embedded": [
+          59
+        ],
+        "Mediterranean": [
+          61,
+          185
+        ],
+        "networks": [
+          62
+        ],
+        "trade": [
+          64
+        ],
+        "captivity.": [
+          66
+        ],
+        "One": [
+          67
+        ],
+        "chapter’s": [
+          70
+        ],
+        "most": [
+          71
+        ],
+        "striking": [
+          72
+        ],
+        "findings": [
+          73
+        ],
+        "is": [
+          74
+        ],
+        "Sweden’s": [
+          75
+        ],
+        "participation—alongside": [
+          76
+        ],
+        "France": [
+          77
+        ],
+        "Venice—in": [
+          79
+        ],
+        "maritime": [
+          81
+        ],
+        "transport": [
+          82
+        ],
+        "enslaved": [
+          84
+        ],
+        "Africans": [
+          85
+        ],
+        "across": [
+          86
+        ],
+        "Mediterranean.": [
+          88
+        ],
+        "Although": [
+          89
+        ],
+        "these": [
+          90
+        ],
+        "activities": [
+          91,
+          114
+        ],
+        "were": [
+          92
+        ],
+        "conducted": [
+          93
+        ],
+        "through": [
+          94
+        ],
+        "private": [
+          95
+        ],
+        "ventures": [
+          96
+        ],
+        "formally": [
+          99
+        ],
+        "sanctioned": [
+          100
+        ],
+        "by": [
+          101,
+          140
+        ],
+        "state,": [
+          103
+        ],
+        "they": [
+          104
+        ],
+        "demonstrate": [
+          105
+        ],
+        "consuls,": [
+          107
+        ],
+        "despite": [
+          108
+        ],
+        "their": [
+          109
+        ],
+        "official": [
+          110
+        ],
+        "status,": [
+          111
+        ],
+        "facilitated": [
+          112
+        ],
+        "blurred": [
+          116
+        ],
+        "boundary": [
+          118
+        ],
+        "between": [
+          119
+        ],
+        "diplomacy": [
+          120,
+          134
+        ],
+        "trade.": [
+          122
+        ],
+        "The": [
+          123
+        ],
+        "contributes": [
+          125
+        ],
+        "to": [
+          126
+        ],
+        "recent": [
+          127
+        ],
+        "scholarship": [
+          128
+        ],
+        "rethinks": [
+          130
+        ],
+        "early": [
+          131
+        ],
+        "modern": [
+          132
+        ],
+        "hybrid": [
+          137
+        ],
+        "institution": [
+          138
+        ],
+        "shaped": [
+          139
+        ],
+        "alliances,": [
+          142
+        ],
+        "ambition,": [
+          144
+        ],
+        "flexible": [
+          146
+        ],
+        "notions": [
+          147
+        ],
+        "sovereignty.": [
+          149
+        ],
+        "It": [
+          150
+        ],
+        "calls": [
+          152
+        ],
+        "for": [
+          153
+        ],
+        "reassessment": [
+          155
+        ],
+        "Scandinavia’s": [
+          157
+        ],
+        "role": [
+          158
+        ],
+        "history": [
+          161
+        ],
+        "slavery,": [
+          163
+        ],
+        "showing": [
+          164
+        ],
+        "even": [
+          166
+        ],
+        "smaller": [
+          167
+        ],
+        "European": [
+          168
+        ],
+        "powers": [
+          169
+        ],
+        "became": [
+          170
+        ],
+        "entangled": [
+          171
+        ],
+        "legal": [
+          174
+        ],
+        "logistical": [
+          176
+        ],
+        "infrastructures": [
+          177
+        ],
+        "human": [
+          179
+        ],
+        "commodification": [
+          180
+        ],
+        "both": [
+          182
+        ],
+        "Atlantic": [
+          183
+        ],
+        "contexts.": [
+          186
+        ]
+      },
+      "counts_by_year": [],
+      "updated_date": "2026-11-15T12:55:33.944570",
+      "created_date": "2026-05-06T00:00:00"
+    },
+    {
+      "id": "https://openalex.org/W2944377095",
+      "doi": "https://doi.org/10.15823/istorija.2018.17",
+      "title": "Appointment of Vytautas Čekanauskas as Honorary Consul General of Lithuania in Los Angeles in 1977: behind the scenes",
+      "display_name": "Appointment of Vytautas Čekanauskas as Honorary Consul General of Lithuania in Los Angeles in 1977: behind the scenes",
+      "relevance_score": 25.87302,
+      "publication_year": 2019,
+      "publication_date": "2019-05-07",
+      "ids": {
+        "openalex": "https://openalex.org/W2944377095",
+        "doi": "https://doi.org/10.15823/istorija.2018.17",
+        "mag": "2944377095"
+      },
+      "language": "en",
+      "primary_location": {
+        "id": "doi:10.15823/istorija.2018.17",
+        "doi": "https://doi.org/10.15823/istorija.2018.17",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.15823/istorija.2018.17",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4210172152",
+          "display_name": "Istorija",
+          "issn_l": "1392-0456",
+          "issn": [
+            "1392-0456",
+            "1822-6183",
+            "2029-7181"
+          ],
+          "is_oa": true,
+          "is_in_doaj": false,
+          "is_core": false,
+          "listed_in": [
+            "erih-plus",
+            "poland-100",
+            "russia-white-list-4"
+          ],
+          "host_organization": "https://openalex.org/P4310317511",
+          "host_organization_name": "Vytautas Magnus University",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310317511"
+          ],
+          "host_organization_lineage_names": [
+            "Vytautas Magnus University"
+          ],
+          "type": "journal"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Istorija",
+        "raw_type": "journal-article"
+      },
+      "parent_works": [],
+      "lineage": [
+        "https://openalex.org/W2944377095"
+      ],
+      "child_works_count": 0,
+      "type": "article",
+      "is_traditional": true,
+      "indexed_in": [
+        "crossref"
+      ],
+      "open_access": {
+        "is_oa": true,
+        "oa_status": "diamond",
+        "oa_url": "https://doi.org/10.15823/istorija.2018.17",
+        "any_repository_has_fulltext": true
+      },
+      "authorships": [
+        {
+          "author_position": "first",
+          "author": {
+            "id": "https://openalex.org/A5061117096",
+            "display_name": "Juozas Skirius",
+            "orcid": "https://orcid.org/0000-0003-1135-1757",
+            "observed_orcids": [
+              "https://orcid.org/0000-0003-1135-1757"
+            ]
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I188730046",
+              "display_name": "Vytautas Magnus University",
+              "ror": "https://ror.org/04y7eh037",
+              "country_code": "LT",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I188730046"
+              ]
+            }
+          ],
+          "countries": [
+            "LT"
+          ],
+          "is_corresponding": true,
+          "raw_author_name": "Juozas Skirius",
+          "raw_affiliation_strings": [
+            "Department of State recognized Čekanauskas as Lithuanian Honorary Consul General in Los Angeles",
+            "Honorary Consul General, 1977, Lithuanian Diplomatic Service, Los Angeles Lithuanians,",
+            "Stasys Lozoraitis,",
+            "Vytautas Čekanauskas, garbės generalinis konsulas, 1977 m., Lietuvos di-plomatinė tarnyba, Los Andželo lietuviai,",
+            "Vytauto Didžiojo universitetas, Švietimo akademija, T. Ševčenkos g. 31, Vilnius"
+          ],
+          "raw_orcid": null,
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Department of State recognized Čekanauskas as Lithuanian Honorary Consul General in Los Angeles",
+              "institution_ids": []
+            },
+            {
+              "raw_affiliation_string": "Honorary Consul General, 1977, Lithuanian Diplomatic Service, Los Angeles Lithuanians,",
+              "institution_ids": []
+            },
+            {
+              "raw_affiliation_string": "Stasys Lozoraitis,",
+              "institution_ids": []
+            },
+            {
+              "raw_affiliation_string": "Vytautas Čekanauskas, garbės generalinis konsulas, 1977 m., Lietuvos di-plomatinė tarnyba, Los Andželo lietuviai,",
+              "institution_ids": []
+            },
+            {
+              "raw_affiliation_string": "Vytauto Didžiojo universitetas, Švietimo akademija, T. Ševčenkos g. 31, Vilnius",
+              "institution_ids": [
+                "https://openalex.org/I188730046"
+              ]
+            }
+          ]
+        }
+      ],
+      "institutions": [],
+      "countries_distinct_count": 1,
+      "institutions_distinct_count": 1,
+      "corresponding_author_ids": [
+        "https://openalex.org/A5061117096"
+      ],
+      "corresponding_institution_ids": [
+        "https://openalex.org/I188730046"
+      ],
+      "apc_list": null,
+      "apc_paid": null,
+      "fwci": 0.0,
+      "is_authors_truncated": false,
+      "has_fulltext": true,
+      "cited_by_count": 1,
+      "citation_normalized_percentile": {
+        "value": 0.0,
+        "is_in_top_1_percent": false,
+        "is_in_top_10_percent": false
+      },
+      "cited_by_percentile_year": {
+        "min": 91,
+        "max": 95
+      },
+      "biblio": {
+        "volume": "110",
+        "issue": "3",
+        "first_page": "79",
+        "last_page": "96"
+      },
+      "is_retracted": false,
+      "is_paratext": false,
+      "is_xpac": false,
+      "primary_topic": {
+        "id": "https://openalex.org/T11648",
+        "display_name": "Diaspora, migration, transnational identity",
+        "score": 0.5019999742507935,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3317",
+          "display_name": "Demography"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/33",
+          "display_name": "Social Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      "topics": [
+        {
+          "id": "https://openalex.org/T11648",
+          "display_name": "Diaspora, migration, transnational identity",
+          "score": 0.5019999742507935,
+          "subfield": {
+            "id": "https://openalex.org/subfields/3317",
+            "display_name": "Demography"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/33",
+            "display_name": "Social Sciences"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/2",
+            "display_name": "Social Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T12764",
+          "display_name": "Polish Historical and Cultural Studies",
+          "score": 0.19040000438690186,
+          "subfield": {
+            "id": "https://openalex.org/subfields/3320",
+            "display_name": "Political Science and International Relations"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/33",
+            "display_name": "Social Sciences"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/2",
+            "display_name": "Social Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T11070",
+          "display_name": "Soviet and Russian History",
+          "score": 0.11100000143051147,
+          "subfield": {
+            "id": "https://openalex.org/subfields/3320",
+            "display_name": "Political Science and International Relations"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/33",
+            "display_name": "Social Sciences"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/2",
+            "display_name": "Social Sciences"
+          }
+        }
+      ],
+      "keywords": [
+        {
+          "id": "https://openalex.org/keywords/lithuanian-diaspora-in-the-united-states",
+          "display_name": "Lithuanian diaspora in the United States",
+          "score": 0.7649999856948853
+        }
+      ],
+      "concepts": [
+        {
+          "id": "https://openalex.org/C502338164",
+          "wikidata": "https://www.wikidata.org/wiki/Q9083",
+          "display_name": "Lithuanian",
+          "level": 2,
+          "score": 0.9576233625411987
+        },
+        {
+          "id": "https://openalex.org/C2778480956",
+          "wikidata": "https://www.wikidata.org/wiki/Q194465",
+          "display_name": "Annexation",
+          "level": 3,
+          "score": 0.5087586045265198
+        },
+        {
+          "id": "https://openalex.org/C104151175",
+          "wikidata": "https://www.wikidata.org/wiki/Q187668",
+          "display_name": "Emigration",
+          "level": 2,
+          "score": 0.48212480545043945
+        },
+        {
+          "id": "https://openalex.org/C94625758",
+          "wikidata": "https://www.wikidata.org/wiki/Q7163",
+          "display_name": "Politics",
+          "level": 2,
+          "score": 0.4761602580547333
+        },
+        {
+          "id": "https://openalex.org/C17744445",
+          "wikidata": "https://www.wikidata.org/wiki/Q36442",
+          "display_name": "Political science",
+          "level": 0,
+          "score": 0.469843327999115
+        },
+        {
+          "id": "https://openalex.org/C2780666240",
+          "wikidata": "https://www.wikidata.org/wiki/Q1136859",
+          "display_name": "Humiliation",
+          "level": 2,
+          "score": 0.4618898928165436
+        },
+        {
+          "id": "https://openalex.org/C2778137410",
+          "wikidata": "https://www.wikidata.org/wiki/Q2732820",
+          "display_name": "Government (linguistics)",
+          "level": 2,
+          "score": 0.4592040181159973
+        },
+        {
+          "id": "https://openalex.org/C2779343474",
+          "wikidata": "https://www.wikidata.org/wiki/Q3109175",
+          "display_name": "Context (archaeology)",
+          "level": 2,
+          "score": 0.450745165348053
+        },
+        {
+          "id": "https://openalex.org/C2780378061",
+          "wikidata": "https://www.wikidata.org/wiki/Q25351891",
+          "display_name": "Service (business)",
+          "level": 2,
+          "score": 0.42377540469169617
+        },
+        {
+          "id": "https://openalex.org/C95457728",
+          "wikidata": "https://www.wikidata.org/wiki/Q309",
+          "display_name": "History",
+          "level": 0,
+          "score": 0.3755946457386017
+        },
+        {
+          "id": "https://openalex.org/C199539241",
+          "wikidata": "https://www.wikidata.org/wiki/Q7748",
+          "display_name": "Law",
+          "level": 1,
+          "score": 0.3584960699081421
+        },
+        {
+          "id": "https://openalex.org/C144024400",
+          "wikidata": "https://www.wikidata.org/wiki/Q21201",
+          "display_name": "Sociology",
+          "level": 0,
+          "score": 0.3408752679824829
+        },
+        {
+          "id": "https://openalex.org/C3116431",
+          "wikidata": "https://www.wikidata.org/wiki/Q31728",
+          "display_name": "Public administration",
+          "level": 1,
+          "score": 0.33936500549316406
+        },
+        {
+          "id": "https://openalex.org/C136264566",
+          "wikidata": "https://www.wikidata.org/wiki/Q159810",
+          "display_name": "Economy",
+          "level": 1,
+          "score": 0.13988009095191956
+        },
+        {
+          "id": "https://openalex.org/C166957645",
+          "wikidata": "https://www.wikidata.org/wiki/Q23498",
+          "display_name": "Archaeology",
+          "level": 1,
+          "score": 0.0750311017036438
+        },
+        {
+          "id": "https://openalex.org/C41895202",
+          "wikidata": "https://www.wikidata.org/wiki/Q8162",
+          "display_name": "Linguistics",
+          "level": 1,
+          "score": 0.0
+        },
+        {
+          "id": "https://openalex.org/C138885662",
+          "wikidata": "https://www.wikidata.org/wiki/Q5891",
+          "display_name": "Philosophy",
+          "level": 0,
+          "score": 0.0
+        },
+        {
+          "id": "https://openalex.org/C162324750",
+          "wikidata": "https://www.wikidata.org/wiki/Q8134",
+          "display_name": "Economics",
+          "level": 0,
+          "score": 0.0
+        }
+      ],
+      "mesh": [],
+      "locations_count": 2,
+      "locations": [
+        {
+          "id": "doi:10.15823/istorija.2018.17",
+          "doi": "https://doi.org/10.15823/istorija.2018.17",
+          "is_oa": true,
+          "landing_page_url": "https://doi.org/10.15823/istorija.2018.17",
+          "pdf_url": null,
+          "source": {
+            "id": "https://openalex.org/S4210172152",
+            "display_name": "Istorija",
+            "issn_l": "1392-0456",
+            "issn": [
+              "1392-0456",
+              "1822-6183",
+              "2029-7181"
+            ],
+            "is_oa": true,
+            "is_in_doaj": false,
+            "is_core": false,
+            "listed_in": [
+              "erih-plus",
+              "poland-100",
+              "russia-white-list-4"
+            ],
+            "host_organization": "https://openalex.org/P4310317511",
+            "host_organization_name": "Vytautas Magnus University",
+            "host_organization_lineage": [
+              "https://openalex.org/P4310317511"
+            ],
+            "host_organization_lineage_names": [
+              "Vytautas Magnus University"
+            ],
+            "type": "journal"
+          },
+          "license": null,
+          "license_id": null,
+          "version": "publishedVersion",
+          "is_accepted": true,
+          "is_published": true,
+          "raw_source_name": "Istorija",
+          "raw_type": "journal-article"
+        },
+        {
+          "id": "pmh:oai:vdu.lt:20.500.12259/62355",
+          "doi": null,
+          "is_oa": true,
+          "landing_page_url": "https://hdl.handle.net/20.500.12259/62355",
+          "pdf_url": "https://www.vdu.lt/cris/bitstream/20.500.12259/62355/1/ISSN2029-7181_2018_V_111.N_3.PG_79-96.pdf",
+          "source": {
+            "id": "https://openalex.org/S7407055361",
+            "display_name": "Vytautas Magnus University",
+            "issn_l": null,
+            "issn": null,
+            "is_oa": false,
+            "is_in_doaj": false,
+            "is_core": false,
+            "listed_in": [],
+            "host_organization": null,
+            "host_organization_name": null,
+            "host_organization_lineage": [],
+            "host_organization_lineage_names": [],
+            "type": "repository"
+          },
+          "license": "cc-by-sa",
+          "license_id": "https://openalex.org/licenses/cc-by-sa",
+          "version": "submittedVersion",
+          "is_accepted": false,
+          "is_published": false,
+          "raw_source_name": null,
+          "raw_type": "research article"
+        }
+      ],
+      "best_oa_location": {
+        "id": "doi:10.15823/istorija.2018.17",
+        "doi": "https://doi.org/10.15823/istorija.2018.17",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.15823/istorija.2018.17",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4210172152",
+          "display_name": "Istorija",
+          "issn_l": "1392-0456",
+          "issn": [
+            "1392-0456",
+            "1822-6183",
+            "2029-7181"
+          ],
+          "is_oa": true,
+          "is_in_doaj": false,
+          "is_core": false,
+          "listed_in": [
+            "erih-plus",
+            "poland-100",
+            "russia-white-list-4"
+          ],
+          "host_organization": "https://openalex.org/P4310317511",
+          "host_organization_name": "Vytautas Magnus University",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310317511"
+          ],
+          "host_organization_lineage_names": [
+            "Vytautas Magnus University"
+          ],
+          "type": "journal"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Istorija",
+        "raw_type": "journal-article"
+      },
+      "sustainable_development_goals": [],
+      "study_designs": [],
+      "awards": [],
+      "funders": [],
+      "has_content": {
+        "pdf": true,
+        "grobid_xml": true
+      },
+      "content_urls": {
+        "pdf": "https://content.openalex.org/works/W2944377095.pdf",
+        "grobid_xml": "https://content.openalex.org/works/W2944377095.grobid-xml"
+      },
+      "referenced_works_count": 1,
+      "referenced_works": [
+        "https://openalex.org/W3126643991"
+      ],
+      "related_works": [
+        "https://openalex.org/W2740955955",
+        "https://openalex.org/W3186001499",
+        "https://openalex.org/W3136227872",
+        "https://openalex.org/W4200023965",
+        "https://openalex.org/W4408364603",
+        "https://openalex.org/W3080397898",
+        "https://openalex.org/W4362650037",
+        "https://openalex.org/W4408748954",
+        "https://openalex.org/W2592265440"
+      ],
+      "abstract_inverted_index": {
+        "In": [
+          0
+        ],
+        "the": [
+          1,
+          10,
+          15,
+          18,
+          25,
+          55,
+          62,
+          68,
+          82,
+          109,
+          113,
+          136,
+          145,
+          158,
+          187,
+          202,
+          206,
+          209,
+          221
+        ],
+        "context": [
+          2
+        ],
+        "of": [
+          3,
+          8,
+          17,
+          27,
+          44,
+          54,
+          67,
+          81,
+          112,
+          115,
+          147,
+          149,
+          167,
+          195,
+          201,
+          208,
+          216,
+          224
+        ],
+        "Lithuania’s": [
+          4
+        ],
+        "occupation": [
+          5
+        ],
+        "and": [
+          6,
+          14,
+          39,
+          96,
+          154,
+          170,
+          198
+        ],
+        "annexation": [
+          7
+        ],
+        "1940–1990,": [
+          9
+        ],
+        "Lithuanian": [
+          11,
+          19,
+          28,
+          56,
+          69,
+          83,
+          88,
+          97,
+          122,
+          188,
+          229
+        ],
+        "Diplomatic": [
+          12,
+          70,
+          84,
+          189
+        ],
+        "Service": [
+          13,
+          71,
+          85
+        ],
+        "leaders": [
+          16,
+          166
+        ],
+        "émigré": [
+          20,
+          168
+        ],
+        "community": [
+          21,
+          57
+        ],
+        "tried": [
+          22
+        ],
+        "to": [
+          23,
+          76,
+          107,
+          186
+        ],
+        "maintain": [
+          24
+        ],
+        "functionality": [
+          26
+        ],
+        "representations": [
+          29
+        ],
+        "abroad,": [
+          30
+        ],
+        "which": [
+          31,
+          72,
+          191
+        ],
+        "was": [
+          32,
+          46
+        ],
+        "crucial": [
+          33
+        ],
+        "for": [
+          34,
+          135,
+          212
+        ],
+        "Lithuanians": [
+          35
+        ],
+        "in": [
+          36,
+          58,
+          90,
+          100,
+          117,
+          128,
+          163,
+          174,
+          233
+        ],
+        "political,": [
+          37
+        ],
+        "moral": [
+          38
+        ],
+        "national": [
+          40
+        ],
+        "terms.": [
+          41
+        ],
+        "The": [
+          42,
+          65,
+          165
+        ],
+        "change": [
+          43,
+          114
+        ],
+        "diplomats": [
+          45
+        ],
+        "a": [
+          47,
+          118,
+          133,
+          178,
+          213
+        ],
+        "difficult,": [
+          48
+        ],
+        "yet": [
+          49
+        ],
+        "successful,": [
+          50
+        ],
+        "process": [
+          51,
+          111,
+          146,
+          176
+        ],
+        "involving": [
+          52
+        ],
+        "members": [
+          53
+        ],
+        "emigration,": [
+          59
+        ],
+        "who": [
+          60
+        ],
+        "met": [
+          61
+        ],
+        "applicable": [
+          63
+        ],
+        "criteria.": [
+          64
+        ],
+        "documents": [
+          66
+        ],
+        "are": [
+          73
+        ],
+        "already": [
+          74
+        ],
+        "available": [
+          75
+        ],
+        "researchers": [
+          77
+        ],
+        "(correspondence": [
+          78
+        ],
+        "among": [
+          79
+        ],
+        "Chief": [
+          80
+        ],
+        "Stasys": [
+          86,
+          93
+        ],
+        "Lozoraitis,": [
+          87
+        ],
+        "representative": [
+          89
+        ],
+        "Washington,": [
+          91
+        ],
+        "Dr.": [
+          92
+        ],
+        "A.": [
+          94
+        ],
+        "Bačkis": [
+          95
+        ],
+        "Consul": [
+          98,
+          139,
+          231
+        ],
+        "General": [
+          99,
+          127,
+          140,
+          232
+        ],
+        "New": [
+          101
+        ],
+        "York": [
+          102
+        ],
+        "Anicetas": [
+          103
+        ],
+        "Simutis)": [
+          104
+        ],
+        "enable": [
+          105
+        ],
+        "us": [
+          106
+        ],
+        "reveal": [
+          108
+        ],
+        "complex": [
+          110
+        ],
+        "representatives": [
+          116
+        ],
+        "single": [
+          119
+        ],
+        "(inter": [
+          120
+        ],
+        "alia)": [
+          121
+        ],
+        "representation,": [
+          123
+        ],
+        "i.e.": [
+          124
+        ],
+        "Honorary": [
+          125,
+          138,
+          230
+        ],
+        "Consulate": [
+          126
+        ],
+        "Los": [
+          129,
+          234
+        ],
+        "Angeles.": [
+          130,
+          235
+        ],
+        "To": [
+          131
+        ],
+        "find": [
+          132
+        ],
+        "replacement": [
+          134
+        ],
+        "late": [
+          137
+        ],
+        "Julius": [
+          141
+        ],
+        "J.": [
+          142
+        ],
+        "Bielskis": [
+          143
+        ],
+        "(1891–1976),": [
+          144
+        ],
+        "appointment": [
+          148,
+          207
+        ],
+        "engineer": [
+          150
+        ],
+        "Vytautas": [
+          151
+        ],
+        "Čekanauskas": [
+          152,
+          227
+        ],
+        "(1929–2009)": [
+          153
+        ],
+        "his": [
+          155
+        ],
+        "recognition": [
+          156
+        ],
+        "by": [
+          157,
+          182
+        ],
+        "U.S.": [
+          159,
+          222
+        ],
+        "government": [
+          160
+        ],
+        "took": [
+          161
+        ],
+        "place": [
+          162
+        ],
+        "1977.": [
+          164
+        ],
+        "organizations": [
+          169
+        ],
+        "individuals": [
+          171
+        ],
+        "got": [
+          172
+        ],
+        "engaged": [
+          173
+        ],
+        "this": [
+          175
+        ],
+        "on": [
+          177
+        ],
+        "rather": [
+          179
+        ],
+        "broad": [
+          180
+        ],
+        "scale": [
+          181
+        ],
+        "proposing": [
+          183
+        ],
+        "their": [
+          184
+        ],
+        "candidates": [
+          185,
+          197
+        ],
+        "Service,": [
+          190
+        ],
+        "often": [
+          192
+        ],
+        "involved": [
+          193
+        ],
+        "humiliation": [
+          194
+        ],
+        "other": [
+          196
+        ],
+        "increased": [
+          199
+        ],
+        "polarization": [
+          200
+        ],
+        "community.": [
+          203
+        ],
+        "It": [
+          204
+        ],
+        "prolonged": [
+          205
+        ],
+        "new": [
+          210
+        ],
+        "consul": [
+          211
+        ],
+        "long": [
+          214
+        ],
+        "period": [
+          215
+        ],
+        "time.": [
+          217
+        ],
+        "On": [
+          218
+        ],
+        "6": [
+          219
+        ],
+        "October,": [
+          220
+        ],
+        "Department": [
+          223
+        ],
+        "State": [
+          225
+        ],
+        "recognized": [
+          226
+        ],
+        "as": [
+          228
+        ]
+      },
+      "counts_by_year": [
+        {
+          "year": 2026,
+          "cited_by_count": 1
+        }
+      ],
+      "updated_date": "2026-11-14T11:04:58.165337",
+      "created_date": "2019-05-16T00:00:00"
+    },
+    {
+      "id": "https://openalex.org/W7165697494",
+      "doi": "https://doi.org/10.15760/etd.4180",
+      "title": "American Consul in Jerusalem 1856-1896",
+      "display_name": "American Consul in Jerusalem 1856-1896",
+      "relevance_score": 25.403675,
+      "publication_year": 2001,
+      "publication_date": "2001-06-13",
+      "ids": {
+        "openalex": "https://openalex.org/W7165697494",
+        "doi": "https://doi.org/10.15760/etd.4180"
+      },
+      "language": "en",
+      "primary_location": {
+        "id": "doi:10.15760/etd.4180",
+        "doi": "https://doi.org/10.15760/etd.4180",
+        "is_oa": false,
+        "landing_page_url": "https://doi.org/10.15760/etd.4180",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4377196300",
+          "display_name": "PDXScholar  (Portland State University)",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "listed_in": [],
+          "host_organization": "https://openalex.org/I126345244",
+          "host_organization_name": "Portland State University",
+          "host_organization_lineage": [
+            "https://openalex.org/I126345244"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Portland State University",
+        "raw_type": "dissertation"
+      },
+      "parent_works": [],
+      "lineage": [
+        "https://openalex.org/W7165697494"
+      ],
+      "child_works_count": 0,
+      "type": "dissertation",
+      "is_traditional": true,
+      "indexed_in": [
+        "crossref"
+      ],
+      "open_access": {
+        "is_oa": true,
+        "oa_status": "green",
+        "oa_url": "https://pdxscholar.library.pdx.edu/cgi/viewcontent.cgi?article=8212&context=open_access_etds",
+        "any_repository_has_fulltext": true
+      },
+      "authorships": [
+        {
+          "author_position": "first",
+          "author": {
+            "id": "https://openalex.org/A5139186278",
+            "display_name": "Eric Vaughn Lowe",
+            "orcid": null,
+            "observed_orcids": []
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I126345244",
+              "display_name": "Portland State University",
+              "ror": "https://ror.org/00yn2fy02",
+              "country_code": "US",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I126345244"
+              ]
+            }
+          ],
+          "countries": [
+            "US"
+          ],
+          "is_corresponding": true,
+          "raw_author_name": "Eric Lowe",
+          "raw_affiliation_strings": [
+            "Portland State University"
+          ],
+          "raw_orcid": null,
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Portland State University",
+              "institution_ids": [
+                "https://openalex.org/I126345244"
+              ]
+            }
+          ]
+        }
+      ],
+      "institutions": [],
+      "countries_distinct_count": 1,
+      "institutions_distinct_count": 1,
+      "corresponding_author_ids": [
+        "https://openalex.org/A5139186278"
+      ],
+      "corresponding_institution_ids": [
+        "https://openalex.org/I126345244"
+      ],
+      "apc_list": null,
+      "apc_paid": null,
+      "fwci": null,
+      "is_authors_truncated": false,
+      "has_fulltext": true,
+      "cited_by_count": 0,
+      "citation_normalized_percentile": null,
+      "cited_by_percentile_year": null,
+      "biblio": {
+        "volume": null,
+        "issue": null,
+        "first_page": null,
+        "last_page": null
+      },
+      "is_retracted": false,
+      "is_paratext": false,
+      "is_xpac": false,
+      "primary_topic": {
+        "id": "https://openalex.org/T14032",
+        "display_name": "History and International Relations",
+        "score": 0.5214999914169312,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3320",
+          "display_name": "Political Science and International Relations"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/33",
+          "display_name": "Social Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      "topics": [
+        {
+          "id": "https://openalex.org/T14032",
+          "display_name": "History and International Relations",
+          "score": 0.5214999914169312,
+          "subfield": {
+            "id": "https://openalex.org/subfields/3320",
+            "display_name": "Political Science and International Relations"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/33",
+            "display_name": "Social Sciences"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/2",
+            "display_name": "Social Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T13556",
+          "display_name": "Historical Influence and Diplomacy",
+          "score": 0.23649999499320984,
+          "subfield": {
+            "id": "https://openalex.org/subfields/3320",
+            "display_name": "Political Science and International Relations"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/33",
+            "display_name": "Social Sciences"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/2",
+            "display_name": "Social Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T13210",
+          "display_name": "Historical Turkish Studies",
+          "score": 0.11379999667406082,
+          "subfield": {
+            "id": "https://openalex.org/subfields/3320",
+            "display_name": "Political Science and International Relations"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/33",
+            "display_name": "Social Sciences"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/2",
+            "display_name": "Social Sciences"
+          }
+        }
+      ],
+      "keywords": [
+        {
+          "id": "https://openalex.org/keywords/united-states-consuls",
+          "display_name": "United States consuls",
+          "score": 0.6340000033378601
+        },
+        {
+          "id": "https://openalex.org/keywords/consular-services",
+          "display_name": "consular services",
+          "score": 0.699999988079071
+        },
+        {
+          "id": "https://openalex.org/keywords/jerusalem",
+          "display_name": "Jerusalem",
+          "score": 0.6980000138282776
+        },
+        {
+          "id": "https://openalex.org/keywords/ottoman-palestine",
+          "display_name": "Ottoman Palestine",
+          "score": 0.6489999890327454
+        },
+        {
+          "id": "https://openalex.org/keywords/us-foreign-policy",
+          "display_name": "US foreign policy",
+          "score": 0.6349999904632568
+        },
+        {
+          "id": "https://openalex.org/keywords/consular-reports",
+          "display_name": "consular reports",
+          "score": 0.6930000185966492
+        },
+        {
+          "id": "https://openalex.org/keywords/jewish-immigration",
+          "display_name": "Jewish immigration",
+          "score": 0.6890000104904175
+        },
+        {
+          "id": "https://openalex.org/keywords/eschatological-beliefs",
+          "display_name": "eschatological beliefs",
+          "score": 0.7360000014305115
+        },
+        {
+          "id": "https://openalex.org/keywords/consular-officials",
+          "display_name": "consular officials",
+          "score": 0.47099998593330383
+        }
+      ],
+      "concepts": [
+        {
+          "id": "https://openalex.org/C163258240",
+          "wikidata": "https://www.wikidata.org/wiki/Q25342",
+          "display_name": "Power (physics)",
+          "level": 2,
+          "score": 0.6534000039100647
+        },
+        {
+          "id": "https://openalex.org/C94625758",
+          "wikidata": "https://www.wikidata.org/wiki/Q7163",
+          "display_name": "Politics",
+          "level": 2,
+          "score": 0.618399977684021
+        },
+        {
+          "id": "https://openalex.org/C70036468",
+          "wikidata": "https://www.wikidata.org/wiki/Q131288",
+          "display_name": "Immigration",
+          "level": 2,
+          "score": 0.5631999969482422
+        },
+        {
+          "id": "https://openalex.org/C199539241",
+          "wikidata": "https://www.wikidata.org/wiki/Q7748",
+          "display_name": "Law",
+          "level": 1,
+          "score": 0.4867999851703644
+        },
+        {
+          "id": "https://openalex.org/C17744445",
+          "wikidata": "https://www.wikidata.org/wiki/Q36442",
+          "display_name": "Political science",
+          "level": 0,
+          "score": 0.4796999990940094
+        },
+        {
+          "id": "https://openalex.org/C2780378061",
+          "wikidata": "https://www.wikidata.org/wiki/Q25351891",
+          "display_name": "Service (business)",
+          "level": 2,
+          "score": 0.4223000109195709
+        },
+        {
+          "id": "https://openalex.org/C49493942",
+          "wikidata": "https://www.wikidata.org/wiki/Q3400813",
+          "display_name": "Economic power",
+          "level": 3,
+          "score": 0.39910000562667847
+        },
+        {
+          "id": "https://openalex.org/C144024400",
+          "wikidata": "https://www.wikidata.org/wiki/Q21201",
+          "display_name": "Sociology",
+          "level": 0,
+          "score": 0.3677000105381012
+        },
+        {
+          "id": "https://openalex.org/C95457728",
+          "wikidata": "https://www.wikidata.org/wiki/Q309",
+          "display_name": "History",
+          "level": 0,
+          "score": 0.35190001130104065
+        },
+        {
+          "id": "https://openalex.org/C168031717",
+          "wikidata": "https://www.wikidata.org/wiki/Q1530280",
+          "display_name": "Balance (ability)",
+          "level": 2,
+          "score": 0.34310001134872437
+        },
+        {
+          "id": "https://openalex.org/C2993946455",
+          "wikidata": "https://www.wikidata.org/wiki/Q12560",
+          "display_name": "Ottoman empire",
+          "level": 3,
+          "score": 0.33219999074935913
+        },
+        {
+          "id": "https://openalex.org/C2776948989",
+          "wikidata": "https://www.wikidata.org/wiki/Q209572",
+          "display_name": "Military service",
+          "level": 2,
+          "score": 0.3025999963283539
+        },
+        {
+          "id": "https://openalex.org/C3116431",
+          "wikidata": "https://www.wikidata.org/wiki/Q31728",
+          "display_name": "Public administration",
+          "level": 1,
+          "score": 0.25029999017715454
+        }
+      ],
+      "mesh": [],
+      "locations_count": 2,
+      "locations": [
+        {
+          "id": "doi:10.15760/etd.4180",
+          "doi": "https://doi.org/10.15760/etd.4180",
+          "is_oa": false,
+          "landing_page_url": "https://doi.org/10.15760/etd.4180",
+          "pdf_url": null,
+          "source": {
+            "id": "https://openalex.org/S4377196300",
+            "display_name": "PDXScholar  (Portland State University)",
+            "issn_l": null,
+            "issn": null,
+            "is_oa": false,
+            "is_in_doaj": false,
+            "is_core": false,
+            "listed_in": [],
+            "host_organization": "https://openalex.org/I126345244",
+            "host_organization_name": "Portland State University",
+            "host_organization_lineage": [
+              "https://openalex.org/I126345244"
+            ],
+            "host_organization_lineage_names": [],
+            "type": "repository"
+          },
+          "license": null,
+          "license_id": null,
+          "version": "publishedVersion",
+          "is_accepted": true,
+          "is_published": true,
+          "raw_source_name": "Portland State University",
+          "raw_type": "dissertation"
+        },
+        {
+          "id": "pmh:oai:pdxscholar.library.pdx.edu:open_access_etds-8212",
+          "doi": null,
+          "is_oa": true,
+          "landing_page_url": "https://pdxscholar.library.pdx.edu/open_access_etds/7094",
+          "pdf_url": "https://pdxscholar.library.pdx.edu/cgi/viewcontent.cgi?article=8212&context=open_access_etds",
+          "source": {
+            "id": "https://openalex.org/S4377196300",
+            "display_name": "PDXScholar  (Portland State University)",
+            "issn_l": null,
+            "issn": null,
+            "is_oa": false,
+            "is_in_doaj": false,
+            "is_core": false,
+            "listed_in": [],
+            "host_organization": "https://openalex.org/I126345244",
+            "host_organization_name": "Portland State University",
+            "host_organization_lineage": [
+              "https://openalex.org/I126345244"
+            ],
+            "host_organization_lineage_names": [],
+            "type": "repository"
+          },
+          "license": null,
+          "license_id": null,
+          "version": "submittedVersion",
+          "is_accepted": false,
+          "is_published": false,
+          "raw_source_name": "Dissertations and Theses",
+          "raw_type": "text"
+        }
+      ],
+      "best_oa_location": {
+        "id": "pmh:oai:pdxscholar.library.pdx.edu:open_access_etds-8212",
+        "doi": null,
+        "is_oa": true,
+        "landing_page_url": "https://pdxscholar.library.pdx.edu/open_access_etds/7094",
+        "pdf_url": "https://pdxscholar.library.pdx.edu/cgi/viewcontent.cgi?article=8212&context=open_access_etds",
+        "source": {
+          "id": "https://openalex.org/S4377196300",
+          "display_name": "PDXScholar  (Portland State University)",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "listed_in": [],
+          "host_organization": "https://openalex.org/I126345244",
+          "host_organization_name": "Portland State University",
+          "host_organization_lineage": [
+            "https://openalex.org/I126345244"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "submittedVersion",
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": "Dissertations and Theses",
+        "raw_type": "text"
+      },
+      "sustainable_development_goals": [],
+      "study_designs": [],
+      "awards": [],
+      "funders": [],
+      "has_content": {
+        "pdf": true,
+        "grobid_xml": true
+      },
+      "content_urls": {
+        "pdf": "https://content.openalex.org/works/W7165697494.pdf",
+        "grobid_xml": "https://content.openalex.org/works/W7165697494.grobid-xml"
+      },
+      "referenced_works_count": 0,
+      "referenced_works": [],
+      "related_works": [
+        "https://openalex.org/W2075279734",
+        "https://openalex.org/W2085329709",
+        "https://openalex.org/W1533104934",
+        "https://openalex.org/W7142143652",
+        "https://openalex.org/W4386095921",
+        "https://openalex.org/W2318059143",
+        "https://openalex.org/W4403907101",
+        "https://openalex.org/W2787583129",
+        "https://openalex.org/W2480335594",
+        "https://openalex.org/W590922714"
+      ],
+      "abstract_inverted_index": {
+        "The": [
+          0,
+          44,
+          83,
+          202,
+          245,
+          267
+        ],
+        "Europeans": [
+          1
+        ],
+        "were": [
+          2,
+          76
+        ],
+        "the": [
+          3,
+          24,
+          27,
+          41,
+          57,
+          60,
+          79,
+          89,
+          106,
+          138,
+          143,
+          175,
+          179,
+          197,
+          206,
+          226,
+          252,
+          256,
+          263,
+          276,
+          295,
+          304,
+          308,
+          319
+        ],
+        "first": [
+          4
+        ],
+        "ones": [
+          5
+        ],
+        "to": [
+          6,
+          16,
+          78,
+          110,
+          183,
+          213
+        ],
+        "establish": [
+          7,
+          17
+        ],
+        "Consuls": [
+          8
+        ],
+        "at": [
+          9,
+          81,
+          94,
+          208,
+          303
+        ],
+        "Jerusalem.": [
+          10,
+          82
+        ],
+        "They": [
+          11,
+          221
+        ],
+        "used": [
+          12,
+          210
+        ],
+        "their": [
+          13,
+          21,
+          36,
+          211,
+          219,
+          235,
+          240
+        ],
+        "consular": [
+          14,
+          107
+        ],
+        "offices": [
+          15
+        ],
+        "permanence": [
+          18
+        ],
+        "and": [
+          19,
+          31,
+          38,
+          65,
+          91,
+          103,
+          114,
+          137,
+          148,
+          152,
+          186,
+          194,
+          239,
+          262,
+          286,
+          302
+        ],
+        "extend": [
+          20
+        ],
+        "influence": [
+          22,
+          39
+        ],
+        "in": [
+          23,
+          40,
+          50,
+          52,
+          156,
+          166,
+          178,
+          192,
+          243,
+          298,
+          316
+        ],
+        "region.": [
+          25
+        ],
+        "Under": [
+          26
+        ],
+        "guise": [
+          28
+        ],
+        "of": [
+          29,
+          146,
+          150,
+          181,
+          228,
+          260,
+          311
+        ],
+        "citizen": [
+          30
+        ],
+        "religious": [
+          32,
+          153,
+          169
+        ],
+        "protection": [
+          33,
+          187
+        ],
+        "they": [
+          34,
+          159,
+          162
+        ],
+        "extended": [
+          35
+        ],
+        "power": [
+          37
+        ],
+        "Ottoman": [
+          42,
+          134
+        ],
+        "territory.": [
+          43
+        ],
+        "United": [
+          45
+        ],
+        "States": [
+          46
+        ],
+        "established": [
+          47
+        ],
+        "its": [
+          48
+        ],
+        "consulate": [
+          49
+        ],
+        "Jerusalem": [
+          51,
+          209
+        ],
+        "1853.": [
+          53
+        ],
+        "In": [
+          54
+        ],
+        "comparison": [
+          55
+        ],
+        "with": [
+          56,
+          73,
+          142
+        ],
+        "European": [
+          58
+        ],
+        "consuls": [
+          59
+        ],
+        "American": [
+          61,
+          69,
+          112,
+          130,
+          264,
+          290,
+          299
+        ],
+        "Service": [
+          62
+        ],
+        "was-new,": [
+          63
+        ],
+        "inexperienced,": [
+          64
+        ],
+        "lacking": [
+          66,
+          242
+        ],
+        "professionalism.": [
+          67
+        ],
+        "This": [
+          68
+        ],
+        "outpost": [
+          70
+        ],
+        "was": [
+          71,
+          119,
+          237
+        ],
+        "plagued": [
+          72,
+          120
+        ],
+        "complexities": [
+          74
+        ],
+        "that": [
+          75,
+          161
+        ],
+        "distinct": [
+          77
+        ],
+        "office": [
+          80
+        ],
+        "consul": [
+          84,
+          176,
+          312
+        ],
+        "reports": [
+          85,
+          268,
+          278,
+          293
+        ],
+        "from": [
+          86
+        ],
+        "1856-1896": [
+          87
+        ],
+        "reflect": [
+          88
+        ],
+        "mission": [
+          90,
+          118
+        ],
+        "difficulties": [
+          92
+        ],
+        "faced": [
+          93
+        ],
+        "this": [
+          95
+        ],
+        "seemingly": [
+          96
+        ],
+        "remote": [
+          97
+        ],
+        "outpost.": [
+          98
+        ],
+        "Limited": [
+          99
+        ],
+        "by": [
+          100,
+          121,
+          225,
+          248
+        ],
+        "vague": [
+          101
+        ],
+        "guidelines": [
+          102
+        ],
+        "minimal": [
+          104
+        ],
+        "training": [
+          105
+        ],
+        "officers": [
+          108,
+          177
+        ],
+        "attempted": [
+          109
+        ],
+        "represent": [
+          111
+        ],
+        "commercial": [
+          113
+        ],
+        "political": [
+          115
+        ],
+        "interest.": [
+          116
+        ],
+        "Their": [
+          117,
+          171
+        ],
+        "extremely": [
+          122
+        ],
+        "difficult": [
+          123
+        ],
+        "physical": [
+          124,
+          280
+        ],
+        "condition,": [
+          125
+        ],
+        "poor": [
+          126,
+          144
+        ],
+        "market": [
+          127
+        ],
+        "prospects": [
+          128
+        ],
+        "for": [
+          129,
+          188,
+          289
+        ],
+        "products,": [
+          131
+        ],
+        "an": [
+          132,
+          229
+        ],
+        "awkward": [
+          133
+        ],
+        "economic": [
+          135,
+          198
+        ],
+        "structure,": [
+          136
+        ],
+        "social": [
+          139
+        ],
+        "dilemmas": [
+          140
+        ],
+        "associated": [
+          141
+        ],
+        "inhabitants": [
+          145
+        ],
+        "Jerusalem,": [
+          147
+        ],
+        "immigration": [
+          149
+        ],
+        "Jews": [
+          151
+        ],
+        "groups.": [
+          154
+        ],
+        "Immersed": [
+          155
+        ],
+        "eschatological": [
+          157
+        ],
+        "beliefs": [
+          158
+        ],
+        "believed": [
+          160
+        ],
+        "could": [
+          163
+        ],
+        "help": [
+          164
+        ],
+        "usher": [
+          165
+        ],
+        "a": [
+          167
+        ],
+        "new": [
+          168
+        ],
+        "period.": [
+          170
+        ],
+        "failed": [
+          172
+        ],
+        "attempts": [
+          173
+        ],
+        "left": [
+          174,
+          200
+        ],
+        "predicament": [
+          180
+        ],
+        "trying": [
+          182
+        ],
+        "balance": [
+          184
+        ],
+        "support": [
+          185
+        ],
+        "all": [
+          189
+        ],
+        "Americans,": [
+          190
+        ],
+        "residing": [
+          191
+        ],
+        "Palestine,": [
+          193
+        ],
+        "cleaning": [
+          195
+        ],
+        "up": [
+          196
+        ],
+        "messes": [
+          199
+        ],
+        "behind.": [
+          201
+        ],
+        "men": [
+          203,
+          250
+        ],
+        "who": [
+          204
+        ],
+        "occupied": [
+          205
+        ],
+        "post": [
+          207,
+          212
+        ],
+        "pursue": [
+          214
+        ],
+        "personal": [
+          215
+        ],
+        "interest": [
+          216
+        ],
+        "or": [
+          217
+        ],
+        "launch": [
+          218
+        ],
+        "careers.": [
+          220
+        ],
+        "found": [
+          222
+        ],
+        "themselves": [
+          223
+        ],
+        "frustrated": [
+          224
+        ],
+        "confines": [
+          227
+        ],
+        "under-supported": [
+          230
+        ],
+        "insignificant": [
+          231
+        ],
+        "post.": [
+          232
+        ],
+        "Not": [
+          233
+        ],
+        "surprisingly": [
+          234
+        ],
+        "tenure": [
+          236
+        ],
+        "short": [
+          238
+        ],
+        "legacy": [
+          241
+        ],
+        "continuity.": [
+          244
+        ],
+        "correspondence": [
+          246
+        ],
+        "written": [
+          247
+        ],
+        "these": [
+          249
+        ],
+        "give": [
+          251
+        ],
+        "reader": [
+          253
+        ],
+        "insight": [
+          254
+        ],
+        "into": [
+          255
+        ],
+        "19th": [
+          257,
+          320
+        ],
+        "century": [
+          258
+        ],
+        "world": [
+          259
+        ],
+        "Palestine": [
+          261,
+          317
+        ],
+        "Foreign": [
+          265
+        ],
+        "Service.": [
+          266
+        ],
+        "lack": [
+          269
+        ],
+        "direction,": [
+          270
+        ],
+        "adding": [
+          271
+        ],
+        "only": [
+          272
+        ],
+        "brief": [
+          273
+        ],
+        "summaries": [
+          274
+        ],
+        "while": [
+          275
+        ],
+        "latter": [
+          277
+        ],
+        "summarize": [
+          279
+        ],
+        "statistics,": [
+          281
+        ],
+        "crop": [
+          282
+        ],
+        "yields,": [
+          283
+        ],
+        "labor": [
+          284
+        ],
+        "wages,": [
+          285
+        ],
+        "potential": [
+          287
+        ],
+        "investments": [
+          288
+        ],
+        "business.": [
+          291
+        ],
+        "These": [
+          292
+        ],
+        "mimic": [
+          294
+        ],
+        "changes": [
+          296
+        ],
+        "happening": [
+          297
+        ],
+        "diplomatic": [
+          300
+        ],
+        "service": [
+          301,
+          313
+        ],
+        "same": [
+          305
+        ],
+        "time": [
+          306
+        ],
+        "demonstrate": [
+          307
+        ],
+        "unique": [
+          309
+        ],
+        "aspect": [
+          310
+        ],
+        "as": [
+          314
+        ],
+        "seen": [
+          315
+        ],
+        "during": [
+          318
+        ],
+        "Century.": [
+          321
+        ]
+      },
+      "counts_by_year": [],
+      "updated_date": "2026-11-09T13:22:03.289127",
+      "created_date": "2026-06-24T00:00:00"
+    },
+    {
+      "id": "https://openalex.org/W4252609731",
+      "doi": "https://doi.org/10.1007/978-1-4842-7129-2",
+      "title": "Infrastructure-as-Code Automation Using Terraform, Packer, Vault, Nomad and Consul: Hands-on Deployment, Configuration, and Best Practices",
+      "display_name": "Infrastructure-as-Code Automation Using Terraform, Packer, Vault, Nomad and Consul: Hands-on Deployment, Configuration, and Best Practices",
+      "relevance_score": 24.420124,
+      "publication_year": 2021,
+      "publication_date": "2021-01-01",
+      "ids": {
+        "openalex": "https://openalex.org/W4252609731",
+        "doi": "https://doi.org/10.1007/978-1-4842-7129-2",
+        "mag": "3195720176"
+      },
+      "language": "en",
+      "primary_location": {
+        "id": "doi:10.1007/978-1-4842-7129-2",
+        "doi": "https://doi.org/10.1007/978-1-4842-7129-2",
+        "is_oa": false,
+        "landing_page_url": "https://doi.org/10.1007/978-1-4842-7129-2",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4306462844",
+          "display_name": "Apress eBooks",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "listed_in": [],
+          "host_organization": null,
+          "host_organization_name": null,
+          "host_organization_lineage": [],
+          "host_organization_lineage_names": [],
+          "type": "ebook platform"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": null,
+        "raw_type": "book"
+      },
+      "parent_works": [],
+      "lineage": [
+        "https://openalex.org/W4252609731"
+      ],
+      "child_works_count": 8,
+      "type": "book",
+      "is_traditional": true,
+      "indexed_in": [
+        "crossref"
+      ],
+      "open_access": {
+        "is_oa": false,
+        "oa_status": "closed",
+        "oa_url": null,
+        "any_repository_has_fulltext": false
+      },
+      "authorships": [
+        {
+          "author_position": "first",
+          "author": {
+            "id": "https://openalex.org/A5088290834",
+            "display_name": "Navin Sabharwal",
+            "orcid": "https://orcid.org/0000-0001-5920-2748",
+            "observed_orcids": [
+              "https://orcid.org/0000-0001-5920-2748"
+            ]
+          },
+          "institutions": [],
+          "countries": [],
+          "is_corresponding": false,
+          "raw_author_name": "Navin Sabharwal",
+          "raw_affiliation_strings": [
+            "New Delhi, India"
+          ],
+          "raw_orcid": null,
+          "affiliations": [
+            {
+              "raw_affiliation_string": "New Delhi, India",
+              "institution_ids": []
+            }
+          ]
+        },
+        {
+          "author_position": "middle",
+          "author": {
+            "id": "https://openalex.org/A5008354454",
+            "display_name": "Sarvesh Pandey",
+            "orcid": "https://orcid.org/0000-0002-3014-9792",
+            "observed_orcids": [
+              "https://orcid.org/0000-0002-3014-9792"
+            ]
+          },
+          "institutions": [],
+          "countries": [],
+          "is_corresponding": false,
+          "raw_author_name": "Sarvesh Pandey",
+          "raw_affiliation_strings": [
+            "Noida, UP, India"
+          ],
+          "raw_orcid": null,
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Noida, UP, India",
+              "institution_ids": []
+            }
+          ]
+        },
+        {
+          "author_position": "last",
+          "author": {
+            "id": null,
+            "display_name": "Piyush Pandey",
+            "orcid": null,
+            "observed_orcids": []
+          },
+          "institutions": [],
+          "countries": [],
+          "is_corresponding": false,
+          "raw_author_name": "Piyush Pandey",
+          "raw_affiliation_strings": [
+            "New Delhi, India"
+          ],
+          "raw_orcid": null,
+          "affiliations": [
+            {
+              "raw_affiliation_string": "New Delhi, India",
+              "institution_ids": []
+            }
+          ]
+        }
+      ],
+      "institutions": [],
+      "countries_distinct_count": 0,
+      "institutions_distinct_count": 0,
+      "corresponding_author_ids": [],
+      "corresponding_institution_ids": [],
+      "apc_list": null,
+      "apc_paid": null,
+      "fwci": 2.5599,
+      "is_authors_truncated": false,
+      "has_fulltext": true,
+      "cited_by_count": 10,
+      "citation_normalized_percentile": {
+        "value": 0.8931677,
+        "is_in_top_1_percent": false,
+        "is_in_top_10_percent": false
+      },
+      "cited_by_percentile_year": {
+        "min": 88,
+        "max": 98
+      },
+      "biblio": {
+        "volume": null,
+        "issue": null,
+        "first_page": null,
+        "last_page": null
+      },
+      "is_retracted": false,
+      "is_paratext": false,
+      "is_xpac": false,
+      "primary_topic": {
+        "id": "https://openalex.org/T10101",
+        "display_name": "Cloud Computing and Resource Management",
+        "score": 0.9071999788284302,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1710",
+          "display_name": "Information Systems"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      "topics": [
+        {
+          "id": "https://openalex.org/T10101",
+          "display_name": "Cloud Computing and Resource Management",
+          "score": 0.9071999788284302,
+          "subfield": {
+            "id": "https://openalex.org/subfields/1710",
+            "display_name": "Information Systems"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/17",
+            "display_name": "Computer Science"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T12127",
+          "display_name": "Software System Performance and Reliability",
+          "score": 0.07810000330209732,
+          "subfield": {
+            "id": "https://openalex.org/subfields/1705",
+            "display_name": "Computer Networks and Communications"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/17",
+            "display_name": "Computer Science"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T10430",
+          "display_name": "Software Engineering Techniques and Practices",
+          "score": 0.005799999926239252,
+          "subfield": {
+            "id": "https://openalex.org/subfields/1710",
+            "display_name": "Information Systems"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/17",
+            "display_name": "Computer Science"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        }
+      ],
+      "keywords": [
+        {
+          "id": "https://openalex.org/keywords/infrastructure-as-code",
+          "display_name": "infrastructure as code",
+          "score": 0.7850000262260437
+        },
+        {
+          "id": "https://openalex.org/keywords/terraform",
+          "display_name": "Terraform",
+          "score": 0.9269999861717224
+        },
+        {
+          "id": "https://openalex.org/keywords/packers",
+          "display_name": "packers",
+          "score": 0.972000002861023
+        },
+        {
+          "id": "https://openalex.org/keywords/hashicorp-vault",
+          "display_name": "HashiCorp Vault",
+          "score": 0.9639999866485596
+        },
+        {
+          "id": "https://openalex.org/keywords/nomads",
+          "display_name": "nomadic peoples",
+          "score": 0.9919999837875366
+        },
+        {
+          "id": "https://openalex.org/keywords/consuls",
+          "display_name": "consuls",
+          "score": 0.9990000128746033
+        },
+        {
+          "id": "https://openalex.org/keywords/devops-automation",
+          "display_name": "DevOps automation",
+          "score": 0.8149999976158142
+        },
+        {
+          "id": "https://openalex.org/keywords/cloud-infrastructure-deployment",
+          "display_name": "cloud infrastructure deployment",
+          "score": 0.6589999794960022
+        },
+        {
+          "id": "https://openalex.org/keywords/configuration-management",
+          "display_name": "configuration management",
+          "score": 0.7429999709129333
+        },
+        {
+          "id": "https://openalex.org/keywords/best-practices",
+          "display_name": "best practices",
+          "score": 0.3790000081062317
+        }
+      ],
+      "concepts": [
+        {
+          "id": "https://openalex.org/C2780344732",
+          "wikidata": "https://www.wikidata.org/wiki/Q189771",
+          "display_name": "Vault (architecture)",
+          "level": 2,
+          "score": 0.9068841934204102
+        },
+        {
+          "id": "https://openalex.org/C115901376",
+          "wikidata": "https://www.wikidata.org/wiki/Q184199",
+          "display_name": "Automation",
+          "level": 2,
+          "score": 0.7175731062889099
+        },
+        {
+          "id": "https://openalex.org/C2992077309",
+          "wikidata": "https://www.wikidata.org/wiki/Q55607839",
+          "display_name": "Code of practice",
+          "level": 2,
+          "score": 0.6252772212028503
+        },
+        {
+          "id": "https://openalex.org/C2776760102",
+          "wikidata": "https://www.wikidata.org/wiki/Q5139990",
+          "display_name": "Code (set theory)",
+          "level": 3,
+          "score": 0.5903302431106567
+        },
+        {
+          "id": "https://openalex.org/C127413603",
+          "wikidata": "https://www.wikidata.org/wiki/Q11023",
+          "display_name": "Engineering",
+          "level": 0,
+          "score": 0.5204489231109619
+        },
+        {
+          "id": "https://openalex.org/C115903868",
+          "wikidata": "https://www.wikidata.org/wiki/Q80993",
+          "display_name": "Software engineering",
+          "level": 1,
+          "score": 0.42706558108329773
+        },
+        {
+          "id": "https://openalex.org/C41008148",
+          "wikidata": "https://www.wikidata.org/wiki/Q21198",
+          "display_name": "Computer science",
+          "level": 0,
+          "score": 0.40231919288635254
+        },
+        {
+          "id": "https://openalex.org/C107053488",
+          "wikidata": "https://www.wikidata.org/wiki/Q2674423",
+          "display_name": "Construction engineering",
+          "level": 1,
+          "score": 0.2541707754135132
+        },
+        {
+          "id": "https://openalex.org/C199360897",
+          "wikidata": "https://www.wikidata.org/wiki/Q9143",
+          "display_name": "Programming language",
+          "level": 1,
+          "score": 0.12617293000221252
+        },
+        {
+          "id": "https://openalex.org/C78519656",
+          "wikidata": "https://www.wikidata.org/wiki/Q101333",
+          "display_name": "Mechanical engineering",
+          "level": 1,
+          "score": 0.09703075885772705
+        },
+        {
+          "id": "https://openalex.org/C177264268",
+          "wikidata": "https://www.wikidata.org/wiki/Q1514741",
+          "display_name": "Set (abstract data type)",
+          "level": 2,
+          "score": 0.09235352277755737
+        },
+        {
+          "id": "https://openalex.org/C66938386",
+          "wikidata": "https://www.wikidata.org/wiki/Q633538",
+          "display_name": "Structural engineering",
+          "level": 1,
+          "score": 0.061064183712005615
+        }
+      ],
+      "mesh": [],
+      "locations_count": 2,
+      "locations": [
+        {
+          "id": "doi:10.1007/978-1-4842-7129-2",
+          "doi": "https://doi.org/10.1007/978-1-4842-7129-2",
+          "is_oa": false,
+          "landing_page_url": "https://doi.org/10.1007/978-1-4842-7129-2",
+          "pdf_url": null,
+          "source": {
+            "id": "https://openalex.org/S4306462844",
+            "display_name": "Apress eBooks",
+            "issn_l": null,
+            "issn": null,
+            "is_oa": false,
+            "is_in_doaj": false,
+            "is_core": false,
+            "listed_in": [],
+            "host_organization": null,
+            "host_organization_name": null,
+            "host_organization_lineage": [],
+            "host_organization_lineage_names": [],
+            "type": "ebook platform"
+          },
+          "license": null,
+          "license_id": null,
+          "version": "publishedVersion",
+          "is_accepted": true,
+          "is_published": true,
+          "raw_source_name": null,
+          "raw_type": "book"
+        },
+        {
+          "id": "mag:3195720176",
+          "doi": null,
+          "is_oa": false,
+          "landing_page_url": "https://www.amazon.com/Infrastructure-as-Code-Automation-Terraform-Packer-Hands/dp/1484271289",
+          "pdf_url": null,
+          "source": null,
+          "license": null,
+          "license_id": null,
+          "version": null,
+          "is_accepted": false,
+          "is_published": false,
+          "raw_source_name": null,
+          "raw_type": null
+        }
+      ],
+      "best_oa_location": null,
+      "sustainable_development_goals": [],
+      "study_designs": [],
+      "awards": [],
+      "funders": [],
+      "has_content": {
+        "pdf": false,
+        "grobid_xml": false
+      },
+      "content_urls": null,
+      "referenced_works_count": 0,
+      "referenced_works": [],
+      "related_works": [
+        "https://openalex.org/W4390229293",
+        "https://openalex.org/W7162851517",
+        "https://openalex.org/W4312646606",
+        "https://openalex.org/W3194286028",
+        "https://openalex.org/W3193569137",
+        "https://openalex.org/W7208674209",
+        "https://openalex.org/W7048702019",
+        "https://openalex.org/W3155084219",
+        "https://openalex.org/W4405902011"
+      ],
+      "abstract_inverted_index": {
+        "Infrastructure-as-Code": [
+          0
+        ],
+        "Automation": [
+          1
+        ],
+        "Using": [
+          2
+        ],
+        "Terraform,": [
+          3
+        ],
+        "Packer,": [
+          4
+        ],
+        "and": [
+          5
+        ],
+        "Vault": [
+          6
+        ],
+        "is": [
+          7
+        ],
+        "a": [
+          8
+        ],
+        "book": [
+          9
+        ],
+        "that": [
+          10
+        ],
+        "covers": [
+          11
+        ],
+        "best": [
+          12
+        ],
+        "practices": [
+          13
+        ],
+        "for": [
+          14
+        ],
+        "getting": [
+          15
+        ],
+        "started": [
+          16
+        ],
+        "with": [
+          17
+        ],
+        "HashiCorp": [
+          18
+        ],
+        "tools.": [
+          19
+        ]
+      },
+      "counts_by_year": [
+        {
+          "year": 2025,
+          "cited_by_count": 1
+        },
+        {
+          "year": 2024,
+          "cited_by_count": 5
+        },
+        {
+          "year": 2023,
+          "cited_by_count": 1
+        },
+        {
+          "year": 2022,
+          "cited_by_count": 3
+        }
+      ],
+      "updated_date": "2026-11-14T11:04:58.165337",
+      "created_date": "2022-05-12T00:00:00"
+    }
+  ],
+  "group_by": []
+}

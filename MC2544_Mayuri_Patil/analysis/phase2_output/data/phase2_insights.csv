@@ -1,0 +1,6 @@
+Finding,Evidence,Interpretation
+Higher serum creatinine is associated with death events.,Mean creatinine was 1.836 mg/dL for death events and 1.185 mg/dL for survivors.,"Elevated creatinine is associated with poorer outcomes in these records; this is an association, not a clinical diagnosis."
+The highest serum-creatinine quartile has the highest death-event rate.,"The highest quartile had a 62.5% death-event rate, versus 11.1% in the lowest quartile.",Higher creatinine is a strong risk-associated pattern in this dataset.
+The lowest serum-sodium quartile has the highest death-event rate.,"The lowest quartile had a 50.6% death-event rate, compared with 23.8% to 26.2% in the higher quartiles.",Lower sodium is associated with worse outcomes in these records.
+Creatinine has the stronger linear association with the outcome.,Correlation with DEATH_EVENT is 0.294 for creatinine and -0.195 for sodium.,"Both measurements are informative, but creatinine is stronger here."
+API fusion standardized every patient-laboratory observation.,"All 598 fused records have a non-missing LOINC code, unit, and provider.",The added metadata improves interoperability and enables grounded retrieval of laboratory definitions.

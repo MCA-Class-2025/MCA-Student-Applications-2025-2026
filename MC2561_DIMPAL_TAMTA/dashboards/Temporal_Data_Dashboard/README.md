@@ -87,7 +87,8 @@ The one-page summary of the whole market. It answers *"what is in this dataset?"
 
 <!-- IMAGE 2: full screenshot of page 2. Save as images/02_price_trends.png -->
 <p align="center">
-  <img src="images/02_price_trends.png" alt="Price Trends page" width="100%">
+  <img src="images/p1.png" alt="Price Trends page" width="100%">
+  <img src="images/p2.png" alt="Price Trends page" width="100%">
 </p>
 
 Shows **how the price of one commodity moved**.

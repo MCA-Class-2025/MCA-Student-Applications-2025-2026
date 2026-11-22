@@ -546,7 +546,7 @@ Patients should consult their healthcare provider before making significant diet
 
 **Roll No.:** MC2561
 
-**Faculty:** Sarita Chauhan
+**Faculty:** Dr. Anita Chaware
 
 ---
 

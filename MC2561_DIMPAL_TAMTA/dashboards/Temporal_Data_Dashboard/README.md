@@ -14,7 +14,9 @@
 
 <!-- IMAGE 1 (MAIN IMAGE): full screenshot of page 1 "Dashboard". Save as images/01_dashboard.png -->
 <p align="center">
-  <img src="images/01_dashboard.png" alt="Dashboard page" width="100%">
+  <img src="images/d1.png" alt="Dashboard page" width="100%">
+  <img src="images/d2.png" alt="Dashboard page" width="100%">
+  <img src="images/d3.png" alt="Dashboard page" width="100%">
 </p>
 
 <p align="center"><i>Page 1 – Dashboard: KPIs, price trend, commodity panel, ribbon, waterfall, volume, candlestick and market movers in one screen.</i></p>

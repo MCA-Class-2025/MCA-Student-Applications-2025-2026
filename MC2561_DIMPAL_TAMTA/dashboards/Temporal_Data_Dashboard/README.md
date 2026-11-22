@@ -1,4 +1,4 @@
-<h1 align="center">Commodity Market<br>Temporal Analysis</h1>
+<h1>Commodity Market<br>Temporal Analysis</h1>
 
 <p align="center">
   An interactive 7-page Streamlit dashboard that shows <b>how 18 commodity prices have moved since 2000</b>,

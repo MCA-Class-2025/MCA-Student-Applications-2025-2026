@@ -154,7 +154,7 @@ Looks for **repeating patterns** through the year.
 
 <!-- IMAGE 7: full screenshot of page 7. Save as images/07_statistics.png -->
 <p align="center">
-  <img src="images/07_statistics.png" alt="Statistics and Data page" width="100%">
+  <img src="images/s1.png" alt="Statistics and Data page" width="100%">
 </p>
 
 The numbers behind every chart.
@@ -217,7 +217,7 @@ Implemented with pandas, NumPy and Plotly:
 
 <!-- IMAGE 8: theme 1 (for example Light Navy). Save as images/theme_light_navy.png -->
 <p align="center">
-  <img src="images/theme_light_navy.png" alt="Light Navy theme" width="100%">
+  <img src="images/ocean_blue.png" alt="Light Navy theme" width="100%">
 </p>
 
 <!-- IMAGE 9: theme 2 (for example Deep Teal). Save as images/theme_deep_teal.png -->
@@ -228,6 +228,14 @@ Implemented with pandas, NumPy and Plotly:
 <!-- IMAGE 10: theme 3 (for example Forest Mint). Save as images/theme_forest_mint.png -->
 <p align="center">
   <img src="images/theme_forest_mint.png" alt="Forest Mint theme" width="100%">
+</p>
+
+<p align="center">
+  <img src="images/t3.png" alt="Light Navy theme" width="100%">
+</p>
+
+<p align="center">
+  <img src="images/t4.png" alt="Light Navy theme" width="100%">
 </p>
 
 Choose a theme from the header (**Theme** button). A theme changes the page background, card style, font and every

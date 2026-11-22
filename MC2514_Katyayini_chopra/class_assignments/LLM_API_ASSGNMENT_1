@@ -1,0 +1,264 @@
+# FixAI Maharashtra – API-Based Data Integration and Data Fusion
+
+## 1. Introduction
+
+FixAI Maharashtra is an LLM-based application that uses Artificial Intelligence, external APIs and data fusion to identify and analyse household and building defects.
+
+The application collects information from different sources and combines it into a structured dataset. This integrated information provides additional context to the LLM while generating a diagnosis and recommendations.
+
+The project uses five API integrations: Nominatim, Open-Meteo Weather, Open-Meteo Air Quality, FixAI Professional Services API and Google Gemini API.
+
+## 2. APIs Selected and Their Purpose
+
+### API 1: Nominatim Geocoding API
+
+**Why selected:**
+
+Nominatim was selected to convert the location entered by the user into geographical coordinates. These coordinates are required to retrieve location-specific weather, air quality and nearby professional information.
+
+**Data provided:**
+- Location display name
+- Latitude
+- Longitude
+- OpenStreetMap location information
+
+**How the API is called:**
+
+HTTP GET request:
+
+`https://nominatim.openstreetmap.org/search`
+
+**Parameters:**
+
+| Parameter | Description |
+|---|---|
+| q | Address or location entered by the user |
+| format | Response format (JSON) |
+| limit | Maximum number of results (1) |
+| User-Agent | Identifies the application |
+
+**Data processing:**
+
+The API returns JSON data. The first matching result is selected, and latitude and longitude are converted into numerical values.
+
+These coordinates are passed to the weather, air-quality and professional-services APIs.
+
+### API 2: Open-Meteo Weather API
+
+**Why selected:**
+
+Weather conditions such as humidity, rainfall and temperature may provide useful environmental context when analysing moisture-related defects, water leakage and dampness.
+
+**Data provided:**
+- Current temperature
+- Relative humidity
+- Precipitation
+- Rainfall
+- Weather code
+- Daily maximum and minimum temperature
+- Daily rainfall and precipitation
+
+**How the API is called:**
+
+HTTP GET request:
+
+`https://api.open-meteo.com/v1/forecast`
+
+**Parameters:**
+
+| Parameter | Description |
+|---|---|
+| latitude | Location latitude |
+| longitude | Location longitude |
+| current | Current weather variables |
+| daily | Daily weather variables |
+| timezone | Set to auto |
+
+**Data processing:**
+
+The JSON response is processed to extract the current and daily weather values. The selected information is stored in a structured dictionary.
+
+The weather information is then included in the fused data.
+
+### API 3: Open-Meteo Air Quality API
+
+**Why selected:**
+
+The Air Quality API provides environmental pollution information. It complements weather data by providing additional information about the environmental conditions of the selected location.
+
+**Data provided:**
+- PM2.5
+- PM10
+- Carbon monoxide
+- Nitrogen dioxide
+- Ozone
+- European AQI
+- US AQI
+
+**How the API is called:**
+
+HTTP GET request:
+
+`https://air-quality-api.open-meteo.com/v1/air-quality`
+
+**Parameters:**
+
+| Parameter | Description |
+|---|---|
+| latitude | Location latitude |
+| longitude | Location longitude |
+| current | Required air-quality variables |
+| timezone | Set to auto |
+
+**Data processing:**
+
+The API returns JSON data containing current air-quality measurements. The required pollutant values and AQI measurements are extracted and stored in a structured dictionary.
+
+If the API is unavailable, the application handles the error and marks the air-quality information as temporarily unavailable.
+
+### API 4: FixAI Professional Services API
+
+**Why selected:**
+
+This custom REST API was developed using FastAPI to help users find relevant repair professionals based on their location and the type of defect.
+
+**Data provided:**
+- Professional ID and name
+- Service type
+- City and area
+- Contact number
+- Rating
+- Experience
+- Price range
+- Latitude and longitude
+- Distance from the user's location
+
+**How the API is called:**
+
+HTTP GET request:
+
+`http://127.0.0.1:8000/professionals/nearby`
+
+**Parameters:**
+
+| Parameter | Description |
+|---|---|
+| latitude | User's latitude |
+| longitude | User's longitude |
+| service_type | Required professional service |
+| radius_km | Maximum search radius |
+| limit | Maximum number of results |
+
+**Data processing:**
+
+The API reads professional information from the project's professionals.csv file.
+
+It filters professionals according to service type, calculates geographical distance using the Haversine formula, filters results by radius and sorts them by distance and rating.
+
+The matching professional records are returned in JSON format.
+
+### API 5: Google Gemini API
+
+**Why selected:**
+
+Gemini was selected to analyse uploaded building-defect images and convert visual information into structured data. This information is used to connect the image analysis with the other data sources.
+
+**Data provided:**
+- Identified issue
+- Defect category
+- Severity
+- Possible causes
+- Recommended service
+- Confidence value
+- Description of the visible defect
+
+**How the API is called:**
+
+The Google GenAI Python client is used in the project's Gemini service. The uploaded image and an image-analysis prompt are sent to the configured Gemini model.
+
+The API key is obtained from the GEMINI_API_KEY environment variable.
+
+**Data processing:**
+
+The model response is cleaned and parsed into JSON. The structured information is passed to the data fusion module.
+
+**Note:** Gemini is an AI image-analysis API, rather than a conventional external environmental data API. It supplies image-derived information that complements the four other data integrations.
+
+## 3. API-Based Data Integration
+
+The APIs provide different and complementary types of information.
+
+| API | Type of information |
+|---|---|
+| Nominatim | Geographical information |
+| Open-Meteo Weather | Weather information |
+| Open-Meteo Air Quality | Environmental pollution information |
+| FixAI Professional Services | Repair professionals and service information |
+| Gemini | Image-derived defect information |
+
+The application follows these steps:
+
+1. The user uploads a defect image and enters a location.
+2. Gemini analyses the image and extracts structured defect information.
+3. Nominatim converts the entered location into geographical coordinates.
+4. The coordinates are used to collect weather information from Open-Meteo.
+5. The same coordinates are used to collect air-quality information.
+6. The recommended service and coordinates are passed to the FixAI Professional Services API.
+7. The application also searches its local building defect knowledge dataset for relevant defect records.
+8. All the collected information is combined into a single fused data object.
+9. The final reasoning module uses the available fused context and retrieved knowledge to generate the diagnosis.
+
+## 4. Data Fusion
+
+Data fusion is the process of combining information from multiple sources into a unified structure.
+
+In FixAI Maharashtra, the following information is combined:
+
+- Image analysis results from Gemini
+- Geographical information from Nominatim
+- Weather information from Open-Meteo
+- Air-quality information from Open-Meteo
+- Professional-service information from the custom FastAPI
+- Relevant defect knowledge from the local dataset
+
+The fusion is performed in `services/fusion_service.py` using the `build_fusion_data()` function.
+
+The function creates a structured dictionary containing:
+
+- image_analysis
+- location
+- weather
+- air_quality
+- defect_knowledge
+- local_services
+
+The fused information is passed to the final reasoning module.
+
+## 5. How Data Fusion Improves the LLM Response
+
+Using only an uploaded image may provide limited information about the surrounding conditions of a defect.
+
+Data fusion provides additional context to the LLM.
+
+For example:
+
+- Image analysis identifies visible dampness or water leakage.
+- Weather data provides humidity and rainfall information.
+- Air-quality data provides additional environmental context.
+- Geocoding identifies the geographical location.
+- The defect knowledge dataset provides related defect descriptions.
+- The professional-services API provides relevant repair professionals.
+
+By combining these sources, FixAI can generate a more context-aware diagnosis and provide relevant recommendations.
+
+However, environmental measurements are supporting information and do not independently prove the cause of a building defect.
+
+## 6. Conclusion
+
+FixAI Maharashtra demonstrates the integration of Artificial Intelligence, multiple APIs and data fusion in an LLM-based application.
+
+The system combines image-derived information, geographical data, weather conditions, air quality, defect knowledge and professional-service information.
+
+This integrated approach provides the LLM with additional context for generating useful defect explanations and recommendations.
+
+The current dataset and Machine Learning evaluation are experimental and can be improved by collecting more real-world labelled data.

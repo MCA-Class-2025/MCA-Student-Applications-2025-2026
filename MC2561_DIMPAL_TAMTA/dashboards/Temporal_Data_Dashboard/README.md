@@ -12,9 +12,9 @@
   <img src="https://img.shields.io/badge/Data-daily%20OHLCV-0b5394" alt="Daily OHLCV data">
 </p>
 
-<!-- IMAGE 1 (MAIN IMAGE): full screenshot of page 1 "Dashboard". Save as docs/images/01_dashboard.png -->
+<!-- IMAGE 1 (MAIN IMAGE): full screenshot of page 1 "Dashboard". Save as images/01_dashboard.png -->
 <p align="center">
-  <img src="docs/images/01_dashboard.png" alt="Dashboard page" width="100%">
+  <img src="images/01_dashboard.png" alt="Dashboard page" width="100%">
 </p>
 
 <p align="center"><i>Page 1 – Dashboard: KPIs, price trend, commodity panel, ribbon, waterfall, volume, candlestick and market movers in one screen.</i></p>
@@ -83,9 +83,9 @@ The one-page summary of the whole market. It answers *"what is in this dataset?"
 
 ### 2 · Price Trends
 
-<!-- IMAGE 2: full screenshot of page 2. Save as docs/images/02_price_trends.png -->
+<!-- IMAGE 2: full screenshot of page 2. Save as images/02_price_trends.png -->
 <p align="center">
-  <img src="docs/images/02_price_trends.png" alt="Price Trends page" width="100%">
+  <img src="images/02_price_trends.png" alt="Price Trends page" width="100%">
 </p>
 
 Shows **how the price of one commodity moved**.
@@ -96,9 +96,9 @@ Shows **how the price of one commodity moved**.
 
 ### 3 · Commodity Comparison
 
-<!-- IMAGE 3: full screenshot of page 3. Save as docs/images/03_comparison.png -->
+<!-- IMAGE 3: full screenshot of page 3. Save as images/03_comparison.png -->
 <p align="center">
-  <img src="docs/images/03_comparison.png" alt="Commodity Comparison page" width="100%">
+  <img src="images/03_comparison.png" alt="Commodity Comparison page" width="100%">
 </p>
 
 Compares commodities side by side: *which one grew most, and which ones move together?*
@@ -109,9 +109,9 @@ Compares commodities side by side: *which one grew most, and which ones move tog
 
 ### 4 · Trading Volume
 
-<!-- IMAGE 4: full screenshot of page 4. Save as docs/images/04_volume.png -->
+<!-- IMAGE 4: full screenshot of page 4. Save as images/04_volume.png -->
 <p align="center">
-  <img src="docs/images/04_volume.png" alt="Trading Volume page" width="100%">
+  <img src="images/04_volume.png" alt="Trading Volume page" width="100%">
 </p>
 
 Shows **how much was traded**.
@@ -122,9 +122,9 @@ Shows **how much was traded**.
 
 ### 5 · Volatility & Risk
 
-<!-- IMAGE 5: full screenshot of page 5. Save as docs/images/05_volatility_risk.png -->
+<!-- IMAGE 5: full screenshot of page 5. Save as images/05_volatility_risk.png -->
 <p align="center">
-  <img src="docs/images/05_volatility_risk.png" alt="Volatility and Risk page" width="100%">
+  <img src="images/05_volatility_risk.png" alt="Volatility and Risk page" width="100%">
 </p>
 
 Shows **how risky** each market has been.
@@ -136,9 +136,9 @@ Shows **how risky** each market has been.
 
 ### 6 · Seasonality
 
-<!-- IMAGE 6: full screenshot of page 6. Save as docs/images/06_seasonality.png -->
+<!-- IMAGE 6: full screenshot of page 6. Save as images/06_seasonality.png -->
 <p align="center">
-  <img src="docs/images/06_seasonality.png" alt="Seasonality page" width="100%">
+  <img src="images/06_seasonality.png" alt="Seasonality page" width="100%">
 </p>
 
 Looks for **repeating patterns** through the year.
@@ -149,9 +149,9 @@ Looks for **repeating patterns** through the year.
 
 ### 7 · Statistics & Data
 
-<!-- IMAGE 7: full screenshot of page 7. Save as docs/images/07_statistics.png -->
+<!-- IMAGE 7: full screenshot of page 7. Save as images/07_statistics.png -->
 <p align="center">
-  <img src="docs/images/07_statistics.png" alt="Statistics and Data page" width="100%">
+  <img src="images/07_statistics.png" alt="Statistics and Data page" width="100%">
 </p>
 
 The numbers behind every chart.
@@ -212,19 +212,19 @@ Implemented with pandas, NumPy and Plotly:
 
 ## Themes
 
-<!-- IMAGE 8: theme 1 (for example Light Navy). Save as docs/images/theme_light_navy.png -->
+<!-- IMAGE 8: theme 1 (for example Light Navy). Save as images/theme_light_navy.png -->
 <p align="center">
-  <img src="docs/images/theme_light_navy.png" alt="Light Navy theme" width="100%">
+  <img src="images/theme_light_navy.png" alt="Light Navy theme" width="100%">
 </p>
 
-<!-- IMAGE 9: theme 2 (for example Deep Teal). Save as docs/images/theme_deep_teal.png -->
+<!-- IMAGE 9: theme 2 (for example Deep Teal). Save as images/theme_deep_teal.png -->
 <p align="center">
-  <img src="docs/images/theme_deep_teal.png" alt="Deep Teal theme" width="100%">
+  <img src="images/theme_deep_teal.png" alt="Deep Teal theme" width="100%">
 </p>
 
-<!-- IMAGE 10: theme 3 (for example Forest Mint). Save as docs/images/theme_forest_mint.png -->
+<!-- IMAGE 10: theme 3 (for example Forest Mint). Save as images/theme_forest_mint.png -->
 <p align="center">
-  <img src="docs/images/theme_forest_mint.png" alt="Forest Mint theme" width="100%">
+  <img src="images/theme_forest_mint.png" alt="Forest Mint theme" width="100%">
 </p>
 
 Choose a theme from the header (**Theme** button). A theme changes the page background, card style, font and every
@@ -263,7 +263,7 @@ chart colour, so the charts always match the background.
 │   ├── theme.py                # the 8 colour themes
 │   └── images.py               # commodity photos from Wikipedia
 ├── data/commodity-prices.csv
-└── docs/images/                # screenshots used in this README
+└── images/                # screenshots used in this README
 ```
 
 ## Known limitations

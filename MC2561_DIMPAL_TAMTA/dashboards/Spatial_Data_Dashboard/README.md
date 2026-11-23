@@ -12,12 +12,7 @@
   <img src="https://img.shields.io/badge/Data-NOAA%20NCEI-0b5394" alt="NOAA NCEI data">
 </p>
 
-<!-- IMAGE 1 (MAIN IMAGE): full screenshot of page 1 "Executive Overview". Save as docs/images/01_overview.png -->
-<p align="center">
-  <img src="docs/images/01_overview.png" alt="Executive Overview page" width="100%">
-</p>
 
-<p align="center"><i>Page 1 – Executive Overview: KPIs, global sampling map, ocean share, top countries, treemap and trends in one screen.</i></p>
 
 ---
 
@@ -68,10 +63,15 @@ Every page starts with a short *"In simple words"* box, so the charts are easy t
 
 ### 1 · Executive Overview
 
-<!-- IMAGE 2: Globe view of the map on page 1 (click the "Globe" radio button, then screenshot the whole page 1 or just the map card). Save as docs/images/01b_overview_globe.png -->
+<!-- IMAGE 1 (MAIN IMAGE): full screenshot of page 1 "Executive Overview". Save as images/01_overview.png -->
 <p align="center">
-  <img src="docs/images/01b_overview_globe.png" alt="Overview page with the 3D globe view" width="100%">
+  <img src="images/1.png" alt="Executive Overview page" width="100%">
+  <img src="images/2.png" alt="Executive Overview page" width="100%">
+  <img src="images/3.png" alt="Executive Overview page" width="100%">
+  <img src="images/4.png" alt="Executive Overview page" width="100%">
 </p>
+
+<p align="center"><i>Page 1 – Executive Overview: KPIs, global sampling map, ocean share, top countries, treemap and trends in one screen.</i></p>
 
 The one-page summary of the whole study. It answers *"what is in this dataset?"* in about ten seconds.
 
@@ -89,9 +89,11 @@ The one-page summary of the whole study. It answers *"what is in this dataset?"*
 
 ### 2 · Geographic Distribution
 
-<!-- IMAGE 3: full screenshot of page 2. Save as docs/images/02_geography.png -->
+<!-- IMAGE 3: full screenshot of page 2. Save as images/02_geography.png -->
 <p align="center">
-  <img src="docs/images/02_geography.png" alt="Geographic Distribution page" width="100%">
+  <img src="images/55.png" alt="Geographic Distribution page" width="100%">
+  <img src="images/6.png" alt="Geographic Distribution page" width="100%">
+  <img src="images/7.png" alt="Geographic Distribution page" width="100%">
 </p>
 
 Shows **where** the samples were taken.
@@ -105,9 +107,10 @@ Shows **where** the samples were taken.
 
 ### 3 · Regional Analysis
 
-<!-- IMAGE 4: full screenshot of page 3. Save as docs/images/03_regional.png -->
+<!-- IMAGE 4: full screenshot of page 3. Save as images/03_regional.png -->
 <p align="center">
-  <img src="docs/images/03_regional.png" alt="Regional Analysis page" width="100%">
+  <img src="images/8.png" alt="Regional Analysis page" width="100%">
+  <img src="images/9.png" alt="Geographic Distribution page" width="100%">
 </p>
 
 Compares oceans, countries and regions: *who has the most samples and how contaminated does each region look?*
@@ -118,9 +121,9 @@ Compares oceans, countries and regions: *who has the most samples and how contam
 
 ### 4 · Concentration Analysis
 
-<!-- IMAGE 5: full screenshot of page 4. Save as docs/images/04_concentration.png -->
+<!-- IMAGE 5: full screenshot of page 4. Save as images/04_concentration.png -->
 <p align="center">
-  <img src="docs/images/04_concentration.png" alt="Concentration Analysis page" width="100%">
+  <img src="images/10.png" alt="Concentration Analysis page" width="100%">
 </p>
 
 Shows **how much** plastic was actually found. A few places have extremely high counts, so values are shown on a
@@ -133,9 +136,9 @@ Shows **how much** plastic was actually found. A few places have extremely high 
 
 ### 5 · Spatial Density &amp; Hotspots
 
-<!-- IMAGE 6: full screenshot of page 5. Save as docs/images/05_hotspots.png -->
+<!-- IMAGE 6: full screenshot of page 5. Save as images/05_hotspots.png -->
 <p align="center">
-  <img src="docs/images/05_hotspots.png" alt="Spatial Density and Hotspots page" width="100%">
+  <img src="images/hs.png" alt="Spatial Density and Hotspots page" width="100%">
 </p>
 
 Finds places that stand out. It keeps two ideas **separate**:
@@ -147,11 +150,6 @@ Use the sliders (smoothing distance, cluster radius, minimum samples, hotspot th
 Many records in one place do **not** automatically make it a pollution hotspot.
 
 ### 6 · Spatial Statistics
-
-<!-- IMAGE 7: full screenshot of page 6 (first tab "Global Moran's I" is fine). Save as docs/images/06_statistics.png -->
-<p align="center">
-  <img src="docs/images/06_statistics.png" alt="Spatial Statistics page" width="100%">
-</p>
 
 Tests whether high or low values sit next to each other more than chance would predict.
 
@@ -165,27 +163,25 @@ Tests whether high or low values sit next to each other more than chance would p
 
 ### 7 · Data Explorer &amp; Export
 
-<!-- IMAGE 8: full screenshot of page 7. Save as docs/images/07_explorer.png -->
-<p align="center">
-  <img src="docs/images/07_explorer.png" alt="Data Explorer and Export page" width="100%">
-</p>
+<!-- IMAGE 8: full screenshot of page 7. Save as images/07_explorer.png -->
+
 
 The raw records behind every chart. Tabs: **Table**, **Record detail**, **Map & charts**, **Downloads** and **Dataset information**.
 Search and filter the data, inspect a single sample, and download the filtered records.
 
 ### 8 · Insights &amp; PDF Report
 
-<!-- IMAGE 9: full screenshot of page 8 (the written findings + PDF panel). Save as docs/images/08_insights.png -->
+<!-- IMAGE 9: full screenshot of page 8 (the written findings + PDF panel). Save as images/08_insights.png -->
 <p align="center">
-  <img src="docs/images/08_insights.png" alt="Insights and PDF Report page" width="100%">
+  <img src="images/11" alt="Insights and PDF Report page" width="100%">
 </p>
 
 Automatically written findings (executive summary, geographic, regional, concentration, spatial, statistical and
 data-quality findings) based on the current filters. Choose the charts you want, press **Generate PDF Report**, then **Download PDF**.
 
-<!-- IMAGE 10 (optional): first page of a generated PDF report. Save as docs/images/08b_pdf_report.png -->
+<!-- IMAGE 10 (optional): first page of a generated PDF report. Save as images/08b_pdf_report.png -->
 <p align="center">
-  <img src="docs/images/08b_pdf_report.png" alt="Example page from the generated PDF report" width="60%">
+  <img src="images/12.png" alt="Example page from the generated PDF report" width="60%">
 </p>
 
 ---
@@ -239,9 +235,9 @@ worldwide study area. Analyses are skipped with a message when there are fewer t
 
 ## Themes and chart background
 
-<!-- IMAGE 11 (optional): open the "🎨 Theme" popup in the header and screenshot it. Save as docs/images/09_themes.png -->
+<!-- IMAGE 11 (optional): open the "🎨 Theme" popup in the header and screenshot it. Save as images/09_themes.png -->
 <p align="center">
-  <img src="docs/images/09_themes.png" alt="Theme gallery" width="70%">
+  <img src="images/12.png" alt="Theme gallery" width="70%">
 </p>
 
 - Choose from **8 colour themes** (header → 🎨 **Theme**). The choice is saved in `data/processed/prefs.json`.
@@ -262,7 +258,7 @@ worldwide study area. Analyses are skipped with a message when there are fewer t
 ├── data/
 │   ├── raw/                    # original NOAA CSV (never modified)
 │   └── processed/              # country lookup files
-├── docs/images/                # screenshots used in this README
+├── images/                # screenshots used in this README
 └── exports/                    # generated PDF reports
 ```
 

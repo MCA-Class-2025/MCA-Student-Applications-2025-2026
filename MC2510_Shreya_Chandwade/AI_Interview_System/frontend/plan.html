@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Study Plan | InterviewOS</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/static/style.css">
+    <script src="https://unpkg.com/lucide@0.460.0/dist/umd/lucide.min.js"></script>
+</head>
+<body data-auto-mount="true" data-page="plan" data-auth="required">
+    <header id="site-header" class="site-header"></header>
+    <main class="page">
+        <nav class="crumbs" aria-label="Breadcrumb"><a href="/dashboard">Dashboard</a><span>/</span><span>Study plan</span></nav>
+        <div class="page-head">
+            <div>
+                <span class="kicker">7 days</span>
+                <h1>Personalized study plan</h1>
+                <p class="lead" id="planLead">Generated from your recent saved interviews.</p>
+            </div>
+            <button type="button" class="btn btn-primary" id="refreshPlan">Refresh plan</button>
+        </div>
+        <div class="card section" id="planSummary">
+            <div class="progress" aria-hidden="true"><span id="planProgress"></span></div>
+            <p id="planProgressLabel" class="muted">Checking saved interviews.</p>
+            <p id="planFocus" class="muted"></p>
+        </div>
+        <div id="planStatus" class="loading-inline"><span class="spinner"></span> Building your plan.</div>
+        <div id="planDays" class="day-list section"></div>
+    </main>
+    <footer id="site-footer" class="site-footer"></footer>
+    <script src="/static/app.js"></script>
+    <script src="/static/plan.js"></script>
+</body>
+</html>

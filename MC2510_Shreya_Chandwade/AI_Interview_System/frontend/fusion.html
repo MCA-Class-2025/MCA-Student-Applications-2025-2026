@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Fusion | InterviewOS</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/static/style.css">
+    <script src="https://unpkg.com/lucide@0.460.0/dist/umd/lucide.min.js"></script>
+</head>
+<body data-auto-mount="true" data-page="fusion">
+    <header id="site-header" class="site-header"></header>
+    <main class="page">
+        <nav class="crumbs" aria-label="Breadcrumb"><a href="/">Home</a><span>/</span><span>Data fusion</span></nav>
+        <div class="page-head">
+            <div>
+                <span class="kicker">Knowledge pipeline</span>
+                <h1>Three-level data fusion</h1>
+                <p class="lead">Question retrieval combines source records, feature scores, and a final ranking decision before an interview uses that context.</p>
+            </div>
+        </div>
+
+        <section class="fusion-flow" aria-label="Fusion workflow">
+            <article class="fusion-node">
+                <span class="kicker">1</span>
+                <h3>Data-Level Fusion</h3>
+                <p>Database questions, answer knowledge, the question bank, and CSV interview sources are loaded into one record set and deduplicated.</p>
+            </article>
+            <div class="fusion-arrow" aria-hidden="true">→</div>
+            <article class="fusion-node">
+                <span class="kicker">2</span>
+                <h3>Feature-Level Fusion</h3>
+                <p>Each candidate is scored on TF-IDF, lexical overlap, category, skill, difficulty, and metadata. Those features become one normalized feature score.</p>
+            </article>
+            <div class="fusion-arrow" aria-hidden="true">→</div>
+            <article class="fusion-node">
+                <span class="kicker">3</span>
+                <h3>Decision-Level Fusion</h3>
+                <p>The final rank blends the TF-IDF decision, the feature-fusion decision, and source reliability. That rank chooses the context returned for a question.</p>
+            </article>
+        </section>
+
+        <section class="section">
+            <h2>Live fusion status</h2>
+            <div id="fusionStatus" class="stats-grid">
+                <article class="card stat"><span>Status</span><strong>...</strong><span>Loading</span></article>
+            </div>
+        </section>
+    </main>
+    <footer id="site-footer" class="site-footer"></footer>
+    <script src="/static/app.js"></script>
+    <script src="/static/fusion.js"></script>
+</body>
+</html>

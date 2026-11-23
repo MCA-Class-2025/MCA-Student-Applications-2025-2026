@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard | InterviewOS</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/static/style.css">
+    <script src="https://unpkg.com/lucide@0.460.0/dist/umd/lucide.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body data-auto-mount="true" data-page="dashboard" data-auth="required">
+    <header id="site-header" class="site-header"></header>
+    <main class="page">
+        <div class="page-head">
+            <div>
+                <span class="kicker">Workspace</span>
+                <h1>Welcome back, <span id="userName">there</span>.</h1>
+            </div>
+            <div class="header-actions">
+                <a class="btn btn-primary" href="/interview">Quick Start Interview</a>
+                <a class="btn btn-ghost" href="/analytics">View analytics</a>
+            </div>
+        </div>
+
+        <section class="dashboard-grid">
+            <article class="dashboard-card"><h3>Total interviews</h3><p id="totalInterviews">—</p><span class="stat-subtext">Saved sessions</span></article>
+            <article class="dashboard-card"><h3>Average score</h3><p id="averageScore">—</p><span class="stat-subtext">Mean of saved session scores</span></article>
+            <article class="dashboard-card"><h3>Questions completed</h3><p id="questionsCompleted">—</p><span class="stat-subtext">Answers stored with those sessions</span></article>
+            <article class="dashboard-card"><h3>Current skill level</h3><p id="skillLevel">—</p><span class="stat-subtext" id="skillLevelNote">Based on your average score</span><div id="latestRecommendationBadge" class="rec-badge rec-badge-neutral">N/A</div></article>
+        </section>
+
+        <section class="split section">
+            <article class="card chart-card">
+                <h2>Performance</h2>
+                <div id="chartPlaceholder" class="placeholder-box hidden">Complete an interview to see your score trend.</div>
+                <div class="chart-container" id="chartWrapper"><canvas id="scoreTrendChart"></canvas></div>
+            </article>
+            <article class="card">
+                <h2>Skill progress</h2>
+                <div id="skillProgress" class="list"><p class="muted">Loading skill scores from your saved interviews.</p></div>
+            </article>
+        </section>
+
+        <section class="card section">
+            <h2>Recommended next steps</h2>
+            <div id="nextSteps" class="list"><p class="muted">Loading your interview history.</p></div>
+            <div class="actions">
+                <a class="btn btn-ghost" href="/plan">Open study plan</a>
+                <a class="btn btn-ghost" href="/feedback">Latest feedback</a>
+            </div>
+        </section>
+
+        <section class="card section" id="history-section">
+            <div class="page-head">
+                <h2>Recent interviews</h2>
+                <span class="history-count-tag" id="historyCountTag">0 sessions</span>
+            </div>
+            <div id="historyPlaceholder" class="placeholder-box hidden">You have not completed a mock interview yet.</div>
+            <div id="history" class="history-table-container"></div>
+        </section>
+
+        <section class="card section study-plan-card" id="studyPlanSection">
+            <div class="page-head">
+                <div>
+                    <h2>Personalized study plan</h2>
+                    <p>Built from your latest interviews.</p>
+                </div>
+                <button type="button" class="btn btn-primary" onclick="generateStudyPlan()">Generate study plan</button>
+            </div>
+            <div id="studyPlan" class="result-box">Generate a plan after you complete an interview.</div>
+        </section>
+    </main>
+    <footer id="site-footer" class="site-footer"></footer>
+
+    <div id="detailsModal" class="modal-backdrop hidden" onclick="closeModal(event)">
+        <div class="modal-content report-modal-content" onclick="event.stopPropagation()">
+            <div class="modal-header report-modal-header">
+                <div>
+                    <span class="modal-subtitle-tag" id="modalRoleSubtitle">Evaluation report</span>
+                    <h2 id="modalTitle">Interview report</h2>
+                </div>
+                <div class="modal-header-actions">
+                    <button type="button" class="btn btn-ghost" onclick="printReport()">Print</button>
+                    <button type="button" class="modal-close" onclick="toggleDetailsModal(false)" aria-label="Close">×</button>
+                </div>
+            </div>
+            <div class="modal-body" id="modalBody"></div>
+        </div>
+    </div>
+    <script src="/static/app.js"></script>
+    <script src="/static/dashboard.js"></script>
+    <script>
+        function closeModal(event) {
+            if (event.target.id === "detailsModal") toggleDetailsModal(false);
+        }
+    </script>
+</body>
+</html>

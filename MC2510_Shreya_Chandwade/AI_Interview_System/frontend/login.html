@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login | InterviewOS</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/static/style.css">
+    <script src="https://unpkg.com/lucide@0.460.0/dist/umd/lucide.min.js"></script>
+</head>
+<body data-auto-mount="true" data-page="login">
+    <header id="site-header" class="site-header"></header>
+    <main class="page">
+        <div class="auth-wrap">
+            <section>
+                <span class="kicker">Welcome back</span>
+                <h1>Login</h1>
+                <p class="lead">Continue your interviews and study plan.</p>
+            </section>
+            <form class="card auth-card" id="login-form" novalidate>
+                <h2>Login</h2>
+                <label for="email">Email</label>
+                <input id="email" name="email" type="email" autocomplete="email" required placeholder="name@example.com">
+                <label for="password">Password</label>
+                <div class="password-field">
+                    <input id="password" name="password" type="password" autocomplete="current-password" required minlength="6">
+                    <button class="eye-btn" type="button" id="toggle-password" aria-label="Show password"><i data-lucide="eye"></i></button>
+                </div>
+                <p id="form-message" class="form-message" role="alert"></p>
+                <button class="btn btn-primary" type="submit" id="submit-btn">Login</button>
+                <p class="help-row"><a href="/register">Create an account</a><a href="/">Back home</a></p>
+            </form>
+        </div>
+    </main>
+    <footer id="site-footer" class="site-footer"></footer>
+    <script src="/static/app.js"></script>
+    <script>
+        if (App.token()) window.location.href = "/dashboard";
+        const password = document.getElementById("password");
+        document.getElementById("toggle-password").addEventListener("click", () => {
+            password.type = password.type === "password" ? "text" : "password";
+        });
+        document.getElementById("login-form").addEventListener("submit", async (event) => {
+            event.preventDefault();
+            const message = document.getElementById("form-message");
+            const button = document.getElementById("submit-btn");
+            const email = document.getElementById("email").value.trim();
+            message.className = "form-message";
+            message.textContent = "";
+            if (!email.includes("@") || password.value.length < 6) {
+                message.classList.add("error");
+                message.textContent = "Enter a valid email and a password of at least 6 characters.";
+                return;
+            }
+            button.disabled = true;
+            button.textContent = "Signing in...";
+            try {
+                const response = await fetch("/login", {
+                    method: "POST",
+                    headers: { "Content-Type": "application/json" },
+                    body: JSON.stringify({ email, password: password.value })
+                });
+                const data = await response.json();
+                if (!response.ok) {
+                    message.classList.add("error");
+                    message.textContent = App.formatDetail(data);
+                    return;
+                }
+                localStorage.setItem("access_token", data.token);
+                localStorage.setItem("user", JSON.stringify(data.user));
+                window.location.href = "/dashboard";
+            } catch {
+                message.classList.add("error");
+                message.textContent = "Could not reach the server. Try again.";
+            } finally {
+                button.disabled = false;
+                button.textContent = "Login";
+            }
+        });
+    </script>
+</body>
+</html>

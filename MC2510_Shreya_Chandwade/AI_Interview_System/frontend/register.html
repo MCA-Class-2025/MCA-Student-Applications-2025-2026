@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register | InterviewOS</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/static/style.css">
+    <script src="https://unpkg.com/lucide@0.460.0/dist/umd/lucide.min.js"></script>
+</head>
+<body data-auto-mount="true" data-page="register">
+    <header id="site-header" class="site-header"></header>
+    <main class="page">
+        <div class="auth-wrap">
+            <section>
+                <span class="kicker">Create your account</span>
+                <h1>Create your account.</h1>
+                <p class="lead">Practice interviews, review feedback, and track your progress.</p>
+            </section>
+            <form class="card auth-card" id="register-form" novalidate>
+                <h2>Register</h2>
+                <label for="name">Full name</label>
+                <input id="name" name="name" type="text" autocomplete="name" required placeholder="Your name">
+                <label for="email">Email</label>
+                <input id="email" name="email" type="email" autocomplete="email" required placeholder="name@example.com">
+                <label for="password">Password</label>
+                <div class="password-field">
+                    <input id="password" name="password" type="password" autocomplete="new-password" required minlength="6" placeholder="At least 6 characters">
+                    <button class="eye-btn" type="button" id="toggle-password" aria-label="Show password"><i data-lucide="eye"></i></button>
+                </div>
+                <p id="form-message" class="form-message" role="status"></p>
+                <button class="btn btn-primary" type="submit" id="submit-btn">Create account</button>
+                <p class="help-row"><a href="/login">Already registered? Login</a><a href="/">Back home</a></p>
+            </form>
+        </div>
+    </main>
+    <footer id="site-footer" class="site-footer"></footer>
+    <script src="/static/app.js"></script>
+    <script>
+        const password = document.getElementById("password");
+        document.getElementById("toggle-password").addEventListener("click", () => {
+            password.type = password.type === "password" ? "text" : "password";
+        });
+        document.getElementById("register-form").addEventListener("submit", async (event) => {
+            event.preventDefault();
+            const message = document.getElementById("form-message");
+            const button = document.getElementById("submit-btn");
+            const name = document.getElementById("name").value.trim();
+            const email = document.getElementById("email").value.trim();
+            message.className = "form-message";
+            if (name.length < 2 || !email.includes("@") || password.value.length < 6) {
+                message.classList.add("error");
+                message.textContent = "Enter your name, a valid email, and a password of at least 6 characters.";
+                return;
+            }
+            button.disabled = true;
+            button.textContent = "Creating account...";
+            try {
+                const response = await fetch("/register", {
+                    method: "POST",
+                    headers: { "Content-Type": "application/json" },
+                    body: JSON.stringify({ name, email, password: password.value })
+                });
+                const data = await response.json();
+                if (!response.ok) {
+                    message.classList.add("error");
+                    message.textContent = App.formatDetail(data);
+                    return;
+                }
+                message.classList.add("success");
+                message.textContent = "Registration successful. Taking you to login.";
+                setTimeout(() => { window.location.href = "/login"; }, 900);
+            } catch {
+                message.classList.add("error");
+                message.textContent = "Could not reach the server. Try again.";
+            } finally {
+                button.disabled = false;
+                button.textContent = "Create account";
+            }
+        });
+    </script>
+</body>
+</html>

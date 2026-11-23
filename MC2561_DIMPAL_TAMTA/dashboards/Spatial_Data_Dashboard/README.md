@@ -1,4 +1,4 @@
-<h1 align="center">🌊 NOAA Marine Microplastics<br>Spatial Intelligence &amp; Analytics</h1>
+<h1 align="center">🌊 NOAA Marine Microplastics Spatial Intelligence &amp; Analytics</h1>
 
 <p align="center">
   An interactive 8-page Streamlit dashboard that shows <b>where microplastics have been sampled in the world's oceans</b>,

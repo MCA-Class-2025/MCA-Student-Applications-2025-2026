@@ -1,0 +1,13 @@
+# Spatial_Dashboard
+Dataset: US airport traffic + US city populations
+
+## Run in VS Code
+1. Unzip, then File > Open Folder > select `Spatial_Dashboard`
+2. Open the terminal (Ctrl + `) and run:
+   ```
+   pip install -r requirements.txt
+   python spatial_dashboard.py
+   ```
+3. The dashboard opens in your browser automatically. If not, open Dashboard/spatial_dashboard.html by double-clicking it.
+
+Use the tabs at the top to switch sections; hover, zoom and click legends on any chart.

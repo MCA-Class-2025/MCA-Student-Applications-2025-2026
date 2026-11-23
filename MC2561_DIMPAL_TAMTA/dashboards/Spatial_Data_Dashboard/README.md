@@ -181,7 +181,7 @@ data-quality findings) based on the current filters. Choose the charts you want,
 
 <!-- IMAGE 10 (optional): first page of a generated PDF report. Save as images/08b_pdf_report.png -->
 <p align="center">
-  <img src="images/12.png" alt="Example page from the generated PDF report" width="60%">
+  <img src="images/11.png" alt="Example page from the generated PDF report" width="60%">
 </p>
 
 ---

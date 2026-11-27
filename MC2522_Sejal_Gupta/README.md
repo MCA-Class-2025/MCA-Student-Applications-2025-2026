@@ -1,112 +1,328 @@
-# 🚀 Social Media Sentiment Analysis & Toxicity Detection
+# 🛡️ AI Social Media Moderator & Toxicity Detection System
 
-## 📌 Project Overview
+### An Intelligent Multimodal Content Moderation & Safety Platform using Deep Learning, Transformers, OCR, Vision SafeSearch, and LLMs
 
-Social Media Sentiment Analysis & Toxicity Detection is a Python-based project designed to analyze social media comments and identify potentially harmful, toxic, or non-toxic content.
+> **Safeguarding online communities with automated, multimodal, and explainable AI content moderation.**
 
-The application helps users understand online interactions by analyzing text comments, identifying toxicity levels, displaying graphical reports, and generating voice-based analysis reports.
-
-It also supports text extraction from uploaded screenshots, allowing users to analyze comments directly from images.
-
-## 🎯 Project Objectives
-
-- Analyze social media comments automatically.
-- Detect toxic and non-toxic content.
-- Identify potentially harmful language.
-- Display analysis results through interactive graphs.
-- Provide a clear content moderation status.
-- Generate voice reports of analysis results.
-- Support screenshot-based comment extraction and analysis.
-
-## ✨ Key Features
-
-### 1. 💬 Comment Analysis
-- Enter any social media comment.
-- Analyze the submitted text.
-- Display the analysis result and moderation status.
-
-### 2. 🖼️ Screenshot-Based Text Analysis
-- Upload a screenshot containing a social media comment.
-- Extract text from the uploaded image.
-- Review the extracted text before analysis.
-
-### 3. 🛡️ Toxicity Detection & Content Moderation
-- Identify toxic and non-toxic content.
-- Display safe or potentially harmful content status.
-- Provide moderation recommendations.
-- Show fallback analysis when the primary analysis is unavailable.
-
-### 4. 📊 Graphical Visualization
-The application provides graphical representations of analysis results, including:
-
-- Toxicity Level Graph
-- Detected Toxicity Categories
-- Non-Toxic, Toxic, and Unknown classifications
-
-These visualizations make the analysis results easier to understand.
-
-### 5. 🔊 Voice Report Generation
-- Generate an audio report of the analysis.
-- Listen to the voice-based result.
-- Understand moderation findings through audio output.
-
-## ⚙️ Project Workflow
-
-1. User enters a social media comment or uploads a screenshot.
-2. Text is extracted from the uploaded screenshot when applicable.
-3. The extracted or entered text is analyzed.
-4. The application identifies the content moderation result.
-5. Toxicity information is displayed.
-6. Graphs visualize the analysis results.
-7. A voice report can be generated for the analysis.
-
-## 🛠️ Technologies Used
-
-- Python
-- Streamlit (if used in your implementation)
-- Natural Language Processing (NLP)
-- Text Processing
-- Data Visualization
-- Image Text Extraction (OCR, if implemented)
-- Audio / Text-to-Speech (TTS, if implemented)
-
-## 📈 Output and Results
-
-The application displays:
-
-- An AI Analysis Report
-- Comment Analyzed
-- Model Result
-- Moderation Status
-- Toxicity Level Graph
-- Detected Toxicity Categories
-- Voice Report
-
-## 💡 Applications
-
-- Social media content moderation
-- Online comment monitoring
-- Detection of harmful language
-- Digital community safety
-- Online discussion analysis
-- User-generated content analysis
-
-## 🔮 Future Enhancements
-
-- Real-time social media comment monitoring.
-- Integration with social media platforms.
-- Support for multiple languages.
-- Improved toxicity classification.
-- Advanced interactive dashboards.
-- More detailed sentiment analysis.
-
-## 👩‍💻 Author
-
-**Name:** Sejal Gupta  
-**Course:** Master of Computer Applications (MCA)  
-**Project Domain:** Data Science & Machine Learning  
-**Project Title:** Social Media Sentiment Analysis & Toxicity Detection
+[![Python](https://img.shields.io/badge/Python-3.10%2B-blue?logo=python)](https://www.python.org/)
+[![Streamlit](https://img.shields.io/badge/Streamlit-App-red?logo=streamlit)](https://streamlit.io/)
+[![Hugging Face](https://img.shields.io/badge/Model-DeBERTa--v3-yellow?logo=huggingface)](https://huggingface.co/)
+[![Google Gemini](https://img.shields.io/badge/LLM-Gemini%201.5%20Pro-orange?logo=google)](https://deepmind.google/technologies/gemini/)
+[![Google Cloud](https://img.shields.io/badge/Vision-SafeSearch%20API-blue?logo=googlecloud)](https://cloud.google.com/vision)
+[![License](https://img.shields.io/badge/Project-Academic%20Prototype-green)](#)
 
 ---
 
-⭐ If you find this project interesting, don't forget to star this repository!
+## 🌐 Live Project & Dashboard Direct Links
+
+Access the live applications and interactive analytics directly:
+
+| Application / Dashboard | Live URL | Direct Folder |
+|---|---|---|
+| 🛡️ **AI Social Media Moderator (Core Project)** | [Open App (Streamlit Cloud)](https://sejal-gupta-ai-moderator.streamlit.app) | [`src/`](src/) |
+| 📊 **Fused Dataset Analytics Dashboard** | [Open Dashboard (Streamlit Cloud)](https://social-media-fused-analytics-mc2522.streamlit.app) | [`dashboards/Fused_Dataset_Dashboard/`](dashboards/Fused_Dataset_Dashboard/) |
+| 🌊 **Spatial Data Dashboard (Microplastics)** | [Open Dashboard (Streamlit Cloud)](https://noaa-marine-spatial-mc2522.streamlit.app) | [`dashboards/Spatial_Data_Dashboard/`](dashboards/Spatial_Data_Dashboard/) |
+| 📈 **Temporal Data Dashboard (Commodities)** | [Open Dashboard (Streamlit Cloud)](https://commodity-temporal-mc2522.streamlit.app) | [`dashboards/Temporal_Data_Dashboard/`](dashboards/Temporal_Data_Dashboard/) |
+| ⚡ **Vercel Web Portal Launcher** | [Open Vercel Portal](https://sejal-gupta-ai-moderator.vercel.app) | [`link/`](link/) |
+
+> 📁 **Direct Links Folder:** For all one-click launch files and Vercel hosting files, visit the **[`link/`](link/)** directory.  
+> 🔗 **Vercel Account:** [https://vercel.com/sejal-gupta](https://vercel.com/sejal-gupta)
+
+---
+
+## 📌 Executive Summary
+
+**AI Social Media Moderator** is a comprehensive, multimodal AI application designed to detect, classify, and moderate toxic, harmful, offensive, and dangerous user-generated content across social media platforms.
+
+Traditional moderation systems rely heavily on static keyword blocklists that fail against linguistic nuances, slang, screenshots, and vernacular languages. This platform solves these challenges by combining:
+1. **Multimodal Ingestion**: Direct text entry and screenshot upload analysis via **Optical Character Recognition (OCR)**.
+2. **Visual Content Safety**: Image inspection for adult, violent, racy, medical, and spoof signals using **Google Cloud Vision SafeSearch**.
+3. **Multilingual Processing**: Automatic translation of Hindi and Gujarati comments to English via **MyMemory Translation API**.
+4. **Deep Transformer Inference**: Zero-shot classification powered by `mDeBERTa-v3-base-xnli` for nuanced toxicity detection.
+5. **Contextual LLM Reasoning**: Natural-language decision explanations and risk assessments generated by **Google Gemini LLM**.
+6. **Auditory Feedback**: Voice-synthesized audio reports generated using **Google Text-to-Speech (gTTS)**.
+
+---
+
+## ✨ Key Capabilities & Features
+
+### 💬 1. Text & Screenshot Comment Moderation
+- Analyze text comments or extract readable text from uploaded screenshots (`PNG`, `JPG`, `JPEG`).
+- Review and refine extracted OCR text in an interactive text area before triggering analysis.
+
+### 👁️ 2. Visual Safety Verification
+- Evaluate uploaded images with Google Cloud Vision SafeSearch across 5 distinct risk categories:
+  - *Adult Content*
+  - *Violence & Graphic Content*
+  - *Racy Imagery*
+  - *Medical / Sensitive Content*
+  - *Spoof / Manipulated Content*
+
+### 🌐 3. Multilingual Translation
+- Support for vernacular Indian languages (Hindi, Gujarati) translated on-the-fly to English for accurate downstream classification.
+
+### 🛡️ 4. Fine-Grained Toxicity Categorization
+- Detection and scoring across critical toxicity dimensions:
+  - Toxic
+  - Severe Toxic
+  - Obscene / Profanity
+  - Threat & Harassment
+  - Insult
+  - Identity-Based Hate
+
+### 🤖 5. Explainable AI (XAI) via Gemini LLM
+- Generates transparent, human-readable rationales justifying why content was flagged or cleared.
+- Categorizes risk severity into **Low**, **Medium**, or **High** with actionable moderation recommendations.
+
+### 🔊 6. Auditory Voice Summary
+- Converts the final moderation decision and reasoning into an audio stream (`MP3`) for hands-free listening and accessibility.
+
+---
+
+## 🏗️ System Workflow Architecture
+
+```text
+       ┌────────────────────────┐      ┌─────────────────────────┐
+       │   Text Comment Input   │      │ Screenshot Image Upload │
+       └───────────┬────────────┘      └────────────┬────────────┘
+                   │                                │
+                   │                     ┌──────────┴──────────┐
+                   │                     ▼                     ▼
+                   │              ┌──────────────┐      ┌──────────────┐
+                   │              │   OCR API    │      │Google Vision │
+                   │              │Text Extract  │      │  SafeSearch  │
+                   │              └──────┬───────┘      └──────┬───────┘
+                   │                     │                     │
+                   ▼                     ▼                     │
+       ┌────────────────────────────────────────┐              │
+       │ Multilingual Detection & Translation   │              │
+       │        (English / Hindi / Gujarati)    │              │
+       └───────────────────┬────────────────────┘              │
+                           │                                   │
+                           ▼                                   │
+       ┌────────────────────────────────────────┐              │
+       │   Preprocessing & Text Sanitization    │              │
+       └───────────────────┬────────────────────┘              │
+                           │                                   │
+               ┌───────────┴───────────┐                       │
+               ▼                       ▼                       │
+       ┌───────────────┐       ┌───────────────┐               │
+       │ Hugging Face  │       │ Google Gemini │               │
+       │ DeBERTa Model │       │  LLM Reasoner │               │
+       └───────┬───────┘       └───────┬───────┘               │
+               │                       │                       │
+               └───────────┬───────────┘                       │
+                           ▼                                   │
+       ┌────────────────────────────────────────┐              │
+       │     Unified Content Decision Engine    │◄─────────────┘
+       └───────────────────┬────────────────────┘
+                           │
+               ┌───────────┴───────────┐
+               ▼                       ▼
+       ┌───────────────┐       ┌───────────────┐
+       │Streamlit Cards│       │ gTTS Voice    │
+       │  & Metrics    │       │ Audio Report  │
+       └───────────────┘       └───────────────┘
+```
+
+---
+
+## 📊 Analytical Dashboards Suite
+
+The `dashboards/` directory contains three complete, independent Streamlit dashboards:
+
+### 1. 🛡️ Fused Dataset Dashboard (`dashboards/Fused_Dataset_Dashboard/`)
+- **Application**: `Social_Media_Fused_Dataset_Analytics`
+- **Focus**: Multi-page deep-dive analytics into the multimodal fused dataset (`Final_fused_dataset.csv`).
+- **Pages**:
+  - `app.py`: Overview KPIs, toxicity breakdown donut, sentiment vs toxicity scatter, sample inspector.
+  - `pages/1_Toxicity_Analysis.py`: Toxicity subcategory correlation matrix and multi-flag co-occurrence.
+  - `pages/2_Sentiment_and_Emotions.py`: Polarity distribution and multilingual sentiment cross-tabulation.
+  - `pages/3_Vision_and_Multimodal_Safety.py`: SafeSearch likelihood distributions and risk matrix.
+  - `pages/4_LLM_Gemini_Decisions.py`: Hierarchical decision sunburst chart and category analysis.
+  - `pages/5_Dataset_Explorer_and_Statistics.py`: Searchable table, summary statistics, and CSV export.
+
+### 2. 🌊 Spatial Data Dashboard (`dashboards/Spatial_Data_Dashboard/`)
+- **Application**: `NOAA_Marine_Microplastics_Spatial_Analytics`
+- **Focus**: Worldwide microplastic observations (29,075 records), kernel density estimation, hot-spot clustering, and interactive world/country maps.
+
+### 3. 📈 Temporal Data Dashboard (`dashboards/Temporal_Data_Dashboard/`)
+- **Application**: `Historical_Temporal_Dataset_Commodity_Dashboard`
+- **Focus**: 18-commodity historical OHLCV market analysis, time-series volatility, seasonality, ribbon charts, and risk metrics.
+
+---
+
+## 📂 Datasets (`datasets/`)
+
+| Dataset Name | File Path | Records | Columns | Description |
+|---|---|---|---|---|
+| **API Fusion Dataset** | `datasets/API_Fusion_Dataset.csv` | 200 | 25 | Fused multimodal dataset uniting text, sentiment, toxicity, OCR, SafeSearch, and LLM decisions. |
+| **Final Fused Dataset** | `datasets/Final_fused_dataset.csv` | 200 | 25 | Identical unified dataset bundled for pipeline verification and dashboard ingestion. |
+| **Benchmark Toxicity Dataset** | `datasets/Original_Dataset(Toxic_Comment_Classification).csv` | 159,571 | 8 | Benchmark Kaggle Jigsaw Toxic Comment dataset with multilabel toxicity annotations. |
+
+---
+
+## 📓 Jupyter Notebooks (`notebooks/`)
+
+1. **`Social_Media_Fused_Dataset_EDA_and_Algorithm_Analysis.ipynb`**:
+   - Comprehensive exploratory analysis of the fused multimodal dataset.
+   - Machine Learning algorithm benchmarking: **Logistic Regression**, **Multinomial Naive Bayes**, and **Random Forest Classifier** with TF-IDF vectorization.
+   - Classification reports, confusion matrices, and LLM decision evaluation.
+
+2. **`Original_Toxic_Comment_Dataset_EDA.ipynb`**:
+   - In-depth text diagnostics and multilabel analysis on the 159,571-comment benchmark dataset.
+   - Character length, word count distributions, label co-occurrence, and class imbalance studies.
+
+---
+
+## 📄 Academic Reports & Lab Practicals (`reports/`)
+
+- 📘 **`AI_Social_Media_Moderator_Project_Report_Sejal_Gupta_MCA_MC2522.pdf`**: Complete Phase 1 Academic Project Report submitted for MCA Semester III.
+- 📝 **`Phase1_Report_AI_Social_Media_Moderator_Sejal_Gupta_MC2522.docx`**: Editable Microsoft Word version of the Phase 1 Project Report.
+- 🔬 **`Practical3_LLM_API_Usage_Sejal_Gupta_MC2522.docx`**: Dedicated Practical 3 Laboratory Report on Large Language Models (LLM) and API usage (Gemini, Vision, OCR, Translation).
+- 📕 **`Sejal_Gupta_Phase_1_Report.pdf`**: Preserved original submission PDF.
+
+---
+
+## 🗂️ Complete Repository Tree
+
+```text
+MC2522_Sejal_Gupta/
+│
+├── README.md                                                   # Root repository documentation
+├── .gitignore                                                  # Git exclusion rules
+│
+├── link/                                                       # Direct Project & Dashboard Links & Vercel Portal
+│   ├── index.html                                              # Interactive Vercel web portal launcher
+│   ├── vercel.json                                             # Vercel deployment configuration
+│   ├── README.md                                               # Links directory documentation
+│   ├── DEPLOYMENT_GUIDE.md                                     # Step-by-step Vercel & Streamlit Cloud hosting guide
+│   ├── 1_AI_Social_Media_Moderator.url                         # Windows direct shortcut to core app
+│   ├── 2_Fused_Dataset_Dashboard.url                           # Windows direct shortcut to fused dashboard
+│   ├── 3_Spatial_Data_Dashboard.url                            # Windows direct shortcut to spatial dashboard
+│   ├── 4_Temporal_Data_Dashboard.url                           # Windows direct shortcut to temporal dashboard
+│   └── 5_Vercel_Account_Profile.url                            # Direct shortcut to Sejal Gupta Vercel account
+│
+├── src/                                                        # Core Web Application
+│   ├── app.py                                                  # Streamlit moderation application
+│   ├── requirements.txt                                        # Application dependencies
+│   ├── requirements_backup.txt                                 # Freeze of environment packages
+│   ├── .env.example                                            # API key template
+│   ├── README.md                                               # Detailed application documentation
+│   ├── LICENSE                                                 # MIT License
+│   ├── api/                                                    # External API client wrappers
+│   │   ├── gemini_api.py                                       # Google Gemini LLM API client
+│   │   ├── ocr_api.py                                          # OCR character extraction client
+│   │   ├── translation_api.py                                  # Multilingual translation client
+│   │   └── vision_api.py                                       # Google Vision SafeSearch client
+│   ├── models/                                                 # Model interfaces and prompt engineering
+│   │   ├── gemini_model.py                                     # Gemini prompt and response parser
+│   │   └── llm.py                                              # General LLM interface
+│   ├── src/                                                    # Core moderation module
+│   │   └── moderator.py                                        # DeBERTa inference & moderation pipeline
+│   ├── utils/                                                  # Data preprocessing helpers
+│   │   └── preprocess.py                                       # Text cleaning and regex utilities
+│   ├── vectorstore/                                            # Vector retrieval
+│   │   └── faiss_store.py                                      # FAISS vector database wrapper
+│   ├── embeddings/                                             # Embedding utilities
+│   │   └── embedding_model.py                                  # Text embeddings generator
+│   └── tests/                                                  # Modular unit tests
+│       ├── test_gemini.py
+│       ├── test_huggingface.py
+│       ├── test_ocr.py
+│       ├── test_translation.py
+│       └── test_vision.py
+│
+├── dashboards/                                                 # Analytical Dashboards
+│   ├── Fused_Dataset_Dashboard/                                # Fused Social Media Dashboard
+│   │   ├── README.md
+│   │   └── Social_Media_Fused_Dataset_Analytics/
+│   │       ├── app.py
+│   │       ├── requirements.txt
+│   │       ├── README.md
+│   │       ├── data/
+│   │       │   └── Final_fused_dataset.csv
+│   │       ├── modules/
+│   │       │   ├── charts.py
+│   │       │   ├── data.py
+│   │       │   └── ui.py
+│   │       └── pages/
+│   │           ├── 1_Toxicity_Analysis.py
+│   │           ├── 2_Sentiment_and_Emotions.py
+│   │           ├── 3_Vision_and_Multimodal_Safety.py
+│   │           ├── 4_LLM_Gemini_Decisions.py
+│   │           └── 5_Dataset_Explorer_and_Statistics.py
+│   ├── Spatial_Data_Dashboard/                                 # NOAA Microplastics Spatial Dashboard
+│   │   ├── README.md
+│   │   └── NOAA_Marine_Microplastics_Spatial_Analytics/
+│   └── Temporal_Data_Dashboard/                                # Commodity Market Temporal Dashboard
+│       ├── README.md
+│       └── Historical_Temporal_Dataset_Commodity_Dashboard/
+│
+├── datasets/                                                   # Raw & Fused Datasets
+│   ├── API_Fusion_Dataset.csv                                  # Fused dataset (200 records x 25 cols)
+│   ├── Final_fused_dataset.csv                                 # Backup copy of fused dataset
+│   └── Original_Dataset(Toxic_Comment_Classification).csv       # Benchmark toxic comment dataset
+│
+├── notebooks/                                                  # Jupyter EDA & ML Notebooks
+│   ├── Social_Media_Fused_Dataset_EDA_and_Algorithm_Analysis.ipynb
+│   └── Original_Toxic_Comment_Dataset_EDA.ipynb
+│
+└── reports/                                                    # Academic Project Reports & Practicals
+    ├── AI_Social_Media_Moderator_Project_Report_Sejal_Gupta_MCA_MC2522.pdf
+    ├── Phase1_Report_AI_Social_Media_Moderator_Sejal_Gupta_MC2522.docx
+    ├── Practical3_LLM_API_Usage_Sejal_Gupta_MC2522.docx
+    └── Sejal_Gupta_Phase_1_Report.pdf
+```
+
+---
+
+## 🚀 Quick Start Guide
+
+### 1. Clone the Repository
+```bash
+git clone https://github.com/<your-username>/MC2522_Sejal_Gupta.git
+cd MC2522_Sejal_Gupta
+```
+
+### 2. Set Up Virtual Environment
+```bash
+python -m venv venv
+
+# Windows:
+venv\Scripts\activate
+
+# Linux / macOS:
+source venv/bin/activate
+```
+
+### 3. Run the Core Web Application
+```bash
+cd src
+pip install -r requirements.txt
+streamlit run app.py
+```
+
+### 4. Run the Fused Dataset Analytics Dashboard
+```bash
+cd dashboards/Fused_Dataset_Dashboard/Social_Media_Fused_Dataset_Analytics
+pip install -r requirements.txt
+streamlit run app.py
+```
+
+---
+
+## 👩‍🎓 Academic Credentials & Metadata
+
+- **Candidate Name:** Sejal Gupta
+- **Roll Number:** MC2522
+- **Degree:** Master of Computer Applications (MCA) – Semester III
+- **Academic Year:** 2026 – 2027
+- **Course:** Data Science and Analytics
+- **Faculty In-Charge:** Dr. Anita Chaware
+- **Department:** P.G. Department of Computer Science
+- **University:** SNDT Women's University, Mumbai, Maharashtra, India
+
+---
+
+⭐ *If you find this project valuable, please consider starring this repository!*

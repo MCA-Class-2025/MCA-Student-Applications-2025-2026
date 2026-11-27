@@ -28,25 +28,25 @@ What this dashboard is for: understanding what information is available in the F
 A. Overview
 The Overview section provides a quick picture of the image dataset and its species composition.
 
-Images by species — horizontal bar chart
+# Images by species — horizontal bar chart
 - Shows the number of image records available for each fish species.
 - A longer bar means that more image records are available for that species.
 - Use it to identify which classes have more images and which classes have fewer images.
 - Why it matters: uneven class counts can affect how a machine-learning image classifier learns. This chart describes the dataset distribution; it does not by itself measure model accuracy.
-Train / test composition — donut chart
+# Train / test composition — donut chart
 - Shows how image records are divided between the training and testing splits.
 - The slices represent the share of records assigned to each split.
 - Use it to check the overall split composition.
 - Why it matters: training data is used to fit a model, while testing data is held out to evaluate it. A split chart does not prove that the split is free from data leakage.
-Image share — treemap
+# Image share — treemap
 - Shows each species' contribution to the total image collection as differently sized rectangles.
 - Larger rectangles represent a larger share of image records.
 - Use it to compare class representation at a glance.
-GBIF occurrences vs country coverage — bubble chart
+# GBIF occurrences vs country coverage — bubble chart
 - Compares the number of GBIF occurrence records with the number of countries represented for each species.
 - Each bubble represents a species; bubble size provides an additional visual cue for occurrence volume.
 - Use it to see whether a species with many occurrence records also has broad country coverage.
 - This is a comparison of the GBIF enrichment sample, not a direct estimate of wild population size.
-Automatic EDA observations
+# Automatic EDA observations
 - Presents short observations calculated from the supplied data.
 - Treat these as descriptive findings that help direct further investigation, rather than as causal explanations or scientific conclusions.

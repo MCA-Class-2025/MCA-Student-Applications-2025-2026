@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fused Dataset | InterviewOS</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/static/style.css">
+    <script src="https://unpkg.com/lucide@0.460.0/dist/umd/lucide.min.js"></script>
+</head>
+<body data-auto-mount="true" data-page="dataset" data-auth="required">
+    <header id="site-header" class="site-header"></header>
+    <main class="page">
+        <nav class="crumbs" aria-label="Breadcrumb"><a href="/dashboard">Dashboard</a><span>/</span><span>Fused dataset</span></nav>
+        <div class="page-head">
+            <div>
+                <h1>Fused dataset</h1>
+                <p class="lead">Search stored interview rows.</p>
+            </div>
+            <a class="btn btn-ghost" href="/fusion">Fusion overview</a>
+        </div>
+        <section class="dashboard-grid">
+            <article class="dashboard-card"><h3>Total records</h3><p id="totalRecords">—</p><span class="stat-subtext">Current CSV rows</span></article>
+            <article class="dashboard-card"><h3>Original rows</h3><p id="originalRecords">—</p><span class="stat-subtext">Existing source rows</span></article>
+            <article class="dashboard-card"><h3>Student interviews</h3><p id="studentRecords">—</p><span class="stat-subtext">Appended answer rows</span></article>
+        </section>
+        <section class="card section">
+            <div class="fused-controls">
+                <input id="datasetSearch" type="search" placeholder="Search role, skill, question, answer" aria-label="Search fused dataset">
+                <select id="sourceFilter" aria-label="Filter by source">
+                    <option value="">All sources</option>
+                    <option value="interview_dataset">interview_dataset</option>
+                    <option value="coding_interview_question_bank">coding_interview_question_bank</option>
+                    <option value="programming_questions_solutions">programming_questions_solutions</option>
+                    <option value="software_questions">software_questions</option>
+                    <option value="student_interview">student_interview</option>
+                </select>
+                <input id="roleFilter" type="search" placeholder="Filter job role" aria-label="Filter by job role">
+                <select id="sortRecords" aria-label="Sort records">
+                    <option value="date_desc">Newest first</option>
+                    <option value="date_asc">Oldest first</option>
+                    <option value="score_desc">Highest score</option>
+                    <option value="score_asc">Lowest score</option>
+                </select>
+                <button id="refreshDataset" class="btn btn-primary" type="button">Refresh</button>
+            </div>
+            <div id="datasetStatus" class="dataset-status" role="status"></div>
+            <div class="history-table-container">
+                <table class="history-table">
+                    <thead>
+                        <tr><th>Source</th><th>Job role</th><th>Question</th><th>Answer</th><th>Score</th><th>Percentage</th><th>Date</th></tr>
+                    </thead>
+                    <tbody id="datasetRows"></tbody>
+                </table>
+            </div>
+        </section>
+    </main>
+    <footer id="site-footer" class="site-footer"></footer>
+    <script src="/static/app.js"></script>
+    <script src="/static/fused_dataset.js"></script>
+</body>
+</html>

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Feedback | InterviewOS</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/static/style.css">
+    <script src="https://unpkg.com/lucide@0.460.0/dist/umd/lucide.min.js"></script>
+</head>
+<body data-auto-mount="true" data-page="feedback" data-auth="required">
+    <header id="site-header" class="site-header"></header>
+    <main class="page">
+        <nav class="crumbs" aria-label="Breadcrumb"><a href="/dashboard">Dashboard</a><span>/</span><span>Feedback</span></nav>
+        <div class="page-head">
+            <div>
+                <span class="kicker">Evaluation</span>
+                <h1>AI feedback</h1>
+                <p class="lead" id="feedbackLead"></p>
+            </div>
+            <a class="btn btn-ghost" href="/dashboard">Return to dashboard</a>
+        </div>
+        <div id="feedbackStatus" class="loading-inline"><span class="spinner"></span> Loading the latest saved evaluation.</div>
+        <div id="feedbackContent" class="hidden"></div>
+    </main>
+    <footer id="site-footer" class="site-footer"></footer>
+    <script src="/static/app.js"></script>
+    <script src="/static/feedback.js"></script>
+</body>
+</html>

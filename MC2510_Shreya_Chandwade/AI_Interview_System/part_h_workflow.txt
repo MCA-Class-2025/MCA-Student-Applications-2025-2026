@@ -1,0 +1,131 @@
+PART H — LLM/RAG INTEGRATION WORKFLOW
+
+The final fused dataset is used as the knowledge source for the
+enhanced LLM/RAG application.
+
+PIPELINE
+
+Final Fused CSV
+    |
+    v
+Data Preparation
+    |
+    v
+API Match Quality Filtering
+    |
+    v
+Duplicate Removal
+    |
+    v
+Enriched Record Creation
+    |
+    v
+Similarity-Based Retrieval
+    |
+    v
+LLM-Ready Prompt
+    |
+    v
+LLM / RAG Application
+    |
+    v
+Enhanced Interview Response
+
+
+DATA PREPARATION
+
+Input:
+final_api_enriched_interview_dataset.csv
+
+Original dataset records: 1947
+API matched records: 273
+
+The fused CSV contains the original interview information together
+with Stack Overflow API-derived information.
+
+
+QUALITY FILTERING
+
+The retrieval system applies a minimum similarity threshold of 0.3.
+
+Weak matches are excluded.
+
+Duplicate question/API pairs are removed.
+
+This prevents low-quality or repeated external information from
+being unnecessarily passed to the LLM.
+
+
+RECORD CREATION
+
+Each usable fused record contains interview information such as:
+
+- question
+- category
+- difficulty
+- skill
+
+and API-derived information such as:
+
+- Stack Overflow title
+- Stack Overflow tags
+- Stack Overflow score
+- answer count
+- answered status
+- view count
+- Stack Overflow link
+- text similarity
+- match quality
+
+
+RETRIEVAL
+
+When a candidate submits an interview question, the system searches
+the enriched dataset for relevant records.
+
+The retrieved records are filtered using similarity and match-quality
+information.
+
+
+LLM-READY CONTEXT
+
+The retrieved information is converted into an LLM-ready prompt.
+
+The prompt instructs the LLM to use the validated external technical
+context as supporting information and not to treat Stack Overflow
+metadata as the candidate's answer.
+
+
+EXAMPLE
+
+Question:
+Explain event delegation in JavaScript.
+
+Retrieved external context:
+
+Stack Overflow title:
+What is DOM Event delegation?
+
+Tags:
+javascript, event-handling, dom-events, event-delegation
+
+Score:
+276
+
+Answers:
+10
+
+Answered:
+True
+
+External reference:
+Stack Overflow question link
+
+
+RESULT
+
+The external API information becomes available to the LLM as
+additional technical context.
+
+The enhanced system therefore has access to information that was
+not available in the original interview dataset.

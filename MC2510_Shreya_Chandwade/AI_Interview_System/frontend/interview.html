@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mock Interview | InterviewOS</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/static/style.css">
+    <script src="https://unpkg.com/lucide@0.460.0/dist/umd/lucide.min.js"></script>
+</head>
+<body data-auto-mount="true" data-page="interview" data-auth="required">
+    <header id="site-header" class="site-header"></header>
+    <main class="page">
+        <nav class="crumbs" aria-label="Breadcrumb"><a href="/dashboard">Dashboard</a><span>/</span><span>Mock interview</span></nav>
+
+        <section id="setupSection" class="card">
+            <div class="page-head">
+                <div>
+                    <span class="kicker">Configure</span>
+                    <h1>Start a mock interview</h1>
+                    <p>Choose a role, skills, and difficulty, then answer one question at a time.</p>
+                </div>
+            </div>
+
+            <div class="resume-upload-section">
+                <h2>Resume <span class="muted">(optional PDF)</span></h2>
+                <div class="resume-upload-area" id="resumeDropZone">
+                    <input type="file" id="resumeFile" accept=".pdf" hidden onchange="handleResumeSelect(event)">
+                    <div class="upload-placeholder" id="uploadPlaceholder">
+                        <p>Drop a text-based PDF here, or <button type="button" class="link-btn" onclick="document.getElementById('resumeFile').click()">browse files</button></p>
+                        <small>Maximum 5 MB</small>
+                    </div>
+                    <div id="resumeProcessing" class="resume-processing hidden"><span class="spinner"></span> Reading resume...</div>
+                </div>
+                <div id="resumeResults" class="resume-results hidden">
+                    <div class="student-details-grid">
+                        <div><small>Inferred role</small><strong id="resumeInferredRole">—</strong></div>
+                        <div><small>Experience</small><strong id="resumeExperience">—</strong></div>
+                        <div><small>Skills detected</small><strong id="resumeSkillCount">0</strong></div>
+                    </div>
+                    <div id="resumeSkillsTags" class="skill-pills"></div>
+                    <pre id="resumeTextPreview" class="hidden"></pre>
+                </div>
+            </div>
+
+            <div class="setup-grid">
+                <div>
+                    <label for="roleSelect">Job role</label>
+                    <select id="roleSelect">
+                        <option>Software Developer</option>
+                        <option>Java Developer</option>
+                        <option>Python Developer</option>
+                        <option>Frontend Developer</option>
+                        <option>Backend Developer</option>
+                        <option>Full Stack Developer</option>
+                        <option>Data Analyst</option>
+                        <option value="custom">Other role</option>
+                    </select>
+                </div>
+                <div id="customRoleField" class="hidden">
+                    <label for="jobRole">Custom role</label>
+                    <input id="jobRole" type="text" value="Software Developer">
+                </div>
+                <div>
+                    <label for="experience">Experience</label>
+                    <select id="experience">
+                        <option>Fresher</option>
+                        <option>0-2 years</option>
+                        <option>2-5 years</option>
+                        <option>5+ years</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="interviewMode">Answer mode</label>
+                    <select id="interviewMode">
+                        <option value="text">Text</option>
+                        <option value="voice">Voice</option>
+                        <option value="mixed">Mixed text and voice</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="difficulty">Difficulty</label>
+                    <select id="difficulty">
+                        <option value="easy">Easy</option>
+                        <option value="medium" selected>Medium</option>
+                        <option value="hard">Hard</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="questionCount">Number of questions</label>
+                    <select id="questionCount">
+                        <option value="3">3</option>
+                        <option value="5">5</option>
+                        <option value="7" selected>7</option>
+                    </select>
+                </div>
+            </div>
+
+            <label>Technical skills</label>
+            <div class="chips" id="skillChips">
+                <button type="button" class="chip" data-skill="Python">Python</button>
+                <button type="button" class="chip" data-skill="Java">Java</button>
+                <button type="button" class="chip" data-skill="JavaScript">JavaScript</button>
+                <button type="button" class="chip" data-skill="SQL">SQL</button>
+                <button type="button" class="chip" data-skill="DSA">DSA</button>
+                <button type="button" class="chip" data-skill="React">React</button>
+                <button type="button" class="chip" data-skill="System Design">System Design</button>
+                <button type="button" class="chip" data-skill="OOP">OOP</button>
+            </div>
+            <label for="skills">Selected skills</label>
+            <input id="skills" type="text" placeholder="Example: Python, SQL, DSA">
+
+            <div class="actions">
+                <button type="button" class="btn btn-ghost" onclick="analyzeSkills()">Analyze my skills</button>
+                <button type="button" id="resumeInterviewBtn" class="btn btn-ghost hidden" onclick="startResumeInterview()">Start resume interview</button>
+                <button type="button" id="startInterviewBtn" class="btn btn-primary" onclick="startInterview()">Start interview</button>
+            </div>
+            <div id="skillAnalysis" class="result-box hidden"></div>
+            <p id="setupError" class="error" role="alert"></p>
+        </section>
+
+        <section id="interviewSection" class="card hidden">
+            <div class="interview-toolbar">
+                <strong id="questionNumber">Question 1</strong>
+                <span id="jobRoleDisplay"></span>
+            </div>
+            <div class="round-stepper" id="roundStepper">
+                <div class="round-step active" data-round="1"><div class="step-circle">1</div><span>Technical</span></div>
+                <div class="step-line"></div>
+                <div class="round-step" data-round="2"><div class="step-circle">2</div><span>Coding</span></div>
+                <div class="step-line"></div>
+                <div class="round-step" data-round="3"><div class="step-circle">3</div><span>HR</span></div>
+            </div>
+            <div class="progress" aria-hidden="true"><div id="progressBar" class="progress-bar"></div></div>
+            <div class="question-meta">
+                <span id="roundBadge" class="badge">Round</span>
+                <span id="questionTypeBadge" class="badge">Text</span>
+            </div>
+            <h2>Question</h2>
+            <div id="question" class="question-box"></div>
+
+            <div id="voicePanel" class="voice-panel hidden">
+                <div class="voice-controls">
+                    <button type="button" id="speakQuestionBtn" class="btn btn-ghost" onclick="speakQuestion()">Read question aloud</button>
+                    <button type="button" id="micButton" class="btn mic-btn" onclick="toggleVoiceRecording()" aria-pressed="false">
+                        <span id="micLabel">Start speaking</span>
+                    </button>
+                </div>
+                <div id="voiceStatus" class="voice-status">Use the microphone to dictate an answer.</div>
+                <div id="voiceWaveform" class="voice-waveform hidden"><span></span><span></span><span></span><span></span><span></span></div>
+            </div>
+
+            <div id="textAnswerPanel">
+                <label for="answer">Your answer</label>
+                <textarea id="answer" rows="8" placeholder="Write your answer here"></textarea>
+            </div>
+            <div id="codingPanel" class="hidden">
+                <label for="codeEditor">Your code <span id="codeLanguage" class="code-lang">Python</span></label>
+                <textarea id="codeEditor" class="code-editor" rows="12" spellcheck="false" placeholder="# Write your solution here"></textarea>
+                <div id="testCaseInfo" class="test-case-info"></div>
+            </div>
+
+            <div class="interview-actions">
+                <button type="button" id="prevButton" class="btn btn-ghost" onclick="previousQuestion()">Previous</button>
+                <button type="button" id="submitButton" onclick="submitAnswer()">Submit answer</button>
+            </div>
+
+            <div id="evaluation" class="evaluation hidden">
+                <h2>Evaluation</h2>
+                <div id="sentimentPanel" class="sentiment-panel hidden">
+                    <div class="sentiment-card"><span>Sentiment</span><strong id="sentimentValue">—</strong></div>
+                    <div class="sentiment-card"><span>Confidence</span><strong id="confidenceValue">—</strong></div>
+                    <div class="sentiment-card"><span>Score</span><strong id="questionScoreValue">—</strong></div>
+                </div>
+                <div id="evaluationText"></div>
+                <div id="idealAnswerPanel" class="ideal-answer-panel hidden">
+                    <h3>Ideal answer</h3>
+                    <div id="idealAnswerText" class="ideal-answer-text"></div>
+                </div>
+                <button type="button" id="nextButton" onclick="nextQuestion()">Next question</button>
+            </div>
+        </section>
+
+        <section id="roundTransition" class="card hidden">
+            <h2 id="roundCompleteTitle">Round complete</h2>
+            <p id="roundCompleteMsg"></p>
+            <div id="roundScoreSummary"></div>
+            <button type="button" onclick="continueToNextRound()">Continue</button>
+        </section>
+
+        <section id="resultSection" class="card hidden">
+            <span class="kicker">Completed</span>
+            <h2>Interview complete</h2>
+            <p id="fusedDatasetSaveStatus" class="dataset-status hidden" role="status"></p>
+            <div class="score-overview-grid">
+                <div class="overall-score">
+                    <span>Overall score</span>
+                    <div id="overallScore">0%</div>
+                    <div class="overall-progress-track"><div id="overallProgressBar" class="overall-progress-fill"></div></div>
+                </div>
+                <div class="summary-stat"><span>Answers scored</span><strong id="scoredAnswerCount">0</strong></div>
+                <div class="summary-stat"><span>Best answer</span><strong id="bestAnswerScore">0%</strong></div>
+            </div>
+            <p class="muted">Rounds covered: <strong id="completedRoundCount">0</strong></p>
+            <h3>Round breakdown</h3>
+            <div id="roundResultsSummary" class="list"></div>
+            <h3>Answer scores</h3>
+            <div id="scoreList" class="list"></div>
+            <h3>Summary</h3>
+            <div id="feedbackSummary"></div>
+            <div id="aiFeedbackSummary" class="result-box hidden"></div>
+            <div class="actions">
+                <a class="btn btn-primary" href="/feedback">View detailed feedback</a>
+                <a class="btn btn-ghost" href="/analytics">Performance analytics</a>
+                <a class="btn btn-ghost" href="/plan">Study plan</a>
+                <button type="button" class="btn btn-ghost" onclick="restartInterview()">Start another interview</button>
+            </div>
+        </section>
+    </main>
+    <footer id="site-footer" class="site-footer"></footer>
+    <script src="/static/app.js"></script>
+    <script src="/static/script.js"></script>
+    <script>
+        const roleSelect = document.getElementById("roleSelect");
+        const jobRole = document.getElementById("jobRole");
+        const customRoleField = document.getElementById("customRoleField");
+        roleSelect.addEventListener("change", () => {
+            const custom = roleSelect.value === "custom";
+            customRoleField.classList.toggle("hidden", !custom);
+            if (!custom) jobRole.value = roleSelect.value;
+            else {
+                jobRole.value = "";
+                jobRole.focus();
+            }
+        });
+        document.getElementById("skillChips").addEventListener("click", (event) => {
+            const chip = event.target.closest(".chip");
+            if (!chip) return;
+            chip.classList.toggle("selected");
+            const selected = [...document.querySelectorAll(".chip.selected")].map((item) => item.dataset.skill);
+            const typed = document.getElementById("skills").value.split(",").map((item) => item.trim()).filter(Boolean);
+            const custom = typed.filter((item) => !["Python","Java","JavaScript","SQL","DSA","React","System Design","OOP"].includes(item));
+            document.getElementById("skills").value = [...selected, ...custom].join(", ");
+        });
+    </script>
+</body>
+</html>

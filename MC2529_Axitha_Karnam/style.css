@@ -1,0 +1,238 @@
+/* =========================================================
+   GLOBAL BACKGROUND
+   ========================================================= */
+
+.stApp {
+    background-color: #F4F7FA;
+}
+
+
+/* =========================================================
+   MAIN HEADER
+   ========================================================= */
+
+.main-title {
+    text-align: center;
+    font-size: 42px;
+    font-weight: 700;
+    color: #1565C0;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+.subtitle {
+    text-align: center;
+    color: #666666;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+
+/* =========================================================
+   FINANCE CATEGORY CARDS
+   ========================================================= */
+
+.card {
+    background-color: #FFFFFF;
+    padding: 22px 15px;
+    border-radius: 15px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.08);
+    text-align: center;
+    min-height: 150px;
+    margin-bottom: 15px;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+
+/* Card hover effect */
+
+.card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0px 7px 20px rgba(0, 0, 0, 0.12);
+}
+
+
+/* Card icon */
+
+.card-title {
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+
+
+/* Card heading */
+
+.card h4 {
+    color: #1565C0;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+
+/* Card description */
+
+.card-text {
+    color: #555555;
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+
+/* =========================================================
+   SIDEBAR
+   ========================================================= */
+
+[data-testid="stSidebar"] {
+    background-color: #EEF4FF;
+}
+
+
+[data-testid="stSidebar"] h1,
+[data-testid="stSidebar"] h2,
+[data-testid="stSidebar"] h3 {
+    color: #1565C0;
+}
+
+
+/* Sidebar text */
+
+[data-testid="stSidebar"] p {
+    color: #444444;
+}
+
+
+/* =========================================================
+   BUTTONS
+   ========================================================= */
+
+.stButton > button {
+    width: 100%;
+    border-radius: 8px;
+    border: 1px solid #1565C0;
+    padding: 8px 15px;
+    font-weight: 500;
+    transition: 0.2s ease;
+}
+
+
+.stButton > button:hover {
+    border-color: #0D47A1;
+    color: #0D47A1;
+}
+
+
+/* =========================================================
+   CHAT
+   ========================================================= */
+
+[data-testid="stChatMessage"] {
+    border-radius: 12px;
+    padding: 10px;
+}
+
+
+/* =========================================================
+   CHAT INPUT
+   ========================================================= */
+
+[data-testid="stChatInput"] {
+    border-radius: 10px;
+}
+
+
+/* =========================================================
+   TABS
+   ========================================================= */
+
+button[data-baseweb="tab"] {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+
+/* =========================================================
+   METRICS
+   ========================================================= */
+
+[data-testid="stMetric"] {
+    background-color: #FFFFFF;
+    padding: 15px;
+    border-radius: 12px;
+    box-shadow: 0px 3px 12px rgba(0, 0, 0, 0.06);
+}
+
+
+/* =========================================================
+   INFO / FEATURE BOXES
+   ========================================================= */
+
+[data-testid="stAlert"] {
+    border-radius: 12px;
+}
+
+
+/* =========================================================
+   EXPANDERS
+   ========================================================= */
+
+[data-testid="stExpander"] {
+    border-radius: 10px;
+}
+
+
+/* =========================================================
+   FILE UPLOADER
+   ========================================================= */
+
+[data-testid="stFileUploader"] {
+    border-radius: 10px;
+}
+
+
+/* =========================================================
+   DIVIDERS
+   ========================================================= */
+
+hr {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+/* =========================================================
+   FINANCE DASHBOARD
+   ========================================================= */
+
+.dashboard-card {
+    background-color: #FFFFFF;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0px 3px 12px rgba(0, 0, 0, 0.06);
+    margin-bottom: 15px;
+}
+
+
+/* =========================================================
+   SECTION HEADINGS
+   ========================================================= */
+
+h1,
+h2,
+h3 {
+    color: #1565C0;
+}
+
+
+/* =========================================================
+   FOOTER
+   ========================================================= */
+
+.footer {
+    text-align: center;
+    color: #777777;
+    font-size: 14px;
+    padding: 15px;
+}

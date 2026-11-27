@@ -1,4 +1,5 @@
 # FishFusion Analytics — Exploratory Data Analysis Dashboard
+https://fishfusionappdeployment-jw5ylf3gvecbmfxkltrbeg.streamlit.app/
 
 # 1. Project overview
 FishFusion Analytics is an exploratory dashboard built around a fish image dataset enriched with information from three additional sources:

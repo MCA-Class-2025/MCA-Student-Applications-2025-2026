@@ -6,88 +6,77 @@ from config import ORIGINAL_DATA, FUSED_DATA_DIR
 
 
 def main():
-
-    original_df = pd.read_excel(
-        ORIGINAL_DATA,
-        engine="openpyxl"
-    )
+    original = pd.read_excel(ORIGINAL_DATA)
 
     fused_path = os.path.join(
-        FUSED_DATA_DIR,
-        "fused_food_dataset.csv"
+        FUSED_DATA_DIR, "fused_food_dataset.csv"
     )
 
     if not os.path.exists(fused_path):
-        print("Fused dataset not found!")
-        print("Run fusion/fusion.py first.")
-        return
+        raise FileNotFoundError(
+            "Fused dataset not found."
+        )
 
-    fused_df = pd.read_csv(fused_path)
+    fused = pd.read_csv(fused_path)
 
-    print("\n========== FUSION VALIDATION ==========")
+    print("=" * 50)
+    print("FOOD DATA FUSION VALIDATION")
+    print("=" * 50)
 
-    print("\nOriginal records:", len(original_df))
-    print("Fused records:", len(fused_df))
+    print("\nOriginal rows:", len(original))
+    print("Fused rows:", len(fused))
+    print("Original columns:", len(original.columns))
+    print("Fused columns:", len(fused.columns))
 
-    print("\nOriginal attributes:", len(original_df.columns))
-    print("Fused attributes:", len(fused_df.columns))
+    if len(original) == len(fused):
+        print("\nPASS: Original row count preserved.")
+    else:
+        print("\nFAIL: Row count changed.")
 
-    print("\nOriginal duplicate rows:", original_df.duplicated().sum())
-    print("Fused duplicate rows:", fused_df.duplicated().sum())
-
-    print(
-        "\nOriginal duplicate food IDs:",
-        original_df["food_id"].duplicated().sum()
-    )
-
-    print(
-        "Fused duplicate food IDs:",
-        fused_df["food_id"].duplicated().sum()
-    )
-
-    print("\n========== API MATCH VALIDATION ==========")
-
-    api_columns = {
-        "USDA": "fdc_id",
-        "Spoonacular": "spoonacular_id",
-        "TheMealDB": "themealdb_id"
-    }
-
-    for source, column in api_columns.items():
-
-        if column in fused_df.columns:
-
-            matched = fused_df[column].notna().sum()
-            unmatched = fused_df[column].isna().sum()
-
-            print(f"\n{source}")
-            print("Matched records:", matched)
-            print("Unmatched records:", unmatched)
-
+    if "food_id" in original.columns and "food_id" in fused.columns:
+        if fused["food_id"].equals(original["food_id"]):
+            print("PASS: Food IDs preserved.")
         else:
-            print(f"\n{source}: API data not merged.")
+            print("FAIL: Food IDs changed.")
 
-    print("\n========== MISSING VALUE SUMMARY ==========")
+    print("\nDuplicate rows:", fused.duplicated().sum())
 
-    print(
-        fused_df.isnull()
-        .sum()
-        .sort_values(ascending=False)
+    print("\nAPI MATCH COVERAGE")
+
+    for prefix in ["usda_", "spoonacular_", "themealdb_"]:
+        columns = [
+            col for col in fused.columns
+            if col.startswith(prefix)
+        ]
+
+        if not columns:
+            print(prefix, "No columns found.")
+            continue
+
+        available = fused[columns].notna().any(axis=1).sum()
+
+        print(
+            f"{prefix}: {available} / {len(fused)} "
+            "food records have matched data"
+        )
+
+    print("\nMissing values in fused dataset:")
+    print(fused.isna().sum().to_string())
+
+    report_path = os.path.join(
+        FUSED_DATA_DIR, "fusion_report.txt"
     )
 
-    print("\n========== RECORD PRESERVATION ==========")
+    with open(report_path, "w", encoding="utf-8") as file:
+        file.write("FOOD DATA FUSION REPORT\n")
+        file.write(f"Original records: {len(original)}\n")
+        file.write(f"Fused records: {len(fused)}\n")
+        file.write(f"Fused columns: {len(fused.columns)}\n")
+        file.write(
+            f"Duplicate rows: {fused.duplicated().sum()}\n"
+        )
 
-    if len(fused_df) == len(original_df):
-        print("SUCCESS: All original records were preserved.")
-    else:
-        print("WARNING: Original record count changed.")
-
-    if fused_df["food_id"].duplicated().sum() == 0:
-        print("SUCCESS: No duplicate food IDs.")
-    else:
-        print("WARNING: Duplicate food IDs detected.")
-
-    print("\nValidation completed!")
+    print("\nReport saved:", report_path)
 
 
 if __name__ == "__main__":

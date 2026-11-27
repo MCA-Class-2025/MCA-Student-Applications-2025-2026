@@ -1,5 +1,8 @@
 # GeoTime Analytics — 
 Project guide and dashboard user manual
+
+https://geotime-app-57gtqmfufuldcnx2pqexxz.streamlit.app/
+
 1. Project overview
 The GeoTime Temporal EDA Dashboard explores when earthquake events occurred and how earthquake activity changes over time using records from the USGS earthquake catalog.
 

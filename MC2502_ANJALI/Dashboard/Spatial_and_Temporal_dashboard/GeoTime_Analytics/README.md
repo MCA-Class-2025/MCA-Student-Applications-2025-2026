@@ -84,8 +84,58 @@ Important: differences by hour or weekday in an earthquake catalog should not au
 
 “This is the GeoTime Temporal EDA Dashboard. It uses earthquake records from the USGS catalog to explore the time-based behaviour of recorded seismic events. The user can filter the data by year and minimum magnitude. The daily frequency chart shows event counts per day along with a 30-day rolling average, while the monthly and yearly charts summarize activity over longer periods. The weekday-hour heatmap and the hour and weekday bar charts explore how records are distributed across time using UTC. Finally, the magnitude box plot compares magnitude distributions across years, and the magnitude-over-time scatter plot shows individual observations along the timeline.”
 
+<img width="731" height="485" alt="image" src="https://github.com/user-attachments/assets/b93fc3af-e4f4-4d1c-81bf-88127f7dc131" />
 
-<img width="722" height="488" alt="image" src="https://github.com/user-attachments/assets/fc720459-2300-40d1-9ce6-c9f1245f6691" />
+# GeoTime Analytics — Spatial EDA Dashboard
+Project guide and dashboard user manual
+# 1. Project overview
+The GeoTime Spatial EDA Dashboard explores the geographic distribution and physical characteristics of earthquake events recorded in the USGS earthquake catalog.
 
+It focuses on questions such as:
+- Where have the recorded earthquakes occurred?
+- How are earthquake magnitudes distributed across locations?
+- How does earthquake depth vary?
+- Are events concentrated within particular coordinate ranges or recorded places?
+- How do magnitude values compare across depth categories?
 
-
+# 2. Dashboard walkthrough — what each chart tells you
+# A. Global earthquake distribution — magnitude-sized map
+- Displays earthquake event locations on an interactive world map.
+- Circle size represents magnitude. Larger circles indicate larger recorded magnitudes.
+- Colour represents depth category where depth information is available.
+- Click a marker to inspect the event details provided by the dashboard.
+- Use the map to identify geographic clusters and compare the locations of events at different magnitudes and depths.
+How to interpret it: look at where the events are concentrated, then compare marker sizes and depth colours. A cluster in the catalog indicates many recorded events in that area during the selected period; it does not, by itself, quantify future risk.
+# B. Magnitude vs depth — scatter plot
+- Each point represents an earthquake record.
+- One axis represents magnitude and the other represents depth.
+- Use it to examine whether the recorded magnitudes vary with depth and to identify unusually deep or high-magnitude observations.
+- A visible relationship is an association in the selected data; it does not establish a causal relationship.
+# C. Earthquake depth distribution — histogram
+- Groups earthquake depths into intervals.
+- The height of a bar represents the number of events in that depth interval.
+- Use it to identify the depth ranges in which the catalog contains the most events and whether the distribution is concentrated or spread out.
+# D. Events by depth category — donut chart
+- Summarizes the number or share of events in each depth category used by the dashboard.
+- Each slice represents a depth group.
+- Use it to compare the relative contribution of shallow, intermediate and deeper event categories as defined in the dashboard's data preparation.
+# E. Latitude distribution — histogram
+- Groups earthquake records by latitude ranges.
+- The bars show how many events fall within each latitude interval.
+- Use it to understand the north-south spread of the recorded event coordinates.
+# F. Longitude distribution — histogram
+- Groups earthquake records by longitude ranges.
+- The bars show how many events fall within each longitude interval.
+- Use it to understand the east-west spread of the recorded event coordinates.
+# G. Magnitude by depth class — box plot
+- Compares earthquake magnitude distributions across the depth categories.
+- The line inside a box represents the median; the box shows the middle half of the observations; whiskers and any displayed points show the spread and potential outliers according to the chart's box-plot convention.
+- Use it to compare typical magnitudes and variation between depth groups.
+# H. Top recorded locations — horizontal bar chart
+- Ranks the most frequently occurring recorded place/location labels in the selected data.
+- Longer bars indicate more records associated with that place label.
+- Use it to identify frequently represented place names in the catalog.
+- Place labels are catalog descriptions and should not be treated as precise administrative boundaries.
+# 6. Explain the dashboard in a project demonstration
+This is the GeoTime Spatial EDA Dashboard. It uses earthquake records from the USGS catalog and focuses on the spatial distribution of seismic events. The user can filter the data by year and minimum magnitude. The world map displays earthquake locations, with circle size representing magnitude and colour representing depth category. The other charts examine the relationship between magnitude and depth, depth distribution, latitude and longitude spread, magnitude variation across depth classes and the most frequently recorded place labels. Together, these visualizations help us explore where the recorded earthquakes occurred and how their physical characteristics are distributed.
+<img width="731" height="497" alt="image" src="https://github.com/user-attachments/assets/b7f87ba1-0cae-483e-b497-aeb2553d8c07" />

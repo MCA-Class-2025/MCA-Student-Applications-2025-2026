@@ -67,3 +67,9 @@ Master of Computer Applications (MCA)
 SNDT Women's University
 Academic Year 2026-2027
 '@ | Set-Content README.md -Encoding UTF8
+## Exploratory Data Analysis
+
+- [Executed EDA Notebook](./EDA/ResearchIQ_EDA.ipynb)
+- [Detailed EDA Report](./EDA/ResearchIQ_EDA_Report.pdf)
+- [EDA Visualizations](./EDA/visualizations)
+- [EDA Python Code](./EDA/dashboard_routes.py)

@@ -1,0 +1,39 @@
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# Streamlit
+.streamlit/
+
+# Data / models / generated content (keep folder structure, ignore contents)
+data/uploaded_pdfs/*
+!data/uploaded_pdfs/.gitkeep
+data/extracted_text/*
+!data/extracted_text/.gitkeep
+data/faiss_index/*
+!data/faiss_index/.gitkeep
+models/*
+!models/.gitkeep
+reports/*
+!reports/.gitkeep
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Environment variables
+.env

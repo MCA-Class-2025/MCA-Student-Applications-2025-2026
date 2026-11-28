@@ -131,11 +131,6 @@ These methods are exploratory. A detected cluster or anomaly is not proof of cau
 ### Data Explorer
 ![Data Explorer](Dashboard/data-explorer.png)
 
-### Exploratory Data Analysis Dashboard
-![EDA Dashboard](Dashboard/eda-dashboard.png)
-
-### EDA and Machine Learning Analysis
-![EDA and ML Analysis](Dashboard/eda-and-ml-analysis.png)
 
 ## Installation and Local Setup
 

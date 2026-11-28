@@ -146,3 +146,7 @@ Internet access is required when running `collect_data.py`, because the five API
 
 <img width="1917" height="872" alt="image" src="https://github.com/user-attachments/assets/a5fd6246-93f1-4f46-a602-a0a618ec4941" />
 
+<img width="1915" height="868" alt="image" src="https://github.com/user-attachments/assets/ca62cabf-0653-4879-865e-8f1ead4caa53" />
+
+<img width="1907" height="857" alt="image" src="https://github.com/user-attachments/assets/bffbbe9e-4a16-4ef9-8423-12d3ce30b84c" />
+

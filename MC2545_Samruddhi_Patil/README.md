@@ -109,7 +109,6 @@ The project report also discusses OMDb and Gemini as additional APIs or possible
 
 `MC2545_Samruddhi_Sanjaykumar_Patil`
 
-Recommended contents:
 
 ```text
 MC2545_Samruddhi_Sanjaykumar_Patil/
@@ -143,15 +142,6 @@ MC2545_Samruddhi_Sanjaykumar_Patil/
     ├── release-trends-detail.png
     └── api-data-fusion.png
 ```
-
-### Required files from the college instructions
-
-1. Excel file before fusion
-2. Fused Excel file
-3. Application code
-4. API documentation in DOC or PDF format
-
-The project PDF is included in `docs/`. Copy your actual application source code into `application/` and add the original before-fusion and fused Excel workbooks into the top-level `data/` folder. If you only have CSV files, confirm with your faculty whether CSV is acceptable because the instructions specifically request Excel files.
 
 ## ⚙️ Installation and Setup
 

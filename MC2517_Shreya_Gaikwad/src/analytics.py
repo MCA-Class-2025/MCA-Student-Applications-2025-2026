@@ -24,7 +24,7 @@ import uuid
 from typing import Dict, List, Optional
 
 BASE_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..")
-LOG_PATH = os.path.join(BASE_DIR, "data", "analytics", "interaction_log.jsonl")
+LOG_PATH = os.path.join(BASE_DIR, "Dataset", "analytics", "interaction_log.jsonl")
 
 
 def _ensure_log_dir():

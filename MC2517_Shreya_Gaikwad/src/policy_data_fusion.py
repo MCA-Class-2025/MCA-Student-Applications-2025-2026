@@ -48,7 +48,7 @@ import requests
 from .fusion_config import COUNTRIES, DATASET_COLUMNS, POLICY_TOPICS
 
 BASE_DIR = Path(__file__).resolve().parents[1]
-DATA_DIR = BASE_DIR / "data"
+DATA_DIR = BASE_DIR / "Dataset"
 CACHE_DIR = DATA_DIR / "api_cache"
 OUTPUT_XLSX = DATA_DIR / "PolicyPal_Master_Dataset.xlsx"
 

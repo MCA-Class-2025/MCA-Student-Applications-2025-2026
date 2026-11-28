@@ -107,6 +107,12 @@ These methods are exploratory. A detected cluster or anomaly is not proof of cau
 
 ## Screenshots
 
+### DrugIntel Home Page
+![DrugIntel Home page](screenshots/HOMEPAGE.png)
+
+### OCR Analysis
+![OCR analysis](screenshots/OCR_Analysis.png)
+
 ### Medicine Analyzer and Safety Analytics
 ![Medicine Analyzer and Safety Analytics](screenshots/medicine-analyzer-and-safety.png)
 

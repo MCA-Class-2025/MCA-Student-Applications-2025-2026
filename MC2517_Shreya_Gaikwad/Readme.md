@@ -106,7 +106,7 @@ These 6 files hold about 3,000 words and are indexed as 48 RAG chunks.
         +----------+------------+-----+-----+-----------+
                                       |
                                       v
-                Raw JSON cached in data/api_cache/
+                Raw JSON cached in Dataset/api_cache/
                                       |
                                       v
         Parse -> source tables (Before_Fusion workbook)
@@ -115,13 +115,13 @@ These 6 files hold about 3,000 words and are indexed as 48 RAG chunks.
       Fuse on country_code / city / policy_topic / currency_code
                                       |
                                       v
-         data/PolicyPal_Master_Dataset.xlsx (2,025 x 36)
+         Dataset/PolicyPal_Master_Dataset.xlsx (2,025 x 36)
                                       |
                                       v
-               Data-quality assessment + EDA (reports/phase1)
+               Data-quality assessment + EDA (Documents/reports)
 ```
 
-## Phase 1 Results (Parts A–E)
+
 
 | Measure | Value |
 |---|---|
@@ -158,50 +158,50 @@ These checks are exploratory. A flagged value is reviewed before any change is m
 
 ## Screenshots
 
-All screenshots are stored in the [`screenshots/`](screenshots/) folder.
+All screenshots are stored in the [`Dashboard/`](Dashboard/) folder.
 
 ### Knowledge Base — Policy Documents
-![Policy Documents](screenshots/policy-documents.png)
+![Policy Documents](Dashboard/policy-documents.png)
 
 ### Data Fusion — API Outcome per Source
-![API Outcome per Source](screenshots/api-outcome-per-source.png)
+![API Outcome per Source](Dashboard/api-outcome-per-source.png)
 
 ### NewsData Requests by Country and Topic
-![NewsData Request Grid](screenshots/newsdata-request-grid.png)
+![NewsData Request Grid](Dashboard/newsdata-request-grid.png)
 
 ### Fused Rows per Country
-![Fused Rows per Country](screenshots/fused-rows-per-country.png)
+![Fused Rows per Country](Dashboard/fused-rows-per-country.png)
 
 ### News Articles per Policy Topic
-![Articles by Topic](screenshots/articles-by-topic.png)
+![Articles by Topic](Dashboard/articles-by-topic.png)
 
 ### Public Holidays per Country
-![Holidays by Country](screenshots/holidays-by-country.png)
+![Holidays by Country](Dashboard/holidays-by-country.png)
 
 ### Missing Values in the Fused Dataset
-![Missing Values](screenshots/missing-values.png)
+![Missing Values](Dashboard/missing-values.png)
 
 ### News Topic Relevance
-![News Topic Relevance](screenshots/news-topic-relevance.png)
+![News Topic Relevance](Dashboard/news-topic-relevance.png)
 
 ### Home Page
-![Home Page](screenshots/home-page.png)
+![Home Page](Dashboard/home-page.png)
 
 ### Policy Upload
-![Policy Upload](screenshots/policy-upload.png)
+![Policy Upload](Dashboard/policy-upload.png)
 
 ### User Query
-![User Query](screenshots/user-query.png)
+![User Query](Dashboard/user-query.png)
 
 ### AI-Generated Response
-![AI Response](screenshots/ai-response.png)
+![AI Response](Dashboard/ai-response.png)
 
 ### Data Science Dataset Panel
-![Data Science Dataset](screenshots/data-science-dataset.png)
+![Data Science Dataset](Dashboard/data-science-dataset.png)
 
 ## Fused Dataset Workbook
 
-`data/PolicyPal_Master_Dataset.xlsx` contains five sheets:
+`Dataset/PolicyPal_Master_Dataset.xlsx` contains five sheets:
 
 | Sheet | Content |
 |---|---|
@@ -216,7 +216,7 @@ The dataset is **not inserted into the RAG prompt automatically**. Policy answer
 ## Project Structure
 
 ```text
-policy-chatbot-v8/
+MC2517_Shreya_Gaikwad/
 ├── app.py                         # Streamlit application
 ├── requirements.txt
 ├── .env.example                   # variable names only - no real keys
@@ -234,14 +234,15 @@ policy-chatbot-v8/
 │   ├── policy_data_fusion.py      # five-API collection + fusion
 │   └── analytics.py               # interaction analytics
 ├── scripts/build_index.py         # builds the FAISS index
-├── data/
+├── Dataset/
 │   ├── raw/                       # original knowledge base
-│   ├── api_cache/                 # raw API JSON (cached)
+│   ├── DATASET_DESCRIPTION.md
 │   ├── PolicyPal_Before_Fusion_Source_Tables.xlsx
 │   └── PolicyPal_Master_Dataset.xlsx
 ├── vectorstore/                   # index.faiss, metadata.pkl
-├── reports/phase1/                # Parts A-E report, charts, scripts
-└── screenshots/                   # charts and app screenshots used in this README
+├── Documents/
+│   └── reports/                   # Parts A-E report, charts, build scripts
+└── Dashboard/                     # charts and app screenshots used in this README
 ```
 
 ## Installation and Local Setup
@@ -266,7 +267,7 @@ python -m venv venv
 # Install dependencies
 pip install -r requirements.txt
 
-# Build the FAISS index from data/raw (first run only)
+# Build the FAISS index from Dataset/raw (first run only)
 python scripts/build_index.py
 
 # Start the Streamlit application
@@ -282,14 +283,14 @@ $env:NEWSDATA_API_KEY = "your_newsdata_key"
 python -m src.policy_data_fusion
 ```
 
-You can also use **Generate / Refresh Excel Dataset** in the app's *PolicyPal Data Science Dataset* section. Cached responses in `data/api_cache/` are reused, so re-runs do not spend API credits again.
+You can also use **Generate / Refresh Excel Dataset** in the app's *PolicyPal Data Science Dataset* section. Cached responses in `Dataset/api_cache/` are reused, so re-runs do not spend API credits again.
 
 ### Regenerate the Phase 1 report (no API calls)
 
 ```powershell
-python reports/phase1/build_phase1_assets.py
+python Documents/reports/build_phase1_assets.py
 npm install docx
-node reports/phase1/build_report.js
+node Documents/reports/build_report.js
 ```
 
 ### Environment variables
@@ -306,10 +307,10 @@ Do not commit `.env`, `secrets.toml` or real API keys to GitHub. `.env.example` 
 
 ## Documentation
 
-- Phase 1 report (Parts A–E): [`reports/phase1/PolicyPal_Phase1_Parts_A-E_Report.docx`](reports/phase1/PolicyPal_Phase1_Parts_A-E_Report.docx)
-- Dataset before fusion: [`data/PolicyPal_Before_Fusion_Source_Tables.xlsx`](data/PolicyPal_Before_Fusion_Source_Tables.xlsx)
-- Fused dataset: [`data/PolicyPal_Master_Dataset.xlsx`](data/PolicyPal_Master_Dataset.xlsx)
-- Knowledge-base description: [`data/DATASET_DESCRIPTION.md`](data/DATASET_DESCRIPTION.md)
+- Phase 1 report (Parts A–E): [`Documents/reports/PolicyPal_Phase1_Parts_A-E_Report.docx`](Documents/reports/PolicyPal_Phase1_Parts_A-E_Report.docx)
+- Dataset before fusion: [`Dataset/PolicyPal_Before_Fusion_Source_Tables.xlsx`](Dataset/PolicyPal_Before_Fusion_Source_Tables.xlsx)
+- Fused dataset: [`Dataset/PolicyPal_Master_Dataset.xlsx`](Dataset/PolicyPal_Master_Dataset.xlsx)
+- Knowledge-base description: [`Dataset/DATASET_DESCRIPTION.md`](Dataset/DATASET_DESCRIPTION.md)
 
 ## Limitations
 
@@ -325,17 +326,5 @@ Do not commit `.env`, `secrets.toml` or real API keys to GitHub. `.env.example` 
 
 PolicyPal is an academic project. It is **not** an official HR, legal or compliance system and does not make employment decisions. The policy content belongs to a fictional company. External API data belongs to its providers and is subject to their terms of use. The fused dataset is analytical context and is **not** automatically inserted into answers: policy answers stay grounded in the official policy documents. Always confirm important policy questions with your HR department.
 
-## Academic Submission
 
-Place this project folder inside the class repository using the required naming format:
-
-```text
-<RollNumber>_<StudentName>
 ```
-
-Include the required files in that folder:
-- Excel file before data fusion: `data/PolicyPal_Before_Fusion_Source_Tables.xlsx`
-- Fused Excel file: `data/PolicyPal_Master_Dataset.xlsx`
-- Application source code: `app.py`, `src/`, `scripts/`
-- API and project documentation (`reports/phase1/`)
-- Screenshots (`screenshots/`)

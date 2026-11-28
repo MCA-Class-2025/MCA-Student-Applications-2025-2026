@@ -28,6 +28,8 @@ The Healthcare Finder helps users look for healthcare services using the applica
 
 The analytics area presents distributions, comparisons, correlations, and other exploratory visualizations for the menstrual-health dataset and its fused API context. These views are intended to help explore the data; observed associations do not establish cause and effect or describe an individual user's health.
 
+The dashboard uses a standard wide layout with coordinated static charts and filterable interactive views: a state map, scatter plot, box plot, time trend, and an animated state-quarter bubble chart. In the motion chart, position shows average stress and pain, bubble size shows record count, and colour shows average sleep. Groups with fewer than five records are hidden. `EDA/eda_final_dataset.py` regenerates the nine presentation-ready PNG figures in `EDA/outputs/figures/` using `EDA/professional_figures.py`.
+
 ## Data fusion and analysis
 
 The research workflow starts with a cycle-level dataset and enriches it with external public data:
@@ -51,15 +53,20 @@ The Phase 2 retrieval workflow prepares readable documents from selected origina
 | Folder or file | Purpose |
 | --- | --- |
 | `app.py` | Streamlit application entry point and page navigation |
-| `analytics/` | EDA, charts, and dashboard views |
-| `data/` | Original, API-collected, and fused datasets |
-| `scripts/` | API collection, fusion, validation, EDA, and model evaluation scripts |
-| `embeddings/` | Knowledge-base document and index preparation |
-| `rag/` | Retrieval, prompts, answer routing, and language-model interface |
-| `knowledge/` | Local medical reference text used by the assistant |
-| `utils/` | Application features, settings, safety checks, and supporting logic |
-| `report/` | Phase reports, figures, evaluation results, and algorithm comparison outputs |
-| `screenshots/` | Visual evidence of the application and analysis |
+| `Dashboard/` | Application pages, charts, user-facing tools, and interface logic |
+| `EDA/` | Exploratory analysis, seven-model comparison, and generated EDA outputs |
+| `Fusion/data/` | Original, API-collected, and fused datasets |
+| `Fusion/scripts/` | API collection, fusion, cleaning, validation, and retrieval evaluation scripts |
+| `LLM/embeddings/` | Knowledge-base document and index preparation |
+| `LLM/rag/` | Retrieval, prompts, answer routing, and language-model interface |
+| `LLM/knowledge/` | Local medical reference text used by the assistant |
+| `Dashboard/utils/` | Application features, settings, safety checks, and supporting logic |
+| `Documents/report/` | Compulsory Phase 1 and Phase 2 reports and their supporting material |
+| `Dashboard/application_overview/` | Named screenshots of application pages and Phase 2 UI evidence |
+| `Dashboard/tests/` | Application regression checks |
+| `EDA/screenshots/` | EDA dashboard and Phase 2 EDA screenshots |
+
+The five project folders are `Dashboard`, `Documents`, `EDA`, `Fusion`, and `LLM`. The root `app.py`, `config.py`, `router.py`, `requirements.txt`, and `.streamlit/` remain at the repository root because they are application entry points or configuration files. Run all commands from this root directory.
 
 ## Running the application
 
@@ -72,35 +79,37 @@ streamlit run app.py
 The chat uses the Phase 2 TF-IDF index. After changing source data or knowledge documents, rebuild the indexes with:
 
 ```powershell
-python embeddings/build_phase2_knowledge_base.py
+python LLM/embeddings/build_phase2_knowledge_base.py
 ```
 
 The application also supports a cloud provider for recipe suggestions. Configure its API key in the local environment or Streamlit secrets. Keep all API keys private and out of Git.
+
+Run application checks with `python -m unittest discover -s Dashboard/tests -q`.
 
 ## Reproducing the data workflow
 
 The collected API output files are included in the repository. Collection scripts can be run to refresh data; Census collection requires a locally configured `CENSUS_API_KEY`.
 
 ```powershell
-python scripts/api_census.py
-python scripts/api_cdc_places.py
-python scripts/api_open_meteo.py
-python scripts/final_fusion.py
-python scripts/clean_final_dataset.py
-python scripts/inspect_final_dataset.py
-python scripts/eda_final_dataset.py
-python embeddings/build_phase2_knowledge_base.py
-python scripts/evaluate_phase2_rag.py
+python Fusion/scripts/api_census.py
+python Fusion/scripts/api_cdc_places.py
+python Fusion/scripts/api_open_meteo.py
+python Fusion/scripts/final_fusion.py
+python Fusion/scripts/clean_final_dataset.py
+python Fusion/scripts/inspect_final_dataset.py
+python EDA/eda_final_dataset.py
+python LLM/embeddings/build_phase2_knowledge_base.py
+python Fusion/scripts/evaluate_phase2_rag.py
 ```
 
 Some API refreshes require network access and keys. The chatbot evaluation requires the configured Ollama model. Saved reports and result files are included for review without rerunning the workflow.
 
 ## Reports and outputs
 
-- `report/phase1/` contains Phase 1 data-fusion and exploratory-analysis materials.
-- `report/phase2/` contains Phase 2 retrieval and before/after evaluation materials.
-- `report/algorithm_comparison/` contains model comparison results and figures.
-- `docs/phase2_technical_documentation.md` describes key files, data flow, API references, and reproducible commands.
+- `Documents/report/phase1/` contains Phase 1 data-fusion and exploratory-analysis materials.
+- `Documents/report/phase2/` contains Phase 2 retrieval and before/after evaluation materials.
+- `EDA/algorithm_comparison/` contains model comparison results and figures.
+- `Documents/docs/phase2_technical_documentation.md` describes key files, data flow, API references, and reproducible commands.
 
 ## Limitations and privacy
 

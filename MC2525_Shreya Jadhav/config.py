@@ -2,7 +2,7 @@ EMBEDDING_MODEL = "sentence-transformers/all-MiniLM-L6-v2"
 
 LLM_MODEL = "llama3.2:3b"
 
-VECTOR_DB_PATH = "vectorstore/faiss_index"
+VECTOR_DB_PATH = "LLM/vectorstore/faiss_index"
 
 CHUNK_SIZE = 500
 

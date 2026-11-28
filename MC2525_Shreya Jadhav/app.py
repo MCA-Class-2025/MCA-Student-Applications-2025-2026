@@ -4,14 +4,14 @@ from datetime import datetime
 import streamlit as st
 import pandas as pd
 from pathlib import Path
-from analytics.dashboard import (
+from Dashboard.analytics.dashboard import (
     get_metrics,
     load_data,
 )
-from analytics.dashboard_page import render_analytics_dashboard
+from Dashboard.analytics.dashboard_page import render_analytics_dashboard
 
-from rag.chat_service import respond_to_question
-from utils.chat_history import (
+from LLM.rag.chat_service import respond_to_question
+from Dashboard.utils.chat_history import (
     delete_chat,
     get_chat_info,
     get_history,
@@ -20,11 +20,11 @@ from utils.chat_history import (
     save_chat,
 )
 
-from utils.healthcare_finder import render_healthcare_finder
-from utils.app_settings import apply_app_settings, render_settings
-from utils.menocare_page import render_menocare
-from utils.nutrition_guide import render_nutrition_guide
-from utils.ui_shell import inject_ui_shell, render_home, render_sidebar_brand
+from Dashboard.utils.healthcare_finder import render_healthcare_finder
+from Dashboard.utils.app_settings import apply_app_settings, render_settings
+from Dashboard.utils.menocare_page import render_menocare
+from Dashboard.utils.nutrition_guide import render_nutrition_guide
+from Dashboard.utils.ui_shell import inject_ui_shell, render_home, render_sidebar_brand
 
 # -----------------------------------------------------------------------------
 # 1. PAGE CONFIG & CUSTOM CSS STYLING
@@ -440,7 +440,7 @@ elif page == "🔗 Data Fusion":
     # FINAL DATASET
 
     final_path = Path(
-        "data/api_fusion/final/femcare_final_cleaned.csv"
+        "Fusion/data/api_fusion/final/femcare_final_cleaned.csv"
     )
 
     if final_path.exists():
@@ -522,7 +522,7 @@ elif page == "🗃️ Complete Dataset":
     )
 
     dataset_path = Path(
-        "data/api_fusion/final/femcare_final_cleaned.csv"
+        "Fusion/data/api_fusion/final/femcare_final_cleaned.csv"
     )
 
     if not dataset_path.exists():

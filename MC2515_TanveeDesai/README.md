@@ -108,34 +108,34 @@ These methods are exploratory. A detected cluster or anomaly is not proof of cau
 ## Screenshots
 
 ### DrugIntel Home Page
-![DrugIntel Home page](screenshots/HOMEPAGE.png)
+![DrugIntel Home page](Dashboard/HOMEPAGE.png)
 
 ### OCR Analysis
-![OCR analysis](screenshots/OCR_Analysis.png)
+![OCR analysis](Dashboard/OCR_Analysis.png)
 
 ### Medicine Analyzer and Safety Analytics
-![Medicine Analyzer and Safety Analytics](screenshots/medicine-analyzer-and-safety.png)
+![Medicine Analyzer and Safety Analytics](Dashboard/medicine-analyzer-and-safety.png)
 
 ### Adverse Events and Recall Analysis
-![Adverse Events and Recall Analysis](screenshots/adverse-events-and-recalls.png)
+![Adverse Events and Recall Analysis](Dashboard/adverse-events-and-recalls.png)
 
 ### Research and Clinical Trials
-![Research and Clinical Trials](screenshots/research-and-clinical-trials.png)
+![Research and Clinical Trials](Dashboard/research-and-clinical-trials.png)
 
 ### Clinical Trial Analytics
-![Clinical Trial Analytics](screenshots/clinical-trial-analytics.png)
+![Clinical Trial Analytics](Dashboard/clinical-trial-analytics.png)
 
 ### Trial and Research Records
-![Trial and Research Records](screenshots/trial-and-research-records.png)
+![Trial and Research Records](Dashboard/trial-and-research-records.png)
 
 ### Data Explorer
-![Data Explorer](screenshots/data-explorer.png)
+![Data Explorer](Dashboard/data-explorer.png)
 
 ### Exploratory Data Analysis Dashboard
-![EDA Dashboard](screenshots/eda-dashboard.png)
+![EDA Dashboard](Dashboard/eda-dashboard.png)
 
 ### EDA and Machine Learning Analysis
-![EDA and ML Analysis](screenshots/eda-and-ml-analysis.png)
+![EDA and ML Analysis](Dashboard/eda-and-ml-analysis.png)
 
 ## Installation and Local Setup
 

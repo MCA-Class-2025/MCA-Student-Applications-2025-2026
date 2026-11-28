@@ -139,8 +139,6 @@ pip install -r requirements.txt
 
 ## 📸 Screenshots
 
-*(Add your application screenshots here when sharing on GitHub)*
-
 
 
 (<img width="1919" height="893" alt="Screenshot 2026-08-18 022820" src="https://github.com/user-attachments/assets/a65d73de-b7de-4c4c-a4d4-04a8de3a93e0" />

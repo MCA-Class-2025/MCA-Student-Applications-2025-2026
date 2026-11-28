@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Analytics | InterviewOS</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/static/style.css">
+    <script src="https://unpkg.com/lucide@0.460.0/dist/umd/lucide.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body data-auto-mount="true" data-page="analytics" data-auth="required">
+    <header id="site-header" class="site-header"></header>
+    <main class="page">
+        <nav class="crumbs" aria-label="Breadcrumb"><a href="/dashboard">Dashboard</a><span>/</span><span>Analytics</span></nav>
+        <div class="page-head">
+            <div>
+                <span class="kicker">Performance</span>
+                <h1>Analytics</h1>
+            </div>
+            <a class="btn btn-primary" href="/interview">Start interview</a>
+        </div>
+        <div id="analyticsStatus" class="loading-inline"><span class="spinner"></span> Loading saved interviews.</div>
+        <div id="analyticsContent" class="hidden">
+            <section class="card">
+                <h2>Interview performance over time</h2>
+                <div id="timeEmpty" class="empty hidden">No saved interviews yet.</div>
+                <div class="chart-container"><canvas id="timeChart"></canvas></div>
+            </section>
+            <section class="split section">
+                <article class="card">
+                    <h2>Difficulty-wise performance</h2>
+                    <div id="difficultyEmpty" class="empty hidden">Difficulty was not recorded on your saved interviews.</div>
+                    <div class="chart-container"><canvas id="difficultyChart"></canvas></div>
+                </article>
+                <article class="card">
+                    <h2>Skill-wise performance</h2>
+                    <div id="skillEmpty" class="empty hidden">No skill averages are available yet.</div>
+                    <div class="chart-container"><canvas id="skillChart"></canvas></div>
+                </article>
+            </section>
+            <section class="split section">
+                <article class="card">
+                    <h2>Recent interview results</h2>
+                    <div id="recentResults" class="list"></div>
+                </article>
+                <article class="card">
+                    <h2>Areas needing improvement</h2>
+                    <div id="improvementAreas" class="list"></div>
+                </article>
+            </section>
+        </div>
+    </main>
+    <footer id="site-footer" class="site-footer"></footer>
+    <script src="/static/app.js"></script>
+    <script src="/static/analytics.js"></script>
+</body>
+</html>

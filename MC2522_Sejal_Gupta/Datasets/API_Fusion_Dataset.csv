@@ -1,0 +1,201 @@
+﻿id,comment_text,toxic,severe_toxic,obscene,threat,insult,identity_hate,detected_language,translated_text,hf_sentiment_label,hf_sentiment_score,hf_toxic_label,hf_toxic_score,ocr_text,ocr_confidence,adult_content,violence_content,racy_content,medical_content,spoof_content,gemini_moderation_category,gemini_decision,gemini_risk_level,gemini_explanation
+001,I really enjoyed reading this article today,0,0,0,0,0,0,English,English,Positive,0.94,Non-toxic,0.03,N/A,0.0,VERY_UNLIKELY,VERY_UNLIKELY,VERY_UNLIKELY,VERY_UNLIKELY,VERY_UNLIKELY,Non-toxic,Safe,Low,Positive sentiment expressed with no harmful content
+002,You are an absolute idiot and a waste of space,1,0,0,0,1,0,English,English,Negative,0.89,Toxic,0.92,N/A,0.0,UNLIKELY,UNLIKELY,POSSIBLE,UNLIKELY,UNLIKELY,Insult,Unsafe,Medium,Direct insult with abusive language
+003,I will come to your house and hurt you badly,1,1,0,1,0,0,English,English,Negative,0.93,Toxic,0.97,N/A,0.0,LIKELY,POSSIBLE,UNLIKELY,UNLIKELY,UNLIKELY,Threat,Unsafe,High,Explicit physical threat
+004,She is such a beautiful person with a kind heart,0,0,0,0,0,0,English,English,Positive,0.96,Non-toxic,0.02,N/A,0.0,VERY_UNLIKELY,VERY_UNLIKELY,VERY_UNLIKELY,VERY_UNLIKELY,VERY_UNLIKELY,Non-toxic,Safe,Low,Complimentary statement
+005,This product is absolutely terrible and worthless,1,0,0,0,1,0,English,English,Negative,0.88,Toxic,0.85,N/A,0.0,UNLIKELY,UNLIKELY,UNLIKELY,UNLIKELY,UNLIKELY,Insult,Unsafe,Medium,Strong negative criticism
+006,यह बहुत अच्छा लेख है,0,0,0,0,0,0,Hindi,This is a very good article,Positive,0.92,Non-toxic,0.04,N/A,0.0,VERY_UNLIKELY,VERY_UNLIKELY,VERY_UNLIKELY,VERY_UNLIKELY,VERY_UNLIKELY,Non-toxic,Safe,Low,Positive comment in Hindi
+007,तू बहुत बेवकूफ है,1,0,0,0,1,0,Hindi,You are very stupid,Negative,0.90,Toxic,0.88,N/A,0.0,UNLIKELY,UNLIKELY,POSSIBLE,UNLIKELY,UNLIKELY,Insult,Unsafe,Medium,Insulting statement in Hindi
+008,All people from that country are criminals,1,0,0,0,0,1,English,English,Negative,0.91,Toxic,0.95,N/A,0.0,LIKELY,UNLIKELY,POSSIBLE,UNLIKELY,UNLIKELY,Identity_hate,Unsafe,High,Discriminatory generalization
+009,I strongly support equal rights for everyone,0,0,0,0,0,0,English,English,Positive,0.97,Non-toxic,0.01,N/A,0.0,VERY_UNLIKELY,VERY_UNLIKELY,VERY_UNLIKELY,VERY_UNLIKELY,VERY_UNLIKELY,Non-toxic,Safe,Low,Positive advocacy
+010,Your mother should be ashamed of raising you,1,0,0,0,1,0,English,English,Negative,0.87,Toxic,0.91,N/A,0.0,UNLIKELY,UNLIKELY,POSSIBLE,UNLIKELY,UNLIKELY,Insult,Unsafe,Medium,Family insult
+011,The weather is perfect for a picnic today,0,0,0,0,0,0,English,English,Positive,0.95,Non-toxic,0.02,N/A,0.0,VERY_UNLIKELY,VERY_UNLIKELY,VERY_UNLIKELY,VERY_UNLIKELY,VERY_UNLIKELY,Non-toxic,Safe,Low,Neutral positive statement
+012,I hope you die a painful death,1,1,0,1,0,0,English,English,Negative,0.94,Toxic,0.98,N/A,0.0,LIKELY,POSSIBLE,UNLIKELY,UNLIKELY,UNLIKELY,Threat,Unsafe,High,Extreme death threat
+013,This restaurant serves the best pizza in town,0,0,0,0,0,0,English,English,Positive,0.96,Non-toxic,0.01,N/A,0.0,VERY_UNLIKELY,VERY_UNLIKELY,VERY_UNLIKELY,VERY_UNLIKELY,VERY_UNLIKELY,Non-toxic,Safe,Low,Positive review
+014,तुम बहुत सुंदर हो,0,0,0,0,0,0,Hindi,You are very beautiful,Positive,0.93,Non-toxic,0.03,N/A,0.0,VERY_UNLIKELY,VERY_UNLIKELY,VERY_UNLIKELY,VERY_UNLIKELY,VERY_UNLIKELY,Non-toxic,Safe,Low,Compliment in Hindi
+015,Why are you so stupid? Can't you do anything right?,1,0,0,0,1,0,English,English,Negative,0.90,Toxic,0.89,N/A,0.0,UNLIKELY,UNLIKELY,POSSIBLE,UNLIKELY,UNLIKELY,Insult,Unsafe,Medium,Rhetorical insult
+016,I completely agree with your perspective on climate change,0,0,0,0,0,0,English,English,Positive,0.98,Non-toxic,0.01,N/A,0.0,VERY_UNLIKELY,VERY_UNLIKELY,VERY_UNLIKELY,VERY_UNLIKELY,VERY_UNLIKELY,Non-toxic,Safe,Low,Positive agreement
+017,You are a worthless piece of garbage,1,0,0,0,1,0,English,English,Negative,0.92,Toxic,0.96,N/A,0.0,UNLIKELY,UNLIKELY,POSSIBLE,UNLIKELY,UNLIKELY,Insult,Unsafe,Medium,Dehumanizing insult
+018,मैं तुमसे बहुत प्यार करता हूँ,0,0,0,0,0,0,Hindi,I love you very much,Positive,0.97,Non-toxic,0.02,N/A,0.0,VERY_UNLIKELY,VERY_UNLIKELY,VERY_UNLIKELY,VERY_UNLIKELY,VERY_UNLIKELY,Non-toxic,Safe,Low,Love declaration in Hindi
+019,This movie was a complete waste of my time and money,1,0,0,0,0,0,English,English,Negative,0.86,Toxic,0.82,N/A,0.0,UNLIKELY,UNLIKELY,UNLIKELY,UNLIKELY,UNLIKELY,Non-toxic,Safe,Low,Strong criticism without offensive language
+020,I will report you to the authorities for your behavior,1,0,0,1,0,0,English,English,Negative,0.88,Toxic,0.90,N/A,0.0,LIKELY,UNLIKELY,UNLIKELY,UNLIKELY,UNLIKELY,Threat,Unsafe,Medium,Threat of reporting
+021,The entire team deserves recognition for their hard work,0,0,0,0,0,0,English,English,Positive,0.96,Non-toxic,0.01,N/A,0.0,VERY_UNLIKELY,VERY_UNLIKELY,VERY_UNLIKELY,VERY_UNLIKELY,VERY_UNLIKELY,Non-toxic,Safe,Low,Praise for team
+022,You're so pathetic that I almost feel sorry for you,1,0,0,0,1,0,English,English,Negative,0.89,Toxic,0.93,N/A,0.0,UNLIKELY,UNLIKELY,POSSIBLE,UNLIKELY,UNLIKELY,Insult,Unsafe,Medium,Insult with mock sympathy
+023,This is the most amazing news I've heard all week,0,0,0,0,0,0,English,English,Positive,0.97,Non-toxic,0.01,N/A,0.0,VERY_UNLIKELY,VERY_UNLIKELY,VERY_UNLIKELY,VERY_UNLIKELY,VERY_UNLIKELY,Non-toxic,Safe,Low,Positive enthusiastic response
+024,All politicians are corrupt liars,1,0,0,0,0,0,English,English,Negative,0.84,Toxic,0.79,N/A,0.0,UNLIKELY,UNLIKELY,UNLIKELY,UNLIKELY,UNLIKELY,Non-toxic,Safe,Low,General criticism without specific targeting
+025,तू बहुत चालाक है,0,0,0,0,0,0,Hindi,You are very clever,Positive,0.91,Non-toxic,0.03,N/A,0.0,VERY_UNLIKELY,VERY_UNLIKELY,VERY_UNLIKELY,VERY_UNLIKELY,VERY_UNLIKELY,Non-toxic,Safe,Low,Compliment in Hindi
+026,I hope your business fails and you lose everything,1,0,0,1,0,0,English,English,Negative,0.92,Toxic,0.94,N/A,0.0,LIKELY,POSSIBLE,UNLIKELY,UNLIKELY,UNLIKELY,Threat,Unsafe,Medium,Curse wishing financial ruin
+027,The sunset view from this location is breathtaking,0,0,0,0,0,0,English,English,Positive,0.98,Non-toxic,0.01,N/A,0.0,VERY_UNLIKELY,VERY_UNLIKELY,VERY_UNLIKELY,VERY_UNLIKELY,VERY_UNLIKELY,Non-toxic,Safe,Low,Descriptive positive observation
+028,You're nothing but a fraud and a cheat,1,0,0,0,1,0,English,English,Negative,0.90,Toxic,0.95,N/A,0.0,UNLIKELY,UNLIKELY,POSSIBLE,UNLIKELY,UNLIKELY,Insult,Unsafe,Medium,Accusation with insult
+029,I strongly believe in freedom of speech for everyone,0,0,0,0,0,0,English,English,Positive,0.96,Non-toxic,0.02,N/A,0.0,VERY_UNLIKELY,VERY_UNLIKELY,VERY_UNLIKELY,VERY_UNLIKELY,VERY_UNLIKELY,Non-toxic,Safe,Low,Positive statement supporting free expression
+030,Your entire community is full of criminals,1,0,0,0,0,1,English,English,Negative,0.92,Toxic,0.96,N/A,0.0,LIKELY,UNLIKELY,POSSIBLE,UNLIKELY,UNLIKELY,Identity_hate,Unsafe,High,Discriminatory generalization about community
+031,This book changed my perspective on life completely,0,0,0,0,0,0,English,English,Positive,0.97,Non-toxic,0.01,N/A,0.0,VERY_UNLIKELY,VERY_UNLIKELY,VERY_UNLIKELY,VERY_UNLIKELY,VERY_UNLIKELY,Non-toxic,Safe,Low,Positive impact statement
+032,तुम कितने बेवकूफ हो,1,0,0,0,1,0,Hindi,How stupid you are,Negative,0.89,Toxic,0.87,N/A,0.0,UNLIKELY,UNLIKELY,POSSIBLE,UNLIKELY,UNLIKELY,Insult,Unsafe,Medium,Insulting question in Hindi
+033,I want to punch you in the face,1,0,0,1,0,0,English,English,Negative,0.93,Toxic,0.96,N/A,0.0,LIKELY,POSSIBLE,UNLIKELY,UNLIKELY,UNLIKELY,Threat,Unsafe,High,Direct physical threat
+034,The service at this hotel was exceptional,0,0,0,0,0,0,English,English,Positive,0.95,Non-toxic,0.02,N/A,0.0,VERY_UNLIKELY,VERY_UNLIKELY,VERY_UNLIKELY,VERY_UNLIKELY,VERY_UNLIKELY,Non-toxic,Safe,Low,Positive review of service
+035,You're such a disappointment to everyone who knows you,1,0,0,0,1,0,English,English,Negative,0.88,Toxic,0.91,N/A,0.0,UNLIKELY,UNLIKELY,POSSIBLE,UNLIKELY,UNLIKELY,Insult,Unsafe,Medium,Insult targeting personal worth
+036,This is the best decision I have ever made,0,0,0,0,0,0,English,English,Positive,0.97,Non-toxic,0.01,N/A,0.0,VERY_UNLIKELY,VERY_UNLIKELY,VERY_UNLIKELY,VERY_UNLIKELY,VERY_UNLIKELY,Non-toxic,Safe,Low,Positive personal reflection
+037,आप बहुत बुद्धिमान हैं,0,0,0,0,0,0,Hindi,You are very intelligent,Positive,0.92,Non-toxic,0.02,N/A,0.0,VERY_UNLIKELY,VERY_UNLIKELY,VERY_UNLIKELY,VERY_UNLIKELY,VERY_UNLIKELY,Non-toxic,Safe,Low,Compliment in Hindi
+038,I will make your life a living hell,1,1,0,1,0,0,English,English,Negative,0.94,Toxic,0.97,N/A,0.0,LIKELY,POSSIBLE,UNLIKELY,UNLIKELY,UNLIKELY,Threat,Unsafe,High,Severe threat with harassment promise
+039,The performance was outstanding tonight,0,0,0,0,0,0,English,English,Positive,0.96,Non-toxic,0.01,N/A,0.0,VERY_UNLIKELY,VERY_UNLIKELY,VERY_UNLIKELY,VERY_UNLIKELY,VERY_UNLIKELY,Non-toxic,Safe,Low,Positive performance review
+040,Why don't you go back to where you came from?,1,0,0,0,0,1,English,English,Negative,0.91,Toxic,0.95,N/A,0.0,LIKELY,UNLIKELY,POSSIBLE,UNLIKELY,UNLIKELY,Identity_hate,Unsafe,High,Xenophobic statement
+041,I absolutely love this new song,0,0,0,0,0,0,English,English,Positive,0.97,Non-toxic,0.01,N/A,0.0,VERY_UNLIKELY,VERY_UNLIKELY,VERY_UNLIKELY,VERY_UNLIKELY,VERY_UNLIKELY,Non-toxic,Safe,Low,Positive music appreciation
+042,You're a complete moron with no brain,1,0,0,0,1,0,English,English,Negative,0.90,Toxic,0.94,N/A,0.0,UNLIKELY,UNLIKELY,POSSIBLE,UNLIKELY,UNLIKELY,Insult,Unsafe,Medium,Severe insult questioning intelligence
+043,The food here is absolutely delicious,0,0,0,0,0,0,English,English,Positive,0.96,Non-toxic,0.01,N/A,0.0,VERY_UNLIKELY,VERY_UNLIKELY,VERY_UNLIKELY,VERY_UNLIKELY,VERY_UNLIKELY,Non-toxic,Safe,Low,Positive food review
+044,तुम बहुत आलसी हो,1,0,0,0,1,0,Hindi,You are very lazy,Negative,0.87,Toxic,0.84,N/A,0.0,UNLIKELY,UNLIKELY,POSSIBLE,UNLIKELY,UNLIKELY,Insult,Unsafe,Medium,Insult about laziness in Hindi
+045,I wish you were dead,1,1,0,1,0,0,English,English,Negative,0.95,Toxic,0.98,N/A,0.0,LIKELY,POSSIBLE,UNLIKELY,UNLIKELY,UNLIKELY,Threat,Unsafe,High,Extreme death wish
+046,This is a wonderful community to live in,0,0,0,0,0,0,English,English,Positive,0.96,Non-toxic,0.01,N/A,0.0,VERY_UNLIKELY,VERY_UNLIKELY,VERY_UNLIKELY,VERY_UNLIKELY,VERY_UNLIKELY,Non-toxic,Safe,Low,Positive community observation
+047,You're not worth the air you breathe,1,0,0,0,1,0,English,English,Negative,0.92,Toxic,0.96,N/A,0.0,UNLIKELY,UNLIKELY,POSSIBLE,UNLIKELY,UNLIKELY,Insult,Unsafe,Medium,Extreme insult dehumanizing
+048,I fully endorse this political candidate,0,0,0,0,0,0,English,English,Positive,0.88,Non-toxic,0.05,N/A,0.0,UNLIKELY,UNLIKELY,UNLIKELY,UNLIKELY,UNLIKELY,Non-toxic,Safe,Low,Political endorsement
+049,All immigrants are a drain on society,1,0,0,0,0,1,English,English,Negative,0.93,Toxic,0.97,N/A,0.0,LIKELY,UNLIKELY,POSSIBLE,UNLIKELY,UNLIKELY,Identity_hate,Unsafe,High,Discriminatory against immigrants
+050,मुझे यह कविता बहुत पसंद है,0,0,0,0,0,0,Hindi,I really like this poem,Positive,0.93,Non-toxic,0.02,N/A,0.0,VERY_UNLIKELY,VERY_UNLIKELY,VERY_UNLIKELY,VERY_UNLIKELY,VERY_UNLIKELY,Non-toxic,Safe,Low,Positive appreciation in Hindi
+051,The team played brilliantly today,0,0,0,0,0,0,English,English,Positive,0.95,Non-toxic,0.01,N/A,0.0,VERY_UNLIKELY,VERY_UNLIKELY,VERY_UNLIKELY,VERY_UNLIKELY,VERY_UNLIKELY,Non-toxic,Safe,Low,Positive sports commentary
+052,You're a snake in the grass,1,0,0,0,1,0,English,English,Negative,0.89,Toxic,0.92,N/A,0.0,UNLIKELY,UNLIKELY,POSSIBLE,UNLIKELY,UNLIKELY,Insult,Unsafe,Medium,Metaphorical insult
+053,I will destroy everything you love,1,1,0,1,0,0,English,English,Negative,0.94,Toxic,0.97,N/A,0.0,LIKELY,POSSIBLE,UNLIKELY,UNLIKELY,UNLIKELY,Threat,Unsafe,High,Threat to cause emotional harm
+054,This painting is a masterpiece,0,0,0,0,0,0,English,English,Positive,0.97,Non-toxic,0.01,N/A,0.0,VERY_UNLIKELY,VERY_UNLIKELY,VERY_UNLIKELY,VERY_UNLIKELY,VERY_UNLIKELY,Non-toxic,Safe,Low,Positive art appreciation
+055,You're so dumb it's actually painful to watch,1,0,0,0,1,0,English,English,Negative,0.91,Toxic,0.93,N/A,0.0,UNLIKELY,UNLIKELY,POSSIBLE,UNLIKELY,UNLIKELY,Insult,Unsafe,Medium,Insult questioning intelligence
+056,The new policy will benefit everyone equally,0,0,0,0,0,0,English,English,Positive,0.90,Non-toxic,0.03,N/A,0.0,VERY_UNLIKELY,VERY_UNLIKELY,VERY_UNLIKELY,VERY_UNLIKELY,VERY_UNLIKELY,Non-toxic,Safe,Low,Positive policy assessment
+057,तू बहुत भद्दा है,1,0,0,0,1,0,Hindi,You are very ugly,Negative,0.88,Toxic,0.86,N/A,0.0,UNLIKELY,UNLIKELY,POSSIBLE,UNLIKELY,UNLIKELY,Insult,Unsafe,Medium,Insult about appearance in Hindi
+058,I think this is a fantastic idea,0,0,0,0,0,0,English,English,Positive,0.96,Non-toxic,0.01,N/A,0.0,VERY_UNLIKELY,VERY_UNLIKELY,VERY_UNLIKELY,VERY_UNLIKELY,VERY_UNLIKELY,Non-toxic,Safe,Low,Positive agreement
+059,People like you are the problem with this world,1,0,0,0,0,0,English,English,Negative,0.87,Toxic,0.83,N/A,0.0,UNLIKELY,UNLIKELY,UNLIKELY,UNLIKELY,UNLIKELY,Non-toxic,Safe,Low,Generalized criticism
+060,I hope you rot in hell,1,1,0,1,0,0,English,English,Negative,0.94,Toxic,0.98,N/A,0.0,LIKELY,POSSIBLE,UNLIKELY,UNLIKELY,UNLIKELY,Threat,Unsafe,High,Severe curse with religious context
+061,The view from the top was absolutely stunning,0,0,0,0,0,0,English,English,Positive,0.97,Non-toxic,0.01,N/A,0.0,VERY_UNLIKELY,VERY_UNLIKELY,VERY_UNLIKELY,VERY_UNLIKELY,VERY_UNLIKELY,Non-toxic,Safe,Low,Positive descriptive observation
+062,Your opinion is completely worthless and stupid,1,0,0,0,1,0,English,English,Negative,0.90,Toxic,0.94,N/A,0.0,UNLIKELY,UNLIKELY,POSSIBLE,UNLIKELY,UNLIKELY,Insult,Unsafe,Medium,Insult dismissing opinion
+063,This is the best coffee I've ever had,0,0,0,0,0,0,English,English,Positive,0.96,Non-toxic,0.01,N/A,0.0,VERY_UNLIKELY,VERY_UNLIKELY,VERY_UNLIKELY,VERY_UNLIKELY,VERY_UNLIKELY,Non-toxic,Safe,Low,Positive coffee review
+064,आप बहुत मेहनती हैं,0,0,0,0,0,0,Hindi,You are very hardworking,Positive,0.92,Non-toxic,0.02,N/A,0.0,VERY_UNLIKELY,VERY_UNLIKELY,VERY_UNLIKELY,VERY_UNLIKELY,VERY_UNLIKELY,Non-toxic,Safe,Low,Compliment for work ethic in Hindi
+065,I'll make sure you regret ever crossing me,1,0,0,1,0,0,English,English,Negative,0.93,Toxic,0.96,N/A,0.0,LIKELY,POSSIBLE,UNLIKELY,UNLIKELY,UNLIKELY,Threat,Unsafe,Medium,Vague threat with retaliation
+066,The book provides incredible insights into human psychology,0,0,0,0,0,0,English,English,Positive,0.96,Non-toxic,0.01,N/A,0.0,VERY_UNLIKELY,VERY_UNLIKELY,VERY_UNLIKELY,VERY_UNLIKELY,VERY_UNLIKELY,Non-toxic,Safe,Low,Positive book review
+067,You're the most pathetic loser I've ever met,1,0,0,0,1,0,English,English,Negative,0.92,Toxic,0.96,N/A,0.0,UNLIKELY,UNLIKELY,POSSIBLE,UNLIKELY,UNLIKELY,Insult,Unsafe,Medium,Multiple severe insults
+068,All Muslims are terrorists,1,0,0,0,0,1,English,English,Negative,0.94,Toxic,0.98,N/A,0.0,LIKELY,UNLIKELY,POSSIBLE,UNLIKELY,UNLIKELY,Identity_hate,Unsafe,High,Dangerous religious stereotype
+069,This movie was surprisingly good,0,0,0,0,0,0,English,English,Positive,0.89,Non-toxic,0.04,N/A,0.0,VERY_UNLIKELY,VERY_UNLIKELY,VERY_UNLIKELY,VERY_UNLIKELY,VERY_UNLIKELY,Non-toxic,Safe,Low,Positive movie review with mild surprise
+070,तुम्हारी हरकतें बहुत गंदी हैं,1,0,0,0,1,0,Hindi,Your actions are very dirty,Negative,0.89,Toxic,0.88,N/A,0.0,UNLIKELY,UNLIKELY,POSSIBLE,UNLIKELY,UNLIKELY,Insult,Unsafe,Medium,Insult about behavior in Hindi
+071,The scientific breakthrough will revolutionize medicine,0,0,0,0,0,0,English,English,Positive,0.97,Non-toxic,0.01,N/A,0.0,VERY_UNLIKELY,VERY_UNLIKELY,VERY_UNLIKELY,VERY_UNLIKELY,VERY_UNLIKELY,Non-toxic,Safe,Low,Positive scientific achievement
+072,You're a useless piece of trash,1,0,0,0,1,0,English,English,Negative,0.93,Toxic,0.97,N/A,0.0,UNLIKELY,UNLIKELY,POSSIBLE,UNLIKELY,UNLIKELY,Insult,Unsafe,Medium,Severe insult comparing to waste
+073,I will expose all your secrets to everyone,1,0,0,1,0,0,English,English,Negative,0.91,Toxic,0.94,N/A,0.0,LIKELY,UNLIKELY,UNLIKELY,UNLIKELY,UNLIKELY,Threat,Unsafe,Medium,Threat of reputation damage
+074,The garden looks absolutely beautiful this spring,0,0,0,0,0,0,English,English,Positive,0.96,Non-toxic,0.01,N/A,0.0,VERY_UNLIKELY,VERY_UNLIKELY,VERY_UNLIKELY,VERY_UNLIKELY,VERY_UNLIKELY,Non-toxic,Safe,Low,Positive observation about garden
+075,You don't deserve any respect from anyone,1,0,0,0,1,0,English,English,Negative,0.89,Toxic,0.92,N/A,0.0,UNLIKELY,UNLIKELY,POSSIBLE,UNLIKELY,UNLIKELY,Insult,Unsafe,Medium,Insult about worth
+076,मुझे यह गाना बहुत पसंद आया,0,0,0,0,0,0,Hindi,I really liked this song,Positive,0.94,Non-toxic,0.02,N/A,0.0,VERY_UNLIKELY,VERY_UNLIKELY,VERY_UNLIKELY,VERY_UNLIKELY,VERY_UNLIKELY,Non-toxic,Safe,Low,Positive music appreciation in Hindi
+077,I can't believe how stupid you are,1,0,0,0,1,0,English,English,Negative,0.90,Toxic,0.93,N/A,0.0,UNLIKELY,UNLIKELY,POSSIBLE,UNLIKELY,UNLIKELY,Insult,Unsafe,Medium,Insult expressing disbelief
+078,The architecture of this building is magnificent,0,0,0,0,0,0,English,English,Positive,0.97,Non-toxic,0.01,N/A,0.0,VERY_UNLIKELY,VERY_UNLIKELY,VERY_UNLIKELY,VERY_UNLIKELY,VERY_UNLIKELY,Non-toxic,Safe,Low,Positive architectural appreciation
+079,You're nothing but a common criminal,1,0,0,0,1,0,English,English,Negative,0.91,Toxic,0.95,N/A,0.0,UNLIKELY,UNLIKELY,POSSIBLE,UNLIKELY,UNLIKELY,Insult,Unsafe,Medium,Insult labeling as criminal
+080,This product exceeded all my expectations,0,0,0,0,0,0,English,English,Positive,0.96,Non-toxic,0.01,N/A,0.0,VERY_UNLIKELY,VERY_UNLIKELY,VERY_UNLIKELY,VERY_UNLIKELY,VERY_UNLIKELY,Non-toxic,Safe,Low,Positive product review
+081,I wish your entire family would disappear,1,0,0,1,0,0,English,English,Negative,0.93,Toxic,0.97,N/A,0.0,LIKELY,POSSIBLE,UNLIKELY,UNLIKELY,UNLIKELY,Threat,Unsafe,High,Threat directed at family
+082,The teacher explained the concept beautifully,0,0,0,0,0,0,English,English,Positive,0.95,Non-toxic,0.01,N/A,0.0,VERY_UNLIKELY,VERY_UNLIKELY,VERY_UNLIKELY,VERY_UNLIKELY,VERY_UNLIKELY,Non-toxic,Safe,Low,Positive teaching feedback
+083,You're an embarrassment to your profession,1,0,0,0,1,0,English,English,Negative,0.88,Toxic,0.91,N/A,0.0,UNLIKELY,UNLIKELY,POSSIBLE,UNLIKELY,UNLIKELY,Insult,Unsafe,Medium,Professional insult
+084,तू बहुत अहंकारी है,1,0,0,0,1,0,Hindi,You are very arrogant,Negative,0.87,Toxic,0.85,N/A,0.0,UNLIKELY,UNLIKELY,POSSIBLE,UNLIKELY,UNLIKELY,Insult,Unsafe,Medium,Insult about arrogance in Hindi
+085,The results of the study are fascinating,0,0,0,0,0,0,English,English,Positive,0.96,Non-toxic,0.01,N/A,0.0,VERY_UNLIKELY,VERY_UNLIKELY,VERY_UNLIKELY,VERY_UNLIKELY,VERY_UNLIKELY,Non-toxic,Safe,Low,Positive research feedback
+086,Black people are all lazy,1,0,0,0,0,1,English,English,Negative,0.95,Toxic,0.99,N/A,0.0,LIKELY,UNLIKELY,POSSIBLE,UNLIKELY,UNLIKELY,Identity_hate,Unsafe,High,Racist stereotype
+087,I finally understand this complex topic,0,0,0,0,0,0,English,English,Positive,0.93,Non-toxic,0.02,N/A,0.0,VERY_UNLIKELY,VERY_UNLIKELY,VERY_UNLIKELY,VERY_UNLIKELY,VERY_UNLIKELY,Non-toxic,Safe,Low,Positive learning achievement
+088,You're a disgrace to your family name,1,0,0,0,1,0,English,English,Negative,0.90,Toxic,0.94,N/A,0.0,UNLIKELY,UNLIKELY,POSSIBLE,UNLIKELY,UNLIKELY,Insult,Unsafe,Medium,Family honor insult
+089,The concert was an unforgettable experience,0,0,0,0,0,0,English,English,Positive,0.97,Non-toxic,0.01,N/A,0.0,VERY_UNLIKELY,VERY_UNLIKELY,VERY_UNLIKELY,VERY_UNLIKELY,VERY_UNLIKELY,Non-toxic,Safe,Low,Positive concert review
+090,You will pay for what you've done to me,1,0,0,1,0,0,English,English,Negative,0.92,Toxic,0.95,N/A,0.0,LIKELY,POSSIBLE,UNLIKELY,UNLIKELY,UNLIKELY,Threat,Unsafe,Medium,Threat of revenge
+091,This new smartphone is incredibly fast,0,0,0,0,0,0,English,English,Positive,0.94,Non-toxic,0.02,N/A,0.0,VERY_UNLIKELY,VERY_UNLIKELY,VERY_UNLIKELY,VERY_UNLIKELY,VERY_UNLIKELY,Non-toxic,Safe,Low,Positive product review
+092,You're a pathetic excuse for a human being,1,0,0,0,1,0,English,English,Negative,0.91,Toxic,0.96,N/A,0.0,UNLIKELY,UNLIKELY,POSSIBLE,UNLIKELY,UNLIKELY,Insult,Unsafe,Medium,Dehumanizing insult
+093,I will hunt you down,1,1,0,1,0,0,English,English,Negative,0.95,Toxic,0.98,N/A,0.0,LIKELY,POSSIBLE,UNLIKELY,UNLIKELY,UNLIKELY,Threat,Unsafe,High,Serious threat
+094,The garden is full of beautiful flowers,0,0,0,0,0,0,English,English,Positive,0.97,Non-toxic,0.01,N/A,0.0,VERY_UNLIKELY,VERY_UNLIKELY,VERY_UNLIKELY,VERY_UNLIKELY,VERY_UNLIKELY,Non-toxic,Safe,Low,Positive observation
+095,तू मेरा दोस्त है,0,0,0,0,0,0,Hindi,You are my friend,Positive,0.95,Non-toxic,0.02,N/A,0.0,VERY_UNLIKELY,VERY_UNLIKELY,VERY_UNLIKELY,VERY_UNLIKELY,VERY_UNLIKELY,Non-toxic,Safe,Low,Friendly statement in Hindi
+096,Your arguments are worthless,1,0,0,0,1,0,English,English,Negative,0.87,Toxic,0.90,N/A,0.0,UNLIKELY,UNLIKELY,POSSIBLE,UNLIKELY,UNLIKELY,Insult,Unsafe,Medium,Insult dismissing argument
+097,This is the greatest discovery of the century,0,0,0,0,0,0,English,English,Positive,0.98,Non-toxic,0.01,N/A,0.0,VERY_UNLIKELY,VERY_UNLIKELY,VERY_UNLIKELY,VERY_UNLIKELY,VERY_UNLIKELY,Non-toxic,Safe,Low,Strong positive statement
+098,You deserve to be alone forever,1,0,0,0,1,0,English,English,Negative,0.89,Toxic,0.93,N/A,0.0,UNLIKELY,UNLIKELY,POSSIBLE,UNLIKELY,UNLIKELY,Insult,Unsafe,Medium,Emotional insult
+099,The sunset over the ocean is magical,0,0,0,0,0,0,English,English,Positive,0.96,Non-toxic,0.01,N/A,0.0,VERY_UNLIKELY,VERY_UNLIKELY,VERY_UNLIKELY,VERY_UNLIKELY,VERY_UNLIKELY,Non-toxic,Safe,Low,Positive descriptive
+100,तुझी आई चुकली,1,0,0,0,1,0,Marathi,Your mother is stupid,Negative,0.86,Toxic,0.89,N/A,0.0,UNLIKELY,UNLIKELY,POSSIBLE,UNLIKELY,UNLIKELY,Insult,Unsafe,Medium,Insult in Marathi
+101,I really loved the new movie,0,0,0,0,0,0,English,English,Positive,0.95,Non-toxic,0.02,N/A,0.0,VERY_UNLIKELY,VERY_UNLIKELY,VERY_UNLIKELY,VERY_UNLIKELY,VERY_UNLIKELY,Non-toxic,Safe,Low,Positive movie review
+102,You are a complete fool,1,0,0,0,1,0,English,English,Negative,0.90,Toxic,0.92,N/A,0.0,UNLIKELY,UNLIKELY,POSSIBLE,UNLIKELY,UNLIKELY,Insult,Unsafe,Medium,Simple insult
+103,I will kill you,1,1,0,1,0,0,English,English,Negative,0.96,Toxic,0.99,N/A,0.0,LIKELY,POSSIBLE,UNLIKELY,UNLIKELY,UNLIKELY,Threat,Unsafe,High,Direct death threat
+104,She has a heart of gold,0,0,0,0,0,0,English,English,Positive,0.97,Non-toxic,0.01,N/A,0.0,VERY_UNLIKELY,VERY_UNLIKELY,VERY_UNLIKELY,VERY_UNLIKELY,VERY_UNLIKELY,Non-toxic,Safe,Low,Compliment
+105,The food is bland and tasteless,1,0,0,0,0,0,English,English,Negative,0.85,Toxic,0.80,N/A,0.0,UNLIKELY,UNLIKELY,UNLIKELY,UNLIKELY,UNLIKELY,Non-toxic,Safe,Low,Criticism without toxicity
+106,आपले विचार उत्तम आहेत,0,0,0,0,0,0,Marathi,Your thoughts are excellent,Positive,0.94,Non-toxic,0.02,N/A,0.0,VERY_UNLIKELY,VERY_UNLIKELY,VERY_UNLIKELY,VERY_UNLIKELY,VERY_UNLIKELY,Non-toxic,Safe,Low,Praise in Marathi
+107,You have no idea what you're doing,1,0,0,0,1,0,English,English,Negative,0.88,Toxic,0.90,N/A,0.0,UNLIKELY,UNLIKELY,POSSIBLE,UNLIKELY,UNLIKELY,Insult,Unsafe,Medium,Insult about competence
+108,The research findings are ground-breaking,0,0,0,0,0,0,English,English,Positive,0.96,Non-toxic,0.01,N/A,0.0,VERY_UNLIKELY,VERY_UNLIKELY,VERY_UNLIKELY,VERY_UNLIKELY,VERY_UNLIKELY,Non-toxic,Safe,Low,Positive scientific review
+109,All rich people are greedy,1,0,0,0,0,0,English,English,Negative,0.83,Toxic,0.78,N/A,0.0,UNLIKELY,UNLIKELY,UNLIKELY,UNLIKELY,UNLIKELY,Non-toxic,Safe,Low,General criticism
+110,I will ruin your reputation,1,0,0,1,0,0,English,English,Negative,0.91,Toxic,0.94,N/A,0.0,LIKELY,UNLIKELY,UNLIKELY,UNLIKELY,UNLIKELY,Threat,Unsafe,Medium,Reputation threat
+111,This vacation was amazing,0,0,0,0,0,0,English,English,Positive,0.97,Non-toxic,0.01,N/A,0.0,VERY_UNLIKELY,VERY_UNLIKELY,VERY_UNLIKELY,VERY_UNLIKELY,VERY_UNLIKELY,Non-toxic,Safe,Low,Positive review
+112,You're a loser in every way,1,0,0,0,1,0,English,English,Negative,0.92,Toxic,0.95,N/A,0.0,UNLIKELY,UNLIKELY,POSSIBLE,UNLIKELY,UNLIKELY,Insult,Unsafe,Medium,General insult
+113,मला तुझ्यावर विश्वास आहे,0,0,0,0,0,0,Marathi,I trust you,Positive,0.96,Non-toxic,0.01,N/A,0.0,VERY_UNLIKELY,VERY_UNLIKELY,VERY_UNLIKELY,VERY_UNLIKELY,VERY_UNLIKELY,Non-toxic,Safe,Low,Trust statement in Marathi
+114,Your performance was pathetic,1,0,0,0,1,0,English,English,Negative,0.89,Toxic,0.91,N/A,0.0,UNLIKELY,UNLIKELY,POSSIBLE,UNLIKELY,UNLIKELY,Insult,Unsafe,Medium,Performance insult
+115,The view from the top was breathtaking,0,0,0,0,0,0,English,English,Positive,0.98,Non-toxic,0.01,N/A,0.0,VERY_UNLIKELY,VERY_UNLIKELY,VERY_UNLIKELY,VERY_UNLIKELY,VERY_UNLIKELY,Non-toxic,Safe,Low,Positive description
+116,You are a waste of oxygen,1,0,0,0,1,0,English,English,Negative,0.93,Toxic,0.97,N/A,0.0,UNLIKELY,UNLIKELY,POSSIBLE,UNLIKELY,UNLIKELY,Insult,Unsafe,Medium,Severe insult
+117,This is a historic moment,0,0,0,0,0,0,English,English,Positive,0.95,Non-toxic,0.02,N/A,0.0,VERY_UNLIKELY,VERY_UNLIKELY,VERY_UNLIKELY,VERY_UNLIKELY,VERY_UNLIKELY,Non-toxic,Safe,Low,Positive observation
+118,I hope you suffer,1,1,0,1,0,0,English,English,Negative,0.94,Toxic,0.97,N/A,0.0,LIKELY,POSSIBLE,UNLIKELY,UNLIKELY,UNLIKELY,Threat,Unsafe,High,Threat of suffering
+119,The party was lit,0,0,0,0,0,0,English,English,Positive,0.90,Non-toxic,0.04,N/A,0.0,VERY_UNLIKELY,VERY_UNLIKELY,UNLIKELY,UNLIKELY,UNLIKELY,Non-toxic,Safe,Low,Positive slang
+120,तुझी बुद्धी कमी आहे,1,0,0,0,1,0,Marathi,Your intelligence is low,Negative,0.87,Toxic,0.85,N/A,0.0,UNLIKELY,UNLIKELY,POSSIBLE,UNLIKELY,UNLIKELY,Insult,Unsafe,Medium,Insult about intelligence in Marathi
+121,I appreciate your honesty,0,0,0,0,0,0,English,English,Positive,0.97,Non-toxic,0.01,N/A,0.0,VERY_UNLIKELY,VERY_UNLIKELY,VERY_UNLIKELY,VERY_UNLIKELY,VERY_UNLIKELY,Non-toxic,Safe,Low,Positive appreciation
+122,You're completely useless,1,0,0,0,1,0,English,English,Negative,0.92,Toxic,0.96,N/A,0.0,UNLIKELY,UNLIKELY,POSSIBLE,UNLIKELY,UNLIKELY,Insult,Unsafe,Medium,Insult about usefulness
+123,I will ensure you never work again,1,0,0,1,0,0,English,English,Negative,0.93,Toxic,0.95,N/A,0.0,LIKELY,UNLIKELY,UNLIKELY,UNLIKELY,UNLIKELY,Threat,Unsafe,Medium,Career threat
+124,The new design is innovative,0,0,0,0,0,0,English,English,Positive,0.96,Non-toxic,0.01,N/A,0.0,VERY_UNLIKELY,VERY_UNLIKELY,VERY_UNLIKELY,VERY_UNLIKELY,VERY_UNLIKELY,Non-toxic,Safe,Low,Positive feedback
+125,तुम खूप हुशार आहात,0,0,0,0,0,0,Marathi,You are very smart,Positive,0.94,Non-toxic,0.02,N/A,0.0,VERY_UNLIKELY,VERY_UNLIKELY,VERY_UNLIKELY,VERY_UNLIKELY,VERY_UNLIKELY,Non-toxic,Safe,Low,Compliment in Marathi
+126,This is a waste of time,1,0,0,0,0,0,English,English,Negative,0.84,Toxic,0.80,N/A,0.0,UNLIKELY,UNLIKELY,UNLIKELY,UNLIKELY,UNLIKELY,Non-toxic,Safe,Low,Criticism without toxicity
+127,Your behavior is disgusting,1,0,0,0,1,0,English,English,Negative,0.90,Toxic,0.93,N/A,0.0,UNLIKELY,UNLIKELY,POSSIBLE,UNLIKELY,UNLIKELY,Insult,Unsafe,Medium,Insult about behavior
+128,The team won the championship,0,0,0,0,0,0,English,English,Positive,0.97,Non-toxic,0.01,N/A,0.0,VERY_UNLIKELY,VERY_UNLIKELY,VERY_UNLIKELY,VERY_UNLIKELY,VERY_UNLIKELY,Non-toxic,Safe,Low,Positive news
+129,I hate everyone,1,0,0,0,0,0,English,English,Negative,0.86,Toxic,0.88,N/A,0.0,UNLIKELY,UNLIKELY,UNLIKELY,UNLIKELY,UNLIKELY,Non-toxic,Safe,Low,General hate
+130,मला आनंद आहे,0,0,0,0,0,0,Marathi,I am happy,Positive,0.96,Non-toxic,0.01,N/A,0.0,VERY_UNLIKELY,VERY_UNLIKELY,VERY_UNLIKELY,VERY_UNLIKELY,VERY_UNLIKELY,Non-toxic,Safe,Low,Happiness in Marathi
+131,You are an inspiration,0,0,0,0,0,0,English,English,Positive,0.98,Non-toxic,0.01,N/A,0.0,VERY_UNLIKELY,VERY_UNLIKELY,VERY_UNLIKELY,VERY_UNLIKELY,VERY_UNLIKELY,Non-toxic,Safe,Low,Positive compliment
+132,You're a disgrace,1,0,0,0,1,0,English,English,Negative,0.89,Toxic,0.93,N/A,0.0,UNLIKELY,UNLIKELY,POSSIBLE,UNLIKELY,UNLIKELY,Insult,Unsafe,Medium,Insult
+133,The economy is improving,0,0,0,0,0,0,English,English,Positive,0.90,Non-toxic,0.03,N/A,0.0,VERY_UNLIKELY,VERY_UNLIKELY,VERY_UNLIKELY,VERY_UNLIKELY,VERY_UNLIKELY,Non-toxic,Safe,Low,Positive economic news
+134,I will destroy you,1,1,0,1,0,0,English,English,Negative,0.95,Toxic,0.99,N/A,0.0,LIKELY,POSSIBLE,UNLIKELY,UNLIKELY,UNLIKELY,Threat,Unsafe,High,Destruction threat
+135,This coffee is amazing,0,0,0,0,0,0,English,English,Positive,0.96,Non-toxic,0.01,N/A,0.0,VERY_UNLIKELY,VERY_UNLIKELY,VERY_UNLIKELY,VERY_UNLIKELY,VERY_UNLIKELY,Non-toxic,Safe,Low,Positive review
+136,तू चांगला माणूस आहेस,0,0,0,0,0,0,Marathi,You are a good person,Positive,0.97,Non-toxic,0.01,N/A,0.0,VERY_UNLIKELY,VERY_UNLIKELY,VERY_UNLIKELY,VERY_UNLIKELY,VERY_UNLIKELY,Non-toxic,Safe,Low,Compliment in Marathi
+137,Your work is subpar,1,0,0,0,0,0,English,English,Negative,0.85,Toxic,0.82,N/A,0.0,UNLIKELY,UNLIKELY,UNLIKELY,UNLIKELY,UNLIKELY,Non-toxic,Safe,Low,Criticism
+138,I love this place,0,0,0,0,0,0,English,English,Positive,0.97,Non-toxic,0.01,N/A,0.0,VERY_UNLIKELY,VERY_UNLIKELY,VERY_UNLIKELY,VERY_UNLIKELY,VERY_UNLIKELY,Non-toxic,Safe,Low,Positive statement
+139,You are the worst,1,0,0,0,1,0,English,English,Negative,0.91,Toxic,0.94,N/A,0.0,UNLIKELY,UNLIKELY,POSSIBLE,UNLIKELY,UNLIKELY,Insult,Unsafe,Medium,Insult
+140,I wish you well,0,0,0,0,0,0,English,English,Positive,0.95,Non-toxic,0.02,N/A,0.0,VERY_UNLIKELY,VERY_UNLIKELY,VERY_UNLIKELY,VERY_UNLIKELY,VERY_UNLIKELY,Non-toxic,Safe,Low,Kind wish
+141,The movie was boring,1,0,0,0,0,0,English,English,Negative,0.83,Toxic,0.78,N/A,0.0,UNLIKELY,UNLIKELY,UNLIKELY,UNLIKELY,UNLIKELY,Non-toxic,Safe,Low,Criticism without toxicity
+142,You are a great friend,0,0,0,0,0,0,English,English,Positive,0.98,Non-toxic,0.01,N/A,0.0,VERY_UNLIKELY,VERY_UNLIKELY,VERY_UNLIKELY,VERY_UNLIKELY,VERY_UNLIKELY,Non-toxic,Safe,Low,Compliment
+143,All men are pigs,1,0,0,0,0,1,English,English,Negative,0.92,Toxic,0.95,N/A,0.0,LIKELY,UNLIKELY,POSSIBLE,UNLIKELY,UNLIKELY,Identity_hate,Unsafe,High,Gender-based generalization
+144,तुला काही कळत नाही,1,0,0,0,1,0,Marathi,You don't understand anything,Negative,0.88,Toxic,0.86,N/A,0.0,UNLIKELY,UNLIKELY,POSSIBLE,UNLIKELY,UNLIKELY,Insult,Unsafe,Medium,Insult about understanding in Marathi
+145,This is a huge step forward,0,0,0,0,0,0,English,English,Positive,0.96,Non-toxic,0.01,N/A,0.0,VERY_UNLIKELY,VERY_UNLIKELY,VERY_UNLIKELY,VERY_UNLIKELY,VERY_UNLIKELY,Non-toxic,Safe,Low,Positive progress
+146,You're impossible to work with,1,0,0,0,1,0,English,English,Negative,0.87,Toxic,0.90,N/A,0.0,UNLIKELY,UNLIKELY,POSSIBLE,UNLIKELY,UNLIKELY,Insult,Unsafe,Medium,Workplace insult
+147,I feel great today,0,0,0,0,0,0,English,English,Positive,0.97,Non-toxic,0.01,N/A,0.0,VERY_UNLIKELY,VERY_UNLIKELY,VERY_UNLIKELY,VERY_UNLIKELY,VERY_UNLIKELY,Non-toxic,Safe,Low,Positive feeling
+148,तुझा रंग काळा आहे,1,0,0,0,0,1,Marathi,You are dark-skinned,Negative,0.89,Toxic,0.92,N/A,0.0,LIKELY,UNLIKELY,POSSIBLE,UNLIKELY,UNLIKELY,Identity_hate,Unsafe,High,Racist comment in Marathi
+149,The project is on track,0,0,0,0,0,0,English,English,Positive,0.92,Non-toxic,0.03,N/A,0.0,VERY_UNLIKELY,VERY_UNLIKELY,VERY_UNLIKELY,VERY_UNLIKELY,VERY_UNLIKELY,Non-toxic,Safe,Low,Positive status
+150,I will make you pay,1,0,0,1,0,0,English,English,Negative,0.93,Toxic,0.96,N/A,0.0,LIKELY,POSSIBLE,UNLIKELY,UNLIKELY,UNLIKELY,Threat,Unsafe,Medium,Threat
+151,She sings like an angel,0,0,0,0,0,0,English,English,Positive,0.97,Non-toxic,0.01,N/A,0.0,VERY_UNLIKELY,VERY_UNLIKELY,VERY_UNLIKELY,VERY_UNLIKELY,VERY_UNLIKELY,Non-toxic,Safe,Low,Compliment
+152,You're a fraud,1,0,0,0,1,0,English,English,Negative,0.90,Toxic,0.94,N/A,0.0,UNLIKELY,UNLIKELY,POSSIBLE,UNLIKELY,UNLIKELY,Insult,Unsafe,Medium,Insult
+153,The food is delicious,0,0,0,0,0,0,English,English,Positive,0.96,Non-toxic,0.01,N/A,0.0,VERY_UNLIKELY,VERY_UNLIKELY,VERY_UNLIKELY,VERY_UNLIKELY,VERY_UNLIKELY,Non-toxic,Safe,Low,Positive review
+154,मी खूप खूश आहे,0,0,0,0,0,0,Marathi,I am very happy,Positive,0.96,Non-toxic,0.01,N/A,0.0,VERY_UNLIKELY,VERY_UNLIKELY,VERY_UNLIKELY,VERY_UNLIKELY,VERY_UNLIKELY,Non-toxic,Safe,Low,Happiness in Marathi
+155,Your attitude is terrible,1,0,0,0,1,0,English,English,Negative,0.88,Toxic,0.91,N/A,0.0,UNLIKELY,UNLIKELY,POSSIBLE,UNLIKELY,UNLIKELY,Insult,Unsafe,Medium,Insult about attitude
+156,I can't trust you,1,0,0,0,0,0,English,English,Negative,0.86,Toxic,0.83,N/A,0.0,UNLIKELY,UNLIKELY,UNLIKELY,UNLIKELY,UNLIKELY,Non-toxic,Safe,Low,Distrust without severe toxicity
+157,This is wonderful news,0,0,0,0,0,0,English,English,Positive,0.97,Non-toxic,0.01,N/A,0.0,VERY_UNLIKELY,VERY_UNLIKELY,VERY_UNLIKELY,VERY_UNLIKELY,VERY_UNLIKELY,Non-toxic,Safe,Low,Positive reaction
+158,You're an idiot,1,0,0,0,1,0,English,English,Negative,0.91,Toxic,0.93,N/A,0.0,UNLIKELY,UNLIKELY,POSSIBLE,UNLIKELY,UNLIKELY,Insult,Unsafe,Medium,Simple insult
+159,तू खूप मेहनत करतोस,0,0,0,0,0,0,Marathi,You work very hard,Positive,0.93,Non-toxic,0.02,N/A,0.0,VERY_UNLIKELY,VERY_UNLIKELY,VERY_UNLIKELY,VERY_UNLIKELY,VERY_UNLIKELY,Non-toxic,Safe,Low,Compliment in Marathi
+160,I'll get you back for this,1,0,0,1,0,0,English,English,Negative,0.92,Toxic,0.95,N/A,0.0,LIKELY,POSSIBLE,UNLIKELY,UNLIKELY,UNLIKELY,Threat,Unsafe,Medium,Revenge threat
+161,The performance was mediocre,1,0,0,0,0,0,English,English,Negative,0.84,Toxic,0.80,N/A,0.0,UNLIKELY,UNLIKELY,UNLIKELY,UNLIKELY,UNLIKELY,Non-toxic,Safe,Low,Criticism without toxicity
+162,You are a genius,0,0,0,0,0,0,English,English,Positive,0.98,Non-toxic,0.01,N/A,0.0,VERY_UNLIKELY,VERY_UNLIKELY,VERY_UNLIKELY,VERY_UNLIKELY,VERY_UNLIKELY,Non-toxic,Safe,Low,Compliment
+163,All women are manipulative,1,0,0,0,0,1,English,English,Negative,0.93,Toxic,0.97,N/A,0.0,LIKELY,UNLIKELY,POSSIBLE,UNLIKELY,UNLIKELY,Identity_hate,Unsafe,High,Gender stereotype
+164,मला तुझी गरज नाही,1,0,0,0,0,0,Marathi,I don't need you,Negative,0.87,Toxic,0.84,N/A,0.0,UNLIKELY,UNLIKELY,UNLIKELY,UNLIKELY,UNLIKELY,Non-toxic,Safe,Low,Rejection without severe toxicity
+165,This is a step in the right direction,0,0,0,0,0,0,English,English,Positive,0.95,Non-toxic,0.02,N/A,0.0,VERY_UNLIKELY,VERY_UNLIKELY,VERY_UNLIKELY,VERY_UNLIKELY,VERY_UNLIKELY,Non-toxic,Safe,Low,Positive outlook
+166,You're a coward,1,0,0,0,1,0,English,English,Negative,0.89,Toxic,0.92,N/A,0.0,UNLIKELY,UNLIKELY,POSSIBLE,UNLIKELY,UNLIKELY,Insult,Unsafe,Medium,Insult
+167,I enjoy your company,0,0,0,0,0,0,English,English,Positive,0.97,Non-toxic,0.01,N/A,0.0,VERY_UNLIKELY,VERY_UNLIKELY,VERY_UNLIKELY,VERY_UNLIKELY,VERY_UNLIKELY,Non-toxic,Safe,Low,Positive statement
+168,तुझी बोलण्याची शैली वाईट आहे,1,0,0,0,1,0,Marathi,Your way of speaking is bad,Negative,0.86,Toxic,0.88,N/A,0.0,UNLIKELY,UNLIKELY,POSSIBLE,UNLIKELY,UNLIKELY,Insult,Unsafe,Medium,Insult about speaking style
+169,This is a fantastic achievement,0,0,0,0,0,0,English,English,Positive,0.96,Non-toxic,0.01,N/A,0.0,VERY_UNLIKELY,VERY_UNLIKELY,VERY_UNLIKELY,VERY_UNLIKELY,VERY_UNLIKELY,Non-toxic,Safe,Low,Positive praise
+170,You are a failure,1,0,0,0,1,0,English,English,Negative,0.92,Toxic,0.96,N/A,0.0,UNLIKELY,UNLIKELY,POSSIBLE,UNLIKELY,UNLIKELY,Insult,Unsafe,Medium,Insult
+171,I feel so happy today,0,0,0,0,0,0,English,English,Positive,0.97,Non-toxic,0.01,N/A,0.0,VERY_UNLIKELY,VERY_UNLIKELY,VERY_UNLIKELY,VERY_UNLIKELY,VERY_UNLIKELY,Non-toxic,Safe,Low,Positive emotion
+172,तुझी कला खूप सुंदर आहे,0,0,0,0,0,0,Marathi,Your art is very beautiful,Positive,0.95,Non-toxic,0.01,N/A,0.0,VERY_UNLIKELY,VERY_UNLIKELY,VERY_UNLIKELY,VERY_UNLIKELY,VERY_UNLIKELY,Non-toxic,Safe,Low,Compliment in Marathi
+173,The system is flawed,1,0,0,0,0,0,English,English,Negative,0.85,Toxic,0.81,N/A,0.0,UNLIKELY,UNLIKELY,UNLIKELY,UNLIKELY,UNLIKELY,Non-toxic,Safe,Low,Criticism without toxicity
+174,You deserve better,0,0,0,0,0,0,English,English,Positive,0.96,Non-toxic,0.01,N/A,0.0,VERY_UNLIKELY,VERY_UNLIKELY,VERY_UNLIKELY,VERY_UNLIKELY,VERY_UNLIKELY,Non-toxic,Safe,Low,Kind statement
+175,I want to leave,0,0,0,0,0,0,English,English,Neutral,0.60,Non-toxic,0.05,N/A,0.0,VERY_UNLIKELY,VERY_UNLIKELY,VERY_UNLIKELY,VERY_UNLIKELY,VERY_UNLIKELY,Non-toxic,Safe,Low,Neutral statement
+176,You're a liar,1,0,0,0,1,0,English,English,Negative,0.90,Toxic,0.94,N/A,0.0,UNLIKELY,UNLIKELY,POSSIBLE,UNLIKELY,UNLIKELY,Insult,Unsafe,Medium,Insult
+177,This is a disaster,1,0,0,0,0,0,English,English,Negative,0.88,Toxic,0.85,N/A,0.0,UNLIKELY,UNLIKELY,UNLIKELY,UNLIKELY,UNLIKELY,Non-toxic,Safe,Low,Strong criticism without toxicity
+178,मी तुझ्यावर प्रेम करतो,0,0,0,0,0,0,Marathi,I love you,Positive,0.98,Non-toxic,0.01,N/A,0.0,VERY_UNLIKELY,VERY_UNLIKELY,VERY_UNLIKELY,VERY_UNLIKELY,VERY_UNLIKELY,Non-toxic,Safe,Low,Love in Marathi
+179,You are a hero,0,0,0,0,0,0,English,English,Positive,0.97,Non-toxic,0.01,N/A,0.0,VERY_UNLIKELY,VERY_UNLIKELY,VERY_UNLIKELY,VERY_UNLIKELY,VERY_UNLIKELY,Non-toxic,Safe,Low,Compliment
+180,I will never forgive you,1,0,0,0,0,0,English,English,Negative,0.86,Toxic,0.84,N/A,0.0,UNLIKELY,UNLIKELY,UNLIKELY,UNLIKELY,UNLIKELY,Non-toxic,Safe,Low,Strong emotion without severe toxicity
+181,The sky is beautiful,0,0,0,0,0,0,English,English,Positive,0.96,Non-toxic,0.01,N/A,0.0,VERY_UNLIKELY,VERY_UNLIKELY,VERY_UNLIKELY,VERY_UNLIKELY,VERY_UNLIKELY,Non-toxic,Safe,Low,Positive observation
+182,You're a moron,1,0,0,0,1,0,English,English,Negative,0.91,Toxic,0.93,N/A,0.0,UNLIKELY,UNLIKELY,POSSIBLE,UNLIKELY,UNLIKELY,Insult,Unsafe,Medium,Insult
+183,This is a great opportunity,0,0,0,0,0,0,English,English,Positive,0.97,Non-toxic,0.01,N/A,0.0,VERY_UNLIKELY,VERY_UNLIKELY,VERY_UNLIKELY,VERY_UNLIKELY,VERY_UNLIKELY,Non-toxic,Safe,Low,Positive outlook
+184,तुझी सगळी कामे चुकीची आहेत,1,0,0,0,1,0,Marathi,All your work is wrong,Negative,0.88,Toxic,0.89,N/A,0.0,UNLIKELY,UNLIKELY,POSSIBLE,UNLIKELY,UNLIKELY,Insult,Unsafe,Medium,Criticism in Marathi
+185,I support your decision,0,0,0,0,0,0,English,English,Positive,0.96,Non-toxic,0.01,N/A,0.0,VERY_UNLIKELY,VERY_UNLIKELY,VERY_UNLIKELY,VERY_UNLIKELY,VERY_UNLIKELY,Non-toxic,Safe,Low,Supportive statement
+186,You are annoying,1,0,0,0,1,0,English,English,Negative,0.87,Toxic,0.90,N/A,0.0,UNLIKELY,UNLIKELY,POSSIBLE,UNLIKELY,UNLIKELY,Insult,Unsafe,Medium,Insult
+187,The future looks bright,0,0,0,0,0,0,English,English,Positive,0.95,Non-toxic,0.02,N/A,0.0,VERY_UNLIKELY,VERY_UNLIKELY,VERY_UNLIKELY,VERY_UNLIKELY,VERY_UNLIKELY,Non-toxic,Safe,Low,Positive outlook
+188,तुम्ही खूप चांगले आहात,0,0,0,0,0,0,Marathi,You are very good,Positive,0.97,Non-toxic,0.01,N/A,0.0,VERY_UNLIKELY,VERY_UNLIKELY,VERY_UNLIKELY,VERY_UNLIKELY,VERY_UNLIKELY,Non-toxic,Safe,Low,Compliment in Marathi
+189,This plan will fail,1,0,0,0,0,0,English,English,Negative,0.85,Toxic,0.82,N/A,0.0,UNLIKELY,UNLIKELY,UNLIKELY,UNLIKELY,UNLIKELY,Non-toxic,Safe,Low,Criticism without toxicity
+190,I admire your courage,0,0,0,0,0,0,English,English,Positive,0.97,Non-toxic,0.01,N/A,0.0,VERY_UNLIKELY,VERY_UNLIKELY,VERY_UNLIKELY,VERY_UNLIKELY,VERY_UNLIKELY,Non-toxic,Safe,Low,Admiration
+191,You're a joke,1,0,0,0,1,0,English,English,Negative,0.90,Toxic,0.93,N/A,0.0,UNLIKELY,UNLIKELY,POSSIBLE,UNLIKELY,UNLIKELY,Insult,Unsafe,Medium,Insult
+192,This is a beautiful day,0,0,0,0,0,0,English,English,Positive,0.96,Non-toxic,0.01,N/A,0.0,VERY_UNLIKELY,VERY_UNLIKELY,VERY_UNLIKELY,VERY_UNLIKELY,VERY_UNLIKELY,Non-toxic,Safe,Low,Positive observation
+193,तुझी वृत्ती चांगली नाही,1,0,0,0,1,0,Marathi,Your attitude is not good,Negative,0.87,Toxic,0.88,N/A,0.0,UNLIKELY,UNLIKELY,POSSIBLE,UNLIKELY,UNLIKELY,Insult,Unsafe,Medium,Insult about attitude in Marathi
+194,I am so proud of you,0,0,0,0,0,0,English,English,Positive,0.98,Non-toxic,0.01,N/A,0.0,VERY_UNLIKELY,VERY_UNLIKELY,VERY_UNLIKELY,VERY_UNLIKELY,VERY_UNLIKELY,Non-toxic,Safe,Low,Pride
+195,You are a fool,1,0,0,0,1,0,English,English,Negative,0.91,Toxic,0.94,N/A,0.0,UNLIKELY,UNLIKELY,POSSIBLE,UNLIKELY,UNLIKELY,Insult,Unsafe,Medium,Insult
+196,The project was a success,0,0,0,0,0,0,English,English,Positive,0.96,Non-toxic,0.01,N/A,0.0,VERY_UNLIKELY,VERY_UNLIKELY,VERY_UNLIKELY,VERY_UNLIKELY,VERY_UNLIKELY,Non-toxic,Safe,Low,Positive outcome
+197,मी तुझ्यावर भरवसा ठेवतो,0,0,0,0,0,0,Marathi,I trust you,Positive,0.95,Non-toxic,0.01,N/A,0.0,VERY_UNLIKELY,VERY_UNLIKELY,VERY_UNLIKELY,VERY_UNLIKELY,VERY_UNLIKELY,Non-toxic,Safe,Low,Trust in Marathi
+198,You're a genius,0,0,0,0,0,0,English,English,Positive,0.98,Non-toxic,0.01,N/A,0.0,VERY_UNLIKELY,VERY_UNLIKELY,VERY_UNLIKELY,VERY_UNLIKELY,VERY_UNLIKELY,Non-toxic,Safe,Low,Compliment
+199,I hate this,1,0,0,0,0,0,English,English,Negative,0.86,Toxic,0.84,N/A,0.0,UNLIKELY,UNLIKELY,UNLIKELY,UNLIKELY,UNLIKELY,Non-toxic,Safe,Low,Strong dislike without severe toxicity
+200,You are amazing,0,0,0,0,0,0,English,English,Positive,0.97,Non-toxic,0.01,N/A,0.0,VERY_UNLIKELY,VERY_UNLIKELY,VERY_UNLIKELY,VERY_UNLIKELY,VERY_UNLIKELY,Non-toxic,Safe,Low,Compliment

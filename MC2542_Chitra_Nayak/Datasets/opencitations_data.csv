@@ -1,0 +1,2447 @@
+timestamp,operation,filename,paper_title,document_type,abstract,extracted_text,user_question,answer,answer_lines,answer_format,source,status
+2026-08-25T00:56:02.993123,paper_upload,Model_Compression_Engine_for_Wearable_Devices_Skin_Cancer_Diagnosis.pdf,Model_Compression_Engine_for_Wearable_Devices_Skin_Cancer_Diagnosis,Research Paper,"Model Compression Engine for Wearable Devices
+Skin Cancer Diagnosis
+1st Jacob M. Delgado-L ´opez
+Department of Computer Science and Engineering
+University of Puerto Rico Mayag ¨uez
+Mayag¨uez, Puerto Rico
+jacob.delgado@upr.edu
+2nd Andrea P. Seda-Hernandez
+Department of Computer Science and Engineering
+University of Puerto Rico Mayag ¨uez
+Mayag¨uez, Puerto Rico
+andrea.seda3@upr.edu
+3rd Juan D. Guadalupe-Rosado
+Department of Computer Science and Engineering
+University of Puerto Rico Mayag ¨uez
+Mayag¨uez, Puerto Rico
+juan.guadalupe@upr.edu
+4th Luis E. Fernandez Ramirez
+Department of Computer Science and Engineering
+University of Puerto Rico Mayag ¨uez
+Mayag¨uez, Puerto Rico
+luis.fernandez20@upr.edu
+5th Miguel Giboyeaux-Camilo
+Department of Computer Science and Engineering
+University of Puerto Rico Mayag ¨uez
+Mayag¨uez, Puerto Rico
+miguel.giboyeaux@upr.edu
+6th Wilfredo E. Lugo-Beauchamp
+Department of Computer Science and Engineering
+University of Puerto Rico Mayag ¨uez
+Mayag¨uez, Puerto Rico
+wilfredo.lugo1@upr.edu
+Abstract—Skin cancer is one of the most prevalent and
+preventable types of cancer, yet its early detection remains a
+challenge, particularly in resource-limited settings where access
+to specialized healthcare is scarce. This study proposes an
+AI-driven diagnostic tool optimized for embedded systems to
+address this gap. Using transfer learning with the MobileNetV2
+architecture, the model was adapted for binary classification of
+skin lesions into ”Skin Cancer” and ”Other.” The TensorRT
+framework was employed to compress and optimize the model
+for deployment on the NVIDIA Jetson Orin Nano, balancing
+performance with energy efficiency. Comprehensive evaluations
+were conducted across multiple benchmarks, including model
+size, inference speed, throughput, and power consumption. The
+optimized models maintained their performance, achieving an F1-
+Score of 87.18% with a precision of 93.18% and recall of 81.91%.
+Post-compression results showed reductions in model size of up
+to 0.41, along with improvements in inference speed and through-
+put, and a decrease in energy consumption of up to 0.93 in INT8
+precision. These findings validate the feasibility of deploying
+high-performing, energy-efficient diagnostic tools on resource-
+constrained edge devices. Beyond skin cancer detection, the
+methodologies applied in this research have broader applications
+in other medical diagnostics and domains requiring accessible,
+efficient AI solutions. This study underscores the potential of
+optimized AI systems to revolutionize healthcare diagnostics,
+thereby bridging the divide between advanced technology and
+underserved regions.
+Index Terms —skin cancer, skin lesions, detection, classifica-
+tion, transfer learning, quantization, machine learning, model
+optimization, model compression, tensorrt
+NSF Grant OIA-1849243
+I. I NTRODUCTION
+Skin cancer is one of the most common and yet preventable
+types of cancer, affecting millions of people worldwide each
+year [1]. According to recent estimates, more than 5 million
+new cases are diagnosed annually in the United States alone
+[2]. Early detection is essential to improve patient outcomes, as
+the survival rate decreases dramatically once cancer metasta-
+sizes [3] The survival rate decreases even more in underserved
+areas due to the lack of necessary resources and expertise to
+provide timely and accurate diagnoses.
+Diagnostic challenges in skin cancer are compounded by
+the fact that visual inspection by dermatologists, while ef-
+fective, is often limited by subjectivity and the availability
+of expert clinicians. Advanced diagnostic methods, such as
+biopsy and histopathological analysis, although more accurate,
+are invasive and time-consuming [4]. This diagnostic gap
+is particularly pronounced in regions with limited access to
+dermatological care or advanced diagnostic equipment. In such
+settings, delayed diagnosis can significantly impact patient
+outcomes, highlighting the need for portable, efficient, and
+accessible diagnostic tools that can be deployed in resource-
+limited environments.
+By leveraging Artificial intelligence (AI), it is possible to
+reduce the complications in the traditional methods while
+improving the diagnosis rate [5], [6]. Through optimization,
+AI models can be adapted for deployment on edge devices,
+balancing performance with energy efficiency. This approach
+enables real-time diagnosis, bringing sophisticated diagnostic
+arXiv:2507.17125v1  [cs.LG]  23 Jul 2025
+capabilities to remote areas where traditional healthcare re-
+sources are not available.
+This work aims to address the diagnostic challenges of
+skin cancer detection, particularly in low-resource settings, by
+developing AI-driven diagnostic tools optimized for embedded
+systems. These tools can provide rapid, accurate, and accessi-
+ble diagnostics, reducing the dependency on traditional high-
+performance technologies with intensive resource use. Further-
+more, the methods developed in this research have broader
+implications beyond skin cancer, with potential applications
+in other medical fields and sectors such as soil classification
+and autonomous robots.
+To establish a foundation for this work, a baseline
+model for skin lesion detection was developed using the
+MobileNetV2 pre-trained deep-learning architecture. Subse-
+quently, the model underwent compression and optimization
+using the TensorRT framework, enabling its deployment on
+an NVIDIA Jetson Orin Nano. The performance of the op-
+timized model was rigorously evaluated across metrics such
+as precision, recall, model size, inference time, and power
+consumption. The results underscore the viability of deploying
+AI-powered diagnostic tools in resource-constrained environ-
+ments, highlighting their potential to bridge critical gaps in
+global healthcare accessibility.
+Previous research has demonstrated the development of
+highly accurate models for skin cancer diagnosis [5], [6].
+However, much of this work remains confined to controlled
+environments, with limited progression toward real-world clin-
+ical implementation [7]. The DermaSensor is the first FDA-
+approved AI-powered device for skin cancer detection [8], as
+far as the authors are aware. Unlike the research presented
+here, the DermaSensor relies on spectral scans rather than
+image-based analysis. This distinction highlights the novelty
+of this study, which focuses on deploying an image-based
+diagnostic model directly on an embedded system, paving the
+way for practical and accessible real-world applications.
+II. M ETHODS
+This study investigates the feasibility of developing an AI-
+driven diagnostic tool for skin cancer detection that is both
+accurate and optimized for deployment in resource-constrained
+environments. The methodology encompasses dataset prepa-
+ration, model training, and model optimization to achieve
+efficient performance on embedded systems.
+A. Model Training
+The backbone of the proposed diagnostic tool is Mo-
+bileNetV2 [9], a pre-trained deep-learning architecture known
+for its efficiency and suitability for mobile and embedded
+applications. The technique of transfer learning (TL) was em-
+ployed to adapt this model for the specific task of skin cancer
+detection. Transfer learning allows the reuse of knowledge
+from solving a related problem or dataset, enabling improved
+performance on new tasks with limited data [10]. In this study,
+the final classification layer was retrained for 50 epochs using
+the Skin Lesions Classification Dataset (SLCD) [11], followed
+by the fine-tuning of the last four layers.
+To simplify the classification task and align it with the
+study’s focus, the dataset, which originally consisted of images
+from 14 distinct skin lesion types, was condensed into two
+categories: ”Skin Cancer” and ”Other”, facilitating binary
+classification. Table I provides an overview of the dataset
+composition and distribution.
+TABLE I
+DATASET DESCRIPTION
+Class Value
+Skin Cancer
+Basal cell carcinoma 3323
+Melanoma 4522
+Squamous cell carcinoma 628
+Skin Cancer Total 8473
+Other
+Actinic keratoses 867
+Benign keratosis-like lesions 262
+Chickenpox 1125
+Cowpox 990
+Dermatofibroma 239
+Healthy 1710
+HFMD 2415
+Measles 825
+Melanocytic nevi 12875
+Monkeypox 4260
+Vascular lesions 253
+Other Total 25821
+Grand Total 34294
+To mitigate the challenges posed by class imbalance, 5-
+fold cross-validation was employed [12]. This method sys-
+tematically divided the dataset into five subsets, with each
+subset serving as the validation set once while the remaining
+four were used for training. This approach ensured robust
+evaluation by reducing the likelihood of overfitting and pro-
+viding a more reliable measure of model performance. A 90-
+10 split was used for training and validation, respectively.
+The training process utilized hyperparameters fine-tuned for
+optimal performance, including the learning rate, batch size,
+and optimizer configurations, as detailed in Table 2. The
+training was done on an NVIDIA GeForce RTX 3090 GPU.
+TABLE II
+HYPERPARAMETERS DESCRIPTION
+Hyperparameters Value
+Batch Size 32
+Learning Rate 0.001
+folds 5
+Epochs 50
+Optimizer Adam
+Loss Binary Cross Entropy
+B. Key Metrics
+To evaluate the effectiveness of the proposed diagnostic
+model, five key performance metrics were employed during
+the training phase: Accuracy, Precision, Recall, F1-Score,
+and Receiver Operating Characteristic Area Under the Curve
+(ROC AUC) score. These metrics were selected to provide a
+comprehensive assessment of the model’s predictive capabil-
+ities, ensuring its reliability for real-world deployment. Each
+metric offers unique insights, collectively enabling a thorough
+evaluation of the model’s strengths and weaknesses. Here, TP,
+TN, FP, and FN refer to true positives, true negatives, false
+positives, and false negatives, respectively.
+Accuracy: Accuracy represents the proportion of correctly
+classified instances (both TP and TN) among the total number
+of predictions. It provides an overall measure of the model’s
+correctness, offering a straightforward indication of its perfor-
+mance across all classes.
+Accuracy = TP + TN
+TP + TN + FP + FN (1)
+Precision: Precision quantifies the model’s ability to cor-
+rectly identify positive cases out of all instances predicted as
+positive. High Precision indicates a low rate of FP, which is
+critical in diagnostic applications where incorrect identification
+of non-cancerous cases as cancerous could lead to unnecessary
+procedures.
+Precision = TP
+TP + FP (2)
+Recall: Recall assesses the model’s ability to identify all
+actual positive cases. High Recall minimizes the occurrence
+of FN, which is essential in ensuring that cases of skin cancer
+are not misclassified.
+Recall = TP
+TP + FN (3)
+F1-Score: The F1-Score combines Precision and Recall into
+a single metric by calculating their harmonic mean. It provides
+a balanced measure of the model’s performance, especially
+useful when there is an imbalance between the number of
+positive and negative cases in the dataset.
+F1-Score = 2 · Precision · Recall
+Precision + Recall (4)
+ROC AUC Score: The ROC AUC score evaluates the
+model’s ability to distinguish between positive and negative
+classes across varying classification thresholds. A high ROC
+AUC score indicates that the model effectively balances Recall
+and the True Negative Rate making it a crucial metric for
+assessing overall classification performance.
+FPR = FP
+FP + TN (5)
+By monitoring these metrics throughout the training and
+validation phases, the study ensured the development of a
+diagnostic tool capable of delivering high accuracy, clinical
+reliability, and robust performance across different thresh-
+olds. This comprehensive evaluation framework highlights
+the balance between minimizing misdiagnoses (FP and FN)
+and maximizing overall predictive performance, ensuring its
+applicability in real-world scenarios.
+C. Model Optimization and Deployment
+To ensure the model’s suitability for resource-limited
+environments, optimization techniques were applied us-
+ing NVIDIA","Model Compression Engine for Wearable Devices
+Skin Cancer Diagnosis
+1st Jacob M. Delgado-L ´opez
+Department of Computer Science and Engineering
+University of Puerto Rico Mayag ¨uez
+Mayag¨uez, Puerto Rico
+jacob.delgado@upr.edu
+2nd Andrea P. Seda-Hernandez
+Department of Computer Science and Engineering
+University of Puerto Rico Mayag ¨uez
+Mayag¨uez, Puerto Rico
+andrea.seda3@upr.edu
+3rd Juan D. Guadalupe-Rosado
+Department of Computer Science and Engineering
+University of Puerto Rico Mayag ¨uez
+Mayag¨uez, Puerto Rico
+juan.guadalupe@upr.edu
+4th Luis E. Fernandez Ramirez
+Department of Computer Science and Engineering
+University of Puerto Rico Mayag ¨uez
+Mayag¨uez, Puerto Rico
+luis.fernandez20@upr.edu
+5th Miguel Giboyeaux-Camilo
+Department of Computer Science and Engineering
+University of Puerto Rico Mayag ¨uez
+Mayag¨uez, Puerto Rico
+miguel.giboyeaux@upr.edu
+6th Wilfredo E. Lugo-Beauchamp
+Department of Computer Science and Engineering
+University of Puerto Rico Mayag ¨uez
+Mayag¨uez, Puerto Rico
+wilfredo.lugo1@upr.edu
+Abstract—Skin cancer is one of the most prevalent and
+preventable types of cancer, yet its early detection remains a
+challenge, particularly in resource-limited settings where access
+to specialized healthcare is scarce. This study proposes an
+AI-driven diagnostic tool optimized for embedded systems to
+address this gap. Using transfer learning with the MobileNetV2
+architecture, the model was adapted for binary classification of
+skin lesions into ”Skin Cancer” and ”Other.” The TensorRT
+framework was employed to compress and optimize the model
+for deployment on the NVIDIA Jetson Orin Nano, balancing
+performance with energy efficiency. Comprehensive evaluations
+were conducted across multiple benchmarks, including model
+size, inference speed, throughput, and power consumption. The
+optimized models maintained their performance, achieving an F1-
+Score of 87.18% with a precision of 93.18% and recall of 81.91%.
+Post-compression results showed reductions in model size of up
+to 0.41, along with improvements in inference speed and through-
+put, and a decrease in energy consumption of up to 0.93 in INT8
+precision. These findings validate the feasibility of deploying
+high-performing, energy-efficient diagnostic tools on resource-
+constrained edge devices. Beyond skin cancer detection, the
+methodologies applied in this research have broader applications
+in other medical diagnostics and domains requiring accessible,
+efficient AI solutions. This study underscores the potential of
+optimized AI systems to revolutionize healthcare diagnostics,
+thereby bridging the divide between advanced technology and
+underserved regions.
+Index Terms —skin cancer, skin lesions, detection, classifica-
+tion, transfer learning, quantization, machine learning, model
+optimization, model compression, tensorrt
+NSF Grant OIA-1849243
+I. I NTRODUCTION
+Skin cancer is one of the most common and yet preventable
+types of cancer, affecting millions of people worldwide each
+year [1]. According to recent estimates, more than 5 million
+new cases are diagnosed annually in the United States alone
+[2]. Early detection is essential to improve patient outcomes, as
+the survival rate decreases dramatically once cancer metasta-
+sizes [3] The survival rate decreases even more in underserved
+areas due to the lack of necessary resources and expertise to
+provide timely and accurate diagnoses.
+Diagnostic challenges in skin cancer are compounded by
+the fact that visual inspection by dermatologists, while ef-
+fective, is often limited by subjectivity and the availability
+of expert clinicians. Advanced diagnostic methods, such as
+biopsy and histopathological analysis, although more accurate,
+are invasive and time-consuming [4]. This diagnostic gap
+is particularly pronounced in regions with limited access to
+dermatological care or advanced diagnostic equipment. In such
+settings, delayed diagnosis can significantly impact patient
+outcomes, highlighting the need for portable, efficient, and
+accessible diagnostic tools that can be deployed in resource-
+limited environments.
+By leveraging Artificial intelligence (AI), it is possible to
+reduce the complications in the traditional methods while
+improving the diagnosis rate [5], [6]. Through optimization,
+AI models can be adapted for deployment on edge devices,
+balancing performance with energy efficiency. This approach
+enables real-time diagnosis, bringing sophisticated diagnostic
+arXiv:2507.17125v1  [cs.LG]  23 Jul 2025
+capabilities to remote areas where traditional healthcare re-
+sources are not available.
+This work aims to address the diagnostic challenges of
+skin cancer detection, particularly in low-resource settings, by
+developing AI-driven diagnostic tools optimized for embedded
+systems. These tools can provide rapid, accurate, and accessi-
+ble diagnostics, reducing the dependency on traditional high-
+performance technologies with intensive resource use. Further-
+more, the methods developed in this research have broader
+implications beyond skin cancer, with potential applications
+in other medical fields and sectors such as soil classification
+and autonomous robots.
+To establish a foundation for this work, a baseline
+model for skin lesion detection was developed using the
+MobileNetV2 pre-trained deep-learning architecture. Subse-
+quently, the model underwent compression and optimization
+using the TensorRT framework, enabling its deployment on
+an NVIDIA Jetson Orin Nano. The performance of the op-
+timized model was rigorously evaluated across metrics such
+as precision, recall, model size, inference time, and power
+consumption. The results underscore the viability of deploying
+AI-powered diagnostic tools in resource-constrained environ-
+ments, highlighting their potential to bridge critical gaps in
+global healthcare accessibility.
+Previous research has demonstrated the development of
+highly accurate models for skin cancer diagnosis [5], [6].
+However, much of this work remains confined to controlled
+environments, with limited progression toward real-world clin-
+ical implementation [7]. The DermaSensor is the first FDA-
+approved AI-powered device for skin cancer detection [8], as
+far as the authors are aware. Unlike the research presented
+here, the DermaSensor relies on spectral scans rather than
+image-based analysis. This distinction highlights the novelty
+of this study, which focuses on deploying an image-based
+diagnostic model directly on an embedded system, paving the
+way for practical and accessible real-world applications.
+II. M ETHODS
+This study investigates the feasibility of developing an AI-
+driven diagnostic tool for skin cancer detection that is both
+accurate and optimized for deployment in resource-constrained
+environments. The methodology encompasses dataset prepa-
+ration, model training, and model optimization to achieve
+efficient performance on embedded systems.
+A. Model Training
+The backbone of the proposed diagnostic tool is Mo-
+bileNetV2 [9], a pre-trained deep-learning architecture known
+for its efficiency and suitability for mobile and embedded
+applications. The technique of transfer learning (TL) was em-
+ployed to adapt this model for the specific task of skin cancer
+detection. Transfer learning allows the reuse of knowledge
+from solving a related problem or dataset, enabling improved
+performance on new tasks with limited data [10]. In this study,
+the final classification layer was retrained for 50 epochs using
+the Skin Lesions Classification Dataset (SLCD) [11], followed
+by the fine-tuning of the last four layers.
+To simplify the classification task and align it with the
+study’s focus, the dataset, which originally consisted of images
+from 14 distinct skin lesion types, was condensed into two
+categories: ”Skin Cancer” and ”Other”, facilitating binary
+classification. Table I provides an overview of the dataset
+composition and distribution.
+TABLE I
+DATASET DESCRIPTION
+Class Value
+Skin Cancer
+Basal cell carcinoma 3323
+Melanoma 4522
+Squamous cell carcinoma 628
+Skin Cancer Total 8473
+Other
+Actinic keratoses 867
+Benign keratosis-like lesions 262
+Chickenpox 1125
+Cowpox 990
+Dermatofibroma 239
+Healthy 1710
+HFMD 2415
+Measles 825
+Melanocytic nevi 12875
+Monkeypox 4260
+Vascular lesions 253
+Other Total 25821
+Grand Total 34294
+To mitigate the challenges posed by class imbalance, 5-
+fold cross-validation was employed [12]. This method sys-
+tematically divided the dataset into five subsets, with each
+subset serving as the validation set once while the remaining
+four were used for training. This approach ensured robust
+evaluation by reducing the likelihood of overfitting and pro-
+viding a more reliable measure of model performance. A 90-
+10 split was used for training and validation, respectively.
+The training process utilized hyperparameters fine-tuned for
+optimal performance, including the learning rate, batch size,
+and optimizer configurations, as detailed in Table 2. The
+training was done on an NVIDIA GeForce RTX 3090 GPU.
+TABLE II
+HYPERPARAMETERS DESCRIPTION
+Hyperparameters Value
+Batch Size 32
+Learning Rate 0.001
+folds 5
+Epochs 50
+Optimizer Adam
+Loss Binary Cross Entropy
+B. Key Metrics
+To evaluate the effectiveness of the proposed diagnostic
+model, five key performance metrics were employed during
+the training phase: Accuracy, Precision, Recall, F1-Score,
+and Receiver Operating Characteristic Area Under the Curve
+(ROC AUC) score. These metrics were selected to provide a
+comprehensive assessment of the model’s predictive capabil-
+ities, ensuring its reliability for real-world deployment. Each
+metric offers unique insights, collectively enabling a thorough
+evaluation of the model’s strengths and weaknesses. Here, TP,
+TN, FP, and FN refer to true positives, true negatives, false
+positives, and false negatives, respectively.
+Accuracy: Accuracy represents the proportion of correctly
+classified instances (both TP and TN) among the total number
+of predictions. It provides an overall measure of the model’s
+correctness, offering a straightforward indication of its perfor-
+mance across all classes.
+Accuracy = TP + TN
+TP + TN + FP + FN (1)
+Precision: Precision quantifies the model’s ability to cor-
+rectly identify positive cases out of all instances predicted as
+positive. High Precision indicates a low rate of FP, which is
+critical in diagnostic applications where incorrect identification
+of non-cancerous cases as cancerous could lead to unnecessary
+procedures.
+Precision = TP
+TP + FP (2)
+Recall: Recall assesses the model’s ability to identify all
+actual positive cases. High Recall minimizes the occurrence
+of FN, which is essential in ensuring that cases of skin cancer
+are not misclassified.
+Recall = TP
+TP + FN (3)
+F1-Score: The F1-Score combines Precision and Recall into
+a single metric by calculating their harmonic mean. It provides
+a balanced measure of the model’s performance, especially
+useful when there is an imbalance between the number of
+positive and negative cases in the dataset.
+F1-Score = 2 · Precision · Recall
+Precision + Recall (4)
+ROC AUC Score: The ROC AUC score evaluates the
+model’s ability to distinguish between positive and negative
+classes across varying classification thresholds. A high ROC
+AUC score indicates that the model effectively balances Recall
+and the True Negative Rate making it a crucial metric for
+assessing overall classification performance.
+FPR = FP
+FP + TN (5)
+By monitoring these metrics throughout the training and
+validation phases, the study ensured the development of a
+diagnostic tool capable of delivering high accuracy, clinical
+reliability, and robust performance across different thresh-
+olds. This comprehensive evaluation framework highlights
+the balance between minimizing misdiagnoses (FP and FN)
+and maximizing overall predictive performance, ensuring its
+applicability in real-world scenarios.
+C. Model Optimization and Deployment
+To ensure the model’s suitability for resource-limited
+environments, optimization techniques were applied us-
+ing NVIDIA’s TensorRT framework. TensorRT is a high-
+performance deep-learning inference library [13] designed to
+reduce model size, improve inference speed, and lower power
+consumption, making it ideal for deployment on edge devices
+such as the NVIDIA Jetson Orin Nano [14].
+The Jetson was selected for its balance of computational
+power and energy efficiency, making it well-suited for em-
+bedded applications in low-resource settings. The optimization
+process involved compressing the trained MobileNetV2 model
+and refining its inference capabilities to meet the hardware
+constraints of the Jetson. The final model was evaluated on
+several key metrics, including inference time, model size, and
+power consumption.
+III. R ESULTS AND DISCUSSION
+The proposed methodology was evaluated through criti-
+cal performance metrics at both pre-compression and post-
+compression stages, enabling a comparative analysis of model
+size, inference speed, throughput, and power consumption.
+These metrics are crucial for understanding the impact of
+optimization on the feasibility of deploying the model in
+resource-limited environments.
+A. Before Compression
+The baseline performance metrics were obtained after ap-
+plying TL and testing the model on a held-out dataset. These
+results, illustrated in Figure 1, highlight the model’s robustness
+and suitability for practical deployment scenarios requiring
+high accuracy and balanced performance.
+Fig. 1. Performance Metrics Comparison
+The model achieved an F1-Score of 87.18%, demonstrating
+its ability to effectively balance precision (93.18%) and recall
+(81.91%). This balance highlights the model’s strong capa-
+bility to accurately identify TP cases while minimizing FN,
+a critical factor in medical diagnostics where missed cases
+could result in delayed treatment and severe consequences
+for patients. Precision, at 93.18%, indicates that the model
+is highly effective in avoiding FP. Meanwhile, the recall of
+81.91% shows the model’s ability to capture the majority
+of actual positive cases, ensuring comprehensive detection of
+malignant lesions. Additionally, the ROC AUC score of 89.05
+underscores the model’s ability to distinguish between positive
+and negative cases across various thresholds, reinforcing its
+robustness in classification performance. An overall accuracy
+of 81.48% further highlights the model’s consistency in de-
+livering reliable predictions across the dataset. Together, these
+metrics demonstrate the model’s suitability for deployment in
+practical diagnostic settings, where both accuracy and recall
+are critical for effective decision-making.
+Fig. 2. Performance Analysis
+Figure 2 further analyzes the balance among the perfor-
+mance metrics. While precision scored slightly higher than
+recall and accuracy, the metrics demonstrate overall harmony,
+with no significant trade-offs observed. This balance suggests
+that the model is well-suited for scenarios that demand robust
+diagnostic accuracy without sacrificing sensitivity to critical
+cases.
+B. After Compression
+The optimized models were evaluated on three pri-
+mary benchmarks: model size, average inference speed, and
+throughput. These tests were performed on a dataset of 3,666
+images using a batch size of 32, providing a robust framework
+for assessing the impact of the optimization. By focusing on
+these benchmarks, the evaluation captured critical aspects of
+the model’s ability to balance performance and efficiency.
+Fig. 3. Post-Compression Model Size
+As shown in Figure 3, TensorRT achieved significant reduc-
+tions in model sizes across different precision formats. The
+model size decreased by factors of 0.82 for FP32, 0.41 for
+FP16, and 0.97 for INT8. This highlighted the framework’s
+capability to adapt the model for edge devices with limited
+storage. The smaller model size translates directly to faster
+loading times and reduced memory overhead, improving the
+overall practicality of the model in real-world applications.
+Fig. 4. Post-Compression Average Inference Time
+Figures 4 and 5 illustrate significant enhancements in in-
+ference speed and throughput following compression. FP32
+precision showed the best performance across these metrics,
+while FP16 underperformed slightly due to the Jetson Nano’s
+hardware limitations hindering the optimization process. Simi-
+larly, INT8 precision exhibited the lowest performance, a result
+of constrained calibration during optimization caused by the
+device’s 8GB RAM capacity. These limitations highlight that
+while TensorRT’s quantization provides substantial benefits,
+hardware constraints play a critical role when optimizing for
+other precision formats.
+Table III provides an overview of the architectural modifica-
+tions introduced by TensorRT during optimization. The use of
+Fig. 5. Post-Compression Throughput
+TABLE III
+MODEL ARCHITECTURE OPERATION DISTRIBUTION AFTER
+OPTIMIZATION
+Operation Count by Precision
+FP32 FP16/INT8
+Core Operations
+Conv2D 35 35
+DepthwiseConv2dNative 17 17
+MatMul 1 1
+Activation & Processing
+Relu6 35 35
+Mean 1 1
+Mul 17 18
+Utility Operations
+AddV2 63 63
+Const 125 126
+Pad 4 4
+Cast* – 4
+*Cast operations added for precision conversion
+mixed-precision techniques ensured that FP32 precision was
+retained for input and output layers, while hidden layers were
+optimized to FP16 or INT8 for reduced computational demand.
+TensorRT further streamlined operations such as Depthwise
+Convolution and constant tensor manipulations, minimizing
+computational complexity without adversely affecting accu-
+racy. Additionally, Cast operations were introduced in FP16
+and INT8 models to manage precision conversion dynamically,
+ensuring compatibility between layers while maintaining op-
+erational efficiency. These architectural changes collectively
+enhanced the model’s suitability for deployment on energy-
+efficient hardware.
+C. Power Usage
+Power usage was a critical consideration for evaluating
+the feasibility of deploying the optimized model in resource-
+limited environments, where energy efficiency is as important
+as computational performance. Table IV provides a detailed
+summary of the Jetson Orin Nano’s power usage across
+different model configurations. This evaluation included mea-
+surements during idle states and during inference, offering a
+comprehensive view of the energy demands associated with
+each precision format.
+TABLE IV
+POWER CONSUMPTION ANALYSIS OF DIFFERENT MODEL TYPES
+Model Type Power Draw (W) ∆ from Idle
+Original Model 6.8 +1.0
+FP32 6.6 +0.8
+FP16 6.4 +0.6
+INT8 6.3 +0.5
+Idle System 5.8 –
+The results show that optimized models consistently con-
+sumed less power than the original model, achieving reduc-
+tions of 0.97 for FP32, 0.94 for FP16, and 0.93 for INT8
+formats. These improvements validate the effectiveness of
+TensorRT’s quantization and optimization techniques in min-
+imizing power usage while maintaining robust performance.
+The reduced energy consumption is particularly significant
+for INT8, despite its relatively lower computational efficiency,
+highlighting the role of mixed-precision optimization in reduc-
+ing energy usage.
+IV. C ONCLUSION
+This study demonstrated the feasibility and effectiveness of
+deploying an AI-driven diagnostic tool for skin cancer detec-
+tion on resource-constrained embedded systems. By leverag-
+ing transfer learning with the MobileNetV2 architecture and
+applying optimization techniques using TensorRT, the model
+was successfully adapted for deployment on the NVIDIA
+Jetson Orin Nano. The results show that the optimized models
+maintained an 87.18% F1-Score, while significantly reducing
+model size, improving inference speed, and enhancing energy
+efficiency. However, some limitations were noted, particularly
+with FP16 and INT8 precision due to hardware constraints.
+Despite this, the results obtained underscored the potential
+of AI in addressing diagnostic gaps in resource-limited en-
+vironments, where access to advanced medical infrastructure
+is often scarce.
+Beyond skin cancer detection, the methodologies presented
+in this study have broader implications. The use of model com-
+pression and optimization can extend to various applications,
+including other medical diagnostic fields, environmental mon-
+itoring, and autonomous systems. By enabling sophisticated
+AI systems to operate effectively on embedded devices, this
+research provides a pathway toward increasing accessibility to
+technology in underserved regions. Future work will focus on
+introducing new compression techniques, such as knowledge
+distillation, and expanding the use case to other platforms,
+such as the Arduino Nano. The ultimate goal of this research is
+to expand the capabilities of model compression for wearable
+devices, enabling seamless, non-invasive diagnosis of skin
+cancer.
+ACKNOWLEDGMENT
+This work would not have been possible without the support
+of the Edge Computing Group and the University of Puerto
+Rico, Mayag ¨uez. Thank you to the NSF Grant OIA-1849243
+for partially funding this research.
+REFERENCES
+[1] K. Urban, S. Mehrmal, P. Uppal, R. L. Giesey, and G. R.
+Delost, “The global burden of skin cancer: A longitudinal analysis
+from the Global Burden of Disease Study, 1990–2017,” JAAD
+International, vol. 2, pp. 98–108, Jan. 2021. [Online]. Available:
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8362234/
+[2] CDC, “Melanoma of the Skin Statistics,” Jul. 2024. [Online]. Available:
+https://www.cdc.gov/skin-cancer/statistics/index.html
+[3] A. Sandru, S. V oinea, E. Panaitescu, and A. Blidaru, “Survival rates
+of patients with metastatic malignant melanoma,” Journal of Medicine
+and Life , vol. 7, no. 4, pp. 572–576, 2014. [Online]. Available:
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4316142/
+[4] “Skin cancer - Diagnosis and treatment - Mayo Clinic.” [On-
+line]. Available: https://www.mayoclinic.org/diseases-conditions/skin-
+cancer/diagnosis-treatment/drc-20377608
+[5] N. M. Mahmoud and A. M. Soliman, “Early automated detection system
+for skin cancer diagnosis using artificial intelligent techniques,”Scientific
+Reports, vol. 14, no. 1, p. 9749, Apr. 2024, publisher: Nature Publishing
+Group. [Online]. Available: https://www.nature.com/articles/s41598-
+024-59783-0
+[6] E. J. Beltrami, A. C. Brown, P. J. M. Salmon, D. J. Leffell, J. M. Ko, and
+J. M. Grant-Kels, “Artificial intelligence in the detection of skin cancer,”
+Journal of the American Academy of Dermatology , vol. 87, no. 6, pp.
+1336–1342, Dec. 2022.
+[7] G. Brancaccio, A. Balato, J. Malvehy, S. Puig, G. Argenziano,
+and H. Kittler, “Artificial Intelligence in Skin Cancer Diagnosis:
+A Reality Check,” Journal of Investigative Dermatology , vol.
+144, no. 3, pp. 492–499, Mar. 2024. [Online]. Available:
+https://www.sciencedirect.com/science/article/pii/S0022202X23029640
+[8] “Homepage.” [Online]. Available: https://www.dermasensor.com/
+[9] A. G. Howard, M. Zhu, B. Chen, D. Kalenichenko, W. Wang,
+T. Weyand, M. Andreetto, and H. Adam, “MobileNets:
+Efficient Convolutional Neural Networks for Mobile Vision
+Applications,” Apr. 2017, arXiv:1704.04861 [cs]. [Online]. Available:
+http://arxiv.org/abs/1704.04861
+[10] “What is transfer learning? | IBM,” Jan. 2024. [Online]. Available:
+https://www.ibm.com/topics/transfer-learning
+[11] “Skin Lesions Classification Dataset.” [Online]. Available:
+https://www.kaggle.com/datasets/ahmedxc4/skin-ds
+[12] “Cross-Validation - an overview | ScienceDirect Topics.”
+[Online]. Available: https://www.sciencedirect.com/topics/medicine-and-
+dentistry/cross-validation
+[13] “NVIDIA/TensorRT,” Dec. 2024, original-date: 2019-05-02T22:02:08Z.
+[Online]. Available: https://github.com/NVIDIA/TensorRT
+[14] “Jetson Orin Nano Developer Kit User Guide.” [On-
+line]. Available: https://developer.nvidia.com/embedded/learn/jetson-
+orin-nano-devkit-user-guide/index.html",Paper uploaded,Research paper uploaded and processed.,1,5 lines,OpenCitations + Research IQ,success
+2026-08-25T00:57:10.999574,paper_question,Not available,Model_Compression_Engine_for_Wearable_Devices_Skin_Cancer_Diagnosis,Not available,"Model Compression Engine for Wearable Devices
+Skin Cancer Diagnosis
+1st Jacob M. Delgado-L ´opez
+Department of Computer Science and Engineering
+University of Puerto Rico Mayag ¨uez
+Mayag¨uez, Puerto Rico
+jacob.delgado@upr.edu
+2nd Andrea P. Seda-Hernandez
+Department of Computer Science and Engineering
+University of Puerto Rico Mayag ¨uez
+Mayag¨uez, Puerto Rico
+andrea.seda3@upr.edu
+3rd Juan D. Guadalupe-Rosado
+Department of Computer Science and Engineering
+University of Puerto Rico Mayag ¨uez
+Mayag¨uez, Puerto Rico
+juan.guadalupe@upr.edu
+4th Luis E. Fernandez Ramirez
+Department of Computer Science and Engineering
+University of Puerto Rico Mayag ¨uez
+Mayag¨uez, Puerto Rico
+luis.fernandez20@upr.edu
+5th Miguel Giboyeaux-Camilo
+Department of Computer Science and Engineering
+University of Puerto Rico Mayag ¨uez
+Mayag¨uez, Puerto Rico
+miguel.giboyeaux@upr.edu
+6th Wilfredo E. Lugo-Beauchamp
+Department of Computer Science and Engineering
+University of Puerto Rico Mayag ¨uez
+Mayag¨uez, Puerto Rico
+wilfredo.lugo1@upr.edu
+Abstract—Skin cancer is one of the most prevalent and
+preventable types of cancer, yet its early detection remains a
+challenge, particularly in resource-limited settings where access
+to specialized healthcare is scarce. This study proposes an
+AI-driven diagnostic tool optimized for embedded systems to
+address this gap. Using transfer learning with the MobileNetV2
+architecture, the model was adapted for binary classification of
+skin lesions into ”Skin Cancer” and ”Other.” The TensorRT
+framework was employed to compress and optimize the model
+for deployment on the NVIDIA Jetson Orin Nano, balancing
+performance with energy efficiency. Comprehensive evaluations
+were conducted across multiple benchmarks, including model
+size, inference speed, throughput, and power consumption. The
+optimized models maintained their performance, achieving an F1-
+Score of 87.18% with a precision of 93.18% and recall of 81.91%.
+Post-compression results showed reductions in model size of up
+to 0.41, along with improvements in inference speed and through-
+put, and a decrease in energy consumption of up to 0.93 in INT8
+precision. These findings validate the feasibility of deploying
+high-performing, energy-efficient diagnostic tools on resource-
+constrained edge devices. Beyond skin cancer detection, the
+methodologies applied in this research have broader applications
+in other medical diagnostics and domains requiring accessible,
+efficient AI solutions. This study underscores the potential of
+optimized AI systems to revolutionize healthcare diagnostics,
+thereby bridging the divide between advanced technology and
+underserved regions.
+Index Terms —skin cancer, skin lesions, detection, classifica-
+tion, transfer learning, quantization, machine learning, model
+optimization, model compression, tensorrt
+NSF Grant OIA-1849243
+I. I NTRODUCTION
+Skin cancer is one of the most common and yet preventable
+types of cancer, affecting millions of people worldwide each
+year [1]. According to recent estimates, more than 5 million
+new cases are diagnosed annually in the United States alone
+[2]. Early detection is essential to improve patient outcomes, as
+the survival rate decreases dramatically once cancer metasta-
+sizes [3] The survival rate decreases even more in underserved
+areas due to the lack of necessary resources and expertise to
+provide timely and accurate diagnoses.
+Diagnostic challenges in skin cancer are compounded by
+the fact that visual inspection by dermatologists, while ef-
+fective, is often limited by subjectivity and the availability
+of expert clinicians. Advanced diagnostic methods, such as
+biopsy and histopathological analysis, although more accurate,
+are invasive and time-consuming [4]. This diagnostic gap
+is particularly pronounced in regions with limited access to
+dermatological care or advanced diagnostic equipment. In such
+settings, delayed diagnosis can significantly impact patient
+outcomes, highlighting the need for portable, efficient, and
+accessible diagnostic tools that can be deployed in resource-
+limited environments.
+By leveraging Artificial intelligence (AI), it is possible to
+reduce the complications in the traditional methods while
+improving the diagnosis rate [5], [6]. Through optimization,
+AI models can be adapted for deployment on edge devices,
+balancing performance with energy efficiency. This approach
+enables real-time diagnosis, bringing sophisticated diagnostic
+arXiv:2507.17125v1  [cs.LG]  23 Jul 2025
+capabilities to remote areas where traditional healthcare re-
+sources are not available.
+This work aims to address the diagnostic challenges of
+skin cancer detection, particularly in low-resource settings, by
+developing AI-driven diagnostic tools optimized for embedded
+systems. These tools can provide rapid, accurate, and accessi-
+ble diagnostics, reducing the dependency on traditional high-
+performance technologies with intensive resource use. Further-
+more, the methods developed in this research have broader
+implications beyond skin cancer, with potential applications
+in other medical fields and sectors such as soil classification
+and autonomous robots.
+To establish a foundation for this work, a baseline
+model for skin lesion detection was developed using the
+MobileNetV2 pre-trained deep-learning architecture. Subse-
+quently, the model underwent compression and optimization
+using the TensorRT framework, enabling its deployment on
+an NVIDIA Jetson Orin Nano. The performance of the op-
+timized model was rigorously evaluated across metrics such
+as precision, recall, model size, inference time, and power
+consumption. The results underscore the viability of deploying
+AI-powered diagnostic tools in resource-constrained environ-
+ments, highlighting their potential to bridge critical gaps in
+global healthcare accessibility.
+Previous research has demonstrated the development of
+highly accurate models for skin cancer diagnosis [5], [6].
+However, much of this work remains confined to controlled
+environments, with limited progression toward real-world clin-
+ical implementation [7]. The DermaSensor is the first FDA-
+approved AI-powered device for skin cancer detection [8], as
+far as the authors are aware. Unlike the research presented
+here, the DermaSensor relies on spectral scans rather than
+image-based analysis. This distinction highlights the novelty
+of this study, which focuses on deploying an image-based
+diagnostic model directly on an embedded system, paving the
+way for practical and accessible real-world applications.
+II. M ETHODS
+This study investigates the feasibility of developing an AI-
+driven diagnostic tool for skin cancer detection that is both
+accurate and optimized for deployment in resource-constrained
+environments. The methodology encompasses dataset prepa-
+ration, model training, and model optimization to achieve
+efficient performance on embedded systems.
+A. Model Training
+The backbone of the proposed diagnostic tool is Mo-
+bileNetV2 [9], a pre-trained deep-learning architecture known
+for its efficiency and suitability for mobile and embedded
+applications. The technique of transfer learning (TL) was em-
+ployed to adapt this model for the specific task of skin cancer
+detection. Transfer learning allows the reuse of knowledge
+from solving a related problem or dataset, enabling improved
+performance on new tasks with limited data [10]. In this study,
+the final classification layer was retrained for 50 epochs using
+the Skin Lesions Classification Dataset (SLCD) [11], followed
+by the fine-tuning of the last four layers.
+To simplify the classification task and align it with the
+study’s focus, the dataset, which originally consisted of images
+from 14 distinct skin lesion types, was condensed into two
+categories: ”Skin Cancer” and ”Other”, facilitating binary
+classification. Table I provides an overview of the dataset
+composition and distribution.
+TABLE I
+DATASET DESCRIPTION
+Class Value
+Skin Cancer
+Basal cell carcinoma 3323
+Melanoma 4522
+Squamous cell carcinoma 628
+Skin Cancer Total 8473
+Other
+Actinic keratoses 867
+Benign keratosis-like lesions 262
+Chickenpox 1125
+Cowpox 990
+Dermatofibroma 239
+Healthy 1710
+HFMD 2415
+Measles 825
+Melanocytic nevi 12875
+Monkeypox 4260
+Vascular lesions 253
+Other Total 25821
+Grand Total 34294
+To mitigate the challenges posed by class imbalance, 5-
+fold cross-validation was employed [12]. This method sys-
+tematically divided the dataset into five subsets, with each
+subset serving as the validation set once while the remaining
+four were used for training. This approach ensured robust
+evaluation by reducing the likelihood of overfitting and pro-
+viding a more reliable measure of model performance. A 90-
+10 split was used for training and validation, respectively.
+The training process utilized hyperparameters fine-tuned for
+optimal performance, including the learning rate, batch size,
+and optimizer configurations, as detailed in Table 2. The
+training was done on an NVIDIA GeForce RTX 3090 GPU.
+TABLE II
+HYPERPARAMETERS DESCRIPTION
+Hyperparameters Value
+Batch Size 32
+Learning Rate 0.001
+folds 5
+Epochs 50
+Optimizer Adam
+Loss Binary Cross Entropy
+B. Key Metrics
+To evaluate the effectiveness of the proposed diagnostic
+model, five key performance metrics were employed during
+the training phase: Accuracy, Precision, Recall, F1-Score,
+and Receiver Operating Characteristic Area Under the Curve
+(ROC AUC) score. These metrics were selected to provide a
+comprehensive assessment of the model’s predictive capabil-
+ities, ensuring its reliability for real-world deployment. Each
+metric offers unique insights, collectively enabling a thorough
+evaluation of the model’s strengths and weaknesses. Here, TP,
+TN, FP, and FN refer to true positives, true negatives, false
+positives, and false negatives, respectively.
+Accuracy: Accuracy represents the proportion of correctly
+classified instances (both TP and TN) among the total number
+of predictions. It provides an overall measure of the model’s
+correctness, offering a straightforward indication of its perfor-
+mance across all classes.
+Accuracy = TP + TN
+TP + TN + FP + FN (1)
+Precision: Precision quantifies the model’s ability to cor-
+rectly identify positive cases out of all instances predicted as
+positive. High Precision indicates a low rate of FP, which is
+critical in diagnostic applications where incorrect identification
+of non-cancerous cases as cancerous could lead to unnecessary
+procedures.
+Precision = TP
+TP + FP (2)
+Recall: Recall assesses the model’s ability to identify all
+actual positive cases. High Recall minimizes the occurrence
+of FN, which is essential in ensuring that cases of skin cancer
+are not misclassified.
+Recall = TP
+TP + FN (3)
+F1-Score: The F1-Score combines Precision and Recall into
+a single metric by calculating their harmonic mean. It provides
+a balanced measure of the model’s performance, especially
+useful when there is an imbalance between the number of
+positive and negative cases in the dataset.
+F1-Score = 2 · Precision · Recall
+Precision + Recall (4)
+ROC AUC Score: The ROC AUC score evaluates the
+model’s ability to distinguish between positive and negative
+classes across varying classification thresholds. A high ROC
+AUC score indicates that the model effectively balances Recall
+and the True Negative Rate making it a crucial metric for
+assessing overall classification performance.
+FPR = FP
+FP + TN (5)
+By monitoring these metrics throughout the training and
+validation phases, the study ensured the development of a
+diagnostic tool capable of delivering high accuracy, clinical
+reliability, and robust performance across different thresh-
+olds. This comprehensive evaluation framework highlights
+the balance between minimizing misdiagnoses (FP and FN)
+and maximizing overall predictive performance, ensuring its
+applicability in real-world scenarios.
+C. Model Optimization and Deployment
+To ensure the model’s suitability for resource-limited
+environments, optimization techniques were applied us-
+ing NVIDIA","Model Compression Engine for Wearable Devices
+Skin Cancer Diagnosis
+1st Jacob M. Delgado-L ´opez
+Department of Computer Science and Engineering
+University of Puerto Rico Mayag ¨uez
+Mayag¨uez, Puerto Rico
+jacob.delgado@upr.edu
+2nd Andrea P. Seda-Hernandez
+Department of Computer Science and Engineering
+University of Puerto Rico Mayag ¨uez
+Mayag¨uez, Puerto Rico
+andrea.seda3@upr.edu
+3rd Juan D. Guadalupe-Rosado
+Department of Computer Science and Engineering
+University of Puerto Rico Mayag ¨uez
+Mayag¨uez, Puerto Rico
+juan.guadalupe@upr.edu
+4th Luis E. Fernandez Ramirez
+Department of Computer Science and Engineering
+University of Puerto Rico Mayag ¨uez
+Mayag¨uez, Puerto Rico
+luis.fernandez20@upr.edu
+5th Miguel Giboyeaux-Camilo
+Department of Computer Science and Engineering
+University of Puerto Rico Mayag ¨uez
+Mayag¨uez, Puerto Rico
+miguel.giboyeaux@upr.edu
+6th Wilfredo E. Lugo-Beauchamp
+Department of Computer Science and Engineering
+University of Puerto Rico Mayag ¨uez
+Mayag¨uez, Puerto Rico
+wilfredo.lugo1@upr.edu
+Abstract—Skin cancer is one of the most prevalent and
+preventable types of cancer, yet its early detection remains a
+challenge, particularly in resource-limited settings where access
+to specialized healthcare is scarce. This study proposes an
+AI-driven diagnostic tool optimized for embedded systems to
+address this gap. Using transfer learning with the MobileNetV2
+architecture, the model was adapted for binary classification of
+skin lesions into ”Skin Cancer” and ”Other.” The TensorRT
+framework was employed to compress and optimize the model
+for deployment on the NVIDIA Jetson Orin Nano, balancing
+performance with energy efficiency. Comprehensive evaluations
+were conducted across multiple benchmarks, including model
+size, inference speed, throughput, and power consumption. The
+optimized models maintained their performance, achieving an F1-
+Score of 87.18% with a precision of 93.18% and recall of 81.91%.
+Post-compression results showed reductions in model size of up
+to 0.41, along with improvements in inference speed and through-
+put, and a decrease in energy consumption of up to 0.93 in INT8
+precision. These findings validate the feasibility of deploying
+high-performing, energy-efficient diagnostic tools on resource-
+constrained edge devices. Beyond skin cancer detection, the
+methodologies applied in this research have broader applications
+in other medical diagnostics and domains requiring accessible,
+efficient AI solutions. This study underscores the potential of
+optimized AI systems to revolutionize healthcare diagnostics,
+thereby bridging the divide between advanced technology and
+underserved regions.
+Index Terms —skin cancer, skin lesions, detection, classifica-
+tion, transfer learning, quantization, machine learning, model
+optimization, model compression, tensorrt
+NSF Grant OIA-1849243
+I. I NTRODUCTION
+Skin cancer is one of the most common and yet preventable
+types of cancer, affecting millions of people worldwide each
+year [1]. According to recent estimates, more than 5 million
+new cases are diagnosed annually in the United States alone
+[2]. Early detection is essential to improve patient outcomes, as
+the survival rate decreases dramatically once cancer metasta-
+sizes [3] The survival rate decreases even more in underserved
+areas due to the lack of necessary resources and expertise to
+provide timely and accurate diagnoses.
+Diagnostic challenges in skin cancer are compounded by
+the fact that visual inspection by dermatologists, while ef-
+fective, is often limited by subjectivity and the availability
+of expert clinicians. Advanced diagnostic methods, such as
+biopsy and histopathological analysis, although more accurate,
+are invasive and time-consuming [4]. This diagnostic gap
+is particularly pronounced in regions with limited access to
+dermatological care or advanced diagnostic equipment. In such
+settings, delayed diagnosis can significantly impact patient
+outcomes, highlighting the need for portable, efficient, and
+accessible diagnostic tools that can be deployed in resource-
+limited environments.
+By leveraging Artificial intelligence (AI), it is possible to
+reduce the complications in the traditional methods while
+improving the diagnosis rate [5], [6]. Through optimization,
+AI models can be adapted for deployment on edge devices,
+balancing performance with energy efficiency. This approach
+enables real-time diagnosis, bringing sophisticated diagnostic
+arXiv:2507.17125v1  [cs.LG]  23 Jul 2025
+capabilities to remote areas where traditional healthcare re-
+sources are not available.
+This work aims to address the diagnostic challenges of
+skin cancer detection, particularly in low-resource settings, by
+developing AI-driven diagnostic tools optimized for embedded
+systems. These tools can provide rapid, accurate, and accessi-
+ble diagnostics, reducing the dependency on traditional high-
+performance technologies with intensive resource use. Further-
+more, the methods developed in this research have broader
+implications beyond skin cancer, with potential applications
+in other medical fields and sectors such as soil classification
+and autonomous robots.
+To establish a foundation for this work, a baseline
+model for skin lesion detection was developed using the
+MobileNetV2 pre-trained deep-learning architecture. Subse-
+quently, the model underwent compression and optimization
+using the TensorRT framework, enabling its deployment on
+an NVIDIA Jetson Orin Nano. The performance of the op-
+timized model was rigorously evaluated across metrics such
+as precision, recall, model size, inference time, and power
+consumption. The results underscore the viability of deploying
+AI-powered diagnostic tools in resource-constrained environ-
+ments, highlighting their potential to bridge critical gaps in
+global healthcare accessibility.
+Previous research has demonstrated the development of
+highly accurate models for skin cancer diagnosis [5], [6].
+However, much of this work remains confined to controlled
+environments, with limited progression toward real-world clin-
+ical implementation [7]. The DermaSensor is the first FDA-
+approved AI-powered device for skin cancer detection [8], as
+far as the authors are aware. Unlike the research presented
+here, the DermaSensor relies on spectral scans rather than
+image-based analysis. This distinction highlights the novelty
+of this study, which focuses on deploying an image-based
+diagnostic model directly on an embedded system, paving the
+way for practical and accessible real-world applications.
+II. M ETHODS
+This study investigates the feasibility of developing an AI-
+driven diagnostic tool for skin cancer detection that is both
+accurate and optimized for deployment in resource-constrained
+environments. The methodology encompasses dataset prepa-
+ration, model training, and model optimization to achieve
+efficient performance on embedded systems.
+A. Model Training
+The backbone of the proposed diagnostic tool is Mo-
+bileNetV2 [9], a pre-trained deep-learning architecture known
+for its efficiency and suitability for mobile and embedded
+applications. The technique of transfer learning (TL) was em-
+ployed to adapt this model for the specific task of skin cancer
+detection. Transfer learning allows the reuse of knowledge
+from solving a related problem or dataset, enabling improved
+performance on new tasks with limited data [10]. In this study,
+the final classification layer was retrained for 50 epochs using
+the Skin Lesions Classification Dataset (SLCD) [11], followed
+by the fine-tuning of the last four layers.
+To simplify the classification task and align it with the
+study’s focus, the dataset, which originally consisted of images
+from 14 distinct skin lesion types, was condensed into two
+categories: ”Skin Cancer” and ”Other”, facilitating binary
+classification. Table I provides an overview of the dataset
+composition and distribution.
+TABLE I
+DATASET DESCRIPTION
+Class Value
+Skin Cancer
+Basal cell carcinoma 3323
+Melanoma 4522
+Squamous cell carcinoma 628
+Skin Cancer Total 8473
+Other
+Actinic keratoses 867
+Benign keratosis-like lesions 262
+Chickenpox 1125
+Cowpox 990
+Dermatofibroma 239
+Healthy 1710
+HFMD 2415
+Measles 825
+Melanocytic nevi 12875
+Monkeypox 4260
+Vascular lesions 253
+Other Total 25821
+Grand Total 34294
+To mitigate the challenges posed by class imbalance, 5-
+fold cross-validation was employed [12]. This method sys-
+tematically divided the dataset into five subsets, with each
+subset serving as the validation set once while the remaining
+four were used for training. This approach ensured robust
+evaluation by reducing the likelihood of overfitting and pro-
+viding a more reliable measure of model performance. A 90-
+10 split was used for training and validation, respectively.
+The training process utilized hyperparameters fine-tuned for
+optimal performance, including the learning rate, batch size,
+and optimizer configurations, as detailed in Table 2. The
+training was done on an NVIDIA GeForce RTX 3090 GPU.
+TABLE II
+HYPERPARAMETERS DESCRIPTION
+Hyperparameters Value
+Batch Size 32
+Learning Rate 0.001
+folds 5
+Epochs 50
+Optimizer Adam
+Loss Binary Cross Entropy
+B. Key Metrics
+To evaluate the effectiveness of the proposed diagnostic
+model, five key performance metrics were employed during
+the training phase: Accuracy, Precision, Recall, F1-Score,
+and Receiver Operating Characteristic Area Under the Curve
+(ROC AUC) score. These metrics were selected to provide a
+comprehensive assessment of the model’s predictive capabil-
+ities, ensuring its reliability for real-world deployment. Each
+metric offers unique insights, collectively enabling a thorough
+evaluation of the model’s strengths and weaknesses. Here, TP,
+TN, FP, and FN refer to true positives, true negatives, false
+positives, and false negatives, respectively.
+Accuracy: Accuracy represents the proportion of correctly
+classified instances (both TP and TN) among the total number
+of predictions. It provides an overall measure of the model’s
+correctness, offering a straightforward indication of its perfor-
+mance across all classes.
+Accuracy = TP + TN
+TP + TN + FP + FN (1)
+Precision: Precision quantifies the model’s ability to cor-
+rectly identify positive cases out of all instances predicted as
+positive. High Precision indicates a low rate of FP, which is
+critical in diagnostic applications where incorrect identification
+of non-cancerous cases as cancerous could lead to unnecessary
+procedures.
+Precision = TP
+TP + FP (2)
+Recall: Recall assesses the model’s ability to identify all
+actual positive cases. High Recall minimizes the occurrence
+of FN, which is essential in ensuring that cases of skin cancer
+are not misclassified.
+Recall = TP
+TP + FN (3)
+F1-Score: The F1-Score combines Precision and Recall into
+a single metric by calculating their harmonic mean. It provides
+a balanced measure of the model’s performance, especially
+useful when there is an imbalance between the number of
+positive and negative cases in the dataset.
+F1-Score = 2 · Precision · Recall
+Precision + Recall (4)
+ROC AUC Score: The ROC AUC score evaluates the
+model’s ability to distinguish between positive and negative
+classes across varying classification thresholds. A high ROC
+AUC score indicates that the model effectively balances Recall
+and the True Negative Rate making it a crucial metric for
+assessing overall classification performance.
+FPR = FP
+FP + TN (5)
+By monitoring these metrics throughout the training and
+validation phases, the study ensured the development of a
+diagnostic tool capable of delivering high accuracy, clinical
+reliability, and robust performance across different thresh-
+olds. This comprehensive evaluation framework highlights
+the balance between minimizing misdiagnoses (FP and FN)
+and maximizing overall predictive performance, ensuring its
+applicability in real-world scenarios.
+C. Model Optimization and Deployment
+To ensure the model’s suitability for resource-limited
+environments, optimization techniques were applied us-
+ing NVIDIA",who wroteb this paper,"The paper was written by Jacob M. Delgado-L ´opez, Andrea P. Seda-Hernandez, Juan D. Guadalupe-Rosado, Luis E. Fernandez Ramirez, Miguel Giboyeaux-Camilo, and Wilfredo E. Lugo-Beauchamp.",1,5 lines,OpenCitations + Research IQ,success
+2026-08-31T00:47:18.600766,paper_upload,ResearchIQ_Research_Paper (3).pdf,ResearchIQ_Research_Paper (3),Research Paper,No extractable text was found in the uploaded PDF.,No extractable text was found in the uploaded PDF.,Paper uploaded,Research paper uploaded and processed.,1,5 lines,OpenCitations + Research IQ,success
+2026-08-31T00:47:50.008323,paper_question,Not available,ResearchIQ_Research_Paper (3),Not available,No extractable text was found in the uploaded PDF.,No extractable text was found in the uploaded PDF.,what is the uploaded document about,"The uploaded document is a ResearchIQ research-paper, but no extractable text was found in the PDF.",1,5 lines,OpenCitations + Research IQ,success
+2026-08-31T00:48:11.948096,paper_question,Not available,ResearchIQ_Research_Paper (3),Not available,No extractable text was found in the uploaded PDF.,No extractable text was found in the uploaded PDF.,whats the topic discussed in the research paper,The topic discussed in the research paper is not explicitly mentioned in the provided information.,1,5 lines,OpenCitations + Research IQ,success
+2026-08-31T00:48:31.734391,paper_upload,Pursuit_of_biomarkers_of_brain_diseases_Beyond_cohort_comparisons.pdf,Pursuit_of_biomarkers_of_brain_diseases_Beyond_cohort_comparisons,Research Paper,No extractable text was found in the uploaded PDF.,No extractable text was found in the uploaded PDF.,Paper uploaded,Research paper uploaded and processed.,1,5 lines,OpenCitations + Research IQ,success
+2026-08-31T00:48:52.459685,paper_question,Not available,Pursuit_of_biomarkers_of_brain_diseases_Beyond_cohort_comparisons,Not available,No extractable text was found in the uploaded PDF.,No extractable text was found in the uploaded PDF.,what types of brain disease stuff is discussed in the paper,"The paper discusses biomarkers for brain diseases, focusing on methods beyond cohort comparisons.",1,5 lines,OpenCitations + Research IQ,success
+2026-08-31T00:49:28.394527,paper_question,Not available,Pursuit_of_biomarkers_of_brain_diseases_Beyond_cohort_comparisons,Not available,No extractable text was found in the uploaded PDF.,No extractable text was found in the uploaded PDF.,what is beyond cohort comparisions mean,"Beyond cohort comparisons refers to methods or approaches that go beyond simply comparing different groups of individuals (cohorts) to identify biomarkers or disease markers. It involves more comprehensive and sophisticated techniques to detect and measure the presence of biomarkers in the body, such as imaging, genetic analysis, or functional brain imaging, rather than relying solely on the comparison of different cohorts.",1,5 lines,OpenCitations + Research IQ,success
+2026-08-31T00:50:27.465210,paper_question,Not available,Pursuit_of_biomarkers_of_brain_diseases_Beyond_cohort_comparisons,Not available,No extractable text was found in the uploaded PDF.,No extractable text was found in the uploaded PDF.,what does cohort comparisions mean,"Cohort comparisons refer to the comparison of different groups or cohorts of individuals based on their characteristics, behaviors, or outcomes over time.",1,5 lines,OpenCitations + Research IQ,success
+2026-11-28T10:55:59.699434,paper_upload,Chitra_Nayak_NLP_Revised.pdf,Chitra_Nayak_NLP_Revised,Research Paper,"SNDT Women’s University
+P.G. DEPARTMENT OF COMPUTER SCIENCE
+MCA Semester III
+NATURAL LANGUAGE PROCESSING
+LABORATORY JOURNAL
+NAME: Chitra Nayak
+ROLL NO.: MC2542
+FACULTY: MR MADHAV MISHRA
+ACADEMIC YEAR 2026–27
+MCA Semester III | NLP Laboratory
+Page 2
+CERTIFICATE
+This journal is submitted for evaluation of the Natural Language Processing laboratory work by 
+Ms. Chitra Nayak (MC2542), MCA Semester III, P.G. Department of Computer Science, SNDT 
+Women’s University, for the academic year 2026–27 under the guidance of Mr. Madhav Mishra. 
+Completion is subject to verification by the faculty.
+Date: 27th November 2026
+Place: SNDT Women’s University
+Course Faculty: __________________                             External Examiner: __________________
+MCA Semester III | NLP Laboratory
+Page 3
+INDEX
+No. Practical title Pages Sign
+1 Part-of-Speech (POS) 
+Tagging
+4–7
+2 NP Bracketing and 
+Phrase-Structure 
+Trees
+8–11
+3 Named Entity 
+Recognition (NER)
+12–15
+4 Syntactic Analysis of 
+a Document
+16–18
+5 Semantic Analysis of 
+a Document
+19–22
+6 Word Sense 
+Disambiguation
+23–24
+MCA Semester III | NLP Laboratory
+Page 4
+PRACTICAL 1
+Part-of-Speech (POS) Tagging
+1. Aim
+To assign grammatical categories to every token in six selected sentences using NLTK and spaCy, 
+and compare fine-grained and Universal POS tags.
+2. Theory
+POS tagging associates each token with its grammatical function. Penn Treebank tags distinguish 
+nouns, verbs, adjectives and other categories, including tense and number.
+3. Libraries and Functions Used
+Library / Function Purpose
+word_tokenize() separates words and punctuation
+pos_tag() predicts grammatical labels
+explain_tag() retrieves the tag description
+most_common() orders the frequency counts.
+4. Procedure / Algorithm
+1. Tokenize each sentence.
+2. apply the NLTK tagger.
+3. look up tag descriptions.
+4. count each tag with Counter.
+5. display the frequency summary.
+5. Code
+MCA Semester III | NLP Laboratory
+Page 5
+Code Explanation
+The setup cell makes the tokenizer, tagger and tag dictionary available. The main loop processes each 
+sentence separately and prints a row for each token. Counter accumulates the tags across the entire 
+input.
+Important terms and definitions:
+word_tokenize():  separates  words  and  punctuation;  pos_tag():  predicts  grammatical  labels; 
+explain_tag(): retrieves the tag description; most_common(): orders the frequency counts.
+MCA Semester III | NLP Laboratory
+Page 6
+6. Sample Output
+MCA Semester III | NLP Laboratory
+Page 7
+Output Explanation
+The sample output lists tokens, their tags and descriptions. NN and IN each occur nine times in the 
+selected examples.
+7. Result
+The sample output demonstrates the technique described above. Independent execution is pending.
+MCA Semester III | NLP Laboratory
+Page 8
+PRACTICAL 2
+NP Bracketing and Phrase-Structure Trees
+1. Aim
+To identify noun phrases in sentences by applying regular-expression grammar rules to POS-tagged 
+tokens and display the resulting phrase-structure trees.
+2. Theory
+Chunking uses patterns over POS tags to identify groups of words. An optional determiner or 
+possessive, adjectives and nouns can form an NP; standalone pronouns can also be treated as noun 
+phrases.
+3. Libraries and Functions Used
+Library / Function Purpose
+RegexpParser() builds the chunker
+parse() applies the grammar
+subtrees() visits tree nodes
+pretty_print() displays the selected branch.
+4. Procedure / Algorithm
+1. Tokenize and tag the four sentences.
+2. define NP grammar.
+3. initialize RegexpParser.
+4. parse tagged tokens.
+5. print the tree and display NP subtrees.
+5. NP Grammar: Meaning of Each Pattern
+Pattern Meaning
+<DT|PRP$>? Optional determiner or possessive
+<JJ.*>* Zero or more adjectives
+<NN.*>+ At least one noun
+<PRP> Standalone personal pronoun
+6. Code
+MCA Semester III | NLP Laboratory
+Page 9
+Code Explanation
+The grammar matches sequences of POS tags rather than raw words. Each matched noun phrase 
+becomes an NP node. The program prints the full tree and then displays the individual NP branches.
+Important terms and definitions:
+RegexpParser(): builds the chunker; parse(): applies the grammar; subtrees(): visits tree nodes; 
+pretty_print(): displays the selected branch.
+7. Sample Output
+MCA Semester III | NLP Laboratory
+Page 10
+MCA Semester III | NLP Laboratory
+Page 11
+Output Explanation
+The examples identify phrases such as The old car and the car park. The simple grammar does not 
+capture every complex phrase.
+8. Result
+The sample output demonstrates the technique described above. Independent execution is pending.
+MCA Semester III | NLP Laboratory
+Page 12
+PRACTICAL 3
+Named Entity Recognition (NER)
+1. Aim
+To identify and label named entities such as people, locations and organizations in a document using 
+a pretrained spaCy NER pipeline, with an NLTK Reuters corpus sample as input.
+2. Theory
+NER assigns categories to spans of text. spaCy provides pretrained entity labels, while NLTK can 
+identify entities using a chunking model.
+3. Libraries and Functions Used
+Library / Function Purpose
+doc.ents recognized spans
+spacy.explain() label description
+displacy entity visualization
+ne_chunk() named-entity tree.
+4. Procedure / Algorithm
+1. Read a Reuters article.
+2. load the English spaCy pipeline.
+3. process the article.
+4. filter entity labels.
+5. inspect the additional spaCy and NLTK examples.
+5. Code
+MCA Semester III | NLP Laboratory
+Page 13
+MCA Semester III | NLP Laboratory
+Page 14
+Code Explanation
+The Reuters example filters entities to the requested categories. The additional spaCy example groups 
+recognized spans by label and highlights them. The NLTK approach instead builds a tree from tagged 
+tokens.
+Important terms and definitions:
+doc.ents:  recognized  spans;  spacy.explain():  label  description;  displacy:  entity  visualization; 
+ne_chunk(): named-entity tree.
+6. Sample Output
+MCA Semester III | NLP Laboratory
+Page 15
+Output Explanation
+The sample examples show location, person and organization labels, entity highlights and an NLTK 
+tree. Predictions differ between models.
+7. Result
+The sample output demonstrates the technique described above. Independent execution is pending.
+MCA Semester III | NLP Laboratory
+Page 16
+PRACTICAL 4
+Syntactic Analysis of a Document
+1. Aim
+To perform sentence tokenization, word tokenization, POS tagging and basic syntactic analysis on a 
+document using NLTK and spaCy.
+2. Theory
+Syntactic analysis considers how words form sentences. Sentence and word tokenization prepare the 
+text for POS tagging, which identifies grammatical categories.
+3. Libraries and Functions Used
+Library / Function Purpose
+sent_tokenize() sentence boundaries
+word_tokenize() word boundaries
+pos_tag() grammatical labels
+en_core_web_sm English processing pipeline.
+4. Procedure / Algorithm
+1. Import the libraries.
+2. download the required resources.
+3. define the document.
+4. split it into sentences.
+5. tokenize each sentence.
+6. tag the words and display the results.
+5. Code
+MCA Semester III | NLP Laboratory
+Page 17
+Code Explanation
+The document is divided into sentences before each sentence is divided into words. The tagger 
+assigns a grammatical category to each token. The displayed output illustrates the tokenization and 
+tagging stages.
+Important terms and definitions:
+sent_tokenize(): sentence boundaries; word_tokenize(): word boundaries; pos_tag(): grammatical 
+labels; en_core_web_sm: English processing pipeline.
+MCA Semester III | NLP Laboratory
+Page 18
+6. Sample Output
+Output Explanation
+The sample output shows three sentences, their token lists and POS tags such as NNP, VBZ and DT.
+7. Result
+The sample output demonstrates the technique described above. Independent execution is pending.
+MCA Semester III | NLP Laboratory
+Page 19
+PRACTICAL 5
+Semantic Analysis of a Document
+1. Aim
+To  explore  word  and  sentence  meaning  using  tokenization,  stopword  removal,  lemmatization, 
+WordNet synonym analysis, spaCy NER and sentence similarity.
+2. Theory
+Semantic processing examines meaning. Stopword filtering removes common words, lemmatization 
+produces dictionary forms, and WordNet organizes words into senses with definitions and synonyms.
+3. Libraries and Functions Used
+Library / Function Purpose
+stopwords.words() common words
+isalpha() alphabetic filter
+lemmatize() base form
+synsets() candidate senses
+lemmas() names associated with a sense.
+4. Procedure / Algorithm
+1. Load the libraries and resources.
+2. tokenize the document.
+3. filter stopwords and nonalphabetic tokens.
+4. lemmatize words.
+5. retrieve senses and synonyms for intelligence.
+5. Code
+MCA Semester III | NLP Laboratory
+Page 20
+MCA Semester III | NLP Laboratory
+Page 21
+Code Explanation
+The document is tokenized and common English words are filtered. Remaining words are reduced to 
+base forms. WordNet supplies definitions and synonym candidates for intelligence, and a set prevents 
+repeated synonym entries.
+Important terms and definitions:
+stopwords.words(): common words; isalpha(): alphabetic filter; lemmatize(): base form; synsets(): 
+candidate senses; lemmas(): names associated with a sense.
+MCA Semester III | NLP Laboratory
+Page 22
+6. Sample Output
+Output Explanation
+The sample output illustrates filtering, base forms such as computer and system, and several senses of 
+intelligence.
+7. Result
+The sample output demonstrates the technique described above. Independent execution is pending.
+MCA Semester III | NLP Laboratory
+Page 23
+PRACTICAL 6
+Word Sense Disambiguation
+1. Aim
+To identify the intended meaning of an ambiguous word from its surrounding sentence context using 
+WordNet and a simplified Lesk-style overlap method.
+2. Theory
+The simplified Lesk method compares context words against definitions and examples of WordNet 
+senses. The candidate with the largest overlap is selected.
+3. Libraries and Functions Used
+Library / Function Purpose
+wn.synsets() candidate meanings
+set intersection shared words
+definition() sense gloss
+examples() usage examples
+lesk() NLTK implementation.
+4. Procedure / Algorithm
+1. Load WordNet and stopwords.
+2. tokenize context.
+3. retrieve candidate senses.
+4. construct signatures from definitions and examples.
+5. count overlaps.
+6. select the best sense.
+7. compare with built-in Lesk.
+5. Code
+MCA Semester III | NLP Laboratory
+Page 24
+Code Explanation
+The function forms a set of context words and compares it with the words in each candidate definition 
+and example. The highest overlap determines the selected sense. A built-in Lesk call provides another 
+comparison.
+Important terms and definitions:
+wn.synsets():  candidate  meanings;  set  intersection:  shared  words;  definition():  sense  gloss; 
+examples(): usage examples; lesk(): NLTK implementation.
+6. Sample Output
+Output Explanation
+The bank examples illustrate financial and river-related meanings. Zero-overlap cases show the 
+limitation of the method and the effect of fallback selection.
+7. Result
+The sample output demonstrates the technique described above. Independent execution is pending.","SNDT Women’s University
+P.G. DEPARTMENT OF COMPUTER SCIENCE
+MCA Semester III
+NATURAL LANGUAGE PROCESSING
+LABORATORY JOURNAL
+NAME: Chitra Nayak
+ROLL NO.: MC2542
+FACULTY: MR MADHAV MISHRA
+ACADEMIC YEAR 2026–27
+MCA Semester III | NLP Laboratory
+Page 2
+CERTIFICATE
+This journal is submitted for evaluation of the Natural Language Processing laboratory work by 
+Ms. Chitra Nayak (MC2542), MCA Semester III, P.G. Department of Computer Science, SNDT 
+Women’s University, for the academic year 2026–27 under the guidance of Mr. Madhav Mishra. 
+Completion is subject to verification by the faculty.
+Date: 27th November 2026
+Place: SNDT Women’s University
+Course Faculty: __________________                             External Examiner: __________________
+MCA Semester III | NLP Laboratory
+Page 3
+INDEX
+No. Practical title Pages Sign
+1 Part-of-Speech (POS) 
+Tagging
+4–7
+2 NP Bracketing and 
+Phrase-Structure 
+Trees
+8–11
+3 Named Entity 
+Recognition (NER)
+12–15
+4 Syntactic Analysis of 
+a Document
+16–18
+5 Semantic Analysis of 
+a Document
+19–22
+6 Word Sense 
+Disambiguation
+23–24
+MCA Semester III | NLP Laboratory
+Page 4
+PRACTICAL 1
+Part-of-Speech (POS) Tagging
+1. Aim
+To assign grammatical categories to every token in six selected sentences using NLTK and spaCy, 
+and compare fine-grained and Universal POS tags.
+2. Theory
+POS tagging associates each token with its grammatical function. Penn Treebank tags distinguish 
+nouns, verbs, adjectives and other categories, including tense and number.
+3. Libraries and Functions Used
+Library / Function Purpose
+word_tokenize() separates words and punctuation
+pos_tag() predicts grammatical labels
+explain_tag() retrieves the tag description
+most_common() orders the frequency counts.
+4. Procedure / Algorithm
+1. Tokenize each sentence.
+2. apply the NLTK tagger.
+3. look up tag descriptions.
+4. count each tag with Counter.
+5. display the frequency summary.
+5. Code
+MCA Semester III | NLP Laboratory
+Page 5
+Code Explanation
+The setup cell makes the tokenizer, tagger and tag dictionary available. The main loop processes each 
+sentence separately and prints a row for each token. Counter accumulates the tags across the entire 
+input.
+Important terms and definitions:
+word_tokenize():  separates  words  and  punctuation;  pos_tag():  predicts  grammatical  labels; 
+explain_tag(): retrieves the tag description; most_common(): orders the frequency counts.
+MCA Semester III | NLP Laboratory
+Page 6
+6. Sample Output
+MCA Semester III | NLP Laboratory
+Page 7
+Output Explanation
+The sample output lists tokens, their tags and descriptions. NN and IN each occur nine times in the 
+selected examples.
+7. Result
+The sample output demonstrates the technique described above. Independent execution is pending.
+MCA Semester III | NLP Laboratory
+Page 8
+PRACTICAL 2
+NP Bracketing and Phrase-Structure Trees
+1. Aim
+To identify noun phrases in sentences by applying regular-expression grammar rules to POS-tagged 
+tokens and display the resulting phrase-structure trees.
+2. Theory
+Chunking uses patterns over POS tags to identify groups of words. An optional determiner or 
+possessive, adjectives and nouns can form an NP; standalone pronouns can also be treated as noun 
+phrases.
+3. Libraries and Functions Used
+Library / Function Purpose
+RegexpParser() builds the chunker
+parse() applies the grammar
+subtrees() visits tree nodes
+pretty_print() displays the selected branch.
+4. Procedure / Algorithm
+1. Tokenize and tag the four sentences.
+2. define NP grammar.
+3. initialize RegexpParser.
+4. parse tagged tokens.
+5. print the tree and display NP subtrees.
+5. NP Grammar: Meaning of Each Pattern
+Pattern Meaning
+<DT|PRP$>? Optional determiner or possessive
+<JJ.*>* Zero or more adjectives
+<NN.*>+ At least one noun
+<PRP> Standalone personal pronoun
+6. Code
+MCA Semester III | NLP Laboratory
+Page 9
+Code Explanation
+The grammar matches sequences of POS tags rather than raw words. Each matched noun phrase 
+becomes an NP node. The program prints the full tree and then displays the individual NP branches.
+Important terms and definitions:
+RegexpParser(): builds the chunker; parse(): applies the grammar; subtrees(): visits tree nodes; 
+pretty_print(): displays the selected branch.
+7. Sample Output
+MCA Semester III | NLP Laboratory
+Page 10
+MCA Semester III | NLP Laboratory
+Page 11
+Output Explanation
+The examples identify phrases such as The old car and the car park. The simple grammar does not 
+capture every complex phrase.
+8. Result
+The sample output demonstrates the technique described above. Independent execution is pending.
+MCA Semester III | NLP Laboratory
+Page 12
+PRACTICAL 3
+Named Entity Recognition (NER)
+1. Aim
+To identify and label named entities such as people, locations and organizations in a document using 
+a pretrained spaCy NER pipeline, with an NLTK Reuters corpus sample as input.
+2. Theory
+NER assigns categories to spans of text. spaCy provides pretrained entity labels, while NLTK can 
+identify entities using a chunking model.
+3. Libraries and Functions Used
+Library / Function Purpose
+doc.ents recognized spans
+spacy.explain() label description
+displacy entity visualization
+ne_chunk() named-entity tree.
+4. Procedure / Algorithm
+1. Read a Reuters article.
+2. load the English spaCy pipeline.
+3. process the article.
+4. filter entity labels.
+5. inspect the additional spaCy and NLTK examples.
+5. Code
+MCA Semester III | NLP Laboratory
+Page 13
+MCA Semester III | NLP Laboratory
+Page 14
+Code Explanation
+The Reuters example filters entities to the requested categories. The additional spaCy example groups 
+recognized spans by label and highlights them. The NLTK approach instead builds a tree from tagged 
+tokens.
+Important terms and definitions:
+doc.ents:  recognized  spans;  spacy.explain():  label  description;  displacy:  entity  visualization; 
+ne_chunk(): named-entity tree.
+6. Sample Output
+MCA Semester III | NLP Laboratory
+Page 15
+Output Explanation
+The sample examples show location, person and organization labels, entity highlights and an NLTK 
+tree. Predictions differ between models.
+7. Result
+The sample output demonstrates the technique described above. Independent execution is pending.
+MCA Semester III | NLP Laboratory
+Page 16
+PRACTICAL 4
+Syntactic Analysis of a Document
+1. Aim
+To perform sentence tokenization, word tokenization, POS tagging and basic syntactic analysis on a 
+document using NLTK and spaCy.
+2. Theory
+Syntactic analysis considers how words form sentences. Sentence and word tokenization prepare the 
+text for POS tagging, which identifies grammatical categories.
+3. Libraries and Functions Used
+Library / Function Purpose
+sent_tokenize() sentence boundaries
+word_tokenize() word boundaries
+pos_tag() grammatical labels
+en_core_web_sm English processing pipeline.
+4. Procedure / Algorithm
+1. Import the libraries.
+2. download the required resources.
+3. define the document.
+4. split it into sentences.
+5. tokenize each sentence.
+6. tag the words and display the results.
+5. Code
+MCA Semester III | NLP Laboratory
+Page 17
+Code Explanation
+The document is divided into sentences before each sentence is divided into words. The tagger 
+assigns a grammatical category to each token. The displayed output illustrates the tokenization and 
+tagging stages.
+Important terms and definitions:
+sent_tokenize(): sentence boundaries; word_tokenize(): word boundaries; pos_tag(): grammatical 
+labels; en_core_web_sm: English processing pipeline.
+MCA Semester III | NLP Laboratory
+Page 18
+6. Sample Output
+Output Explanation
+The sample output shows three sentences, their token lists and POS tags such as NNP, VBZ and DT.
+7. Result
+The sample output demonstrates the technique described above. Independent execution is pending.
+MCA Semester III | NLP Laboratory
+Page 19
+PRACTICAL 5
+Semantic Analysis of a Document
+1. Aim
+To  explore  word  and  sentence  meaning  using  tokenization,  stopword  removal,  lemmatization, 
+WordNet synonym analysis, spaCy NER and sentence similarity.
+2. Theory
+Semantic processing examines meaning. Stopword filtering removes common words, lemmatization 
+produces dictionary forms, and WordNet organizes words into senses with definitions and synonyms.
+3. Libraries and Functions Used
+Library / Function Purpose
+stopwords.words() common words
+isalpha() alphabetic filter
+lemmatize() base form
+synsets() candidate senses
+lemmas() names associated with a sense.
+4. Procedure / Algorithm
+1. Load the libraries and resources.
+2. tokenize the document.
+3. filter stopwords and nonalphabetic tokens.
+4. lemmatize words.
+5. retrieve senses and synonyms for intelligence.
+5. Code
+MCA Semester III | NLP Laboratory
+Page 20
+MCA Semester III | NLP Laboratory
+Page 21
+Code Explanation
+The document is tokenized and common English words are filtered. Remaining words are reduced to 
+base forms. WordNet supplies definitions and synonym candidates for intelligence, and a set prevents 
+repeated synonym entries.
+Important terms and definitions:
+stopwords.words(): common words; isalpha(): alphabetic filter; lemmatize(): base form; synsets(): 
+candidate senses; lemmas(): names associated with a sense.
+MCA Semester III | NLP Laboratory
+Page 22
+6. Sample Output
+Output Explanation
+The sample output illustrates filtering, base forms such as computer and system, and several senses of 
+intelligence.
+7. Result
+The sample output demonstrates the technique described above. Independent execution is pending.
+MCA Semester III | NLP Laboratory
+Page 23
+PRACTICAL 6
+Word Sense Disambiguation
+1. Aim
+To identify the intended meaning of an ambiguous word from its surrounding sentence context using 
+WordNet and a simplified Lesk-style overlap method.
+2. Theory
+The simplified Lesk method compares context words against definitions and examples of WordNet 
+senses. The candidate with the largest overlap is selected.
+3. Libraries and Functions Used
+Library / Function Purpose
+wn.synsets() candidate meanings
+set intersection shared words
+definition() sense gloss
+examples() usage examples
+lesk() NLTK implementation.
+4. Procedure / Algorithm
+1. Load WordNet and stopwords.
+2. tokenize context.
+3. retrieve candidate senses.
+4. construct signatures from definitions and examples.
+5. count overlaps.
+6. select the best sense.
+7. compare with built-in Lesk.
+5. Code
+MCA Semester III | NLP Laboratory
+Page 24
+Code Explanation
+The function forms a set of context words and compares it with the words in each candidate definition 
+and example. The highest overlap determines the selected sense. A built-in Lesk call provides another 
+comparison.
+Important terms and definitions:
+wn.synsets():  candidate  meanings;  set  intersection:  shared  words;  definition():  sense  gloss; 
+examples(): usage examples; lesk(): NLTK implementation.
+6. Sample Output
+Output Explanation
+The bank examples illustrate financial and river-related meanings. Zero-overlap cases show the 
+limitation of the method and the effect of fallback selection.
+7. Result
+The sample output demonstrates the technique described above. Independent execution is pending.",Paper uploaded,Research paper uploaded and processed.,1,5 lines,OpenCitations + Research IQ,success
+2026-11-28T10:56:37.597013,paper_question,Not available,Chitra_Nayak_NLP_Revised,Not available,"SNDT Women’s University
+P.G. DEPARTMENT OF COMPUTER SCIENCE
+MCA Semester III
+NATURAL LANGUAGE PROCESSING
+LABORATORY JOURNAL
+NAME: Chitra Nayak
+ROLL NO.: MC2542
+FACULTY: MR MADHAV MISHRA
+ACADEMIC YEAR 2026–27
+MCA Semester III | NLP Laboratory
+Page 2
+CERTIFICATE
+This journal is submitted for evaluation of the Natural Language Processing laboratory work by 
+Ms. Chitra Nayak (MC2542), MCA Semester III, P.G. Department of Computer Science, SNDT 
+Women’s University, for the academic year 2026–27 under the guidance of Mr. Madhav Mishra. 
+Completion is subject to verification by the faculty.
+Date: 27th November 2026
+Place: SNDT Women’s University
+Course Faculty: __________________                             External Examiner: __________________
+MCA Semester III | NLP Laboratory
+Page 3
+INDEX
+No. Practical title Pages Sign
+1 Part-of-Speech (POS) 
+Tagging
+4–7
+2 NP Bracketing and 
+Phrase-Structure 
+Trees
+8–11
+3 Named Entity 
+Recognition (NER)
+12–15
+4 Syntactic Analysis of 
+a Document
+16–18
+5 Semantic Analysis of 
+a Document
+19–22
+6 Word Sense 
+Disambiguation
+23–24
+MCA Semester III | NLP Laboratory
+Page 4
+PRACTICAL 1
+Part-of-Speech (POS) Tagging
+1. Aim
+To assign grammatical categories to every token in six selected sentences using NLTK and spaCy, 
+and compare fine-grained and Universal POS tags.
+2. Theory
+POS tagging associates each token with its grammatical function. Penn Treebank tags distinguish 
+nouns, verbs, adjectives and other categories, including tense and number.
+3. Libraries and Functions Used
+Library / Function Purpose
+word_tokenize() separates words and punctuation
+pos_tag() predicts grammatical labels
+explain_tag() retrieves the tag description
+most_common() orders the frequency counts.
+4. Procedure / Algorithm
+1. Tokenize each sentence.
+2. apply the NLTK tagger.
+3. look up tag descriptions.
+4. count each tag with Counter.
+5. display the frequency summary.
+5. Code
+MCA Semester III | NLP Laboratory
+Page 5
+Code Explanation
+The setup cell makes the tokenizer, tagger and tag dictionary available. The main loop processes each 
+sentence separately and prints a row for each token. Counter accumulates the tags across the entire 
+input.
+Important terms and definitions:
+word_tokenize():  separates  words  and  punctuation;  pos_tag():  predicts  grammatical  labels; 
+explain_tag(): retrieves the tag description; most_common(): orders the frequency counts.
+MCA Semester III | NLP Laboratory
+Page 6
+6. Sample Output
+MCA Semester III | NLP Laboratory
+Page 7
+Output Explanation
+The sample output lists tokens, their tags and descriptions. NN and IN each occur nine times in the 
+selected examples.
+7. Result
+The sample output demonstrates the technique described above. Independent execution is pending.
+MCA Semester III | NLP Laboratory
+Page 8
+PRACTICAL 2
+NP Bracketing and Phrase-Structure Trees
+1. Aim
+To identify noun phrases in sentences by applying regular-expression grammar rules to POS-tagged 
+tokens and display the resulting phrase-structure trees.
+2. Theory
+Chunking uses patterns over POS tags to identify groups of words. An optional determiner or 
+possessive, adjectives and nouns can form an NP; standalone pronouns can also be treated as noun 
+phrases.
+3. Libraries and Functions Used
+Library / Function Purpose
+RegexpParser() builds the chunker
+parse() applies the grammar
+subtrees() visits tree nodes
+pretty_print() displays the selected branch.
+4. Procedure / Algorithm
+1. Tokenize and tag the four sentences.
+2. define NP grammar.
+3. initialize RegexpParser.
+4. parse tagged tokens.
+5. print the tree and display NP subtrees.
+5. NP Grammar: Meaning of Each Pattern
+Pattern Meaning
+<DT|PRP$>? Optional determiner or possessive
+<JJ.*>* Zero or more adjectives
+<NN.*>+ At least one noun
+<PRP> Standalone personal pronoun
+6. Code
+MCA Semester III | NLP Laboratory
+Page 9
+Code Explanation
+The grammar matches sequences of POS tags rather than raw words. Each matched noun phrase 
+becomes an NP node. The program prints the full tree and then displays the individual NP branches.
+Important terms and definitions:
+RegexpParser(): builds the chunker; parse(): applies the grammar; subtrees(): visits tree nodes; 
+pretty_print(): displays the selected branch.
+7. Sample Output
+MCA Semester III | NLP Laboratory
+Page 10
+MCA Semester III | NLP Laboratory
+Page 11
+Output Explanation
+The examples identify phrases such as The old car and the car park. The simple grammar does not 
+capture every complex phrase.
+8. Result
+The sample output demonstrates the technique described above. Independent execution is pending.
+MCA Semester III | NLP Laboratory
+Page 12
+PRACTICAL 3
+Named Entity Recognition (NER)
+1. Aim
+To identify and label named entities such as people, locations and organizations in a document using 
+a pretrained spaCy NER pipeline, with an NLTK Reuters corpus sample as input.
+2. Theory
+NER assigns categories to spans of text. spaCy provides pretrained entity labels, while NLTK can 
+identify entities using a chunking model.
+3. Libraries and Functions Used
+Library / Function Purpose
+doc.ents recognized spans
+spacy.explain() label description
+displacy entity visualization
+ne_chunk() named-entity tree.
+4. Procedure / Algorithm
+1. Read a Reuters article.
+2. load the English spaCy pipeline.
+3. process the article.
+4. filter entity labels.
+5. inspect the additional spaCy and NLTK examples.
+5. Code
+MCA Semester III | NLP Laboratory
+Page 13
+MCA Semester III | NLP Laboratory
+Page 14
+Code Explanation
+The Reuters example filters entities to the requested categories. The additional spaCy example groups 
+recognized spans by label and highlights them. The NLTK approach instead builds a tree from tagged 
+tokens.
+Important terms and definitions:
+doc.ents:  recognized  spans;  spacy.explain():  label  description;  displacy:  entity  visualization; 
+ne_chunk(): named-entity tree.
+6. Sample Output
+MCA Semester III | NLP Laboratory
+Page 15
+Output Explanation
+The sample examples show location, person and organization labels, entity highlights and an NLTK 
+tree. Predictions differ between models.
+7. Result
+The sample output demonstrates the technique described above. Independent execution is pending.
+MCA Semester III | NLP Laboratory
+Page 16
+PRACTICAL 4
+Syntactic Analysis of a Document
+1. Aim
+To perform sentence tokenization, word tokenization, POS tagging and basic syntactic analysis on a 
+document using NLTK and spaCy.
+2. Theory
+Syntactic analysis considers how words form sentences. Sentence and word tokenization prepare the 
+text for POS tagging, which identifies grammatical categories.
+3. Libraries and Functions Used
+Library / Function Purpose
+sent_tokenize() sentence boundaries
+word_tokenize() word boundaries
+pos_tag() grammatical labels
+en_core_web_sm English processing pipeline.
+4. Procedure / Algorithm
+1. Import the libraries.
+2. download the required resources.
+3. define the document.
+4. split it into sentences.
+5. tokenize each sentence.
+6. tag the words and display the results.
+5. Code
+MCA Semester III | NLP Laboratory
+Page 17
+Code Explanation
+The document is divided into sentences before each sentence is divided into words. The tagger 
+assigns a grammatical category to each token. The displayed output illustrates the tokenization and 
+tagging stages.
+Important terms and definitions:
+sent_tokenize(): sentence boundaries; word_tokenize(): word boundaries; pos_tag(): grammatical 
+labels; en_core_web_sm: English processing pipeline.
+MCA Semester III | NLP Laboratory
+Page 18
+6. Sample Output
+Output Explanation
+The sample output shows three sentences, their token lists and POS tags such as NNP, VBZ and DT.
+7. Result
+The sample output demonstrates the technique described above. Independent execution is pending.
+MCA Semester III | NLP Laboratory
+Page 19
+PRACTICAL 5
+Semantic Analysis of a Document
+1. Aim
+To  explore  word  and  sentence  meaning  using  tokenization,  stopword  removal,  lemmatization, 
+WordNet synonym analysis, spaCy NER and sentence similarity.
+2. Theory
+Semantic processing examines meaning. Stopword filtering removes common words, lemmatization 
+produces dictionary forms, and WordNet organizes words into senses with definitions and synonyms.
+3. Libraries and Functions Used
+Library / Function Purpose
+stopwords.words() common words
+isalpha() alphabetic filter
+lemmatize() base form
+synsets() candidate senses
+lemmas() names associated with a sense.
+4. Procedure / Algorithm
+1. Load the libraries and resources.
+2. tokenize the document.
+3. filter stopwords and nonalphabetic tokens.
+4. lemmatize words.
+5. retrieve senses and synonyms for intelligence.
+5. Code
+MCA Semester III | NLP Laboratory
+Page 20
+MCA Semester III | NLP Laboratory
+Page 21
+Code Explanation
+The document is tokenized and common English words are filtered. Remaining words are reduced to 
+base forms. WordNet supplies definitions and synonym candidates for intelligence, and a set prevents 
+repeated synonym entries.
+Important terms and definitions:
+stopwords.words(): common words; isalpha(): alphabetic filter; lemmatize(): base form; synsets(): 
+candidate senses; lemmas(): names associated with a sense.
+MCA Semester III | NLP Laboratory
+Page 22
+6. Sample Output
+Output Explanation
+The sample output illustrates filtering, base forms such as computer and system, and several senses of 
+intelligence.
+7. Result
+The sample output demonstrates the technique described above. Independent execution is pending.
+MCA Semester III | NLP Laboratory
+Page 23
+PRACTICAL 6
+Word Sense Disambiguation
+1. Aim
+To identify the intended meaning of an ambiguous word from its surrounding sentence context using 
+WordNet and a simplified Lesk-style overlap method.
+2. Theory
+The simplified Lesk method compares context words against definitions and examples of WordNet 
+senses. The candidate with the largest overlap is selected.
+3. Libraries and Functions Used
+Library / Function Purpose
+wn.synsets() candidate meanings
+set intersection shared words
+definition() sense gloss
+examples() usage examples
+lesk() NLTK implementation.
+4. Procedure / Algorithm
+1. Load WordNet and stopwords.
+2. tokenize context.
+3. retrieve candidate senses.
+4. construct signatures from definitions and examples.
+5. count overlaps.
+6. select the best sense.
+7. compare with built-in Lesk.
+5. Code
+MCA Semester III | NLP Laboratory
+Page 24
+Code Explanation
+The function forms a set of context words and compares it with the words in each candidate definition 
+and example. The highest overlap determines the selected sense. A built-in Lesk call provides another 
+comparison.
+Important terms and definitions:
+wn.synsets():  candidate  meanings;  set  intersection:  shared  words;  definition():  sense  gloss; 
+examples(): usage examples; lesk(): NLTK implementation.
+6. Sample Output
+Output Explanation
+The bank examples illustrate financial and river-related meanings. Zero-overlap cases show the 
+limitation of the method and the effect of fallback selection.
+7. Result
+The sample output demonstrates the technique described above. Independent execution is pending.","SNDT Women’s University
+P.G. DEPARTMENT OF COMPUTER SCIENCE
+MCA Semester III
+NATURAL LANGUAGE PROCESSING
+LABORATORY JOURNAL
+NAME: Chitra Nayak
+ROLL NO.: MC2542
+FACULTY: MR MADHAV MISHRA
+ACADEMIC YEAR 2026–27
+MCA Semester III | NLP Laboratory
+Page 2
+CERTIFICATE
+This journal is submitted for evaluation of the Natural Language Processing laboratory work by 
+Ms. Chitra Nayak (MC2542), MCA Semester III, P.G. Department of Computer Science, SNDT 
+Women’s University, for the academic year 2026–27 under the guidance of Mr. Madhav Mishra. 
+Completion is subject to verification by the faculty.
+Date: 27th November 2026
+Place: SNDT Women’s University
+Course Faculty: __________________                             External Examiner: __________________
+MCA Semester III | NLP Laboratory
+Page 3
+INDEX
+No. Practical title Pages Sign
+1 Part-of-Speech (POS) 
+Tagging
+4–7
+2 NP Bracketing and 
+Phrase-Structure 
+Trees
+8–11
+3 Named Entity 
+Recognition (NER)
+12–15
+4 Syntactic Analysis of 
+a Document
+16–18
+5 Semantic Analysis of 
+a Document
+19–22
+6 Word Sense 
+Disambiguation
+23–24
+MCA Semester III | NLP Laboratory
+Page 4
+PRACTICAL 1
+Part-of-Speech (POS) Tagging
+1. Aim
+To assign grammatical categories to every token in six selected sentences using NLTK and spaCy, 
+and compare fine-grained and Universal POS tags.
+2. Theory
+POS tagging associates each token with its grammatical function. Penn Treebank tags distinguish 
+nouns, verbs, adjectives and other categories, including tense and number.
+3. Libraries and Functions Used
+Library / Function Purpose
+word_tokenize() separates words and punctuation
+pos_tag() predicts grammatical labels
+explain_tag() retrieves the tag description
+most_common() orders the frequency counts.
+4. Procedure / Algorithm
+1. Tokenize each sentence.
+2. apply the NLTK tagger.
+3. look up tag descriptions.
+4. count each tag with Counter.
+5. display the frequency summary.
+5. Code
+MCA Semester III | NLP Laboratory
+Page 5
+Code Explanation
+The setup cell makes the tokenizer, tagger and tag dictionary available. The main loop processes each 
+sentence separately and prints a row for each token. Counter accumulates the tags across the entire 
+input.
+Important terms and definitions:
+word_tokenize():  separates  words  and  punctuation;  pos_tag():  predicts  grammatical  labels; 
+explain_tag(): retrieves the tag description; most_common(): orders the frequency counts.
+MCA Semester III | NLP Laboratory
+Page 6
+6. Sample Output
+MCA Semester III | NLP Laboratory
+Page 7
+Output Explanation
+The sample output lists tokens, their tags and descriptions. NN and IN each occur nine times in the 
+selected examples.
+7. Result
+The sample output demonstrates the technique described above. Independent execution is pending.
+MCA Semester III | NLP Laboratory
+Page 8
+PRACTICAL 2
+NP Bracketing and Phrase-Structure Trees
+1. Aim
+To identify noun phrases in sentences by applying regular-expression grammar rules to POS-tagged 
+tokens and display the resulting phrase-structure trees.
+2. Theory
+Chunking uses patterns over POS tags to identify groups of words. An optional determiner or 
+possessive, adjectives and nouns can form an NP; standalone pronouns can also be treated as noun 
+phrases.
+3. Libraries and Functions Used
+Library / Function Purpose
+RegexpParser() builds the chunker
+parse() applies the grammar
+subtrees() visits tree nodes
+pretty_print() displays the selected branch.
+4. Procedure / Algorithm
+1. Tokenize and tag the four sentences.
+2. define NP grammar.
+3. initialize RegexpParser.
+4. parse tagged tokens.
+5. print the tree and display NP subtrees.
+5. NP Grammar: Meaning of Each Pattern
+Pattern Meaning
+<DT|PRP$>? Optional determiner or possessive
+<JJ.*>* Zero or more adjectives
+<NN.*>+ At least one noun
+<PRP> Standalone personal pronoun
+6. Code
+MCA Semester III | NLP Laboratory
+Page 9
+Code Explanation
+The grammar matches sequences of POS tags rather than raw words. Each matched noun phrase 
+becomes an NP node. The program prints the full tree and then displays the individual NP branches.
+Important terms and definitions:
+RegexpParser(): builds the chunker; parse(): applies the grammar; subtrees(): visits tree nodes; 
+pretty_print(): displays the selected branch.
+7. Sample Output
+MCA Semester III | NLP Laboratory
+Page 10
+MCA Semester III | NLP Laboratory
+Page 11
+Output Explanation
+The examples identify phrases such as The old car and the car park. The simple grammar does not 
+capture every complex phrase.
+8. Result
+The sample output demonstrates the technique described above. Independent execution is pending.
+MCA Semester III | NLP Laboratory
+Page 12
+PRACTICAL 3
+Named Entity Recognition (NER)
+1. Aim
+To identify and label named entities such as people, locations and organizations in a document using 
+a pretrained spaCy NER pipeline, with an NLTK Reuters corpus sample as input.
+2. Theory
+NER assigns categories to spans of text. spaCy provides pretrained entity labels, while NLTK can 
+identify entities using a chunking model.
+3. Libraries and Functions Used
+Library / Function Purpose
+doc.ents recognized spans
+spacy.explain() label description
+displacy entity visualization
+ne_chunk() named-entity tree.
+4. Procedure / Algorithm
+1. Read a Reuters article.
+2. load the English spaCy pipeline.
+3. process the article.
+4. filter entity labels.
+5. inspect the additional spaCy and NLTK examples.
+5. Code
+MCA Semester III | NLP Laboratory
+Page 13
+MCA Semester III | NLP Laboratory
+Page 14
+Code Explanation
+The Reuters example filters entities to the requested categories. The additional spaCy example groups 
+recognized spans by label and highlights them. The NLTK approach instead builds a tree from tagged 
+tokens.
+Important terms and definitions:
+doc.ents:  recognized  spans;  spacy.explain():  label  description;  displacy:  entity  visualization; 
+ne_chunk(): named-entity tree.
+6. Sample Output
+MCA Semester III | NLP Laboratory
+Page 15
+Output Explanation
+The sample examples show location, person and organization labels, entity highlights and an NLTK 
+tree. Predictions differ between models.
+7. Result
+The sample output demonstrates the technique described above. Independent execution is pending.
+MCA Semester III | NLP Laboratory
+Page 16
+PRACTICAL 4
+Syntactic Analysis of a Document
+1. Aim
+To perform sentence tokenization, word tokenization, POS tagging and basic syntactic analysis on a 
+document using NLTK and spaCy.
+2. Theory
+Syntactic analysis considers how words form sentences. Sentence and word tokenization prepare the 
+text for POS tagging, which identifies grammatical categories.
+3. Libraries and Functions Used
+Library / Function Purpose
+sent_tokenize() sentence boundaries
+word_tokenize() word boundaries
+pos_tag() grammatical labels
+en_core_web_sm English processing pipeline.
+4. Procedure / Algorithm
+1. Import the libraries.
+2. download the required resources.
+3. define the document.
+4. split it into sentences.
+5. tokenize each sentence.
+6. tag the words and display the results.
+5. Code
+MCA Semester III | NLP Laboratory
+Page 17
+Code Explanation
+The document is divided into sentences before each sentence is divided into words. The tagger 
+assigns a grammatical category to each token. The displayed output illustrates the tokenization and 
+tagging stages.
+Important terms and definitions:
+sent_tokenize(): sentence boundaries; word_tokenize(): word boundaries; pos_tag(): grammatical 
+labels; en_core_web_sm: English processing pipeline.
+MCA Semester III | NLP Laboratory
+Page 18
+6. Sample Output
+Output Explanation
+The sample output shows three sentences, their token lists and POS tags such as NNP, VBZ and DT.
+7. Result
+The sample output demonstrates the technique described above. Independent execution is pending.
+MCA Semester III | NLP Laboratory
+Page 19
+PRACTICAL 5
+Semantic Analysis of a Document
+1. Aim
+To  explore  word  and  sentence  meaning  using  tokenization,  stopword  removal,  lemmatization, 
+WordNet synonym analysis, spaCy NER and sentence similarity.
+2. Theory
+Semantic processing examines meaning. Stopword filtering removes common words, lemmatization 
+produces dictionary forms, and WordNet organizes words into senses with definitions and synonyms.
+3. Libraries and Functions Used
+Library / Function Purpose
+stopwords.words() common words
+isalpha() alphabetic filter
+lemmatize() base form
+synsets() candidate senses
+lemmas() names associated with a sense.
+4. Procedure / Algorithm
+1. Load the libraries and resources.
+2. tokenize the document.
+3. filter stopwords and nonalphabetic tokens.
+4. lemmatize words.
+5. retrieve senses and synonyms for intelligence.
+5. Code
+MCA Semester III | NLP Laboratory
+Page 20
+MCA Semester III | NLP Laboratory
+Page 21
+Code Explanation
+The document is tokenized and common English words are filtered. Remaining words are reduced to 
+base forms. WordNet supplies definitions and synonym candidates for intelligence, and a set prevents 
+repeated synonym entries.
+Important terms and definitions:
+stopwords.words(): common words; isalpha(): alphabetic filter; lemmatize(): base form; synsets(): 
+candidate senses; lemmas(): names associated with a sense.
+MCA Semester III | NLP Laboratory
+Page 22
+6. Sample Output
+Output Explanation
+The sample output illustrates filtering, base forms such as computer and system, and several senses of 
+intelligence.
+7. Result
+The sample output demonstrates the technique described above. Independent execution is pending.
+MCA Semester III | NLP Laboratory
+Page 23
+PRACTICAL 6
+Word Sense Disambiguation
+1. Aim
+To identify the intended meaning of an ambiguous word from its surrounding sentence context using 
+WordNet and a simplified Lesk-style overlap method.
+2. Theory
+The simplified Lesk method compares context words against definitions and examples of WordNet 
+senses. The candidate with the largest overlap is selected.
+3. Libraries and Functions Used
+Library / Function Purpose
+wn.synsets() candidate meanings
+set intersection shared words
+definition() sense gloss
+examples() usage examples
+lesk() NLTK implementation.
+4. Procedure / Algorithm
+1. Load WordNet and stopwords.
+2. tokenize context.
+3. retrieve candidate senses.
+4. construct signatures from definitions and examples.
+5. count overlaps.
+6. select the best sense.
+7. compare with built-in Lesk.
+5. Code
+MCA Semester III | NLP Laboratory
+Page 24
+Code Explanation
+The function forms a set of context words and compares it with the words in each candidate definition 
+and example. The highest overlap determines the selected sense. A built-in Lesk call provides another 
+comparison.
+Important terms and definitions:
+wn.synsets():  candidate  meanings;  set  intersection:  shared  words;  definition():  sense  gloss; 
+examples(): usage examples; lesk(): NLTK implementation.
+6. Sample Output
+Output Explanation
+The bank examples illustrate financial and river-related meanings. Zero-overlap cases show the 
+limitation of the method and the effect of fallback selection.
+7. Result
+The sample output demonstrates the technique described above. Independent execution is pending.",what is nlp,"Natural Language Processing (NLP) is the field of study that focuses on the interaction between computers and human language, in particular how to program computers to process and understand human language.",1,5 lines,OpenCitations + Research IQ,success

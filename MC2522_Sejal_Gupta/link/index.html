@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI Social Media Moderator & Dashboards Portal | Sejal Gupta</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg: #090d16;
+      --card-bg: rgba(22, 30, 49, 0.75);
+      --card-border: rgba(255, 255, 255, 0.08);
+      --primary: #3b82f6;
+      --primary-hover: #2563eb;
+      --accent: #10b981;
+      --text-main: #f8fafc;
+      --text-muted: #94a3b8;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      background: radial-gradient(circle at 15% 15%, #131d36 0%, var(--bg) 60%);
+      color: var(--text-main);
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 40px 20px;
+    }
+
+    .container {
+      max-width: 1100px;
+      width: 100%;
+    }
+
+    header {
+      text-align: center;
+      margin-bottom: 45px;
+    }
+
+    .badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      padding: 6px 14px;
+      border-radius: 9999px;
+      background: rgba(59, 130, 246, 0.15);
+      border: 1px solid rgba(59, 130, 246, 0.3);
+      color: #93c5fd;
+      font-size: 13px;
+      font-weight: 600;
+      margin-bottom: 16px;
+    }
+
+    .status-dot {
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      background: var(--accent);
+      box-shadow: 0 0 10px var(--accent);
+    }
+
+    h1 {
+      font-size: 38px;
+      font-weight: 800;
+      letter-spacing: -0.8px;
+      margin-bottom: 12px;
+      background: linear-gradient(135deg, #ffffff 0%, #cbd5e1 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    p.subtitle {
+      font-size: 16px;
+      color: var(--text-muted);
+      max-width: 650px;
+      margin: 0 auto;
+      line-height: 1.6;
+    }
+
+    .academic-info {
+      margin-top: 14px;
+      font-size: 13.5px;
+      color: #94a3b8;
+    }
+    .academic-info span {
+      color: #e2e8f0;
+      font-weight: 600;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 24px;
+      margin-bottom: 40px;
+    }
+
+    .card {
+      background: var(--card-bg);
+      backdrop-filter: blur(16px);
+      -webkit-backdrop-filter: blur(16px);
+      border: 1px solid var(--card-border);
+      border-radius: 20px;
+      padding: 28px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      transition: all 0.25s ease;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .card::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      height: 4px;
+      background: linear-gradient(90deg, #3b82f6, #06b6d4);
+      opacity: 0;
+      transition: opacity 0.25s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-4px);
+      border-color: rgba(59, 130, 246, 0.4);
+      box-shadow: 0 20px 30px -10px rgba(0, 0, 0, 0.4);
+    }
+
+    .card:hover::before {
+      opacity: 1;
+    }
+
+    .card-icon {
+      font-size: 32px;
+      margin-bottom: 16px;
+      display: inline-block;
+    }
+
+    .card h2 {
+      font-size: 20px;
+      font-weight: 700;
+      margin-bottom: 10px;
+      color: #ffffff;
+    }
+
+    .card p {
+      font-size: 14px;
+      color: var(--text-muted);
+      line-height: 1.55;
+      margin-bottom: 22px;
+      flex-grow: 1;
+    }
+
+    .tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+      margin-bottom: 20px;
+    }
+
+    .tag {
+      font-size: 11px;
+      font-weight: 600;
+      background: rgba(255, 255, 255, 0.05);
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      padding: 4px 10px;
+      border-radius: 6px;
+      color: #cbd5e1;
+    }
+
+    .btn-group {
+      display: flex;
+      gap: 10px;
+    }
+
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+      padding: 12px 18px;
+      border-radius: 10px;
+      font-size: 14px;
+      font-weight: 600;
+      text-decoration: none;
+      transition: all 0.2s ease;
+      flex: 1;
+      text-align: center;
+    }
+
+    .btn-primary {
+      background: var(--primary);
+      color: #ffffff;
+    }
+
+    .btn-primary:hover {
+      background: var(--primary-hover);
+      box-shadow: 0 0 15px rgba(59, 130, 246, 0.5);
+    }
+
+    .btn-secondary {
+      background: rgba(255, 255, 255, 0.06);
+      border: 1px solid rgba(255, 255, 255, 0.12);
+      color: #e2e8f0;
+    }
+
+    .btn-secondary:hover {
+      background: rgba(255, 255, 255, 0.12);
+      border-color: rgba(255, 255, 255, 0.2);
+    }
+
+    footer {
+      text-align: center;
+      color: #64748b;
+      font-size: 13px;
+      border-top: 1px solid rgba(255, 255, 255, 0.06);
+      padding-top: 24px;
+      width: 100%;
+    }
+
+    footer a {
+      color: #94a3b8;
+      text-decoration: none;
+      font-weight: 600;
+    }
+
+    footer a:hover {
+      color: var(--primary);
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <header>
+      <div class="badge">
+        <span class="status-dot"></span> Vercel & Streamlit Cloud Launchpad
+      </div>
+      <h1>AI Social Media Moderator & Analytics Suite</h1>
+      <p class="subtitle">
+        One-stop access hub for the Core Moderation Engine, Fused Dataset Analytics, Spatial Microplastics Intelligence, and Temporal Commodity Analytics.
+      </p>
+      <div class="academic-info">
+        Candidate: <span>Sejal Gupta</span> &bull; Roll No: <span>MC2522</span> &bull; <span>MCA Sem III</span> &bull; Guide: <span>Dr. Anita Chaware</span> &bull; <span>SNDT Women's University</span>
+      </div>
+    </header>
+
+    <div class="grid">
+      <!-- Card 1 -->
+      <div class="card">
+        <div>
+          <div class="card-icon">🛡️</div>
+          <h2>AI Social Media Moderator</h2>
+          <p>Core multimodal application combining DeBERTa zero-shot classification, OCR text extraction from screenshots, Google Vision SafeSearch, and Google Gemini LLM reasoning.</p>
+          <div class="tags">
+            <span class="tag">Streamlit</span>
+            <span class="tag">DeBERTa-v3</span>
+            <span class="tag">Gemini LLM</span>
+            <span class="tag">Vision API</span>
+          </div>
+        </div>
+        <div class="btn-group">
+          <a href="https://sejal-gupta-ai-moderator.streamlit.app" target="_blank" class="btn btn-primary">Launch Live ↗</a>
+          <a href="http://localhost:8501" target="_blank" class="btn btn-secondary">Local (8501)</a>
+        </div>
+      </div>
+
+      <!-- Card 2 -->
+      <div class="card">
+        <div>
+          <div class="card-icon">📊</div>
+          <h2>Fused Dataset Analytics</h2>
+          <p>5-Page interactive analytics dashboard inspecting the 200-record multimodal fused dataset with KPI cards, toxicity donuts, scatter correlations, and raw data explorer.</p>
+          <div class="tags">
+            <span class="tag">Plotly</span>
+            <span class="tag">Fused Dataset</span>
+            <span class="tag">SafeSearch Matrix</span>
+            <span class="tag">CSV Export</span>
+          </div>
+        </div>
+        <div class="btn-group">
+          <a href="https://social-media-fused-analytics-mc2522.streamlit.app" target="_blank" class="btn btn-primary">Launch Live ↗</a>
+          <a href="http://localhost:8502" target="_blank" class="btn btn-secondary">Local (8502)</a>
+        </div>
+      </div>
+
+      <!-- Card 3 -->
+      <div class="card">
+        <div>
+          <div class="card-icon">🌊</div>
+          <h2>Spatial Data Dashboard</h2>
+          <p>NOAA Marine Microplastics Spatial Intelligence dashboard exploring 29,075 worldwide observation records, hotspot spatial clustering, and interactive world maps.</p>
+          <div class="tags">
+            <span class="tag">NOAA Data</span>
+            <span class="tag">Spatial Hotspots</span>
+            <span class="tag">Density Maps</span>
+            <span class="tag">8 Pages</span>
+          </div>
+        </div>
+        <div class="btn-group">
+          <a href="https://noaa-marine-spatial-mc2522.streamlit.app" target="_blank" class="btn btn-primary">Launch Live ↗</a>
+          <a href="http://localhost:8502" target="_blank" class="btn btn-secondary">Local (8502)</a>
+        </div>
+      </div>
+
+      <!-- Card 4 -->
+      <div class="card">
+        <div>
+          <div class="card-icon">📈</div>
+          <h2>Temporal Data Dashboard</h2>
+          <p>Commodity Market Temporal Analysis dashboard tracking 18 commodities since 2000 with OHLCV data, historical price trends, volatility metrics, and seasonality analysis.</p>
+          <div class="tags">
+            <span class="tag">Time-Series</span>
+            <span class="tag">18 Commodities</span>
+            <span class="tag">Volatility</span>
+            <span class="tag">7 Pages</span>
+          </div>
+        </div>
+        <div class="btn-group">
+          <a href="https://commodity-temporal-mc2522.streamlit.app" target="_blank" class="btn btn-primary">Launch Live ↗</a>
+          <a href="http://localhost:8503" target="_blank" class="btn btn-secondary">Local (8503)</a>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <p>
+        Hosted on <a href="https://vercel.com/sejal-gupta" target="_blank">Vercel</a> & <a href="https://streamlit.io/cloud" target="_blank">Streamlit Community Cloud</a> &bull;
+        GitHub Repository: <a href="https://github.com/MCA-Class-2025/MCA-Student-Applications-2025-2026/tree/main/MC2522_Sejal_Gupta" target="_blank">MC2522_Sejal_Gupta</a>
+      </p>
+    </footer>
+  </div>
+
+</body>
+</html>

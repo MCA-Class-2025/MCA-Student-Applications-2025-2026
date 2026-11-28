@@ -1,20 +1,15 @@
-# Secrets: never commit real API keys
-.env
-
-# Python
-__pycache__/
-*.pyc
-.venv/
 venv/
-
-# Generated data (rebuilt by the app / scripts)
-chroma_db/
-snapknow_ml_cache.json
-sample_images/
-sample_images.zip
-
-# OS / editor
-.DS_Store
-.vscode/
+.venv/
+**/venv/
+**/.venv/
+.env
+.env.*
+**/.env
+**/.env.*
+__pycache__/
+**/__pycache__/
+*.pyc
 .ipynb_checkpoints/
-.ruff_cache/
+.vscode/
+.DS_Store
+Thumbs.db

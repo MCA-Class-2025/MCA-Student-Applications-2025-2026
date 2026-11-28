@@ -6,6 +6,13 @@ https://geotime-app-57gtqmfufuldcnx2pqexxz.streamlit.app/
 1. Project overview
 The GeoTime Temporal EDA Dashboard explores when earthquake events occurred and how earthquake activity changes over time using records from the USGS earthquake catalog.
 
+#DATASET 
+
+<img width="552" height="329" alt="Screenshot 2026-11-28 091321" src="https://github.com/user-attachments/assets/36387a5c-0638-4eb9-b368-876fd860e8a0" />
+
+<img width="549" height="350" alt="image" src="https://github.com/user-attachments/assets/4585c2d6-5bf1-4546-8f91-250d90f518d6" />
+
+
 It focuses on questions such as:
 - How many earthquakes were recorded each day or month?
 - Does the daily event count show short-term variation or longer-term patterns?

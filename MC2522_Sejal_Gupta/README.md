@@ -21,8 +21,6 @@ Access the live applications and interactive analytics directly:
 |---|---|---|
 | 🛡️ **AI Social Media Moderator (Core Project)** | [Open App (Streamlit Cloud)](https://sejal-gupta-ai-moderator.streamlit.app) | [`src/`](src/) |
 | 📊 **Fused Dataset Analytics Dashboard** | [Open Dashboard (Streamlit Cloud)](https://social-media-fused-analytics-mc2522.streamlit.app) | [`dashboards/Fused_Dataset_Dashboard/`](dashboards/Fused_Dataset_Dashboard/) |
-| 🌊 **Spatial Data Dashboard (Microplastics)** | [Open Dashboard (Streamlit Cloud)](https://noaa-marine-spatial-mc2522.streamlit.app) | [`dashboards/Spatial_Data_Dashboard/`](dashboards/Spatial_Data_Dashboard/) |
-| 📈 **Temporal Data Dashboard (Commodities)** | [Open Dashboard (Streamlit Cloud)](https://commodity-temporal-mc2522.streamlit.app) | [`dashboards/Temporal_Data_Dashboard/`](dashboards/Temporal_Data_Dashboard/) |
 | ⚡ **Vercel Web Portal Launcher** | [Open Vercel Portal](https://sejal-gupta-ai-moderator.vercel.app) | [`link/`](link/) |
 
 > 📁 **Direct Links Folder:** For all one-click launch files and Vercel hosting files, visit the **[`link/`](link/)** directory.  
@@ -141,15 +139,6 @@ The `dashboards/` directory contains three complete, independent Streamlit dashb
   - `pages/3_Vision_and_Multimodal_Safety.py`: SafeSearch likelihood distributions and risk matrix.
   - `pages/4_LLM_Gemini_Decisions.py`: Hierarchical decision sunburst chart and category analysis.
   - `pages/5_Dataset_Explorer_and_Statistics.py`: Searchable table, summary statistics, and CSV export.
-
-### 2. 🌊 Spatial Data Dashboard (`dashboards/Spatial_Data_Dashboard/`)
-- **Application**: `NOAA_Marine_Microplastics_Spatial_Analytics`
-- **Focus**: Worldwide microplastic observations (29,075 records), kernel density estimation, hot-spot clustering, and interactive world/country maps.
-
-### 3. 📈 Temporal Data Dashboard (`dashboards/Temporal_Data_Dashboard/`)
-- **Application**: `Historical_Temporal_Dataset_Commodity_Dashboard`
-- **Focus**: 18-commodity historical OHLCV market analysis, time-series volatility, seasonality, ribbon charts, and risk metrics.
-
 ---
 
 ## 📂 Datasets (`datasets/`)

@@ -1,0 +1,57 @@
+HELP.md
+target/
+!api_implementation/.mvn/wrapper/maven-wrapper.jar
+!api_implementation/**/src/main/**/target/
+!api_implementation/**/src/test/**/target/
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### VS Code ###
+.vscode/
+
+# Python virtual environment
+llm_implementation/.venv/
+llm_implementation/venv/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# FAISS vector store
+llm_implementation/vectorstore/
+
+# Environment/secrets
+.env
+*.env
+
+# IDE
+.idea/
+.vscode/
+
+# Java/Gradle
+.gradle/
+build/
+target/

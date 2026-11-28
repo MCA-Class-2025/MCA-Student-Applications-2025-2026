@@ -143,3 +143,6 @@ Show these four things tomorrow:
 ## Important
 
 Internet access is required when running `collect_data.py`, because the five APIs are called live.
+
+<img width="1917" height="872" alt="image" src="https://github.com/user-attachments/assets/a5fd6246-93f1-4f46-a602-a0a618ec4941" />
+

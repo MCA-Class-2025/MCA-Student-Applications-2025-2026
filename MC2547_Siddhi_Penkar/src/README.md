@@ -484,42 +484,42 @@ http://localhost:8501
 
 ## Screenshots
 
-| PDF RAG Interface 
+ PDF RAG Interface 
 <img width="959" height="503" alt="Screenshot 2026-08-05 044504" src="https://github.com/user-attachments/assets/32309c58-6587-40a8-83fc-91d346bf2498" />
 
-| PDF upload and knowledge-base creation |
+ PDF upload and knowledge-base creation 
 <img width="959" height="502" alt="Screenshot 2026-08-05 042941" src="https://github.com/user-attachments/assets/9efd99be-1160-4ea6-9251-77b18ea09546" />
 
-| AI Bug Analysis 
+ AI Bug Analysis 
 <img width="1919" height="1005" alt="Screenshot 2026-08-18 050836" src="https://github.com/user-attachments/assets/ea60ca51-ef04-402a-a136-95cde7978e66" />
 
-| Generated root cause and recommended fix |
+ Generated root cause and recommended fix 
 <img width="959" height="505" alt="Screenshot 2026-08-05 043054" src="https://github.com/user-attachments/assets/e88f858f-b211-4396-83c8-168d32eea16c" />
 
-| Retrieved Source Document |
+ Retrieved Source Document 
 <img width="1919" height="996" alt="Screenshot 2026-08-18 050852" src="https://github.com/user-attachments/assets/7accb28f-ce7f-4300-a55c-dc3080e2be24" />
 
 <img width="951" height="502" alt="Screenshot 2026-08-05 034708" src="https://github.com/user-attachments/assets/b7a899b7-7e70-4890-8a72-ba4c68631ec0" />
 
-| Bug Data Explorer 
+ Bug Data Explorer 
 <img width="1442" height="996" alt="Screenshot 2026-08-18 050220" src="https://github.com/user-attachments/assets/fdebcef9-ef74-4dab-af2b-4718ccd38775" />
 
-| Dataset overview and filtering |
+ Dataset overview and filtering 
 <img width="1919" height="995" alt="Screenshot 2026-08-18 051027" src="https://github.com/user-attachments/assets/8f6e7507-7908-4df0-8d87-85a8c49585a1" />
 
-| Bug Details 
+ Bug Details 
 <img width="1919" height="1001" alt="Screenshot 2026-08-18 051051" src="https://github.com/user-attachments/assets/2c887183-24f5-4a39-a1fb-7ba6ff6ca056" />
 
-| Bug Management 
+ Bug Management 
 <img width="1476" height="996" alt="Screenshot 2026-08-18 054728" src="https://github.com/user-attachments/assets/c5ad5dc6-5015-4d66-a66d-2bb2a73662ac" />
 
-| GitHub, Jira and Slack payload previews |
+ GitHub, Jira and Slack payload previews 
 <img width="1504" height="1005" alt="Screenshot 2026-08-18 054801" src="https://github.com/user-attachments/assets/66389b59-d196-47f4-80e6-5f5799d859fd" />
 <img width="1484" height="1004" alt="Screenshot 2026-08-18 054826" src="https://github.com/user-attachments/assets/9fb9bb20-c7bc-443f-b984-6dc63a8ddc8d" />
 <img width="1494" height="997" alt="Screenshot 2026-08-18 054848" src="https://github.com/user-attachments/assets/2578f9c6-a9f8-41f1-982c-d88e83ae21b3" />
 
 
-| AI Triage and urgency recommendation
+ AI Triage and urgency recommendation
 <img width="1473" height="877" alt="Screenshot 2026-08-18 053319" src="https://github.com/user-attachments/assets/417fa903-c5ca-4e9c-9165-a30e2bbdd125" />
 
 ## Limitations

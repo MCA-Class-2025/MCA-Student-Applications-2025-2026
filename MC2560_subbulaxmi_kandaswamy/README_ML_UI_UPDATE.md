@@ -6,7 +6,7 @@ An intelligent AI-powered interior design application that generates personalize
 
 ## 🚀 Live Application
 
-[Click here to explore AI Interior Designer](http://localhost:8502/)
+[Click here to explore AI Interior Designer](https://ai-interior-designer-e57bgvq58z6davbldtzrzp.streamlit.app/)
 
 ## ✨ Features
 

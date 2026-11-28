@@ -105,9 +105,7 @@ The project source includes modules for:
 
 The project report also discusses OMDb and Gemini as additional APIs or possible integrations. Include them as active integrations only if they are implemented in the submitted source code.
 
-## 📁 Recommended Submission Folder Structure
-
-The college repository asks each student to create one folder named `RollNumber_FullName`. Use this folder name:
+## 📁  Folder Structure
 
 `MC2545_Samruddhi_Sanjaykumar_Patil`
 

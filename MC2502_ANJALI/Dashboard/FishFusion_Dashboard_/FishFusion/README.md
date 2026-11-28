@@ -16,8 +16,6 @@ What this dashboard is for: understanding what information is available in the F
 
 <img width="704" height="503" alt="image" src="https://github.com/user-attachments/assets/bdddcaf0-8512-4b13-be66-3d31a680fbeb" />
 
-<img width="726" height="470" alt="image" src="https://github.com/user-attachments/assets/c4230680-6fa0-4e14-87ca-1d54aeffe88a" />
-
 <img width="721" height="464" alt="image" src="https://github.com/user-attachments/assets/4b29fd4e-b815-438e-bca3-02bd97f39d18" />
 
 <img width="742" height="329" alt="image" src="https://github.com/user-attachments/assets/08db4813-d22b-492f-a5f6-5e9439ca7dd9" />

@@ -1,0 +1,492 @@
+{
+  "kb_docs": [
+    {
+      "file": "code_of_conduct_policy.md",
+      "lines": 56,
+      "words": 528,
+      "characters": 3689,
+      "sections": 14,
+      "numeric_values": 20,
+      "title": "Code of Conduct Policy"
+    },
+    {
+      "file": "expense_and_travel_policy.md",
+      "lines": 65,
+      "words": 458,
+      "characters": 3226,
+      "sections": 11,
+      "numeric_values": 33,
+      "title": "Expense Reimbursement and Business Travel Policy"
+    },
+    {
+      "file": "it_security_policy.md",
+      "lines": 61,
+      "words": 504,
+      "characters": 3554,
+      "sections": 11,
+      "numeric_values": 17,
+      "title": "IT Security and Acceptable Use Policy"
+    },
+    {
+      "file": "leave_and_attendance_policy.md",
+      "lines": 61,
+      "words": 578,
+      "characters": 3517,
+      "sections": 19,
+      "numeric_values": 49,
+      "title": "Leave and Attendance Policy"
+    },
+    {
+      "file": "remote_work_policy.md",
+      "lines": 51,
+      "words": 475,
+      "characters": 3197,
+      "sections": 10,
+      "numeric_values": 24,
+      "title": "Remote Work and Hybrid Policy"
+    }
+  ],
+  "kb_total_words": 3069,
+  "kb_files": 6,
+  "kb_size_kb": 20.0,
+  "faq_rows": 20,
+  "faq_cols": 3,
+  "faq_categories": {
+    "Leave": 5,
+    "Finance": 4,
+    "IT Security": 4,
+    "Remote Work": 3,
+    "Code of Conduct": 3,
+    "Attendance": 1
+  },
+  "faq_missing": 0,
+  "faq_dup_questions": 0,
+  "faq_answer_words": {
+    "count": 20.0,
+    "mean": 18.4,
+    "std": 5.3,
+    "min": 10.0,
+    "25%": 14.8,
+    "50%": 17.5,
+    "75%": 22.0,
+    "max": 32.0
+  },
+  "faq_sample": [
+    {
+      "question": "How many casual leaves am I entitled to per year?",
+      "answer": "You are entitled to 12 days of casual leave per calendar year credited at 1 day per month.",
+      "category": "Leave"
+    },
+    {
+      "question": "Can I carry forward my casual leave to next year?",
+      "answer": "No casual leave and sick leave cannot be carried forward and lapse on December 31 each year.",
+      "category": "Leave"
+    },
+    {
+      "question": "What is the maternity leave duration?",
+      "answer": "Female employees are entitled to 26 weeks of paid maternity leave for the first two children and 12 weeks from the third child onward.",
+      "category": "Leave"
+    },
+    {
+      "question": "How many days of paternity leave do I get?",
+      "answer": "Male employees are entitled to 15 calendar days of paid paternity leave to be availed within 6 months of the child's birth.",
+      "category": "Leave"
+    }
+  ],
+  "chunks_total": 48,
+  "chunks_by_source": {
+    "hr_faqs.csv": 20,
+    "code_of_conduct_policy.md": 6,
+    "it_security_policy.md": 6,
+    "leave_and_attendance_policy.md": 6,
+    "expense_and_travel_policy.md": 5,
+    "remote_work_policy.md": 5
+  },
+  "chunk_chars": {
+    "count": 48.0,
+    "mean": 487.3,
+    "std": 311.4,
+    "min": 111.0,
+    "25%": 169.0,
+    "50%": 501.5,
+    "75%": 793.0,
+    "max": 951.0
+  },
+  "embedding_dim": 1024,
+  "interactions": 7,
+  "interaction_coverage": {
+    "PARTIAL": 3,
+    "FULL": 3
+  },
+  "collection_year": 2026,
+  "fx_total_rates": 166,
+  "fx_last_update": "Mon, 24 Aug 2026 00:02:31 +0000",
+  "holiday_counts": {
+    "IN": 0,
+    "US": 17,
+    "GB": 14,
+    "CA": 31,
+    "AU": 27,
+    "SG": 11,
+    "AE": 0,
+    "DE": 19,
+    "FR": 11,
+    "JP": 16
+  },
+  "holiday_type_values": {
+    "Public": 132,
+    "Public; Bank": 10,
+    "Observance": 1,
+    "Optional": 1,
+    "School; Authorities": 1,
+    "Bank": 1
+  },
+  "news_log_reconstructed": true,
+  "api_calls": {
+    "countries.dev": {
+      "requests": 10,
+      "with_data": 10,
+      "records": 10
+    },
+    "ExchangeRate-API": {
+      "requests": 1,
+      "with_data": 1,
+      "records": 166
+    },
+    "Open-Meteo (geocoding)": {
+      "requests": 50,
+      "with_data": 50,
+      "records": 423
+    },
+    "Open-Meteo (forecast)": {
+      "requests": 50,
+      "with_data": 50,
+      "records": 50
+    },
+    "Nager.Date": {
+      "requests": 10,
+      "with_data": 8,
+      "records": 146
+    },
+    "NewsData.io": {
+      "requests": 100,
+      "with_data": 52,
+      "records": 405
+    }
+  },
+  "api_status_counts": {
+    "countries.dev": {
+      "Success": 10
+    },
+    "ExchangeRate-API": {
+      "Success": 1
+    },
+    "Open-Meteo (geocoding)": {
+      "Success": 50
+    },
+    "Open-Meteo (forecast)": {
+      "Success": 50
+    },
+    "Nager.Date": {
+      "Success": 8,
+      "No data (HTTP 204)": 2
+    },
+    "NewsData.io": {
+      "Success": 52,
+      "No successful response": 46,
+      "Success, 0 articles": 2
+    }
+  },
+  "news_by_country": {
+    "AE": 0,
+    "AU": 63,
+    "CA": 62,
+    "DE": 0,
+    "FR": 0,
+    "GB": 86,
+    "IN": 87,
+    "JP": 0,
+    "SG": 14,
+    "US": 93
+  },
+  "news_success_by_country": {
+    "AU": 10,
+    "CA": 9,
+    "GB": 10,
+    "IN": 10,
+    "SG": 3,
+    "US": 10
+  },
+  "news_first_failure_index": 55,
+  "news_articles": 405,
+  "news_empty_success": [
+    {
+      "country_code": "CA",
+      "policy_topic": "workplace regulation"
+    },
+    {
+      "country_code": "SG",
+      "policy_topic": "workplace attendance"
+    }
+  ],
+  "ex_country": {
+    "country_code": "IN",
+    "country_name": "India",
+    "alpha3_code": "IND",
+    "capital": "New Delhi",
+    "region": "Asia",
+    "subregion": "Southern Asia",
+    "timezone": "UTC+05:30",
+    "population": 1380004385,
+    "area_km2": 3287590,
+    "currency_code": "INR",
+    "currency_name": "Indian rupee",
+    "currency_symbol": "\u20b9",
+    "languages": "Hindi; English"
+  },
+  "ex_fx_inr": 95.793651,
+  "ex_geo": {
+    "country_code": "IN",
+    "city": "Pune",
+    "candidates_returned": 10,
+    "resolved_name": "Pune",
+    "resolved_country_code": "IN",
+    "resolved_admin1": "Maharashtra",
+    "latitude": 18.51957,
+    "longitude": 73.85535,
+    "population": 3124458
+  },
+  "ex_wx": {
+    "country_code": "IN",
+    "city": "Pune",
+    "observed_at_local": "2026-08-24T12:15",
+    "timezone": "Asia/Kolkata",
+    "temperature_c": 28.3,
+    "precipitation_mm": 0.0,
+    "wind_speed_kmh": 14.8,
+    "weather_code": 2
+  },
+  "ex_holiday": [
+    {
+      "country_code": "US",
+      "date": "2026-01-01",
+      "name": "New Year's Day",
+      "national_holiday": true,
+      "holiday_types": "Public; Bank",
+      "subdivisions": null
+    },
+    {
+      "country_code": "US",
+      "date": "2026-01-19",
+      "name": "Martin Luther King, Jr. Day",
+      "national_holiday": true,
+      "holiday_types": "Public; Bank",
+      "subdivisions": null
+    }
+  ],
+  "ex_news": [
+    {
+      "country_code": "IN",
+      "policy_topic": "remote work",
+      "article_id": "ee4f5377ca0cd2547f075d7e93243edc",
+      "title": "Plan To Connect Over 100 Major Pilgrim Centres Across Andhra Pradesh",
+      "source_id": "andhrabhoomi",
+      "link": "https://www.deccanchronicle.com/southern-states/andhra-pradesh/plan-to-connect-over-100-major-pilgrim-centres-across-andhra-pradesh-1981640",
+      "pubDate": "2026-08-23 18:17:28",
+      "article_countries": "india",
+      "category": "business; top",
+      "language": "english",
+      "has_description": true
+    }
+  ],
+  "ex_news_relevant": [
+    {
+      "country_code": "IN",
+      "policy_topic": "remote work",
+      "article_id": "429f10244071a4071b1c938215072bd5",
+      "title": "NDR 2026: Businesses welcome government move to cover childcare leave costs, but manpower concerns remain",
+      "source_id": "channelnewsasia",
+      "link": "https://www.channelnewsasia.com/singapore/national-day-rally-2026-businesses-childcare-leave-6336011",
+      "pubDate": "2026-08-23 16:46:05",
+      "article_countries": "nepal; bangladesh; maldives; mongolia; turkey; north korea; singapore; kuwait; bhutan; thailand; hong kong; malaysia; pakistan; philippines; china; myanmar; india; sri lanka; japan; vietnam; afghanistan; south korea; cambodia; indonesia; taiwan",
+      "category": "business",
+      "language": "english",
+      "has_description": true
+    }
+  ],
+  "before_sheets": {
+    "KB_Policy_Documents": 6,
+    "KB_HR_FAQs": 20,
+    "API1_Countries": 10,
+    "API2_Exchange_Rates": 166,
+    "API3a_City_Geocode": 50,
+    "API3b_City_Weather": 50,
+    "API4_Holidays": 146,
+    "API5_News_Articles": 405,
+    "NewsData_Request_Log": 100,
+    "API_Request_Log": 221
+  },
+  "master_rows": 2025,
+  "master_cols": 36,
+  "master_sheets": {
+    "Master_Dataset": [
+      2025,
+      36
+    ],
+    "Holiday_Calendar": [
+      146,
+      8
+    ],
+    "Data_Dictionary": [
+      36,
+      3
+    ],
+    "API_Run_Log": [
+      1,
+      8
+    ],
+    "Dataset_Summary": [
+      7,
+      2
+    ]
+  },
+  "master_by_country": {
+    "IN": 435,
+    "US": 465,
+    "GB": 430,
+    "CA": 310,
+    "AU": 315,
+    "SG": 70,
+    "AE": 0,
+    "DE": 0,
+    "FR": 0,
+    "JP": 0
+  },
+  "expected_rows": 2025,
+  "record_id_unique": true,
+  "chk_country_attr_mismatch": 0,
+  "chk_fx_mismatch": 0,
+  "chk_weather_mismatch": 0,
+  "chk_weather_joined": 2025,
+  "geo_country_mismatch": [],
+  "geo_name_differs": [
+    {
+      "country_code": "AE",
+      "city": "Sharjah",
+      "resolved_name": "Sharjah city"
+    },
+    {
+      "country_code": "DE",
+      "city": "Frankfurt",
+      "resolved_name": "Frankfurt am Main"
+    }
+  ],
+  "chk_holiday_first_ok": true,
+  "countries_without_rows": [
+    "AE",
+    "DE",
+    "FR",
+    "JP"
+  ],
+  "master_missing": {
+    "holiday_date": 435,
+    "holiday_name": 435,
+    "holiday_type": 2025
+  },
+  "quality_flag": {
+    "COMPLETE": 2025
+  },
+  "status_patterns": {
+    "country=LIVE;currency=LIVE;holiday=LIVE;weather=LIVE+LIVE;news=LIVE": 1590,
+    "country=LIVE;currency=LIVE;holiday=HTTP_204;weather=LIVE+LIVE;news=LIVE": 435
+  },
+  "article_rows": 405,
+  "dup_article_across_topics": 37,
+  "unique_articles_global": 349,
+  "dup_full_rows": 0,
+  "dup_title_diff_url": 48,
+  "country_name_long": [
+    "United Kingdom of Great Britain and Northern Ireland"
+  ],
+  "news_country_other": 0,
+  "topic_relevance_overall": 11.1,
+  "topic_relevance": {
+    "expense policy": 4.0,
+    "working hours": 4.0,
+    "remote work": 5.0,
+    "employee rights": 8.0,
+    "employee leave": 9.0,
+    "business travel": 14.0,
+    "workplace regulation": 14.0,
+    "maternity leave": 20.0,
+    "workplace attendance": 21.0,
+    "employee benefits": 22.0
+  },
+  "pub_unparsed": 0,
+  "pub_range": [
+    "2026-08-22 06:58:47",
+    "2026-08-23 18:55:22"
+  ],
+  "pub_age_days": {
+    "count": 405.0,
+    "mean": 0.2,
+    "std": 0.4,
+    "min": 0.0,
+    "25%": 0.0,
+    "50%": 0.0,
+    "75%": 0.0,
+    "max": 1.0
+  },
+  "weather_stats": {
+    "temperature_c": {
+      "n": 50,
+      "min": 10.1,
+      "median": 19.85,
+      "max": 44.1,
+      "outliers": []
+    },
+    "precipitation_mm": {
+      "n": 50,
+      "min": 0.0,
+      "median": 0.0,
+      "max": 0.2,
+      "outliers": [
+        {
+          "city": "Delhi",
+          "precipitation_mm": 0.1
+        },
+        {
+          "city": "Bengaluru",
+          "precipitation_mm": 0.2
+        }
+      ]
+    },
+    "wind_speed_kmh": {
+      "n": 50,
+      "min": 1.9,
+      "median": 8.55,
+      "max": 19.8,
+      "outliers": []
+    }
+  },
+  "severe_weather_cities": 0,
+  "weather_conditions": {
+    "Clear sky": 11,
+    "Partly cloudy": 7,
+    "Mainly clear": 7,
+    "Overcast": 3,
+    "Light drizzle": 1,
+    "Moderate drizzle": 1
+  },
+  "fx_rates_10": {
+    "INR": 95.793651,
+    "USD": 1.0,
+    "GBP": 0.732945,
+    "CAD": 1.378517,
+    "AUD": 1.395188,
+    "SGD": 1.26954,
+    "AED": 3.6725,
+    "EUR": 0.85618,
+    "JPY": 158.906325
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "source": "data/api_fusion/final/femcare_final_cleaned.csv",
+  "rows": 17976,
+  "columns": 56,
+  "classification_target": "high_pain = 1 if pain_level >= 7 else 0",
+  "regression_target": "pain_level (observed range 1\u201310; permitted scale 0\u201310)",
+  "train_rows": 14400,
+  "test_rows": 3576,
+  "train_users": 1600,
+  "test_users": 400,
+  "train_high_pain_rate": 0.23938,
+  "test_high_pain_rate": 0.23462,
+  "split": "80/20 GroupShuffleSplit by user_id; random_state=42",
+  "all_feature_columns": [
+    "age",
+    "bmi",
+    "sleep_hours",
+    "caffeine_intake",
+    "water_intake_liters",
+    "birth_control_use",
+    "pcos_diagnosed",
+    "stress_score_baseline",
+    "census_median_household_income",
+    "cdc_obesity_prevalence",
+    "cdc_physical_inactivity_prevalence",
+    "cdc_smoking_prevalence",
+    "cdc_depression_prevalence",
+    "temperature_mean",
+    "humidity_mean",
+    "precipitation",
+    "wind_speed_mean",
+    "diet_quality",
+    "exercise_frequency",
+    "alcohol_consumption",
+    "smoking_status"
+  ],
+  "single_and_polynomial_feature": "stress_score_baseline",
+  "polynomial_degree": 2,
+  "excluded_examples": {
+    "identifiers": [
+      "user_id",
+      "cycle_number",
+      "state",
+      "state_fips",
+      "state_abbr"
+    ],
+    "target_or_same_cycle_outcomes": [
+      "pain_level",
+      "flow_level",
+      "pms_symptoms",
+      "mood_score",
+      "stress_score_cycle",
+      "sleep_hours_cycle",
+      "energy_level",
+      "concentration_score",
+      "work_hours_lost",
+      "overall_health_score"
+    ],
+    "redundant_or_not_selected": [
+      "census_total_population",
+      "census_female_population",
+      "cdc_total_population",
+      "latitude",
+      "longitude"
+    ]
+  },
+  "interpretation": "Retrospective academic comparison only. State-level Census and CDC values repeat across people and cannot establish individual or causal effects. Weather represents a state-capital location and historical date, not a personal measurement or a forecast. The data and models are not clinically validated."
+}

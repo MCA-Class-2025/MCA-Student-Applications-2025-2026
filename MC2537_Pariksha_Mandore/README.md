@@ -150,39 +150,8 @@ The RAG implementation is designed to support both general technical interview q
 
 ## 10. Project Structure
 
-```text
-InterviewAce-AI/
-├── app.py
-├── config.py
-├── requirements.txt
-├── README.md
-├── data/
-│   ├── api_data/
-│   ├── cleaned/
-│   ├── comparison/
-│   ├── eda/
-│   ├── fusion/
-│   ├── insights/
-│   ├── ml_ready/
-│   ├── ml_results/
-│   ├── quality/
-│   └── InterviewAce_Data_Fusion.xlsx
-├── data_processing/
-│   ├── api_data_loader.py
-│   ├── before_after_fusion.py
-│   ├── build_api_vectorstore.py
-│   ├── build_horizontal_fusion.py
-│   ├── clean_api_data.py
-│   ├── data_quality_analysis.py
-│   ├── eda_fused_data.py
-│   ├── fusion.py
-│   ├── generate_insights.py
-│   ├── ml_experiment.py
-│   ├── ml_visualizations.py
-│   └── validate_fusion.py
-├── utils/
-└── vector_db_api/
-```
+<img width="315" height="853" alt="Screenshot 2026-11-28 202629" src="https://github.com/user-attachments/assets/d0cfe2e0-8833-430f-9bfd-291b56bfe504" />
+
 
 ## 11. Environment Setup
 
@@ -212,6 +181,17 @@ streamlit run app.py
 ```
 
 Open the local URL displayed in the terminal.
+
+<img width="1920" height="1080" alt="Home_Page" src="https://github.com/user-attachments/assets/90931677-b213-4ec4-84b0-2a2cfbd3c330" />
+
+# Dashboard
+
+<img width="1920" height="1080" alt="Part1" src="https://github.com/user-attachments/assets/31c99609-ea6c-47eb-94a8-f6f2c5bc805b" />
+
+<img width="1920" height="1080" alt="Part2" src="https://github.com/user-attachments/assets/553e8c19-35b8-41b6-9aa7-7c0296648128" />
+
+<img width="1920" height="1080" alt="Part3" src="https://github.com/user-attachments/assets/fa1a393d-ca27-4edb-aab3-41e736e653ed" />
+
 
 ## 13. Reproducing the ML Experiments
 

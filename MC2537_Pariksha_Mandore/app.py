@@ -2,7 +2,7 @@ import streamlit as st
 import tempfile
 import os
 
-from utils.rag_pipeline import process_document, ask_question
+from llm.rag_pipeline import process_document, ask_question
 
 # -------------------------------------------------
 # PAGE CONFIG

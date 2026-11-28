@@ -1,7 +1,7 @@
 from fastapi import FastAPI
 from pydantic import BaseModel
 
-from utils.rag_pipeline import ask_question
+from llm.rag_pipeline import ask_question
 
 
 app = FastAPI(

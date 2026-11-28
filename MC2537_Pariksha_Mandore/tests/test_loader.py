@@ -1,4 +1,4 @@
-from utils.loader import load_document
+from llm.loader import load_document
 
 text = load_document("data/Python/python_interview.pdf")
 

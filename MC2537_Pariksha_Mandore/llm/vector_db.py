@@ -2,7 +2,7 @@ import os
 
 from langchain_community.vectorstores import FAISS
 
-from utils.embeddings import load_embedding_model
+from .embeddings import load_embedding_model
 from config import VECTOR_DB_PATH
 
 

@@ -6,10 +6,10 @@ from langchain_ollama import OllamaLLM
 from langchain_core.prompts import PromptTemplate
 from langchain_community.vectorstores import FAISS
 
-from utils.loader import load_document
-from utils.splitter import split_text
-from utils.vector_db import create_vector_store, load_vector_store
-from utils.embeddings import load_embedding_model
+from .loader import load_document
+from .splitter import split_text
+from .vector_db import create_vector_store, load_vector_store
+from .embeddings import load_embedding_model
 from config import LLM_MODEL
 
 
@@ -18,8 +18,7 @@ from config import LLM_MODEL
 # --------------------------------------------------
 
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
-API_VECTOR_DB_PATH = PROJECT_ROOT / "vector_db_api"
-
+API_VECTOR_DB_PATH = PROJECT_ROOT / "llm" / "vector_db_api"
 
 # --------------------------------------------------
 # Interview dataset

@@ -2,7 +2,7 @@ from fastapi import FastAPI, UploadFile, File
 import tempfile
 import os
 
-from utils.rag_pipeline import process_document
+from llm.rag_pipeline import process_document
 
 app = FastAPI(
     title="InterviewAce AI Document Processing API",
